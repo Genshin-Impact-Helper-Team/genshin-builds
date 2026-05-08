@@ -1,0 +1,65 @@
+{
+  "artifact_sets": [
+    {
+      "rank": 1,
+      "items": [
+        {
+          "name": "Shimenawa's Reminiscence",
+          "pieces": 4
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "items": [
+        {
+          "name": "Wanderer's Troupe",
+          "pieces": 4
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "items": [
+        {
+          "name": "Crimson Witch of Flames",
+          "pieces": 4
+        },
+        {
+          "name": "Gilded Dreams",
+          "pieces": 4
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "items": [
+        {
+          "name": "Crimson Witch of Flames",
+          "pieces": 2
+        },
+        {
+          "name": "+80 EM set",
+          "pieces": 2
+        },
+        {
+          "name": "+18% ATK set",
+          "pieces": 2
+        }
+      ],
+      "note": "choose any two-piece combination"
+    }
+  ],
+
+  "main_stats": {
+    "sands": ["ATK%", "Elemental Mastery"],
+    "goblet": "Pyro DMG",
+    "circlet": "Crit DMG"
+  },
+
+  "substats_priority": [
+    "Crit DMG",
+    "ATK%",
+    "Elemental Mastery"
+  ]
+}

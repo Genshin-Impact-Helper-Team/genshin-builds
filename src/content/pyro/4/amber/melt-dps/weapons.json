@@ -1,0 +1,129 @@
+{
+  "weapons": [
+    {
+      "rank": 1,
+      "items": [
+        {
+          "name": "The First Great Magic",
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "items": [
+        {
+          "name": "Aqua Simulacra",
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "items": [
+        {
+          "name": "Thundering Pulse",
+          "rarity": 5
+        },
+        {
+          "name": "Skyward Harp",
+          "rarity": 5
+        },
+        {
+          "name": "Polar Star",
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "items": [
+        {
+          "name": "Slingshot",
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "items": [
+        {
+          "name": "Amos' Bow",
+          "rarity": 5,
+          "note": "conditional"
+        },
+        {
+          "name": "Hunter's Path",
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "items": [
+        {
+          "name": "Ibis Piercer",
+          "rarity": 4,
+          "refinement": 5
+        },
+        {
+          "name": "Viridescent Hunt",
+          "rarity": 4
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "items": [
+        {
+          "name": "Hamayumi",
+          "rarity": 4
+        },
+        {
+          "name": "Prototype Crescent",
+          "rarity": 4
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "items": [
+        {
+          "name": "Song of Stillness",
+          "rarity": 4
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "items": [
+        {
+          "name": "Windblume Ode",
+          "rarity": 4
+        },
+        {
+          "name": "The Stringless",
+          "rarity": 4
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "items": [
+        {
+          "name": "Sharpshooter's Oath",
+          "rarity": 3,
+          "note": "conditional"
+        },
+        {
+          "name": "King's Squire",
+          "rarity": 4
+        },
+        {
+          "name": "Scion of the Blazing Sun",
+          "rarity": 4
+        }
+      ]
+    }
+  ]
+}

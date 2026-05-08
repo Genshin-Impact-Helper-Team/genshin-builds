@@ -1,0 +1,108 @@
+---
+import fs from "fs";
+import path from "path";
+import { marked } from "marked";
+
+export function getStaticPaths() {
+  return [
+    {
+      params: {
+        element: "pyro",
+        rarity: "4",
+        character: "amber",
+        build: "melt-dps",
+      },
+    },
+  ];
+}
+
+const { element, rarity, character, build } = Astro.params;
+
+const basePath = `src/content/${element}/${rarity}/${character}/${build}`;
+
+// --------------------
+// Load JSON
+// --------------------
+const weapons = JSON.parse(
+  fs.readFileSync(path.resolve(`${basePath}/weapons.json`), "utf-8")
+);
+
+const artifacts = JSON.parse(
+  fs.readFileSync(path.resolve(`${basePath}/artifacts.json`), "utf-8")
+);
+
+// --------------------
+// Load Markdown
+// --------------------
+const notesRaw = fs.readFileSync(
+  path.resolve(`${basePath}/notes.md`),
+  "utf-8"
+);
+
+const notesHtml = marked(notesRaw);
+---
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>{character} - {build}</h1>
+
+    <!-- ===================== -->
+    <!-- Notes -->
+    <!-- ===================== -->
+    <section>
+      <h2>Guide</h2>
+      <div set:html={notesHtml} />
+    </section>
+
+    <!-- ===================== -->
+    <!-- Weapons -->
+    <!-- ===================== -->
+<section>
+  <h2>Weapons</h2>
+
+  {weapons.weapons.map((tier) => (
+    <div>
+      <ul style="list-style: none; padding-left: 1rem;">
+        {tier.items.map((w, index) => (
+          <li>
+            {/* first item gets number, others get ≈ */}
+            {index === 0 ? `${tier.rank}. ` : "≈ "}
+
+            {w.name} ({w.rarity}✩)
+            {w.refinement ? ` [R${w.refinement}]` : ""}
+            {w.note ? `*` : ""}
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</section>
+
+    <!-- ===================== -->
+    <!-- Artifacts -->
+    <!-- ===================== -->
+    <section>
+      <h2>Artifacts</h2>
+
+      {artifacts.artifact_sets.map((set) => (
+        <div>
+          <h3>Rank {set.rank}</h3>
+
+          <ul>
+            {set.items.map((item) => (
+              <li>
+                {item.name}
+                {item.pieces && ` (${item.pieces})`}
+              </li>
+            ))}
+          </ul>
+
+          {set.note && <p>{set.note}</p>}
+        </div>
+      ))}
+    </section>
+  </body>
+</html>
