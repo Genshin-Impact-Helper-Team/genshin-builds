@@ -1,0 +1,92 @@
+---
+import { getLocale, t } from '../utils/i18n';
+import type { LanguageCode } from '../utils/languages';
+import { languageCodes } from '../utils/languages';
+import { localizedPath } from '../utils/paths';
+
+type NotFoundCopy = {
+  title: string;
+  heading: string;
+  message: string;
+  home: string;
+};
+
+const { lang = 'en', detectLanguage = false } = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;
+const copyByLanguage = Object.fromEntries(
+  languageCodes.map((language) => {
+    const languageLocale = getLocale(language);
+
+    return [
+      language,
+      {
+        title: t(languageLocale, 'ui', 'Page Not Found'),
+        heading: t(languageLocale, 'ui', 'Did you get lost?'),
+        message: t(languageLocale, 'ui', 'Not found message'),
+        home: t(languageLocale, 'ui', 'Go back home'),
+      },
+    ];
+  }),
+) as Record<LanguageCode, NotFoundCopy>;
+
+const copy = copyByLanguage[lang as LanguageCode] ?? copyByLanguage.en;
+---
+
+<main
+  class="not-found-page"
+  aria-labelledby="not-found-title"
+  data-not-found-page
+>
+  <img
+    src="https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/229263adf81e413ade809013011ce7c0_920063983817555551.png?x-oss-process=image%2Fformat%2Cwebp"
+    alt=""
+    loading="eager"
+  />
+  <h1 id="not-found-title" data-not-found-heading>{copy.heading}</h1>
+  <p data-not-found-message>{copy.message}</p>
+  <a class="not-found-link" href={localizedPath(lang)} data-not-found-home>
+    {copy.home}
+  </a>
+</main>
+
+<script define:vars={{ baseUrl, copyByLanguage, detectLanguage, languageCodes }}
+>
+  if (detectLanguage) {
+    /**
+     * GitHub Pages serves one root 404.html, so this infers the language from
+     * the missing URL and swaps the visible copy after the page loads.
+     */
+    function getMissingPageLanguage() {
+      const baseParts = baseUrl.split('/').filter(Boolean);
+      const pathParts = window.location.pathname.split('/').filter(Boolean);
+      const localParts = pathParts.slice(baseParts.length);
+      const requestedLanguage = localParts[0];
+
+      return languageCodes.includes(requestedLanguage)
+        ? requestedLanguage
+        : 'en';
+    }
+
+    const lang = getMissingPageLanguage();
+    const copy = copyByLanguage[lang] ?? copyByLanguage.en;
+    const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
+    document.documentElement.lang = lang;
+    document.title = `${copy.title} - Genshin Builds`;
+    document
+      .querySelector('[data-not-found-heading]')
+      ?.replaceChildren(copy.heading);
+    document
+      .querySelector('[data-not-found-message]')
+      ?.replaceChildren(copy.message);
+
+    const homeLink = document.querySelector('[data-not-found-home]');
+    homeLink?.replaceChildren(copy.home);
+    homeLink?.setAttribute('href', `${basePath}${lang}`);
+
+    const languageSelect = document.getElementById('language-select');
+    if (languageSelect) {
+      languageSelect.value = lang;
+    }
+  }
+</script>

@@ -44,5 +44,9 @@
   "Translator": "Traducteur",
   "Credits feedback": "Si vous avez un commentaire, une question ou suggestion, merci d'utiliser",
   "GI Helper Team survey": "ce formulaire",
-  "FAQ": "FAQ"
+  "FAQ": "FAQ",
+  "Page Not Found": "Page introuvable",
+  "Did you get lost?": "Tu t'es perdu.e ?",
+  "Not found message": "Cette page n'existe pas, mais la page d'accueil sait comment revenir au droit chemin.",
+  "Go back home": "Retourner à l'Accueil"
 }

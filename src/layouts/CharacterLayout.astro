@@ -5,6 +5,7 @@ import '../styles/theme.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { t } from '../utils/i18n';
+import { sitePath } from '../utils/paths';
 
 const { character, metadata, lang, locale } = Astro.props;
 ---
@@ -12,6 +13,7 @@ const { character, metadata, lang, locale } = Astro.props;
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
   </head>
 
   <body data-element={Astro.props.element}>

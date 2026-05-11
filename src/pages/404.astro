@@ -1,29 +1,27 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import NotFoundContent from '../components/NotFoundContent.astro';
 import '../styles/base.css';
 import '../styles/home.css';
 import '../styles/theme.css';
+import { getLocale, t } from '../utils/i18n';
 import { sitePath } from '../utils/paths';
 
-const { title, lang = 'en', locale, page } = Astro.props;
+const locale = getLocale('en');
 ---
 
-<html lang={lang}>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title} - Genshin Builds</title>
+    <title>{t(locale, 'ui', 'Page Not Found')} - Genshin Builds</title>
   </head>
   <body data-element="anemo">
-    <!-- Simple pages share the same localized header/footer shell. -->
-    <Header locale={locale} lang={lang} page={page} />
-    <main class="simple-page">
-      <h1>{title}</h1>
-      <slot />
-    </main>
-    <Footer lang={lang} />
+    <Header locale={locale} lang="en" />
+    <NotFoundContent locale={locale} lang="en" detectLanguage />
+    <Footer lang="en" />
   </body>
 </html>
