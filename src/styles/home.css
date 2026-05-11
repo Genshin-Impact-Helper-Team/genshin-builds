@@ -127,14 +127,6 @@
   line-height: 1.2;
 }
 
-.credits-card h2 {
-  margin: 0 0 14px;
-  color: var(--accent);
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-align: left;
-}
-
 .credits-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -147,6 +139,48 @@
 .credits-list li {
   min-width: 0;
   overflow-wrap: anywhere;
+}
+
+.changelog-list {
+  gap: 24px;
+}
+
+.credits-card h2,
+.changelog-version h2 {
+  margin: 0 0 14px;
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.changelog-list,
+.changelog-version-entries {
+  display: grid;
+}
+
+.changelog-version-entries {
+  gap: 12px;
+}
+
+.changelog-card {
+  margin: 0;
+}
+
+.changelog-card time {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.changelog-card p {
+  margin: 10px 0 0;
+  white-space: pre-line;
+}
+
+.changelog-author {
+  color: color-mix(in srgb, var(--text) 72%, transparent);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .faq-list {

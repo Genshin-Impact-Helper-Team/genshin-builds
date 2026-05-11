@@ -6,6 +6,9 @@ const { lang = 'en', locale } = Astro.props;
 const translators = credits.translators[lang] ?? [];
 ---
 
+{
+  /* Feedback copy is localized, while contributor names stay source-authored. */
+}
 <section class="card credits-card">
   <p>
     {t(locale, 'ui', 'Credits feedback')}
@@ -16,6 +19,7 @@ const translators = credits.translators[lang] ?? [];
 </section>
 
 {
+  /* Translator credits are language-specific, so empty locales omit the section. */
   translators.length > 0 && (
     <section class="card credits-card">
       <h2>{t(locale, 'ui', 'Translator')}</h2>

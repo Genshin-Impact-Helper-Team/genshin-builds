@@ -1,4 +1,5 @@
 ---
+import ArtifactSetGroup from './ArtifactSetGroup.astro';
 import { t } from '../utils/i18n';
 const { artifacts, locale } = Astro.props;
 
@@ -26,6 +27,12 @@ type StatItem = {
 
 type SubstatPriority = StatItem | { items: StatItem[] };
 
+/**
+ * Checks whether a substat priority row contains same-rank alternatives.
+ *
+ * @param item Substat priority entry.
+ * @returns True when the entry wraps an `items` array.
+ */
 const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
   'items' in item;
 ---
@@ -44,65 +51,9 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
             <strong>{i + 1}.</strong>{' '}
             {rank.groups[0] && (
               <>
-                {rank.groups[0].choose ? (
-                  <span>
-                    {rank.groups[0].items[0] && (
-                      <>
-                        {rank.groups[0].items[0].name}{' '}
-                        <span class="bold">
-                          ({rank.groups[0].items[0].pieces})
-                        </span>
-                        {rank.groups[0].items[0].noteId ? (
-                          <a
-                            class="note-link"
-                            href={`#${rank.groups[0].items[0].noteId}`}
-                          >
-                            *
-                          </a>
-                        ) : rank.groups[0].items[0].note ? (
-                          '*'
-                        ) : (
-                          ''
-                        )}
-                      </>
-                    )}
-                    {rank.groups[0].items.slice(1).map((item) => (
-                      <div>
-                        {item.name}{' '}
-                        <span class="bold">({item.pieces})</span>
-                        {item.noteId ? (
-                          <a class="note-link" href={`#${item.noteId}`}>
-                            *
-                          </a>
-                        ) : item.note ? (
-                          '*'
-                        ) : (
-                          ''
-                        )}
-                      </div>
-                    ))}
-                    <div class="bold">{t(locale, 'ui', 'Choose Two')}</div>
-                  </span>
-                ) : (
-                  <span>
-                    {rank.groups[0].items.map((item, itemIndex) => (
-                      <>
-                        {itemIndex > 0 && ' / '}
-                        {item.name}{' '}
-                        <span class="bold">({item.pieces})</span>
-                        {item.noteId ? (
-                          <a class="note-link" href={`#${item.noteId}`}>
-                            *
-                          </a>
-                        ) : item.note ? (
-                          '*'
-                        ) : (
-                          ''
-                        )}
-                      </>
-                    ))}
-                  </span>
-                )}
+                <span>
+                  <ArtifactSetGroup group={rank.groups[0]} locale={locale} />
+                </span>
               </>
             )}
           </div>
@@ -110,60 +61,9 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
           {rank.groups.slice(1).map((group) => (
             <div class="alt">
               &asymp;{' '}
-              {group.choose ? (
-                <span>
-                  {group.items[0] && (
-                    <>
-                      {group.items[0].name}{' '}
-                      <span class="bold">({group.items[0].pieces})</span>
-                      {group.items[0].noteId ? (
-                        <a class="note-link" href={`#${group.items[0].noteId}`}>
-                          *
-                        </a>
-                      ) : group.items[0].note ? (
-                        '*'
-                      ) : (
-                        ''
-                      )}
-                    </>
-                  )}
-                  {group.items.slice(1).map((item) => (
-                    <div>
-                      {item.name}{' '}
-                      <span class="bold">({item.pieces})</span>
-                      {item.noteId ? (
-                        <a class="note-link" href={`#${item.noteId}`}>
-                          *
-                        </a>
-                      ) : item.note ? (
-                        '*'
-                      ) : (
-                        ''
-                      )}
-                    </div>
-                  ))}
-                  <div class="bold">{t(locale, 'ui', 'Choose Two')}</div>
-                </span>
-              ) : (
-                <span>
-                  {group.items.map((item, itemIndex) => (
-                    <>
-                      {itemIndex > 0 && ' / '}
-                      {item.name}{' '}
-                      <span class="bold">({item.pieces})</span>
-                      {item.noteId ? (
-                        <a class="note-link" href={`#${item.noteId}`}>
-                          *
-                        </a>
-                      ) : item.note ? (
-                        '*'
-                      ) : (
-                        ''
-                      )}
-                    </>
-                  ))}
-                </span>
-              )}
+              <span>
+                <ArtifactSetGroup group={group} locale={locale} />
+              </span>
             </div>
           ))}
         </div>
@@ -177,45 +77,7 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
 
           {artifacts.sets.conditional.map((group: ArtifactSetGroup) => (
             <div>
-              {group.choose ? (
-                <span>
-                  {group.items.map((item) => (
-                    <div>
-                      {item.name}{' '}
-                      <span class="bold">({item.pieces})</span>
-                      {item.noteId ? (
-                        <a class="note-link" href={`#${item.noteId}`}>
-                          *
-                        </a>
-                      ) : item.note ? (
-                        '*'
-                      ) : (
-                        ''
-                      )}
-                    </div>
-                  ))}
-                  <div class="bold">{t(locale, 'ui', 'Choose Two')}</div>
-                </span>
-              ) : (
-                <span>
-                  {group.items.map((item, itemIndex) => (
-                    <>
-                      {itemIndex > 0 && ' / '}
-                      {item.name}{' '}
-                      <span class="bold">({item.pieces})</span>
-                      {item.noteId ? (
-                        <a class="note-link" href={`#${item.noteId}`}>
-                          *
-                        </a>
-                      ) : item.note ? (
-                        '*'
-                      ) : (
-                        ''
-                      )}
-                    </>
-                  ))}
-                </span>
-              )}
+              <ArtifactSetGroup group={group} locale={locale} />
             </div>
           ))}
         </div>

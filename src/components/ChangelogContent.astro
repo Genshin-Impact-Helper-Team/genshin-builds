@@ -1,0 +1,30 @@
+---
+import changelog from '../content/site/changelog.json';
+
+// Changelog content is intentionally shared across locales and not translated.
+const groups = changelog.groups;
+---
+
+<section class="changelog-list" aria-label="Document changelog">
+  {
+    groups.map((group, index) => (
+      <section
+        class="changelog-version"
+        aria-labelledby={`changelog-version-${index}`}
+      >
+        <h2 id={`changelog-version-${index}`}>{group.version}</h2>
+        <div class="changelog-version-entries">
+          {group.entries.map((entry) => (
+            <article class="card changelog-card">
+              <time>{entry.date}</time>
+              <p>{entry.changes}</p>
+              {entry.appliedBy && (
+                <p class="changelog-author">Applied by {entry.appliedBy}</p>
+              )}
+            </article>
+          ))}
+        </div>
+      </section>
+    ))
+  }
+</section>

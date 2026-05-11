@@ -11,6 +11,7 @@ import { t } from '../../utils/i18n';
 export const prerender = false;
 
 const { lang, character: characterPath } = Astro.params;
+// Server-side loader resolves content JSON into translated, display-ready data.
 const {
   characterName,
   metadata,
@@ -52,6 +53,7 @@ const {
 </CharacterPageLayout>
 
 {
+  /* Forward missing translation warnings to the browser console for authors. */
   warnings.length > 0 ? (
     <script
       is:inline

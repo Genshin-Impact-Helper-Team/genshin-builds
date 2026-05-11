@@ -10,6 +10,12 @@ type WeaponItem = {
   noteId?: string;
 };
 
+/**
+ * Formats a refinement value for display beside a weapon name.
+ *
+ * @param refinement Optional weapon refinement value.
+ * @returns Formatted refinement suffix.
+ */
 const formatRefinement = (refinement?: number | string) =>
   refinement ? ` [R${refinement}]` : '';
 ---
@@ -17,6 +23,9 @@ const formatRefinement = (refinement?: number | string) =>
 <div class="card">
   <h2>{t(locale, 'ui', 'Weapons')}</h2>
 
+  {
+    /* Ranked weapon groups. Extra items in one rank render as approximate ties. */
+  }
   {
     weapons.weapons.map((position: { items: WeaponItem[] }, i: number) => (
       <div style="margin-bottom: 10px;">
@@ -32,8 +41,10 @@ const formatRefinement = (refinement?: number | string) =>
                   <a class="note-link" href={`#${position.items[0].noteId}`}>
                     *
                   </a>
+                ) : position.items[0].note ? (
+                  '*'
                 ) : (
-                  position.items[0].note ? '*' : ''
+                  ''
                 )}
               </span>
             </span>
@@ -50,8 +61,10 @@ const formatRefinement = (refinement?: number | string) =>
                 <a class="note-link" href={`#${weapon.noteId}`}>
                   *
                 </a>
+              ) : weapon.note ? (
+                '*'
               ) : (
-                weapon.note ? '*' : ''
+                ''
               )}
             </span>
           </div>
@@ -60,6 +73,7 @@ const formatRefinement = (refinement?: number | string) =>
     ))
   }
 
+  {/* Optional unranked recommendations that depend on build notes. */}
   {
     weapons.conditional?.length > 0 && (
       <div style="margin-top: 14px;">
@@ -75,8 +89,10 @@ const formatRefinement = (refinement?: number | string) =>
                 <a class="note-link" href={`#${weapon.noteId}`}>
                   *
                 </a>
+              ) : weapon.note ? (
+                '*'
               ) : (
-                weapon.note ? '*' : ''
+                ''
               )}
             </span>
           </div>

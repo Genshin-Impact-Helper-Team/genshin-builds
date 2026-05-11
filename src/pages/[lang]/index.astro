@@ -30,6 +30,7 @@ const { characters, lang, locale } = getHomePageData(requestedLang ?? 'en');
       <h1>Genshin Builds</h1>
       <HomeFilters locale={locale} />
 
+      {/* The client-side filter script reads these data attributes. */}
       <div class="character-grid">
         {
           characters.map((character, index) => (

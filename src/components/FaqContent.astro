@@ -4,7 +4,20 @@ import { marked } from 'marked';
 
 const { lang = 'en' } = Astro.props;
 
+/**
+ * Picks the requested localized string with English fallback.
+ *
+ * @param value Localized text object.
+ * @returns Localized text for the current page language.
+ */
 const localized = (value: Record<string, string>) => value[lang] ?? value.en;
+
+/**
+ * Renders FAQ Markdown text as HTML.
+ *
+ * @param value Markdown source text.
+ * @returns Rendered HTML string.
+ */
 const renderText = (value: string) =>
   marked.parse(value, { breaks: true }) as string;
 ---

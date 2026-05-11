@@ -11,7 +11,6 @@ type TalentItem = {
 type TalentPriority = {
   items: TalentItem[];
 };
-
 ---
 
 <div class="card">
@@ -31,8 +30,10 @@ type TalentPriority = {
                   <a class="note-link" href={`#${item.noteId}`}>
                     *
                   </a>
+                ) : item.note ? (
+                  '*'
                 ) : (
-                  item.note ? '*' : ''
+                  ''
                 )}
               </>
             ))}

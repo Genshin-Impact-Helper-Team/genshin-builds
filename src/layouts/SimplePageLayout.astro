@@ -18,6 +18,7 @@ const { title, lang = 'en', locale, page } = Astro.props;
     <title>{title} - Genshin Builds</title>
   </head>
   <body data-element="anemo">
+    <!-- Simple pages share the same localized header/footer shell. -->
     <Header locale={locale} lang={lang} page={page} />
     <main class="simple-page">
       <h1>{title}</h1>

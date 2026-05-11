@@ -1,0 +1,78 @@
+---
+import { t } from '../utils/i18n';
+
+type ArtifactSetItem = {
+  name: string;
+  pieces: number;
+  note?: string;
+  noteId?: string;
+};
+
+type ArtifactSetGroup = {
+  items: ArtifactSetItem[];
+  choose?: boolean;
+};
+
+const { group, locale } = Astro.props as {
+  group: ArtifactSetGroup;
+  locale: any;
+};
+---
+
+{
+  /* Choose-two groups render extra items as `.alt` rows to match approximate ties. */
+}
+{
+  group.choose ? (
+    <>
+      {group.items[0] && (
+        <>
+          {group.items[0].name}{' '}
+          <span class="bold">({group.items[0].pieces})</span>
+          {group.items[0].noteId ? (
+            <a class="note-link" href={`#${group.items[0].noteId}`}>
+              *
+            </a>
+          ) : group.items[0].note ? (
+            '*'
+          ) : (
+            ''
+          )}
+        </>
+      )}
+      {group.items.slice(1).map((item) => (
+        <div class="alt">
+          {item.name} <span class="bold">({item.pieces})</span>
+          {item.noteId ? (
+            <a class="note-link" href={`#${item.noteId}`}>
+              *
+            </a>
+          ) : item.note ? (
+            '*'
+          ) : (
+            ''
+          )}
+        </div>
+      ))}
+      <div class="alt bold">{t(locale, 'ui', 'Choose Two')}</div>
+    </>
+  ) : (
+    <>
+      {group.items.map((item, itemIndex) => (
+        <>
+          {itemIndex > 0 && ' / '}
+          {item.name} <span class="bold">({item.pieces})</span>
+          {item.noteId ? (
+            <a class="note-link" href={`#${item.noteId}`}>
+              *
+            </a>
+          ) : item.note ? (
+            '*'
+          ) : (
+            ''
+          )}
+        </>
+      ))}
+    </>
+  )
+}

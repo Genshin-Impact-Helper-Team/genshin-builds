@@ -1,6 +1,7 @@
 ---
 import '../styles/header.css';
 import { t } from '../utils/i18n';
+import { getSideMenuData } from '../utils/side-menu';
 
 const { locale, lang, character, page } = Astro.props;
 
@@ -14,11 +15,25 @@ const languages = [
 ];
 
 const currentLang = lang || 'en';
+const menuElements = getSideMenuData(locale);
 ---
 
 <header class="site-header">
   <div class="header-content">
-    <div class="logo">
+    <div class="header-brand">
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open character menu"
+        aria-expanded="false"
+        aria-controls="side-menu"
+        data-menu-open
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <a
         href={`/${currentLang}/`}
         class="logo-link"
@@ -47,15 +62,107 @@ const currentLang = lang || 'en';
       </select>
     </nav>
   </div>
+
+  <div class="menu-backdrop" data-menu-close></div>
+  <aside class="side-menu" id="side-menu" aria-label="Character menu">
+    <div class="side-menu-header">
+      <button
+        class="menu-close"
+        type="button"
+        aria-label="Close character menu"
+        data-menu-close
+      >
+        &times;
+      </button>
+    </div>
+
+    <nav class="side-menu-nav">
+      {
+        /* Home uses the same row styling as element groups for a cohesive menu. */
+      }
+      <a class="side-menu-link" href={`/${currentLang}/`}>
+        {t(locale, 'ui', 'Home')}
+      </a>
+      {
+        menuElements.map((element) => (
+          <details class={`element-group ${element.element}`}>
+            <summary>{element.name}</summary>
+            <div class="rarity-groups">
+              {element.rarities.map((rarity) => (
+                <details class="rarity-group">
+                  <summary>{rarity.label}</summary>
+                  <ul>
+                    {rarity.characters.map((character) => (
+                      <li>
+                        <a href={`/${currentLang}/${character.slug}`}>
+                          {character.name}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              ))}
+            </div>
+          </details>
+        ))
+      }
+    </nav>
+  </aside>
 </header>
 
 <script>
+  const header = document.querySelector('.site-header');
+  const openButton = document.querySelector('[data-menu-open]');
+  const closeButtons = document.querySelectorAll('[data-menu-close]');
+
+  /**
+   * Opens or closes the side menu and keeps ARIA state synchronized.
+   *
+   * @param isOpen Whether the side menu should be visible.
+   */
+  function setMenuOpen(isOpen) {
+    header?.classList.toggle('menu-is-open', isOpen);
+    openButton?.setAttribute('aria-expanded', String(isOpen));
+  }
+
+  openButton?.addEventListener('click', () => setMenuOpen(true));
+  closeButtons.forEach((button) => {
+    button.addEventListener('click', () => setMenuOpen(false));
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      setMenuOpen(false);
+    }
+  });
+
+  // Keep native details accordions mutually exclusive at each nesting level.
+  document.querySelectorAll('.side-menu details').forEach((details) => {
+    details.addEventListener('toggle', () => {
+      if (!details.open) {
+        return;
+      }
+
+      const parent = details.parentElement;
+      parent?.querySelectorAll(':scope > details').forEach((sibling) => {
+        if (sibling !== details) {
+          sibling.removeAttribute('open');
+        }
+      });
+    });
+  });
+
   const select = document.getElementById('language-select');
   select?.addEventListener('change', (e) => {
     const lang = e.target.value;
     const char = select.dataset.character;
     const page = select.dataset.page;
-    const path = char ? `/${lang}/${char}` : page ? `/${lang}/${page}` : `/${lang}`;
+    // Preserve the current page type when switching languages.
+    const path = char
+      ? `/${lang}/${char}`
+      : page
+        ? `/${lang}/${page}`
+        : `/${lang}`;
     window.location.href = path;
   });
 </script>

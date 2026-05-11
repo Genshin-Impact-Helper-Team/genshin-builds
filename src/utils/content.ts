@@ -23,17 +23,14 @@ import path from 'path';
  * @param lang Current language code.
  * @returns Localized note string or null if no note exists.
  */
-export function getLocalizedNote(
-    item: any,
-    lang: string,
-): string | null {
-    if (!item?.note) return null;
+export function getLocalizedNote(item: any, lang: string): string | null {
+  if (!item?.note) return null;
 
-    if (typeof item.note === 'string') {
-        return item.note;
-    }
+  if (typeof item.note === 'string') {
+    return item.note;
+  }
 
-    return item.note[lang] ?? item.note.en ?? null;
+  return item.note[lang] ?? item.note.en ?? null;
 }
 
 /**
@@ -52,18 +49,18 @@ export function getLocalizedNote(
  * @returns Parsed JSON object or null if the file does not exist.
  */
 export function loadJSON(buildPath: string, fileName: string) {
-    const buildFile = path.join(buildPath, fileName);
-    const charFile = path.join(path.dirname(buildPath), fileName);
+  const buildFile = path.join(buildPath, fileName);
+  const charFile = path.join(path.dirname(buildPath), fileName);
 
-    if (fs.existsSync(buildFile)) {
-        return JSON.parse(fs.readFileSync(buildFile, 'utf-8'));
-    }
+  if (fs.existsSync(buildFile)) {
+    return JSON.parse(fs.readFileSync(buildFile, 'utf-8'));
+  }
 
-    if (fs.existsSync(charFile)) {
-        return JSON.parse(fs.readFileSync(charFile, 'utf-8'));
-    }
+  if (fs.existsSync(charFile)) {
+    return JSON.parse(fs.readFileSync(charFile, 'utf-8'));
+  }
 
-    return null;
+  return null;
 }
 
 /**
@@ -76,10 +73,10 @@ export function loadJSON(buildPath: string, fileName: string) {
  * @returns Human-readable title string.
  */
 export const toTitleCase = (str: string) =>
-    str
-        .split('-')
-        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-        .join(' ');
+  str
+    .split('-')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
 
 /**
  * Searches the content directory for a character folder.
@@ -96,19 +93,19 @@ export const toTitleCase = (str: string) =>
  * @returns Character path information or null if not found.
  */
 export function findCharacterPath(base: string, char: string) {
-    for (const element of fs.readdirSync(base)) {
-        for (const rarity of fs.readdirSync(path.join(base, element))) {
-            const candidate = path.join(base, element, rarity, char);
+  for (const element of fs.readdirSync(base)) {
+    for (const rarity of fs.readdirSync(path.join(base, element))) {
+      const candidate = path.join(base, element, rarity, char);
 
-            if (fs.existsSync(candidate)) {
-                return {
-                    element,
-                    rarity,
-                    path: candidate,
-                };
-            }
-        }
+      if (fs.existsSync(candidate)) {
+        return {
+          element,
+          rarity,
+          path: candidate,
+        };
+      }
     }
+  }
 
-    return null;
+  return null;
 }

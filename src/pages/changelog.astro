@@ -1,13 +1,17 @@
 ---
 import SimplePageLayout from '../layouts/SimplePageLayout.astro';
+import ChangelogContent from '../components/ChangelogContent.astro';
 import { getLocale } from '../utils/i18n';
 
 const lang = 'en';
 const locale = getLocale(lang);
 ---
 
-<SimplePageLayout title="Changelog" lang={lang} locale={locale} page="changelog">
-  <section class="card">
-    <p>Changelog entries can be listed here.</p>
-  </section>
+<SimplePageLayout
+  title="Changelog"
+  lang={lang}
+  locale={locale}
+  page="changelog"
+>
+  <ChangelogContent />
 </SimplePageLayout>

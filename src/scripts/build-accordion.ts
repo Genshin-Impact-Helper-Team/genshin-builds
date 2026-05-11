@@ -1,5 +1,13 @@
 const cards = document.querySelectorAll<HTMLElement>('.build-card');
 
+/**
+ * Opens exactly one build card by ID.
+ *
+ * Passing null closes every card, keeping the build query parameter and visual
+ * state in sync.
+ *
+ * @param targetId Build slug to open, or null to close all.
+ */
 function openCard(targetId: string | null) {
   cards.forEach((card) => {
     const isTarget = card.dataset.id === targetId;
@@ -19,6 +27,7 @@ cards.forEach((card) => {
 
     const url = new URL(window.location.href);
 
+    // Store the opened build in the URL so direct links restore the same panel.
     if (newState) {
       url.searchParams.set('build', newState);
     } else {
@@ -30,6 +39,7 @@ cards.forEach((card) => {
   });
 });
 
+// Honor links like /en/xiangling?build=off-field-dps on first load.
 const initial = new URLSearchParams(window.location.search).get('build');
 
 if (initial) {

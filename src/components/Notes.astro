@@ -2,6 +2,7 @@
 import { t } from '../utils/i18n';
 const { notes, buildNote, locale } = Astro.props;
 
+// Compute section visibility up front so empty note cards are skipped entirely.
 const hasWeaponsNotes =
   notes.weapons.global.length + notes.weapons.items.length > 0;
 const hasArtifactNotes =
@@ -14,6 +15,7 @@ const hasTalentNotes =
   notes.talents.global.length + notes.talents.items.length > 0;
 const hasNotes = hasWeaponsNotes || hasArtifactNotes || hasTalentNotes;
 
+// Detailed calculation links use slightly different keys than their UI labels.
 const noteItems = [
   {
     key: 'artifact',
@@ -45,6 +47,7 @@ const noteItems = [
 
       {buildNote && (
         <div>
+          {/* Optional external calculation links credited in build-notes.json. */}
           {noteItems.map(
             (item) =>
               buildNote[item.key] && (
@@ -60,6 +63,7 @@ const noteItems = [
 
           {buildNote.notes?.length > 0 && (
             <div>
+              {/* Build-level editorial notes are already localized and rendered. */}
               {buildNote.notes.map((note: string) => (
                 <p set:html={note} />
               ))}
@@ -78,11 +82,11 @@ const noteItems = [
 
           {notes.weapons.items.map(
             (note: { id: string; name: string; note: string }) => (
-            <div
-              id={note.id}
-              class="note-target"
-              set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-            />
+              <div
+                id={note.id}
+                class="note-target"
+                set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
+              />
             ),
           )}
         </div>
@@ -153,11 +157,11 @@ const noteItems = [
 
           {notes.talents.items.map(
             (note: { id: string; name: string; note: string }) => (
-            <div
-              id={note.id}
-              class="note-target"
-              set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-            />
+              <div
+                id={note.id}
+                class="note-target"
+                set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
+              />
             ),
           )}
         </div>

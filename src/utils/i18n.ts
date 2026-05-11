@@ -40,6 +40,7 @@ import ruStats from '../i18n/ru/stats.json';
 import ruElements from '../i18n/ru/elements.json';
 import ruUi from '../i18n/ru/ui.json';
 
+// Keep locale imports explicit so bundlers include every JSON dictionary.
 const locales = {
   en: {
     weapon: enWeapons,
@@ -96,6 +97,15 @@ const locales = {
   },
 };
 
+/**
+ * Returns the locale bundle for a requested language.
+ *
+ * Unknown or missing language codes fall back to English so routes can render
+ * even when the URL contains an unsupported language segment.
+ *
+ * @param lang Requested language code.
+ * @returns Locale dictionary bundle.
+ */
 export function getLocale(lang: string | undefined) {
   const localeKey =
     typeof lang === 'string' && lang in locales
@@ -104,6 +114,19 @@ export function getLocale(lang: string | undefined) {
   return locales[localeKey];
 }
 
+/**
+ * Looks up a translated string by category and ID.
+ *
+ * When a translation is missing, the original ID is returned. Optional warnings
+ * make missing content visible during development without breaking rendering.
+ *
+ * @param locale Locale dictionary bundle.
+ * @param category Translation dictionary name.
+ * @param id Translation key.
+ * @param sourceFile Optional content file path for debugging warnings.
+ * @param warn Whether to log missing translation warnings.
+ * @returns Translated string, or the original ID if missing.
+ */
 export function t(
   locale: any,
   category: string,

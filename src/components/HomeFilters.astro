@@ -3,6 +3,7 @@ import { t } from '../utils/i18n';
 
 const { locale } = Astro.props;
 
+// Filter options mirror metadata values written onto each character card.
 const elements = ['anemo', 'cryo', 'dendro', 'electro', 'geo', 'hydro', 'pyro'];
 const rarities = ['4', '5'];
 const weapons = ['bow', 'catalyst', 'claymore', 'polearm', 'sword'];
@@ -35,7 +36,11 @@ const weapons = ['bow', 'catalyst', 'claymore', 'polearm', 'sword'];
     {t(locale, 'ui', 'Rarity')}
     <select name="rarity">
       <option value="">{t(locale, 'ui', 'All')}</option>
-      {rarities.map((rarity) => <option value={rarity}>{rarity}★</option>)}
+      {
+        rarities.map((rarity) => (
+          <option value={rarity}>{`${rarity}\u2605`}</option>
+        ))
+      }
     </select>
   </label>
 

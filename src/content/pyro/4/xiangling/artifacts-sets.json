@@ -1,0 +1,95 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set can be competitive with **[[artifact:emblem-of-severed-fate]] (4)** on low [[stat:er]] requirement teams where [[character:xiangling]] triggers [[element:overload]] in addition to [[element:vaporize]], such as Raiden National.",
+                                "fr": "Ce set peut rivaliser avec **[[artifact:emblem-of-severed-fate]] (4)** dans les équipes avec de faibles besoins en [[stat:er]] où [[character:xiangling]] déclenche [[element:overload]] en plus de [[element:vaporize]], comme la Raiden National."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "deepwood-memories",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This is a support option in teams with a relevant amount of [[element:dendro]] damage, such as [[character:kinich]] teams.",
+                        "fr": "Ce set est une option de support dans les équipes avec une quantité pertinente de dégâts [[element:dendro]], comme les équipes [[character:kinich]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

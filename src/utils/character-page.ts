@@ -33,9 +33,22 @@ type LocalizedBuildNote = {
   [lang: string]: string;
 };
 
+/**
+ * Resolves the expected path for a build-level JSON file.
+ *
+ * @param buildPath Absolute path to a build directory.
+ * @param fileName JSON file name.
+ * @returns Absolute file path.
+ */
 const fileInBuild = (buildPath: string, fileName: string) =>
   path.join(buildPath, fileName);
 
+/**
+ * Renders Markdown text to HTML.
+ *
+ * @param value Markdown source text.
+ * @returns Rendered HTML string.
+ */
 const renderMarkdown = (value: string) => marked.parse(value) as string;
 
 /**
@@ -246,6 +259,13 @@ function loadBuildData({
   const buildNotesFile = fileInBuild(buildPath, 'build-notes.json');
 
   const weapons = loadJSON(buildPath, 'weapons.json');
+
+  /**
+   * Translates one weapon item while preserving ranking metadata.
+   *
+   * @param item Raw weapon item from content JSON.
+   * @returns Weapon item with a localized display name.
+   */
   const translateWeaponItem = (item: any) => ({
     ...item,
     name: translator.translate('weapon', item.name, weaponsFile),
@@ -263,6 +283,7 @@ function loadBuildData({
     substats: loadJSON(buildPath, 'artifacts-substats.json'),
   };
 
+  // Normalize IDs into display strings before components receive the data.
   artifacts.sets.artifact_sets = artifacts.sets.artifact_sets.map(
     (rank: { groups: any[] }) => ({
       ...rank,
@@ -361,6 +382,7 @@ function loadBuildData({
   const rawBuildName =
     buildNoteData?.name?.[lang] ?? buildNoteData?.name?.en ?? buildName;
 
+  // Build cards only deal with display-ready data and pre-rendered note HTML.
   return {
     name: translator.translateNoteText(rawBuildName, buildNotesFile),
     isBest: buildNoteData?.best === true,
@@ -411,6 +433,7 @@ export function getCharacterPageData({
     throw new Error('Character not found');
   }
 
+  // Each child directory is treated as one playable build/role.
   const buildNames = fs
     .readdirSync(foundPath.path)
     .filter((fileName) =>

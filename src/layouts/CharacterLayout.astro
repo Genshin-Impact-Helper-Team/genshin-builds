@@ -17,7 +17,7 @@ const { character, metadata, lang, locale } = Astro.props;
   <body data-element={Astro.props.element}>
     <Header locale={locale} lang={lang} character={character} />
     <div class="page">
-      <!-- CHARACTER HEADER CARD -->
+      <!-- Character metadata stays in the layout so every build page shares it. -->
       <div class="character-header">
         <img
           class="character-image"

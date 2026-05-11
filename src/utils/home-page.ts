@@ -2,10 +2,20 @@ import fs from 'fs';
 import path from 'path';
 import { getLocale, t } from './i18n';
 
+/**
+ * Builds the localized character list used by the home page.
+ *
+ * The content directory is the source of truth: element, rarity, and slug come
+ * from folder names, while weapon and portrait come from metadata.json.
+ *
+ * @param lang Requested language code.
+ * @returns Characters plus the matching locale bundle.
+ */
 export function getHomePageData(lang = 'en') {
   const locale = getLocale(lang);
   const contentPath = path.join(process.cwd(), 'src', 'content');
 
+  // Walk element/rarity/character folders so new content appears automatically.
   const characters = fs
     .readdirSync(contentPath, { withFileTypes: true })
     .filter((element) => element.isDirectory())

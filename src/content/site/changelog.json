@@ -1,0 +1,2820 @@
+{
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pub?gid=172546500&single=true&output=csv",
+  "groups": [
+    {
+      "version": "Luna VI (6.5)",
+      "entries": [
+        {
+          "date": "April 18, 2026",
+          "changes": "Updated Albedo section (added Lightbearing Moonshard)",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "April 17, 2026",
+          "changes": "Updated Columbina section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "April 11, 2026",
+          "changes": "Added Linnea section",
+          "appliedBy": "Greenster & Chiston"
+        }
+      ]
+    },
+    {
+      "version": "Luna V (6.4)",
+      "entries": [
+        {
+          "date": "April 1, 2026",
+          "changes": "Added a note regarding Emblem of Severed Fate (4) to Durin section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 32, 2026",
+          "changes": "Created a tier list and categorized characters based on spiral abyss usage statistics. Placed Hydro Traveler in the SSS+ META-DEFINING Tier.",
+          "appliedBy": "Dodoco"
+        },
+        {
+          "date": "March 30, 2026",
+          "changes": "Added Fractured Halo to Xiangling section. Added Scroll of the Hero of Cinder City (4) to: Amber, Xinyan, Thoma, Dehya, Candace, Dahlia, Hydro Traveler, Mona, Kokomi, Sigewinne, Kaeya, Mika Charlotte, Aloy, Gorou, Yun Jin, and Geo Traveler sections, as well as a few minor adjustments therein. Not a thorough update so \"last updated\" was not changed.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 30, 2026",
+          "changes": "Added Fractured Halo and Sacrificer's Staff to Escoffier section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "March 18, 2026",
+          "changes": "Added Scroll of the Hero of Cinder City to Escoffier section. Added its notes to the notes about Tenacity of the Millelith",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 16, 2026",
+          "changes": "Added Gest of the Mighty Wolf to Kinich section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 15, 2026",
+          "changes": "Added The Daybreak Chronicles to Fischl section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "March 14, 2026",
+          "changes": "Overhauled Razor DPS section. Added Flame-Forged Insight to Hyperbloom/Reaction DPS Razor. \nMade small adjustments to Ineffa substat priorities and notes, adjusted Flins substat priorities",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 3, 2026",
+          "changes": "Added Calamity Queller to Flins section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 1, 2026",
+          "changes": "Fixed Ineffa weapon ranking order and added A Day Carved from Rising Winds (4) to Ineffa and Xingqiu sections",
+          "appliedBy": "Chiston, Quincy"
+        },
+        {
+          "date": "February 28, 2026",
+          "changes": "Added Varka section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "February 27, 2026",
+          "changes": "Added Gest of the Mighty Wolf to Gaming section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 26, 2026",
+          "changes": "Reworded Skirk's Energy note",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "Luna IV (6.3)",
+      "entries": [
+        {
+          "date": "February 21, 2026",
+          "changes": "Updated Chiori's portrait",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "February 21, 2026",
+          "changes": "Added Zibai section and calculations",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "February 9, 2026",
+          "changes": "Updated Gorou section, and updated Xilonen ability tips",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "February 8, 2026",
+          "changes": "Updated Flins calculations and weapon rankings/notes to reflect new team options",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 6, 2026",
+          "changes": "Updated Illuga ability tips",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "February 4. 2026",
+          "changes": "Added Illuga section",
+          "appliedBy": ""
+        },
+        {
+          "date": "January 27, 2026",
+          "changes": "Fixed a placement error regarding Sacrificer's Staff and removed Missive Windspear in Ineffa section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 21, 2026",
+          "changes": "Added Columbina section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "January 16, 2026",
+          "changes": "Added Nocturne's Curtain Call to Nefer section.",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "January 16, 2026",
+          "changes": "Revamped Ineffa section, added Aubale of Morningstar and Moon as well as Bloodsoaked Ruins and Sacrificer's Staff. Linked new calculations.\nAdded A Day Carved From Rising Winds to Klee, Durin, Venti, and Fischl. (Will add to Razor section when he gets revamped)",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "Luna III (6.2)",
+      "entries": [
+        {
+          "date": "December 25, 2025",
+          "changes": "Revamped Albedo section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 23, 2025",
+          "changes": "Added Makhaira Aquamarine to Gaming section and adjusted Gaming weapon rankings. Replaced the Gaming calculations linked in the section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 16, 2025",
+          "changes": "Updated Kachina section and removed WIP tag (finally)",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Updated Varesa's section, updated calculations",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "December 9, 2025",
+          "changes": "Removed Scion of the Blazing Sun and Blackcliff Warbow from Lyney section, added notes regarding Durin's two forms.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 5, 2025",
+          "changes": "Updated Jahoda's portrait",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "December 4, 2025",
+          "changes": "Added Jahoda section",
+          "appliedBy": ""
+        },
+        {
+          "date": "",
+          "changes": "Revamped Venti section. Adjusted Freedom-Sworn's ranking and notes in Durin section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 3, 2025",
+          "changes": "Added Durin section, added Athame Artis to Xingqiu section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Swapped Gladiator's Finale (4) with Wanderer's Troupe (4) in Klee section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Updated and recalculated Yanfei's section and weapon rankings.",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "",
+          "changes": "Updated Shenhe section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Updated and recalculated Klee's section and weapon rankings with Hexerei buffs",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "December 2, 2025",
+          "changes": "Added a quick tooltip to Charlotte regarding the Special Analysis Zoom Lens gadget.",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "Luna II (6.1)",
+      "entries": [
+        {
+          "date": "November 18, 2025",
+          "changes": "Added Reliquary of Truth to Neuvillette section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 14, 2025",
+          "changes": "Updated Lisa's section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 12, 2025",
+          "changes": "Updated Mavuika weapon ranking and fixing errors in weapon comparison sheet",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "November 11, 2025",
+          "changes": "Added Blackcliff Slasher to Diluc's session, Added Fruit of Fulfillment to Lauma High ER section",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "October 30, 2025",
+          "changes": "Added Reliquary of Truth to Varesa and Lauma section, updated weapon calculations",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "October 26, 2025",
+          "changes": "Adjusted Nefer Weapon ranking",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "October 23, 2025",
+          "changes": "Added Nefer section",
+          "appliedBy": "Greenster & Chiston"
+        },
+        {
+          "date": "October 20, 2025",
+          "changes": "Added Reliquary of Truth to Mualani section",
+          "appliedBy": "waka"
+        }
+      ]
+    },
+    {
+      "version": "Luna I (6.0)",
+      "entries": [
+        {
+          "date": "October 4th, 2025",
+          "changes": "Adjusted Silken Moon's Serenade Ranking in Ineffa section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 30, 2025",
+          "changes": "Added Flins section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 23, 2025",
+          "changes": "Added Snare Hook to Faruzan section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Updated Nilou section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "September 22, 2025",
+          "changes": "Removed duplicate Starcaller's Watch from Barbara section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "September 22, 2025",
+          "changes": "Updated weapon calculation for Lauma",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "",
+          "changes": "Added links to calculations for a *wide* array of characters. Added Marechaussee Hunter (4) to Alhaitham and Ayato section with notes. Adjusted weapon ranking for Sethos section. Edited notes for Finale of the Deep and removed Harbinger of Dawn from Xingqiu section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 21, 2025",
+          "changes": "Added clarification to Gaming's ER weapon notes about specifically gaining value before Gaming is [C4]. Added (OUT OF DATE) to some sections of the build guide. Added Ring of Yaxche, Ash-Graven Drinking Horn, and Flowing Purity to Kokomi DPS section. Added Ash-Graven Drinking Horn to Barbara Heal Support. Added Etherlight Spindlelute and Starcaller's Watch to Barbara Bloom DPS.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Updated Lauma section to clarify Main Stats, merging unnecessary cells",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "September 14, 2025",
+          "changes": "Added Etherlight Spindlelute to Nahida, Lauma (Low ER), Kokomi, and Citlali section. Adjusted the notes for Citlali's non ATK buffing weapons.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Added Lauma section",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "September 12, 2025",
+          "changes": "Added Prospector's Shovel and Silken Moon's Serenade (4) to Ineffa section. Added notes for Staff of the Scarlet Sands, Prospector's Shovel, and changed the ranking of Tenacity of the Millelith (4) in the Ineffa section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Added a note in Kokomi's Bloom section for Sacrificial Fragments, and reworded Alhaitham's role description note.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "September 10, 2025",
+          "changes": "Added Aino section",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "5.8",
+      "entries": [
+        {
+          "date": "September 3, 2025",
+          "changes": "Removed various low-impact talents from talent priority lists or included appropriate notes",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "September 2, 2025",
+          "changes": "Added Flame-Forged Insight to Kaveh section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Adjusted Varesa weapon rankings",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "August 19, 2025",
+          "changes": "Adjusted the ranking of Missive Windspear in Ineffa's section and applied notes.",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "August 4, 2025",
+          "changes": "Added additional notes to Klee's section for Tome of the Eternal Flow and Cashflow Supervision.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "",
+          "changes": "Updated Mavuika weapon ranking and added combos in Ability Tips",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "August 3, 2025",
+          "changes": "Added Missive Windspear and notes about ER requirements to Ineffa section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Added Symphonist of Scents to Xiao section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "August 1, 2025",
+          "changes": "Added Ineffa section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Updated Varesa combo section, fixed broken weapon sheet link",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "July 30, 2025",
+          "changes": "Added Fractured Halo to Xiao section",
+          "appliedBy": "Chiston"
+        }
+      ]
+    },
+    {
+      "version": "5.7",
+      "entries": [
+        {
+          "date": "July 28, 2025",
+          "changes": "Added a note to Virdescent Venerer (4) in Ifa Anemo DPS section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 16, 2025",
+          "changes": "Fixed Chasca weapon ranking (again)",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "July 15, 2025",
+          "changes": "Added Symphonist of Scents to Emilie’s and Mika’s weapon rankings, along with an additional note in Emilie’s section.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "July 13, 2025",
+          "changes": "Added Azurelight to Xingqiu section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 27, 2025",
+          "changes": "Updated FAQ, and reworded Mualani notes.",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "June 26, 2025",
+          "changes": "Demoted Marechaussee Hunter and Long Night's Oath on Gaming to rank 2",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 22,2025",
+          "changes": "Added Uraku Misugiri to Alhaitham's section with a note.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "June 20, 2025",
+          "changes": "Added Gladiator's Finale to Skirk section. Adjusted Marechaussee to \"Conditional (See Notes)\"",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 19,2025",
+          "changes": "Added Azurelight to Bennett (Support) section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "June 18, 2025",
+          "changes": "Added Skirk section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "",
+          "changes": "Added Dahlia section",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "5.6",
+      "entries": [
+        {
+          "date": "June 16, 2025",
+          "changes": "Updated Tartaglia Section",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "June 10, 2025",
+          "changes": "Added Song of Stillness and Marechaussee Hunter to relevant Ganyu sections",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "June 9, 2025",
+          "changes": "Added an additional note for Stringless in Off-field Dps Fischl's section.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "June 5, 2025",
+          "changes": "Added Symphonist of Scents to Raiden and Xiangling section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 27, 2025",
+          "changes": "Added A Thousand Blazing Suns to Kinich section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 26, 2025",
+          "changes": "Added Ifa section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "May 25,2025",
+          "changes": "Removed part of a note on Xinyan (Pyro) section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "May 24,2025",
+          "changes": "Updated Chongyun's section and added a note for Obsidian Codex (4) and Unfinished Reverie (4) in Kinich's section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 23, 2025",
+          "changes": "Added Prototype Amber (was already mentioned) in Lisa's section & note for Emblem (2) in Yae's section + altered Emblem (4) note",
+          "appliedBy": "George"
+        },
+        {
+          "date": "May 21,2025",
+          "changes": "Added Starcaller's Watch to Kokomi's Bloom weapon ranking.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "May 20, 2025",
+          "changes": "Adjusted ranking of A Thousand Blazing Suns for Gaming section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 19, 2025",
+          "changes": "Added a note for Symphonist of Scents in Iansan's section.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "May 19, 2025",
+          "changes": "Updated Mualani Weapon Ranking",
+          "appliedBy": "Bread"
+        },
+        {
+          "date": "May 18, 2025",
+          "changes": "Updated Chasca Weapon ranking",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "May 11, 2025",
+          "changes": "Adjusted the ranking of Sequence of Solitude in Yelan and Sigewinne sections.",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "May 9, 2025",
+          "changes": "Added Tenacity of the Millelith (4) to Pyro Traveller's Buff Support artifact rankings.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "May 9, 2025",
+          "changes": "Added Symphonist of Scents to Chevreuse's (with a note) and Iansan's weapon rankings.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "May 8, 2025",
+          "changes": "Added ATK% Goblet and an appropriate note to Escoffier's Artifact Main Stats",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "May 8, 2025",
+          "changes": "Added note for VV on Faruzan",
+          "appliedBy": "George"
+        },
+        {
+          "date": "May 8, 2025",
+          "changes": "Added Escoffier section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "May 6, 2025",
+          "changes": "Added Sequence of Solitude to Diona, Sigewinne, and Yelan (Low-Energy) sections. Updated and reworded Sigewinne notes.",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "5.5",
+      "entries": [
+        {
+          "date": "May 4, 2025",
+          "changes": "Some updates to Sigewinne section, Sac bow + Tenacity added + weapon ranking altered",
+          "appliedBy": "George"
+        },
+        {
+          "date": "May 4, 2025",
+          "changes": "Added A thousand Blazing Suns, Beacon of the Reed Sea and Verdict to Itto section. Added refinement note to Serpent Spine",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "May 3, 2025",
+          "changes": "Removed duplicate instance of The Viridescent Hunt in Fischl Off-Field section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "May 1, 2025",
+          "changes": "Updated Lisa's section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "May 1, 2025",
+          "changes": "Minor update to Collei section + notes and altered weapon ranking",
+          "appliedBy": "George"
+        },
+        {
+          "date": "May 1, 2025",
+          "changes": "Updated Yelan notes and added Marechaussee Hunter (4) to sets",
+          "appliedBy": "George"
+        },
+        {
+          "date": "April 30, 2025",
+          "changes": "Updated Kaeya section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "April 30, 2025",
+          "changes": "Updated Finale of the Deep ranking and note for DPS Bennett; Removed Isshin and Iron Sting from said section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "April 30, 2025",
+          "changes": "Updated Dehya section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "April 29, 2025",
+          "changes": "Updated Iansan's notes",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "April 28, 2025",
+          "changes": "Updated Mona (DPS) note",
+          "appliedBy": "George"
+        },
+        {
+          "date": "April 27, 2025",
+          "changes": "Updated Long Night's Oath (4) Ranking for Gaming",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "April 23, 2025",
+          "changes": "Fixed note regarding Nightsoul Burst for Pyro Traveler",
+          "appliedBy": "George"
+        },
+        {
+          "date": "April 21, 2025",
+          "changes": "Updated note on Hu Tao & Diluc section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "April 16, 2025",
+          "changes": "Added DPS section for Pyro Traveler, removed WIP status",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "April 15, 2025",
+          "changes": "Updated Rosaria section",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "April 14, 2025",
+          "changes": "Updated Bennett section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "April 14, 2025",
+          "changes": "Updated Fischl and Keqing sections",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "April 12, 2025",
+          "changes": "Added Varesa Artfact Comparison sheet, added ability tips",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "April 6, 2025",
+          "changes": "Updated Tartaglia Section, revamped description and added calcs",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "March 30, 2025",
+          "changes": "Added Iansan section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "March 29, 2025",
+          "changes": "Added a note for Reaction focused Ororon",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 29, 2025",
+          "changes": "Added clarification to characters with roles titled \"support\", adjusted the roles for some characters, added Long Night's Oath (4) to Gaming section and removed 2pc set options and Vermillion",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 28, 2025",
+          "changes": "Added Vivid Notions to Yanfei's Section",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "March 27, 2025",
+          "changes": "Updated Varesa section, added conditions",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "March 26, 2025",
+          "changes": "Added Scroll to Chevreuse Section, adjusted rankings of Ocean Hued Clam and Song of Days Past",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 26, 2025",
+          "changes": "Added Varesa section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "March 26, 2025",
+          "changes": "Added Long Night's Oath to Xiao section",
+          "appliedBy": "Chiston"
+        }
+      ]
+    },
+    {
+      "version": "5.4",
+      "entries": [
+        {
+          "date": "March 24, 2025",
+          "changes": "Added Scroll of the Hero of Cinder City to Candace",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "March 24, 2025",
+          "changes": "Updated Navia section, removed Energy Recharge as a Main Stat option for Navia",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "March 24, 2025",
+          "changes": "Updated Mavuika section",
+          "appliedBy": "Speify"
+        },
+        {
+          "date": "March 23, 2025",
+          "changes": "Added Viridescent Venerer to Chasca section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 22, 2025",
+          "changes": "Updated Xingqiu calcs, splitting weapons into two distinct categories based on ER requirements",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 20, 2025",
+          "changes": "Updated Yanfei section with Speify's calcs",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 12, 2025",
+          "changes": "Removed Flat ATK / DEF / HP as desired substats from various DPS sections",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "March 7, 2025",
+          "changes": "Updated Diluc section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 23, 2025",
+          "changes": "Added Astral Vulture's Crimson Plumage to Sethos section, added Tamayuratei no Ohanashi to Emilie section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 21, 2025",
+          "changes": "Updated Raiden section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "February 20, 2025",
+          "changes": "Updated Yanfei Ability Tips section",
+          "appliedBy": "Bread"
+        },
+        {
+          "date": "February 20, 2025",
+          "changes": "Added Sacrificial Fragments to Citlali section",
+          "appliedBy": "Bread"
+        },
+        {
+          "date": "February 20, 2025",
+          "changes": "Removed Energy Recharge as a Main Stat option for Nilou",
+          "appliedBy": "Bread"
+        },
+        {
+          "date": "February 18, 2025",
+          "changes": "Updated Yoimiya, Beidou, and Geo Traveler section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "February 18, 2025",
+          "changes": "Revamped Klee section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "February 14, 2025",
+          "changes": "Added Tamayuratei no Ohanashi to Xiao section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "February 12, 2025",
+          "changes": "Replaced ≈ with ≈",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 12, 2025",
+          "changes": "Added Instructor (4) to Xilonen section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Added \"Last Updated\" to each character section. Added Mavuika to Wolf's Gravestone note on Kinich section",
+          "appliedBy": ""
+        },
+        {
+          "date": "February 12, 2025",
+          "changes": "Added Sunny Morning Sleep-In to Heizou, Sucrose, Kokomi, Nahida, Barbara, and Yae Miko sections",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "February 12, 2025",
+          "changes": "Added Yumemizuki Mizuki section",
+          "appliedBy": "Chiston"
+        }
+      ]
+    },
+    {
+      "version": "5.3",
+      "entries": [
+        {
+          "date": "February 8, 2025",
+          "changes": "Removed Key of Khaj-Nisut note on Pyro Traveler",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "January 29, 2025",
+          "changes": "Updated Ningguang section (Happy New Year!), added \"Conditional (See Notes)\" for artifact sets that should not be run without the proper conditions met. Removed Retracing Bolide (4) from Hu Tao section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 28, 2025",
+          "changes": "Remastered Xiangling section, removed Support and Damage Bennett, removed Thundering Fury (4) from DPS Bennett",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 28, 2025",
+          "changes": "Updated Kazuha and Barbara sections",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "January 28, 2025",
+          "changes": "Updated Ganyu section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "January 26, 2025",
+          "changes": "Added Lan Yan section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "January 19, 2025",
+          "changes": "Added a WIP Pyro Traveler section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "January 18, 2025",
+          "changes": "Updated Notes and Rankings for Gaming section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 15, 2025",
+          "changes": "Adjusted Mavuika Weapon rankings and added additional context for Serpent Spine note",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "January 3, 2025",
+          "changes": "Added A Thousand Blazing Suns to Gaming section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 3, 2025",
+          "changes": "Added Mavuika section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "January 2, 2025",
+          "changes": "Removed Wanderer's Troupe and Shimenawa's Reminiscence from Chasca section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "January 2, 2025",
+          "changes": "Added Citlali section",
+          "appliedBy": "Chiston"
+        }
+      ]
+    },
+    {
+      "version": "5.2",
+      "entries": [
+        {
+          "date": "December 21, 2024",
+          "changes": "Revamped Xiao section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "December 21, 2024",
+          "changes": "Revamped Qiqi section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "December 14, 2024",
+          "changes": "Removed Physical Zhongli section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 3, 2024",
+          "changes": "Condensed Chasca weapon ranking",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "November 30, 2024",
+          "changes": "Added Surf's Up! to Neuvillette section, Noblesse and Emblem to Ororon section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 28, 2024",
+          "changes": "Updated Clorinde section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 27, 2024",
+          "changes": "Added Calamity of Eshu to Bennett Support",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 26, 2024",
+          "changes": "Adjusted the ranking of Vortex Vanquisher in Raiden Shogun section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 25, 2024",
+          "changes": "Adjusted Layla's portrait",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 23, 2024",
+          "changes": "Added Ororon Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 23, 2024",
+          "changes": "Added Range Gauge to Chasca Section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "November 20, 2024",
+          "changes": "Added Chasca Section",
+          "appliedBy": "Chiston"
+        }
+      ]
+    },
+    {
+      "version": "5.1",
+      "entries": [
+        {
+          "date": "November 19, 2024",
+          "changes": "Added Astral Vulture's Crimson Plumage to Tighnari and Lyney sections. Removed WIP tag from Sethos",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 30, 2024",
+          "changes": "Added Fruitful Hook to Gaming section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 12, 2024",
+          "changes": "Added Xilonen Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "October 9, 2024",
+          "changes": "Added Peak Patrol Song to Albedo section; added relevant notes. Removed 4pc Noblesse",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "5.0",
+      "entries": [
+        {
+          "date": "October 6, 2024",
+          "changes": "Added notes for 4pc Scroll in Zhongli section, and Earthshaker and Serpent Spine in Kinich section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 29, 2024",
+          "changes": "Revamped Sara section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "September 20, 2024",
+          "changes": "Added Deepwood Memories (4) to Thoma Support and Xiangling sections",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "September 19, 2024",
+          "changes": "Added Kinich Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "September 6, 2024",
+          "changes": "Added The Widsith to Mualani's section and HP%/EM circlet",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 30, 2024",
+          "changes": "Made some edits to Kachina's section, added WIP tag",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 29, 2024",
+          "changes": "Added Kachina Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "",
+          "changes": "Added Mualani section. Updated FAQ.",
+          "appliedBy": ""
+        },
+        {
+          "date": "August 29, 2024",
+          "changes": "Added Scroll of the Hero of Cinder City to Zhongli, Xianyun. Chongyun, Faruzan, and Layla sections (more to come later)",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "4.8",
+      "entries": [
+        {
+          "date": "August 27, 2024",
+          "changes": "Removed duplicate Energy Recharge substat from Beidou section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "August 19, 2024",
+          "changes": "Added Lithic Spear and Prospector's Drill to Emilie section, moved Favonius down a rank",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 16, 2024",
+          "changes": "Added Lumidouce Elegy to Raiden, Cyno, Hu Tao, Arlecchino, Xiangling, Chevreuse, Rosaria sections",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 6, 2024",
+          "changes": "Added Emilie section. Added Lumidouce Elegy to Xiao section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 30, 2024",
+          "changes": "Removed duplicate Deathmatch from Aggravate Cyno section",
+          "appliedBy": "Chiston"
+        },
+        {
+          "date": "July 25, 2024",
+          "changes": "Revamped Heizou section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 25, 2024",
+          "changes": "Rearraged Tighnari Weapons, removed Ibis Piercer and the Stringless",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 25, 2024",
+          "changes": "Added Golden Troupe (4) to Nahida section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 25, 2024",
+          "changes": "Added all new FAQ sheet",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "July 24, 2024",
+          "changes": "Added Wandering Evenstar to Sucrose section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 17, 2024",
+          "changes": "Added Absolution to Xingqiu section",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "4.7",
+      "entries": [
+        {
+          "date": "July 15, 2024",
+          "changes": "Changed Silvershower Heartstrings to rank 2nd in the Yelan section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 11, 2024",
+          "changes": "Removed WIP tag from Arlecchino section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "July 8, 2024",
+          "changes": "Added Sigewinne Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "July 7, 2024",
+          "changes": "Added additional notes to Faruzan's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "June 28, 2024",
+          "changes": "Added an on-field DPS section to Hydro Traveler's section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 28, 2024",
+          "changes": "Added Silvershower Heartstrings and Skyward Harp to Yelan section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 25, 2024",
+          "changes": "Added Silvershower Heartstrings to Diona section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "June 22, 2024",
+          "changes": "Updated Cyno calculations, added link",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 18, 2024",
+          "changes": "Fixed spelling of \"Tulaytullah's Remembrace\" for Wanderer section",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "June 9, 2024",
+          "changes": "Added Clorinde section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "June 7, 2024",
+          "changes": "Added Desert Pavilion Chronicle to Arlecchino's artifact rankings",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 6, 2024",
+          "changes": "Added Crimson Moon's Semblance to Xiao section, added Cloudforged to Venti section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 5, 2024",
+          "changes": "Added Absolution to Bennett Support section",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "4.6",
+      "entries": [
+        {
+          "date": "June 4, 2024",
+          "changes": "Added Sethos WIP section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 20, 2024",
+          "changes": "Added note to Staff of the Scarlet Sands in Arlecchino Section, updated image",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 20, 2024",
+          "changes": "Added WIP Arlecchino Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "May 20, 2024",
+          "changes": "Updated Zhongli's Shield Section's artifacts",
+          "appliedBy": "Yukiya"
+        },
+        {
+          "date": "May 12, 2024",
+          "changes": "Added note for Favonius Lance in Zhongli's \"Burst Support\" section",
+          "appliedBy": "Yukiya"
+        }
+      ]
+    },
+    {
+      "version": "4.5",
+      "entries": [
+        {
+          "date": "April 9, 2024",
+          "changes": "Updated Thoma section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "April 8, 2024",
+          "changes": "Revamped Layla section, added 'Support and Damage' section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "April 2, 2024",
+          "changes": "Added Uraku Misugiri to Furina section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 26, 2024",
+          "changes": "Added Chiori Section and altered Itto's artifact substat priority + notes",
+          "appliedBy": "George"
+        },
+        {
+          "date": "March 25, 2024",
+          "changes": "Added Cashflow Supervision and The Widsith to Neuvillette's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "March 19, 2024",
+          "changes": "Deleted Prototype Rancour note from 'Support' Bennett section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "March 14, 2024",
+          "changes": "Added Dialogues of the Desert Sages to Chevreuse (Support), Yaoyao and Mika sections",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "4.4",
+      "entries": [
+        {
+          "date": "March 12, 2024",
+          "changes": "Revamped Albedo section, added Uraku Misugiri",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 12, 2024",
+          "changes": "Removed Splendor of Tranquil Waters from Xingqiu section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 9, 2024",
+          "changes": "Added Prospector's Drill to Xiao Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "March 3, 2024",
+          "changes": "Changed Neuvillette's Notes about Artifact Main Stats",
+          "appliedBy": "Yukiya"
+        },
+        {
+          "date": "March 2, 2024",
+          "changes": "Slightly altered Raiden (DPS) combo notes",
+          "appliedBy": "George"
+        },
+        {
+          "date": "February 23, 2024",
+          "changes": "Added Nighttime Whispers to Ningguang section, modified Albedo section notes about Golden Troupe.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 21, 2024",
+          "changes": "Fixed Instructor note on Zhongli section.",
+          "appliedBy": "George"
+        },
+        {
+          "date": "February 19, 2024",
+          "changes": "Reverted Xiao weapon section to unbuffed and slightly altered notes section.",
+          "appliedBy": "George"
+        },
+        {
+          "date": "February 16, 2024",
+          "changes": "Added Xianyun section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 31, 2024",
+          "changes": "Added Gaming section",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "4.3",
+      "entries": [
+        {
+          "date": "January 30, 2024",
+          "changes": "Removed Blackcliff Longsword from Kaeya's Freeze/Mono Cryo weapon rankings.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 29, 2024",
+          "changes": "Reworded 'Burst Support' to 'Support and Damage' (Bennett, Chevreuse, Sara, Jean). Added Finale to Support and Damage Bennett section. Added Crit Rate circlet note to Jean section specific to Favonius with Furina.",
+          "appliedBy": "George"
+        },
+        {
+          "date": "January 29, 2024",
+          "changes": "Revamped Kaeya Section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 24,2024",
+          "changes": "Added Marechaussee Hunter (4) to Hu Tao's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "January 21, 2024",
+          "changes": "Added Chevreuse Burst Support section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 19, 2024",
+          "changes": "Added Chevreuse section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 12, 2024",
+          "changes": "Fixed formatting on Dendro sheet and added standardized wording to some sections",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "January 8, 2024",
+          "changes": "Added \"Ultimate Overlord's Mega Magic Sword\" to Eula's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "January 8, 2024",
+          "changes": "Removed Hyperbloom Driver Kaveh section. Renamed Kaveh's \"Bloom Driver\" section to \"Bloom / Burgeon Driver\"",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 6, 2024",
+          "changes": "Yoimiya section updated",
+          "appliedBy": "George"
+        },
+        {
+          "date": "December 30, 2023",
+          "changes": "Replaced all images with their Multi-Wish art equivalents, renamed \"EM DPS\" builds to \"Reaction DPS\"",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 29, 2023",
+          "changes": "Added Verdict to Eula's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "December 24, 2023",
+          "changes": "Added Navia section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 20, 2023",
+          "changes": "Added Verdict to Freminet section, added a note in the Raiden section regarding Favonius Lance on Raiden.",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "4.2",
+      "entries": [
+        {
+          "date": "December 16, 2023",
+          "changes": "Added a note regarding ATK% Goblet and Desert Pavilion Chronicle in Xiao section. Bumped White Tassel below Favonius Lance.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 6, 2023",
+          "changes": "Removed \"Other Sets\" section for Lyney section due to redundancies. Removed some unoptimal weapon options in the Cyno section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 2, 2023",
+          "changes": "Added Sacrificial Jade to Nahida section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 2, 2023",
+          "changes": "Updated Kirara's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "December 1, 2023",
+          "changes": "Removed Blackcliff Longsword and Amenoma Kageuchi from Ayato section. Inserted The Flute and Sword of Narzissenkreuz",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 30, 2023",
+          "changes": "Changed Substat Ranking for Tighnari, Added Emblem of Severed Fate (4), Moved Elegy for the End down a rank",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 28, 2023",
+          "changes": "Added Marechaussee Hunter (4) to Klee's section with an additional note.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 28, 2023",
+          "changes": "Removed Hakushin Ring from Charlotte's section and slightly reworded a note in Main Stats.",
+          "appliedBy": "George"
+        },
+        {
+          "date": "November 25, 2023",
+          "changes": "Added Marechaussee Hunter (4) to Cyno's Hyperbloom/Quickbloom section with note",
+          "appliedBy": "George"
+        },
+        {
+          "date": "November 24, 2023",
+          "changes": "Updated Ayato Section, added Splendor of Tranquil Waters to Xingqiu section, Changed Gilded Dreams ranking in Yae section, Slightly reordered Tighnari section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 22. 2023",
+          "changes": "Updated Charlotte Section, Removed Fruit of Fulfillment and Ballad of the Boundless Blue",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 20, 2023",
+          "changes": "Removed all mentions of EM Jean from Jean's Burst support section.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 20, 2023",
+          "changes": "Added a note for King's Squire in Tartaglia section",
+          "appliedBy": "Yukiya"
+        },
+        {
+          "date": "November 20, 2023",
+          "changes": "Changed Tartaglia's name from Childe to Tartaglia",
+          "appliedBy": "Yukiya"
+        },
+        {
+          "date": "November 20, 2023",
+          "changes": "Updated Noelle to include a Driver section + notes, as well as simplified DPS section's ranking and notes",
+          "appliedBy": "Shiro"
+        },
+        {
+          "date": "November 16, 2023",
+          "changes": "Reworded the note regarding Bennett's [C6] in his Support section, and moved it to the top of his notes for better clarification and easier understanding.",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 14, 2022",
+          "changes": "Added ATK% goblet and Healing Bonus circlet to Jean's artifact Main Stat options, with note of teams with Furina.",
+          "appliedBy": "George"
+        },
+        {
+          "date": "November 12, 2023",
+          "changes": "Updated Baizhu's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "November 12, 2023",
+          "changes": "Updated weapon section for Tartaglia, Added: Blackcliff Warbow, Elegy of the End. Removed: Slingshot",
+          "appliedBy": ""
+        },
+        {
+          "date": "November 9, 2023",
+          "changes": "Added Oathsworn Eye, Wine and Song, Fruit of Fulfillment, Ballad of the Boundless Blue, and Hakushin Ring to Charlotte's section with appropriate notes.",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "November 9, 2023",
+          "changes": "Added Furina & Charlotte sections (with placeholder images)",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "4.1",
+      "entries": [
+        {
+          "date": "November 6, 2023",
+          "changes": "Changed Kazuha's Build name to \"Reaction DPS & Support\"",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "November 4, 2023",
+          "changes": "Changed the artifact ranking of Noblesse Oblige (4) in Faruzan's section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 31, 2023",
+          "changes": "Updated Venti section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 31, 2023",
+          "changes": "Added Finale of the Deep to Ayato's section along with Golden Troupe (4) artifact set to Faruzan's section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 23, 2023",
+          "changes": "Removed Hamayumi and The Stringless from Tighnari section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 22, 2023",
+          "changes": "Updated Tighnari section. Added Range Gauge and Scion of the Blazing Sun.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 21, 2023",
+          "changes": "Added Wriothesley section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 18, 2023",
+          "changes": "Updated Xiao's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "October 18, 2023",
+          "changes": "Added Hunter's Path to Off-Field Fischl's weapon rankings and modified the notes for Stringless.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 14, 2023",
+          "changes": "Added Ballad of the Boundless Blue [R5] to Wanderer section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 10, 2023",
+          "changes": "Updated Beidou's section, adding a weapon ranking for Off-Field Aggravate, including notes, and removing an Artifact recommendation.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 9, 2023",
+          "changes": "Massive update to the Yae section, including the addition of an Off-Field Aggravate section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 6, 2023",
+          "changes": "Added Kitain Cross Spear and Rightful Reward to Hu Tao section, swapped the placement of White Tassel and Blackcliff to represent their performance in N2C combos. Added a note about Staff of the Scarlet Sands regarding Gilded Dreams (4).",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 5, 2023",
+          "changes": "Updated Yaoyao section, removed WIP tag",
+          "appliedBy": "George"
+        },
+        {
+          "date": "October 5, 2023",
+          "changes": "Updated Support Barbara section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "October 1, 2023",
+          "changes": "Added Tome of the Eternal Flow to Wanderer section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 1, 2023",
+          "changes": "Updated Freminet section with notes regarding Tidal Shadow and added Mailed Flower and Song of Broken Pines to Cryo section. Moved the ranking of Beacon of the Reed Sea in Cryo section.",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 30, 2023",
+          "changes": "Added placeholder Hydro Traveler section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 28, 2023",
+          "changes": "Added a note for substats in Yelan section",
+          "appliedBy": "Fuyu"
+        },
+        {
+          "date": "September 28, 2023",
+          "changes": "Added Neuvillette Section",
+          "appliedBy": "Fuyu"
+        },
+        {
+          "date": "September 27, 2023",
+          "changes": "Added The Dockhand's Assistant to Kirara, Nilou, Layla and Kuki (Support) sections",
+          "appliedBy": "Greenster"
+        }
+      ]
+    },
+    {
+      "version": "4.0",
+      "entries": [
+        {
+          "date": "September 26, 2023",
+          "changes": "Added a star to Freminet's Cryo section with recent information confirming the two deal similar amounts of personal DPS",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 23, 2023",
+          "changes": "Updated Kazuha Section: Added Fleuve Cendre Ferryman, adjusted the ranking of Sacrificial Sword and added\r\na note, and removed Amenoma Kageuchi",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "September 23, 2023",
+          "changes": "Added an additional note in xiao's section for Vortex Vanquisher",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "September 23, 2023",
+          "changes": "Removed Kagotsurube from Xingqiu section. Added Freedom-Sworn and notes, adjusted ranking to reflect",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 22, 2023",
+          "changes": "Revamped/Large scale update to Sayu Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "September 16, 2023",
+          "changes": "Replaced Lithic Spear (2 Stacks) with Lithic Spear (4 Stacks) for Hu Tao\nand Blackcliff (1 Stack) with (0 Stacks)",
+          "appliedBy": "Fuyu"
+        },
+        {
+          "date": "September 16, 2023",
+          "changes": "Added weapon Ballad of the Fjords for Hu Tao",
+          "appliedBy": "Fuyu"
+        },
+        {
+          "date": "September 15, 2023",
+          "changes": "Removed Ability Tips from Nilou section",
+          "appliedBy": "Fuyu"
+        },
+        {
+          "date": "September 10, 2023",
+          "changes": "Changed Dendro Traveler's note on Sacrificial Sword slightly for clarity",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "September 10, 2023",
+          "changes": "Added Golden Troupe (4) and (2) to Heizou section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 7, 2023",
+          "changes": "Added Rightful Reward to Yaoyao and Mika sections",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "September 7, 2023",
+          "changes": "Changed the ranking of Instructor's in Bennett's support section and added a additional note.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "September 6, 2023",
+          "changes": "Added Freminet section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 6, 2023",
+          "changes": "Added Wolf-Fang to Aggravate Keqing's weapon rankings then further modified the ranking and added additional notes to the Aggravate section.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "September 4, 2023",
+          "changes": "Updated Cyno and Razor sections",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 29, 2023",
+          "changes": "Updated Ningguang's artifact rankings and notes in regards to Husk of Opulent Dreams",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "August 28, 2023",
+          "changes": "Removed Vortex Vanquisher from Hu Tao section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "August 28, 2023",
+          "changes": "Removed Deepwood Memories from lynette's artifact rankings and reworded her description in the notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "August 27, 2023",
+          "changes": "Added Rightful Reward to Thoma Support",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "August 27, 2023",
+          "changes": "Added Finale of the Deep to Ayaka's section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 27, 2023",
+          "changes": "Updated Albedo section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 26, 2023",
+          "changes": "Updated Ningguang Section",
+          "appliedBy": "Greenster"
+        },
+        {
+          "date": "August 26, 2023",
+          "changes": "Updated Diona section",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 26, 2023",
+          "changes": "Updated Amber Melt DPS Section",
+          "appliedBy": "Fuyu"
+        },
+        {
+          "date": "August 25, 2023",
+          "changes": "Mika section updated, removed WIP tag",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 25, 2023",
+          "changes": "Removed Amber Burgeon section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 24, 2023",
+          "changes": "Added more weapons: TFGM and Song of Stillness to Tighnari,\r\nTFGM and Scion to Ganyu, Tidal Shadow to Eula, Ballad of the Fjords to Xiangling,\r\nWolf-Fang to Alhaitham. Added Marechaussee Hunter set to Xiao",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 24, 2023",
+          "changes": "Added Lynette section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "August 21, 2023",
+          "changes": "Added Lyney section, Added Fleuve Cendre to Xingqiu section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 16, 2023",
+          "changes": "Added Golden Troupe (4) to both artifact ranking sections for Fischl and added additional notes on Golden Troupe (4) for both sections too",
+          "appliedBy": "George"
+        }
+      ]
+    },
+    {
+      "version": "3.8",
+      "entries": [
+        {
+          "date": "August 13, 2023",
+          "changes": "Changed Polar star and Aqua Simulacra weapon rankings in both Fischl sections and added additional notes on Polar Star",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 13, 2023",
+          "changes": "Raiden section updated",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 12, 2023",
+          "changes": "Beacon of the Reed Sea added to Diluc, Razor, Xinyan (Pyro), Eula, Beidou, Chongyun",
+          "appliedBy": "George"
+        },
+        {
+          "date": "August 9, 2023",
+          "changes": "Kaveh section updated",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 7, 2023",
+          "changes": "Removed outdated links to weapon and artifact sheets in the Fischl sections notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 6, 2023",
+          "changes": "Added Nymph's Dream to Ayato section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 3, 2023",
+          "changes": "Jean section updated, added EM DPS section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 3, 2023",
+          "changes": "Heizou section updated",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 3, 2023",
+          "changes": "Nahida section updated",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 21, 2023",
+          "changes": "Removed Xingqiu Low Energy Requirements section, and consolidated it into Xingqiu Off-Field DPS",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 21,2023",
+          "changes": "Updated Ganyu section, and the notes for Hunter's Path et al in Yelan section",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "3.7",
+      "entries": [
+        {
+          "date": "July 2, 2023",
+          "changes": "Updated Dehya Section, removed WIP",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 2, 2023",
+          "changes": "Changed Mona Freeze Support to Mona Burst Support, added A Thousand Floating Dreams",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 24, 2023",
+          "changes": "Overhauled Amber DPS section, added Burgeon",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 24, 2023",
+          "changes": "Updated Wanderer Section, Added Frostbearer",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 24, 2023",
+          "changes": "Updated Yoimiya section, added Hunter's Path and Gilded Dreams",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 20, 2023",
+          "changes": "Added Ibis Piercer, Fading Twilight, and Hamayumi to Tighnari section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 19, 2023",
+          "changes": "Updated Kazuha Section",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "June 14, 2023",
+          "changes": "Added Kirara section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 8, 2023",
+          "changes": "Added Mailed Flower to Diluc's Section",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "June 4, 2023",
+          "changes": "Updated Candace's Section",
+          "appliedBy": "[Creed]"
+        },
+        {
+          "date": "May 24, 2023",
+          "changes": "Added Kaveh section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "May 24, 2023",
+          "changes": "Updated Dehya's On Field and Off Field sections",
+          "appliedBy": "Folie"
+        }
+      ]
+    },
+    {
+      "version": "3.6",
+      "entries": [
+        {
+          "date": "May 23, 2023",
+          "changes": "Added Baizhu section",
+          "appliedBy": "Loli"
+        },
+        {
+          "date": "April 22, 2023",
+          "changes": "Added Memory of Dust and A Thousand Floating Dreams to Yae Miko section and updated notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "April 19, 2023",
+          "changes": "Alternative Goblet and Circlet Main Stats added for Nahida Bloom section",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "April 16, 2023",
+          "changes": "Changed the ranking of Xiphos in Nilou section to reflect the slight ER it give teammates over Iron Sting/Toukabou",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "April 15, 2023",
+          "changes": "Updated Nilou's Artifact rankings and modified her weapon rankings, also added additional notes on artifact choices and substat allocation.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "April 14, 2023",
+          "changes": "Added Nymph's Dream to Xingqiu section",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "3.5",
+      "entries": [
+        {
+          "date": "March 29, 2023",
+          "changes": "Removed the placeholder designation from the Nilou and Dendro Traveler sections",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "March 25, 2023",
+          "changes": "Removed multiple sections including Physical Traveler, Physical Xiangling, Physical Fischl, Support Noelle and DPS Barbara",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "March 22, 2023",
+          "changes": "Added a WIP Mika section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 21, 2023",
+          "changes": "Added Kagotsurube Isshin to Ayaka's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "March 18, 2023",
+          "changes": "Added note about Gilded Dreams (4) in Hu Tao section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 16, 2023",
+          "changes": "Reworded Yelan's section titles and added Clarification to Xiao's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "March 13, 2023",
+          "changes": "Updated Nilou's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "March 9, 2023",
+          "changes": "Added placeholder Dehya section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 8, 2023",
+          "changes": "Removed WIP tag from Wanderer section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "March 2, 2023",
+          "changes": "Added Staff of the Scarlet Sands to Raiden Shogun section and added notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "March 1, 2023",
+          "changes": "Changed weapon rankings in Xingqiu section to better fit new descriptions of builds",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "3.4",
+      "entries": [
+        {
+          "date": "February 22, 2023",
+          "changes": "Removed older guide link from yelan section and updated to the current KQM guide link",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 21, 2023",
+          "changes": "Added Quickbloom Cyno section, starred Quickbloom Cyno",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 19, 2023",
+          "changes": "Added Skyward Spine to Cyno section, with notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 19, 2023",
+          "changes": "Changed Xingqiu section to High and Low Energy Recharge Requirements instead of C0-C5 and C6",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 17, 2023",
+          "changes": "Updated Kujou Sara's weapon rankings to reflect personal damage and added new weapons with additional notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 16, 2023",
+          "changes": "Added additional detail to Jean's Burst support notes on Freedom-Sworn",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 16, 2023",
+          "changes": "Added Instructor to Mona's Nuke artifact rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 15, 2023",
+          "changes": "Added some additional detail to Zhongli's burst support notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 14, 2023",
+          "changes": "Modified the notes sections for Yanfei and Amber",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 12. 2023",
+          "changes": "Split Yelan's weapon rankings into two sections and added some additional notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 10, 2023",
+          "changes": "Added Archaic Petra, Deepwood Memories and The Instructor artifact sets to SHIELD SUPPORT zhongli's rankings and notes, also added Crit Rate circlets as an option along with a note too",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 10, 2023",
+          "changes": "Added Tulaytullah's Remembrance to Klee's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 10, 2023",
+          "changes": "Added The Instructor set to Thoma's support section in artifact rankings and notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 10, 2023",
+          "changes": "Added Light of Foliar Incision to Ayaka's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 8, 2023",
+          "changes": "Changed Noblesse Oblige to rank two in Xingqiu section. Updated notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 4, 2023",
+          "changes": "Removed duplicate Widsith weapon ranking in Lisa section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 4, 2023",
+          "changes": "Added note regarding Desert Pavillion Chronicle in Xiao section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 4, 2023",
+          "changes": "Removed Blackcliff Pole from Physical Xiangling's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 4, 2023",
+          "changes": "Added Yaoyao Ability Tips",
+          "appliedBy": "Loli"
+        },
+        {
+          "date": "February 3, 2023",
+          "changes": "Added Alhaitham Section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "February 2, 2023",
+          "changes": "Added Yaoyao Section. Filled with placeholder content",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 2, 2023",
+          "changes": "Revamped Kaeya Section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "February 2, 2023",
+          "changes": "Removed Royal Longsword from Xingqiu Section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 26, 2023",
+          "changes": "Removed obsolete note about Scholar (2) / The Exile (2) in Beidou's section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 25, 2023",
+          "changes": "Rearranged Amber, Mona, Bennett, and Dendro Traveler's note order for consistency",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 24, 2023",
+          "changes": "Added Hunter's Path to Yelan section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 20, 2023",
+          "changes": "Slightly modified Xiangling's section notes and spelling correction on Elegy for the End in Faruzan's section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 19, 2023",
+          "changes": "Added a note on Sacrificial Bow in Yelan's section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 19, 2023",
+          "changes": "Added Light of Foliar Incision to Aggravate Keqing weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 18, 2023",
+          "changes": "Added Light of Foliar Incision to Xingqiu section",
+          "appliedBy": "Quincy"
+        }
+      ]
+    },
+    {
+      "version": "3.3",
+      "entries": [
+        {
+          "date": "January 13, 2023",
+          "changes": "Added Desert Pavilion Chronicle to Heizou, and Itto's artifact rankings",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "January 8, 2023",
+          "changes": "Modified Yae Miko notes on Emblem of Severed Fate slightly",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 7, 2023",
+          "changes": "Wording corrections in Nilou/Ganyu/Thoma/Raiden/Diluc/Cyno/Dendro Traveler/Lisa sections",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 7, 2023",
+          "changes": "Added Deathmatch to Reverse Melt Rosaria weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 6, 2023",
+          "changes": "Updated Lisa's existing sections and added a new Aggravate DPS section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "January 4, 2023",
+          "changes": "Changed Nahida's Build names to reflect proper usage",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "December 31, 2022",
+          "changes": "Consolidated HoD/NO and HoD/NO/18% Atk/EoSF [Choose 2] on Xingqiu section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 31, 2022",
+          "changes": "Added a note involving shields and Memory of Dust to Wanderer section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 31, 2022",
+          "changes": "Added Kagotsurube Isshin and Festering Desire to Xingqiu section, changed EoSF notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 28, 2022",
+          "changes": "Updated Nahida section to a finalized version",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "December 26, 2022",
+          "changes": "Removed dead link from Raiden notes and reworded sentence",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 23, 2022",
+          "changes": "Moonglow removed from Wanderer Section",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "December 21, 2022",
+          "changes": "Finalized Wanderer Section, Added rankings for with/without Bennett",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 19, 2022",
+          "changes": "Added Emblem of Severed Fate to Faruzan's artifact rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 18, 2022",
+          "changes": "Modified Bennett notes and Support weapon rankings, also added Amenoma Kageuchi to Electro keqing section",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 17, 2022",
+          "changes": "Removed Energy Recharge requirements from all characters",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "December 17, 2022",
+          "changes": "Added Toukabou Shigure to Kazuha, Kuki and Keqing weapon rankings.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 16, 2022",
+          "changes": "Changed wording in Ningguang's artifact section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "December 13, 2022",
+          "changes": "Added Flower of Paradise Lost to Thoma, Raiden, Kokomi, Barbara and Kuki sections.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 12, 2022",
+          "changes": "Added Wanderer section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "December 11, 2022",
+          "changes": "Added Desert Pavilion Chronicle to Xiao's artifact rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 11, 2022",
+          "changes": "Added Key of Khaj-Nisut to Hyperbloom Kuki's section.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "December 11, 2022",
+          "changes": "Added Faruzan section",
+          "appliedBy": "Akalight"
+        }
+      ]
+    },
+    {
+      "version": "3.2",
+      "entries": [
+        {
+          "date": "December 2, 2022",
+          "changes": "Modified DPS Kokomi's stat priorities",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 30, 2022",
+          "changes": "Wording corrections in Yae's and Kazuha's sections and added detail to Yae's ability tips",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 29, 2022",
+          "changes": "Modified Yelan's notes slightly and reworded rosaria's notes on Favonius Lance",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 28, 2022",
+          "changes": "Added Ocean-Hued Clam to Barbara's Bloom DPS section, and The Viridescent Hunt to Fischl's Aggravate Section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 28, 2022",
+          "changes": "Added Isshin to Qiqi section and removed some weapons below a good f2p options for Kaeya",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 28, 2022",
+          "changes": "Added Ocean-Hued Clam, HP% and Flat HP sub stats to Bloom DPS Kokomi section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 27, 2022",
+          "changes": "Added Aggravate DPS Keqing Section, and changed Physical and Electro DPS Keqing sections",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 27, 2022",
+          "changes": "Added Bloom DPS Barbara and Kokomi sections",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 27, 2022",
+          "changes": "Added Fading Twilight to Fischl Off Field DPS and Aggravate DPS sections",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 26, 2022",
+          "changes": "Added Skill to freeze Mona's talent priority and reworded Kokomi's notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 26, 2022",
+          "changes": "Changed wording in Yelan's notes on goblet choices",
+          "appliedBy": ""
+        },
+        {
+          "date": "November 26, 2022",
+          "changes": "Changed support and aggravate Kuki's artifact rankings",
+          "appliedBy": ""
+        },
+        {
+          "date": "November 26, 2022",
+          "changes": "Added King's Squire to Childe's weapon rankings and updated his ability tips along with his notes",
+          "appliedBy": ""
+        },
+        {
+          "date": "November 26, 2022",
+          "changes": "Added Hunter's Path to Childe section",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "November 24, 2022",
+          "changes": "Added Layla section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 21, 2022",
+          "changes": "Changed Tighnari's Ability tips to include 3 recommended combos",
+          "appliedBy": ""
+        },
+        {
+          "date": "November 16, 2022",
+          "changes": "Added Mappa Mare to Nahida section",
+          "appliedBy": ""
+        },
+        {
+          "date": "November 16, 2022",
+          "changes": "Added A Thousand Floating Dreams to Sucrose's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 15, 2022",
+          "changes": "Added Nahida Section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 14, 2022",
+          "changes": "Added Gilded Dreams (4) to Diluc's, Yanfei's and Hu tao's artifact rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 12, 2022",
+          "changes": "Updated Xinyan section to include new weapons and builds",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 12, 2022",
+          "changes": "Updated Thoma's section to include a Burgeon option and Added Kitain Cross Spear to his Support Weapon Rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 12, 2022",
+          "changes": "Updated Raiden's section to include a Hyperbloom option",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 10, 2022",
+          "changes": "Changed Cryo body background color (the darker one) from #00aab3 to #00b8c2",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 10, 2022",
+          "changes": "Wording corrections in Razor, Xingqiu, Keqing, Mona, Yelan, Diona, Chongyun, Kaeya, Aloy, Qiqi, Ganyu, Eula, Ayaka, Sucrose, Sayu, Heizou, Jean, Venti, Xiao, Kazuha, Noelle, Gorou, Yun Jin, Traveler (Geo), Zhongli, Albedo, Itto, Traveler (Dendro), Bennett, Xinyan, Rosaria, Lisa, Kokomi, Raiden, Beidou and Tighnari sections",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 9, 2022",
+          "changes": "Wording and spelling correction in Shenhe's notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 9, 2022",
+          "changes": "Revamped Rosaria's sections and added Reverse Melt",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "November 8, 2022",
+          "changes": "Wording and formatting correction on Bennett's DPS Note section",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "November 7, 2022",
+          "changes": "Wording and spelling corrections in Chongyun, Rosaria, Dori, Noelle, Collei, Xiangling, Yanfei, Diluc, Yoimiya, Childe, Amber, Bennett, and Arataki Itto's sections",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 5, 2022",
+          "changes": "Changed Element colors to a more 'dark mode' theme",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "November 3, 2022",
+          "changes": "Changed Fischl 'Aggravate DPS' to 'Off-field aggravate dps' and wording change in Ningguang's weapon section",
+          "appliedBy": "OJ of Steel"
+        }
+      ]
+    },
+    {
+      "version": "3.1",
+      "entries": [
+        {
+          "date": "November 1, 2022",
+          "changes": "Added Xiphos' Moonlight to Kazuha's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 30, 2022",
+          "changes": "Changed Tighnari's weapon ranking of Elegy",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 28, 2022",
+          "changes": "Updated Raiden's optimal and recommended combos and Yae's notes",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 28, 2022",
+          "changes": "Added Freedom-Sworn to Electro Traveler's weapon rankings and Instructor (4) to their artifact rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 28, 2022",
+          "changes": "Changed Beidou's Serpent Spine note and Sara's artifact/substat priority order and added a note to Sacrificial bow for her",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 28, 2022",
+          "changes": "Updated builds marked as preferred for Fischl,Kuki, and Keqing",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 28, 2022",
+          "changes": "Changed Ayato's weapon ranking for Kagotsurube Isshin",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 27, 2022",
+          "changes": "Changed Ayato's and Tighnari's weapon rankings and notes",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 27, 2022",
+          "changes": "Added Staff of the Scarlet Sands to Hu Tao and Xiangling weapon rankings, and modified Xiangling's Artifacts. And modified the Yoimiya weapon and artifact rankings",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 27, 2022",
+          "changes": "Added Thundering Pulse to Yelan weapon rankings",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 27, 2022",
+          "changes": "Changed Dendro Section colors to better suit Dendro theme",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 27, 2022",
+          "changes": "Updated Kuki's section to include Hyperbloom and Aggravate options and added Key of Khaj-Nisut",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 27, 2022",
+          "changes": "Added Sapwood Blade to Kazuha weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 26, 2022",
+          "changes": "Small change to Ningguang Section, adjusting artifact rankings",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 26, 2022",
+          "changes": "Added Nilou section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 26, 2022",
+          "changes": "Added Katsuragikiri Nagamasa to Beidou's weapon rankings and Forest Regalia to Sayu's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Changed the Ningguang Section, removing Burst Support and revamping weapon and artifact rankings",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Changed the ranking of Thundering Fury (4) in Cyno section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Added Sapwood Blade to Xingqiu Section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Added Haran Geppaku Futsu to Ayaka's Weapon List",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Added Aggravate Fischl Section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Added Missive Windspear to Hutao's/Rosaria's/Zhongli's/Xiangling's/Shenhe's weapon rankings",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 25, 2022",
+          "changes": "Added Sapwood Blade to Bennett Support Section",
+          "appliedBy": "OJ of Steel"
+        },
+        {
+          "date": "October 24, 2022",
+          "changes": "Updated Cyno notes, added Mini Cyno guide, changed artifact rankings, added Favonius Lance, and added Ability tips",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 24, 2022",
+          "changes": "Updated Lisa's EM weapon rankings,artifact rankings, and description.",
+          "appliedBy": "Akalight"
+        },
+        {
+          "date": "October 22, 2022",
+          "changes": "Edited Xiao weapon rankings to include Missive Windspear and Staff of Scarlet Sands",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "October 17, 2022",
+          "changes": "Edited Cyno Section and updated. Removed placeholder disclaimer",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 17, 2022",
+          "changes": "Edited Gilded Dreams ranking on Yae's section + notes",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "October 14, 2022",
+          "changes": "Added placeholder Candace section",
+          "appliedBy": ""
+        },
+        {
+          "date": "October 13, 2022",
+          "changes": "Added Dori section",
+          "appliedBy": ""
+        },
+        {
+          "date": "October 12, 2022",
+          "changes": "Added Cyno section",
+          "appliedBy": ""
+        },
+        {
+          "date": "October 4, 2022",
+          "changes": "Edited the Widsith notes for the Yae Miko section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "October 1, 2022",
+          "changes": "Added placeholder Dendro Traveler section",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "",
+          "changes": "Added Collei section",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "September 29, 2022",
+          "changes": "Updated Yae Off-Field DPS Artifact Rankings",
+          "appliedBy": "Loli"
+        },
+        {
+          "date": "",
+          "changes": "Re-organized Keqing's Electro DPS Artifact Rankings to account for the Aggravate changes.",
+          "appliedBy": "[Creed]"
+        }
+      ]
+    },
+    {
+      "version": "3.0",
+      "entries": [
+        {
+          "date": "September 26, 2022",
+          "changes": "Added Delay note for Dendro and typo fixes across sections",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "September 19, 2022",
+          "changes": "Edited Diona weapon rankings + notes",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "September 17, 2022",
+          "changes": "Edited Echoes of an Offering notes for Ayato to clarify ranking when ping is below 100",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Swapped Primodial Jade Cutter and Haran Geppaku Futsu in the Ayato section and added notes",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 15, 2022",
+          "changes": "Fixed error for Tighnari's Role where the word Quickswap was too long for some devices",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 5, 2022",
+          "changes": "Added Tighnari Section",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "September 3, 2022",
+          "changes": "Added Hunter's Path to Ganyu Melt DPS section and edited artifact rankings + notes",
+          "appliedBy": "LarryTheCableGuy"
+        }
+      ]
+    },
+    {
+      "version": "2.8",
+      "entries": [
+        {
+          "date": "August 17, 2022",
+          "changes": "Fixed Lost Prayer notes in Heizou section to reflect situations where you run Bennett",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "August 9, 2022",
+          "changes": "Fixed spacing issues in Barbara notes + spelling errors in Xingqiu notes",
+          "appliedBy": "Shiro"
+        },
+        {
+          "date": "",
+          "changes": "Edited Geo MC weapons and notes",
+          "appliedBy": ""
+        },
+        {
+          "date": "August 5, 2022",
+          "changes": "Added abbreviation meanings for Diluc Ability Tips",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "August 4, 2022",
+          "changes": "Revamped Yoimiya's section",
+          "appliedBy": "Shiro"
+        },
+        {
+          "date": "July 29, 2022",
+          "changes": "Edited Klee ability tips",
+          "appliedBy": ""
+        },
+        {
+          "date": "July 28, 2022",
+          "changes": "Revamped Diluc's section + added KQM guide to notes alongside proper creditation in Credits",
+          "appliedBy": ""
+        },
+        {
+          "date": "July 25, 2022",
+          "changes": "Fixed typo on Keqing Electro DPS, Yelan Section, and clarified wording on Chongyun section.",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "July 22, 2022",
+          "changes": "Revamped Fischl Off-Field DPS section",
+          "appliedBy": "Shiro"
+        },
+        {
+          "date": "July 21, 2022",
+          "changes": "Removed Prototype Crescent note for Fischl Off-Field DPS",
+          "appliedBy": ""
+        },
+        {
+          "date": "July 18, 2022",
+          "changes": "Link to the Weapons and Artifacts page has been included at the top of every element page",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "July 17, 2022",
+          "changes": "Changelogs before June will be backed up and removed from this sheet",
+          "appliedBy": ""
+        },
+        {
+          "date": "",
+          "changes": "Weapons and Artifacts tabs have been separated to lessen the load of the use of sheet, the link to the Weapon and Artifacts overview will be included in every page.",
+          "appliedBy": ""
+        },
+        {
+          "date": "",
+          "changes": "Edited Kazuha Notes and Ability Tips section",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "July 16, 2022",
+          "changes": "Added Fading Twilight to Sara section",
+          "appliedBy": ""
+        },
+        {
+          "date": "July 15, 2022",
+          "changes": "Added Shikanoin Heizou's Section, labeled as Work in Progress",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "July 13, 2022",
+          "changes": "Added Aqua Simulacra to Tartaglia Main DPS weapons.",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "",
+          "changes": "Updated Kazuha talent priority (needs notes added)",
+          "appliedBy": "Shiro"
+        }
+      ]
+    },
+    {
+      "version": "2.7",
+      "entries": [
+        {
+          "date": "July 12, 2022",
+          "changes": "Edited Klee's weapon rankings + notes",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "July 9, 2022",
+          "changes": "Edited Albedo weapon rankings and removed note for Cinnabar",
+          "appliedBy": ""
+        },
+        {
+          "date": "July 5, 2022",
+          "changes": "Added Kuki Shinobu's section",
+          "appliedBy": "ceeelery, LarryTheCableGuy"
+        },
+        {
+          "date": "",
+          "changes": "Added Harbinger of Dawn to Xingqiu section. Added notes regarding C6",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "",
+          "changes": "Removed Crit stats from Venti's section and renamed to \"EM Build\", tweaked notes",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "July 4, 2022",
+          "changes": "Added note under talent priority for Kazuha and Anemo Traveler",
+          "appliedBy": "ceeelery"
+        },
+        {
+          "date": "June 29, 2022",
+          "changes": "Added Skyrider Sword to Kazuha section and changed the placing of Amenoma Kageuchi",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 29, 2022",
+          "changes": "Added Aqua Simulacra to Yoimiya section",
+          "appliedBy": "LarryTheCableGuy"
+        },
+        {
+          "date": "June 28, 2022",
+          "changes": "Updated Geo Traveler's Artifact section and added notes",
+          "appliedBy": ""
+        },
+        {
+          "date": "June 27, 2022",
+          "changes": "Revamped Geo Traveler's section",
+          "appliedBy": ""
+        },
+        {
+          "date": "June 26, 2022",
+          "changes": "Swapped Haran's and Skyward's rankings for Xingqiu and removed Summit Shaper as ≈ to Skyward/Haran",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 25, 2022",
+          "changes": "Added Aqua Simulacra on Freeze and Melt Ganyu sections",
+          "appliedBy": "2ri"
+        },
+        {
+          "date": "June 22, 2022",
+          "changes": "Swapped Whiteblind and Skyward Pride's rankings for Noelle DPS Section. Reworded Skyward Pride notes",
+          "appliedBy": "Shiro"
+        },
+        {
+          "date": "June 21, 2022",
+          "changes": "Added Yelan In-depth Guide from Yelan Mains",
+          "appliedBy": "2ri"
+        },
+        {
+          "date": "June 18, 2022",
+          "changes": "Added Aqua Simulacra to Amber DPS Section.",
+          "appliedBy": "Hyper"
+        },
+        {
+          "date": "June 16, 2022",
+          "changes": "Updated Eula's weapon ranking and notes for Redhorn",
+          "appliedBy": "Folie"
+        },
+        {
+          "date": "June 7, 2022",
+          "changes": "Massively Revamped Xingqiu Section to reference new standardized calculations",
+          "appliedBy": "Quincy"
+        },
+        {
+          "date": "June 6, 2022",
+          "changes": "Added The Stringless on Yelan section",
+          "appliedBy": "2ri"
+        },
+        {
+          "date": "June 2, 2022",
+          "changes": "Added Yelan section (WIP)",
+          "appliedBy": ""
+        }
+      ]
+    }
+  ]
+}

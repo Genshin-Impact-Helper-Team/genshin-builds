@@ -1,0 +1,19 @@
+{
+    "name": {
+        "en": "Off-Field [[element:vaporize]] DPS",
+        "fr": "DPS [[element:vaporize]] Off-Field"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "This ranking assumes [[character:xiangling]] is run with [[character:bennett]] and a buffer."
+        },
+        {
+            "en": "Weapons and artifacts with Elemental Mastery, such as [[weapon:dragons-bane]], [[weapon:kitain-cross-spear]], and EM substats, gain value in team comps where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] at the same time, such as Raiden National."
+        }
+    ],
+    "weapons": {
+        "link": "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1s7au0UhfqU9h0Wp0hihwWvL6t0YEuTrtzt_2nYDIs0Q/edit?usp%3Dsharing&sa=D&source=editors&ust=1778522320355251&usg=AOvVaw3M5viDSd1fE8fujenRZwy-",
+        "author": "XXX"
+    }
+}
