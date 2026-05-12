@@ -3,21 +3,21 @@
         {
             "items": [
                 {
-                    "name": "Burst"
+                    "name": "burst"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "Normal attack"
+                    "name": "na"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "Skill"
+                    "name": "skill"
                 }
             ]
         }

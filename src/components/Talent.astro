@@ -10,6 +10,7 @@ type TalentItem = {
 
 type TalentPriority = {
   items: TalentItem[];
+  approx?: boolean;
 };
 ---
 
@@ -22,23 +23,41 @@ type TalentPriority = {
         <div>
           <strong>{i + 1}.</strong>{' '}
           <span>
-            {talent.items.map((item, itemIndex) => (
-              <>
-                {itemIndex > 0 && ' = '}
-                {item.name}
-                {item.noteId ? (
-                  <a class="note-link" href={`#${item.noteId}`}>
-                    *
-                  </a>
-                ) : item.note ? (
-                  '*'
-                ) : (
-                  ''
-                )}
-              </>
-            ))}
+            {(talent.approx ? talent.items.slice(0, 1) : talent.items).map(
+              (item, itemIndex) => (
+                <>
+                  {itemIndex > 0 && ' = '}
+                  {item.name}
+                  {item.noteId ? (
+                    <a class="note-link" href={`#${item.noteId}`}>
+                      *
+                    </a>
+                  ) : item.note ? (
+                    '*'
+                  ) : (
+                    ''
+                  )}
+                </>
+              ),
+            )}
           </span>
         </div>
+
+        {talent.approx &&
+          talent.items.slice(1).map((item) => (
+            <div class="alt">
+              &asymp; {item.name}
+              {item.noteId ? (
+                <a class="note-link" href={`#${item.noteId}`}>
+                  *
+                </a>
+              ) : item.note ? (
+                '*'
+              ) : (
+                ''
+              )}
+            </div>
+          ))}
       </div>
     ))
   }

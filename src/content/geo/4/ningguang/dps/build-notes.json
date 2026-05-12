@@ -10,8 +10,8 @@
             "fr": "On suppose que [[character:ningguang]] a les buffs de **[[character:bennett]] et un bonus de 40% [[stat:geo-dmg]]**."
         },
         {
-            "en": "[[character:ningguang]]'s Elemental Skill has a 6 second internal cooldown on generating energy, so for the sake of maintaining Elemental Burst uptime, wait 6 seconds to cast again if you need energy. It also breaks when cast on top of another [[element:geo]] Structure, you can intentionally use a structure to break your first screen.",
-            "fr": "Le Skill de [[character:ningguang]] a un ICD de 6 secondes pour générer de l'énergie, donc pour que l'Ult soit disponible tout le temps, attendez 6 secondes pour lancer le skill à nouveau si vous avez besoin d'énergie. Il se brise également lorsqu'il est lancé sur une autre Structure géo, vous pouvez intentionnellement utiliser une structure pour casser votre premier écran."
+            "en": "[[character:ningguang]]'s [[talent:skill]] has a 6 second internal cooldown on generating energy, so for the sake of maintaining [[talent:burst]] uptime, wait 6 seconds to cast again if you need energy. It also breaks when cast on top of another [[element:geo]] Structure, you can intentionally use a structure to break your first screen.",
+            "fr": "Le [[talent:skill]] de [[character:ningguang]] a un ICD de 6 secondes pour générer de l'énergie, donc pour que l'[[talent:burst]] soit disponible tout le temps, attendez 6 secondes pour lancer le [[talent:skill]] à nouveau si vous avez besoin d'énergie. Il se brise également lorsqu'il est lancé sur une autre Structure géo, vous pouvez intentionnellement utiliser une structure pour casser votre premier écran."
         }
     ],
     "weapons": {

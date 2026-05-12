@@ -19,7 +19,7 @@ src/content/<element>/<rarity>/<character>/<build>/talents.json
     {
       "items": [
         {
-          "name": "Normal Attack",
+          "name": "na",
           "note": {
             "en": "Level this first for Charged Attack builds.",
             "fr": "A monter en premier pour les builds d'attaques chargees."
@@ -28,16 +28,13 @@ src/content/<element>/<rarity>/<character>/<build>/talents.json
       ]
     },
     {
+      "approx": true,
       "items": [
         {
-          "name": "Burst"
+          "name": "skill"
         },
         {
-          "name": "Skill",
-          "note": {
-            "en": "Prioritize Skill first if this character is mainly used for shielding.",
-            "fr": "Priorisez le skill si ce personnage est surtout utilise pour son bouclier."
-          }
+          "name": "burst"
         }
       ]
     }
@@ -52,15 +49,30 @@ src/content/<element>/<rarity>/<character>/<build>/talents.json
   `Regarding Talents Choices:` without adding a `*` marker to any talent.
 - `talents[].items`: Talents in the same priority position. Multiple items
   render on one line with `=`.
-- `items[].name`: Talent display name.
+- `talents[].approx`: Optional boolean. Use `true` when multiple talents are
+  close alternatives instead of exactly equal. Later items render below the
+  numbered line with `≈`.
+- `items[].name`: Talent ID from `src/i18n/<lang>/talents.json`.
+  Current IDs are `na`, `ca`, `skill`, and `burst`.
 - `items[].note`: Optional localized editorial note. Adds a `*` marker beside
   the talent and renders in the talent notes section.
 
 ## Notes
 
-- Talent names are currently display strings, not centralized i18n IDs.
-- Use multiple items in the same priority group when talents should be leveled
-  equally:
+- Use talent IDs instead of display names when possible.
+- Existing display strings such as `"Normal Attack"` still work, but they are
+  not translated.
+- Adding `note` to a talent automatically adds a `*` marker next to that talent
+  in the talent priority list.
+- The same `note` also automatically creates a matching note entry under
+  `Regarding Talents Choices:`.
+- Notes support Markdown and inline translation tokens, such as
+  `[[talent:skill]]`.
+
+## Equal Priority
+
+Use multiple items in the same priority group when talents should be leveled
+equally:
 
 ```json
 {
@@ -68,13 +80,13 @@ src/content/<element>/<rarity>/<character>/<build>/talents.json
     {
       "items": [
         {
-          "name": "Burst"
+          "name": "burst"
         },
         {
-          "name": "Skill",
+          "name": "skill",
           "note": {
-            "en": "Prioritize Skill first if this character is mainly used for shielding.",
-            "fr": "Priorisez le skill si ce personnage est surtout utilise pour son bouclier."
+            "en": "Prioritize [[talent:skill]] first if this character is mainly used for shielding.",
+            "fr": "Priorisez le [[talent:skill]] si ce personnage est surtout utilise pour son bouclier."
           }
         }
       ]
@@ -89,20 +101,43 @@ This renders as:
 1. Burst = Skill*
 ```
 
-- Adding `note` to a talent automatically adds a `*` marker next to that talent
-  in the talent priority list.
-- The same `note` also automatically creates a matching note entry under
-  `Regarding Talents Choices:`.
-- Notes support Markdown and inline translation tokens.
+## Approximate Priority
 
-Example with the same note translated in different languages:
+Use `approx: true` when later talents should render as approximate alternatives:
 
 ```json
 {
-  "name": "Burst",
+  "talents": [
+    {
+      "approx": true,
+      "items": [
+        {
+          "name": "skill"
+        },
+        {
+          "name": "na"
+        }
+      ]
+    }
+  ]
+}
+```
+
+This renders as:
+
+```txt
+1. Skill
+≈ Normal Attack
+```
+
+## Translated Note Example
+
+```json
+{
+  "name": "burst",
   "note": {
-    "en": "Level this first if most of the build's damage comes from Burst.",
-    "fr": "A monter en premier si la majorite des degats du build viennent de l'ult."
+    "en": "Level [[talent:burst]] first if most of the build's damage comes from it.",
+    "fr": "Montez le [[talent:burst]] en premier si la majorite des degats du build viennent de lui."
   }
 }
 ```

@@ -79,8 +79,8 @@
                     "name": "wavebreakers-fin",
                     "rarity": 4,
                     "note": {
-                        "en": "At **[R5]**, this weapon is equal to or outperforms **[[weapon:lumidouce-elegy]]**, depending on total team Burst cost.",
-                        "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:lumidouce-elegy]]**, selon le coût total d'ulti de l'équipe."
+                        "en": "At **[R5]**, this weapon is equal to or outperforms **[[weapon:lumidouce-elegy]]**, depending on total team [[talent:burst]] cost.",
+                        "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:lumidouce-elegy]]**, selon le coût total d'[[talent:burst]] de l'équipe."
                     }
                 },
                 {
@@ -107,8 +107,8 @@
                     "name": "kitain-cross-spear",
                     "rarity": 4,
                     "note": {
-                        "en": "In teams where [[character:xiangling]] uses her Skill twice per Burst, this weapon generates the most energy of any other weapon, making it ideal for longer rotations with high [[stat:er]] requirements.",
-                        "fr": "Dans les équipes où [[character:xiangling]] utilise son skill deux fois par ult, cette arme génère le plus d'énergie comparé aux autres armes, la rendant idéale pour les rotations plus longues avec des besoins en [[stat:er]] élevés."
+                        "en": "In teams where [[character:xiangling]] uses her [[talent:skill]] twice per [[talent:burst]], this weapon generates the most energy of any other weapon, making it ideal for longer rotations with high [[stat:er]] requirements.",
+                        "fr": "Dans les équipes où [[character:xiangling]] utilise son [[talent:skill]] deux fois par [[talent:burst]], cette arme génère le plus d'énergie comparé aux autres armes, la rendant idéale pour les rotations plus longues avec des besoins en [[stat:er]] élevés."
                     }
                 }
             ]

@@ -79,10 +79,21 @@ function translateStatValue(locale: any, value: any, sourceFile: string) {
 /**
  * Normalizes one stat entry into an object with a translated display name.
  */
-function translateStatItem(locale: any, item: any, sourceFile: string) {
+function translateStatItem(
+  locale: any,
+  item: any,
+  sourceFile: string,
+  translator?: TranslationHelper,
+) {
   return typeof item === 'string'
     ? { name: translateStatValue(locale, item, sourceFile) }
-    : { ...item, name: translateStatValue(locale, item, sourceFile) };
+    : {
+        ...item,
+        name:
+          typeof item.name === 'string' && item.name.includes('[[')
+            ? translator?.translateNoteText(item.name, sourceFile) ?? item.name
+            : translateStatValue(locale, item, sourceFile),
+      };
 }
 
 /**
@@ -96,17 +107,18 @@ function translateSubstatPriorityItem(
   locale: any,
   item: any,
   sourceFile: string,
+  translator: TranslationHelper,
 ) {
   if (item && Array.isArray(item.items)) {
     return {
       ...item,
       items: item.items.map((stat: any) =>
-        translateStatItem(locale, stat, sourceFile),
+        translateStatItem(locale, stat, sourceFile, translator),
       ),
     };
   }
 
-  return translateStatItem(locale, item, sourceFile);
+  return translateStatItem(locale, item, sourceFile, translator);
 }
 
 function translateArtifactSetName(
@@ -150,6 +162,32 @@ function translateArtifactSetGroup(
   };
 }
 
+function translateTalentItem(
+  translator: TranslationHelper,
+  item: any,
+  sourceFile: string,
+) {
+  if (typeof item?.name !== 'string') return item;
+
+  if (item.name.includes('[[')) {
+    return {
+      ...item,
+      name: translator.translateNoteText(item.name, sourceFile),
+    };
+  }
+
+  // Lowercase slug names are treated as i18n IDs. Existing display strings
+  // such as "Normal Attack" remain valid legacy content.
+  if (/^[a-z0-9-]+$/.test(item.name)) {
+    return {
+      ...item,
+      name: translator.translate('talent', item.name, sourceFile),
+    };
+  }
+
+  return item;
+}
+
 function getArtifactSetNoteGroups(artifactSets: any) {
   return [
     ...artifactSets.artifact_sets.flatMap((rank: any) => rank.groups),
@@ -160,16 +198,21 @@ function getArtifactSetNoteGroups(artifactSets: any) {
 /**
  * Translates all artifact main stat slots while preserving their slot groups.
  */
-function translateMainStats(locale: any, mainstats: any, sourceFile: string) {
+function translateMainStats(
+  locale: any,
+  mainstats: any,
+  sourceFile: string,
+  translator: TranslationHelper,
+) {
   return {
     sands: mainstats.main_stats.sands.map((item: any) =>
-      translateStatItem(locale, item, sourceFile),
+      translateStatItem(locale, item, sourceFile, translator),
     ),
     goblet: mainstats.main_stats.goblet.map((item: any) =>
-      translateStatItem(locale, item, sourceFile),
+      translateStatItem(locale, item, sourceFile, translator),
     ),
     circlet: mainstats.main_stats.circlet.map((item: any) =>
-      translateStatItem(locale, item, sourceFile),
+      translateStatItem(locale, item, sourceFile, translator),
     ),
   };
 }
@@ -300,14 +343,26 @@ function loadBuildData({
     locale,
     artifacts.mainstats,
     artifactMainstatsFile,
+    translator,
   );
 
   artifacts.substats.substats_priority =
     artifacts.substats.substats_priority.map((item: any) =>
-      translateSubstatPriorityItem(locale, item, artifactSubstatsFile),
+      translateSubstatPriorityItem(
+        locale,
+        item,
+        artifactSubstatsFile,
+        translator,
+      ),
     );
 
   const talents = loadJSON(buildPath, 'talents.json');
+  talents.talents = talents.talents.map((priority: { items: any[] }) => ({
+    ...priority,
+    items: priority.items.map((item) =>
+      translateTalentItem(translator, item, talentsFile),
+    ),
+  }));
 
   const notes = {
     weapons: {

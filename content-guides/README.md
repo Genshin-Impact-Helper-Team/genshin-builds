@@ -25,7 +25,7 @@ src/content/pyro/4/amber/metadata.json
 ```
 
 `metadata.json` is used for character display data and the home page character
-filters. Images in this file must come from the official HoYoWiki.
+filters. Images in this file must come from the official HoYoWiki or the Hoyolab Battle Chronicles.
 
 Build-level files live inside each build folder:
 

@@ -30,19 +30,21 @@ src/content/<element>/<rarity>/<character>/metadata.json
 - `image`: Large character image URL shown in the character page header. Should
   come from the official HoYoWiki.
 - `portrait`: Small character icon URL used on the home page character list.
-  Should come from the official HoYoWiki.
+  Should come from the Hoyolab Battle Chronicles Character list.
 
 ## Images
 
-Both `image` and `portrait` must come from the official HoYoWiki:
+Both `image` and `portrait` must come from official sources:
 
 ```txt
 https://wiki.hoyolab.com/pc/genshin/home
+https://act.hoyolab.com/app/community-game-records-sea/index.html
 ```
 
-- Use the large character image for `image`.
-- Use the small character icon for `portrait`.
+- Use the wish character image from hoyowiki for `image`.
+- Use the small character icon for from the hoyolab battle chronicles for `portrait`.
 - Do not use fan wiki, cropped screenshots, or unofficial image links.
+- We're using the battle chronicles portrait because the images are of higher quality, and won't look blurry on mobile.
 
 ## Folder Values
 

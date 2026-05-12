@@ -6,12 +6,12 @@
     "best": true,
     "notes": [
         {
-            "en": "[[character:sucrose]]'s Ascension 4 Talent boosts the entire team's [[stat:em]] by 20% of [[character:sucrose]]'s total [[stat:em]], which is why you want to stack as much [[stat:em]] as possible in her artifacts. As a support, most of [[character:sucrose]]'s value lies on her Ascension 1 and 4 talents, hence leveling her other talents (Normal Attack, Skill, Burst) is not required.",
-            "fr": "Le passif d'Ascension 4 de [[character:sucrose]] buff la [[stat:em]] de toute l'équipe de 20% de la [[stat:em]] de [[character:sucrose]], ce qui est la raison pour laquelle on cherche autant de [[stat:em]] que possible sur ses artéfacts. En tant que support, la valeur de [[character:sucrose]] vient principalement de ses passifs d'Ascension 1 et 4, donc il n'est pas nécessaire de améliorer ses autres talents (Attaque Normale, Skill, Burst)."
+            "en": "[[character:sucrose]]'s Ascension 4 Talent boosts the entire team's [[stat:em]] by 20% of [[character:sucrose]]'s total [[stat:em]], which is why you want to stack as much [[stat:em]] as possible in her artifacts. As a support, most of [[character:sucrose]]'s value lies on her Ascension 1 and 4 talents, hence leveling her other talents ([[talent:na]], [[talent:skill]], [[talent:burst]]) is not required.",
+            "fr": "Le passif d'Ascension 4 de [[character:sucrose]] buff la [[stat:em]] de toute l'équipe de 20% de la [[stat:em]] de [[character:sucrose]], ce qui est la raison pour laquelle on cherche autant de [[stat:em]] que possible sur ses artéfacts. En tant que support, la valeur de [[character:sucrose]] vient principalement de ses passifs d'Ascension 1 et 4, donc il n'est pas nécessaire de améliorer ses autres talents ([[talent:na]], [[talent:skill]], [[talent:burst]])."
         },
         {
-            "en": "When utilized as a [[artifact:viridescent-venerer]] (4) artifact set holder, **make sure you don't immediately swap away after casting Skill/Burst**, you need to be on-field when the [[element:swirl]] reaction happens for you to trigger the 4-set effect.",
-            "fr": "Lorsqu'elle est utilisée pour porter le set [[artifact:viridescent-venerer]] (4), **faites attention à ne pas changer de personnage directement après le skill/ult**, il faut être on-field quand la réaction de [[element:swirl]] a lieu pour déclencher l'effet du 4p."
+            "en": "When utilized as a [[artifact:viridescent-venerer]] (4) artifact set holder, **make sure you don't immediately swap away after casting [[talent:skill]]/[[talent:burst]]**, you need to be on-field when the [[element:swirl]] reaction happens for you to trigger the 4-set effect.",
+            "fr": "Lorsqu'elle est utilisée pour porter le set [[artifact:viridescent-venerer]] (4), **faites attention à ne pas changer de personnage directement après le [[talent:skill]]/[[talent:burst]]**, il faut être on-field quand la réaction de [[element:swirl]] a lieu pour déclencher l'effet du 4p."
         }
     ]
 }

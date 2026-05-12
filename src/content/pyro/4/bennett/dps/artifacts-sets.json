@@ -1,0 +1,85 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is the best generalist pick for [[character:bennett]], as it performs great when triggering [[element:vaporize]] or [[element:melt]], and is still good when not triggering reactions.",
+                                "fr": "Cet set est la meilleure option généraliste pour [[character:bennett]], car il performe bien lorsqu'il déclenche [[element:vaporize]] ou [[element:melt]], et est aussi bon lorsqu'il ne déclenche pas de réactions."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 4,
+                            "note": {
+                                "en": "In teams where [[character:bennett]] frequently triggers [[element:electro]]-related reactions, such as [[element:overload]], this set can perform on par with [[artifact:crimson-witch-of-flames]] (4).",
+                                "fr": "Dans les équipes où [[character:bennett]] déclenche fréquemment des réactions liées à l'[[element:electro]] comme [[element:overload]] par exemple, ce set peut aussi bien performer que [[artifact:crimson-witch-of-flames]] (4)."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "marechaussee-hunter",
+                            "pieces": 4,
+                            "note": {
+                                "en": "When paired with [[character:furina]], this is [[character:bennett]]'s best set.",
+                                "fr": "Lorsqu'il est joué avec [[character:furina]], ce set est le meilleur pour [[character:bennett]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

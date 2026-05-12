@@ -5,7 +5,8 @@ type TranslationCategory =
   | 'weapon'
   | 'character'
   | 'stat'
-  | 'element';
+  | 'element'
+  | 'talent';
 
 const CATEGORIES: TranslationCategory[] = [
   'artifact',
@@ -13,6 +14,7 @@ const CATEGORIES: TranslationCategory[] = [
   'character',
   'stat',
   'element',
+  'talent',
 ];
 
 /**
@@ -73,6 +75,7 @@ export class TranslationHelper {
    * - [[character:furina]]
    * - [[stat:er]]
    * - [[element:melt]]
+   * - [[talent:burst]]
    * - [[some-id]] (automatic category lookup)
    *
    * Unknown IDs are left unchanged and logged as warnings.
@@ -83,7 +86,7 @@ export class TranslationHelper {
    */
   translateNoteText(text: string, sourceFile?: string) {
     return text.replace(
-      /\[\[(?:(artifact|weapon|character|stat|element):)?([a-z0-9%/-]+)\]\]/g,
+      /\[\[(?:(artifact|weapon|character|stat|element|talent):)?([a-z0-9%/-]+)\]\]/g,
       (match, category: TranslationCategory | undefined, id: string) => {
         const translation = this.translateInlineId(id, category, sourceFile);
 

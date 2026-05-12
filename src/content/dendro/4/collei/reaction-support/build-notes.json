@@ -14,16 +14,16 @@
             "fr": "**Rotation typique de [[character:collei]]:**:"
         },
         {
-            "en": "Skill > Burst > Swap",
-            "fr": "Skill > Ult > Swap"
+            "en": "[[talent:skill]] > [[talent:burst]] > Swap",
+            "fr": "[[talent:skill]] > [[talent:burst]] > Swap"
         },
         {
             "en": "**Rotation with [[weapon:polar-star]]:**",
             "fr": "**Rotation avec [[weapon:polar-star]]:**"
         },
         {
-            "en": "N1 > tap Charged Attack > Skill > Burst > Swap",
-            "fr": "N1 > tap Attaque chargée > Skill > Ult > Swap"
+            "en": "N1 > tap [[talent:ca]] > [[talent:skill]] > [[talent:burst]] > Swap",
+            "fr": "N1 > tap [[talent:ca]] > [[talent:skill]] > [[talent:burst]] > Swap"
         }
     ]
 }
