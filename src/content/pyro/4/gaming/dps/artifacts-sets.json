@@ -1,0 +1,52 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "marechaussee-hunter",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set performs worse if [[character:gaming]] is **[C6] and/or using a weapon with a [[stat:cr]] secondary stat**.",
+                                "fr": "Ce set performe moins bien si [[character:gaming]] est **[C6] et/ou utilise une arme avec un stat secondaire [[stat:cr]]**."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "long-nights-oath",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

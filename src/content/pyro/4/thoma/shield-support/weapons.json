@@ -1,0 +1,77 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "rarity": 4,
+                    "note": {
+                        "en": "This is generally [[character:thoma]]'s best weapon for a Shield Support build. Make sure to build some [[stat:cr]] if using it so that you can trigger the passive.",
+                        "fr": "C'est généralement l'arme la plus adaptée pour un build de Support Bouclier. Assurez-vous de build un peu de [[stat:cr]] si vous l'utilisez pour pouvoir déclencher le passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "engulfing-lightning",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-catch",
+                    "rarity": 4,
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "kitain-cross-spear",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "prototype-starglitter",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyward-spine",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "black-tassel",
+                    "rarity": 3
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "rightful-reward",
+                    "rarity": 4,
+                    "note": {
+                        "en": "In teams where you would typically use [[character:thoma]] as a Shield Support, it is difficult or even unfeasible to trigger this weapon passive. If you are able to trigger the passive consistently, then it becomes a good option due to the [[stat:hp%]] stat along with energy generation.",
+                        "fr": "Dans les équipes où vous utiliseriez généralement [[character:thoma]] comme Support Bouclier, il est difficile ou même impossible de déclencher le passif de cette arme. Si vous arrivez à déclencher le passif de manière consistante, alors elle devient une bonne option grâce à la stat [[stat:hp%]] ainsi qu'à la génération d'énergie."
+                    }
+                }
+            ]
+        }
+    ]
+}

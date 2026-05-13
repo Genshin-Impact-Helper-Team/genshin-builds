@@ -1,0 +1,16 @@
+{
+    "name": {
+        "en": "[[element:burgeon]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "This section focuses on using [[character:thoma]] as a trigger for [[element:burgeon]]. [[character:thoma]]'s slow rate of [[element:pyro]] application paired with frequent Fiery Collapse triggers make him a great option for [[element:burgeon]].",
+            "fr": "Cette section se concentre sur l'utilisation de [[character:thoma]] comme déclencheur pour [[element:burgeon]]. Le taux lent d'application [[element:pyro]] de [[character:thoma]] associé aux déclencheurs fréquents de l'effondrement ardent en font une excellente option pour [[element:burgeon]]."
+        },
+        {
+            "en": "Additionally, he provides defensive utility in the form of shields.",
+            "fr": "De plus, il offre une commodité défensive sous forme de boucliers."
+        }
+    ]
+}

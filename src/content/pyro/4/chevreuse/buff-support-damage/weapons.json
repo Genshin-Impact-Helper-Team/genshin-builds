@@ -1,0 +1,106 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "symphonist-of-scents",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "engulfing-lightning",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "staff-of-homa",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "staff-of-the-scarlet-sands",
+                    "rarity": 5
+                },
+                {
+                    "name": "lumidouce-elegy",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "calamity-queller",
+                    "rarity": 5
+                },
+                {
+                    "name": "skyward-spine",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "primordial-jade-winged-spear",
+                    "rarity": 5
+                },
+                {
+                    "name": "vortex-vanquisher",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-catch",
+                    "rarity": 4,
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "deathmatch",
+                    "rarity": 4
+                },
+                {
+                    "name": "ballad-of-the-fjords",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "missive-windspear",
+                    "rarity": 4,
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "rarity": 4,
+                    "note": {
+                        "en": "Though ranked lower for her own damage, **[[weapon:favonius-lance]]'s team energy regeneration can make it a desirable option even if it means having lower [[character:chevreuse]] damage**.",
+                        "fr": "Bien qu'elle soit classée plus basse pour ses propres dégâts, **la régénération de l'énergie de l'équipe qu'apporte [[weapon:favonius-lance]] peut la rendre désirable même si cela signifie avoir des dégâts plus faibles pour [[character:chevreuse]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}

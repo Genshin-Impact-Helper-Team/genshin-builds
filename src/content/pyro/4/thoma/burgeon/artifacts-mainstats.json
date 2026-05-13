@@ -1,0 +1,20 @@
+{
+    "notes": [
+        {
+            "en": "While building as much [[stat:em]] (with enough [[stat:er]]) as possible is optimal for damage, you may use some [[stat:hp%]] main stats if you desire a stronger shield. This can be relevant if running teams without other forms of defensive utility outside of [[character:thoma]]'s shields, and it is worth keeping in mind that [[element:burgeon]] deals self-damage.",
+            "fr": "Bien que build autant de [[stat:em]] que possible (avec assez de [[stat:er]]) est optimal pour les dégâts, il peut être utile d'avoir quelques mainstats [[stat:hp%]] si vous souhaitez un bouclier plus résistant. Cela peut être pertinent lorsque vous jouez des équipe sans commodité défensive autre que le bouclier de [[character:thoma]], et il est bon de rappeler que [[element:burgeon]] auto-inflige des dégâts."
+        }
+    ],
+    "main_stats": {
+        "sands": [
+            "er",
+            "em"
+        ],
+        "goblet": [
+            "em"
+        ],
+        "circlet": [
+            "em"
+        ]
+    }
+}

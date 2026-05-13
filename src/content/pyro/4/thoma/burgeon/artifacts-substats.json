@@ -1,0 +1,21 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Until requirement is met.",
+                "fr": "Jusqu'à atteindre les besoins requis."
+            }
+        },
+        "em",
+        "hp%",
+        "hp",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only useful if using [[weapon:favonius-lance]].",
+                "fr": "Utile seulement si joué avec [[weapon:favonius-lance]]."
+            }
+        }
+    ]
+}

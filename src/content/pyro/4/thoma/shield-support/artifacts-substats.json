@@ -1,0 +1,20 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Until requirement is met.",
+                "fr": "Jusqu'à atteindre les besoins requis."
+            }
+        },
+        "hp%",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Desired substat when using [[weapon:favonius-lance]].",
+                "fr": "Souhaité lors de l'utilisation de [[weapon:favonius-lance]]."
+            }
+        },
+        "hp"
+    ]
+}

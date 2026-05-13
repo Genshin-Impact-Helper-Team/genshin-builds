@@ -1,0 +1,77 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Only use this set if you use [[character:chevreuse]]'s [[talent:burst]] every rotation.",
+                                "fr": "A n'utiliser que si vous utilisez l'[[talent:burst]] de [[character:chevreuse]] à chaque rotation."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "ocean-hued-clam",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "song-of-days-past",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "healing-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "maiden-beloved",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

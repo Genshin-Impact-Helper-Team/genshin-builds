@@ -1,0 +1,16 @@
+{
+    "name": {
+        "en": "Buff Support & Damage",
+        "fr": "Support Buff & Dégâts"
+    },
+    "notes": [
+        {
+            "en": "Support and Damage [[character:chevreuse]] aims to deal high amounts of damage with her [[talent:burst]] and [[talent:skill]] while maintaining her supportive abilities in [[element:pyro]] [[element:electro]] teams.",
+            "fr": "[[character:chevreuse]] Support et Dégâts vise à infliger de gros dégâts avec son [[talent:burst]] et son [[talent:skill]] tout en maintenant ses capacités de soutien dans les équipes [[element:pyro]] [[element:electro]]."
+        },
+        {
+            "en": "This playstyle is made viable **after [C4] because of her ability to use multiple [[talent:skill]]s per rotation**.",
+            "fr": "Ce style de jeu est rendu viable **après sa [C4] grâce à sa capacité à utiliser plusieurs [[talent:skill]] par rotation**."
+        }
+    ]
+}

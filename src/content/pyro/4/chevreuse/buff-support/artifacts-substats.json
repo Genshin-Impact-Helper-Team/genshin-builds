@@ -1,0 +1,21 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Only if needed. Prioritize until meeting [[stat:er]] requirements.",
+                "fr": "Seulement si nécessaire. Prioriser jusqu'à atteindre les besoins de [[stat:er]]."
+            }
+        },
+        "hp%",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only if using **[[weapon:favonius-lance]]**.",
+                "fr": "Seulement si **[[weapon:favonius-lance]]** est équipée."
+            }
+        },
+        "hp",
+        "em"
+    ]
+}

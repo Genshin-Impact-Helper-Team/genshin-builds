@@ -1,0 +1,21 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "hp%"
+        ],
+        "goblet": [
+            "hp%"
+        ],
+        "circlet": [
+            "hp%",
+            {
+                "name": "cr",
+                "note": {
+                    "en": "Good option on the circlet if using [[weapon:favonius-lance]].",
+                    "fr": "Bonne option sur le Diadème si vous utilisez [[weapon:favonius-lance]]."
+                }
+            }
+        ]
+    }
+}

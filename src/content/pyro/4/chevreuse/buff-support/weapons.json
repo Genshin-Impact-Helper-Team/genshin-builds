@@ -1,0 +1,56 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "symphonist-of-scents",
+                    "rarity": 5,
+                    "note": {
+                        "en": "Bear in mind you will need around 31% HP from substat rolls with [[stat:hp%]] / [[stat:hp%]] / [[stat:hp%]] main stats to cap out her A4 passive using this, which makes it difficult to build enough [[stat:er]] to use her [[talent:burst]] every rotation.",
+                        "fr": "Gardez à l'esprit que vous aurez besoin d'environ 31% de PV grâce aux sous-stats avec des stats principales [[stat:hp%]] / [[stat:hp%]] / [[stat:hp%]] pour atteindre le maximum de son passif A4 en utilisant cette arme, ce qui rend difficile d'obtenir suffisamment de [[stat:er]] pour utiliser son [[talent:burst]] à chaque rotation."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "rarity": 4,
+                    "note": {
+                        "en": "Loses some value if [[character:chevreuse]] does not [[talent:burst]]. Still valuable for team energy.",
+                        "fr": "Perd de la valeur si [[character:chevreuse]] n'utilise pas son [[talent:burst]]. Est tout de même utile pour l'énergie de l'équipe."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "dialogues-of-the-desert-sages",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "black-tassel",
+                    "rarity": 3
+                },
+                {
+                    "name": "rightful-reward",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "prototype-starglitter",
+                    "rarity": 4
+                }
+            ]
+        }
+    ]
+}

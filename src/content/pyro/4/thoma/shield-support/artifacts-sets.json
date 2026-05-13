@@ -1,0 +1,81 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "vourukashas-glow",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set ideally works best in **heavily reaction-focused** teams like **Hu Tao [[element:vaporize]]** where the **[[stat:em]]** is utilized well. This comes at the cost of making [[character:thoma]] **even more difficult to build**, since you have **fewer potential substat rolls using 4-star artifacts**, and therefore less of a chance of hitting his [[stat:er]] and [[stat:hp]] goals.",
+                                "fr": "Ce set fonctionne idéalement dans les équipes fortement axées sur les réactions, comme **Hu Tao [[element:vaporize]]** où la **[[stat:em]]** est bien utilisée. Cela rend cependant le build de [[character:thoma]] **encore plus compliqué**, puisque vous avez **moins de possibilités de substats favorables en utilisant des artefacts 4 étoiles**, et donc moins de chances d'atteindre ses besoins en [[stat:er]] et [[stat:hp]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is a support option in teams with a relevant amount of [[element:dendro]] damage, such as [[character:kinich]].",
+                                "fr": "Ce set est une option de soutien dans les équipes avec une quantité pertinente de dégâts [[element:dendro]], comme [[character:kinich]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
