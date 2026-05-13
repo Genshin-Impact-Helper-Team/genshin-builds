@@ -1,0 +1,25 @@
+{
+    "name": {
+        "en": "[[element:vaporize]] DPS",
+        "fr": "DPS [[element:vaporize]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "Calculations assume [[character:bennett]]. [[character:yanfei]] is a [[talent:ca]] damage dealer that utilizes a stack mechanic to increase the damage of her [[talent:ca]]s.",
+            "fr": "Les calculs supposent que [[character:bennett]] est présent. [[character:yanfei]] inflige des dégâts via ses [[talent:ca]], et utilise un mécanisme de stack pour augmenter leurs dégâts."
+        },
+        {
+            "en": "[[character:yanfei]] typically does **N2C** as her combo to maximize her damage, especially during her [[talent:burst]] state. With two [[element:hydro]] characters, this results in consistent [[element:vaporize]] hits. However, if you only have one [[element:hydro]] character on your [[character:yanfei]] team, it may be best to do **N3C** instead.",
+            "fr": "On utilise généralement **N2C** comme combo pour maximiser les dégâts de [[character:yanfei]], en particulier pendant son [[talent:burst]]. Avec deux personnages [[element:hydro]], cela permet de déclencher [[element:vaporize]] de façon constante. Cependant, si vous n'avez qu'un seul personnage [[element:hydro]] dans votre équipe, il peut être préférable de faire **N3C** à la place."
+        },
+        {
+            "en": "[[character:yanfei]]'s A4 being reliant on a crit hit makes her ideal crit ratio skew toward **3:4** and **3:5** instead of the standard **1:2**.",
+            "fr": "La dépendance de l'A4 de [[character:yanfei]] à un coup critique fait que son crit ratio idéal tends plus vers **3:4** ou **3:5** que le standard **1:2**."
+        }
+    ],
+    "weapons": {
+        "author": "Speify",
+        "link": "https://www.google.com/url?q=https://docs.google.com/spreadsheets/u/0/d/1dCMd70IzRh1qM8WWB-ArJdazhGb63aTm3p7AMEqY7eU/edit&sa=D&source=editors&ust=1778690372339709&usg=AOvVaw29xdtKDrxaKecRXNxxvG4n"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": {
+        "en": "Shield Support [C4+ Required]",
+        "fr": "Support de Bouclier [C4+ Requise]"
+    },
+    "notes": [
+        {
+            "en": "This section is dedicated to a playstyle where [[character:yanfei]] is used as a primary shielder through her 4th Constellation.",
+            "fr": "Cette section est dédiée à un style de jeu où [[character:yanfei]] est utilisée comme bouclier principal grâce à sa 4ème Constellation."
+        },
+        {
+            "en": "Due to the requirement of having to [[talent:burst]] off cooldown, this build has **high energy requirements**.",
+            "fr": "En raison de la nécessité de recharger son [[talent:burst]] après chaque utilisation, ce build a des **besoins en énergie élevés**."
+        }
+    ]
+}
