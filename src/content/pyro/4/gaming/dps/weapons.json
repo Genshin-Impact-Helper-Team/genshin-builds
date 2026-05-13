@@ -1,0 +1,113 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "gest-of-the-mighty-wolf",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "rarity": 4,
+                    "note": {
+                        "en": "The value of [[weapon:serpent-spine]] **decreases if it is lower refinement and/or if [[character:gaming]] cannot maintain at least three stacks with it** (i.e. without a shielder).",
+                        "fr": "La valeur de [[weapon:serpent-spine]] **diminue si elle est peu raffinée et/ou si [[character:gaming]] ne peut pas maintenir au moins trois stacks avec celle-ci** (i.e. sans un bouclier)."
+                    }
+                },
+                {
+                    "name": "redhorn-stonethresher",
+                    "rarity": 5
+                },
+                {
+                    "name": "a-thousand-blazing-suns",
+                    "rarity": 5
+                },
+                {
+                    "name": "verdict",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "beacon-of-the-reed-sea",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fruitful-hook",
+                    "rarity": 4,
+                    "note": {
+                        "en": "At **[R4+]**, this weapon is [[character:gaming]]'s best weapon.",
+                        "fr": "À **[R4+]**, cette arme est l'arme la plus efficace de [[character:gaming]]."
+                    }
+                },
+                {
+                    "name": "wolfs-gravestone",
+                    "rarity": 5
+                },
+                {
+                    "name": "rainslasher",
+                    "rarity": 4,
+                    "note": {
+                        "en": "This weapon should only be used in [[element:vaporize]]. At **[R5]**, this weapon is about equal to **[[weapon:redhorn-stonethresher]]**.",
+                        "fr": "Cette arme ne devrait être utilisée que dans les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme est à peu près équivalente à **[[weapon:redhorn-stonethresher]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "mailed-flower",
+                    "rarity": 4,
+                    "refinement": 5
+                },
+                {
+                    "name": "lithic-blade",
+                    "rarity": 4,
+                    "note": {
+                        "en": "Ranking assumes two stacks."
+                    }
+                },
+                {
+                    "name": "the-unforged",
+                    "rarity": 5,
+                    "note": {
+                        "en": "Slightly gains value if [[character:gaming]] is shielded, making it roughly equal to **[[weapon:wolfs-gravestone]]**.",
+                        "fr": "Gagne légèrement en valeur si [[character:gaming]] a un bouclier, ce qui rend cette arme approximativement équivalente à **[[weapon:wolfs-gravestone]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "tidal-shadow",
+                    "rarity": 4
+                },
+                {
+                    "name": "ultimate-overlords-mega-magic-sword",
+                    "rarity": 4,
+                    "refinement": 5,
+                    "note": {
+                        "en": "[[stat:er]] weapons gain value the higher [[character:gaming]]'s Energy requirements are, typically before [[character:gaming]] is **[C4]**.",
+                        "fr": "Les armes [[stat:er]] gagnent en valeur au fur et à mesure que les besoins en énergie de [[character:gaming]] augmentent, généralement avant que [[character:gaming]] soit **[C4]**."
+                    }
+                },
+                {
+                    "name": "makhaira-aquamarine",
+                    "rarity": 4
+                }
+            ]
+        }
+    ]
+}

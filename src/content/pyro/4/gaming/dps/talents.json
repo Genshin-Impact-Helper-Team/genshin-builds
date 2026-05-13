@@ -1,0 +1,29 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "na",
+                    "note": {
+                        "en": "Prioritize this over the [[talent:burst]] talent if using [[character:gaming]]'s [[talent:na]]s with **[[character:bennett]] [C6]**.",
+                        "fr": "A prioriser par rapport à l'[[talent:burst]] si vous utilisez les [[talent:na]] de [[character:gaming]] avec **[[character:bennett]] [C6]**."
+                    }
+                }
+            ]
+        }
+    ]
+}
