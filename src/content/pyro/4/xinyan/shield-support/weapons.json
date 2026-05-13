@@ -1,0 +1,28 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "sacrificial-greatsword",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "whiteblind",
+                    "rarity": 4
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-greatsword",
+                    "rarity": 4
+                }
+            ]
+        }
+    ]
+}

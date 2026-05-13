@@ -1,0 +1,12 @@
+{
+    "name": {
+        "en": "[[element:pyro]] DPS",
+        "fr": "DPS [[element:pyro]]"
+    },
+    "notes": [
+        {
+            "en": "It is **required** to run this build with [C6] [[character:bennett]].",
+            "fr": "Ce build se joue **uniquement** avec [[character:bennett]] [C6]."
+        }
+    ]
+}
