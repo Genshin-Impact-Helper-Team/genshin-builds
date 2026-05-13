@@ -8,8 +8,8 @@
                             "name": "noblesse-oblige",
                             "pieces": 4,
                             "note": {
-                                "en": "This set provides a teamwide [[atk%]] buff while also increasing Burst damage. [[character:diona]] does not have the best uptime on this set, however, she may be the best option to use this set.",
-                                "fr": "Ce set fournit un buff d'[[atk%]] à toute l'équipe tout en augmentant les dégâts de l'Ult. [[character:diona]] n'a pas le meilleure uptime sur ce set, cependant elle est potentiellement la meilleure option pour utiliser ce set."
+                                "en": "This set provides a teamwide [[atk%]] buff while also increasing [[talent:burst]] damage. [[character:diona]] does not have the best uptime on this set, however, she may be the best option to use this set.",
+                                "fr": "Ce set fournit un buff d'[[atk%]] à toute l'équipe tout en augmentant les dégâts de l'[[talent:burst]]. [[character:diona]] n'a pas le meilleure uptime sur ce set, cependant elle est potentiellement la meilleure option pour utiliser ce set."
                             }
                         }
                     ]
@@ -93,8 +93,8 @@
                             "name": "tenacity-of-the-millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "This set is a niche option for [[character:diona]]. It can be considered in teams including some variants of [[character:ganyu]] [[element:freeze]] which have shorter rotation lengths, meaning [[character:diona]]'s Burst will not be used every rotation, and where you can snapshot the [[stat:atk%]] buff onto [[character:ganyu]]'s Burst.",
-                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes incluant certaines variantes de [[character:ganyu]] [[element:freeze]] qui ont des rotations plus courtes, ce qui signifie que l'Ult de [[character:diona]] ne sera pas utilisé à chaque rotation, et où vous pouvez snapshot le buff d'[[stat:atk%]] sur l'Ult de [[character:ganyu]]."
+                                "en": "This set is a niche option for [[character:diona]]. It can be considered in teams including some variants of [[character:ganyu]] [[element:freeze]] which have shorter rotation lengths, meaning [[character:diona]]'s [[talent:burst]] will not be used every rotation, and where you can snapshot the [[stat:atk%]] buff onto [[character:ganyu]]'s [[talent:burst]].",
+                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes incluant certaines variantes de [[character:ganyu]] [[element:freeze]] qui ont des rotations plus courtes, ce qui signifie que l'[[talent:burst]] de [[character:diona]] ne sera pas utilisé à chaque rotation, et où vous pouvez snapshot le buff d'[[stat:atk%]] sur l'[[talent:burst]] de [[character:ganyu]]."
                             }
                         }
                     ]

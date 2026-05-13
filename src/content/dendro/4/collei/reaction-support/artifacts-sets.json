@@ -1,72 +1,72 @@
 {
-  "artifact_sets": [
-    {
-      "groups": [
+    "artifact_sets": [
         {
-          "items": [
-            {
-              "name": "deepwood-memories",
-              "pieces": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "groups": [
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "items": [
-            {
-              "name": "noblesse-oblige",
-              "pieces": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "groups": [
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "items": [
-            {
-              "name": "tenacity-of-the-millelith",
-              "pieces": 4,
-              "note": {
-                "en": "[[character:collei]]'s Sprout damage counts as Skill damage, which allows her to be able to keep **[[artifact:tenacity-of-the-millelith]]** (4) up during important damage windows. Generally an alternative to **[[artifact:noblesse-oblige]]** (4) or **[[artifact:deepwood-memories]]** (4) (or if you are already running both in a team).",
-                "fr": "Les dégâts de l'effet Germe de [[character:collei]] sont considérés comme des dégâts de skill, ce qui lui permet de maintenir facilement l'effet de **[[artifact:tenacity-of-the-millelith]]** (4) pendant les périodes de dégâts importantes. Généralement une alternative à **[[artifact:noblesse-oblige]]** (4) ou **[[artifact:deepwood-memories]]** (4) (ou si vous avez déjà les deux dans une équipe)."
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "groups": [
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:collei]]'s Sprout damage counts as [[talent:skill]] damage, which allows her to be able to keep **[[artifact:tenacity-of-the-millelith]]** (4) up during important damage windows. Generally an alternative to **[[artifact:noblesse-oblige]]** (4) or **[[artifact:deepwood-memories]]** (4) (or if you are already running both in a team).",
+                                "fr": "Les dégâts de l'effet Germe de [[character:collei]] sont considérés comme des dégâts de [[talent:skill]], ce qui lui permet de maintenir facilement l'effet de **[[artifact:tenacity-of-the-millelith]]** (4) pendant les périodes de dégâts importantes. Généralement une alternative à **[[artifact:noblesse-oblige]]** (4) ou **[[artifact:deepwood-memories]]** (4) (ou si vous avez déjà les deux dans une équipe)."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "items": [
-            {
-              "name": "instructor",
-              "pieces": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "groups": [
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "items": [
-            {
-              "name": "gilded-dreams",
-              "pieces": 4,
-              "note": {
-                "en": "This set is only used in a team where [[character:collei]] is used to **trigger** reactions (i.e. [[element:bloom]]/[[element:burning]] teams).",
-                "fr": "Ce set n'est utilisé que dans une équipe où [[character:collei]] est utilisée pour **déclencher** des réactions (i.e. équipes [[element:bloom]]/[[element:burning]])."
-              }
-            }
-          ]
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is only used in a team where [[character:collei]] is used to **trigger** reactions (i.e. [[element:bloom]]/[[element:burning]] teams).",
+                                "fr": "Ce set n'est utilisé que dans une équipe où [[character:collei]] est utilisée pour **déclencher** des réactions (i.e. équipes [[element:bloom]]/[[element:burning]])."
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

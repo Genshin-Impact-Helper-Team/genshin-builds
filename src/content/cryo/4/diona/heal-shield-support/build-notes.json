@@ -10,8 +10,8 @@
             "fr": "En tant que support, [[character:diona]] est généralement utilisée pour trois choses : le bouclier, les soins et la génération de particules [[element:cryo]]. Associer Diona à des personnages infligeant des dégâts [[element:cryo]] tels que [[character:kamisato-ayaka]], [[character:ganyu]] et [[character:eula]] vous permet de leur fournir de l'énergie tout en leur offrant un bouclier. Des armes telles que [[weapon:sacrificial-bow]] et [[weapon:favonius-warbow]] augmentent considérablement son potentiel en tant que batterie."
         },
         {
-            "en": "[[character:diona]]'s Elemental Skill grants a [[element:cryo]] shield which allows cleansing. Every time you swap characters with the shield up, it applies [[element:cryo]]. This acts as a cleanse.",
-            "fr": "Le skill de [[character:diona]] octroie un bouclier [[element:cryo]] qui permet de cleanse. Chaque fois que vous changez de personnage avec le bouclier actif, il applique [[element:cryo]]. Cela agit comme un cleanse."
+            "en": "[[character:diona]]'s [[talent:skill]] grants a [[element:cryo]] shield which allows cleansing. Every time you swap characters with the shield up, it applies [[element:cryo]]. This acts as a cleanse.",
+            "fr": "Le [[talent:skill]] de [[character:diona]] octroie un bouclier [[element:cryo]] qui permet de cleanse. Chaque fois que vous changez de personnage avec le bouclier actif, il applique [[element:cryo]]. Cela agit comme un cleanse."
         }
     ]
 }

@@ -1,0 +1,26 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "approx": true,
+            "items": [
+                {
+                    "name": "skill"
+                },
+                {
+                    "name": "na",
+                    "note": {
+                        "en": "[[talent:na]] levels are only important if [[character:bennett]] is C6.",
+                        "fr": "Les niveaux d'[[talent:na]] ne sont importants que si [[character:bennett]] est C6."
+                    }
+                }
+            ]
+        }
+    ]
+}

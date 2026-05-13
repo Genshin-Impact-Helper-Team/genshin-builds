@@ -3,14 +3,14 @@
         {
             "items": [
                 {
-                    "name": "Skill"
+                    "name": "skill"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "Burst"
+                    "name": "burst"
                 }
             ]
         }

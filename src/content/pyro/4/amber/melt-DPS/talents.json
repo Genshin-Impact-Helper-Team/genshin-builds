@@ -3,14 +3,14 @@
         {
             "items": [
                 {
-                    "name": "Normal Attack"
+                    "name": "na"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "Skill"
+                    "name": "skill"
                 }
             ]
         }

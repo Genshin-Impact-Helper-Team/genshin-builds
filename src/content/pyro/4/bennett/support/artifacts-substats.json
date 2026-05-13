@@ -1,0 +1,11 @@
+{
+    "substats_priority": [
+        "er",
+        {
+            "name": "[[stat:cr/cd]] / [[stat:hp%]]"
+        },
+        {
+            "name": "[[stat:atk%]] / [[stat:hp]]"
+        }
+    ]
+}

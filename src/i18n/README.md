@@ -4,7 +4,6 @@ This folder contains the shared translation dictionaries used by the site.
 
 Each language has its own folder and each language folder **must contain the same dictionary files**.
 
-
 ## How It Works
 
 Build files and inlline translation tokens store IDs instead of display names. The site looks up that ID in the current language dictionary and displays the translated text.
@@ -30,6 +29,8 @@ Use:
   or `atk-set`.
 - `elements.json` for elements and reactions, such as `pyro`, `melt`,
   `vaporize`, or `bloom`.
+- `talents.json` for talent names, such as `normal-attack`, `charged-attack`,
+  `skill`, and `burst`.
 - `ui.json` for website labels, section titles, buttons, and general interface
   text.
 
@@ -89,6 +90,7 @@ Typed tokens search one specific dictionary:
 [[character:xiangling]]
 [[stat:er]]
 [[element:vaporize]]
+[[talent:burst]]
 ```
 
 Untyped tokens search known gameplay dictionaries automatically:
@@ -109,3 +111,4 @@ Typed tokens are safer when an ID could exist in more than one dictionary.
 - Add new English entries first, then translate them into other languages.
 - If you are unsure about JSON formatting, add the `Needs Format Check` label
   to your Pull Request.
+- Each folder needs to contain the same files, even if they contain an empty dictionnary (`{}`). If you create a new file, make sure to add it to the other folders too!

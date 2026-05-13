@@ -1,0 +1,64 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4,
+                            "note": {
+                                "en": "In teams that value [[stat:em]] more than [[stat:atk%]], this set pulls ahead of other options if [[character:bennett]] can reliably trigger a reaction.",
+                                "fr": "Dans les équipes qui valorisent la [[stat:em]] plus que l'[[stat:atk%]], ce set passe devant les autres si [[character:bennett]] peut à coup sûr déclencher une réaction."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set requires [[character:bennett]] to trigger a reaction including the element you want to buff. When [[artifact:noblesse-oblige]] is already covered on the team, or the team values DMG Bonus more than [[stat:atk%]] or [[stat:em]], this set is a good pick.",
+                                "fr": "Ce set nécessite que [[character:bennett]] déclenche une réaction incluant l'élément que vous souhaitez buff. Lorsque [[artifact:noblesse-oblige]] est déjà présent dans l'équipe, ou que l'équipe valorise le Bonus de Dégâts plus que l'[[stat:atk%]] ou la [[stat:em]], ce set est un bon choix."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "The best pick for any [[element:dendro]] damage related team [[character:bennett]] might be in. Use this if there is no other viable holder available.",
+                                "fr": "Le meilleur choix pour toute équipe liée aux dégâts [[element:dendro]] dans laquelle [[character:bennett]] pourrait être. Utilisez-le si aucun autre porteur viable n'est disponible."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

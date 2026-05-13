@@ -21,7 +21,7 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-substats.json
       "name": "cr",
       "note": {
         "en": "Prioritize until your ratio is stable.",
-        "fr": "Priorisez jusqu'à ce que votre ratio soit stable."
+        "fr": "Priorisez jusqu'a ce que votre ratio soit stable."
       }
     },
     {
@@ -44,7 +44,9 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-substats.json
   - an object with `name` and optional `note`
   - an alternative group with `items`, where the first stat keeps the numbered
     rank and later stats render with `≈`
-- `name`: Stat ID from `src/i18n/<lang>/stats.json`.
+- `name`: Stat ID from `src/i18n/<lang>/stats.json`. Object names can also use
+  inline translation tokens when a row needs custom text, such as
+  `"[[stat:cr/cd]] / [[stat:hp%]]"`.
 - `items`: List of stat strings or stat objects for same-rank alternatives.
 - `note`: Optional localized editorial note. Adds a `*` marker beside the
   substat and renders in the `Substats` part of the artifact notes section.
@@ -52,7 +54,8 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-substats.json
 ## Notes
 
 - String items are concise and should be used when no note is needed.
-- Object items should be used when a substat needs an explanation.
+- Object items should be used when a substat needs an explanation, or when the
+  row needs custom text with inline translation tokens.
 - Adding `note` to a substat automatically adds a `*` marker next to that
   substat in the substat priority list.
 - The same `note` also automatically creates a matching note entry under the
@@ -69,6 +72,20 @@ Example with the same note translated in different languages:
     "fr": "A utiliser lorsque les degats de reaction sont importants."
   }
 }
+```
+
+Example with a custom object name using inline translation tokens:
+
+```json
+{
+  "name": "[[stat:cr/cd]] / [[stat:hp%]]"
+}
+```
+
+This renders as:
+
+```txt
+CRIT Rate / CRIT DMG / HP%
 ```
 
 ## Alternative Groups
