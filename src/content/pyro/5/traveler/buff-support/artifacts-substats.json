@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "er",
+        "cr/cd",
+        "atk%",
+        {
+            "name": "def%",
+            "note": {
+                "en": "Only prioritized when using **[[weapon:peak-patrol-song]]**.",
+                "fr": "A prioriser uniquement lorsque **[[weapon:peak-patrol-song]]** est équipée."
+            }
+        }
+    ]
+}

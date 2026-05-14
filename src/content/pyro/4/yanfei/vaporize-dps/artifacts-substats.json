@@ -6,8 +6,8 @@
         {
             "name": "er",
             "note": {
-                "en": "Some teams will prioritize [[stat:er]] over [[stat:em]] if it means [[character:yanfei]] is able to [[talent:burst]] every rotation. Otherwise, it is safe to ignore [[stat:er]].",
-                "fr": "Certaines équipes privilégieront la [[stat:er]] plutôt que la [[stat:em]] si cela signifie que [[character:yanfei]] peut [[talent:burst]] à chaque rotation. Sinon, on peut ignorer la [[stat:er]]."
+                "en": "Some teams will prioritize [[stat:er]] over [[stat:em]] if it means [[character:yanfei]] is able to [[ability:burst]] every rotation. Otherwise, it is safe to ignore [[stat:er]].",
+                "fr": "Certaines équipes privilégieront la [[stat:er]] plutôt que la [[stat:em]] si cela signifie que [[character:yanfei]] peut [[ability:burst]] à chaque rotation. Sinon, on peut ignorer la [[stat:er]]."
             }
         }
     ]

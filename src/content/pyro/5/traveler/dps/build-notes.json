@@ -1,0 +1,19 @@
+{
+    "name": {
+        "en": "DPS"
+    },
+    "notes": [
+        {
+            "en": "[[element:pyro]] [[character:traveler]]'s [C6] offers access to a [[element:pyro]] infusion as well as a 40% [[stat:cd]] buff to infused attacks. This allows them to be a potent DPS, most notably with **[[element:vaporize]] and [[element:melt]] reactions**."
+            ,"fr": "La C6 du [[character:traveler]] [[element:pyro]] donne accès à une infusion [[element:pyro]] ainsi qu'à un buff de 40% de [[stat:cd]] sur ses attaques infusées. Cela lui permet d'être un puissant DPS, surtout avec **[[element:vaporize]] et [[element:melt]]**."
+        },
+        {
+            "en": "N1C is the ideal combo for [[element:pyro]] [[character:traveler]] in [[element:vaporize]] or [[element:melt]] teams."
+            ,"fr": "N1C est le combo idéal pour le [[character:traveler]] [[element:pyro]] dans des équipes [[element:vaporize]] ou [[element:melt]]."
+        }
+    ],
+    "weapons": {
+        "author": "XXXX",
+        "link": "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1RwTrrgotgTY4KEDbGItMH_vSN2Kdfb5qehdALCyn5K8/edit?usp%3Dsharing&sa=D&source=editors&ust=1778766768939575&usg=AOvVaw2fesBfAvaBuRoT3NI6tBJZ"
+    }
+}

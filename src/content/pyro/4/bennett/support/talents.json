@@ -12,8 +12,8 @@
                 {
                     "name": "skill",
                     "note": {
-                        "en": "[[talent:skill]] talent levels are only important when optimizing [[character:bennett]]'s personal damage.",
-                        "fr": "Les niveaux du [[talent:skill]] ne sont important que pour maximiser les dégâts personnels de [[character:bennett]]."
+                        "en": "[[ability:skill]] talent levels are only important when optimizing [[character:bennett]]'s personal damage.",
+                        "fr": "Les niveaux du [[ability:skill]] ne sont important que pour maximiser les dégâts personnels de [[character:bennett]]."
                     }
                 }
             ]

@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { parsePublicCharacterSlug } from './character-slugs';
 
 /**
  * Returns the localized note for a content item.
@@ -93,11 +94,22 @@ export const toTitleCase = (str: string) =>
  * @returns Character path information or null if not found.
  */
 export function findCharacterPath(base: string, char: string) {
-  for (const element of fs.readdirSync(base)) {
-    for (const rarity of fs.readdirSync(path.join(base, element))) {
-      const candidate = path.join(base, element, rarity, char);
+  const lookup = parsePublicCharacterSlug(char);
 
-      if (fs.existsSync(candidate)) {
+  if (lookup.character === 'traveler' && !lookup.element) {
+    return null;
+  }
+
+  for (const element of fs.readdirSync(base)) {
+    if (lookup.element && element !== lookup.element) {
+      continue;
+    }
+
+    for (const rarity of fs.readdirSync(path.join(base, element))) {
+      const candidate = path.join(base, element, rarity, lookup.character);
+      const metadataFile = path.join(candidate, 'metadata.json');
+
+      if (fs.existsSync(metadataFile)) {
         return {
           element,
           rarity,

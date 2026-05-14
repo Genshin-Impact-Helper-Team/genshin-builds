@@ -1,0 +1,99 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "uraku-misugiri",
+                    "rarity": 5,
+                    "note": {
+                        "en": "Performs even better than similar options if a **[[element:geo]] character** is on the team.",
+                        "fr": "Performe encore mieux que les autres options équivalentes si un **personnage [[element:geo]]** est dans l'équipe."
+                    }
+                },
+                {
+                    "name": "light-of-foliar-incision",
+                    "rarity": 5
+                },
+                {
+                    "name": "mistsplitter-reforged",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "primordial-jade-cutter",
+                    "rarity": 5,
+                    "note": {
+                        "en": "Performs roughly equal to **[[weapon:light-of-foliar-incision]]** if [[character:traveler]] is not using **[[artifact:obsidian-codex]]** (4).",
+                        "fr": "Devient équivalent à **[[weapon:light-of-foliar-incision]]** si le [[character:traveler]] n'utilise pas **[[artifact:obsidian-codex]]** (4)."
+                    }
+                },
+                {
+                    "name": "haran-geppaku-futsu",
+                    "rarity": 5,
+                    "note": {
+                        "en": "Performs roughly equal to **[[weapon:light-of-foliar-incision]]** if [[character:traveler]] is not using **[[artifact:obsidian-codex]]** (4).",
+                        "fr": "Devient équivalent à **[[weapon:light-of-foliar-incision]]** si le [[character:traveler]] n'utilise pas **[[artifact:obsidian-codex]]** (4)."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "absolution",
+                    "rarity": 5
+                },
+                {
+                    "name": "splendor-of-tranquil-waters",
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "freedom-sworn",
+                    "rarity": 5
+                },
+                {
+                    "name": "wolf-fang",
+                    "rarity": 4,
+                    "note": {
+                        "en": "At **[R5]**, this weapon **rivals [[weapon:primordial-jade-cutter]]**.",
+                        "fr": "Une fois **[R5]**, cette arme **rivalise avec [[weapon:primordial-jade-cutter]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "iron-sting",
+                    "rarity": 4,
+                    "refinement": 5
+                },
+                {
+                    "name": "finale-of-the-deep",
+                    "rarity": 4,
+                    "refinement": 5,
+                    "note": {
+                        "en": "If the [[ability:bol]] can be cleared reliably, this weapon **is better than [[weapon:iron-sting]]**.",
+                        "fr": "Si l'[[ability:bol]] peut être retiré de manière fiable, cette arme **est meilleure que [[weapon:iron-sting]]**."
+                    }
+                },
+                {
+                    "name": "harbinger-of-dawn",
+                    "rarity": 3,
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes the passive is always active, which may not be realistic.",
+                        "fr": "Suppose que le passif est toujours actif, ce qui n'est pas forcément réaliste."
+                    }
+                }
+            ]
+        }
+    ]
+}

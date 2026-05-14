@@ -95,8 +95,8 @@
                     "name": "finale-of-the-deep",
                     "rarity": 4,
                     "note": {
-                        "en": "With a healer that can **reliably clear the bond of life**, this weapon ranks **equal to or above [[weapon:skyward-blade]]**.",
-                        "fr": "Avec un healer qui peut **retirer l'engagement vital de manière fiable**, cette arme est **équivalente ou meilleure que [[weapon:skyward-blade]]**."
+                        "en": "With a healer that can **reliably clear the [[ability:bol]]**, this weapon ranks **equal to or above [[weapon:skyward-blade]]**.",
+                        "fr": "Avec un healer qui peut **retirer l'[[ability:bol]] de manière fiable**, cette arme est **équivalente ou meilleure que [[weapon:skyward-blade]]**."
                     }
                 },
                 {

@@ -1,0 +1,24 @@
+{
+    "name": {
+        "en": "On-Field DPS",
+        "fr": "DPS On-Field"
+    },
+    "notes": [
+        {
+            "en": "**IMPORTANT NOTICE:** At the time of writing, [[element:hydro]] [[character:traveler]] provides no utility to a team that cannot be better filled by another unit, including [[character:barbara]], who all players can obtain at AR 18.",
+            "fr": "**INFORMATION IMPORTANTE:** Lors de l'écriture de ce guide,le [[character:traveler]] [[element:hydro]] n'offre aucune commodité pour les équipes qui ne peut pas être obtenue avec un autre personnage, [[character:barbara]] inclue, que tous les joueurs peuvent obtenir à l'AR 18."
+        },
+        {
+            "en": "[[element:hydro]] [[character:traveler]] can be used as an on-field DPS. This is typically only worth using in teams with [[character:furina]], [[character:bennett]], and a flexible unit. Their DPS is not extremely high, however. ",
+            "fr": "Le [[character:traveler]] [[element:hydro]] peut être utilisé comme DPS on-field. Ce n'est intéressant à jouer que dans les équipes avec [[character:furina]], [[character:bennett]], et un personnage flex. Son DPS ne sera cependant pas vraiment élevé."
+        },
+        {
+            "en": "[[element:hydro]] [[character:traveler]]'s personal DPS is not high enough to clear Abyss unless used in an extremely expensive and invested team.",
+            "fr": "Le DPS personnel du [[character:traveler]] [[element:hydro]] n'est pas suffisamment élevé pour passer les Abysses, à moins de le jouer dans une équipe couteuse avec beaucoup d'investissement."
+        }
+    ],
+    "weapons": {
+        "author": "XXXX",
+        "link": "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/13qqTYVSk5VQpIpU3Rm1LFNy8xEvdOq0cMziozVfgBBM/edit?usp%3Dsharing&sa=D&source=editors&ust=1778775046351235&usg=AOvVaw2adhjgUPnody5Kybsd_56T"
+    }
+}

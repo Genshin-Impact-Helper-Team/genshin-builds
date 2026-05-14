@@ -67,7 +67,7 @@ src/content/<element>/<rarity>/<character>/<build>/talents.json
 - The same `note` also automatically creates a matching note entry under
   `Regarding Talents Choices:`.
 - Notes support Markdown and inline translation tokens, such as
-  `[[talent:skill]]`.
+  `[[ability:skill]]`.
 
 ## Equal Priority
 
@@ -85,8 +85,8 @@ equally:
         {
           "name": "skill",
           "note": {
-            "en": "Prioritize [[talent:skill]] first if this character is mainly used for shielding.",
-            "fr": "Priorisez le [[talent:skill]] si ce personnage est surtout utilise pour son bouclier."
+            "en": "Prioritize [[ability:skill]] first if this character is mainly used for shielding.",
+            "fr": "Priorisez le [[ability:skill]] si ce personnage est surtout utilise pour son bouclier."
           }
         }
       ]
@@ -136,8 +136,8 @@ This renders as:
 {
   "name": "burst",
   "note": {
-    "en": "Level [[talent:burst]] first if most of the build's damage comes from it.",
-    "fr": "Montez le [[talent:burst]] en premier si la majorite des degats du build viennent de lui."
+    "en": "Level [[ability:burst]] first if most of the build's damage comes from it.",
+    "fr": "Montez le [[ability:burst]] en premier si la majorite des degats du build viennent de lui."
   }
 }
 ```

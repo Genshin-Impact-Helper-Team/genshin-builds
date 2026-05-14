@@ -54,8 +54,8 @@
                     "name": "peak-patrol-song",
                     "rarity": 5,
                     "note": {
-                        "en": "While requiring two additional [[talent:na]]s, this weapon can provide a sizeable buff with just one or two [[stat:def%]] main stats, making it competitive with **[[weapon:aquila-favonia]]** and similar options for teams that highly value DMG Bonus buffs.",
-                        "fr": "Bien qu'exigeant deux [[talent:na]] supplémentaires, cette arme peut fournir un buff conséquent avec seulement une ou deux stats principales [[stat:def%]], ce qui la rend compétitive avec **[[weapon:aquila-favonia]]** et autres options similaires pour les équipes qui valorisent fortement les buffs de Bonus de Dégâts."
+                        "en": "While requiring two additional [[ability:na]]s, this weapon can provide a sizeable buff with just one or two [[stat:def%]] main stats, making it competitive with **[[weapon:aquila-favonia]]** and similar options for teams that highly value DMG Bonus buffs.",
+                        "fr": "Bien qu'exigeant deux [[ability:na]] supplémentaires, cette arme peut fournir un buff conséquent avec seulement une ou deux stats principales [[stat:def%]], ce qui la rend compétitive avec **[[weapon:aquila-favonia]]** et autres options similaires pour les équipes qui valorisent fortement les buffs de Bonus de Dégâts."
                     }
                 },
                 {

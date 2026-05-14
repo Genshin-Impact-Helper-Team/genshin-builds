@@ -1,5 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import {
+  getPublicCharacterName,
+  getPublicCharacterSlug,
+} from './character-slugs';
 import { t } from './i18n';
 
 const elementOrder = [
@@ -45,9 +49,20 @@ export function getSideMenuData(locale: any) {
           const characters = fs
             .readdirSync(rarityPath, { withFileTypes: true })
             .filter((character) => character.isDirectory())
+            .filter((character) =>
+              fs.existsSync(
+                path.join(rarityPath, character.name, 'metadata.json'),
+              ),
+            )
             .map((character) => ({
-              name: t(locale, 'character', character.name, undefined, false),
-              slug: character.name,
+              name: getPublicCharacterName(locale, {
+                character: character.name,
+                element,
+              }),
+              slug: getPublicCharacterSlug({
+                character: character.name,
+                element,
+              }),
             }))
             .sort((a, b) => a.name.localeCompare(b.name));
 

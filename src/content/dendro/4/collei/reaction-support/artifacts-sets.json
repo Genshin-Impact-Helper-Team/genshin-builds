@@ -32,8 +32,8 @@
                             "name": "tenacity-of-the-millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "[[character:collei]]'s Sprout damage counts as [[talent:skill]] damage, which allows her to be able to keep **[[artifact:tenacity-of-the-millelith]]** (4) up during important damage windows. Generally an alternative to **[[artifact:noblesse-oblige]]** (4) or **[[artifact:deepwood-memories]]** (4) (or if you are already running both in a team).",
-                                "fr": "Les dégâts de l'effet Germe de [[character:collei]] sont considérés comme des dégâts de [[talent:skill]], ce qui lui permet de maintenir facilement l'effet de **[[artifact:tenacity-of-the-millelith]]** (4) pendant les périodes de dégâts importantes. Généralement une alternative à **[[artifact:noblesse-oblige]]** (4) ou **[[artifact:deepwood-memories]]** (4) (ou si vous avez déjà les deux dans une équipe)."
+                                "en": "[[character:collei]]'s Sprout damage counts as [[ability:skill]] damage, which allows her to be able to keep **[[artifact:tenacity-of-the-millelith]]** (4) up during important damage windows. Generally an alternative to **[[artifact:noblesse-oblige]]** (4) or **[[artifact:deepwood-memories]]** (4) (or if you are already running both in a team).",
+                                "fr": "Les dégâts de l'effet Germe de [[character:collei]] sont considérés comme des dégâts de [[ability:skill]], ce qui lui permet de maintenir facilement l'effet de **[[artifact:tenacity-of-the-millelith]]** (4) pendant les périodes de dégâts importantes. Généralement une alternative à **[[artifact:noblesse-oblige]]** (4) ou **[[artifact:deepwood-memories]]** (4) (ou si vous avez déjà les deux dans une équipe)."
                             }
                         }
                     ]

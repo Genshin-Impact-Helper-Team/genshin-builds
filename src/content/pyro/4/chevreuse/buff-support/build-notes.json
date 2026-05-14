@@ -18,8 +18,8 @@
             "fr": "Son buff a une limite de **40 000 PV**, au-delà de laquelle elle n'a plus besoin de build des PV."
         },
         {
-            "en": "[[character:chevreuse]] does not always need to use her [[talent:burst]], so [[stat:er]] is not needed if she chooses not to use her [[talent:burst]].",
-            "fr": "[[character:chevreuse]] n'a pas toujours besoin d'utiliser son [[talent:burst]], donc la [[stat:er]] n'est pas nécessaire si elle choisit de ne pas l'utiliser."
+            "en": "[[character:chevreuse]] does not always need to use her [[ability:burst]], so [[stat:er]] is not needed if she chooses not to use her [[ability:burst]].",
+            "fr": "[[character:chevreuse]] n'a pas toujours besoin d'utiliser son [[ability:burst]], donc la [[stat:er]] n'est pas nécessaire si elle choisit de ne pas l'utiliser."
         }
     ]
 }

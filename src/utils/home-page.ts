@@ -1,6 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { getLocale, t } from './i18n';
+import {
+  getPublicCharacterName,
+  getPublicCharacterSlug,
+} from './character-slugs';
+import { getLocale } from './i18n';
 
 /**
  * Builds the localized character list used by the home page.
@@ -31,7 +35,7 @@ export function getHomePageData(lang = 'en') {
               withFileTypes: true,
             })
             .filter((character) => character.isDirectory())
-            .map((character) => {
+            .flatMap((character) => {
               const metadataPath = path.join(
                 contentPath,
                 element.name,
@@ -39,20 +43,25 @@ export function getHomePageData(lang = 'en') {
                 character.name,
                 'metadata.json',
               );
+
+              if (!fs.existsSync(metadataPath)) {
+                return [];
+              }
+
               const metadata = JSON.parse(
                 fs.readFileSync(metadataPath, 'utf-8'),
               );
-              const name = t(
-                locale,
-                'character',
-                character.name,
-                undefined,
-                false,
-              );
+              const name = getPublicCharacterName(locale, {
+                character: character.name,
+                element: element.name,
+              });
 
               return {
                 name,
-                slug: character.name,
+                slug: getPublicCharacterSlug({
+                  character: character.name,
+                  element: element.name,
+                }),
                 element: element.name,
                 rarity: rarity.name,
                 weapon: metadata.weapon,

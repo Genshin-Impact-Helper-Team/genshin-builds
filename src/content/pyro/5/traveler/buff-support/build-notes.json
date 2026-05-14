@@ -1,0 +1,25 @@
+{
+    "best": true,
+    "name": {
+        "en": "Buff Support",
+        "fr": "Support Buff"
+    },
+    "notes": [
+        {
+            "en": "[[element:pyro]] [[character:traveler]] takes on a supportive role with [[element:pyro]] application and the ability to hold supportive sets such as **[[artifact:scroll-of-the-hero-of-cinder-city]]** (4), as well as weapons that provide team utility.",
+            "fr": "Le [[character:traveler]] [[element:pyro]] joue un rôle de support avec l'application de [[element:pyro]] et la capacité à porter des sets de support tels que **[[artifact:scroll-of-the-hero-of-cinder-city]]** (4), ainsi que des armes qui fournissent des commodités pour l'équipe."
+        },
+        {
+            "en": "**Because [[character:traveler]] is NOT from Natlan, they do not count toward the [[ability:nightsoul-burst]] cooldown reduction**. They can, however, trigger effects that rely on the consumption of [[ability:nightsoul-point]], which their [[ability:burst]] can help with since it restores some of their [[ability:nightsoul-point]].",
+            "fr": "**Comme le [[character:traveler]] n'est PAS de Natlan, il ne compte pas dans la réduction du temps de recharge de l'[[ability:nightsoul-burst]]**. Il peut cependant déclencher des effets qui dépendent de la consommation de [[ability:nightsoul-point]], ce pour quoi l'[[ability:burst]] peut être utile car il restaure des [[ability:nightsoul-point]]."
+        },
+        {
+            "en": "[[character:traveler]]'s personal damage is rather low, so their damage investment is not a major priority for this build.",
+            "fr": "Les dégâts personnels de [[character:traveler]] sont plutôt faibles, donc l'investissement pour ses dégâts n'est pas une priorité majeure pour ce build."
+        },
+        {
+            "en": "[[character:traveler]]'s [[ability:skill]] has two variations. Their Tap [[ability:skill]] forms a ring around the active character and deals damage when close to an enemy. Their Hold [[ability:skill]] deals damage as a conjoined attack whenever the active character deals damage.",
+            "fr": "Le [[ability:skill]] du [[character:traveler]] a deux variantes. Le [[ability:skill]] simple forme un cercle autour du personnage actif et inflige des dégâts lorsqu'à proximité d'un ennemi. Le [[ability:skill]] appuyé inflige des dégâts en tant qu'attaque conjointe chaque fois que le personnage actif inflige des dégâts."
+        }
+    ]
+}

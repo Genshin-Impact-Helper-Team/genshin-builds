@@ -5,8 +5,8 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize first if you can't [[talent:burst]] off cooldown",
-                "fr": "A prioriser si vous ne pouvez pas [[talent:burst]] dès la fin du cooldown"
+                "en": "Prioritize first if you can't [[ability:burst]] off cooldown",
+                "fr": "A prioriser si vous ne pouvez pas [[ability:burst]] dès la fin du cooldown"
             }
         }
     ]

@@ -23,6 +23,12 @@
   text-align: center;
 }
 
+.home-intro {
+  max-width: 720px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
 .simple-page .card {
   line-height: 1.6;
 }

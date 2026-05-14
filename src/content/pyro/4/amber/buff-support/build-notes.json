@@ -6,8 +6,8 @@
     "best": true,
     "notes": [
         {
-            "en": "Due to her poor scalings, this section is dedicated to a low-investment build that provides utility and shieldbreaking capabilities by abusing her quick [[element:pyro]] application on her [[talent:burst]]. Due to her energy generation being extremely poor, her [[stat:er]] options are prioritized.",
-            "fr": "En raison de ses faibles multiplicateurs, cette section est dediee a un build a faible investissement, axe sur l'application rapide de [[element:pyro]] via son [[talent:burst]] pour briser rapidement les boucliers. Sa generation d'energie etant tres limitee, les options augmentant sa [[stat:er]] sont à privilegier."
+            "en": "Due to her poor scalings, this section is dedicated to a low-investment build that provides utility and shieldbreaking capabilities by abusing her quick [[element:pyro]] application on her [[ability:burst]]. Due to her energy generation being extremely poor, her [[stat:er]] options are prioritized.",
+            "fr": "En raison de ses faibles multiplicateurs, cette section est dediee a un build a faible investissement, axe sur l'application rapide de [[element:pyro]] via son [[ability:burst]] pour briser rapidement les boucliers. Sa generation d'energie etant tres limitee, les options augmentant sa [[stat:er]] sont à privilegier."
         }
     ]
 }

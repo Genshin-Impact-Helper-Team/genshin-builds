@@ -90,7 +90,7 @@ Typed tokens search one specific dictionary:
 [[character:xiangling]]
 [[stat:er]]
 [[element:vaporize]]
-[[talent:burst]]
+[[ability:burst]]
 ```
 
 Untyped tokens search known gameplay dictionaries automatically:

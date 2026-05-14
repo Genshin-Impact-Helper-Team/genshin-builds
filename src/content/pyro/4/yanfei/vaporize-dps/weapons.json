@@ -67,8 +67,8 @@
                     "rarity": 4,
                     "refinement": 5,
                     "note": {
-                        "en": "Calculated with Bond of Life cleared. Loses significant value if run **without a consistent healer**.",
-                        "fr": "Calculé avec un Engagement vital retiré. Perd significativement en valeur si utilisé **sans un soin constant**."
+                        "en": "Calculated with [[ability:bol]] cleared. Loses significant value if run **without a consistent healer**.",
+                        "fr": "Calculé avec un [[ability:bol]] retiré. Perd significativement en valeur si utilisé **sans un soin constant**."
                     }
                 },
                 {

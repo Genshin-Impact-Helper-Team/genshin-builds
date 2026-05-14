@@ -1,0 +1,20 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "atk%"
+        ],
+        "goblet": [
+            "pyro-dmg"
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    },
+    "notes": [
+        {
+            "en": "**[[stat:def%]]** main stats can be used when using **[[weapon:peak-patrol-song]]**.",
+            "fr": "Il est possible d'utiliser des mainstats **[[stat:def%]]** si **[[weapon:peak-patrol-song]]** est équipée."
+        }
+    ]
+}

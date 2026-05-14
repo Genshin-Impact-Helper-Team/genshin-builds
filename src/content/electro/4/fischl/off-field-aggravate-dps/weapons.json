@@ -14,8 +14,8 @@
                     "name": "polar-star",
                     "rarity": 5,
                     "note": {
-                        "en": "Perform a quick [[talent:na]] and [[talent:ca]] before summoning Oz for more stacks.",
-                        "fr": "Effectuez une [[talent:na]] rapide et une [[talent:ca]] avant d'invoquer Oz pour obtenir plus de stacks."
+                        "en": "Perform a quick [[ability:na]] and [[ability:ca]] before summoning Oz for more stacks.",
+                        "fr": "Effectuez une [[ability:na]] rapide et une [[ability:ca]] avant d'invoquer Oz pour obtenir plus de stacks."
                     }
                 }
             ]

@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { getPublicCharacterSlug } from './character-slugs';
 import { languageCodes } from './languages';
 
 /**
@@ -14,8 +15,8 @@ export function getLanguageStaticPaths() {
 /**
  * Finds every character slug available in `src/content`.
  *
- * Element and rarity folders are implementation details; public character URLs
- * use only the stable character folder slug.
+ * Element and rarity folders are implementation details, except Traveler whose
+ * public URL includes the element because they have one folder per element.
  *
  * @returns Sorted unique character slugs.
  */
@@ -35,7 +36,19 @@ export function getCharacterSlugs() {
 
           fs.readdirSync(rarityPath, { withFileTypes: true })
             .filter((character) => character.isDirectory())
-            .forEach((character) => slugs.add(character.name));
+            .filter((character) =>
+              fs.existsSync(
+                path.join(rarityPath, character.name, 'metadata.json'),
+              ),
+            )
+            .forEach((character) =>
+              slugs.add(
+                getPublicCharacterSlug({
+                  character: character.name,
+                  element: element.name,
+                }),
+              ),
+            );
         });
     });
 
