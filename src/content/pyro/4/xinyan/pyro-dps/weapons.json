@@ -2,17 +2,13 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "redhorn-stonethresher",
-                    "rarity": 5
-                }
+                "redhorn-stonethresher"
             ]
         },
         {
             "items": [
                 {
                     "name": "serpent-spine",
-                    "rarity": 4,
                     "note": {
                         "en": "It is worth noting that an **[R5] [[weapon:serpent-spine]]** can outperform **[[weapon:redhorn-stonethresher]] [R1]** with good **[[weapon:serpent-spine]]** stack management.",
                         "fr": "A noter qu'une **[[weapon:serpent-spine]] [R5]** peut être meilleure que **[[weapon:redhorn-stonethresher]] [R1]** avec une bonne gestion des stacks de **[[weapon:serpent-spine]]**."
@@ -24,7 +20,6 @@
             "items": [
                 {
                     "name": "beacon-of-the-reed-sea",
-                    "rarity": 5,
                     "note": {
                         "en": "Weapon ranking assumes one stack.",
                         "fr": "Le classement de l'arme suppose un stack."
@@ -34,37 +29,21 @@
         },
         {
             "items": [
-                {
-                    "name": "wolfs-gravestone",
-                    "rarity": 5
-                },
-                {
-                    "name": "the-unforged",
-                    "rarity": 5
-                },
-                {
-                    "name": "skyward-pride",
-                    "rarity": 5
-                },
-                {
-                    "name": "song-of-broken-pines",
-                    "rarity": 5
-                }
+                "wolfs-gravestone",
+                "the-unforged",
+                "skyward-pride",
+                "song-of-broken-pines"
             ]
         },
         {
             "items": [
-                {
-                    "name": "blackcliff-slasher",
-                    "rarity": 4
-                }
+                "blackcliff-slasher"
             ]
         },
         {
             "items": [
                 {
                     "name": "lithic-blade",
-                    "rarity": 4,
                     "note": {
                         "en": "This ranking assumes 2 stacks.",
                         "fr": "Le classement de l'arme suppose 2 stacks."
@@ -74,18 +53,12 @@
         },
         {
             "items": [
-                {
-                    "name": "luxurious-sea-lord",
-                    "rarity": 4
-                }
+                "luxurious-sea-lord"
             ]
         },
         {
             "items": [
-                {
-                    "name": "prototype-archaic",
-                    "rarity": 4
-                }
+                "prototype-archaic"
             ]
         }
     ]

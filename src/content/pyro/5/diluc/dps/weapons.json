@@ -10,31 +10,20 @@
             "items": [
                 {
                     "name": "beacon-of-the-reed-sea",
-                    "rarity": 5,
                     "note": {
                         "en": "This weapon ranking assumes one stack.",
                         "fr": "Ce classement suppose 1 stack."
                     }
                 },
-                {
-                    "name": "redhorn-stonethresher",
-                    "rarity": 5
-                },
-                {
-                    "name": "a-thousand-blazing-suns",
-                    "rarity": 5
-                }
+                "redhorn-stonethresher",
+                "a-thousand-blazing-suns"
             ]
         },
         {
             "items": [
-                {
-                    "name": "verdict",
-                    "rarity": 5
-                },
+                "verdict",
                 {
                     "name": "serpent-spine",
-                    "rarity": 4,
                     "note": {
                         "en": "Assumes you **can maintain high stacks of the weapon effect**. At **[R5], it is [[character:diluc]]'s best weapon**.",
                         "fr": "Suppose que vous **arrivez à maintenir un haut nombre de stack du passif de l'arme**. Une fois **[R5], il s'agit de la meilleure arme pour [[character:diluc]]**."
@@ -44,33 +33,20 @@
         },
         {
             "items": [
-                {
-                    "name": "fang-of-the-mountain-king",
-                    "rarity": 5
-                }
+                "fang-of-the-mountain-king"
             ]
         },
         {
             "items": [
-                {
-                    "name": "wolfs-gravestone",
-                    "rarity": 5
-                },
-                {
-                    "name": "the-unforged",
-                    "rarity": 5
-                }
+                "wolfs-gravestone",
+                "the-unforged"
             ]
         },
         {
             "items": [
-                {
-                    "name": "song-of-broken-pines",
-                    "rarity": 5
-                },
+                "song-of-broken-pines",
                 {
                     "name": "rainslasher",
-                    "rarity": 4,
                     "note": {
                         "en": "Only use this weapon in teams where [[character:diluc]] is consistently triggering [[element:vaporize]]. It scales well with refinements, potentially surpassing **[[weapon:wolfs-gravestone]] at [R5]**.",
                         "fr": "N'utilisez cette arme que dans les équipes où [[character:diluc]] déclenche régulièrement [[element:vaporize]]. Elle profite énormément des raffinements, dépassant potentiellement **[[weapon:wolfs-gravestone]] une fois [R5]**."
@@ -78,7 +54,6 @@
                 },
                 {
                     "name": "mailed-flower",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]
@@ -87,7 +62,6 @@
             "items": [
                 {
                     "name": "tidal-shadow",
-                    "rarity": 4,
                     "note": {
                         "en": "Assumes [[character:diluc]] **can consistently be healed**. Otherwise, this weapon ranks **below [[weapon:earth-shaker]]**.",
                         "fr": "Suppose que [[character:diluc]] **peut être soigné régulièrement**. Sinon, cette arme se classe **en dessous de [[weapon:earth-shaker]]**."
@@ -95,24 +69,17 @@
                 },
                 {
                     "name": "blackcliff-slasher",
-                    "rarity": 4,
                     "note": {
                         "en": "Assumes the weapon passive does not activate.",
                         "fr": "Suppose que le passif de l'arme ne s'active pas."
                     }
                 },
-                {
-                    "name": "skyward-pride",
-                    "rarity": 5
-                }
+                "skyward-pride"
             ]
         },
         {
             "items": [
-                {
-                    "name": "earth-shaker",
-                    "rarity": 4
-                }
+                "earth-shaker"
             ]
         }
     ]

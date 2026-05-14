@@ -2,61 +2,38 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "kaguras-verity",
-                    "rarity": 5
-                },
-                {
-                    "name": "lost-prayer-to-the-sacred-winds",
-                    "rarity": 5
-                }
+                "kaguras-verity",
+                "lost-prayer-to-the-sacred-winds"
             ]
         },
         {
             "items": [
-                {
-                    "name": "surfs-up",
-                    "rarity": 5
-                }
+                "surfs-up"
             ]
         },
         {
             "items": [
-                {
-                    "name": "tome-of-the-eternal-flow",
-                    "rarity": 5
-                },
-                {
-                    "name": "cashflow-supervision",
-                    "rarity": 5
-                }
+                "tome-of-the-eternal-flow",
+                "cashflow-supervision"
             ]
         },
         {
             "items": [
-                {
-                    "name": "skyward-atlas",
-                    "rarity": 5
-                }
+                "skyward-atlas"
             ]
         },
         {
             "items": [
                 {
                     "name": "memory-of-dust",
-                    "rarity": 5,
                     "note": {
                         "en": "This weapon performs slightly worse if [[character:ningguang]] does not have a shielder or consistent [[element:crystallize]] uptime.",
                         "fr": "Cette arme performe légèrement moins bien si [[character:ningguang]] n'a pas de bouclier ou un uptime consistant de [[element:crystallize]]."
                     }
                 },
-                {
-                    "name": "tulaytullahs-remembrance",
-                    "rarity": 5
-                },
+                "tulaytullahs-remembrance",
                 {
                     "name": "the-widsith",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon performs better than **[[weapon:skyward-atlas]] at [R5]**.",
                         "fr": "Cette arme performe mieux que **[[weapon:skyward-atlas]] une fois [R5]**."
@@ -68,23 +45,18 @@
             "items": [
                 {
                     "name": "solar-pearl",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon performs better than **[[weapon:skyward-atlas]] at [R5]**.",
                         "fr": "Cette arme performe mieux que **[[weapon:skyward-atlas]] une fois [R5]**."
                     }
                 },
-                {
-                    "name": "cranes-echoing-call",
-                    "rarity": 5
-                }
+                "cranes-echoing-call"
             ]
         },
         {
             "items": [
                 {
                     "name": "flowing-purity",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon performs worse than [[weapon:dodoco-tales]] if you cannot clear the [[ability:bol]] from its passive.",
                         "fr": "Cette arme performe moins bien que **[[weapon:dodoco-tales]]** si vous ne pouvez pas retirer l'[[ability:bol]] de son passif."
@@ -94,10 +66,7 @@
         },
         {
             "items": [
-                {
-                    "name": "dodoco-tales",
-                    "rarity": 4
-                }
+                "dodoco-tales"
             ]
         }
     ]

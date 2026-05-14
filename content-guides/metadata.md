@@ -23,9 +23,10 @@ src/content/<element>/<rarity>/<character>/metadata.json
 
 ## Fields
 
-- `weapon`: Character weapon type used by the home page character data and
-  filtering. Common values are `sword`, `claymore`, `polearm`, `bow`, and
-  `catalyst`.
+- `weapon`: Character weapon type used by the home page character data,
+  filtering, and shared weapon rarity lookup. Common values are `sword`,
+  `claymore`, `polearm`, `bow`, and `catalyst`. This must match one of the
+  files in `src/data/weapons`.
 - `last_updated`: Genshin version string shown in the page header.
 - `image`: Large character image URL shown in the character page header. Should
   come from the official HoYoWiki.

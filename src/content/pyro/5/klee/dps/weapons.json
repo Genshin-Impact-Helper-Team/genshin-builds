@@ -8,17 +8,13 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "reliquary-of-truth",
-                    "rarity": 5
-                }
+                "reliquary-of-truth"
             ]
         },
         {
             "items": [
                 {
                     "name": "lost-prayer-to-the-sacred-winds",
-                    "rarity": 5,
                     "note": {
                         "en": "Assumes 12% DMG averaged.",
                         "fr": "Suppose +12% DGT en moyenne."
@@ -26,35 +22,24 @@
                 },
                 {
                     "name": "kaguras-verity",
-                    "rarity": 5,
                     "note": {
                         "en": "Assumes 2 stacks on the weapon passive.",
                         "fr": "Suppose 2 stacks du passif de l'arme."
                     }
                 },
-                {
-                    "name": "vivid-notions",
-                    "rarity": 5
-                }
+                "vivid-notions"
             ]
         },
         {
             "items": [
-                {
-                    "name": "tome-of-the-eternal-flow",
-                    "rarity": 5
-                },
-                {
-                    "name": "cashflow-supervision",
-                    "rarity": 5
-                }
+                "tome-of-the-eternal-flow",
+                "cashflow-supervision"
             ]
         },
         {
             "items": [
                 {
                     "name": "tulaytullahs-remembrance",
-                    "rarity": 5,
                     "note": {
                         "en": "Averages 25% [[ability:na]] DMG.",
                         "fr": "Suppose 25% DGT [[ability:na]] en moyenne."
@@ -62,7 +47,6 @@
                 },
                 {
                     "name": "surfs-up",
-                    "rarity": 5,
                     "note": {
                         "en": "Assumes dynamic stacking.",
                         "fr": "Suppose un stacking dynamique."
@@ -72,17 +56,13 @@
         },
         {
             "items": [
-                {
-                    "name": "skyward-atlas",
-                    "rarity": 5
-                }
+                "skyward-atlas"
             ]
         },
         {
             "items": [
                 {
                     "name": "the-widsith",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon performs closer to **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] cannot reliably use the [[stat:em]] buff, should she acquire it.",
                         "fr": "Une fois **[R5]**, cette arme devient plus proche de **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] ne peut pas utiliser le buff de [[stat:em]] de manière fiable lorsqu'elle l'obtient."
@@ -90,7 +70,6 @@
                 },
                 {
                     "name": "solar-pearl",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon performs slightly worse than **[[weapon:the-widsith]] [R5]**.",
                         "fr": "Même **[R5]**, cette arme reste légèrement moins bonne que **[[weapon:the-widsith]] [R5]**."
@@ -100,17 +79,13 @@
         },
         {
             "items": [
-                {
-                    "name": "sacrificial-jade",
-                    "rarity": 4
-                }
+                "sacrificial-jade"
             ]
         },
         {
             "items": [
                 {
                     "name": "flowing-purity",
-                    "rarity": 4,
                     "refinement": 5,
                     "note": {
                         "en": "Calculated with [[ability:bol]] cleared. If paired with **[[artifact:fragment-of-harmonic-whimsy]] (4)** at max stacks, this weapon can perform as well as **[[weapon:tulaytullahs-remembrance]]**.",

@@ -21,6 +21,7 @@ type CharacterPageDataOptions = {
 type BuildContext = {
     buildPath: string;
     buildName: string;
+    weaponType: string;
     lang: string;
     locale: any;
     translator: TranslationHelper;
@@ -47,6 +48,8 @@ type LocalizedBuildNote = {
 const fileInBuild = (buildPath: string, fileName: string) =>
     path.join(buildPath, fileName);
 
+const weaponDataPath = path.resolve('src/data/weapons');
+
 /**
  * Renders Markdown text to HTML.
  *
@@ -54,6 +57,37 @@ const fileInBuild = (buildPath: string, fileName: string) =>
  * @returns Rendered HTML string.
  */
 const renderMarkdown = (value: string) => marked.parse(value) as string;
+
+function loadWeaponData(weaponType: string) {
+    const filePath = path.join(weaponDataPath, `${weaponType}.json`);
+
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`No shared weapon data found for weapon type "${weaponType}"`);
+    }
+
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, ''));
+}
+
+function getWeaponRarity(
+    weaponData: Record<string, { rarity: number }>,
+    weaponId: string,
+    weaponType: string,
+    sourceFile: string,
+) {
+    const rarity = weaponData[weaponId]?.rarity;
+
+    if (!rarity) {
+        throw new Error(
+            `Missing rarity for weapon "${weaponId}" in src/data/weapons/${weaponType}.json (source: ${sourceFile})`,
+        );
+    }
+
+    return rarity;
+}
+
+function normalizeWeaponItem(item: any) {
+    return typeof item === 'string' ? { name: item } : item;
+}
 
 /**
  * Converts Astro's catch-all character param into the stable character slug.
@@ -288,6 +322,7 @@ function buildLocalizedNotes(
 function loadBuildData({
     buildPath,
     buildName,
+    weaponType,
     lang,
     locale,
     translator,
@@ -306,6 +341,7 @@ function loadBuildData({
     const buildNotesFile = fileInBuild(buildPath, 'build-notes.json');
 
     const weapons = loadJSON(buildPath, 'weapons.json');
+    const weaponData = loadWeaponData(weaponType);
 
     /**
      * Translates one weapon item while preserving ranking metadata.
@@ -313,10 +349,20 @@ function loadBuildData({
      * @param item Raw weapon item from content JSON.
      * @returns Weapon item with a localized display name.
      */
-    const translateWeaponItem = (item: any) => ({
-        ...item,
-        name: translator.translate('weapon', item.name, weaponsFile),
-    });
+    const translateWeaponItem = (item: any) => {
+        const normalizedItem = normalizeWeaponItem(item);
+
+        return {
+            ...normalizedItem,
+            rarity: getWeaponRarity(
+                weaponData,
+                normalizedItem.name,
+                weaponType,
+                weaponsFile,
+            ),
+            name: translator.translate('weapon', normalizedItem.name, weaponsFile),
+        };
+    };
 
     weapons.weapons = weapons.weapons.map((position: { items: any[] }) => ({
         ...position,
@@ -502,6 +548,8 @@ export function getCharacterPageData({
         'metadata.json',
     );
 
+    const metadata = loadJSON(foundPath.path, 'metadata.json');
+
     return {
         characterSlug,
         characterName:
@@ -510,7 +558,7 @@ export function getCharacterPageData({
                 : translatedCharacterName !== contentSlug
                     ? translatedCharacterName
                     : toTitleCase(contentSlug),
-        metadata: loadJSON(foundPath.path, 'metadata.json'),
+        metadata,
         element: foundPath.element,
         lang: currentLang,
         locale,
@@ -518,6 +566,7 @@ export function getCharacterPageData({
             loadBuildData({
                 buildPath: path.join(foundPath.path, buildName),
                 buildName,
+                weaponType: metadata.weapon,
                 lang: currentLang,
                 locale,
                 translator,

@@ -4,7 +4,6 @@
             "items": [
                 {
                     "name": "mistsplitter-reforged",
-                    "rarity": 5,
                     "note": {
                         "en": "While providing the same Base Attack as **[[weapon:aquila-favonia]]**, this weapon is a better choice when building for [[character:bennett]]'s personal damage.",
                         "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels."
@@ -12,7 +11,6 @@
                 },
                 {
                     "name": "absolution",
-                    "rarity": 5,
                     "note": {
                         "en": "While providing the same Base Attack as **[[weapon:aquila-favonia]]**, this weapon is a better choice when building for [[character:bennett]]'s personal damage.",
                         "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels."
@@ -20,31 +18,23 @@
                 },
                 {
                     "name": "azurelight",
-                    "rarity": 5,
                     "note": {
                         "en": "While providing the same Base Attack as **[[weapon:aquila-favonia]]**, this weapon is a better choice when building for [[character:bennett]]'s personal damage.",
                         "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels."
                     }
                 },
-                {
-                    "name": "aquila-favonia",
-                    "rarity": 5
-                }
+                "aquila-favonia"
             ]
         },
         {
             "items": [
-                {
-                    "name": "the-alley-flash",
-                    "rarity": 4
-                }
+                "the-alley-flash"
             ]
         },
         {
             "items": [
                 {
                     "name": "freedom-sworn",
-                    "rarity": 5,
                     "note": {
                         "en": "In teams where [[character:bennett]] can reliably trigger this weapon's passive, it can be stronger than **[[weapon:aquila-favonia]], [[weapon:mistsplitter-reforged]], and [[weapon:absolution]]**.",
                         "fr": "Dans les équipes où [[character:bennett]] peut à coup sûr déclencher le passif de cette arme, elle peut être plus puissante que **[[weapon:aquila-favonia]], [[weapon:mistsplitter-reforged]], et [[weapon:absolution]]**."
@@ -52,43 +42,29 @@
                 },
                 {
                     "name": "peak-patrol-song",
-                    "rarity": 5,
                     "note": {
                         "en": "While requiring two additional [[ability:na]]s, this weapon can provide a sizeable buff with just one or two [[stat:def%]] main stats, making it competitive with **[[weapon:aquila-favonia]]** and similar options for teams that highly value DMG Bonus buffs.",
                         "fr": "Bien qu'exigeant deux [[ability:na]] supplémentaires, cette arme peut fournir un buff conséquent avec seulement une ou deux stats principales [[stat:def%]], ce qui la rend compétitive avec **[[weapon:aquila-favonia]]** et autres options similaires pour les équipes qui valorisent fortement les buffs de Bonus de Dégâts."
                     }
                 },
-                {
-                    "name": "skyward-blade",
-                    "rarity": 5
-                }
+                "skyward-blade"
             ]
         },
         {
             "items": [
-                {
-                    "name": "sapwood-blade",
-                    "rarity": 4
-                }
+                "sapwood-blade"
             ]
         },
         {
             "items": [
-                {
-                    "name": "prototype-rancour",
-                    "rarity": 4
-                },
-                {
-                    "name": "calamity-of-eshu",
-                    "rarity": 4
-                }
+                "prototype-rancour",
+                "calamity-of-eshu"
             ]
         },
         {
             "items": [
                 {
                     "name": "favonius-sword",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon's low Base Attack heavily impairs [[character:bennett]]'s buffing potency, but it can be a viable pick in teams with extremely high [[stat:er]] requirements or no actual use for the [[stat:atk]] buff.",
                         "fr": "L'ATQ de base faible de cette arme diminue fortement la puissance de buff de [[character:bennett]], mais elle peut être un choix viable dans les équipes avec des besoins extrêmement élevées en [[stat:er]] ou sans utilisation réelle du buff d'[[stat:atk]]."

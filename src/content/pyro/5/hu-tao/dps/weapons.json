@@ -2,17 +2,13 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "staff-of-homa",
-                    "rarity": 5
-                }
+                "staff-of-homa"
             ]
         },
         {
             "items": [
                 {
                     "name": "staff-of-the-scarlet-sands",
-                    "rarity": 5,
                     "note": {
                         "en": "When using this weapon, **[[artifact:gilded-dreams]] (4)** becomes competitive with **[[artifact:crimson-witch-of-flames]] (4)** for being [[character:hu-tao]]'s best artifact set.",
                         "fr": "Lorsque vous utilisez cette arme, **[[artifact:gilded-dreams]] (4)** rivalise **[[artifact:crimson-witch-of-flames]] (4)** en tant que meilleur set pour [[character:hu-tao]]."
@@ -24,27 +20,19 @@
             "items": [
                 {
                     "name": "ballad-of-the-fjords",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon is better than **[[weapon:staff-of-the-scarlet-sands]]**.",
                         "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:staff-of-the-scarlet-sands]]**."
                     }
                 },
-                {
-                    "name": "lumidouce-elegy",
-                    "rarity": 5
-                }
+                "lumidouce-elegy"
             ]
         },
         {
             "items": [
-                {
-                    "name": "dragons-bane",
-                    "rarity": 4
-                },
+                "dragons-bane",
                 {
                     "name": "deathmatch",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon is better than **[[weapon:dragons-bane]]** when you're not doing [[element:vaporize]].",
                         "fr": "Cette arme est meilleure que **[[weapon:dragons-bane]]** lorsque vous ne jouez pas [[element:vaporize]]."
@@ -56,7 +44,6 @@
             "items": [
                 {
                     "name": "primordial-jade-winged-spear",
-                    "rarity": 5,
                     "note": {
                         "en": "Is better than the **[R1]** variants of **[[weapon:dragons-bane]]** and **[[weapon:deathmatch]]** with ideal stacking. While this is a very strong weapon when fully stacked, maintaining the stacks on [[character:hu-tao]] isn't ideal in realistic situations making the weapon less consistent than other options.",
                         "fr": "Meilleure que les variants **[R1]** de **[[weapon:dragons-bane]]** et **[[weapon:deathmatch]]** avec un stacking idéal. Bien qu'il s'agisse d'une très bonne arme avec tout les stacks, les maintenir sur [[character:hu-tao]] n'est pas idéal dans une situation réaliste, rendant l'arme moins consistante que d'autres options."
@@ -68,7 +55,6 @@
             "items": [
                 {
                     "name": "lithic-spear",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon is better than **[[weapon:staff-of-the-scarlet-sands]]**.",
                         "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:staff-of-the-scarlet-sands]]**."
@@ -78,17 +64,13 @@
         },
         {
             "items": [
-                {
-                    "name": "missive-windspear",
-                    "rarity": 4
-                }
+                "missive-windspear"
             ]
         },
         {
             "items": [
                 {
                     "name": "white-tassel",
-                    "rarity": 3,
                     "note": {
                         "en": "This weapon prefers an **N2C** combo over an **N1C** combo.",
                         "fr": "Cette arme préfère un combo **N2C** plutôt que **N1C**."
@@ -96,20 +78,13 @@
                 },
                 {
                     "name": "blackcliff-pole",
-                    "rarity": 4,
                     "note": {
                         "en": "Despite seeming quite good due to the [[stat:cd]] substat, **[[weapon:blackcliff-pole]]** at 1 stack performs only slightly better than an **[R5] [[weapon:white-tassel]]** in practice as it is difficult to maintain stacks consistently. It is not recommended to buy this weapon specifically for [[character:hu-tao]] and should only be used if you already have one.",
                         "fr": "Bien que semblant assez bien grâce à la substat [[stat:cd]] cette arme avec 1 stack est en pratique à peine meilleure que **[[weapon:white-tassel]] [R5]** puisqu'il est difficile de maintenir les stacks. Il n'est pas recommandé d'acheter cette arme juste pour [[character:hu-tao]] et vous ne devriez l'utiliser que si vous en possédez déjà une."
                     }
                 },
-                {
-                    "name": "kitain-cross-spear",
-                    "rarity": 4
-                },
-                {
-                    "name": "rightful-reward",
-                    "rarity": 4
-                }
+                "kitain-cross-spear",
+                "rightful-reward"
             ]
         }
     ]

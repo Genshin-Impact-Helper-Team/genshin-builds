@@ -2,39 +2,23 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "favonius-sword",
-                    "rarity": 4
-                }
+                "favonius-sword"
             ]
         },
         {
             "items": [
                 {
                     "name": "fleuve-cendre-ferryman",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]
         },
         {
             "items": [
-                {
-                    "name": "skyward-blade",
-                    "rarity": 5
-                },
-                {
-                    "name": "freedom-sworn",
-                    "rarity": 5
-                },
-                {
-                    "name": "sacrificial-sword",
-                    "rarity": 4
-                },
-                {
-                    "name": "amenoma-kageuchi",
-                    "rarity": 4
-                }
+                "skyward-blade",
+                "freedom-sworn",
+                "sacrificial-sword",
+                "amenoma-kageuchi"
             ]
         }
     ]

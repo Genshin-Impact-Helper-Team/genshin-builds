@@ -2,54 +2,31 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "engulfing-lightning",
-                    "rarity": 5
-                }
+                "engulfing-lightning"
             ]
         },
         {
             "items": [
                 {
                     "name": "the-catch",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]
         },
         {
             "items": [
-                {
-                    "name": "staff-of-the-scarlet-sands",
-                    "rarity": 5
-                },
-                {
-                    "name": "fractured-halo",
-                    "rarity": 5
-                },
-                {
-                    "name": "staff-of-homa",
-                    "rarity": 5
-                },
-                {
-                    "name": "skyward-spine",
-                    "rarity": 5
-                },
-                {
-                    "name": "lumidouce-elegy",
-                    "rarity": 5
-                },
-                {
-                    "name": "symphonist-of-scents",
-                    "rarity": 5
-                }
+                "staff-of-the-scarlet-sands",
+                "fractured-halo",
+                "staff-of-homa",
+                "skyward-spine",
+                "lumidouce-elegy",
+                "symphonist-of-scents"
             ]
         },
         {
             "items": [
                 {
                     "name": "favonius-lance",
-                    "rarity": 4,
                     "note": {
                         "en": "The utility from a **highly refined [[weapon:favonius-lance]]** can make it a weapon of choice in teams where [[character:xiangling]]'s [[stat:er]] requirements are especially high.",
                         "fr": "Les commodités d'une **[[weapon:favonius-lance]] à haut raffinement** peuvent en faire une arme de choix dans les équipes où les besoins en [[stat:er]] de [[character:xiangling]] sont particulièrement élevés."
@@ -61,16 +38,12 @@
             "items": [
                 {
                     "name": "kitain-cross-spear",
-                    "rarity": 4,
                     "note": {
                         "en": "In teams where [[character:xiangling]] uses her [[ability:skill]] twice per [[ability:burst]], this weapon generates the most energy of any other weapon, making it ideal for longer rotations with high [[stat:er]] requirements. It gains value in teams where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] (i.e. Raiden National).",
                         "fr": "Dans les équipes où [[character:xiangling]] utilise son [[ability:skill]] deux fois par [[ability:burst]], cette arme génère le plus d'énergie comparé aux autres armes, la rendant idéale pour les rotations plus longues avec des besoins en [[stat:er]] élevés. Elle gagne de la valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]] (Raiden National par exemple)."
                     }
                 },
-                {
-                    "name": "prototype-starglitter",
-                    "rarity": 4
-                }
+                "prototype-starglitter"
             ]
         }
     ]

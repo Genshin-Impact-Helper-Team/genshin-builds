@@ -4,7 +4,6 @@
             "items": [
                 {
                     "name": "reliquary-of-truth",
-                    "rarity": 5,
                     "note": {
                         "en": "Assumes the weapon passive gives 80 [[stat:em]].",
                         "fr": "Suppose que le passif de l'arme donne 80 [[stat:em]]."
@@ -12,7 +11,6 @@
                 },
                 {
                     "name": "tome-of-the-eternal-flow",
-                    "rarity": 5,
                     "note": {
                         "en": "Calculated with **reliable stacking, such as with [[character:furina]]**. Without reliable stacking, this weapon performs worse than **[[weapon:flowing-purity]] [R5]**.",
                         "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**."
@@ -24,19 +22,14 @@
             "items": [
                 {
                     "name": "cashflow-supervision",
-                    "rarity": 5,
                     "note": {
                         "en": "Calculated with **reliable stacking, such as with [[character:furina]]**. Without reliable stacking, this weapon performs worse than **[[weapon:flowing-purity]] [R5]**.",
                         "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**."
                     }
                 },
-                {
-                    "name": "vivid-notions",
-                    "rarity": 5
-                },
+                "vivid-notions",
                 {
                     "name": "surfs-up",
-                    "rarity": 5,
                     "note": {
                         "en": "Calculated with **reliable stacking, such as with [[character:furina]]**. Without reliable stacking, this weapon performs worse than **[[weapon:flowing-purity]] [R5]**.",
                         "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**."
@@ -46,13 +39,9 @@
         },
         {
             "items": [
-                {
-                    "name": "a-thousand-floating-dreams",
-                    "rarity": 5
-                },
+                "a-thousand-floating-dreams",
                 {
                     "name": "starcallers-watch",
-                    "rarity": 5,
                     "note": {
                         "en": "Ranks similarly to **[[weapon:a-thousand-floating-dreams]]** if [[character:yanfei]] is **[C4+]**.",
                         "fr": "Se classe au même niveau que **[[weapon:a-thousand-floating-dreams]]** si [[character:yanfei]] est **[C4+]**."
@@ -64,7 +53,6 @@
             "items": [
                 {
                     "name": "flowing-purity",
-                    "rarity": 4,
                     "refinement": 5,
                     "note": {
                         "en": "Calculated with [[ability:bol]] cleared. Loses significant value if run **without a consistent healer**.",
@@ -73,7 +61,6 @@
                 },
                 {
                     "name": "the-widsith",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon performs as well as **[[weapon:cashflow-supervision]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:cashflow-supervision]]**."
@@ -81,7 +68,6 @@
                 },
                 {
                     "name": "dawning-frost",
-                    "rarity": 4,
                     "note": {
                         "en": "Calculated with the weapon passive always active. At **[R5]**, this weapon performs as well as **[[weapon:tome-of-the-eternal-flow]]**.",
                         "fr": "Calculé avec le passif de l'arme toujours actif. Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:tome-of-the-eternal-flow]]**."

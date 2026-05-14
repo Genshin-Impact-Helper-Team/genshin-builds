@@ -2,17 +2,13 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "the-daybreak-chronicles",
-                    "rarity": 5
-                }
+                "the-daybreak-chronicles"
             ]
         },
         {
             "items": [
                 {
                     "name": "polar-star",
-                    "rarity": 5,
                     "note": {
                         "en": "Perform a quick [[ability:na]] and [[ability:ca]] before summoning Oz for more stacks.",
                         "fr": "Effectuez une [[ability:na]] rapide et une [[ability:ca]] avant d'invoquer Oz pour obtenir plus de stacks."
@@ -22,49 +18,30 @@
         },
         {
             "items": [
-                {
-                    "name": "hunters-path",
-                    "rarity": 5
-                },
-                {
-                    "name": "aqua-simulacra",
-                    "rarity": 5
-                }
+                "hunters-path",
+                "aqua-simulacra"
             ]
         },
         {
             "items": [
-                {
-                    "name": "the-first-great-magic",
-                    "rarity": 5
-                }
+                "the-first-great-magic"
             ]
         },
         {
             "items": [
-                {
-                    "name": "skyward-harp",
-                    "rarity": 5
-                },
-                {
-                    "name": "thundering-pulse",
-                    "rarity": 5
-                }
+                "skyward-harp",
+                "thundering-pulse"
             ]
         },
         {
             "items": [
-                {
-                    "name": "astral-vultures-crimson-plumage",
-                    "rarity": 5
-                }
+                "astral-vultures-crimson-plumage"
             ]
         },
         {
             "items": [
                 {
                     "name": "the-stringless",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]** this weapon performs similar to **[[weapon:skyward-harp]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:skyward-harp]]**."
@@ -76,25 +53,19 @@
             "items": [
                 {
                     "name": "song-of-stillness",
-                    "rarity": 4,
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:fischl]] is healed before summoning Oz.",
                         "fr": "Suppose que [[character:fischl]] est soignée avant d'invoquer Oz."
                     }
                 },
-                {
-                    "name": "the-viridescent-hunt",
-                    "rarity": 4
-                },
+                "the-viridescent-hunt",
                 {
                     "name": "chain-breaker",
-                    "rarity": 4,
                     "refinement": 5
                 },
                 {
                     "name": "windblume-ode",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]
@@ -103,7 +74,6 @@
             "items": [
                 {
                     "name": "alley-hunter",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]** this weapon performs similar to **[[weapon:the-stringless]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:the-stringless]]**."
@@ -111,7 +81,6 @@
                 },
                 {
                     "name": "fading-twilight",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]

@@ -93,6 +93,7 @@ You do not need to use the command line. You can make content changes **directly
 > - Use `translation/...` when translating existing content.
 > - Use `i18n/add-...` when adding a new language to the site.
 > - Use `fix/...` for small bug fixes.
+> - Use `refacto/...` for changes made to the website itself or the json parsing.
 > - Use `docs/...` for README or documentation changes.
 >
 > Branch names must be in english and use lowercase letters, numbers, and hyphens only.  

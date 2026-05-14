@@ -2,21 +2,14 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "mistsplitter-reforged",
-                    "rarity": 5
-                }
+                "mistsplitter-reforged"
             ]
         },
         {
             "items": [
-                {
-                    "name": "primordial-jade-cutter",
-                    "rarity": 5
-                },
+                "primordial-jade-cutter",
                 {
                     "name": "haran-geppaku-futsu",
-                    "rarity": 5,
                     "note": {
                         "en": "When [[character:bennett]] is not able to use infused [[ability:na]]s, this weapon performs significantly worse.",
                         "fr": "Quand [[character:bennett]] ne peut pas utiliser d'[[ability:na]] infusée, cette arme devient beaucoup moins bonne."
@@ -26,21 +19,14 @@
         },
         {
             "items": [
-                {
-                    "name": "uraku-misugiri",
-                    "rarity": 5
-                },
-                {
-                    "name": "absolution",
-                    "rarity": 5
-                }
+                "uraku-misugiri",
+                "absolution"
             ]
         },
         {
             "items": [
                 {
                     "name": "light-of-foliar-incision",
-                    "rarity": 5,
                     "note": {
                         "en": "When [[character:bennett]] is not able to use infused [[ability:na]]s, this weapon performs significantly worse.",
                         "fr": "Quand [[character:bennett]] ne peut pas utiliser d'[[ability:na]] infusée, cette arme devient beaucoup moins bonne."
@@ -50,17 +36,10 @@
         },
         {
             "items": [
-                {
-                    "name": "splendor-of-tranquil-waters",
-                    "rarity": 5
-                },
-                {
-                    "name": "lightbearing-moonshard",
-                    "rarity": 5
-                },
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
                 {
                     "name": "freedom-sworn",
-                    "rarity": 5,
                     "note": {
                         "en": "If [[character:bennett]] is not able to trigger [[element:melt]] or [[element:vaporize]] frequently, this weapon performs poorly.",
                         "fr": "Si [[character:bennett]] ne peut pas déclencher [[element:melt]] ou [[element:vaporize]] fréquemment, cette arme performe mal."
@@ -68,7 +47,6 @@
                 },
                 {
                     "name": "summit-shaper",
-                    "rarity": 5,
                     "note": {
                         "en": "Assumes no shield. With a shield, this weapon performs better than similarly ranked weapons.",
                         "fr": "Suppose qu'aucun bouclier n'est actif. Avec un bouclier, cette arme performe mieux que les armes de rang similaire."
@@ -80,7 +58,6 @@
             "items": [
                 {
                     "name": "wolf-fang",
-                    "rarity": 4,
                     "note": {
                         "en": "At [R5], this weapon performs significantly better, matching **[[weapon:summit-shaper]]**.",
                         "fr": "Une fois [R5], cette arme performe significativement mieux, équivalente à **[[weapon:summit-shaper]]**."
@@ -92,7 +69,6 @@
             "items": [
                 {
                     "name": "the-alley-flash",
-                    "rarity": 4,
                     "note": {
                         "en": "If [[character:bennett]] is not able to trigger [[element:melt]] or [[element:vaporize]] frequently, this weapon performs poorly.",
                         "fr": "Si [[character:bennett]] ne peut pas déclencher [[element:melt]] ou [[element:vaporize]] fréquemment, cette arme performe mal."
@@ -100,7 +76,6 @@
                 },
                 {
                     "name": "finale-of-the-deep",
-                    "rarity": 4,
                     "refinement": 5,
                     "note": {
                         "en": "If you can reliably clear the [[ability:bol]], this weapon performs similarly to **[[weapon:summit-shaper]]**.",
@@ -109,7 +84,6 @@
                 },
                 {
                     "name": "the-black-sword",
-                    "rarity": 4,
                     "note": {
                         "en": "When [[character:bennett]] is not able to use infused [[ability:na]]s, this weapon performs significantly worse.",
                         "fr": "Quand [[character:bennett]] ne peut pas utiliser d'[[ability:na]] infusée, cette arme devient beaucoup moins bonne."

@@ -82,6 +82,8 @@ content loader, including:
 
 - Folder names are stable slugs and should not be translated.
 - Gameplay names usually use IDs from `src/i18n/<lang>/*.json`.
+- Weapon rarity lives in `src/data/weapons/<weapon-type>.json`. Build
+  `weapons.json` files should list weapon IDs, refinements, and notes only.
 - Notes are translated directly inside the JSONs
 - Notes, when present, must include `en`; other languages are optional.
 - Requested language falls back to `en`.
@@ -123,7 +125,6 @@ Example:
 ```json
 {
   "name": "favonius-warbow",
-  "rarity": 4,
   "note": {
     "en": "Useful when the team needs extra energy.",
     "fr": "Utile lorsque l'equipe a besoin de plus d'energie."

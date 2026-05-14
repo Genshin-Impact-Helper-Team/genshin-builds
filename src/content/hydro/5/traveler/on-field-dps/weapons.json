@@ -2,21 +2,11 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "primordial-jade-cutter",
-                    "rarity": 5
-                },
-                {
-                    "name": "mistsplitter-reforged",
-                    "rarity": 5
-                },
-                {
-                    "name": "splendor-of-tranquil-waters",
-                    "rarity": 5
-                },
+                "primordial-jade-cutter",
+                "mistsplitter-reforged",
+                "splendor-of-tranquil-waters",
                 {
                     "name": "uraku-misugiri",
-                    "rarity": 5,
                     "note": {
                         "en": "**[[element:hydro]] [[character:traveler]]'s best weapon** in teams with a **[[element:geo]]** character.",
                         "fr": "**La meilleure arme pour le [[character:traveler]] [[element:hydro]]** dans les équipes ayant un personnage **[[element:geo]]** character."
@@ -26,41 +16,27 @@
         },
         {
             "items": [
-                {
-                    "name": "light-of-foliar-incision",
-                    "rarity": 5
-                },
-                {
-                    "name": "haran-geppaku-futsu",
-                    "rarity": 5
-                },
-                {
-                    "name": "absolution",
-                    "rarity": 5
-                }
+                "light-of-foliar-incision",
+                "haran-geppaku-futsu",
+                "absolution"
             ]
         },
         {
             "items": [
                 {
                     "name": "summit-shaper",
-                    "rarity": 5,
                     "note": {
                         "en": "Ranked assuming [[element:hydro]] [[character:traveler]] is **C4**, which provides a shield for them.",
                         "fr": "Classée en supposant que le [[character:traveler]] [[element:hydro]] est **C4**, ce qui lui offre un bouclier."
                     }
                 },
-                {
-                    "name": "lightbearing-moonshard",
-                    "rarity": 5
-                }
+                "lightbearing-moonshard"
             ]
         },
         {
             "items": [
                 {
                     "name": "wolf-fang",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon is about equal to **[[weapon:light-of-foliar-incision]]**.",
                         "fr": "Une fois **[R5]**, cette arme équivaut plus ou moins à **[[weapon:light-of-foliar-incision]]**."
@@ -70,13 +46,9 @@
         },
         {
             "items": [
-                {
-                    "name": "finale-of-the-deep",
-                    "rarity": 4
-                },
+                "finale-of-the-deep",
                 {
                     "name": "harbinger-of-dawn",
-                    "rarity": 3,
                     "note": {
                         "en": "Assumes the passive is active.",
                         "fr": "Suppose que le passif est actif."
@@ -88,12 +60,10 @@
             "items": [
                 {
                     "name": "fleuve-cendre-ferryman",
-                    "rarity": 4,
                     "refinement": 5
                 },
                 {
                     "name": "festering-desire",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]
@@ -102,7 +72,6 @@
             "items": [
                 {
                     "name": "favonius-sword",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon's utility may make it better than the options above.",
                         "fr": "Les commodités de cette arme peuvent en faire une meilleure option que celles classées au dessus."

@@ -2,26 +2,17 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "sacrificial-greatsword",
-                    "rarity": 4
-                }
+                "sacrificial-greatsword"
             ]
         },
         {
             "items": [
-                {
-                    "name": "whiteblind",
-                    "rarity": 4
-                }
+                "whiteblind"
             ]
         },
         {
             "items": [
-                {
-                    "name": "favonius-greatsword",
-                    "rarity": 4
-                }
+                "favonius-greatsword"
             ]
         }
     ]

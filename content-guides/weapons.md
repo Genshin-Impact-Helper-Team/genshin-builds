@@ -18,9 +18,9 @@ src/content/<element>/<rarity>/<character>/<build>/weapons.json
   "weapons": [
     {
       "items": [
+        "aqua-simulacra",
         {
           "name": "amos-bow",
-          "rarity": 5,
           "refinement": 1,
           "note": {
             "en": "Good with [[stat:atk%]].",
@@ -31,9 +31,9 @@ src/content/<element>/<rarity>/<character>/<build>/weapons.json
     }
   ],
   "conditional": [
+    "aquila-favonia",
     {
       "name": "freedom-sworn",
-      "rarity": 5,
       "refinement": "4+",
       "note": {
         "en": "Use only in the team described in notes.",
@@ -50,8 +50,10 @@ src/content/<element>/<rarity>/<character>/<build>/weapons.json
 - `notes`: Optional section-level notes shown under
   `Regarding Weapons Choices:` without adding a `*` marker to any weapon.
 - `weapons[].items`: Weapons in the same ranking position.
-- `items[].name`: Weapon i18n ID from `src/i18n/<lang>/weapons.json`.
-- `items[].rarity`: Weapon rarity, usually `3`, `4`, or `5`.
+- `items[]`: Weapon i18n IDs from `src/i18n/<lang>/weapons.json`, either as
+  plain strings or as objects.
+- `items[].name`: Weapon i18n ID. Required when the item needs an object for
+  `refinement` or `note`.
 - `items[].refinement`: Optional refinement rank. Use a number for exact
   refinements, such as `5`, or a string for ranges, such as `"4+"`.
 - `items[].note`: Optional localized editorial note. Adds a `*` marker beside
@@ -68,14 +70,13 @@ Use one item for a normal ranking:
 ```json
 {
   "items": [
+    "aqua-simulacra",
     {
       "name": "amos-bow",
-      "rarity": 5,
       "refinement": 1
     },
     {
       "name": "finale-of-the-deep",
-      "rarity": 4,
       "refinement": "3+"
     }
   ]
@@ -95,16 +96,7 @@ items render as approximate alternatives with `≈`.
 
 ```json
 {
-  "items": [
-    {
-      "name": "amos-bow",
-      "rarity": 5
-    },
-    {
-      "name": "aqua-simulacra",
-      "rarity": 5
-    }
-  ]
+  "items": ["amos-bow", "aqua-simulacra"]
 }
 ```
 
@@ -125,9 +117,9 @@ Conditional weapons use the same item fields as ranked weapons:
 ```json
 {
   "conditional": [
+    "aquila-favonia",
     {
       "name": "primordial-jade-cutter",
-      "rarity": 5,
       "note": {
         "en": "Only valuable when the build can use the passive well.",
         "fr": "Utile seulement si le build peut bien utiliser le passif."
@@ -139,6 +131,11 @@ Conditional weapons use the same item fields as ranked weapons:
 
 ## Notes
 
+- Weapon rarity is pulled from `src/data/weapons/<weapon-type>.json`, where
+  `<weapon-type>` comes from the character's `metadata.json` `weapon` field.
+- When adding a weapon that is not in the shared weapon data yet, add it to the
+  matching file (`bow.json`, `catalyst.json`, `claymore.json`, `polearm.json`,
+  or `sword.json`) instead of adding `rarity` to the build.
 - Adding `note` to a weapon automatically adds a `*` marker next to that weapon
   in the weapon ranking list.
 - The same `note` also automatically creates a matching note entry under
@@ -153,7 +150,6 @@ Example with the same note translated in different languages:
 ```json
 {
   "name": "favonius-warbow",
-  "rarity": 4,
   "note": {
     "en": "Useful when the team needs extra energy.",
     "fr": "Utile lorsque l'equipe a besoin de plus d'energie."

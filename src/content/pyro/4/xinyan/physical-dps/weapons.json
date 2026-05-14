@@ -2,25 +2,18 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "redhorn-stonethresher",
-                    "rarity": 5
-                }
+                "redhorn-stonethresher"
             ]
         },
         {
             "items": [
-                {
-                    "name": "skyward-pride",
-                    "rarity": 5
-                }
+                "skyward-pride"
             ]
         },
         {
             "items": [
                 {
                     "name": "serpent-spine",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon performs better than **[[weapon:skyward-pride]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:skyward-pride]]**."
@@ -32,7 +25,6 @@
             "items": [
                 {
                     "name": "the-unforged",
-                    "rarity": 5,
                     "note": {
                         "en": "This ranking is based on **unshielded** performance. While **shielded**, this weapon performs better than low-refinement **[[weapon:serpent-spine]]**.",
                         "fr": "Ce classement est basé sur une performance **sans bouclier**. Avec **bouclier**, cette arme performe mieux que **[[weapon:serpent-spine]]** à faible raffinement."
@@ -42,41 +34,28 @@
         },
         {
             "items": [
-                {
-                    "name": "song-of-broken-pines",
-                    "rarity": 5
-                }
+                "song-of-broken-pines"
             ]
         },
         {
             "items": [
-                {
-                    "name": "wolfs-gravestone",
-                    "rarity": 5
-                }
+                "wolfs-gravestone"
             ]
         },
         {
             "items": [
-                {
-                    "name": "luxurious-sea-lord",
-                    "rarity": 4
-                }
+                "luxurious-sea-lord"
             ]
         },
         {
             "items": [
-                {
-                    "name": "snow-tombed-starsilver",
-                    "rarity": 4
-                }
+                "snow-tombed-starsilver"
             ]
         },
         {
             "items": [
                 {
                     "name": "prototype-archaic",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon performs better than **[[weapon:snow-tombed-starsilver]] [R5]**.",
                         "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:snow-tombed-starsilver]] [R5]**."

@@ -2,50 +2,27 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "staff-of-the-scarlet-sands",
-                    "rarity": 5
-                }
+                "staff-of-the-scarlet-sands"
             ]
         },
         {
             "items": [
-                {
-                    "name": "lumidouce-elegy",
-                    "rarity": 5
-                },
-                {
-                    "name": "fractured-halo",
-                    "rarity": 5
-                },
-                {
-                    "name": "staff-of-homa",
-                    "rarity": 5
-                },
-                {
-                    "name": "engulfing-lightning",
-                    "rarity": 5
-                }
+                "lumidouce-elegy",
+                "fractured-halo",
+                "staff-of-homa",
+                "engulfing-lightning"
             ]
         },
         {
             "items": [
-                {
-                    "name": "primordial-jade-winged-spear",
-                    "rarity": 5
-                },
-                {
-                    "name": "symphonist-of-scents",
-                    "rarity": 5
-                },
+                "primordial-jade-winged-spear",
+                "symphonist-of-scents",
                 {
                     "name": "the-catch",
-                    "rarity": 4,
                     "refinement": 5
                 },
                 {
                     "name": "deathmatch",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this becomes a very strong weapon, **outperforming [[weapon:lumidouce-elegy]] for reactionless teams**.",
                         "fr": "Une fois **[R5]**, cette arme devient une très bonne option, **dépassant [[weapon:lumidouce-elegy]] pour les équipes sans réactions**."
@@ -53,7 +30,6 @@
                 },
                 {
                     "name": "ballad-of-the-fjords",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this becomes a very strong weapon, **outperforming [[weapon:lumidouce-elegy]] for [[element:vaporize]] teams**.",
                         "fr": "Une fois **[R5]**, cette arme devient une très bonne option, **dépassant [[weapon:lumidouce-elegy]] pour les équipes [[element:vaporize]]**."
@@ -63,21 +39,11 @@
         },
         {
             "items": [
-                {
-                    "name": "vortex-vanquisher",
-                    "rarity": 5
-                },
-                {
-                    "name": "calamity-queller",
-                    "rarity": 5
-                },
-                {
-                    "name": "crimson-moons-semblance",
-                    "rarity": 5
-                },
+                "vortex-vanquisher",
+                "calamity-queller",
+                "crimson-moons-semblance",
                 {
                     "name": "wavebreakers-fin",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon is equal to or outperforms **[[weapon:lumidouce-elegy]]**, depending on total team [[ability:burst]] cost.",
                         "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:lumidouce-elegy]]**, selon le coût total d'[[ability:burst]] de l'équipe."
@@ -85,7 +51,6 @@
                 },
                 {
                     "name": "dragons-bane",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]**, this weapon is equal to [[weapon:vortex-vanquisher]]. It gains value in teams where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] (i.e. Raiden National).",
                         "fr": "Une fois **[R5]**, cette arme est équivalente à [[weapon:vortex-vanquisher]]. Elle gagne de la valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]] (Raiden National par exemple)."
@@ -95,17 +60,13 @@
         },
         {
             "items": [
-                {
-                    "name": "missive-windspear",
-                    "rarity": 4
-                }
+                "missive-windspear"
             ]
         },
         {
             "items": [
                 {
                     "name": "kitain-cross-spear",
-                    "rarity": 4,
                     "note": {
                         "en": "In teams where [[character:xiangling]] uses her [[ability:skill]] twice per [[ability:burst]], this weapon generates the most energy of any other weapon, making it ideal for longer rotations with high [[stat:er]] requirements.",
                         "fr": "Dans les équipes où [[character:xiangling]] utilise son [[ability:skill]] deux fois par [[ability:burst]], cette arme génère le plus d'énergie comparé aux autres armes, la rendant idéale pour les rotations plus longues avec des besoins en [[stat:er]] élevés."
@@ -117,7 +78,6 @@
             "items": [
                 {
                     "name": "lithic-spear",
-                    "rarity": 4,
                     "note": {
                         "en": "At **[R5]** with **2 stacks**, this weapon performs equal to **[[weapon:vortex-vanquisher]]**.",
                         "fr": "Une fois **[R5]** avec **2 stacks**, cette arme équivaut à **[[weapon:vortex-vanquisher]]**."
@@ -129,7 +89,6 @@
             "items": [
                 {
                     "name": "favonius-lance",
-                    "rarity": 4,
                     "note": {
                         "en": "The utility from a **highly refined [[weapon:favonius-lance]]** can make it a weapon of choice in teams where [[character:xiangling]]'s [[stat:er]] requirements are especially high.",
                         "fr": "Les commodités d'une **[[weapon:favonius-lance]] à haut raffinement** peuvent en faire une arme de choix dans les équipes où les besoins en [[stat:er]] de [[character:xiangling]] sont particulièrement élevés."

@@ -2,29 +2,19 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "mistsplitter-reforged",
-                    "rarity": 5
-                }
+                "mistsplitter-reforged"
             ]
         },
         {
             "items": [
-                {
-                    "name": "light-of-foliar-incision",
-                    "rarity": 5
-                },
-                {
-                    "name": "absolution",
-                    "rarity": 5
-                }
+                "light-of-foliar-incision",
+                "absolution"
             ]
         },
         {
             "items": [
                 {
                     "name": "uraku-misugiri",
-                    "rarity": 5,
                     "note": {
                         "en": "If using a **[[element:geo]] teammate** to trigger the passive, this weapon is **roughly equal to [[weapon:light-of-foliar-incision]].**",
                         "fr": "Si jouée avec un **personnage [[element:geo]]** pour déclencher le passif, cette arme est **presque équivalente à [[weapon:light-of-foliar-incision]].**"
@@ -34,37 +24,21 @@
         },
         {
             "items": [
-                {
-                    "name": "splendor-of-tranquil-waters",
-                    "rarity": 5
-                },
-                {
-                    "name": "lightbearing-moonshard",
-                    "rarity": 5
-                },
-                {
-                    "name": "azurelight",
-                    "rarity": 5
-                }
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
+                "azurelight"
             ]
         },
         {
             "items": [
-                {
-                    "name": "haran-geppaku-futsu",
-                    "rarity": 5
-                },
-                {
-                    "name": "athame-artis",
-                    "rarity": 5
-                }
+                "haran-geppaku-futsu",
+                "athame-artis"
             ]
         },
         {
             "items": [
                 {
                     "name": "calamity-of-eshu",
-                    "rarity": 4,
                     "refinement": 5,
                     "note": {
                         "en": "Assume [[element:pyro]] [[character:traveler]] is **shielded**",
@@ -75,17 +49,10 @@
         },
         {
             "items": [
-                {
-                    "name": "primordial-jade-cutter",
-                    "rarity": 5
-                },
-                {
-                    "name": "summit-shaper",
-                    "rarity": 5
-                },
+                "primordial-jade-cutter",
+                "summit-shaper",
                 {
                     "name": "harbinger-of-dawn",
-                    "rarity": 3,
                     "refinement": 5,
                     "note": {
                         "en": "Assumes the **passive is consistently active** (always above **90%** max HP). If this is inconsistent, it's recommended to choose other weapons.",
@@ -98,20 +65,15 @@
             "items": [
                 {
                     "name": "finale-of-the-deep",
-                    "rarity": 4,
                     "refinement": 5,
                     "note": {
                         "en": "If the [[ability:bol]] can be cleared reliably, this weapon **is roughly equal to [[weapon:summit-shaper]]**.",
                         "fr": "Si l'[[ability:bol]] peut être retiré de manière fiable, cette arme **est presque équivalente à [[weapon:summit-shaper]]**."
                     }
                 },
-                {
-                    "name": "blacklcliff-longsword",
-                    "rarity": 4
-                },
+                "blackcliff-longsword",
                 {
                     "name": "lions-roar",
-                    "rarity": "4",
                     "note": {
                         "en": "At **[R5]** this weapon performs **roughly equal to [[weapon:harbinger-of-dawn]]**.",
                         "fr": "Une fois **[R5]** cette arme performe **de façon équivalente à [[weapon:harbinger-of-dawn]]**."

@@ -2,25 +2,18 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "favonius-sword",
-                    "rarity": 4
-                }
+                "favonius-sword"
             ]
         },
         {
             "items": [
-                {
-                    "name": "peak-patrol-song",
-                    "rarity": 5
-                }
+                "peak-patrol-song"
             ]
         },
         {
             "items": [
                 {
                     "name": "freedom-sworn",
-                    "rarity": 5,
                     "note": {
                         "en": "If [[character:traveler]]'s personal damage is not something you are looking for, it is not needed to level this weapon for them.",
                         "fr": "Si les dégâts personnels de [[character:traveler]] ne sont pas ce que vous recherchez, il n'est pas nécessaire d'augmenter le niveau de l'arme."
@@ -28,7 +21,6 @@
                 },
                 {
                     "name": "key-of-khaj-nisut",
-                    "rarity": 5,
                     "note": {
                         "en": "If [[character:traveler]]'s personal damage is not something you are looking for, it is not needed to level this weapon for them.",
                         "fr": "Si les dégâts personnels de [[character:traveler]] ne sont pas ce que vous recherchez, il n'est pas nécessaire d'augmenter le niveau de l'arme."
@@ -38,10 +30,7 @@
         },
         {
             "items": [
-                {
-                    "name": "sacrificial-sword",
-                    "rarity": 4
-                }
+                "sacrificial-sword"
             ]
         }
     ]

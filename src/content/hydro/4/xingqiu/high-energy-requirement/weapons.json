@@ -2,30 +2,22 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "favonius-sword",
-                    "rarity": 4
-                }
+                "favonius-sword"
             ]
         },
         {
             "items": [
-                {
-                    "name": "skyward-blade",
-                    "rarity": 5
-                }
+                "skyward-blade"
             ]
         },
         {
             "items": [
                 {
                     "name": "amenoma-kageuchi",
-                    "rarity": 4,
                     "refinement": 5
                 },
                 {
                     "name": "fleuve-cendre-ferryman",
-                    "rarity": 4,
                     "refinement": 5
                 }
             ]
@@ -34,7 +26,6 @@
             "items": [
                 {
                     "name": "sacrificial-sword",
-                    "rarity": 4,
                     "refinement": "4+",
                     "note": {
                         "en": "Despite this weapon providing the most energy for [[character:xingqiu]] himself, it is a selfish weapon that extends rotation times which is a loss in team DPS. However, if you aren't worried about damage, its comfort is unparalleled as long as it is **[R4+]**.",
@@ -47,7 +38,6 @@
     "conditional": [
         {
             "name": "athame-artis",
-            "rarity": 5,
             "note": {
                 "en": "If you are able to meet [[stat:er]] requirements, this weapon outperforms [[weapon:favonius-sword]] by a large enough margin to mention here.",
                 "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné."
@@ -55,7 +45,6 @@
         },
         {
             "name": "primordial-jade-cutter",
-            "rarity": 5,
             "note": {
                 "en": "If you are able to meet [[stat:er]] requirements, this weapon outperforms [[weapon:favonius-sword]] by a large enough margin to mention here.",
                 "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné."
@@ -63,7 +52,6 @@
         },
         {
             "name": "freedom-sworn",
-            "rarity": 5,
             "note": {
                 "en": "In a team where [[character:xingqiu]] consistently triggers reactions (most commonly [[element:bloom]] or [[element:electrocharged]]) and the team benefits from [[weapon:freedom-sworn]]'s buff, this becomes competitive with [[weapon:primordial-jade-cutter]] for [[character:xingqiu]]'s best weapon assuming you are able to meet [[stat:er]] requirements.",
                 "fr": "Dans les équipes où [[character:xingqiu]] déclenche régulièrement des réactions ([[element:bloom]] ou [[element:electrocharged]] la plupart du temps) et que l'équipe bénéficie du buff de [[weapon:freedom-sworn]], cette arme devient équivalente à [[weapon:primordial-jade-cutter]] pour la meilleure arme de [[character:xingqiu]] en partant du principe que les besoins en [[stat:er]] sont atteints."

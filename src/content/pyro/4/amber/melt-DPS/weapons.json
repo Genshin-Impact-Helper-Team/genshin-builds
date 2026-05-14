@@ -2,123 +2,75 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "the-first-great-magic",
-                    "rarity": 5
-                }
+                "the-first-great-magic"
             ]
         },
         {
             "items": [
-                {
-                    "name": "aqua-simulacra",
-                    "rarity": 5
-                }
+                "aqua-simulacra"
             ]
         },
         {
             "items": [
-                {
-                    "name": "thundering-pulse",
-                    "rarity": 5
-                },
-                {
-                    "name": "skyward-harp",
-                    "rarity": 5
-                },
-                {
-                    "name": "polar-star",
-                    "rarity": 5
-                }
+                "thundering-pulse",
+                "skyward-harp",
+                "polar-star"
             ]
         },
         {
             "items": [
-                {
-                    "name": "slingshot",
-                    "rarity": 3
-                }
+                "slingshot"
             ]
         },
         {
             "items": [
                 {
                     "name": "amos-bow",
-                    "rarity": 5,
                     "note": {
                         "en": "Ranking assumes you stay close to the enemy but this weapons has the potential to outclasses **[[weapon:aqua-simulacra]]** with max stacks but maintaining stacks would be difficult.",
                         "fr": "Le classement suppose que vous restiez proche des ennemis. Cette arme peut dépasser **[[weapon:aqua-simulacra]]** avec le maximum de stacks, mais maintenir les stacks peut être compliqué."
                     }
                 },
-                {
-                    "name": "hunters-path",
-                    "rarity": 5
-                }
+                "hunters-path"
             ]
         },
         {
             "items": [
                 {
                     "name": "ibis-piercer",
-                    "rarity": 4,
                     "refinement": 5
                 },
-                {
-                    "name": "the-viridescent-hunt",
-                    "rarity": 4
-                }
+                "the-viridescent-hunt"
             ]
         },
         {
             "items": [
-                {
-                    "name": "hamayumi",
-                    "rarity": 4
-                },
-                {
-                    "name": "prototype-crescent",
-                    "rarity": 4
-                }
+                "hamayumi",
+                "prototype-crescent"
             ]
         },
         {
             "items": [
-                {
-                    "name": "song-of-stillness",
-                    "rarity": 4
-                }
+                "song-of-stillness"
             ]
         },
         {
             "items": [
-                {
-                    "name": "windblume-ode",
-                    "rarity": 4
-                },
-                {
-                    "name": "the-stringless",
-                    "rarity": 4
-                }
+                "windblume-ode",
+                "the-stringless"
             ]
         },
         {
             "items": [
                 {
                     "name": "sharpshooters-oath",
-                    "rarity": 3,
                     "note": {
                         "en": "Significantly more potent if used in a headshot heavy [[ability:ca]] playstyle.",
                         "fr": "Beaucoup plus efficace si elle est utilisée avec un style de jeu axé sur les headshots avec des Attaques Chargées."
                     }
                 },
-                {
-                    "name": "kings-squire",
-                    "rarity": 4
-                },
-                {
-                    "name": "scion-of-the-blazing-sun",
-                    "rarity": 4
-                }
+                "kings-squire",
+                "scion-of-the-blazing-sun"
             ]
         }
     ]

@@ -1,45 +1,37 @@
 {
-  "weapons": [
-    {
-      "items": [
+    "weapons": [
         {
-          "name": "elegy-for-the-end",
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "items": [
+            "items": [
+                "elegy-for-the-end"
+            ]
+        },
         {
-          "name": "favonius-warbow",
-          "rarity": 4
-        }
-      ]
-    },
-    {
-      "items": [
+            "items": [
+                "favonius-warbow"
+            ]
+        },
         {
-          "name": "polar-star",
-          "rarity": 5,
-          "note": {
-            "en": "The best weapon for [[character:collei]]'s personal damage, however it is generally best to opt for a support weapon like [[weapon:elegy-for-the-end]] as the teamwide buff is more valuable.",
-            "fr": "La meilleure arme pour les dégâts personnels de [[character:collei]], cependant il est généralement préférable d'opter pour une arme de soutien comme [[weapon:elegy-for-the-end]] car le buff d'équipe est plus précieux."
-          }
-        }
-      ]
-    },
-    {
-      "items": [
+            "items": [
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "The best weapon for [[character:collei]]'s personal damage, however it is generally best to opt for a support weapon like [[weapon:elegy-for-the-end]] as the teamwide buff is more valuable.",
+                        "fr": "La meilleure arme pour les dégâts personnels de [[character:collei]], cependant il est généralement préférable d'opter pour une arme de soutien comme [[weapon:elegy-for-the-end]] car le buff d'équipe est plus précieux."
+                    }
+                }
+            ]
+        },
         {
-          "name": "sacrificial-bow",
-          "rarity": 4,
-          "refinement": "4+",
-          "note": {
-            "en": "Should only be used at at least [R4].",
-            "fr": "Ne doit être utilisé qu'à partir de [R4]."
-          }
+            "items": [
+                {
+                    "name": "sacrificial-bow",
+                    "refinement": "4+",
+                    "note": {
+                        "en": "Should only be used at at least [R4].",
+                        "fr": "Ne doit être utilisé qu'à partir de [R4]."
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

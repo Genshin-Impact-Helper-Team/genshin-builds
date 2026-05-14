@@ -2,33 +2,20 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "a-thousand-floating-dreams",
-                    "rarity": 5
-                },
-                {
-                    "name": "sunny-morning-sleep-in",
-                    "rarity": 5
-                }
+                "a-thousand-floating-dreams",
+                "sunny-morning-sleep-in"
             ]
         },
         {
             "items": [
-                {
-                    "name": "wandering-evenstar",
-                    "rarity": 4
-                }
+                "wandering-evenstar"
             ]
         },
         {
             "items": [
-                {
-                    "name": "sacrificial-fragments",
-                    "rarity": 4
-                },
+                "sacrificial-fragments",
                 {
                     "name": "thrilling-tales-of-dragon-slayers",
-                    "rarity": 3,
                     "note": {
                         "en": "This weapon does not provide any [[stat:em]], however it overtakes the other weapons on the list when it comes to buffing your team. It offers a 48% ATK boost to the character you swap to, which is equivalent to 1 main stat. This buffs your DPS more compared to [[weapon:sacrificial-fragments]], which gives ~44 EM, equivalent to only 2 substats.",
                         "fr": "Cette arme ne donne aucune [[stat:em]], cependant elle dépasse les autres armes de la liste lorsqu'elle est utilisée pour buff votre équipe. Elle offre un boost d'ATK de 48% au personnage sur lequel vous basculez, ce qui équivaut à 1 main stat. Cela améliore davantage vos dégâts par rapport à [[weapon:sacrificial-fragments]], qui donne ~44 EM, équivalent à seulement 2 sous-stats."
@@ -40,7 +27,6 @@
             "items": [
                 {
                     "name": "hakushin-ring",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon is a good option for teams where [[character:sucrose]] can swirl [[element:electro]] to trigger its damage-boosting passive. In [[element:electrocharged]] teams, she can buff [[stat:hydro-dmg]]% as well.",
                         "fr": "Cette arme est une bonne option pour les équipes où [[character:sucrose]] peut disperser Électro pour déclencher son passif d'augmentation des dégâts. Dans les équipes [[element:electrocharged]], elle peut également améliorer les [[stat:hydro-dmg]]%."
@@ -50,17 +36,13 @@
         },
         {
             "items": [
-                {
-                    "name": "magic-guide",
-                    "rarity": 3
-                }
+                "magic-guide"
             ]
         },
         {
             "items": [
                 {
                     "name": "favonius-codex",
-                    "rarity": 4,
                     "note": {
                         "en": "This weapon can be useful if you value the extra energy generation from the passive. You may need to get a few [[stat:cr]] substats to trigger the passive reliably.",
                         "fr": "Cette arme peut être utile si vous appréciez la génération d'énergie supplémentaire du passif. Vous devrez peut-être obtenir quelques sous-stats [[stat:cr]] pour déclencher le passif de manière fiable."

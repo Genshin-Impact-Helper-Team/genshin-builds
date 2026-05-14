@@ -4,116 +4,70 @@
             "items": [
                 {
                     "name": "athame-artis",
-                    "rarity": 5,
                     "note": {
                         "en": " If using [[character:xingqiu]] with an on-field unit that **benefits from [[stat:atk%]]** this weapon is definitively **[[character:xingqiu]]'s best option**.",
                         "fr": " Si vous utilisez [[character:xingqiu]] avec un personnage on-field qui **bénéficie de [[stat:atk%]]** cete arme est définitivement **la meilleure option pour [[character:xingqiu]]**."
                     }
                 },
-                {
-                    "name": "primordial-jade-cutter",
-                    "rarity": 5
-                }
+                "primordial-jade-cutter"
             ]
         },
         {
             "items": [
-                {
-                    "name": "mistsplitter-reforged",
-                    "rarity": 5
-                }
+                "mistsplitter-reforged"
             ]
         },
         {
             "items": [
-                {
-                    "name": "azurelight",
-                    "rarity": 5
-                },
-                {
-                    "name": "haran-geppaku-futsu",
-                    "rarity": 5
-                },
-                {
-                    "name": "light-of-foliar-incision",
-                    "rarity": 5
-                },
-                {
-                    "name": "absolution",
-                    "rarity": 5
-                }
+                "azurelight",
+                "haran-geppaku-futsu",
+                "light-of-foliar-incision",
+                "absolution"
             ]
         },
         {
             "items": [
-                {
-                    "name": "summit-shaper",
-                    "rarity": 5
-                },
-                {
-                    "name": "skyward-blade",
-                    "rarity": 5
-                },
-                {
-                    "name": "uraku-misugiri",
-                    "rarity": 5
-                }
+                "summit-shaper",
+                "skyward-blade",
+                "uraku-misugiri"
             ]
         },
         {
             "items": [
-                {
-                    "name": "splendor-of-tranquil-waters",
-                    "rarity": 5
-                },
-                {
-                    "name": "lightbearing-moonshard",
-                    "rarity": 5
-                }
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard"
             ]
         },
         {
             "items": [
-                {
-                    "name": "wolf-fang",
-                    "rarity": 4
-                }
+                "wolf-fang"
             ]
         },
         {
             "items": [
-                {
-                    "name": "favonius-sword",
-                    "rarity": 4
-                }
+                "favonius-sword"
             ]
         },
         {
             "items": [
                 {
                     "name": "fleuve-cendre-ferryman",
-                    "rarity": 4,
                     "refinement": 5
                 },
                 {
                     "name": "finale-of-the-deep",
-                    "rarity": 4,
                     "note": {
                         "en": "With a healer that can **reliably clear the [[ability:bol]]**, this weapon ranks **equal to or above [[weapon:skyward-blade]]**.",
                         "fr": "Avec un healer qui peut **retirer l'[[ability:bol]] de manière fiable**, cette arme est **équivalente ou meilleure que [[weapon:skyward-blade]]**."
                     }
                 },
-                {
-                    "name": "amenoma-kageuchi",
-                    "rarity": 4
-                }
+                "amenoma-kageuchi"
             ]
         }
     ],
     "conditional": [
         {
             "name": "freedom-sworn",
-            "rarity": 5,
             "note": {
                 "en": "In a team where [[character:xingqiu]] consistently triggers reactions (most commonly [[element:bloom]] or [[element:electrocharged]]) and the team benefits from [[weapon:freedom-sworn]]'s buff, this ranks above [[weapon:summit-shaper]].",
                 "fr": "Dans une équipe où [[character:xingqiu]] déclenche régulièrement des réactions (le plus souvent [[element:bloom]] ou [[element:electrocharged]]) et l'équipe bénéficie du buff de [[weapon:freedom-sworn]], cette arme est meilleure que [[weapon:summit-shaper]]."

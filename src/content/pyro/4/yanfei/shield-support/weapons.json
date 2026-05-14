@@ -2,30 +2,18 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "prototype-amber",
-                    "rarity": 4
-                }
+                "prototype-amber"
             ]
         },
         {
             "items": [
-                {
-                    "name": "favonius-codex",
-                    "rarity": 4
-                }
+                "favonius-codex"
             ]
         },
         {
             "items": [
-                {
-                    "name": "thrilling-tales-of-dragon-slayers",
-                    "rarity": 3
-                },
-                {
-                    "name": "starcallers-watch",
-                    "rarity": 5
-                }
+                "thrilling-tales-of-dragon-slayers",
+                "starcallers-watch"
             ]
         }
     ]
