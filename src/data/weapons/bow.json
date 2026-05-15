@@ -14,6 +14,10 @@
             "base_attack": 44,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
+        },
         "r1": [
             2,
             20,
@@ -55,6 +59,10 @@
             "base_attack": 46,
             "substat_value": "10.8%"
         },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "49.6%"
+        },
         "r1": [
             12,
             8
@@ -91,6 +99,10 @@
             "base_attack": 44,
             "substat_value": "19.2%"
         },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
+        },
         "r1": [
             16,
             20
@@ -126,6 +138,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "14.4%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "66.2%"
         },
         "r1": [
             24,
@@ -178,6 +194,10 @@
             "base_attack": 44,
             "substat_value": "8.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "36.8%"
+        },
         "r1": [
             12
         ],
@@ -208,6 +228,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
         },
         "r1": [
             4.8,
@@ -245,6 +269,10 @@
             "base_attack": 42,
             "substat_value": "36"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
         "r1": [
             40
         ],
@@ -276,6 +304,10 @@
             "base_attack": 41,
             "substat_value": "15.0%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "69.0%"
+        },
         "r1": [
             4,
             1.2
@@ -297,37 +329,6 @@
             2.4
         ]
     },
-    "ebony-bow": {
-        "rarity": 3,
-        "passive": {
-            "en": "Increases DMG against mechanoid Ruin opponents by {{value}}%.",
-            "de": "Erhöht den Vorrichtungen in Ruinen zugefügten Schaden um {{value}}%.",
-            "es": "Aumenta en un {{value}}% el daño contra enemigos mecánicos de las ruinas.",
-            "fr": "Augmente les DGT infligés aux ennemis mécaniques des ruines de {{value}}%",
-            "it": "Aumenta i DAN contro gli avversari mecha delle Rovine di un {{value}}%.",
-            "ru": "Увеличивает урон по механическим защитникам руин на {{value}}%."
-        },
-        "substat": "atk%",
-        "level_1": {
-            "base_attack": 39,
-            "substat_value": "7.7%"
-        },
-        "r1": [
-            40
-        ],
-        "r2": [
-            50
-        ],
-        "r3": [
-            60
-        ],
-        "r4": [
-            70
-        ],
-        "r5": [
-            80
-        ]
-    },
     "elegy-for-the-end": {
         "rarity": 5,
         "passive": {
@@ -342,6 +343,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "12.0%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "55.1%"
         },
         "r1": [
             60,
@@ -384,6 +389,10 @@
             "base_attack": 42,
             "substat_value": "10.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "45.9%"
+        },
         "r1": [
             80
         ],
@@ -414,6 +423,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.7%"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "30.6%"
         },
         "r1": [
             6,
@@ -456,6 +469,10 @@
             "base_attack": 41,
             "substat_value": "13.3%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "61.3%"
+        },
         "r1": [
             60,
             12
@@ -492,6 +509,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             6
         ],
@@ -522,6 +543,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "19.2%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
         },
         "r1": [
             16,
@@ -574,6 +599,10 @@
             "base_attack": 41,
             "substat_value": "12.0%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "55.1%"
+        },
         "r1": [
             16,
             12
@@ -604,6 +633,10 @@
         "level_1": {
             "base_attack": 23,
             "substat_value": "0.0%"
+        },
+        "level_max": {
+            "base_attack": 185,
+            "substat_value": "0.0%"
         }
     },
     "hunters-path": {
@@ -620,6 +653,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "9.6%"
+        },
+        "level_max": {
+            "base_attack": 545,
+            "substat_value": "44.1%"
         },
         "r1": [
             12,
@@ -657,6 +694,10 @@
             "base_attack": 44,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
+        },
         "r1": [
             40
         ],
@@ -687,6 +728,10 @@
         "level_1": {
             "base_attack": 41,
             "substat_value": "12.0%"
+        },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "55.1%"
         },
         "r1": [
             60,
@@ -724,6 +769,10 @@
             "base_attack": 40,
             "substat_value": "6.8%"
         },
+        "level_max": {
+            "base_attack": 448,
+            "substat_value": "31.2%"
+        },
         "r1": [
             100
         ],
@@ -754,6 +803,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "11.3%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "51.7%"
         },
         "r1": [
             20,
@@ -791,6 +844,10 @@
             "base_attack": 44,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
+        },
         "r1": [
             0.12,
             40
@@ -826,6 +883,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "7.2%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "33.1%"
         },
         "r1": [
             12,
@@ -877,6 +938,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
         }
     },
     "prototype-crescent": {
@@ -893,6 +958,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
         },
         "r1": [
             36
@@ -925,6 +994,10 @@
             "base_attack": 42,
             "substat_value": "10.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "45.9%"
+        },
         "r1": [
             28
         ],
@@ -955,6 +1028,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
         },
         "r1": [
             3,
@@ -992,6 +1069,10 @@
             "base_attack": 40,
             "substat_value": "20"
         },
+        "level_max": {
+            "base_attack": 448,
+            "substat_value": "94"
+        },
         "r1": [
             12
         ],
@@ -1022,6 +1103,10 @@
         "level_1": {
             "base_attack": 38,
             "substat_value": "10.2%"
+        },
+        "level_max": {
+            "base_attack": 354,
+            "substat_value": "46.9%"
         },
         "r1": [
             8
@@ -1054,6 +1139,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             8
         ],
@@ -1084,6 +1173,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
         },
         "r1": [
             40
@@ -1116,6 +1209,10 @@
             "base_attack": 44,
             "substat_value": "6.7%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "30.6%"
+        },
         "r1": [
             40
         ],
@@ -1147,6 +1244,10 @@
             "base_attack": 44,
             "substat_value": "4.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "18.4%"
+        },
         "r1": [
             60,
             28
@@ -1177,6 +1278,10 @@
         "level_1": {
             "base_attack": 33,
             "substat_value": "0.0%"
+        },
+        "level_max": {
+            "base_attack": 243,
+            "substat_value": "0.0%"
         }
     },
     "sequence-of-solitude": {
@@ -1193,6 +1298,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
         },
         "r1": [
             40
@@ -1225,6 +1334,10 @@
             "base_attack": 39,
             "substat_value": "10.2%"
         },
+        "level_max": {
+            "base_attack": 401,
+            "substat_value": "46.9%"
+        },
         "r1": [
             24
         ],
@@ -1255,6 +1368,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "14.4%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "66.2%"
         },
         "r1": [
             12,
@@ -1302,6 +1419,10 @@
             "base_attack": 48,
             "substat_value": "4.8%"
         },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "22.1%"
+        },
         "r1": [
             20,
             60
@@ -1338,6 +1459,10 @@
             "base_attack": 38,
             "substat_value": "6.8%"
         },
+        "level_max": {
+            "base_attack": 354,
+            "substat_value": "31.2%"
+        },
         "r1": [
             36
         ],
@@ -1368,6 +1493,10 @@
         "level_1": {
             "base_attack": 41,
             "substat_value": "13.3%"
+        },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "61.3%"
         },
         "r1": [
             60,
@@ -1405,6 +1534,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             16
         ],
@@ -1435,6 +1568,10 @@
         "level_1": {
             "base_attack": 48,
             "substat_value": "9.6%"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "44.1%"
         },
         "r1": [
             60,
@@ -1486,6 +1623,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "14.4%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "66.2%"
         },
         "r1": [
             16,
@@ -1548,6 +1689,10 @@
             "base_attack": 42,
             "substat_value": "36"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "165"
+        },
         "r1": [
             24
         ],
@@ -1579,6 +1724,10 @@
             "base_attack": 42,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
         "r1": [
             40
         ],
@@ -1609,6 +1758,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "14.4%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "66.2%"
         },
         "r1": [
             20,
@@ -1655,6 +1808,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "36"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "165"
         },
         "r1": [
             16
