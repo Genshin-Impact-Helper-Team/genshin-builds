@@ -47,12 +47,12 @@ const effects = info
       </button>
 
       <span class="artifact-popover-card weapon-popover-card" role="tooltip">
-        <div class="weapon-popover-header">
+        <span class="weapon-popover-header">
           <span class="weapon-popover-name">{artifact.name}</span>
           <span class="weapon-popover-rarity">
             {info.rarity} {'\u2605'}
           </span>
-        </div>
+        </span>
 
         {effects.map((effect) => (
           <span class="artifact-popover-effect weapon-popover-stat">
