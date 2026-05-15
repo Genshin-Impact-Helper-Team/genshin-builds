@@ -31,9 +31,15 @@ type Props = {
 
 const { locale, weapon } = Astro.props;
 const info = weapon.info;
-const passiveParts = info
-  ? formatWeaponPassive(info, weapon.refinement).split(/<br\s*\/?>/i)
+const refinements = [1, 2, 3, 4, 5] as const;
+
+const passivePartsByRefinement = info
+  ? refinements.map((refinement) => ({
+      refinement,
+      parts: formatWeaponPassive(info, refinement).split(/<br\s*\/?>/i),
+    }))
   : [];
+
 const substatName = info?.substat
   ? t(locale, 'stat', info.substat, undefined, false)
   : '';
@@ -47,10 +53,12 @@ const substatName = info?.substat
   {
     info && (
       <span class="weapon-popover-card" role="tooltip">
+        <div class="weapon-popover-header">
         <span class="weapon-popover-name">{weapon.name}</span>
         <span class="weapon-popover-rarity">
           {info.rarity} {'\u2605'}
         </span>
+        </div>
         <span class="weapon-popover-stat">
           <span>Base ATK</span>
           <strong>{info.level_1?.base_attack}</strong>
@@ -61,13 +69,27 @@ const substatName = info?.substat
             <strong>{info.level_1?.substat_value}</strong>
           </span>
         )}
-        <span class="weapon-popover-refinement">R1/R2/R3/R4/R5</span>
+        <span class="weapon-popover-refinement">
+          {refinements.map((refinement) => (
+            <button
+              class="weapon-popover-refinement-button"
+              type="button"
+              data-refinement={`r${refinement}`}
+              aria-selected={refinement === 1 ? 'true' : 'false'}
+            >
+              R{refinement}
+            </button>
+          ))}
+        </span>
+
         <span class="weapon-popover-passive">
-          {passiveParts.map((part, index) => (
-            <>
-              {index > 0 && <br />}
-              {part}
-            </>
+          {passivePartsByRefinement.map(({ refinement, parts }) => (
+            <span
+              class="weapon-popover-passive-refinement"
+              data-refinement-panel={`r${refinement}`}
+              hidden={refinement !== 1}
+              set:html={formatWeaponPassive(info, refinement)}
+            />
           ))}
         </span>
       </span>

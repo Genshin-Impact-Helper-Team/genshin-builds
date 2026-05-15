@@ -313,3 +313,42 @@ body.weapon-popover-locked .weapon-popover.is-open .weapon-popover-card {
     scroll-behavior: smooth;
   }
 }
+
+.weapon-popover-refinement {
+	display: flex;
+	gap: 4px;
+	margin-top: 6px;
+}
+
+.weapon-popover-refinement-button {
+	border: 1px solid color-mix(in srgb, var(--element) 55%, var(--text));
+	border-radius: 4px;
+	padding: 2px 6px;
+	background: transparent;
+	color: var(--text);
+	cursor: pointer;
+	font: inherit;
+	font-weight: 700;
+}
+
+.weapon-popover-refinement-button[aria-selected='true'] {
+	background: var(--element);
+	color: var(--bg);
+}
+
+.weapon-popover-passive-value {
+	color: var(--accent-color, var(--element));
+	font-weight: 700;
+}
+
+.weapon-popover-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	width: 100%;
+}
+
+.weapon-popover-name {
+	min-width: 0;
+}

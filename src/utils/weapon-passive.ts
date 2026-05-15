@@ -12,7 +12,9 @@ export type WeaponRefinementData = {
 const REFINEMENT_KEYS = ['r1', 'r2', 'r3', 'r4', 'r5'] as const;
 
 function formatPassiveValue(value: WeaponPassiveValue | undefined) {
-  return Array.isArray(value) ? value.join('/') : String(value ?? '');
+	const text = Array.isArray(value) ? value.join('/') : String(value ?? '');
+
+	return `<span class="weapon-popover-passive-value">${text}</span>`;
 }
 
 function parseRefinement(refinement?: number | string) {
