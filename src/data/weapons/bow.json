@@ -1,659 +1,1675 @@
 {
-  "alley-hunter": {
-    "rarity": 4,
-    "passive": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by {{value}}% every second up to a max of {{value}}%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by {{value}}% per second until it reaches 0%.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
+    "alley-hunter": {
+        "rarity": 4,
+        "passive": {
+            "en": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by {{value}}% every second up to a max of {{value}}%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by {{value}}% per second until it reaches 0%.",
+            "de": "Erhöht den von der mit dieser Waffe ausgerüsteten Figur verursachten Schaden, wenn diese Figur in der Truppe, aber nicht eingewechselt ist, pro s um {{value}}% und insgesamt um bis zu {{value}}%. Verringert diesen Schadensbonus 4 s nach Einwechseln dieser Figur pro s um {{value}}%, bis der Bonus auf 0 % gefallen ist.",
+            "es": "Cuando el personaje que lleva esta arma equipada está en tu equipo pero no en uso, el daño de dicho personaje aumenta en un {{value}}% cada 1 s. Como máximo, solo se puede obtener un aumento del {{value}}% de daño de esta manera. 4 s después de que dicho personaje esté en uso, el aumento de daño irá reduciéndose en un {{value}}% cada 1 s hasta llegar al 0%.",
+            "fr": "Lorsque le personnage équipé de cette arme fait partie de l'équipe mais n'est pas déployé, ses DGT augmentent de {{value}}% toutes les secondes, jusqu'à {{value}}% maximum. 4 s après le déploiement du personnage, l'effet diminue de {{value}}% toutes les secondes, jusqu'à atteindre 0 %.",
+            "it": "Quando il personaggio equipaggiato con quest'arma è nel gruppo ma non sul campo, i suoi DAN aumentano di un {{value}}% ogni secondo fino a un {{value}}% max. Quando il personaggio è sul campo per oltre 4 s, l'aumento dei DAN si riduce di un {{value}}% al secondo fino ad azzerarsi.",
+            "ru": "Увеличивает урон экипированного этим оружием персонажа, когда тот не на поле боя, на {{value}}% в сек. Таким способом макс. количество наносимого урона может быть увеличено до {{value}}%. Через 4 сек. после появления персонажа на поле боя бонус повышения урона от данного эффекта начнёт убывать по {{value}}% в сек., пока не опустится до 0%."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        },
+        "r1": [
+            2,
+            20,
+            4
+        ],
+        "r2": [
+            2.5,
+            25,
+            5
+        ],
+        "r3": [
+            3,
+            30,
+            6
+        ],
+        "r4": [
+            3.5,
+            35,
+            7
+        ],
+        "r5": [
+            4,
+            40,
+            8
+        ]
     },
-    "r1": [2, 20, 4],
-    "r2": [2.5, 25, 5],
-    "r3": [3, 30, 6],
-    "r4": [3.5, 35, 7],
-    "r5": [4, 40, 8]
-  },
-  "amos-bow": {
-    "rarity": 5,
-    "passive": "Increases Normal and Charged Attack DMG by {{value}}%. After a Normal or Charged Attack is fired, DMG dealt increases by a further {{value}}% every 0.1s the arrow is in the air for up to 5 times.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "10.8%"
+    "amos-bow": {
+        "rarity": 5,
+        "passive": {
+            "en": "Increases Normal and Charged Attack DMG by {{value}}%. After a Normal or Charged Attack is fired, DMG dealt increases by a further {{value}}% every 0.1s the arrow is in the air for up to 5 times.",
+            "de": "Erhöht den mit Standardangriffen und heftigen Schlägen verursachten Schaden um {{value}}% und den Gesamtschaden von Pfeilen von Standardangriffen und heftigen Schlägen alle 0,1 s nach dem Abschießen um {{value}}%, 5-fach stapelbar.",
+            "es": "El daño infligido con Ataques Normales o Cargados aumenta en un {{value}}%. Tras disparar un Ataque Normal o Cargado, el daño aumenta en un {{value}}% por cada 0.1 s que la flecha permanece en el aire. Este efecto puede acumularse hasta cinco veces.",
+            "fr": "Augmente les DGT infligés par les attaques normales et les attaques chargées de {{value}}%. Les DGT augmentent de {{value}}% toutes les 0,1 s après avoir tiré une flèche d'attaque normale ou chargée. Cet effet peut être cumulé 5 fois maximum.",
+            "it": "Aumenta i DAN da attacco normale e caricato di un {{value}}%. Dopo che un attacco normale o caricato è stato sferrato, i DAN inflitti aumentano di un ulteriore {{value}}% ogni 0,1 s mentre la freccia è in aria. Cumulabile fino a 5 volte.",
+            "ru": "Увеличивает урон обычной и заряженной атаки на {{value}}%. Каждые 0,1 сек. полёта стрелы, выпущенной обычной или заряженной атакой, увеличивают её урон на {{value}}%. Эффект может складываться до 5 раз."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "10.8%"
+        },
+        "r1": [
+            12,
+            8
+        ],
+        "r2": [
+            15,
+            10
+        ],
+        "r3": [
+            18,
+            12
+        ],
+        "r4": [
+            21,
+            14
+        ],
+        "r5": [
+            24,
+            16
+        ]
     },
-    "r1": [12, 8],
-    "r2": [15, 10],
-    "r3": [18, 12],
-    "r4": [21, 14],
-    "r5": [24, 16]
-  },
-  "aqua-simulacra": {
-    "rarity": 5,
-    "passive": "HP is increased by {{value}}%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by {{value}}%. This will take effect whether the character is on-field or not.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "19.2%"
+    "aqua-simulacra": {
+        "rarity": 5,
+        "passive": {
+            "en": "HP is increased by {{value}}%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by {{value}}%. This will take effect whether the character is on-field or not.",
+            "de": "Erhöht die LP um {{value}}%. Erhöht, wenn es in der Umgebung Gegner gibt, den durch die mit dieser Waffe ausgerüstete Figur verursachten Schaden um {{value}}%, ganz gleich, ob sie aktiv oder inaktiv ist.",
+            "es": "Aumenta la Vida en un {{value}}%. Cuando haya algún enemigo cerca, el daño del personaje que lleva esta arma equipada aumenta en un {{value}}%. Este efecto se puede activar cuando dicho personaje está en uso o cuando está en tu equipo pero no en uso.",
+            "fr": "Les PV sont augmentés de {{value}}%. Si des ennemis sont proches, les DGT infligés par le personnage équipé de l'arme augmentent de {{value}}%, qu'il soit déployé ou non.",
+            "it": "I PS aumentano di un {{value}}%. Quando ci sono avversari vicini, i DAN inflitti da chi brandisce quest'arma aumentano di un {{value}}%. Questo effetto si attiva anche se il personaggio non è in campo.",
+            "ru": "Увеличивает HP на {{value}}%. Когда рядом есть враги, урон, наносимый персонажем, экипированным этим оружием, увеличивается на {{value}}%. Эффект срабатывает, даже когда персонаж не на поле боя."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "19.2%"
+        },
+        "r1": [
+            16,
+            20
+        ],
+        "r2": [
+            20,
+            25
+        ],
+        "r3": [
+            24,
+            30
+        ],
+        "r4": [
+            28,
+            35
+        ],
+        "r5": [
+            32,
+            40
+        ]
     },
-    "r1": [16, 20],
-    "r2": [20, 25],
-    "r3": [24, 30],
-    "r4": [28, 35],
-    "r5": [32, 40]
-  },
-  "astral-vultures-crimson-plumage": {
-    "rarity": 5,
-    "passive": "For 12s after triggering a Swirl reaction, ATK increases by {{value}}%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by {{value}}% / {{value}}% and Elemental Burst DMG dealt is increased by {{value}}% / {{value}}%.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "14.4%"
+    "astral-vultures-crimson-plumage": {
+        "rarity": 5,
+        "passive": {
+            "en": "For 12s after triggering a Swirl reaction, ATK increases by {{value}}%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by {{value}}% / {{value}}% and Elemental Burst DMG dealt is increased by {{value}}% / {{value}}%.",
+            "de": "Erhöht den ANG nach Auslösen der Reaktion Verwirbelung 12 s lang um {{value}}%. Erhöht, wenn sich mindestens 1/2 Figur(en) in der Truppe befinden, deren Elementartypen sich von dem des Trägers unterscheiden, den mit heftigen Schlägen des Trägers verursachten Schaden um {{value}}% / {{value}}% und den mit Spezialfähigkeiten des Trägers verursachten Schaden um {{value}}% / {{value}}%.",
+            "es": "Tras causar una reacción de Torbellino, el ATQ aumenta en un {{value}}% durante 12 s. Además, por cada 1/2 personajes del equipo de tipo elemental distinto al del portador de esta arma, el daño que dicho portador inflige con su Ataque Cargado aumenta en un {{value}}% / {{value}}%, y el daño de su Habilidad Definitiva aumenta en un {{value}}% / {{value}}%.",
+            "fr": "Après avoir déclenché une réaction de Dispersion, l'ATQ augmente de {{value}}% pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de {{value}}% / {{value}}% et les ceux infligés par ses déchaînements élémentaires de {{value}}% / {{value}}%.",
+            "it": "Dopo aver innescato una reazione di Turbinio, l'ATT aumenta di un {{value}}% per 12 s. Inoltre, se nel gruppo ci sono 1/2 o più personaggi con un tipo elementale diverso rispetto al personaggio che equipaggia l'arma, i DAN da attacco caricato e da Tripudio elementale di quest'ultimo aumentano rispettivamente di un {{value}}% / {{value}}% e di un {{value}}% / {{value}}%.",
+            "ru": "Повышает силу атаки на {{value}}% на 12 сек. после активации реакции Рассеивание. Кроме того, если в отряде 1/2 и более персонажей с элементом, отличным от элемента экипированного персонажа, то урон заряженной атаки экипированного персонажа увеличивается на {{value}}% / {{value}}%, а урон взрыва стихии - на {{value}}% / {{value}}%."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "14.4%"
+        },
+        "r1": [
+            24,
+            20,
+            48,
+            10,
+            24
+        ],
+        "r2": [
+            30,
+            25,
+            60,
+            12.5,
+            30
+        ],
+        "r3": [
+            36,
+            30,
+            72,
+            15,
+            36
+        ],
+        "r4": [
+            42,
+            35,
+            84,
+            17.5,
+            42
+        ],
+        "r5": [
+            48,
+            40,
+            96,
+            20,
+            48
+        ]
     },
-    "r1": [24, 20, 48, 10, 24],
-    "r2": [30, 25, 60, 12.5, 30],
-    "r3": [36, 30, 72, 15, 36],
-    "r4": [42, 35, 84, 17.5, 42],
-    "r5": [48, 40, 96, 20, 48]
-  },
-  "blackcliff-warbow": {
-    "rarity": 4,
-    "passive": "After defeating an enemy, ATK is increased by {{value}}% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "8.0%"
+    "blackcliff-warbow": {
+        "rarity": 4,
+        "passive": {
+            "en": "After defeating an enemy, ATK is increased by {{value}}% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+            "de": "Erhöht den ANG beim Besiegen von Gegnern 30 s lang um {{value}}%. 3-fach stapelbar, Wirkungsdauer jeder Stapelung ist unabhängig.",
+            "es": "Al derrotar a un enemigo, aumenta el ATQ en un {{value}}% durante 30 s, pudiéndose acumular hasta 3 veces. La duración de cada acumulación es independiente de las demás.",
+            "fr": "Augmente l'ATQ de {{value}}% pendant 30 s après avoir vaincu un ennemi. Cet effet peut être cumulé 3 fois maximum et la durée de chaque cumul peut varier.",
+            "it": "Dopo aver sconfitto un nemico, l'ATT aumenta di un {{value}}% per 30 s. Cumulabile fino a 3 volte. La durata di ogni accumulo è indipendente dalle altre.",
+            "ru": "Побеждённые противники увеличивают силу атаки на {{value}}%. Длится 30 сек. Эффект может складываться до 3 раз. Длительность добавочных эффектов друг от друга не зависит."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "8.0%"
+        },
+        "r1": [
+            12
+        ],
+        "r2": [
+            15
+        ],
+        "r3": [
+            18
+        ],
+        "r4": [
+            21
+        ],
+        "r5": [
+            24
+        ]
     },
-    "r1": [12],
-    "r2": [15],
-    "r3": [18],
-    "r4": [21],
-    "r5": [24]
-  },
-  "chain-breaker": {
-    "rarity": 4,
-    "passive": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains {{value}}% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains {{value}} Elemental Mastery.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
+    "chain-breaker": {
+        "rarity": 4,
+        "passive": {
+            "en": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains {{value}}% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains {{value}} Elemental Mastery.",
+            "de": "Erhöht für jede Figur aus Natlan oder mit einem anderen Elementartyp als dem des Trägers in der Truppe den ANG des Trägers um {{value}}%. Erhöht bei mindestens 3 für den Bonus relevanten Figuren die Elementarkunde des Trägers um {{value}} Punkte.",
+            "es": "Por cada personaje de Natlan o de tipo elemental distinto al del portador de esta arma que haya en el equipo, el ATQ de dicho portador aumenta en un {{value}}%. Cuando haya 3 o más personajes con estas características, la Maestría Elemental del portador de esta arma aumenta en {{value}} pts.",
+            "fr": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de {{value}}%. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de {{value}} pts.",
+            "it": "Per ogni membro del gruppo proveniente da Natlan o che possiede un tipo elementale diverso da quello del personaggio che equipaggia l'arma, quest'ultimo ottiene un {{value}}% di ATT aumentato. Quando nel gruppo sono presenti non meno di 3 dei personaggi menzionati sopra, il personaggio che equipaggia l'arma ottiene {{value}} di maestria elementale.",
+            "ru": "За каждого члена отряда из Натлана или с элементом, отличным от элемента экипированного персонажа, сила атаки экипированного персонажа повышается на {{value}}%. Когда таких персонажей не менее 3, экипированный персонаж получает {{value}} ед. мастерства стихий."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        },
+        "r1": [
+            4.8,
+            24
+        ],
+        "r2": [
+            6,
+            30
+        ],
+        "r3": [
+            7.2,
+            36
+        ],
+        "r4": [
+            8.4,
+            42
+        ],
+        "r5": [
+            9.6,
+            48
+        ]
     },
-    "r1": [4.8, 24],
-    "r2": [6, 30],
-    "r3": [7.2, 36],
-    "r4": [8.4, 42],
-    "r5": [9.6, 48]
-  },
-  "cloudforged": {
-    "rarity": 4,
-    "passive": "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by {{value}} for 18s. Max 2 stacks.",
-    "substat": "em",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "36"
+    "cloudforged": {
+        "rarity": 4,
+        "passive": {
+            "en": "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by {{value}} for 18s. Max 2 stacks.",
+            "de": "Erhöht die Elementarkunde des Trägers um {{value}} Punkte, wenn sich dessen Elementarenergie verringert, hält 18 s, 2-fach stapelbar.",
+            "es": "Cuando se reduce la Energía Elemental, la Maestría Elemental del portador de esta arma aumenta en {{value}} pts. Este efecto dura 18 s y puede acumularse hasta 2 veces.",
+            "fr": "La maîtrise élémentaire du personnage équipé de l'arme augmente de {{value}} pts pendant 18 s lorsque son énergie élémentaire a diminué. Cet effet peut être cumulé 2 fois maximum.",
+            "it": "Quando l'energia elementale si riduce, la maestria elementale del personaggio che equipaggia l'arma aumenta di {{value}} per 18 s. Massimo 2 accumuli.",
+            "ru": "После понижения энергии мастерство стихий экипированного персонажа увеличивается на {{value}} ед. Эффект длится 18 сек. и складывается до 2 раз."
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "36"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
     },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "compound-bow": {
-    "rarity": 4,
-    "passive": "Normal Attack and Charged Attack hits increase ATK by {{value}}% and Normal ATK SPD by {{value}}% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
-    "substat": "physical-dmg",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "15.0%"
+    "compound-bow": {
+        "rarity": 4,
+        "passive": {
+            "en": "Normal Attack and Charged Attack hits increase ATK by {{value}}% and Normal ATK SPD by {{value}}% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+            "de": "Erhöht den ANG bei Treffern mit Standardangriffen und heftigen Schlägen 6 s lang um {{value}}% und die Standardangriffs-GSW um {{value}}%. 4-fach stapelbar, 0,3 s Abklingzeit.",
+            "es": "Al golpear a un enemigo con Ataques Normales y Cargados, aumenta el ATQ en un {{value}}% y la Vel. de Ataque Normal en un {{value}}% durante 6 s. Este efecto puede acumularse hasta 4 veces y activarse una vez cada 0.3 s.",
+            "fr": "Les attaques normales et chargées confèrent un bonus d'ATQ de {{value}}% ainsi qu'un bonus de VIT d'attaque normale de {{value}}% pendant 6 s lorsqu'elles touchent. Cet effet peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,3 s.",
+            "it": "I colpi da attacco normale e caricato aumentano l'ATT di un {{value}}% e la VEL d'ATT normale di un {{value}}% per 6 s. Cumulabile fino a 4 volte. Si può verificare una sola volta ogni 0,3 s.",
+            "ru": "Попадания обычной и заряженной атакой увеличивают силу атаки на {{value}}% и скорость атаки на {{value}}% в течение 6 сек. Эффект может складываться до 4 раз. Может возникнуть раз в 0,3 сек."
+        },
+        "substat": "physical-dmg",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "15.0%"
+        },
+        "r1": [
+            4,
+            1.2
+        ],
+        "r2": [
+            5,
+            1.5
+        ],
+        "r3": [
+            6,
+            1.8
+        ],
+        "r4": [
+            7,
+            2.1
+        ],
+        "r5": [
+            8,
+            2.4
+        ]
     },
-    "r1": [4, 1.2],
-    "r2": [5, 1.5],
-    "r3": [6, 1.8],
-    "r4": [7, 2.1],
-    "r5": [8, 2.4]
-  },
-  "ebony-bow": {
-    "rarity": 3,
-    "passive": "Increases DMG against mechanoid Ruin opponents by {{value}}%.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 39,
-      "substat_value": "7.7%"
+    "ebony-bow": {
+        "rarity": 3,
+        "passive": {
+            "en": "Increases DMG against mechanoid Ruin opponents by {{value}}%.",
+            "de": "Erhöht den Vorrichtungen in Ruinen zugefügten Schaden um {{value}}%.",
+            "es": "Aumenta en un {{value}}% el daño contra enemigos mecánicos de las ruinas.",
+            "fr": "Augmente les DGT infligés aux ennemis mécaniques des ruines de {{value}}%",
+            "it": "Aumenta i DAN contro gli avversari mecha delle Rovine di un {{value}}%.",
+            "ru": "Увеличивает урон по механическим защитникам руин на {{value}}%."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 39,
+            "substat_value": "7.7%"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
     },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "elegy-for-the-end": {
-    "rarity": 5,
-    "passive": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by {{value}}. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by {{value}} and increases ATK by {{value}}%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "12.0%"
+    "elegy-for-the-end": {
+        "rarity": 5,
+        "passive": {
+            "en": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by {{value}}. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by {{value}} and increases ATK by {{value}}%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+            "de": "Ein Teil der „Bewegung des Jahrtausends“, die mit dem Wind zieht. Erhöht die Elementarkunde um {{value}} Punkte. Gibt der damit ausgerüsteten Figur beim Treffen von Gegnern mit Elementarfähigkeiten und Spezialfähigkeiten ein Zeichen des Gedenkens, 0,2 s Abklingzeit. Der Effekt bleibt auch bestehen, wenn die Figur ausgewechselt wird. Verbraucht alle Zeichen des Gedenkens, sobald 4 davon vorhanden sind, und verleiht allen Truppenmitgliedern in der Nähe den 12 s anhaltenden Effekt von „Bewegung des Jahrtausends &ndash; Lied vom Abschied“: Erhöht die Elementarkunde um {{value}} Punkte und den ANG um {{value}}%. Nach Auslösen dieses Effekts kann 20 s lang kein weiteres Zeichen des Gedenkens erhalten werden. Die verschiedenen durch „Bewegung des Jahrtausends“ ausgelösten Boni können bei gleicher Art nicht gestapelt werden.",
+            "es": "Una parte del «Gran concierto milenario» que flota por los vientos. Aumenta en {{value}} pts. la Maestría Elemental. Cuando el personaje que lleva esta arma equipada ataca a un enemigo con una Habilidad Elemental o Definitiva, dicho personaje obtiene un talismán de reminiscencia que puede adquirirse una vez cada 0.2 s como máximo. Este efecto también puede ocurrir cuando el personaje que lleva equipada esta arma está en tu equipo pero no en uso. Al obtener 4 talismanes de reminiscencia, estos se consumirán y otorgarán a todos los miembros del equipo cercanos el efecto de «Gran concierto milenario: Canción del adiós» durante 12 s, el cual aumenta en {{value}} pts. la Maestría Elemental y el ATQ en un {{value}}%. Tras activarse este efecto, no podrán obtenerse talismanes de reminiscencia durante 20 s. Los efectos de «Gran concierto milenario» no se acumularán con otros efectos del mismo tipo.",
+            "fr": "Partie du « Concert du millénaire ». Augmente la maîtrise élémentaire de {{value}} pts. Lorsque le personnage équipé de cette arme touche un ennemi avec sa compétence ou son déchaînement élémentaires, il obtient un talisman de réminiscence, à raison d'un talisman toutes les 0,2 s maximum, même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. Une fois 4 talismans cumulés, ils sont consommés et font bénéficier pendant 12 s tous les personnages de l'équipe à proximité de l'effet « Concert du millénaire - Chant d'adieu », ce qui augmente leur maîtrise élémentaire de {{value}} pts et leur ATQ de {{value}}%. Il n'est plus possible de gagner de talismans de réminiscence pendant 20 s après activation de cet effet. Les différents effets du « Concert du millénaire » ne peuvent pas être cumulés.",
+            "it": "Una parte del Concerto millenario che fluttua nel vento. Aumenta la maestria elementale di {{value}}. Quando le abilità e i Tripudi elementali del personaggio equipaggiato con quest'arma colpiscono gli avversari, il personaggio ottiene un Sigillo della rimembranza. Quest'effetto può attivarsi una volta ogni 0,2 s, anche se il personaggio non è sul campo. Una volta ottenuti 4 Sigilli della rimembranza, questi saranno consumati e tutti i membri del gruppo vicini otterranno l'effetto Concerto millenario: Canzone d'addio per 12 s. Concerto millenario: Canzone d'addio aumenta la maestria elementale di {{value}} e l'ATT di un {{value}}%. Quando l'effetto sarà attivato, non otterrai altri Sigilli della rimembranza per 20 s. Gli effetti dello stesso tipo di Concerto millenario non sono cumulabili.",
+            "ru": "Часть Тысячелетней симфонии, что блуждает среди ветров. Увеличивает мастерство стихий на {{value}} ед. При попадании элементальным навыком или взрывом стихии по противнику персонаж получает один Талисман воспоминаний. Он может возникнуть раз в 0,2 сек., даже когда персонаж в отряде, но не активен. Четыре собранных Талисмана воспоминаний пропадают, на 12 сек. наделяя ближайших членов отряда эффектом «Тысячелетняя симфония: Прощальный гимн». Их мастерство стихии повышается на {{value}} ед., а сила атаки - на {{value}}%. В течение 20 сек. после активации эффекта Талисманы воспоминаний появляться не будут. Тысячелетняя симфония с эффектами, влияющими на те же навыки, не складывается."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "12.0%"
+        },
+        "r1": [
+            60,
+            100,
+            20
+        ],
+        "r2": [
+            75,
+            125,
+            25
+        ],
+        "r3": [
+            90,
+            150,
+            30
+        ],
+        "r4": [
+            105,
+            175,
+            35
+        ],
+        "r5": [
+            120,
+            200,
+            40
+        ]
     },
-    "r1": [60, 100, 20],
-    "r2": [75, 125, 25],
-    "r3": [90, 150, 30],
-    "r4": [105, 175, 35],
-    "r5": [120, 200, 40]
-  },
-  "end-of-the-line": {
-    "rarity": 4,
-    "passive": "Triggers the Flowrider effect after using an Elemental Skill, dealing {{value}}% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "10.0%"
+    "end-of-the-line": {
+        "rarity": 4,
+        "passive": {
+            "en": "Triggers the Flowrider effect after using an Elemental Skill, dealing {{value}}% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+            "de": "Löst beim Anwenden der Elementarfähigkeit den Effekt „Drift“ aus, bei dem die Figur, wenn sie einen Gegner trifft, Flächenschaden in Höhe von {{value}}% ANG verursacht. Dieser Effekt wird nach 15 s oder 3-maligem Verursachen des Flächenschadens entfernt. 2 s Abklingzeit für das Verursachen solch eines Flächenschadens, 12 s Abklingzeit für den Effekt „Drift“.",
+            "es": "Al usar una Habilidad Elemental, el personaje obtiene el efecto de “deriva”, con el cual, al golpear a un enemigo, inflige Daño en el AdE equivalente al {{value}}% de su ATQ. Este efecto desaparecerá después de 15 s o tras haber infligido 3 veces Daño en el AdE. Solo se puede infligir Daño en el AdE una vez cada 2 s de esta manera, y el efecto de deriva solo se puede activar, como máximo, una vez cada 12 s.",
+            "fr": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à {{value}}% de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés une fois toutes les 2 s de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
+            "it": "Dopo aver utilizzato un'abilità elementale, attiva l'effetto Cavalcaflusso che infligge DAN ad area pari a un {{value}}% dell'ATT quando si colpisce un avversario. Cavalcaflusso viene rimosso dopo 15 s o dopo aver inflitto i DAN ad area per 3 volte. Ciascuna iterazione dei DAN ad area può innescarsi ogni 2 s. Cavalcaflusso può essere attivato una volta ogni 12 s.",
+            "ru": "Активация элементального навыка вызывает эффект Плывущего по течению: атаки при попадании наносят урон по площади, равный {{value}}% от силы атаки. Через 15 сек. либо после 3 нанёсших урон атак эффект исчезнет. Эффект наносит урон не чаще одного раза в 2 сек. и может возникнуть раз в 12 сек."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "10.0%"
+        },
+        "r1": [
+            80
+        ],
+        "r2": [
+            100
+        ],
+        "r3": [
+            120
+        ],
+        "r4": [
+            140
+        ],
+        "r5": [
+            160
+        ]
     },
-    "r1": [80],
-    "r2": [100],
-    "r3": [120],
-    "r4": [140],
-    "r5": [160]
-  },
-  "fading-twilight": {
-    "rarity": 4,
-    "passive": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by {{value}}/{{value}}/{{value}}% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.7%"
+    "fading-twilight": {
+        "rarity": 4,
+        "passive": {
+            "en": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by {{value}}/{{value}}/{{value}}% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
+            "de": "Diese Waffe hat drei Zustände: Zwielicht, Abendröte und Morgengrauen. Diese drei Zustände erhöhen den verursachten Schaden jeweils um {{value}}/{{value}}/{{value}}%. Nachdem die Figur einen Gegner trifft, wird der aktuelle Zustand deaktiviert und der nächste Zustand wird aktiviert. 7 s Abklingzeit für den Zustandswechsel, der auch ausgelöst werden kann, wenn die mit dieser Waffe ausgerüstete Figur inaktiv ist.",
+            "es": "Otorga los estados de ocaso, crepúsculo y alba, los cuales aumentan el daño infligido en un {{value}}/{{value}}/{{value}}% respectivamente. Al golpear a un enemigo con un ataque, el personaje entra en el siguiente estado. Este cambio de estado solo se puede activar una vez cada 7 s, y ocurrirá incluso cuando el personaje que lleva esta arma equipada esté en tu equipo pero no en uso.",
+            "fr": "Cette arme possède trois états (crépuscule, rémanence et aube) qui augmentent respectivement les DGT infligés de {{value}}/{{value}}/{{value}}%. Lorsqu'une attaque a touché un ennemi, l'arme passe à l'état suivant. Un changement d'état peut être déclenché une fois toutes les 7 s, même lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "it": "Ha tre stati: Vesprolume, Crepuscoluce e Ardiaurora, che aumentano i DAN inflitti rispettivamente di un {{value}}/{{value}}/{{value}}%. Quando gli attacchi vanno a segno, quest'arma passa allo stato successivo. L'arma può cambiare stato ogni 7 s e anche quando il personaggio che la utilizza non è in campo.",
+            "ru": "Оружие обладает 3 состояниями: Закат, Туман и Заря, каждое из которых увеличивает наносимый урон на {{value}}/{{value}}/{{value}}% соответственно. После попадания по противнику состояние меняется на следующее, не чаще одного раза в 7 сек. Эффект смены состояния срабатывает, даже когда персонаж не на поле боя."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.7%"
+        },
+        "r1": [
+            6,
+            10,
+            14
+        ],
+        "r2": [
+            7.5,
+            12.5,
+            17.5
+        ],
+        "r3": [
+            9,
+            15,
+            21
+        ],
+        "r4": [
+            10.5,
+            17.5,
+            24.5
+        ],
+        "r5": [
+            12,
+            20,
+            28
+        ]
     },
-    "r1": [6, 10, 14],
-    "r2": [7.5, 12.5, 17.5],
-    "r3": [9, 15, 21],
-    "r4": [10.5, 17.5, 24.5],
-    "r5": [12, 20, 28]
-  },
-  "favonius-warbow": {
-    "rarity": 4,
-    "passive": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}}s.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "13.3%"
+    "favonius-warbow": {
+        "rarity": 4,
+        "passive": {
+            "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}}s.",
+            "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
+            "es": "Los Golpes CRIT tienen un {{value}}% de probabilidad de generar una pequeña cantidad de partículas elementales, las cuales regenerarán 6 pts. de Energía para el personaje. Solo puede ocurrir una vez cada {{value}} s.",
+            "fr": "Les coups CRIT des attaques ont {{value}}% de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les {{value}} s.",
+            "it": "I colpi CRIT hanno un {{value}}% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni {{value}} s.",
+            "ru": "Критические атаки имеют {{value}}% шанс создать элементальные частицы, которые восстанавливают 6 ед. энергии. Возникает раз в {{value}} сек."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "13.3%"
+        },
+        "r1": [
+            60,
+            12
+        ],
+        "r2": [
+            70,
+            10.5
+        ],
+        "r3": [
+            80,
+            9
+        ],
+        "r4": [
+            90,
+            7.5
+        ],
+        "r5": [
+            100,
+            6
+        ]
     },
-    "r1": [60, 12],
-    "r2": [70, 10.5],
-    "r3": [80,9],
-    "r4": [90, 7.5],
-    "r5": [100, 6]
-  },
-  "flower-wreathed-feathers": {
-    "rarity": 4,
-    "passive": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by {{value}}% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
+    "flower-wreathed-feathers": {
+        "rarity": 4,
+        "passive": {
+            "en": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by {{value}}% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+            "de": "Verringert die beim Gleiten verbrauchte Ausdauer um 15 %. Erhöht den mit heftigen Schlägen verursachten Schaden beim gezielten Schuss alle 0,5 s um {{value}}%, 6-fach stapelbar. Dieser Effekt wird 10 s, nachdem die Figur nicht mehr im Zielmodus ist, entfernt.",
+            "es": "Reduce en un 15% el Coste de Aguante al planear. Cuando se realiza un Disparo Preciso, el daño del Ataque Cargado aumenta en un {{value}}% cada 0.5 s. Este efecto puede acumularse hasta 6 veces y se anula 10 s después de dejar de apuntar.",
+            "fr": "La consommation d'endurance lors du planage diminue de 15 %. Lors d'un tir visé, les DGT infligés par les attaques chargées augmentent de {{value}}% toutes les 0,5 s. Cet effet peut être cumulé 6 fois maximum et prend fin 10 s après avoir quitté le mode visée.",
+            "it": "Il consumo di vigore durante la planata diminuisce di un 15%. Durante la mira con l'arco, i DAN inflitti degli attacchi caricati aumentano di un {{value}}% ogni 0,5 s. Quest'effetto è cumulabile fino a 6 volte e termina 10 s dopo aver abbandonato la modalità di mira.",
+            "ru": "Уменьшает потребление выносливости во время полёта на 15%. Урон заряженных атак при выполнении прицельных выстрелов увеличивается на {{value}}% каждые 0,5 сек. Этот эффект может складываться до 6 раз и исчезает через 10 сек. после выхода из режима прицеливания."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "r1": [
+            6
+        ],
+        "r2": [
+            7.5
+        ],
+        "r3": [
+            9
+        ],
+        "r4": [
+            10.5
+        ],
+        "r5": [
+            12
+        ]
     },
-    "r1": [6],
-    "r2": [7.5],
-    "r3": [9],
-    "r4": [10.5],
-    "r5": [12]
-  },
-  "golden-frostbound-oath": {
-    "rarity": 5,
-    "passive": "Increase DEF by {{value}}%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by {{value}}%, Lunar-Crystallize Reaction DMG increases by {{value}}%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by {{value}}% and Lunar-Crystallize Reaction DMG increases by {{value}}%. This effect can be triggered even when the equipping character is off-field.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "19.2%"
+    "golden-frostbound-oath": {
+        "rarity": 5,
+        "passive": {
+            "en": "Increase DEF by {{value}}%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by {{value}}%, Lunar-Crystallize Reaction DMG increases by {{value}}%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by {{value}}% and Lunar-Crystallize Reaction DMG increases by {{value}}%. This effect can be triggered even when the equipping character is off-field.",
+            "de": "Erhöht die VTD um {{value}}%. Verleiht dem Träger, wenn er Gegner mit seiner Elementarfähigkeit oder Mond-Kristallisation trifft, 6 s lang den Effekt „Dank der Frostfee“: Erhöht den durch den Träger verursachten Geo-SCH um {{value}}% und den verursachten Mond-Kristallisations-SCH um {{value}}%. Verleiht, wenn sich während der Dauer ein Mondkäfig in der Nähe des Trägers befindet, allen anderen Truppenmitgliedern in der Nähe zusätzlich den Effekt „Untaten der Frostfee“: Erhöht den verursachten Geo-SCH um {{value}}% und den verursachten Mond-Kristallisations-SCH um {{value}}%. Dieser Effekt kann auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.",
+            "es": "Aumenta la DEF en un {{value}}%. Cuando el portador de esta arma golpee a un enemigo con su Habilidad Elemental o con la reacción de Cristalización Lunar, obtendrá durante 6 s el efecto de “gracia del hada de escarcha”, el cual aumenta en un {{value}}% el Daño Geo y el daño de Cristalización Lunar que inflige. Si hay un pilar lunar cerca del portador mientras este efecto está activo, los demás personajes cercanos del equipo obtendrán el efecto de “travesura del hada de escarcha”, el cual aumenta en un {{value}}% el Daño Geo y el daño de Cristalización Lunar. Este efecto se puede activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "fr": "Augmente la DÉF de {{value}}%. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou une réaction de Sélénocristallisation, il obtient l'effet Faveur de la nivéole glacée pendant 6 s : augmente ses DGT Géo de {{value}}% et ses DGT de réaction de Sélénocristallisation de {{value}}%. Pendant la durée de l'effet, tous les autres personnages de l'équipe à proximité obtiennent l'effet Malice de la nivéole glacée si un voile lunaire est présent à proximité du personnage équipé de l'arme : augmente les DGT Géo de {{value}}% et les DGT de réaction de Sélénocristallisation de {{value}}%, cet effet pouvant être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "it": "La DIF aumenta di un {{value}}%. Quando l'abilità elementale o gli attacchi di Cristallizzazione lunare del personaggio che equipaggia l'arma colpiscono gli avversari, si ottiene l'effetto Favore della Fata del ghiaccio per 6 s, che aumenta di un {{value}}% i DAN da Geo e da reazione di Cristallizzazione lunare inflitti dal personaggio. Finché l'effetto è attivo, se vicino al personaggio ci sono delle Gabbie lunari, gli altri personaggi vicini del gruppo ricevono l'effetto Dispetto della Fata del ghiaccio, che aumenta di un {{value}}% i DAN da Geo e i DAN da reazione di Cristallizzazione lunare. Quest'effetto può attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "Защита повышается на {{value}}%. Когда экипированный персонаж поражает врага элементальным навыком или атаками Лунного кристалла, на 6 сек. он получает эффект Благодарности инеевого альва: Гео урон экипированного персонажа повышается на {{value}}%, урон реакции Лунный кристалл - на {{value}}%. Если во время действия эффекта рядом с экипированным персонажем есть Лунная пелена, то все остальные персонажи отряда поблизости также получают эффект Озорства инеевого альва: Гео урон повышается на {{value}}%, урон реакции Лунный кристалл - на {{value}}%. Этот эффект срабатывает, даже когда экипированный персонаж не на поле боя."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "19.2%"
+        },
+        "r1": [
+            16,
+            40,
+            40,
+            20,
+            20
+        ],
+        "r2": [
+            20,
+            50,
+            50,
+            25,
+            25
+        ],
+        "r3": [
+            24,
+            60,
+            60,
+            30,
+            30
+        ],
+        "r4": [
+            28,
+            70,
+            70,
+            35,
+            35
+        ],
+        "r5": [
+            32,
+            80,
+            80,
+            40,
+            40
+        ]
     },
-    "r1": [16, 40, 40, 20, 20],
-    "r2": [20, 50, 50, 25, 25],
-    "r3": [24, 60, 60, 30, 30],
-    "r4": [28, 70, 70, 35, 35],
-    "r5": [32, 80, 80, 40, 40]
-  },
-  "hamayumi": {
-    "rarity": 4,
-    "passive": "Increases Normal Attack DMG by {{value}}% and Charged Attack DMG by {{value}}%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "12.0%"
+    "hamayumi": {
+        "rarity": 4,
+        "passive": {
+            "en": "Increases Normal Attack DMG by {{value}}% and Charged Attack DMG by {{value}}%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+            "de": "Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% und den mit heftigen Schlägen verursachten Schaden um {{value}}%. Verstärkt diesen Effekt bei 100 % Elementarenergie der mit dieser Waffe ausgerüsteten Figur um 100 %.",
+            "es": "Aumenta en un {{value}}% el daño infligido con Ataques Normales y en un {{value}}% el infligido con Ataques Cargados. Este efecto aumenta en un 100% cuando el personaje que equipa esta arma tiene restaurada toda su Energía Elemental.",
+            "fr": "Augmente les DGT infligés par les attaques normales de {{value}}% et ceux des attaques chargées de {{value}}%. Lorsque l'énergie élémentaire du personnage équipé de l'arme atteint 100 %, cet effet augmente de 100 %.",
+            "it": "Aumenta i DAN da attacco normale di un {{value}}% e quelli da attacco caricato di un {{value}}%. Quando l'energia del personaggio equipaggiato con quest'arma raggiunge il massimo, l'effetto aumenta di un 100%.",
+            "ru": "Увеличивает урон обычной атаки на {{value}}% и урон заряженной атаки на {{value}}%. Когда элементальная энергия персонажа с этим оружием достигает 100%, эффект увеличивается на 100%."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "12.0%"
+        },
+        "r1": [
+            16,
+            12
+        ],
+        "r2": [
+            20,
+            15
+        ],
+        "r3": [
+            24,
+            18
+        ],
+        "r4": [
+            28,
+            21
+        ],
+        "r5": [
+            32,
+            24
+        ]
     },
-    "r1": [16, 12],
-    "r2": [20, 15],
-    "r3": [24, 18],
-    "r4": [28, 21],
-    "r5": [32, 24]
-  },
-  "hunters-bow": {
-    "rarity": 1,
-    "passive": "",
-    "substat": "",
-    "level_1": {
-      "base_attack": 23,
-      "substat_value": "0.0%"
+    "hunters-bow": {
+        "rarity": 1,
+        "passive": {
+            "en": ""
+        },
+        "substat": "",
+        "level_1": {
+            "base_attack": 23,
+            "substat_value": "0.0%"
+        }
+    },
+    "hunters-path": {
+        "rarity": 5,
+        "passive": {
+            "en": "Gain {{value}}% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by {{value}}% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+            "de": "Erhöht den Schaden aller Elemente um {{value}}%. Erhält nach Treffern mit heftigen Schlägen den Effekt „Unermüdliche Jagd“: Erhöht den Schaden heftiger Schläge um {{value}}% der Elementarkunde. Dieser Effekt verschwindet nach 10 s oder 12 heftigen Schlägen. 12 s Abklingzeit.",
+            "es": "Otorga un {{value}}% a todos los Bonos de Daño Elemental. Tras golpear a un enemigo con un Ataque Cargado, el personaje obtiene el efecto de “caza incansable”, el cual aumenta el daño de su Ataque Cargado en una cantidad equivalente al {{value}}% de su Maestría Elemental. Este efecto desaparece tras activarse 12 veces o después de 10 s, y solo se puede obtener una vez cada 12 s.",
+            "fr": "Accorde un bonus de DGT élémentaires de {{value}}%. Lorsqu'une attaque chargée a touché un ennemi, l'effet Chasse infatigable est accordé, augmentant les DGT d'attaque chargée d'une valeur équivalant à {{value}}% de la maîtrise élémentaire. Cet effet disparaît après 10 s ou après 12 attaques chargées. Cet effet peut être déclenché une fois toutes les 12 s.",
+            "it": "Ottiene un {{value}}% di bonus DAN per tutti gli elementi e l'effetto Caccia instancabile dopo aver colpito un avversario con un attacco caricato. Quest'effetto aumenta i DAN dell'attacco caricato di un {{value}}% della maestria elementale. Quest'effetto verrà rimosso dopo 12 attacchi caricati o dopo 10 s. È possibile ottenere Caccia instancabile una volta ogni 12 s.",
+            "ru": "Даёт {{value}}% бонус урона всеми элементами. Попадание заряженной атакой наделяет персонажа эффектом Непрестанной охоты, который увеличивает урон заряженных атак на {{value}}% от мастерства стихий. Через 10 сек. либо после 12 активаций эффект исчезает. Может возникнуть один раз в 12 сек."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "9.6%"
+        },
+        "r1": [
+            12,
+            160
+        ],
+        "r2": [
+            15,
+            200
+        ],
+        "r3": [
+            18,
+            240
+        ],
+        "r4": [
+            21,
+            280
+        ],
+        "r5": [
+            24,
+            320
+        ]
+    },
+    "ibis-piercer": {
+        "rarity": 4,
+        "passive": {
+            "en": "The character's Elemental Mastery will increase by {{value}} within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
+            "de": "Erhöht nach dem Treffen von Gegnern mit heftigen Schlägen die Elementarkunde der Figur 6 s um {{value}} Punkte, 2-fach stapelbar. 0,5 s Abklingzeit.",
+            "es": "Tras golpear a un enemigo con un Ataque Cargado, la Maestría Elemental del personaje aumenta en {{value}} pts. durante 6 s. Este efecto puede acumularse hasta 2 veces y solo puede activarse una vez cada 0.5 s.",
+            "fr": "Lorsqu'une attaque chargée a touché un ennemi, la maîtrise élémentaire du personnage augmente de {{value}} pts pendant 6 s. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,5 s.",
+            "it": "Dopo aver colpito gli avversari con un attacco caricato, la maestria elementale del personaggio aumenta di {{value}} nei 6 s successivi. Massimo 2 accumuli. Quest'effetto può attivarsi una volta ogni 0,5 s.",
+            "ru": "Попадание заряженной атакой по противнику увеличивает мастерство стихий на {{value}} ед. на 6 сек. Эффект складывается до 2 раз и может возникнуть раз в 0,5 сек."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
+    },
+    "kings-squire": {
+        "rarity": 4,
+        "passive": {
+            "en": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by {{value}} for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal {{value}}% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+            "de": "Erhält beim Anwenden der Elementarfähigkeit oder Spezialfähigkeit den Effekt „Waldlehre“, der 12 s lang die Elementarkunde um {{value}} Punkte erhöht. Dieser Effekt wird beim Auswechseln der Figur entfernt. Wenn die Dauer des Effekts endet oder der Effekt entfernt wird, wird 1 Gegner in der Nähe Schaden in Höhe von {{value}}% ANG zugefügt. 20 s Abklingzeit.",
+            "es": "Al usar una Habilidad Elemental o Definitiva, obtienes el efecto de “enseñanzas del bosque”, el cual aumenta la Maestría Elemental en {{value}} pts. durante 12 s. Este efecto se eliminará al cambiar de personaje. Cuando termina la duración de enseñanzas del bosque o cuando se elimina el efecto, se inflige un daño equivalente al {{value}}% del ATQ del personaje contra un enemigo cercano. El efecto de enseñanzas del bosque solo se puede activar una vez cada 20 s.",
+            "fr": "Accorde l'effet Enseignements de la forêt lors de l'utilisation d'une compétence ou d'un déchaînement élémentaires, augmentant la maîtrise élémentaire de {{value}} pts pendant 12 s. Cet effet est annulé lors du changement de personnage. Lorsque l'effet Enseignements de la forêt prend fin ou est annulé, il inflige des DGT équivalant à {{value}}% de l'ATQ à un ennemi proche. L'effet Enseignements de la forêt peut être déclenché une fois toutes les 20 s.",
+            "it": "Ottieni l'effetto Insegnamenti della foresta quando scateni abilità elementali e Tripudi elementali, aumentando la maestria elementale di {{value}} per 12 s. Quest'effetto viene rimosso se il personaggio viene sostituito. Quando l'effetto Insegnamenti della foresta termina o viene rimosso, infligge un {{value}}% dell'ATT sotto forma di DAN a 1 nemico nelle vicinanze. L'effetto Insegnamenti della foresta può attivarsi una volta ogni 20 s.",
+            "ru": "Активация элементального навыка или взрыва стихии наделяет персонажа эффектом Наставлений лесов, который увеличивает его мастерство стихий на {{value}} ед. на 12 сек. При переключении персонажа эффект пропадёт. Когда время действия эффекта заканчивается или он пропадёт, одному из противников поблизости наносится урон в {{value}}% от силы атаки. Этот эффект может возникнуть раз в 20 сек."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "12.0%"
+        },
+        "r1": [
+            60,
+            100
+        ],
+        "r2": [
+            80,
+            120
+        ],
+        "r3": [
+            100,
+            140
+        ],
+        "r4": [
+            120,
+            160
+        ],
+        "r5": [
+            140,
+            180
+        ]
+    },
+    "messenger": {
+        "rarity": 3,
+        "passive": {
+            "en": "Charged Attack hits on weak points deal an additional {{value}}% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+            "de": "Verursacht beim Treffen von Schwachstellen mit heftigen Schlägen zusätzlichen Schaden in Höhe von {{value}}% ANG sowie auf jeden Fall einen KT. 10 s Abklingzeit.",
+            "es": "Al golpear un punto débil con un Ataque Cargado, inflige un {{value}}% adicional de daño de ATQ como Daño CRIT. Este efecto puede activarse una vez cada 10 s.",
+            "fr": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à {{value}}% de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+            "it": "I colpi da attacco caricato sui punti deboli infliggono un {{value}}% di DAN da ATT come DAN da CRIT. Si può verificare una sola volta ogni 10 s.",
+            "ru": "При попадании заряженной атакой по слабому месту дополнительно наносит {{value}}% урона в качестве крит. урона. Может возникнуть раз в 10 сек."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 40,
+            "substat_value": "6.8%"
+        },
+        "r1": [
+            100
+        ],
+        "r2": [
+            125
+        ],
+        "r3": [
+            150
+        ],
+        "r4": [
+            175
+        ],
+        "r5": [
+            200
+        ]
+    },
+    "mitternachts-waltz": {
+        "rarity": 4,
+        "passive": {
+            "en": "Normal Attack hits on opponents increase Elemental Skill DMG by {{value}}% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by {{value}}% for 5s.",
+            "de": "Erhöht den mit Elementarfähigkeiten verursachten Schaden nach dem Treffen von Gegnern mit Standardangriffen 5 s lang um {{value}}%. Erhöht den mit Standardangriffen verursachten Schaden nach dem Treffen von Gegnern mit Elementarfähigkeiten 5 s lang um {{value}}%.",
+            "es": "Tras atacar a un enemigo con un Ataque Normal, el daño infligido por la Habilidad Elemental aumenta en un {{value}}% durante 5 s. Cuando se golpea a un enemigo con la Habilidad Elemental, el daño de Ataque Normal aumenta en un {{value}}% durante 5 s.",
+            "fr": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les compétences élémentaires sont augmentés de {{value}}% pendant 5 s. Lorsque vous touchez des ennemis avec des compétences élémentaires, les DGT infligés par les attaques normales sont augmentés de {{value}}% pendant 5 s.",
+            "it": "Gli attacchi normali che colpiscono gli avversari aumentano i DAN delle abilità elementali di un {{value}}% per 5 s. Le abilità elementali che colpiscono gli avversari aumentano i danni degli attacchi normali di un {{value}}% per 5 s.",
+            "ru": "Попадания обычной атакой увеличивают урон элементального навыка на {{value}}% в течение 5 сек., а попадания элементальным навыком увеличивают урон обычной атаки на {{value}}% в течение 5 сек."
+        },
+        "substat": "physical-dmg",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "11.3%"
+        },
+        "r1": [
+            20,
+            20
+        ],
+        "r2": [
+            25,
+            25
+        ],
+        "r3": [
+            30,
+            30
+        ],
+        "r4": [
+            35,
+            35
+        ],
+        "r5": [
+            40,
+            40
+        ]
+    },
+    "mouuns-moon": {
+        "rarity": 4,
+        "passive": {
+            "en": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by {{value}}%. A maximum of {{value}}% increased Elemental Burst DMG can be achieved this way.",
+            "de": "Erhöht den mit Spezialfähigkeiten der mit dieser Waffe ausgerüsteten Figur verursachten Schaden für jeden Punkt aus der Summe der max. Elementarenergie aller Truppenmitglieder zusammengerechnet um {{value}}%. Erhöht den mit Spezialfähigkeit verursachten Schaden auf diese Weise um bis zu {{value}}%.",
+            "es": "El daño infligido por la Habilidad Definitiva del portador de esta arma aumenta en un {{value}}% por cada punto de la Energía Elemental máxima total de todos los miembros del equipo. El daño puede aumentar hasta un {{value}}% de esta forma.",
+            "fr": "Pour chaque point de l'énergie élémentaire combinée de tous les personnages de l'équipe, les DGT du déchaînement élémentaire du personnage équipé de cette arme augmentent de {{value}}%. Les DGT du déchaînement élémentaire peuvent être augmentés jusqu'à {{value}}% de cette manière.",
+            "it": "Per ogni punto dell'energia massima totale del gruppo, i DAN da Tripudio elementale del personaggio equipaggiato con quest'arma aumentano di uno {{value}}%. In questo modo è possibile ottenere fino a un {{value}}% di aumento dei DAN da Tripudio elementale.",
+            "ru": "Урон взрыва стихии экипированного этим оружием персонажа увеличивается на {{value}}% за каждую единицу суммы макс. энергии каждого члена отряда. Бонус урона не может превышать {{value}}%."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        },
+        "r1": [
+            0.12,
+            40
+        ],
+        "r2": [
+            0.15,
+            50
+        ],
+        "r3": [
+            0.18,
+            60
+        ],
+        "r4": [
+            0.21,
+            70
+        ],
+        "r5": [
+            0.24,
+            80
+        ]
+    },
+    "polar-star": {
+        "rarity": 5,
+        "passive": {
+            "en": "Elemental Skill and Elemental Burst DMG increased by {{value}}%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by {{value}}/{{value}}/{{value}}/{{value}}% . The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+            "de": "Erhöht den mit Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um {{value}}%. Erschafft beim Treffen von Gegnern mit Standardangriffen, heftigen Schlägen, Elementarfähigkeiten oder Spezialfähigkeiten 1 12 s anhaltende Stapelung des Effekts „Stern der weißen Nacht“. Erhöht den ANG bei 1/2/3/4 Stapelungen von „Stern der weißen Nacht“ um {{value}}/{{value}}/{{value}}/{{value}}%. Die durch Standardangriffe, heftige Schläge, Elementarfähigkeiten oder Spezialfähigkeiten entstandenen Effekte von „Stern der weißen Nacht“ existieren unabhängig voneinander.",
+            "es": "El daño infligido por la Habilidad Elemental y la Habilidad Definitiva aumenta en un {{value}}%. Al golpear a un enemigo con un Ataque Normal, un Ataque Cargado, la Habilidad Elemental o la Habilidad Definitiva, se obtiene una acumulación de estrella del día polar que dura 12 s. Con 1/2/3/4 acumulaciones, el ATQ aumenta en un {{value}}/{{value}}/{{value}}/{{value}}%. Las acumulaciones de estrella del día polar obtenidas con el Ataque Normal, el Ataque Cargado, la Habilidad Elemental o la Habilidad Definitiva se calculan independientemente de las demás.",
+            "fr": "Les DGT de la compétence et du déchaînement élémentaires augmentent de {{value}}%. Lorsqu'une attaque normale ou chargée, une compétence ou un déchaînement élémentaires a touché un ennemi, vous obtenez 1 cumul d'étoile cendrée pendant 12 s. Avec 1/2/3/4 cumul(s) d'étoile cendrée, l'ATQ augmente de {{value}}/{{value}}/{{value}}/{{value}}%. Les cumuls d'étoile cendrée obtenus grâce aux différents types d'attaques existent indépendamment les uns des autres.",
+            "it": "I DAN da abilità e Tripudio elementali aumentano di un {{value}}%. Se un attacco normale o caricato, un'abilità o un Tripudio elementale colpisce un avversario, riceverai 1 Stella cinerea per 12 s. Se ottieni 1/2/3/4 Stelle cineree, l'ATT aumenta di un {{value}}/{{value}}/{{value}}/{{value}}% rispettivamente. Il totale cumulato di Stelle cineree generato da attacco normale, attacco caricato, abilità elementale o Tripudio elementale viene calcolato in maniera indipendente.",
+            "ru": "Урон, наносимый элементальным навыком и взрывом стихии, увеличивается на {{value}}%. Когда обычная атака, заряженная атака, элементальный навык или взрыв стихии попадают по врагу, возникает 1 ур. эффекта Звезда полярной ночи, который длится 12 сек. При 1/2/3/4 ур. эффекта Звезда полярной ночи сила атаки повышается на {{value}}/{{value}}/{{value}}/{{value}}%. Уровни эффекта Звезда полярной ночи, созданные обычной атакой, заряженной атакой, элементальным навыком и взрывом стихии, существуют независимо."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "7.2%"
+        },
+        "r1": [
+            12,
+            10,
+            20,
+            30,
+            48
+        ],
+        "r2": [
+            15,
+            12.5,
+            25,
+            37.5,
+            60
+        ],
+        "r3": [
+            18,
+            15,
+            30,
+            45,
+            72
+        ],
+        "r4": [
+            21,
+            17.5,
+            35,
+            52.5,
+            84
+        ],
+        "r5": [
+            24,
+            20,
+            40,
+            60,
+            96
+        ]
+    },
+    "predator": {
+        "rarity": 4,
+        "passive": {
+            "en": "Effective only on the following platform: <br>\"PlayStationâ„¢Network\"<br>Dealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+            "de": "{{value}}wirksam:<br>{{value}}„PlayStation™Network“<br>Erhöht nach dem Treffen von Gegnern mit Kryo-Schaden den mit Standardangriffen und heftigen Schlägen verursachten Schaden 6 s lang um 10 %, 2-fach stapelbar. Erhöht Aloys ANG beim Anlegen von Raubtier zusätzlich um 66 Punkte.",
+            "es": "{{value}}plataformas:<br>{{value}}“PlayStation™Network”.<br>Tras infligir Daño Cryo a los enemigos, el daño de los Ataques Normales y Cargados aumenta en un 10% durante 6 s. Puede acumularse hasta 2 veces. Además, cuando Aloy equipa el arma Depredador, su ATQ aumenta en 66 pts.",
+            "fr": "{{value}}:<br>{{value}}»<br>Après avoir infligé des DGT Cryo aux ennemis, les DGT infligés par les attaques normales et chargées augmentent de 10 % pendant 6 s. Cet effet peut être cumulé 2 fois maximum. De plus, lorsque Aloy équipe le Predator, son ATQ augmente de 66 pts.",
+            "it": "{{value}}piattaforma<br>{{value}}\"PlayStation™Network\"<br>Infliggere DAN da Cryo ai nemici aumenta i DAN da attacco normale e caricato di questo personaggio di un 10% per 6 s. Cumulabile fino a 2 volte. Inoltre, quando Aloy equipaggia il Predatore, l'ATT aumenta di 66.",
+            "ru": "{{value}}игроков<br>{{value}}<br>Нанесённый противникам Крио урон повышает урон обычной и заряженной атаки персонажа на 10% в течение 6 сек. Эффект может складываться до 2 раз. Кроме этого, когда Хищником экипирована Элой, сила атаки повышается на 66 ед."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "prototype-crescent": {
+        "rarity": 4,
+        "passive": {
+            "en": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by {{value}}% for 10s.",
+            "de": "Erhöht die Bewegungs-GSW beim Treffen von Schwachstellen mit heftigen Schlägen 10 s lang um 10 % und den ANG um {{value}}%.",
+            "es": "Al golpear un punto débil con un Ataque Cargado, aumenta la Vel. Movimiento en un 10% y el ATQ en un {{value}}% durante 10 s.",
+            "fr": "Les attaques chargées touchant les points faibles augmentent la VIT de déplacement de 10 % et l'ATQ de {{value}}% pendant 10 s.",
+            "it": "I colpi da attacco caricato sui punti deboli aumentano la VEL di movimento di un 10% e l'ATT di un {{value}}% per 10 s.",
+            "ru": "Попадания заряженной атакой по слабым местам увеличивают скорость передвижения на 10% и силу атаки на {{value}}% в течение 10 сек."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "r1": [
+            36
+        ],
+        "r2": [
+            45
+        ],
+        "r3": [
+            54
+        ],
+        "r4": [
+            63
+        ],
+        "r5": [
+            72
+        ]
+    },
+    "rainbow-serpents-rain-bow": {
+        "rarity": 4,
+        "passive": {
+            "en": "ATK is increased by {{value}}% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+            "de": "Erhöht den ANG des Trägers, wenn dieser sich inaktiv in der Truppe befindet, nach dem Treffen eines Gegners 8 s lang um {{value}}%.",
+            "es": "Cuando el portador de esta arma está en tu equipo pero no en uso y golpea con un ataque a un enemigo, su ATQ aumenta en un {{value}}% durante 8 s.",
+            "fr": "Lorsque le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé, l'ATQ augmente de {{value}}% pendant 8 s après que le personnage équipé de l'arme touche un ennemi.",
+            "it": "Quando il personaggio che equipaggia l'arma colpisce un avversario con i suoi attacchi mentre non è in campo, il suo ATT aumenta di un {{value}}% per 8 s.",
+            "ru": "Когда экипированный персонаж не находится на поле боя, на 8 сек. после попадания его атак по противнику сила атаки повышается на {{value}}%."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "10.0%"
+        },
+        "r1": [
+            28
+        ],
+        "r2": [
+            35
+        ],
+        "r3": [
+            42
+        ],
+        "r4": [
+            49
+        ],
+        "r5": [
+            56
+        ]
+    },
+    "range-gauge": {
+        "rarity": 4,
+        "passive": {
+            "en": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain {{value}}% ATK and {{value}}% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+            "de": "Verleiht der Figur bei erhaltener Heilung, oder wenn sie jemanden heilt, ein Zeichen des Zusammenhalts, hält 30 s. Es können max. bis zu 3 Zeichen des Zusammenhalts vorhanden sein. Verbraucht beim Auslösen der Elementarfähigkeit oder der Spezialfähigkeit alle Zeichen des Zusammenhalts und löst den Effekt „Auflehnung“ aus, der 10 s hält: Jedes verbrauchte Zeichen des Zusammenhalts erhöht den ANG um {{value}}% und den Elementar-SCH-Bonus aller Elemente um {{value}}%. 15 s Abklingzeit für den Effekt „Auflehnung“. Zeichen des Zusammenhalts können auch erhalten werden, wenn die Figur inaktiv in der Truppe ist.",
+            "es": "Al recibir o realizar curación, otorga una marca de unidad durante 30 s, acumulable hasta 3 marcas. Al usar la Habilidad Elemental o Definitiva, se consumen todas las marcas de unidad y se obtiene el efecto de “renuencia” durante 10 s. Por cada marca de unidad consumida, el ATQ aumenta en un {{value}}% y todos los Bonos de Daño Elemental aumentan en un {{value}}%. El efecto de renuencia solo se puede activar una vez cada 15 s, y el personaje puede obtener marcas de unidad incluso cuando esté en tu equipo pero no en uso.",
+            "fr": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de {{value}}% et le bonus de DGT élémentaires de {{value}}%. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "it": "Quando il personaggio che equipaggia l'arma riceve o apporta effetti di guarigione, ottiene un Simbolo d'unità che dura 30 s, fino a un massimo di 3 Simboli. Con l'uso di abilità o Tripudio elementale, il personaggio consuma tutti i Simboli e riceve l'effetto Lotta per 10 s. Per ogni Simbolo consumato, il personaggio riceve un {{value}}% di bonus ATT e un {{value}}% di bonus DAN per tutti gli elementi. L'effetto Lotta può attivarsi una volta ogni 15 s, e i Simboli sono ottenibili anche quando il personaggio che equipaggia quest'arma non è in campo.",
+            "ru": "Когда экипированный персонаж лечит или получает лечение, он на 30 сек. наделяется Меткой единства. Всего можно получить до 3 Меток. При активации элементального навыка или взрыва стихии все Метки расходуются и на 10 сек. создаётся эффект Отпора: за каждую израсходованную Метку сила атаки повышается на {{value}}%, а бонус урона всеми элементами - на {{value}}%. Эффект Отпора может возникнуть один раз в 15 сек. Персонаж получает Метки единства, даже если он не на поле боя."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        },
+        "r1": [
+            3,
+            7
+        ],
+        "r2": [
+            4,
+            8.5
+        ],
+        "r3": [
+            5,
+            10
+        ],
+        "r4": [
+            6,
+            11.5
+        ],
+        "r5": [
+            7,
+            13
+        ]
+    },
+    "raven-bow": {
+        "rarity": 3,
+        "passive": {
+            "en": "Increases DMG against opponents affected by Hydro or Pyro by {{value}}%.",
+            "de": "Erhöht den von Hydro- oder Pyro-Effekten betroffenen Gegnern zugefügten Schaden um {{value}}%.",
+            "es": "Aumenta en un {{value}}% el daño contra los enemigos afectados por Hydro o Pyro.",
+            "fr": "Augmente les DGT infligés aux ennemis affectés par les éléments Hydro ou Pyro de {{value}}%.",
+            "it": "Aumenta i DAN contro gli avversari sotto l'effetto di Hydro o Pyro di un {{value}}%.",
+            "ru": "Увеличивает на {{value}}% урон против врагов, находящихся под действием Гидро или Пиро элементов."
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 40,
+            "substat_value": "20"
+        },
+        "r1": [
+            12
+        ],
+        "r2": [
+            15
+        ],
+        "r3": [
+            18
+        ],
+        "r4": [
+            21
+        ],
+        "r5": [
+            24
+        ]
+    },
+    "recurve-bow": {
+        "rarity": 3,
+        "passive": {
+            "en": "Defeating an opponent restores {{value}}% HP.",
+            "de": "Stellt beim Besiegen eines Gegners {{value}}% LP wieder her.",
+            "es": "Restaura un {{value}}% de Vida tras derrotar a un enemigo.",
+            "fr": "Restaure {{value}}% des PV après la défaite d'un ennemi.",
+            "it": "Sconfiggere un avversario ripristina un {{value}}% di PS.",
+            "ru": "Победа над противником восстанавливает {{value}}% HP."
+        },
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 38,
+            "substat_value": "10.2%"
+        },
+        "r1": [
+            8
+        ],
+        "r2": [
+            10
+        ],
+        "r3": [
+            12
+        ],
+        "r4": [
+            14
+        ],
+        "r5": [
+            16
+        ]
+    },
+    "royal-bow": {
+        "rarity": 4,
+        "passive": {
+            "en": "Upon damaging an opponent, increases CRIT Rate by {{value}}%. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "de": "Erhöht die KT beim Verursachen von Schaden um {{value}}%, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT.",
+            "es": "Al dañar a un enemigo, aumenta la Prob. CRIT en un {{value}}%. Puede acumularse hasta 5 veces. Una vez asestado un golpe CRIT, las acumulaciones de Concentración se reiniciarán.",
+            "fr": "Augmente le taux CRIT de {{value}}% à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+            "it": "Dopo aver inflitto danni a un avversario, il tasso di CRIT aumenta di un {{value}}%. Cumulabile fino a 5 volte. In caso di colpo CRIT, la quantità cumulata si azzera.",
+            "ru": "При нанесении урона противнику повышает шанс крит. попадания на {{value}}%. Эффект может складываться до 5 раз. Добавочный шанс крит. попадания исчезает с первым крит. попаданием."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "r1": [
+            8
+        ],
+        "r2": [
+            10
+        ],
+        "r3": [
+            12
+        ],
+        "r4": [
+            14
+        ],
+        "r5": [
+            16
+        ]
+    },
+    "rust": {
+        "rarity": 4,
+        "passive": {
+            "en": "Increases Normal Attack DMG by {{value}}% but decreases Charged Attack DMG by 10%.",
+            "de": "Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% und verringert den mit heftigen Schlägen verursachten Schaden um 10 %.",
+            "es": "El daño de Ataque Normal aumenta en un {{value}}% y el de Ataque Cargado disminuye en un 10%.",
+            "fr": "Augmente les DGT infligés par les attaques normales de {{value}}% et diminue les DGT infligés par les attaques chargées de 10 %.",
+            "it": "Aumenta i DAN da attacchi normali di un {{value}}%, ma riduce quelli da attacchi caricati di un 10%.",
+            "ru": "Увеличивает урон обычной атаки на {{value}}%, но понижает урон заряженной атаки на 10%."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
+    },
+    "sacrificial-bow": {
+        "rarity": 4,
+        "passive": {
+            "en": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
+            "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
+            "es": "Al hacer daño por medio de una Habilidad Elemental, hay un {{value}}% de probabilidad de restablecer el TdE de esta habilidad. Este efecto puede activarse una vez cada {{value}} s.",
+            "fr": "Les compétences élémentaires ont {{value}}% de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les {{value}} s.",
+            "it": "Dopo aver inflitto danni a un avversario con un'abilità elementale, questa ha un {{value}}% di probabilità di azzerare il proprio TdR. Si può verificare una sola volta ogni {{value}} s.",
+            "ru": "Когда элементальный навык наносит урон, есть {{value}}% вероятность, что его откат моментально восстановится. Может возникнуть раз в {{value}} сек."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.7%"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
+    },
+    "scion-of-the-blazing-sun": {
+        "rarity": 4,
+        "passive": {
+            "en": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing {{value}}% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take {{value}}% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+            "de": "Lässt nach dem Treffen von Gegnern mit heftigen Schlägen einen Brennpfeil auf diese niedergehen, der Schaden in Höhe von {{value}}% des ANG verursacht und ihnen 10 s Brennendes Herz zufügt. Erhöht den Schaden heftiger Schläge des Trägers an Gegnern mit Brennendem Herzen um {{value}}%. 10 s Abklingzeit für den Brennpfeil.",
+            "es": "Tras golpear a un enemigo con un Ataque Cargado, sobre él cae una “flecha rayosolar” que inflige daño en una cantidad equivalente al {{value}}% del ATQ, y que le aplica el efecto de “corazón ferviente” durante 10 s. El daño que recibe el enemigo afectado por corazón ferviente de los Ataques Cargados del portador de esta arma aumenta en un {{value}}%. Solo puede caer una flecha rayosolar cada 10 s.",
+            "fr": "Lorsqu'une attaque chargée a touché un ennemi, une flèche solaire tombe sur ce dernier pour infliger des DGT équivalant à {{value}}% de l'ATQ et appliquer pendant 10 s l'effet Brûle-cœur à l'ennemi ayant subi ses DGT. Les DGT infligés par les attaques chargées du personnage équipé de l'arme aux ennemis atteints de l'effet Brûle-cœur augmentent de {{value}}%. Une flèche solaire peut être déclenchée une fois toutes les 10 s.",
+            "it": "Se chi lo utilizza colpisce un avversario con un attacco caricato, scaglia su di esso una Freccia del fuoco solare che infligge DAN pari a un {{value}}% dell'ATT, applicando al suddetto avversario l'effetto Cuore arso per 10 s. Gli avversari affetti da Cuore arso subiscono un {{value}}% di DAN da attacco caricato in più da parte del personaggio che utilizza l'arma. È possibile scagliare una Freccia del fuoco solare una volta ogni 10 s.",
+            "ru": "Попадания заряженной атакой обрушивают на поражённого ею врага Стрелу слепящего солнца, которая наносит {{value}}% урона от силы атаки. Кроме того, на врага, получившего урон от Стрелы слепящего солнца, на 10 сек. накладывается эффект Пылающего сердца. Урон заряженной атаки экипированного персонажа по противнику под воздействием Пылающего сердца повышается на {{value}}%. Стрела слепящего солнца может возникнуть один раз в 10 сек."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "4.0%"
+        },
+        "r1": [
+            60,
+            28
+        ],
+        "r2": [
+            75,
+            35
+        ],
+        "r3": [
+            90,
+            42
+        ],
+        "r4": [
+            105,
+            49
+        ],
+        "r5": [
+            120,
+            56
+        ]
+    },
+    "seasoned-hunters-bow": {
+        "rarity": 2,
+        "passive": {
+            "en": ""
+        },
+        "substat": "",
+        "level_1": {
+            "base_attack": 33,
+            "substat_value": "0.0%"
+        }
+    },
+    "sequence-of-solitude": {
+        "rarity": 4,
+        "passive": {
+            "en": "When an attack hits an opponent, deal AoE DMG equal to {{value}}% of Max HP at the target location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every 15s.",
+            "de": "Verursacht beim Treffen von Gegnern mit Angriffen an der Stelle des Ziels Flächenschaden basierend auf {{value}}% der max. LP, 15 s Abklingzeit.",
+            "es": "Al golpear a un enemigo, inflige en su ubicación Daño en el AdE en una cantidad equivalente al {{value}}% de la Vida Máx. Este efecto solo se puede activar una vez cada 15 s.",
+            "fr": "Lorsqu'une attaque touche un ennemi, des DGT de zone d'une valeur équivalant à {{value}}% des PV max sont infligés à l'emplacement de la cible. Cet effet peut être déclenché une fois toutes les 15 s.",
+            "it": "Quando un attacco colpisce un avversario, infligge DAN ad area pari a un {{value}}% dei PS max nel punto colpito. Quest'effetto può attivarsi una volta ogni 15 s.",
+            "ru": "При попадании атаки по противнику на позиции цели наносится урон по площади, равный {{value}}% от макс. HP. Этот эффект может возникнуть один раз в 15 сек."
+        },
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
+    },
+    "sharpshooters-oath": {
+        "rarity": 3,
+        "passive": {
+            "en": "Increases DMG against weak spots by {{value}}%.",
+            "de": "Erhöht den Schwachstellen zugefügten Schaden um {{value}}%.",
+            "es": "Aumenta en un {{value}}% el daño contra los puntos débiles.",
+            "fr": "Augmente les DGT de {{value}}% si les points faibles de l'ennemi sont visés.",
+            "it": "Aumenta i DAN contro i punti deboli di un {{value}}%.",
+            "ru": "Увеличивает урон по слабым местам противников на {{value}}%."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 39,
+            "substat_value": "10.2%"
+        },
+        "r1": [
+            24
+        ],
+        "r2": [
+            30
+        ],
+        "r3": [
+            36
+        ],
+        "r4": [
+            42
+        ],
+        "r5": [
+            48
+        ]
+    },
+    "silvershower-heartstrings": {
+        "rarity": 5,
+        "passive": {
+            "en": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by {{value}}/{{value}}/{{value}}%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by {{value}}%. This effect will be canceled 4s after falling under 3 stacks.",
+            "de": "Verleiht dem Träger „Behandlung“. Erhöht die max. LP des Trägers bei 1/2/3 Stapelungen Behandlung um jeweils {{value}}/{{value}}/{{value}}%. Bedingungen zum Verleihen einer Stapelung Behandlung: Beim Auslösen der Elementarfähigkeit, hält 25 s; bei Erhöhung des Werts von Eid des Lebens, hält 25 s; bei aktiver Heilung durch den Träger, hält 20 s. Kann auch dann ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet. Die Wirkungsdauer jeder Stapelung Behandlung wird unabhängig voneinander berechnet. Erhöht bei 3 Stapelungen Behandlung außerdem die KT der Spezialfähigkeit um {{value}}%. Bei weniger als 3 Stapelungen Behandlung wird der Effekt nach 4 s entfernt.",
+            "es": "El portador de esta arma puede obtener el efecto de “reposición”. Al tener 1/2/3 cargas, la Vida Máx. aumenta en un {{value}}/{{value}}/{{value}}%. El portador obtiene 1 carga de reposición en las siguientes situaciones: al usar su Habilidad Elemental, obtiene 1 carga durante 25 s; cuando el valor del pacto vital aumenta, obtiene 1 carga durante 25 s; al realizar una curación, obtiene 1 carga durante 20 s. Esto se puede activar incluso cuando el portador de esta arma está en tu equipo pero no en uso. La duración de cada carga de reposición se calcula de manera independiente. Al tener 3 cargas, la Prob. CRIT de la Habilidad Definitiva aumenta en un {{value}}%. Este efecto se elimina en 4 s si no se tienen 3 cargas de reposición.",
+            "fr": "Le personnage équipé de l'arme obtient l'effet Traitement. Avec 1/2/3 cumuls de traitement, ses PV max augmentent respectivement de {{value}}/{{value}}/{{value}}%. Le personnage équipé de l'arme peut obtenir un cumul de traitement des façons suivantes : utiliser une compétence élémentaire accorde un cumul de 25 s ; augmenter la valeur d'un engagement vital accorde un cumul de 25 s ; et effectuer des soins accorde un cumul de 20 s. Cet effet peut être déclenché même si le personnage fait partie de l'équipe mais n'est pas déployé, et la durée de chaque cumul de traitement est calculée indépendamment. De plus, posséder 3 cumuls de traitement augmente le taux CRIT des déchaînements élémentaires de {{value}}%, cet effet prenant fin 4 s après que le nombre de cumuls tombe en dessous de 3.",
+            "it": "Il personaggio che equipaggia l'arma ottiene l'effetto Rimedio. Quando possiede 1/2/3 accumuli di Rimedio, i PS max aumentano di un {{value}}/{{value}}/{{value}}%. Il personaggio può ottenere tali accumuli nelle seguenti situazioni: 1 accumulo per 25 s quando usa l'abilità elementale; 1 accumulo per 25 s quando riceve un incremento del Legame vitale; 1 accumulo per 20 s quando apporta effetti di guarigione. È possibile ottenere accumuli anche se il personaggio non si trova in campo, e la durata di ciascun accumulo viene calcolata in modo indipendente. Inoltre, quando il personaggio possiede 3 accumuli, il tasso di CRIT del suo Tripudio elementale aumenta di un {{value}}%. Questo effetto si annulla 4 s dopo che il numero di accumuli cala al di sotto di 3.",
+            "ru": "Экипированный персонаж может получить эффект Снадобья. С 1/2/3 уровнями Снадобья его макс. HP увеличивается на {{value}}/{{value}}/{{value}}%. 1 уровень Снадобья можно получить в следующих ситуациях: на 25 сек. после активации элементального навыка; на 25 сек. после прироста Долга жизни; на 20 сек. после исцеления персонажей. Этот эффект активируется, даже если экипированный персонаж не на поле боя. Длительность каждого уровня эффекта рассчитывается отдельно. Кроме того, когда действует 3 уровня, шанс крит. попадания взрыва стихии увеличивается на {{value}}%. Данный эффект отменяется через 4 сек. после того, как уровней Снадобья становится меньше 3."
+        },
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "14.4%"
+        },
+        "r1": [
+            12,
+            24,
+            40,
+            28
+        ],
+        "r2": [
+            15,
+            30,
+            50,
+            35
+        ],
+        "r3": [
+            18,
+            36,
+            60,
+            42
+        ],
+        "r4": [
+            21,
+            42,
+            70,
+            49
+        ],
+        "r5": [
+            24,
+            48,
+            80,
+            56
+        ]
+    },
+    "skyward-harp": {
+        "rarity": 5,
+        "passive": {
+            "en": "Increases CRIT DMG by {{value}}%. Hits have a {{value}}% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s/3.5s/3s/2.5s/2s.",
+            "de": "Erhöht den KSCH um {{value}}% und verursacht bei einem Treffer mit einer Wahrscheinlichkeit von {{value}}% physischen Schaden mit geringer Reichweite in Höhe von 125 % ANG. {{value}} s Abklingzeit.",
+            "es": "Aumenta el Daño CRIT en un {{value}}%. Al golpear a un enemigo, hay un {{value}}% de probabilidad de infligir un 125% de Daño Físico en una pequeña AdE. Este efecto solo puede ocurrir una vez cada {{value}} s.",
+            "fr": "Augmente les DGT CRIT de {{value}}%. Toucher un ennemi a {{value}}% de chances d'infliger des DGT physiques équivalant à 125 % de l'ATQ dans une zone restreinte. Cet effet peut être déclenché une fois toutes les {{value}} s.",
+            "it": "Aumenta i DAN da CRIT di un {{value}}%. I colpi hanno un {{value}}% di probabilità d'infliggere un 125% di DAN da ATT fisico in una piccola area d'effetto. Si può verificare una sola volta ogni {{value}} s.",
+            "ru": "Увеличивает крит. урон на {{value}}%. При попадании есть {{value}}% шанс нанести 125% физ. урона в небольшом радиусе. Может возникнуть раз в {{value}} сек."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 48,
+            "substat_value": "4.8%"
+        },
+        "r1": [
+            20,
+            60
+        ],
+        "r2": [
+            25,
+            70
+        ],
+        "r3": [
+            30,
+            80
+        ],
+        "r4": [
+            35,
+            90
+        ],
+        "r5": [
+            40,
+            100
+        ]
+    },
+    "slingshot": {
+        "rarity": 3,
+        "passive": {
+            "en": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by {{value}}%. Otherwise, decreases DMG by 10%.",
+            "de": "Erhöht den Schaden beim Treffen von Gegnern mit Pfeilen von Standardangriffen und heftigen Schlägen innerhalb von 0,3 s nach dem Abschießen eines Pfeils um {{value}}%, verringert den verursachten Schaden ansonsten jedoch um 10 %.",
+            "es": "Si un Ataque Normal o Cargado golpea al enemigo en menos de 0.3 s de ser lanzado, el daño infligido aumentará en un {{value}}%. Si se excede este tiempo, el daño disminuirá en un 10%.",
+            "fr": "Les DGT infligés par les flèches des attaques normales et chargées infligent {{value}}% de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
+            "it": "Se un attacco normale o caricato colpisce un bersaglio entro 0,3 s dal tiro, aumenta i DAN di un {{value}}%. In caso contrario, li riduce di un 10%.",
+            "ru": "Если обычная или заряженная стрела поразила цель в течение 0,3 сек. после выстрела, то её урон увеличивается на {{value}}%. В противном случае урон уменьшается на 10%."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 38,
+            "substat_value": "6.8%"
+        },
+        "r1": [
+            36
+        ],
+        "r2": [
+            42
+        ],
+        "r3": [
+            48
+        ],
+        "r4": [
+            54
+        ],
+        "r5": [
+            60
+        ]
+    },
+    "snare-hook": {
+        "rarity": 4,
+        "passive": {
+            "en": "Upon causing an Elemental Reaction, increases Elemental Mastery by {{value}} for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by {{value}}. This effect can be triggered even if the equipping character is off-field.",
+            "de": "Erhöht nach Auslösen der Elementarreaktion 12 s lang die Elementarkunde um {{value}} Punkte. Mondomen &ndash; Reifer Glanz: Erhöht die Elementarkunde während des Effekts zusätzlich um {{value}} Punkte. Dieser Effekt kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
+            "es": "Tras causar una Reacción Elemental, la Maestría Elemental aumenta en {{value}} pts. durante 12 s. Con “presagio lunar: resplandor ascendente”, la Maestría Elemental otorgada por este efecto aumenta en {{value}} pts. adicionales. Este efecto se puede activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "fr": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire de {{value}} pts pendant 12 s. Signelune « Lueur ascendante » : la maîtrise élémentaire de cet effet augmente de {{value}} pts supplémentaires. Cet effet peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "it": "Dopo aver innescato una reazione elementale, aumenta la maestria elementale di {{value}} per 12 s. Quando Presagio lunare: Barlume ascendente è attivo, la maestria elementale di questo effetto aumenta di ulteriori {{value}} punti. L'effetto si innesca anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "На 12 сек. после активации элементальной реакции мастерство стихий повышается на {{value}} ед. Лунное знамение - Высшее сияние: мастерство стихий от данного эффекта дополнительно повышается на {{value}} ед. Этот эффект срабатывает, даже когда экипированный персонаж не на поле боя."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "13.3%"
+        },
+        "r1": [
+            60,
+            60
+        ],
+        "r2": [
+            75,
+            75
+        ],
+        "r3": [
+            90,
+            90
+        ],
+        "r4": [
+            105,
+            105
+        ],
+        "r5": [
+            120,
+            120
+        ]
+    },
+    "song-of-stillness": {
+        "rarity": 4,
+        "passive": {
+            "en": "After the wielder is healed, they will deal {{value}}% more DMG for 8s. This can be triggered even when the character is not on the field.",
+            "de": "Erhöht nach erhaltener Heilung den von der Figur verursachten Schaden um {{value}}%, hält 8 s. Der Effekt kann auch noch ausgelöst werden, wenn die Figur inaktiv in der Truppe ist.",
+            "es": "Tras recibir curación, el daño infligido aumenta en un {{value}}% durante 8 s. Este efecto puede activarse incluso cuando el personaje está en tu equipo pero no en uso.",
+            "fr": "Lorsque le personnage a reçu des soins, les DGT qu'il inflige augmentent de {{value}}% pendant 8 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "it": "Quando chi lo utilizza riceve effetti di guarigione, infligge un {{value}}% di DAN in più per 8 s. Questo effetto può attivarsi anche quando il personaggio non si trova in campo.",
+            "ru": "Наносимый урон после получения лечения увеличивается на {{value}}% на 8 сек. Эффект срабатывает, даже когда персонаж не на поле боя."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "r1": [
+            16
+        ],
+        "r2": [
+            20
+        ],
+        "r3": [
+            24
+        ],
+        "r4": [
+            28
+        ],
+        "r5": [
+            32
+        ]
+    },
+    "the-daybreak-chronicles": {
+        "rarity": 5,
+        "passive": {
+            "en": "The equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by {{value}}%. While in combat, this DMG Bonus will decrease by {{value}}% per second until it reaches 0%. When the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by {{value}}% until it reaches {{value}}%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.<br>Additionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by {{value}}% instead.",
+            "de": "Verleiht dem Träger „Aufsteigende Morgenbrise“: Erhöht den durch Standardangriffe, Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um {{value}}%, sobald der Träger den Kampf für 3 s verlassen hat. Verringert den oben genannten SCH-Bonus im Kampf jede Sekunde um {{value}}%, bis auf 0 %. Erhöht, wenn der Träger Gegner mit Standardangriffen, Elementarfähigkeiten oder Spezialfähigkeiten trifft, den SCH-Bonus für die entsprechende Art um {{value}}%, bis auf max. {{value}}%. 0,1 s Abklingzeit für jede obige Angriffsart. Dieser Effekt kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.<br>Wenn der Effekt „Hexerei &ndash; Geheimes Ritual“ in der Truppe vorhanden ist: Erhöht stattdessen, wenn der Träger Gegner mit Standardangriffen, Elementarfähigkeiten oder Spezialfähigkeiten trifft, den SCH-Bonus für alle Arten um {{value}}%.",
+            "es": "El portador de esta arma obtiene el efecto de “brisa del amanecer”, de manera que, 3 s después de salir de combate, el daño del Ataque Normal, la Habilidad Elemental y la Habilidad Definitiva aumenta en un {{value}}%. Al estar en combate, este aumento de daño se reduce en un {{value}}% por segundo hasta llegar al 0%. Cuando el portador golpea a un enemigo con un Ataque Normal, la Habilidad Elemental o la Habilidad Definitiva, el aumento de daño correspondiente se incrementa en un {{value}}%, hasta alcanzar el {{value}}%. Este efecto solo puede activarse una vez cada 0.1 s para cada tipo de ataque, y se puede activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.<br>Además, cuando el equipo tiene el efecto “taumaturgia: rito secreto” y dicho portador golpea a un enemigo con un Ataque Normal, la Habilidad Elemental o la Habilidad Definitiva, el aumento de daño obtenido pasa a ser de un {{value}}% para todos los tipos de daño.",
+            "fr": "Le personnage équipé de l'arme obtient l'effet Brise éveillante : après avoir été hors combat pendant 3 s, les DGT infligés par les attaques normales, les compétences élémentaires et les déchaînements élémentaires augmentent de {{value}}%. En combat, l'effet de ce bonus diminue de {{value}}% toutes les secondes jusqu'à atteindre 0 %. Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque normale, une compétence élémentaire ou un déchaînement élémentaire, l'effet de ce bonus pour le type de DGT correspondant augmente de {{value}}%, jusqu'à une augmentation maximum de {{value}}%. Cet effet peut être déclenché une fois toutes les 0,1 s pour chaque type d'attaque et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.<br>De plus, lorsque l'équipe bénéficie de l'effet Hexerei : Rituel secret, l'augmentation du bonus de DGT lorsque le personnage équipé de l'arme touche un ennemi avec une attaque normale, une compétence élémentaire ou un déchaînement élémentaire passe à {{value}}% et s'applique à tous les types de DGT concernés.",
+            "it": "Il personaggio che equipaggia l'arma ottiene Brezza dell'alba. Dopo aver trascorso 3 s fuori da un combattimento, i DAN da attacco normale, abilità elementale e Tripudio elementale aumentano di un {{value}}%. Durante un combattimento, il suddetto bonus DAN diminuisce di un {{value}}% al secondo fino ad azzerarsi. Quando gli attacchi normali, le abilità elementali o i Tripudi elementali del personaggio che equipaggia l'arma colpiscono un avversario, il bonus DAN corrispondente a quel tipo di DAN aumenta di un {{value}}% fino a raggiungere il {{value}}%. Quest'effetto può attivarsi una volta ogni 0,1 s per ogni tipo di attacco sopracitato, anche se il personaggio che equipaggia l'arma non è in campo.<br>Se il gruppo possiede gli effetti di Hexerei: Rito segreto, quando gli attacchi normali, le abilità elementali o i Tripudi elementali del personaggio che equipaggia l'arma colpiscono un avversario, il bonus DAN di tutti questi tipi di DAN aumenta invece di un {{value}}%.",
+            "ru": "Экипированный персонаж получает Волнующийся утренний ветер: через 3 сек. после выхода из боя урон обычной атаки, элементального навыка и взрыва стихии повышается на {{value}}%. В бою этот эффект повышения урона снижается на {{value}}% каждую секунду, пока не достигнет 0%. Когда обычная атака, элементальный навык или взрыв стихии экипированного персонажа поражают противника, эффект повышения урона соответствующего типа усиливается на {{value}}%, пока не достигает {{value}}%. Этот эффект может возникнуть один раз в 0,1 сек. для атак каждого из перечисленных типов и срабатывает, даже когда экипированный персонаж не на поле боя.<br>Кроме того, когда в отряде действует эффект Ведьмовство: Тайный обряд, а обычная атака, элементальный навык или взрыв стихии экипированного персонажа поражают противника, то вместо этого эффект повышения урона для урона всех этих типов усиливается на {{value}}%."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 48,
+            "substat_value": "9.6%"
+        },
+        "r1": [
+            60,
+            10,
+            10,
+            60,
+            20
+        ],
+        "r2": [
+            75,
+            12.5,
+            12.5,
+            75,
+            25
+        ],
+        "r3": [
+            90,
+            15,
+            15,
+            90,
+            30
+        ],
+        "r4": [
+            105,
+            17.5,
+            17.5,
+            105,
+            35
+        ],
+        "r5": [
+            120,
+            20,
+            20,
+            120,
+            40
+        ]
+    },
+    "the-first-great-magic": {
+        "rarity": 5,
+        "passive": {
+            "en": "DMG dealt by Charged Attacks increased by {{value}}%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by {{value}}/{{value}}/{{value}}%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by {{value}}/{{value}}/{{value}}%.",
+            "de": "Erhöht den mit heftigen Schlägen verursachten Schaden um {{value}}%. Verleiht für jede Figur in der Truppe, die den gleichen Elementartyp wie der Träger hat (einschließlich des Trägers selbst), 1 Stapelung „Tricks“ hinzu. Verleiht für jede Figur in der Truppe, die nicht den gleichen Elementartyp hat, 1 Stapelung „Schauspielkunst“ hinzu. Erhöht den ANG bei 1/2/3 oder mehr Stapelungen von „Tricks“ um {{value}}/{{value}}/{{value}}%. Erhöht die Bewegungsgeschwindigkeit bei 1/2/3 oder mehr Stapelungen von „Schauspielkunst“ um {{value}}/{{value}}/{{value}}%.",
+            "es": "El daño de Ataque Cargado aumenta en un {{value}}%. Por cada personaje del equipo del mismo tipo elemental que el portador de esta arma (esto incluye a dicho portador), otorga 1 carga de “ardid”. Por otro lado, por cada personaje de distinto tipo elemental al portador de esta arma, otorga 1 carga de “teatralidad”. Con 1/2/3 o más cargas de ardid, el ATQ aumenta en un {{value}}/{{value}}/{{value}}%, y con 1/2/3 o más cargas de teatralidad, la Vel. Movimiento aumenta en un {{value}}/{{value}}/{{value}}%.",
+            "fr": "Les DGT infligés par les attaques chargées augmentent de {{value}}%. Chaque personnage de l'équipe dont le type élémentaire est le même que celui du personnage équipé de l'arme (y compris le personnage en question) accorde 1 cumul de l'effet Roublardise, tandis que chaque personnage de l'équipe dont le type élémentaire est différent accorde 1 cumul de l'effet Tragédien. Avec 1, 2 ou au minimum 3 cumuls de roublardise, l'ATQ augmente respectivement de {{value}}/{{value}}/{{value}}%, tandis qu'avec 1, 2 ou au minimum 3 cumuls de tragédien, la VIT de déplacement augmente respectivement de {{value}}/{{value}}/{{value}}%.",
+            "it": "I DAN inflitti dagli attacchi caricati aumentano di un {{value}}%. Per ogni membro del gruppo dello stesso tipo elementale del personaggio che usa quest'arma (incluso sé stesso), quest'ultimo ottiene 1 accumulo di Stratagemma; per ogni membro del gruppo di tipo elementale diverso, invece, ottiene 1 accumulo di Scenotecnica. Quando il personaggio ha 1/2/3 o più accumuli di Stratagemma, l'ATT aumenta di un {{value}}/{{value}}/{{value}}%. Quando ha 1/2/3 o più accumuli di Scenotecnica, la VEL di movimento aumenta di un {{value}}/{{value}}/{{value}}%.",
+            "ru": "Увеличивает урон заряженной атаки на {{value}}%. Предоставляет 1 уровень Уловки за каждого персонажа того же элемента в отряде, что и экипированный персонаж (включая экипированного персонажа). За каждого персонажа отряда с другим элементом предоставляет 1 уровень Актёрского мастерства. Когда действуют 1/2/3 и более уровня Уловки, сила атаки повышается на {{value}}/{{value}}/{{value}}%. Во время действия 1/2/3 и более уровней Актёрского мастерства скорость передвижения увеличивается на {{value}}/{{value}}/{{value}}%."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "14.4%"
+        },
+        "r1": [
+            16,
+            16,
+            32,
+            48,
+            4,
+            7,
+            10
+        ],
+        "r2": [
+            20,
+            20,
+            40,
+            60,
+            6,
+            9,
+            12
+        ],
+        "r3": [
+            24,
+            24,
+            48,
+            72,
+            8,
+            11,
+            14
+        ],
+        "r4": [
+            28,
+            28,
+            56,
+            84,
+            10,
+            13,
+            16
+        ],
+        "r5": [
+            32,
+            32,
+            64,
+            96,
+            12,
+            15,
+            18
+        ]
+    },
+    "the-stringless": {
+        "rarity": 4,
+        "passive": {
+            "en": "Increases Elemental Skill and Elemental Burst DMG by {{value}}%.",
+            "de": "Erhöht den Schaden von Elementarfähigkeiten und Spezialfähigkeiten um {{value}}%.",
+            "es": "Aumenta en un {{value}}% el daño de la Habilidad Elemental y la Habilidad Definitiva.",
+            "fr": "Augmente les DGT infligés par les compétences élémentaires et les déchaînements élémentaires de {{value}}%.",
+            "it": "Aumenta i DAN di abilità elementale e Tripudio elementale di un {{value}}%.",
+            "ru": "Увеличивает урон элементального навыка и взрыва стихии на {{value}}%."
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "36"
+        },
+        "r1": [
+            24
+        ],
+        "r2": [
+            30
+        ],
+        "r3": [
+            36
+        ],
+        "r4": [
+            42
+        ],
+        "r5": [
+            48
+        ]
+    },
+    "the-viridescent-hunt": {
+        "rarity": 4,
+        "passive": {
+            "en": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing {{value}}% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s/13s/12s/11s/10s.",
+            "de": "Erschafft bei Treffern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % ein Windauge, das Gegner in der Umgebung fortlaufend ansaugt und ihnen 4 s lang alle 0,5 s Schaden in Höhe von {{value}}% ANG zufügt. {{value}} s Abklingzeit.",
+            "es": "Al golpear con un Ataque Normal o Ataque Cargado, hay un 50% de probabilidad de crear un ciclón que atrae a los enemigos cercanos de forma continua, infligiendo un {{value}}% del ATQ como daño cada 0.5 s durante 4 s. Este efecto puede ocurrir una vez cada {{value}} s.",
+            "fr": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à {{value}}% de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les {{value}} s.",
+            "it": "Per colpo a segno, gli attacchi normali e caricati hanno un 50% di probabilità di generare un Ciclone, che attrarrà costantemente gli avversari circostanti, infliggendo loro DAN pari a un {{value}}% dell'ATT ogni 0,5 s per 4 s. Si può verificare una sola volta ogni {{value}} s.",
+            "ru": "При попадании обычной или заряженной атакой появляется 50% шанс создать Циклон, который притягивает к себе врагов и наносит им {{value}}% урона каждые 0,5 сек. в течение 4 сек. Может возникнуть раз в {{value}} сек."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "6.0%"
+        },
+        "r1": [
+            40
+        ],
+        "r2": [
+            50
+        ],
+        "r3": [
+            60
+        ],
+        "r4": [
+            70
+        ],
+        "r5": [
+            80
+        ]
+    },
+    "thundering-pulse": {
+        "rarity": 5,
+        "passive": {
+            "en": "Increases ATK by {{value}}% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by {{value}}/{{value}}/{{value}}%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+            "de": "Erhöht den ANG um {{value}}% und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils {{value}}/{{value}}/{{value}}%. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig.",
+            "es": "Aumenta el ATQ en un {{value}}% y otorga el poder de los emblemas del trueno. Dependiendo de si se tienen 1, 2 o 3 emblemas del trueno, el daño infligido con los Ataques Normales aumenta en un {{value}}/{{value}}/{{value}}%. En las siguientes situaciones, el personaje obtiene un emblema: al infligir daño con Ataques Normales. El emblema dura 5 s; al realizar una Habilidad Elemental. El emblema dura 10 s; cuando la Energía Elemental del personaje está por debajo del 100%. El emblema del trueno obtenido de esta manera dura hasta que el personaje regenere toda su Energía Elemental. La duración de cada emblema del trueno se calcula de manera independiente.",
+            "fr": "Augmente l'ATQ de {{value}}%, et confère la puissance du sceau du tonnerre. 1/2/3 cumuls de sceau du tonnerre augmentent respectivement les DGT des attaques normales de {{value}}/{{value}}/{{value}}%. Le personnage peut obtenir 1 cumul de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient un cumul de 5 s ; s'il utilise sa compétence élémentaire, il obtient un cumul de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient un cumul qui disparaît lorsque l'énergie redevient pleine. La durée de chaque cumul est calculée indépendamment.",
+            "it": "Aumenta l'ATT di un {{value}}% e garantisce il potere dell'Emblema del tuono. Con 1/2/3 emblemi, l'Emblema del tuono aumenta i DAN da attacco normale di un {{value}}/{{value}}/{{value}}%. Otterrai 1 Emblema del tuono della durata seguente: 5 s se gli attacchi normali infliggeranno DAN; 10 s se userai un'abilità elementale; fino a quando l'energia, se inferiore a un 100%, si sarà ricaricata. La durata di ogni emblema viene calcolata in maniera indipendente.",
+            "ru": "Увеличивает силу атаки на {{value}}% и дарует мощь Громовой эмблемы. На уровнях эмблемы 1, 2 или 3 урон обычной атаки увеличивается на {{value}}/{{value}}/{{value}}% соответственно. Персонаж получает 1 уровень Громовой эмблемы в каждом из следующих случаев: при нанесении урона обычной атакой (эмблема действует 5 сек.); при применении элементального навыка (эмблема действует 10 сек.); когда элементальная энергия персонажа ниже 100% (эмблема исчезнет, когда элементальная энергия полностью восстановится). Продолжительность действия каждого уровня эмблемы рассчитывается индивидуально."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "14.4%"
+        },
+        "r1": [
+            20,
+            12,
+            24,
+            40
+        ],
+        "r2": [
+            25,
+            15,
+            30,
+            50
+        ],
+        "r3": [
+            30,
+            18,
+            36,
+            60
+        ],
+        "r4": [
+            35,
+            21,
+            42,
+            70
+        ],
+        "r5": [
+            40,
+            24,
+            48,
+            80
+        ]
+    },
+    "windblume-ode": {
+        "rarity": 4,
+        "passive": {
+            "en": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by {{value}}% for 6s.",
+            "de": "Verleiht beim Auslösen von Elementarfähigkeiten den alten Wunsch der Windblumen und erhöht den ANG 6 s lang um {{value}}%.",
+            "es": "Al usar una Habilidad Elemental, obtienes la gracia de las flores de viento, que aumenta el ATQ en un {{value}}% durante 6 s.",
+            "fr": "Libérer une compétence élémentaire confère la faveur des alizées. L'ATQ augmente de {{value}}% pendant 6 s.",
+            "it": "Dopo l'uso di un'abilità elementale, ricevi un dono dall'antico Desiderio del Florvento, aumentando l'ATT di un {{value}}% per 6 s.",
+            "ru": "Использование элементального навыка накладывает Древнее желание анемонии, которое увеличивает силу атаки на {{value}}% в течение 6 сек."
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "36"
+        },
+        "r1": [
+            16
+        ],
+        "r2": [
+            20
+        ],
+        "r3": [
+            24
+        ],
+        "r4": [
+            28
+        ],
+        "r5": [
+            32
+        ]
     }
-  },
-  "hunters-path": {
-    "rarity": 5,
-    "passive": "Gain {{value}}% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by {{value}}% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "9.6%"
-    },
-    "r1": [12, 160],
-    "r2": [15, 200],
-    "r3": [18, 240],
-    "r4": [21, 280],
-    "r5": [24, 320]
-  },
-  "ibis-piercer": {
-    "rarity": 4,
-    "passive": "The character's Elemental Mastery will increase by {{value}} within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "kings-squire": {
-    "rarity": 4,
-    "passive": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by {{value}} for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal {{value}}% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "12.0%"
-    },
-    "r1": [60, 100],
-    "r2": [80, 120],
-    "r3": [100, 140],
-    "r4": [120, 160],
-    "r5": [140, 180]
-  },
-  "messenger": {
-    "rarity": 3,
-    "passive": "Charged Attack hits on weak points deal an additional {{value}}% ATK DMG as CRIT DMG. Can only occur once every 10s.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 40,
-      "substat_value": "6.8%"
-    },
-    "r1": [100],
-    "r2": [125],
-    "r3": [150],
-    "r4": [175],
-    "r5": [200]
-  },
-  "mitternachts-waltz": {
-    "rarity": 4,
-    "passive": "Normal Attack hits on opponents increase Elemental Skill DMG by {{value}}% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by {{value}}% for 5s.",
-    "substat": "physical-dmg",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "11.3%"
-    },
-    "r1": [20, 20],
-    "r2": [25, 25],
-    "r3": [30, 30],
-    "r4": [35, 35],
-    "r5": [40, 40]
-  },
-  "mouuns-moon": {
-    "rarity": 4,
-    "passive": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by {{value}}%. A maximum of {{value}}% increased Elemental Burst DMG can be achieved this way.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    },
-    "r1": [0.12, 40],
-    "r2": [0.15, 50],
-    "r3": [0.18, 60],
-    "r4": [0.21, 70],
-    "r5": [0.24, 80]
-  },
-  "polar-star": {
-    "rarity": 5,
-    "passive": "Elemental Skill and Elemental Burst DMG increased by {{value}}%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by {{value}}/{{value}}/{{value}}/{{value}}% . The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "7.2%"
-    },
-    "r1": [12, 10, 20, 30, 48],
-    "r2": [15, 12.5, 25, 37.5, 60],
-    "r3": [18, 15, 30, 45, 72],
-    "r4": [21, 17.5, 35, 52.5, 84],
-    "r5": [24, 20, 40, 60, 96]
-  },
-  "predator": {
-    "rarity": 4,
-    "passive": "Effective only on the following platform: <br>\"PlayStationâ„¢Network\"<br>Dealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "prototype-crescent": {
-    "rarity": 4,
-    "passive": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by {{value}}% for 10s.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    },
-    "r1": [36],
-    "r2": [45],
-    "r3": [54],
-    "r4": [63],
-    "r5": [72]
-  },
-  "rainbow-serpents-rain-bow": {
-    "rarity": 4,
-    "passive": "ATK is increased by {{value}}% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "10.0%"
-    },
-    "r1": [28],
-    "r2": [35],
-    "r3": [42],
-    "r4": [49],
-    "r5": [56]
-  },
-  "range-gauge": {
-    "rarity": 4,
-    "passive": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain {{value}}% ATK and {{value}}% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    },
-    "r1": [3, 7],
-    "r2": [4, 8.5],
-    "r3": [5, 10],
-    "r4": [6, 11.5],
-    "r5": [7, 13]
-  },
-  "raven-bow": {
-    "rarity": 3,
-    "passive": "Increases DMG against opponents affected by Hydro or Pyro by {{value}}%.",
-    "substat": "em",
-    "level_1": {
-      "base_attack": 40,
-      "substat_value": "20"
-    },
-    "r1": [12],
-    "r2": [15],
-    "r3": [18],
-    "r4": [21],
-    "r5": [24]
-  },
-  "recurve-bow": {
-    "rarity": 3,
-    "passive": "Defeating an opponent restores {{value}}% HP.",
-    "substat": "hp%",
-    "level_1": {
-      "base_attack": 38,
-      "substat_value": "10.2%"
-    },
-    "r1": [8],
-    "r2": [10],
-    "r3": [12],
-    "r4": [14],
-    "r5": [16]
-  },
-  "royal-bow": {
-    "rarity": 4,
-    "passive": "Upon damaging an opponent, increases CRIT Rate by {{value}}%. Max 5 stacks. A CRIT Hit removes all stacks.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    },
-    "r1": [8],
-    "r2": [10],
-    "r3": [12],
-    "r4": [14],
-    "r5": [16]
-  },
-  "rust": {
-    "rarity": 4,
-    "passive": "Increases Normal Attack DMG by {{value}}% but decreases Charged Attack DMG by 10%.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "sacrificial-bow": {
-    "rarity": 4,
-    "passive": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.7%"
-    },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "scion-of-the-blazing-sun": {
-    "rarity": 4,
-    "passive": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing {{value}}% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take {{value}}% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "4.0%"
-    },
-    "r1": [60, 28],
-    "r2": [75, 35],
-    "r3": [90, 42],
-    "r4": [105, 49],
-    "r5": [120, 56]
-  },
-  "seasoned-hunters-bow": {
-    "rarity": 2,
-    "passive": "",
-    "substat": "",
-    "level_1": {
-      "base_attack": 33,
-      "substat_value": "0.0%"
-    }
-  },
-  "sequence-of-solitude": {
-    "rarity": 4,
-    "passive": "When an attack hits an opponent, deal AoE DMG equal to {{value}}% of Max HP at the target location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every / of Max HP at the target's location. This effect can be triggered once every 15s.",
-    "substat": "hp%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "sharpshooters-oath": {
-    "rarity": 3,
-    "passive": "Increases DMG against weak spots by {{value}}%.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 39,
-      "substat_value": "10.2%"
-    },
-    "r1": [24],
-    "r2": [30],
-    "r3": [36],
-    "r4": [42],
-    "r5": [48]
-  },
-  "silvershower-heartstrings": {
-    "rarity": 5,
-    "passive": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by {{value}}/{{value}}/{{value}}%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by {{value}}%. This effect will be canceled 4s after falling under 3 stacks.",
-    "substat": "hp%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "14.4%"
-    },
-    "r1": [12, 24, 40, 28],
-    "r2": [15, 30, 50, 35],
-    "r3": [18, 36, 60, 42],
-    "r4": [21, 42, 70, 49],
-    "r5": [24, 48, 80, 56]
-  },
-  "skyward-harp": {
-    "rarity": 5,
-    "passive": "Increases CRIT DMG by {{value}}%. Hits have a {{value}}% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s/3.5s/3s/2.5s/2s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 48,
-      "substat_value": "4.8%"
-    },
-    "r1": [20, 60],
-    "r2": [25, 70],
-    "r3": [30, 80],
-    "r4": [35, 90],
-    "r5": [40, 100]
-  },
-  "slingshot": {
-    "rarity": 3,
-    "passive": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by {{value}}%. Otherwise, decreases DMG by 10%.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 38,
-      "substat_value": "6.8%"
-    },
-    "r1": [36],
-    "r2": [42],
-    "r3": [48],
-    "r4": [54],
-    "r5": [60]
-  },
-  "snare-hook": {
-    "rarity": 4,
-    "passive": "Upon causing an Elemental Reaction, increases Elemental Mastery by {{value}} for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by {{value}}. This effect can be triggered even if the equipping character is off-field.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "13.3%"
-    },
-    "r1": [60, 60],
-    "r2": [75, 75],
-    "r3": [90, 90],
-    "r4": [105, 105],
-    "r5": [120, 120]
-  },
-  "song-of-stillness": {
-    "rarity": 4,
-    "passive": "After the wielder is healed, they will deal {{value}}% more DMG for 8s. This can be triggered even when the character is not on the field.",
-    "substat": "atk%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    },
-    "r1": [16],
-    "r2": [20],
-    "r3": [24],
-    "r4": [28],
-    "r5": [32]
-  },
-  "the-daybreak-chronicles": {
-    "rarity": 5,
-    "passive": "The equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by {{value}}%. While in combat, this DMG Bonus will decrease by {{value}}% per second until it reaches 0%. When the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by {{value}}% until it reaches {{value}}%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.<br>Additionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by {{value}}% instead.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 48,
-      "substat_value": "9.6%"
-    },
-    "r1": [60, 10, 10, 60, 20],
-    "r2": [75, 12.5, 12.5, 75, 25],
-    "r3": [90, 15, 15, 90, 30],
-    "r4": [105, 17.5, 17.5, 105, 35],
-    "r5": [120, 20, 20, 120, 40]
-  },
-  "the-first-great-magic": {
-    "rarity": 5,
-    "passive": "DMG dealt by Charged Attacks increased by {{value}}%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by {{value}}/{{value}}/{{value}}%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by {{value}}/{{value}}/{{value}}%.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "14.4%"
-    },
-    "r1": [16, 16, 32, 48, 4, 7, 10],
-    "r2": [20, 20, 40, 60, 6, 9, 12],
-    "r3": [24, 24, 48, 72, 8, 11, 14],
-    "r4": [28, 28, 56, 84, 10, 13, 16],
-    "r5": [32, 32, 64, 96, 12, 15, 18]
-  },
-  "the-stringless": {
-    "rarity": 4,
-    "passive": "Increases Elemental Skill and Elemental Burst DMG by {{value}}%.",
-    "substat": "em",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "36"
-    },
-    "r1": [24],
-    "r2": [30],
-    "r3": [36],
-    "r4": [42],
-    "r5": [48]
-  },
-  "the-viridescent-hunt": {
-    "rarity": 4,
-    "passive": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing {{value}}% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s/13s/12s/11s/10s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "6.0%"
-    },
-    "r1": [40],
-    "r2": [50],
-    "r3": [60],
-    "r4": [70],
-    "r5": [80]
-  },
-  "thundering-pulse": {
-    "rarity": 5,
-    "passive": "Increases ATK by {{value}}% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by {{value}}/{{value}}/{{value}}%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "14.4%"
-    },
-    "r1": [20, 12, 24, 40],
-    "r2": [25, 15, 30, 50],
-    "r3": [30, 18, 36, 60],
-    "r4": [35, 21, 42, 70],
-    "r5": [40, 24, 48, 80]
-  },
-  "windblume-ode": {
-    "rarity": 4,
-    "passive": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by {{value}}% for 6s.",
-    "substat": "em",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "36"
-    },
-    "r1": [16],
-    "r2": [20],
-    "r3": [24],
-    "r4": [28],
-    "r5": [32]
-  }
 }
