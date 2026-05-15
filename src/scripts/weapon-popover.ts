@@ -23,7 +23,12 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
 
     document.addEventListener('click', (event) => {
         const target = event.target as HTMLElement;
-        const trigger = target.closest<HTMLButtonElement>('.weapon-popover-trigger');
+        const trigger = target.closest('.weapon-popover-trigger');
+        const card = target.closest('.weapon-popover-card');
+
+        if (card) {
+            return;
+        }
 
         if (!trigger) {
             closeWeaponPopovers();
