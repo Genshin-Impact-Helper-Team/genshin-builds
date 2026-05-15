@@ -1,11 +1,19 @@
 ---
 import { t } from '../utils/i18n';
+import ArtifactSetInfoPopover from './ArtifactSetInfoPopover.astro';
 
 type ArtifactSetItem = {
   name: string;
   pieces: number;
   note?: string;
   noteId?: string;
+  id?: string;
+  info?: {
+    rarity: number;
+    '1p'?: { en?: string; [lang: string]: string | undefined };
+    '2p'?: { en?: string; [lang: string]: string | undefined };
+    '4p'?: { en?: string; [lang: string]: string | undefined };
+  };
 };
 
 type ArtifactSetGroup = {
@@ -13,9 +21,14 @@ type ArtifactSetGroup = {
   choose?: boolean;
 };
 
-const { group, locale } = Astro.props as {
+const {
+  group,
+  locale,
+  lang = 'en',
+} = Astro.props as {
   group: ArtifactSetGroup;
   locale: any;
+  lang?: string;
 };
 ---
 
@@ -27,7 +40,8 @@ const { group, locale } = Astro.props as {
     <>
       {group.items[0] && (
         <>
-          {group.items[0].name}&nbsp;
+          <ArtifactSetInfoPopover artifact={group.items[0]} lang={lang} />
+          &nbsp;
           <span class="bold">({group.items[0].pieces})</span>
           {group.items[0].noteId ? (
             <a class="note-link" href={`#${group.items[0].noteId}`}>
@@ -42,7 +56,8 @@ const { group, locale } = Astro.props as {
       )}
       {group.items.slice(1).map((item) => (
         <div class="alt">
-          {item.name}&nbsp;
+          <ArtifactSetInfoPopover artifact={item} lang={lang} />
+          &nbsp;
           <span class="bold">({item.pieces})</span>
           {item.noteId ? (
             <a class="note-link" href={`#${item.noteId}`}>
@@ -62,7 +77,8 @@ const { group, locale } = Astro.props as {
       {group.items.map((item, itemIndex) => (
         <>
           {itemIndex > 0 && ' / '}
-          {item.name}&nbsp;
+          <ArtifactSetInfoPopover artifact={item} lang={lang} />
+          &nbsp;
           <span class="bold">({item.pieces})</span>
           {item.noteId ? (
             <a class="note-link" href={`#${item.noteId}`}>

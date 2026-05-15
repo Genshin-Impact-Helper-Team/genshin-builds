@@ -1,0 +1,68 @@
+---
+type LocalizedArtifactEffect = {
+  en?: string;
+  [lang: string]: string | undefined;
+};
+
+type ArtifactSetInfo = {
+  rarity: number;
+  '1p'?: LocalizedArtifactEffect;
+  '2p'?: LocalizedArtifactEffect;
+  '4p'?: LocalizedArtifactEffect;
+};
+
+type Props = {
+  artifact: {
+    name: string;
+    id?: string;
+    info?: ArtifactSetInfo;
+  };
+  lang?: string;
+};
+
+const { artifact, lang = 'en' } = Astro.props as Props;
+const info = artifact.info;
+
+const localizedEffect = (effect?: LocalizedArtifactEffect) =>
+  effect?.[lang] ?? effect?.en ?? '';
+
+const effects = info
+  ? [
+      { label: '1P', value: localizedEffect(info['1p']) },
+      { label: '2P', value: localizedEffect(info['2p']) },
+      { label: '4P', value: localizedEffect(info['4p']) },
+    ].filter((effect) => effect.value)
+  : [];
+---
+
+{
+  info ? (
+    <span class="artifact-popover weapon-popover">
+      <button
+        class="artifact-popover-trigger weapon-popover-trigger"
+        type="button"
+        aria-expanded="false"
+      >
+        {artifact.name}
+      </button>
+
+      <span class="artifact-popover-card weapon-popover-card" role="tooltip">
+        <span class="weapon-popover-header">
+          <span class="weapon-popover-name">{artifact.name}</span>
+          <span class="weapon-popover-rarity">
+            {info.rarity} {'\u2605'}
+          </span>
+        </span>
+
+        {effects.map((effect) => (
+          <span class="artifact-popover-effect weapon-popover-stat">
+            <span>{effect.label}</span>
+            <strong>{effect.value}</strong>
+          </span>
+        ))}
+      </span>
+    </span>
+  ) : (
+    artifact.name
+  )
+}

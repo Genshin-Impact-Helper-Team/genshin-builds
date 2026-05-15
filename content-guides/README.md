@@ -82,8 +82,10 @@ content loader, including:
 
 - Folder names are stable slugs and should not be translated.
 - Gameplay names usually use IDs from `src/i18n/<lang>/*.json`.
-- Weapon rarity lives in `src/data/weapons/<weapon-type>.json`. Build
+- Weapon rarity, stats, and passive data live in `src/data/weapons/<weapon-type>.json`. Build
   `weapons.json` files should list weapon IDs, refinements, and notes only.
+- Artifact set rarity and set effects live in `src/data/artifacts/artifact_sets.json`. Build
+  `artifacts-sets.json` files should list artifact set IDs, rankings, and notes only.
 - Notes are translated directly inside the JSONs
 - Notes, when present, must include `en`; other languages are optional.
 - Requested language falls back to `en`.
@@ -154,6 +156,12 @@ notes render under `Regarding Artifacts Choices:`, and talent notes render under
   circlet main stats.
 - Use [artifacts-substats.md](./artifacts-substats.md) for substat priority.
 - Use [talents.md](./talents.md) for talent priority.
+
+## Data and i18n Files
+
+Shared gameplay data lives in [`src/data`](../src/data). Use it for reusable
+weapon data and artifact set effects. Do not put build rankings or build notes
+there.
 
 ## i18n Dictionary Files
 

@@ -86,12 +86,12 @@ const substatValue = formatWeaponStatValue(
   {
     info && (
       <span class="weapon-popover-card" role="tooltip">
-        <div class="weapon-popover-header">
+        <span class="weapon-popover-header">
           <span class="weapon-popover-name">{weapon.name}</span>
           <span class="weapon-popover-rarity">
             {info.rarity} {'\u2605'}
           </span>
-        </div>
+        </span>
         <span class="weapon-popover-stat">
           <span>Base ATK</span>
           <strong>{baseAttackValue}</strong>

@@ -6,7 +6,7 @@ Each language has its own folder and each language folder **must contain the sam
 
 ## How It Works
 
-Build files and inline translation tokens store IDs instead of display names. The site looks up that ID in the current language dictionary and displays the translated text.
+Build files and inline translation tokens store IDs instead of display names. The site looks up that ID in the current language dictionary and displays the translated text. Shared weapon and artifact popover details come from `src/data`.
 
 For example, `the-catch` is stored in:
 
@@ -22,8 +22,8 @@ Missing translations will also appear as `[i18n] Missing translation...` warning
 
 Use:
 
-- `weapons.json` for weapon names.
-- `artifact-sets.json` for artifact set names.
+- `weapons.json` for weapon names. Weapon stats and passive data live in `src/data/weapons`.
+- `artifact-sets.json` for artifact set names. Artifact set effects live in `src/data/artifacts/artifact_sets.json`.
 - `characters.json` for character names.
 - `stats.json` for stats and stat-like labels, such as `er`, `atk%`, `em-set`,
   or `atk-set`.

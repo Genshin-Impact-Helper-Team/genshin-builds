@@ -65,7 +65,7 @@ const noteItems = [
             <div>
               {/* Build-level editorial notes are already localized and rendered. */}
               {buildNote.notes.map((note: string) => (
-                <p set:html={note} />
+                <div set:html={note} />
               ))}
             </div>
           )}

@@ -1,7 +1,7 @@
 ---
 import ArtifactSetGroup from './ArtifactSetGroup.astro';
 import { t } from '../utils/i18n';
-const { artifacts, locale } = Astro.props;
+const { artifacts, locale, lang = 'en' } = Astro.props;
 
 type ArtifactSetItem = {
   name: string;
@@ -52,7 +52,11 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
             {rank.groups[0] && (
               <>
                 <span>
-                  <ArtifactSetGroup group={rank.groups[0]} locale={locale} />
+                  <ArtifactSetGroup
+                    group={rank.groups[0]}
+                    locale={locale}
+                    lang={lang}
+                  />
                 </span>
               </>
             )}
@@ -62,7 +66,7 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
             <div class="alt">
               &asymp;{' '}
               <span>
-                <ArtifactSetGroup group={group} locale={locale} />
+                <ArtifactSetGroup group={group} locale={locale} lang={lang} />
               </span>
             </div>
           ))}
@@ -77,7 +81,7 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
 
           {artifacts.sets.conditional.map((group: ArtifactSetGroup) => (
             <div>
-              <ArtifactSetGroup group={group} locale={locale} />
+              <ArtifactSetGroup group={group} locale={locale} lang={lang} />
             </div>
           ))}
         </div>
@@ -218,3 +222,7 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
     }
   </div>
 </div>
+
+<script>
+  import '../scripts/weapon-popover';
+</script>

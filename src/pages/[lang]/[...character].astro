@@ -42,7 +42,11 @@ const {
       >
         <div class="grid">
           <Weapon weapons={build.weapons} locale={locale} lang={currentLang} />
-          <Artifact artifacts={build.artifacts} locale={locale} />
+          <Artifact
+            artifacts={build.artifacts}
+            locale={locale}
+            lang={currentLang}
+          />
           <Talent talents={build.talents} locale={locale} />
         </div>
         <Notes

@@ -55,6 +55,7 @@ genshin-builds/
 |   |   |   |   |   |   |-- talents.json
 |   |   |   |   |   |   |-- build-notes.json
 |   |   |-- site/            FAQ, credits, and changelog content
+|   |-- data/                Shared gameplay data for weapons and artifact sets
 |   |-- i18n/                Translation dictionaries for each language
 |-- README.md                Main contribution guide
 ```
@@ -205,7 +206,7 @@ The website is built on our folder structure: adding a new folder will automatic
 6. Use Markdown and inline translation tokens in notes when possible. This gives a first localized base while waiting for translator to go over the new sections.
 
    The inline translation tokens are usually the english name with a - instead of a space or special character.
-   You can find the translation tokens to use under the [`src/i18n`](./src/i18n) folder
+   You can find the translation tokens to use under the [`src/i18n`](./src/i18n) folder. Shared weapon and artifact popover data lives in [`src/data`](./src/data).
 
    Example:
 
