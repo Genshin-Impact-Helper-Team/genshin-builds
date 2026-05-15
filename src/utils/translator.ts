@@ -182,10 +182,33 @@ export class TranslationHelper {
       return escapeHtml(name);
     }
 
-    const passive = formatWeaponPassive(info, undefined, this.lang)
-      .split(/<br\s*\/?>/i)
-      .map(escapeHtml)
-      .join('<br>');
+    const refinements = [1, 2, 3, 4, 5] as const;
+    const refinementButtons = refinements
+      .map((refinement) =>
+        [
+          '<button class="weapon-popover-refinement-button" type="button" data-refinement="r',
+          refinement,
+          '" aria-selected="',
+          refinement === 1 ? 'true' : 'false',
+          '">R',
+          refinement,
+          '</button>',
+        ].join(''),
+      )
+      .join('');
+    const passivePanels = refinements
+      .map((refinement) =>
+        [
+          '<span class="weapon-popover-passive-refinement" data-refinement-panel="r',
+          refinement,
+          '"',
+          refinement === 1 ? '' : ' hidden',
+          '>',
+          formatWeaponPassive(info, refinement, this.lang),
+          '</span>',
+        ].join(''),
+      )
+      .join('');
     const substatName = info.substat
       ? t(this.locale, 'stat', info.substat, undefined, false)
       : '';
@@ -205,19 +228,23 @@ export class TranslationHelper {
       escapeHtml(name),
       '</button>',
       '<span class="weapon-popover-card" role="tooltip">',
+      '<div class="weapon-popover-header">',
       '<span class="weapon-popover-name">',
       escapeHtml(name),
       '</span>',
       '<span class="weapon-popover-rarity">',
       escapeHtml(info.rarity),
       ' \u2605</span>',
+      '</div>',
       '<span class="weapon-popover-stat"><span>Base ATK</span><strong>',
       escapeHtml(info.level_1?.base_attack),
       '</strong></span>',
       substatRow,
-      '<span class="weapon-popover-refinement">R1/R2/R3/R4/R5</span>',
+      '<span class="weapon-popover-refinement">',
+      refinementButtons,
+      '</span>',
       '<span class="weapon-popover-passive">',
-      passive,
+      passivePanels,
       '</span>',
       '</span>',
       '</span>',

@@ -68,7 +68,15 @@
 }
 
 .notes-card {
+  position: relative;
+  z-index: 40;
   overflow: visible;
+}
+
+.notes-card:has(.weapon-popover:hover),
+.notes-card:has(.weapon-popover:focus-within),
+.notes-card:has(.weapon-popover.is-open) {
+  z-index: 1100;
 }
 
 .weapon-card:hover,
