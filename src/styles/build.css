@@ -50,6 +50,7 @@
   gap: 16px;
   margin-top: 10px;
   overflow: visible;
+  overflow: visible;
 }
 
 .section {
@@ -67,7 +68,15 @@
 }
 
 .notes-card {
+  position: relative;
+  z-index: 40;
   overflow: visible;
+}
+
+.notes-card:has(.weapon-popover:hover),
+.notes-card:has(.weapon-popover:focus-within),
+.notes-card:has(.weapon-popover.is-open) {
+  z-index: 1100;
 }
 
 .weapon-card:hover,
@@ -244,11 +253,6 @@ body.weapon-popover-locked .weapon-popover.is-open .weapon-popover-card {
   display: block;
 }
 
-.weapon-popover-name {
-  color: var(--accent);
-  font-weight: 700;
-}
-
 .weapon-popover-rarity,
 .weapon-popover-refinement {
   margin-top: 2px;
@@ -256,13 +260,18 @@ body.weapon-popover-locked .weapon-popover.is-open .weapon-popover-card {
 }
 
 .weapon-popover-stat {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 8px 0;
-  border-top: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
-  border-bottom: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
-  padding: 6px 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 8px 0;
+}
+
+.weapon-popover-stat:first-of-type {
+	margin-top: 10px;
+}
+
+.weapon-popover-stat + .weapon-popover-stat {
+	border-top: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
 }
 
 .weapon-popover-passive {
@@ -312,4 +321,49 @@ body.weapon-popover-locked .weapon-popover.is-open .weapon-popover-card {
   html {
     scroll-behavior: smooth;
   }
+}
+
+.weapon-popover-refinement {
+	display: flex;
+	gap: 4px;
+	margin-top: 10px;
+}
+
+.weapon-popover-refinement-button {
+	border: 1px solid color-mix(in srgb, var(--element) 55%, var(--text));
+	border-radius: 4px;
+	padding: 2px 6px;
+	background: transparent;
+	color: var(--text);
+	cursor: pointer;
+	font: inherit;
+	font-weight: 700;
+}
+
+.weapon-popover-refinement-button[aria-selected='true'] {
+	background: var(--element);
+	color: var(--bg);
+}
+
+.weapon-popover-passive-value {
+	color: var(--accent-color, var(--element));
+	font-weight: 700;
+}
+
+.weapon-popover-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	width: 100%;
+}
+
+.weapon-popover-name,
+.weapon-popover-rarity {
+	min-width: 0;
+    font-size: 1.1rem;
+	font-weight: 700;
+	line-height: 1.2;
+    color: var(--accent);
+    font-weight: 700;
 }

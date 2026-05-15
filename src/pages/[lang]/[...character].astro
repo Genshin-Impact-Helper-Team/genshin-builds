@@ -41,7 +41,7 @@ const {
         badge={build.isBest ? t(locale, 'ui', 'Best Role') : null}
       >
         <div class="grid">
-          <Weapon weapons={build.weapons} locale={locale} />
+          <Weapon weapons={build.weapons} locale={locale} lang={currentLang} />
           <Artifact artifacts={build.artifacts} locale={locale} />
           <Talent talents={build.talents} locale={locale} />
         </div>

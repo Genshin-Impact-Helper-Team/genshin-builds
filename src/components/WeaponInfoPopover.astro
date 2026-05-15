@@ -1,13 +1,27 @@
 ---
 import { t } from '../utils/i18n';
+import {
+  formatWeaponPassive,
+  type WeaponPassiveText,
+  type WeaponPassiveValue,
+} from '../utils/weapon-passive';
 
 type WeaponInfo = {
   rarity: number;
-  passive?: string;
+  passive?: WeaponPassiveText;
+  r1?: WeaponPassiveValue[];
+  r2?: WeaponPassiveValue[];
+  r3?: WeaponPassiveValue[];
+  r4?: WeaponPassiveValue[];
+  r5?: WeaponPassiveValue[];
   substat?: string;
   level_1?: {
     base_attack?: number;
     substat_value?: string;
+    level_max?: {
+      base_attack?: number;
+      substat_value?: string;
+    };
   };
 };
 
@@ -20,49 +34,95 @@ type Props = {
   };
 };
 
-const { locale, weapon } = Astro.props;
+const { locale, weapon, lang = 'en' } = Astro.props;
 const info = weapon.info;
-const passiveParts = (info?.passive ?? '').split(/<br\s*\/?>/i);
+const refinements = [1, 2, 3, 4, 5] as const;
+
+const passivePartsByRefinement = info
+  ? refinements.map((refinement) => ({
+      refinement,
+      parts: formatWeaponPassive(info, refinement, lang).split(/<br\s*\/?>/i),
+    }))
+  : [];
+
 const substatName = info?.substat
   ? t(locale, 'stat', info.substat, undefined, false)
   : '';
+
+const formatWeaponStatValue = (
+  level1Value?: number | string,
+  levelMaxValue?: number | string,
+) => {
+  if (level1Value === undefined || level1Value === null || level1Value === '') {
+    return '';
+  }
+
+  if (
+    levelMaxValue === undefined ||
+    levelMaxValue === null ||
+    levelMaxValue === ''
+  ) {
+    return String(level1Value);
+  }
+
+  return `${level1Value} / ${levelMaxValue}`;
+};
+
+const baseAttackValue = formatWeaponStatValue(
+  info?.level_1?.base_attack,
+  info?.level_max?.base_attack,
+);
+const substatValue = formatWeaponStatValue(
+  info?.level_1?.substat_value,
+  info?.level_max?.substat_value,
+);
 ---
 
 <span class="weapon-popover">
-  <button
-    class="weapon-popover-trigger"
-    type="button"
-    aria-expanded="false"
-  >
+  <button class="weapon-popover-trigger" type="button" aria-expanded="false">
     {weapon.name}
   </button>
 
   {
     info && (
       <span class="weapon-popover-card" role="tooltip">
-        <span class="weapon-popover-name">{weapon.name}</span>
-        <span class="weapon-popover-rarity">
-          {info.rarity} {"\u2605"}
-        </span>
+        <div class="weapon-popover-header">
+          <span class="weapon-popover-name">{weapon.name}</span>
+          <span class="weapon-popover-rarity">
+            {info.rarity} {'\u2605'}
+          </span>
+        </div>
         <span class="weapon-popover-stat">
           <span>Base ATK</span>
-          <strong>{info.level_1?.base_attack}</strong>
+          <strong>{baseAttackValue}</strong>
         </span>
-        {
-          substatName && (
-            <span class="weapon-popover-stat">
-              <span>{substatName}</span>
-              <strong>{info.level_1?.substat_value}</strong>
-            </span>
-          )
-        }
-        <span class="weapon-popover-refinement">R1/R2/R3/R4/R5</span>
+        {substatName && (
+          <span class="weapon-popover-stat">
+            <span>{substatName}</span>
+            <strong>{substatValue}</strong>
+          </span>
+        )}
+        <span class="weapon-popover-refinement">
+          {refinements.map((refinement) => (
+            <button
+              class="weapon-popover-refinement-button"
+              type="button"
+              data-refinement={`r${refinement}`}
+              aria-selected={refinement === 1 ? 'true' : 'false'}
+            >
+              R{refinement}
+            </button>
+          ))}
+        </span>
+
         <span class="weapon-popover-passive">
-          {passiveParts.map((part, index) => (
-            <>
-              {index > 0 && <br />}
-              {part}
-            </>
+          {passivePartsByRefinement.map(({ refinement, parts }) => (
+            <span
+              class="weapon-popover-passive-refinement"
+              data-refinement-panel={`r${refinement}`}
+              hidden={refinement !== 1}
+              set:html={formatWeaponPassive(info, refinement, lang)}
+            />
           ))}
         </span>
       </span>

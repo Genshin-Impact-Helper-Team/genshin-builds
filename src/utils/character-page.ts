@@ -9,6 +9,7 @@ import { findCharacterPath, loadJSON, toTitleCase } from './content';
 import { getLocale, t } from './i18n';
 import { collectNotes, collectSectionNotes, collectStatNotes } from './notes';
 import { TranslationHelper } from './translator';
+import type { WeaponPassiveText } from './weapon-passive';
 
 type CharacterPathParam = string | string[] | undefined;
 
@@ -86,11 +87,15 @@ function loadAllWeaponData() {
 
 type SharedWeaponData = {
     rarity: number;
-    passive?: string;
+    passive?: WeaponPassiveText;
     substat?: string;
     level_1?: {
         base_attack?: number;
         substat_value?: string;
+    level_max?: {
+        base_attack?: number;
+        substat_value?: string;
+    };
     };
 };
 
@@ -572,7 +577,7 @@ export function getCharacterPageData({
 
     const currentLang = lang ?? 'en';
     const locale = getLocale(currentLang);
-    const translator = new TranslationHelper(locale, loadAllWeaponData());
+    const translator = new TranslationHelper(locale, loadAllWeaponData(), currentLang);
     const characterSlug = character.toLowerCase();
     const slugParts = parsePublicCharacterSlug(characterSlug);
     const contentSlug = slugParts.character;

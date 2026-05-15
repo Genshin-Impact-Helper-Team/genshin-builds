@@ -1,4 +1,9 @@
 import { t } from './i18n';
+import {
+    formatWeaponPassive,
+    type WeaponPassiveText,
+    type WeaponPassiveValue,
+} from './weapon-passive';
 
 type TranslationCategory =
     | 'artifact'
@@ -19,8 +24,17 @@ const CATEGORIES: TranslationCategory[] = [
 
 type SharedWeaponData = {
     rarity: number;
-    passive?: string;
+    passive?: WeaponPassiveText;
+    r1?: WeaponPassiveValue[];
+    r2?: WeaponPassiveValue[];
+    r3?: WeaponPassiveValue[];
+    r4?: WeaponPassiveValue[];
+    r5?: WeaponPassiveValue[];
     substat?: string;
+    level_max?: {
+        base_attack?: number;
+        substat_value?: string;
+    };
     level_1?: {
         base_attack?: number;
         substat_value?: string;
@@ -39,6 +53,26 @@ function escapeHtml(value: unknown) {
         .replace(/"/g, '&quot;')
         .replace(/'/g, '&#39;');
 }
+
+function formatWeaponStatValue(
+    level1Value?: number | string,
+    levelMaxValue?: number | string,
+) {
+    if (level1Value === undefined || level1Value === null || level1Value === '') {
+        return '';
+    }
+
+    if (
+        levelMaxValue === undefined ||
+        levelMaxValue === null ||
+        levelMaxValue === ''
+    ) {
+        return String(level1Value);
+    }
+
+    return `${level1Value} / ${levelMaxValue}`;
+}
+
 
 /**
  * Helper class for translating structured content IDs and inline note references.
@@ -64,6 +98,7 @@ export class TranslationHelper {
     constructor(
         private locale: any,
         private weaponDataById: Record<string, SharedWeaponData> = {},
+        private lang = 'en',
     ) { }
 
     /**
@@ -79,8 +114,7 @@ export class TranslationHelper {
      */
     translate(category: TranslationCategory, id: string, sourceFile?: string) {
         // Check the requested locale directly so fallback translations still warn.
-        const hasLocalizedTranslation =
-            this.locale?.[category]?.[id] !== undefined;
+        const hasLocalizedTranslation = this.locale?.[category]?.[id] !== undefined;
         const translation = t(this.locale, category, id, sourceFile);
 
         if (!hasLocalizedTranslation) {
@@ -172,10 +206,41 @@ export class TranslationHelper {
             return escapeHtml(name);
         }
 
-        const passive = (info.passive ?? '')
-            .split(/<br\s*\/?>/i)
-            .map(escapeHtml)
-            .join('<br>');
+        const baseAttackValue = formatWeaponStatValue(
+            info.level_1?.base_attack,
+            info.level_max?.base_attack,
+        );
+        const substatValue = formatWeaponStatValue(
+            info.level_1?.substat_value,
+            info.level_max?.substat_value,
+        );
+        const refinements = [1, 2, 3, 4, 5] as const;
+        const refinementButtons = refinements
+            .map((refinement) =>
+                [
+                    '<button class="weapon-popover-refinement-button" type="button" data-refinement="r',
+                    refinement,
+                    '" aria-selected="',
+                    refinement === 1 ? 'true' : 'false',
+                    '">R',
+                    refinement,
+                    '</button>',
+                ].join(''),
+            )
+            .join('');
+        const passivePanels = refinements
+            .map((refinement) =>
+                [
+                    '<span class="weapon-popover-passive-refinement" data-refinement-panel="r',
+                    refinement,
+                    '"',
+                    refinement === 1 ? '' : ' hidden',
+                    '>',
+                    formatWeaponPassive(info, refinement, this.lang),
+                    '</span>',
+                ].join(''),
+            )
+            .join('');
         const substatName = info.substat
             ? t(this.locale, 'stat', info.substat, undefined, false)
             : '';
@@ -184,7 +249,7 @@ export class TranslationHelper {
                 '<span class="weapon-popover-stat"><span>',
                 escapeHtml(substatName),
                 '</span><strong>',
-                escapeHtml(info.level_1?.substat_value),
+                escapeHtml(substatValue),
                 '</strong></span>',
             ].join('')
             : '';
@@ -195,19 +260,23 @@ export class TranslationHelper {
             escapeHtml(name),
             '</button>',
             '<span class="weapon-popover-card" role="tooltip">',
+            '<div class="weapon-popover-header">',
             '<span class="weapon-popover-name">',
             escapeHtml(name),
             '</span>',
             '<span class="weapon-popover-rarity">',
             escapeHtml(info.rarity),
             ' \u2605</span>',
+            '</div>',
             '<span class="weapon-popover-stat"><span>Base ATK</span><strong>',
-            escapeHtml(info.level_1?.base_attack),
+            escapeHtml(baseAttackValue),
             '</strong></span>',
             substatRow,
-            '<span class="weapon-popover-refinement">R1/R2/R3/R4/R5</span>',
+            '<span class="weapon-popover-refinement">',
+            refinementButtons,
+            '</span>',
             '<span class="weapon-popover-passive">',
-            passive,
+            passivePanels,
             '</span>',
             '</span>',
             '</span>',
