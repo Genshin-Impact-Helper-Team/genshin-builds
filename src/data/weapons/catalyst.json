@@ -1,155 +1,461 @@
 {
   "amber-bead": {
-    "rarity": 3
+    "rarity": 3,
+    "passive": "Normal Attack hits increase all Elemental DMG by 6%/7.5%/9%/10.5%/12% for 6s. Max 2 stacks.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 39,
+      "substat_value": "31"
+    }
   },
   "apprentices-notes": {
-    "rarity": 1
+    "rarity": 1,
+    "passive": "",
+    "substat": "",
+    "level_1": {
+      "base_attack": 23,
+      "substat_value": "0.0%"
+    }
   },
   "ash-graven-drinking-horn": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "When an attack hits an opponent, deal AoE DMG equal to 40%/50%/60%/70%/80% of Max HP at the target location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every 15s.",
+    "substat": "HP%",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "9.0%"
+    }
   },
   "a-thousand-floating-dreams": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by 32/40/48/56/64. If not, increase the equipping character\u0027s DMG Bonus from their Elemental Type by 10%/14%/18%/22%/26%. Each of the aforementioned effects can have up to /. The aforementioned effects can have /. The aforementioned effects can have /. The aforementioned effects can have /. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by 40/42/44/46/48. Multiple such effects from multiple such weapons can stack.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "58"
+    }
   },
   "ballad-of-the-boundless-blue": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 8%/10%/12%/14%/16% and Charged Attack DMG will be increased by 6%/7.5%/9%/10.5%/12%. Max 3 stacks. This effect can be triggered once every 0.3s.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "6.7%"
+    }
   },
   "blackcliff-agate": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "After defeating an enemy, ATK is increased by 12%/15%/18%/21%/24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "12.0%"
+    }
   },
   "blackmarrow-lantern": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Bloom DMG is increased by 48%/60%/72%/84%/96%, and Lunar-Bloom DMG is increased by 12%/15%/18%/21%/24%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%/15%/18%/21%/24%.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 41,
+      "substat_value": "48"
+    }
   },
   "cashflow-supervision": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "ATK is increased by 16%/20%/24%/28%/32%. When current HP increases or decreases, Normal Attack DMG will be increased by 16%/20%/24%/28%/32% and Charged Attack DMG will be increased by 14%/17.5%/21%/24.5%/28% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by 8%/10%/12%/14%/16%.",
+    "substat": "cr",
+    "level_1": {
+      "base_attack": 48,
+      "substat_value": "4.8%"
+    }
   },
   "cranes-echoing-call": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members\u0027 Plunging Attacks will deal 28%/41%/54%/67%/80% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.5/2.75/3/3.25/3.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 49,
+      "substat_value": "3.6%"
+    }
   },
   "dawning-frost": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72/90/108/126/144. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 48/60/72/84/96.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "12.0%"
+    }
   },
   "dodoco-tales": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Normal Attack hits on opponents increase Charged Attack DMG by 16%/20%/24%/28%/32% for 6s. Charged Attack hits on opponents increase ATK by 8%/10%/12%/14%/16% for 6s.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 41,
+      "substat_value": "12.0%"
+    }
   },
   "emerald-orb": {
-    "rarity": 3
+    "rarity": 3,
+    "passive": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20%/25%/30%/35%/40% for 12s.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 40,
+      "substat_value": "20"
+    }
   },
   "etherlight-spindlelute": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "For 20s after using an Elemental Skill, the equipping character\u0027s Elemental Mastery is increased by 100/125/150/175/200.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "10.0%"
+    }
   },
   "everlasting-moonglow": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Healing Bonus increased by 10%/12.5%/15%/17.5%/20%, Normal Attack DMG is increased by 1%/1.5%/2%/2.5%/3% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
+    "substat": "HP%",
+    "level_1": {
+      "base_attack": 46,
+      "substat_value": "10.8%"
+    }
   },
   "eye-of-perception": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240%/270%/300%/330%/360% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 12s/11s/10s/9s/8s.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 41,
+      "substat_value": "12.0%"
+    }
   },
   "favonius-codex": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "CRIT Hits have a 60%/70%/80%/90%/100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s/10.5s/9s/7.5s/6s.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "10.0%"
+    }
   },
   "flowing-purity": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by 8%/10%/12%/14%/16% for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide 2%/2.5%/3%/3.5%/4% All Elemental DMG Bonus, up to a maximum of 12%/15%/18%/21%/24%. This effect lasts 15s.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "6.0%"
+    }
   },
   "frostbearer": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Hitting an opponent with Normal and Charged Attacks has a /Hitting an opponent with Normal and Charged Attacks has a /Hitting an opponent with Normal and Charged Attacks has an /Hitting an opponent with Normal and Charged Attacks has a /Hitting an opponent with Normal and Charged Attacks has a 60%/70%/80%/90%/100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80%/95%/110%/125%/140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200%/240%/280%/320%/360% of ATK. Can only occur once every 10s.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "9.0%"
+    }
   },
   "fruit-of-fulfillment": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 24/27/30/33/36 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "10.0%"
+    }
   },
   "hakushin-ring": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a 10%/12.5%/15%/17.5%/20% Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "6.7%"
+    }
   },
   "jadefalls-splendor": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5/5/5.5/6/6.5 Energy every 2.5s, and gain 0.3%/0.5%/0.7%/0.9%/1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12%/20%/28%/36%/44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
+    "substat": "HP%",
+    "level_1": {
+      "base_attack": 46,
+      "substat_value": "10.8%"
+    }
   },
   "kaguras-verity": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 12%/15%/18%/21%/24% for 16s. Max 3 stacks. This character will gain 12%/15%/18%/21%/24% All Elemental DMG Bonus when they possess 3 stacks.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 46,
+      "substat_value": "14.4%"
+    }
   },
   "lost-prayer-to-the-sacred-winds": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Increases Movement SPD by 10%. When in battle, gain an /. When in battle, earn a /. When in battle, gain a /. When in battle, gain a /. When in battle, gain a 8%/10%/12%/14%/16% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+    "substat": "cr",
+    "level_1": {
+      "base_attack": 46,
+      "substat_value": "7.2%"
+    }
   },
   "magic-guide": {
-    "rarity": 3
+    "rarity": 3,
+    "passive": "Increases DMG against opponents affected by Hydro or Electro by 12%/15%/18%/21%/24%.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 38,
+      "substat_value": "41"
+    }
   },
   "mappa-mare": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Triggering an Elemental reaction grants a 8%/10%/12%/14%/16% Elemental DMG Bonus for 10s. Max 2 stacks.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "24"
+    }
   },
   "memory-of-dust": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Increases Shield Strength by 20%/25%/30%/35%/40%. Scoring hits on opponents increases ATK by 4%/5%/6%/7%/8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 46,
+      "substat_value": "10.8%"
+    }
   },
   "nightweavers-looking-glass": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "When the equipping character\u0027s Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by 60/75/90/105/120 for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by 60/75/90/105/120 for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members\u0027 Bloom DMG is increased by 120%/150%/180%/210%/240%, their Hyperbloom and Burgeon DMG is increased by 80%/100%/120%/140%/160%, and their Lunar-Bloom DMG is increased by 40%/50%/60%/70%/80%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "58"
+    }
   },
   "nocturnes-curtain-call": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Max HP increases by 10%/12%/14%/16%/18%. When triggering Lunar reactions or inflicting Lunar Reaction DMG on opponents, the equipping character will recover /. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover /. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover /. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover /. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover 14/15/16/17/18 Energy, and receive the Bountiful Sea\u0027s Sacred Wine effect for 12s: Max HP increases by an additional 14%/16%/18%/20%/22%, CRIT DMG from Lunar Reaction DMG increases by 60%/80%/100%/120%/140%. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "19.2%"
+    }
   },
   "oathsworn-eye": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Increases Energy Recharge by 24%/30%/36%/42%/48% for 10s after using an Elemental Skill.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "6.0%"
+    }
   },
   "otherworldly-story": {
-    "rarity": 3
+    "rarity": 3,
+    "passive": "Picking up an Elemental Energy Orb/Particle recovers /Each Elemental Orb or Particle collected restores /Each Elemental Orb or Particle collected restores /Each Elemental Orb or Particle collected restores /Each Elemental Orb or Particle collected restores 1%/1.25%/1.5%/1.75%/2% HP.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 39,
+      "substat_value": "8.5%"
+    }
   },
   "pocket-grimoire": {
-    "rarity": 2
+    "rarity": 2,
+    "passive": "",
+    "substat": "",
+    "level_1": {
+      "base_attack": 33,
+      "substat_value": "0.0%"
+    }
   },
   "prototype-amber": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Using an Elemental Burst regenerates 4/4.5/5/5.5/6 Energy every 2s for 6s. All party members will regenerate 4%/4.5%/5%/5.5%/6% HP every 2s for this duration.",
+    "substat": "HP%",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "9.0%"
+    }
   },
   "reliquary-of-truth": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "CRIT Rate is increased by 8%/10%/12%/14%/16%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 80/100/120/140/160 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 24%/30%/36%/42%/48% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "19.2%"
+    }
   },
   "ring-of-yaxche": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by 0.6%/0.7%/0.8%/0.9%/1% for 10s. Normal Attack DMG can be increased this way by a maximum of 16%/20%/24%/28%/32%.",
+    "substat": "HP%",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "9.0%"
+    }
   },
   "royal-grimoire": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "6.0%"
+    }
   },
   "sacrificial-fragments": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 41,
+      "substat_value": "48"
+    }
   },
   "sacrificial-jade": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "When not on the field for more than 5s, Max HP will be increased by 32%/40%/48%/56%/64% and Elemental Mastery will be increased by 40/50/60/70/80. These effects will be canceled after the wielder has been on the field for 10s.",
+    "substat": "cr",
+    "level_1": {
+      "base_attack": 41,
+      "substat_value": "8.0%"
+    }
   },
   "skyward-atlas": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Increases Elemental DMG Bonus by 12%/15%/18%/21%/24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160%/200%/240%/280%/320% ATK DMG. Can only occur once every 30s.",
+    "substat": "ATK%",
+    "level_1": {
+      "base_attack": 48,
+      "substat_value": "7.2%"
+    }
   },
   "solar-pearl": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by 20%/25%/30%/35%/40% for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by 20%/25%/30%/35%/40% for 6s.",
+    "substat": "cr",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "6.0%"
+    }
   },
   "starcallers-watch": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Increases Elemental Mastery by 100/125/150/175/200. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 28%/35%/42%/49%/56% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "58"
+    }
   },
   "sunny-morning-sleep-in": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Elemental Mastery increases by 120/150/180/210/240 for 6s after triggering Swirl. Elemental Mastery increases by 96/120/144/168/192 for 9s after the wielder\u0027s Elemental Skill hits an opponent. Elemental Mastery increases by 32/40/48/56/64 for 30s after the wielder\u0027s Elemental Burst hits an opponent.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "58"
+    }
   },
   "surfs-up": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Max HP increased by 20%/25%/30%/35%/40%. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by 12%/15%/18%/21%/24%. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "19.2%"
+    }
   },
   "the-widsith": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by 60%/75%/90%/105%/120%. Aria: Increases all Elemental DMG by 48%/60%/72%/84%/96%. Interlude: Elemental Mastery is increased by 240/300/360/420/480.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "12.0%"
+    }
   },
   "thrilling-tales-of-dragon-slayers": {
-    "rarity": 3
+    "rarity": 3,
+    "passive": "When switching characters, the new character taking the field has their ATK increased by 24%/30%/36%/42%/48% for 10s. This effect can only occur once every 20s.",
+    "substat": "HP%",
+    "level_1": {
+      "base_attack": 39,
+      "substat_value": "7.7%"
+    }
   },
   "tome-of-the-eternal-flow": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "HP is increased by 16%/20%/24%/28%/32%. When current HP increases or decreases, Charged Attack DMG will be increased by 14%/18%/22%/26%/30% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack\u0027s duration refreshes, 8/9/10/11/12 Energy will be restored. This Energy restoration effect can be triggered once every 12s.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "19.2%"
+    }
   },
   "tulaytullahs-remembrance": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "Normal Attack SPD is increased by 10%/12.5%/15%/17.5%/20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8%/6%/7.2%/8.4%/9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%/12%/14.4%/16.8%/19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%/60%/72%/84%/96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 48,
+      "substat_value": "9.6%"
+    }
   },
   "twin-nephrite": {
-    "rarity": 3
+    "rarity": 3,
+    "passive": "Defeating an opponent increases Movement SPD and ATK by 12%/14%/16%/18%/20% for 15s.",
+    "substat": "cr",
+    "level_1": {
+      "base_attack": 40,
+      "substat_value": "3.4%"
+    }
   },
   "vivid-notions": {
-    "rarity": 5
+    "rarity": 5,
+    "passive": "ATK is increased by 28%/35%/42%/49%/56%. When you use a Plunging Attack, you will gain the \"Dawn\u0027s First Hue\" effect: Plunging Attack CRIT DMG is increased by 28%/35%/42%/49%/56%. When you use an Elemental Skill or Burst, you will gain the \"Twilight\u0027s Splendor\" effect: Plunging Attack CRIT DMG is increased by 40%/50%/60%/70%/80%. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
+    "substat": "cd",
+    "level_1": {
+      "base_attack": 48,
+      "substat_value": "9.6%"
+    }
   },
   "wandering-evenstar": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "The following effect will trigger every 10s: The equipping character will gain 24%/30%/36%/42%/48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+    "substat": "EM",
+    "level_1": {
+      "base_attack": 42,
+      "substat_value": "36"
+    }
   },
   "waveriding-whirl": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 20%/25%/30%/35%/40%. For every Hydro Elemental Type character in the party, Max HP is increased by another 12%/15%/18%/21%/24%, and the maximum increase that can be achieved in this way is 24%/30%/36%/42%/48%. Can be triggered once every 15s.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 41,
+      "substat_value": "13.3%"
+    }
   },
   "wine-and-song": {
-    "rarity": 4
+    "rarity": 4,
+    "passive": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by 14%/16%/18%/20%/22% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by 20%/25%/30%/35%/40% for 5s.",
+    "substat": "er",
+    "level_1": {
+      "base_attack": 44,
+      "substat_value": "6.7%"
+    }
   }
 }
