@@ -1,10 +1,20 @@
 ---
+import WeaponInfoPopover from './WeaponInfoPopover.astro';
 import { t } from '../utils/i18n';
 const { weapons, locale } = Astro.props;
 
 type WeaponItem = {
   name: string;
   rarity: number;
+  info?: {
+    rarity: number;
+    passive?: string;
+    substat?: string;
+    level_1?: {
+      base_attack?: number;
+      substat_value?: string;
+    };
+  };
   refinement?: number | string;
   note?: string;
   noteId?: string;
@@ -20,7 +30,7 @@ const formatRefinement = (refinement?: number | string) =>
   refinement ? ` [R${refinement}]` : '';
 ---
 
-<div class="card">
+<div class="card weapon-card">
   <h2>{t(locale, 'ui', 'Weapons')}</h2>
 
   {
@@ -33,7 +43,7 @@ const formatRefinement = (refinement?: number | string) =>
           <strong>{i + 1}.</strong>&nbsp;
           {position.items[0] && (
             <span>
-              {position.items[0].name}&nbsp;
+              <WeaponInfoPopover weapon={position.items[0]} locale={locale} />&nbsp;
               <span class="bold">
                 ({position.items[0].rarity} {"\u2605"})
                 {formatRefinement(position.items[0].refinement)}
@@ -53,7 +63,7 @@ const formatRefinement = (refinement?: number | string) =>
 
         {position.items.slice(1).map((weapon) => (
           <div class="alt">
-            &asymp; {weapon.name}&nbsp;
+            &asymp; <WeaponInfoPopover weapon={weapon} locale={locale} />&nbsp;
             <span class="bold">
               ({weapon.rarity} {"\u2605"})
               {formatRefinement(weapon.refinement)}
@@ -81,7 +91,7 @@ const formatRefinement = (refinement?: number | string) =>
 
         {weapons.conditional.map((weapon: WeaponItem) => (
           <div>
-            {weapon.name}&nbsp;
+            <WeaponInfoPopover weapon={weapon} locale={locale} />&nbsp;
             <span class="bold">
               ({weapon.rarity} {"\u2605"})
               {formatRefinement(weapon.refinement)}
@@ -101,3 +111,7 @@ const formatRefinement = (refinement?: number | string) =>
     )
   }
 </div>
+
+<script>
+  import '../scripts/weapon-popover';
+</script>

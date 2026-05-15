@@ -1,434 +1,434 @@
 {
-  "alley-hunter": {
-    "rarity": 4,
-    "passive": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2%/2.5%/3%/3.5%/4% every second up to a max of 20%/25%/30%/35%/40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4%/5%/6%/7%/8% per second until it reaches 0%.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
+    "alley-hunter": {
+        "rarity": 4,
+        "passive": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2%/2.5%/3%/3.5%/4% every second up to a max of 20%/25%/30%/35%/40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4%/5%/6%/7%/8% per second until it reaches 0%.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        }
+    },
+    "amos-bow": {
+        "rarity": 5,
+        "passive": "Increases Normal and Charged Attack DMG by 12%/15%/18%/21%/24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8%/10%/12%/14%/16% every 0.1s the arrow is in the air for up to 5 times.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "10.8%"
+        }
+    },
+    "aqua-simulacra": {
+        "rarity": 5,
+        "passive": "HP is increased by 16%/20%/24%/28%/32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%/25%/30%/35%/40%. This will take effect whether the character is on-field or not.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "19.2%"
+        }
+    },
+    "astral-vultures-crimson-plumage": {
+        "rarity": 5,
+        "passive": "For 12s after triggering a Swirl reaction, ATK increases by 24%/30%/36%/42%/48%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character\u0027s Charged Attacks is increased by (20/25/30/35/40)% / (48/60/72/84/96)% and Elemental Burst DMG dealt is increased by (10/12.5/15/17.5/20)% / (24/30/36/42/48)%.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "14.4%"
+        }
+    },
+    "blackcliff-warbow": {
+        "rarity": 4,
+        "passive": "After defeating an enemy, ATK is increased by 12%/15%/18%/21%/24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "8.0%"
+        }
+    },
+    "chain-breaker": {
+        "rarity": 4,
+        "passive": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8%/6%/7.2%/8.4%/9.6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24/30/36/42/48 Elemental Mastery.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        }
+    },
+    "cloudforged": {
+        "rarity": 4,
+        "passive": "After Elemental Energy is decreased, the equipping character\u0027s Elemental Mastery will increase by 40/50/60/70/80 for 18s. Max 2 stacks.",
+        "substat": "em",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "36"
+        }
+    },
+    "compound-bow": {
+        "rarity": 4,
+        "passive": "Normal Attack and Charged Attack hits increase ATK by 4%/5%/6%/7%/8% and Normal ATK SPD by 1.2%/1.5%/1.8%/2.1%/2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+        "substat": "physical-dmg",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "15.0%"
+        }
+    },
+    "ebony-bow": {
+        "rarity": 3,
+        "passive": "Increases DMG against mechanoid Ruin opponents by 40%/50%/60%/70%/80%.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 39,
+            "substat_value": "7.7%"
+        }
+    },
+    "elegy-for-the-end": {
+        "rarity": 5,
+        "passive": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 60/75/90/105/120. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100/125/150/175/200 and increases ATK by 20%/25%/30%/35%/40%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "12.0%"
+        }
+    },
+    "end-of-the-line": {
+        "rarity": 4,
+        "passive": "Triggers the Flowrider effect after using an Elemental Skill, dealing 80%/100%/120%/140%/160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "10.0%"
+        }
+    },
+    "fading-twilight": {
+        "rarity": 4,
+        "passive": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by (6/10/14)% / (7.5/12.5/17.5)% / (9/15/21)% / (10.5/17.5/24.5)% / (12/20/28)% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.7%"
+        }
+    },
+    "favonius-warbow": {
+        "rarity": 4,
+        "passive": "CRIT Hits have a 60%/70%/80%/90%/100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s/10.5s/9s/7.5s/6s.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "13.3%"
+        }
+    },
+    "flower-wreathed-feathers": {
+        "rarity": 4,
+        "passive": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 6%/7.5%/9%/10.5%/12% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "golden-frostbound-oath": {
+        "rarity": 5,
+        "passive": "Increase DEF by 16%/20%/24%/28%/32%. When the equipping character\u0027s Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae\u0027s Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 40%/50%/60%/70%/80%, Lunar-Crystallize Reaction DMG increases by 40%/50%/60%/70%/80%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae\u0027s Mischief effect: Geo DMG dealt increases by 20%/25%/30%/35%/40% and Lunar-Crystallize Reaction DMG increases by 20%/25%/30%/35%/40%. This effect can be triggered even when the equipping character is off-field.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "19.2%"
+        }
+    },
+    "hamayumi": {
+        "rarity": 4,
+        "passive": "Increases Normal Attack DMG by 16%/20%/24%/28%/32% and Charged Attack DMG by 12%/15%/18%/21%/24%. When the equipping character\u0027s Energy reaches 100%, this effect is increased by 100%.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "12.0%"
+        }
+    },
+    "hunters-bow": {
+        "rarity": 1,
+        "passive": "",
+        "substat": "",
+        "level_1": {
+            "base_attack": 23,
+            "substat_value": "0.0%"
+        }
+    },
+    "hunters-path": {
+        "rarity": 5,
+        "passive": "Gain 12%/15%/18%/21%/24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160%/200%/240%/280%/320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "9.6%"
+        }
+    },
+    "ibis-piercer": {
+        "rarity": 4,
+        "passive": "The character\u0027s Elemental Mastery will increase by 40/50/60/70/80 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        }
+    },
+    "kings-squire": {
+        "rarity": 4,
+        "passive": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60/80/100/120/140 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100%/120%/140%/160%/180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "12.0%"
+        }
+    },
+    "messenger": {
+        "rarity": 3,
+        "passive": "Charged Attack hits on weak points deal an additional 100%/125%/150%/175%/200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 40,
+            "substat_value": "6.8%"
+        }
+    },
+    "mitternachts-waltz": {
+        "rarity": 4,
+        "passive": "Normal Attack hits on opponents increase Elemental Skill DMG by 20%/25%/30%/35%/40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20%/25%/30%/35%/40% for 5s.",
+        "substat": "physical-dmg",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "11.3%"
+        }
+    },
+    "mouuns-moon": {
+        "rarity": 4,
+        "passive": "For every point of the entire party\u0027s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%/0.15%/0.18%/0.21%/0.24%. A maximum of 40%/50%/60%/70%/80% increased Elemental Burst DMG can be achieved this way.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        }
+    },
+    "polar-star": {
+        "rarity": 5,
+        "passive": "Elemental Skill and Elemental Burst DMG increased by 12%/15%/18%/21%/24%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by (10/20/30/48)% / (12.5/25/37.5/60)% / (15/30/45/72)% / (17.5/35/52.5/84)% / (20/40/60/96)% . The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "7.2%"
+        }
+    },
+    "predator": {
+        "rarity": 4,
+        "passive": "Effective only on the following platform: \u003cbr\u003e\"PlayStationâ„¢Network\"\u003cbr\u003eDealing Cryo DMG to opponents increases this character\u0027s Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "prototype-crescent": {
+        "rarity": 4,
+        "passive": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36%/45%/54%/63%/72% for 10s.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "rainbow-serpents-rain-bow": {
+        "rarity": 4,
+        "passive": "ATK is increased by 28%/35%/42%/49%/56% for 8s after the equipping character\u0027s attacks hit an opponent while the equipping character is off-field.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "10.0%"
+        }
+    },
+    "range-gauge": {
+        "rarity": 4,
+        "passive": "When the wielder is healed or heals others, they will gain a Unity\u0027s Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3%/4%/5%/6%/7% ATK and 7%/8.5%/10%/11.5%/13% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        }
+    },
+    "raven-bow": {
+        "rarity": 3,
+        "passive": "Increases DMG against opponents affected by Hydro or Pyro by 12%/15%/18%/21%/24%.",
+        "substat": "em",
+        "level_1": {
+            "base_attack": 40,
+            "substat_value": "20"
+        }
+    },
+    "recurve-bow": {
+        "rarity": 3,
+        "passive": "Defeating an opponent restores 8%/10%/12%/14%/16% HP.",
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 38,
+            "substat_value": "10.2%"
+        }
+    },
+    "royal-bow": {
+        "rarity": 4,
+        "passive": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "rust": {
+        "rarity": 4,
+        "passive": "Increases Normal Attack DMG by 40%/50%/60%/70%/80% but decreases Charged Attack DMG by 10%.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "sacrificial-bow": {
+        "rarity": 4,
+        "passive": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.7%"
+        }
+    },
+    "scion-of-the-blazing-sun": {
+        "rarity": 4,
+        "passive": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 60%/75%/90%/105%/120% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 28%/35%/42%/49%/56% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "4.0%"
+        }
+    },
+    "seasoned-hunters-bow": {
+        "rarity": 2,
+        "passive": "",
+        "substat": "",
+        "level_1": {
+            "base_attack": 33,
+            "substat_value": "0.0%"
+        }
+    },
+    "sequence-of-solitude": {
+        "rarity": 4,
+        "passive": "When an attack hits an opponent, deal AoE DMG equal to 40%/50%/60%/70%/80% of Max HP at the target location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every 15s.",
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "sharpshooters-oath": {
+        "rarity": 3,
+        "passive": "Increases DMG against weak spots by 24%/30%/36%/42%/48%.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 39,
+            "substat_value": "10.2%"
+        }
+    },
+    "silvershower-heartstrings": {
+        "rarity": 5,
+        "passive": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by (12/24/40)% / (15/30/50)% / (18/36/60)% / (21/42/70)% / (24/48/80)%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack\u0027s duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28%/35%/42%/49%/56%. This effect will be canceled 4s after falling under 3 stacks.",
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "14.4%"
+        }
+    },
+    "skyward-harp": {
+        "rarity": 5,
+        "passive": "Increases CRIT DMG by 20%/25%/30%/35%/40%. Hits have a 60%/70%/80%/90%/100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s/3.5s/3s/2.5s/2s.",
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 48,
+            "substat_value": "4.8%"
+        }
+    },
+    "slingshot": {
+        "rarity": 3,
+        "passive": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%/42%/48%/54%/60%. Otherwise, decreases DMG by 10%.",
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 38,
+            "substat_value": "6.8%"
+        }
+    },
+    "snare-hook": {
+        "rarity": 4,
+        "passive": "Upon causing an Elemental Reaction, increases Elemental Mastery by 60/75/90/105/120 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60/75/90/105/120. This effect can be triggered even if the equipping character is off-field.",
+        "substat": "er",
+        "level_1": {
+            "base_attack": 41,
+            "substat_value": "13.3%"
+        }
+    },
+    "song-of-stillness": {
+        "rarity": 4,
+        "passive": "After the wielder is healed, they will deal 16%/20%/24%/28%/32% more DMG for 8s. This can be triggered even when the character is not on the field.",
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        }
+    },
+    "the-daybreak-chronicles": {
+        "rarity": 5,
+        "passive": "The equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by 60%/75%/90%/105%/120%. While in combat, this DMG Bonus will decrease by 10%/12.5%/15%/17.5%/20% per second until it reaches 0%. When the equipping character\u0027s Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by 10%/12.5%/15%/17.5%/20% until it reaches 60%/75%/90%/105%/120%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.\u003cbr\u003eAdditionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character\u0027s Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by 20%/25%/30%/35%/40% instead.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 48,
+            "substat_value": "9.6%"
+        }
+    },
+    "the-first-great-magic": {
+        "rarity": 5,
+        "passive": "DMG dealt by Charged Attacks increased by 16%/20%/24%/28%/32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by (16/32/48)% / (20/40/60)% / (24/48/72)% / (28/56/84)% / (32/64/96)%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by (4/7/10)% / (6/9/12)% / (8/11/14)% / (10/13/16)% / (12/15/18)%.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "14.4%"
+        }
+    },
+    "the-stringless": {
+        "rarity": 4,
+        "passive": "Increases Elemental Skill and Elemental Burst DMG by 24%/30%/36%/42%/48%.",
+        "substat": "em",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "36"
+        }
+    },
+    "the-viridescent-hunt": {
+        "rarity": 4,
+        "passive": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40%/50%/60%/70%/80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s/13s/12s/11s/10s.",
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "6.0%"
+        }
+    },
+    "thundering-pulse": {
+        "rarity": 5,
+        "passive": "Increases ATK by 20%/25%/30%/35%/40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by (12/24/40)% / (15/30/50)% / (18/36/60)% / (21/42/70)% / (24/48/80)%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack\u0027s duration is calculated independently.",
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 46,
+            "substat_value": "14.4%"
+        }
+    },
+    "windblume-ode": {
+        "rarity": 4,
+        "passive": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16%/20%/24%/28%/32% for 6s.",
+        "substat": "em",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "36"
+        }
     }
-  },
-  "amos-bow": {
-    "rarity": 5,
-    "passive": "Increases Normal and Charged Attack DMG by 12%/15%/18%/21%/24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8%/10%/12%/14%/16% every 0.1s the arrow is in the air for up to 5 times.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "10.8%"
-    }
-  },
-  "aqua-simulacra": {
-    "rarity": 5,
-    "passive": "HP is increased by 16%/20%/24%/28%/32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%/25%/30%/35%/40%. This will take effect whether the character is on-field or not.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "19.2%"
-    }
-  },
-  "astral-vultures-crimson-plumage": {
-    "rarity": 5,
-    "passive": "For 12s after triggering a Swirl reaction, ATK increases by 24%/30%/36%/42%/48%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character\u0027s Charged Attacks is increased by 20%/25%/30%/35%/40%/48%/60%/72%/84%/96% and Elemental Burst DMG dealt is increased by 10%/12.5%/15%/17.5%/20%/24%/30%/36%/42%/48%.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "14.4%"
-    }
-  },
-  "blackcliff-warbow": {
-    "rarity": 4,
-    "passive": "After defeating an enemy, ATK is increased by 12%/15%/18%/21%/24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "8.0%"
-    }
-  },
-  "chain-breaker": {
-    "rarity": 4,
-    "passive": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8%/6%/7.2%/8.4%/9.6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24/30/36/42/48 Elemental Mastery.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    }
-  },
-  "cloudforged": {
-    "rarity": 4,
-    "passive": "After Elemental Energy is decreased, the equipping character\u0027s Elemental Mastery will increase by 40/50/60/70/80 for 18s. Max 2 stacks.",
-    "substat": "EM",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "36"
-    }
-  },
-  "compound-bow": {
-    "rarity": 4,
-    "passive": "Normal Attack and Charged Attack hits increase ATK by 4%/5%/6%/7%/8% and Normal ATK SPD by 1.2%/1.5%/1.8%/2.1%/2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
-    "substat": "PHYSICAL DMG%",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "15.0%"
-    }
-  },
-  "ebony-bow": {
-    "rarity": 3,
-    "passive": "Increases DMG against mechanoid Ruin opponents by 40%/50%/60%/70%/80%.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 39,
-      "substat_value": "7.7%"
-    }
-  },
-  "elegy-for-the-end": {
-    "rarity": 5,
-    "passive": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 60/75/90/105/120. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100/125/150/175/200 and increases ATK by 20%/25%/30%/35%/40%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "12.0%"
-    }
-  },
-  "end-of-the-line": {
-    "rarity": 4,
-    "passive": "Triggers the Flowrider effect after using an Elemental Skill, dealing 80%/100%/120%/140%/160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "10.0%"
-    }
-  },
-  "fading-twilight": {
-    "rarity": 4,
-    "passive": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6%/7.5%/9%/10.5%/12%/10%/12.5%/15%/17.5%/20%/14%/17.5%/21%/24.5%/28% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.7%"
-    }
-  },
-  "favonius-warbow": {
-    "rarity": 4,
-    "passive": "CRIT Hits have a 60%/70%/80%/90%/100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s/10.5s/9s/7.5s/6s.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "13.3%"
-    }
-  },
-  "flower-wreathed-feathers": {
-    "rarity": 4,
-    "passive": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 6%/7.5%/9%/10.5%/12% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "golden-frostbound-oath": {
-    "rarity": 5,
-    "passive": "Increase DEF by 16%/20%/24%/28%/32%. When the equipping character\u0027s Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae\u0027s Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 40%/50%/60%/70%/80%, Lunar-Crystallize Reaction DMG increases by 40%/50%/60%/70%/80%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae\u0027s Mischief effect: Geo DMG dealt increases by 20%/25%/30%/35%/40% and Lunar-Crystallize Reaction DMG increases by 20%/25%/30%/35%/40%. This effect can be triggered even when the equipping character is off-field.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "19.2%"
-    }
-  },
-  "hamayumi": {
-    "rarity": 4,
-    "passive": "Increases Normal Attack DMG by 16%/20%/24%/28%/32% and Charged Attack DMG by 12%/15%/18%/21%/24%. When the equipping character\u0027s Energy reaches 100%, this effect is increased by 100%.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "12.0%"
-    }
-  },
-  "hunters-bow": {
-    "rarity": 1,
-    "passive": "",
-    "substat": "",
-    "level_1": {
-      "base_attack": 23,
-      "substat_value": "0.0%"
-    }
-  },
-  "hunters-path": {
-    "rarity": 5,
-    "passive": "Gain 12%/15%/18%/21%/24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160%/200%/240%/280%/320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "9.6%"
-    }
-  },
-  "ibis-piercer": {
-    "rarity": 4,
-    "passive": "The character\u0027s Elemental Mastery will increase by 40/50/60/70/80 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    }
-  },
-  "kings-squire": {
-    "rarity": 4,
-    "passive": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60/80/100/120/140 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100%/120%/140%/160%/180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "12.0%"
-    }
-  },
-  "messenger": {
-    "rarity": 3,
-    "passive": "Charged Attack hits on weak points deal an additional 100%/125%/150%/175%/200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 40,
-      "substat_value": "6.8%"
-    }
-  },
-  "mitternachts-waltz": {
-    "rarity": 4,
-    "passive": "Normal Attack hits on opponents increase Elemental Skill DMG by 20%/25%/30%/35%/40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20%/25%/30%/35%/40% for 5s.",
-    "substat": "PHYSICAL DMG%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "11.3%"
-    }
-  },
-  "mouuns-moon": {
-    "rarity": 4,
-    "passive": "For every point of the entire party\u0027s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%/0.15%/0.18%/0.21%/0.24%. A maximum of 40%/50%/60%/70%/80% increased Elemental Burst DMG can be achieved this way.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    }
-  },
-  "polar-star": {
-    "rarity": 5,
-    "passive": "Elemental Skill and Elemental Burst DMG increased by 12%/15%/18%/21%/24%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/12.5/15/17.5/20/20/25/30/35/40/30/37.5/45/52.5/60/48%/60%/72%/84%/96%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "7.2%"
-    }
-  },
-  "predator": {
-    "rarity": 4,
-    "passive": "Effective only on the following platform: \u003cbr\u003e\"PlayStation™Network\"\u003cbr\u003eDealing Cryo DMG to opponents increases this character\u0027s Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "prototype-crescent": {
-    "rarity": 4,
-    "passive": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36%/45%/54%/63%/72% for 10s.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "rainbow-serpents-rain-bow": {
-    "rarity": 4,
-    "passive": "ATK is increased by 28%/35%/42%/49%/56% for 8s after the equipping character\u0027s attacks hit an opponent while the equipping character is off-field.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "10.0%"
-    }
-  },
-  "range-gauge": {
-    "rarity": 4,
-    "passive": "When the wielder is healed or heals others, they will gain a Unity\u0027s Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3%/4%/5%/6%/7% ATK and 7%/8.5%/10%/11.5%/13% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.0%"
-    }
-  },
-  "raven-bow": {
-    "rarity": 3,
-    "passive": "Increases DMG against opponents affected by Hydro or Pyro by 12%/15%/18%/21%/24%.",
-    "substat": "EM",
-    "level_1": {
-      "base_attack": 40,
-      "substat_value": "20"
-    }
-  },
-  "recurve-bow": {
-    "rarity": 3,
-    "passive": "Defeating an opponent restores 8%/10%/12%/14%/16% HP.",
-    "substat": "HP%",
-    "level_1": {
-      "base_attack": 38,
-      "substat_value": "10.2%"
-    }
-  },
-  "royal-bow": {
-    "rarity": 4,
-    "passive": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "rust": {
-    "rarity": 4,
-    "passive": "Increases Normal Attack DMG by 40%/50%/60%/70%/80% but decreases Charged Attack DMG by 10%.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "sacrificial-bow": {
-    "rarity": 4,
-    "passive": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "6.7%"
-    }
-  },
-  "scion-of-the-blazing-sun": {
-    "rarity": 4,
-    "passive": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 60%/75%/90%/105%/120% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 28%/35%/42%/49%/56% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "4.0%"
-    }
-  },
-  "seasoned-hunters-bow": {
-    "rarity": 2,
-    "passive": "",
-    "substat": "",
-    "level_1": {
-      "base_attack": 33,
-      "substat_value": "0.0%"
-    }
-  },
-  "sequence-of-solitude": {
-    "rarity": 4,
-    "passive": "When an attack hits an opponent, deal AoE DMG equal to 40%/50%/60%/70%/80% of Max HP at the target location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every / of Max HP at the target\u0027s location. This effect can be triggered once every 15s.",
-    "substat": "HP%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "sharpshooters-oath": {
-    "rarity": 3,
-    "passive": "Increases DMG against weak spots by 24%/30%/36%/42%/48%.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 39,
-      "substat_value": "10.2%"
-    }
-  },
-  "silvershower-heartstrings": {
-    "rarity": 5,
-    "passive": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 12%/15%/18%/21%/24%/24%/30%/36%/42%/48%/40%/50%/60%/70%/80%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack\u0027s duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28%/35%/42%/49%/56%. This effect will be canceled 4s after falling under 3 stacks.",
-    "substat": "HP%",
-    "level_1": {
-      "base_attack": 44,
-      "substat_value": "14.4%"
-    }
-  },
-  "skyward-harp": {
-    "rarity": 5,
-    "passive": "Increases CRIT DMG by 20%/25%/30%/35%/40%. Hits have a 60%/70%/80%/90%/100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s/3.5s/3s/2.5s/2s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 48,
-      "substat_value": "4.8%"
-    }
-  },
-  "slingshot": {
-    "rarity": 3,
-    "passive": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%/42%/48%/54%/60%. Otherwise, decreases DMG by 10%.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 38,
-      "substat_value": "6.8%"
-    }
-  },
-  "snare-hook": {
-    "rarity": 4,
-    "passive": "Upon causing an Elemental Reaction, increases Elemental Mastery by 60/75/90/105/120 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60/75/90/105/120. This effect can be triggered even if the equipping character is off-field.",
-    "substat": "er",
-    "level_1": {
-      "base_attack": 41,
-      "substat_value": "13.3%"
-    }
-  },
-  "song-of-stillness": {
-    "rarity": 4,
-    "passive": "After the wielder is healed, they will deal 16%/20%/24%/28%/32% more DMG for 8s. This can be triggered even when the character is not on the field.",
-    "substat": "ATK%",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "9.0%"
-    }
-  },
-  "the-daybreak-chronicles": {
-    "rarity": 5,
-    "passive": "The equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by 60%/75%/90%/105%/120%. While in combat, this DMG Bonus will decrease by 10%/12.5%/15%/17.5%/20% per second until it reaches 0%. When the equipping character\u0027s Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by 10%/12.5%/15%/17.5%/20% until it reaches 60%/75%/90%/105%/120%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.\u003cbr\u003eAdditionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character\u0027s Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by 20%/25%/30%/35%/40% instead.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 48,
-      "substat_value": "9.6%"
-    }
-  },
-  "the-first-great-magic": {
-    "rarity": 5,
-    "passive": "DMG dealt by Charged Attacks increased by 16%/20%/24%/28%/32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/20%/24%/28%/32%/32%/40%/48%/56%/64%/48%/60%/72%/84%/96%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/6%/8%/10%/12%/7%/9%/11%/13%/15%/10%/12%/14%/16%/18%.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "14.4%"
-    }
-  },
-  "the-stringless": {
-    "rarity": 4,
-    "passive": "Increases Elemental Skill and Elemental Burst DMG by 24%/30%/36%/42%/48%.",
-    "substat": "EM",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "36"
-    }
-  },
-  "the-viridescent-hunt": {
-    "rarity": 4,
-    "passive": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40%/50%/60%/70%/80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s/13s/12s/11s/10s.",
-    "substat": "cr",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "6.0%"
-    }
-  },
-  "thundering-pulse": {
-    "rarity": 5,
-    "passive": "Increases ATK by 20%/25%/30%/35%/40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/15/18/21/24/24/30/36/42/48/40%/50%/60%/70%/80%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack\u0027s duration is calculated independently.",
-    "substat": "cd",
-    "level_1": {
-      "base_attack": 46,
-      "substat_value": "14.4%"
-    }
-  },
-  "windblume-ode": {
-    "rarity": 4,
-    "passive": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16%/20%/24%/28%/32% for 6s.",
-    "substat": "EM",
-    "level_1": {
-      "base_attack": 42,
-      "substat_value": "36"
-    }
-  }
 }

@@ -49,6 +49,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-top: 10px;
+  overflow: visible;
 }
 
 .section {
@@ -59,7 +60,23 @@
   margin-left: 12px;
 }
 
+.weapon-card {
+  position: relative;
+  overflow: visible;
+  z-index: 50;
+}
+
+.notes-card {
+  overflow: visible;
+}
+
+.weapon-card:hover,
+.weapon-card:focus-within {
+  z-index: 100;
+}
+
 .build-card {
+  position: relative;
   margin-bottom: 12px;
   overflow: hidden;
   border: 1px solid var(--text);
@@ -115,9 +132,17 @@
 
 .build-card.open .build-content {
   max-height: 10000px;
+  overflow: visible;
   padding: 10px;
   opacity: 1;
   transform: translateY(0);
+}
+
+.build-card.open,
+.build-card.open:focus-within,
+.build-card.open:hover {
+  overflow: visible;
+  z-index: 30;
 }
 
 .build-card.open .arrow {
@@ -152,6 +177,98 @@
   animation: note-highlight 1.4s ease-out;
 }
 
+.weapon-popover {
+  position: relative;
+  display: inline-block;
+}
+
+.weapon-popover-trigger {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+}
+
+.weapon-popover-trigger:hover,
+.weapon-popover-trigger:focus {
+  color: inherit;
+}
+
+.weapon-popover-trigger:focus-visible {
+  border-radius: 3px;
+  outline: 2px solid var(--element);
+  outline-offset: 2px;
+}
+
+.weapon-popover-card {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  z-index: 1000;
+  display: none;
+  width: min(320px, calc(100vw - 32px));
+  border: 1px solid color-mix(in srgb, var(--element) 55%, var(--text));
+  border-radius: 6px;
+  padding: 10px;
+  background: var(--bg);
+  box-shadow: 0 10px 24px rgb(0 0 0 / 28%);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.weapon-popover:hover .weapon-popover-card,
+.weapon-popover:focus-within .weapon-popover-card,
+.weapon-popover.is-open .weapon-popover-card {
+  display: block;
+}
+
+body.weapon-popover-locked .weapon-popover:hover .weapon-popover-card,
+body.weapon-popover-locked .weapon-popover:focus-within .weapon-popover-card {
+  display: none;
+}
+
+body.weapon-popover-locked .weapon-popover.is-open .weapon-popover-card {
+  display: block;
+}
+
+.weapon-popover-name,
+.weapon-popover-rarity,
+.weapon-popover-refinement,
+.weapon-popover-passive {
+  display: block;
+}
+
+.weapon-popover-name {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.weapon-popover-rarity,
+.weapon-popover-refinement {
+  margin-top: 2px;
+  font-weight: 700;
+}
+
+.weapon-popover-stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 0;
+  border-top: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
+  padding: 6px 0;
+}
+
+.weapon-popover-passive {
+  margin-top: 6px;
+}
+
 @keyframes note-highlight {
   0%,
   55% {
@@ -168,6 +285,26 @@
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .weapon-popover-card {
+    position: fixed;
+    top: 50%;
+    right: 16px;
+    bottom: auto;
+    left: 16px;
+    width: auto;
+    max-height: min(420px, calc(100vh - 48px));
+    overflow: auto;
+    transform: translateY(-50%);
+  }
+
+  .weapon-popover:hover .weapon-popover-card {
+    display: none;
+  }
+
+  .weapon-popover.is-open .weapon-popover-card {
+    display: block;
   }
 }
 

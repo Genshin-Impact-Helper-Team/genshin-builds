@@ -1,0 +1,71 @@
+---
+import { t } from '../utils/i18n';
+
+type WeaponInfo = {
+  rarity: number;
+  passive?: string;
+  substat?: string;
+  level_1?: {
+    base_attack?: number;
+    substat_value?: string;
+  };
+};
+
+type Props = {
+  locale: any;
+  weapon: {
+    name: string;
+    rarity: number;
+    info?: WeaponInfo;
+  };
+};
+
+const { locale, weapon } = Astro.props;
+const info = weapon.info;
+const passiveParts = (info?.passive ?? '').split(/<br\s*\/?>/i);
+const substatName = info?.substat
+  ? t(locale, 'stat', info.substat, undefined, false)
+  : '';
+---
+
+<span class="weapon-popover">
+  <button
+    class="weapon-popover-trigger"
+    type="button"
+    aria-expanded="false"
+  >
+    {weapon.name}
+  </button>
+
+  {
+    info && (
+      <span class="weapon-popover-card" role="tooltip">
+        <span class="weapon-popover-name">{weapon.name}</span>
+        <span class="weapon-popover-rarity">
+          {info.rarity} {"\u2605"}
+        </span>
+        <span class="weapon-popover-stat">
+          <span>Base ATK</span>
+          <strong>{info.level_1?.base_attack}</strong>
+        </span>
+        {
+          substatName && (
+            <span class="weapon-popover-stat">
+              <span>{substatName}</span>
+              <strong>{info.level_1?.substat_value}</strong>
+            </span>
+          )
+        }
+        <span class="weapon-popover-refinement">R1/R2/R3/R4/R5</span>
+        <span class="weapon-popover-passive">
+          {passiveParts.map((part, index) => (
+            <>
+              {index > 0 && <br />}
+              {part}
+            </>
+          ))}
+        </span>
+      </span>
+    )
+  }
+</span>

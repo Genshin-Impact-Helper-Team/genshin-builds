@@ -17,6 +17,29 @@ const CATEGORIES: TranslationCategory[] = [
     'ability',
 ];
 
+type SharedWeaponData = {
+    rarity: number;
+    passive?: string;
+    substat?: string;
+    level_1?: {
+        base_attack?: number;
+        substat_value?: string;
+    };
+};
+
+type TranslateNoteTextOptions = {
+    weaponPopovers?: boolean;
+};
+
+function escapeHtml(value: unknown) {
+    return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
 /**
  * Helper class for translating structured content IDs and inline note references.
  *
@@ -36,8 +59,12 @@ export class TranslationHelper {
      * Creates a new translation helper instance.
      *
      * @param locale Current locale object returned by getLocale().
+     * @param weaponDataById Shared weapon data keyed by weapon translation ID.
      */
-    constructor(private locale: any) { }
+    constructor(
+        private locale: any,
+        private weaponDataById: Record<string, SharedWeaponData> = {},
+    ) { }
 
     /**
      * Translates a content ID from a specific category.
@@ -84,11 +111,20 @@ export class TranslationHelper {
      * @param sourceFile Optional source file path for debugging.
      * @returns Note text with translated inline references.
      */
-    translateNoteText(text: string, sourceFile?: string) {
+    translateNoteText(
+        text: string,
+        sourceFile?: string,
+        options: TranslateNoteTextOptions = {},
+    ) {
         return text.replace(
             /\[\[(?:(artifact|weapon|character|stat|element|ability):)?([a-z0-9%/-]+)\]\]/g,
             (match, category: TranslationCategory | undefined, id: string) => {
-                const translation = this.translateInlineId(id, category, sourceFile);
+                const translation = this.translateInlineId(
+                    id,
+                    category,
+                    sourceFile,
+                    options,
+                );
 
                 return translation ?? match;
             },
@@ -110,13 +146,72 @@ export class TranslationHelper {
         id: string,
         category?: TranslationCategory,
         sourceFile?: string,
+        options: TranslateNoteTextOptions = {},
     ) {
         if (category) {
             const translation = this.translate(category, id, sourceFile);
+
+            if (
+                category === 'weapon' &&
+                options.weaponPopovers &&
+                translation !== id
+            ) {
+                return this.renderWeaponPopover(id, translation);
+            }
+
             return translation !== id ? translation : null;
         }
 
         return this.findTranslationInAnyCategory(id, sourceFile);
+    }
+
+    private renderWeaponPopover(id: string, name: string) {
+        const info = this.weaponDataById[id];
+
+        if (!info) {
+            return escapeHtml(name);
+        }
+
+        const passive = (info.passive ?? '')
+            .split(/<br\s*\/?>/i)
+            .map(escapeHtml)
+            .join('<br>');
+        const substatName = info.substat
+            ? t(this.locale, 'stat', info.substat, undefined, false)
+            : '';
+        const substatRow = substatName
+            ? [
+                '<span class="weapon-popover-stat"><span>',
+                escapeHtml(substatName),
+                '</span><strong>',
+                escapeHtml(info.level_1?.substat_value),
+                '</strong></span>',
+            ].join('')
+            : '';
+
+        return [
+            '<span class="weapon-popover">',
+            '<button class="weapon-popover-trigger" type="button" aria-expanded="false">',
+            escapeHtml(name),
+            '</button>',
+            '<span class="weapon-popover-card" role="tooltip">',
+            '<span class="weapon-popover-name">',
+            escapeHtml(name),
+            '</span>',
+            '<span class="weapon-popover-rarity">',
+            escapeHtml(info.rarity),
+            ' \u2605</span>',
+            '<span class="weapon-popover-stat"><span>Base ATK</span><strong>',
+            escapeHtml(info.level_1?.base_attack),
+            '</strong></span>',
+            substatRow,
+            '<span class="weapon-popover-refinement">R1/R2/R3/R4/R5</span>',
+            '<span class="weapon-popover-passive">',
+            passive,
+            '</span>',
+            '</span>',
+            '</span>',
+        ].join('');
     }
 
     /**

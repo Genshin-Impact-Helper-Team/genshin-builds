@@ -68,8 +68,34 @@ function loadWeaponData(weaponType: string) {
     return JSON.parse(fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, ''));
 }
 
+function loadAllWeaponData() {
+    return fs
+        .readdirSync(weaponDataPath)
+        .filter((fileName) => fileName.endsWith('.json'))
+        .reduce<Record<string, SharedWeaponData>>((weaponData, fileName) => {
+            const typeData = JSON.parse(
+                fs
+                    .readFileSync(path.join(weaponDataPath, fileName), 'utf-8')
+                    .replace(/^\uFEFF/, ''),
+            );
+
+            Object.assign(weaponData, typeData);
+            return weaponData;
+        }, {});
+}
+
+type SharedWeaponData = {
+    rarity: number;
+    passive?: string;
+    substat?: string;
+    level_1?: {
+        base_attack?: number;
+        substat_value?: string;
+    };
+};
+
 function getWeaponRarity(
-    weaponData: Record<string, { rarity: number }>,
+    weaponData: Record<string, SharedWeaponData>,
     weaponId: string,
     weaponType: string,
     sourceFile: string,
@@ -83,6 +109,23 @@ function getWeaponRarity(
     }
 
     return rarity;
+}
+
+function getWeaponInfo(
+    weaponData: Record<string, SharedWeaponData>,
+    weaponId: string,
+    weaponType: string,
+    sourceFile: string,
+) {
+    const data = weaponData[weaponId];
+
+    if (!data) {
+        throw new Error(
+            `Missing shared data for weapon "${weaponId}" in src/data/weapons/${weaponType}.json (source: ${sourceFile})`,
+        );
+    }
+
+    return data;
 }
 
 function normalizeWeaponItem(item: any) {
@@ -306,7 +349,9 @@ function buildLocalizedNotes(
             }
 
             return renderMarkdown(
-                translator.translateNoteText(note[lang] ?? note.en, sourceFile),
+                translator.translateNoteText(note[lang] ?? note.en, sourceFile, {
+                    weaponPopovers: true,
+                }),
             );
         }),
     };
@@ -351,15 +396,17 @@ function loadBuildData({
      */
     const translateWeaponItem = (item: any) => {
         const normalizedItem = normalizeWeaponItem(item);
+        const weaponInfo = getWeaponInfo(
+            weaponData,
+            normalizedItem.name,
+            weaponType,
+            weaponsFile,
+        );
 
         return {
             ...normalizedItem,
-            rarity: getWeaponRarity(
-                weaponData,
-                normalizedItem.name,
-                weaponType,
-                weaponsFile,
-            ),
+            rarity: getWeaponRarity(weaponData, normalizedItem.name, weaponType, weaponsFile),
+            info: weaponInfo,
             name: translator.translate('weapon', normalizedItem.name, weaponsFile),
         };
     };
@@ -525,7 +572,7 @@ export function getCharacterPageData({
 
     const currentLang = lang ?? 'en';
     const locale = getLocale(currentLang);
-    const translator = new TranslationHelper(locale);
+    const translator = new TranslationHelper(locale, loadAllWeaponData());
     const characterSlug = character.toLowerCase();
     const slugParts = parsePublicCharacterSlug(characterSlug);
     const contentSlug = slugParts.character;
