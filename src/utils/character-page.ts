@@ -92,6 +92,10 @@ type SharedWeaponData = {
     level_1?: {
         base_attack?: number;
         substat_value?: string;
+    level_max?: {
+        base_attack?: number;
+        substat_value?: string;
+    };
     };
 };
 

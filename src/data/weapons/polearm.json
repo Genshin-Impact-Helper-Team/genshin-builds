@@ -14,6 +14,10 @@
       "base_attack": 42,
       "substat_value": "6.0%"
     },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "27.6%"
+    },
     "r1": [
       120
     ],
@@ -39,6 +43,10 @@
     "level_1": {
       "base_attack": 23,
       "substat_value": "0.0%"
+    },
+    "level_max": {
+      "base_attack": 185,
+      "substat_value": "0.0%"
     }
   },
   "blackcliff-pole": {
@@ -55,6 +63,10 @@
     "level_1": {
       "base_attack": 42,
       "substat_value": "12.0%"
+    },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "55.1%"
     },
     "r1": [
       12
@@ -87,6 +99,10 @@
       "base_attack": 38,
       "substat_value": "10.2%"
     },
+    "level_max": {
+      "base_attack": 354,
+      "substat_value": "46.9%"
+    },
     "r1": [
       40
     ],
@@ -117,6 +133,10 @@
     "level_1": {
       "base_attack": 48,
       "substat_value": "4.8%"
+    },
+    "level_max": {
+      "base_attack": 674,
+      "substat_value": "22.1%"
     },
     "r1": [
       36,
@@ -159,6 +179,10 @@
       "base_attack": 49,
       "substat_value": "3.6%"
     },
+    "level_max": {
+      "base_attack": 741,
+      "substat_value": "16.5%"
+    },
     "r1": [
       12,
       3.2
@@ -195,6 +219,10 @@
       "base_attack": 44,
       "substat_value": "7.5%"
     },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "34.5%"
+    },
     "r1": [
       20
     ],
@@ -225,6 +253,10 @@
     "level_1": {
       "base_attack": 48,
       "substat_value": "4.8%"
+    },
+    "level_max": {
+      "base_attack": 674,
+      "substat_value": "22.1%"
     },
     "r1": [
       12,
@@ -261,6 +293,10 @@
     "level_1": {
       "base_attack": 41,
       "substat_value": "8.0%"
+    },
+    "level_max": {
+      "base_attack": 454,
+      "substat_value": "36.8%"
     },
     "r1": [
       16,
@@ -303,6 +339,10 @@
       "base_attack": 42,
       "substat_value": "9.0%"
     },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "41.3%"
+    },
     "r1": [
       8
     ],
@@ -334,6 +374,10 @@
       "base_attack": 41,
       "substat_value": "48"
     },
+    "level_max": {
+      "base_attack": 454,
+      "substat_value": "221"
+    },
     "r1": [
       20
     ],
@@ -364,6 +408,10 @@
     "level_1": {
       "base_attack": 41,
       "substat_value": "15.0%"
+    },
+    "level_max": {
+      "base_attack": 454,
+      "substat_value": "69.0%"
     },
     "r1": [
       60,
@@ -406,6 +454,10 @@
       "base_attack": 46,
       "substat_value": "12.0%"
     },
+    "level_max": {
+      "base_attack": 608,
+      "substat_value": "55.1%"
+    },
     "r1": [
       28,
       80,
@@ -435,7 +487,7 @@
   "favonius-lance": {
     "rarity": 4,
     "passive": {
-      "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s/10.5s/9s/7.5s/6s.",
+      "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}} s.",
       "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
       "es": "Los Golpes CRIT tienen un {{value}}% de probabilidad de generar una pequeña cantidad de partículas elementales, las cuales regenerarán 6 pts. de Energía para el personaje. Solo puede ocurrir una vez cada {{value}} s.",
       "fr": "Les coups CRIT des attaques ont {{value}}% de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -447,21 +499,30 @@
       "base_attack": 44,
       "substat_value": "6.7%"
     },
-    "r1": [
-      60
-    ],
-    "r2": [
-      70
-    ],
-    "r3": [
-      80
-    ],
-    "r4": [
-      90
-    ],
-    "r5": [
-      100
-    ]
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "30.6%"
+    },
+        "r1": [
+            60,
+            12
+        ],
+        "r2": [
+            70,
+            10.5
+        ],
+        "r3": [
+            80,
+            9
+        ],
+        "r4": [
+            90,
+            7.5
+        ],
+        "r5": [
+            100,
+            6
+        ]
   },
   "footprint-of-the-rainbow": {
     "rarity": 4,
@@ -477,6 +538,10 @@
     "level_1": {
       "base_attack": 42,
       "substat_value": "11.3%"
+    },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "51.7%"
     },
     "r1": [
       16
@@ -508,6 +573,10 @@
     "level_1": {
       "base_attack": 46,
       "substat_value": "14.4%"
+    },
+    "level_max": {
+      "base_attack": 608,
+      "substat_value": "66.2%"
     },
     "r1": [
       24,
@@ -545,6 +614,10 @@
       "base_attack": 40,
       "substat_value": "5.1%"
     },
+    "level_max": {
+      "base_attack": 448,
+      "substat_value": "23.4%"
+    },
     "r1": [
       160
     ],
@@ -570,6 +643,10 @@
     "level_1": {
       "base_attack": 33,
       "substat_value": "0.0%"
+    },
+    "level_max": {
+      "base_attack": 243,
+      "substat_value": "0.0%"
     }
   },
   "kitain-cross-spear": {
@@ -586,6 +663,10 @@
     "level_1": {
       "base_attack": 44,
       "substat_value": "24"
+    },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "110"
     },
     "r1": [
       6,
@@ -623,6 +704,10 @@
       "base_attack": 44,
       "substat_value": "6.0%"
     },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "27.6%"
+    },
     "r1": [
       7,
       3
@@ -658,6 +743,10 @@
     "level_1": {
       "base_attack": 46,
       "substat_value": "7.2%"
+    },
+    "level_max": {
+      "base_attack": 608,
+      "substat_value": "33.1%"
     },
     "r1": [
       15,
@@ -700,6 +789,10 @@
       "base_attack": 42,
       "substat_value": "9.0%"
     },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "41.3%"
+    },
     "r1": [
       12,
       48
@@ -736,6 +829,10 @@
       "base_attack": 44,
       "substat_value": "24"
     },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "110"
+    },
     "r1": [
       16
     ],
@@ -766,6 +863,10 @@
     "level_1": {
       "base_attack": 44,
       "substat_value": "6.7%"
+    },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "30.6%"
     },
     "r1": [
       12,
@@ -803,6 +904,10 @@
       "base_attack": 48,
       "substat_value": "4.8%"
     },
+    "level_max": {
+      "base_attack": 674,
+      "substat_value": "22.1%"
+    },
     "r1": [
       3.2,
       12
@@ -839,6 +944,10 @@
       "base_attack": 44,
       "substat_value": "6.0%"
     },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "27.6%"
+    },
     "r1": [
       3,
       7
@@ -874,6 +983,10 @@
     "level_1": {
       "base_attack": 42,
       "substat_value": "9.0%"
+    },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "41.3%"
     },
     "r1": [
       48,
@@ -916,6 +1029,10 @@
       "base_attack": 42,
       "substat_value": "10.0%"
     },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "45.9%"
+    },
     "r1": [
       8
     ],
@@ -946,6 +1063,10 @@
     "level_1": {
       "base_attack": 44,
       "substat_value": "6.0%"
+    },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "27.6%"
     },
     "r1": [
       8
@@ -978,6 +1099,10 @@
       "base_attack": 44,
       "substat_value": "6.0%"
     },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "27.6%"
+    },
     "r1": [
       8
     ],
@@ -1008,6 +1133,10 @@
     "level_1": {
       "base_attack": 45,
       "substat_value": "2.0%"
+    },
+    "level_max": {
+      "base_attack": 620,
+      "substat_value": "9.2%"
     },
     "r1": [
       8,
@@ -1045,6 +1174,10 @@
       "base_attack": 48,
       "substat_value": "8.0%"
     },
+    "level_max": {
+      "base_attack": 674,
+      "substat_value": "36.8%"
+    },
     "r1": [
       8,
       40
@@ -1080,6 +1213,10 @@
     "level_1": {
       "base_attack": 46,
       "substat_value": "14.4%"
+    },
+    "level_max": {
+      "base_attack": 608,
+      "substat_value": "66.2%"
     },
     "r1": [
       20,
@@ -1122,6 +1259,10 @@
       "base_attack": 44,
       "substat_value": "9.6%"
     },
+    "level_max": {
+      "base_attack": 542,
+      "substat_value": "44.1%"
+    },
     "r1": [
       52,
       28
@@ -1157,6 +1298,10 @@
     "level_1": {
       "base_attack": 46,
       "substat_value": "14.4%"
+    },
+    "level_max": {
+      "base_attack": 608,
+      "substat_value": "66.2%"
     },
     "r1": [
       12,
@@ -1199,6 +1344,10 @@
       "base_attack": 44,
       "substat_value": "6.7%"
     },
+    "level_max": {
+      "base_attack": 565,
+      "substat_value": "30.6%"
+    },
     "r1": [
       20
     ],
@@ -1230,6 +1379,10 @@
       "base_attack": 42,
       "substat_value": "10.0%"
     },
+    "level_max": {
+      "base_attack": 510,
+      "substat_value": "45.9%"
+    },
     "r1": [
       16,
       6
@@ -1251,37 +1404,6 @@
       12
     ]
   },
-  "the-flagstaff": {
-    "rarity": 3,
-    "passive": {
-      "en": "Defeating an opponent restores {{value}}% HP.",
-      "de": "Stellt beim Besiegen eines Gegners {{value}}% LP wieder her.",
-      "es": "Restaura un {{value}}% de Vida tras derrotar a un enemigo.",
-      "fr": "Restaure {{value}}% des PV après la défaite d'un ennemi.",
-      "it": "Sconfiggere un avversario ripristina un {{value}}% di PS.",
-      "ru": "Победа над противником восстанавливает {{value}}% HP."
-    },
-    "substat": "",
-    "level_1": {
-      "base_attack": 10,
-      "substat_value": "0.0%"
-    },
-    "r1": [
-      8
-    ],
-    "r2": [
-      10
-    ],
-    "r3": [
-      12
-    ],
-    "r4": [
-      14
-    ],
-    "r5": [
-      16
-    ]
-  },
   "vortex-vanquisher": {
     "rarity": 5,
     "passive": {
@@ -1296,6 +1418,10 @@
     "level_1": {
       "base_attack": 46,
       "substat_value": "10.8%"
+    },
+    "level_max": {
+      "base_attack": 608,
+      "substat_value": "49.6%"
     },
     "r1": [
       20,
@@ -1333,6 +1459,10 @@
       "base_attack": 45,
       "substat_value": "3.0%"
     },
+    "level_max": {
+      "base_attack": 620,
+      "substat_value": "13.8%"
+    },
     "r1": [
       0.12,
       40
@@ -1368,6 +1498,10 @@
     "level_1": {
       "base_attack": 39,
       "substat_value": "5.1%"
+    },
+    "level_max": {
+      "base_attack": 401,
+      "substat_value": "23.4%"
     },
     "r1": [
       24

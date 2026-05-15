@@ -14,6 +14,10 @@
             "base_attack": 48,
             "substat_value": "9.6%"
         },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "44.1%"
+        },
         "r1": [
             20,
             16
@@ -50,6 +54,10 @@
             "base_attack": 41,
             "substat_value": "12.0%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "55.1%"
+        },
         "r1": [
             6
         ],
@@ -80,6 +88,10 @@
         "level_1": {
             "base_attack": 48,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "41.3%"
         },
         "r1": [
             20,
@@ -122,6 +134,10 @@
             "base_attack": 46,
             "substat_value": "7.2%"
         },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "33.1%"
+        },
         "r1": [
             16,
             20,
@@ -162,6 +178,10 @@
         "level_1": {
             "base_attack": 48,
             "substat_value": "4.8%"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "22.1%"
         },
         "r1": [
             24,
@@ -204,6 +224,10 @@
             "base_attack": 44,
             "substat_value": "8.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "36.8%"
+        },
         "r1": [
             12
         ],
@@ -234,6 +258,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
         },
         "r1": [
             20,
@@ -271,6 +299,10 @@
             "base_attack": 41,
             "substat_value": "15.0%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "69.0%"
+        },
         "r1": [
             40
         ],
@@ -301,6 +333,10 @@
         "level_1": {
             "base_attack": 39,
             "substat_value": "7.7%"
+        },
+        "level_max": {
+            "base_attack": 401,
+            "substat_value": "35.2%"
         },
         "r1": [
             12
@@ -333,6 +369,10 @@
             "base_attack": 39,
             "substat_value": "31"
         },
+        "level_max": {
+            "base_attack": 401,
+            "substat_value": "141"
+        },
         "r1": [
             20
         ],
@@ -358,12 +398,16 @@
         "level_1": {
             "base_attack": 23,
             "substat_value": "0.0%"
+        },
+        "level_max": {
+            "base_attack": 185,
+            "substat_value": "0.0%"
         }
     },
     "favonius-sword": {
         "rarity": 4,
         "passive": {
-            "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s/10.5s/9s/7.5s/6s.",
+            "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}} s.",
             "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
             "es": "Los Golpes CRIT tienen un {{value}}% de probabilidad de generar una pequeña cantidad de partículas elementales, las cuales regenerarán 6 pts. de Energía para el personaje. Solo puede ocurrir una vez cada {{value}} s.",
             "fr": "Les coups CRIT des attaques ont {{value}}% de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -375,20 +419,29 @@
             "base_attack": 41,
             "substat_value": "13.3%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "61.3%"
+        },
         "r1": [
-            60
+            60,
+            12
         ],
         "r2": [
-            70
+            70,
+            10.5
         ],
         "r3": [
-            80
+            80,
+            9
         ],
         "r4": [
-            90
+            90,
+            7.5
         ],
         "r5": [
-            100
+            100,
+            6
         ]
     },
     "festering-desire": {
@@ -405,6 +458,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "10.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "45.9%"
         },
         "r1": [
             16,
@@ -442,6 +499,10 @@
             "base_attack": 39,
             "substat_value": "7.7%"
         },
+        "level_max": {
+            "base_attack": 401,
+            "substat_value": "35.2%"
+        },
         "r1": [
             240
         ],
@@ -472,6 +533,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
         },
         "r1": [
             12,
@@ -514,6 +579,10 @@
             "base_attack": 42,
             "substat_value": "10.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "45.9%"
+        },
         "r1": [
             8,
             16
@@ -550,6 +619,10 @@
             "base_attack": 41,
             "substat_value": "15.0%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "69.0%"
+        },
         "r1": [
             16
         ],
@@ -580,6 +653,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "43"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "198"
         },
         "r1": [
             10,
@@ -622,6 +699,10 @@
             "base_attack": 46,
             "substat_value": "7.2%"
         },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "33.1%"
+        },
         "r1": [
             12,
             20
@@ -658,6 +739,10 @@
             "base_attack": 39,
             "substat_value": "10.2%"
         },
+        "level_max": {
+            "base_attack": 401,
+            "substat_value": "46.9%"
+        },
         "r1": [
             14
         ],
@@ -689,6 +774,10 @@
             "base_attack": 42,
             "substat_value": "36"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "165"
+        },
         "r1": [
             6
         ],
@@ -719,6 +808,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
         }
     },
     "key-of-khaj-nisut": {
@@ -735,6 +828,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "14.4%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "66.2%"
         },
         "r1": [
             20,
@@ -777,6 +874,10 @@
             "base_attack": 44,
             "substat_value": "19.2%"
         },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
+        },
         "r1": [
             20,
             64
@@ -812,6 +913,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "19.2%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
         },
         "r1": [
             4,
@@ -849,6 +954,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             20
         ],
@@ -879,6 +988,10 @@
         "level_1": {
             "base_attack": 48,
             "substat_value": "9.6%"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "44.1%"
         },
         "r1": [
             12,
@@ -926,6 +1039,10 @@
             "base_attack": 44,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
+        },
         "r1": [
             20,
             16,
@@ -966,6 +1083,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "18.0%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "82.7%"
         },
         "r1": [
             8,
@@ -1013,6 +1134,10 @@
             "base_attack": 44,
             "substat_value": "9.6%"
         },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "44.1%"
+        },
         "r1": [
             20,
             1.2
@@ -1049,6 +1174,10 @@
             "base_attack": 44,
             "substat_value": "7.5%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "34.5%"
+        },
         "r1": [
             4
         ],
@@ -1080,6 +1209,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             8
         ],
@@ -1110,6 +1243,10 @@
         "level_1": {
             "base_attack": 41,
             "substat_value": "13.3%"
+        },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "61.3%"
         },
         "r1": [
             40,
@@ -1147,6 +1284,10 @@
             "base_attack": 44,
             "substat_value": "6.7%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "30.6%"
+        },
         "r1": [
             60
         ],
@@ -1178,6 +1319,10 @@
             "base_attack": 41,
             "substat_value": "13.3%"
         },
+        "level_max": {
+            "base_attack": 454,
+            "substat_value": "61.3%"
+        },
         "r1": [
             16,
             16
@@ -1208,6 +1353,10 @@
         "level_1": {
             "base_attack": 33,
             "substat_value": "0.0%"
+        },
+        "level_max": {
+            "base_attack": 243,
+            "substat_value": "0.0%"
         }
     },
     "skyrider-sword": {
@@ -1224,6 +1373,10 @@
         "level_1": {
             "base_attack": 38,
             "substat_value": "11.3%"
+        },
+        "level_max": {
+            "base_attack": 354,
+            "substat_value": "51.7%"
         },
         "r1": [
             12
@@ -1255,6 +1408,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "12.0%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "55.1%"
         },
         "r1": [
             4,
@@ -1292,6 +1449,10 @@
             "base_attack": 44,
             "substat_value": "19.2%"
         },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
+        },
         "r1": [
             8,
             14
@@ -1328,6 +1489,10 @@
             "base_attack": 44,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
+        },
         "r1": [
             16
         ],
@@ -1358,6 +1523,10 @@
         "level_1": {
             "base_attack": 46,
             "substat_value": "10.8%"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "49.6%"
         },
         "r1": [
             20,
@@ -1394,6 +1563,10 @@
         "level_1": {
             "base_attack": 39,
             "substat_value": "7.7%"
+        },
+        "level_max": {
+            "base_attack": 440,
+            "substat_value": "35.2%"
         }
     },
     "sword-of-narzissenkreuz": {
@@ -1410,6 +1583,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
         },
         "r1": [
             160
@@ -1442,6 +1619,10 @@
             "base_attack": 45,
             "substat_value": "12"
         },
+        "level_max": {
+            "base_attack": 620,
+            "substat_value": "55"
+        },
         "r1": [
             12
         ],
@@ -1472,6 +1653,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
         },
         "r1": [
             20,
@@ -1509,6 +1694,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             40,
             2
@@ -1545,6 +1734,10 @@
             "base_attack": 42,
             "substat_value": "9.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
         "r1": [
             100
         ],
@@ -1575,6 +1768,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "36"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "165"
         },
         "r1": [
             16
@@ -1607,6 +1804,10 @@
             "base_attack": 40,
             "substat_value": "6.4%"
         },
+        "level_max": {
+            "base_attack": 448,
+            "substat_value": "29.3%"
+        },
         "r1": [
             1
         ],
@@ -1637,6 +1838,10 @@
         "level_1": {
             "base_attack": 44,
             "substat_value": "19.2%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
         },
         "r1": [
             16,
@@ -1679,6 +1884,10 @@
             "base_attack": 42,
             "substat_value": "6.0%"
         },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
         "r1": [
             16,
             2,
@@ -1719,6 +1928,10 @@
         "level_1": {
             "base_attack": 42,
             "substat_value": "36"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "165"
         },
         "r1": [
             0.036

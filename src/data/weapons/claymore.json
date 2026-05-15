@@ -302,7 +302,7 @@
     "favonius-greatsword": {
         "rarity": 4,
         "passive": {
-            "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s/10.5s/9s/7.5s/6s.",
+            "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}} s.",
             "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
             "es": "Los Golpes CRIT tienen un {{value}}% de probabilidad de generar una pequeña cantidad de partículas elementales, las cuales regenerarán 6 pts. de Energía para el personaje. Solo puede ocurrir una vez cada {{value}} s.",
             "fr": "Les coups CRIT des attaques ont {{value}}% de chances de générer une faible quantité de particules élémentaires qui restaurent 6 pts d'énergie. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -319,19 +319,24 @@
             "substat_value": "61.3%"
         },
         "r1": [
-            60
+            60,
+            12
         ],
         "r2": [
-            70
+            70,
+            10.5
         ],
         "r3": [
-            80
+            80,
+            9
         ],
         "r4": [
-            90
+            90,
+            7.5
         ],
         "r5": [
-            100
+            100,
+            6
         ]
     },
     "ferrous-shadow": {

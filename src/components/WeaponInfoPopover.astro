@@ -18,6 +18,10 @@ type WeaponInfo = {
   level_1?: {
     base_attack?: number;
     substat_value?: string;
+    level_max?: {
+      base_attack?: number;
+      substat_value?: string;
+    };
   };
 };
 
@@ -44,6 +48,34 @@ const passivePartsByRefinement = info
 const substatName = info?.substat
   ? t(locale, 'stat', info.substat, undefined, false)
   : '';
+
+const formatWeaponStatValue = (
+  level1Value?: number | string,
+  levelMaxValue?: number | string,
+) => {
+  if (level1Value === undefined || level1Value === null || level1Value === '') {
+    return '';
+  }
+
+  if (
+    levelMaxValue === undefined ||
+    levelMaxValue === null ||
+    levelMaxValue === ''
+  ) {
+    return String(level1Value);
+  }
+
+  return `${level1Value} / ${levelMaxValue}`;
+};
+
+const baseAttackValue = formatWeaponStatValue(
+  info?.level_1?.base_attack,
+  info?.level_max?.base_attack,
+);
+const substatValue = formatWeaponStatValue(
+  info?.level_1?.substat_value,
+  info?.level_max?.substat_value,
+);
 ---
 
 <span class="weapon-popover">
@@ -55,19 +87,19 @@ const substatName = info?.substat
     info && (
       <span class="weapon-popover-card" role="tooltip">
         <div class="weapon-popover-header">
-        <span class="weapon-popover-name">{weapon.name}</span>
-        <span class="weapon-popover-rarity">
-          {info.rarity} {'\u2605'}
-        </span>
+          <span class="weapon-popover-name">{weapon.name}</span>
+          <span class="weapon-popover-rarity">
+            {info.rarity} {'\u2605'}
+          </span>
         </div>
         <span class="weapon-popover-stat">
           <span>Base ATK</span>
-          <strong>{info.level_1?.base_attack}</strong>
+          <strong>{baseAttackValue}</strong>
         </span>
         {substatName && (
           <span class="weapon-popover-stat">
             <span>{substatName}</span>
-            <strong>{info.level_1?.substat_value}</strong>
+            <strong>{substatValue}</strong>
           </span>
         )}
         <span class="weapon-popover-refinement">
