@@ -26,9 +26,8 @@
 
 .character-image {
   display: block;
-  width: clamp(160px, 35vw, 360px);
+  height: clamp(100px, 42vw, 250px);
   max-width: 100%;
-  height: auto;
   margin: 0 auto 20px;
   border-radius: 8px;
 }

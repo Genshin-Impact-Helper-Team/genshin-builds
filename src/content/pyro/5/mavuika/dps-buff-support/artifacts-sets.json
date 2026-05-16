@@ -1,0 +1,58 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "obsidian-codex",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note": {
+                                "en": "If no other member of the team can hold it, this becomes [[character:mavuika]]'s best artifact set for Off-Field.",
+                                "fr": "Si aucun autre membre de l'équipe ne porte ce set, il devient la meilleure option pour une [[character:mavuika]] Off-Field."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Only to be used when paired with [[character:furina]] - Performs mildly worse than **[[artifact:obsidian-codex]] (4)**.",
+                        "fr": "A n'utiliser que si jouée avec [[character:furina]] - Performe légèrement moins bien que **[[artifact:obsidian-codex]] (4)**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "deepwood-memories",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This set is a support option in teams with a relevant amount of [[stat:dendro-dmg]] (i.e. [[character:kinich]]).",
+                        "fr": "Ce set est une option de support dans les équipes axés autour des [[stat:dendro-dmg]] (comme [[character:kinich]] par exemple)."
+                    }
+                }
+            ]
+        }
+    ]
+}

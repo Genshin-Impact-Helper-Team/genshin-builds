@@ -1,0 +1,84 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                "redhorn-stonethresher",
+                {
+                    "name": "verdict",
+                    "note": {
+                        "en": "Ranking assumes 1 stack.",
+                        "fr": "Le classement suppose 1 stack."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "beacon-of-the-reed-sea",
+                    "note": {
+                        "en": "Ranking assumes [[character:mavuika]] does not take damage.",
+                        "fr": "Le classement suppose que [[character:mavuika]] ne prend aucun dégâts."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "mailed-flower",
+                    "refinement": 5
+                },
+                "wolfs-gravestone",
+                {
+                    "name": "the-unforged",
+                    "note": {
+                        "en": "Ranking assumes dynamic stacks, shielded.",
+                        "fr": "Le classement suppose des stack dynamiques, sous bouclier."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "This weapon assumes 3 stacks. At **[R5]**, this weapon will perform close to **[[weapon:beacon-of-the-reed-sea]] in [[element:melt]]** teams, and close to **[[weapon:verdict]] in [[element:vaporize]]** teams. At max stacks at **[R5]**, it performs better than **[[weapon:redhorn-stonethresher]]**. It should be noted that since [[character:mavuika]] inherently has many sources of [[stat:cr]] buffs, it is easy to overcap with **[[weapon:serpent-spine]]**.",
+                        "fr": "Le classement de cette arme suppose 3 stacks. Une fois **[R5]**, cette arme se rapproche de **[[weapon:beacon-of-the-reed-sea]] en équipes [[element:melt]]**, et de **[[weapon:verdict]] en équipes [[element:vaporize]]**. Avec le nombre max de stack une fois **[R5]**, elle devient meilleure que **[[weapon:redhorn-stonethresher]]**. A noter que puisque [[character:mavuika]] profite de plusieurs buff de [[stat:cr]], il est facile d'overcap avec **[[weapon:serpent-spine]]**."
+                    }
+                },
+                "fang-of-the-mountain-king"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "tidal-shadow",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes [[character:mavuika]] get healing",
+                        "fr": "Le classement suppose que [[character:mavuika]] reçoit du soin"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "rainslasher",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Weapon perform as well as **[[weapon:serpent-spine]] [R1]** in a [[element:vaporize]] team.",
+                        "fr": "Cette arme performe aussi bien que **[[weapon:serpent-spine]] [R1]** dans une équipe [[element:vaporize]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

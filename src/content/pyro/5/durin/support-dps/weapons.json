@@ -1,0 +1,67 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "athame-artis"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-cutter",
+                "mistsplitter-reforged",
+                "azurelight"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu"
+            ]
+        },
+        {
+            "items": [
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision",
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "If the team can benefit from its passive, this weapon can be **roughly equal to [[weapon:absolution]]**.",
+                        "fr": "Si l'équipe bénéficie de son passif, l'arme peut être **équivalente à [[weapon:absolution]]**."
+                    }
+                },
+                {
+                    "name": "lions-roar",
+                    "note": {
+                        "en": "Calculation assumes 90% [[element:pyro]]/[[element:electro]] uptime.",
+                        "fr": "Le classement suppose 90% d'uptime de [[element:pyro]]/[[element:electro]]."
+                    }
+                },
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "At **[R5]** this weapon ranks above **[[weapon:absolution]]**.",
+                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:absolution]]**."
+                    }
+                },
+                {
+                    "name": "finale-of-the-deep",
+                    "note": {
+                        "en": "For this ranking it is assumed that **[[character:durin]] is healed**, and the [[ability:bol]] is cleared. If **this cannot occur**, this weapon ranks roughly equal to **[[weapon:moonweavers-dawn]]**.",
+                        "fr": "Ce classement suppose que **[[character:durin]] se fait soigner**, et que l'[[ability:bol]] est retiré. Si **ce n'est pas le cas**, cette arme se classe environ au même niveau que **[[weapon:moonweavers-dawn]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "uraku-misugiri",
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
+                "moonweavers-dawn"
+            ]
+        }
+    ]
+}

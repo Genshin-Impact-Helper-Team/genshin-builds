@@ -1,0 +1,25 @@
+{
+    "best": true,
+    "name": {
+        "en": "Buff Support & Off-Field DPS",
+        "fr": "Support Buff & DPS Off-Field"
+    },
+    "notes": [
+        {
+            "en": "This playstyle uses [[character:durin]]'s Purity form to decrease the Elemental Resistance of [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]], and [[element:geo]] when reactions with those element and [[element:pyro]] occur.",
+            "fr": "Ce style de jeu utilise la forme Confirmation de pureté de [[character:durin]] pour baisser la résistance élémentaire de [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]], et [[element:geo]] quand des réactions avec [[element:pyro]] sont déclenchées."
+        },
+        {
+            "en": "Purity form is [[character:durin]]'s default [[ability:burst]], it can be swapped to (if in Denial form) via an **E E Q** rotation.",
+            "fr": "La forme Confirmation de pureté de [[character:durin]] est la forme par défaut de son [[ability:burst]]. On peut y revenir (si passage en forme Déni de ténèbre) avec une rotation **E E A**."
+        },
+        {
+            "en": "[[character:durin]]'s [[ability:burst]] in Purity form hits once per 1s, and can apply [[element:pyro]] in an AoE every other hit.",
+            "fr": "L'[[ability:burst]] de [[character:durin]] en forme Pureté touche une fois par seconde, et peut appliquer [[element:pyro]] en zone une fois sur deux."
+        }
+    ],
+    "weapons": {
+        "author": "Chiston",
+        "link": "https://docs.google.com/spreadsheets/d/13plWe1PZ9fhCcM_heOuxVM-iSwbF4HCIZFGYoh172Gw/edit?gid=848665920#gid=848665920"
+    }
+}

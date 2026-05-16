@@ -1,0 +1,29 @@
+{
+    "best": true,
+    "name": {
+        "en": "DPS & Buff Support",
+        "fr": "DPS & Support Buff"
+    },
+    "notes": [
+        {
+            "en": "On-Field [[character:mavuika]] focuses on dealing large amounts of [[element:pyro]] damage while riding her motorcycle: Flamestrider.",
+            "fr": "[[character:mavuika]] On-Field est axée sur d'importants dégâts [[element:pyro]] en montant sa Flambécane."
+        },
+        {
+            "en": "She's best played in a team with [[element:cryo]] characters where she can reliably get up close with Flamestrider and trigger [[element:melt]], or she can trigger [[element:vaporize]] specifically with [[character:furina]], [[character:yelan]] or [[character:mona]].",
+            "fr": "Elle se joue idéalement dans une équipe avec des personnages [[element:cryo]] où elle peut facilement se rapprocher avec sa Flambécane et déclencher [[element:melt]] de façon fiable, ou [[element:vaporize]] avec [[character:furina]], [[character:yelan]] ou [[character:mona]]."
+        },
+        {
+            "en": "[[character:mavuika]] relies on a character exclusive mechanic known as Fighting Spirit. Due to these specific mechanics, [[character:mavuika]] is also best paired with another Natlan character, with the ideal options being [[character:citlali]] and [[character:xilonen]].",
+            "fr": "[[character:mavuika]] repose sur une mécanique qui lui est propre, appelée Ferveur Guerrière. En raison de cette mécanique spécifique, [[character:mavuika]] est plus efficace lorsqu'elle est associée à un autre personnage de Natlan, les meilleures options étant [[character:citlali]] et [[character:xilonen]]."
+        },
+        {
+            "en": "[[character:mavuika]] can also take a more supportive role where she uses less field time and instead helps other DPS with her off-field damage and [[element:pyro]] application, plus A4 passive giving the onfield unit a potent dmg% buff. Due to her passives, she would still like to [[ability:burst]] in teams where she can reliably gain a large amount of Fighting Spirit both for her damage and buffing capability.",
+            "fr": "[[character:mavuika]] peut aussi adopter un rôle plus axé sur le support, où elle va utiliser moins de temps de terrain et plutôt aider les autres DPS grâce à ses dégâts off-field et à son application [[element:pyro]], en plus de son passif A4 qui donne un puissant bonus de DGT% au personnage on-field. En raison de ses passifs, elle voudra tout de même [[ability:burst]] dans les équipes où elle peut obtenir assez de Ferveur Guerrière, à la fois pour ses dégâts et ses capacités à buff."
+        }
+    ],
+    "weapons": {
+        "author": "lego102lego",
+        "link": "https://docs.google.com/spreadsheets/d/1G2q8dEPP6q5ddA7bmRLqUwgd-GePbSRnABoTX5Xi56U/edit?gid=153045548#gid=153045548"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set can be preferred over **[[artifact:gilded-dreams]] (4)** in teams where **[[character:durin]] has notably higher [[stat:er]] Requirements** (usually 150%+).",
+                                "fr": "Ce set peut être préféré à **[[artifact:gilded-dreams]] (4)** dans les équipes où **[[character:durin]] a des besoins en [[stat:er]] plus élevés** (environ 150%+)."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
