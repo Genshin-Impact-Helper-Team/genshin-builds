@@ -1,0 +1,58 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "thundering-pulse"
+            ]
+        },
+        {
+            "items": [
+                "aqua-simulacra",
+                "the-first-great-magic"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "Assumes 2 stacks by performing a quick aimed shot before using [[ability:skill]].",
+                        "fr": "Suppose 2 stacks en effectuant une attaque visée rapide avant d'utiliser le [[ability:skill]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "hunters-path",
+                "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "slingshot",
+                    "refinement": 5
+                },
+                {
+                    "name": "amos-bow",
+                    "note": {
+                        "en": "Weapon rankings are assuming 3 stacks. At 2 stacks it performs worse than **[[weapon:slingshot]] [R5]**. The closer you are to the enemy, the less stacks this weapon gets.",
+                        "fr": "Le classement de cette arme suppose 3 stacks. Avec 2 stacks, elle performe moins bien que **[[weapon:slingshot]] [R5]**. Le plus proche de l'ennemi vous êtes, le moins de stack cette arme reçoit."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "rust",
+                    "note": {
+                        "en": "Scales well with refinements, at **[R5]** this weapon performs similar to **[[weapon:polar-star]]**. At **[R4+]** it outperforms **[[weapon:slingshot]] [R5]**",
+                        "fr": "Bénéfie plutôt bien des raffinements, une fois **[R5]** cette arme devient similaire à **[[weapon:polar-star]]**. Une fois **[R4+]**, elle dépasse **[[weapon:slingshot]] [R5]**"
+                    }
+                }
+            ]
+        }
+    ]
+}

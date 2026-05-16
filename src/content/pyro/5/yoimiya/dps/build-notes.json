@@ -1,0 +1,28 @@
+{
+    "best": true,
+    "name": {
+        "en": "DPS"
+    },
+    "notes": [
+        {
+            "en": "[[character:yoimiya]] is an off-field [[element:pyro]] DPS who specializes in dealing damage through her [[ability:na]]s. It is recommended to play [[character:yoimiya]] with some source of resistance to interruption, as breaking her [[ability:na]] string is a significant damage loss.",
+            "fr": "[[character:yoimiya]] est un DPS [[element:pyro]] off-field spécialisée dans les dégâts d'[[ability:na]]s. Il est recommandé de jouer [[character:yoimiya]] avec une source de résistance à l'interruption, car interrompre son combo d'[[ability:na]] représente une perte significative de dégâts."
+        },
+        {
+            "en": "This ranking assumes a [[element:vaporize]] team with [[character:bennett]].",
+            "fr": "Ces classements supposent une équipe [[element:vaporize]] incluant [[character:bennett]]."
+        },
+        {
+            "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her N5, and in [[element:vaporize]] teams you should be Vaporizing the N1 (first hit), N3 and N5.",
+            "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa N5, et dans les équipes [[element:vaporize]] vous devriez chercher à évaporer sa N1, N3 et N5."
+        }
+    ],
+    "weapons": {
+        "author": "Chiston",
+        "link": "https://docs.google.com/spreadsheets/d/1xyJukgBCSvunu3HtheVlbX5bgI0z9flIFIcL2h8oCSQ/edit?gid=848665920#gid=848665920"
+    },
+    "artifact": {
+        "author": "Chiston",
+        "link": "https://docs.google.com/spreadsheets/d/1pSioo_Zd9v8TlQjLD1ldQyj1LP4MDYmAA7rrWXWA4Ow/edit?gid=848665920#gid=848665920"
+    }
+}
