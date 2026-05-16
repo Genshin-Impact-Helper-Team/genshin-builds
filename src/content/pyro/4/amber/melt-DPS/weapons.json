@@ -71,6 +71,13 @@
                 },
                 "kings-squire",
                 "scion-of-the-blazing-sun"
+            ],
+            "notes": [
+                {
+      "en": "When attacking Weak Points, the attacks are guaranteed to Crit, making weapons with [[stat:cr]] substat lose value.",
+      "fr": "Les attaques touchant les points faibles des ennemis sont garanties de crit, ce qui fait perdre de la valeur aux armes ayant une substat [[stat:cr]].",
+      "it": "Se vengono colpiti i Punti Deboli, è garantito un colpo critico - questo fa perdere valore alle armi con [[stat:cr]]. Tuttavia, molti nemici non hanno Punti Deboli."
+    }
             ]
         }
     ]
