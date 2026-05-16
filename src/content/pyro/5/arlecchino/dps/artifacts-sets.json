@@ -1,0 +1,77 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "fragment-of-harmonic-whimsy",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "desert-pavilion-chronicle",
+                            "pieces": 4,
+                            "note": {
+                                "en": "**Don't cancel [[character:arlecchino]]'s [[ability:ca]] too early** to ensure that it hits opponents for the passive effect.",
+                                "fr": "**Ne faites pas un cancel de l'[[ability:ca]] d'[[character:arlecchino]] trop tôt** pour vous assurer qu'elle touche un ennemi pour le passif du set."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "crimson-witch-of-flame",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "marechaussee-hunter",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "echoes-of-an-offering",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set performs similarly to [[artifact:desert-pavilion-chronicle]] (4)** if your ping is **consistently lower than 200**.",
+                                "fr": "Ce set est similaire à [[artifact:desert-pavilion-chronicle]] (4)** si votre ping est **constamment plus bas que 200**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

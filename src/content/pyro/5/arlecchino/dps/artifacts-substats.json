@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "cr/cd",
+        {
+            "name": "em",
+            "note": {
+                "en": "Should only be considered if [[character:arlecchino]] is in a [[element:vaporize]] or [[element:melt]] team.",
+                "fr": "Ne doit être envisagé que si [[character:arlecchino]] est dans une équipe [[element:vaporize]] ou [[element:melt]]."
+            }
+        },
+        "atk%"
+    ]
+}

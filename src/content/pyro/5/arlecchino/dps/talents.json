@@ -1,0 +1,31 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "na"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "[[character:arlecchino]]'s [[ability:skill]] and [[ability:burst]] do not need as high of an investment as her [[ability:na]] talent does.",
+            "fr": "Le [[ability:skill]] et l'[[ability:burst]] d'[[character:arlecchino]] ne nécéssitent pas un investissement aussi élevé que son [[ability:na]]."
+        }
+    ]
+}

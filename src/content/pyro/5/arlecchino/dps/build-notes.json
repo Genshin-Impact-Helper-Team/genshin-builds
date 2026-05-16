@@ -1,0 +1,15 @@
+{
+    "name": {
+        "en": "DPS"
+    },
+    "notes": [
+        {
+            "en": "[[character:arlecchino]] is a [[element:pyro]] DPS that focuses on dealing damage through her [[ability:bol]] mechanic. It should be noted that while in combat, [[character:arlecchino]] cannot be healed by any source other than her [[ability:burst]]. For this reason, a shielder is strongly recommended within her teams.",
+            "fr": "[[character:arlecchino]] est un DPS [[element:pyro]] centrée sur l'augmentation de ses dégâts via sa méchanique d'[[ability:bol]]. A noter: en combat, [[character:arlecchino]] ne peut pas être soignée autrement qu'avec son [[ability:burst]]. Pour cette raison, un bouclier est fortement recommandé dans ses équipes."
+        },
+        {
+            "en": "[[ability:skill]] combo: **E > Team buffs > CA > 3(N5D) or 6(N3D)**. 6(N3D) is preferred for [[element:vaporize]] and [[element:melt]] teams.",
+            "fr": "[[ability:skill]] combo: **E > Buffs de l'équipe > CA > 3(N5D) ou 6(N3D)**. 6(N3D) est préféré pour les équipes [[element:vaporize]] et [[element:melt]]."
+        }
+    ]
+}
