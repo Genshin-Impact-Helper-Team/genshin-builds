@@ -1,0 +1,20 @@
+{
+    "main_stats": {
+        "sands": [
+            "em",
+            "atk%"
+        ],
+        "goblet": [
+            "pyro-dmg"
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    },
+    "notes": [
+        {
+            "en": "In almost all situations [[character:mavuika]] will prefer an [[stat:em]] Sands over an [[stat:atk%]] Sands, unless she is not used in Amplifying Reaction focused team ([[element:vaporize]]/[[element:melt]]). It should also be noted that with many external [[stat:em]] buffs, such as [[artifact:instructor]] (4) artifact set or [[character:sucrose]], [[stat:em]] slightly loses value.",
+            "fr": "Dans presque toutes les situations, [[character:mavuika]] va préférer un sablier [[stat:em]] plutôt que [[stat:atk%]], à moins de ne pas être jouée dans une équipe tournée autour des réactions d'amplification ([[element:vaporize]]/[[element:melt]]). A noter aussi qu'avec beaucoup de buffs externe de [[stat:em]], comme le set [[artifact:instructor]] (4) ou [[character:sucrose]], la [[stat:em]] perd légèrement en intérêt."
+        }
+    ]
+}
