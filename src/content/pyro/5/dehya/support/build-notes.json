@@ -1,0 +1,16 @@
+{
+    "best": true,
+    "name": {
+        "en": "Support"
+    },
+    "notes": [
+        {
+            "en": "Support [[character:dehya]] uses her [[ability:skill]] to do passive damage and apply [[element:pyro]], while providing the team with interruption resistance and tank damage.",
+            "fr": "[[character:dehya]] Support utilise son [[ability:skill]] pour infliger des dégâts de manière passive et appliquer [[element:pyro]], tout en offrant de la résistance à l'interruption et en tankant les dégâts."
+        },
+        {
+            "en": "Support [[character:dehya]] is not reliant on her [[ability:burst]] to support the team as a damage tank.",
+            "fr": "[[character:dehya]] Support ne dépend pas de son [[ability:burst]] pour être un support tank pour l'équipe."
+        }
+    ]
+}

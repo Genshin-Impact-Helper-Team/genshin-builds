@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "hp%",
+        "hp",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Prioritize if using **[[weapon:favonius-greatsword]]**",
+                "fr": "A prioriser si vous utilisez **[[weapon:favonius-greatsword]]**"
+            }
+        }
+    ]
+}

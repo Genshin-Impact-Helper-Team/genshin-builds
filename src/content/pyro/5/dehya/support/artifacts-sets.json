@@ -1,0 +1,76 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4,
+                            "note": {
+                                "en": "A useful set if the team appreciates [[stat:em]].",
+                                "fr": "Un set utile si l'équipe apprécie la [[stat:em]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is only useful in teams that are focused on [[stat:dendro-dmg]], including [[element:bloom]]-based teams.",
+                                "fr": "Ce set n'est utile que pour les équipent qui tournent autour des [[stat:dendro-dmg]], y compris les équipes [[element:bloom]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
