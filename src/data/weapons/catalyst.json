@@ -52,7 +52,7 @@
     "a-thousand-floating-dreams": {
         "rarity": 5,
         "passive": {
-            "en": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by 32/40/48/56/64. If not, increase the equipping character's DMG Bonus from their Elemental Type by 10%/14%/18%/22%/26%. Each of the aforementioned effects can have up to /. The aforementioned effects can have /. The aforementioned effects can have /. The aforementioned effects can have /. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by 40/42/44/46/48. Multiple such effects from multiple such weapons can stack.",
+            "en": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by {{value}}. If not, increase the equipping character's DMG Bonus from their Elemental Type by {{value}}%. Each of the aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by {{value}}. Multiple such effects from multiple such weapons can stack.",
             "de": "Verleiht dem Träger für jedes weitere Truppenmitglied gemäß dessen Elementartyp folgende Boni. Gleicher Elementartyp: Erhöht die Elementarkunde um {{value}} Punkte. Anderer Elementartyp: Erhöht den Schaden des jeweiligen Elements des Trägers um {{value}}%. Beide Effekte sind 3-fach stapelbar. Erhöht außerdem die Elementarkunde der anderen Truppenmitglieder in der Nähe um {{value}} Punkte. Dieser Effekt kann bei mehreren gleichen Waffen gestapelt werden.",
             "es": "Otorga al portador de esta arma distintas bonificaciones dependiendo de si el resto de los personajes del equipo son del mismo tipo elemental que él o no. Por cada personaje con el mismo tipo elemental: aumenta en {{value}} pts. la Maestría Elemental. Por cada personaje con distinto tipo elemental: aumenta en un {{value}}% el Bono de Daño Elemental del tipo elemental que sea el portador de esta arma. Cada una de estas bonificaciones se puede acumular hasta 3 veces. Además, la Maestría Elemental de los personajes del equipo cercanos (a excepción del portador de esta arma) aumenta en {{value}} pts. Este efecto se puede acumular con los de otros personajes del equipo que lleven esta arma equipada.",
             "fr": "Les autres personnages de l'équipe fournissent au personnage équipé de l'arme des bonus selon leur type élémentaire. En cas de type élémentaire identique à celui du personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de {{value}} pts. En cas de type élémentaire différent, le bonus de DGT élémentaires du type élémentaire du personnage équipé de l'arme augmente de {{value}}%. Chacun des effets mentionnés ci-dessus peut être cumulé 3 fois maximum. De plus, la maîtrise élémentaire de tous les personnages de l'équipe à proximité autres que celui équipé de l'arme augmente de {{value}} pts. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler.",
@@ -267,7 +267,7 @@
     "cranes-echoing-call": {
         "rarity": 5,
         "passive": {
-            "en": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 28%/41%/54%/67%/80% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.5/2.75/3/3.25/3.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
+            "en": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal {{value}}% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore {{value}} Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
             "de": "Erhöht den Schaden des Angriffs aus dem Fall aller Truppenmitglieder in der Nähe 20 s lang um {{value}}%, nachdem der Träger Gegner mit dem Angriff aus dem Fall getroffen hat. Stellt dem Träger {{value}} Punkte Elementarenergie wieder her, wenn die Angriffe aus dem Fall der Truppenmitglieder in der Nähe Gegner treffen, 0,7 s Abklingzeit. Die Elementarenergie kann auch wiederhergestellt werden, wenn der Träger inaktiv in der Truppe ist.",
             "es": "Cuando el portador de esta arma golpea a un enemigo con un Ataque Descendente, el daño que infligen los personajes cercanos del equipo con este tipo de ataque aumenta en un {{value}}% durante 20 s. Cuando un personaje cercano del equipo golpea a un enemigo con un Ataque Descendente, el portador recupera {{value}} pts. de Energía Elemental. Solo se puede recuperar Energía Elemental una vez cada 0.7 s de esta manera, y el portador podrá recuperarla incluso cuando esté en tu equipo pero no en uso.",
             "fr": "Lorsque l'attaque plongeante du personnage équipé de l'arme a touché un ennemi, les DGT des attaques plongeantes de tous les personnages de l'équipe à proximité augmentent de {{value}}% pendant 20 s. Lorsque l'attaque plongeante d'un personnage de l'équipe à proximité touche un ennemi, le personnage équipé de l'arme récupère {{value}} pts d'énergie élémentaire. L'énergie élémentaire peut être restaurée une fois toutes les 0,7 s de cette manière. Cette restauration d'énergie élémentaire peut être déclenchée même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
@@ -572,7 +572,7 @@
     "flowing-purity": {
         "rarity": 4,
         "passive": {
-            "en": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by 8%/10%/12%/14%/16% for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide 2%/2.5%/3%/3.5%/4% All Elemental DMG Bonus, up to a maximum of 12%/15%/18%/21%/24%. This effect lasts 15s.",
+            "en": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by {{value}}% for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide {{value}}% All Elemental DMG Bonus, up to a maximum of {{value}}%. This effect lasts 15s.",
             "de": "Erhöht beim Auslösen der Elementarfähigkeit den Elementar-SCH-Bonus aller Elemente um {{value}}%, hält 15 s. Es entsteht gleichzeitig ein Eid des Lebens mit einem Basiswert in Höhe von 24 % der max. LP. 10 s Abklingzeit. Wenn der Eid des Lebens entfernt wird, wird der Elementar-SCH-Bonus aller Elemente pro 1.000 Punkte entfernter Summe um jeweils {{value}}%, max. {{value}}%, erhöht. Hält 15 s.",
             "es": "Al usar la Habilidad Elemental, se obtiene un Bono de Daño Elemental del {{value}}% para todos los elementos durante 15 s, y otorga al personaje un “pacto vital” del 24% de su Vida Máx. Este efecto solo puede activarse una vez cada 10 s. Cuando el pacto vital se elimina, otorga un Bono de Daño Elemental del {{value}}% a todos los elementos por cada 1000 pts. de Vida consumidos de dicho pacto. Como máximo, de esta manera se puede obtener un {{value}}% de Bono de Daño Elemental para todos los elementos durante 15 s.",
             "fr": "Libérer une compétence élémentaire augmente le bonus de DGT élémentaires de {{value}}% pendant 15 s et accorde un engagement vital d'une valeur équivalant à 24 % des PV max. Cet effet peut être déclenché une fois toutes les 10 s. Lorsque l'engagement vital disparaît, chaque tranche de 1 000 pts de l'engagement accorde un bonus de DGT élémentaires de {{value}}% pendant 15 s, un maximum de {{value}}% pouvant être obtenu de cette manière.",
@@ -732,7 +732,7 @@
     "jadefalls-splendor": {
         "rarity": 5,
         "passive": {
-            "en": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5/5/5.5/6/6.5 Energy every 2.5s, and gain 0.3%/0.5%/0.7%/0.9%/1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12%/20%/28%/36%/44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
+            "en": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore {{value}} Energy every 2.5s, and gain {{value}}% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to {{value}}%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
             "de": "Verleiht innerhalb 3 s nach Anwenden von Spezialfähigkeiten oder Erstellen eines Schilds den Effekt „Urzeitliche Jadeinsignien“: Stellt alle 2,5 s {{value}} Punkte Elementarenergie wieder her und erhöht den Elementar-SCH-Bonus des jeweiligen Elementartyps basierend auf den max. LP des Trägers für je 1.000 Punkte um {{value}}%, max. {{value}}%. Der Effekt „Urzeitliche Jadeinsignien“ wird auch ausgelöst, wenn die mit dieser Waffe ausgerüstete Figur inaktiv ist.",
             "es": "Tras usar una Habilidad Definitiva o crear un escudo, se activa el efecto de “amuleto de jade” durante 3 s, el cual regenera {{value}} pts. de Energía Elemental cada 2.5 s y hace que, por cada 1000 pts. de Vida Máx. que tenga el portador de esta arma, el Bono de Daño Elemental de su tipo elemental aumente en un {{value}}%, pudiendo aumentar hasta un máximo de un {{value}}%. El efecto de amuleto de jade podrá activarse incluso cuando el portador de esta arma esté en tu equipo pero no en uso.",
             "fr": "Pendant 3 s après avoir utilisé un déchaînement élémentaire ou créé un bouclier, l'effet Tablette de jade primordial est accordé : restaure {{value}} pts d'énergie élémentaire toutes les 2,5 s et augmente le bonus de DGT de l'élément correspondant de {{value}}% pour chaque tranche de 1 000 PV max que le personnage équipé de l'arme possède, cette augmentation pouvant atteindre jusqu'à {{value}}%. L'effet Tablette de jade primordial peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
@@ -962,7 +962,7 @@
     "nightweavers-looking-glass": {
         "rarity": 5,
         "passive": {
-            "en": "When the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by 60/75/90/105/120 for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by 60/75/90/105/120 for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by 120%/150%/180%/210%/240%, their Hyperbloom and Burgeon DMG is increased by 80%/100%/120%/140%/160%, and their Lunar-Bloom DMG is increased by 40%/50%/60%/70%/80%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.",
+            "en": "When the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by {{value}} for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by {{value}} for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by {{value}}%, their Hyperbloom and Burgeon DMG is increased by {{value}}%, and their Lunar-Bloom DMG is increased by {{value}}%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.",
             "de": "Verleiht dem Träger, wenn er mit seiner Elementarfähigkeit Hydro- oder Dendro-Schaden verursacht, den Effekt „Heilige Worte des Nordens“: Erhöht die Elementarkunde 4,5 s lang um {{value}} Punkte. Verleiht dem Träger, wenn Truppenmitglieder in der Nähe die Reaktion „Mondspross“ auslösen, den Effekt „Verse des Neumonds“: Erhöht die Elementarkunde 10 s lang um {{value}} Punkte. Erhöht, wenn die Effekte „Heilige Worte des Nordens“ und „Verse des Neumonds“ gleichzeitig existieren, den von allen Truppenmitgliedern in der Nähe mit der Reaktion „Sprießen“ verursachten Schaden um {{value}}%, den mit den Reaktionen „Supraspross“ und „Flammenspross“ verursachten Schaden um {{value}}% sowie den mit der Reaktion „Mondspross“ verursachten Schaden um {{value}}%. Dieser Effekt ist nicht stapelbar und kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
             "es": "Al infligir Daño Hydro o Daño Dendro con la Habilidad Elemental, el portador de esta arma obtiene el efecto de “runo del Lejano Norte”, el cual aumenta la Maestría Elemental en {{value}} pts. durante 4.5 s. Cuando un personaje cercano del equipo causa una reacción de Florecimiento Lunar, el portador obtiene el efecto de “cantar de la luna nueva”, el cual aumenta la Maestría Elemental en {{value}} pts. durante 10 s. Si ambos efectos están activos al mismo tiempo, el daño de la reacción de Florecimiento que infligen todos los personajes cercanos del equipo aumenta en un {{value}}%, el de las reacciones de Sobreflorecimiento y Crepitar aumenta en un {{value}}%, y el de Florecimiento Lunar aumenta en un {{value}}%. Este efecto no se puede acumular, y puede activarse incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
             "fr": "En infligeant des DGT Hydro ou Dendro avec une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Prière du grand nord, augmentant la maîtrise élémentaire de {{value}} pts pendant 4,5 s. Lorsqu'un membre de l'équipe à proximité déclenche une réaction de Sélénofleurissement, le personnage équipé de l'arme obtient l'effet Verset de la nouvelle lune, augmentant la maîtrise élémentaire de {{value}} pts pendant 10 s. Lorsque le personnage équipé de l'arme bénéfice d'une prière du grand nord et d'un verset de la nouvelle lune en même temps, les DGT infligés par les réactions de Fleurissement de tous les personnages de l'équipe à proximité augmentent de {{value}}%, ceux de leurs réactions d'Exubérance et de Bourgeonnement de {{value}}% et ceux de leurs réactions de Sélénofleurissement de {{value}}%, ces effets ne se cumulant pas. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
@@ -1137,7 +1137,7 @@
     "prototype-amber": {
         "rarity": 4,
         "passive": {
-            "en": "Using an Elemental Burst regenerates 4/4.5/5/5.5/6 Energy every 2s for 6s. All party members will regenerate 4%/4.5%/5%/5.5%/6% HP every 2s for this duration.",
+            "en": "Using an Elemental Burst regenerates {{value}} Energy every 2s for 6s. All party members will regenerate {{value}}% HP every 2s for this duration.",
             "de": "Stellt nach Anwendung von Spezialfähigkeiten 6 s lang alle 2 s {{value}} Punkte Elementarenergie und allen Truppenmitgliedern alle 2 s {{value}}% LP wieder her.",
             "es": "Tras lanzar una Habilidad Definitiva, regenera {{value}} pts. de Energía Elemental cada 2 s durante 6 s. Además, todos los miembros del equipo recuperarán un {{value}}% de Vida cada 2 s.",
             "fr": "Restaure {{value}} pts d'énergie élémentaire toutes les 2 s pendant 6 s après l'utilisation d'un déchaînement élémentaire. Tous les personnages de l'équipe récupèrent {{value}}% de leurs PV toutes les 2 s pendant cette durée.",
@@ -1297,7 +1297,7 @@
     "sacrificial-fragments": {
         "rarity": 4,
         "passive": {
-            "en": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
+            "en": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every {{value}} s.",
             "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
             "es": "Al hacer daño por medio de una Habilidad Elemental, hay un {{value}}% de probabilidad de restablecer el TdE de esta habilidad. Este efecto puede activarse una vez cada {{value}} s.",
             "fr": "Les compétences élémentaires ont {{value}}% de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -1314,19 +1314,24 @@
             "substat_value": "221"
         },
         "r1": [
-            40
+            40,
+            30
         ],
         "r2": [
-            50
+            50,
+            26
         ],
         "r3": [
-            60
+            60,
+            22
         ],
         "r4": [
-            70
+            70,
+            19
         ],
         "r5": [
-            80
+            80,
+            16
         ]
     },
     "sacrificial-jade": {
@@ -1372,7 +1377,7 @@
     "skyward-atlas": {
         "rarity": 5,
         "passive": {
-            "en": "Increases Elemental DMG Bonus by 12%/15%/18%/21%/24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160%/200%/240%/280%/320% ATK DMG. Can only occur once every 30s.",
+            "en": "Increases Elemental DMG Bonus by {{value}}%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing {{value}}% ATK DMG. Can only occur once every 30s.",
             "de": "Erhöht den Elementarschaden um {{value}}% und erhält bei Treffern mit Standardangriffen mit einer Wahrscheinlichkeit von 50 % die Gunst der Wolken, die Gegner in der Umgebung aktiv angreifen und Schaden in Höhe von {{value}}% ANG verursachen. 30 s Abklingzeit.",
             "es": "Aumenta en un {{value}}% el bono de Daño Elemental. Al atacar con un Ataque Normal, hay un 50% de probabilidad de conseguir la gracia de las nubes. Estas buscarán durante 15 s enemigos a los que atacar, infligiendo un {{value}}% de daño de ATQ. Este efecto solo puede ocurrir una vez cada 30 s.",
             "fr": "Augmente le bonus de DGT élémentaires de {{value}}%. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige {{value}}% des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
@@ -1452,7 +1457,7 @@
     "starcallers-watch": {
         "rarity": 5,
         "passive": {
-            "en": "Increases Elemental Mastery by 100/125/150/175/200. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 28%/35%/42%/49%/56% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+            "en": "Increases Elemental Mastery by {{value}}. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals {{value}}% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
             "de": "Erhöht die Elementarkunde um {{value}} Punkte. Verleiht innerhalb von 15 s nach Erschaffen eines Schildes durch den Träger den Effekt „Nacht reflektierender Spiegel“: Erhöht den in der Nähe befindlichen Gegnern durch die eigene aktuelle Figur in der Truppe zugefügten Schaden um {{value}}%. 14 s Abklingzeit für das Erhalten des Effektes „Nacht reflektierender Spiegel“.",
             "es": "Aumenta la Maestría Elemental en {{value}} pts. En los 15 s siguientes tras crear un escudo, el portador de esta arma obtiene el efecto “espejo de la noche”, el cual aumenta en un {{value}}% el daño que inflige el personaje en uso de tu equipo a los enemigos cercanos. Puedes obtener este efecto una vez cada 14 s.",
             "fr": "La maîtrise élémentaire augmente de {{value}} pts et le personnage équipé de l'arme obtient l'effet Miroir nocturne pendant 15 s après avoir créé un bouclier : les DGT infligés par votre personnage déployé aux ennemis proches augmentent de {{value}}%. L'effet Miroir nocturne peut être déclenché une fois toutes les 14 s maximum.",
@@ -1492,7 +1497,7 @@
     "sunny-morning-sleep-in": {
         "rarity": 5,
         "passive": {
-            "en": "Elemental Mastery increases by 120/150/180/210/240 for 6s after triggering Swirl. Elemental Mastery increases by 96/120/144/168/192 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 32/40/48/56/64 for 30s after the wielder's Elemental Burst hits an opponent.",
+            "en": "Elemental Mastery increases by {{value}} for 6s after triggering Swirl. Elemental Mastery increases by {{value}} for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by {{value}} for 30s after the wielder's Elemental Burst hits an opponent.",
             "de": "Erhöht die Elementarkunde nach Auslösen der Reaktion Verwirbelung 6 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Elementarfähigkeiten 9 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Spezialfähigkeiten 30 s lang um {{value}} Punkte.",
             "es": "La Maestría Elemental aumenta en {{value}} pts. durante 6 s tras causar una reacción de Torbellino. La Maestría Elemental aumenta en {{value}} pts. durante 9 s tras golpear a un enemigo con la Habilidad Elemental, y aumenta en {{value}} pts. durante 30 s tras golpear a un enemigo con la Habilidad Definitiva.",
             "fr": "Après avoir déclenché une réaction de Dispersion, la maîtrise élémentaire augmente de {{value}} pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de {{value}} pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de {{value}} pts pendant 30 s.",
@@ -1622,7 +1627,7 @@
     "thrilling-tales-of-dragon-slayers": {
         "rarity": 3,
         "passive": {
-            "en": "When switching characters, the new character taking the field has their ATK increased by 24%/30%/36%/42%/48% for 10s. This effect can only occur once every 20s.",
+            "en": "When switching characters, the new character taking the field has their ATK increased by {{value}}% for 10s. This effect can only occur once every 20s.",
             "de": "Erhöht den ANG aktiv eingewechselter Figuren 10 s lang um {{value}}%. 20 s Abklingzeit.",
             "es": "Al cambiar de personaje, el ATQ del nuevo personaje aumenta en un {{value}}% durante 10 s. Este efecto puede ocurrir una vez cada 20 s.",
             "fr": "Augmente l'ATQ de {{value}}% pendant 10 s après un changement de personnage. Cet effet peut être déclenché une fois toutes les 20 s.",

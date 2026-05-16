@@ -972,7 +972,7 @@
     "sacrificial-greatsword": {
         "rarity": 4,
         "passive": {
-            "en": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every 30s/26s/22s/19s/16s.",
+            "en": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every {{value}} s.",
             "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
             "es": "Al hacer daño por medio de una Habilidad Elemental, hay un {{value}}% de probabilidad de restablecer el TdE de esta habilidad. Este efecto puede activarse una vez cada {{value}} s.",
             "fr": "Les compétences élémentaires ont {{value}}% de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -989,19 +989,24 @@
             "substat_value": "30.6%"
         },
         "r1": [
-            40
+            40,
+            30
         ],
         "r2": [
-            50
+            50,
+            26
         ],
         "r3": [
-            60
+            60,
+            22
         ],
         "r4": [
-            70
+            70,
+            19
         ],
         "r5": [
-            80
+            80,
+            16
         ]
     },
     "serpent-spine": {
