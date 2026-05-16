@@ -1,0 +1,25 @@
+{
+    "best": true,
+    "name": {
+        "en": "[[element:vaporize]]/[[element:melt]] Off-Field DPS",
+        "fr": "DPS [[element:vaporize]]/[[element:melt]] Off-Field"
+    },
+    "notes": [
+        {
+            "en": "This playstyle leverages [[character:durin]]'s Denial form to deal massively increased [[element:vaporize]] and/or [[element:melt]] damage. This is typically done as an off-field DPS, however, on-field variants of this playstyle exist.",
+            "fr": "Ce style de jeu tire avantage de la forme Déni de ténèbre de [[character:durin]] pour infliger des dégâts augmentés d'[[element:vaporize]] et/ou de [[element:melt]]. Il est typicalement joué de cette façon en off-field, mais des variantes on-field existent."
+        },
+        {
+            "en": "Denial form is activated by using [[character:durin]]'s [[ability:burst]] after an **E N1**.",
+            "fr": "La forme Déni de ténèbre s'active en utilisant l'[[ability:burst]] de [[character:durin]] après un **E N1**."
+        },
+        {
+            "en": "[[character:durin]]'s [[ability:burst]] in Denial form hits once per 1.25s, and can [[element:vaporize]]/[[element:melt]] every other hit.",
+            "fr": "L'[[ability:burst]] de [[character:durin]] en forme Déni de ténèbre touche une fois toutes les 1.25s, et peut déclencher [[element:vaporize]]/[[element:melt]] une fois sur deux."
+        }
+    ],
+    "weapons": {
+        "author": "Chiston",
+        "link": "https://docs.google.com/spreadsheets/d/1OD0Pzc09BTOvIDc_j4vKMD11ofcGtFtuCSnGXFme2uU/edit?gid=848665920#gid=848665920"
+    }
+}

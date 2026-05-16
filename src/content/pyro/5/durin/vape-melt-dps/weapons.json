@@ -1,0 +1,59 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "athame-artis"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-cutter",
+                "azurelight"
+            ]
+        },
+        {
+            "items": [
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu"
+            ]
+        },
+        {
+            "items": [
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "summit-shaper",
+                "light-of-foliar-incision",
+                "freedom-sworn",
+                {
+                    "name": "finale-of-the-deep",
+                    "note": {
+                        "en": "For this ranking it is assumed that **[[character:durin]] is healed**, and the [[ability:bol]] is cleared. If **this cannot occur**, this weapon ranks roughly equal to **[[weapon:moonweavers-dawn]]**.",
+                        "fr": "Ce classement suppose que **[[character:durin]] se fait soigner**, et que l'[[ability:bol]] est retiré. Si **ce n'est pas le cas**, cette arme se classe environ au même niveau que **[[weapon:moonweavers-dawn]]**."
+                    }
+                },
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "At **[R5]** this weapon ranks above **[[weapon:summit-shaper]]**.",
+                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:summit-shaper]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "uraku-misugiri",
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
+                "moonweavers-dawn"
+            ]
+        }
+    ]
+}
