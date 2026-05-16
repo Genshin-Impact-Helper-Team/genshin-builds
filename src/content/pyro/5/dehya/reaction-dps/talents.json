@@ -1,0 +1,15 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note": {
+                        "en": "For an EM-focused build, upgrading [[character:dehya]]'s talent levels isn't a necessity.",
+                        "fr": "Pour un build concentré sur la [[stat:em]], level up les talents de [[character:dehya]] n'est pas une nécessité."
+                    }
+                }
+            ]
+        }
+    ]
+}

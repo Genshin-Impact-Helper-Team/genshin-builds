@@ -1,0 +1,64 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "flower-of-paradise-lost",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

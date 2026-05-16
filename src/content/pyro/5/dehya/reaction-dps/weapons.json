@@ -1,0 +1,33 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "mailed-flower"
+            ]
+        },
+        {
+            "items": [
+                "makhaira-aquamarine",
+                "bloodtainted-greatsword",
+                "rainslasher"
+            ]
+        },
+        {
+            "items": [
+                "favonius-greatsword"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-greatsword",
+                    "refinement": 5,
+                    "note": {
+                        "en": "For some teams, this weapon can be crucial to enable shorter rotation times.",
+                        "fr": "Pour certaines équipes, cette arme peut être cruciale pour permettre des rotations plus courtes."
+                    }
+                }
+            ]
+        }
+    ]
+}
