@@ -1722,7 +1722,7 @@
     "the-viridescent-hunt": {
         "rarity": 4,
         "passive": {
-            "en": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing {{value}}% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s/13s/12s/11s/10s.",
+            "en": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing {{value}}% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every {{value}} s.",
             "de": "Erschafft bei Treffern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % ein Windauge, das Gegner in der Umgebung fortlaufend ansaugt und ihnen 4 s lang alle 0,5 s Schaden in Höhe von {{value}}% ANG zufügt. {{value}} s Abklingzeit.",
             "es": "Al golpear con un Ataque Normal o Ataque Cargado, hay un 50% de probabilidad de crear un ciclón que atrae a los enemigos cercanos de forma continua, infligiendo un {{value}}% del ATQ como daño cada 0.5 s durante 4 s. Este efecto puede ocurrir una vez cada {{value}} s.",
             "fr": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de générer un cyclone qui attire les ennemis et leur inflige des DGT équivalant à {{value}}% de l'ATQ toutes les 0,5 s pendant 4 s. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -1739,19 +1739,24 @@
             "substat_value": "27.6%"
         },
         "r1": [
-            40
+            40,
+            14
         ],
         "r2": [
-            50
+            50,
+            13
         ],
         "r3": [
-            60
+            60,
+            12
         ],
         "r4": [
-            70
+            70,
+            11
         ],
         "r5": [
-            80
+            80,
+            10
         ]
     },
     "thundering-pulse": {
