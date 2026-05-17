@@ -110,7 +110,7 @@ Each object has:
 - `link`: URL opened by the detailed calculation link.
 - `author`: Name shown after "Thank you to".
 - `detail`: Optional text shown in parentheses after the detailed calculation
-  link text.
+  link text. Supports inline translation tokens.
 
 For example, this:
 

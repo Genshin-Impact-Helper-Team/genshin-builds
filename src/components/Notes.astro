@@ -81,8 +81,15 @@ const calculationCreditItems = buildNote
               <a href={credit.link} target="_blank">
                 {linkText}
               </a>
-              {credit.detail && <> ({credit.detail})</>} -{' '}
-              {t(locale, 'ui', 'Thank you to')} {credit.author}!
+              {credit.detail && (
+                <>
+                  {' '}
+                  (<span set:html={credit.detail} />)
+                </>
+              )}{' '}
+              - {t(locale, 'ui', 'Thank you to')}
+              {'\u00a0'}
+              {credit.author}!
             </div>
           ))}
 

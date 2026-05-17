@@ -40,6 +40,12 @@ type LocalizedBuildNote = {
   [lang: string]: string;
 };
 
+type BuildCalculationCredit = {
+  author?: string;
+  link?: string;
+  detail?: string;
+};
+
 /**
  * Resolves the expected path for a build-level JSON file.
  *
@@ -374,9 +380,34 @@ function buildLocalizedNotes(
   const notes: LocalizedBuildNote[] = Array.isArray(buildNoteData.notes)
     ? buildNoteData.notes
     : [];
+  const localizeCreditDetail = (credit: BuildCalculationCredit) =>
+    credit?.detail
+      ? {
+          ...credit,
+          detail: translator.translateNoteText(credit.detail, sourceFile, {
+            weaponPopovers: true,
+            artifactPopovers: true,
+          }),
+        }
+      : credit;
+  const localizeCreditDetails = (
+    value: BuildCalculationCredit | BuildCalculationCredit[] | undefined,
+  ) => {
+    if (Array.isArray(value)) {
+      return value.map(localizeCreditDetail);
+    }
+
+    return value ? localizeCreditDetail(value) : value;
+  };
 
   return {
     ...buildNoteData,
+    artifact: localizeCreditDetails(buildNoteData.artifact),
+    artifacts: localizeCreditDetails(buildNoteData.artifacts),
+    weapons: localizeCreditDetails(buildNoteData.weapons),
+    talent: localizeCreditDetails(buildNoteData.talent),
+    talents: localizeCreditDetails(buildNoteData.talents),
+    global: localizeCreditDetails(buildNoteData.global),
     notes: notes.map((note) => {
       if (!note.en) {
         throw new Error(

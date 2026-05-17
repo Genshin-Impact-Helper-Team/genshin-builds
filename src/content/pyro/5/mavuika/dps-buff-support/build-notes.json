@@ -22,8 +22,16 @@
             "fr": "[[character:mavuika]] peut aussi adopter un rôle plus axé sur le support, où elle va utiliser moins de temps de terrain et plutôt aider les autres DPS grâce à ses dégâts off-field et à son application [[element:pyro]], en plus de son passif A4 qui donne un puissant bonus de DGT% au personnage on-field. En raison de ses passifs, elle voudra tout de même [[ability:burst]] dans les équipes où elle peut obtenir assez de Ferveur Guerrière, à la fois pour ses dégâts et ses capacités à buff."
         }
     ],
-    "weapons": {
-        "author": "lego102lego",
-        "link": "https://docs.google.com/spreadsheets/d/1G2q8dEPP6q5ddA7bmRLqUwgd-GePbSRnABoTX5Xi56U/edit?gid=153045548#gid=153045548"
-    }
+    "weapons": [
+        {
+            "author": "lego102lego",
+            "link": "https://docs.google.com/spreadsheets/d/1G2q8dEPP6q5ddA7bmRLqUwgd-GePbSRnABoTX5Xi56U/edit?gid=153045548#gid=153045548",
+            "detail": "[[element:melt]]"
+        },
+        {
+            "author": "lego102lego",
+            "link": "https://docs.google.com/spreadsheets/d/1KrXutdo75NRwNX8umiqZr__pGo4VeYOPs_arRp1tHW4/edit?gid=848665920#gid=848665920",
+            "detail": "[[element:vaporize]]"
+        }
+    ]
 }
