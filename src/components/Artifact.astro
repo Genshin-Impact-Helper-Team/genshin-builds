@@ -35,6 +35,8 @@ type SubstatPriority = StatItem | { items: StatItem[] };
  */
 const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
   'items' in item;
+
+const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
 ---
 
 <div class="card">
@@ -45,38 +47,39 @@ const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
     <h3>{t(locale, 'ui', 'Sets')}</h3>
 
     {
-      artifacts.sets.artifact_sets.map((rank: ArtifactSetRank, i: number) => (
-        <div style="margin-bottom: 10px;">
-          <div>
-            <strong>{i + 1}.</strong>{' '}
-            {rank.groups[0] && (
-              <>
-                <span>
-                  <ArtifactSetGroup
-                    group={rank.groups[0]}
-                    locale={locale}
-                    lang={lang}
-                  />
-                </span>
-              </>
-            )}
-          </div>
-
-          {rank.groups.slice(1).map((group) => (
-            <div class="alt">
-              &asymp;{' '}
-              <span>
-                <ArtifactSetGroup group={group} locale={locale} lang={lang} />
-              </span>
+      artifactSetRanks.length > 0 &&
+        artifactSetRanks.map((rank: ArtifactSetRank, i: number) => (
+          <div style="margin-bottom: 10px;">
+            <div>
+              <strong>{i + 1}.</strong>{' '}
+              {rank.groups[0] && (
+                <>
+                  <span>
+                    <ArtifactSetGroup
+                      group={rank.groups[0]}
+                      locale={locale}
+                      lang={lang}
+                    />
+                  </span>
+                </>
+              )}
             </div>
-          ))}
-        </div>
-      ))
+
+            {rank.groups.slice(1).map((group) => (
+              <div class="alt">
+                &asymp;{' '}
+                <span>
+                  <ArtifactSetGroup group={group} locale={locale} lang={lang} />
+                </span>
+              </div>
+            ))}
+          </div>
+        ))
     }
 
     {
       artifacts.sets.conditional?.length > 0 && (
-        <div style="margin-top: 14px;">
+        <div style={artifactSetRanks.length > 0 ? 'margin-top: 14px;' : ''}>
           <div class="bold">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
 
           {artifacts.sets.conditional.map((group: ArtifactSetGroup) => (

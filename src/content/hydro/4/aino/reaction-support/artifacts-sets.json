@@ -1,0 +1,58 @@
+{
+    "conditional": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "sms",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "[[character:aino]]'s artifact choices are very interchangeable depending on the team that she is in and what that team desires. You can choose sets based on your team's energy needs, buffing needs or based on what member holds what artifact set from the list.",
+            "fr": "Les options de set d'artéfacts pour [[character:aino]] sont interchangeables selon son équipe. Vous pouvez choisir un set en fonction des besoins en énergie de l'équipe, des buffs dont elle a besoin, ou en fonction des sets déjà portés dans l'équipe."
+        }
+    ]
+}

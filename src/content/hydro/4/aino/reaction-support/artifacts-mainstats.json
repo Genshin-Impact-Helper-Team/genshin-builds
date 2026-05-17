@@ -1,0 +1,27 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "em"
+        ],
+        "goblet": [
+            "em"
+        ],
+        "circlet": [
+            "em",
+            {
+                "name": "cr",
+                "note": {
+                    "en": "Only if using **[[weapon:favonius-greatsword]]**",
+                    "fr": "Uniquement si jouée avec **[[weapon:favonius-greatsword]]**"
+                }
+            }
+        ]
+    },
+    "notes": [
+        {
+            "en": "[[character:aino]] does not deal a significant amount of damage, so her mainstats are not very important beyond fulfilling [[stat:er]] requirements."
+            ,"fr": "[[character:aino]] n'inflige pas énormément de dégâts, donc ses stats principales ne sont pas vraiment importantes en dehors de ses besoins en [[stat:er]]."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "best": true,
+    "name": {
+        "en": "Reaction Support",
+        "fr": "Support Réactions"
+    },
+    "notes": [
+        {
+            "en": "[[character:aino]] can offer Off-Field [[element:hydro]] application with her [[ability:burst]]. She does not possess a Moon Wheel, and cannot contribute to Lunar-Reactions as the sole member in the team from Nod-Krai. [[character:aino]]'s scalings are pitifully low, thus, her damage investment is not a priority.",
+            "fr": "[[character:aino]] offre une application [[element:hydro]] off-field grâce à son [[ability:burst]]. Elle ne possède pas de Disque Lunaire, et ne peux permet donc pas de déclencher des réactions sélène à elle seule. Les scalings d'[[character:aino]] étant particulièrement bas, investir pour ses dégâts personnels n'est pas une priorité."
+        },
+        {
+            "en": "[[character:aino]]'s [C4] gives her 10 Energy upon landing her [[ability:skill]] on an enemy, effectively changing her [[ability:burst]] cost from 50 to 40. This has a cooldown of 10 seconds.",
+            "fr": "La [C4] d'[[character:aino]] lui donne 10 énergie lorsque son [[ability:skill]] touche un ennemie, abaissant le coût de son [[ability:burst]] de 50 à 40, avant un TdR de 10 secondes."
+        },
+        {
+            "en": "[[character:aino]]'s A1 talent allows her [[ability:burst]] to attack more frequently and have a larger AoE DMG if Moonsign: Ascendant Gleam is active. This requires 2 or more Nod-Krai characters in the party. [[character:aino]] herself counts towards this.",
+            "fr": "Le passif A1 d'[[character:aino]] permet à son [[ability:burst]] d'attaquer plus fréquemment sur une plus large zone si le Signelune: Lueur Ascendante est actif, ce qui nécessite un deuxième personnage de Nod-Krai dans l'équipe en plus d'[[character:aino]]."
+        }
+    ]
+}

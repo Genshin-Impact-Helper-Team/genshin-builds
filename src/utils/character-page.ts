@@ -313,7 +313,7 @@ function translateTalentItem(
 
 function getArtifactSetNoteGroups(artifactSets: any) {
   return [
-    ...artifactSets.artifact_sets.flatMap((rank: any) => rank.groups),
+    ...(artifactSets.artifact_sets ?? []).flatMap((rank: any) => rank.groups),
     ...(artifactSets.conditional ?? []),
   ];
 }
@@ -409,7 +409,7 @@ function buildLocalizedNotes(
     talents: localizeCreditDetails(buildNoteData.talents),
     global: localizeCreditDetails(buildNoteData.global),
     notes: notes.map((note) => {
-      if (!note.en) {
+      if (note.en === undefined) {
         throw new Error(
           `Build note is missing required English text (source: ${sourceFile})`,
         );
@@ -500,7 +500,7 @@ function loadBuildData({
   };
 
   // Normalize IDs into display strings before components receive the data.
-  artifacts.sets.artifact_sets = artifacts.sets.artifact_sets.map(
+  artifacts.sets.artifact_sets = (artifacts.sets.artifact_sets ?? []).map(
     (rank: { groups: any[] }) => ({
       ...rank,
       groups: rank.groups.map((group: any) =>
@@ -514,15 +514,17 @@ function loadBuildData({
       ),
     }),
   );
-  artifacts.sets.conditional = artifacts.sets.conditional?.map((group: any) =>
-    translateArtifactSetGroup(
-      translator,
-      locale,
-      group,
-      artifactSetsFile,
-      artifactSetData,
-    ),
-  );
+  artifacts.sets.conditional = (artifacts.sets.conditional ?? [])
+    .flatMap((entry: any) => entry.groups ?? [entry])
+    .map((group: any) =>
+      translateArtifactSetGroup(
+        translator,
+        locale,
+        group,
+        artifactSetsFile,
+        artifactSetData,
+      ),
+    );
 
   artifacts.mainstats.main_stats = translateMainStats(
     locale,

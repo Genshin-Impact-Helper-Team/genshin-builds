@@ -1,0 +1,45 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "favonius-greatsword",
+                    "note": {
+                        "en": "With this weapon, you want to build some [[stat:cr]] to help proc the passive.",
+                        "fr": "Avec cette arme, vous voulez un peu de [[stat:cr]] pour pouvoir déclencher le passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "makhaira-aquamarine",
+                    "note": {
+                        "en": "If the team does not benefit from the [[stat:atk%]] buff, this weapon is not worth using.",
+                        "fr": "Si l'équipe ne bénéficie pas du buff d'[[stat:atk%]], il n'y a pas d'intérêt à utiliser cette arme."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flame-forged-insight",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If [[character:aino]] cannot trigger the specified Elemental Reactions, this weapon is not worth using. This weapon does not need to be leveled if you do not care about [[character:aino]]'s personal damage.",
+                        "fr": "Si [[character:aino]] ne peut pas déclencher les réactions spécifiées, il n'y a pas d'intérêt à utiliser cette arme. Il n'est pas nécessaire d'augmenter son niveau si vous ne vous intéressez pas aux dégâts personnels d'[[character:aino]]."
+                    }
+                },
+                {
+                    "name": "master-key",
+                    "note": {
+                        "en": "Refinements for this weapon are not needed if you do not care about [[character:aino]]'s personal damage.",
+                        "fr": "Il n'y a pas besoin de rafiner cette arme si si vous ne vous intéressez pas aux dégâts personnels d'[[character:aino]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

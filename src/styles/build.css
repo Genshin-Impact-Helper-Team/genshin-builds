@@ -291,6 +291,26 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
   white-space: nowrap;
 }
 
+.artifact-info-label {
+  display: inline;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.artifact-info-label .info-popover,
+.artifact-info-label .info-popover-trigger {
+  display: inline;
+}
+
+.artifact-info-label .bold {
+  white-space: nowrap;
+}
+
+.artifact-piece-suffix {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .weapon-popover-passive {
   margin-top: 6px;
 }

@@ -1,0 +1,24 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "Talent levels are not a necessity.",
+            "fr": "Les niveaux des talents ne sont pas une nécessité."
+        }
+    ]
+}

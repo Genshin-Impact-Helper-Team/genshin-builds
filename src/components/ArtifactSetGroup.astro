@@ -40,9 +40,12 @@ const {
     <>
       {group.items[0] && (
         <>
-          <span class="inline-info-label">
-            <ArtifactSetInfoPopover artifact={group.items[0]} lang={lang} />
-            <span class="bold">({group.items[0].pieces})</span>
+          <span class="inline-info-label artifact-info-label">
+            <ArtifactSetInfoPopover
+              artifact={group.items[0]}
+              suffix={`(${group.items[0].pieces})`}
+              lang={lang}
+            />
           </span>
           {group.items[0].noteId ? (
             <a class="note-link" href={`#${group.items[0].noteId}`}>
@@ -57,9 +60,12 @@ const {
       )}
       {group.items.slice(1).map((item) => (
         <div class="alt">
-          <span class="inline-info-label">
-            <ArtifactSetInfoPopover artifact={item} lang={lang} />
-            <span class="bold">({item.pieces})</span>
+          <span class="inline-info-label artifact-info-label">
+            <ArtifactSetInfoPopover
+              artifact={item}
+              suffix={`(${item.pieces})`}
+              lang={lang}
+            />
           </span>
           {item.noteId ? (
             <a class="note-link" href={`#${item.noteId}`}>
@@ -79,9 +85,12 @@ const {
       {group.items.map((item, itemIndex) => (
         <>
           {itemIndex > 0 && ' / '}
-          <span class="inline-info-label">
-            <ArtifactSetInfoPopover artifact={item} lang={lang} />
-            <span class="bold">({item.pieces})</span>
+          <span class="inline-info-label artifact-info-label">
+            <ArtifactSetInfoPopover
+              artifact={item}
+              suffix={`(${item.pieces})`}
+              lang={lang}
+            />
           </span>
           {item.noteId ? (
             <a class="note-link" href={`#${item.noteId}`}>

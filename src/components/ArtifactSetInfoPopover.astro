@@ -17,10 +17,11 @@ type Props = {
     id?: string;
     info?: ArtifactSetInfo;
   };
+  suffix?: string;
   lang?: string;
 };
 
-const { artifact, lang = 'en' } = Astro.props as Props;
+const { artifact, suffix = '', lang = 'en' } = Astro.props as Props;
 const info = artifact.info;
 
 const localizedEffect = (effect?: LocalizedArtifactEffect) =>
@@ -44,6 +45,7 @@ const effects = info
         aria-expanded="false"
       >
         {artifact.name}
+        {suffix && <span class="artifact-piece-suffix">{'\u00a0'}{suffix}</span>}
       </button>
 
       <span class="info-popover-card artifact-popover-card" role="tooltip">
@@ -63,6 +65,9 @@ const effects = info
       </span>
     </span>
   ) : (
-    artifact.name
+    <>
+      {artifact.name}
+      {suffix && <span class="artifact-piece-suffix">{'\u00a0'}{suffix}</span>}
+    </>
   )
 }

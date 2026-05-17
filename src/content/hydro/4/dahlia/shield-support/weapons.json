@@ -1,0 +1,41 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "favonius-sword"
+            ]
+        },
+        {
+            "items": [
+                "key-of-khaj-nisut"
+            ]
+        },
+        {
+            "items": [
+                "the-dockhands-assistant"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "peak-patrol-song",
+                    "note": {
+                        "en": "Does not aid [[character:dahlia]]'s stats, but offer some team buffing in return. Only use it if the team can reliably trigger its passive, and you've met [[stat:er]] and [[stat:hp%]] thresholds.",
+                        "fr": "N'aide pas pour les stats de [[character:dahlia]], mais offre des buffs à l'équipe en contrepartie. A n'utiliser que si l'équipe peut déclencher le passif de l'arme à coup sûr, et si vous avez déjà atteints les montants nécéssaires de [[stat:er]] et [[stat:hp%]]."
+                    }
+                },
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": ""
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyrider-sword"
+            ]
+        }
+    ]
+}

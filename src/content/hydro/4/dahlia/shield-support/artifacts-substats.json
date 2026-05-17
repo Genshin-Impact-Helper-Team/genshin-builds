@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "er",
+        "hp%",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only if running **[[weapon:favonius-sword]]**"
+            }
+        },
+        "hp"
+    ]
+}
