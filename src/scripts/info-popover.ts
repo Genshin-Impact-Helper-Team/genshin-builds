@@ -1,9 +1,9 @@
-const weaponPopoverWindow = window as typeof window & {
-    __weaponPopoversReady?: boolean;
+const infoPopoverWindow = window as typeof window & {
+    __infoPopoversReady?: boolean;
 };
 
-if (!weaponPopoverWindow.__weaponPopoversReady) {
-    weaponPopoverWindow.__weaponPopoversReady = true;
+if (!infoPopoverWindow.__infoPopoversReady) {
+    infoPopoverWindow.__infoPopoversReady = true;
 
     const VIEWPORT_PADDING = 8;
     const POPOVER_GAP = 8;
@@ -12,8 +12,8 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
         Math.min(Math.max(value, min), max);
 
     const positionPopoverCard = (popover: HTMLElement) => {
-        const trigger = popover.querySelector<HTMLElement>('.weapon-popover-trigger');
-        const card = popover.querySelector<HTMLElement>('.weapon-popover-card');
+        const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
+        const card = popover.querySelector<HTMLElement>('.info-popover-card');
 
         if (!trigger || !card) return;
 
@@ -43,42 +43,42 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
     const positionActivePopovers = () => {
         document
             .querySelectorAll<HTMLElement>(
-                '.weapon-popover:hover, .weapon-popover:focus-within, .weapon-popover.is-open',
+                '.info-popover:hover, .info-popover:focus-within, .info-popover.is-open',
             )
             .forEach(positionPopoverCard);
     };
 
-    const closeWeaponPopovers = (except?: HTMLElement) => {
-        document.querySelectorAll<HTMLElement>('.weapon-popover.is-open').forEach((popover) => {
+    const closeInfoPopovers = (except?: HTMLElement) => {
+        document.querySelectorAll<HTMLElement>('.info-popover.is-open').forEach((popover) => {
             if (popover !== except) {
                 popover.classList.remove('is-open');
                 popover
-                    .querySelector<HTMLButtonElement>('.weapon-popover-trigger')
+                    .querySelector<HTMLButtonElement>('.info-popover-trigger')
                     ?.setAttribute('aria-expanded', 'false');
             }
         });
 
         document.body.classList.toggle(
-            'weapon-popover-locked',
-            document.querySelector('.weapon-popover.is-open') !== null,
+            'info-popover-locked',
+            document.querySelector('.info-popover.is-open') !== null,
         );
     };
 
     document.addEventListener('click', (event) => {
         const target = event.target as HTMLElement;
-        const trigger = target.closest('.weapon-popover-trigger');
-        const card = target.closest('.weapon-popover-card');
+        const trigger = target.closest('.info-popover-trigger');
+        const card = target.closest('.info-popover-card');
 
         if (card) {
             return;
         }
 
         if (!trigger) {
-            closeWeaponPopovers();
+            closeInfoPopovers();
             return;
         }
 
-        const popover = trigger.closest<HTMLElement>('.weapon-popover');
+        const popover = trigger.closest<HTMLElement>('.info-popover');
         if (!popover) return;
 
         const isOpen = popover.classList.toggle('is-open');
@@ -86,11 +86,11 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
         if (isOpen) {
             positionPopoverCard(popover);
         }
-        closeWeaponPopovers(popover);
+        closeInfoPopovers(popover);
     });
 
     document.addEventListener('pointerover', (event) => {
-        const popover = (event.target as HTMLElement).closest<HTMLElement>('.weapon-popover');
+        const popover = (event.target as HTMLElement).closest<HTMLElement>('.info-popover');
 
         if (popover) {
             positionPopoverCard(popover);
@@ -99,11 +99,11 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
 
     document.addEventListener('focusin', (event) => {
         const target = event.target as HTMLElement;
-        const popover = target.closest<HTMLElement>('.weapon-popover');
+        const popover = target.closest<HTMLElement>('.info-popover');
 
-        if (popover && !document.body.classList.contains('weapon-popover-locked')) {
+        if (popover && !document.body.classList.contains('info-popover-locked')) {
             positionPopoverCard(popover);
-            closeWeaponPopovers(popover);
+            closeInfoPopovers(popover);
         }
     });
 
@@ -112,7 +112,7 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
 
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
-            closeWeaponPopovers();
+            closeInfoPopovers();
         }
     });
 
@@ -123,7 +123,7 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
 
         if (!button) return;
 
-        const card = button.closest('.weapon-popover-card');
+        const card = button.closest('.info-popover-card');
 
         if (!card) return;
 
@@ -140,7 +140,7 @@ if (!weaponPopoverWindow.__weaponPopoversReady) {
                 (panel as HTMLElement).dataset.refinementPanel !== refinement;
         });
 
-        const popover = button.closest<HTMLElement>('.weapon-popover');
+        const popover = button.closest<HTMLElement>('.info-popover');
 
         if (popover) {
             positionPopoverCard(popover);

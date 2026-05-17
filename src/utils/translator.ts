@@ -263,7 +263,7 @@ export class TranslationHelper {
       : '';
     const substatRow = substatName
       ? [
-          '<span class="weapon-popover-stat"><span>',
+          '<span class="info-popover-stat"><span>',
           escapeHtml(substatName),
           '</span><strong>',
           escapeHtml(substatValue),
@@ -272,20 +272,20 @@ export class TranslationHelper {
       : '';
 
     return [
-      '<span class="weapon-popover">',
-      '<button class="weapon-popover-trigger" type="button" aria-expanded="false">',
+      '<span class="info-popover weapon-popover">',
+      '<button class="info-popover-trigger" type="button" aria-expanded="false">',
       escapeHtml(name),
       '</button>',
-      '<span class="weapon-popover-card" role="tooltip">',
-      '<span class="weapon-popover-header">',
-      '<span class="weapon-popover-name">',
+      '<span class="info-popover-card" role="tooltip">',
+      '<span class="info-popover-header">',
+      '<span class="info-popover-name">',
       escapeHtml(name),
       '</span>',
-      '<span class="weapon-popover-rarity">',
+      '<span class="info-popover-rarity">',
       escapeHtml(info.rarity),
       ' \u2605</span>',
       '</span>',
-      '<span class="weapon-popover-stat"><span>Base ATK</span><strong>',
+      '<span class="info-popover-stat"><span>Base ATK</span><strong>',
       escapeHtml(baseAttackValue),
       '</strong></span>',
       substatRow,
@@ -320,23 +320,23 @@ export class TranslationHelper {
     ].filter((row) => row.value);
 
     return [
-      '<span class="artifact-popover weapon-popover">',
-      '<button class="artifact-popover-trigger weapon-popover-trigger" type="button" aria-expanded="false">',
+      '<span class="info-popover artifact-popover">',
+      '<button class="info-popover-trigger artifact-popover-trigger" type="button" aria-expanded="false">',
       escapeHtml(name),
       '</button>',
-      '<span class="artifact-popover-card weapon-popover-card" role="tooltip">',
-      '<span class="weapon-popover-header">',
-      '<span class="weapon-popover-name">',
+      '<span class="info-popover-card artifact-popover-card" role="tooltip">',
+      '<span class="info-popover-header">',
+      '<span class="info-popover-name">',
       escapeHtml(name),
       '</span>',
-      '<span class="weapon-popover-rarity">',
+      '<span class="info-popover-rarity">',
       escapeHtml(info.rarity),
       ' \u2605</span>',
       '</span>',
       effectRows
         .map((row) =>
           [
-            '<span class="artifact-popover-effect weapon-popover-stat"><span>',
+            '<span class="info-popover-stat artifact-popover-effect"><span>',
             escapeHtml(row.label),
             '</span><strong>',
             escapeHtml(row.value),
