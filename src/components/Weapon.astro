@@ -53,15 +53,14 @@ const formatRefinement = (refinement?: number | string) =>
     weapons.weapons.map((position: { items: WeaponItem[] }, i: number) => (
       <div style="margin-bottom: 10px;">
         <div>
-          <strong>{i + 1}.</strong>&nbsp;
+          <strong>{i + 1}.</strong>&#8239;
           {position.items[0] && (
-            <span>
+            <span class="inline-info-label">
               <WeaponInfoPopover
                 weapon={position.items[0]}
                 locale={locale}
                 lang={lang}
               />
-              &nbsp;
               <span class="bold">
                 ({position.items[0].rarity}
                 {'\u2605'}){formatRefinement(position.items[0].refinement)}
@@ -82,20 +81,21 @@ const formatRefinement = (refinement?: number | string) =>
         {position.items.slice(1).map((weapon) => (
           <div class="alt">
             &asymp;{' '}
-            <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />
-            &nbsp;
-            <span class="bold">
-              ({weapon.rarity}
-              {'\u2605'}){formatRefinement(weapon.refinement)}
-              {weapon.noteId ? (
-                <a class="note-link" href={`#${weapon.noteId}`}>
-                  *
-                </a>
-              ) : weapon.note ? (
-                '*'
-              ) : (
-                ''
-              )}
+            <span class="inline-info-label">
+              <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />
+              <span class="bold">
+                ({weapon.rarity}
+                {'\u2605'}){formatRefinement(weapon.refinement)}
+                {weapon.noteId ? (
+                  <a class="note-link" href={`#${weapon.noteId}`}>
+                    *
+                  </a>
+                ) : weapon.note ? (
+                  '*'
+                ) : (
+                  ''
+                )}
+              </span>
             </span>
           </div>
         ))}
@@ -111,20 +111,21 @@ const formatRefinement = (refinement?: number | string) =>
 
         {weapons.conditional.map((weapon: WeaponItem) => (
           <div>
-            <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />
-            &nbsp;
-            <span class="bold">
-              ({weapon.rarity}
-              {'\u2605'}){formatRefinement(weapon.refinement)}
-              {weapon.noteId ? (
-                <a class="note-link" href={`#${weapon.noteId}`}>
-                  *
-                </a>
-              ) : weapon.note ? (
-                '*'
-              ) : (
-                ''
-              )}
+            <span class="inline-info-label">
+              <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />
+              <span class="bold">
+                ({weapon.rarity}
+                {'\u2605'}){formatRefinement(weapon.refinement)}
+                {weapon.noteId ? (
+                  <a class="note-link" href={`#${weapon.noteId}`}>
+                    *
+                  </a>
+                ) : weapon.note ? (
+                  '*'
+                ) : (
+                  ''
+                )}
+              </span>
             </span>
           </div>
         ))}
@@ -134,5 +135,5 @@ const formatRefinement = (refinement?: number | string) =>
 </div>
 
 <script>
-  import '../scripts/weapon-popover';
+  import '../scripts/info-popover';
 </script>

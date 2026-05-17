@@ -33,9 +33,7 @@ main,
 a {
   color: var(--accent);
   text-decoration: none;
-  transition:
-    opacity 0.15s ease,
-    text-decoration 0.15s ease;
+  transition: opacity 0.15s ease;
 }
 
 a:hover {
@@ -95,4 +93,10 @@ a:hover {
 
 .site-footer p {
   margin: 4px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }

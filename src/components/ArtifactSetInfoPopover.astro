@@ -37,25 +37,25 @@ const effects = info
 
 {
   info ? (
-    <span class="artifact-popover weapon-popover">
+    <span class="info-popover artifact-popover">
       <button
-        class="artifact-popover-trigger weapon-popover-trigger"
+        class="info-popover-trigger artifact-popover-trigger"
         type="button"
         aria-expanded="false"
       >
         {artifact.name}
       </button>
 
-      <span class="artifact-popover-card weapon-popover-card" role="tooltip">
-        <span class="weapon-popover-header">
-          <span class="weapon-popover-name">{artifact.name}</span>
-          <span class="weapon-popover-rarity">
+      <span class="info-popover-card artifact-popover-card" role="tooltip">
+        <span class="info-popover-header">
+          <span class="info-popover-name">{artifact.name}</span>
+          <span class="info-popover-rarity">
             {info.rarity} {'\u2605'}
           </span>
         </span>
 
         {effects.map((effect) => (
-          <span class="artifact-popover-effect weapon-popover-stat">
+          <span class="info-popover-stat artifact-popover-effect">
             <span>{effect.label}</span>
             <strong>{effect.value}</strong>
           </span>

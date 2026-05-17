@@ -78,26 +78,26 @@ const substatValue = formatWeaponStatValue(
 );
 ---
 
-<span class="weapon-popover">
-  <button class="weapon-popover-trigger" type="button" aria-expanded="false">
+<span class="info-popover weapon-popover">
+  <button class="info-popover-trigger" type="button" aria-expanded="false">
     {weapon.name}
   </button>
 
   {
     info && (
-      <span class="weapon-popover-card" role="tooltip">
-        <span class="weapon-popover-header">
-          <span class="weapon-popover-name">{weapon.name}</span>
-          <span class="weapon-popover-rarity">
+      <span class="info-popover-card" role="tooltip">
+        <span class="info-popover-header">
+          <span class="info-popover-name">{weapon.name}</span>
+          <span class="info-popover-rarity">
             {info.rarity} {'\u2605'}
           </span>
         </span>
-        <span class="weapon-popover-stat">
+        <span class="info-popover-stat">
           <span>Base ATK</span>
           <strong>{baseAttackValue}</strong>
         </span>
         {substatName && (
-          <span class="weapon-popover-stat">
+          <span class="info-popover-stat">
             <span>{substatName}</span>
             <strong>{substatValue}</strong>
           </span>

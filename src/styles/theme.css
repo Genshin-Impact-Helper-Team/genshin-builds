@@ -1,53 +1,41 @@
-body {
-  background: var(--bg);
-  color: var(--text);
-}
-
-body[data-element="anemo"] {
+:root {
   --bg: #153434;
   --text: hsla(0, 0%, 100%, 0.85);
   --accent: rgb(255, 215, 128);
   --element: #30d8a0;
 }
 
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
 body[data-element="cryo"] {
   --bg: #235d74;
-  --text: hsla(0, 0%, 100%, 0.85);
-  --accent: rgb(255, 215, 128);
   --element: #7af0f0;
 }
 
 body[data-element="dendro"] {
   --bg: #263d21;
-  --text: hsla(0, 0%, 100%, 0.85);
-  --accent: rgb(255, 215, 128);
   --element: #9de43b;
 }
 
 body[data-element="electro"] {
   --bg: #352a63;
-  --text: hsla(0, 0%, 100%, 0.85);
-  --accent: rgb(255, 215, 128);
   --element: #c87fff;
 }
 
 body[data-element="geo"] {
   --bg: #3d2c1d;
-  --text: hsla(0, 0%, 100%, 0.85);
-  --accent: rgb(255, 215, 128);
   --element: #f3b530;
 }
 
 body[data-element="hydro"] {
   --bg: #15315c;
-  --text: hsla(0, 0%, 100%, 0.85);
-  --accent: rgb(255, 215, 128);
   --element: #02c0ff;
 }
 
 body[data-element="pyro"] {
   --bg: #3d1818;
-  --text: hsla(0, 0%, 100%, 0.85);
-  --accent: rgb(255, 215, 128);
   --element: #ff6640;
 }
