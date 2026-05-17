@@ -1,0 +1,29 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "a-thousand-floating-dreams",
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-fragments",
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "magic-guide"
+            ]
+        }
+    ]
+}

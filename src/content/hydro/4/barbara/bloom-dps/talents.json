@@ -1,0 +1,21 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        }
+    ],
+    "notes": {
+        "en": "Talent levels are only needed for comfort"
+    }
+}
