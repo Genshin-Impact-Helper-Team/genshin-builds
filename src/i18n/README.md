@@ -86,7 +86,7 @@ Typed tokens search one specific dictionary:
 
 ```txt
 [[weapon:the-catch]]
-[[artifact:emblem-of-severed-fate]]
+[[set:emblem-of-severed-fate]]
 [[character:xiangling]]
 [[stat:er]]
 [[element:vaporize]]
@@ -101,6 +101,56 @@ Untyped tokens search known gameplay dictionaries automatically:
 ```
 
 Typed tokens are safer when an ID could exist in more than one dictionary.
+
+## Aliases
+
+Short aliases live in:
+
+```txt
+src/data/translation-aliases.json
+```
+
+Use aliases when you want shorter IDs to point to the same canonical weapon or
+artifact set ID without duplicating translations or gameplay data. Aliases work
+in inline tokens and in content item `name` fields.
+
+```json
+{
+  "weapon": {
+    "pjws": "primordial-jade-winged-spear"
+  },
+  "set": {
+    "vv": "viridescent-venerer"
+  }
+}
+```
+
+Then both of these resolve to the same translated name and weapon popover:
+
+```txt
+[[weapon:primordial-jade-winged-spear]]
+[[weapon:pjws]]
+```
+
+And both of these resolve to the same translated artifact set name and set
+popover:
+
+```txt
+[[set:viridescent-venerer]]
+[[set:vv]]
+```
+
+You can also use the alias directly in content:
+
+```json
+{
+  "name": "vv",
+  "pieces": 4
+}
+```
+
+Aliases are only alternate IDs. Keep the real translation and data entries on
+the canonical ID.
 
 ## Important Rules
 

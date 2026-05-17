@@ -2,7 +2,7 @@
     "weapons": [
         {
             "items": [
-                "staff-of-homa"
+                "homa"
             ]
         },
         {
@@ -10,8 +10,8 @@
                 {
                     "name": "staff-of-the-scarlet-sands",
                     "note": {
-                        "en": "When using this weapon, **[[artifact:gilded-dreams]] (4)** becomes competitive with **[[artifact:crimson-witch-of-flames]] (4)** for being [[character:hu-tao]]'s best artifact set.",
-                        "fr": "Lorsque vous utilisez cette arme, **[[artifact:gilded-dreams]] (4)** rivalise **[[artifact:crimson-witch-of-flames]] (4)** en tant que meilleur set pour [[character:hu-tao]]."
+                        "en": "When using this weapon, **[[set:gilded-dreams]] (4)** becomes competitive with **[[set:crimson-witch-of-flames]] (4)** for being [[character:hu-tao]]'s best artifact set.",
+                        "fr": "Lorsque vous utilisez cette arme, **[[set:gilded-dreams]] (4)** rivalise **[[set:crimson-witch-of-flames]] (4)** en tant que meilleur set pour [[character:hu-tao]]."
                     }
                 }
             ]

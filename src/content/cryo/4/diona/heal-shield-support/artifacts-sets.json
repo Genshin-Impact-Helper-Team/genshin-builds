@@ -77,8 +77,8 @@
                             "name": "instructor",
                             "pieces": 4,
                             "note": {
-                                "en": "This set is a niche option for [[character:diona]]. It can be considered in teams which value [[stat:em]] and where she can trigger a reaction while on-field. Keep in mind that [[artifact:instructor]] being limited to a 4-star set means your stat potential will be lower.",
-                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes qui valorisent la [[stat:em]] et où elle peut déclencher une réaction en étant on-field. Gardez à l'esprit que [[artifact:instructor]] étant limité à un set 4 étoiles signifie que votre potentiel de stats sera plus faible."
+                                "en": "This set is a niche option for [[character:diona]]. It can be considered in teams which value [[stat:em]] and where she can trigger a reaction while on-field. Keep in mind that [[set:instructor]] being limited to a 4-star set means your stat potential will be lower.",
+                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes qui valorisent la [[stat:em]] et où elle peut déclencher une réaction en étant on-field. Gardez à l'esprit que [[set:instructor]] étant limité à un set 4 étoiles signifie que votre potentiel de stats sera plus faible."
                             }
                         }
                     ]

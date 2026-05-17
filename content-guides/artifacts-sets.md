@@ -99,7 +99,7 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-sets.json
     - `artifact_sets[].groups[].choose`: Optional boolean. Use `true` when this
       group is a choose-two mix.
     - `artifact_sets[].groups[].items`: Artifact set items shown in this group.
-      - `artifact_sets[].groups[].items[].name`: Artifact set ID from
+      - `artifact_sets[].groups[].items[].name`: Artifact set ID or alias from
         `src/i18n/<lang>/artifact-sets.json`, or a stat pseudo-set ID from
         `src/i18n/<lang>/stats.json`, such as `atk-set` or `em-set`.
       - `artifact_sets[].groups[].items[].pieces`: Number of set pieces,
@@ -112,7 +112,8 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-sets.json
   - `conditional[].choose`: Optional boolean. Works the same way as
     `artifact_sets[].groups[].choose`.
   - `conditional[].items`: Artifact set items shown in this conditional group.
-    - `conditional[].items[].name`: Artifact set ID or stat pseudo-set ID.
+    - `conditional[].items[].name`: Artifact set ID, artifact set alias, or
+      stat pseudo-set ID.
     - `conditional[].items[].pieces`: Number of set pieces, usually `2` or `4`.
     - `conditional[].items[].note`: Optional localized editorial note.
 - `notes`: Optional top-level section notes shown under
@@ -242,6 +243,8 @@ group objects directly and do not use a `groups` wrapper:
 - Artifact set names first look in `artifact-sets.json`. If no artifact set
   translation exists, the site looks in `stats.json` so pseudo-set labels like
   `atk-set` can be used.
+- Artifact set aliases from `src/data/translation-aliases.json` can be used in
+  `name`, such as `"vv"` for `"viridescent-venerer"`.
 - Non-`choose` groups with multiple items render on one line separated by `/`.
 - `choose: true` groups render the first item on the main line, the remaining
   items as approximate alternatives, and a `Choose Two` label below them.

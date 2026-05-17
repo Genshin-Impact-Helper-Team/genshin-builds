@@ -50,10 +50,9 @@ src/content/<element>/<rarity>/<character>/<build>/weapons.json
 - `notes`: Optional section-level notes shown under
   `Regarding Weapons Choices:` without adding a `*` marker to any weapon.
 - `weapons[].items`: Weapons in the same ranking position.
-- `items[]`: Weapon i18n IDs from `src/i18n/<lang>/weapons.json`, either as
-  plain strings or as objects.
-- `items[].name`: Weapon i18n ID. Required when the item needs an object for
-  `refinement` or `note`.
+- `items[]`: Weapon i18n IDs or aliases, either as plain strings or as objects.
+- `items[].name`: Weapon i18n ID or alias. Required when the item needs an
+  object for `refinement` or `note`.
 - `items[].refinement`: Optional refinement rank. Use a number for exact
   refinements, such as `5`, or a string for ranges, such as `"4+"`.
 - `items[].note`: Optional localized editorial note. Adds a `*` marker beside
@@ -133,6 +132,9 @@ Conditional weapons use the same item fields as ranked weapons:
 
 - Weapon rarity is pulled from `src/data/weapons/<weapon-type>.json`, where
   `<weapon-type>` comes from the character's `metadata.json` `weapon` field.
+- Weapon aliases from `src/data/translation-aliases.json` can be used in
+  `items[]` or `items[].name`, such as `"pjws"` for
+  `"primordial-jade-winged-spear"`.
 - When adding a weapon that is not in the shared weapon data yet, add it to the
   matching file (`bow.json`, `catalyst.json`, `claymore.json`, `polearm.json`,
   or `sword.json`) instead of adding `rarity` to the build.

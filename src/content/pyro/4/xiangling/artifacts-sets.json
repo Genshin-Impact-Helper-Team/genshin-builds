@@ -20,8 +20,8 @@
                             "name": "crimson-witch-of-flames",
                             "pieces": 4,
                             "note": {
-                                "en": "This set can be competitive with **[[artifact:emblem-of-severed-fate]] (4)** on low [[stat:er]] requirement teams where [[character:xiangling]] triggers [[element:overload]] in addition to [[element:vaporize]], such as Raiden National.",
-                                "fr": "Ce set peut rivaliser avec **[[artifact:emblem-of-severed-fate]] (4)** dans les équipes avec de faibles besoins en [[stat:er]] où [[character:xiangling]] déclenche [[element:overload]] en plus de [[element:vaporize]], comme la Raiden National."
+                                "en": "This set can be competitive with **[[set:emblem-of-severed-fate]] (4)** on low [[stat:er]] requirement teams where [[character:xiangling]] triggers [[element:overload]] in addition to [[element:vaporize]], such as Raiden National.",
+                                "fr": "Ce set peut rivaliser avec **[[set:emblem-of-severed-fate]] (4)** dans les équipes avec de faibles besoins en [[stat:er]] où [[character:xiangling]] déclenche [[element:overload]] en plus de [[element:vaporize]], comme la Raiden National."
                             }
                         }
                     ]

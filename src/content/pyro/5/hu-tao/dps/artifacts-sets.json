@@ -13,11 +13,11 @@
                 {
                     "items": [
                         {
-                            "name": "shimenawas-reminiscence",
+                            "name": "shimenawa",
                             "pieces": 4,
                             "note": {
-                                "en": "Provides higher [[ability:na]] and [[ability:ca]] damage than **[[artifact:crimson-witch-of-flames]] (4)**, but reduces [[ability:burst]] damage, impacting overall AoE damage. Additionally, if you're unable to [[ability:burst]], it might lead to survivability issues unless you're running a healer.",
-                                "fr": "Donne des dégâts d'[[ability:na]] et [[ability:ca]] plus élevés que **[[artifact:crimson-witch-of-flames]] (4)**, mais réduit les dégâts de l'[[ability:burst]], impactant les dégâts de zone. De plus, si vous ne pouvez pas [[ability:burst]], cella peut entraîner des problèmes de survivabilité à moins de jouer avec un healer."
+                                "en": "Provides higher [[ability:na]] and [[ability:ca]] damage than **[[set:crimson-witch-of-flames]] (4)**, but reduces [[ability:burst]] damage, impacting overall AoE damage. Additionally, if you're unable to [[ability:burst]], it might lead to survivability issues unless you're running a healer.",
+                                "fr": "Donne des dégâts d'[[ability:na]] et [[ability:ca]] plus élevés que **[[set:crimson-witch-of-flames]] (4)**, mais réduit les dégâts de l'[[ability:burst]], impactant les dégâts de zone. De plus, si vous ne pouvez pas [[ability:burst]], cella peut entraîner des problèmes de survivabilité à moins de jouer avec un healer."
                             }
                         }
                     ]
@@ -32,8 +32,8 @@
                             "name": "gilded-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "At 3 [[stat:em]] stacks, this artifact set is equal to **[[artifact:crimson-witch-of-flames]] (4)** in teams where you are not getting [[stat:em]] from other sources (e.g team or weapon).",
-                                "fr": "Avec 3 stacks de [[stat:em]], ce set est équivalent à **[[artifact:crimson-witch-of-flames]] (4)** dans les équipes où vous ne recevz aucun buff de [[stat:em]] d'autre source (équipe ou arme)."
+                                "en": "At 3 [[stat:em]] stacks, this artifact set is equal to **[[set:crimson-witch-of-flames]] (4)** in teams where you are not getting [[stat:em]] from other sources (e.g team or weapon).",
+                                "fr": "Avec 3 stacks de [[stat:em]], ce set est équivalent à **[[set:crimson-witch-of-flames]] (4)** dans les équipes où vous ne recevz aucun buff de [[stat:em]] d'autre source (équipe ou arme)."
                             }
                         }
                     ]
@@ -66,7 +66,7 @@
         {
             "items": [
                 {
-                    "name": "marechaussee-hunter",
+                    "name": "MH",
                     "pieces": 4,
                     "note": {
                         "en": "This is [[character:hu-tao]]'s best set when you can reliably get 3 stacks, which typically requires running [[character:furina]], or healer that can heal smaller amounts over time (i.e. [[character:xianyun]], [[character:chevreuse]]).",

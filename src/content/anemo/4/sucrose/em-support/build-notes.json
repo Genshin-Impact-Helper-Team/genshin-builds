@@ -10,8 +10,8 @@
             "fr": "Le passif d'Ascension 4 de [[character:sucrose]] buff la [[stat:em]] de toute l'équipe de 20% de la [[stat:em]] de [[character:sucrose]], ce qui est la raison pour laquelle on cherche autant de [[stat:em]] que possible sur ses artéfacts. En tant que support, la valeur de [[character:sucrose]] vient principalement de ses passifs d'Ascension 1 et 4, donc il n'est pas nécessaire de améliorer ses autres talents ([[ability:na]], [[ability:skill]], [[ability:burst]])."
         },
         {
-            "en": "When utilized as a [[artifact:viridescent-venerer]] (4) artifact set holder, **make sure you don't immediately swap away after casting [[ability:skill]]/[[ability:burst]]**, you need to be on-field when the [[element:swirl]] reaction happens for you to trigger the 4-set effect.",
-            "fr": "Lorsqu'elle est utilisée pour porter le set [[artifact:viridescent-venerer]] (4), **faites attention à ne pas changer de personnage directement après le [[ability:skill]]/[[ability:burst]]**, il faut être on-field quand la réaction de [[element:swirl]] a lieu pour déclencher l'effet du 4p."
+            "en": "When utilized as a [[set:viridescent-venerer]] (4) artifact set holder, **make sure you don't immediately swap away after casting [[ability:skill]]/[[ability:burst]]**, you need to be on-field when the [[element:swirl]] reaction happens for you to trigger the 4-set effect.",
+            "fr": "Lorsqu'elle est utilisée pour porter le set [[set:viridescent-venerer]] (4), **faites attention à ne pas changer de personnage directement après le [[ability:skill]]/[[ability:burst]]**, il faut être on-field quand la réaction de [[element:swirl]] a lieu pour déclencher l'effet du 4p."
         }
     ]
 }

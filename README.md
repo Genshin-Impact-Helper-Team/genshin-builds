@@ -211,7 +211,7 @@ The website is built on our folder structure: adding a new folder will automatic
    Example:
 
    ```txt
-   Use [[weapon:the-catch]] with [[artifact:emblem-of-severed-fate]].
+   Use [[weapon:the-catch]] with [[set:emblem-of-severed-fate]].
    ```
 
 7. Keep folder names stable.
@@ -244,7 +244,7 @@ The default language is english. When adding a new build, contributor may have u
    Example:
 
    ```txt
-   Use [[weapon:the-catch]] with [[artifact:emblem-of-severed-fate]].
+   Use [[weapon:the-catch]] with [[set:emblem-of-severed-fate]].
    ```
 
 4. Add or update dictionary labels when needed.

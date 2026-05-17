@@ -36,8 +36,8 @@
                             "name": "scroll-of-the-hero-of-cinder-city",
                             "pieces": 4,
                             "note": {
-                                "en": "This set requires [[character:bennett]] to trigger a reaction including the element you want to buff. When [[artifact:noblesse-oblige]] is already covered on the team, or the team values DMG Bonus more than [[stat:atk%]] or [[stat:em]], this set is a good pick.",
-                                "fr": "Ce set nécessite que [[character:bennett]] déclenche une réaction incluant l'élément que vous souhaitez buff. Lorsque [[artifact:noblesse-oblige]] est déjà présent dans l'équipe, ou que l'équipe valorise le Bonus de Dégâts plus que l'[[stat:atk%]] ou la [[stat:em]], ce set est un bon choix."
+                                "en": "This set requires [[character:bennett]] to trigger a reaction including the element you want to buff. When [[set:noblesse-oblige]] is already covered on the team, or the team values DMG Bonus more than [[stat:atk%]] or [[stat:em]], this set is a good pick.",
+                                "fr": "Ce set nécessite que [[character:bennett]] déclenche une réaction incluant l'élément que vous souhaitez buff. Lorsque [[set:noblesse-oblige]] est déjà présent dans l'équipe, ou que l'équipe valorise le Bonus de Dégâts plus que l'[[stat:atk%]] ou la [[stat:em]], ce set est un bon choix."
                             }
                         }
                     ]

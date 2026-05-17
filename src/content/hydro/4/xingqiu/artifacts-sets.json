@@ -20,7 +20,7 @@
             {
               "name": "noblesse-oblige",
               "pieces": 4,
-              "note": "Offers party-wide [[stat:atk]] boost, you can use this set on [[character:xingqiu]] **if nobody else on the party is able to use it better**. If someone else on the team **already has [[artifact:noblesse-oblige]] (4), [[artifact:noblesse-oblige]] (4) should not be used**."
+              "note": "Offers party-wide [[stat:atk]] boost, you can use this set on [[character:xingqiu]] **if nobody else on the party is able to use it better**. If someone else on the team **already has [[set:noblesse-oblige]] (4), [[set:noblesse-oblige]] (4) should not be used**."
             }
           ]
         },
@@ -83,8 +83,8 @@
           "name": "blizzard-strayer",
           "pieces": 4,
           "note": {
-            "en": "Outperforms **[[artifact:emblem-of-severed-fate]]** on **[[element:freeze]] Teams**. However, it is generally **not recommended** to farm specifically for this set.",
-            "fr": "Meilleur que **[[artifact:emblem-of-severed-fate]]** dans les equipes **[[element:freeze]]**. Cependant, il n'est generalement **pas recommande** de farmer specifiquement pour ce set."
+            "en": "Outperforms **[[set:emblem-of-severed-fate]]** on **[[element:freeze]] Teams**. However, it is generally **not recommended** to farm specifically for this set.",
+            "fr": "Meilleur que **[[set:emblem-of-severed-fate]]** dans les equipes **[[element:freeze]]**. Cependant, il n'est generalement **pas recommande** de farmer specifiquement pour ce set."
           }
         }
       ]

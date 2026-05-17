@@ -65,8 +65,8 @@
                             "name": "echoes-of-an-offering",
                             "pieces": 4,
                             "note": {
-                                "en": "This set performs similarly to [[artifact:desert-pavilion-chronicle]] (4)** if your ping is **consistently lower than 200**.",
-                                "fr": "Ce set est similaire à [[artifact:desert-pavilion-chronicle]] (4)** si votre ping est **constamment plus bas que 200**."
+                                "en": "This set performs similarly to [[set:desert-pavilion-chronicle]] (4)** if your ping is **consistently lower than 200**.",
+                                "fr": "Ce set est similaire à [[set:desert-pavilion-chronicle]] (4)** si votre ping est **constamment plus bas que 200**."
                             }
                         }
                     ]

@@ -192,7 +192,7 @@ Editorial text can reference i18n IDs:
 
 ```txt
 [[weapon:amos-bow]]
-[[artifact:noblesse-oblige]]
+[[set:noblesse-oblige]]
 [[character:xingqiu]]
 [[stat:er]]
 [[element:melt]]

@@ -254,7 +254,7 @@ function translateArtifactSetItem(
   sourceFile: string,
   artifactSetData: Record<string, any>,
 ) {
-  const id = item.name;
+  const id = translator.resolveAlias('artifact', item.name);
 
   return {
     ...item,
@@ -465,23 +465,25 @@ function loadBuildData({
    */
   const translateWeaponItem = (item: any) => {
     const normalizedItem = normalizeWeaponItem(item);
+    const id = translator.resolveAlias('weapon', normalizedItem.name);
     const weaponInfo = getWeaponInfo(
       weaponData,
-      normalizedItem.name,
+      id,
       weaponType,
       weaponsFile,
     );
 
     return {
       ...normalizedItem,
+      id,
       rarity: getWeaponRarity(
         weaponData,
-        normalizedItem.name,
+        id,
         weaponType,
         weaponsFile,
       ),
       info: weaponInfo,
-      name: translator.translate('weapon', normalizedItem.name, weaponsFile),
+      name: translator.translate('weapon', id, weaponsFile),
     };
   };
 

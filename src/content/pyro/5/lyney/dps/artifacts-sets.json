@@ -28,8 +28,8 @@
                             "name": "vermillion-hereafter",
                             "pieces": 4,
                             "note": {
-                                "en": "Only use this set **if [[character:lyney]] can [[ability:burst]] every rotation**. If he can, this set **is better than [[artifact:lavawalker]] (4). Start your rotation with [[character:lyney]]'s [[ability:burst]] if using this set**.",
-                                "fr": "Ce set n'est à utiliser que **si [[character:lyney]] peut [[ability:burst]] à chaque rotation**. Le cas échéant, ce set **est meilleur que [[artifact:lavawalker]] (4). Commencez votre rotation avec l'[[ability:burst]] de [[character:lyney]] si vous utilisez ce set**."
+                                "en": "Only use this set **if [[character:lyney]] can [[ability:burst]] every rotation**. If he can, this set **is better than [[set:lavawalker]] (4). Start your rotation with [[character:lyney]]'s [[ability:burst]] if using this set**.",
+                                "fr": "Ce set n'est à utiliser que **si [[character:lyney]] peut [[ability:burst]] à chaque rotation**. Le cas échéant, ce set **est meilleur que [[set:lavawalker]] (4). Commencez votre rotation avec l'[[ability:burst]] de [[character:lyney]] si vous utilisez ce set**."
                             }
                         }
                     ]
@@ -40,8 +40,8 @@
                             "name": "shimenawas-reminiscence",
                             "pieces": 4,
                             "note": {
-                                "en": "Only use this set **if [[character:lyney]] cannot [[ability:burst]] every rotation**. If the following is true, this set **is better than [[artifact:lavawalker]] (4). Start your rotation with [[character:lyney]]'s [[ability:skill]] if using this set**.",
-                                "fr": "Ce set n'est à utiliser que **si [[character:lyney]] ne peut pas [[ability:burst]] à chaque rotation**. Le cas échéant, ce set **est meilleur que [[artifact:lavawalker]] (4). Commencez votre rotation avec le [[ability:skill]] de [[character:lyney]] si vous utilisez ce set**."
+                                "en": "Only use this set **if [[character:lyney]] cannot [[ability:burst]] every rotation**. If the following is true, this set **is better than [[set:lavawalker]] (4). Start your rotation with [[character:lyney]]'s [[ability:skill]] if using this set**.",
+                                "fr": "Ce set n'est à utiliser que **si [[character:lyney]] ne peut pas [[ability:burst]] à chaque rotation**. Le cas échéant, ce set **est meilleur que [[set:lavawalker]] (4). Commencez votre rotation avec le [[ability:skill]] de [[character:lyney]] si vous utilisez ce set**."
                             }
                         }
                     ]

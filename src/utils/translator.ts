@@ -1,4 +1,5 @@
 import { t } from './i18n';
+import translationAliases from '../data/translation-aliases.json';
 import {
   formatWeaponPassive,
   type WeaponPassiveText,
@@ -12,6 +13,7 @@ type TranslationCategory =
   | 'stat'
   | 'element'
   | 'ability';
+type InlineTranslationCategory = TranslationCategory | 'set';
 
 const CATEGORIES: TranslationCategory[] = [
   'artifact',
@@ -58,6 +60,12 @@ type TranslateNoteTextOptions = {
   artifactPopovers?: boolean;
 };
 
+type TranslationAliasCategory = Partial<
+  Record<InlineTranslationCategory, Record<string, string>>
+>;
+
+const aliases = translationAliases as TranslationAliasCategory;
+
 function escapeHtml(value: unknown) {
   return String(value ?? '')
     .replace(/&/g, '&amp;')
@@ -90,7 +98,7 @@ function formatWeaponStatValue(
  * Helper class for translating structured content IDs and inline note references.
  *
  * Supports:
- * - translating artifact/weapon/character/stat/element IDs
+ * - translating artifact set/weapon/character/stat/element IDs
  * - parsing inline note syntax like [[weapon:amos-bow]]
  * - tracking missing translation warnings
  */
@@ -145,7 +153,7 @@ export class TranslationHelper {
    *
    * Supported syntax:
    * - [[weapon:amos-bow]]
-   * - [[artifact:viridescent-venerer]]
+   * - [[set:viridescent-venerer]]
    * - [[character:furina]]
    * - [[stat:er]]
    * - [[element:melt]]
@@ -164,8 +172,8 @@ export class TranslationHelper {
     options: TranslateNoteTextOptions = {},
   ) {
     return text.replace(
-      /\[\[(?:(artifact|weapon|character|stat|element|ability):)?([a-z0-9%/-]+)\]\]/g,
-      (match, category: TranslationCategory | undefined, id: string) => {
+      /\[\[(?:(set|weapon|character|stat|element|ability):)?([a-z0-9%/-]+)\]\]/g,
+      (match, category: InlineTranslationCategory | undefined, id: string) => {
         const translation = this.translateInlineId(
           id,
           category,
@@ -191,29 +199,45 @@ export class TranslationHelper {
    */
   private translateInlineId(
     id: string,
-    category?: TranslationCategory,
+    category?: InlineTranslationCategory,
     sourceFile?: string,
     options: TranslateNoteTextOptions = {},
   ) {
     if (category) {
-      const translation = this.translate(category, id, sourceFile);
+      const translationCategory = this.toTranslationCategory(category);
+      const canonicalId = this.resolveAlias(translationCategory, id);
+      const translation = this.translate(
+        translationCategory,
+        canonicalId,
+        sourceFile,
+      );
 
-      if (translation === id) {
+      if (translation === canonicalId) {
         return null;
       }
 
-      if (category === 'weapon' && options.weaponPopovers) {
-        return this.renderWeaponPopover(id, translation);
+      if (translationCategory === 'weapon' && options.weaponPopovers) {
+        return this.renderWeaponPopover(canonicalId, translation);
       }
 
-      if (category === 'artifact' && options.artifactPopovers) {
-        return this.renderArtifactPopover(id, translation);
+      if (translationCategory === 'artifact' && options.artifactPopovers) {
+        return this.renderArtifactPopover(canonicalId, translation);
       }
 
       return translation;
     }
 
     return this.findTranslationInAnyCategory(id, sourceFile);
+  }
+
+  private toTranslationCategory(category: InlineTranslationCategory) {
+    return category === 'set' ? 'artifact' : category;
+  }
+
+  resolveAlias(category: TranslationCategory, id: string) {
+    const aliasCategory = category === 'artifact' ? 'set' : category;
+
+    return aliases[aliasCategory]?.[id] ?? id;
   }
 
   private renderWeaponPopover(id: string, name: string) {
@@ -361,15 +385,22 @@ export class TranslationHelper {
    */
   private findTranslationInAnyCategory(id: string, sourceFile?: string) {
     for (const category of CATEGORIES) {
+      const canonicalId = this.resolveAlias(category, id);
       // Fallback hits are valid display text, but the missing locale still matters.
       const hasLocalizedTranslation =
-        this.locale?.[category]?.[id] !== undefined;
-      const translation = t(this.locale, category, id, sourceFile, false);
+        this.locale?.[category]?.[canonicalId] !== undefined;
+      const translation = t(
+        this.locale,
+        category,
+        canonicalId,
+        sourceFile,
+        false,
+      );
 
-      if (translation !== id) {
+      if (translation !== canonicalId) {
         if (!hasLocalizedTranslation) {
           this.addWarning(
-            `[i18n] Missing translation for id '${id}' in category '${category}'` +
+            `[i18n] Missing translation for id '${canonicalId}' in category '${category}'` +
               (sourceFile ? ` (source: ${sourceFile})` : ''),
           );
         }

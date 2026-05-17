@@ -12,8 +12,8 @@
     },
     "notes": [
         {
-            "en": "Main stats are assuming [[character:lyney]] is using **[[artifact:marechaussee-hunter]] (4)**. [[stat:cr]] circlet becomes more viable on non-MH sets.",
-            "fr": "Les stats principales supposent que [[character:lyney]] est joué en **[[artifact:marechaussee-hunter]] (4)**. Un diadème [[stat:cr]] devient plus viable sur les sets autres que MH."
+            "en": "Main stats are assuming [[character:lyney]] is using **[[set:marechaussee-hunter]] (4)**. [[stat:cr]] circlet becomes more viable on non-MH sets.",
+            "fr": "Les stats principales supposent que [[character:lyney]] est joué en **[[set:marechaussee-hunter]] (4)**. Un diadème [[stat:cr]] devient plus viable sur les sets autres que MH."
         }
     ]
 }

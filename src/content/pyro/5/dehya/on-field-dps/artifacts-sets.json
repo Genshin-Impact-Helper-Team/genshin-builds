@@ -69,8 +69,8 @@
                             "name": "marechaussee-hunter",
                             "pieces": 4,
                             "note": {
-                                "en": "With [[character:furina]] on the team, this set performs similar to or better than **[[artifact:emblem-of-severed-fate]] (4)**, depending on [[character:dehya]]'s [[stat:er]] requirement.",
-                                "fr": "Avec [[character:furina]] dans l'équipe, ce set est équivalent voire meilleur **[[artifact:emblem-of-severed-fate]] (4)**, selon les besoins en [[stat:er]] de [[character:dehya]]."
+                                "en": "With [[character:furina]] on the team, this set performs similar to or better than **[[set:emblem-of-severed-fate]] (4)**, depending on [[character:dehya]]'s [[stat:er]] requirement.",
+                                "fr": "Avec [[character:furina]] dans l'équipe, ce set est équivalent voire meilleur **[[set:emblem-of-severed-fate]] (4)**, selon les besoins en [[stat:er]] de [[character:dehya]]."
                             }
                         }
                     ]

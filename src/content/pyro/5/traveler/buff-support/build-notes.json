@@ -6,8 +6,8 @@
     },
     "notes": [
         {
-            "en": "[[element:pyro]] [[character:traveler]] takes on a supportive role with [[element:pyro]] application and the ability to hold supportive sets such as **[[artifact:scroll-of-the-hero-of-cinder-city]]** (4), as well as weapons that provide team utility.",
-            "fr": "Le [[character:traveler]] [[element:pyro]] joue un rôle de support avec l'application de [[element:pyro]] et la capacité à porter des sets de support tels que **[[artifact:scroll-of-the-hero-of-cinder-city]]** (4), ainsi que des armes qui fournissent des commodités pour l'équipe."
+            "en": "[[element:pyro]] [[character:traveler]] takes on a supportive role with [[element:pyro]] application and the ability to hold supportive sets such as **[[set:scroll-of-the-hero-of-cinder-city]]** (4), as well as weapons that provide team utility.",
+            "fr": "Le [[character:traveler]] [[element:pyro]] joue un rôle de support avec l'application de [[element:pyro]] et la capacité à porter des sets de support tels que **[[set:scroll-of-the-hero-of-cinder-city]]** (4), ainsi que des armes qui fournissent des commodités pour l'équipe."
         },
         {
             "en": "**Because [[character:traveler]] is NOT from Natlan, they do not count toward the [[ability:nightsoul-burst]] cooldown reduction**. They can, however, trigger effects that rely on the consumption of [[ability:nightsoul-point]], which their [[ability:burst]] can help with since it restores some of their [[ability:nightsoul-point]].",

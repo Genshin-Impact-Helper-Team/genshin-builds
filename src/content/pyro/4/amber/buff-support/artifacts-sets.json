@@ -20,9 +20,9 @@
               "name": "instructor",
               "pieces": 4,
               "note": {
-                "en": "This set is preferred over **[[artifact:noblesse-oblige]] (4)** when [[character:amber]] is used as support in a [[character:hu-tao]] [[element:vaporize]] team.",
-                "fr": "devient plus intéressant que **[[artifact:noblesse-oblige]] (4)** lorsque [[character:amber]] est utilisée en tant que support dans une équipe [[character:hu-tao]] [[element:vaporize]].",
-                "it": "Questo set è preferibile rispetto a **[[artifact:noblesse-oblige]] (4)** quando [[character:amber]] è utilizzata come supporto in team come [[character:hu-tao]] [[element:vaporize]]."
+                "en": "This set is preferred over **[[set:noblesse-oblige]] (4)** when [[character:amber]] is used as support in a [[character:hu-tao]] [[element:vaporize]] team.",
+                "fr": "devient plus intéressant que **[[set:noblesse-oblige]] (4)** lorsque [[character:amber]] est utilisée en tant que support dans une équipe [[character:hu-tao]] [[element:vaporize]].",
+                "it": "Questo set è preferibile rispetto a **[[set:noblesse-oblige]] (4)** quando [[character:amber]] è utilizzata come supporto in team come [[character:hu-tao]] [[element:vaporize]]."
               }
             }
           ]
