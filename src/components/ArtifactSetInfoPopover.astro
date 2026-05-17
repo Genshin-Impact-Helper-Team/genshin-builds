@@ -24,6 +24,9 @@ type Props = {
 const { artifact, suffix = '', lang = 'en' } = Astro.props as Props;
 const info = artifact.info;
 
+/**
+ * Selects the localized set effect with English fallback.
+ */
 const localizedEffect = (effect?: LocalizedArtifactEffect) =>
   effect?.[lang] ?? effect?.en ?? '';
 

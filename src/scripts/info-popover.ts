@@ -8,9 +8,32 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     const VIEWPORT_PADDING = 8;
     const POPOVER_GAP = 8;
 
+    /**
+     * Keeps a coordinate inside a min/max viewport range.
+     */
     const clamp = (value: number, min: number, max: number) =>
         Math.min(Math.max(value, min), max);
 
+    /**
+     * Updates a popover trigger's expanded state.
+     */
+    const setTriggerExpanded = (popover: HTMLElement, isExpanded: boolean) => {
+        popover
+            .querySelector<HTMLElement>('.info-popover-trigger')
+            ?.setAttribute('aria-expanded', String(isExpanded));
+    };
+
+    /**
+     * Finds the popover wrapper for an event target.
+     */
+    const getClosestPopover = (target: EventTarget | null) =>
+        target instanceof HTMLElement
+            ? target.closest<HTMLElement>('.info-popover')
+            : null;
+
+    /**
+     * Positions a popover card so it remains fully inside the viewport.
+     */
     const positionPopoverCard = (popover: HTMLElement) => {
         const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
         const card = popover.querySelector<HTMLElement>('.info-popover-card');
@@ -40,6 +63,9 @@ if (!infoPopoverWindow.__infoPopoversReady) {
         card.style.visibility = previousVisibility;
     };
 
+    /**
+     * Repositions every popover that is currently visible or interactive.
+     */
     const positionActivePopovers = () => {
         document
             .querySelectorAll<HTMLElement>(
@@ -48,13 +74,14 @@ if (!infoPopoverWindow.__infoPopoversReady) {
             .forEach(positionPopoverCard);
     };
 
+    /**
+     * Closes open popovers except for the one currently being interacted with.
+     */
     const closeInfoPopovers = (except?: HTMLElement) => {
         document.querySelectorAll<HTMLElement>('.info-popover.is-open').forEach((popover) => {
             if (popover !== except) {
                 popover.classList.remove('is-open');
-                popover
-                    .querySelector<HTMLButtonElement>('.info-popover-trigger')
-                    ?.setAttribute('aria-expanded', 'false');
+                setTriggerExpanded(popover, false);
             }
         });
 
@@ -78,11 +105,11 @@ if (!infoPopoverWindow.__infoPopoversReady) {
             return;
         }
 
-        const popover = trigger.closest<HTMLElement>('.info-popover');
+        const popover = getClosestPopover(trigger);
         if (!popover) return;
 
         const isOpen = popover.classList.toggle('is-open');
-        trigger.setAttribute('aria-expanded', String(isOpen));
+        setTriggerExpanded(popover, isOpen);
         if (isOpen) {
             positionPopoverCard(popover);
         }
@@ -90,7 +117,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     });
 
     document.addEventListener('pointerover', (event) => {
-        const popover = (event.target as HTMLElement).closest<HTMLElement>('.info-popover');
+        const popover = getClosestPopover(event.target);
 
         if (popover) {
             positionPopoverCard(popover);
@@ -98,8 +125,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     });
 
     document.addEventListener('focusin', (event) => {
-        const target = event.target as HTMLElement;
-        const popover = target.closest<HTMLElement>('.info-popover');
+        const popover = getClosestPopover(event.target);
 
         if (popover && !document.body.classList.contains('info-popover-locked')) {
             positionPopoverCard(popover);

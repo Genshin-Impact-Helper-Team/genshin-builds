@@ -1,4 +1,4 @@
-import { t } from './i18n';
+import { formatMissingTranslationWarning, t } from './i18n';
 import translationAliases from '../data/translation-aliases.json';
 import {
   formatWeaponPassive,
@@ -66,6 +66,9 @@ type TranslationAliasCategory = Partial<
 
 const aliases = translationAliases as TranslationAliasCategory;
 
+/**
+ * Escapes dynamic text before inserting it into generated popover HTML.
+ */
 function escapeHtml(value: unknown) {
   return String(value ?? '')
     .replace(/&/g, '&amp;')
@@ -75,6 +78,9 @@ function escapeHtml(value: unknown) {
     .replace(/'/g, '&#39;');
 }
 
+/**
+ * Formats weapon stat values as level 1 / max when both are available.
+ */
 function formatWeaponStatValue(
   level1Value?: number | string,
   levelMaxValue?: number | string,
@@ -140,8 +146,7 @@ export class TranslationHelper {
 
     if (!hasLocalizedTranslation) {
       this.addWarning(
-        `[i18n] Missing translation for id '${id}' in category '${category}'` +
-          (sourceFile ? ` (source: ${sourceFile})` : ''),
+        formatMissingTranslationWarning(this.lang, id, category, sourceFile),
       );
     }
 
@@ -230,16 +235,25 @@ export class TranslationHelper {
     return this.findTranslationInAnyCategory(id, sourceFile);
   }
 
+  /**
+   * Maps inline token category aliases to real translation dictionaries.
+   */
   private toTranslationCategory(category: InlineTranslationCategory) {
     return category === 'set' ? 'artifact' : category;
   }
 
+  /**
+   * Resolves a short alias into its canonical translation ID.
+   */
   resolveAlias(category: TranslationCategory, id: string) {
     const aliasCategory = category === 'artifact' ? 'set' : category;
 
     return aliases[aliasCategory]?.[id] ?? id;
   }
 
+  /**
+   * Builds the inline HTML for a weapon translation token popover.
+   */
   private renderWeaponPopover(id: string, name: string) {
     const info = this.weaponDataById[id];
 
@@ -324,12 +338,18 @@ export class TranslationHelper {
     ].join('');
   }
 
+  /**
+   * Selects a localized artifact set effect with English fallback.
+   */
   private getLocalizedArtifactEffect(effect?: LocalizedArtifactEffect) {
     if (!effect) return '';
 
     return effect[this.lang] ?? effect.en ?? '';
   }
 
+  /**
+   * Builds the inline HTML for an artifact set translation token popover.
+   */
   private renderArtifactPopover(id: string, name: string) {
     const info = this.artifactSetDataById[id];
 
@@ -400,8 +420,12 @@ export class TranslationHelper {
       if (translation !== canonicalId) {
         if (!hasLocalizedTranslation) {
           this.addWarning(
-            `[i18n] Missing translation for id '${canonicalId}' in category '${category}'` +
-              (sourceFile ? ` (source: ${sourceFile})` : ''),
+            formatMissingTranslationWarning(
+              this.lang,
+              canonicalId,
+              category,
+              sourceFile,
+            ),
           );
         }
 
@@ -410,8 +434,7 @@ export class TranslationHelper {
     }
 
     this.addWarning(
-      `[i18n] Missing translation for id '${id}'` +
-        (sourceFile ? ` (source: ${sourceFile})` : ''),
+      formatMissingTranslationWarning(this.lang, id, undefined, sourceFile),
     );
 
     return null;

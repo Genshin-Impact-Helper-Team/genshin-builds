@@ -5,7 +5,12 @@ import {
   getPublicCharacterName,
   parsePublicCharacterSlug,
 } from './character-slugs';
-import { findCharacterPath, loadJSON, toTitleCase } from './content';
+import {
+  findCharacterPath,
+  loadJSON,
+  readJSONFile,
+  toTitleCase,
+} from './content';
 import { getLocale, t } from './i18n';
 import { collectNotes, collectSectionNotes, collectStatNotes } from './notes';
 import { TranslationHelper } from './translator';
@@ -27,6 +32,13 @@ type BuildContext = {
   locale: any;
   translator: TranslationHelper;
   artifactSetData: Record<string, any>;
+};
+
+type WeaponTranslationContext = {
+  weaponData: Record<string, SharedWeaponData>;
+  weaponType: string;
+  sourceFile: string;
+  translator: TranslationHelper;
 };
 
 /**
@@ -69,6 +81,9 @@ const artifactSetDataPath = path.resolve(
  */
 const renderMarkdown = (value: string) => marked.parse(value) as string;
 
+/**
+ * Loads the shared artifact set database used by popovers and validation.
+ */
 function loadArtifactSetData() {
   if (!fs.existsSync(artifactSetDataPath)) {
     throw new Error(
@@ -76,11 +91,12 @@ function loadArtifactSetData() {
     );
   }
 
-  return JSON.parse(
-    fs.readFileSync(artifactSetDataPath, 'utf-8').replace(/^\uFEFF/, ''),
-  );
+  return readJSONFile(artifactSetDataPath);
 }
 
+/**
+ * Loads shared weapon data for the current character weapon type.
+ */
 function loadWeaponData(weaponType: string) {
   const filePath = path.join(weaponDataPath, `${weaponType}.json`);
 
@@ -90,19 +106,18 @@ function loadWeaponData(weaponType: string) {
     );
   }
 
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, ''));
+  return readJSONFile(filePath);
 }
 
+/**
+ * Loads every shared weapon entry so inline weapon popovers can resolve IDs.
+ */
 function loadAllWeaponData() {
   return fs
     .readdirSync(weaponDataPath)
     .filter((fileName) => fileName.endsWith('.json'))
     .reduce<Record<string, SharedWeaponData>>((weaponData, fileName) => {
-      const typeData = JSON.parse(
-        fs
-          .readFileSync(path.join(weaponDataPath, fileName), 'utf-8')
-          .replace(/^\uFEFF/, ''),
-      );
+      const typeData = readJSONFile(path.join(weaponDataPath, fileName));
 
       Object.assign(weaponData, typeData);
       return weaponData;
@@ -123,6 +138,9 @@ type SharedWeaponData = {
   };
 };
 
+/**
+ * Reads and validates the rarity for one weapon recommendation.
+ */
 function getWeaponRarity(
   weaponData: Record<string, SharedWeaponData>,
   weaponId: string,
@@ -140,6 +158,9 @@ function getWeaponRarity(
   return rarity;
 }
 
+/**
+ * Reads and validates the shared data for one weapon recommendation.
+ */
 function getWeaponInfo(
   weaponData: Record<string, SharedWeaponData>,
   weaponId: string,
@@ -157,8 +178,48 @@ function getWeaponInfo(
   return data;
 }
 
+/**
+ * Normalizes legacy string weapon entries into object entries.
+ */
 function normalizeWeaponItem(item: any) {
   return typeof item === 'string' ? { name: item } : item;
+}
+
+/**
+ * Translates one weapon item while preserving ranking metadata.
+ */
+function translateWeaponItem(item: any, context: WeaponTranslationContext) {
+  const { weaponData, weaponType, sourceFile, translator } = context;
+  const normalizedItem = normalizeWeaponItem(item);
+  const id = translator.resolveAlias('weapon', normalizedItem.name);
+  const weaponInfo = getWeaponInfo(weaponData, id, weaponType, sourceFile);
+
+  return {
+    ...normalizedItem,
+    id,
+    rarity: getWeaponRarity(weaponData, id, weaponType, sourceFile),
+    info: weaponInfo,
+    name: translator.translate('weapon', id, sourceFile),
+  };
+}
+
+/**
+ * Translates ranked and conditional weapon recommendations.
+ */
+function translateWeaponRecommendations(
+  weapons: any,
+  context: WeaponTranslationContext,
+) {
+  return {
+    ...weapons,
+    weapons: weapons.weapons.map((position: { items: any[] }) => ({
+      ...position,
+      items: position.items.map((item) => translateWeaponItem(item, context)),
+    })),
+    conditional: weapons.conditional?.map((item: any) =>
+      translateWeaponItem(item, context),
+    ),
+  };
 }
 
 /**
@@ -232,6 +293,9 @@ function translateSubstatPriorityItem(
   return translateStatItem(locale, item, sourceFile, translator);
 }
 
+/**
+ * Translates an artifact set ID, falling back to stat translations for pseudo-sets.
+ */
 function translateArtifactSetName(
   translator: TranslationHelper,
   locale: any,
@@ -247,6 +311,9 @@ function translateArtifactSetName(
   return translator.translate('stat', id, sourceFile);
 }
 
+/**
+ * Normalizes one artifact set item with translated text and shared set info.
+ */
 function translateArtifactSetItem(
   translator: TranslationHelper,
   locale: any,
@@ -264,6 +331,9 @@ function translateArtifactSetItem(
   };
 }
 
+/**
+ * Translates every artifact set item inside one recommendation group.
+ */
 function translateArtifactSetGroup(
   translator: TranslationHelper,
   locale: any,
@@ -285,6 +355,49 @@ function translateArtifactSetGroup(
   };
 }
 
+/**
+ * Translates ranked and conditional artifact set recommendations.
+ */
+function translateArtifactSetRecommendations(
+  artifactSets: any,
+  translator: TranslationHelper,
+  locale: any,
+  sourceFile: string,
+  artifactSetData: Record<string, any>,
+) {
+  return {
+    ...artifactSets,
+    artifact_sets: (artifactSets.artifact_sets ?? []).map(
+      (rank: { groups: any[] }) => ({
+        ...rank,
+        groups: rank.groups.map((group: any) =>
+          translateArtifactSetGroup(
+            translator,
+            locale,
+            group,
+            sourceFile,
+            artifactSetData,
+          ),
+        ),
+      }),
+    ),
+    conditional: (artifactSets.conditional ?? [])
+      .flatMap((entry: any) => entry.groups ?? [entry])
+      .map((group: any) =>
+        translateArtifactSetGroup(
+          translator,
+          locale,
+          group,
+          sourceFile,
+          artifactSetData,
+        ),
+      ),
+  };
+}
+
+/**
+ * Translates one talent priority item while preserving legacy display strings.
+ */
 function translateTalentItem(
   translator: TranslationHelper,
   item: any,
@@ -311,11 +424,33 @@ function translateTalentItem(
   return item;
 }
 
+/**
+ * Flattens ranked and conditional artifact groups for note collection.
+ */
 function getArtifactSetNoteGroups(artifactSets: any) {
   return [
     ...(artifactSets.artifact_sets ?? []).flatMap((rank: any) => rank.groups),
     ...(artifactSets.conditional ?? []),
   ];
+}
+
+/**
+ * Translates every talent priority group for a build.
+ */
+function translateTalentPriorities(
+  talents: any,
+  translator: TranslationHelper,
+  sourceFile: string,
+) {
+  return {
+    ...talents,
+    talents: talents.talents.map((priority: { items: any[] }) => ({
+      ...priority,
+      items: priority.items.map((item) =>
+        translateTalentItem(translator, item, sourceFile),
+      ),
+    })),
+  };
 }
 
 /**
@@ -380,6 +515,10 @@ function buildLocalizedNotes(
   const notes: LocalizedBuildNote[] = Array.isArray(buildNoteData.notes)
     ? buildNoteData.notes
     : [];
+
+  /**
+   * Localizes inline tokens inside one calculation credit detail.
+   */
   const localizeCreditDetail = (credit: BuildCalculationCredit) =>
     credit?.detail
       ? {
@@ -390,6 +529,10 @@ function buildLocalizedNotes(
           }),
         }
       : credit;
+
+  /**
+   * Handles both single and multi-author calculation credit fields.
+   */
   const localizeCreditDetails = (
     value: BuildCalculationCredit | BuildCalculationCredit[] | undefined,
   ) => {
@@ -454,77 +597,27 @@ function loadBuildData({
   const talentsFile = fileInBuild(buildPath, 'talents.json');
   const buildNotesFile = fileInBuild(buildPath, 'build-notes.json');
 
-  const weapons = loadJSON(buildPath, 'weapons.json');
+  const rawWeapons = loadJSON(buildPath, 'weapons.json');
   const weaponData = loadWeaponData(weaponType);
 
-  /**
-   * Translates one weapon item while preserving ranking metadata.
-   *
-   * @param item Raw weapon item from content JSON.
-   * @returns Weapon item with a localized display name.
-   */
-  const translateWeaponItem = (item: any) => {
-    const normalizedItem = normalizeWeaponItem(item);
-    const id = translator.resolveAlias('weapon', normalizedItem.name);
-    const weaponInfo = getWeaponInfo(
-      weaponData,
-      id,
-      weaponType,
-      weaponsFile,
-    );
-
-    return {
-      ...normalizedItem,
-      id,
-      rarity: getWeaponRarity(
-        weaponData,
-        id,
-        weaponType,
-        weaponsFile,
-      ),
-      info: weaponInfo,
-      name: translator.translate('weapon', id, weaponsFile),
-    };
-  };
-
-  weapons.weapons = weapons.weapons.map((position: { items: any[] }) => ({
-    ...position,
-    items: position.items.map(translateWeaponItem),
-  }));
-  weapons.conditional = weapons.conditional?.map(translateWeaponItem);
+  const weapons = translateWeaponRecommendations(rawWeapons, {
+    weaponData,
+    weaponType,
+    sourceFile: weaponsFile,
+    translator,
+  });
 
   const artifacts = {
-    sets: loadJSON(buildPath, 'artifacts-sets.json'),
+    sets: translateArtifactSetRecommendations(
+      loadJSON(buildPath, 'artifacts-sets.json'),
+      translator,
+      locale,
+      artifactSetsFile,
+      artifactSetData,
+    ),
     mainstats: loadJSON(buildPath, 'artifacts-mainstats.json'),
     substats: loadJSON(buildPath, 'artifacts-substats.json'),
   };
-
-  // Normalize IDs into display strings before components receive the data.
-  artifacts.sets.artifact_sets = (artifacts.sets.artifact_sets ?? []).map(
-    (rank: { groups: any[] }) => ({
-      ...rank,
-      groups: rank.groups.map((group: any) =>
-        translateArtifactSetGroup(
-          translator,
-          locale,
-          group,
-          artifactSetsFile,
-          artifactSetData,
-        ),
-      ),
-    }),
-  );
-  artifacts.sets.conditional = (artifacts.sets.conditional ?? [])
-    .flatMap((entry: any) => entry.groups ?? [entry])
-    .map((group: any) =>
-      translateArtifactSetGroup(
-        translator,
-        locale,
-        group,
-        artifactSetsFile,
-        artifactSetData,
-      ),
-    );
 
   artifacts.mainstats.main_stats = translateMainStats(
     locale,
@@ -543,13 +636,11 @@ function loadBuildData({
       ),
     );
 
-  const talents = loadJSON(buildPath, 'talents.json');
-  talents.talents = talents.talents.map((priority: { items: any[] }) => ({
-    ...priority,
-    items: priority.items.map((item) =>
-      translateTalentItem(translator, item, talentsFile),
-    ),
-  }));
+  const talents = translateTalentPriorities(
+    loadJSON(buildPath, 'talents.json'),
+    translator,
+    talentsFile,
+  );
 
   const notes = {
     weapons: {

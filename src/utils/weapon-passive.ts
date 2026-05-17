@@ -18,12 +18,18 @@ export type WeaponRefinementData = {
 
 const REFINEMENT_KEYS = ['r1', 'r2', 'r3', 'r4', 'r5'] as const;
 
+/**
+ * Wraps one passive value so popovers can style substituted numbers.
+ */
 function formatPassiveValue(value: WeaponPassiveValue | undefined) {
 	const text = Array.isArray(value) ? value.join('/') : String(value ?? '');
 
 	return `<span class="weapon-popover-passive-value">${text}</span>`;
 }
 
+/**
+ * Selects the localized passive template with English fallback.
+ */
 function getPassiveText(passive: WeaponPassiveText | undefined, lang = 'en') {
   if (typeof passive === 'string') {
     return passive;
@@ -32,11 +38,17 @@ function getPassiveText(passive: WeaponPassiveText | undefined, lang = 'en') {
   return passive?.[lang] ?? passive?.en ?? '';
 }
 
+/**
+ * Extracts a valid refinement number from content values like `1` or `R1`.
+ */
 function parseRefinement(refinement?: number | string) {
   const match = String(refinement ?? '').match(/[1-5]/);
   return match ? Number(match[0]) : null;
 }
 
+/**
+ * Builds a compact all-refinement value string for one placeholder.
+ */
 function getCombinedValue(info: WeaponRefinementData, valueIndex: number) {
   const values = REFINEMENT_KEYS.map((key) => info[key]?.[valueIndex]);
   const separator = values.some(Array.isArray) ? ' / ' : '/';

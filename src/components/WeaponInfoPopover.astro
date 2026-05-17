@@ -50,6 +50,9 @@ const substatName = info?.substat
   ? t(locale, 'stat', info.substat, undefined, false)
   : '';
 
+/**
+ * Formats weapon stat values as level 1 / max when both are available.
+ */
 const formatWeaponStatValue = (
   level1Value?: number | string,
   levelMaxValue?: number | string,

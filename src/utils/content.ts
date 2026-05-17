@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { parsePublicCharacterSlug } from './character-slugs';
 
-function parseJSONFile(filePath: string) {
+export function readJSONFile(filePath: string) {
   return JSON.parse(fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, ''));
 }
 
@@ -58,11 +58,11 @@ export function loadJSON(buildPath: string, fileName: string) {
   const charFile = path.join(path.dirname(buildPath), fileName);
 
   if (fs.existsSync(buildFile)) {
-    return parseJSONFile(buildFile);
+    return readJSONFile(buildFile);
   }
 
   if (fs.existsSync(charFile)) {
-    return parseJSONFile(charFile);
+    return readJSONFile(charFile);
   }
 
   return null;

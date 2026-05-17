@@ -123,6 +123,32 @@ const locales = {
 } satisfies Record<LanguageCode, LocaleBundle>;
 
 /**
+ * Finds the language code that owns a locale bundle.
+ */
+function getLocaleCode(locale: unknown) {
+  return (
+    Object.entries(locales).find(([, localeBundle]) => localeBundle === locale)?.[0] ??
+    'unknown'
+  );
+}
+
+/**
+ * Formats missing translation warnings with a stable language prefix.
+ */
+export function formatMissingTranslationWarning(
+  lang: string | undefined,
+  id: string,
+  category?: string,
+  sourceFile?: string,
+) {
+  return (
+    `[i18n] [${(lang ?? 'unknown').toUpperCase()}] Missing translation for id '${id}'` +
+    (category ? ` in category '${category}'` : '') +
+    (sourceFile ? ` (source: ${sourceFile})` : '')
+  );
+}
+
+/**
  * Returns the locale bundle for a requested language.
  *
  * Unknown or missing language codes fall back to English so routes can render
@@ -166,8 +192,12 @@ export function t(
 
   if (warn) {
     console.warn(
-      `[i18n] Missing translation for id '${id}' in category '${category}'` +
-        (sourceFile ? ` (source: ${sourceFile})` : ''),
+      formatMissingTranslationWarning(
+        getLocaleCode(locale),
+        id,
+        category,
+        sourceFile,
+      ),
     );
   }
 

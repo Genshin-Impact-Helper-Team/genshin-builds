@@ -14,26 +14,44 @@ type NoteItem = {
   linkText: string;
 };
 
+type RenderedNote = {
+  id: string;
+  name: string;
+  note: string;
+};
+
+type NoteGroup = {
+  headingId?: string;
+  items: RenderedNote[];
+};
+
+type NoteSection = {
+  headingId: string;
+  global: string[];
+  groups: NoteGroup[];
+};
+
+/**
+ * Normalizes one or many calculation credits into valid linked credits.
+ */
 const toCalculationCredits = (value: CalculationCredit | CalculationCredit[]) =>
   (Array.isArray(value) ? value : [value]).filter(
     (credit) => credit?.author && credit?.link,
   );
 
+/**
+ * Collects all calculation credits that belong to one note section.
+ */
 const getCalculationCredits = (item: NoteItem) =>
   item.keys.flatMap((key) => toCalculationCredits(buildNote?.[key] ?? []));
 
-// Compute section visibility up front so empty note cards are skipped entirely.
-const hasWeaponsNotes =
-  notes.weapons.global.length + notes.weapons.items.length > 0;
-const hasArtifactNotes =
-  notes.artifacts.global.length +
-    notes.artifacts.sets.length +
-    notes.artifacts.mainstats.length +
-    notes.artifacts.substats.length >
+/**
+ * Checks whether a note section has any global notes or item notes.
+ */
+const hasNoteContent = (section: NoteSection) =>
+  section.global.length +
+    section.groups.reduce((total, group) => total + group.items.length, 0) >
   0;
-const hasTalentNotes =
-  notes.talents.global.length + notes.talents.items.length > 0;
-const hasNotes = hasWeaponsNotes || hasArtifactNotes || hasTalentNotes;
 
 // Detailed calculation links use slightly different keys than their UI labels.
 const noteItems: NoteItem[] = [
@@ -64,6 +82,30 @@ const calculationCreditItems = buildNote
       getCalculationCredits(item).map((credit) => ({ ...item, credit })),
     )
   : [];
+
+const noteSections: NoteSection[] = [
+  {
+    headingId: 'Regarding Weapons Choices:',
+    global: notes.weapons.global,
+    groups: [{ items: notes.weapons.items }],
+  },
+  {
+    headingId: 'Regarding Artifacts Choices:',
+    global: notes.artifacts.global,
+    groups: [
+      { headingId: 'Sets', items: notes.artifacts.sets },
+      { headingId: 'Main Stats', items: notes.artifacts.mainstats },
+      { headingId: 'Substats', items: notes.artifacts.substats },
+    ],
+  },
+  {
+    headingId: 'Regarding Talents Choices:',
+    global: notes.talents.global,
+    groups: [{ items: notes.talents.items }],
+  },
+].filter(hasNoteContent);
+
+const hasNotes = noteSections.length > 0;
 ---
 
 {
@@ -104,100 +146,30 @@ const calculationCreditItems = buildNote
         </div>
       )}
 
-      {hasWeaponsNotes && (
+      {noteSections.map((section) => (
         <div>
-          <h3>{t(locale, 'ui', 'Regarding Weapons Choices:')}</h3>
+          <h3>{t(locale, 'ui', section.headingId)}</h3>
 
-          {notes.weapons.global.map((note: string) => (
+          {section.global.map((note) => (
             <p set:html={note} />
           ))}
 
-          {notes.weapons.items.map(
-            (note: { id: string; name: string; note: string }) => (
-              <div
-                id={note.id}
-                class="note-target"
-                set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-              />
-            ),
-          )}
-        </div>
-      )}
-
-      {hasArtifactNotes && (
-        <div>
-          <h3>{t(locale, 'ui', 'Regarding Artifacts Choices:')}</h3>
-
-          {notes.artifacts.global.map((note: string) => (
-            <p set:html={note} />
-          ))}
-
-          {notes.artifacts.sets.length > 0 && (
-            <div>
-              <h4>{t(locale, 'ui', 'Sets')}</h4>
-              {notes.artifacts.sets.map(
-                (note: { id: string; name: string; note: string }) => (
+          {section.groups
+            .filter((group) => group.items.length > 0)
+            .map((group) => (
+              <div>
+                {group.headingId && <h4>{t(locale, 'ui', group.headingId)}</h4>}
+                {group.items.map((note) => (
                   <div
                     id={note.id}
                     class="note-target"
                     set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
                   />
-                ),
-              )}
-            </div>
-          )}
-
-          {notes.artifacts.mainstats.length > 0 && (
-            <div>
-              <h4>{t(locale, 'ui', 'Main Stats')}</h4>
-              {notes.artifacts.mainstats.map(
-                (note: { id: string; name: string; note: string }) => (
-                  <div
-                    id={note.id}
-                    class="note-target"
-                    set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-                  />
-                ),
-              )}
-            </div>
-          )}
-
-          {notes.artifacts.substats.length > 0 && (
-            <div>
-              <h4>{t(locale, 'ui', 'Substats')}</h4>
-              {notes.artifacts.substats.map(
-                (note: { id: string; name: string; note: string }) => (
-                  <div
-                    id={note.id}
-                    class="note-target"
-                    set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-                  />
-                ),
-              )}
-            </div>
-          )}
+                ))}
+              </div>
+            ))}
         </div>
-      )}
-
-      {hasTalentNotes && (
-        <div>
-          <h3>{t(locale, 'ui', 'Regarding Talents Choices:')}</h3>
-
-          {notes.talents.global.map((note: string) => (
-            <p set:html={note} />
-          ))}
-
-          {notes.talents.items.map(
-            (note: { id: string; name: string; note: string }) => (
-              <div
-                id={note.id}
-                class="note-target"
-                set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-              />
-            ),
-          )}
-        </div>
-      )}
+      ))}
     </div>
   )
 }
