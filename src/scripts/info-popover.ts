@@ -9,6 +9,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   const POPOVER_GAP = 8;
   let ignoreNextClick = false;
   let lastTouchY = 0;
+  let lockedScrollY = 0;
 
   /**
    * Keeps a coordinate inside a min/max viewport range.
@@ -46,6 +47,42 @@ if (!infoPopoverWindow.__infoPopoversReady) {
       '.info-popover.is-open .info-popover-card',
     );
 
+  const hasOpenPopover = () =>
+    document.querySelector('.info-popover.is-open') !== null;
+
+  const shouldLockPageScroll = () =>
+    hasOpenPopover() && window.matchMedia('(max-width: 900px)').matches;
+
+  const lockPageScroll = () => {
+    if (document.body.style.position === 'fixed') return;
+
+    lockedScrollY = window.scrollY;
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${lockedScrollY}px`;
+    document.body.style.left = '0';
+    document.body.style.right = '0';
+    document.body.style.width = '100%';
+  };
+
+  const unlockPageScroll = () => {
+    if (document.body.style.position !== 'fixed') return;
+
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.left = '';
+    document.body.style.right = '';
+    document.body.style.width = '';
+    window.scrollTo(0, lockedScrollY);
+  };
+
+  const syncPageScrollLock = () => {
+    if (shouldLockPageScroll()) {
+      lockPageScroll();
+    } else {
+      unlockPageScroll();
+    }
+  };
+
   const handlePopoverTouchStart = (event: TouchEvent) => {
     if (!getOpenPopoverCard()) return;
 
@@ -68,26 +105,12 @@ if (!infoPopoverWindow.__infoPopoversReady) {
       return;
     }
 
+    event.preventDefault();
+
     const currentTouchY = touch.clientY;
-    const deltaY = currentTouchY - lastTouchY;
+    const deltaY = lastTouchY - currentTouchY;
     lastTouchY = currentTouchY;
-
-    const canScroll = card.scrollHeight > card.clientHeight;
-
-    if (!canScroll) {
-      event.preventDefault();
-      return;
-    }
-
-    const isAtTop = card.scrollTop <= 0;
-    const isAtBottom =
-      Math.ceil(card.scrollTop + card.clientHeight) >= card.scrollHeight;
-    const isScrollingUp = deltaY > 0;
-    const isScrollingDown = deltaY < 0;
-
-    if ((isAtTop && isScrollingUp) || (isAtBottom && isScrollingDown)) {
-      event.preventDefault();
-    }
+    card.scrollTop += deltaY;
   };
 
   /**
@@ -219,10 +242,8 @@ if (!infoPopoverWindow.__infoPopoversReady) {
         }
       });
 
-    document.body.classList.toggle(
-      'info-popover-locked',
-      document.querySelector('.info-popover.is-open') !== null,
-    );
+    document.body.classList.toggle('info-popover-locked', hasOpenPopover());
+    syncPageScrollLock();
   };
 
   document.addEventListener('pointerdown', (event) => {
@@ -272,7 +293,10 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     }
   });
 
-  window.addEventListener('resize', positionActivePopovers);
+  window.addEventListener('resize', () => {
+    positionActivePopovers();
+    syncPageScrollLock();
+  });
   window.addEventListener(
     'scroll',
     (event) => {
