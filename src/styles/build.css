@@ -344,6 +344,18 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
     max-height: min(420px, calc(100vh - 48px));
   }
 
+  .info-popover-card.is-portaled {
+    top: auto !important;
+    right: 12px;
+    bottom: 12px;
+    left: 12px !important;
+    width: auto;
+    max-height: min(70dvh, calc(100vh - 72px));
+    overflow-x: hidden;
+    overflow-y: scroll;
+    touch-action: auto;
+  }
+
   .info-popover:hover .info-popover-card {
     display: none;
   }
