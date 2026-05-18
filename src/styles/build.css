@@ -222,6 +222,7 @@
   width: min(320px, calc(100vw - 32px));
   max-height: calc(100vh - 16px);
   overflow: auto;
+  overscroll-behavior: contain;
   border: 1px solid color-mix(in srgb, var(--element) 55%, var(--text));
   border-radius: 6px;
   padding: 10px;
@@ -232,6 +233,9 @@
   font-weight: 400;
   line-height: 1.35;
   white-space: normal;
+  pointer-events: auto;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
 }
 
 .info-popover:hover .info-popover-card,
@@ -240,8 +244,7 @@
   display: block;
 }
 
-body.info-popover-locked .info-popover:hover .info-popover-card,
-body.info-popover-locked .info-popover:focus-within .info-popover-card {
+body.info-popover-locked .info-popover:not(.is-open) .info-popover-card {
   display: none;
 }
 
@@ -362,6 +365,7 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
   cursor: pointer;
   font: inherit;
   font-weight: 700;
+  touch-action: manipulation;
 }
 
 .weapon-popover-refinement-button[aria-selected='true'] {

@@ -32,6 +32,14 @@ if (!infoPopoverWindow.__infoPopoversReady) {
             : null;
 
     /**
+     * Checks whether an event happened inside a popover card.
+     */
+    const isInsidePopoverCard = (target: EventTarget | null) =>
+        target instanceof HTMLElement
+            ? target.closest<HTMLElement>('.info-popover-card') !== null
+            : false;
+
+    /**
      * Positions a popover card so it remains fully inside the viewport.
      */
     const positionPopoverCard = (popover: HTMLElement) => {
@@ -134,7 +142,15 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     });
 
     window.addEventListener('resize', positionActivePopovers);
-    window.addEventListener('scroll', positionActivePopovers, true);
+    window.addEventListener(
+        'scroll',
+        (event) => {
+            if (!isInsidePopoverCard(event.target)) {
+                positionActivePopovers();
+            }
+        },
+        true,
+    );
 
     document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') {
