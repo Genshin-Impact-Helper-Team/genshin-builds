@@ -6,11 +6,13 @@
     "notes": [
         {
             "en": "[[character:bennett]]'s main utility as a support comes from the huge [[stat:atk]] buff his [[ability:burst]] provides. This buff **only scales with his Base Attack, so it is unaffected by any external ATK buff**.",
-            "fr": "La principale utilité de [[character:bennett]] en tant que support vient du buff d'[[stat:atk]] flat important qu'il fournit via son [[ability:burst]]. Ce buff **ne se base que sur son ATQ de base, donc il n'est pas affecté par les buffs d'ATQ externes**."
+            "fr": "La principale utilité de [[character:bennett]] en tant que support vient du buff d'[[stat:atk]] flat important qu'il fournit via son [[ability:burst]]. Ce buff **ne se base que sur son ATQ de base, donc il n'est pas affecté par les buffs d'ATQ externes**.",
+            "it": "L'utilità principale di [[character:bennett]] deriva dall'enorme potenziamento di [[stat:atk]] fornito dal suo [[ability:burst]]. Questo potenziamento **scala esclusivamente dal suo Attacco Base**, e non è quindi influenzato da alcun potenziamento esterno al suo ATT totale."
         },
         {
             "en": "[[character:bennett]]'s C6 infuses melee weapons with [[element:pyro]], which can mess up a few teams. However, if you have C6 [[character:bennett]], you more than likely have some of the supports those teams prefer over [[character:bennett]] anyway.",
-            "fr": "La C6 de [[character:bennett]] infuse les armes de mêlée avec [[element:pyro]], ce qui peut perturber quelques équipes. Cependant, si vous avez la C6 de [[character:bennett]], vous avez plus que probablement certains des supports que ces équipes préfèrent à [[character:bennett]] de toute manière."
+            "fr": "La C6 de [[character:bennett]] infuse les armes de mêlée avec [[element:pyro]], ce qui peut perturber quelques équipes. Cependant, si vous avez la C6 de [[character:bennett]], vous avez plus que probablement certains des supports que ces équipes préfèrent à [[character:bennett]] de toute manière.",
+            "it": "La **C6** di [[character:bennett]] **infonde con Pyro le armi da mischia**, cosa che può rovinare qualche team. Tuttavia, se hai la C6 di [[character:bennett]], è molto probabile che tu abbia supporti alternativi preferibili a Bennett nei suddetti team."
         }
     ]
 }
