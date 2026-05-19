@@ -1,0 +1,25 @@
+{
+    "best": true,
+    "name": {
+        "en": "Buff Support",
+        "fr": "Support Buff"
+    },
+    "notes": [
+        {
+            "en": "[[character:mona]] can use her [[ability:burst]] to apply the Omen debuff on enemies and allow teammates to deal more damage. This is most commonly seen in [[element:freeze]] teams. [[character:mona]]'s main role on a [[element:freeze]] team is to **provide Omen debuff** from her [[ability:burst]] as it is **extendable via [[element:freeze]] mechanics**.",
+            "fr": "[[character:mona]] peut utiliser son [[ability:burst]] pour appliquer le débuff Présage sur les ennemies et permettre à ses coéquipier d'infliger plus de dégâts, généralement dans les équipes [[element:freeze]] teams. C'est d'ailleurs le rôle principal de [[character:mona]] dans les équipes [[element:freeze]] puisque la durée de son débuff peut être **allongée via la méchanique de [[element:freeze]].**"
+        },
+        {
+            "en": "Note that you must **apply [[element:cryo]] before casting [[character:mona]]'s [[ability:burst]]** for the extension to happen. Omen [[element:freeze]] extension can be done by **reapplying [[element:cryo]] and [[element:hydro]] aura consistently** (this can be done with [[element:cryo]] / [[element:hydro]] infused [[character:venti]] [[ability:burst]] + on-field [[element:cryo]] / [[element:hydro]] aura).",
+            "fr": "Gardez en tête qu'il faut **appliquer [[element:cryo]] avant d'utiliser l'[[ability:burst]] de [[character:mona]]** pour que l'extension du débuff fonctionne. Cette extension peut être déclenchée en **ré-appliquant sans cesse une aura [[element:cryo]] et [[element:hydro]]** (ce qui peut être fait avec l'[[ability:burst]] de [[character:venti]] infusé de [[element:cryo]] / [[element:hydro]] + une aura [[element:cryo]] / [[element:hydro]] on-field)."
+        },
+        {
+            "en": "[[character:mona]]'s [[ability:burst]] applies bubble and Omen debuff upon cast, the count down timer only begins when the bubble is broken.",
+            "fr": "L'[[ability:burst]] de [[character:mona]] applique une bulle et le débuff présage lors du lancement du sort, et le décompte pour la fin du débuff ne se lance que lorsque la bulle éclate."
+        },
+        {
+            "en": "Frozen enemies can have their bubbles preserved as long as enemies stay in a frozen state. This technique makes [[character:mona]] a priority Support for [[element:cryo]] DPS teams.",
+            "fr": "Les ennemis gelés peuvent conserver leur bulle tant qu'ils restent dans cet état de gel. Cette technique fait de [[character:mona]] un support à prioriser pour les équipes de DPS [[element:cryo]]."
+        }
+    ]
+}

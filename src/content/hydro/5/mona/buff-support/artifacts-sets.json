@@ -1,0 +1,76 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "millelith",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "Run this set if there's already another character with **[[set:noblesse]] (4)** on the team.",
+                                "fr": "Jouez ce set s'il y a déjà un personnage avec **[[set:noblesse]] (4)** dans l'équipe."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "scroll",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "Run this set if there's already another character with **[[set:noblesse]] (4)** on the team.",
+                                "fr": "Jouez ce set s'il y a déjà un personnage avec **[[set:noblesse]] (4)** dans l'équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

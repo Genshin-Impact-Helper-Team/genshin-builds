@@ -1,0 +1,21 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "atk%"
+        ],
+        "goblet": [
+            "hydro-dmg",
+            "atk%"
+        ],
+        "circlet": [
+            "cr"
+        ]
+    },
+    "notes": [
+        {
+            "en": "Offensive stats aren't actually needed on a [[element:freeze]] Support [[character:mona]], focus on Artifact Set Bonus & stack [[stat:er]] for comfortable [[ability:burst]] uptime",
+            "fr": "Les stats offensive stats ne sont pas vraiment nécéssaires pour une [[character:mona]] Support [[element:freeze]], concentrez vous sur le bonus de set & accumulez la [[stat:er]] pour avoir son [[ability:burst]] disponible aussi souvent que possible."
+        }
+    ]
+}
