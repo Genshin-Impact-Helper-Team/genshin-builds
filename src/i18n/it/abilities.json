@@ -1,1 +1,15 @@
-{}
+{
+    "na": "Attacco Normale",
+    "ca": "Attacco Caricato",
+    "skill": "Abilità",
+    "burst": "Tripudio",
+    "bol": "Legame vitale",
+    "nightsoul-blessing": "Grazia dell'Anima della Notte",
+    "nightsoul-burst": "Impeto dell'Anima della Notte",
+    "nightsoul-point": "punto Anima della Notte",
+    "nightsoul-transmission": "Trasmissione dell'Anima della Notte",
+    "arkhe": "Archè",
+    "pneuma": "Pneuma",
+    "ousia": "Ousia",
+    "hexerei": "Hexerei"
+}
