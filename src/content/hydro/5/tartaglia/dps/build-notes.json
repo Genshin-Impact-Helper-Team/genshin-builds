@@ -1,0 +1,36 @@
+{
+    "best": true,
+    "name": {
+        "en": "DPS"
+    },
+    "notes": [
+        {
+            "en": "[[character:tartaglia]] is an on-field [[element:hydro]] DPS and enabler. He works particularly well in a [[element:vaporize]] team with [[character:xiangling]], as this allows him to [[element:vaporize]] his [[ability:burst]] while also enabling [[element:vaporize]] consistently for [[character:xiangling]].",
+            "fr": "[[character:tartaglia]] est un DPS [[element:hydro]] On-field et enabler. Il fonctionne particulièrement bien dans les équipes [[element:vaporize]] avec [[character:xiangling]], puisque cela lui permet de déclencher [[element:vaporize]] sur son [[ability:burst]] tout en permettant à [[character:xiangling]] de déclencher [[element:vaporize]] à coup sûr."
+        },
+        {
+            "en": "**Optimal [[ability:skill]] duration for [C0]:** 7s, 9s or 12s.",
+            "fr": "**Durée optimale du [[ability:skill]] en [C0]:** 7s, 9s or 12s."
+        },
+        {
+            "en": "**Optimal [[ability:skill]] duration for [C1]:** 9s, 11s or 14s.",
+            "fr": "**Durée optimale du [[ability:skill]] en [C1]:** 9s, 11s or 14s."
+        },
+        {
+            "en": "**Melee [[ability:burst]]:** Only to be used in situations where you need only 1 rotation to clear as the [[stat:er]] requirement to maintain [[ability:burst]] uptime is quite high (170-190%), you'll always want to start your rotations with Ranged [[ability:burst]] since it refunds energy to maintain your rotation well.",
+            "fr": "**[[ability:burst]] en état de mélée:** A n'utiliser que dans les situations où il n'y a besoin que d'une rotation pour clear, car les besoins en [[stat:er]] nécéssaires pour avoir l'[[ability:burst]] disponible en permanence sont très hauts (170-190%). Vous voudrez toujours commencer votre rotation avec l'[[ability:burst]] en état à distance puisqu'il rend de l'énergie et permet de maintenir une bonne rotation."
+        },
+        {
+            "en": "**[[ability:skill]] Combo:**\n- 2 NA + 1 CA (Optimal)\n- 3 NA + 1 CA (Recommended)\n- 5 NA + 1 CA (Recommended combo if using [[weapon:rust]] or [[weapon:thundering-pulse]])",
+            "fr": "**Combo [[ability:skill]]:**\n- 2 NA + 1 CA (Optimal)\n- 3 NA + 1 CA (Recommandé)\n- 5 NA + 1 CA (Combo recommandé en utilisant [[weapon:rust]] ou [[weapon:thundering-pulse]])"
+        },
+        {
+            "en": "Le combo Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",
+            "fr": "Le combo Optimal offre plus de dégâts mais consomme plus d'endurance. Le combo Recommandé offre légèrement moins de dégâts mais ne consomme pas d'endurance et représente ce qui devrait être utilisé pour la plupart des armes."
+        }
+    ],
+    "weapons": {
+        "author": "Speify & Kaori",
+        "link": "https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pubhtml#gid=1354385732"
+    }
+}

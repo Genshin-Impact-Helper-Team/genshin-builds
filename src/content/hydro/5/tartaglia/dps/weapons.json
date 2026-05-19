@@ -1,0 +1,118 @@
+{
+    "notes": [
+        {
+            "en": "[[character:tartaglia]] is calculated with [[character:bennett]], along with shorter rotation for a controlled setting",
+            "fr": "[[character:tartaglia]] a été calculé avec [[character:bennett]] ainsi qu'une rotation plus courte pour un contexte contrôlé."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "Dynamic Stacking, will be done alongside of stacking **[[set:nymphs-dream]] (4)**",
+                        "fr": "Stacking dynamique en parallèle du stacking de **[[set:nymphs-dream]] (4)**"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hunters-path",
+                    "note": {
+                        "en": "Makes [[stat:em]] highly valuable, especially in rotations like **N2C or N1C**.",
+                        "fr": "Rends la [[stat:em]] très précieuse, surtout dans les rotations comme **N2C ou N1C**."
+                    }
+                },
+                "aqua-simulacra",
+                "skyward-harp",
+                "thundering-pulse",
+                "astral-vultures-crimson-plumage"
+            ]
+        },
+        {
+            "items": [
+                "the-first-great-magic"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-viridescent-hunt",
+                    "note": {
+                        "en": "Offers a valuable passive that helps a lot in **grouping enemies**, which can offer a ton of damage from Riptide. At **[R5]** this weapon performs almost as well as **[[weapon:the-first-great-magic]]**.",
+                        "fr": "Offre un passif précieux qui aide beaucoup à **regrouper les ennemis**, ce qui peut offrir énormément de dégâts de Contre-courant. Une fois **[R5]** cette arme est presque aussi bien que **[[weapon:the-first-great-magic]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "kings-squire",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Have to change double [[element:swirl]] setup to use a [[ability:ca]] instead of a [[ability:skill]]",
+                        "fr": "Nécéssite de changer le setup de Double [[element:swirl]] en utilisant une [[ability:ca]] au lieu d'un [[ability:skill]]"
+                    }
+                },
+                "amos-bow",
+                {
+                    "name": "the-stringless",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "scion-of-the-blazing-sun",
+                    "note": {
+                        "en": "Assumed first [[ability:ca]] does not get the passive. At **[R5]** this weapon performs as well as **[[weapon:the-viridescent-hunt]] [R1]** - due to this reason, it is better to get **[[weapon:the-viridescent-hunt]]** from the Battle Pass.",
+                        "fr": "Suppose que la première [[ability:ca]] n'obtient pas le passif. Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:the-viridescent-hunt]] [R1]** - pour cetet raison, il vaut mieux choisir **[[weapon:the-viridescent-hunt]]** dans le Pass de Bataille."
+                    }
+                },
+                {
+                    "name": "blackcliff-warbow",
+                    "note": {
+                        "en": "Assumed 1 stack. At **[R5]** this weapon perform as well as **[[weapon:amos-bow]]**.",
+                        "fr": "Suppose 1 stack. Une fois **[R5]** cette arme est aussi bien que **[[weapon:amos-bow]]**."
+                    }
+                },
+                {
+                    "name": "chain-breaker",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "windblume-ode",
+                    "refinement": 5
+                },
+                {
+                    "name": "hamayumi",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumed weapon passive is not doubled.",
+                        "fr": "Suppose que le passif de l'arme n'est pas doublé."
+                    }
+                },
+                {
+                    "name": "mouuns-moon",
+                    "note": {
+                        "en": "Assumed 260 Burst Cost in total. At **[R5]** this weapon performs as well as **[[weapon:scion-of-the-blazing-sun]]**.",
+                        "fr": "Suppose un coût total d'ulti de 260. Une fois **[R5]** cette arme est aussi bien que **[[weapon:scion-of-the-blazing-sun]]**."
+                    }
+                },
+                {
+                    "name": "rust",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

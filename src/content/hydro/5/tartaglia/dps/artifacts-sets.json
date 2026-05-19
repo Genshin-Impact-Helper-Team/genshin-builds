@@ -1,0 +1,85 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "nymphs-dream",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "heart-of-depth",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "hydro-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2,
+                            "note": {
+                                "en": "This set with **[[set:hydro-set]] (2)** is only about 1-2 substats behind **[[set:heart-of-depth]] (4)**, you can opt out for this option instead if you already have decent pieces.",
+                                "fr": "Ce set avec **[[set:hydro-set]] (2)** n'est qu'une à deux substats derrière **[[set:heart-of-depth]] (4)**, vous pouvez donc vous rabattre sur cette option si vous avez déjà de bonnes pièces."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hydro-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "shimenawas-reminiscence",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Due to this set requiring [[character:tartaglia]] to have around 150% [[stat:er]] to reliably [[ability:burst]] every rotation, it falls behind the other options. However, it outperforms **[[set:heart-of-depth]] (4)** if used in a single rotation setting **(ignoring [[stat:er]])**.",
+                                "fr": "Comme ce set nécéssite que [[character:tartaglia]] aie environ 150% de [[stat:er]] pour pouvoir [[ability:burst]] à chaque rotation, il se classe derrière les autres options. Cependant, il dépasse **[[set:heart-of-depth]] (4)** si utilisé dans le contexte d'une seule rotation **(en ignorant la [[stat:er]])**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
