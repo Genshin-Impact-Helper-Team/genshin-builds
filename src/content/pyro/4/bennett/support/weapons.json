@@ -6,21 +6,24 @@
                     "name": "mistsplitter-reforged",
                     "note": {
                         "en": "While providing the same Base Attack as **[[weapon:aquila-favonia]]**, this weapon is a better choice when building for [[character:bennett]]'s personal damage.",
-                        "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels."
+                        "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels.",
+                        "it": "Quest'arma fornisce lo stesso ATT Base di **[[weapon:aquila-favonia]]**, ma è una scelta migliore nel caso ti interessino i danni personali di [[character:bennett]]."
                     }
                 },
                 {
                     "name": "absolution",
                     "note": {
                         "en": "While providing the same Base Attack as **[[weapon:aquila-favonia]]**, this weapon is a better choice when building for [[character:bennett]]'s personal damage.",
-                        "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels."
+                        "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels.",
+                        "it": "Quest'arma fornisce lo stesso ATT Base di **[[weapon:aquila-favonia]]**, ma è una scelta migliore nel caso ti interessino i danni personali di [[character:bennett]]."
                     }
                 },
                 {
                     "name": "azurelight",
                     "note": {
                         "en": "While providing the same Base Attack as **[[weapon:aquila-favonia]]**, this weapon is a better choice when building for [[character:bennett]]'s personal damage.",
-                        "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels."
+                        "fr": "Bien qu'offrant le même ATQ de base que **[[weapon:aquila-favonia]]**, cette arme est un meilleur choix lorsque [[character:bennett]] est build pour ses dégâts personnels.",
+                        "it": "Quest'arma fornisce lo stesso ATT Base di **[[weapon:aquila-favonia]]**, ma è una scelta migliore nel caso ti interessino i danni personali di [[character:bennett]]."
                     }
                 },
                 "aquila-favonia"
@@ -37,14 +40,16 @@
                     "name": "freedom-sworn",
                     "note": {
                         "en": "In teams where [[character:bennett]] can reliably trigger this weapon's passive, it can be stronger than **[[weapon:aquila-favonia]], [[weapon:mistsplitter-reforged]], and [[weapon:absolution]]**.",
-                        "fr": "Dans les équipes où [[character:bennett]] peut à coup sûr déclencher le passif de cette arme, elle peut être plus puissante que **[[weapon:aquila-favonia]], [[weapon:mistsplitter-reforged]], et [[weapon:absolution]]**."
+                        "fr": "Dans les équipes où [[character:bennett]] peut à coup sûr déclencher le passif de cette arme, elle peut être plus puissante que **[[weapon:aquila-favonia]], [[weapon:mistsplitter-reforged]], et [[weapon:absolution]]**.",
+                        "it": "In team dove [[character:bennett]] riesca ad attivare in maniera affidabile la passiva di quest'arma, può essere migliore di **[[weapon:aquila-favonia]], [[weapon:mistsplitter-reforged]], et [[weapon:absolution]]**."
                     }
                 },
                 {
                     "name": "peak-patrol-song",
                     "note": {
                         "en": "While requiring two additional [[ability:na]]s, this weapon can provide a sizeable buff with just one or two [[stat:def%]] main stats, making it competitive with **[[weapon:aquila-favonia]]** and similar options for teams that highly value DMG Bonus buffs.",
-                        "fr": "Bien qu'exigeant deux [[ability:na]] supplémentaires, cette arme peut fournir un buff conséquent avec seulement une ou deux stats principales [[stat:def%]], ce qui la rend compétitive avec **[[weapon:aquila-favonia]]** et autres options similaires pour les équipes qui valorisent fortement les buffs de Bonus de Dégâts."
+                        "fr": "Bien qu'exigeant deux [[ability:na]] supplémentaires, cette arme peut fournir un buff conséquent avec seulement une ou deux stats principales [[stat:def%]], ce qui la rend compétitive avec **[[weapon:aquila-favonia]]** et autres options similaires pour les équipes qui valorisent fortement les buffs de Bonus de Dégâts.",
+                        "it": "Nonostante richieda due [[ability:na]], quest'arma può fornire un potenziamento considerevole con solo una o due stat principali [[stat:def%]], il che la rende competitiva con **[[weapon:aquila-favonia]]** ed opzioni simili in team che apprezzano molto potenziamenti di DAN%."
                     }
                 },
                 "skyward-blade"
@@ -67,7 +72,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "This weapon's low Base Attack heavily impairs [[character:bennett]]'s buffing potency, but it can be a viable pick in teams with extremely high [[stat:er]] requirements or no actual use for the [[stat:atk]] buff.",
-                        "fr": "L'ATQ de base faible de cette arme diminue fortement la puissance de buff de [[character:bennett]], mais elle peut être un choix viable dans les équipes avec des besoins extrêmement élevées en [[stat:er]] ou sans utilisation réelle du buff d'[[stat:atk]]."
+                        "fr": "L'ATQ de base faible de cette arme diminue fortement la puissance de buff de [[character:bennett]], mais elle peut être un choix viable dans les équipes avec des besoins extrêmement élevées en [[stat:er]] ou sans utilisation réelle du buff d'[[stat:atk]].",
+                        "it": "L'ATT base basso di quest'arma compromette gravemente la forza del potenziamento di [[character:bennett]], ma può essere un'opzione valida in caso di requisiti di [[stat:er]] del team estremamente alti od in team in cui il potenziamento [[stat:atk]] non è utile."
                     }
                 }
             ]
