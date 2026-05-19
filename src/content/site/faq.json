@@ -1,147 +1,176 @@
 {
     "intro": {
         "en": "Hello and welcome to the Genshin Impact Helper Team Build Guide! This website aims to help players build their characters as optimally as possible, by providing the best weapons, stats, and artifact sets for each individual released character. This FAQ should help better understand the website a little easier.",
-        "fr": "Bonjour et bienvenue sur le Guide de Builds par la Genshin Impact Helper Team ! Ce site a pour but d'aider les joueurs à build leurs personnages de la façon la plus optimale possible, en leur donnant les meilleures armes, stats, et set d'artéfacts pour chaque personnage. Cette FAQ devrait vous aider à mieux comprendre le site."
+        "fr": "Bonjour et bienvenue sur le Guide de Builds par la Genshin Impact Helper Team ! Ce site a pour but d'aider les joueurs à build leurs personnages de la façon la plus optimale possible, en leur donnant les meilleures armes, stats, et set d'artéfacts pour chaque personnage. Cette FAQ devrait vous aider à mieux comprendre le site.",
+        "en": "Salve e benvenuti nella Guida alle Build del Team Helper di Genshin Impact! L'obiettivo di questo sito è aiutare i giocatori a buildare i personaggi nel modo più ottimale possibile, fornendo loro le migliori armi, stat, e set di manufatti. Queste FAQ saranno d'aiuto per comprendere al meglio questo sito."
     },
     "items": [
         {
             "question": {
                 "en": " What is featured on this build doc?",
-                "fr": "Que vais-je trouver dans ce guide?"
+                "fr": "Que vais-je trouver dans ce guide?",
+                "it": "Cosa include questa guida?"
             },
             "answer": {
                 "en": "This build doc features optimal weapons, artifacts, and stats for each individual character. This build doc assumes you are at least Adventure Rank 45, and are able to farm 5★ artifacts at the highest level domain.",
-                "fr": "Ce guide de build présente les armes, artéfacts et stats optimaux pour chaque personnage. Les conseils de ce document sont écrits en partant du principe que vous êtes au moins au Niveau d'Aventure 45, et que vous pouvez farm les artéfacts 5✩ du plus haut niveau de chaque donjon."
+                "fr": "Ce guide de build présente les armes, artéfacts et stats optimaux pour chaque personnage. Les conseils de ce document sont écrits en partant du principe que vous êtes au moins au Niveau d'Aventure 45, et que vous pouvez farm les artéfacts 5✩ du plus haut niveau de chaque donjon.",
+                "it": "La guida alle build include le armi, le stat, ed i set di manufatti migliori per ogni personaggio. La guida alle build presuppone che tu sia almeno **Livello d'Avventura 45**, e sia in grado di farmare manufatti 5✩ nei **domini di massimo livello**."
             }
         },
         {
             "question": {
                 "en": " X Character was just released and I don't see them on here, where are they?",
-                "fr": "X Personnage vient de sortir et je ne le vois pas dans le guide, où est-il?"
+                "fr": "X Personnage vient de sortir et je ne le vois pas dans le guide, où est-il?",
+                "it": "Il personaggio X è appena uscito e non lo vedo nella guida, dov'è?"
             },
             "answer": {
                 "en": "Please understand that it does take about a week, potentially more, for testing on live servers to happen. The doc contributors are actively working hard to gather relevant information for said character. The feedback form is also not a place to demand a character to be added.",
-                "fr": "Veuillez garder en tête que tester les personnages peut prendre environ une semaine, parfois même plus. Les contributeurs de ce guide travaillent dur pour regrouper toutes les informations nécessaires pour ledit personnage. Le feedback form n'est pas l'endroit pour demander l'ajout d'un personnage."
+                "fr": "Veuillez garder en tête que tester les personnages peut prendre environ une semaine, parfois même plus. Les contributeurs de ce guide travaillent dur pour regrouper toutes les informations nécessaires pour ledit personnage. Le feedback form n'est pas l'endroit pour demander l'ajout d'un personnage.",
+                "it": "Tieni in considerazione che c'è bisogno di circa una settimana per testare i personaggi sul server, se non di più. Gli autori della guida stanno lavorando per ottenere informazioni accurate. Il form per i commenti non è il posto adatto per richiedere l'aggiunta di un personaggio."
             }
         },
         {
             "question": {
                 "en": " Where can I find such weapons and artifacts mentioned on the build doc?",
-                "fr": "Où puis-je trouver les armes et artéfacts mentionnés dans ce guide ?"
+                "fr": "Où puis-je trouver les armes et artéfacts mentionnés dans ce guide?",
+                "it": "Dove trovo le armi ed i manufatti menzionati nella guida?"
             },
             "answer": {
                 "en": "The method to acquire said weapons and artifacts are listed on the Genshin Fandom Wiki. The wiki is also a great resource for gathering other relevant information.",
-                "fr": "Les différentes façons d'obtenir les armes et artéfacts sont listées sur le Genshin Fandom Wiki. Le wiki est aussi une très bonne ressource pour retrouver de nombreuses informations intéressantes."
+                "fr": "Les différentes façons d'obtenir les armes et artéfacts sont listées sur le Genshin Fandom Wiki. Le wiki est aussi une très bonne ressource pour retrouver de nombreuses informations intéressantes.",
+                "it": "Il modo per ottenere armi e manufatti è dettagliato sulla Genshin Fandom Wiki. La wiki è anche un'ottima risorsa per ogni tipo di informazione."
             }
         },
         {
             "question": {
                 "en": " I believe X weapon/artifact is good for Y Character, can you add it? Why is it not added? Why won't you add it?",
-                "fr": "Je pense que X arme/artéfact est bien pour Y personnage, pouvez-vous l'ajouter ? Pourquoi n'est-ce pas ajouté ? Pourquoi ne l'ajouterez vous pas ?"
+                "fr": "Je pense que X arme/artéfact est bien pour Y personnage, pouvez-vous l'ajouter? Pourquoi n'est-ce pas ajouté? Pourquoi ne l'ajouterez vous pas?",
+                "it": "Credo che quest'arma/set di manufatti funzioni bene sul personaggio X, potete aggiungerli?"
             },
             "answer": {
                 "en": "The rankings for each weapon and artifact are meticulously tested and calculated to where they are placed on the build doc. Do keep in mind that as new weapons and artifacts come out, certain rankings may be subject to change. What you see may not always be a permanent ranking.",
-                "fr": "Les classements pour chaque arme et artéfact sont méticuleusement testés et calculés pour être placés où ils le sont dans ce guide. Veuillez garder en tête que lorsque de nouvelles armes et artéfacts sortent, certains classements peuvent être amenés à changer. Ce que vous voyez n'est peut-être pas toujours un classement définitif."
+                "fr": "Les classements pour chaque arme et artéfact sont méticuleusement testés et calculés pour être placés où ils le sont dans ce guide. Veuillez garder en tête que lorsque de nouvelles armes et artéfacts sortent, certains classements peuvent être amenés à changer. Ce que vous voyez n'est peut-être pas toujours un classement définitif.",
+                "it": "Le classifiche per ogni arma e manufatto sono calcolate e testate meticolosamente. A mano a mano che nuove armi e manufatti diventano disponibili, alcune classifiche potrebbero essere soggette a modifiche - quelle che vedi non sono necessariamente permanenti. Controlla in cima alla sezione di ogni personaggio per vedere quando è stata aggiornata per l'ultima volta."
             }
         },
         {
             "question": {
                 "en": " There is a niche build setup for X character, can it be added to the build doc?",
-                "fr": "Il y a un build niche pour X personnage, est-ce qu'il peut être ajouté au guide ?"
+                "fr": "Il y a un build niche pour X personnage, est-ce qu'il peut être ajouté au guide?",
+                "it": "C'è una build di nicchia per X personaggio, la potete aggiungere?"
             },
             "answer": {
                 "en": "The build doc is for more general, more commonly used builds that are viable in most scenarios. If a specific build only worked in 1 or 2 niches, it really wouldn't be worth mentioning.",
-                "fr": "Ce guide de build est fait pour des builds plus généraux, plus couramment utilisés et qui seront viables dans la plupart des scénarios. Si un build spécifique ne fonctionne que pour 1 ou 2 niches, il n'est pas vraiment utile de le mentionner."
+                "fr": "Ce guide de build est fait pour des builds plus généraux, plus couramment utilisés et qui seront viables dans la plupart des scénarios. Si un build spécifique ne fonctionne que pour 1 ou 2 niches, il n'est pas vraiment utile de le mentionner.",
+                "it": "Questa guida è dedicata a build più generali e comunemente utilizzate. Se una build specifica è utile solamente in pochi casi, non riteniamo utile menzionarla."
             }
         },
         {
             "question": {
                 "en": " I see that Energy Recharge requirements are mentioned but a value isn't listed. Why is that?",
-                "fr": "Je vois que l'on parle d'un montant de Recharge d'Energie nécessaire, mais aucune valeur n'est mentionnée, pourquoi ?"
+                "fr": "Je vois que l'on parle d'un montant de Recharge d'Energie nécessaire, mais aucune valeur n'est mentionnée, pourquoi?",
+                "it": "Vedo che sono menzionati dei requisiti di Ricarica di Energia, ma non è indicato il valore preciso. Perché?"
             },
             "answer": {
                 "en": "Energy Recharge varies in different teams. It's also difficult to provide an exact number for every scenario. As such, it is best to consult the [Energy Recharge Calculator](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit?gid=613391376#gid=613391376).",
-                "fr": "La recharge d'énergie varie selon l'équipe, il est difficile de donner un montant exact pour tous les scénarios. Ainsi, il vaut mieux consulter le [Calculateur de Recharge d'Energie](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit?gid=613391376#gid=613391376)."
+                "fr": "La recharge d'énergie varie selon l'équipe, il est difficile de donner un montant exact pour tous les scénarios. Ainsi, il vaut mieux consulter le [Calculateur de Recharge d'Energie](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit?gid=613391376#gid=613391376).",
+                "it": "La **Ricarica di Energia necessaria varia a seconda del team**, dell'equipaggiamento e dello scenario. Per una stima, consigliamo di utilizzare il **[Calcolatore di Ricarica di Energia](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit?gid=613391376#gid=613391376)**."
             }
         },
         {
             "question": {
                 "en": " Is there data to back up your rankings?",
-                "fr": "Sur quelles données vous basez-vous pour établir ces classements ?"
+                "fr": "Sur quelles données vous basez-vous pour établir ces classements?",
+                "it": "Su quali dati si basano le vostre classifiche?"
             },
             "answer": {
                 "en": "Almost every section was planned out with TheoryCrafting in mind. As such, the rankings provided are backed up with calculations, and are not just it's good because we said so. Do note that the sources of our rankings do not contain Pre-TC or leak content.",
-                "fr": "La majorité des sections ont été conçues en s’appuyant sur du theorycraft. Ainsi, les classements proposés sont étayés par des calculs, et ne se basent pas simplement sur des affirmations subjectives. À noter que les sources utilisées pour établir ces classements n’incluent aucun contenu issu de leaks ou de pré-tc."
+                "fr": "La majorité des sections ont été conçues en s’appuyant sur du theorycraft. Ainsi, les classements proposés sont étayés par des calculs, et ne se basent pas simplement sur des affirmations subjectives. À noter que les sources utilisées pour établir ces classements n’incluent aucun contenu issu de leaks ou de pré-tc.",
+                "it": "La maggioranza delle sezioni è compilata sulla base di theorycrafting. Le classifiche sono basate su calcoli, non opinioni soggettive. Notiamo inoltre che le fonti dei nostri calcoli non contengono Pre-TC o leak."
             }
         },
         {
             "question": {
                 "en": " Can you make sections for unreleased/teased characters?",
-                "fr": "Est-ce que vous pouvez faire des sections pour les personnages à venir ?"
+                "fr": "Est-ce que vous pouvez faire des sections pour les personnages à venir?",
+                "it": "Potete creare una sezione per un personaggio non ancora uscito?"
             },
             "answer": {
                 "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters.",
-                "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles."
+                "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles.",
+                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**."
             }
         },
         {
             "question": {
                 "en": " Can you provide team-building assistance?",
-                "fr": "Pouvez-vous m'aider à choisir une équipe ?"
+                "fr": "Pouvez-vous m'aider à choisir une équipe?",
+                "it": "Potete aiutarmi a comporre un team?"
             },
             "answer": {
                 "en": "We do not cover full team-building. However, if there are important synergies between characters, the doc will mention them.",
-                "fr": "Nous ne nous occupons pas de la construction d'équipes. Cependant, s'il y a des synergies importantes entre des personnages, elles seront mentionnées."
+                "fr": "Nous ne nous occupons pas de la construction d'équipes. Cependant, s'il y a des synergies importantes entre des personnages, elles seront mentionnées.",
+                "it": "La guida non tratta di composizioni di team. Tuttavia, se esistono sinergie importanti tra certi personaggi, sarà menzionato nella loro sezione."
             }
         },
         {
             "question": {
                 "en": " What are these random letters when discussing combos and rotations?",
-                "fr": "Que signifient ces lettres lorsque l'on parle de combos et de rotations ?"
+                "fr": "Que signifient ces lettres lorsque l'on parle de combos et de rotations?",
+                "it": "Cosa significano le lettere utilizzate per combo e rotazioni?"
             },
             "answer": {
                 "en": "When referring to something such as N3E (as an example), the doc is talking about using 3 Normal Attacks, and then Elemental Skill. For simplification reasons, the doc roughly uses the default keybinds on PC to represent abilities. Below you can find a legend of commonly used keys and their meaning:\n\nN(x) = Normal Attack; x = number of times to attack within a character's attack string\nC = Charged Attack\nE = Elemental Skill\ntE = Tap Skill\nhE = Hold Skill\nQ = Elemental Burst\nJ = Jump\nD = Dash/Dodge (This is just a quick tap of the sprint button)\nP = Plunge\nx[combo]; x = number of times to repeat said combo",
-                "fr": "Lorsque l'on utilise des combinaisons comme N3E (par exemple), cela veut dire d'utiliser 3 Attaques normales puis le skill. Pour simplifier l'écriture, ce guide utilisera les touches utilisées sur PC pour représenter les aptitudes. Vous trouverez ci-dessous une légende de ces termes:\n\nN = Attaque normale\n\nC = Attaque chargée\n\nE = Skil\n\ntE = Tap Skill\n\nhE = Skill appuyé\n\nA = Ulti\n\nJ = Saut\n\nD = Sprint/Esquive (Juste un appui rapide sur le bouton pour sprint)\n\nP = Attaque plongeante\n\nx[combo]; x = nombre de fois où l'on répète le combo"
+                "fr": "Lorsque l'on utilise des combinaisons comme N3E (par exemple), cela veut dire d'utiliser 3 Attaques normales puis le skill. Pour simplifier l'écriture, ce guide utilisera les touches utilisées sur PC pour représenter les aptitudes. Vous trouverez ci-dessous une légende de ces termes:\n\nN = Attaque normale\n\nC = Attaque chargée\n\nE = Skil\n\ntE = Tap Skill\n\nhE = Skill appuyé\n\nA = Ulti\n\nJ = Saut\n\nD = Sprint/Esquive (Juste un appui rapide sur le bouton pour sprint)\n\nP = Attaque plongeante\n\nx[combo]; x = nombre de fois où l'on répète le combo",
+                "it": "Le lettere corrispondono alle scorciatoie da tastiera di default per le diverse abilità dei personaggi. Elenchiamo quelle più utilizzate:\n\n**N** o **NA** = Attacco Normale\n**N(x)** = Attacco Normale ripetuto x volte\n**C** o **CA** = Attacco Caricato\n**E** = Abilità Elementale\n**tE** = premere l'Abilità\n**hE** = tenere premuta l'Abilità\n**Q** = Tripudio Elementale\n**J** = Salto\n**D** = Scatto (Dash/Dodge)\n**P** = Attacco in picchiata\n**x[combo]** = = combo ripetuta x volte; ad esempio, 3N2Q indica una combo di 3 Attacchi Normali seguiti da un Tripudio Elementale, ripetuta 3 volte."
             }
         },
         {
             "question": {
                 "en": " Are there at least F2P Options for each character?",
-                "fr": "Y-a-t-il au moins une option F2P pour chaque personnage?"
+                "fr": "Y-a-t-il au moins une option F2P pour chaque personnage?",
+                "it": "Ci sono almeno delle opzioni F2P per ogni personaggio?"
             },
             "answer": {
                 "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, or the easily obtainable 3* Gacha Weapons.",
-                "fr": "Oui. Ce document garantie qu'il y a au moins 1 option F2P obtenable de façon permanente pour chaque personnage, même si cette option n'est pas forcément la meilleure pour lui. Les armes F2P obtenables de façon permanente incluent les armes qui peuvent être forgées, qui peuvent être obtenues dans les coffres de Mondstadt et Liyue, ou les armes 3✩ facilement obtenables grâces aux voeux."
+                "fr": "Oui. Ce document garantie qu'il y a au moins 1 option F2P obtenable de façon permanente pour chaque personnage, même si cette option n'est pas forcément la meilleure pour lui. Les armes F2P obtenables de façon permanente incluent les armes qui peuvent être forgées, qui peuvent être obtenues dans les coffres de Mondstadt et Liyue, ou les armes 3✩ facilement obtenables grâces aux voeux.",
+                "it": "Sì, la guida si assicura che sia presente **almeno 1 opzione F2P accessibile in maniera permanente** per ogni personaggio, anche nel caso in cui non sia una delle opzioni migliori. Opzioni accessibili in maniera permanente includono armi che possono essere forgiate od ottenute gratuitamente tramite pesca o come ricompense da bauli di Mondstadt e Liyue, od armi a 3 stelle facilmente ottenibili dai banner."
             }
         },
         {
             "question": {
                 "en": " What are the Constellation assumptions for each character?",
-                "fr": "Quel niveau de constellation est supposé pour chaque personnage?"
+                "fr": "Quel niveau de constellation est supposé pour chaque personnage?",
+                "it": "Quali sono i presupposti per le Costellazioni dei personaggi?"
             },
             "answer": {
                 "en": "4★ Characters may have varying constellation level assumptions, when this affects build choices, it will be mentioned. 5★ Characters are assumed [C0].",
-                "fr": "Le niveau de constellation supposé pour les personnages 4✩ peut varier. Si cela impacte le choix du build, le niveau de constellation sera mentionné. Concernant les personnages 5✩, on suppose qu'ils sont [C0]."
+                "fr": "Le niveau de constellation supposé pour les personnages 4✩ peut varier. Si cela impacte le choix du build, le niveau de constellation sera mentionné. Concernant les personnages 5✩, on suppose qu'ils sont [C0].",
+                "it": "I personaggi 4✩ hanno presupposti variabili - quando questo influenza le build, verrà menzionato. **I personaggi 5✩ sono considerati C0**."
             }
         },
         {
             "question": {
                 "en": " Do you have build docs for Honkai Star Rail and Zenless Zone Zero?",
-                "fr": "Avez-vous des document similaires pour Honkai Star Rail et Zenless Zone Zero?"
+                "fr": "Avez-vous des document similaires pour Honkai Star Rail et Zenless Zone Zero?",
+                "it": "Avete documenti simili per Honkai Star Rail e/o Zenless Zone Zero?"
             },
             "answer": {
                 "en": "They are out there, but the Genshin Doc team doesn't manage them. To find them, please head to their respective official Discord servers.",
-                "fr": "Il y en a, mais notre équipe ne s'en occupe pas. Pour les trouver, veuillez vous rendre sur leurs serveurs Discord officiels respectifs."
+                "fr": "Il y en a, mais notre équipe ne s'en occupe pas. Pour les trouver, veuillez vous rendre sur leurs serveurs Discord officiels respectifs.",
+                "it": "Esistono, ma non sono gestiti dal nostro team. Per trovarli, si prega dirigersi ai rispettivi server Discord ufficiali."
             }
         },
         {
             "question": {
                 "en": " When will you update X Character? They're extremely outdated!",
-                "fr": "Quand allez-vous mettre à jour X personnage? Le build est n'est plus à jour depuis longtemps!"
+                "fr": "Quand allez-vous mettre à jour X personnage? Le build est n'est plus à jour depuis longtemps!",
+                "it": "Quando aggiornerete personaggio X? La sezione è obsoleta!"
             },
             "answer": {
                 "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours.",
-                "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre."
+                "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre.",
+                "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro."
             }
         }
     ]
