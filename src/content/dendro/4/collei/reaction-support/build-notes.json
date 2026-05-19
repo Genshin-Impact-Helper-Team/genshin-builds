@@ -14,16 +14,16 @@
             "fr": "**Rotation typique de [[character:collei]]:**:"
         },
         {
-            "en": "[[ability:skill]] > [[ability:burst]] > Swap",
-            "fr": "[[ability:skill]] > [[ability:burst]] > Swap"
+            "en": "{rot:E > Q > Swap}",
+            "fr": "{rot:E > A > Swap}"
         },
         {
             "en": "**Rotation with [[weapon:polar-star]]:**",
             "fr": "**Rotation avec [[weapon:polar-star]]:**"
         },
         {
-            "en": "N1 > tap [[ability:ca]] > [[ability:skill]] > [[ability:burst]] > Swap",
-            "fr": "N1 > tap [[ability:ca]] > [[ability:skill]] > [[ability:burst]] > Swap"
+            "en": "{rot:N1 > tap CA > E > Q > Swap}",
+            "fr": "{rot:N1 > tap CA > E > A > Swap}"
         }
     ]
 }

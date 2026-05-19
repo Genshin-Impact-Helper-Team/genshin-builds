@@ -16,6 +16,7 @@ function renderNote(note: string, sourceFile: string, translator: any) {
   const renderedNote = translator.translateNoteText(note, sourceFile, {
     weaponPopovers: true,
     artifactPopovers: true,
+    rotationPopovers: true,
   });
 
   return (marked.parse(renderedNote) as string).replace(/<\/?p>/g, '');

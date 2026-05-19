@@ -10,8 +10,8 @@
             "fr": "Ce style de jeu utilise la forme Confirmation de pureté de [[character:durin]] pour baisser la résistance élémentaire de [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]], et [[element:geo]] quand des réactions avec [[element:pyro]] sont déclenchées."
         },
         {
-            "en": "Purity form is [[character:durin]]'s default [[ability:burst]], it can be swapped to (if in Denial form) via an **E E Q** rotation.",
-            "fr": "La forme Confirmation de pureté de [[character:durin]] est la forme par défaut de son [[ability:burst]]. On peut y revenir (si passage en forme Déni de ténèbre) avec une rotation **E E A**."
+            "en": "Purity form is [[character:durin]]'s default [[ability:burst]], it can be swapped to (if in Denial form) via an **{rot:E E Q}** rotation.",
+            "fr": "La forme Confirmation de pureté de [[character:durin]] est la forme par défaut de son [[ability:burst]]. On peut y revenir (si passage en forme Déni de ténèbre) avec une rotation **{rot:E E A}**."
         },
         {
             "en": "[[character:durin]]'s [[ability:burst]] in Purity form hits once per 1s, and can apply [[element:pyro]] in an AoE every other hit.",

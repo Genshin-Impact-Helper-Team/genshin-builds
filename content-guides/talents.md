@@ -66,8 +66,8 @@ src/content/<element>/<rarity>/<character>/<build>/talents.json
   in the talent priority list.
 - The same `note` also automatically creates a matching note entry under
   `Regarding Talents Choices:`.
-- Notes support Markdown and inline translation tokens, such as
-  `[[ability:skill]]`.
+- Notes support Markdown, inline translation tokens such as
+  `[[ability:skill]]`, and rotation notation popovers such as `{rot:N2C}`.
 
 ## Equal Priority
 

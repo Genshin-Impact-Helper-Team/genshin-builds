@@ -144,8 +144,9 @@ Conditional weapons use the same item fields as ranked weapons:
   `Regarding Weapons Choices:`.
 - `note` must include `en` because it is the fallback if no other translation
   was provided.
-- Notes support Markdown, such as `**bold text**`, and inline translation
-  tokens, such as `[[weapon:the-weapon-name]]`.
+- Notes support Markdown, such as `**bold text**`, inline translation tokens,
+  such as `[[weapon:the-weapon-name]]`, and rotation notation popovers, such as
+  `{rot:N2C}`.
 
 Example with the same note translated in different languages:
 

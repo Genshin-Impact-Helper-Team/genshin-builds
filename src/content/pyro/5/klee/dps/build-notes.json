@@ -29,8 +29,8 @@
             "fr": "[[character:klee]] a accès à différentes animation cancels qui lui permettent d'infliger des dégâts plus rapidement que la normale."
         },
         {
-            "en": "Her optimal combos include **N1C/N3** in teams where [[ability:hexerei]] Resonance is active, or **N1C/N1W** in teams where it is not.",
-            "fr": "Son combo optimal inclut **N1C/N3** dans les équipes avec résonnance[[ability:hexerei]], ou **N1C/N1W** sans."
+            "en": "Her optimal combos include **{rot:N1C/N3}** in teams where [[ability:hexerei]] Resonance is active, or **{rot:N1C/N1W}** in teams where it is not.",
+            "fr": "Son combo optimal inclut **{rot:N1C/N3}** dans les équipes avec résonnance[[ability:hexerei]], ou **{rot:N1C/N1W}** sans."
         }
     ],
     "weapons": {

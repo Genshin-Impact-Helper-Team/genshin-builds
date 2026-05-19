@@ -234,7 +234,8 @@ group objects directly and do not use a `groups` wrapper:
 
 ## Notes
 
-- Notes support Markdown and inline translation tokens.
+- Notes support Markdown, inline translation tokens, and rotation notation
+  popovers such as `{rot:N2C}`.
 - Adding `note` to an item automatically adds a `*` marker next to that item in
   the artifact set list.
 - The same `note` also automatically creates a matching note entry under

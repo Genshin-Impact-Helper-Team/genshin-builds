@@ -526,6 +526,7 @@ function buildLocalizedNotes(
           detail: translator.translateNoteText(credit.detail, sourceFile, {
             weaponPopovers: true,
             artifactPopovers: true,
+            rotationPopovers: true,
           }),
         }
       : credit;
@@ -562,6 +563,7 @@ function buildLocalizedNotes(
         translator.translateNoteText(note[lang] ?? note.en, sourceFile, {
           weaponPopovers: true,
           artifactPopovers: true,
+          rotationPopovers: true,
         }),
       );
     }),

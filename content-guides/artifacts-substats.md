@@ -60,7 +60,8 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-substats.json
   substat in the substat priority list.
 - The same `note` also automatically creates a matching note entry under the
   `Substats` part of `Regarding Artifacts Choices:`.
-- Notes support Markdown and inline translation tokens.
+- Notes support Markdown, inline translation tokens, and rotation notation
+  popovers such as `{rot:N2C}`.
 
 Example with the same note translated in different languages:
 

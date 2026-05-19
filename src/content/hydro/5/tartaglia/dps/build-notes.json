@@ -21,8 +21,8 @@
             "fr": "**[[ability:burst]] en état de mélée:** A n'utiliser que dans les situations où il n'y a besoin que d'une rotation pour clear, car les besoins en [[stat:er]] nécéssaires pour avoir l'[[ability:burst]] disponible en permanence sont très hauts (170-190%). Vous voudrez toujours commencer votre rotation avec l'[[ability:burst]] en état à distance puisqu'il rend de l'énergie et permet de maintenir une bonne rotation."
         },
         {
-            "en": "**[[ability:skill]] Combo:**\n- 2 NA + 1 CA (Optimal)\n- 3 NA + 1 CA (Recommended)\n- 5 NA + 1 CA (Recommended combo if using [[weapon:rust]] or [[weapon:thundering-pulse]])",
-            "fr": "**Combo [[ability:skill]]:**\n- 2 NA + 1 CA (Optimal)\n- 3 NA + 1 CA (Recommandé)\n- 5 NA + 1 CA (Combo recommandé en utilisant [[weapon:rust]] ou [[weapon:thundering-pulse]])"
+            "en": "**[[ability:skill]] Combo:**\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommended)\n- {rot:5 NA + 1 CA} (Recommended combo if using [[weapon:rust]] or [[weapon:thundering-pulse]])",
+            "fr": "**Combo [[ability:skill]]:**\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommandé)\n- {rot:5 NA + 1 CA} (Combo recommandé en utilisant [[weapon:rust]] ou [[weapon:thundering-pulse]])"
         },
         {
             "en": "Le combo Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",

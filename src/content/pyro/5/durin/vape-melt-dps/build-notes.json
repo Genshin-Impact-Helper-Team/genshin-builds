@@ -10,8 +10,8 @@
             "fr": "Ce style de jeu tire avantage de la forme Déni de ténèbre de [[character:durin]] pour infliger des dégâts augmentés d'[[element:vaporize]] et/ou de [[element:melt]]. Il est typicalement joué de cette façon en off-field, mais des variantes on-field existent."
         },
         {
-            "en": "Denial form is activated by using [[character:durin]]'s [[ability:burst]] after an **E N1**.",
-            "fr": "La forme Déni de ténèbre s'active en utilisant l'[[ability:burst]] de [[character:durin]] après un **E N1**."
+            "en": "Denial form is activated by using [[character:durin]]'s [[ability:burst]] after an **{rot:E N1}**.",
+            "fr": "La forme Déni de ténèbre s'active en utilisant l'[[ability:burst]] de [[character:durin]] après un **{rot:E N1}**."
         },
         {
             "en": "[[character:durin]]'s [[ability:burst]] in Denial form hits once per 1.25s, and can [[element:vaporize]]/[[element:melt]] every other hit.",

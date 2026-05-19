@@ -58,6 +58,7 @@ type SharedArtifactSetData = {
 type TranslateNoteTextOptions = {
   weaponPopovers?: boolean;
   artifactPopovers?: boolean;
+  rotationPopovers?: boolean;
 };
 
 type TranslationAliasCategory = Partial<
@@ -65,6 +66,25 @@ type TranslationAliasCategory = Partial<
 >;
 
 const aliases = translationAliases as TranslationAliasCategory;
+
+const ROTATION_POPOVER_INTRO_ID = 'Rotation notation intro';
+const ROTATION_POPOVER_NUMBER_INTRO_ID = 'Rotation notation number intro';
+const ROTATION_POPOVER_EXAMPLE_ID = 'Rotation notation example';
+const ROTATION_POPOVER_ACTION_ROWS = [
+  { key: 'N/NA', valueId: 'Rotation notation N/NA' },
+  { key: 'E', valueId: 'Rotation notation E' },
+  { key: 'Q/Ult/A', valueId: 'Rotation notation Q/Ult' },
+  { key: 'C/CA', valueId: 'Rotation notation C/CA' },
+  { key: 'P', valueId: 'Rotation notation P' },
+  { key: 'D', valueId: 'Rotation notation D' },
+  { key: 'J', valueId: 'Rotation notation J' },
+  { key: 'W', valueId: 'Rotation notation W' },
+  { key: '(text)', valueId: 'Rotation notation text' },
+] as const;
+const ROTATION_POPOVER_NUMBER_ROWS = [
+  { key: 'N#', valueId: 'Rotation notation N#' },
+  { key: '#[combo]', valueId: 'Rotation notation #[combo]' },
+] as const;
 
 /**
  * Escapes dynamic text before inserting it into generated popover HTML.
@@ -176,7 +196,7 @@ export class TranslationHelper {
     sourceFile?: string,
     options: TranslateNoteTextOptions = {},
   ) {
-    return text.replace(
+    const translatedText = text.replace(
       /\[\[(?:(set|weapon|character|stat|element|ability):)?([a-z0-9%/-]+)\]\]/g,
       (match, category: InlineTranslationCategory | undefined, id: string) => {
         const translation = this.translateInlineId(
@@ -189,6 +209,90 @@ export class TranslationHelper {
         return translation ?? match;
       },
     );
+
+    return options.rotationPopovers
+      ? this.renderRotationPopovers(translatedText)
+      : translatedText;
+  }
+
+  /**
+   * Replaces rotation notation markers with inline popovers.
+   *
+   * Contributors can write `{rot:N2C}` or `{rot:Q > N2 E}` in note text. The
+   * notation inside the marker remains visible, and the popover always shows
+   * the localized rotation legend.
+   */
+  private renderRotationPopovers(text: string) {
+    return text.replace(/\{rot:([^}\n]+)\}/g, (match, notation: string) => {
+      const trimmedNotation = notation.trim();
+
+      return trimmedNotation
+        ? this.renderRotationPopover(trimmedNotation)
+        : match;
+    });
+  }
+
+  /**
+   * Builds the inline HTML for one rotation notation popover.
+   */
+  private renderRotationPopover(notation: string) {
+    return [
+      '<span class="info-popover rotation-popover">',
+      '<button class="info-popover-trigger rotation-popover-trigger" type="button" aria-expanded="false">',
+      escapeHtml(notation),
+      '</button>',
+      '<span class="info-popover-card rotation-popover-card" role="tooltip">',
+      '<span class="rotation-popover-intro">',
+      escapeHtml(
+        t(this.locale, 'ui', ROTATION_POPOVER_INTRO_ID, undefined, false),
+      ),
+      '</span>',
+      '<span class="rotation-popover-legend">',
+      this.renderRotationPopoverRows(ROTATION_POPOVER_ACTION_ROWS),
+      '</span>',
+      '<span class="rotation-popover-note">',
+      escapeHtml(
+        t(
+          this.locale,
+          'ui',
+          ROTATION_POPOVER_NUMBER_INTRO_ID,
+          undefined,
+          false,
+        ),
+      ),
+      '</span>',
+      '<span class="rotation-popover-legend">',
+      this.renderRotationPopoverRows(ROTATION_POPOVER_NUMBER_ROWS),
+      '</span>',
+      '<span class="rotation-popover-note">',
+      escapeHtml(
+        t(this.locale, 'ui', ROTATION_POPOVER_EXAMPLE_ID, undefined, false),
+      ),
+      '</span>',
+      '</span>',
+      '</span>',
+    ].join('');
+  }
+
+  /**
+   * Builds the formatted key/value rows used inside the rotation legend.
+   */
+  private renderRotationPopoverRows(
+    rows: readonly { key: string; valueId: string }[],
+  ) {
+    return rows
+      .map((row) =>
+        [
+          '<span class="rotation-popover-row">',
+          '<strong class="rotation-popover-key">',
+          escapeHtml(row.key),
+          '</strong>',
+          ' = ',
+          escapeHtml(t(this.locale, 'ui', row.valueId, undefined, false)),
+          '</span>',
+        ].join(''),
+      )
+      .join('');
   }
 
   /**

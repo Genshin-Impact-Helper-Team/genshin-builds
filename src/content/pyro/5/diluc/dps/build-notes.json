@@ -9,16 +9,16 @@
             "fr": "[[character:diluc]] peut se jouer avec différents combo:"
         },
         {
-            "en": "His most common combo is **Q N2 E N2 E N2 E**. This fits perfectly into the buff window of his teams.",
-            "fr": "Son combo le plus commun est **A N2 E N2 E N2 E** qui tiens parfaitement dans la période de buff de ses équipes."
+            "en": "His most common combo is **{rot:Q N2 E N2 E N2 E}**. This fits perfectly into the buff window of his teams.",
+            "fr": "Son combo le plus commun est **{rot:A N2 E N2 E N2 E}** qui tiens parfaitement dans la période de buff de ses équipes."
         },
         {
-            "en": "For high upfront damage, use **E Q N1 E N1 E N1**. This falls off significantly if the enemy is not killed within this window.",
-            "fr": "Pour d'importants dégâts en début de rotation, utilisez **E A N1 E N1 E N1**. Cela perd énormément d'intérêt si l'ennemi n'est pas tué à la fin du combo."
+            "en": "For high upfront damage, use **{rot:E Q N1 E N1 E N1}**. This falls off significantly if the enemy is not killed within this window.",
+            "fr": "Pour d'importants dégâts en début de rotation, utilisez **{rot:E A N1 E N1 E N1}**. Cela perd énormément d'intérêt si l'ennemi n'est pas tué à la fin du combo."
         },
         {
-            "en": "A full rotation combo can look similar to **Q N2 E N2 E N2 E N4 N3 E N1 E E**. An example video can be found [here](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ)",
-            "fr": "Un rotation complète peut ressembler à **A N2 E N2 E N2 E N4 N3 E N1 E E**. Vous pourrez trouver une vidéo d'exemple [ici](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ)"
+            "en": "A full rotation combo can look similar to **{rot:Q N2 E N2 E N2 E N4 N3 E N1 E E}**. An example video can be found [here](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ)",
+            "fr": "Un rotation complète peut ressembler à **{rot:A N2 E N2 E N2 E N4 N3 E N1 E E}**. Vous pourrez trouver une vidéo d'exemple [ici](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ)"
         }
     ],
     "weapons": {

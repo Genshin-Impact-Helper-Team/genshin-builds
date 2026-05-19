@@ -64,7 +64,8 @@ src/content/<element>/<rarity>/<character>/<build>/build-notes.json
 - `global`: Optional detailed calculation credit for the whole build.
 - `notes`: Array of localized editorial note objects.
   - Each note item must include `en`. The requested language falls back to `en`.
-  - Supports Markdown and inline translation tokens.
+  - Supports Markdown, inline translation tokens, and rotation notation
+    popovers such as `{rot:N2C}`.
   - These notes appear directly under the main `Notes` title, before the
     Weapons, Artifacts, and Talents note sections.
   - Build-level notes do not add a `*` marker because they are not attached to
@@ -110,7 +111,8 @@ Each object has:
 - `link`: URL opened by the detailed calculation link.
 - `author`: Name shown after "Thank you to".
 - `detail`: Optional text shown in parentheses after the detailed calculation
-  link text. Supports inline translation tokens.
+  link text. Supports inline translation tokens and rotation notation popovers
+  such as `{rot:N2C}`.
 
 For example, this:
 
@@ -161,6 +163,18 @@ Example with Markdown, inline translation tokens, and multiple languages:
       "en": "[[character:xingqiu]] needs enough [[stat:er]] to Burst every rotation.",
       "fr": "[[character:xingqiu]] a besoin d'assez de [[stat:er]] pour utiliser son dechainement a chaque rotation.",
       "es": "[[character:xingqiu]] necesita suficiente [[stat:er]] para usar su definitiva en cada rotacion."
+    }
+  ]
+}
+```
+
+Use `{rot:...}` to mark rotation or combo notation inside notes:
+
+```json
+{
+  "notes": [
+    {
+      "en": "Use {rot:Q > N2 E > N2 E} during buff uptime."
     }
   ]
 }

@@ -316,6 +316,37 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
   white-space: nowrap;
 }
 
+.rotation-popover-trigger {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline dotted;
+  text-underline-offset: 0.16em;
+}
+
+.rotation-popover-intro,
+.rotation-popover-note,
+.rotation-popover-legend,
+.rotation-popover-row {
+  display: block;
+}
+
+.rotation-popover-note {
+  margin-top: 12px;
+}
+
+.rotation-popover-legend {
+  margin-top: 8px;
+}
+
+.rotation-popover-row + .rotation-popover-row {
+  margin-top: 4px;
+}
+
+.rotation-popover-key {
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 .weapon-popover-passive {
   margin-top: 6px;
 }

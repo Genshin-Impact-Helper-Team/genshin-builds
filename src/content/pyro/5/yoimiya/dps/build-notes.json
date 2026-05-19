@@ -13,8 +13,8 @@
             "fr": "Ces classements supposent une équipe [[element:vaporize]] incluant [[character:bennett]]."
         },
         {
-            "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her N5, and in [[element:vaporize]] teams you should be Vaporizing the N1 (first hit), N3 and N5.",
-            "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa N5, et dans les équipes [[element:vaporize]] vous devriez chercher à évaporer sa N1, N3 et N5."
+            "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}, and in [[element:vaporize]] teams you should be Vaporizing the {rot:N1}, {rot:N3} and {rot:N5}.",
+            "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa {rot:N5}, et dans les équipes [[element:vaporize]] vous devriez chercher à évaporer sa {rot:N1}, {rot:N3} et {rot:N5}."
         }
     ],
     "weapons": {

@@ -14,16 +14,16 @@
             "fr": "**Rotations** :"
         },
         {
-            "en": "*Quick*: E D Q N1",
-            "fr": "*Rotation rapide*: E D A N1"
+            "en": "*Quick*: {rot:E D Q N1}",
+            "fr": "*Rotation rapide*: {rot:E D A N1}"
         },
         {
-            "en": "*Longer Rotation (C4+)*: Q N1 E D N2*",
-            "fr": "*Rotation plus longue (C4+)*: A N1 E D N2*"
+            "en": "*Longer Rotation (C4+)*: {rot:Q N1 E D N2}*",
+            "fr": "*Rotation plus longue (C4+)*: {rot:A N1 E D N2}*"
         },
         {
-            "en": "*One can use the **Book trick method** instead of the final N2 which involves pausing the game by opening a menu for a second to allow him to collect the particles.",
-            "fr": "*On peut utiliser le **trick du livre** au lieu du N2 final, ce qui consiste à mettre en pause le jeu en ouvrant un menu pendant une seconde pour lui permettre de collecter les particules."
+            "en": "*One can use the **Book trick method** instead of the final {rot:N2} which involves pausing the game by opening a menu for a second to allow him to collect the particles.",
+            "fr": "*On peut utiliser le **trick du livre** au lieu du {rot:N2} final, ce qui consiste à mettre en pause le jeu en ouvrant un menu pendant une seconde pour lui permettre de collecter les particules."
         }
     ]
 }

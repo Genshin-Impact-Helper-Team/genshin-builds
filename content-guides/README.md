@@ -89,7 +89,7 @@ content loader, including:
 - Notes are translated directly inside the JSONs
 - Notes, when present, must include `en`; other languages are optional.
 - Requested language falls back to `en`.
-- Notes support Markdown (adding `**` around a work to make it bold for example) and inline translation tokens.
+- Notes support Markdown (adding `**` around a work to make it bold for example), inline translation tokens, and rotation notation popovers.
 - Item notes automatically add a `*` marker next to the item and create a
   matching entry in the relevant notes section.
 - Top-level section notes do not add a `*` marker because they are not attached
@@ -200,6 +200,19 @@ Editorial text can reference i18n IDs:
 ```
 
 Typed tokens search a specific category. Untyped tokens search known categories.
+
+## Rotation Notation Popovers
+
+Use `{rot:...}` in note text when a rotation or combo notation should show the
+standard keybind legend popover:
+
+```txt
+{rot:N2C}
+{rot:Q > N2 E > N2 E}
+```
+
+The text inside the marker is what readers see. The popover text is translated
+from the selected site language when available and falls back to English.
 
 ## File Guides
 

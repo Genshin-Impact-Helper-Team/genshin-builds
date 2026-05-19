@@ -66,7 +66,8 @@ src/content/<element>/<rarity>/<character>/<build>/artifacts-mainstats.json
   stat in the main stat list.
 - The same `note` also automatically creates a matching note entry under the
   `Main Stats` part of `Regarding Artifacts Choices:`.
-- Notes support Markdown and inline translation tokens.
+- Notes support Markdown, inline translation tokens, and rotation notation
+  popovers such as `{rot:N2C}`.
 
 Example with the same note translated in different languages:
 
