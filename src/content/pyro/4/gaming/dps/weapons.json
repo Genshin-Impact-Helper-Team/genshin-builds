@@ -11,7 +11,8 @@
                     "name": "serpent-spine",
                     "note": {
                         "en": "The value of [[weapon:serpent-spine]] **decreases if it is lower refinement and/or if [[character:gaming]] cannot maintain at least three stacks with it** (i.e. without a shielder).",
-                        "fr": "La valeur de [[weapon:serpent-spine]] **diminue si elle est peu raffinée et/ou si [[character:gaming]] ne peut pas maintenir au moins trois stacks avec celle-ci** (i.e. sans un bouclier)."
+                        "fr": "La valeur de [[weapon:serpent-spine]] **diminue si elle est peu raffinée et/ou si [[character:gaming]] ne peut pas maintenir au moins trois stacks avec celle-ci** (i.e. sans un bouclier).",
+                        "it": " Il valore di [[weapon:serpent-spine]] **scende se è a miglioramento più basso e/o se [[character:gaming]] non riesce a mantenere al meno tre accumuli della passiva** (es. senza la protezione di uno scudo)."
                     }
                 },
                 "redhorn-stonethresher",
@@ -30,7 +31,8 @@
                     "name": "fruitful-hook",
                     "note": {
                         "en": "At **[R4+]**, this weapon is [[character:gaming]]'s best weapon.",
-                        "fr": "Une fois **[R4+]**, cette arme est l'arme la plus efficace de [[character:gaming]]."
+                        "fr": "Une fois **[R4+]**, cette arme est l'arme la plus efficace de [[character:gaming]].",
+                        "it": "A **[R4+]**, questa è l'arma migliore di [[character:gaming]]."
                     }
                 },
                 "wolfs-gravestone",
@@ -38,7 +40,8 @@
                     "name": "rainslasher",
                     "note": {
                         "en": "This weapon should only be used in [[element:vaporize]]. At **[R5]**, this weapon is about equal to **[[weapon:redhorn-stonethresher]]**.",
-                        "fr": "Cette arme ne devrait être utilisée que dans les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme est à peu près équivalente à **[[weapon:redhorn-stonethresher]]**."
+                        "fr": "Cette arme ne devrait être utilisée que dans les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme est à peu près équivalente à **[[weapon:redhorn-stonethresher]]**.",
+                        "it": "Quest'arma dovrebe essere utilizzata esclusivamente in team [[element:vaporize]]. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**."
                     }
                 }
             ]
@@ -53,14 +56,17 @@
                     "name": "lithic-blade",
                     "note": {
                         "en": "Ranking assumes two stacks.",
-                        "fr": "Le classement suppose 2 stacks."
+                        "fr": "Le classement suppose 2 stacks.",
+                        "it": "La posizione in classifica presuppone 2 accumuli."
                     }
                 },
                 {
                     "name": "the-unforged",
                     "note": {
                         "en": "Slightly gains value if [[character:gaming]] is shielded, making it roughly equal to **[[weapon:wolfs-gravestone]]**.",
-                        "fr": "Gagne légèrement en valeur si [[character:gaming]] a un bouclier, ce qui rend cette arme approximativement équivalente à **[[weapon:wolfs-gravestone]]**."
+                        "fr": "Gagne légèrement en valeur si [[character:gaming]] a un bouclier, ce qui rend cette arme approximativement équivalente à **[[weapon:wolfs-gravestone]]**.",
+                        "it": "Quest'arma guadagna leggermente valore se [[character:gaming]] è sotto la protezione di uno scudo, rendendo le sue prestazioni più o meno equivalenti a quelle di **[[weapon:wolfs-gravestone]]**."
+
                     }
                 }
             ]
@@ -74,6 +80,7 @@
                     "note": {
                         "en": "[[stat:er]] weapons gain value the higher [[character:gaming]]'s Energy requirements are, typically before [[character:gaming]] is **[C4]**.",
                         "fr": "Les armes [[stat:er]] gagnent en valeur au fur et à mesure que les besoins en énergie de [[character:gaming]] augmentent, généralement avant que [[character:gaming]] soit **[C4]**."
+                        "it": "Più sono alti i requisiti di [[stat:er]] di [[character:gaming]], specialmente prima della **[C4]**, più le armi con [[stat:er]] acquistano valore.
                     }
                 },
                 "makhaira-aquamarine"
