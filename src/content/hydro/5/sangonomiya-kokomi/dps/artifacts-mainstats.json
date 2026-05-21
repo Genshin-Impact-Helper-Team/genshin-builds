@@ -1,0 +1,14 @@
+{
+    "main_stats": {
+        "sands": [
+            "hp%",
+            "er"
+        ],
+        "goblet": [
+            "hydro-dmg"
+        ],
+        "circlet": [
+            "healing-bonus"
+        ]
+    }
+}

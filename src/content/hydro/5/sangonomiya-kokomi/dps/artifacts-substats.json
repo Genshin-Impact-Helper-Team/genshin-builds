@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "hp%",
+        "er",
+        {
+            "items": [
+                "atk%",
+                "hp"
+            ]
+        },
+        "em"
+    ]
+}

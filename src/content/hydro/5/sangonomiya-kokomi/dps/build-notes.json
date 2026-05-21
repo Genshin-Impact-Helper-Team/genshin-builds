@@ -1,0 +1,23 @@
+{
+    "name": {
+        "en": "DPS"
+    },
+    "notes": [
+        {
+            "en": "DPS [[character:sangonomiya-kokomi]] aims to maximise her onfield damage during her [[ability:burst]]'s duration. Outside of her [[ability:burst]], her damage is lackluster and not worth building for.",
+            "fr": "[[character:sangonomiya-kokomi]] DPS vise à maximiser ses dégâts on-field pendant son [[ability:burst]]. En dehors de son [[ability:burst]], ses dégâts sont sans intérêt et ne valent pas le coup d'en faire un build."
+        },
+        {
+            "en": "Due to [[character:sangonomiya-kokomi]]'s high stamina cost on her [[ability:ca]], her best attack strings are:",
+            "fr": "A cause du coût élevé en endurance des [[abillity:ca]] de [[character:sangonomiya-kokomi]], ses meilleurs combo sont:"
+        },
+        {
+            "en": "At **[C0]**: {rot:N2D}",
+            "fr": "En **[C0]**: {rot:N2D}"
+        },
+        {
+            "en": "At **[C1]**: {rot:N3D}, which might result in a loss of [[character:beidou]] Stormbreaker hits (DPS loss), and as such is only recommended in a [[element:vaporize]] comp where the added [[element:hydro]] application is favoured.",
+            "fr": "En **[C1]**: {rot:N3D}, ce qui peut faire perdre des coups de Brisure d'orage de [[character:beidou]] (perte de DPS). Ce combo n'est donc recommandé que dans une équipe [[element:vaporize]] où l'application [[element:hydro]] supplémentaire est appréciée."
+        }
+    ]
+}

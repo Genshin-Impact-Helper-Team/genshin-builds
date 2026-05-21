@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritise first to ensure you can always use [[ability:burst]] before the [[ability:skill]] expires in order to maintain [[element:hydro]] application.",
+                "fr": "A prioriser pour s'assurer de toujours pouvoir [[ability:burst]] avant que le [[ability:skill]] ne se termine, afin de maintenir l'application [[element:hydro]] application."
+            }
+        },
+        "hp%",
+        "atk%",
+        "hp"
+    ]
+}
