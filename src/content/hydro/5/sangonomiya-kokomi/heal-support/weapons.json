@@ -1,0 +1,37 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "thrilling-tales-of-dragon-slayers"
+            ]
+        },
+        {
+            "items": [
+                "prototype-amber",
+                "ash-graven-drinking-horn"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "This weapon can provide Elemental DMG% for the team in **[[element:electrochared]] teams** and will outperform **[[weapon:prototype-amber]]** if you value damage more than healing.",
+                        "fr": "Cette arme offre du DGT% élémentaire pour l'équipe dans les compositions [[element:electrocharged]], et dépasse **[[weapon:prototype-amber]]** si vous préférez les dégâts au soin."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-fragments",
+                    "note": {
+                        "en": "Can be useful as [[character:sangonomiya-kokomi]] won't need to use her [[ability:burst]] to reset her [[ability:skill]] duration. This allows for smoother rotations as she will not face the problem of missing out on the reset for her [[ability:skill]] due to not casting [[ability:burst]] in time.",
+                        "fr": "Peut être utile puisque [[character:sangonomiya-kokomi]] n'aurait pas besoin d'utiliser son [[ability:burst]] pour réinitialiser la durée de son [[ability:skill]]. Cela permet de simplifier les rotations puisqu'il n'y aura plus le problème de potentiellement rater la réinitialisation de la duré du [[ability:skill]] car l'[[ability:burst]] n'a pas été utilisé à temps."
+                    }
+                }
+            ]
+        }
+    ]
+}

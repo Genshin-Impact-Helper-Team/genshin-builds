@@ -1,0 +1,17 @@
+{
+    "best": true,
+    "name": {
+        "en": "Heal Support",
+        "fr": "Support Soin"
+    },
+    "notes": [
+        {
+            "en": "Support [[character:sangonomiya-kokomi]] focuses on just using her [[ability:burst]] before her [[ability:skill]]'s duration ends to refresh her [[ability:skill]] duration. This allows 100% uptime on [[element:hydro]] application from her [[ability:skill]] for [[element:freeze]] / [[element:electrocharged]] teams.",
+            "fr": "[[character:sangonomiya-kokomi]] Support se concentre sur l'utilisation de son [[ability:burst]] avant que son [[ability:skill]] ne se termine pour réinitialiser la durée du [[ability:skill]]. Cela permet d'avoir 100% d'uptime de l'application [[element:hydro]] sur son [[ability:skill]] pour les équipes [[element:freeze]] / [[element:electrocharged]]."
+        },
+        {
+            "en": "[[character:sangonomiya-kokomi]]'s [[ability:burst]] dynamically alters her [[ability:skill]]'s damage, this means that you cannot use her [[ability:burst]] to snapshot the buff onto the [[ability:skill]] and swap out.",
+            "fr": "L'[[ability:burst]] de [[character:sangonomiya-kokomi]] change dynamiquement les dégâts de son [[ability:skill]], ce qui implique que vous ne pouvez pas snapshot les buffs de son [[ability:burst]] sur son [[ability:skill]] puis changer de personnage."
+        }
+    ]
+}

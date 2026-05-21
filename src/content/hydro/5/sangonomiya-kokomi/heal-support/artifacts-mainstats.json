@@ -1,0 +1,27 @@
+{
+    "main_stats": {
+        "sands": [
+            {
+                "name": "er",
+                "note": {
+                    "en": "Prioritise first to ensure you can always use [[ability:burst]] before the [[ability:skill]] expires in order to maintain [[element:hydro]] application.",
+                    "fr": "A prioriser pour s'assurer de toujours pouvoir [[ability:burst]] avant que le [[ability:skill]] ne se termine, afin de maintenir l'application [[element:hydro]] application."
+                }
+            },
+            "hp%"
+        ],
+        "goblet": [
+            "hp%"
+        ],
+        "circlet": [
+            "healing-bonus",
+            "hp%"
+        ]
+    },
+    "notes": [
+        {
+            "en": "Main Stats are not important for **[[set:tenacity-of-the-millelith]] (4)** if you do not need the extra healing. **Focus on [[stat:er]] substats instead**.",
+            "fr": "Les stats principales n'ont pas d'importance avec **[[set:tenacity-of-the-millelith]] (4)** si vous n'avez pas beson du soin supplémentaire. **Concentrez vous plutôt sur les substats [[stat:er]]**."
+        }
+    ]
+}
