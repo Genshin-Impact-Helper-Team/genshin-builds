@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "Shield Support",
-        "fr": "Support Bouclier"
+        "fr": "Support Bouclier",
+        "it": "Supporto Scudo"
     },
     "notes": [
         {
             "en": "This build focuses on maximizing [[character:thoma]]'s potential as a Shield Support.",
-            "fr": "Ce build se concentre sur la maximisation du potentiel de [[character:thoma]] en tant que Support Bouclier."
+            "fr": "Ce build se concentre sur la maximisation du potentiel de [[character:thoma]] en tant que Support Bouclier.",
+            "it": "Questa build si concentra sul massimizzare il potenziale di [[character:thoma]] come Supporto Scudo."
         }
     ]
 }
