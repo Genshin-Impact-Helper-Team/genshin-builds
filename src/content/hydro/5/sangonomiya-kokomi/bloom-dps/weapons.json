@@ -1,0 +1,36 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "a-thousand-floating-dreams",
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-fragments",
+                    "note": {
+                        "en": "The ranking **does not reflect its utility** in being able to **reposition your [[ability:skill]] in emergencies** which is a **significant gameplay improvement**, that can be **more impactful** than simply having higher personal **[[stat:em]]** or team buffs from the higher ranked options.",
+                        "fr": "Ce classement **ne reflète pas les commodités de cette arme** qui permet de **repositionner votre [[ability:skill]] en cas d'urgence** ce qui est une **amélioration notable du gameplay**, qui peut potentiellement **avoir plus d'impact** que simplement avoir plus de **[[stat:em]]** ou des buffs pour l'équipe avec les options classées plus haut."
+                    }
+                },
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "magic-guide",
+                "fruit-of-fulfillment"
+            ]
+        }
+    ]
+}

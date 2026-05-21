@@ -1,0 +1,60 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "flower-of-paradise-lost",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "ocean-hued-clam",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set can do more damage than other options in certain situations, while also increasing [[character:sangonomiya-kokomi]]'s healing to deal with [[element:bloom]] self-damage. However, this set is **very resin inefficient** and is thus **not recommended to farm specifically for this set**.",
+                                "fr": "Ce set peut permettre plus de dégâts que les autres options dans certaines situations, tout en augmentant le soin de [[character:sangonomiya-kokomi]] pour gérer les dégâts auto-infligés des [[element:bloom]]s. Cependant, **il n'est pas recommandé de farm spécifiquement pour ce set** car son donjon ne vaut pas le coup de dépenser de la résine."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
