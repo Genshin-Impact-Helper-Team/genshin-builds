@@ -5,8 +5,12 @@
                 {
                     "items": [
                         {
-                            "name": "flower-of-paradise-lost",
-                            "pieces": 4
+                            "name": "hp-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
                         }
                     ]
                 }
@@ -17,19 +21,7 @@
                 {
                     "items": [
                         {
-                            "name": "gilded-dreams",
-                            "pieces": 4
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "em-set",
+                            "name": "hp-set",
                             "pieces": 2
                         },
                         {
@@ -45,11 +37,11 @@
                 {
                     "items": [
                         {
-                            "name": "ocean-hued-clam",
+                            "name": "deepwood-memories",
                             "pieces": 4,
                             "note": {
-                                "en": "This set can do more damage than other options in certain situations, while also increasing [[character:barbara]]'s healing to deal with [[element:bloom]] self-damage. ",
-                                "fr": "Ce set peut permettre des dégâts plus importants dans certaines situations, tout en augmentant le soin de [[character:barbara]] pour contrer les dégâts auto-ingligés de [[element:bloom]]."
+                                "en": "Can be an option if other teammates are not [[set:deepwood]] holders.",
+                                "fr": "Peut être une option dans les équipes où personne ne porte [[set:deepwood]]."
                             }
                         }
                     ]

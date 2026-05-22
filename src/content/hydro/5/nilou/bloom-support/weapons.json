@@ -1,0 +1,26 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "key-of-khaj-nisut"
+            ]
+        },
+        {
+            "items": [
+                "the-dockhands-assistant"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serenitys-call",
+                    "refinement": 5,
+                    "note": {
+                        "en": "As [[character:nilou]] only needs this weapon for the passive, it can stay at Level 1.",
+                        "fr": "Puisque [[character:nilou]] n'a besoin de cette arme que pour le passif, vous pouvez la laisser niveau 1."
+                    }
+                }
+            ]
+        }
+    ]
+}

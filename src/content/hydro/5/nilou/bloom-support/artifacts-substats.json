@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        {
+            "name": "hp%",
+            "note": {
+                "en": "Prefers HP substats above all else until you reach the limit of her A4 passive which is at 74444 HP",
+                "fr": "Préfère les substats PV à tout le reste jusqu'à atteindre le palier des 74 444PV pour son passif A4."
+            }
+        },
+        "hp",
+        "em"
+    ]
+}
