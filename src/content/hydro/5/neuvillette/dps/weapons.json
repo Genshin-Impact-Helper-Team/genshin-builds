@@ -1,0 +1,43 @@
+{
+    "notes": [
+        {
+            "en": "Weapon options similar to **[[weapon:prototype-amber]]** can be used better by other characters, so it's not recommended to pull or upgrade these weapons just for [[character:neuvillette]].",
+            "fr": "Les options d'armes similaires à **[[weapon:prototype-amber]]** peuvent être meilleures pour d'autres personnages, donc il n'est pas recommandé de les pull ou les améliorer juste pour [[character:neuvillette]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "tome-of-the-eternal-flow"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-jade",
+                "surfs-up",
+                "reliquary-of-truth"
+            ]
+        },
+        {
+            "items": [
+                "jadefalls-splendor",
+                "prototype-amber",
+                "cashflow-supervision",
+                "the-widsith",
+                "kaguras-verity",
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ash-graven-drinking-horn",
+                    "note": {
+                        "en": "With low [[stat:er]] requirements, this weapon can slightly edge out [[weapon:prototype-amber]], though it lacks [[weapon:prototype-amber]]'s teamwide healing utility.",
+                        "fr": "Dans les cas avec de faibles besoins en [[stat:er]], cette arme bat de justesse **[[weapon:prototype-amber]]**, bien qu'elle n'ai pas la commodité de soin sur toute l'équipe de **[[weapon:prototype-amber]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}
