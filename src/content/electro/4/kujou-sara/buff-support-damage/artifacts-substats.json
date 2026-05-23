@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize first until requirements are met",
+                "fr": "A prioriser en premier jusqu'à atteindre les besoins en énergie"
+            }
+        },
+        "cr/cd",
+        "atk%"
+    ]
+}

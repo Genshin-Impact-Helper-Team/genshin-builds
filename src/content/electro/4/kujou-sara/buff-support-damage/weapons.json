@@ -1,0 +1,98 @@
+{
+    "notes": [
+        {
+            "en": "Weapons here are **ranked based on Team DPS** to account for [[character:kujou-sara]]'s **Buff and Personal Damage**.",
+            "fr": "Les armes sont **classée par rapport au DPS de l'équipe** pour prendre en compte les **buffs et dégâts personnels** de [[character:kujou-sara]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "skyward-harp",
+                    "note": {
+                        "en": "This weapon combines the **highest base attack** for [[character:kujou-sara]]'s buff with **good stats for her personal damage**, making it the best overall pick.",
+                        "fr": "Cette armre combine **l'attaque de base la plus haute** pour le buff de [[character:kujou-sara]] avec de **bonnes stats pour ses dégâts personnels**, en faisant le meilleur choix."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "This weapon **trades some buff strength for more personal damage**. Can pull ahead of **[[weapon:skyward-harp]]** if a quick {rot:E CA N1 Q} rotation is performed to maximize its passive.",
+                        "fr": "Cette arme **échange une partie de la puissance du buff contre plus de dégâts personnels**. Elle peut devenir meilleure que **[[weapon:skyward-harp]]** en effetuant une rapide rotation {rot:E CA N1 Q} pour maximiser son passif."
+                    }
+                },
+                {
+                    "name": "elegy-for-the-end",
+                    "note": {
+                        "en": "While providing a strong buff for the team and a large amount of [[stat:er]], [[character:kujou-sara]] can have issues **with reliably activating the passive in Single Target scenarios against small or mobile enemies**.",
+                        "fr": "Bien qu'offrant un buff puissant pour l'équipe et beaucoup de [[stat:er]], [[character:kujou-sara]] peut avoir des problèmes pour **déclencher de manière fiable le passif dans des scénarios à cible unique contre des petits ennemis, ou des ennemis qui bougent beaucoup**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "the-first-great-magic"
+            ]
+        },
+        {
+            "items": [
+                "aqua-simulacra",
+                "hunters-path"
+            ]
+        },
+        {
+            "items": [
+                "thundering-pulse"
+            ]
+        },
+        {
+            "items": [
+                "amos-bow"
+            ]
+        },
+        {
+            "items": [
+                "fading-twilight",
+                {
+                    "name": "mouuns-moon",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similar to or better than **[[weapon:thundering-pulse]]**, depending on your team's total [[ability:burst]] cost.",
+                        "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:thundering-pulse]]**, selon le coût total des [[ability:burst]] de l'équipe."
+                    }
+                },
+                {
+                    "name": "alley-hunter",
+                    "note": {
+                        "en": "[[character:kujou-sara]]'s quickswap playstyle lets her take advantage of this weapon's passive well. Performs similar to **[[weapon:amos-bow]]** at **[R5]**.",
+                        "fr": "Le style de jeu quickswap de [[character:kujou-sara]] lui permet de tirer avantage du passif de cette arme. A des performances similaires à **[[weapon:amos-bow]]** une fois **[R5]**."
+                    }
+                },
+                "the-viridescent-hunt",
+                "scion-of-the-blazing-sun"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-bow",
+                "chain-breaker"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-warbow",
+                    "note": {
+                        "en": "While being bad for both [[character:kujou-sara]]'s buff and personal damage, **this weapon can be a good pick if the team struggles with high [[stat:er]] requirements**.",
+                        "fr": "Bien que n'étant pas une bonne option pour le buff et les dégâts personnels de [[character:kujou-sara]], **cette arme peut être un bon choix si l'équipe a du mal à cause de hauts besoins en [[stat:er]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}
