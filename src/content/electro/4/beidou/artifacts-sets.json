@@ -1,0 +1,69 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team.",
+                                "fr": "Ce set a moins d'intérêt pour les dégâts personnels de [[character:beidou]], mais apporte des buffs utiles pour l'équipe."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team.",
+                                "fr": "Ce set a moins d'intérêt pour les dégâts personnels de [[character:beidou]], mais apporte des buffs utiles pour l'équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
