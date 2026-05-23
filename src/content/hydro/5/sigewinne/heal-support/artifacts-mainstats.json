@@ -1,0 +1,20 @@
+{
+    "main_stats": {
+        "sands": [
+            "hp%"
+        ],
+        "goblet": [
+            "hp%"
+        ],
+        "circlet": [
+            "hp%",
+            {
+                "name": "cr",
+                "note": {
+                    "en": "Only if using [[weapon:favonius-warbow]]",
+                    "fr": "Seulement si jouée avec [[weapon:favonius-warbow]]"
+                }
+            }
+        ]
+    }
+}

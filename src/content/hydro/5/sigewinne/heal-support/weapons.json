@@ -1,0 +1,40 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "silvershower-heartstrings"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sequence-of-solitude",
+                    "refinement": 5
+                },
+                "recurve-bow",
+                {
+                    "name": "favonius-warbow",
+                    "note": {
+                        "en": "This weapon will place higher if the team values and needs energy. With this weapon, you want to build a little bit of [[stat:cr]] to help proc the passive. It is unnecessary to level this weapon if you are not planning to use [[character:sigewinne]]'s [[ability:burst]].",
+                        "fr": "Cette arme se classe plus haut si l'équipe a besoin d'énergie. Avec cette arme, vous voulez avoir un peu de [[stat:cr]] pour aider à proc le passif. Il n'y a pas besoin d'améliorer le niveau de l'arme si vous n'utilisez pas l'[[ability:burst]] de [[character:sigewinne]]."
+                    }
+                },
+                {
+                    "name": "elegy-for-the-end",
+                    "note": {
+                        "en": "While the [[stat:er]] from this weapon is unnecessary for this build, the passive can make it an effective choice in some teams. It is also not needed to level this weapon if you are not going to use [[character:sigewinne]]'s [[ability:burst]].",
+                        "fr": "Bien que la [[stat:er]] de cette arme ne soit pas nécéssaire pour ce build, son passif peut en faire un bon choix dans certaines équipes. Il n'y a pas besoin d'améliorer le niveau de l'arme si vous n'utilisez pas l'[[ability:burst]] de [[character:sigewinne]]."
+                    }
+                },
+                {
+                    "name": "sacrificial-bow",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon can allow [[character:sigewinne]] to work in slightly shorter rotation lengths at **[R5]**, and allow for more uptime on Convalescence stacks. Do note that using [[ability:skill]] twice in quick succession will not double the number of Convalescence stacks. Does not need to be levelled if ignoring [[character:sigewinne]]'s Elemental Burst.",
+                        "fr": "Cet arme permet à [[character:sigewinne]] de fonctionner dans des rotations légèrement plus courtes une fois **[R5]**, et permpet plus d'uptime des stack d'Analepsie. Gardez en tête qu'utiliser le [[ability:skill]] deux fois rapidement ne doublera pas le nombre de stacks d'Analepsie. Il n'y a pas besoin d'améliorer le niveau de l'arme si vous n'utilisez pas l'[[ability:burst]] de [[character:sigewinne]]."
+                    }
+                }
+            ]
+        }
+    ]
+}
