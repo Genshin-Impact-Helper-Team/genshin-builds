@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "cr/cd",
+        "atk%",
+        "er",
+        {
+            "name": "em",
+            "note": {
+                "en": "[[stat:em]] is only desirable in [[element:aggravate]]",
+                "fr": "La [[stat:em]] est seulement désirable en [[element:aggravate]]"
+            }
+        }
+    ]
+}

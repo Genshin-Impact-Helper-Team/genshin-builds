@@ -1,0 +1,48 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "flower-of-paradise-lost",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2,
+                            "note": {
+                                "en": "In a team with one other [[element:electro]] unit it's only 1 substat roll behind **[[set:gilded-dreams]] (4)** (3-4 substat rolls behind in a team with no other [[element:electro]] units) therefore you can usually just use the set with the most [[stat:em]] substat rolls on it.",
+                                "fr": "Dans une équipe avec un autre personnage [[element:electro]], ce n'est qu'1 roll de substat derrière **[[set:gilded-dreams]] (4)** (3-4 rolls de substats derrière dans une équipe sans autre personnage [[element:electro]]), vous pouvez donc généralement utiliser le set avec le plus de rolls de substat [[stat:em]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
