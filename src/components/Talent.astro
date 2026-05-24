@@ -21,7 +21,7 @@ type TalentPriority = {
     talents.talents.map((talent: TalentPriority, i: number) => (
       <div style="margin-bottom: 10px;">
         <div>
-          <strong>{i + 1}.</strong>{' '}
+          <strong class="accent-text">{i + 1}.</strong>{' '}
           <span>
             {(talent.approx ? talent.items.slice(0, 1) : talent.items).map(
               (item, itemIndex) => (

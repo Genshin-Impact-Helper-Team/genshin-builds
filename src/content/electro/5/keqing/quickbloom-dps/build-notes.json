@@ -1,0 +1,21 @@
+{
+    "name": {
+        "en": "Quickbloom DPS",
+        "fr": "DPS Quickbloom"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "It is recommended to level [[character:keqing]] to level 90",
+            "fr": "Il est recommandé de monter [[character:keqing]] au niveau 90"
+        },
+        {
+            "en": "Recommended Combos:",
+            "fr": "Combos recommandés:"
+        },
+        {
+            "en": "- With [[set:thundering-fury]] (4): {rot:EQE 2N1C E 2N1C}\n- Without [[set:thundering-fury]] (4): {rot:EQE 4N1C}",
+            "fr": "- Avec [[set:thundering-fury]] (4): {rot:EQE 2N1C E 2N1C}\n- Sans [[set:thundering-fury]] (4): {rot:EQE 4N1C}"
+        }
+    ]
+}

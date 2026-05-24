@@ -1,0 +1,65 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "marechaussee-hunter",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Only useful with [[character:furina]] on the team. Performs similar to **[[set:thundering-fury]] (4)**.",
+                                "fr": "Utile seulement si [[character:furina]] est dans l'équipe. Performe de manière similaire à **[[set:thundering-fury]] (4)**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

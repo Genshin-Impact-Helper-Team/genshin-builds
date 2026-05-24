@@ -173,6 +173,10 @@
   font-weight: 600;
 }
 
+.accent-text {
+  color: var(--accent);
+}
+
 .note-link {
   display: inline-block;
   margin: -10px;

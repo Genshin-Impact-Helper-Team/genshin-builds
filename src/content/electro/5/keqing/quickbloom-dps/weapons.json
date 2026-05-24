@@ -1,0 +1,101 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "light-of-foliar-incision",
+                "primordial-jade-cutter",
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu",
+                {
+                    "name": "uraku-misugiri",
+                    "note": {
+                        "en": "If using a [[element:geo]] unit, this weapon is as strong as **[[weapon:light-of-foliar-incision]]** and similar options.",
+                        "fr": "Si vous utilisez un personnage [[element:geo]], cette arme est aussi puissante que **[[weapon:light-of-foliar-incision]]** et les options similaires."
+                    }
+                },
+                "freedom-sworn"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "toukabou-shigure",
+                    "refinement": 5
+                },
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes staying above 90% health all the time. Without this condition met, this weapon is not worth considering.",
+                        "fr": "Suppose de rester au-dessus de 90% de vie en permanence. Sans remplir cette condition, cette arme ne vaut pas la peine d'être envisagée."
+                    }
+                },
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "iron-sting",
+                    "refinement": 5
+                },
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:haran-geppaku-futsu]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-black-sword",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs slightly better than **[[weapon:wolf-fang]]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe légèrement mieux que **[[weapon:wolf-fang]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "lions-roar",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:iron-sting]] [R5]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:iron-sting]] [R5]**."
+                    }
+                },
+                {
+                    "name": "calamity-of-eshu",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes [[character:keqing]] is shielded.",
+                        "fr": "Suppose que [[character:keqing]] est sous bouclier."
+                    }
+                },
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes [[ability:bol]] being cleared.",
+                        "fr": "Suppose que l'[[ability:bol]] est retiré."
+                    }
+                },
+                "summit-shaper"
+            ]
+        }
+    ]
+}

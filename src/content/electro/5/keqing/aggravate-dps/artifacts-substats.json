@@ -1,0 +1,18 @@
+{
+    "substats_priority": [
+        "cr/cd",
+        {
+            "items": [
+                "atk%",
+                "em"
+            ]
+        },
+        {
+            "name": "er",
+            "note": {
+                "en": "[[element:aggravate]] [[character:keqing]] is usually played with another [[element:electro]] unit on the team, commonly [[character:fischl]], which basically eliminates the need for any [[stat:er]]",
+                "fr": "[[character:keqing]] [[element:aggravate]] est généralement jouée avec un autre personnage [[element:electro]] dans l'équipe, souvent [[character:fischl]], ce qui élimine le besoin de [[stat:er]]"
+            }
+        }
+    ]
+}
