@@ -13,7 +13,8 @@
                 "name": "cr",
                 "note": {
                     "en": "Only if using **[[weapon:favonius-greatsword]]**",
-                    "fr": "Uniquement si jouée avec **[[weapon:favonius-greatsword]]**"
+                    "fr": "Uniquement si jouée avec **[[weapon:favonius-greatsword]]**",
+                    "ru": "Шанс крит. попадания необходим только при использовании Двуручного меча Фавония"
                 }
             }
         ]
@@ -21,7 +22,8 @@
     "notes": [
         {
             "en": "[[character:aino]] does not deal a significant amount of damage, so her mainstats are not very important beyond fulfilling [[stat:er]] requirements."
-            ,"fr": "[[character:aino]] n'inflige pas énormément de dégâts, donc ses stats principales ne sont pas vraiment importantes en dehors de ses besoins en [[stat:er]]."
+            ,"fr": "[[character:aino]] n'inflige pas énormément de dégâts, donc ses stats principales ne sont pas vraiment importantes en dehors de ses besoins en [[stat:er]].",
+            "ru": "[[character:aino]] наносит мало урона, поэтому ее основные статы не так важны за исключением сборки достаточного уровня Восстановления энергии."
         }
     ]
 }
