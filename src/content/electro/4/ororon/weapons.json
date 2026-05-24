@@ -1,0 +1,90 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "polar-star",
+                {
+                    "name": "the-first-great-magic",
+                    "note": {
+                        "en": "Ranking assumes 2 stacks. At 1 stack, it performs similarly to **[[weapon:hunters-path]]**.",
+                        "fr": "Le classement suppose 2 stacks. Avec 1 seul stack, cette arme performe de manière similaire à **[[weapon:hunters-path]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "thundering-pulse",
+                "aqua-simulacra",
+                "hunters-path",
+                "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                "astral-vultures-crimson-plumage"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "chain-breaker",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes 3 stacks.",
+                        "fr": "Le classement suppose 3 stacks."
+                    }
+                },
+                {
+                    "name": "alley-hunter",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "range-gauge",
+                    "note": {
+                        "en": "This weapon will perform significantly worse if you do not have a proper healer to maintain 3 stacks. At **[R5]**, this weapon performs similarly to **[[weapon:thundering-pulse]]**.",
+                        "fr": "Cette arme devient bien moins bonne si vous ne recevez pas assez de soins pour maintenir les 3 stacks. Une fois **[R5]**, cette arme devient similaire à **[[weapon:thundering-pulse]]**."
+                    }
+                },
+                {
+                    "name": "song-of-stillness",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes [[character:ororon]] is being played with a healer and that the passive is active. Overheal counts for the passive.",
+                        "fr": "Le classement suppose que [[character:ororon]] est joué avec un soigneur et que le passif est actif. Le surplus de soin compte également pour le passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "elegy-for-the-end",
+                    "note": {
+                        "en": "This weapon provide more team utility in exchange for [[character:ororon]]'s personal damage.",
+                        "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]]."
+                    }
+                },
+                {
+                    "name": "fading-twilight",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-warbow",
+                    "note": {
+                        "en": "This weapon provide more team utility in exchange for [[character:ororon]]'s personal damage.",
+                        "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

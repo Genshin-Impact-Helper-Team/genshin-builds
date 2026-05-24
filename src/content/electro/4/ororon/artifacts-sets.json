@@ -1,0 +1,44 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note": {
+                                "en": "While [[character:ororon]] does focus on being an off-field dps, he has fantastic synergy with [[set:scroll-of-the-hero-of-cinder-city]] (4), which plays an important part of being able to buff his team.",
+                                "fr": "Bien que [[character:ororon]] soit centré autour du DPS Off-Field, il a aussi une très bonne synergie avec [[set:scroll-of-the-hero-of-cinder-city]] (4), ce qui joue un rôle important dans le fait de pouvoir buff son équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
