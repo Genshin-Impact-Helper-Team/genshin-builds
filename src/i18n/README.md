@@ -102,6 +102,20 @@ Untyped tokens search known gameplay dictionaries automatically:
 
 Typed tokens are safer when an ID could exist in more than one dictionary.
 
+### Custom Visible Text
+
+Add `|text` when a sentence needs a different visible form, while still
+resolving the original ID for translations and popovers:
+
+```txt
+[[weapon:favonius-greatsword|Двуручного меча Фавония]]
+[[set:noblesse-oblige|Noblesse Oblige]]
+```
+
+This is useful for languages with case or grammar changes. For weapon and set
+tokens, the custom text is used as the hover/click trigger, while the popover
+still loads the canonical weapon or set details.
+
 ## Aliases
 
 Short aliases live in:

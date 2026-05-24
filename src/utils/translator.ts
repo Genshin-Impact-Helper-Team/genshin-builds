@@ -67,6 +67,8 @@ type TranslationAliasCategory = Partial<
 
 const aliases = translationAliases as TranslationAliasCategory;
 
+const INLINE_TRANSLATION_TOKEN_PATTERN =
+  /\[\[(?:(set|weapon|character|stat|element|ability):)?([a-z0-9%/-]+)(?:\|([^\]\n]+))?\]\]/g;
 const ROTATION_POPOVER_INTRO_ID = 'Rotation notation intro';
 const ROTATION_POPOVER_NUMBER_INTRO_ID = 'Rotation notation number intro';
 const ROTATION_POPOVER_EXAMPLE_ID = 'Rotation notation example';
@@ -184,6 +186,7 @@ export class TranslationHelper {
    * - [[element:melt]]
    * - [[ability:burst]]
    * - [[some-id]] (automatic category lookup)
+   * - [[weapon:the-catch|custom visible text]]
    *
    * Unknown IDs are left unchanged and logged as warnings.
    *
@@ -197,13 +200,19 @@ export class TranslationHelper {
     options: TranslateNoteTextOptions = {},
   ) {
     const translatedText = text.replace(
-      /\[\[(?:(set|weapon|character|stat|element|ability):)?([a-z0-9%/-]+)\]\]/g,
-      (match, category: InlineTranslationCategory | undefined, id: string) => {
+      INLINE_TRANSLATION_TOKEN_PATTERN,
+      (
+        match,
+        category: InlineTranslationCategory | undefined,
+        id: string,
+        label: string | undefined,
+      ) => {
         const translation = this.translateInlineId(
           id,
           category,
           sourceFile,
           options,
+          label,
         );
 
         return translation ?? match;
@@ -304,6 +313,7 @@ export class TranslationHelper {
    * @param id Translation ID found inside an inline note reference.
    * @param category Optional translation category.
    * @param sourceFile Optional source file path for debugging.
+   * @param label Optional text to show instead of the localized dictionary value.
    * @returns Localized or fallback string, or null if no translation exists.
    */
   private translateInlineId(
@@ -311,7 +321,10 @@ export class TranslationHelper {
     category?: InlineTranslationCategory,
     sourceFile?: string,
     options: TranslateNoteTextOptions = {},
+    label?: string,
   ) {
+    const displayLabel = label?.trim();
+
     if (category) {
       const translationCategory = this.toTranslationCategory(category);
       const canonicalId = this.resolveAlias(translationCategory, id);
@@ -325,18 +338,20 @@ export class TranslationHelper {
         return null;
       }
 
+      const displayName = displayLabel || translation;
+
       if (translationCategory === 'weapon' && options.weaponPopovers) {
-        return this.renderWeaponPopover(canonicalId, translation);
+        return this.renderWeaponPopover(canonicalId, translation, displayName);
       }
 
       if (translationCategory === 'artifact' && options.artifactPopovers) {
-        return this.renderArtifactPopover(canonicalId, translation);
+        return this.renderArtifactPopover(canonicalId, translation, displayName);
       }
 
-      return translation;
+      return displayLabel ? escapeHtml(displayLabel) : translation;
     }
 
-    return this.findTranslationInAnyCategory(id, sourceFile);
+    return this.findTranslationInAnyCategory(id, sourceFile, displayLabel);
   }
 
   /**
@@ -358,11 +373,11 @@ export class TranslationHelper {
   /**
    * Builds the inline HTML for a weapon translation token popover.
    */
-  private renderWeaponPopover(id: string, name: string) {
+  private renderWeaponPopover(id: string, name: string, label = name) {
     const info = this.weaponDataById[id];
 
     if (!info) {
-      return escapeHtml(name);
+      return escapeHtml(label);
     }
 
     const baseAttackValue = formatWeaponStatValue(
@@ -416,7 +431,7 @@ export class TranslationHelper {
     return [
       '<span class="info-popover weapon-popover">',
       '<button class="info-popover-trigger" type="button" aria-expanded="false">',
-      escapeHtml(name),
+      escapeHtml(label),
       '</button>',
       '<span class="info-popover-card" role="tooltip">',
       '<span class="info-popover-header">',
@@ -454,11 +469,11 @@ export class TranslationHelper {
   /**
    * Builds the inline HTML for an artifact set translation token popover.
    */
-  private renderArtifactPopover(id: string, name: string) {
+  private renderArtifactPopover(id: string, name: string, label = name) {
     const info = this.artifactSetDataById[id];
 
     if (!info) {
-      return escapeHtml(name);
+      return escapeHtml(label);
     }
 
     const effectRows = [
@@ -470,7 +485,7 @@ export class TranslationHelper {
     return [
       '<span class="info-popover artifact-popover">',
       '<button class="info-popover-trigger artifact-popover-trigger" type="button" aria-expanded="false">',
-      escapeHtml(name),
+      escapeHtml(label),
       '</button>',
       '<span class="info-popover-card artifact-popover-card" role="tooltip">',
       '<span class="info-popover-header">',
@@ -505,9 +520,14 @@ export class TranslationHelper {
    *
    * @param id Translation ID to search for.
    * @param sourceFile Optional source file path for debugging.
+   * @param label Optional text to show instead of the localized dictionary value.
    * @returns Localized or fallback string, or null if no category contains it.
    */
-  private findTranslationInAnyCategory(id: string, sourceFile?: string) {
+  private findTranslationInAnyCategory(
+    id: string,
+    sourceFile?: string,
+    label?: string,
+  ) {
     for (const category of CATEGORIES) {
       const canonicalId = this.resolveAlias(category, id);
       // Fallback hits are valid display text, but the missing locale still matters.
@@ -533,7 +553,7 @@ export class TranslationHelper {
           );
         }
 
-        return translation;
+        return label ? escapeHtml(label) : translation;
       }
     }
 
