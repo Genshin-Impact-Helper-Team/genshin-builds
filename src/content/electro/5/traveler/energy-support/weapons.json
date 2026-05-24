@@ -1,0 +1,30 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "favonius-sword",
+                "freedom-sworn"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-sword"
+            ]
+        },
+        {
+            "items": [
+                "skyward-blade"
+            ]
+        },
+        {
+            "items": [
+                "festering-desire"
+            ]
+        },
+        {
+            "items": [
+                "skyrider-sword"
+            ]
+        }
+    ]
+}
