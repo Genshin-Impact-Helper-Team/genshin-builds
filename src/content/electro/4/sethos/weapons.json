@@ -1,0 +1,20 @@
+{
+    "notes": [
+        {
+            "en": "[[character:sethos]]' weapon choices aside from the aforementioned three are rather lackluster and should not be pulled purely for the purposes of upgrading [[character:sethos]].",
+            "fr": "Les options d'armes pour [[character:sethos]] en dehors des 3 mentionnées sont plutôt médiocres et ne devraient pas être pull juste pour améliorer [[character:sethos]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "hunters-path",
+                "astral-vultures-crimson-plumage",
+                {
+                    "name": "slingshot",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

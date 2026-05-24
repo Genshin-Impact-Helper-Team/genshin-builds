@@ -1,0 +1,17 @@
+{
+    "best": true,
+    "name": {
+        "en": "[[ability:na]] DPS",
+        "fr": "DPS [[ability:na]]"
+    },
+    "weapons": {
+        "author": "XXXX",
+        "link": "https://docs.google.com/spreadsheets/d/1n1wB7hLLRanCfkt5vAPCloUi6scNgOeX6J6mdPsYgzk/edit?usp=sharing"
+    },
+    "notes": [
+        {
+            "en": "Aside from [[stat:er]] requirements, [[character:sethos]]' builds for [[ability:na]] and [[ability:ca]] DPS are near identical.",
+            "fr": "En dehors des besoins en [[stat:er]], Les build DPS [[ability:na]] & [[ability:ca]] de [[character:sethos]] sont presque identiques."
+        }
+    ]
+}
