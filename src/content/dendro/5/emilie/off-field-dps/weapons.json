@@ -1,0 +1,75 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "lumidouce-elegy"
+            ]
+        },
+        {
+            "items": [
+                "calamity-queller"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "symphonist-of-scents",
+                    "note": {
+                        "en": "Keep in mind that while this weapon serves as a decent stat stick for [[character:emilie]], using it on her wastes one of the game's stronger buffing weapons since her kit lacks any healing to activate its buff.",
+                        "fr": "Gardez en tête que, même si cette arme sert de stat stick correct pour [[character:emilie]], l'utiliser sur elle gaspille l'un des meilleurs buff d'arme du jeu puisque son kit ne possède aucun soin pour activer ce buff."
+                    }
+                },
+                "staff-of-homa"
+            ]
+        },
+        {
+            "items": [
+                "engulfing-lightning",
+                "staff-of-the-scarlet-sands"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-winged-spear",
+                "crimson-moons-semblance"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "deathmatch",
+                    "note": {
+                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:engulfing-lightning]]**, and it will perform a little worse than **[[weapon:staff-of-homa]]** if she is played in single-target.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:engulfing-lightning]]**, et elle reste un peu en dessous de **[[weapon:staff-of-homa]]** si [[character:emilie]] est jouée en monocible."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-spine",
+                "tamayuratei-no-ohanashi"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "missive-windspear",
+                    "refinement": 5
+                },
+                "lithic-spear",
+                "prospectors-drill"
+            ]
+        },
+        {
+            "items": [
+                "favonius-lance"
+            ]
+        },
+        {
+            "items": [
+                "kitain-cross-spear"
+            ]
+        }
+    ]
+}
