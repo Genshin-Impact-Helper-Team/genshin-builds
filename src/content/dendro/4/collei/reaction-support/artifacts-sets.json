@@ -33,7 +33,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "[[character:collei]]'s Sprout damage counts as [[ability:skill]] damage, which allows her to be able to keep **[[set:tenacity-of-the-millelith]]** (4) up during important damage windows. Generally an alternative to **[[set:noblesse-oblige]]** (4) or **[[set:deepwood-memories]]** (4) (or if you are already running both in a team).",
-                                "fr": "Les dégâts de l'effet Germe de [[character:collei]] sont considérés comme des dégâts de [[ability:skill]], ce qui lui permet de maintenir facilement l'effet de **[[set:tenacity-of-the-millelith]]** (4) pendant les périodes de dégâts importantes. Généralement une alternative à **[[set:noblesse-oblige]]** (4) ou **[[set:deepwood-memories]]** (4) (ou si vous avez déjà les deux dans une équipe)."
+                                "fr": "Les dégâts de l'effet Germe de [[character:collei]] sont considérés comme des dégâts de [[ability:skill]], ce qui lui permet de maintenir facilement l'effet de **[[set:tenacity-of-the-millelith]]** (4) pendant les périodes de dégâts importantes. Généralement une alternative à **[[set:noblesse-oblige]]** (4) ou **[[set:deepwood-memories]]** (4) (ou si vous avez déjà les deux dans une équipe).",
+                                "it": "I danni del Germoglio di [[character:collei]] contano come danno da [[ability:skill]], che le permette di mantenere attivo **[[set:tenacity-of-the-millelith]]** (4). Generalmente un'alternativa a **[[set:noblesse-oblige]]** (4) o **[[set:deepwood-memories]]** (4) (o se già avete entrambi i set nel team)."
                             }
                         }
                     ]
@@ -61,7 +62,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is only used in a team where [[character:collei]] is used to **trigger** reactions (i.e. [[element:bloom]]/[[element:burning]] teams).",
-                                "fr": "Ce set n'est utilisé que dans une équipe où [[character:collei]] est utilisée pour **déclencher** des réactions (i.e. équipes [[element:bloom]]/[[element:burning]])."
+                                "fr": "Ce set n'est utilisé que dans une équipe où [[character:collei]] est utilisée pour **déclencher** des réactions (i.e. équipes [[element:bloom]]/[[element:burning]]).",
+                                "it": "Questo set è usato solo in un team dove [[character:collei]] è usata per **innescare** le reazioni (ad es: team [[element:bloom]]/[[element:burning]])."
                             }
                         }
                     ]
