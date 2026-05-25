@@ -1,16 +1,19 @@
 {
     "name": {
         "en": "Shield Support",
-        "fr": "Support Bouclier"
+        "fr": "Support Bouclier",
+        "it": "Supporto Scudo"
     },
     "notes": [
         {
             "en": "This section is dedicated to using [[character:xinyan]] as a shielder for her team.",
-            "fr": "Cette section est dédiée à l'utilisation de [[character:xinyan]] comme bouclier pour son équipe."
+            "fr": "Cette section est dédiée à l'utilisation de [[character:xinyan]] comme bouclier pour son équipe.",
+            "it": "Questa sezione è dedicata all'utilizzo di [[character:xinyan]] come scudo per il team."
         },
         {
             "en": "[[character:xinyan]]'s [[ability:skill]] grants you a [[element:pyro]] status upon contact with the shield. No matter how many times you switch characters, it will still apply [[element:pyro]] every time you switch while shielded. This allows you to cleanse most elemental statuses that have been applied to you.",
-            "fr": "Le [[ability:skill]] de [[character:xinyan]] vous octroie un statut [[element:pyro]] au contact avec le bouclier. Peu importe combien de fois vous changez de personnage, il appliquera toujours [[element:pyro]] à chaque changement tant que vous êtes protégé. Cela vous permet de retirer la plupart des statuts élémentaires qui vous ont été appliqués."
+            "fr": "Le [[ability:skill]] de [[character:xinyan]] vous octroie un statut [[element:pyro]] au contact avec le bouclier. Peu importe combien de fois vous changez de personnage, il appliquera toujours [[element:pyro]] à chaque changement tant que vous êtes protégé. Cela vous permet de retirer la plupart des statuts élémentaires qui vous ont été appliqués.",
+            "it": "L'[[ability:skill]] di [[character:xinyan]] conferisce uno status [[element:pyro]] quando si è a contatto con lo scudo. Indipendentemente da quanto volte tu scambi tra i vari personaggi, applicherà [[element:pyro]] ad ogni scambio fintanto che lo scudo sia attivo. Questo permette di rimuovere la maggior parte delle aure elementali applicate al proprio personaggio."
         },
         {
             "en": "Shield uptime is also crucial to maximizing her Physical/Shield Support capabilities. If you have neither **[[weapon:sacrificial-greatsword]]** nor at least **[C2]** (ideally **[C4]**) on [[character:xinyan]], you may want to build her as a DPS instead of Physical/Shield Support.",
