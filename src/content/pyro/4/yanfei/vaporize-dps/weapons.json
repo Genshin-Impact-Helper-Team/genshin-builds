@@ -6,14 +6,16 @@
                     "name": "reliquary-of-truth",
                     "note": {
                         "en": "Assumes the weapon passive gives 80 [[stat:em]].",
-                        "fr": "Suppose que le passif de l'arme donne 80 [[stat:em]]."
+                        "fr": "Suppose que le passif de l'arme donne 80 [[stat:em]].",
+                        "it": "Presuppone che la passiva fornisca 80 [[stat:em]]."
                     }
                 },
                 {
                     "name": "tome-of-the-eternal-flow",
                     "note": {
                         "en": "Calculated with **reliable stacking, such as with [[character:furina]]**. Without reliable stacking, this weapon performs worse than **[[weapon:flowing-purity]] [R5]**.",
-                        "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**."
+                        "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**.",
+                        "it": "La posizione in classifica presuppone accumuli costanti (es. **con [[character:furina]]**). In mancanza di accumuli costanti, quest'arma ha prestazioni peggiori di **[[weapon:flowing-purity]] [R5]**."
                     }
                 }
             ]
@@ -24,7 +26,8 @@
                     "name": "cashflow-supervision",
                     "note": {
                         "en": "Calculated with **reliable stacking, such as with [[character:furina]]**. Without reliable stacking, this weapon performs worse than **[[weapon:flowing-purity]] [R5]**.",
-                        "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**."
+                        "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**.",
+                        "it": "La posizione in classifica presuppone accumuli costanti (es. **con [[character:furina]]**). In mancanza di accumuli costanti, quest'arma ha prestazioni peggiori di **[[weapon:flowing-purity]] [R5]**."
                     }
                 },
                 "vivid-notions",
@@ -32,7 +35,8 @@
                     "name": "surfs-up",
                     "note": {
                         "en": "Calculated with **reliable stacking, such as with [[character:furina]]**. Without reliable stacking, this weapon performs worse than **[[weapon:flowing-purity]] [R5]**.",
-                        "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**."
+                        "fr": "Calculé avec **un stacking fiable, comme avec [[character:furina]]**. Sans stacking fiable, cette arme performe moins bien que **[[weapon:flowing-purity]] [R5]**.",
+                        "it": "La posizione in classifica presuppone accumuli costanti (es. **con [[character:furina]]**). In mancanza di accumuli costanti, quest'arma ha prestazioni peggiori di **[[weapon:flowing-purity]] [R5]**."
                     }
                 }
             ]
@@ -44,7 +48,8 @@
                     "name": "starcallers-watch",
                     "note": {
                         "en": "Ranks similarly to **[[weapon:a-thousand-floating-dreams]]** if [[character:yanfei]] is **[C4+]**.",
-                        "fr": "Se classe au même niveau que **[[weapon:a-thousand-floating-dreams]]** si [[character:yanfei]] est **[C4+]**."
+                        "fr": "Se classe au même niveau que **[[weapon:a-thousand-floating-dreams]]** si [[character:yanfei]] est **[C4+]**.",
+                        "it": "Si classifica similarmente a **[[weapon:a-thousand-floating-dreams]]** se [[character:yanfei]] è **[C4+]**."
                     }
                 }
             ]
@@ -56,21 +61,24 @@
                     "refinement": 5,
                     "note": {
                         "en": "Calculated with [[ability:bol]] cleared. Loses significant value if run **without a consistent healer**.",
-                        "fr": "Calculé avec un [[ability:bol]] retiré. Perd significativement en valeur si utilisé **sans un soin constant**."
+                        "fr": "Calculé avec un [[ability:bol]] retiré. Perd significativement en valeur si utilisé **sans un soin constant**.",
+                        "it": "La posizione in classifica presuppone che Yanfei riceva abbastanza cure affinché il [[ability:bol]] venga eliminato. **Perde significativamente valore se utilizzata senza buone cure**."
                     }
                 },
                 {
                     "name": "the-widsith",
                     "note": {
                         "en": "At **[R5]**, this weapon performs as well as **[[weapon:cashflow-supervision]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:cashflow-supervision]]**."
+                        "fr": "Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:cashflow-supervision]]**.",
+                        "it": "A **[R5]** quest'arma ha prestazioni simili a **[[weapon:cashflow-supervision]]**."
                     }
                 },
                 {
                     "name": "dawning-frost",
                     "note": {
                         "en": "Calculated with the weapon passive always active. At **[R5]**, this weapon performs as well as **[[weapon:tome-of-the-eternal-flow]]**.",
-                        "fr": "Calculé avec le passif de l'arme toujours actif. Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:tome-of-the-eternal-flow]]**."
+                        "fr": "Calculé avec le passif de l'arme toujours actif. Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:tome-of-the-eternal-flow]]**.",
+                        "it": "Presupponendo che la passiva sia sempre attiva, a **[R5]** quest'arma ha prestazioni simili a **[[weapon:tome-of-the-eternal-flow]]**."
                     }
                 }
             ]
