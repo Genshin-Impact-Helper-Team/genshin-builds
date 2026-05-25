@@ -4,6 +4,11 @@
         {
             "version": "Luna VII (6.6)",
             "entries": [
+                 {
+                    "date": "May 25,2026",
+                    "changes": "Added Nicole section",
+                    "appliedBy": "Chiston"
+                },
                 {
                     "date": "May 20,2026",
                     "changes": "Added Prune section",
