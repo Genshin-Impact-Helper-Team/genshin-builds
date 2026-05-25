@@ -6,8 +6,9 @@
         {
             "name": "em",
             "note": {
-                "en": "In team comps where you can trigger both [[element:vaporize]] and [[element:overload]] at the same time (i.e. Raiden National), [[stat:em]] gets more value, pushing these substats ahead in damage.",
-                "fr": "Dans les équipes où vous pouvez déclencher à la fois [[element:vaporize]] et [[element:overload]] en même temps (par exemple, la Raiden National), la [[stat:em]] a une plus grande valeur, permettant de plus hauts dégâts."
+                "en": "In team comps where you can trigger both [[element:vaporize]] and [[element:overload]] at the same time (i.e. Raiden National), [[stat:em]] gets more value.",
+                "fr": "Dans les équipes où vous pouvez déclencher à la fois [[element:vaporize]] et [[element:overload]] en même temps (par exemple, la Raiden National), la [[stat:em]] a une plus grande valeur.",
+                "it": "In team in cui vengono provocate sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National, la [[stat:em]] guadagna valore."
             }
         }
     ]
