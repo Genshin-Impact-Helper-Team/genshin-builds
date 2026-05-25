@@ -3,16 +3,17 @@
         {
             "name": "er",
             "note": {
-                "en": "If optiing to [[ability:burst]] every rotation, [[stat:er]] should be prioirtized until the requirement is met."
+                "en": "If opting to [[ability:burst]] every rotation, [[stat:er]] should be prioirtized until the requirement is met.",
+                "fr": "Si vous optez pour [[ability:burst]] à chaque rotation, la [[stat:er]] doit être priorisée jusqu'à ce que les besoins soient atteints."
             }
         },
         "atk%",
         {
             "name": "cr",
             "note": {
-                "en": "Only if using [[weapon:favonius-codex]]."
+                "en": "Only if using [[weapon:favonius-codex]].",
+                "fr": "Seulement en utilisant [[weapon:favonius-codex]]."
             }
         }
-
     ]
 }

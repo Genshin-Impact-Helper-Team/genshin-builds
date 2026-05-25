@@ -10,7 +10,8 @@
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "As [[character:nicole]] snapshots her own Attack when pressing [[ability:skill]], it is advised to attack a few times before using [[ability:skill]] to benefit from this weapon's passive."
+                        "en": "As [[character:nicole]] snapshots her own Attack when pressing [[ability:skill]], it is advised to attack a few times before using [[ability:skill]] to benefit from this weapon's passive.",
+                        "fr": "Comme [[character:nicole]] snapshot sa propre ATQ en utilisant son [[ability:skill]], il est recommandé d'attaquer plusieurs fois avant d'utiliser son [[ability:skill]] pour bénéficier du passif de l'arme."
                     }
                 }
             ]
@@ -22,7 +23,8 @@
                 {
                     "name": "starcallers-watch",
                     "note": {
-                        "en": "While not contributing a lot to high Attack, this weapon provides a reliable Damage Bonus to your onfielder."
+                        "en": "While not contributing a lot to high Attack, this weapon provides a reliable Damage Bonus to your onfielder.",
+                        "fr": "Bien que ne contribuant pas beacoup pour l'ATQ, cette arme offre un bon buff DGT% à votre personnage actif."
                     }
                 }
             ]
@@ -37,7 +39,8 @@
                 {
                     "name": "hakushin-ring",
                     "note": {
-                        "en": "In teams where this weapon's passive becomes applicable, it increases in value and appreciates refinements."
+                        "en": "In teams where this weapon's passive becomes applicable, it increases in value and appreciates refinements.",
+                        "fr": "Dans les équipes où le passif de cette arme est applicable, sa valeur augmente et les raffinements sont appréciés."
                     }
                 },
                 "flowing-purity"
@@ -48,7 +51,8 @@
                 {
                     "name": "favonius-codex",
                     "note": {
-                        "en": "This weapon can have significantly more value if the teams [[stat:er]] requirements are dire."
+                        "en": "This weapon can have significantly more value if the teams [[stat:er]] requirements are dire.",
+                        "fr": "Cette arme peut avoir beaucoup plus de valeur si les besoins en [[stat:er]] de l'équipe sont énormes."
                     }
                 }
             ]
@@ -58,7 +62,8 @@
                 {
                     "name": "ttds",
                     "note": {
-                        "en": "This weapon severely reduces the potency of [[character:nicole]]'s buff, but brings a hefty buff of its own to the onfielder. Depending on the team, this weapon can be one of [[character:nicole]]'s best choices."
+                        "en": "This weapon severely reduces the potency of [[character:nicole]]'s buff, but brings a hefty buff of its own to the onfielder. Depending on the team, this weapon can be one of [[character:nicole]]'s best choices.",
+                        "fr": "Cette arme réduit énormément la puissance du buff de [[character:nicole]], mais offre un joli buff au personnage actif grâce à son propre passif. Selon l'équipe, cette arme peut être l'une des meilleures options de [[character:nicole]]."
                     }
                 }
             ]
