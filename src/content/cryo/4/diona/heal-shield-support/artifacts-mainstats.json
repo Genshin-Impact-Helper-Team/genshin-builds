@@ -1,4 +1,10 @@
 {
+    "notes": [
+        {
+            "en": "Full Stack [[stat:hp%]] is recommended if you want stronger shields but a weaker heal. You can use [[stat:healing-bonus]] Circlet if you want a nice balance between the two.",
+            "it": "3 statistiche principali [[stat:hp%]] sono consigliate se si desiderano scudi più forti ma cure più deboli. Puoi utilizzare una Corona [[stat:healing-bonus]] per un buon equilibrio tra i due."
+        }
+    ],
     "main_stats": {
         "sands": [
             {
