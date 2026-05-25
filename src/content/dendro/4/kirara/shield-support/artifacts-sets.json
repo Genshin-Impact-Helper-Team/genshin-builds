@@ -5,7 +5,7 @@
                 {
                     "items": [
                         {
-                            "name": "instructor"
+                            "name": "instructor",
                             "pieces": 4,
                             "note": {
                                 "en": "While worse for shield strength, this set is a great option when using [[character:kirara]] in [[element:aggravate]] teams for the teamwide [[stat:em]] buff.",
