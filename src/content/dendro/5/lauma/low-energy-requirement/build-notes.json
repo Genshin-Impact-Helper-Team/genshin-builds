@@ -1,0 +1,31 @@
+{
+    "name": {
+        "en": "Buff Support (Low-Energy Requirement)",
+        "fr": "Support Buff (Besoins en Énergie faibles)"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:lauma]] offers access to [[element:lunar-bloom]], as well as decreasing enemy [[element:hydro]] and [[element:dendro]] resistances. Because of her fluctuating energy requirements, she can offer different playstyles.",
+            "fr": "[[character:lauma]] donne accès au [[element:lunar-bloom]], ainsi qu'à une réduction des résistances [[element:hydro]] et [[element:dendro]] ennemies. Grâce à ses besoins en énergie fluctuants, elle peut proposer différents styles de jeu."
+        },
+        {
+            "en": "Typically features [[character:lauma]] being the on-field unit in a double [[element:dendro]] team or particle rich teams.",
+            "fr": "Ce build est généralement applicable dans les situations où [[character:lauma]] est le personnage on-field dans une équipe double [[element:dendro]] ou dans des équipes riches en particules."
+        },
+        {
+            "en": "[[character:lauma]]'s [[ability:burst]] will typically buff 36 instances of [[element:bloom]]-related damage, this is per target so in AoE it will deplete a lot faster.",
+            "fr": "En général, l'[[ability:burst]] de [[character:lauma]] buff 36 instances de dégâts liés au [[element:bloom]], compté par cible, ce qui s'épuisera donc beaucoup plus vite en AoE."
+        },
+        {
+            "en": "[[character:lauma]]'s hold [[ability:skill]] will consume [[ability:verdant-dew]] stacks (obtained by triggering [[element:lunar-bloom]] reaction every 2.5s) - It is recommended to have 2-3 stacks before casting hold [[ability:skill]], else tap [[ability:skill]] to conserve [[ability:verdant-dew]] stacks",
+            "fr": "Le [[ability:skill]] appui long de [[character:lauma]] consomme des stacks de [[ability:verdant-dew]] (obtenus en déclenchant la réaction de [[element:lunar-bloom]] toutes les 2.5s) - Il est recommandé d'avoir 2-3 stacks avant de lancer le [[ability:skill]] appui long, sinon utilisez le [[ability:skill]] appui court pour conserver les stacks de [[ability:verdant-dew]]."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1CLZNPwl5ba8UNhjciV782OkrMNDin8GE2OjnGPusAIs/edit?gid=848665920#gid=848665920"
+        }
+    ]
+}

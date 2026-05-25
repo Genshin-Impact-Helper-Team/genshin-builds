@@ -1,0 +1,20 @@
+{
+    "main_stats": {
+        "sands": [
+            "em"
+        ],
+        "goblet": [
+            "em"
+        ],
+        "circlet": [
+            "em",
+            {
+                "name": "cr/cd",
+                "note": {
+                    "en": "[[stat:cr]] and [[stat:cd]] only affects LAUMA'S PERSONAL damage, this does not increase her [[element:bloom]] crit buffs",
+                    "fr": "Le [[stat:cr]] et les [[stat:cd]] affectent uniquement les dégâts personnels de [[character:lauma]], cela n'augmente pas ses buffs de crit de [[element:bloom]]."
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "nightweavers-looking-glass"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "a-thousand-floating-dreams",
+                    "note": {
+                        "en": "Calculated with the passive giving 32 [[stat:em]] and 20% [[stat:dendro-dmg]] Bonus",
+                        "fr": "Calculé avec le passif donnant 32 de [[stat:em]] et 20 % de bonus de [[stat:dendro-dmg]]."
+                    }
+                },
+                {
+                    "name": "reliquary-of-truth",
+                    "note": {
+                        "en": "Only calculated with [[stat:em]] buff.",
+                        "fr": "Calculé uniquement avec le buff de [[stat:em]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch",
+                {
+                    "name": "sunny-morning-sleep-in",
+                    "note": {
+                        "en": "This weapon assumes you are gaining the [[stat:em]] from the [[ability:skill]] portion of the passive.",
+                        "fr": "Ce classement suppose que vous obtenez la [[stat:em]] de la partie [[ability:skill]] du passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-fragments",
+                    "note": {
+                        "en": "[[character:lauma]] has no trouble proccing the passive; it is recommended to not instantly use the [[ability:skill]] reset - most optimally hold for ~7.5s for all [[ability:verdant-dew]] stacks before using again. At **[R1 -> R4]**, assume this weapon will proc every other rotation, consumes 2 [[ability:verdant-dew]] stacks on 2nd [[ability:skill]]. At **[R5]** this weapon performs closer to **[[weapon:a-thousand-floating-dreams]]**, assume this weapon will proc every rotation, consumes 2 [[ability:verdant-dew]] stacks on 2nd [[ability:skill]].",
+                        "fr": "[[character:lauma]] n'a aucun mal à déclencher le passif. Il est recommandé de ne pas utiliser immédiatement le deuxième [[ability:skill]]: l'idéal est d'attendre ~7.5s d'avoir tous les stacks de [[ability:verdant-dew]] avant de l'utiliser à nouveau. De **[R1] à [R4]**, supposez que le passif de cette arme se déclenche une rotation sur deux et consommez 2 stacks de [[ability:verdant-dew]] sur le 2e [[ability:skill]]. Une fois **[R5]**, cette arme se rapproche de **[[weapon:a-thousand-floating-dreams]]**, supposez que le passif se déclenche à chaque rotation et consommez 2 stacks de [[ability:verdant-dew]] sur le 2e [[ability:skill]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "surfs-up",
+                    "note": {
+                        "en": "This weapon assumes dynamic stacking.",
+                        "fr": "Cette arme suppose un stacking dynamique."
+                    }
+                },
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "At **[R5]** this weapon performs closer to **[[weapon:sacrificial-fragments]] [R1 -> R4]**",
+                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:sacrificial-fragments]] [R4]**."
+                    }
+                },
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "blackmarrow-lantern",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

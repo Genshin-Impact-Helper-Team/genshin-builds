@@ -1,0 +1,56 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "silken-moons-serenade",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set should be used if no one else on the team can use it",
+                                "fr": "Ce set devrait être utilisé si personne d'autre dans l'équipe ne peut l'utiliser."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "night-of-the-skys-unveiling",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set should only be considered if [[character:lauma]] is on-field and teammates can hold both **[[set:deepwood-memories]] (4)** and **[[set:silken-moons-serenade]] (4)**",
+                                "fr": "Ce set ne devrait être envisagé que si [[character:lauma]] est on-field et que ses coéquipiers peuvent porter à la fois **[[set:deepwood-memories]] (4)** et **[[set:silken-moons-serenade]] (4)**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
