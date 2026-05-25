@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set can be competitive with **[[set:emblem-of-severed-fate]] (4)** on low [[stat:er]] requirement teams where [[character:xiangling]] triggers [[element:overload]] in addition to [[element:vaporize]], such as Raiden National.",
-                                "fr": "Ce set peut rivaliser avec **[[set:emblem-of-severed-fate]] (4)** dans les équipes avec de faibles besoins en [[stat:er]] où [[character:xiangling]] déclenche [[element:overload]] en plus de [[element:vaporize]], comme la Raiden National."
+                                "fr": "Ce set peut rivaliser avec **[[set:emblem-of-severed-fate]] (4)** dans les équipes avec de faibles besoins en [[stat:er]] où [[character:xiangling]] déclenche [[element:overload]] en plus de [[element:vaporize]], comme la Raiden National.",
+                                "it": "Questo set può essere competitivo con **[[set:emblem-of-severed-fate]] (4)** in team con requisiti di [[stat:er]] più bassi nei quali [[character:xiangling]] provoca sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National."
                             }
                         }
                     ]
@@ -86,7 +87,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "This is a support option in teams with a relevant amount of [[element:dendro]] damage, such as [[character:kinich]] teams.",
-                        "fr": "Ce set est une option de support dans les équipes avec une quantité pertinente de dégâts [[element:dendro]], comme les équipes [[character:kinich]]."
+                        "fr": "Ce set est une option de support dans les équipes avec une quantité pertinente de dégâts [[element:dendro]], comme les équipes [[character:kinich]].",
+                        "it": "Questo set è un'opzione di supporto **in team con una quantità rilevante di danni [[element:dendro]]** (ad esempio team con [[character:kinich]])."
                     }
                 }
             ]
