@@ -1,0 +1,76 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4,
+                            "note": {
+                                "en": "While worse for shield strength, this set is a great option when using [[character:kirara]] in [[element:aggravate]] teams for the teamwide [[stat:em]] buff.",
+                                "fr": "Bien que moins bon pour la solidité du bouclier, ce set est une excellente option lorsque [[character:kirara]] est utilisée dans les équipes [[element:aggravate]] pour le buff de [[stat:em]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set should be used in teams which involve a relevant amount of [[element:dendro]] damage and nobody else is using it.",
+                                "fr": "Ce set devrait être utilisé dans les équipes qui impliquent une quantité pertinente de dégâts [[element:dendro]] et où personne d'autre ne l'utilise."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is an option when using [[character:kirara]] on-field.",
+                                "fr": "Ce set est une option lorsque [[character:kirara]] est utilisée on-field."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "vourukashas-glow",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

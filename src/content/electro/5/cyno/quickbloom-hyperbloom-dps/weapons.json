@@ -1,0 +1,72 @@
+{
+    "notes": [
+        {
+            "en": "Weapon Rankings Assuming a Significant Amount of [[element:hydro]] Application from an Off Field Unit",
+            "fr": "Le classement des armes suppose une quantité significative d'application [[element:hydro]] par un personnage off-field"
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "staff-of-the-scarlet-sands"
+            ]
+        },
+        {
+            "items": [
+                "ballad-of-the-fjords"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-winged-spear"
+            ]
+        },
+        {
+            "items": [
+                "deathmatch"
+            ]
+        },
+        {
+            "items": [
+                "lumidouce-elegy",
+                "staff-of-homa",
+                {
+                    "name": "white-tassel",
+                    "refinement": 5
+                },
+                {
+                    "name": "missive-windspear",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "kitain-cross-spear",
+                "dragons-bane"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyward-spine",
+                    "note": {
+                        "en": "This weapon may perform equal to or better than **[[weapon:white-tassel]] [R5]** if the ATK Speed it gives is utilized to hit more of [[character:cyno]]'s [[ability:na]]s.",
+                        "fr": " Cette arme peut être **équivalente ou meilleure que [[weapon:white-tassel]] [R5]** si la vitesse d'attaque qu'elle donne est utilisée pour performer plus d'[[ability:na|attaques normales]] de [[character:cyno]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "In teams where energy is scarce, such as teams without another Favonius weapon or an [[element:electro]] user, this weapon can be desired for the [[stat:er]] it gives.",
+                        "fr": "Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour la [[stat:er]] qu'elle donne."
+                    }
+                }
+            ]
+        }
+    ]
+}

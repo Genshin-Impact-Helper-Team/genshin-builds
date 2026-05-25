@@ -1,0 +1,22 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note": {
+                        "en": "Prioritize her [[ability:skill]] if you do not spend time on-field with [[character:yaoyao]] after using her [[ability:burst]].",
+                        "fr": "Priorisez son [[ability:skill]] si vous ne passez pas de temps on-field avec [[character:yaoyao]] après avoir utilisé son [[ability:burst]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

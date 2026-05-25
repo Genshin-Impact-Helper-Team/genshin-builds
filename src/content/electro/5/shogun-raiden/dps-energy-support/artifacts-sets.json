@@ -1,0 +1,57 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is not good for [[character:shogun-raiden|Raiden]]'s personal damage, but can outperform other options due to the buffs it provides to the team.",
+                                "fr": "Ce set n'est pas bon pour les dégâts personnels de [[character:shogun-raiden]], mais peut surpasser d'autres options grâce aux buffs qu'il fournit à l'équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

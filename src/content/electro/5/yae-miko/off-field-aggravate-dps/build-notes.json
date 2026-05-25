@@ -1,0 +1,37 @@
+{
+    "name": {
+        "en": "Off-field [[element:aggravate]] DPS",
+        "fr": "DPS [[element:aggravate]] Off-Field"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "Start your rotations with [[character:yae-miko|Yae]]'s [[ability:skill]] to amplify her [[ability:burst]] damage.",
+            "fr": "Commencez vos rotations avec le [[ability:skill]] de [[character:yae-miko]] pour amplifier les dégâts de son [[ability:burst]]."
+        },
+        {
+            "en": "[[ability:burst]] combo: {rot:E3 Q E3}",
+            "fr": "Combo d'[[ability:burst]]: {rot:E3 A E3}"
+        },
+        {
+            "en": "After the first set of EEE you usually swap out and go through your buff rotation before swapping back to [[ability:burst]]",
+            "fr": "Après le premier set de EEE, vous changez généralement de personnage et faites votre rotation de buffs avant de revenir pour utiliser l'[[ability:burst]]"
+        },
+        {
+            "en": "Take note that none of [[character:yae-miko]]'s abilities snapshot.",
+            "fr": "Gardez à l'esprit qu'aucune des aptitudes de [[character:yae-miko]] ne snapshot."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Quinslay",
+            "link": "https://docs.google.com/spreadsheets/d/1tCrljJbN6t-_d1OphJpng01Oh7daZrS_n9q3NKlewUU/edit?gid=942751900#gid=942751900"
+        }
+    ],
+    "artifacts": [
+        {
+            "author": "Quinslay",
+            "link": "https://docs.google.com/spreadsheets/d/11gnTGsbiy060z1ftGrYWwRAgwgWgSb1ANtek2tG7ISQ/edit?gid=904804077#gid=904804077"
+        }
+    ]
+}

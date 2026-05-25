@@ -1,0 +1,74 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision",
+                {
+                    "name": "haran-geppaku-futsu",
+                    "note": {
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent giving her a free 20% [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du talent A4 de [[character:clorinde]] qui lui donne 20% de [[stat:cr]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "mistsplitter-reforged",
+                    "note": {
+                        "en": "Maximizing Stacks requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
+                        "fr": "Maximiser les stacks demande à [[character:clorinde]] d'utiliser son [[ability:burst]] avant son [[ability:skill]]."
+                    }
+                },
+                {
+                    "name": "primordial-jade-cutter",
+                    "note": {
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent giving her a free 20% [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du talent A4 de [[character:clorinde]] qui lui donne 20% de [[stat:cr]]."
+                    }
+                },
+                "uraku-misugiri",
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "This weapon loses significant value outside of [[element:dendro]]-based teams.",
+                        "fr": "Cette arme perd beaucoup de valeur en dehors des équipes basées sur le [[element:dendro]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "calamity-of-eshu",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes [[character:clorinde]] is being shielded by someone, most notably being [[character:kirara]].",
+                        "fr": "Le classement suppose que [[character:clorinde]] est protégée par un bouclier, notamment par [[character:kirara]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5
+                },
+                {
+                    "name": "the-black-sword",
+                    "note": {
+                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:finale-of-the-deep]] [R5]**.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:finale-of-the-deep]] [R5]**."
+                    }
+                }
+            ]
+        }
+    ]
+}

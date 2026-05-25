@@ -1,0 +1,48 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "This weapon is a good generalist option for [[character:yaoyao]], providing [[stat:er]] with a useful passive.",
+                        "fr": "Cette arme est une bonne option généraliste pour [[character:yaoyao]], fournissant de la [[stat:er]] avec un passif utile."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "dialogues-of-the-desert-sages"
+            ]
+        },
+        {
+            "items": [
+                "black-tassel",
+                {
+                    "name": "rightful-reward",
+                    "note": {
+                        "en": "This weapon performs worse if you are not planning to use [[character:yaoyao]]'s [[ability:burst]].",
+                        "fr": "Cette arme est moins bonne si vous ne prévoyez pas d'utiliser l'[[ability:burst]] de [[character:yaoyao]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "moonpiercer"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "kitain-cross-spear",
+                    "note": {
+                        "en": "This weapon can be better than **[[weapon:favonius-lance]]** in teams where [[character:yaoyao]] has a significant amount of [[element:bloom]] ownership.",
+                        "fr": "Cette arme peut dépasser **[[weapon:favonius-lance]]** dans les équipes où [[character:yaoyao]] déclenche une grande partie des [[element:bloom]]s."
+                    }
+                }
+            ]
+        }
+    ]
+}

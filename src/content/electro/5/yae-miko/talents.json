@@ -1,0 +1,22 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst",
+                    "note": {
+                        "en": "Do note that [[character:yae-miko|Yae]]'s [[ability:burst]] does more damage than her [[ability:skill]] when it hits multiple enemies, and in some setups requiring high [[stat:er]] its more efficient to simply ult every second rotation rather than try to stack enough [[stat:er]] substats.",
+                        "fr": "Notez bien que l'[[ability:burst]] de [[character:yae-miko]] fait plus de dégâts que son [[ability:skill]] lorsqu'il touche plusieurs ennemis, et dans certains setups demandant beaucoup de [[stat:er]], il est plus efficace de simplement ult toutes les deux rotations plutôt que d'essayer d'empiler assez de substats de [[stat:er]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

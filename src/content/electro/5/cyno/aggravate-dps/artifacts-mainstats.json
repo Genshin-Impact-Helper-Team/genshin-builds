@@ -1,0 +1,24 @@
+{
+    "main_stats": {
+        "sands": [
+            "em",
+            "atk%"
+        ],
+        "goblet": [
+            "electro-dmg"
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    },
+    "notes": [
+        {
+            "en": "**Sands:** [[stat:em]] versus [[stat:atk%]] is heavily dependant on the weapon and team [[character:cyno]] is in. It is recommended to test each and/or consult an optimizer.",
+            "fr": "**Sablier:** La comparaison entre [[stat:em]] et [[stat:atk%]] dépend fortement de l'arme et de l'équipe dans laquelle [[character:cyno]] se trouve. Il est recommandé de tester chaque option et/ou d'utiliser un optimizer."
+        },
+        {
+            "en": "**Circlet:** With **[[weapon:staff-of-the-scarlet-sands]]**, [[stat:em]] may be used as the circlet Main Stat.",
+            "fr": "**Diadème:** Avec **[[weapon:staff-of-the-scarlet-sands]]**, la [[stat:em]] peut être utilisée comme Stat principale."
+        }
+    ]
+}

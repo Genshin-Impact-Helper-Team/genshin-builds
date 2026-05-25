@@ -1,0 +1,101 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set works best for [[character:yae-miko|Yae]] in **multi-target scenarios where her [[ability:burst]] hits multiple enemies and she is bursting every rotation**. Is it typically **not recommended to build very high [[stat:er]] as this comes at the expense of offensive stats**, so should you be playing in teams without a good battery (such as [[character:shogun-raiden|Raiden]] or [[character:fischl]]), it may be optimal to use [[character:yae-miko|Yae]]'s [[ability:burst]] every other rotation or not at all.",
+                                "fr": "Ce set fonctionne au mieux pour [[character:yae-miko]] en **multi-cible lorsque son [[ability:burst]] touche plusieurs ennemis et qu'elle utilise son [[ability:burst]] à chaque rotation**. Il n'est généralement **pas recommandé de build beaucoup de [[stat:er]], puisque cela se fait au détriment des stats offensives**. Si vous jouez dans des équipes sans bonne batterie (comme [[character:shogun-raiden|Raiden]] ou [[character:fischl]]), il peut être optimal d'utiliser l'[[ability:burst]] de [[character:yae-miko]] toutes les deux rotations ou pas du tout."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "golden-troupe",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:yae-miko|Yae]]'s best artifact set in single target. It is also the preferred choice if [[character:yae-miko|Yae]] does not [[ability:burst]].",
+                                "fr": "Le meilleur set d'artefacts de [[character:yae-miko]] en monocible. C'est aussi le choix préféré si [[character:yae-miko]] n'utilise pas son [[ability:burst]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "golden-troupe",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thundersoother",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Assuming you are able to maintain 100% uptime on its passive, this is competitive to be [[character:yae-miko|Yae]]'s BiS set. This set works best for [[character:yae-miko]] in [[element:electrocharged]] teams.",
+                                "fr": "En supposant que vous puissiez maintenir 100% d'uptime sur son passif, ce set est compétitif pour être le BiS de [[character:yae-miko]]. Ce set est le meilleur pour une [[character:yae-miko]] [[element:electrocharged]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set trades off a portion of [[character:yae-miko|Yae]]'s damage in return for a party wide 20 [[stat:atk%]] buff. If you have good pieces as a result of farming **[[set:pale-flame]] (4)** (for [[character:eula]] or otherwise) this can be a good option for her. Not recommended to specifically farm this set for [[character:yae-miko|Yae]].",
+                                "fr": "Ce set sacrifie une partie des dégâts de [[character:yae-miko]] en échange d'un buff de 20 [[stat:atk%]] pour toute l'équipe. Si vous avez de bonnes pièces après avoir farm **[[set:pale-flame]] (4)** (pour [[character:eula]] ou autre), cela peut être une bonne option pour elle. Il n'est pas recommandé de farm spécifiquement ce set pour [[character:yae-miko]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

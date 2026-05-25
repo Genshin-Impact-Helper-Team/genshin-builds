@@ -1,0 +1,23 @@
+{
+    "name": {
+        "en": "DPS",
+        "fr": "DPS"
+    },
+    "best": true,
+    "weapons": [
+        {
+            "author": "Chiston",
+            "link": "https://docs.google.com/spreadsheets/d/1sq5lL0HRmYc4UqoTlc4_WurTFFUwgCmCtmHoVtSSh8Q/edit?usp=sharing"
+        }
+    ],
+    "notes": [
+        {
+            "en": "[[character:flins]] is an on-field DPS unit who utilizes a short field time to generate energy for himself and use the lower Energy cost [[ability:burst]] when possible. Because most of his damage is [[element:lunar-charged]], [[element:electro]] DMG% and other DMG% buffs are not particularly useful for him.",
+            "fr": "[[character:flins]] est un personnage DPS on-field qui utilise son court temps de terrain pour se générer de l'énergie et utiliser son petit [[ability:burst]] dès que possible. Comme la plupart de ses dégâts sont de la [[element:lunar-charged]], les DGT% [[element:electro]] et autres buffs de DGT% ne sont pas particulièrement utiles pour lui."
+        },
+        {
+            "en": "[[character:flins]] requires another Moonsign character in his team to unlock a large portion of his damage potential.",
+            "fr": "[[character:flins]] nécessite un autre personnage Signelune dans son équipe pour débloquer une grande partie de son potentiel de dégâts."
+        }
+    ]
+}

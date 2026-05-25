@@ -1,0 +1,31 @@
+{
+    "name": {
+        "en": "Off-field DPS",
+        "fr": "DPS off-field"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "Start your rotations with [[character:yae-miko|Yae]]'s [[ability:skill]] to amplify her [[ability:burst]] damage.",
+            "fr": "Commencez vos rotations avec le [[ability:skill]] de [[character:yae-miko]] pour amplifier les dégâts de son [[ability:burst]]."
+        },
+        {
+            "en": "[[ability:burst]] combo: {rot:E3 Q E3}",
+            "fr": "Combo d'[[ability:burst]]: {rot:E3 A E3}"
+        },
+        {
+            "en": "After the first set of EEE you usually swap out and go through your buff rotation before swapping back to [[ability:burst]]",
+            "fr": "Après le premier set de EEE, vous changez généralement de personnage et faites votre rotation de buffs avant de revenir pour utiliser l'[[ability:burst]]"
+        },
+        {
+            "en": "Take note that none of [[character:yae-miko]]'s abilities snapshot.",
+            "fr": "Gardez à l'esprit qu'aucune des aptitudes de [[character:yae-miko]] ne snapshot."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Fob#6835",
+            "link": "https://docs.google.com/spreadsheets/d/1kDgkF3ZCa6MiQJLFzSXVBqbLrhe-0fNk/edit?gid=606412994#gid=606412994"
+        }
+    ]
+}

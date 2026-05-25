@@ -1,0 +1,20 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Until requirement is met",
+                "fr": "Jusqu'à ce que les besoins soient atteints"
+            }
+        },
+        "hp%",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Try to build some [[stat:cr]] through substats if using **[[weapon:favonius-lance]]**. [[stat:cr]] is not important on other weapons.",
+                "fr": "Essayez de build un peu de [[stat:cr]] via les substats si vous utilisez **[[weapon:favonius-lance]]**. Le [[stat:cr]] n'est pas important sur les autres armes."
+            }
+        },
+        "hp"
+    ]
+}

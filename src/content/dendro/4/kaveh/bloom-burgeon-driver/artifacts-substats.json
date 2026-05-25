@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "er",
+        "em",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only for **[[weapon:favonius-greatsword]]**.",
+                "fr": "Uniquement pour **[[weapon:favonius-greatsword]]**."
+            }
+        }
+    ]
+}

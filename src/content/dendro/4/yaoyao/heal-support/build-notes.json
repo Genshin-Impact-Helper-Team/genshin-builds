@@ -1,0 +1,21 @@
+{
+    "name": {
+        "en": "Heal Support",
+        "fr": "Support Soins"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:yaoyao]] focuses on healing and applying [[element:dendro]] with her [[ability:skill]] and [[ability:burst]]. She can be used in a wide range of team archetypes, but do note her [[element:dendro]] application from her [[ability:skill]] alone is generally insufficient for [[element:bloom]]/[[element:hyperbloom]]/[[element:burgeon]] teams as a solo [[element:dendro]] option.",
+            "fr": "[[character:yaoyao]] se concentre sur les soins et l'application [[element:dendro]] avec son [[ability:skill]] et son [[ability:burst]]. Elle peut être utilisée dans un bon nombre d'archétypes d'équipe, mais notez que son application [[element:dendro]] avec uniquement son [[ability:skill]] est généralement insuffisante pour les équipes [[element:bloom]]/[[element:hyperbloom]]/[[element:burgeon]] en tant que seule option [[element:dendro]]."
+        },
+        {
+            "en": "The additional Yueguis summoned by the [[ability:burst]] are removed when [[character:yaoyao]] leaves the field.",
+            "fr": "Les Yueguis supplémentaires invoqués par l'[[ability:burst]] disparaissent quand [[character:yaoyao]] quitte le terrain."
+        },
+        {
+            "en": "If using **[[weapon:favonius-lance]]**, you can perform [[ability:skill]] followed by two [[ability:na|Normal Attacks]] in order to trigger the passive.",
+            "fr": "Si vous utilisez **[[weapon:favonius-lance]]**, vous pouvez utiliser le [[ability:skill]] suivi de deux [[ability:na|attaques normales]] afin de déclencher le passif."
+        }
+    ]
+}

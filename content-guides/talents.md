@@ -137,7 +137,7 @@ This renders as:
   "name": "burst",
   "note": {
     "en": "Level [[ability:burst]] first if most of the build's damage comes from it.",
-    "fr": "Montez le [[ability:burst]] en premier si la majorite des degats du build viennent de lui."
+    "fr": "Montez l'[[ability:burst]] en premier si la majorite des degats du build viennent de lui."
   }
 }
 ```

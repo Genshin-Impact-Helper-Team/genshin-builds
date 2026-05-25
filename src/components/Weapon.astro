@@ -53,7 +53,7 @@ const formatRefinement = (refinement?: number | string) =>
     weapons.weapons.map((position: { items: WeaponItem[] }, i: number) => (
       <div style="margin-bottom: 10px;">
         <div>
-          <strong>{i + 1}.</strong>&#8239;
+          <strong class="accent-text">{i + 1}.</strong>&#8239;
           {position.items[0] && (
             <span class="inline-info-label">
               <WeaponInfoPopover

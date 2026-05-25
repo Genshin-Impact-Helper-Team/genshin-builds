@@ -1,0 +1,91 @@
+{
+    "notes": [
+        {
+            "en": "The ranking is based on [[character:shogun-raiden|Raiden]]'s personal damage.",
+            "fr": "Le classement est basé sur les dégâts personnels de [[character:shogun-raiden]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                "staff-of-homa",
+                {
+                    "name": "staff-of-the-scarlet-sands",
+                    "note": {
+                        "en": "It is not recommended to build [[stat:em]] for this weapon as her other offensive stats still outclass it.",
+                        "fr": "Il n'est pas recommandé de build [[stat:em]] pour cette arme puisque les autres stats offensives de Raiden sont toujours meilleures."
+                    }
+                },
+                "symphonist-of-scents",
+                "lumidouce-elegy",
+                "primordial-jade-winged-spear"
+            ]
+        },
+        {
+            "items": [
+                "calamity-queller",
+                {
+                    "name": "deathmatch",
+                    "note": {
+                        "en": "Ranking assumes single target. At **[R5]**, this weapon can perform better than **[[weapon:staff-of-homa]]**",
+                        "fr": "Le classement suppose du monocible. Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:staff-of-homa]]**"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "vortex-vanquisher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-catch",
+                    "refinement": 5
+                },
+                {
+                    "name": "skyward-spine",
+                    "note": {
+                        "en": "If using the improved combo thanks to the ATK Speed this weapon provides, it pulls slightly ahead of **[[weapon:the-catch]] [R5]**.",
+                        "fr": "En utilisant le combo amélioré grâce à l'Attack Speed que cette arme donne, elle passe légèrement devant **[[weapon:the-catch]] [R5]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wavebreakers-fin",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:deathmatch]]**.",
+                        "fr": "Une fois **[R5]**, cette arme est équivalente à **[[weapon:deathmatch]]**."
+                    }
+                },
+                {
+                    "name": "lithic-spear",
+                    "note": {
+                        "en": "Ranking assumes 2 stacks. At **[R5]**, this weapon performs similar to **[[weapon:deathmatch]]**. With less than 2 stacks, this weapon falls off in value.",
+                        "fr": "Le classement suppose 2 stacks. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:deathmatch]]**. Avec moins de 2 stacks, cette arme perd de la valeur."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "While very subpar for [[character:shogun-raiden|Raiden]]'s personal damage, this weapon can outperform most 4-star options if it helps team members with high damage share (i.e. [[character:xiangling]]).",
+                        "fr": "Bien que très médiocre pour les dégâts personnels de [[character:shogun-raiden]], cette arme peut dépasser la plupart des options 4 étoiles si elle aide les membres de l'équipe qui ont une part élevée de dégâts (par exemple [[character:xiangling]])."
+                    }
+                }
+            ]
+        }
+    ]
+}

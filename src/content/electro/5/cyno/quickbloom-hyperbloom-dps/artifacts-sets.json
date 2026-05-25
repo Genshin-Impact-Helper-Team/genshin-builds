@@ -1,0 +1,83 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "flower-of-paradise-lost",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "**This set is specifically usable when pairing [[character:cyno]] with [[character:furina]], a Quickbloom variant which wants reliable teamwide healing (ideally [[character:baizhu]])**. In this team, it performs similarly to **[[set:gilded-dreams]] (4)**.",
+                        "fr": "**Ce set est utilisé lorsque [[character:cyno]] est spécifiquement joué avec [[character:furina]], une variante Quickbloom qui veut un soin fiable pour toute l'équipe (idéalement [[character:baizhu]])**. Dans cette équipe, il équivaut à **[[set:gilded-dreams]] (4)**."
+                    }
+                }
+            ]
+        }
+    ]
+}

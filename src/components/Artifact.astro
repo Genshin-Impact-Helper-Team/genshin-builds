@@ -51,7 +51,7 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
         artifactSetRanks.map((rank: ArtifactSetRank, i: number) => (
           <div style="margin-bottom: 10px;">
             <div>
-              <strong>{i + 1}.</strong>{' '}
+              <strong class="accent-text">{i + 1}.</strong>{' '}
               {rank.groups[0] && (
                 <>
                   <span>
@@ -97,7 +97,7 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
     <h3>{t(locale, 'ui', 'Main Stats')}</h3>
 
     <div>
-      <strong>{t(locale, 'ui', 'Sands')}:</strong>{' '}
+      <strong class="accent-text">{t(locale, 'ui', 'Sands')}:</strong>{' '}
       {
         artifacts.mainstats.main_stats.sands.map(
           (stat: StatItem, statIndex: number) => (
@@ -120,7 +120,7 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
     </div>
 
     <div>
-      <strong>{t(locale, 'ui', 'Goblet')}:</strong>{' '}
+      <strong class="accent-text">{t(locale, 'ui', 'Goblet')}:</strong>{' '}
       {
         artifacts.mainstats.main_stats.goblet.map(
           (stat: StatItem, statIndex: number) => (
@@ -143,7 +143,7 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
     </div>
 
     <div>
-      <strong>{t(locale, 'ui', 'Circlet')}:</strong>{' '}
+      <strong class="accent-text">{t(locale, 'ui', 'Circlet')}:</strong>{' '}
       {
         artifacts.mainstats.main_stats.circlet.map(
           (stat: StatItem, statIndex: number) => (
@@ -176,7 +176,7 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
           isSubstatGroup(stat) ? (
             <div>
               <div>
-                <strong>{i + 1}.</strong>{' '}
+                <strong class="accent-text">{i + 1}.</strong>{' '}
                 {stat.items[0] && (
                   <>
                     {stat.items[0].name}
@@ -209,7 +209,7 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
             </div>
           ) : (
             <div>
-              <strong>{i + 1}.</strong> {stat.name}
+              <strong class="accent-text">{i + 1}.</strong> {stat.name}
               {stat.noteId ? (
                 <a class="note-link" href={`#${stat.noteId}`}>
                   *

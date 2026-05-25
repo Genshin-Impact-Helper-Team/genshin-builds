@@ -1,0 +1,21 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "em"
+        ],
+        "goblet": [
+            "em"
+        ],
+        "circlet": [
+            "em",
+            {
+                "name": "cr",
+                "note": {
+                    "en": "Only for **[[weapon:favonius-greatsword]]**.",
+                    "fr": "Uniquement pour **[[weapon:favonius-greatsword]]**."
+                }
+            }
+        ]
+    }
+}

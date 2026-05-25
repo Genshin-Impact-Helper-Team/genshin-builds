@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "cr/cd",
+        "atk%",
+        "em",
+        {
+            "name": "er",
+            "note": {
+                "en": "When [[character:ineffa]] has higher [[stat:er]] requirements (typically 140%+), building [[stat:er|ER]] to use her [[ability:burst]] every rotation results in a personal damage loss in exchange for more uptime on her teamwide buff. Teams with [[character:ineffa]] as a significant source of damage will want to use her [[ability:burst]] every other rotation and ignore [[stat:er|ER]].",
+                "fr": "Quand [[character:ineffa]] a des besoins en [[stat:er]] plus élevés (généralement 140%+), build de la [[stat:er]] pour utiliser son [[ability:burst]] à chaque rotation entraîne une perte de dégâts personnels en échange de plus d'uptime sur son buff d'équipe. Les équipes avec [[character:ineffa]] comme source importante de dégâts voudront utiliser son [[ability:burst]] une rotation sur deux et ignorer la [[stat:er]]."
+            }
+        }
+    ]
+}

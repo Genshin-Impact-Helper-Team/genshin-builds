@@ -1,0 +1,21 @@
+{
+    "name": {
+        "en": "DPS",
+        "fr": "DPS"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:clorinde]] is an [[element:electro]] DPS who primarily deals damage with her [[ability:skill]], which puts her into the Night Vigil state. Attacks during this state grant her a [[ability:bol]], and she can clear her [[ability:bol]] by using her [[ability:skill]] again while in the Night Vigil state. It should be noted that while in the Night Vigil state, outside healing sources give [[character:clorinde]] a [[ability:bol]] instead of healing her. [[character:clorinde]]'s [[ability:burst]] also grants her a [[ability:bol]] that increases based on her talent level.",
+            "fr": "[[character:clorinde]] est un DPS [[element:electro]] qui inflige des dégâts principalement avec son [[ability:skill]], la faisant entrer dans l'état Vigile nocturne. Les attaques pendant cet état lui donnent un [[ability:bol]] qu'elle peut retirer en utilisant à nouveau son [[ability:skill]] pendant l'état Vigile nocturne. Il est important de noter que dans cet état, les sources de soin extérieures augmentent l'[[ability:bol]] de [[character:clorinde]] au lieu de la soigner. L'[[ability:burst]] de [[character:clorinde]] lui donne aussi un [[ability:bol]] qui augmente selon son niveau de talent."
+        },
+        {
+            "en": "Combo with [[ability:burst]]:\n- {rot:Q E2 5N3E (N2 or N3)}\n- {rot:Q E 6N3E}",
+            "fr": "Combo avec l'[[ability:burst]]:\n- {rot:A E2 5N3E (N2 ou N3)}\n- {rot:A E 6N3E}"
+        },
+        {
+            "en": "Combo without [[ability:burst]]:\n- {rot:E 6N3E}",
+            "fr": "Combo sans l'[[ability:burst]]:\n- {rot:E 6N3E}"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "best": true,
+    "name": {
+        "en": "Shield Support",
+        "fr": "Support Bouclier"
+    },
+    "notes": [
+        {
+            "en": "[[character:kirara]] can support the team by providing shields. She has the option to remain off-field for the majority of rotations, or stay onfield to drive and apply [[element:dendro]].",
+            "fr": "[[character:kirara]] peut soutenir l'équipe en fournissant des boucliers. Elle a la possibilité de rester off-field pendant la majorité des rotations, ou de rester on-field pour driver et appliquer du [[element:dendro]]."
+        }
+    ]
+}

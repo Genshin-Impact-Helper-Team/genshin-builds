@@ -1,0 +1,15 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note": {
+                        "en": "Typically [[character:shogun-raiden|Raiden]] only uses her [[ability:skill]] for [[element:hyperbloom]], so leveling [[ability:burst]] is not necessary.",
+                        "fr": "Généralement, [[character:shogun-raiden]] utilise seulement son [[ability:skill]] pour [[element:hyperbloom]], monter l'[[ability:burst]] n'est donc pas nécessaire."
+                    }
+                }
+            ]
+        }
+    ]
+}

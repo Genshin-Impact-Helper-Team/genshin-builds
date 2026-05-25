@@ -1,0 +1,77 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "aubade-of-morningstar-and-moon",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "silken-moons-serenade",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is a more supportive artifact set that sacrifices [[character:ineffa]]'s personal damage in favor of an [[stat:atk%]] buff and an increase to her shield strength.",
+                                "fr": "C'est un set d'artéfacts plus support qui sacrifie les dégâts personnels de [[character:ineffa]] au profit d'un buff d'[[stat:atk%]] et d'une augmentation de la solidité de son bouclier."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%"
+        ],
+        "goblet": [
+            {
+                "name": "atk%",
+                "note": {
+                    "en": "Preferred over DMG% as [[character:ineffa]]'s A1 does not scale well with DMG%.",
+                    "fr": "Préféré au Bonus DGT% car l'A1 de [[character:ineffa]] ne scale pas bien avec les Bonus DGT%."
+                }
+            }
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    }
+}

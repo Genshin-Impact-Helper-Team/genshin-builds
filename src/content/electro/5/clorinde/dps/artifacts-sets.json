@@ -1,0 +1,44 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "fragment-of-harmonic-whimsy",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set pulls ahead of **[[set:fragment-of-harmonic-whimsy]]** if [[character:clorinde]] is played in Quickbloom with [[character:furina]], and is competitive with **[[set:fragment-of-harmonic-whimsy]]** in [[element:aggravate]].",
+                                "fr": "Ce set passe devant **[[set:fragment-of-harmonic-whimsy]]** si [[character:clorinde]] est jouée en Quickbloom avec [[character:furina]], et reste compétitif avec **[[set:fragment-of-harmonic-whimsy]]** en [[element:aggravate]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
