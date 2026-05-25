@@ -1,0 +1,125 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "a-thousand-floating-dreams",
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-fragments",
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "If teammates significantly benefit from the [[stat:atk]] this weapon gives, it has the potential to rival **[[weapon:a-thousand-floating-dreams]]**.",
+                        "fr": "Si les coéquipiers bénéficient significativement de l'[[stat:atk]] que cette arme donne, elle a le potentiel de rivaliser avec **[[weapon:a-thousand-floating-dreams]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
+                        "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field."
+                    }
+                },
+                "sacrificial-jade"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyward-atlas",
+                    "note": {
+                        "en": "The fewer the reactions [[character:nahida]] triggers, the more potent this option become.",
+                        "fr": "Moins [[character:nahida]] déclenche de réactions, plus cette option devient puissante."
+                    }
+                },
+                {
+                    "name": "lost-prayer-to-the-sacred-winds",
+                    "note": {
+                        "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
+                        "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field."
+                    }
+                },
+                {
+                    "name": "memory-of-dust",
+                    "note": {
+                        "en": "The fewer the reactions [[character:nahida]] triggers, the more potent this option become.",
+                        "fr": "Moins [[character:nahida]] déclenche de réactions, plus cette option devient puissante."
+                    }
+                },
+                {
+                    "name": "solar-pearl",
+                    "note": {
+                        "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
+                        "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-codex",
+                    "note": {
+                        "en": "This weapon has the potential to rival **[[weapon:a-thousand-floating-dreams]]** if [[character:nahida]] can actively trigger the passive multiple times by attacking on-field. **[[weapon:favonius-codex]]** also has the potential to be a good weapon on [[character:nahida]] in teams where her [[stat:er]] requirement is high, or if your team values the additional particles.",
+                        "fr": "Cette arme a le potentiel de rivaliser avec **[[weapon:a-thousand-floating-dreams]]** si [[character:nahida]] peut déclencher activement le passif plusieurs fois en attaquant on-field. **[[weapon:favonius-codex]]** a aussi le potentiel d'être une bonne arme sur [[character:nahida]] dans les équipes où son besoin en [[stat:er]] est élevé, ou si votre équipe valorise les particules supplémentaires."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "mappa-mare",
+                "magic-guide",
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "This weapon should only be used if [[character:nahida]] is used in [[element:quicken]] or [[element:hyperbloom]] teams.",
+                        "fr": "Cette arme ne devrait être utilisée que si [[character:nahida]] est utilisée dans des équipes [[element:quicken]] ou [[element:hyperbloom]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers",
+                    "note": {
+                        "en": "This weapon sacrifices a lot of [[character:nahida]]'s personal damage for buffing potential. Generally not worth the trade, but can be usable in teams where [[character:nahida]]'s damage share is already low.",
+                        "fr": "Cette arme sacrifie beaucoup des dégâts personnels de [[character:nahida]] pour du potentiel de buff. Cela ne vaut généralement pas le coup, mais peut être utilisable dans les équipes où la part de dégâts de [[character:nahida]] est déjà faible."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "prototype-amber",
+                    "note": {
+                        "en": "Only to be used if the team otherwise lacks survivability.",
+                        "fr": "À utiliser uniquement si l'équipe manque autrement de survivabilité."
+                    }
+                }
+            ]
+        }
+    ]
+}

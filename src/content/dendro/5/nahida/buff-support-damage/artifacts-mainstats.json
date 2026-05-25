@@ -1,0 +1,22 @@
+{
+    "notes": [
+        {
+            "en": "[[character:nahida]] has several viable combinations of main stats. The general rule of thumb is that the more [[stat:em]] Main Stats you use, the better [[stat:atk%]]/Crit weapons will perform relatively.",
+            "fr": "[[character:nahida]] a plusieurs combinaisons viables de stats principales. La règle générale est que plus vous utilisez de stats principales en [[stat:em]], meilleures seront les armes [[stat:atk%]]/Crit."
+        }
+    ],
+    "main_stats": {
+        "sands": [
+            "em"
+        ],
+        "goblet": [
+            "em",
+            "dendro-dmg"
+        ],
+        "circlet": [
+            "em",
+            "cr",
+            "cd"
+        ]
+    }
+}
