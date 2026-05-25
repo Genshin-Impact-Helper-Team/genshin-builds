@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set provides a teamwide [[atk%]] buff while also increasing [[ability:burst]] damage. [[character:diona]] does not have the best uptime on this set, however, she may be the best option to use this set.",
-                                "fr": "Ce set fournit un buff d'[[atk%]] à toute l'équipe tout en augmentant les dégâts de l'[[ability:burst]]. [[character:diona]] n'a pas le meilleure uptime sur ce set, cependant elle est potentiellement la meilleure option pour utiliser ce set."
+                                "fr": "Ce set fournit un buff d'[[atk%]] à toute l'équipe tout en augmentant les dégâts de l'[[ability:burst]]. [[character:diona]] n'a pas le meilleure uptime sur ce set, cependant elle est potentiellement la meilleure option pour utiliser ce set.",
+                                "it": "Questo set fornisce **un potenziamento all'[[atk%]] ed ai danni da [[ability:burst]] di tutto il team**. **[[character:diona]] non ha il miglior tempo di funzionamento di questo set**, ma potrebbe comunque essere l'opzione migliore a seconda del team."
                             }
                         }
                     ]
@@ -78,7 +79,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is a niche option for [[character:diona]]. It can be considered in teams which value [[stat:em]] and where she can trigger a reaction while on-field. Keep in mind that [[set:instructor]] being limited to a 4-star set means your stat potential will be lower.",
-                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes qui valorisent la [[stat:em]] et où elle peut déclencher une réaction en étant on-field. Gardez à l'esprit que [[set:instructor]] étant limité à un set 4 étoiles signifie que votre potentiel de stats sera plus faible."
+                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes qui valorisent la [[stat:em]] et où elle peut déclencher une réaction en étant on-field. Gardez à l'esprit que [[set:instructor]] étant limité à un set 4 étoiles signifie que votre potentiel de stats sera plus faible.",
+                                "it": "Questo set è un'opzione di nicchia per [[character:diona]]. Può essere preso in considerazione **in team che apprezzano la [[stat:em]]** e dove [[character:diona]] riesce ad innescare una reazione mentre si trova sul campo. Tieni presente che **[[set:instructor]] è un set 4✩**, quindi il potenziale delle statistiche sarà inferiore."
                             }
                         }
                     ]
@@ -94,7 +96,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is a niche option for [[character:diona]]. It can be considered in teams including some variants of [[character:ganyu]] [[element:freeze]] which have shorter rotation lengths, meaning [[character:diona]]'s [[ability:burst]] will not be used every rotation, and where you can snapshot the [[stat:atk%]] buff onto [[character:ganyu]]'s [[ability:burst]].",
-                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes incluant certaines variantes de [[character:ganyu]] [[element:freeze]] qui ont des rotations plus courtes, ce qui signifie que l'[[ability:burst]] de [[character:diona]] ne sera pas utilisé à chaque rotation, et où vous pouvez snapshot le buff d'[[stat:atk%]] sur l'[[ability:burst]] de [[character:ganyu]]."
+                                "fr": "Ce set est une option niche pour [[character:diona]]. Il peut être considéré dans les équipes incluant certaines variantes de [[character:ganyu]] [[element:freeze]] qui ont des rotations plus courtes, ce qui signifie que l'[[ability:burst]] de [[character:diona]] ne sera pas utilisé à chaque rotation, et où vous pouvez snapshot le buff d'[[stat:atk%]] sur l'[[ability:burst]] de [[character:ganyu]].",
+                                "it": "Questo set è un'opzione di nicchia per [[character:diona]]. Può essere preso in considerazione in team che hanno rotazioni più brevi (es. alcune varianti di [[character:ganyu]] [[element:freeze]]), in cui il [[ability:burst]] di [[character:diona]] non verrà utilizzato in ogni rotazione, e dove è possibile 'snapshottare' il potenziamento all'[[stat:atk%]] sul [[ability:burst]] di [[character:ganyu]]."
                             }
                         }
                     ]
