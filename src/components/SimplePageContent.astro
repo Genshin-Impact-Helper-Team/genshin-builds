@@ -1,0 +1,107 @@
+---
+import { marked } from 'marked';
+import changelog from '../content/site/changelog.json';
+import credits from '../content/site/credits.json';
+import faq from '../content/site/faq.json';
+import { t } from '../utils/i18n';
+
+type PageKind = 'changelog' | 'credits' | 'faq';
+
+const {
+  kind,
+  lang = 'en',
+  locale,
+} = Astro.props as {
+  kind: PageKind;
+  lang?: string;
+  locale?: any;
+};
+
+const translators = credits.translators[lang] ?? [];
+const localized = (value: Record<string, string>) => value[lang] ?? value.en;
+const renderText = (value: string) =>
+  marked.parse(value, { breaks: true }) as string;
+---
+
+{
+  kind === 'faq' && (
+    <>
+      <section class="card faq-card">
+        <div set:html={renderText(localized(faq.intro))} />
+      </section>
+
+      <section class="faq-list">
+        {faq.items.map((item) => (
+          <details class="card faq-item">
+            <summary>{localized(item.question)}</summary>
+            <div set:html={renderText(localized(item.answer))} />
+          </details>
+        ))}
+      </section>
+    </>
+  )
+}
+
+{
+  kind === 'changelog' && (
+    <section class="changelog-list" aria-label="Document changelog">
+      {changelog.groups.map((group, index) => (
+        <section
+          class="changelog-version"
+          aria-labelledby={`changelog-version-${index}`}
+        >
+          <h2 id={`changelog-version-${index}`}>{group.version}</h2>
+          <div class="changelog-version-entries">
+            {group.entries.map((entry) => (
+              <article class="card changelog-card">
+                <time>{entry.date}</time>
+                <p>{entry.changes}</p>
+                {entry.appliedBy && (
+                  <p class="changelog-author">Applied by {entry.appliedBy}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </section>
+  )
+}
+
+{
+  kind === 'credits' && locale && (
+    <>
+      <section class="card credits-card">
+        <p>
+          {t(locale, 'ui', 'Credits feedback')}
+          <a href={credits.surveyUrl} target="_blank">
+            {t(locale, 'ui', 'GI Helper Team survey')}
+          </a>
+          .
+        </p>
+      </section>
+
+      {translators.length > 0 && (
+        <section class="card credits-card">
+          <h2>{t(locale, 'ui', 'Translator')}</h2>
+          <ul class="credits-list">
+            {translators.map((name) => (
+              <li>{name}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {credits.sections.map((section) => (
+        <section class="card credits-card">
+          <h2>{t(locale, 'ui', section.title)}</h2>
+          <ul class="credits-list">
+            {section.names.map((name) => (
+              <li>{name}</li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </>
+  )
+}

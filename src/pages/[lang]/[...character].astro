@@ -1,6 +1,5 @@
 ---
 import Weapon from '../../components/Weapon.astro';
-import BuildCard from '../../components/BuildCard.astro';
 import Artifact from '../../components/Artifact.astro';
 import Talent from '../../components/Talent.astro';
 import Notes from '../../components/Notes.astro';
@@ -35,26 +34,36 @@ const {
 >
   {
     builds.map((build) => (
-      <BuildCard
-        title={build.name}
-        id={build.slug}
-        badge={build.isBest ? t(locale, 'ui', 'Best Role') : null}
-      >
-        <div class="grid">
-          <Weapon weapons={build.weapons} locale={locale} lang={currentLang} />
-          <Artifact
-            artifacts={build.artifacts}
+      <div class="build-card" data-id={build.slug}>
+        <button class="build-header">
+          <span class="arrow">&rsaquo;</span>
+          <span class="build-title">{build.name}</span>
+          {build.isBest && (
+            <span class="build-badge">{t(locale, 'ui', 'Best Role')}</span>
+          )}
+        </button>
+
+        <div class="build-content">
+          <div class="grid">
+            <Weapon
+              weapons={build.weapons}
+              locale={locale}
+              lang={currentLang}
+            />
+            <Artifact
+              artifacts={build.artifacts}
+              locale={locale}
+              lang={currentLang}
+            />
+            <Talent talents={build.talents} locale={locale} />
+          </div>
+          <Notes
+            notes={build.notes}
+            buildNote={build.buildNote}
             locale={locale}
-            lang={currentLang}
           />
-          <Talent talents={build.talents} locale={locale} />
         </div>
-        <Notes
-          notes={build.notes}
-          buildNote={build.buildNote}
-          locale={locale}
-        />
-      </BuildCard>
+      </div>
     ))
   }
 </CharacterPageLayout>

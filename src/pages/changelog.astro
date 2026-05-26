@@ -1,6 +1,6 @@
 ---
 import SimplePageLayout from '../layouts/SimplePageLayout.astro';
-import ChangelogContent from '../components/ChangelogContent.astro';
+import SimplePageContent from '../components/SimplePageContent.astro';
 import { getLocale } from '../utils/i18n';
 
 const lang = 'en';
@@ -13,5 +13,5 @@ const locale = getLocale(lang);
   locale={locale}
   page="changelog"
 >
-  <ChangelogContent />
+  <SimplePageContent kind="changelog" />
 </SimplePageLayout>
