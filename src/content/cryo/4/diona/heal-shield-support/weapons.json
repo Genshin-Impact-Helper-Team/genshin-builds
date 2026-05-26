@@ -2,7 +2,7 @@
     "weapons": [
         {
             "items": [
-                    "favonius-warbow"
+                "favonius-warbow"
             ]
         },
         {
@@ -11,6 +11,7 @@
                     "name": "sacrificial-bow",
                     "note": {
                         "en": "Preferred over **[[weapon:favonius-warbow]]** at higher refinements **(R3+)** when batterying another [[element:cryo]] character.",
+                        "fr": "Meilleur que **[[weapon:favonius-warbow]]** une fois **[R3] ou plus+** dans les équipes où Diona sert de batterie pour un autre personnage [[element:cryo]].",
                         "it": "A miglioramenti più alti **(R3+)** è preferibile all'**[[weapon:favonius-warbow]]** in team dove Diona genera particelle di Energia un altro personaggio [[element:cryo]]."
                     }
                 }
@@ -27,6 +28,7 @@
                     "name": "silvershower-heartstrings",
                     "note": {
                         "en": "One of the best choice for stronger shields, however the [[stat:er]] and useful passives of other weapons will generally make it a suboptimal pick.",
+                        "fr": "L'une des meilleures options pour un bouclier plus puissant, mais la [[stat:er]] et les passifs utiles des autres arme feront généralement de cette arme une moins bonne option.",
                         "it": "Una delle migliori scelte per scudi più resistenti, tuttavia la [[stat:er]] e le utili abilità passive di altre armi lo rendono generalmente una scelta non ottimale."
                     }
                 }
@@ -38,6 +40,7 @@
                     "name": "recurve-bow",
                     "note": {
                         "en": "One of the best choice for stronger shields, however the [[stat:er]] and useful passives of other weapons will generally make it a suboptimal pick.",
+                        "fr": "L'une des meilleures options pour un bouclier plus puissant, mais la [[stat:er]] et les passifs utiles des autres arme feront généralement de cette arme une moins bonne option.",
                         "it": "Una delle migliori scelte per scudi più resistenti, tuttavia la [[stat:er]] e le utili abilità passive di altre armi lo rendono generalmente una scelta non ottimale."
                     }
                 },
@@ -46,6 +49,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "One of the best choice for stronger shields, however the [[stat:er]] and useful passives of other weapons will generally make it a suboptimal pick.",
+                        "fr": "L'une des meilleures options pour un bouclier plus puissant, mais la [[stat:er]] et les passifs utiles des autres arme feront généralement de cette arme une moins bonne option.",
                         "it": "Una delle migliori scelte per scudi più resistenti, tuttavia la [[stat:er]] e le utili abilità passive di altre armi lo rendono generalmente una scelta non ottimale."
                     }
                 }
