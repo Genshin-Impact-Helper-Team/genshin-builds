@@ -6,6 +6,35 @@ import faq from '../content/site/faq.json';
 import { t } from '../utils/i18n';
 
 type PageKind = 'changelog' | 'credits' | 'faq';
+type LocalizedText = {
+  en: string;
+  [lang: string]: string;
+};
+type FaqData = {
+  intro: LocalizedText;
+  items: {
+    question: LocalizedText;
+    answer: LocalizedText;
+  }[];
+};
+type ChangelogData = {
+  groups: {
+    version: string;
+    entries: {
+      date: string;
+      changes: string;
+      appliedBy?: string;
+    }[];
+  }[];
+};
+type CreditsData = {
+  surveyUrl: string;
+  translators: Record<string, string[]>;
+  sections: {
+    title: string;
+    names: string[];
+  }[];
+};
 
 const {
   kind,
@@ -17,8 +46,12 @@ const {
   locale?: any;
 };
 
-const translators = credits.translators[lang] ?? [];
-const localized = (value: Record<string, string>) => value[lang] ?? value.en;
+const faqData = faq as FaqData;
+const changelogData = changelog as ChangelogData;
+const creditsData = credits as CreditsData;
+
+const translators = creditsData.translators[lang] ?? [];
+const localized = (value: LocalizedText) => value[lang] ?? value.en;
 const renderText = (value: string) =>
   marked.parse(value, { breaks: true }) as string;
 ---
@@ -27,11 +60,11 @@ const renderText = (value: string) =>
   kind === 'faq' && (
     <>
       <section class="card faq-card">
-        <div set:html={renderText(localized(faq.intro))} />
+        <div set:html={renderText(localized(faqData.intro))} />
       </section>
 
       <section class="faq-list">
-        {faq.items.map((item) => (
+        {faqData.items.map((item) => (
           <details class="card faq-item">
             <summary>{localized(item.question)}</summary>
             <div set:html={renderText(localized(item.answer))} />
@@ -45,7 +78,7 @@ const renderText = (value: string) =>
 {
   kind === 'changelog' && (
     <section class="changelog-list" aria-label="Document changelog">
-      {changelog.groups.map((group, index) => (
+      {changelogData.groups.map((group, index) => (
         <section
           class="changelog-version"
           aria-labelledby={`changelog-version-${index}`}
@@ -74,7 +107,7 @@ const renderText = (value: string) =>
       <section class="card credits-card">
         <p>
           {t(locale, 'ui', 'Credits feedback')}
-          <a href={credits.surveyUrl} target="_blank">
+          <a href={creditsData.surveyUrl} target="_blank">
             {t(locale, 'ui', 'GI Helper Team survey')}
           </a>
           .
@@ -92,7 +125,7 @@ const renderText = (value: string) =>
         </section>
       )}
 
-      {credits.sections.map((section) => (
+      {creditsData.sections.map((section) => (
         <section class="card credits-card">
           <h2>{t(locale, 'ui', section.title)}</h2>
           <ul class="credits-list">

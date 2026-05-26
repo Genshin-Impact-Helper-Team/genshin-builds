@@ -201,5 +201,9 @@ export function t(
     );
   }
 
-  return locales.en[category as keyof LocaleBundle]?.[id] ?? id;
+  const fallbackCategory = locales.en[
+    category as keyof LocaleBundle
+  ] as LocaleCategory | undefined;
+
+  return fallbackCategory?.[id] ?? id;
 }

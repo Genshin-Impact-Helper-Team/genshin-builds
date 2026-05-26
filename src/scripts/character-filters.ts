@@ -52,3 +52,5 @@ function applyFilters() {
 // One handler covers selects and the text search input.
 filters?.addEventListener('change', applyFilters);
 filters?.addEventListener('input', applyFilters);
+
+export {};

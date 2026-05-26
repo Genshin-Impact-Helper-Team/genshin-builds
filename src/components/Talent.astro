@@ -1,6 +1,5 @@
 ---
 import { t } from '../utils/i18n';
-const { talents, locale } = Astro.props;
 
 type TalentItem = {
   name: string;
@@ -11,6 +10,15 @@ type TalentItem = {
 type TalentPriority = {
   items: TalentItem[];
   approx?: boolean;
+};
+
+type TalentRecommendations = {
+  talents: TalentPriority[];
+};
+
+const { talents, locale } = Astro.props as {
+  talents: TalentRecommendations;
+  locale: any;
 };
 
 const hasNoteMarker = (item: TalentItem) => item.noteId || item.note;

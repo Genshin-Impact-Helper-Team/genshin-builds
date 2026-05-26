@@ -45,3 +45,5 @@ const initial = new URLSearchParams(window.location.search).get('build');
 if (initial) {
   openCard(initial);
 }
+
+export {};

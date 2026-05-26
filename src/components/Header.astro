@@ -5,7 +5,14 @@ import { languages } from '../utils/languages';
 import { localizedPath } from '../utils/paths';
 import { getSideMenuData } from '../utils/side-menu';
 
-const { locale, lang, character, page } = Astro.props;
+type Props = {
+  locale: any;
+  lang?: string;
+  character?: string;
+  page?: string;
+};
+
+const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
 const menuElements = getSideMenuData(locale);
@@ -46,9 +53,12 @@ const menuElements = getSideMenuData(locale);
         data-page={page}
       >
         {
-          languages.map((lang) => (
-            <option value={lang.code} selected={lang.code === currentLang}>
-              {lang.name}
+          languages.map((language) => (
+            <option
+              value={language.code}
+              selected={language.code === currentLang}
+            >
+              {language.name}
             </option>
           ))
         }

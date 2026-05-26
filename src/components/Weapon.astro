@@ -5,9 +5,9 @@ import type {
   WeaponPassiveText,
   WeaponPassiveValue,
 } from '../utils/weapon-passive';
-const { weapons, locale, lang = 'en' } = Astro.props;
 
 type WeaponItem = {
+  id?: string;
   name: string;
   rarity: number;
   info?: {
@@ -23,10 +23,10 @@ type WeaponItem = {
       base_attack?: number;
       substat_value?: string;
     };
-  };
-  level_max?: {
-    base_attack?: number;
-    substat_value?: string;
+    level_max?: {
+      base_attack?: number;
+      substat_value?: string;
+    };
   };
   refinement?: number | string;
   note?: string;
@@ -35,6 +35,21 @@ type WeaponItem = {
 
 type WeaponRank = {
   items: WeaponItem[];
+};
+
+type WeaponRecommendations = {
+  weapons: WeaponRank[];
+  conditional?: WeaponItem[];
+};
+
+const {
+  weapons,
+  locale,
+  lang = 'en',
+} = Astro.props as {
+  weapons: WeaponRecommendations;
+  locale: any;
+  lang?: string;
 };
 
 /**
@@ -47,6 +62,7 @@ const formatRefinement = (refinement?: number | string) =>
   refinement ? ` [R${refinement}]` : '';
 
 const hasNoteMarker = (item: WeaponItem) => item.noteId || item.note;
+const conditionalWeapons = weapons.conditional ?? [];
 const rankedWeaponGroups = weapons.weapons.map(
   (position: WeaponRank, index: number) => ({
     rank: index + 1,
@@ -102,11 +118,11 @@ const rankedWeaponGroups = weapons.weapons.map(
 
   {/* Optional unranked recommendations that depend on build notes. */}
   {
-    weapons.conditional?.length > 0 && (
+    conditionalWeapons.length > 0 && (
       <div style="margin-top: 14px;">
         <div class="bold">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
 
-        {weapons.conditional.map((weapon: WeaponItem) => (
+        {conditionalWeapons.map((weapon: WeaponItem) => (
           <div>
             <span class="inline-info-label">
               <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />

@@ -1,7 +1,6 @@
 ---
 import ArtifactSetGroup from './ArtifactSetGroup.astro';
 import { t } from '../utils/i18n';
-const { artifacts, locale, lang = 'en' } = Astro.props;
 
 type ArtifactSetItem = {
   name: string;
@@ -10,14 +9,14 @@ type ArtifactSetItem = {
   noteId?: string;
 };
 
-type ArtifactSetGroup = {
+type ArtifactSetGroupData = {
   items?: ArtifactSetItem[];
   choose?: boolean;
   choices?: { items: ArtifactSetItem[] }[];
 };
 
 type ArtifactSetRank = {
-  groups: ArtifactSetGroup[];
+  groups: ArtifactSetGroupData[];
 };
 
 type StatItem = {
@@ -28,7 +27,35 @@ type StatItem = {
 
 type SubstatPriority = StatItem | { items: StatItem[] };
 
+type ArtifactRecommendations = {
+  sets: {
+    artifact_sets?: ArtifactSetRank[];
+    conditional?: ArtifactSetGroupData[];
+  };
+  mainstats: {
+    main_stats: {
+      sands: StatItem[];
+      goblet: StatItem[];
+      circlet: StatItem[];
+    };
+  };
+  substats: {
+    substats_priority: SubstatPriority[];
+  };
+};
+
+const {
+  artifacts,
+  locale,
+  lang = 'en',
+} = Astro.props as {
+  artifacts: ArtifactRecommendations;
+  locale: any;
+  lang?: string;
+};
+
 const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
+const conditionalArtifactGroups = artifacts.sets.conditional ?? [];
 const hasNoteMarker = (item: { note?: string; noteId?: string }) =>
   item.noteId || item.note;
 
@@ -86,11 +113,11 @@ const substatRows = artifacts.substats.substats_priority.map(
     }
 
     {
-      artifacts.sets.conditional?.length > 0 && (
+      conditionalArtifactGroups.length > 0 && (
         <div style={artifactSetRanks.length > 0 ? 'margin-top: 14px;' : ''}>
           <div class="bold">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
 
-          {artifacts.sets.conditional.map((group: ArtifactSetGroup) => (
+          {conditionalArtifactGroups.map((group: ArtifactSetGroupData) => (
             <div>
               <ArtifactSetGroup group={group} locale={locale} lang={lang} />
             </div>

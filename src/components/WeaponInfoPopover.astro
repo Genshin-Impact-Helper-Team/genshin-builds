@@ -18,10 +18,10 @@ type WeaponInfo = {
   level_1?: {
     base_attack?: number;
     substat_value?: string;
-    level_max?: {
-      base_attack?: number;
-      substat_value?: string;
-    };
+  };
+  level_max?: {
+    base_attack?: number;
+    substat_value?: string;
   };
 };
 
@@ -35,7 +35,7 @@ type Props = {
   };
 };
 
-const { locale, weapon, lang = 'en' } = Astro.props;
+const { locale, weapon, lang = 'en' } = Astro.props as Props;
 const info = weapon.info;
 const refinements = [1, 2, 3, 4, 5] as const;
 

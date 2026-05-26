@@ -17,6 +17,26 @@ const elementOrder = [
 ];
 const rarityOrder = ['5', '4'];
 
+type SideMenuCharacter = {
+  name: string;
+  slug: string;
+};
+
+type SideMenuRarity = {
+  rarity: string;
+  label: string;
+  characters: SideMenuCharacter[];
+};
+
+type SideMenuElement = {
+  element: string;
+  name: string;
+  rarities: SideMenuRarity[];
+};
+
+const isPresent = <T>(value: T | null | undefined): value is T =>
+  value !== null && value !== undefined;
+
 /**
  * Builds the header side-menu data from the content folder tree.
  *
@@ -26,7 +46,7 @@ const rarityOrder = ['5', '4'];
  * @param locale Current locale bundle used to translate labels.
  * @returns Element groups with nested rarity and character links.
  */
-export function getSideMenuData(locale: any) {
+export function getSideMenuData(locale: any): SideMenuElement[] {
   const contentPath = path.join(process.cwd(), 'src', 'content');
 
   // Preserve the game's usual element/rarity ordering instead of filesystem order.
@@ -72,7 +92,8 @@ export function getSideMenuData(locale: any) {
             characters,
           };
         })
-        .filter((rarity) => rarity && rarity.characters.length > 0);
+        .filter(isPresent)
+        .filter((rarity) => rarity.characters.length > 0);
 
       return {
         element,
@@ -80,5 +101,6 @@ export function getSideMenuData(locale: any) {
         rarities,
       };
     })
-    .filter((element) => element && element.rarities.length > 0);
+    .filter(isPresent)
+    .filter((element) => element.rarities.length > 0);
 }

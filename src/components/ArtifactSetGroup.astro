@@ -95,7 +95,7 @@ const rows: ArtifactSetRow[] = group.choose
             )}
           </>
         ))}
-        {row.chooseOne && row.items?.length > 0 && (
+        {row.chooseOne && (row.items?.length ?? 0) > 0 && (
           <>
             {' '}
             <span class="bold">{t(locale, 'ui', 'Choose One')}</span>
