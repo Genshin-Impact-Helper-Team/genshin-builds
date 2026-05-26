@@ -58,7 +58,7 @@ const rows: ArtifactSetRow[] = group.choose
     ? group.choices.map((choice, index) => ({
         items: choice.items,
         alt: index > 0,
-        prefix: index > 0 ? '+ ' : '',
+        prefix: index > 0 ? '& ' : '',
         chooseOne: true,
       }))
     : [{ items: groupItems }];
