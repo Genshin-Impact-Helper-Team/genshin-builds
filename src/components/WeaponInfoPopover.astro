@@ -39,10 +39,10 @@ const { locale, weapon, lang = 'en' } = Astro.props;
 const info = weapon.info;
 const refinements = [1, 2, 3, 4, 5] as const;
 
-const passivePartsByRefinement = info
+const passivePanels = info
   ? refinements.map((refinement) => ({
       refinement,
-      parts: formatWeaponPassive(info, refinement, lang).split(/<br\s*\/?>/i),
+      html: formatWeaponPassive(info, refinement, lang),
     }))
   : [];
 
@@ -120,12 +120,12 @@ const substatValue = formatWeaponStatValue(
         </span>
 
         <span class="weapon-popover-passive">
-          {passivePartsByRefinement.map(({ refinement, parts }) => (
+          {passivePanels.map(({ refinement, html }) => (
             <span
               class="weapon-popover-passive-refinement"
               data-refinement-panel={`r${refinement}`}
               hidden={refinement !== 1}
-              set:html={formatWeaponPassive(info, refinement, lang)}
+              set:html={html}
             />
           ))}
         </span>

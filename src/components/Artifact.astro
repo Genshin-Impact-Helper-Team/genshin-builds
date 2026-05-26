@@ -28,16 +28,23 @@ type StatItem = {
 
 type SubstatPriority = StatItem | { items: StatItem[] };
 
-/**
- * Checks whether a substat priority row contains same-rank alternatives.
- *
- * @param item Substat priority entry.
- * @returns True when the entry wraps an `items` array.
- */
-const isSubstatGroup = (item: SubstatPriority): item is { items: StatItem[] } =>
-  'items' in item;
-
 const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
+const hasNoteMarker = (item: { note?: string; noteId?: string }) =>
+  item.noteId || item.note;
+
+const mainStatSlots = [
+  { label: 'Sands', items: artifacts.mainstats.main_stats.sands },
+  { label: 'Goblet', items: artifacts.mainstats.main_stats.goblet },
+  { label: 'Circlet', items: artifacts.mainstats.main_stats.circlet },
+];
+
+const substatRows = artifacts.substats.substats_priority.map(
+  (priority: SubstatPriority, index: number) => ({
+    rank: index + 1,
+    items: 'items' in priority ? priority.items : [priority],
+    hasAlternatives: 'items' in priority,
+  }),
+);
 ---
 
 <div class="card">
@@ -97,11 +104,11 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
   <div class="section">
     <h3>{t(locale, 'ui', 'Main Stats')}</h3>
 
-    <div>
-      <strong class="accent-text">{t(locale, 'ui', 'Sands')}:</strong>{' '}
-      {
-        artifacts.mainstats.main_stats.sands.map(
-          (stat: StatItem, statIndex: number) => (
+    {
+      mainStatSlots.map((slot) => (
+        <div>
+          <strong class="accent-text">{t(locale, 'ui', slot.label)}:</strong>{' '}
+          {slot.items.map((stat: StatItem, statIndex: number) => (
             <>
               {statIndex > 0 && ' / '}
               {stat.name}
@@ -109,62 +116,16 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
                 <a class="note-link" href={`#${stat.noteId}`}>
                   *
                 </a>
-              ) : stat.note ? (
+              ) : hasNoteMarker(stat) ? (
                 '*'
               ) : (
                 ''
               )}
             </>
-          ),
-        )
-      }
-    </div>
-
-    <div>
-      <strong class="accent-text">{t(locale, 'ui', 'Goblet')}:</strong>{' '}
-      {
-        artifacts.mainstats.main_stats.goblet.map(
-          (stat: StatItem, statIndex: number) => (
-            <>
-              {statIndex > 0 && ' / '}
-              {stat.name}
-              {stat.noteId ? (
-                <a class="note-link" href={`#${stat.noteId}`}>
-                  *
-                </a>
-              ) : stat.note ? (
-                '*'
-              ) : (
-                ''
-              )}
-            </>
-          ),
-        )
-      }
-    </div>
-
-    <div>
-      <strong class="accent-text">{t(locale, 'ui', 'Circlet')}:</strong>{' '}
-      {
-        artifacts.mainstats.main_stats.circlet.map(
-          (stat: StatItem, statIndex: number) => (
-            <>
-              {statIndex > 0 && ' / '}
-              {stat.name}
-              {stat.noteId ? (
-                <a class="note-link" href={`#${stat.noteId}`}>
-                  *
-                </a>
-              ) : stat.note ? (
-                '*'
-              ) : (
-                ''
-              )}
-            </>
-          ),
-        )
-      }
-    </div>
+          ))}
+        </div>
+      ))
+    }
   </div>
 
   {/* SUBSTATS */}
@@ -172,57 +133,43 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
     <h3>{t(locale, 'ui', 'Substats')}</h3>
 
     {
-      artifacts.substats.substats_priority.map(
-        (stat: SubstatPriority, i: number) =>
-          isSubstatGroup(stat) ? (
-            <div>
-              <div>
-                <strong class="accent-text">{i + 1}.</strong>{' '}
-                {stat.items[0] && (
-                  <>
-                    {stat.items[0].name}
-                    {stat.items[0].noteId ? (
-                      <a class="note-link" href={`#${stat.items[0].noteId}`}>
-                        *
-                      </a>
-                    ) : stat.items[0].note ? (
-                      '*'
-                    ) : (
-                      ''
-                    )}
-                  </>
+      substatRows.map((row) => (
+        <div>
+          <div>
+            <strong class="accent-text">{row.rank}.</strong>{' '}
+            {row.items[0] && (
+              <>
+                {row.items[0].name}
+                {row.items[0].noteId ? (
+                  <a class="note-link" href={`#${row.items[0].noteId}`}>
+                    *
+                  </a>
+                ) : hasNoteMarker(row.items[0]) ? (
+                  '*'
+                ) : (
+                  ''
+                )}
+              </>
+            )}
+          </div>
+
+          {row.hasAlternatives &&
+            row.items.slice(1).map((item) => (
+              <div class="alt">
+                &asymp; {item.name}
+                {item.noteId ? (
+                  <a class="note-link" href={`#${item.noteId}`}>
+                    *
+                  </a>
+                ) : hasNoteMarker(item) ? (
+                  '*'
+                ) : (
+                  ''
                 )}
               </div>
-              {stat.items.slice(1).map((item) => (
-                <div class="alt">
-                  &asymp; {item.name}
-                  {item.noteId ? (
-                    <a class="note-link" href={`#${item.noteId}`}>
-                      *
-                    </a>
-                  ) : item.note ? (
-                    '*'
-                  ) : (
-                    ''
-                  )}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div>
-              <strong class="accent-text">{i + 1}.</strong> {stat.name}
-              {stat.noteId ? (
-                <a class="note-link" href={`#${stat.noteId}`}>
-                  *
-                </a>
-              ) : stat.note ? (
-                '*'
-              ) : (
-                ''
-              )}
-            </div>
-          ),
-      )
+            ))}
+        </div>
+      ))
     }
   </div>
 </div>

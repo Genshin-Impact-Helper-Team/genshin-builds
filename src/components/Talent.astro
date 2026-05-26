@@ -12,52 +12,58 @@ type TalentPriority = {
   items: TalentItem[];
   approx?: boolean;
 };
+
+const hasNoteMarker = (item: TalentItem) => item.noteId || item.note;
+const talentRows = talents.talents.map(
+  (talent: TalentPriority, index: number) => ({
+    rank: index + 1,
+    mainItems: talent.approx ? talent.items.slice(0, 1) : talent.items,
+    alternativeItems: talent.approx ? talent.items.slice(1) : [],
+  }),
+);
 ---
 
 <div class="card">
   <h2>{t(locale, 'ui', 'Talents')}</h2>
 
   {
-    talents.talents.map((talent: TalentPriority, i: number) => (
+    talentRows.map((talent) => (
       <div style="margin-bottom: 10px;">
         <div>
-          <strong class="accent-text">{i + 1}.</strong>{' '}
+          <strong class="accent-text">{talent.rank}.</strong>{' '}
           <span>
-            {(talent.approx ? talent.items.slice(0, 1) : talent.items).map(
-              (item, itemIndex) => (
-                <>
-                  {itemIndex > 0 && ' = '}
-                  {item.name}
-                  {item.noteId ? (
-                    <a class="note-link" href={`#${item.noteId}`}>
-                      *
-                    </a>
-                  ) : item.note ? (
-                    '*'
-                  ) : (
-                    ''
-                  )}
-                </>
-              ),
-            )}
+            {talent.mainItems.map((item, itemIndex) => (
+              <>
+                {itemIndex > 0 && ' = '}
+                {item.name}
+                {item.noteId ? (
+                  <a class="note-link" href={`#${item.noteId}`}>
+                    *
+                  </a>
+                ) : hasNoteMarker(item) ? (
+                  '*'
+                ) : (
+                  ''
+                )}
+              </>
+            ))}
           </span>
         </div>
 
-        {talent.approx &&
-          talent.items.slice(1).map((item) => (
-            <div class="alt">
-              &asymp; {item.name}
-              {item.noteId ? (
-                <a class="note-link" href={`#${item.noteId}`}>
-                  *
-                </a>
-              ) : item.note ? (
-                '*'
-              ) : (
-                ''
-              )}
-            </div>
-          ))}
+        {talent.alternativeItems.map((item) => (
+          <div class="alt">
+            &asymp; {item.name}
+            {item.noteId ? (
+              <a class="note-link" href={`#${item.noteId}`}>
+                *
+              </a>
+            ) : hasNoteMarker(item) ? (
+              '*'
+            ) : (
+              ''
+            )}
+          </div>
+        ))}
       </div>
     ))
   }
