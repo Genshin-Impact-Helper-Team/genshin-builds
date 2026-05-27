@@ -1,0 +1,42 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "prototype-amber",
+                {
+                    "name": "favonius-codex",
+                    "note": {
+                        "en": "Try to build some [[stat:cr]] in substats if using this weapon.",
+                        "fr": "Essayez d'avoir du [[stat:cr]] en sous-stats si vous utilisez cette arme."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers",
+                    "note": {
+                        "en": "Due to [[character:charlotte]]'s high [[stat:er]] needs, this weapon may not be suitable to run in some teams.",
+                        "fr": "En raison des besoins élevés de [[character:charlotte]] en [[stat:er]], cette arme peut ne pas convenir dans certaines équipes."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "oathsworn-eye",
+                    "refinement": 5
+                },
+                {
+                    "name": "wine-and-song",
+                    "note": {
+                        "en": "It is very important to sprint before casting [[character:charlotte]]'s [[ability:burst]] so that she gains the extra [[stat:atk%]] for her [[ability:burst]].",
+                        "fr": "Il est très important de sprinter avant de lancer l'[[ability:burst]] de [[character:charlotte]] afin qu'elle obtienne l'[[stat:atk%]] supplémentaire pour son [[ability:burst]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

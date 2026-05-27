@@ -1,0 +1,22 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "atk%"
+        ],
+        "goblet": [
+            "atk%"
+        ],
+        "circlet": [
+            "healing-bonus",
+            "atk%",
+            {
+                "name": "cr",
+                "note": {
+                    "en": "Only an option worth considering if [[character:charlotte]] is using **[[weapon:favonius-codex]]**",
+                    "fr": "Une option à envisager que si [[character:charlotte]] utilise **[[weapon:favonius-codex]]**."
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Should be prioritized until requirements are met.",
+                "fr": "Doit être priorisée jusqu'à atteindre les besoins requis."
+            }
+        },
+        "atk%",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only more useful than [[stat:cd]] when using **[[weapon:favonius-codex]]**.",
+                "fr": "Seulement plus utile que les [[stat:cd]] avec **[[weapon:favonius-codex]]**."
+            }
+        },
+        "atk",
+        "cd"
+    ]
+}
