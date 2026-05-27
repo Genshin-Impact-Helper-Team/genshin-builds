@@ -1,0 +1,60 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[stat:cr]] secondary stat weapon only",
+                                "fr": "Uniquement avec une arme ayant une stat secondaire de [[stat:cr]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is only used in her quickswap/support roles not her perma-[[element:freeze]] dps role. Also it should only be considered when you have no decent **[[set:blizzard-strayer]] (4)** pieces and no one else on the team is holding **[[set:noblesse-oblige]] (4)**.",
+                                "fr": "Ce set est uniquement utilisé dans ses rôles quickswap/support, pas dans son rôle DPS perma-[[element:freeze]]. Il ne devrait aussi être envisagé que si vous n'avez pas de bonnes pièces **[[set:blizzard-strayer]] (4)** et que personne d'autre dans l'équipe ne porte **[[set:noblesse-oblige]] (4)**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "cryo-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "In teams where her [[stat:er]] requirements are higher (130%+) it can surpass **[[set:gilded-dreams]] (4)**.",
+                                "fr": "Dans les équipes où ses besoins en [[stat:er]] sont plus élevés (130%+), ce set peut surpasser **[[set:gilded-dreams]] (4)**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "cryo-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

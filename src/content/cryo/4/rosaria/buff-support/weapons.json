@@ -1,0 +1,50 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "The best option in situations where you havent met your teams [[stat:er]] requirements. Outside of that scenario you would be better off using a [[stat:cr]] weapon that benefits her A4 buff.",
+                        "fr": "La meilleure option dans les situations où vous n'avez pas atteint les besoins en [[stat:er]] de votre équipe. En dehors de ce scénario, vous préférerez une arme avec [[stat:cr]] qui bénéficie à son buff A4."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "staff-of-the-scarlet-sands"
+            ]
+        },
+        {
+            "items": [
+                "lumidouce-elegy"
+            ]
+        },
+        {
+            "items": [
+                "deathmatch"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-winged-spear"
+            ]
+        },
+        {
+            "items": [
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                "skyward-spine"
+            ]
+        },
+        {
+            "items": [
+                "the-catch"
+            ]
+        }
+    ]
+}

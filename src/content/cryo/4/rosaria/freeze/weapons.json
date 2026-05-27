@@ -1,0 +1,76 @@
+{
+    "notes": [
+        {
+            "en": "120% [[stat:er]] requirement, some weapons requires 0 rolls into [[stat:cr]]",
+            "fr": "Le classement suppose un besoin de 120% de [[stat:er]] ; certaines armes demandent 0 roll en [[stat:cr]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "calamity-queller",
+                    "note": {
+                        "en": "Assumed max stacks, passive not doubled",
+                        "fr": "Suppose les stacks maximums, sans doublement du passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "staff-of-homa"
+            ]
+        },
+        {
+            "items": [
+                "crimson-moons-semblance",
+                {
+                    "name": "vortex-vanquisher",
+                    "note": {
+                        "en": "Assumed 2 stacks, unshielded.",
+                        "fr": "Suppose 2 stacks, sans bouclier."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "primordial-jade-winged-spear",
+                    "note": {
+                        "en": "Assumed 2 stacks.",
+                        "fr": "Suppose 2 stacks."
+                    }
+                },
+                "lumidouce-elegy",
+                {
+                    "name": "wavebreakers-fin",
+                    "note": {
+                        "en": "At high refinement [R4-R5] with a 270 energy cost team, this weapon perform just below **[[weapon:staff-of-homa]]**.",
+                        "fr": "À haut raffinement **[R4-R5]** avec une équipe à 270 de coût d'énergie total, cette arme se place juste en dessous de **[[weapon:staff-of-homa]]**."
+                    }
+                },
+                "skyward-spine",
+                {
+                    "name": "tamayuratei-no-ohanashi",
+                    "refinement": 5
+                },
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-catch",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "favonius-lance"
+            ]
+        }
+    ]
+}

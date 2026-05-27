@@ -1,0 +1,27 @@
+{
+    "name": {
+        "en": "Reverse [[element:melt]]",
+        "fr": "[[element:melt]] inversée"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "This build capitalizes on the fact **[[character:rosaria]]'s [[ability:skill]] and [[ability:burst]] don't have an ICD**, allowing her to [[element:melt]] all [[ability:skill]] and [[ability:burst]] procs. Which in combination with **snapshotting buffs onto her [[ability:burst]] makes it one of her highest personal damage builds**.",
+            "fr": "Ce build capitalise sur le fait que **le [[ability:skill]] et l'[[ability:burst]] de [[character:rosaria]] n'ont pas d'ICD**, ce qui lui permet de déclencher [[element:melt]] sur toutes les occurrences de [[ability:skill]] et d'[[ability:burst]]. Combiné au **snapshot des buffs sur son [[ability:burst]], cela en fait l'un de ses builds avec les plus hauts dégâts personnels**."
+        },
+        {
+            "en": "Be sure to cast [[ability:skill]] before [[ability:burst]] as [[stat:cr]] granted by the Ascension 1 Talent will be included with Ascension 4 Talent Bonus as well.",
+            "fr": "Assurez-vous de lancer le [[ability:skill]] avant l'[[ability:burst]], puisque le bonus de [[stat:cr]] accordé par le talent d'élévation 1 sera également inclus dans le bonus du talent d'élévation 4."
+        },
+        {
+            "en": "[[character:rosaria]]'s [[ability:skill]] and [[ability:burst]] can be Reverse [[element:melt]]ed (1.5x) with another [[element:pyro]] applier for some quick and powerful damage.",
+            "fr": "[[character:rosaria]] peut déclencher une [[element:melt]] inversée (1,5x) avec son [[ability:skill]] et son [[ability:burst]] grâce à un autre applicateur [[element:pyro]], pour des dégâts rapides et puissants."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1c2MPzUAWSl0n782KqlOfjTxW_d-yYi1r1FVkJdll8yk/edit?gid=848665920#gid=848665920"
+        }
+    ]
+}

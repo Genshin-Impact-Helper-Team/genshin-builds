@@ -1,0 +1,19 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Until [[stat:er]] requirement is met",
+                "fr": "Jusqu'à atteindre le besoin en [[stat:er]]."
+            }
+        },
+        "cr",
+        "cd",
+        {
+            "items": [
+                "em",
+                "atk%"
+            ]
+        }
+    ]
+}

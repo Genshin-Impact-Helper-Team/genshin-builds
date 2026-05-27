@@ -1,0 +1,23 @@
+{
+    "name": {
+        "en": "[[element:freeze]]",
+        "fr": "[[element:freeze]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "If [[character:rosaria]] is being used with [[character:chongyun]] to infuse her [[ability:na]]s with [[element:cryo]], her [[ability:na]] talent will have higher priority than [[ability:skill]].",
+            "fr": "Si [[character:rosaria]] est utilisée avec [[character:chongyun]] pour infuser ses [[ability:na]]s en [[element:cryo]], son talent d'[[ability:na]] aura une priorité plus élevée que le [[ability:skill]]."
+        },
+        {
+            "en": "This build can be used on both a quickswap/sub-dps and perma-[[element:freeze]] dps [[character:rosaria]]. Generally played as a secondary DPS to an onfield [[element:freeze]] carry like [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]].",
+            "fr": "Ce build peut être utilisé à la fois pour une [[character:rosaria]] quickswap/sub-DPS et une DPS perma-[[element:freeze]]. Elle est généralement jouée comme DPS secondaire auprès d'un carry [[element:freeze]] on-field comme [[character:kamisato-ayaka]], [[character:ganyu]] ou [[character:wriothesley]]."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1H4J6eZk9SW8TqihgXRgHR1iebY2yIkv6iMl7Jdg5Xzc/edit?gid=848665920#gid=848665920"
+        }
+    ]
+}

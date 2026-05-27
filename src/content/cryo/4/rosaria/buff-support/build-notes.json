@@ -1,0 +1,17 @@
+{
+    "name": {
+        "en": "Buff Support",
+        "fr": "Support Buff"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:rosaria]] A4 passive provides a potent [[stat:cr]] buff to her teammates via her own [[stat:cr]] after casting [[ability:burst]]. This heavily incentivizes building enough [[stat:er]] to [[ability:burst]] consistently and getting as close to 100% [[stat:cr]] as possible",
+            "fr": "Le passif A4 de [[character:rosaria]] fournit un puissant buff de [[stat:cr]] à ses coéquipiers via son propre [[stat:cr]] après avoir lancé son [[ability:burst]]. Cela encourage fortement à build assez de [[stat:er]] pour utiliser son [[ability:burst]] constamment et à se rapprocher autant que possible de 100% de [[stat:cr]]."
+        },
+        {
+            "en": "This Build focuses on her Buffing/Energy generation/[[element:cryo]] application capabilities. Though it does not mean that you dont invest in her personal damage, only that it's a lower priority overall.",
+            "fr": "Ce build se concentre sur ses capacités de buff, de génération d'énergie et d'application [[element:cryo]]. Cela ne signifie pas que vous ne devez pas investir dans ses dégâts personnels, seulement que c'est une priorité globale plus basse."
+        }
+    ]
+}
