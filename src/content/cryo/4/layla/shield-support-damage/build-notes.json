@@ -10,10 +10,10 @@
             "fr": "Le bouclier de [[character:layla]] est très résistant grâce à une bonne absorption de DGT de base et au nombre de modificateurs de force de bouclier auxquels elle a accès. De plus, ses dégâts personnels augmentent bien avec les constellations (en particulier les [C5] et [C6]]). Ce build est une option à plus haut investissement qu'un build pur Support, choisissant de sacrifier un peu de résistance du bouclier en échange de meilleurs dégâts personnels."
         }
     ],
-    "weapons": [
+    "global": [
         {
             "author": "Voidrev",
-            "link": "."
+            "link": "https://docs.google.com/spreadsheets/d/1qN6JdY1rwt_PgluNsFP-Iss0YwiuY_OtmjSwYo6LGAU/edit?gid=848665920#gid=848665920"
         }
     ]
 }

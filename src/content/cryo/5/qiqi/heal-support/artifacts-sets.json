@@ -1,0 +1,81 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This option is recommended only when paired with **[[weapon:sacrificial-sword]]** to be able to maintain uptime on the [[stat:atk%]] buff from the set.",
+                                "fr": "Cette option n'est recommandée qu'avec **[[weapon:sacrificial-sword]]** afin de pouvoir maintenir l'uptime du buff de [[stat:atk%]] du set."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is a great option if [[character:qiqi]] is placed in a party with a character from Natlan. Do note that she may have a rough time triggering an elemental reaction if you are solely using her [[ability:skill]].",
+                                "fr": "Ce set est une très bonne option si [[character:qiqi]] est placée dans une équipe avec un personnage de Natlan. Notez qu'elle peut avoir du mal à déclencher une réaction élémentaire si vous utilisez uniquement son [[ability:skill]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "ocean-hued-clam",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This ranking assumes [[character:qiqi]] does not get her [[ability:burst]] up often and is instead relying mainly on her [[ability:skill]] for healing. If she is in a team which funds her enough energy particles, or if she acts as the on-field DPS, this set can overtake **[[set:tenacity-of-the-millelith]] (4)**.",
+                                "fr": "Ce classement suppose que [[character:qiqi]] n'a pas souvent son [[ability:burst]] et qu'elle s'appuie principalement sur son [[ability:skill]] pour soigner. Si elle est dans une équipe qui lui fournit suffisamment de particules d'énergie, ou si elle agit comme DPS on-field, ce set peut dépasser **[[set:tenacity-of-the-millelith]] (4)**."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "song-of-days-past",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "healing-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "notes": [
+        {
+            "en": "Due to [[character:qiqi]]'s extremely high [[stat:er]] needs and inability to generate energy for herself, [[stat:er]] weapons are prioritized.",
+            "fr": "En raison des besoins extrêmement élevés de [[character:qiqi]] en [[stat:er]] et de son incapacité à générer de l'énergie pour elle-même, les armes de [[stat:er]] sont priorisées."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "sacrificial-sword",
+                    "note": {
+                        "en": "This is [[character:qiqi]]'s best option for maintaining [[ability:skill]] uptime, assuming the Frost Herald is able to hit an enemy. Should the weapon proc, wait for the Frost Herald to disappear before using her [[ability:skill]] again.",
+                        "fr": "C'est la meilleure option de [[character:qiqi]] pour maintenir l'uptime de son [[ability:skill]], à condition que le Héraut de givre puisse toucher un ennemi. Si le passif de l'arme se déclenche, attendez que le Héraut de givre disparaisse avant d'utiliser à nouveau son [[ability:skill]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-sword",
+                    "note": {
+                        "en": "This weapon can place higher if the team values the particles generated from it. Otherwise, it is preferred to use **[[weapon:sacrificial-sword]]** or other available options.",
+                        "fr": "Cette arme peut se classer plus haut si l'équipe valorise les particules qu'elle génère. Sinon, il est préférable d'utiliser **[[weapon:sacrificial-sword]]** ou d'autres options disponibles."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "peak-patrol-song",
+                    "note": {
+                        "en": "Thanks to [[character:qiqi]]'s high base [[stat:def]], you can get a meaningful amount of the buff from this weapon. While using this weapon, you must [[ability:na]] twice to activate the passive. [[stat:def%]] stats can be considered if your team does not struggle with survivability.",
+                        "fr": "Grâce à la [[stat:def]] de base élevée de [[character:qiqi]], vous pouvez obtenir une quantité notable du buff de cette arme. En utilisant cette arme, vous devez effectuer deux [[ability:na]] pour activer le passif. Des stats de [[stat:def%]] peuvent être envisagées si votre équipe ne manque pas de survivabilité."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-blade"
+            ]
+        },
+        {
+            "items": [
+                "sapwood-blade"
+            ]
+        },
+        {
+            "items": [
+                "fleuve-cendre-ferryman"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "amenoma-kageuchi",
+                    "note": {
+                        "en": "This weapon will significantly improve [[character:qiqi]]'s healing capabilities, however, it takes lower priority over weapons that provide [[stat:er]].",
+                        "fr": "Cette arme améliorera considérablement les capacités de soin de [[character:qiqi]], mais elle passe après les armes qui fournissent de la [[stat:er]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

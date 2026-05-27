@@ -1,0 +1,21 @@
+{
+    "substats_priority": [
+        "atk%",
+        "er",
+        "atk",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only when using **[[weapon:favonius-sword]]**",
+                "fr": "Uniquement avec **[[weapon:favonius-sword]]**."
+            }
+        },
+        {
+            "name": "def%",
+            "note": {
+                "en": "Only when using **[[weapon:peak-patrol-song]]**",
+                "fr": "Uniquement avec **[[weapon:peak-patrol-song]]**."
+            }
+        }
+    ]
+}
