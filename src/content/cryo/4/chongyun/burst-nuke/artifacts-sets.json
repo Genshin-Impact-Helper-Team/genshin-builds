@@ -1,0 +1,81 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:chongyun]] is one of the best **[[set:noblesse-oblige]] (4)** holders since he has low energy requirements for his [[ability:burst]].",
+                                "fr": "[[character:chongyun]] est l'un des meilleurs porteurs de **[[set:noblesse-oblige]] (4)** puisqu'il a de faibles besoins en [[stat:er]] pour son [[ability:burst]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

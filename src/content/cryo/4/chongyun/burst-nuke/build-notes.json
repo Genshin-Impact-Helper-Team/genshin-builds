@@ -1,0 +1,27 @@
+{
+    "name": {
+        "en": "[[ability:burst]] Nuke",
+        "fr": "[[ability:burst]] Nuke"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "It is preferred to use [[character:chongyun]] as a [[ability:burst]] Nuke over Main DPS **as his [[ability:na]] scalings are very low**, even when including [C1]. His [[ability:burst]] on the other hand hits extremely hard on later constellations and takes a much higher total damage portion over his [[ability:na]]. On top of that, you can Reverse [[element:melt]] all 3 hits of his [[ability:burst]] on enemies applied with strong [[element:pyro]], such as [[character:bennett]]'s [[ability:skill]] and [[ability:burst]].",
+            "fr": "Il est préférable d'utiliser [[character:chongyun]] comme [[ability:burst]] Nuke plutôt que comme Main DPS, **car ses scalings d'[[ability:na|attaque normale]] sont très faibles**, même en prenant en compte la [C1]. Son [[ability:burst]], en revanche, frappe extrêmement fort avec les constellations plus élevées et représente une part bien plus importante de ses dégâts totaux que son [[ability:na|attaque normale]]. En plus de cela, vous pouvez déclencher une [[element:melt|Fonte inversée]] sur les 3 coups de son [[ability:burst]] sur des ennemis affectés par une forte aura [[element:pyro]], comme avec le [[ability:skill]] et l'[[ability:burst]] de [[character:bennett]]."
+        },
+        {
+            "en": "At [C2], his [[ability:skill]] **reduces ability cooldown that is cast within the zone by 15%**. This is one of the few abilities in the game that can reduce cooldown.",
+            "fr": "Avec sa [C2], son [[ability:skill]] **réduit de 15% le TdR des aptitudes lancées dans la zone**. C'est l'une des rares aptitudes du jeu pouvant réduire le cooldown."
+        },
+        {
+            "en": "[[character:chongyun]]'s [[ability:burst]] is calculated as Claymore damage, which means it breaks [[element:geo]] Structures / Shields at a much easier rate and can proc Shatter.",
+            "fr": "L'[[ability:burst]] de [[character:chongyun]] est calculé comme des dégâts de Claymore, ce qui signifie qu'il brise les structures [[element:geo]] / boucliers beaucoup plus facilement et peut déclencher Brise-glace."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Chiston",
+            "link": "https://docs.google.com/spreadsheets/d/1YZTt2_qK7A-w_NRErh8ekA9H46T_pw1dJpdQAPDce_w/edit?usp=sharing"
+        }
+    ]
+}

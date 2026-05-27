@@ -1,0 +1,96 @@
+{
+  "artifact_sets": [
+    {
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "emblem-of-severed-fate",
+              "pieces": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "choices": [
+            {
+              "items": [
+                {
+                  "name": "noblesse-oblige",
+                  "pieces": 2
+                },
+                {
+                  "name": "cryo-set",
+                  "pieces": 2
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "name": "atk-set",
+                  "pieces": 2
+                },
+                {
+                  "name": "em-set",
+                  "pieces": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "name": "gilded-dreams",
+              "pieces": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "noblesse-oblige",
+              "pieces": 4,
+              "note": {
+                "en": "These sets undermine [[character:kaeya]]'s personal Damage, but can contribute more overall team Damage thanks to the buffs they provide.",
+                "fr": "Ces sets réduisent les dégâts personnels de [[character:kaeya]], mais peuvent contribuer à davantage de dégâts d'équipe globaux grâce aux buffs qu'ils fournissent."
+              }
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "name": "scroll-of-the-hero-of-cinder-city",
+              "pieces": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "instructor",
+              "pieces": 4,
+              "note": {
+                "en": "These sets undermine [[character:kaeya]]'s personal Damage, but can contribute more overall team Damage thanks to the buffs they provide.",
+                "fr": "Ces sets réduisent les dégâts personnels de [[character:kaeya]], mais peuvent contribuer à davantage de dégâts d'équipe globaux grâce aux buffs qu'ils fournissent."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": {
+        "en": "Infusion Support",
+        "fr": "Support Infusion"
+    },
+    "notes": [
+        {
+            "en": "[[character:chongyun]] as an infusion support is rather niche, since it is only used to enable on-field [[element:cryo]] characters that don't already have [[element:cryo]] infusions. The most notable of these is [[element:cryo]] DPS [[character:freminet]].",
+            "fr": "[[character:chongyun]] en tant que support d'infusion est assez niche, puisqu'il sert uniquement à permettre aux personnages [[element:cryo]] on-field qui n'ont pas déjà une infusion [[element:cryo]] de fonctionner. Le plus notable d'entre eux est le DPS [[element:cryo]] [[character:freminet]]."
+        },
+        {
+            "en": "[[character:chongyun]]'s Infusion is overridden by [[character:bennett]]'s C6 and [[character:diluc]], but overrides [[character:candace]]'s infusion.",
+            "fr": "L'infusion de [[character:chongyun]] est écrasée par la C6 de [[character:bennett]] et par [[character:diluc]], mais elle écrase l'infusion de [[character:candace]]."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Chiston",
+            "link": "https://docs.google.com/spreadsheets/d/1YZTt2_qK7A-w_NRErh8ekA9H46T_pw1dJpdQAPDce_w/edit?usp=sharing"
+        }
+    ]
+}

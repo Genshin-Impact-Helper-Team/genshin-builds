@@ -1,0 +1,85 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision",
+                {
+                    "name": "haran-geppaku-futsu",
+                    "note": {
+                        "en": "This Weapon performs slightly better than **[[weapon:light-of-foliar-incision]]** if [[character:kaeya]] is played on-field with [[character:chongyun]] in the team.",
+                        "fr": "Cette arme dépasse légèrement **[[weapon:light-of-foliar-incision]]** si [[character:kaeya]] est joué on-field avec [[character:chongyun]] dans l'équipe."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
+                "summit-shaper",
+                {
+                    "name": "primordial-jade-cutter",
+                    "note": {
+                        "en": "If running **[[set:blizzard-strayer]] (4)**, it is impossible not to overcrit with this weapon in [[element:freeze]] teams and very hard not to overcrit in Mono [[element:cryo]] teams. It is advised to switch either the weapon or the set in this case.",
+                        "fr": "Si vous jouez **[[set:blizzard-strayer]] (4)**, il est impossible de ne pas overcrit avec cette arme dans les équipes [[element:freeze]] et très difficile de ne pas overcrit dans les équipes Mono [[element:cryo]]. Il est conseillé de changer soit l'arme, soit le set dans ce cas."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If you can reliably clear [[ability:bol]] before casting [[ability:burst]], this weapon performs better than **[[weapon:splendor-of-tranquil-waters]]**.",
+                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:splendor-of-tranquil-waters]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "amenoma-kageuchi",
+                    "note": {
+                        "en": "This weapon has higher value in teams where [[character:kaeya]] faces high [[stat:er]] Requirements.",
+                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]]."
+                    }
+                },
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5
+                },
+                {
+                    "name": "skyward-blade",
+                    "note": {
+                        "en": "This weapon has higher value in teams where [[character:kaeya]] faces high [[stat:er]] Requirements.",
+                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-sword",
+                    "note": {
+                        "en": "This weapon has higher value in teams where [[character:kaeya]] faces high [[stat:er]] Requirements.",
+                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "serpent-spine",
+                {
+                    "name": "sacrificial-greatsword",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                "redhorn-stonethresher",
+                "beacon-of-the-reed-sea",
+                "verdict"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "mailed-flower",
+                    "refinement": 5
+                },
+                "fang-of-the-mountain-king"
+            ]
+        },
+        {
+            "items": [
+                "skyward-pride",
+                "the-unforged",
+                {
+                    "name": "luxurious-sea-lord",
+                    "refinement": 5
+                },
+                {
+                    "name": "akuoumaru",
+                    "note": {
+                        "en": "At **[R1]**, **[[weapon:akuoumaru]]** beats **[[weapon:luxurious-sea-lord]]** if [[character:chongyun]] is used in a team with 260 or greater total team energy. **[[weapon:akuoumaru]]** only beats **[[weapon:luxurious-sea-lord]]** if **[R2]** and above otherwise.",
+                        "fr": "Une fois **[R1]**, **[[weapon:akuoumaru]]** dépasse **[[weapon:luxurious-sea-lord]]** si [[character:chongyun]] est utilisé dans une équipe avec un coût d'énergie total de 260 ou plus. Sinon, **[[weapon:akuoumaru]]** ne dépasse **[[weapon:luxurious-sea-lord]]** qu'à partir de **[R2]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "tidal-shadow",
+                "makhaira-aquamarine",
+                "blackcliff-slasher"
+            ]
+        },
+        {
+            "items": [
+                "favonius-greatsword"
+            ]
+        }
+    ]
+}

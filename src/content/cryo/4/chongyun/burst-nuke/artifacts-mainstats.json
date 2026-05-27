@@ -1,0 +1,15 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%",
+            "er",
+            "em"
+        ],
+        "goblet": [
+            "cryo-dmg"
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    }
+}
