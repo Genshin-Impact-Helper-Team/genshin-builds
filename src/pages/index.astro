@@ -2,13 +2,13 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import HomeFilters from '../components/HomeFilters.astro';
-import { Image } from 'astro:assets';
+import HomeRoster from '../components/HomeRoster.astro';
 import '../styles/base.css';
 import '../styles/home.css';
 import '../styles/theme.css';
 import { getHomePageData } from '../utils/home-page';
 import { t } from '../utils/i18n';
-import { localizedPath, sitePath } from '../utils/paths';
+import { sitePath } from '../utils/paths';
 
 const { characters, locale } = getHomePageData('en');
 ---
@@ -34,33 +34,7 @@ const { characters, locale } = getHomePageData('en');
         {t(locale, 'ui', 'Home source intro after link')}
       </p>
       <HomeFilters locale={locale} />
-
-      {/* The client-side filter script reads these data attributes. */}
-      <div class="character-grid">
-        {
-          characters.map((character, index) => (
-            <a
-              class={`character-card ${character.element}`}
-              href={localizedPath('en', character.slug)}
-              aria-label={`Open ${character.name} builds`}
-              data-character-card
-              data-element={character.element}
-              data-name={character.name}
-              data-rarity={character.rarity}
-              data-weapon={character.weapon}
-            >
-              <Image
-                src={character.portrait}
-                alt={`${character.name} portrait`}
-                loading={index < 12 ? 'eager' : 'lazy'}
-                width="72"
-                height="72"
-              />
-              <span>{character.name}</span>
-            </a>
-          ))
-        }
-      </div>
+      <HomeRoster characters={characters} locale={locale} lang="en" />
     </main>
     <Footer lang="en" />
     <script>

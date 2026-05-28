@@ -1,0 +1,151 @@
+---
+import { t } from '../utils/i18n';
+import { localizedPath } from '../utils/paths';
+
+const { characters, lang, locale } = Astro.props;
+const firstCharacter = characters[0];
+
+const characterCountLabel = t(locale, 'ui', 'Characters');
+const noResultsLabel = t(locale, 'ui', 'No characters found');
+const openBuildsLabel = t(locale, 'ui', 'Open builds');
+const selectedCharacterLabel = t(locale, 'ui', 'Selected character');
+const resultsLabel = t(locale, 'ui', 'Results');
+const availableBuildsLabel = t(locale, 'ui', 'Available builds');
+const characterArtAltTemplate = t(locale, 'ui', 'Character art alt');
+const characterPortraitAltTemplate = t(locale, 'ui', 'Character portrait alt');
+
+function formatUiTemplate(template: string, name: string) {
+  return template.replace('{name}', name);
+}
+
+function getCharacterViewModel(character: any) {
+  const href = localizedPath(lang, character.slug);
+  const weaponLabel = t(locale, 'ui', character.weapon);
+  const rarityLabel = `${character.rarity}\u2605`;
+
+  return {
+    ...character,
+    href,
+    weaponLabel,
+    rarityLabel,
+    previewImage: character.image || character.portrait,
+  };
+}
+
+const rosterCharacters = characters.map(getCharacterViewModel);
+const selectedCharacter = firstCharacter
+  ? getCharacterViewModel(firstCharacter)
+  : undefined;
+---
+
+<section class="home-roster" data-character-roster>
+  <section class="roster-list-panel" aria-labelledby="character-roster-title">
+    <div class="roster-list-header">
+      <div>
+        <h2 id="character-roster-title">{characterCountLabel}</h2>
+        <p
+          data-character-count
+          data-results-label={resultsLabel}
+          aria-live="polite"
+        >
+          {characters.length}
+          {resultsLabel}
+        </p>
+      </div>
+    </div>
+
+    <div class="roster-list" role="list" data-character-list>
+      {
+        rosterCharacters.map((character, index) => (
+          <button
+            class={`roster-character ${character.element}`}
+            type="button"
+            aria-label={`${character.name}, ${character.weaponLabel}`}
+            aria-current={index === 0 ? 'true' : 'false'}
+            data-character-card
+            data-builds={JSON.stringify(character.builds)}
+            data-element={character.element}
+            data-href={character.href}
+            data-image={character.previewImage}
+            data-name={character.name}
+            data-portrait={character.portrait}
+            data-rarity={character.rarity}
+            data-rarity-label={character.rarityLabel}
+            data-weapon={character.weapon}
+            data-weapon-label={character.weaponLabel}
+          >
+            <img
+              src={character.portrait}
+              alt={formatUiTemplate(
+                characterPortraitAltTemplate,
+                character.name,
+              )}
+              loading={index < 14 ? 'eager' : 'lazy'}
+              width="160"
+              height="180"
+            />
+            <span class="roster-character-copy">
+              <span class="roster-character-name">{character.name}</span>
+              <span class="roster-character-weapon">
+                {character.weaponLabel}
+              </span>
+            </span>
+          </button>
+        ))
+      }
+    </div>
+
+    <p class="roster-empty" data-character-empty hidden>{noResultsLabel}</p>
+  </section>
+
+  {
+    selectedCharacter && (
+      <aside
+        class={`roster-preview ${selectedCharacter.element}`}
+        aria-label={selectedCharacterLabel}
+        data-character-preview
+      >
+        <div class="roster-preview-art">
+          <img
+            src={selectedCharacter.previewImage}
+            alt={formatUiTemplate(
+              characterArtAltTemplate,
+              selectedCharacter.name,
+            )}
+            loading="eager"
+            data-preview-alt-template={characterArtAltTemplate}
+            data-preview-image
+          />
+        </div>
+        <div class="roster-preview-content">
+          <div class="roster-preview-summary">
+            <div>
+              <p class="roster-preview-kicker">{selectedCharacterLabel}</p>
+              <div class="roster-preview-title">
+                <h2 data-preview-name>{selectedCharacter.name}</h2>
+                <span data-preview-rarity>{selectedCharacter.rarityLabel}</span>
+              </div>
+            </div>
+
+            <a
+              class="roster-preview-link"
+              href={selectedCharacter.href}
+              data-preview-link
+            >
+              {openBuildsLabel}
+            </a>
+          </div>
+
+          <section class="roster-preview-builds">
+            <h3>{availableBuildsLabel}</h3>
+            <ul data-preview-builds>
+              {selectedCharacter.builds.map((build: any) => (
+                <li>{build.name}</li>
+              ))}
+            </ul>
+          </section>
+        </div>
+      </aside>
+    )
+  }
+</section>

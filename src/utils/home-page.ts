@@ -4,8 +4,39 @@ import {
   getPublicCharacterName,
   getPublicCharacterSlug,
 } from './character-slugs';
-import { readJSONFile } from './content';
+import { readJSONFile, toTitleCase } from './content';
 import { getLocale } from './i18n';
+import { TranslationHelper } from './translator';
+
+function getBuildSummaries(
+  characterPath: string,
+  lang: string,
+  translator: TranslationHelper,
+) {
+  return fs
+    .readdirSync(characterPath, { withFileTypes: true })
+    .filter((build) => build.isDirectory())
+    .map((build) => {
+      const buildNotesPath = path.join(
+        characterPath,
+        build.name,
+        'build-notes.json',
+      );
+      const buildNoteData = fs.existsSync(buildNotesPath)
+        ? readJSONFile(buildNotesPath)
+        : null;
+      const rawBuildName =
+        buildNoteData?.name?.[lang] ??
+        buildNoteData?.name?.en ??
+        toTitleCase(build.name);
+
+      return {
+        name: translator.translateNoteText(rawBuildName, buildNotesPath),
+        slug: build.name,
+        isBest: buildNoteData?.best === true,
+      };
+    });
+}
 
 /**
  * Builds the localized character list used by the home page.
@@ -19,6 +50,7 @@ import { getLocale } from './i18n';
 export function getHomePageData(lang = 'en') {
   const locale = getLocale(lang);
   const contentPath = path.join(process.cwd(), 'src', 'content');
+  const translator = new TranslationHelper(locale, {}, lang);
 
   // Walk element/rarity/character folders so new content appears automatically.
   const characters = fs
@@ -64,7 +96,18 @@ export function getHomePageData(lang = 'en') {
                 element: element.name,
                 rarity: rarity.name,
                 weapon: metadata.weapon,
-                portrait: metadata.portrait,
+                image: metadata.image?.trim(),
+                portrait: metadata.portrait?.trim(),
+                builds: getBuildSummaries(
+                  path.join(
+                    contentPath,
+                    element.name,
+                    rarity.name,
+                    character.name,
+                  ),
+                  lang,
+                  translator,
+                ),
               };
             }),
         ),
