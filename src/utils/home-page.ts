@@ -32,8 +32,6 @@ function getBuildSummaries(
 
       return {
         name: translator.translateNoteText(rawBuildName, buildNotesPath),
-        slug: build.name,
-        isBest: buildNoteData?.best === true,
       };
     });
 }

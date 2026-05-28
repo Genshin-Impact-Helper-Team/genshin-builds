@@ -3,7 +3,6 @@ import { t } from '../utils/i18n';
 import { localizedPath } from '../utils/paths';
 
 const { characters, lang, locale } = Astro.props;
-const firstCharacter = characters[0];
 
 const characterCountLabel = t(locale, 'ui', 'Characters');
 const noResultsLabel = t(locale, 'ui', 'No characters found');
@@ -33,12 +32,10 @@ function getCharacterViewModel(character: any) {
 }
 
 const rosterCharacters = characters.map(getCharacterViewModel);
-const selectedCharacter = firstCharacter
-  ? getCharacterViewModel(firstCharacter)
-  : undefined;
+const selectedCharacter = rosterCharacters[0];
 ---
 
-<section class="home-roster" data-character-roster>
+<section class="home-roster">
   <section class="roster-list-panel" aria-labelledby="character-roster-title">
     <div class="roster-list-header">
       <div>
@@ -54,7 +51,7 @@ const selectedCharacter = firstCharacter
       </div>
     </div>
 
-    <div class="roster-list" role="list" data-character-list>
+    <div class="roster-list" role="list">
       {
         rosterCharacters.map((character, index) => (
           <button
@@ -68,11 +65,9 @@ const selectedCharacter = firstCharacter
             data-href={character.href}
             data-image={character.previewImage}
             data-name={character.name}
-            data-portrait={character.portrait}
             data-rarity={character.rarity}
             data-rarity-label={character.rarityLabel}
             data-weapon={character.weapon}
-            data-weapon-label={character.weaponLabel}
           >
             <img
               src={character.portrait}
