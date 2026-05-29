@@ -89,17 +89,10 @@ const rows: ArtifactSetRow[] = group.choose
                 artifact={item}
                 suffix={`(${item.pieces})`}
                 lang={lang}
+                noteId={item.noteId}
+                hasNote={Boolean(item.noteId || item.note)}
               />
             </span>
-            {item.noteId ? (
-              <a class="note-link" href={`#${item.noteId}`}>
-                *
-              </a>
-            ) : item.note ? (
-              '*'
-            ) : (
-              ''
-            )}
           </>
         ))}
         {row.choicePools?.map((choice) => (
@@ -116,17 +109,10 @@ const rows: ArtifactSetRow[] = group.choose
                     artifact={item}
                     suffix={`(${item.pieces})`}
                     lang={lang}
+                    noteId={item.noteId}
+                    hasNote={Boolean(item.noteId || item.note)}
                   />
                 </span>
-                {item.noteId ? (
-                  <a class="note-link" href={`#${item.noteId}`}>
-                    *
-                  </a>
-                ) : item.note ? (
-                  '*'
-                ) : (
-                  ''
-                )}
               </>
             ))}
             {choice.items.length > 0 && (

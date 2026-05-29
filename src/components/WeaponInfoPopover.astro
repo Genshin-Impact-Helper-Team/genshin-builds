@@ -1,5 +1,6 @@
 ---
 import { t } from '../utils/i18n';
+import InlineNoteLabel from './InlineNoteLabel.astro';
 import {
   formatWeaponPassive,
   type WeaponPassiveText,
@@ -33,9 +34,17 @@ type Props = {
     rarity: number;
     info?: WeaponInfo;
   };
+  noteId?: string;
+  hasNote?: boolean;
 };
 
-const { locale, weapon, lang = 'en' } = Astro.props as Props;
+const {
+  locale,
+  weapon,
+  lang = 'en',
+  noteId,
+  hasNote = false,
+} = Astro.props as Props;
 const info = weapon.info;
 const refinements = [1, 2, 3, 4, 5] as const;
 
@@ -83,9 +92,14 @@ const substatValue = formatWeaponStatValue(
 ---
 
 <span class="info-popover weapon-popover">
-  <button class="info-popover-trigger" type="button" aria-expanded="false">
-    {weapon.name}
-  </button>
+  <span
+    class="info-popover-trigger"
+    role="button"
+    tabindex="0"
+    aria-expanded="false"
+  >
+    <InlineNoteLabel label={weapon.name} noteId={noteId} hasNote={hasNote} />
+  </span>
 
   {
     info && (

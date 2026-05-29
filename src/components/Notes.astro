@@ -115,61 +115,69 @@ const hasNotes = noteSections.length > 0;
     <div class="card notes-card">
       <h2>{t(locale, 'ui', 'Notes')}</h2>
 
-      {buildNote && (
-        <div>
-          {/* Optional external calculation links credited in build-notes.json. */}
-          {calculationCreditItems.map(({ linkText, credit }) => (
-            <div>
-              <a href={credit.link} target="_blank">
-                {linkText}
-              </a>
-              {credit.detail && (
-                <>
-                  {' '}
-                  (<span set:html={credit.detail} />)
-                </>
-              )}{' '}
-              - {t(locale, 'ui', 'Thank you to')}
-              {'\u00a0'}
-              {credit.author}!
-            </div>
-          ))}
-
-          {buildNote.notes?.length > 0 && (
-            <div>
-              {/* Build-level editorial notes are already localized and rendered. */}
-              {buildNote.notes.map((note: string) => (
-                <div set:html={note} />
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-
-      {noteSections.map((section) => (
-        <div>
-          <h3>{t(locale, 'ui', section.headingId)}</h3>
-
-          {section.global.map((note) => (
-            <p set:html={note} />
-          ))}
-
-          {section.groups
-            .filter((group) => group.items.length > 0)
-            .map((group) => (
-              <div>
-                {group.headingId && <h4>{t(locale, 'ui', group.headingId)}</h4>}
-                {group.items.map((note) => (
-                  <div
-                    id={note.id}
-                    class="note-target"
-                    set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-                  />
+      <div class="notes-content">
+        {buildNote && (
+          <div class="notes-block">
+            {/* Optional external calculation links credited in build-notes.json. */}
+            {calculationCreditItems.length > 0 && (
+              <div class="calculation-links">
+                {calculationCreditItems.map(({ linkText, credit }) => (
+                  <div class="calculation-link">
+                    <a href={credit.link} target="_blank">
+                      {linkText}
+                    </a>
+                    {credit.detail && (
+                      <>
+                        {' '}
+                        (<span set:html={credit.detail} />)
+                      </>
+                    )}{' '}
+                    - {t(locale, 'ui', 'Thank you to')}
+                    {'\u00a0'}
+                    {credit.author}!
+                  </div>
                 ))}
               </div>
+            )}
+
+            {buildNote.notes?.length > 0 && (
+              <div class="build-note-list">
+                {/* Build-level editorial notes are already localized and rendered. */}
+                {buildNote.notes.map((note: string) => (
+                  <div set:html={note} />
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {noteSections.map((section) => (
+          <section class="notes-section">
+            <h3>{t(locale, 'ui', section.headingId)}</h3>
+
+            {section.global.map((note) => (
+              <p set:html={note} />
             ))}
-        </div>
-      ))}
+
+            {section.groups
+              .filter((group) => group.items.length > 0)
+              .map((group) => (
+                <div class="note-group">
+                  {group.headingId && (
+                    <h4>{t(locale, 'ui', group.headingId)}</h4>
+                  )}
+                  {group.items.map((note) => (
+                    <div
+                      id={note.id}
+                      class="note-target"
+                      set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
+                    />
+                  ))}
+                </div>
+              ))}
+          </section>
+        ))}
+      </div>
     </div>
   )
 }

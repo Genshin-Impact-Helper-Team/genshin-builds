@@ -1,5 +1,6 @@
 ---
 import ArtifactSetGroup from './ArtifactSetGroup.astro';
+import InlineNoteLabel from './InlineNoteLabel.astro';
 import { t } from '../utils/i18n';
 
 type ArtifactSetItem = {
@@ -74,130 +75,141 @@ const substatRows = artifacts.substats.substats_priority.map(
 );
 ---
 
-<div class="card">
+<div class="card recommendation-card artifact-card">
   <h2>{t(locale, 'ui', 'Artifacts')}</h2>
 
-  {/* SETS */}
-  <div class="section">
-    <h3>{t(locale, 'ui', 'Sets')}</h3>
+  <div class="recommendation-card-body">
+    {/* SETS */}
+    <div class="section recommendation-section">
+      <h3>{t(locale, 'ui', 'Sets')}</h3>
 
-    {
-      artifactSetRanks.length > 0 &&
-        artifactSetRanks.map((rank: ArtifactSetRank, i: number) => (
-          <div style="margin-bottom: 10px;">
-            <div>
-              <strong class="accent-text">{i + 1}.</strong>{' '}
-              {rank.groups[0] && (
-                <>
-                  <span>
+      <div class="rank-list">
+        {
+          artifactSetRanks.length > 0 &&
+            artifactSetRanks.map((rank: ArtifactSetRank, i: number) => (
+              <div class="rank-group">
+                {rank.groups[0] && (
+                  <div class="rank-row">
+                    <strong class="rank-number">{i + 1}</strong>
+                    <div class="rank-content artifact-set-content">
+                      <ArtifactSetGroup
+                        group={rank.groups[0]}
+                        locale={locale}
+                        lang={lang}
+                      />
+                    </div>
+                  </div>
+                )}
+
+                {rank.groups.slice(1).map((group) => (
+                  <div class="rank-row alt">
+                    <span class="rank-approx">&asymp;</span>
+                    <div class="rank-content artifact-set-content">
+                      <ArtifactSetGroup
+                        group={group}
+                        locale={locale}
+                        lang={lang}
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))
+        }
+      </div>
+
+      {
+        conditionalArtifactGroups.length > 0 && (
+          <div class="conditional-list">
+            <div class="conditional-heading">
+              {t(locale, 'ui', 'Conditional (See Notes):')}
+            </div>
+
+            <div class="rank-list">
+              {conditionalArtifactGroups.map((group: ArtifactSetGroupData) => (
+                <div class="rank-row conditional-row">
+                  <span class="rank-marker" aria-hidden="true" />
+                  <div class="rank-content artifact-set-content">
                     <ArtifactSetGroup
-                      group={rank.groups[0]}
+                      group={group}
                       locale={locale}
                       lang={lang}
                     />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      }
+    </div>
+
+    {/* MAIN STATS */}
+    <div class="section recommendation-section">
+      <h3>{t(locale, 'ui', 'Main Stats')}</h3>
+
+      <div class="stat-grid">
+        {
+          mainStatSlots.map((slot) => (
+            <div class="stat-row">
+              <strong>{t(locale, 'ui', slot.label)}</strong>
+              <span>
+                {slot.items.map((stat: StatItem, statIndex: number) => (
+                  <>
+                    {statIndex > 0 && ' / '}
+                    <InlineNoteLabel
+                      label={stat.name}
+                      noteId={stat.noteId}
+                      hasNote={Boolean(hasNoteMarker(stat))}
+                    />
+                  </>
+                ))}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    {/* SUBSTATS */}
+    <div class="section recommendation-section">
+      <h3>{t(locale, 'ui', 'Substats')}</h3>
+
+      <div class="rank-list">
+        {
+          substatRows.map((row) => (
+            <div class="rank-group">
+              {row.items[0] && (
+                <div class="rank-row">
+                  <strong class="rank-number">{row.rank}</strong>
+                  <span class="rank-content">
+                    <InlineNoteLabel
+                      label={row.items[0].name}
+                      noteId={row.items[0].noteId}
+                      hasNote={Boolean(hasNoteMarker(row.items[0]))}
+                    />
                   </span>
-                </>
+                </div>
               )}
+
+              {row.hasAlternatives &&
+                row.items.slice(1).map((item) => (
+                  <div class="rank-row alt">
+                    <span class="rank-approx">&asymp;</span>
+                    <span class="rank-content">
+                      <InlineNoteLabel
+                        label={item.name}
+                        noteId={item.noteId}
+                        hasNote={Boolean(hasNoteMarker(item))}
+                      />
+                    </span>
+                  </div>
+                ))}
             </div>
-
-            {rank.groups.slice(1).map((group) => (
-              <div class="alt">
-                <span class="accent-text">&asymp;</span>{' '}
-                <span>
-                  <ArtifactSetGroup group={group} locale={locale} lang={lang} />
-                </span>
-              </div>
-            ))}
-          </div>
-        ))
-    }
-
-    {
-      conditionalArtifactGroups.length > 0 && (
-        <div style={artifactSetRanks.length > 0 ? 'margin-top: 14px;' : ''}>
-          <div class="bold">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
-
-          {conditionalArtifactGroups.map((group: ArtifactSetGroupData) => (
-            <div>
-              <ArtifactSetGroup group={group} locale={locale} lang={lang} />
-            </div>
-          ))}
-        </div>
-      )
-    }
-  </div>
-
-  {/* MAIN STATS */}
-  <div class="section">
-    <h3>{t(locale, 'ui', 'Main Stats')}</h3>
-
-    {
-      mainStatSlots.map((slot) => (
-        <div>
-          <strong class="accent-text">{t(locale, 'ui', slot.label)}:</strong>{' '}
-          {slot.items.map((stat: StatItem, statIndex: number) => (
-            <>
-              {statIndex > 0 && ' / '}
-              {stat.name}
-              {stat.noteId ? (
-                <a class="note-link" href={`#${stat.noteId}`}>
-                  *
-                </a>
-              ) : hasNoteMarker(stat) ? (
-                '*'
-              ) : (
-                ''
-              )}
-            </>
-          ))}
-        </div>
-      ))
-    }
-  </div>
-
-  {/* SUBSTATS */}
-  <div class="section">
-    <h3>{t(locale, 'ui', 'Substats')}</h3>
-
-    {
-      substatRows.map((row) => (
-        <div>
-          <div>
-            <strong class="accent-text">{row.rank}.</strong>{' '}
-            {row.items[0] && (
-              <>
-                {row.items[0].name}
-                {row.items[0].noteId ? (
-                  <a class="note-link" href={`#${row.items[0].noteId}`}>
-                    *
-                  </a>
-                ) : hasNoteMarker(row.items[0]) ? (
-                  '*'
-                ) : (
-                  ''
-                )}
-              </>
-            )}
-          </div>
-
-          {row.hasAlternatives &&
-            row.items.slice(1).map((item) => (
-              <div class="alt">
-                <span class="accent-text">&asymp;</span> {item.name}
-                {item.noteId ? (
-                  <a class="note-link" href={`#${item.noteId}`}>
-                    *
-                  </a>
-                ) : hasNoteMarker(item) ? (
-                  '*'
-                ) : (
-                  ''
-                )}
-              </div>
-            ))}
-        </div>
-      ))
-    }
+          ))
+        }
+      </div>
+    </div>
   </div>
 </div>
 

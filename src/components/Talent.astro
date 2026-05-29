@@ -1,5 +1,6 @@
 ---
 import { t } from '../utils/i18n';
+import InlineNoteLabel from './InlineNoteLabel.astro';
 
 type TalentItem = {
   name: string;
@@ -31,48 +32,45 @@ const talentRows = talents.talents.map(
 );
 ---
 
-<div class="card">
+<div class="card recommendation-card talent-card">
   <h2>{t(locale, 'ui', 'Talents')}</h2>
 
-  {
-    talentRows.map((talent) => (
-      <div style="margin-bottom: 10px;">
-        <div>
-          <strong class="accent-text">{talent.rank}.</strong>{' '}
-          <span>
-            {talent.mainItems.map((item, itemIndex) => (
-              <>
-                {itemIndex > 0 && ' = '}
-                {item.name}
-                {item.noteId ? (
-                  <a class="note-link" href={`#${item.noteId}`}>
-                    *
-                  </a>
-                ) : hasNoteMarker(item) ? (
-                  '*'
-                ) : (
-                  ''
-                )}
-              </>
-            ))}
-          </span>
-        </div>
+  <div class="recommendation-card-body">
+    <div class="rank-list">
+      {
+        talentRows.map((talent) => (
+          <div class="rank-group">
+            <div class="rank-row">
+              <strong class="rank-number">{talent.rank}</strong>
+              <span class="rank-content">
+                {talent.mainItems.map((item, itemIndex) => (
+                  <>
+                    {itemIndex > 0 && ' = '}
+                    <InlineNoteLabel
+                      label={item.name}
+                      noteId={item.noteId}
+                      hasNote={Boolean(hasNoteMarker(item))}
+                    />
+                  </>
+                ))}
+              </span>
+            </div>
 
-        {talent.alternativeItems.map((item) => (
-          <div class="alt">
-            <span class="accent-text">&asymp;</span> {item.name}
-            {item.noteId ? (
-              <a class="note-link" href={`#${item.noteId}`}>
-                *
-              </a>
-            ) : hasNoteMarker(item) ? (
-              '*'
-            ) : (
-              ''
-            )}
+            {talent.alternativeItems.map((item) => (
+              <div class="rank-row alt">
+                <span class="rank-approx">&asymp;</span>
+                <span class="rank-content">
+                  <InlineNoteLabel
+                    label={item.name}
+                    noteId={item.noteId}
+                    hasNote={Boolean(hasNoteMarker(item))}
+                  />
+                </span>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-    ))
-  }
+        ))
+      }
+    </div>
+  </div>
 </div>

@@ -118,8 +118,13 @@ if (!infoPopoverWindow.__infoPopoversReady) {
    */
   const handlePopoverToggle = (event: Event) => {
     const target = event.target as HTMLElement;
+    const noteLink = target.closest('.note-link');
     const trigger = target.closest('.info-popover-trigger');
     const card = target.closest('.info-popover-card');
+
+    if (noteLink) {
+      return;
+    }
 
     if (card) {
       return;
@@ -310,6 +315,21 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
       closeInfoPopovers();
+      return;
+    }
+
+    if (event.key !== 'Enter' && event.key !== ' ') {
+      return;
+    }
+
+    const target = event.target as HTMLElement;
+
+    if (target.closest('.note-link')) {
+      return;
+    }
+
+    if (target.closest('.info-popover-trigger')) {
+      handlePopoverToggle(event);
     }
   });
 

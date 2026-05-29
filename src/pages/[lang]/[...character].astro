@@ -22,6 +22,10 @@ const {
   builds,
   warnings,
 } = getCharacterPageData({ lang, characterPath });
+
+const availableBuildsLabel = t(locale, 'ui', 'Available builds');
+const defaultBuildSlug =
+  builds.find((build) => build.isBest)?.slug ?? builds[0]?.slug;
 ---
 
 <CharacterPageLayout
@@ -32,40 +36,81 @@ const {
   lang={currentLang}
   locale={locale}
 >
-  {
-    builds.map((build) => (
-      <div class="build-card" data-id={build.slug}>
-        <button class="build-header">
-          <span class="arrow">&rsaquo;</span>
-          <span class="build-title">{build.name}</span>
-          {build.isBest && (
-            <span class="build-badge">{t(locale, 'ui', 'Best Role')}</span>
-          )}
-        </button>
-
-        <div class="build-content">
-          <div class="grid">
-            <Weapon
-              weapons={build.weapons}
-              locale={locale}
-              lang={currentLang}
-            />
-            <Artifact
-              artifacts={build.artifacts}
-              locale={locale}
-              lang={currentLang}
-            />
-            <Talent talents={build.talents} locale={locale} />
-          </div>
-          <Notes
-            notes={build.notes}
-            buildNote={build.buildNote}
-            locale={locale}
-          />
-        </div>
+  <div class="character-builds-layout" data-default-build={defaultBuildSlug}>
+    <aside class="build-index" aria-labelledby="build-index-title">
+      <h2 id="build-index-title">{availableBuildsLabel}</h2>
+      <div class="build-index-list" role="list">
+        {
+          builds.map((build, index) => (
+            <button
+              class="build-index-item"
+              type="button"
+              data-build-nav={build.slug}
+              aria-current="false"
+            >
+              <span class="build-index-number">
+                {String(index + 1).padStart(2, '0')}
+              </span>
+              <span class="build-index-copy">
+                <span class="build-index-name">{build.name}</span>
+                {build.isBest && (
+                  <span class="build-index-badge">
+                    {t(locale, 'ui', 'Best Role')}
+                  </span>
+                )}
+              </span>
+            </button>
+          ))
+        }
       </div>
-    ))
-  }
+    </aside>
+
+    <div class="build-list">
+      {
+        builds.map((build) => {
+          const buildContentId = `build-content-${build.slug}`;
+
+          return (
+            <div class="build-card" data-id={build.slug}>
+              <button
+                class="build-header"
+                aria-expanded="false"
+                aria-controls={buildContentId}
+              >
+                <span class="build-title">{build.name}</span>
+                {build.isBest && (
+                  <span class="build-badge">
+                    {t(locale, 'ui', 'Best Role')}
+                  </span>
+                )}
+              </button>
+
+              <div class="build-content" id={buildContentId}>
+                <div class="grid">
+                  <Weapon
+                    weapons={build.weapons}
+                    locale={locale}
+                    lang={currentLang}
+                  />
+                  <Artifact
+                    artifacts={build.artifacts}
+                    locale={locale}
+                    lang={currentLang}
+                  />
+                  <Talent talents={build.talents} locale={locale} />
+                </div>
+                <Notes
+                  notes={build.notes}
+                  buildNote={build.buildNote}
+                  locale={locale}
+                />
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
 </CharacterPageLayout>
 
 {

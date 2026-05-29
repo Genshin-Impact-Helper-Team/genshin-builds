@@ -74,79 +74,85 @@ const rankedWeaponGroups = weapons.weapons.map(
 );
 ---
 
-<div class="card weapon-card">
+<div class="card recommendation-card weapon-card">
   <h2>{t(locale, 'ui', 'Weapons')}</h2>
 
-  {
-    /* Ranked weapon groups. Extra items in one rank render as approximate ties. */
-  }
-  {
-    rankedWeaponGroups.map((position) => (
-      <div style="margin-bottom: 10px;">
-        {position.rows.map(({ weapon, isAlternative }) => {
-          const content = (
-            <span class="inline-info-label">
-              <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />
-              <span class="bold">
-                ({weapon.rarity}
-                {'\u2605'}){formatRefinement(weapon.refinement)}
-                {weapon.noteId ? (
-                  <a class="note-link" href={`#${weapon.noteId}`}>
-                    *
-                  </a>
-                ) : hasNoteMarker(weapon) ? (
-                  '*'
-                ) : (
-                  ''
-                )}
-              </span>
-            </span>
-          );
+  <div class="recommendation-card-body">
+    {
+      /* Ranked weapon groups. Extra items in one rank render as approximate ties. */
+    }
+    <div class="rank-list">
+      {
+        rankedWeaponGroups.map((position) => (
+          <div class="rank-group">
+            {position.rows.map(({ weapon, isAlternative }) => {
+              const content = (
+                <span class="inline-info-label">
+                  <WeaponInfoPopover
+                    weapon={weapon}
+                    locale={locale}
+                    lang={lang}
+                    noteId={weapon.noteId}
+                    hasNote={Boolean(hasNoteMarker(weapon))}
+                  />
+                  <span class="bold">
+                    ({weapon.rarity}
+                    {'\u2605'}){formatRefinement(weapon.refinement)}
+                  </span>
+                </span>
+              );
 
-          return isAlternative ? (
-            <div class="alt">
-              <span class="accent-text">&asymp;</span> {content}
-            </div>
-          ) : (
-            <div>
-              <strong class="accent-text">{position.rank}.</strong>&#8239;
-              {content}
-            </div>
-          );
-        })}
-      </div>
-    ))
-  }
-
-  {/* Optional unranked recommendations that depend on build notes. */}
-  {
-    conditionalWeapons.length > 0 && (
-      <div style="margin-top: 14px;">
-        <div class="bold">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
-
-        {conditionalWeapons.map((weapon: WeaponItem) => (
-          <div>
-            <span class="inline-info-label">
-              <WeaponInfoPopover weapon={weapon} locale={locale} lang={lang} />
-              <span class="bold">
-                ({weapon.rarity}
-                {'\u2605'}){formatRefinement(weapon.refinement)}
-                {weapon.noteId ? (
-                  <a class="note-link" href={`#${weapon.noteId}`}>
-                    *
-                  </a>
-                ) : hasNoteMarker(weapon) ? (
-                  '*'
-                ) : (
-                  ''
-                )}
-              </span>
-            </span>
+              return isAlternative ? (
+                <div class="rank-row alt">
+                  <span class="rank-approx">&asymp;</span>
+                  <span class="rank-content">{content}</span>
+                </div>
+              ) : (
+                <div class="rank-row">
+                  <strong class="rank-number">{position.rank}</strong>
+                  <span class="rank-content">{content}</span>
+                </div>
+              );
+            })}
           </div>
-        ))}
-      </div>
-    )
-  }
+        ))
+      }
+    </div>
+
+    {/* Optional unranked recommendations that depend on build notes. */}
+    {
+      conditionalWeapons.length > 0 && (
+        <div class="conditional-list">
+          <div class="conditional-heading">
+            {t(locale, 'ui', 'Conditional (See Notes):')}
+          </div>
+
+          <div class="rank-list">
+            {conditionalWeapons.map((weapon: WeaponItem) => (
+              <div class="rank-row conditional-row">
+                <span class="rank-marker" aria-hidden="true" />
+                <span class="rank-content">
+                  <span class="inline-info-label">
+                    <WeaponInfoPopover
+                      weapon={weapon}
+                      locale={locale}
+                      lang={lang}
+                      noteId={weapon.noteId}
+                      hasNote={Boolean(hasNoteMarker(weapon))}
+                    />
+                    <span class="bold">
+                      ({weapon.rarity}
+                      {'\u2605'}){formatRefinement(weapon.refinement)}
+                    </span>
+                  </span>
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+    }
+  </div>
 </div>
 
 <script>

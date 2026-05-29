@@ -1,0 +1,36 @@
+---
+type Props = {
+  label: string;
+  noteId?: string;
+  hasNote?: boolean;
+};
+
+const { label, noteId, hasNote = false } = Astro.props as Props;
+const showMarker = Boolean(noteId || hasNote);
+const trimmedLabel = label.trimEnd();
+const trailingSpace = label.slice(trimmedLabel.length);
+const labelMatch = showMarker ? trimmedLabel.match(/^([\s\S]*?)(\S+)$/u) : null;
+const labelPrefix = labelMatch?.[1] ?? '';
+const labelTail = labelMatch?.[2] ?? trimmedLabel;
+---
+
+{
+  showMarker ? (
+    <span class="inline-note-label">
+      {labelPrefix}
+      <span class="note-tail">
+        {labelTail}
+        {noteId ? (
+          <a class="note-link" href={`#${noteId}`}>
+            *
+          </a>
+        ) : (
+          <span class="note-marker-text">*</span>
+        )}
+      </span>
+      {trailingSpace}
+    </span>
+  ) : (
+    <>{label}</>
+  )
+}

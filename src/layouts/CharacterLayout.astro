@@ -8,39 +8,58 @@ import { t } from '../utils/i18n';
 import { sitePath } from '../utils/paths';
 
 const { character, characterSlug, metadata, lang, locale } = Astro.props;
+const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
+  '{name}',
+  character,
+);
 ---
 
-<html>
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Genshin Builds - {character}</title>
     <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
+    <link rel="preconnect" href="https://wiki.hoyolab.com" />
+    <link rel="preconnect" href="https://upload-static.hoyoverse.com" />
+    <link rel="preconnect" href="https://act-webstatic.hoyoverse.com" />
   </head>
 
   <body data-element={Astro.props.element}>
     <!-- The header needs the URL slug, not the localized display name. -->
     <Header locale={locale} lang={lang} character={characterSlug} />
-    <div class="page">
-      <div class="character-header">
-        <img
-          class="character-image"
-          src={metadata?.image}
-          alt=`${character} wish`
-          loading="eager"
-        />
+    <div class="page character-page">
+      <section class="character-header" aria-labelledby="character-title">
+        <div class="character-header-copy">
+          <h1 id="character-title" class="page-title">{character}</h1>
 
-        <h1 class="page-title">{character}</h1>
+          {
+            metadata?.last_updated && (
+              <div class="last-updated">
+                <span>{t(locale, 'ui', 'Last Updated')}</span>
+                <strong>
+                  {t(locale, 'ui', 'Version')} {metadata.last_updated}
+                </strong>
+              </div>
+            )
+          }
+        </div>
 
         {
-          metadata?.last_updated && (
-            <div class="last-updated">
-              {t(locale, 'ui', 'Last Updated')}: {t(locale, 'ui', 'Version')}{' '}
-              {metadata.last_updated}
+          metadata?.image && (
+            <div class="character-art-stage">
+              <img
+                class="character-image"
+                src={metadata.image}
+                alt={characterArtAlt}
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+              />
             </div>
           )
         }
-      </div>
+      </section>
 
       <slot />
     </div>
