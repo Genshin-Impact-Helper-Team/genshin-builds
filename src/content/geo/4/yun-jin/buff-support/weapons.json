@@ -1,15 +1,29 @@
 {
     "weapons": [
         {
-            "items": []
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "With this weapon, try to aim for some [[stat:cr]] stats to trigger the weapon passive reliably."
+                    }
+                }
+            ]
         },
         {
             "items": [
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                "the-catch",
+                "prototype-starglitter",
                 {
-                    "name": "",
+                   "name": "kitain-cross-spear",
                     "note": {
-                        "en": ""
-                    }
+                        "en": "Although the [[stat:em|EM]] Main Stat isn't useful for [[character:yun-jin]] the passive decreases her [[stat:er]] requirements by a lot, especially at higher refinements. **It can reduce her [[stat:er]] requirements depending on refinement.** Note that **she must cast [[ability:burst]] first before [[ability:skill]], as the passive drains 3 energy initially when [[ability:skill||Skill]] is cast.** This weapon can be left at level 1 while still getting the full effect from the passive."
+                    } 
                 }
             ]
         }

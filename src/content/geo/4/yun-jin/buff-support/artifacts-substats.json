@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "def%",
+        "er",
+        "def",
+        {
+            "name": "cr",
+            "note": {
+                "en": "[[stat:cr]] should only be considered when [[character:yun-jin]] is equipping [[weapon:favonius-lance]] to reliably proc the passive."
+            }
+        }
+    ]
+}

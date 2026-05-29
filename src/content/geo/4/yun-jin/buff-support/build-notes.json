@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en": "Buff Support"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:yun-jin]] is a Support character for [[ability:na]] focused characters who can deal off-field damage via her [[ability:burst]]. [[character:yun-jin]]'s **[[ability:burst]] grants nearby party members 30 stacks of additional flat damage bonus on [[ability:na]]s which scales with [[character:yun-jin]]'s current [[stat:def|DEF]]."
+        },
+        {
+            "en": "This means that external [[stat:def|DEF]] buffs like from [[character:gorou]]'s [[ability:skill]] and/or [[ability:burst]] doesn't provide much to [[character:yun-jin]] since it only buffs active characters and not off-field ones."
+        }
+    ]
+}
