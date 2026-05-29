@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en": "DRIVER"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "Generally optimal when running multiple off-field DPS like [[character:yelan]], [[character:xingqiu]], or [[character:fischl]]."
+        },
+        {
+            "en": "instead of focusing on her own damage (but not neglecting it), [[character:noelle]] takes a supportive role with [[set:archaic-petra]] to buff her team, while still taking advantage of her AoE and strong defensive utility."
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note":{ 
+                        "en": "Dependence on [[ability:skill]]'s talent level depends on your total [[stat:def|DEF]] and whether [[character:furina]] is in the team or not."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "na"
+                },
+                {
+                    "name": "burst"
+                }
+            ]
+        }
+    ]
+}

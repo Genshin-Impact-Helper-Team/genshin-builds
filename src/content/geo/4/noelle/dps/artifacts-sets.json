@@ -1,0 +1,52 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "husk-of-opulent-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:skill]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "retracing-bolide",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items":[
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "MH",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Optimal for personal damage by a few percentage points when paired with [[character:furina]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en": "DPS"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "**This build is only recommended for [C6] [[character:noelle]].** [[character:noelle]] DPS is best optimized at **[C6]** where converts an addtional 50% [[stat:def|DEF]] into [stat:atk|ATK]]. Her ability to sustain her team with shields, heals and AoE damage makes for a reliable DPS when your team is built around her."
+        },
+        {
+            "en": "1 / 2 Targets: **{rot:N4 D/J}**. This isn't always feasible due to cas time (as well as knockback issues)."
+        },
+        {
+            "en": "Multiple Targets: **{rot:N3 D/J}**."
+        },
+        {
+            "en": "With [[weapon:redhorn-stonethresher]], using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will alow you to bypass the 5 second restriction."
+        }
+    ]
+}

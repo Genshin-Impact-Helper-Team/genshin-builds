@@ -1,0 +1,20 @@
+{
+    "main_stats": {
+        "sands": [
+            "def%",
+            {
+                "name": "atk%",
+                "note": {
+                    "en": "**[[stat:atk%]] sands when below C6 or below Talent Level 9 Burst."
+                }
+            }
+        ],
+        "goblet": [
+           "geo-dmg"
+        ],
+        "circlet": [
+           "cr",
+           "cd"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "main_stats": {
+        "sands": [
+            "def%"
+        ],
+        "goblet": [
+           "geo-dmg",
+           "def%"
+        ],
+        "circlet": [
+           "cr",
+           "cd",
+           "def%"
+        ]
+    },
+    "notes": [
+        {
+            "en": "When driving a team with [[character:furina]], [[character:noelle]] generally lacks [[stat:def%]] from weapon, set bonus, and team buffs. In order to counteract [[character:furina]]'s [[stat:hp|HP]] drain, especialy with high [[stat:hp|HP]] units like [[character:yelan]], multiple [[stat:def%]] Main Stats may be required."
+        }
+    ]
+}
