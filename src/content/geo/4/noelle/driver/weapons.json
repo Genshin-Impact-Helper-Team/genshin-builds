@@ -7,7 +7,32 @@
         },
         {
             "items": [
-                "Other damaging options (see DPS)"
+                "redhorn-stonethresher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "When using [[set:husk-of-opulent-dreams]], [[weapon:serpent-spine]] stacks are prioritized over [[set:husk-of-opulent-dreams]] stacks due to their conflicting nature in gaining stacks (On-Field vs Off-Field)."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "Useful if you are unable to get [[stat:er]] from your substats. Does really well while passive is active, but falls of in sustained fights. Comfort option that can lose to a high refined [[weapon:whiteblind]] with stacks."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "whiteblind"
             ]
         }
     ]
