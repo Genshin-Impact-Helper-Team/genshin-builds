@@ -22,10 +22,10 @@ const labelTail = labelMatch?.[2] ?? trimmedLabel;
         {labelTail}
         {noteId ? (
           <a class="note-link" href={`#${noteId}`}>
-            *
+            ⓘ
           </a>
         ) : (
-          <span class="note-marker-text">*</span>
+          <span class="note-marker-text">ⓘ</span>
         )}
       </span>
       {trailingSpace}
