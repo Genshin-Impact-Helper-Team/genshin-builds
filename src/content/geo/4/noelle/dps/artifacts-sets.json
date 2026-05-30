@@ -8,7 +8,8 @@
                             "name": "husk-of-opulent-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:skill]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks."
+                                "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:skill]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks.",
+                                "fr": "[[character:noelle]] snapshot sa [[stat:def]] sur son [[ability:skill]]. Pour obtenir le buff de [[stat:def%]] sur les 4 stacks pendant votre premier [[ability:burst]], vous devez attendre 12 secondes avant de switch sur Noeëlle. En abysses, le temps passé avant que le combat ne commence génère aussi des stacks."
                             }
                         }
                     ]
@@ -26,7 +27,7 @@
                     ]
                 },
                 {
-                    "items":[
+                    "items": [
                         {
                             "name": "gladiators-finale",
                             "pieces": 4
@@ -43,7 +44,8 @@
                     "name": "MH",
                     "pieces": 4,
                     "note": {
-                        "en": "Optimal for personal damage by a few percentage points when paired with [[character:furina]]."
+                        "en": "Optimal for personal damage by a few percentage points when paired with [[character:furina]].",
+                        "fr": "Optimal pour ses dégâts personnels (de peu) lorsqu'elle est jouée avec [[character:furina]]."
                     }
                 }
             ]

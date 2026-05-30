@@ -5,16 +5,17 @@
             {
                 "name": "atk%",
                 "note": {
-                    "en": "**[[stat:atk%]] sands when below C6 or below Talent Level 9 Burst."
+                    "en": "[[stat:atk%]] sands when below [C6] or below Talent Level 9 [[ability:burst]].",
+                    "fr": "Sablier [[stat:atk%]] lorsqu'elle n'est pas [C6] ou que son [[ability:burst]] n'est pas niveau 9+."
                 }
             }
         ],
         "goblet": [
-           "geo-dmg"
+            "geo-dmg"
         ],
         "circlet": [
-           "cr",
-           "cd"
+            "cr",
+            "cd"
         ]
     }
 }

@@ -5,16 +5,20 @@
     "best": true,
     "notes": [
         {
-            "en": "**This build is only recommended for [C6] [[character:noelle]].** [[character:noelle]] DPS is best optimized at **[C6]** where converts an addtional 50% [[stat:def|DEF]] into [stat:atk|ATK]]. Her ability to sustain her team with shields, heals and AoE damage makes for a reliable DPS when your team is built around her."
+            "en": "**This build is only recommended for [C6] [[character:noelle]].** [[character:noelle]] DPS is best optimized at **[C6]** where converts an additional 50% [[stat:def|DEF]] into [stat:atk|ATK]]. Her ability to sustain her team with shields, heals and AoE damage makes for a reliable DPS when your team is built around her.",
+            "fr": "**Ce build n'est recommandé que pour une [[character:noelle]] [C6].** [[character:noelle]] DPS est le plus optimal une fois **[C6]** puisqu'elle convertit 50% de [[stat:def]] en plus en [stat:atk]]. Sa capacité à soutenir son équipe avec son bouclier, son soin et ses dégâts de zone font d'elle un bon DPS quand l'équipe est build autour d'elle."
         },
         {
-            "en": "1 / 2 Targets: **{rot:N4 D/J}**. This isn't always feasible due to cas time (as well as knockback issues)."
+            "en": "**Combos:**\n- 1 / 2 Targets: **{rot:N4 D/J}**. This isn't always feasible due to cast time (as well as knockback issues).",
+            "fr": "**Combos:**\n- 1 / 2 Cibles: **{rot:N4 D/J}**. Ce n'est pas toujours faisable à cause de l'animation de sa N4 et des problèmes d'interruption."
         },
         {
-            "en": "Multiple Targets: **{rot:N3 D/J}**."
+            "en": "- Multiple Targets: **{rot:N3 D/J}**.",
+            "fr": "- Plusieurs Cibles: **{rot:N3 D/J}**."
         },
         {
-            "en": "With [[weapon:redhorn-stonethresher]], using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will alow you to bypass the 5 second restriction."
+            "en": "With [[weapon:redhorn-stonethresher]], using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
+            "fr": "Avec [[weapon:redhorn-stonethresher]], utiliser des [[ability:ca|attaques chargées]] peut être plus efficace. En tournant, ouvrir et fermer la carte ou le Guide de l'Aventurier vous permettra d'ignorer la limite de 5 secondes de la CA."
         }
     ]
 }
