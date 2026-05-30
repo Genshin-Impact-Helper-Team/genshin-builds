@@ -5,7 +5,8 @@
                 {
                     "name": "favonius-lance",
                     "note": {
-                        "en": "With this weapon, try to aim for some [[stat:cr]] stats to trigger the weapon passive reliably."
+                        "en": "With this weapon, try to aim for some [[stat:cr]] stats to trigger the weapon passive reliably.",
+                        "fr": "Avec cette arme, essayez d'avoir un peu de [[stat:cr]] pour pouvoir déclencher le passif."
                     }
                 }
             ]
@@ -20,10 +21,11 @@
                 "the-catch",
                 "prototype-starglitter",
                 {
-                   "name": "kitain-cross-spear",
+                    "name": "kitain-cross-spear",
                     "note": {
-                        "en": "Although the [[stat:em|EM]] Main Stat isn't useful for [[character:yun-jin]] the passive decreases her [[stat:er]] requirements by a lot, especially at higher refinements. **It can reduce her [[stat:er]] requirements depending on refinement.** Note that **she must cast [[ability:burst]] first before [[ability:skill]], as the passive drains 3 energy initially when [[ability:skill||Skill]] is cast.** This weapon can be left at level 1 while still getting the full effect from the passive."
-                    } 
+                        "en": "Although the [[stat:em]] Main Stat isn't useful for [[character:yun-jin]] the passive decreases her [[stat:er]] requirements by a lot, especially at higher refinements. Note that **she must cast [[ability:burst]] first before [[ability:skill]], as the passive drains 3 energy initially when [[ability:skill]] is cast.** This weapon can be left at level 1 while still getting the full effect from the passive.",
+                        "fr": "Bien que la Stats Principale [[stat:em]] ne soit pas utile pour [[character:yun-jin]], le passif réduit énormément ses besoins en [[stat:er]], surtout avec plusieurs raffinements. Notez qu'elle **doit utiliser son [[ability:burst]] avant son [[ability:skill]], puisque le passif prend 3 énergie lorsque le [[ability:skill]] est lancé.** Cette arme peut être laissée niveau 1 tout en profitant de l'effet complet du passif."
+                    }
                 }
             ]
         }
