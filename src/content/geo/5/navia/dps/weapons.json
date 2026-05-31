@@ -1,0 +1,113 @@
+{
+    "notes": [
+        {
+            "en": "Rankings assume [[character:navia]] is used with [[character:bennett]], 125% [[stat:er]] Requirement.",
+            "fr": "Le classement suppose que [[character:navia]] est jouée avec [[character:bennett]], avec un besoin de 125% de [[stat:er]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "verdict",
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "One of her best performing 4-star options, at [R5] max stacks it will perform as well as **[[weapon:a-thousand-blazing-suns]]**",
+                        "fr": "L'une de ses meilleures options 4 étoiles, une fois [R5] avec les stacks au maximum, elle équivaut à **[[weapon:a-thousand-blazing-suns]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "beacon-of-the-reed-sea"
+            ]
+        },
+        {
+            "items": [
+                "skyward-pride"
+            ]
+        },
+        {
+            "items": [
+                "redhorn-stonethresher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fang-of-the-mountain-king",
+                    "note": {
+                        "en": "Assumed averaged 0.5 stack of [[ability:burst]]%, and 1 stack of [[ability:skill]]% for [[character:navia]]'s second [[ability:skill]]",
+                        "fr": "Suppose une moyenne de 0,5 stack de [[ability:burst]]%, et 1 stack de [[ability:skill]]% pour le second [[ability:skill]] de [[character:navia]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wolfs-gravestone",
+                    "note": {
+                        "en": "Assumed passive is not active",
+                        "fr": "Suppose que le passif n'est pas actif."
+                    }
+                },
+                {
+                    "name": "the-unforged",
+                    "note": {
+                        "en": "Assumed shielded, dynamically stacked",
+                        "fr": "Suppose un bouclier actif et des stacks dynamiques."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "talking-stick"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "tidal-shadow",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes [[character:navia]] is able to be healed. Otherwise, it is not recommended to use this weapon.",
+                        "fr": "Suppose que [[character:navia]] peut être soignée. Sinon, il n'est pas recommandé d'utiliser cette arme."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ultimate-overlords-mega-magic-sword",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "earth-shaker",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes there is a [[element:pyro]]-related reaction before her field time, this is achievable by using [[character:bennett]]'s [[ability:skill]] before swapping to [[character:navia]], or using an off-field [[element:pyro]] unit like [[character:xiangling]] or [[character:mavuika]]",
+                        "fr": "Suppose qu'il y a une réaction liée au [[element:pyro]] avant son temps de terrain; c'est réalisable en utilisant le [[ability:skill]] de [[character:bennett]] avant de passer à [[character:navia]], ou en utilisant un personnage [[element:pyro]] off-field comme [[character:xiangling]] ou [[character:mavuika]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "prototype-archaic"
+            ]
+        }
+    ]
+}

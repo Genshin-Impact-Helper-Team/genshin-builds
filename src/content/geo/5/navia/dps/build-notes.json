@@ -1,0 +1,25 @@
+{
+    "name": {
+        "en": "DPS",
+        "fr": "DPS"
+    },
+    "best": true,
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/u/0/d/1uRUSxBmZpFPXi1ByHM08MQ0Xr8aA5rJ_4rzB1QZ280o/edit",
+        "author": "Speify"
+    },
+    "notes": [
+        {
+            "en": "[[character:navia]] is a DPS that doesn't demand much field time. While most of her DPS is frontloaded into her [[ability:skill]], she should stay on-field to take advantage of her 4s [[element:geo]] conversion window. Her [[ability:burst]] lets her generate Crystal Shrapnel stacks and is important to use every rotation.",
+            "fr": "[[character:navia]] est un DPS qui ne demande pas beaucoup de temps de terrain. Même si la majorité de son DPS est concentrée dans son [[ability:skill]], elle devrait rester on-field pour profiter de sa fenêtre de conversion [[element:geo]] de 4 s. Son [[ability:burst]] lui permet de générer des stacks de Shrapnel cristallin et il est important de l'utiliser à chaque rotation."
+        },
+        {
+            "en": "Full Combo: {rot:E N3D N2 E N3D (N2)}",
+            "fr": "Combo complet : {rot:E N3D N2 E N3D (N2)}"
+        },
+        {
+            "en": "The final {rot:N2} is omitted if units like [[character:fischl]] or [[character:xiangling]] are used during [[character:bennett]]'s [[ability:burst]] before [[character:navia]].",
+            "fr": "Le {rot:N2} final est omis si des personnages comme [[character:fischl]] ou [[character:xiangling]] sont utilisés pendant le [[ability:burst]] de [[character:bennett]] avant [[character:navia]]."
+        }
+    ]
+}

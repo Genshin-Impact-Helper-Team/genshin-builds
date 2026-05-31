@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize [[stat:er]] until you meet the requirement.",
+                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis."
+            }
+        },
+        "cr/cd",
+        "atk%"
+    ]
+}
