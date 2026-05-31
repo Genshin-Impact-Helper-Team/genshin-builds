@@ -1,0 +1,26 @@
+{
+    "main_stats": {
+        "sands": [
+            "def%",
+            "er"
+        ],
+        "goblet": [
+            "def%"
+        ],
+        "circlet": [
+            "def%",
+            "healing-bonus",
+            {
+                "name": "cr",
+                "notes": {
+                    "en": "Only if using [[weapon:favonius-sword]]"
+                }
+            }
+        ]
+    },
+    "notes": [
+        {
+            "en": "If no other member of the team can hold it, [[set:scroll]] **(4)** should be the top priority for [[character:xilonen]]. The other options are there in the event someone else has [[set:scroll|Scroll]] occupied. **If you do not need [[character:xilonen]]'s healing ability and are not using [[weapon:peak-patrol-song]], her artifact stats do not matter.**"
+        }
+    ]
+}

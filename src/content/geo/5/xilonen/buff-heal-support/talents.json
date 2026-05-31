@@ -1,0 +1,21 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst",
+                    "note": {
+                        "en": "If you do not need [[character:xilonen]]'s healing, her [[ability:burst]] can be ignored."
+                    }
+                }
+            ]
+        }
+    ]
+}
