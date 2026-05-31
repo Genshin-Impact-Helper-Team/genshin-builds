@@ -1,0 +1,121 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "nighttime-whispers-in-the-echoing-woods",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Assumes being shielded by [[element:crystallize]] shards.",
+                                "fr": "Suppose que le personnage est protégé par des fragments de [[element:crystallize]]."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "golden-troupe",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Assumes [[ability:skill]]s are performed within 2 seconds after taking the field.",
+                                "fr": "Suppose que les [[ability:skill]] sont utilisés dans les 2 secondes après l'arrivée sur le terrain."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "archaic-petra",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "golden-troupe",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set becomes better than 2 piece combinations in teams with high [[stat:er]] requirements.",
+                                "fr": "Ce set devient meilleur que les combinaisons de 2 pièces dans les équipes avec des besoins élevés en [[stat:er]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "archaic-petra",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Subpar for the [[element:geo]] [[character:traveler]]'s damage, but provides a good buff to the team.",
+                                "fr": "Moins bons pour les dégâts du [[character:traveler]] [[element:geo]], mais fournit un bon buff à l'équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Subpar for the [[element:geo]] [[character:traveler]]'s damage, but provides a good buff to the team.",
+                                "fr": "Moins bons pour les dégâts du [[character:traveler]] [[element:geo]], mais fournit un bon buff à l'équipe."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Subpar for the [[element:geo]] [[character:traveler]]'s damage, but provides a good buff to the team.",
+                                "fr": "Moins bons pour les dégâts du [[character:traveler]] [[element:geo]], mais fournit un bon buff à l'équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

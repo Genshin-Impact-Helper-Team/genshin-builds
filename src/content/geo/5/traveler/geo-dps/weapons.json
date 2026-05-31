@@ -1,0 +1,116 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "uraku-misugiri"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-cutter",
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu",
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision"
+            ]
+        },
+        {
+            "items": [
+                "splendor-of-tranquil-waters",
+                {
+                    "name": "summit-shaper",
+                    "note": {
+                        "en": "Assumes the [[element:geo]] [[character:traveler]] is shielded. Without reliable shield uptime, this weapon performs worse than **[[weapon:wolf-fang]]**.",
+                        "fr": "Suppose que le [[character:traveler]] [[element:geo]] est protégé par un bouclier. Sans uptime fiable de bouclier, cette arme passe derrière **[[weapon:wolf-fang]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "At [R5], this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
+                        "fr": "Une fois [R5], cette arme équivaut à **[[weapon:haran-geppaku-futsu]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "note": {
+                        "en": "Assumes [[ability:bol]] is being cleared.",
+                        "fr": "Suppose que l'[[ability:bol]] est retiré."
+                    }
+                },
+                {
+                    "name": "festering-desire",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                    }
+                },
+                {
+                    "name": "amenoma-kageuchi",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                    }
+                },
+                {
+                    "name": "skyward-blade",
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                    }
+                },
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                    }
+                },
+                {
+                    "name": "peak-patrol-song",
+                    "note": {
+                        "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe."
+                    }
+                },
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-sword",
+                    "note": {
+                        "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe."
+                    }
+                }
+            ]
+        }
+    ]
+}
