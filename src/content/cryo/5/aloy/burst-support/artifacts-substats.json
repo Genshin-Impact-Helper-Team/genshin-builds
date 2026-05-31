@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "cr/cd",
+        "atk%",
+        {
+            "name": "em",
+            "note": {
+                "en": "Only an option if your [[character:aloy]] is played on a Reverse [[element:melt]] team as it provides nothing to a [[element:freeze]] [[character:aloy]].",
+                "fr": "Une option que si votre [[character:aloy]] est jouée dans une équipe [[element:melt]] inversée, puisqu'elle n'apporte rien à une [[character:aloy]] [[element:freeze]]."
+            }
+        },
+        "er"
+    ]
+}

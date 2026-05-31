@@ -1,0 +1,105 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This artifact set is best used on a [[element:freeze]]-focused [[character:aloy]] as it provides a ton of Crit Value.",
+                                "fr": "Ce set d'artéfacts est mieux utilisé sur une [[character:aloy]] orientée [[element:freeze]], car il apporte énormément de Crit Value."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2,
+                            "note": {
+                                "en": "This artifact set bonus only benefits a [[element:melt]]-focused [[character:aloy]], [[stat:em]] provides nothing on a [[element:freeze]] [[character:aloy]].",
+                                "fr": "Ce bonus de set d'artéfacts ne bénéficie qu'à une [[character:aloy]] orientée [[element:melt]], la [[stat:em]] n'apporte rien à une [[character:aloy]] [[element:freeze]]."
+                            }
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:aloy]] is one of the best **[[set:noblesse-oblige]] (4)** holders since she has low energy requirements and cooldown for her [[ability:burst]].",
+                                "fr": "[[character:aloy]] est l'une des meilleures porteuses de **[[set:noblesse-oblige]] (4)** puisqu'elle a de faibles besoins en énergie et un TdR bas pour son [[ability:burst]]."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

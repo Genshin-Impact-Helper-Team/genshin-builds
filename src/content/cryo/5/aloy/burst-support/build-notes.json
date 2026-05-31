@@ -1,0 +1,17 @@
+{
+    "name": {
+        "en": "[[ability:burst]] Support",
+        "fr": "Support [[ability:burst]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:aloy]] is much preferred as a [[ability:burst]] Support over Main DPS as getting coil stacks for her [[element:cryo]] infusion can be quite unreliable. **[[character:aloy]] needs 4 coil stacks to get the [[element:cryo]] infusion and you can only get 1 stack every 0.1 seconds** which is quite hard to do considering the Bomblets are scattered all over the place. One thing to note regarding [[character:aloy]]'s coil stacks is that **she can still get coil stacks even when she's off-field.",
+            "fr": "[[character:aloy]] est largement préférée en Support [[ability:burst]] plutôt qu'en Main DPS, car obtenir des cumuls de bobine pour son infusion [[element:cryo]] peut être assez peu fiable. **[[character:aloy]] a besoin de 4 cumuls de bobine pour obtenir l'infusion [[element:cryo]] et vous ne pouvez obtenir qu'1 cumul toutes les 0,1 secondes**, ce qui est assez difficile puisque les bombelettes sont dispersées un peu partout. Il faut aussi noter qu'**elle peut obtenir des cumuls de bobine même en étant off-field**."
+        },
+        {
+            "en": "[[character:aloy]] is very niche as she only performs well in certain comps and even then, she's still completely replaceable by other characters. **She can be utilized on a [[element:freeze]] team** where she can be a battery and nuke at the same time since she provides 5 [[element:cryo]] particles on her [[ability:skill]]. She can also be utilized on a [[element:melt]] team where you can [[element:melt]] her [[ability:burst]] for quite a decent amount of damage.",
+            "fr": "[[character:aloy]] est très niche, car elle n'est vraiment efficace que dans certaines compositions, et même là, elle reste complètement remplaçable par d'autres personnages. **Elle peut être utilisée dans une équipe [[element:freeze]]**, où elle peut servir de batterie et de nuke en même temps puisqu'elle fournit 5 particules [[element:cryo]] avec son [[ability:skill]]. Elle peut aussi être utilisée dans une équipe [[element:melt]], où vous pouvez déclencher [[element:melt]] sur son [[ability:burst]] pour infliger une quantité correcte de dégâts."
+        }
+    ]
+}
