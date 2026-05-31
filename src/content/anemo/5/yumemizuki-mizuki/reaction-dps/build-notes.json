@@ -1,0 +1,13 @@
+{
+    "best": true,
+    "name": {
+        "en": "Reaction DPS",
+        "fr": "DPS Réactions"
+    },
+    "notes": [
+        {
+            "en": "[[character:yumemizuki-mizuki]] is a driver that focuses on enhancing and triggering the [[element:swirl]] reaction. Her only needed stats are [[stat:em]], to strengthen her [[element:swirl]] buff as well as [[element:swirl]] damage, and [[stat:er]] to be able to use her [[ability:burst]] every rotation for healing and more [[element:swirl]]s.",
+            "fr": "[[character:yumemizuki-mizuki]] est un driver centré sur l'amélioration et le déclenchement des réactions de [[element:swirl]]. Ses seules stats nécéssaires sont [[stat:em]] pour renforcer son buff et ses dégâts de [[element:swirl]], et [[stat:er]] pour pouvoir utiliser son [[ability:burst]] à chaque rotation pour le soin et plus de [[element:swirl]]s."
+        }
+    ]
+}

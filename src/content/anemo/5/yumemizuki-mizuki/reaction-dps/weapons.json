@@ -1,0 +1,51 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "a-thousand-floating-dreams"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-fragments",
+                {
+                    "name": "favonius-codex",
+                    "note": {
+                        "en": "A good choice in solo [[element:anemo]] teams or teams with overall high [[stat:er]] requirements.",
+                        "fr": "Une bonne option dans les équipes avec un seul [[element:anemo]] ou une équipes avec de hauts besoins en [[stat:er]]."
+                    }
+                },
+                "fruit-of-fulfillment"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "This weapon should only be used if there is an [[element:electro]] DPS on the team.",
+                        "fr": "Cette arme ne devrait être utilisée que s'il y a un DPS [[element:electro]] dans l'équipe."
+                    }
+                },
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "This weapon is a great option if the team can use the attack buff. At higher refines, this weapon performs better than **[[weapon:sacrificial-fragments]]**.",
+                        "fr": "Cette arme est une très bonne option si l'équipe peut profiter du buff d'ATQ. A haut raffinements, cette arme est meilleure que **[[weapon:sacrificial-fragments]]**."
+                    }
+                },
+                "magic-guide"
+            ]
+        }
+    ]
+}
