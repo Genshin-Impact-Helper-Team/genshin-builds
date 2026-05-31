@@ -1,0 +1,65 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "husk-of-opulent-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "desert-pavilion-chronicle",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "retracing-bolide",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set grants you an additional 40% [[ability:na|Normal]] and [[ability:ca|Charged Attack]] DMG when shielded. [[element:crystallize]] can be unreliable so a consistent shielder is preferred, such as [[character:zhongli]].",
+                                "fr": "Ce set vous accorde 40% de DGT supplémentaires sur les [[ability:na|attaques normales]] et les [[ability:ca|attaques chargées]] lorsque vous êtes protégé par un bouclier. [[element:crystallize]] peut être peu fiable, donc un shielder constant est préférable, comme [[character:zhongli]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "husk-of-opulent-dreams",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "archaic-petra",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

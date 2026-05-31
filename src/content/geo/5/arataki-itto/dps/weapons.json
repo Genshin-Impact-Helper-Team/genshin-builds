@@ -1,0 +1,42 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "redhorn-stonethresher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "This weapon scales great with refines on [[character:arataki-itto]],  making it way better than similar ranking options at [R5]. When using **[[set:husk-of-opulent-dreams]]**, **[[weapon:serpent-spine]]** stacks are prioritized over **[[set:husk-of-opulent-dreams]]** stacks due to their conflicting nature in gaining stacks (On-Field vs Off-Field).",
+                        "fr": "Cette arme scale très bien avec les raffinements sur [[character:arataki-itto]], la rendant bien meilleure que les options classées de manière similaire une fois [R5]. Lorsque vous utilisez **[[set:husk-of-opulent-dreams]]**, les stacks de **[[weapon:serpent-spine]]** sont priorisés par rapport aux stacks de **[[set:husk-of-opulent-dreams]]** en raison de leur nature conflictuelle pour gagner des stacks (on-field vs off-field)."
+                    }
+                },
+                "beacon-of-the-reed-sea",
+                "verdict",
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "whiteblind",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Your rotations often start with 1 stack of this weapon, and due to [[character:arataki-itto]]'s [[ability:burst]] snapshotting [[stat:def|DEF]] on cast, you're unable to take advantage of further [[stat:def%]] from the stacks.",
+                        "fr": "Vos rotations commencent souvent avec 1 stack de cette arme, et comme l'[[ability:burst]] de [[character:arataki-itto]] snapshot la [[stat:def]] au lancement, vous ne pouvez pas profiter de la [[stat:def%]] supplémentaire des stacks suivants."
+                    }
+                },
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "Can be a great or bad weapon for [[character:arataki-itto]] depending on your [[stat:er|ER]] needs. The less [[stat:er]] you need (due to particle generation from your party members or [[stat:er|ER]] from subs), the less useful this weapon becomes.",
+                        "fr": "Peut être une excellente ou une mauvaise arme pour [[character:arataki-itto]] selon vos besoins en [[stat:er|RE]]. Moins vous avez besoin de [[stat:er]] (grâce à la génération de particules des membres de votre équipe ou à la [[stat:er|RE]] des substats), moins cette arme devient utile."
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "main_stats": {
+        "sands": [
+            "def%"
+        ],
+        "goblet": [
+            "geo-dmg"
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    }
+}
