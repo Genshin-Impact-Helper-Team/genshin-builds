@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "er",
+        "atk%",
+        "atk",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Prioritize [[stat:cr]] if running **[[weapon:favonius-codex]]**",
+                "fr": "Priorisez le [[stat:cr]] avec **[[weapon:favonius-codex]]**."
+            }
+        }
+    ]
+}
