@@ -1,0 +1,63 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "freedom-sworn"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-sword",
+                    "note": {
+                        "en": "With this weapon, try to aim for some [[stat:cr]] stats to trigger the weapon passive reliably.",
+                        "fr": "Avec cette arme, essayez d'obtenir un peu de [[stat:cr]] pour déclencher le passif de l'arme de façon fiable."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "xiphos-moonlight",
+                    "note": {
+                        "en": "At [R1], this weapon usually performs worse than **[[weapon:favonius-sword]]** due to providing less effective energy to the team. At higher refinements, this weapon can rival **[[weapon:freedom-sworn]]** in terms of value due to how much [[stat:er]] it provides to [[character:kaedehara-kazuha]] and the team.",
+                        "fr": "En [R1], cette arme est généralement moins bonne que **[[weapon:favonius-sword]]**, car elle apporte moins d'énergie à l'équipe. À raffinements plus élevés, cette arme peut rivaliser avec **[[weapon:freedom-sworn]]** en termes de valeur grâce à la quantité de [[stat:er]] qu'elle apporte à [[character:kaedehara-kazuha]] et à l'équipe."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-sword",
+                    "note": {
+                        "en": "This weapon is mainly used for the [[stat:er]] it provides. The [[ability:skill]] reset should not be used unless the extra grouping is needed.",
+                        "fr": "Cette arme est surtout utilisée pour la [[stat:er]] qu'elle apporte. Le reset de [[ability:skill]] ne devrait pas être utilisé sauf si le regroupement supplémentaire est nécessaire."
+                    }
+                },
+                "fleuve-cendre-ferryman",
+                "skyward-blade"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "iron-sting",
+                    "note": {
+                        "en": "This weapon can perform better than **[[weapon:sacrificial-sword]]** if you can get enough [[stat:er]] from substats.",
+                        "fr": "Cette arme peut dépasser **[[weapon:sacrificial-sword]]** si vous pouvez obtenir suffisamment de [[stat:er]] via les sous-stats."
+                    }
+                },
+                {
+                    "name": "toukabou-shigure",
+                    "note": {
+                        "en": "This weapon can perform better than **[[weapon:sacrificial-sword]]** if you can get enough [[stat:er]] from substats.",
+                        "fr": "Cette arme peut dépasser **[[weapon:sacrificial-sword]]** si vous pouvez obtenir suffisamment de [[stat:er]] via les sous-stats."
+                    }
+                },
+                "skyrider-sword"
+            ]
+        }
+    ]
+}

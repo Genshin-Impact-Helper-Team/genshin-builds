@@ -1,0 +1,17 @@
+{
+    "name": {
+        "en": "Reaction DPS & Buff Support",
+        "fr": "DPS Réaction & Support Buff"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:kaedehara-kazuha]]'s 4th ascension passive provides an elemental DMG bonus buff depending on his [[stat:em]], putting the main focus on his build on stacking [[stat:em]] while also having enough [[stat:er]] to [[ability:burst]] every rotation, as his [[ability:burst]] extends the duration of his passive and deals respectable damage through [[element:swirl]]s.",
+            "fr": "Le passif de 4e ascension de [[character:kaedehara-kazuha]] fournit un buff de bonus de DGT élémentaires selon sa [[stat:em]], mettant l'accent principal de son build sur le fait de stack la [[stat:em]] tout en ayant assez de [[stat:er]] pour utiliser son [[ability:burst]] à chaque rotation, car son [[ability:burst]] prolonge la durée de son passif et inflige des dégâts respectables via les [[element:swirl]]."
+        },
+        {
+            "en": "The element which is absorbed by [[character:kaedehara-kazuha]]'s [[ability:burst]] follows the priority of [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]], and can be absorbed from both the active character and enemies. (i.e. Standing in [[character:bennett]]'s [[ability:burst]] will result in [[character:kaedehara-kazuha]]'s [[ability:burst]] infusing [[element:pyro]] as [[character:bennett]]'s [[ability:burst]] applies [[element:pyro]] to the active character)",
+            "fr": "L'élément absorbé par l'[[ability:burst]] de [[character:kaedehara-kazuha]] suit la priorité [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]], et peut être absorbé à la fois depuis le personnage actif et les ennemis. (c.-à-d. se tenir dans l'[[ability:burst]] de [[character:bennett]] fera que l'[[ability:burst]] de [[character:kaedehara-kazuha]] s'infusera en [[element:pyro]], puisque l'[[ability:burst]] de [[character:bennett]] applique [[element:pyro]] au personnage actif)"
+        }
+    ]
+}

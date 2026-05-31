@@ -1,0 +1,32 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "viridescent-venerer",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is only used for a few specific teams, in which [[character:kaedehara-kazuha]] is used on field to deal damage through [[element:aggravate]] [[element:swirl]] hits.",
+                                "fr": "Ce set est seulement utilisé dans quelques équipes spécifiques, dans lesquelles [[character:kaedehara-kazuha]] est utilisé on-field pour infliger des dégâts avec des [[element:swirl]] [[element:aggravate]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

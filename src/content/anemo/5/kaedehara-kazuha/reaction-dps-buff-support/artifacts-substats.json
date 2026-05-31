@@ -1,0 +1,19 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize [[stat:er]] until you meet the requirement.",
+                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis."
+            }
+        },
+        "em",
+        {
+            "name": "cr",
+            "note": {
+                "en": "[[stat:cr]] substats are only important when running **[[weapon:favonius-sword]]**",
+                "fr": "Les sous-stats de [[stat:cr]] sont seulement importantes avec **[[weapon:favonius-sword]]**."
+            }
+        }
+    ]
+}
