@@ -1,0 +1,91 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "finale-of-the-deep-galleries",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "desert-pavilion-chronicle",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "cryo-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "marechaussee-hunter",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is only useful against fully freezable enemies, in which case it becomes [[character:skirk]]'s best in slot. However, this setup makes it easy to overcap on [[stat:cr]] with certain weapons.",
+                                "fr": "Ce set n'est utile que contre des ennemis entièrement gelables, auquel cas il devient le best in slot de [[character:skirk]]. Cependant, cette configuration facilite l'overcap en [[stat:cr]] avec certaines armes."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This set should only be used with [[character:furina]] on the team, in which case it performs the same as **[[set:finale-of-the-deep-galleries]] (4)**. If [[character:skirk]] is [C1] or higher, this set consistently outperforms **[[set:finale-of-the-deep-galleries]]** for the [[ability:na]] playstyle.",
+                        "fr": "Ce set ne devrait être utilisé qu'avec [[character:furina]] dans l'équipe ; dans ce cas, il équivaut à **[[set:finale-of-the-deep-galleries]] (4)**. Si [[character:skirk]] est [C1] ou plus, ce set dépasse **[[set:finale-of-the-deep-galleries]]** pour un style de jeu en [[ability:na]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

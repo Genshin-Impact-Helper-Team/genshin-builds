@@ -1,0 +1,69 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "azurelight"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu"
+            ]
+        },
+        {
+            "items": [
+                "mistsplitter-reforged",
+                "primordial-jade-cutter"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "calamity-of-eshu",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes [[character:skirk]] is constantly shielded. Without a reliable shield, this weapon is not worth considering.",
+                        "fr": "Suppose que [[character:skirk]] est constamment protégée par un bouclier. Sans bouclier fiable, cette arme ne vaut pas la peine d'être envisagée."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "uraku-misugiri",
+                "absolution",
+                "light-of-foliar-incision"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This ranking assumes the [[ability:bol]] being cleared. Without clearing it, this weapon performs slightly worse than **[[weapon:the-black-sword]]**.",
+                        "fr": "Ce classement suppose que le [[ability:bol]] est retiré. Sans le retirer, cette arme se place légèrement en dessous de **[[weapon:the-black-sword]]**."
+                    }
+                },
+                {
+                    "name": "summit-shaper",
+                    "note": {
+                        "en": "The ranking for this weapon assumes no shield. With a reliable shield, this weapon performs similar to **[[weapon:uraku-misugiri]]**.",
+                        "fr": "Le classement de cette arme suppose l'absence de bouclier. Avec un bouclier fiable, elle se rapproche de **[[weapon:uraku-misugiri]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-black-sword",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:finale-of-the-deep]]** **[R5]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:finale-of-the-deep]]** **[R5]**."
+                    }
+                }
+            ]
+        }
+    ]
+}
