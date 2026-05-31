@@ -1,0 +1,21 @@
+{
+    "name": {
+        "en": "Buff Support",
+        "fr": "Support Buff"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:shenhe]] is a Support for [[element:cryo]] characters, capable of providing damage buffs from her [[ability:skill]] and dealing damage while providing [[element:cryo]] and Physical resistance shred from her [[ability:burst]]. **Her [[ability:skill]] gives a few stacks of additional flat damage bonus to all nearby party members (5 stacks on Tap and 7 stacks on Hold)**. This additional flat damage bonus **only works on [[element:cryo]] attacks**, so characters who don't use [[element:cryo]] attacks don't benefit from [[character:shenhe]]'s [[ability:skill]], do note that **[[element:cryo]] infusion from [[element:anemo]] characters does act as a [[element:cryo]] attack, so it benefits from [[character:shenhe]]'s [[ability:skill]]**. Another thing to note is that **the additional flat damage bonus [[character:shenhe]] provides uses [[character:shenhe]]'s current ATK, so it doesn't snapshot.**",
+            "fr": "[[character:shenhe]] est un Support pour les personnages [[element:cryo]], capable d'apporter des buffs de dégâts avec son [[ability:skill]] et d'infliger des dégâts tout en offrant une réduction de résistance [[element:cryo]] et Physique avec son [[ability:burst]]. **Son [[ability:skill]] donne quelques stacks de bonus de dégâts supplémentaires à tous les personnages à proximité (5 stacks en Tap et 7 stacks en Hold)**. Ce bonus de dégâts supplémentaires **ne fonctionne que sur les attaques [[element:cryo]]**, donc les personnages qui n'utilisent pas d'attaques [[element:cryo]] ne bénéficient pas du [[ability:skill]] de [[character:shenhe]]. Notez que **l'infusion [[element:cryo]] des personnages [[element:anemo]] compte bien comme une attaque [[element:cryo]] et en bénéficient donc bien**. Il faut aussi noter que **le bonus de dégâts supplémentaires fourni par [[character:shenhe]] utilise l'ATQ actuelle de [[character:shenhe]], donc il ne snapshot pas.**"
+        },
+        {
+            "en": "[[character:shenhe]]'s Tap [[ability:skill]] gives a teamwide 15% DMG boost to [[ability:skill]] and [[ability:burst]] DMG. This lasts 10 seconds.",
+            "fr": "Le Tap [[ability:skill]] de [[character:shenhe]] donne à toute l'équipe un bonus de DGT de 15 % aux DGT de [[ability:skill]] et d'[[ability:burst]]. Il dure 10 secondes."
+        },
+        {
+            "en": "[[character:shenhe]]'s Hold [[ability:skill]] gives a teamwide 15% DMG boost to [[ability:na]], [[ability:ca]], and Plunge Attack DMG. This lasts 15 seconds.",
+            "fr": "Le Hold [[ability:skill]] de [[character:shenhe]] donne à toute l'équipe un bonus de DGT de 15 % aux DGT d'[[ability:na]], d'[[ability:ca]] et d'attaque plongeante. Il dure 15 secondes."
+        }
+    ]
+}

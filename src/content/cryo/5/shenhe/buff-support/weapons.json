@@ -1,0 +1,83 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "calamity-queller",
+                    "note": {
+                        "en": "The passive of this weapon works perfectly with [[character:shenhe]]'s [[ability:skill]] because it's dynamic.",
+                        "fr": "Le passif de cette arme fonctionne parfaitement avec le [[ability:skill]] de [[character:shenhe]], parce qu'il est dynamique."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "vortex-vanquisher",
+                    "note": {
+                        "en": "This weapon's passive can't be stacked off-field, but it's still an ATK stat stick which provides [[character:shenhe]] with a lot of ATK.",
+                        "fr": "Le passif de cette arme ne peut pas être stacké off-field, mais elle reste une stat stick ATQ qui apporte beaucoup d'ATQ à [[character:shenhe]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "symphonist-of-scents"
+            ]
+        },
+        {
+            "items": [
+                "skyward-spine"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "With this weapon, it is better to have some [[stat:cr]] on [[character:shenhe]] for the weapon passive to proc (Do note that [[element:cryo]] Resonance provides 15% [[stat:cr]] on [[element:cryo]]-imbued enemies, so the need for [[stat:cr]] on [[character:shenhe]] is lowered). With refinements especially, **[[weapon:favonius-lance]]** can outperform 5-star options under some conditions.",
+                        "fr": "Avec cette arme, il vaut mieux avoir un peu de [[stat:cr]] sur [[character:shenhe]] pour déclencher le passif de l'arme (notez que la Résonance [[element:cryo]] donne 15 % de [[stat:cr]] contre les ennemis imprégnés de [[element:cryo]], donc le besoin de [[stat:cr]] sur [[character:shenhe]] est réduit). Avec les raffinements, **[[weapon:favonius-lance]]** peut dépasser des options 5 étoiles sous certaines conditions."
+                    }
+                },
+                {
+                    "name": "tamayuratei-no-ohanashi",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "lithic-spear",
+                    "note": {
+                        "en": "Ranking assumes 2 stacks.",
+                        "fr": "Le classement suppose 2 stacks."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "wavebreakers-fin"
+            ]
+        },
+        {
+            "items": [
+                "missive-windspear"
+            ]
+        },
+        {
+            "items": [
+                "prototype-starglitter",
+                "prospectors-shovel"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize until requirements are met",
+                "fr": "À prioriser jusqu'à atteindre les besoins requis"
+            }
+        },
+        "atk%",
+        {
+            "name": "cr/cd",
+            "note": {
+                "en": "[[stat:cr]] substats become more relevant when using **[[weapon:favonius-lance]]**.",
+                "fr": "Les substats de [[stat:cr]] deviennent plus pertinentes avec **[[weapon:favonius-lance]]**."
+            }
+        },
+        "atk"
+    ]
+}
