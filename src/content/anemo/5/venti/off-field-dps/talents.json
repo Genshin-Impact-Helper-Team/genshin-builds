@@ -1,0 +1,24 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "For a Reaction-focused build, upgrading [[character:venti]]'s talent levels isn't a necessity.",
+            "fr": "Pour un build axé Réaction, monter les niveaux d'aptitude de [[character:venti]] n'est pas une nécessité."
+        }
+    ]
+}

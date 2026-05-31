@@ -1,0 +1,23 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%",
+            "em"
+        ],
+        "goblet": [
+            "anemo-dmg",
+            "atk%",
+            "em"
+        ],
+        "circlet": [
+            "cr/cd",
+            "em"
+        ]
+    },
+    "notes": [
+        {
+            "en": "**[[stat:em]] can be used as an alternative Main Stat, however, it is less recommended**",
+            "fr": "**La [[stat:em]] peut être utilisée comme Stat Principale alternative, cependant, elle est moins recommandée**"
+        }
+    ]
+}

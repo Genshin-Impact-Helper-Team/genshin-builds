@@ -1,0 +1,64 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "desert-pavilion-chronicle",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Requires [[character:venti]] to perform a quick [[ability:ca]] at the beginning of his combo.",
+                                "fr": "Nécessite que [[character:venti]] effectue une [[ability:ca]] rapide au début de son combo."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "echoes-of-an-offering",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Loses value if you have high ping (>100).",
+                                "fr": "Perd de la valeur si vous avez un ping élevé (>100)."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "viridescent-venerer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Gains value if there are [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] units that deal significant damage on the team.",
+                                "fr": "Gagne de la valeur s'il y a dans l'équipe des personnages [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] qui infligent des dégâts significatifs."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

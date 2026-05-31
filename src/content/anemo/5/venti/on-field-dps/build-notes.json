@@ -1,0 +1,17 @@
+{
+    "name": {
+        "en": "On-Field DPS",
+        "fr": "DPS On-Field"
+    },
+    "best": true,
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/d/1fQcQ0WTt7bNE4C1DnqlpBJWLI6T2pfXh1BEhK8xynqc/edit?usp=sharing",
+        "author": "Chiston"
+    },
+    "notes": [
+        {
+            "en": "[[character:venti]], when paired with another [[ability:hexerei]] character, can be used as a strong, Normal-attacking, On-Field DPS who has large amounts of damage from multiple sources.",
+            "fr": "[[character:venti]], lorsqu'il est joué avec un autre personnage [[ability:hexerei]], peut être utilisé comme un puissant DPS on-field attaquant avec ses attaques normales, avec de grandes quantités de dégâts provenant de plusieurs sources."
+        }
+    ]
+}

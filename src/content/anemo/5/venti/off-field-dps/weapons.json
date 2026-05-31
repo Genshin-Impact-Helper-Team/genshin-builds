@@ -1,0 +1,59 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "the-daybreak-chronicles"
+            ]
+        },
+        {
+            "items": [
+                "polar-star"
+            ]
+        },
+        {
+            "items": [
+                "astral-vultures-crimson-plumage"
+            ]
+        },
+        {
+            "items": [
+                "hunters-path",
+                {
+                    "name": "the-first-great-magic",
+                    "note": {
+                        "en": "With three Gimmick stacks, this weapon performs better than **[[weapon:astral-vultures-crimson-plumage]]**.",
+                        "fr": "Avec trois cumuls de Roublardise, cette arme dépasse **[[weapon:astral-vultures-crimson-plumage]]**."
+                    }
+                },
+                "aqua-simulacra",
+                "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                "thundering-pulse"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "mouuns-moon",
+                    "note": {
+                        "en": "At [R5], this weapon ranks similarly to **[[weapon:hunters-path]]**.",
+                        "fr": "Une fois [R5], cette arme se classe de façon similaire à **[[weapon:hunters-path]]**."
+                    }
+                },
+                {
+                    "name": "song-of-stillness",
+                    "refinement": 5,
+                    "note": {
+                        "en": "ranked under the assumption that [[character:venti]] is healed, thus activating its passive.",
+                        "fr": "Classée en supposant que [[character:venti]] est soigné, activant ainsi son passif."
+                    }
+                },
+                "the-stringless",
+                "alley-hunter"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": {
+        "en": "Off-Field DPS",
+        "fr": "DPS Off-Field"
+    },
+    "best": true,
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/d/1fNEp15Fyj6gkJBmG0hW_bLhza-1Bm9zx6n0K3VNW4ZA/edit?usp=sharing",
+        "author": "Chiston"
+    },
+    "notes": [
+        {
+            "en": "[[character:venti]] is a potent Off-Field DPS who can buff teammates through **[[set:viridescent-venerer]]**, or buff [[element:anemo]] teammates through his [[ability:hexerei]] passive. With the addition of his [[ability:hexerei]] talents, he is no longer a Reaction-Based Off-Field DPS, although the playstyle is still utilized in some teams.",
+            "fr": "[[character:venti]] est un puissant DPS off-field qui peut buff ses coéquipiers grâce à **[[set:viridescent-venerer]]**, ou buff ses coéquipiers [[element:anemo]] grâce à son passif [[ability:hexerei]]. Avec l'ajout de ses aptitudes [[ability:hexerei]], il n'est plus un DPS off-field basé sur les Réactions, bien que ce style de jeu soit toujours utilisé dans certaines équipes."
+        },
+        {
+            "en": "Make sure you don't immediately swap away after casting [[ability:burst]]; you need to be on-field for **[[set:viridescent-venerer]]** (4) perk to proc on [[element:swirl]] first.({rot:E > Q} to avoid this issue)",
+            "fr": "Assurez-vous de ne pas changer de personnage immédiatement après avoir lancé l'[[ability:burst]] ; vous devez rester on-field pour que le bonus de **[[set:viridescent-venerer]]** (4) se déclenche sur la [[element:swirl]] d'abord. ({rot:E > Q} pour éviter ce problème)"
+        },
+        {
+            "en": "You can infuse elements onto [[character:venti]]'s [[ability:burst]] if you walk into it with an elemental aura on you. (e.g. [[character:bennett]] [[ability:burst]] > [[character:venti]] [[ability:burst]] > Walk up to infuse [[element:pyro]])",
+            "fr": "Vous pouvez infuser des éléments dans l'[[ability:burst]] de [[character:venti]] si vous marchez dedans avec une aura élémentaire sur vous. (p. ex. [[character:bennett]] [[ability:burst]] > [[character:venti]] [[ability:burst]] > Approchez-vous pour infuser [[element:pyro]])"
+        },
+        {
+            "en": "Check out [this link](http://tinyurl.com/ventiburstinfo) to see which characters can hit the enemies sucked and ragdolled in [[character:venti]]'s [[ability:burst]].",
+            "fr": "Consultez [ce lien](http://tinyurl.com/ventiburstinfo) pour voir quels personnages peuvent toucher les ennemis aspirés et projetés dans tous les sens par l'[[ability:burst]] de [[character:venti]]."
+        }
+    ]
+}

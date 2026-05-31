@@ -1,0 +1,70 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "the-daybreak-chronicles"
+            ]
+        },
+        {
+            "items": [
+                "polar-star"
+            ]
+        },
+        {
+            "items": [
+                "thundering-pulse",
+                "hunters-path",
+                "skyward-harp",
+                "aqua-simulacra"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "astral-vultures-crimson-plumage",
+                    "note": {
+                        "en": "If there are three unique Elements on the team, this weapon ranks similarly to **[[weapon:thundering-pulse]]**.",
+                        "fr": "S'il y a trois éléments uniques dans l'équipe, cette arme se classe de façon similaire à **[[weapon:thundering-pulse]]**."
+                    }
+                },
+                {
+                    "name": "the-first-great-magic",
+                    "note": {
+                        "en": "Assumes two stacks of the passive are active.",
+                        "fr": "Suppose que deux cumuls du passif sont actifs."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "amos-bow",
+                {
+                    "name": "slingshot",
+                    "refinement": 5
+                },
+                {
+                    "name": "song-of-stillness",
+                    "refinement": 5,
+                    "note": {
+                        "en": "ranked under the assumption that [[character:venti]] is healed, thus activating its passive.",
+                        "fr": "Classée en supposant que [[character:venti]] est soigné, activant ainsi son passif."
+                    }
+                },
+                "the-viridescent-hunt"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "rust",
+                    "note": {
+                        "en": "At [R5] this weapon performs better than **[[weapon:amos-bow]]**.",
+                        "fr": "Une fois [R5], cette arme dépasse **[[weapon:amos-bow]]**."
+                    }
+                },
+                "mouuns-moon"
+            ]
+        }
+    ]
+}
