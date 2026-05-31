@@ -1,0 +1,20 @@
+{
+    "main_stats": {
+        "sands": [
+            "def%",
+            "er"
+        ],
+        "goblet": [
+            "geo-dmg",
+            "def%"
+        ],
+        "circlet": [
+            "cr/cd"
+        ]
+    },
+    "notes": [
+        {
+            "en": "If you are building [[character:kachina]] as a low investment support, using the correct mainstats is not important. [[stat:cr]] should be prioritised further in this case when using [[weapon:favonius-lance]] for more consistent triggers."
+        }
+    ]
+}

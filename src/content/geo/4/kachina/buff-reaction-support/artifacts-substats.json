@@ -1,0 +1,12 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize until requirements are met."
+            }
+        },
+        "cr/cd",
+        "def%"
+    ]
+}
