@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en": "Buff & Reaction Support"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "As a free unit from Natlan, [[character:kachina]]'s value comes from being able to provide Off-Field [[element:geo]] Application with her [[ability:skill]], and being able to hold [[set:scroll]] **(4)** to great effect. [[character:kachina]]'s [[ability:burst]] can extend the radius in which Turbo Twirly creates shockwaves, allowing you to hit enemies from a distance if you need to. While she be built for damage, her personal scalings are rather low, and building her for damage isn't a requirement."
+        },
+        {
+            "en": "[[character:kachina]]'s **[C1]** allows her to restore 3 Energy whenever she picks up a [[element:crystallize]] Shard, and mounting/dismounting Turbo Twirly absorbs nearby shards. The energy restoration can only trigger once every 5 seconds, but does help alleviate some of her Energy needs."
+        },
+        {
+            "en": "Turbo Twirly is considered a [[element:geo]] Construct."
+        },
+        {
+            "en": "[[character:kachina]]'s [[ability:burst]] can bring Turbo Twirly back to her location if it is already on the field, allowing for a quick method of repositioning without having to actually ride Turbo Twirly. Her **[C2]** will summon a new Turbo Twirly if one isn't on the field instead."
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "[[set:scroll]] should be the top priority for [[character:kachina]], unless there is another unit in the same team that wants the set more, then you can use the other sets listed."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "archaic-petra",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "millelith",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
