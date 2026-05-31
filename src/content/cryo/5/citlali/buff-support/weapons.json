@@ -1,0 +1,27 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "ttds",
+                "favonius-codex",
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": "5"
+                },
+                "sacrificial-fragments",
+                "wandering-evenstar"
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "At high refinements, **[[weapon:wandering-evenstar]]** can be a better option than **[[weapon:ttds]]** if the team has multiple attack scaling units with significant damage share. In hypercarry style teams, **[[weapon:ttds]]** tends to be better. The other weapons can be a great option if the team damage **doesn't scale off of ATK**.",
+            "fr": "A haut raffinement, **[[weapon:wandering-evenstar]]** peut être une meilleure option que **[[weapon:ttds]]** si l'équipe est composée de plusieurs personnages qui scalent ATQ avec une part de dégâts importante. Dans les équipes hypercarry, **[[weapon:ttds]]** est généralement meilleure. Les autres armes du classement peuvent être de meilleures options si les dégâts de l'équipe **ne scalent pas sur l'ATQ**."
+        }
+    ]
+}
