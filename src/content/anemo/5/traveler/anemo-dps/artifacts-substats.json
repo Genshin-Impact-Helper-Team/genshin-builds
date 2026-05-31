@@ -1,0 +1,14 @@
+{
+    "substats_priority": [
+        "em",
+        "er",
+        "atk%",
+        {
+            "name": "cr/cd",
+            "note": {
+                "en": "Will have higher priority for a full Crit build.",
+                "fr": "Sera plus prioritaire pour un build full Crit."
+            }
+        }
+    ]
+}

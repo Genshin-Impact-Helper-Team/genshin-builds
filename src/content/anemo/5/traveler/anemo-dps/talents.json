@@ -1,0 +1,24 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "For an [[stat:em]]-focused build, upgrading [[character:traveler]]'s talent levels isn't a necessity.",
+            "fr": "Pour un build axé sur la [[stat:em]], monter les aptitudes du [[character:traveler]] n'est pas une nécessité."
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "viridescent-venerer",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "anemo-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

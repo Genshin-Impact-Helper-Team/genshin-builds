@@ -1,0 +1,17 @@
+{
+    "best": true,
+    "name": {
+        "en": "[[element:anemo]] DPS",
+        "fr": "DPS [[element:anemo]]"
+    },
+    "notes": [
+        {
+            "en": "This section is dedicated to utilising the [[element:anemo]] [[character:traveler]]'s [[ability:skill]] / [[ability:burst]]. Due to how little field time this playstyle takes, the [[character:traveler]] can also fulfill the role of a quickswap style Sub-DPS.",
+            "fr": "Cette section est dédiée à l'utilisation du [[ability:skill]] / [[ability:burst]] du [[character:traveler]] [[element:anemo]]. Comme ce style de jeu prend très peu de temps de terrain, le [[character:traveler]] peut aussi remplir le rôle de Sub-DPS quickswap."
+        },
+        {
+            "en": "[[element:anemo]] [[character:traveler]] can require a significant amount of [[stat:er]].",
+            "fr": "Le [[character:traveler]] [[element:anemo]] peut demander une quantité importante de [[stat:er]]."
+        }
+    ]
+}
