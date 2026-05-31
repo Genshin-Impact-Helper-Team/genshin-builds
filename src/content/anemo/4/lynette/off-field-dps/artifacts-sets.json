@@ -1,0 +1,73 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "viridescent-venerer",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set will give [[character:lynette]] her best personal damage output, assuming the team is already running **[[set:viridescent-venerer]] (4)**.",
+                                "fr": "Ce set donnera à [[character:lynette]] ses meilleurs dégâts personnels, en supposant que l'équipe joue déjà **[[set:viridescent-venerer]] (4)**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is a good option for her in teams that either won't benefit significantly from **[[set:viridescent-venerer]] (4)** shred, or where putting it on her is the lowest total team damage loss.",
+                                "fr": "C'est une bonne option pour elle dans les équipes qui ne bénéficient pas significativement de la baisse de RES de **[[set:viridescent-venerer]] (4)**, ou lorsque le lui donner représente la plus faible perte de dégâts d'équipe."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "anemo-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

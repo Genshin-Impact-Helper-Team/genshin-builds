@@ -1,0 +1,20 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize [[stat:er]] until you meet the requirement.",
+                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis."
+            }
+        },
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only assumes higher priority than [[stat:cd]] when using **[[weapon:favonius-sword]]**",
+                "fr": "Ne suppose une priorité plus élevée que [[stat:cd]] qu'avec **[[weapon:favonius-sword]]**"
+            }
+        },
+        "cd",
+        "atk%"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "favonius-sword"
+            ]
+        },
+        {
+            "items": [
+                "fleuve-cendre-ferryman",
+                {
+                    "name": "sacrificial-sword",
+                    "note": {
+                        "en": "Ideally you would want higher refinement levels as in [R3]+ so its cooldown aligns better with your rotation.",
+                        "fr": "Idéalement, il vaut mieux avoir des raffinements élevés ([R3]+) pour que son TdR s'aligne mieux avec votre rotation."
+                    }
+                },
+                "amenoma-kageuchi",
+                "skyward-blade"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "While this is her best buffing weapon it would be extremely difficult to meet her [[stat:er]] requirements without an [[stat:er]] weapon especially while primarily using her as an off-field unit.",
+                        "fr": "Bien qu'il s'agisse de sa meilleure arme de buff, il serait extrêmement difficile d'atteindre ses besoins en [[stat:er]] sans arme [[stat:er]], surtout en l'utilisant principalement comme personnage off-field."
+                    }
+                }
+            ]
+        }
+    ]
+}
