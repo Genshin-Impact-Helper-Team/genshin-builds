@@ -1,1 +1,29 @@
-
+{
+    "weapons": [
+        {
+            "items": [
+                "favonius-lance"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "footprint-of-the-rainbow",
+                    "note": {
+                        "en": "[[character:kachina]] can opt to use this weapon if her [[stat:er|ER]] needs are satisfied and the team does not value the energy from [[weapon:favonius-lance]]. Refinements are unnecessary unless you wish tos ee more out of [[character:kachina]]'s personal damage."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                "prototype-starglitter"
+            ]
+        }
+    ]
+}
