@@ -1,0 +1,23 @@
+{
+    "name": {
+        "en": "Buff Support"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:illuga]] buffs [[stat:geo-dmg]] and [[element:lunar-crystallize]] DMG after using his [[ability:burst]], which grants the Nightingale's Song effect. This buff scales on [[character:illuga]]'s [[stat:em]], and with his A4 talent, is further amplified depending on how many [[element:geo]] and [[element:hydro]] characters are in the party."
+        },
+        {
+            "en": "With his A1 talent, using either his [[ability:skill]] or [[ability:burst]] will grant other team members the Lightkeeper's Oath effect, which boosts the [[stat:cr]] and [[stat:cd]] of [[stat:geo-dmg]], and if Ascendant Gleam is active, boost the character's [[stat:em]] as well."
+        },
+        {
+            "en": "Lightkeeper's Oath does not apply to [[character:illuga]] himself."
+        },
+        {
+            "en": "Nightingale's Song starts with 21 stacks, and for every [[element:geo]] Construct that is on the field when his [[ability:burst]] is used, or if [[element:geo]] Constructs are created during his [[ability:burst]], Nightingale's Song gains 5 stacks, up to a maximum of 15 additional stacks."
+        },
+        {
+            "en": "The Moondrifts that are created by the [[element:lunar-crystallize]] reaction count as [[element:geo]] Constructs."
+        }
+    ]
+}

@@ -1,1 +1,33 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "favonius-lance"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "dragons-bane",
+                    "note": {
+                        "en": "An [[stat:er]] sands may be necessary if you are unable to get enough [[stat:er|ER]] from substats alone."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "kitain-cross-spear",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "engulfing-lightning"
+            ]
+        }
+    ]
+}
 

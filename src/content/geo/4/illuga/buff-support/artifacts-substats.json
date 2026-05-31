@@ -1,0 +1,17 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize until requirements are met."
+            }
+        },
+        "em",
+        {
+            "name": "cr",
+            "note": {
+                "en": "[[stat:cr]] only if using [[weapon:favonius-lance]]."
+            }
+        }
+    ]
+}
