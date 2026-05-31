@@ -1,0 +1,20 @@
+{
+    "name": {
+        "en": "Buff Support"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:gorou]] is a Support character that can give increasing buffs to your party members from his [[ability:skill]] and [[ability:burst]] based on the number of [[element:geo]] characters in your team (capped at 3). Casting his [[ability:skill]] sets up a banner which gives [[stat:def]] (1 Geo), Interruption Resistance (2 Geo) and [[stat:geo-dmg]] Bonus (3 Geo) for your active character standing inside the banner radius."
+        },
+        {
+            "en": "Casting his [[ability:burst]] creates a field following the active character which deals periodic damage and offers the same bonuses given by the [[ability:skill, destroying any placed banners in the process, it also pulls in nearby Elemental Shards created by [[element:crystallize]] reactions."
+        },
+        {
+            "en": "Due to his kit focusing on buffing [[stat:def%|DEF]] and [[stat:geo-dmg]], he's a specialised support geared towards [[element:geo]] DPS that scales with [[stat:def%|DEF]], such as [[character:noelle]] or [[character:arataki-itto]]. He can see niche use at **[C6]** with other [[element:geo]] characters as well."
+        },
+        {
+            "en": "**[C2]** extends the duration of [[character:gorou]]'s [[ability:burst]] from 9 seconds to 12 seconds if you can obtain the required [[element:crystallize]] shields. This allows his teammates to gain the 3 [[element:geo]] 15% [[stat:geo-dmg]] bonus for a longer duration, so it's preferable to use [[ability:burst]] as your last ability before swapping into your DPS."
+        }
+    ]
+}

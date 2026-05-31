@@ -1,0 +1,27 @@
+{
+    "main_stats": {
+        "sands": [
+            "er"
+        ],
+        "goblet": [
+            "geo-dmg",
+            "def%"
+        ],
+        "circlet": [
+            "cr",
+            "def%",
+            "healing-bonus"
+        ]
+    },
+    "notes": [
+        {
+            "en": "[[stat:def%]] Main stats and substats (and potentially a [[stat:healing-bonus]] Main Stat on Circlet) can be considered at **[C4]** due to being able to heal the active character based on his [[stat:def|DEF]] during [[ability:burst]]. This is useful if you plan to use him as a solo healer."
+        },
+        {
+            "en": "[[stat:cr]] circlet and substats can be considered when [[character:gorou]] is using [[weapon:favonius-warbow]] to trigger the passive comfortably."
+        },
+        {
+            "en": "[[stat:er]] substats can usually be more important than getting the right Main Stat, as [[character:gorou]]'s damage contribution to a team is negligible, while being able to get Energy for his [[ability:burst]] is a lot more important."
+        }
+    ]
+}

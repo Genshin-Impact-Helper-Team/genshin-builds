@@ -1,0 +1,83 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "the-exile",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "Casting [[ability:burst]] regenerates a total of 6 Energy for each of your party member. This set reduces your Energy Requirements by a bit for all of your party members, which can be quite beneficial. Do note that this is a 4 star set so you're potentially missing out on 5 star stat scaling, which is a 34% difference in Main Stat value and 25% difference in individual substat value."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "The effectiveness of this set increases if you've already met the [[stat:er]] requirement for [[character:gorou]]. At that point, you'd no longer need to run the recommended [[stat:er]] sets, which means you can opt for this instead."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "scroll",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": false,
+                    "items": [
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "instructor",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This is a set [[character:gorou]] may run when used in a [[element:lunar-crystallize]] team, notably when paired with [[character:zibai]]. Because this is a 4-star set, you're losing out on 5-star stat scaling. It is recommended to run an offpiece 5-star sands while running this set."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sms",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Can be used when [[character:gorou]] is paired with [[character:columbina]] or [[character:zibai]] so that other units can run more beneficial artifact sets."
+                    }
+                }
+            ]
+        }
+    ]
+}

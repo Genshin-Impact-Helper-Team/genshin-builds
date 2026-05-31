@@ -1,0 +1,31 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "favonius-warbow"
+            ]
+        },
+        {
+            "items": [
+                "snare-hook"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-bow"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "elegy-for-the-end",
+                    "notes": {
+                        "en": "[[weapon:elegy-for-the-end|Elegy]] offers a helpful [[stat:er|ER]] substat alongside an [[stat:em]] and [[stat:atk%]] buff for your teammates. While not directly useful in teams centered around [[character:noelle]] or [[character:arataki-itto]], this could possibly be a good choice for future [[element:geo]] DPS characters, or in a team which utilizes [[element:geo]] Resonance."
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+
