@@ -1,0 +1,19 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "Prioritize until requirements are met.",
+                "fr": "A prioriser jusqu'à remplir les besoins nécéssaires."
+            }
+        },
+        "def%",
+        "def",
+        {
+            "name": "cr",
+            "note": {
+                "en": "Only if using [[weapon:favonius-sword]]."
+            }
+        }
+    ]
+}

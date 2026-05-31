@@ -1,0 +1,49 @@
+{
+    "notes": [
+        {
+            "en": "Weapon options below [[weapon:favonius-sword]] do not really affect [[character:xilonen]]'s performance as a Support."
+        }
+    ],
+"weapons": [
+        {
+            "items": [
+                {
+                    "name": "peak-patrol-song",
+                    "note": {
+                        "en": "The buff from this weapon caps out once [[character:xilonen]] reaches 3,200 [[stat:def%|DEF]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "This option is competitive with [[weapon:peak-patrol-song]] if the team can utilize both of its buffs. To proc it consistently, you either need to [[ability:burst|burst]] every rotation, or add a delay between the initial [[ability:skill|skill]] hit and [[ability:na|normal attacking]]. It is not needed to level this weapon for [[character:xilonen]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "favonius-sword"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flute-of-ezpitzal",
+                    "note": {
+                        "en": "Refinements for this weapon are insignificant on [[character:xilonen]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyrider-sword"
+            ]
+        }
+    ]
+}

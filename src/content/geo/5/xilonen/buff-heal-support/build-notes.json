@@ -1,0 +1,21 @@
+{
+    "name": {
+        "en": "Buff & Reaction Support",
+        "fr": "Support Réactions & Buff"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:xilonen]]'s main job is to decrease Elemental Resistances of opponents using her Samplers. This, paired alongside the ability to hold [[set:scroll]] **(4)**, makes her a great asset to many teams."
+        },
+        {
+            "en": "[[character:xilonen]]'s [[ability:burst]] will heal the active character at intervals if 2 or more of her Samplers had their elemental types changed. Otherwise, she will deal additional instances of [[element:geo]]]] DMG."
+        },
+        {
+            "en": "The resistance shredding from the Samplers occurs when [[character:xilonen]] is paired with **2+ PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]])** members. To activate them, press [[ability:skill]], and continuously [[ability:na]] until her [[ability:nightsoul-point]]s are full. This takes 2 or 3 [[ability:na]]s to do."
+        },
+        {
+            "en": "At **[C2]**, [[character:xilonen]]'s [[element:geo]] Samplers are always active, enabling her to be added in teams with 2 or more [[element:geo]] members already present."
+        }
+    ]
+}
