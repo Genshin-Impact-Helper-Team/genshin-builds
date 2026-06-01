@@ -11,6 +11,7 @@
   - [Step 2: Edit Files](#step-2-edit-files)
   - [Step 3: Open a Pull Request](#step-3-open-a-pull-request)
 - [Add a Build for a Character](#1-add-a-build-for-a-character)
+  - [Recently Updated Filter](#recently-updated-filter)
 - [Translate a Build](#2-translate-a-build)
 - [Add a New Language](#3-add-a-new-language)
 - [Developer Setup](#developer-setup)
@@ -222,6 +223,33 @@ The website is built on our folder structure: adding a new folder will automatic
 
    Do not translate folder names, character slugs, build slugs, element folders,
    or rarity folders.
+
+### Recently Updated Filter
+
+The home page shows a `Recently updated` filter when at least one character was
+updated for the latest changelog version.
+
+The site reads [`src/content/site/changelog.json`](./src/content/site/changelog.json)
+and treats the first item in `groups` as the latest version. It compares that
+`version` value with each character folder's `metadata.json` `last_updated`
+value:
+
+```txt
+src/content/<element>/<rarity>/<character>/metadata.json
+```
+
+To make a character appear when this filter is checked, set `last_updated` to
+the same version as the first changelog group, for example:
+
+```json
+{
+  "last_updated": "6.6 / Luna VII"
+}
+```
+
+The comparison trims extra spaces and normalizes spacing around `/`, but keep
+the written version consistent with the changelog. If no character matches the
+latest changelog version, the filter is hidden.
 
 ---
 

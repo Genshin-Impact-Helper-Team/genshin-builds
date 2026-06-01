@@ -27,12 +27,33 @@ src/content/<element>/<rarity>/<character>/metadata.json
   filtering, and shared weapon rarity lookup. Common values are `sword`,
   `claymore`, `polearm`, `bow`, and `catalyst`. This must match one of the
   files in `src/data/weapons`.
-- `last_updated`: Genshin version string shown in the page header.
+- `last_updated`: Genshin version string shown in the page header and used by
+  the home page `Recently updated` filter.
 - `image`: Official fallback URL for the large character image shown in the
   character page header. Should come from the official HoYoWiki.
 - `portrait`: Official fallback URL for the small character icon used on the
   home page character list. Should come from the Hoyolab Battle Chronicles
   Character list.
+
+## Recently Updated Filter
+
+The home page checks the latest version from the first `groups` item in
+`src/content/site/changelog.json`.
+
+When a character should appear under the `Recently updated` filter, set
+`last_updated` to the same version:
+
+```json
+{
+  "last_updated": "6.6 / Luna VII"
+}
+```
+
+The comparison trims extra spaces and normalizes spacing around `/`. For
+clarity, still copy the version exactly as it appears in the changelog. If the
+value does not match the latest changelog version, the character remains visible
+in the normal roster but will not appear when the `Recently updated` filter is
+checked.
 
 ## Images
 

@@ -99,6 +99,24 @@ content loader, including:
 - Top-level section notes do not add a `*` marker because they are not attached
   to one specific item.
 
+## Recently Updated Home Filter
+
+The home page `Recently updated` filter is generated automatically from content
+data. The site reads `src/content/site/changelog.json`, uses the first item in
+`groups` as the latest changelog version, then compares that version with each
+character metadata file:
+
+```txt
+src/content/<element>/<rarity>/<character>/metadata.json
+```
+
+A character appears in the filter when its `last_updated` value matches the
+latest changelog `version`. Extra spaces and spacing around `/` are normalized,
+so `6.6/Luna VII` and `6.6 / Luna VII` match, but contributors should still copy
+the version format from the changelog to avoid mistakes.
+
+If no character matches the latest changelog version, the filter is not shown.
+
 ## Section-Level Notes
 
 Build data files can include top-level `notes` for comments that belong to the
