@@ -298,12 +298,14 @@ function initializeCustomSelects() {
   });
 
   document.addEventListener('click', (event) => {
-    if (!(event.target instanceof Node)) {
+    const target = event.target;
+
+    if (!(target instanceof Node)) {
       return;
     }
 
     const clickedInsideSelect = customSelects.some((select) =>
-      select.contains(event.target),
+      select.contains(target),
     );
 
     if (!clickedInsideSelect) {
