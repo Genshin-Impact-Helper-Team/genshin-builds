@@ -235,20 +235,6 @@
   outline-offset: -3px;
 }
 
-.arrow {
-  display: grid;
-  width: 32px;
-  min-height: 32px;
-  place-items: center;
-  border: 1px solid color-mix(in srgb, var(--element) 36%, transparent);
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--element) 12%, rgba(0, 0, 0, 0.26));
-  color: color-mix(in srgb, #fff 82%, var(--element) 18%);
-  font-size: 1.35rem;
-  line-height: 1;
-  transition: transform 0.18s ease;
-}
-
 .build-title {
   min-width: 0;
   color: #fff;
@@ -288,10 +274,6 @@
   padding: 0 14px 14px;
   opacity: 1;
   transform: none;
-}
-
-.build-card.open .arrow {
-  transform: rotate(90deg);
 }
 
 .grid {
@@ -667,9 +649,8 @@
   padding-top: 0;
 }
 
-.notes-section p,
-.build-note {
-  margin:  15px 0;
+.notes-section p {
+  margin: 15px 0;
 }
 
 .notes-section h4 {
@@ -691,8 +672,7 @@
   padding: 0px 10px
 }
 
-.calculation-link,
-.build-note {
+.calculation-link {
   padding: 9px 10px;
 }
 
@@ -770,6 +750,10 @@
   pointer-events: auto;
   touch-action: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.info-popover.is-open .info-popover-card {
+  position: absolute;
 }
 
 .info-popover:hover .info-popover-card,
@@ -986,6 +970,7 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
   }
 
   .info-popover-card {
+    position: fixed;
     top: 50% !important;
     right: 16px;
     bottom: auto;
@@ -993,6 +978,10 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
     max-height: min(420px, calc(100vh - 48px));
     overflow: auto;
     transform: translateY(-50%);
+  }
+
+  .info-popover.is-open .info-popover-card {
+    position: fixed;
   }
 
   .info-popover:hover .info-popover-card {

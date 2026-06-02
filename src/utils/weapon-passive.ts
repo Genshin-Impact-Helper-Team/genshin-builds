@@ -1,13 +1,13 @@
 export type WeaponPassiveValue = number | number[];
 
-export type LocalizedPassiveText = {
+type LocalizedPassiveText = {
   en: string;
   [lang: string]: string | undefined;
 };
 
 export type WeaponPassiveText = string | LocalizedPassiveText;
 
-export type WeaponRefinementData = {
+type WeaponRefinementData = {
   passive?: WeaponPassiveText;
   r1?: WeaponPassiveValue[];
   r2?: WeaponPassiveValue[];

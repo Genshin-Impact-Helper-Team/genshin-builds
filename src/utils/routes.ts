@@ -20,7 +20,7 @@ export function getLanguageStaticPaths() {
  *
  * @returns Sorted unique character slugs.
  */
-export function getCharacterSlugs() {
+function getCharacterSlugs() {
   const contentPath = path.join(process.cwd(), 'src', 'content');
   const slugs = new Set<string>();
 

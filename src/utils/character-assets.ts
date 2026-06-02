@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { sitePath } from './paths';
 
-export type CharacterAssetKind = 'image' | 'portrait';
+type CharacterAssetKind = 'image' | 'portrait';
 
 /**
  * Folder identity for one character under src/content.
@@ -40,7 +40,7 @@ function isInsideContent(filePath: string) {
  * @param kind Metadata image field to resolve.
  * @returns The expected local file name for the asset.
  */
-export function getCharacterAssetFileName(kind: CharacterAssetKind) {
+function getCharacterAssetFileName(kind: CharacterAssetKind) {
   return assetFileNames[kind];
 }
 
@@ -51,7 +51,7 @@ export function getCharacterAssetFileName(kind: CharacterAssetKind) {
  * @param kind Metadata image field to resolve.
  * @returns Absolute path to the expected WebP file.
  */
-export function getCharacterAssetFilePath(
+function getCharacterAssetFilePath(
   context: CharacterAssetContext,
   kind: CharacterAssetKind,
 ) {
@@ -74,7 +74,7 @@ export function getCharacterAssetFilePath(
  * @param kind Metadata image field to resolve.
  * @returns Base-aware URL for the generated static asset route.
  */
-export function getCharacterAssetUrl(
+function getCharacterAssetUrl(
   context: CharacterAssetContext,
   kind: CharacterAssetKind,
 ) {

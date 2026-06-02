@@ -47,9 +47,7 @@ function getFilterValue(name: string) {
     return field.checked ? field.value : '';
   }
 
-  return field instanceof HTMLSelectElement || field instanceof HTMLInputElement
-    ? field.value
-    : '';
+  return field instanceof HTMLInputElement ? field.value : '';
 }
 
 /**

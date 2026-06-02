@@ -1,4 +1,4 @@
-export const DEFAULT_WEAPON_SOURCE = 'Wish';
+const DEFAULT_WEAPON_SOURCE = 'Wish';
 
 const FREE_WEAPON_SOURCES = new Set(['Craft', 'Fishing', 'Exploration']);
 

@@ -109,7 +109,6 @@
 }
 
 .home-filters input,
-.home-filters select,
 .home-select-trigger {
   width: 100%;
   min-height: 30px;
@@ -130,13 +129,6 @@
   align-items: center;
   cursor: pointer;
   text-align: left;
-}
-
-.home-filters select {
-  padding-right: 18px;
-  -webkit-appearance: none;
-  appearance: none;
-  cursor: pointer;
 }
 
 .home-select-filter {
@@ -292,7 +284,6 @@
 }
 
 .home-filters input:focus,
-.home-filters select:focus,
 .home-select-trigger:focus {
   box-shadow: none;
   outline: none;
@@ -918,12 +909,6 @@
   margin-bottom: 8px;
 }
 
-.faq-subtitle {
-  color: var(--accent);
-  font-weight: 700;
-  text-align: center;
-}
-
 .faq-item summary {
   color: var(--accent);
   cursor: pointer;
@@ -998,7 +983,6 @@
   }
 
   .home-filters input,
-  .home-filters select,
   .home-select-trigger {
     font-size: 0.86rem;
   }

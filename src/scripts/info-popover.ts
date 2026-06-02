@@ -7,6 +7,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
 
   const VIEWPORT_PADDING = 8;
   const POPOVER_GAP = 8;
+  const MOBILE_POPOVER_QUERY = '(max-width: 900px)';
   let ignoreNextClick = false;
   let lastTouchY = 0;
   let lockedScrollY = 0;
@@ -50,8 +51,14 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   const hasOpenPopover = () =>
     document.querySelector('.info-popover.is-open') !== null;
 
+  const isMobilePopoverViewport = () =>
+    window.matchMedia(MOBILE_POPOVER_QUERY).matches;
+
+  const isPageAnchoredPopover = (popover: HTMLElement) =>
+    popover.classList.contains('is-open') && !isMobilePopoverViewport();
+
   const shouldLockPageScroll = () =>
-    hasOpenPopover() && window.matchMedia('(max-width: 900px)').matches;
+    hasOpenPopover() && isMobilePopoverViewport();
 
   const lockPageScroll = () => {
     if (document.body.style.position === 'fixed') return;
@@ -205,6 +212,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
 
     const triggerRect = trigger.getBoundingClientRect();
     const cardRect = card.getBoundingClientRect();
+    const popoverRect = popover.getBoundingClientRect();
     const maxLeft = window.innerWidth - cardRect.width - VIEWPORT_PADDING;
     const maxTop = window.innerHeight - cardRect.height - VIEWPORT_PADDING;
     const alignedLeft = triggerRect.left;
@@ -216,9 +224,25 @@ if (!infoPopoverWindow.__infoPopoversReady) {
       window.innerHeight - VIEWPORT_PADDING;
     const preferredTop =
       hasRoomAbove || !hasRoomBelow ? topPlacement : bottomPlacement;
+    const finalLeft = clamp(
+      alignedLeft,
+      VIEWPORT_PADDING,
+      Math.max(VIEWPORT_PADDING, maxLeft),
+    );
+    const finalTop = clamp(
+      preferredTop,
+      VIEWPORT_PADDING,
+      Math.max(VIEWPORT_PADDING, maxTop),
+    );
 
-    card.style.left = `${clamp(alignedLeft, VIEWPORT_PADDING, Math.max(VIEWPORT_PADDING, maxLeft))}px`;
-    card.style.top = `${clamp(preferredTop, VIEWPORT_PADDING, Math.max(VIEWPORT_PADDING, maxTop))}px`;
+    if (isPageAnchoredPopover(popover)) {
+      card.style.left = `${finalLeft - popoverRect.left}px`;
+      card.style.top = `${finalTop - popoverRect.top}px`;
+    } else {
+      card.style.left = `${finalLeft}px`;
+      card.style.top = `${finalTop}px`;
+    }
+
     card.style.display = previousDisplay;
     card.style.visibility = previousVisibility;
   };
@@ -226,12 +250,16 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   /**
    * Repositions every popover that is currently visible or interactive.
    */
-  const positionActivePopovers = () => {
+  const positionActivePopovers = (positionPageAnchored = true) => {
     document
       .querySelectorAll<HTMLElement>(
         '.info-popover:hover, .info-popover:focus-within, .info-popover.is-open',
       )
-      .forEach(positionPopoverCard);
+      .forEach((popover) => {
+        if (positionPageAnchored || !isPageAnchoredPopover(popover)) {
+          positionPopoverCard(popover);
+        }
+      });
   };
 
   /**
@@ -306,7 +334,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     'scroll',
     (event) => {
       if (!isInsidePopoverCard(event.target)) {
-        positionActivePopovers();
+        positionActivePopovers(false);
       }
     },
     true,

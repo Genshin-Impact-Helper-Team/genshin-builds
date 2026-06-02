@@ -1,6 +1,4 @@
 const cards = document.querySelectorAll<HTMLElement>('.build-card');
-const buildNavItems =
-  document.querySelectorAll<HTMLButtonElement>('[data-build-nav]');
 const buildsLayout = document.querySelector<HTMLElement>(
   '.character-builds-layout',
 );
@@ -34,13 +32,6 @@ function openCard(targetId: string | null, updateUrl = true) {
     button?.setAttribute('aria-expanded', String(isTarget));
   });
 
-  buildNavItems.forEach((item) => {
-    item.setAttribute(
-      'aria-current',
-      String(item.dataset.buildNav === targetId),
-    );
-  });
-
   if (updateUrl) {
     window.history.pushState({}, '', getBuildUrl(targetId));
   }
@@ -58,12 +49,6 @@ cards.forEach((card) => {
 
     // Store the opened build in the URL so direct links restore the same panel.
     openCard(newState ?? null);
-  });
-});
-
-buildNavItems.forEach((item) => {
-  item.addEventListener('click', () => {
-    openCard(item.dataset.buildNav ?? null);
   });
 });
 
