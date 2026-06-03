@@ -1,8 +1,9 @@
 {
     "notes": [
         {
-            "en": "**These placements assume strong [[stat:atk%]] buffs such as [[character:bennett]], as [[character:diluc]] is commonly played with them present in his party.**",
-            "fr": "**Ce classement suppose des buffs [[stat:atk%]] importants, tels que [[character:bennett]], puisque [[character:diluc]] est souvent joué avec ces buffs dans l'équipe.**"
+            "en": "**These placements assume strong [[stat:atk]] buffs such as [[character:bennett]], as [[character:diluc]] is commonly played with them present in his party.**",
+            "fr": "**Ce classement suppose des buffs [[stat:atk]] importants, tels que [[character:bennett]], puisque [[character:diluc]] est souvent joué avec ces buffs dans l'équipe.**",
+            "it": "**La classifica presuppone forti potenziamenti ad [[stat:atk]], come quello di [[character:bennett]]."
         }
     ],
     "weapons": [
@@ -12,7 +13,8 @@
                     "name": "beacon-of-the-reed-sea",
                     "note": {
                         "en": "This weapon ranking assumes one stack.",
-                        "fr": "Ce classement suppose 1 stack."
+                        "fr": "Ce classement suppose 1 stack.",
+                        "it": "La classifica presuppone un accumulo."
                     }
                 },
                 "redhorn-stonethresher",
@@ -26,7 +28,8 @@
                     "name": "serpent-spine",
                     "note": {
                         "en": "Assumes you **can maintain high stacks of the weapon effect**. At **[R5], it is [[character:diluc]]'s best weapon**.",
-                        "fr": "Suppose que vous **arrivez à maintenir un haut nombre de stack du passif de l'arme**. Une fois **[R5], il s'agit de la meilleure arme pour [[character:diluc]]**."
+                        "fr": "Suppose que vous **arrivez à maintenir un haut nombre de stack du passif de l'arme**. Une fois **[R5], il s'agit de la meilleure arme pour [[character:diluc]]**.",
+                        "it": "La classifica presuppone che tu riesca a mantenere accumuli alti dell'effetto dell'arma. A **[R5]**, è l'arma migliore di [[character:diluc]]."
                     }
                 }
             ]
@@ -48,8 +51,9 @@
                 {
                     "name": "rainslasher",
                     "note": {
-                        "en": "Only use this weapon in teams where [[character:diluc]] is consistently triggering [[element:vaporize]]. It scales well with refinements, potentially surpassing **[[weapon:wolfs-gravestone]] at [R5]**.",
-                        "fr": "N'utilisez cette arme que dans les équipes où [[character:diluc]] déclenche régulièrement [[element:vaporize]]. Elle profite énormément des raffinements, dépassant potentiellement **[[weapon:wolfs-gravestone]] une fois [R5]**."
+                        "en": "Only use this weapon in teams where [[character:diluc]] is **consistently triggering [[element:vaporize]]**. It scales well with refinements, potentially surpassing **[[weapon:wolfs-gravestone]] at [R5]**.",
+                        "fr": "N'utilisez cette arme que dans les équipes où [[character:diluc]] **déclenche régulièrement [[element:vaporize]]**. Elle profite énormément des raffinements, dépassant potentiellement **[[weapon:wolfs-gravestone]] une fois [R5]**.",
+                        "it": "Quest'arma dovrebbe essere utilizzata esclusivamente in team in cui [[character:diluc]] riesce a provocare **[[element:vaporize]] in maniera affidabile**. Quest'arma scala bene con i miglioramenti, potenzialmente oltrepassando **[[weapon:wolfs-gravestone]] a [R5]**."
                     }
                 },
                 {
@@ -64,14 +68,16 @@
                     "name": "tidal-shadow",
                     "note": {
                         "en": "Assumes [[character:diluc]] **can consistently be healed**. Otherwise, this weapon ranks **below [[weapon:earth-shaker]]**.",
-                        "fr": "Suppose que [[character:diluc]] **peut être soigné régulièrement**. Sinon, cette arme se classe **en dessous de [[weapon:earth-shaker]]**."
+                        "fr": "Suppose que [[character:diluc]] **peut être soigné régulièrement**. Sinon, cette arme se classe **en dessous de [[weapon:earth-shaker]]**.",
+                        "it": "La classifica presuppone che [[character:diluc]] **riceva cure in maniera affidabile**. Altrimenti, quest'arma si piazza **sotto [[weapon:earth-shaker]]**."
                     }
                 },
                 {
                     "name": "blackcliff-slasher",
                     "note": {
-                        "en": "Assumes the weapon passive does not activate.",
-                        "fr": "Suppose que le passif de l'arme ne s'active pas."
+                        "en": "Assumes the weapon passive does **not** activate.",
+                        "fr": "Suppose que le passif de l'arme **ne s'active pas**.",
+                        "it": "Presuppone che la passiva **non** sia attiva."
                     }
                 },
                 "skyward-pride"
