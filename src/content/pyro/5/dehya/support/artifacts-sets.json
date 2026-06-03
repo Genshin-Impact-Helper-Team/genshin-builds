@@ -32,8 +32,9 @@
                             "name": "instructor",
                             "pieces": 4,
                             "note": {
-                                "en": "A useful set if the team appreciates [[stat:em]].",
-                                "fr": "Un set utile si l'équipe apprécie la [[stat:em]]."
+                                "en": "A useful set if the team appreciates **[[stat:em]]**.",
+                                "fr": "Un set utile si l'équipe apprécie la **[[stat:em]]**.",
+                                "it": "Un set utile se il tuo team trae beneficio dalla **[[stat:em]]**."
                             }
                         }
                     ]
@@ -64,8 +65,9 @@
                             "name": "deepwood-memories",
                             "pieces": 4,
                             "note": {
-                                "en": "This set is only useful in teams that are focused on [[stat:dendro-dmg]], including [[element:bloom]]-based teams.",
-                                "fr": "Ce set n'est utile que pour les équipent qui tournent autour des [[stat:dendro-dmg]], y compris les équipes [[element:bloom]]."
+                                "en": "This set is only useful in teams that are focused on **[[element:dendro]] damage**, including [[element:bloom]]-based teams.",
+                                "fr": "Ce set n'est utile que pour les équipent qui tournent autour des dégâts **[[element:dendro]]**, y compris les équipes [[element:bloom]].",
+                                "it": "Questo set è utile esclusivamente in team che si concentrano su **danni [[element:dendro]]**, inclusi team basati su [[element:bloom]]."
                             }
                         }
                     ]
