@@ -33,7 +33,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "**Don't cancel [[character:arlecchino]]'s [[ability:ca]] too early** to ensure that it hits opponents for the passive effect.",
-                                "fr": "**Ne faites pas un cancel de l'[[ability:ca]] d'[[character:arlecchino]] trop tôt** pour vous assurer qu'elle touche un ennemi pour le passif du set."
+                                "fr": "**Ne faites pas un cancel de l'[[ability:ca]] d'[[character:arlecchino]] trop tôt** pour vous assurer qu'elle touche un ennemi pour le passif du set.",
+                                "it": "**Non annullare l'[[ability:ca]] di [[character:arlecchino]] troppo presto**, in modo da assicurarti di colpire i nemici ed attivare l'effetto passivo."
                             }
                         }
                     ]
@@ -65,8 +66,9 @@
                             "name": "echoes-of-an-offering",
                             "pieces": 4,
                             "note": {
-                                "en": "This set performs similarly to [[set:desert-pavilion-chronicle]] (4)** if your ping is **consistently lower than 200**.",
-                                "fr": "Ce set est similaire à [[set:desert-pavilion-chronicle]] (4)** si votre ping est **constamment plus bas que 200**."
+                                "en": "This set performs similarly to **[[set:desert-pavilion-chronicle]] (4)** if your ping is **consistently lower than 200**.",
+                                "fr": "Ce set est similaire à **[[set:desert-pavilion-chronicle]] (4)** si votre ping est **constamment plus bas que 200**.",
+                                "it": "Questo set ha prestazioni simili a **[[set:desert-pavilion-chronicle]] (4)** se il tuo ping è **costantemente inferiore a 200**."
                             }
                         }
                     ]
