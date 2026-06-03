@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Generally the best go-to set for [[character:diluc]] due to how easily he can stack the [[stat:pyro-dmg]] effect, while his [[ability:burst]] imbues his [[ability:na]] and [[ability:ca]] with [[element:pyro]].",
-                                "fr": "Généralement le meilleur set pour [[character:diluc]] étant donné la facilité qu'il a à stack l'effet [[stat:pyro-dmg]] lorsque son [[ability:burst]] infuse ses [[ability:na]] et [[ability:ca]] avec [[element:pyro]]."
+                                "fr": "Généralement le meilleur set pour [[character:diluc]] étant donné la facilité qu'il a à stack l'effet [[stat:pyro-dmg]] lorsque son [[ability:burst]] infuse ses [[ability:na]] et [[ability:ca]] avec [[element:pyro]].",
+                                "it": "Generalmente il miglior set di [[character:diluc]] grazie alla facilità con cui può accumularne l'effetto."
                             }
                         }
                     ]
@@ -70,7 +71,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "Competitive with **[[set:crimson-witch-of-flames]] (4)** when using **[[character:furina]] alongside [[character:diluc]]**.",
-                        "fr": "Rivalise avec **[[set:crimson-witch-of-flames]] (4)** lorsque **[[character:furina]] est jouée avec [[character:diluc]]**."
+                        "fr": "Rivalise avec **[[set:crimson-witch-of-flames]] (4)** lorsque **[[character:furina]] est jouée avec [[character:diluc]]**.",
+                        "it": "Competitivo con **[[set:crimson-witch-of-flames]] (4)** se **[[character:furina]]** è nel team."
                     }
                 }
             ]
