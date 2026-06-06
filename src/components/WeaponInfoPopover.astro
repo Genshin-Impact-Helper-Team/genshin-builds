@@ -7,6 +7,7 @@ import {
   type WeaponPassiveValue,
 } from '../utils/weapon-passive';
 import { getWeaponSource } from '../utils/weapon-source';
+import { resolveWeaponAssetUrlById } from '../utils/item-assets';
 
 type WeaponInfo = {
   rarity: number;
@@ -32,6 +33,7 @@ type Props = {
   locale: any;
   lang?: string;
   weapon: {
+    id?: string;
     name: string;
     rarity: number;
     info?: WeaponInfo;
@@ -101,6 +103,7 @@ const sourceName =
     ? translatedSourceName
     : source;
 const sourceLabel = t(locale, 'ui', 'Source', undefined, false);
+const imageUrl = weapon.id ? resolveWeaponAssetUrlById(weapon.id) : '';
 ---
 
 <span class="info-popover weapon-popover">
@@ -116,7 +119,12 @@ const sourceLabel = t(locale, 'ui', 'Source', undefined, false);
   {
     info && (
       <span class="info-popover-card" role="tooltip">
-        <span class="info-popover-header">
+        <span class={`info-popover-header${imageUrl ? ' has-image' : ''}`}>
+          {imageUrl && (
+            <span class="info-popover-image weapon-popover-image">
+              <img src={imageUrl} alt="" loading="lazy" decoding="async" />
+            </span>
+          )}
           <span class="info-popover-name">{weapon.name}</span>
           <span class="info-popover-rarity">
             {info.rarity} {'\u2605'}

@@ -56,27 +56,20 @@ if (!infoPopoverWindow.__infoPopoversReady) {
 
   const isPageAnchoredPopover = (popover: HTMLElement) =>
     !isMobilePopoverViewport() &&
-    (popover.classList.contains('is-open') ||
-      popover.matches(':focus-within'));
+    (popover.classList.contains('is-open') || popover.matches(':focus-within'));
 
   const shouldLockPageScroll = () =>
     hasOpenPopover() && isMobilePopoverViewport();
 
   const lockPageScroll = () => {
-    if (document.body.style.position === 'fixed') return;
-
     lockedScrollY = window.scrollY;
-    document.body.style.position = 'fixed';
-    document.body.style.top = `-${lockedScrollY}px`;
-    document.body.style.left = '0';
-    document.body.style.right = '0';
-    document.body.style.width = '100%';
   };
 
   const unlockPageScroll = () => {
     if (document.body.style.position !== 'fixed') return;
 
-    const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+    const previousScrollBehavior =
+      document.documentElement.style.scrollBehavior;
 
     document.documentElement.style.scrollBehavior = 'auto';
     document.body.style.position = '';

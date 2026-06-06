@@ -1,3 +1,5 @@
+import { initializeFilterSelects } from './filter-selects';
+
 const filters = document.querySelector<HTMLFormElement>(
   '[data-character-filters]',
 );
@@ -286,6 +288,7 @@ cards.forEach((card) => {
   card.addEventListener('focus', () => setSelectedCard(card));
 });
 
+initializeFilterSelects();
 applyFilters();
 initializePortraitLoading();
 

@@ -6,6 +6,10 @@ import {
   type WeaponPassiveValue,
 } from './weapon-passive';
 import { getWeaponSource } from './weapon-source';
+import {
+  resolveArtifactAssetUrl,
+  resolveWeaponAssetUrlById,
+} from './item-assets';
 
 type TranslationCategory =
   | 'artifact'
@@ -358,7 +362,11 @@ export class TranslationHelper {
       }
 
       if (translationCategory === 'artifact' && options.artifactPopovers) {
-        return this.renderArtifactPopover(canonicalId, translation, displayName);
+        return this.renderArtifactPopover(
+          canonicalId,
+          translation,
+          displayName,
+        );
       }
 
       return displayLabel ? escapeHtml(displayLabel) : translation;
@@ -450,6 +458,14 @@ export class TranslationHelper {
           '</strong></span>',
         ].join('')
       : '';
+    const imageUrl = resolveWeaponAssetUrlById(id);
+    const imageMarkup = imageUrl
+      ? [
+          '<span class="info-popover-image weapon-popover-image"><img src="',
+          escapeHtml(imageUrl),
+          '" alt="" loading="lazy" decoding="async"></span>',
+        ].join('')
+      : '';
 
     return [
       '<span class="info-popover weapon-popover">',
@@ -457,7 +473,10 @@ export class TranslationHelper {
       escapeHtml(label),
       '</button>',
       '<span class="info-popover-card" role="tooltip">',
-      '<span class="info-popover-header">',
+      '<span class="info-popover-header',
+      imageUrl ? ' has-image' : '',
+      '">',
+      imageMarkup,
       '<span class="info-popover-name">',
       escapeHtml(name),
       '</span>',
@@ -505,6 +524,14 @@ export class TranslationHelper {
       { label: '2P', value: this.getLocalizedArtifactEffect(info['2p']) },
       { label: '4P', value: this.getLocalizedArtifactEffect(info['4p']) },
     ].filter((row) => row.value);
+    const imageUrl = resolveArtifactAssetUrl(id);
+    const imageMarkup = imageUrl
+      ? [
+          '<span class="info-popover-image artifact-popover-image"><img src="',
+          escapeHtml(imageUrl),
+          '" alt="" loading="lazy" decoding="async"></span>',
+        ].join('')
+      : '';
 
     return [
       '<span class="info-popover artifact-popover">',
@@ -512,7 +539,10 @@ export class TranslationHelper {
       escapeHtml(label),
       '</button>',
       '<span class="info-popover-card artifact-popover-card" role="tooltip">',
-      '<span class="info-popover-header">',
+      '<span class="info-popover-header',
+      imageUrl ? ' has-image' : '',
+      '">',
+      imageMarkup,
       '<span class="info-popover-name">',
       escapeHtml(name),
       '</span>',

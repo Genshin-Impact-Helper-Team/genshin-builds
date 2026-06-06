@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "download:artifact-assets": "node scripts/download-artifact-assets.mjs",
+    "download:weapon-assets": "node scripts/download-weapon-assets.mjs"
   },
   "dependencies": {
     "astro": "^6.3.1",

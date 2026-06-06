@@ -1,0 +1,148 @@
+---
+import { t } from '../utils/i18n';
+
+type ArtifactSetBrowserData = {
+  artifactSets: {
+    id: string;
+    imageUrl: string;
+    name: string;
+    rarity: number;
+    bonuses: {
+      id: string;
+      label: string;
+      html: string;
+    }[];
+    bonusTypes: string[];
+  }[];
+  bonusTypes: {
+    id: string;
+    label: string;
+  }[];
+  rarities: number[];
+};
+
+const { data, locale } = Astro.props as {
+  data: ArtifactSetBrowserData;
+  locale: any;
+};
+
+const allLabel = t(locale, 'ui', 'All');
+const resultsLabel = t(locale, 'ui', 'Results');
+const noResultsLabel = t(
+  locale,
+  'ui',
+  'No artifact sets found',
+  undefined,
+  false,
+);
+const searchByNameLabel = t(locale, 'ui', 'Search by name');
+const rarityLabel = t(locale, 'ui', 'Rarity');
+const searchLabel = t(locale, 'ui', 'Search');
+const bonusLabel = t(locale, 'ui', 'Set Bonus', undefined, false);
+const artifactSetLabel = `${t(locale, 'ui', 'Artifacts')} ${t(locale, 'ui', 'Sets')}`;
+---
+
+<section class="artifact-set-browser" data-artifact-browser>
+  <form class="home-filters artifact-set-filters" data-artifact-filters>
+    <label class="home-search">
+      {searchLabel}
+      <input
+        type="search"
+        name="search"
+        placeholder={searchByNameLabel}
+        autocomplete="off"
+      />
+    </label>
+
+    <div class="home-select-filter">
+      {rarityLabel}
+      <select class="home-native-select" name="rarity" aria-label={rarityLabel}>
+        <option value="">{allLabel}</option>
+        {
+          data.rarities.map((rarity) => (
+            <option value={String(rarity)}>
+              {rarity}
+              {'\u2605'}
+            </option>
+          ))
+        }
+      </select>
+    </div>
+
+    <div class="home-select-filter">
+      {bonusLabel}
+      <select class="home-native-select" name="bonus" aria-label={bonusLabel}>
+        <option value="">{allLabel}</option>
+        {
+          data.bonusTypes.map((bonus) => (
+            <option value={bonus.id}>{bonus.label}</option>
+          ))
+        }
+      </select>
+    </div>
+  </form>
+
+  <div class="artifact-set-browser-header">
+    <p data-artifact-count data-results-label={resultsLabel} aria-live="polite">
+      {data.artifactSets.length}
+      {resultsLabel}
+    </p>
+  </div>
+
+  <div class="artifact-set-grid">
+    {
+      data.artifactSets.map((artifactSet) => (
+        <article
+          class={`artifact-set-entry rarity-${artifactSet.rarity}`}
+          data-artifact-card
+          data-name={artifactSet.name}
+          data-rarity={artifactSet.rarity}
+          data-bonuses={artifactSet.bonusTypes.join(' ')}
+        >
+          <header class="artifact-set-entry-header">
+            <div class="artifact-set-entry-title">
+              <div
+                class={`artifact-set-entry-image${artifactSet.imageUrl ? '' : ' is-empty'}`}
+              >
+                {artifactSet.imageUrl && (
+                  <img
+                    src={artifactSet.imageUrl}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                )}
+              </div>
+              <div>
+                <h2>{artifactSet.name}</h2>
+                <p>{artifactSetLabel}</p>
+              </div>
+            </div>
+            <span class="artifact-set-entry-rarity">
+              {artifactSet.rarity}
+              {'\u2605'}
+            </span>
+          </header>
+
+          <div class="artifact-set-bonus-list">
+            {artifactSet.bonuses.map((bonus) => (
+              <section
+                class="artifact-set-bonus"
+                aria-label={`${artifactSet.name} ${bonus.label}`}
+              >
+                <h3>{bonus.label}</h3>
+                <div set:html={bonus.html} />
+              </section>
+            ))}
+          </div>
+        </article>
+      ))
+    }
+  </div>
+
+  <p class="artifact-set-empty" data-artifact-empty hidden>{noResultsLabel}</p>
+</section>
+
+<script>
+  import '../scripts/artifact-browser';
+</script>

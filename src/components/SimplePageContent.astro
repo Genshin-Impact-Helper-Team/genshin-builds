@@ -104,6 +104,27 @@ const renderText = (value: string) =>
 {
   kind === 'credits' && locale && (
     <>
+      <section class="card credits-card credits-legal-card">
+        <h2>{t(locale, 'ui', 'Legal Notice', undefined, false)}</h2>
+        <p>{t(locale, 'ui', 'Legal notice unofficial', undefined, false)}</p>
+        <p>{t(locale, 'ui', 'Legal notice ownership', undefined, false)}</p>
+        <p class="credits-legal-declaration">
+          © All rights reserved by COGNOSPHERE. Other properties belong to their
+          respective owners.
+        </p>
+        <p>
+          {t(locale, 'ui', 'Legal notice unpublished', undefined, false)}{' '}
+          <a
+            href="https://www.hoyolab.com/article/143107"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t(locale, 'ui', 'Legal FAQ', undefined, false)}
+          </a>
+          .
+        </p>
+      </section>
+
       <section class="card credits-card">
         <p>
           {t(locale, 'ui', 'Credits feedback')}

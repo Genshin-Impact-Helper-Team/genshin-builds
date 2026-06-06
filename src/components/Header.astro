@@ -16,6 +16,41 @@ const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
 const menuElements = getSideMenuData(locale);
+const isHomePage = !character && !page;
+const browseLinks = [
+  {
+    href: localizedPath(currentLang),
+    label: t(locale, 'ui', 'Home', undefined, false),
+    isCurrent: isHomePage,
+  },
+  {
+    href: localizedPath(currentLang, 'weapons'),
+    label: t(locale, 'ui', 'Weapons', undefined, false),
+    isCurrent: page === 'weapons',
+  },
+  {
+    href: localizedPath(currentLang, 'artifacts'),
+    label: t(locale, 'ui', 'Artifacts Sets', undefined, false),
+    isCurrent: page === 'artifacts',
+  },
+];
+const infoLinks = [
+  {
+    href: localizedPath(currentLang, 'faq'),
+    label: t(locale, 'ui', 'FAQ', undefined, false),
+    isCurrent: page === 'faq',
+  },
+  {
+    href: localizedPath(currentLang, 'credits'),
+    label: t(locale, 'ui', 'Credits', undefined, false),
+    isCurrent: page === 'credits',
+  },
+  {
+    href: localizedPath(currentLang, 'changelog'),
+    label: t(locale, 'ui', 'Changelog', undefined, false),
+    isCurrent: page === 'changelog',
+  },
+];
 ---
 
 <header class="site-header">
@@ -24,7 +59,7 @@ const menuElements = getSideMenuData(locale);
       <button
         class="menu-toggle"
         type="button"
-        aria-label="Open character menu"
+        aria-label="Open menu"
         aria-expanded="false"
         aria-controls="side-menu"
         data-menu-open
@@ -67,12 +102,12 @@ const menuElements = getSideMenuData(locale);
   </div>
 
   <div class="menu-backdrop" data-menu-close></div>
-  <aside class="side-menu" id="side-menu" aria-label="Character menu">
+  <aside class="side-menu" id="side-menu" aria-label="Site menu">
     <div class="side-menu-header">
       <button
         class="menu-close"
         type="button"
-        aria-label="Close character menu"
+        aria-label="Close menu"
         data-menu-close
       >
         &times;
@@ -80,35 +115,74 @@ const menuElements = getSideMenuData(locale);
     </div>
 
     <nav class="side-menu-nav">
-      <a class="side-menu-link" href={localizedPath(currentLang)}>
-        {t(locale, 'ui', 'Home')}
-      </a>
-      <a class="side-menu-link" href={localizedPath(currentLang, 'faq')}>
-        {t(locale, 'ui', 'FAQ')}
-      </a>
-      {
-        menuElements.map((element) => (
-          <details class={`element-group ${element.element}`}>
-            <summary>{element.name}</summary>
-            <div class="rarity-groups">
-              {element.rarities.map((rarity) => (
-                <details class="rarity-group">
-                  <summary>{rarity.label}</summary>
-                  <ul>
-                    {rarity.characters.map((character) => (
-                      <li>
-                        <a href={localizedPath(currentLang, character.slug)}>
-                          {character.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
-              ))}
-            </div>
-          </details>
-        ))
-      }
+      <section class="side-menu-section" aria-labelledby="side-menu-browse">
+        <h2 id="side-menu-browse">
+          {t(locale, 'ui', 'Browse', undefined, false)}
+        </h2>
+        <div class="side-menu-links">
+          {
+            browseLinks.map((link) => (
+              <a
+                class="side-menu-link"
+                href={link.href}
+                aria-current={link.isCurrent ? 'page' : undefined}
+              >
+                {link.label}
+              </a>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="side-menu-section" aria-labelledby="side-menu-info">
+        <h2 id="side-menu-info">
+          {t(locale, 'ui', 'Information', undefined, false)}
+        </h2>
+        <div class="side-menu-links">
+          {
+            infoLinks.map((link) => (
+              <a
+                class="side-menu-link"
+                href={link.href}
+                aria-current={link.isCurrent ? 'page' : undefined}
+              >
+                {link.label}
+              </a>
+            ))
+          }
+        </div>
+      </section>
+
+      <details class="side-menu-section character-index">
+        <summary>{t(locale, 'ui', 'Characters', undefined, false)}</summary>
+        <div class="character-index-groups">
+          {
+            menuElements.map((element) => (
+              <details class={`element-group ${element.element}`}>
+                <summary>{element.name}</summary>
+                <div class="rarity-groups">
+                  {element.rarities.map((rarity) => (
+                    <details class="rarity-group">
+                      <summary>{rarity.label}</summary>
+                      <ul>
+                        {rarity.characters.map((character) => (
+                          <li>
+                            <a
+                              href={localizedPath(currentLang, character.slug)}
+                            >
+                              {character.name}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </details>
+                  ))}
+                </div>
+              </details>
+            ))
+          }
+        </div>
+      </details>
     </nav>
   </aside>
 </header>
