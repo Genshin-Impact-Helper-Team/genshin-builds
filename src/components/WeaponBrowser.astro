@@ -1,0 +1,211 @@
+---
+import { t } from '../utils/i18n';
+
+type WeaponBrowserData = {
+  rarities: number[];
+  substats: {
+    id: string;
+    label: string;
+  }[];
+  weaponTypes: {
+    id: string;
+    label: string;
+  }[];
+  weapons: {
+    id: string;
+    name: string;
+    rarity: number;
+    type: string;
+    typeLabel: string;
+    sourceName: string;
+    substat: string;
+    substatName: string;
+    level1BaseAttack: string;
+    levelMaxBaseAttack: string;
+    level1Substat: string;
+    levelMaxSubstat: string;
+    passivePanels: {
+      refinement: number;
+      html: string;
+    }[];
+  }[];
+};
+
+const { data, locale } = Astro.props as {
+  data: WeaponBrowserData;
+  locale: any;
+};
+
+const allLabel = t(locale, 'ui', 'All');
+const resultsLabel = t(locale, 'ui', 'Results');
+const noResultsLabel = t(locale, 'ui', 'No weapons found', undefined, false);
+const sourceLabel = t(locale, 'ui', 'Source', undefined, false);
+const substatsLabel = t(locale, 'ui', 'Substats', undefined, false);
+const searchByNameLabel = t(locale, 'ui', 'Search by name');
+const weaponLabel = t(locale, 'ui', 'Weapon');
+const rarityLabel = t(locale, 'ui', 'Rarity');
+const searchLabel = t(locale, 'ui', 'Search');
+const descriptionLabel = t(locale, 'ui', 'Description', undefined, false);
+const level1Label = t(locale, 'ui', 'Level 1', undefined, false);
+const maxLevelLabel = t(locale, 'ui', 'Max Level', undefined, false);
+const statLabel = t(locale, 'ui', 'Stat', undefined, false);
+const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
+---
+
+<section class="weapon-browser" data-weapon-browser>
+  <form class="home-filters weapon-filters" data-weapon-filters>
+    <label class="home-search">
+      {searchLabel}
+      <input
+        type="search"
+        name="search"
+        placeholder={searchByNameLabel}
+        autocomplete="off"
+      />
+    </label>
+
+    <div class="home-select-filter">
+      {weaponLabel}
+      <select class="home-native-select" name="type" aria-label={weaponLabel}>
+        <option value="">{allLabel}</option>
+        {
+          data.weaponTypes.map((type) => (
+            <option value={type.id}>{type.label}</option>
+          ))
+        }
+      </select>
+    </div>
+
+    <div class="home-select-filter">
+      {rarityLabel}
+      <select class="home-native-select" name="rarity" aria-label={rarityLabel}>
+        <option value="">{allLabel}</option>
+        {
+          data.rarities.map((rarity) => (
+            <option value={String(rarity)}>
+              {rarity}
+              {'\u2605'}
+            </option>
+          ))
+        }
+      </select>
+    </div>
+
+    <div class="home-select-filter">
+      {substatsLabel}
+      <select
+        class="home-native-select"
+        name="substat"
+        aria-label={substatsLabel}
+      >
+        <option value="">{allLabel}</option>
+        {
+          data.substats.map((substat) => (
+            <option value={substat.id}>{substat.label}</option>
+          ))
+        }
+      </select>
+    </div>
+  </form>
+
+  <div class="weapon-browser-header">
+    <p data-weapon-count data-results-label={resultsLabel} aria-live="polite">
+      {data.weapons.length}
+      {resultsLabel}
+    </p>
+  </div>
+
+  <div class="weapon-grid">
+    {
+      data.weapons.map((weapon) => (
+        <article
+          class={`weapon-entry rarity-${weapon.rarity}`}
+          data-weapon-card
+          data-name={weapon.name}
+          data-rarity={weapon.rarity}
+          data-substat={weapon.substat}
+          data-type={weapon.type}
+        >
+          <header class="weapon-entry-header">
+            <div>
+              <h2>{weapon.name}</h2>
+              <p>{weapon.typeLabel}</p>
+            </div>
+            <span class="weapon-entry-rarity">
+              {weapon.rarity}
+              {'\u2605'}
+            </span>
+          </header>
+
+          <table class="weapon-stat-table">
+            <thead>
+              <tr>
+                <th>{statLabel}</th>
+                <th>{level1Label}</th>
+                <th>{maxLevelLabel}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">{baseAttackLabel}</th>
+                <td>{weapon.level1BaseAttack || '-'}</td>
+                <td>{weapon.levelMaxBaseAttack || '-'}</td>
+              </tr>
+              {weapon.substatName && (
+                <tr>
+                  <th scope="row">{weapon.substatName}</th>
+                  <td>{weapon.level1Substat || '-'}</td>
+                  <td>{weapon.levelMaxSubstat || '-'}</td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+
+          {weapon.passivePanels.length > 0 && (
+            <section
+              class="weapon-entry-passive"
+              aria-label={`${weapon.name} ${descriptionLabel}`}
+            >
+              <div class="weapon-entry-section-header">
+                <h3>{descriptionLabel}</h3>
+                <div class="weapon-refinement-buttons">
+                  {weapon.passivePanels.map((panel) => (
+                    <button
+                      class="weapon-refinement-button"
+                      type="button"
+                      data-weapon-refinement={`r${panel.refinement}`}
+                      aria-selected={panel.refinement === 1 ? 'true' : 'false'}
+                    >
+                      R{panel.refinement}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div class="weapon-passive-copy">
+                {weapon.passivePanels.map((panel) => (
+                  <div
+                    data-weapon-refinement-panel={`r${panel.refinement}`}
+                    hidden={panel.refinement !== 1}
+                    set:html={panel.html}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+
+          <footer class="weapon-entry-footer">
+            <span>{sourceLabel}</span>
+            <strong>{weapon.sourceName}</strong>
+          </footer>
+        </article>
+      ))
+    }
+  </div>
+
+  <p class="weapon-empty" data-weapon-empty hidden>{noResultsLabel}</p>
+</section>
+
+<script>
+  import '../scripts/weapon-browser';
+</script>

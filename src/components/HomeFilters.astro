@@ -53,11 +53,12 @@ const weaponOptions = [
     />
   </label>
 
-  <label class="home-select-filter">
+  <div class="home-select-filter">
     {t(locale, 'ui', 'Element')}
     <select
       class="home-native-select"
       name="element"
+      aria-label={t(locale, 'ui', 'Element')}
     >
       {
         elementOptions.map((option) => (
@@ -65,13 +66,14 @@ const weaponOptions = [
         ))
       }
     </select>
-  </label>
+  </div>
 
-  <label class="home-select-filter">
+  <div class="home-select-filter">
     {t(locale, 'ui', 'Rarity')}
     <select
       class="home-native-select"
       name="rarity"
+      aria-label={t(locale, 'ui', 'Rarity')}
     >
       {
         rarityOptions.map((option) => (
@@ -79,13 +81,14 @@ const weaponOptions = [
         ))
       }
     </select>
-  </label>
+  </div>
 
-  <label class="home-select-filter">
+  <div class="home-select-filter">
     {t(locale, 'ui', 'Weapon')}
     <select
       class="home-native-select"
       name="weapon"
+      aria-label={t(locale, 'ui', 'Weapon')}
     >
       {
         weaponOptions.map((option) => (
@@ -93,7 +96,7 @@ const weaponOptions = [
         ))
       }
     </select>
-  </label>
+  </div>
 
   {
     hasRecentUpdates && (

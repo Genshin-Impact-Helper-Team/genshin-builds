@@ -26,7 +26,7 @@
             "ru": "При попадании атаки по противнику на его позиции наносится урон по площади, равный {{value}}% от макс. HP. Этот эффект может возникнуть один раз в 15 сек.",
             "pt": "Quando um ataque acerta um oponente, causa {{value}}% da Vida Máxima como Dano em uma AdE no local do alvo. Este efeito pode ser desencadeado uma vez a cada 15s."
         },
-        "substat": "HP%",
+        "substat": "hp%",
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
@@ -62,7 +62,7 @@
             "ru": "Другие члены отряда предоставляют экипированному этим оружием персонажу усиления в зависимости от того, совпадают их элементы, или нет. Если элементы совпадают, мастерство стихий повышается на {{value}} ед. Если не совпадают, экипированный этим оружием персонаж получает {{value}}% бонус урона своего элемента. Данные эффекты складываются до 3 раз. Вдобавок мастерство стихий всех персонажей отряда поблизости (кроме экипированного этим оружием персонажа) увеличивается на {{value}} единиц. Если этим оружием обладают и другие члены отряда, эффект суммируется.",
             "pt": "Os personagens da equipe além do personagem com esta arma equipada darão bônus ao personagem com esta arma equipada baseado no seu Tipo Elemental. Se o Tipo Elemental for o mesmo do personagem com esta arma equipada, aumentarão a Proficiência Elemental em {{value}}. Se o Tipo Elemental for diferente do personagem com esta arma equipada, aumentarão o Bônus de Dano Elemental do Tipo Elemental do personagem com esta arma equipada em {{value}}%. Os efeitos mencionados acima podem acumular até 3 vezes. Além disso, todos os aliados próximos exceto pelo personagem com esta arma equipada terão sua Proficiência Elemental aumentada em {{value}}. Os efeitos de várias armas com este mesmo nome podem ser acumulados."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 44,
             "substat_value": "58"
@@ -188,7 +188,7 @@
             "ru": "Повышает урон реакции Бутонизация на {{value}}%, а реакции Лунная бутонизация - на {{value}}%. Лунное знамение - Высшее сияние: урон реакции Лунная бутонизация дополнительно повышается на {{value}}%.",
             "pt": "Dano de Florescimento é aumentado em {{value}}%. Dano de Florescimento Lunar é aumentado em {{value}}%. Presságio Lunar: Reluzir Cheio: aumenta o Dano de Florescimento Lunar em mais {{value}}%."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 41,
             "substat_value": "48"
@@ -285,7 +285,7 @@
             "ru": "После того как атака в падении экипированного персонажа поражает врага, урон атак в падении членов отряда поблизости повышается на {{value}}% на 20 сек. Попадания атак в падении членов отряда поблизости восстанавливают {{value}} ед. энергии экипированного персонажа. Восстанавливать энергию таким образом можно 1 раз в 0,7 сек. Эффект восстановления энергии срабатывает, даже если экипированный персонаж не на поле боя.",
             "pt": "Após o personagem que está com essa arma equipada atingir um inimigo com um Ataque Imersivo, aumenta o Dano do Ataque Imersivo de todos os membros próximos da equipe em {{value}}% por 20s. Quando o Ataque Imersivo dos personagens próximos atinge um inimigo, regenera {{value}} de Energia Elemental para o personagem que está com essa arma equipada. É possível regenerar Energia Elemental uma vez a cada 0.7s dessa forma. O personagem que está com essa arma equipada pode regenerar Energia Elemental mesmo não estando ativo no campo de batalha."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 49,
             "substat_value": "3.6%"
@@ -368,7 +368,7 @@
             "ru": "Попадания обычной атакой увеличивают урон заряженной атаки на {{value}}% в течение 6 сек., а попадания заряженной атакой увеличивают силу атаки на {{value}}% в течение 6 сек.",
             "pt": "Dentro de 6s após acertar um inimigo com o Ataque Normal, o Dano causado pelo Ataque Carregado aumenta em {{value}}%. Dentro de 6s após acertar um inimigo com o Ataque Carregado, o ATQ aumenta em {{value}}%."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 41,
             "substat_value": "12.0%"
@@ -409,7 +409,7 @@
             "ru": "Увеличивает силу атаки на {{value}}% на 12 сек. после активации реакций Пар, Заряжен, Заморозка, Бутонизация, Лунный заряд, Лунная бутонизация или Гидро рассеивание.",
             "pt": "Após causar uma reação elemental de Vaporização, Eletricamente Carregado, Congelamento, Florescimento, Carga Lunar, Florescimento Lunar ou Redemoinho de Hydro, o ATQ é aumentado em {{value}}% por 12s."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 40,
             "substat_value": "20"
@@ -482,7 +482,7 @@
             "ru": "Увеличивает бонус лечения на {{value}}%, а также повышает урон обычной атаки на {{value}}% от макс. HP экипированного этим оружием персонажа. В течение 12 сек. после использования взрыва стихии попадания обычной атакой по противнику восстанавливают 0,6 ед. энергии. Энергию можно восстановить не чаще чем раз в 0,1 сек.",
             "pt": "Bônus de Cura aumentado em {{value}}%, o Ataque Normal é aumentado em {{value}}% da Vida Máxima do personagem equipando esta arma. Nos 12s após usar um Supremo, os Ataques Normais que acertarem oponentes recuperarão 0.6 de Energia Elemental. A Energia pode ser recuperada desta maneira uma vez a cada 0.1s."
         },
-        "substat": "HP%",
+        "substat": "hp%",
         "level_1": {
             "base_attack": 46,
             "substat_value": "10.8%"
@@ -523,7 +523,7 @@
             "ru": "При попадании обычной или заряженной атакой появляется 50% шанс запустить Око сознания, которое наносит {{value}}% урона силы атаки. Оно способно отразиться от противника к противнику до 4 раз. Может возникнуть раз в {{value}} сек.",
             "pt": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando {{value}}% de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada 12s."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 41,
             "substat_value": "12.0%"
@@ -601,7 +601,7 @@
             "ru": "Активация элементального навыка повышает бонус урона всеми элементами на {{value}}% на 15 сек. и накладывает Долг жизни, равный 24% от макс. HP. Эффект может возникнуть один раз в 10 сек. Когда Долг жизни снимается, бонус урона всеми элементами на 15 сек. увеличивается на {{value}}% за каждые отданные 1000 ед. HP Долга жизни. Бонус урона всеми элементами, полученный таким образом, не может превышать {{value}}%.",
             "pt": "Ao utilizar a Habilidade Elemental, aumenta todos os Bônus de Dano Elemental em {{value}}% por 15s e concede um Contrato de Vida equivalente a 24% da Vida Máxima. Este efeito pode ser ativado uma vez a cada 10s. Quando o Contrato de Vida é removido, aumenta em {{value}}% o Bônus de Dano Elemental de todos os Elementos a cada 1.000 pontos removidos. Em um máximo de {{value}}% de Bônus de Dano Elemental de todos os Elementos, esse efeito dura 15s."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
@@ -648,7 +648,7 @@
             "ru": "Попадания обычной или заряженной атакой имеют {{value}}% шанс создать над противником ледяной кристалл и уронить его, нанося {{value}}% урона силы атаки по площади. Если противник имеет эффект Крио, то наносит ему {{value}}% урона силы атаки. Может возникнуть раз в 10 сек.",
             "pt": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de {{value}}% de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando {{value}}% de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem {{value}}% de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
@@ -768,7 +768,7 @@
             "ru": "Когда экипированный персонаж активирует взрыв стихии или создаёт щит, он на 3 сек. получает эффект Камня воли: каждые 2,5 сек. восстанавливается {{value}} ед. энергии, а бонус урона соответствующего элемента повышается на {{value}}% за каждую 1000 ед. макс. HP персонажа, максимум {{value}}%. Эффект Камня воли активируется, даже если экипированный персонаж не на поле боя.",
             "pt": "Nos 3s após lançar um Supremo ou criar um Escudo, gera o efeito \"Presente de Jade Primordial\": regenera {{value}} de Energia Elemental a cada 2.5s, e concede um Bônus de Dano Elemental do Tipo Elemental correspondente do personagem que tem esta arma equipada de {{value}}% para cada 1.000 pontos de Sua Vida Máxima. É possível aumentar em até {{value}}%. O efeito \"Presente de Jade Primordial\" pode ser desencadeado mesmo se o personagem que tem esta arma equipada não estiver ativo no campo de batalha."
         },
-        "substat": "HP%",
+        "substat": "hp%",
         "level_1": {
             "base_attack": 46,
             "substat_value": "10.8%"
@@ -891,7 +891,7 @@
             "ru": "Увеличивает на {{value}}% урон против врагов, находящихся под действием Гидро или Электро элементов.",
             "pt": "Aumenta o Dano contra inimigos afetados por Hydro ou Electro em {{value}}%."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 38,
             "substat_value": "41"
@@ -928,7 +928,7 @@
             "ru": "В течение 10 сек. после вызова элементальной реакции даёт {{value}}% бонус элементального урона. Может складываться до 2 раз.",
             "pt": "Ativar uma reação Elemental concede um adicional de {{value}}% de Dano Elemental por 10s, podendo acumular até 2 vezes."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 44,
             "substat_value": "24"
@@ -964,7 +964,7 @@
             "ru": "Увеличивает прочность щита на {{value}}%. При попадании увеличивает силу атаки на {{value}}% в течение 8 сек. Эффект может складываться до 5 раз и возникнуть раз в 0,3 сек. Кроме того, под защитой щита бонус силы атаки данного эффекта увеличивается на 100%.",
             "pt": "Aumenta a Força do Escudo em {{value}}%. Acertar ataques em inimigos aumenta o ataque em {{value}}% por 8s. Acumula até 5 vezes. Pode ocorrer apenas uma vez a cada 0.3s. Enquanto estiver protegido por um escudo, esse efeito de ataque é aumentado em 100%."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 46,
             "substat_value": "10.8%"
@@ -1005,7 +1005,7 @@
             "ru": "Нанося Гидро или Дендро урон элементальным навыком, экипированный персонаж получает эффект Молитва крайнего севера: мастерство стихий повышается на {{value}} ед. на 4,5 сек. Когда персонажи отряда поблизости активируют реакцию Лунная бутонизация, экипированный персонаж получает эффект Стих новолуния: мастерство стихий повышается на {{value}} ед. на 10 сек. Если Молитва крайнего севера и Стих новолуния действуют одновременно, урон реакции Бутонизация всех персонажей отряда поблизости повышается на {{value}}%, реакций Вегетация и Цветение - на {{value}}%, а реакции Лунная бутонизация - на {{value}}%. Этот эффект не складывается. Описанные эффекты срабатывают, даже когда экипированный персонаж не на поле боя.",
             "pt": "Quando a Habilidade Elemental causa Dano Hydro ou Dendro, o personagem que está com essa arma equipada obtém o efeito Palavras Sagradas do Norte: aumenta a Proficiência Elemental em {{value}} por 4.5s. Quando os personagens próximos da equipe desencadeiam Florescimento Lunar, o personagem que está com essa arma equipada obtém o efeito Poema da Lua Nova: aumenta a Proficiência Elemental em {{value}} por 10s. Quando os efeitos Palavras Sagradas do Norte e Poema da Lua Nova existirem simultaneamente, aumenta o Dano de Florescimento causado por todos os membros próximos da equipe em {{value}}%, o Dano causado por Superflorescimento e Germinação em {{value}}% e o Dano de Florescimento Lunar em {{value}}%. Esse efeito não acumula. Esse efeito pode ser desencadeado mesmo quando o personagem que está com essa arma equipada não estiver ativo."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 44,
             "substat_value": "58"
@@ -1113,7 +1113,7 @@
             "ru": "Использование элементального навыка увеличивает восстановление энергии на {{value}}% в течение 10 сек.",
             "pt": "Após usar a Habilidade Elemental, a Recarga de Energia aumenta em {{value}}% por 10s."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
@@ -1187,7 +1187,7 @@
             "ru": "В течение 6 сек. после использования взрыва стихий восстанавливается {{value}} ед. энергии каждые 2 сек., а все члены отряда восстанавливают по {{value}}% HP каждые 2 сек.",
             "pt": "Ao usar o Supremo, regenera {{value}} de Energia a cada 2s por 6s. Todos os membros da Equipe regenerarão {{value}}% de Vida a cada 2s."
         },
-        "substat": "HP%",
+        "substat": "hp%",
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
@@ -1275,7 +1275,7 @@
             "ru": "Использование элементального навыка наделяет эффектом Нефритовой короны: наносимый урон обычной атаки повышается на {{value}}% за каждую 1000 ед. макс. HP на 10 сек. Урон обычной атаки таким образом можно повысить максимум на {{value}}%.",
             "pt": "Ganha o efeito Coroa Forjada em Jade ao usar uma Habilidade Elemental: Cada 1.000 de Vida Máxima aumentará o Dano causado do Ataque Normal em {{value}}% por 10s. O Dano do Ataque Normal pode ser aumentado dessa forma em um máximo de {{value}}%."
         },
-        "substat": "HP%",
+        "substat": "hp%",
         "level_1": {
             "base_attack": 42,
             "substat_value": "9.0%"
@@ -1317,7 +1317,7 @@
             "ru": "При нанесении урона противнику повышает шанс крит. попадания на {{value}}%. Эффект может складываться до 5 раз. Добавочный шанс крит. попадания исчезает с первым крит. попаданием.",
             "pt": "Ao atingir um oponente, aumenta a Taxa Crítica em {{value}}%, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 44,
             "substat_value": "6.0%"
@@ -1353,7 +1353,7 @@
             "ru": "Когда элементальный навык наносит урон, есть {{value}}% вероятность, что его откат моментально восстановится. Может возникнуть раз в {{value}} сек.",
             "pt": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui {{value}}% de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada {{value}} segundos."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 41,
             "substat_value": "48"
@@ -1436,7 +1436,7 @@
             "ru": "Увеличивает бонус элементального урона на {{value}}%. При попадании обычной атакой есть 50% шанс получить благословение облаков, которые в течение 15 сек. атакуют ближайших врагов и наносят им {{value}}% урона. Может возникнуть раз в 30 сек.",
             "pt": "Aumenta o bônus de Dano Elemental em {{value}}%. O Ataque Normal possui 50% de chance de obter o favor das nuvens, que busca ativamente por oponentes ao redor para atacar por 15s, causando {{value}}% de Dano de Ataque. Pode ser ativada uma vez a cada 30s."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 48,
             "substat_value": "7.2%"
@@ -1519,7 +1519,7 @@
             "ru": "Повышает мастерство стихий на {{value}} ед. После того как экипированный персонаж создаёт щит, на 15 сек. он получает эффект Зеркала ночи: урон активного персонажа вашего отряда по врагам поблизости повышается на {{value}}%. Эффект Зеркала ночи можно получить один раз в 14 сек.",
             "pt": "Aumenta a Proficiência Elemental em {{value}}. Nos 15s após o personagem que está com essa arma equipada criar um escudo, obtém o efeito \"Espelho da Noite\": aumenta o Dano causado pelo personagem ativo da equipe contra os inimigos próximos em {{value}}%. O efeito \"Espelho da Noite\" pode ser obtido uma vez a cada 14s."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 44,
             "substat_value": "58"
@@ -1560,7 +1560,7 @@
             "ru": "На 6 сек. после активации Рассеивания повышает мастерство стихий на {{value}} ед. На 9 сек. после попадания элементального навыка по противнику повышает мастерство стихий на {{value}} ед. На 30 сек. после попадания взрыва стихии по противнику повышает мастерство стихий на {{value}} ед.",
             "pt": "Aumenta a Proficiência Elemental em {{value}} por 6s após desencadear um Redemoinho. A Proficiência Elemental aumenta em {{value}} por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em {{value}} por 30s após o Supremo do portador atingir um oponente."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 44,
             "substat_value": "58"
@@ -1693,7 +1693,7 @@
             "ru": "При переключении персонажа увеличивает силу атаки вошедшего на поле боя персонажа на {{value}}% в течение 10 сек. Может возникнуть раз в 20 сек.",
             "pt": "Ao mudar de personagem, o ATQ do novo personagem é aumentado em {{value}}% por 10s. Este efeito pode ser ativado uma vez a cada 20s."
         },
-        "substat": "HP%",
+        "substat": "hp%",
         "level_1": {
             "base_attack": 39,
             "substat_value": "7.7%"
@@ -1909,7 +1909,7 @@
             "ru": "Каждые 10 сек. срабатывает следующий эффект: сила атаки экипированного этим оружием персонажа увеличивается на {{value}}% от мастерства стихий на 12 сек. Члены отряда поблизости получают 30% этого эффекта. Если этим оружием обладают и другие члены отряда, эффект суммируется. Этот эффект срабатывает, даже если экипированный персонаж не на поле боя.",
             "pt": "A cada 10s, gera os seguintes efeitos: aumenta o ATQ do personagem que está com essa arma equipada baseado em {{value}}% da sua Proficiência Elemental. Os demais personagens próximos da equipe ganham 30% desse bônus. Esses efeitos duram 12s. É possível acumular esses efeitos equipando vários exemplares desta mesma arma. Esse efeito será desencadeado mesmo que o personagem não esteja ativo no campo de batalha."
         },
-        "substat": "EM",
+        "substat": "em",
         "level_1": {
             "base_attack": 42,
             "substat_value": "36"
@@ -2032,7 +2032,7 @@
             "ru": "Сила атаки повышается на {{value}}%. На 20 сек. после того как экипированный персонаж создаёт щит, активируется эффект Путеводного света: урон вашего активного персонажа повышается на {{value}}% за каждые 1000 ед. силы атаки экипированного персонажа. Максимальное увеличение составляет {{value}}%. Кроме того, когда экипированный персонаж создаёт щит, он также получает Пресыщение проводника: он восстанавливает {{value}} ед. энергии. Этот эффект может возникнуть один раз в 14 сек. Он также активируется, когда персонаж открывает сундук любого типа вне боя. Перечисленные эффекты срабатывают, даже когда экипированный персонаж не на поле боя.<br>Ведьмовство: Тайный обряд: когда в вашем отряде есть Ведьмовские персонажи вне поля боя, они также получают 50% эффекта повышения урона Путеводного света.",
             "pt": "O ATQ é aumentado em {{value}}%. Após o portador criar um Escudo, ele obtém \"Luz Pioneira\" por 20s: aumenta o Dano do membro da equipe em campo em {{value}}% para cada 1.000 de ATQ do portador, até um máximo de {{value}}%. Além disso, quando o portador criar um Escudo, ele também obtém \"Gula do Guia\": restaura {{value}} de Energia Elemental para o portador. O efeito mencionado pode ser ativado uma vez a cada 14s, e também pode ser ativado quando um baú é aberto fora de combate. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo.<br>Mágico: Ritual Secreto: quando houver personagens Mágicos fora de campo na sua equipe, eles também receberão 50% do aumento de Dano de Luz Pioneira."
         },
-        "substat": "ATK%",
+        "substat": "atk%",
         "level_1": {
             "base_attack": 49,
             "substat_value": "3.6%"

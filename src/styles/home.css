@@ -135,16 +135,121 @@
 .home-native-select {
   display: block;
   appearance: none;
+  color-scheme: light;
   cursor: pointer;
 }
 
 .home-native-select option {
-  background: #fff;
+  background-color: #fff;
+  color: #111;
+  color-scheme: light;
+}
+
+.home-native-select option:checked {
+  background-color: #e8edf3;
   color: #111;
 }
 
 .home-native-select::-ms-expand {
   display: none;
+}
+
+.home-select-filter.is-custom-select {
+  z-index: 1;
+  overflow: visible;
+}
+
+.home-select-filter.is-custom-select.select-is-open {
+  z-index: 2000;
+}
+
+.home-select-filter.is-custom-select .home-native-select {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.filter-select-button {
+  width: 100%;
+  min-height: 30px;
+  border: 0;
+  padding: 0 22px 0 0;
+  overflow: hidden;
+  background: transparent;
+  color: color-mix(in srgb, var(--text) 94%, white 6%);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.94rem;
+  font-weight: 720;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.filter-select-button:focus {
+  outline: none;
+}
+
+.filter-select-options {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  left: 0;
+  display: grid;
+  max-height: min(320px, 60vh);
+  gap: 1px;
+  overflow: auto;
+  border: 1px solid #d5dbe4;
+  border-radius: 8px;
+  padding: 4px;
+  background: #fff;
+  box-shadow:
+    0 18px 34px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(0, 0, 0, 0.04);
+  color: #111;
+  color-scheme: light;
+  scrollbar-color: #b9c1cc #fff;
+}
+
+.filter-select-options[hidden] {
+  display: none;
+}
+
+.filter-select-option {
+  min-width: 0;
+  border-radius: 6px;
+  padding: 7px 9px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+  text-transform: none;
+}
+
+.filter-select-option:hover,
+.filter-select-option:focus,
+.filter-select-option[aria-selected='true'] {
+  background: #e8edf3;
+  outline: none;
+}
+
+.filter-select-option[aria-selected='true'] {
+  font-weight: 800;
 }
 
 .home-select-filter {
