@@ -35,14 +35,16 @@
                     "name": "finale-of-the-deep",
                     "note": {
                         "en": "For this ranking it is assumed that **[[character:durin]] is healed**, and the [[ability:bol]] is cleared. If **this cannot occur**, this weapon ranks roughly equal to **[[weapon:moonweavers-dawn]]**.",
-                        "fr": "Ce classement suppose que **[[character:durin]] se fait soigner**, et que l'[[ability:bol]] est retiré. Si **ce n'est pas le cas**, cette arme se classe environ au même niveau que **[[weapon:moonweavers-dawn]]**."
+                        "fr": "Ce classement suppose que **[[character:durin]] se fait soigner**, et que l'[[ability:bol]] est retiré. Si **ce n'est pas le cas**, cette arme se classe environ au même niveau que **[[weapon:moonweavers-dawn]]**.",
+                        "it": "La posizione in classifica presuppone che [[character:durin]] **riceva cure sufficienti da rimuovere il [[ability:bol]]**. **In caso contrario**, quest'arma ha prestazioni simili ad **[[weapon:moonweavers-dawn]]**."
                     }
                 },
                 {
                     "name": "wolf-fang",
                     "note": {
                         "en": "At **[R5]** this weapon ranks above **[[weapon:summit-shaper]]**.",
-                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:summit-shaper]]**."
+                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:summit-shaper]]**.",
+                        "it": "A **[R5]** quest'arma ha prestazioni migliori di **[[weapon:summit-shaper]]**."
                     }
                 }
             ]
