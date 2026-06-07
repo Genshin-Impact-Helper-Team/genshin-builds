@@ -17,7 +17,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is usually [[character:durin]]'s best set on teams with **[[ability:hexerei]]: Secret Rite** if there is **no one else on the team** that can hold it. ",
-                                "fr": "Ce set est généralement le meilleur set pour [[character:durin]] dans les équipes **[[ability:hexerei]]** si **personne d'autre dans l'équipe** ne peux l'équiper. "
+                                "fr": "Ce set est généralement le meilleur set pour [[character:durin]] dans les équipes **[[ability:hexerei]]** si **personne d'autre dans l'équipe** ne peux l'équiper. ",
+                                "it": "Questo è solitamente il set migliore di [[character:durin]] in team in cui è attivo **[[ability:hexerei]]** nel caso in cui **non sia utilizzato da nessun altro personaggio nel team**."
                             }
                         }
                     ]
@@ -44,8 +45,9 @@
                             "name": "emblem-of-severed-fate",
                             "pieces": 4,
                             "note": {
-                                "en": "This set can be competitive over **[[set:gilded-dreams]] (4)** in teams where **[[character:durin]] has notably higher [[stat:er]] Requirements** (usually 150%+).",
-                                "fr": "Ce set peut être équivalent à **[[set:gilded-dreams]] (4)** dans les équipes où **[[character:durin]] a des besoins en [[stat:er]] plus élevés** (environ 150%+)."
+                                "en": "This set can be competitive over **[[set:a-day-carved-from-rising-winds]] (4)** in teams where **[[character:durin]] has notably higher [[stat:er]] Requirements** (usually 150%+).",
+                                "fr": "Ce set peut être équivalent à **[[set:a-day-carved-from-rising-winds]] (4)** dans les équipes où **[[character:durin]] a des besoins en [[stat:er]] plus élevés** (environ 150%+).",
+                                "it": "Questo set può essere competitivo con **[[set:a-day-carved-from-rising-winds]] (4)** in team in cui **[[character:durin]] ha requisiti di [[stat:er]] più alti** (solitamente 150+%)."
                             }
                         }
                     ]
