@@ -14,7 +14,7 @@
         {
             "en": "Purity form is [[character:durin]]'s default [[ability:burst]], it can be swapped to (if in Denial form) via an **{rot:E E Q}** rotation.",
             "fr": "La forme Confirmation de pureté de [[character:durin]] est la forme par défaut de son [[ability:burst]]. On peut y revenir (si passage en forme Déni de ténèbre) avec une rotation **{rot:E E A}**.",
-            "it": "**La modalità Purezza è la modalità predefinita del [[ability:burst]] di [[character:durin]]. Se è attiva la modalità Negazione, puoi passare alla modalità Purezza utilizzando **{rot:E E Q}**.**"
+            "it": "**La modalità Purezza è la modalità predefinita del [[ability:burst]] di [[character:durin]]. Se è attiva la modalità Negazione, puoi passare alla modalità Purezza utilizzando la combo {rot:E E Q}.**"
         },
         {
             "en": "[[character:durin]]'s [[ability:burst]] in Purity form hits once per 1s, and can apply [[element:pyro]] in an AoE every other hit.",
