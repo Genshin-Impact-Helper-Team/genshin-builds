@@ -2,20 +2,24 @@
     "best": true,
     "name": {
         "en": "[[element:vaporize]]/[[element:melt]] Off-Field DPS",
-        "fr": "DPS [[element:vaporize]]/[[element:melt]] Off-Field"
+        "fr": "DPS [[element:vaporize]]/[[element:melt]] Off-Field",
+        "it": "DPS Fuori Campo [[element:vaporize]]/[[element:melt]]"
     },
     "notes": [
         {
             "en": "This playstyle leverages [[character:durin]]'s Denial form to deal massively increased [[element:vaporize]] and/or [[element:melt]] damage. This is typically done as an off-field DPS, however, on-field variants of this playstyle exist.",
-            "fr": "Ce style de jeu tire avantage de la forme Déni de ténèbre de [[character:durin]] pour infliger des dégâts augmentés d'[[element:vaporize]] et/ou de [[element:melt]]. Il est typicalement joué de cette façon en off-field, mais des variantes on-field existent."
+            "fr": "Ce style de jeu tire avantage de la forme Déni de ténèbre de [[character:durin]] pour infliger des dégâts augmentés d'[[element:vaporize]] et/ou de [[element:melt]]. Il est typicalement joué de cette façon en off-field, mais des variantes on-field existent.",
+            "it": "Questo stile di gioco utilizza la modalità Negazione di [[character:durin]] per infliggere danni da [[element:vaporize]] e/o [[element:melt]] notevolmente aumentati. [[character:durin]] è solitamente utilizzato come DPS fuori campo, tuttavia esistono anche varianti che lo utilizzano sul campo."
         },
         {
             "en": "Denial form is activated by using [[character:durin]]'s [[ability:burst]] after an **{rot:E N1}**.",
-            "fr": "La forme Déni de ténèbre s'active en utilisant l'[[ability:burst]] de [[character:durin]] après un **{rot:E N1}**."
+            "fr": "La forme Déni de ténèbre s'active en utilisant l'[[ability:burst]] de [[character:durin]] après un **{rot:E N1}**.",
+            "it": "**Per attivare la modalità Negazione, utilizza la combo {rot:E N1 Q}.**"
         },
         {
             "en": "[[character:durin]]'s [[ability:burst]] in Denial form hits once per 1.25s, and can [[element:vaporize]]/[[element:melt]] every other hit.",
-            "fr": "L'[[ability:burst]] de [[character:durin]] en forme Déni de ténèbre touche une fois toutes les 1.25s, et peut déclencher [[element:vaporize]]/[[element:melt]] une fois sur deux."
+            "fr": "L'[[ability:burst]] de [[character:durin]] en forme Déni de ténèbre touche une fois toutes les 1.25s, et peut déclencher [[element:vaporize]]/[[element:melt]] une fois sur deux.",
+            "it": "Il [[ability:burst]] di [[character:durin]] in modalità Negazione colpisce una volta ogni 1.25s, e può provocare [[element:vaporize]]/[[element:melt]] ogni due colpi."
         }
     ],
     "weapons": {
