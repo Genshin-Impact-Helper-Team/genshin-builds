@@ -7,9 +7,9 @@
     },
     "notes": [
         {
-            "en": "[[character:nicole]] is a potent Support that provides both a shield and a sizeable [[stat:atk]] buff to the entire team. The party member on field also gets an additional [[stat:atk|ATK]] buff after 3 seconds or instantly if they are a [[ability:hexerei]] character.",
-            "fr": "[[character:nicole]] est un puissant Support qui offre à la fois un bouclier et un buff d'attaque important à toute l'équipe. Le personnage actif obtient un buff d'attaque supplémentaire après 3 secondes, ou instantanément s'il s'agit d'un personnage [[ability:hexerei]].",
-            "it": "[[character:nicole]] è un potente personaggio di supporto che fornisce sia uno scudo che un notevole potenziamento all'[[stat:atk]] dell'intero team. Il personaggio attivo riceve inoltre un ulteriore potenziamento all'[[stat:atk]] dopo 3 secondi sul campo, o immediatamente se si tratta di un personaggio [[ability:hexerei]]."
+            "en": "[[character:nicole]] is a potent Support that provides both a **shield** and a **sizeable [[stat:atk]] buff to the entire team**. The party member on field also gets an additional [[stat:atk|ATK]] buff after 3 seconds or instantly if they are a [[ability:hexerei]] character.",
+            "fr": "[[character:nicole]] est un puissant Support qui offre à la fois un **bouclier** et un **buff d'attaque important à toute l'équipe**. Le personnage actif obtient un buff d'attaque supplémentaire après 3 secondes, ou instantanément s'il s'agit d'un personnage [[ability:hexerei]].",
+            "it": "[[character:nicole]] è un potente personaggio di supporto che fornisce sia uno **scudo** che un **notevole potenziamento all'[[stat:atk]] dell'intero team**. Il personaggio attivo riceve inoltre un ulteriore potenziamento all'[[stat:atk]] dopo 3 secondi sul campo, o immediatamente se si tratta di un personaggio [[ability:hexerei]]."
         },
         {
             "en": "[[character:nicole]] needs **4000 [[stat:atk|Attack]]** to reach her full [[stat:atk|Attack]] buff.",
