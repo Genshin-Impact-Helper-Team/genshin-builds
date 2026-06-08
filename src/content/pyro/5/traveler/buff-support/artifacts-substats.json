@@ -7,7 +7,8 @@
             "name": "def%",
             "note": {
                 "en": "Only prioritized when using **[[weapon:peak-patrol-song]]**.",
-                "fr": "A prioriser uniquement lorsque **[[weapon:peak-patrol-song]]** est équipée."
+                "fr": "A prioriser uniquement lorsque **[[weapon:peak-patrol-song]]** est équipée.",
+                "it": "Dare la priorità nel caso si utilizzi **[[weapon:peak-patrol-song]]**."
             }
         }
     ]
