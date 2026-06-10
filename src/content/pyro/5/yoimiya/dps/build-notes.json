@@ -5,14 +5,14 @@
     },
     "notes": [
         {
-            "en": "[[character:yoimiya]] is an off-field [[element:pyro]] DPS who specializes in dealing damage through her [[ability:na]]s. It is recommended to play [[character:yoimiya]] with some source of resistance to interruption, as breaking her [[ability:na]] string is a significant damage loss.",
-            "fr": "[[character:yoimiya]] est un DPS [[element:pyro]] off-field spécialisée dans les dégâts d'[[ability:na|attaques normales]]. Il est recommandé de jouer [[character:yoimiya]] avec une source de résistance à l'interruption, car interrompre son combo d'[[ability:na]] représente une perte significative de dégâts.",
-            "it": "[[character:yoimiya]] è una DPS [[element:pyro]] sul campo specializzata nel provocare danni tramite i suoi [[ability:na|Attacchi Normali]]. È consigliato giocarla con qualche fonte di resistenza all'interruzione, poiché interrompere la sua stringa di [[ability:na|Attacchi Normali]] rappresenta una significativa perdita di danni."
+            "en": "[[character:yoimiya]] is an on-field [[element:pyro]] DPS who specializes in dealing damage through her [[ability:na]]s. It is recommended to play [[character:yoimiya]] with some source of resistance to interruption, as breaking her [[ability:na]] string is a significant damage loss.",
+            "fr": "[[character:yoimiya]] est un DPS [[element:pyro]] on-field spécialisée dans les dégâts d'[[ability:na|attaques normales]]. Il est recommandé de jouer [[character:yoimiya]] avec une source de résistance à l'interruption, car interrompre son combo d'[[ability:na]] représente une perte significative de dégâts.",
+            "it": "[[character:yoimiya]] è una DPS [[element:pyro]] specializzata nel provocare danni tramite i suoi [[ability:na|Attacchi Normali]]. È consigliato giocarla con qualche fonte di resistenza all'interruzione, poiché interrompere la sua stringa di [[ability:na|Attacchi Normali]] rappresenta una significativa perdita di danni."
         },
         {
             "en": "This ranking assumes a [[element:vaporize]] team with [[character:bennett]].",
             "fr": "Ces classements supposent une équipe [[element:vaporize]] incluant [[character:bennett]].",
-            "it": "Questa classifica presuppone un team [[element:vaporize]] con [[character:bennett]]."
+            "it": "Questa classifica presuppone un team **[[element:vaporize]]** con **[[character:bennett]]**."
         },
         {
             "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}, and in [[element:vaporize]] teams you should be Vaporizing the {rot:N1}, {rot:N3} and {rot:N5}.",
