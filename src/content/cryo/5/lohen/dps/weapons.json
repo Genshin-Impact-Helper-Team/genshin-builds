@@ -67,9 +67,10 @@
             ]
         },
         {
-            "items": [
-                "missive-windspear"
-            ]
+            "items": [{
+                "name": "missive-windspear",
+                "refinement": 5
+            }]
         },
         {
             "items": [
