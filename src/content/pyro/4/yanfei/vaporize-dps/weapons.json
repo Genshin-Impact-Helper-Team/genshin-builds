@@ -62,7 +62,7 @@
                     "note": {
                         "en": "Calculated with [[ability:bol]] cleared. Loses significant value if run **without a consistent healer**.",
                         "fr": "Calculé avec un [[ability:bol]] retiré. Perd significativement en valeur si utilisé **sans un soin constant**.",
-                        "it": "La posizione in classifica presuppone che Yanfei riceva abbastanza cure affinché il [[ability:bol]] venga eliminato. **Perde significativamente valore se utilizzata senza buone cure**."
+                        "it": "La posizione in classifica presuppone che Yanfei riceva cure sufficienti a rimuovere il **[[ability:bol]]**. **Perde significativamente valore se utilizzata senza buone cure**."
                     }
                 },
                 {

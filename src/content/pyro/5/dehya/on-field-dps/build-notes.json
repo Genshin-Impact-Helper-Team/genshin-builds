@@ -8,12 +8,12 @@
         {
             "en": "On-Field DPS [[character:dehya]] relies on using her [[ability:skill]] and [[ability:burst]] to do damage.",
             "fr": "[[character:dehya]] DPS On-Field dépend de son [[ability:skill]] et [[ability:burst]] pour faire des dégâts.",
-            "it": "[[character:dehya]] DPS sul campo si affida alla sua [[ability:skill]] e al suo [[ability:burst]] per provocare danni."
+            "it": "[[character:dehya]] DPS sul campo utilizza la sua [[ability:skill]] e al suo [[ability:burst]] per provocare danni."
         },
         {
             "en": "[[character:dehya]]'s [[ability:burst]] cannot trigger effects that trigger on [[ability:na]] animations or damage (e.g. [[character:xingqiu]], [[character:beidou]]).",
             "fr": "L'[[ability:burst]] de [[character:dehya]] ne peut pas déclencher les effets qui se déclenchent via animation ou dégât d'[[ability:na]] (par exemple [[character:xingqiu]], [[character:beidou]]).",
-            "it": "Il [[ability:burst]] di [[character:dehya]] non può provocare effetti attivati dall'animazione o danni di un [[ability:na]] (es. [[character:xingqiu]], [[character:beidou]])."
+            "it": "Il [[ability:burst]] di [[character:dehya]] non può provocare effetti attivati dall'animazione o dai danni di un [[ability:na]] (es. [[character:xingqiu]], [[character:beidou]])."
         },
         {
             "en": "At **[C1]**, [[stat:hp%]] becomes a viable stat for [[character:dehya]] competing with [[stat:atk%]] stats while providing survivability. Additionally, 5-star weapon stat sticks can be worse than some 4-star options as their high Base ATK stats matter less.",

@@ -9,7 +9,7 @@
         {
             "en": "This playstyle uses [[character:durin]]'s Purity form to decrease the Elemental Resistance of [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] and [[element:geo]] when reactions with those elements and [[element:pyro]] occur.",
             "fr": "Ce style de jeu utilise la forme Confirmation de pureté de [[character:durin]] pour baisser la résistance élémentaire de [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] et [[element:geo]] quand des réactions avec [[element:pyro]] sont déclenchées.",
-            "it": "Questo stile di gioco utilizza la modalità Purezza di [[character:durin]] per diminuire la RES [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] e [[element:geo]] dei nemici quando vengono provocate reazioni tra [[element:pyro]] ed i suddetti elementi."
+            "it": "Questo stile di gioco utilizza la **modalità Purezza** di [[character:durin]] per **diminuire la RES [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] e [[element:geo]] dei nemici** quando vengono provocate reazioni tra [[element:pyro]] ed i suddetti elementi."
         },
         {
             "en": "Purity form is [[character:durin]]'s default [[ability:burst]], it can be swapped to (if in Denial form) via an **{rot:E E Q}** rotation.",

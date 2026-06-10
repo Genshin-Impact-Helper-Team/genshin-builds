@@ -64,7 +64,7 @@
                     "note": {
                         "en": "In [[element:vaporize]] teams, this weapon performs slightly better than **[[weapon:deathmatch]]**.",
                         "fr": "Dans les équipes [[element:vaporize]], cette arme est légèrement meilleure que **[[weapon:deathmatch]]**.",
-                        "it": "In team [[element:vaporize]], quest'arma ha prestazioni di poco migliori di **[[weapon:deathmatch]]**."
+                        "it": "In team **[[element:vaporize]]**, quest'arma ha prestazioni di poco migliori di **[[weapon:deathmatch]]**."
                     }
                 }
             ]
@@ -74,7 +74,7 @@
         {
             "en": "Weapon ranking assumes [[character:arlecchino]] is used with [[character:bennett]].",
             "fr": "Le classement des armes suppose qu'[[character:arlecchino]] est jouée avec [[character:bennett]].",
-            "it": "La classifica delle armi presuppone che [[character:arlecchino]] sia utilizzata con [[character:bennett]]."
+            "it": "La classifica delle armi presuppone che [[character:arlecchino]] sia utilizzata con **[[character:bennett]]**."
         }
     ]
 }

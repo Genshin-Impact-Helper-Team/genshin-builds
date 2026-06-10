@@ -13,7 +13,7 @@
                     "note": {
                         "en": "Ranking assumes 1 stack.",
                         "fr": "Le classement suppose 1 stack.",
-                        "it": "La classifica presuppone 1 accumulo, il che richiede la presenza di almeno un personaggio Geo nel team."
+                        "it": "La classifica presuppone 1 accumulo, il che richiede la presenza di almeno un personaggio **Geo** nel team."
                     }
                 }
             ]
@@ -42,7 +42,7 @@
                     "note": {
                         "en": "Ranking assumes dynamic stacks, shielded.",
                         "fr": "Le classement suppose des stack dynamiques, sous bouclier.",
-                        "it": "La classifica presuppone la presenza di uno scudo."
+                        "it": "La classifica presuppone la presenza di uno **scudo**."
                     }
                 }
             ]
@@ -68,7 +68,7 @@
                     "note": {
                         "en": "Ranking assumes [[character:mavuika]] gets healing.",
                         "fr": "Le classement suppose que [[character:mavuika]] reçoit du soin.",
-                        "it": "La classifica presuppone che [[character:mavuika]] riceva cure sufficienti da rimuovere il [[ability:bol]]."
+                        "it": "La classifica presuppone che [[character:mavuika]] riceva cure sufficienti a rimuovere il **[[ability:bol]]**."
                     }
                 }
             ]

@@ -6,7 +6,7 @@
             "note": {
                 "en": "Since [[character:hu-tao]] is able to trigger [[element:vaporize]] on most of her damage output, [[stat:em]] is quite valuable on her. If you have less than 100EM total (including from [[character:sucrose]]'s [[stat:em]] share, **[[set:instructor]] (4)**, etc) [[stat:em]] substats take priority over [[stat:cr/cd]].",
                 "fr": "Puisque [[character:hu-tao]] peut déclencher [[element:vaporize]] sur la plupart de ses dégâts, la [[stat:em]] est assez précieuse sur elle. Si vous avez moins de 100ME au total (en prenant en compte le partage de [[stat:em]] de [[character:sucrose]], **[[set:instructor]] (4)**, etc), les substats de [[stat:em]] deviennent plus prioritaires que celles de [[stat:cr/cd]].",
-                "it": "Poichè Hu Tao è capace di [[element:vaporize|Vaporizzare]] la maggior parte dei suoi danni, la [[stat:em]] è una stat particolarmente desiderabile. Se hai meno di 100 [[stat:em]] in totale (includendo potenziamenti esterni come la condivisione di [[stat:em]] di [[character:sucrose]], [[set:instructor]] (4), ecc.), stat secondarie di [[stat:em]] hanno la priorità su [[stat:cr/cd]]."
+                "it": "Poichè Hu Tao è capace di [[element:vaporize|Vaporizzare]] la maggior parte dei suoi danni, la [[stat:em]] è una stat particolarmente desiderabile. **Se hai meno di 100 [[stat:em]] in totale** (includendo potenziamenti esterni come la condivisione di [[stat:em]] di [[character:sucrose]], **[[set:instructor]] (4)**, ecc.), **stat secondarie di [[stat:em]] hanno la priorità su [[stat:cr/cd]]**."
             }
         },
         "hp%",

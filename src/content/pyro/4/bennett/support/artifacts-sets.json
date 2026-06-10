@@ -22,7 +22,7 @@
                             "note": {
                                 "en": "In teams that value [[stat:em]] more than [[stat:atk%]], this set pulls ahead of other options if [[character:bennett]] can reliably trigger a reaction.",
                                 "fr": "Dans les équipes qui valorisent la [[stat:em]] plus que l'[[stat:atk%]], ce set passe devant les autres si [[character:bennett]] peut à coup sûr déclencher une réaction.",
-                                "it": "Se [[character:bennett]] riesce a provocare reazioni regolarmente, questo set supera le altre opzioni in team che apprezzano [[stat:em]] più di [[stat:atk%]]."
+                                "it": "Se [[character:bennett]] riesce a provocare reazioni regolarmente, questo set supera le altre opzioni in team che apprezzano **[[stat:em]]** più di [[stat:atk%]]."
                             }
                         }
                     ]
@@ -56,7 +56,7 @@
                             "note": {
                                 "en": "The best pick for any [[element:dendro]] damage related team [[character:bennett]] might be in. Use this if there is no other viable holder available.",
                                 "fr": "Le meilleur choix pour toute équipe liée aux dégâts [[element:dendro]] dans laquelle [[character:bennett]] pourrait être. Utilisez-le si aucun autre porteur viable n'est disponible.",
-                                "it": "La migliore scelta in qualunque team che si concentri su **danni [[element:dendro]]**. Usalo se non ci sono altri personaggi che possano utilizzarlo."
+                                "it": "La migliore scelta in team che si concentrano su **danni [[element:dendro]]**. Usalo se non ci sono altri personaggi che possano utilizzarlo."
                             }
                         }
                     ]

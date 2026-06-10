@@ -49,7 +49,7 @@
                     "note": {
                         "en": "While requiring two additional [[ability:na]]s, this weapon can provide a sizeable buff with just one or two [[stat:def%]] main stats, making it competitive with **[[weapon:aquila-favonia]]** and similar options for teams that highly value DMG Bonus buffs.",
                         "fr": "Bien qu'exigeant deux [[ability:na]] supplémentaires, cette arme peut fournir un buff conséquent avec seulement une ou deux stats principales [[stat:def%]], ce qui la rend compétitive avec **[[weapon:aquila-favonia]]** et autres options similaires pour les équipes qui valorisent fortement les buffs de Bonus de Dégâts.",
-                        "it": "Nonostante richieda due [[ability:na]], quest'arma può fornire un potenziamento considerevole con solo una o due stat principali [[stat:def%]], il che la rende competitiva con **[[weapon:aquila-favonia]]** ed opzioni simili in team che apprezzano molto potenziamenti di DAN%."
+                        "it": "Nonostante richieda due [[ability:na|Attacchi Normali]], quest'arma può fornire un potenziamento considerevole con solo **una o due stat principali [[stat:def%]]**, il che la rende competitiva con **[[weapon:aquila-favonia]]** ed opzioni simili in team che apprezzano molto potenziamenti di DAN%."
                     }
                 },
                 "skyward-blade"
@@ -73,7 +73,7 @@
                     "note": {
                         "en": "This weapon's low Base Attack heavily impairs [[character:bennett]]'s buffing potency, but it can be a viable pick in teams with extremely high [[stat:er]] requirements or no actual use for the [[stat:atk]] buff.",
                         "fr": "L'ATQ de base faible de cette arme diminue fortement la puissance de buff de [[character:bennett]], mais elle peut être un choix viable dans les équipes avec des besoins extrêmement élevées en [[stat:er]] ou sans utilisation réelle du buff d'[[stat:atk]].",
-                        "it": "L'ATT base basso di quest'arma compromette gravemente la forza del potenziamento di [[character:bennett]], ma può essere un'opzione valida in caso di requisiti di [[stat:er]] del team estremamente alti od in team in cui il potenziamento [[stat:atk]] non è utile."
+                        "it": "L'ATT base basso di quest'arma compromette gravemente la forza del potenziamento di [[character:bennett]], ma può essere un'opzione valida in caso di **requisiti di [[stat:er]] del team estremamente alti** o in team in cui il potenziamento [[stat:atk]] non è utile."
                     }
                 }
             ]

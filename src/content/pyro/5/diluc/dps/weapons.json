@@ -3,7 +3,7 @@
         {
             "en": "**These placements assume strong [[stat:atk]] buffs such as [[character:bennett]], as [[character:diluc]] is commonly played with them present in his party.**",
             "fr": "**Ce classement suppose des buffs [[stat:atk]] importants, tels que [[character:bennett]], puisque [[character:diluc]] est souvent joué avec ces buffs dans l'équipe.**",
-            "it": "**La classifica presuppone forti potenziamenti ad [[stat:atk]], come quello di [[character:bennett]]."
+            "it": "**La classifica presuppone **forti potenziamenti ad [[stat:atk]]**, come quello di [[character:bennett]]."
         }
     ],
     "weapons": [
@@ -69,7 +69,7 @@
                     "note": {
                         "en": "Assumes [[character:diluc]] **can consistently be healed**. Otherwise, this weapon ranks **below [[weapon:earth-shaker]]**.",
                         "fr": "Suppose que [[character:diluc]] **peut être soigné régulièrement**. Sinon, cette arme se classe **en dessous de [[weapon:earth-shaker]]**.",
-                        "it": "La classifica presuppone che [[character:diluc]] **riceva cure in maniera affidabile**. Altrimenti, quest'arma si piazza **sotto [[weapon:earth-shaker]]**."
+                        "it": "La classifica presuppone che [[character:diluc]] riceva cure sufficienti a rimuovere il **[[ability:bol]]**. In caso contrario, quest'arma si piazza **sotto [[weapon:earth-shaker]]**."
                     }
                 },
                 {

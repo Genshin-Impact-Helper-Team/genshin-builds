@@ -29,7 +29,7 @@
                     "note": {
                         "en": "Ranking assumes you stay close to the enemy but this weapons has the potential to outclasses **[[weapon:aqua-simulacra]]** with max stacks but maintaining stacks would be difficult.",
                         "fr": "Le classement suppose que vous restiez proche des ennemis. Cette arme peut dépasser **[[weapon:aqua-simulacra]]** avec le maximum de stacks, mais maintenir les stacks peut être compliqué.",
-                        "it": "La posizione in classifica presuppone che il giocatore rimanga vicino al nemico. Quest'arma ha il potenziale di superare **[[weapon:aqua-simulacra]]** se viene accumulato l'effetto massimo, ma mantenere l'effetto massimo può essere difficoltoso."
+                        "it": "La posizione in classifica presuppone che il giocatore rimanga **vicino al nemico**. Quest'arma ha il potenziale di superare **[[weapon:aqua-simulacra]]** se viene accumulato l'effetto massimo, ma mantenerlo può essere difficoltoso."
                     }
                 },
                 "hunters-path"
@@ -68,7 +68,7 @@
                     "note": {
                         "en": "Significantly more potent if used in a headshot heavy [[ability:ca]] playstyle.",
                         "fr": "Beaucoup plus efficace si elle est utilisée avec un style de jeu axé sur les headshots avec des Attaques Chargées.",
-                        "it": "Significativamente più potente se utilizzata in uno stile di gioco con molti 'headshot' con Attacchi Caricati."
+                        "it": "Significativamente più potente se utilizzata in uno stile di gioco con molti '**headshot**' con Attacchi Caricati."
                     }
                 },
                 "kings-squire",

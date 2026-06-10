@@ -29,7 +29,7 @@
                     "note": {
                         "en": "This weapon is only useful in [[element:melt]] or [[element:vaporize]] teams and should not be considered otherwise.",
                         "fr": "Cette arme n'est utile que dans des équipes [[element:melt]] ou [[element:vaporize]] et ne doit pas être considérée le cas contraire.",
-                        "it": "Quest'arma è utile esclusivamente in team [[element:vaporize]] o [[element:melt]], e non dovrebbe essere presa in considerazione in altri casi."
+                        "it": "Quest'arma è utile esclusivamente in team **[[element:vaporize]]** o **[[element:melt]]**, e non dovrebbe essere presa in considerazione in altri casi."
                     }
                 },
                 {
@@ -37,7 +37,7 @@
                     "note": {
                         "en": "Only useful in [[element:vaporize]] teams. At **[R5]**, this weapon performs similar to **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Utile uniquement pour les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme a des performances similaires à **[[weapon:redhorn-stonethresher]]**.",
-                        "it": "Utile esclusivamente in team [[element:vaporize]]. A **[R5]** ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**."
+                        "it": "Utile esclusivamente in team **[[element:vaporize]]**. A **[R5]** ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**."
                     }
                 }
             ]
