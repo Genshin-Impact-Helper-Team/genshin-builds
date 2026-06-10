@@ -38,7 +38,7 @@
                     "note": {
                         "en": "This weapon is better than **[[weapon:dragons-bane]]** when you're not doing [[element:vaporize]].",
                         "fr": "Cette arme est meilleure que **[[weapon:dragons-bane]]** lorsque vous ne jouez pas [[element:vaporize]].",
-                        "it": "Quest'arma ha prestazioni migliori di **[[weapon:dragons-bane]]**  quando non si provoca [[element:vaporize]]."
+                        "it": "Quest'arma ha prestazioni migliori di **[[weapon:dragons-bane]]** quando **non** si provoca [[element:vaporize]]."
                     }
                 }
             ]
