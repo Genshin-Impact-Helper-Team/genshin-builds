@@ -1,25 +1,30 @@
 {
     "name": {
         "en": "Buff Support",
-        "fr": "Support de buff"
+        "fr": "Support de buff",
+        "it": "Supporto Potenziamento"
     },
     "best": true,
     "notes": [
         {
             "en": "As the premier [[element:anemo]] support unit for [[element:anemo]] dps based teams, [[character:faruzan]] combines both high [[element:anemo]] damage buffing with [[element:anemo]] resistance shredding to become a cornerstone of any team that wants to focus on [[element:anemo]] damage. Though building her means primarily focusing on dealing with her high [[stat:er]] Requirements.",
-            "fr": "En tant que premier personnage support [[element:anemo]] pour les équipes basées sur un DPS [[element:anemo]], [[character:faruzan]] combine de puissants buffs de dégâts [[element:anemo]] avec une réduction de résistance [[element:anemo]], ce qui en fait une pierre angulaire de toute équipe qui veut se concentrer sur les dégâts [[element:anemo]]. La build signifie cependant de se concentrer principalement sur la gestion de ses importants besoins en [[stat:er]]."
+            "fr": "En tant que premier personnage support [[element:anemo]] pour les équipes basées sur un DPS [[element:anemo]], [[character:faruzan]] combine de puissants buffs de dégâts [[element:anemo]] avec une réduction de résistance [[element:anemo]], ce qui en fait une pierre angulaire de toute équipe qui veut se concentrer sur les dégâts [[element:anemo]]. La build signifie cependant de se concentrer principalement sur la gestion de ses importants besoins en [[stat:er]].",
+            "it": "In quanto principale unità di supporto [[element:anemo]] per team basati su DPS [[element:anemo]], [[character:faruzan]] combina un forte potenziamento ai danni [[element:anemo]] con riduzione di RES [[element:anemo]], diventando un pilastro fondamentale per qualsiasi team che si concentri sui danni [[element:anemo]]. Tuttavia, per utilizzare [[character:faruzan]] è necessario soddisfare i suoi elevati requisiti di [[stat:er]]."
         },
         {
             "en": "For funneling particles to [[character:faruzan]]: {rot:E C Q}",
-            "fr": "Pour funnel les particules vers [[character:faruzan]] : {rot:E C A}"
+            "fr": "Pour funnel les particules vers [[character:faruzan]] : {rot:E C A}",
+            "it": "Per incanalare le particelle verso Faruzan: {rot:E C Q}"
         },
         {
             "en": "For funneling particles to other characters: {rot:E Q C}",
-            "fr": "Pour funnel les particules vers d'autres personnages : {rot:E A C}"
+            "fr": "Pour funnel les particules vers d'autres personnages : {rot:E A C}",
+            "it": "Per incanalare le particelle ad un altro membro del team: {rot:E Q C}"
         },
         {
-            "en": "At [C6] bear in mind the Charged shot portion of the rotation no longer becomes necessary since your [[ability:burst]] will start activating the Pressurized Collapses instead.",
-            "fr": "Une fois [C6], gardez à l'esprit que la partie attaque chargée de la rotation n'est plus nécessaire, puisque votre [[ability:burst]] commencera à activer les Effondrements compressés à la place."
+            "en": "Bear in mind that at [C6] the Charged shot portion of the rotation becomes no longer necessary since your [[ability:burst]] will start activating the Pressurized Collapses instead.",
+            "fr": "Une fois [C6], gardez à l'esprit que la partie attaque chargée de la rotation n'est plus nécessaire, puisque votre [[ability:burst]] commencera à activer les Effondrements compressés à la place.",
+            "it": "A **[C6] i colpi caricati non sono più necessari**, poiché il [[ability:burst]] attiverà automaticamente i Collassi pressurizzati."
         }
     ]
 }
