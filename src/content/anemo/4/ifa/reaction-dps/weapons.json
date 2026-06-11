@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Weapon options below **[[weapon:mappa-mare]]** do not improve [[character:ifa]]'s healing capabilities.",
-            "fr": "Les options d'armes en dessous de **[[weapon:mappa-mare]]** n'améliorent pas les capacités de soin de [[character:ifa]]."
+            "fr": "Les options d'armes en dessous de **[[weapon:mappa-mare]]** n'améliorent pas les capacités de soin de [[character:ifa]].",
+            "it": "Le opzioni sotto **[[weapon:mappa-mare]]** non migliorano le capacità curative di [[character:ifa]]."
         }
     ],
     "weapons": [
@@ -28,7 +29,8 @@
                     "name": "sacrificial-fragments",
                     "note": {
                         "en": "While having a similar DMG output as **[[weapon:mappa-mare]]**, this weapon will provide more total healing over your rotations.",
-                        "fr": "Tout en ayant des dégâts similaires à **[[weapon:mappa-mare]]**, cette arme fournira plus de soin total sur vos rotations."
+                        "fr": "Tout en ayant des dégâts similaires à **[[weapon:mappa-mare]]**, cette arme fournira plus de soin total sur vos rotations.",
+                        "it": "Quest'arma ha prestazioni simili a quelle di **[[weapon:mappa-mare]]**, fornendo al contempo più cure totali."
                     }
                 },
                 {
@@ -51,7 +53,8 @@
                     "name": "thrilling-tales-of-dragon-slayers",
                     "note": {
                         "en": "This weapon is a support option to help boost the [[stat:atk%]] of your other off-field DPS's, notably [[character:fischl]], [[character:xingqiu]], and [[character:ororon]].",
-                        "fr": "Cette arme est une option de support pour aider à augmenter l'[[stat:atk%]] de vos autres DPS off-field, notamment [[character:fischl]], [[character:xingqiu]] et [[character:ororon]]."
+                        "fr": "Cette arme est une option de support pour aider à augmenter l'[[stat:atk%]] de vos autres DPS off-field, notamment [[character:fischl]], [[character:xingqiu]] et [[character:ororon]].",
+                        "it": "Quest'arma è un'opzione di supporto che potenzia l'[[stat:atk%]] dei DPS fuori campo nel team, in particolare [[character:fischl]], [[character:xingqiu]] ed [[character:ororon]]."
                     }
                 }
             ]
