@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This is her best option in teams that either won't benefit significantly from **[[set:viridescent-venerer]] (4)** shred, or teams that already have another unit holding the aforementioned set.",
-                                "fr": "C'est sa meilleure option dans les équipes qui ne bénéficient pas significativement de la baisse de RES de **[[set:viridescent-venerer]] (4)**, ou dans les équipes qui ont déjà un autre personnage portant le set mentionné."
+                                "fr": "C'est sa meilleure option dans les équipes qui ne bénéficient pas significativement de la baisse de RES de **[[set:viridescent-venerer]] (4)**, ou dans les équipes qui ont déjà un autre personnage portant le set mentionné.",
+                                "it": "Questa è l'opzione migliore di [[character:faruzan]] in team che non traggono grande vantaggio dalla riduzione di RES fornita da **[[set:viridescent-venerer]] (4)**, oppure in team che hanno già un personaggio equipaggiato con tale set."
                             }
                         }
                     ]
@@ -33,7 +34,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set should be used in teams which have a significant amount of [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] damage. Note the resistance shred does not buff [[element:anemo]] damage and the set wielder must [[element:swirl]] the element(s) while on-field for the resistance shred.",
-                                "fr": "Ce set devrait être utilisé dans les équipes qui ont une part importante de dégâts [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]. Notez que la réduction de résistance ne buff pas les dégâts [[element:anemo]] et que le porteur du set doit déclencher [[element:swirl]] sur le ou les éléments en étant on-field pour appliquer la réduction de résistance."
+                                "fr": "Ce set devrait être utilisé dans les équipes qui ont une part importante de dégâts [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]. Notez que la réduction de résistance ne buff pas les dégâts [[element:anemo]] et que le porteur du set doit déclencher [[element:swirl]] sur le ou les éléments en étant on-field pour appliquer la réduction de résistance.",
+                                "it": "Questo set dovrebbe essere utilizzato in team che infliggono una quantità significativa di danni [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]. Nota che la riduzione della RES non potenzia i danni [[element:anemo]] e che il portatore del set deve provocare la reazione [[element:swirl]] dell’elemento/i corrispondente mentre è sul campo per attivare la riduzione della RES."
                             }
                         }
                     ]
@@ -49,7 +51,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set will give [[character:faruzan]] her best personal damage output, assuming the team is already running **[[set:viridescent-venerer]] (4)**. Also if you're willing to invest more time farming substats it can potentially give you more [[stat:er]] than running **[[set:the-exile]] (2)**.",
-                                "fr": "Ce set donnera à [[character:faruzan]] ses meilleurs dégâts personnels, en supposant que l'équipe joue déjà **[[set:viridescent-venerer]] (4)**. De plus, si vous êtes prêt à investir plus de temps dans le farm des substats, il peut potentiellement vous donner plus de [[stat:er]] que **[[set:the-exile]] (2)**."
+                                "fr": "Ce set donnera à [[character:faruzan]] ses meilleurs dégâts personnels, en supposant que l'équipe joue déjà **[[set:viridescent-venerer]] (4)**. De plus, si vous êtes prêt à investir plus de temps dans le farm des substats, il peut potentiellement vous donner plus de [[stat:er]] que **[[set:the-exile]] (2)**.",
+                                "it": "Questo set fornisce a [[character:faruzan]] il miglior output di danni personali, a patto che qualcuno nel team utilizzi **[[set:viridescent-venerer]] (4)**. Inoltre, se sei disposto a investire più tempo nella ricerca di stat secondarie ottimali, può potenzialmente offrire più [[stat:er]] rispetto al set **[[set:the-exile]] (2)**."
                             }
                         }
                     ]
@@ -65,7 +68,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is better than **[[set:emblem-of-severed-fate]] (4)** if [[character:faruzan]] is [C6] because of the pressurized collapse damage.",
-                                "fr": "Ce set est meilleur que **[[set:emblem-of-severed-fate]] (4)** si [[character:faruzan]] est [C6] grâce aux dégâts d'effondrement compressé."
+                                "fr": "Ce set est meilleur que **[[set:emblem-of-severed-fate]] (4)** si [[character:faruzan]] est [C6] grâce aux dégâts d'effondrement compressé.",
+                                "it": "Questo set supera **[[set:emblem-of-severed-fate]] (4)** se [[character:faruzan]] è **[C6]** grazie ai danni da Collasso pressurizzato."
                             }
                         }
                     ]
@@ -77,7 +81,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This has similar usage cases to **[[set:noblesse-oblige]] (4)**, except in that it requires [[character:faruzan]] [C6] for improved uptime through extra Pressurized Collapse activations.",
-                                "fr": "Ce set a des cas d'utilisation similaires à **[[set:noblesse-oblige]] (4)**, sauf qu'il demande [[character:faruzan]] [C6] pour un meilleur uptime grâce aux activations supplémentaires d'effondrement pressurisé."
+                                "fr": "Ce set a des cas d'utilisation similaires à **[[set:noblesse-oblige]] (4)**, sauf qu'il demande [[character:faruzan]] [C6] pour un meilleur uptime grâce aux activations supplémentaires d'effondrement pressurisé.",
+                                "it": "Ha casi d'uso simili a **[[set:noblesse-oblige]] (4)**, ma richiede [[character:faruzan]] **[C6]** per garantire una maggiore durata dell’effetto grazie alle ulteriori attivazioni di Collasso pressurizzato."
                             }
                         }
                     ]
@@ -97,7 +102,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "[[character:faruzan]]'s [[stat:er]] requirements pre-[C6] can be extremely high, so high that it can be difficult to build enough using a 4pc set bonus. As such, using **[[set:emblem-of-severed-fate]] (2)** with whatever artifact combination will give you the most [[stat:er]] is a reasonable option.",
-                                "fr": "Les besoins en [[stat:er]] de [[character:faruzan]] pré-[C6] peuvent être extrêmement élevés, au point qu'il peut être difficile d'en build assez avec un bonus de set 4 pièces. Ainsi, utiliser **[[stat:er-set]] (2)** avec n'importe quelle combinaison d'artéfacts qui vous donne le plus de [[stat:er]] est une option raisonnable."
+                                "fr": "Les besoins en [[stat:er]] de [[character:faruzan]] pré-[C6] peuvent être extrêmement élevés, au point qu'il peut être difficile d'en build assez avec un bonus de set 4 pièces. Ainsi, utiliser **[[stat:er-set]] (2)** avec n'importe quelle combinaison d'artéfacts qui vous donne le plus de [[stat:er]] est une option raisonnable.",
+                                "it": "I requisiti di [[stat:er]] di [[character:faruzan]] prima della **[C6]** possono essere estremamente elevati, al punto da rendere difficile ottenerne abbastanza utilizzando un set completo. Per questo, utilizzare 2 **[[stat:er-set]] (2)** o qualunque combinazione fornisca più [[stat:er]] possibile è un’opzione ragionevole."
                             }
                         }
                     ]
