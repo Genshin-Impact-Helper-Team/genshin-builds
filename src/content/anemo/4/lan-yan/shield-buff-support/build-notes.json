@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "Shield & Buff Support",
-        "fr": "Support bouclier & buff"
+        "fr": "Support bouclier & buff",
+        "it": "Supporto Scudo & Potenziamento"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:lan-yan]] supports her team through shields and grouping.",
-            "fr": "[[character:lan-yan]] soutient son équipe grâce aux boucliers et au grouping."
+            "fr": "[[character:lan-yan]] soutient son équipe grâce aux boucliers et au grouping.",
+            "it": "[[character:lan-yan]] supporta il team creando scudi e raggruppando i nemici."
         },
         {
             "en": "[[character:lan-yan]]'s shield can undergo Elemental Absorption, meaning that her shield can absorb PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) and become more resistant to the element it has absorbed.",
-            "fr": "Le bouclier de [[character:lan-yan]] peut subir une absorption élémentaire, ce qui signifie qu'il peut absorber les éléments PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) et devenir plus résistant à l'élément absorbé."
+            "fr": "Le bouclier de [[character:lan-yan]] peut subir une absorption élémentaire, ce qui signifie qu'il peut absorber les éléments PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) et devenir plus résistant à l'élément absorbé.",
+            "it": "Lo scudo di [[character:lan-yan]] può assorbire PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]), rendendolo più resistente all'elemento che ha assorbito."
         },
         {
             "en": "[[character:lan-yan]] has to make contact with an enemy upon [[ability:skill]] cast for the absorption to take place.",
-            "fr": "[[character:lan-yan]] doit entrer en contact avec un ennemi lors du lancement de son [[ability:skill]] pour que l'absorption ait lieu."
+            "fr": "[[character:lan-yan]] doit entrer en contact avec un ennemi lors du lancement de son [[ability:skill]] pour que l'absorption ait lieu.",
+            "it": "[[character:lan-yan]] deve entrare in contatto con un nemico durante l'[[ability:skill]] per assorbire un elemento."
         }
     ]
 }
