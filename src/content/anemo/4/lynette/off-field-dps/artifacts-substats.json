@@ -4,14 +4,16 @@
             "name": "er",
             "note": {
                 "en": "Prioritize [[stat:er]] until you meet the requirement.",
-                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis."
+                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis.",
+                "it": "Dare la priorità a [[stat:er]] finché non vengono soddisfatti i requisiti."
             }
         },
         {
             "name": "cr",
             "note": {
-                "en": "Only assumes higher priority than [[stat:cd]] when using **[[weapon:favonius-sword]]**",
-                "fr": "Ne suppose une priorité plus élevée que [[stat:cd]] qu'avec **[[weapon:favonius-sword]]**"
+                "en": "Only assumes higher priority than [[stat:cd]] when using **[[weapon:favonius-sword]]**.",
+                "fr": "Ne suppose une priorité plus élevée que [[stat:cd]] qu'avec **[[weapon:favonius-sword]]**.",
+                "it": "Ha priorità più alta di [[stat:cd]] solo quando utilizzi **[[weapon:favonius-sword]]**."
             }
         },
         "cd",
