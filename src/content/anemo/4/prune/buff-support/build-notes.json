@@ -2,28 +2,34 @@
     "best": true,
     "name": {
         "en": "Buff Support",
-        "fr": "Support Buff"
+        "fr": "Support Buff",
+        "it": "Supporto Potenziamento"
     },
     "notes": [
         {
             "en": "[[character:prune]] is a support that relies on triggering the [[element:swirl]] reaction to buff characters. Triggering [[element:swirl]] will convert her Banehunter Oathhammer ([[ability:skill]]) into the element she Swirls, and as long as her A4 talent is unlocked, hitting opponents with a converted Banehunter Oathhammer or her [[ability:burst]] will activate the Tolling Rally effect, which will provide DMG buffs to the team based on [[character:prune]]'s [[stat:atk|ATK]]. In addition, when a [[ability:hexerei]] character under Tolling Rally triggers a reaction, [[character:prune]] gains an [[stat:atk%]] boost, and if that reaction was [[element:swirl]], the triggering character also gains an [[stat:atk%]] boost.",
-            "fr": "[[character:prune]] est un support qui repose sur le déclenchement de la réaction de [[element:swirl]] pour buff les personnages. Déclencher [[element:swirl]] convertit son Marteau-serment de chasse des fléaux ([[ability:skill]]) dans l'élément dispersé, et tant que son passif A4 est débloqué, toucher des ennemis avec un Marteau-serment de chasse des fléaux converti ou son [[ability:burst]] activera l'effet Ralliement du glas, ce qui accordera des buffs de DGT à l'équipe selon l'[[stat:atk]] de [[character:prune]]. De plus, lorsqu'un personnage [[ability:hexerei]] sous Ralliement du glas déclenche une réaction, [[character:prune]] gagne un bonus d'[[stat:atk%]], et si cette réaction était [[element:swirl]], le personnage qui l'a déclenchée gagne aussi un bonus d'[[stat:atk%]]."
+            "fr": "[[character:prune]] est un support qui repose sur le déclenchement de la réaction de [[element:swirl]] pour buff les personnages. Déclencher [[element:swirl]] convertit son Marteau-serment de chasse des fléaux ([[ability:skill]]) dans l'élément dispersé, et tant que son passif A4 est débloqué, toucher des ennemis avec un Marteau-serment de chasse des fléaux converti ou son [[ability:burst]] activera l'effet Ralliement du glas, ce qui accordera des buffs de DGT à l'équipe selon l'[[stat:atk]] de [[character:prune]]. De plus, lorsqu'un personnage [[ability:hexerei]] sous Ralliement du glas déclenche une réaction, [[character:prune]] gagne un bonus d'[[stat:atk%]], et si cette réaction était [[element:swirl]], le personnage qui l'a déclenchée gagne aussi un bonus d'[[stat:atk%]].",
+            "it": "[[character:prune]] è un personaggio di supporto che ha necessità di provocare [[element:swirl]] per attivare i suoi potenziamenti. Colpire i nemici con un Martello Scacciamali che ha subito una conversione elementale tramite [[element:swirl]] attiverà l'effetto Adunanza del Rintocco, che fornisce un **potenziamento DAN% al team basato sull'[[stat:atk]] di [[character:prune]]**. In più, se un personaggio [[ability:hexerei]] del team provoca una reazione, l'[[stat:atk]] di [[character:prune]] sarà aumentato, e se la reazione è [[element:swirl]], l'[[stat:atk]] di quel personaggio sarà aumentato a sua volta. Con la **[C6]**, [[character:prune]] ed il personaggio attivo potranno ottenere ulteriore [[stat:atk]]."
         },
         {
             "en": "[[character:prune]]'s [C1] let's her restore 2 Energy every 1.8 seconds whenever a converted Banehunter Oathhammer hits opponents. How much total energy she can restore depends how often [[character:prune]] is able to trigger [[element:swirl]] during the duration of her [[ability:burst]]. [[character:prune]]'s [C6] increases her [[ability:burst]] duration by 4 seconds.",
-            "fr": "La [C1] de [[character:prune]] lui permet de restaurer 2 points d'énergie toutes les 1,8 s chaque fois qu'un Marteau-serment de chasse des fléaux converti touche des ennemis. La quantité totale d'énergie qu'elle peut restaurer dépend de la fréquence à laquelle [[character:prune]] peut déclencher [[element:swirl]] pendant la durée de son [[ability:burst]]. La [C6] de [[character:prune]] augmente la durée de son [[ability:burst]] de 4 s."
+            "fr": "La [C1] de [[character:prune]] lui permet de restaurer 2 points d'énergie toutes les 1,8 s chaque fois qu'un Marteau-serment de chasse des fléaux converti touche des ennemis. La quantité totale d'énergie qu'elle peut restaurer dépend de la fréquence à laquelle [[character:prune]] peut déclencher [[element:swirl]] pendant la durée de son [[ability:burst]]. La [C6] de [[character:prune]] augmente la durée de son [[ability:burst]] de 4 s.",
+            "it": "La **[C1]** di [[character:prune]] le permette di recuperare 2 Energie ogni 1.8 secondi quando un Martello Scacciamali che ha subito una conversione elementale colpisce dei nemici. La quantità totale recuperata dipende da quanto spesso [[character:prune]] riesce a provocare [[element:swirl]] durante il suo [[ability:burst]]. La **[C6]** di [[character:prune]] aumenta di 4 secondi la durata del suo [[ability:burst]]."
         },
         {
             "en": "Tolling Rally does not apply to [[character:prune]] herself.",
-            "fr": "Ralliement du glas ne s'applique pas à [[character:prune]] elle-même."
+            "fr": "Ralliement du glas ne s'applique pas à [[character:prune]] elle-même.",
+            "it": "Il potenziamento 'Adunanza del rintocco' non viene applicato a [[character:prune]] stessa."
         },
         {
             "en": "Tolling Rally caps out at 4,000 [[stat:atk|ATK]], usually not feasible to get unless [[character:prune]] is in a [[ability:hexerei]] team.",
-            "fr": "Ralliement du glas atteint son maximum à 4 000 d'[[stat:atk]], ce qui n'est généralement pas faisable sauf si [[character:prune]] est dans une équipe [[ability:hexerei]]."
+            "fr": "Ralliement du glas atteint son maximum à 4 000 d'[[stat:atk]], ce qui n'est généralement pas faisable sauf si [[character:prune]] est dans une équipe [[ability:hexerei]].",
+            "it": "'Adunanza del rintocco' raggiunge il suo massimo potenziale a 4,000 [[stat:atk]]. Raggiungere una tale quantità di [[stat:atk]] non è solitamente realistico al di fuori di team [[ability:hexerei]]."
         },
         {
             "en": "Talent levels are not a necessity as they do not increase [[character:prune]]'s buffing capabilities.",
-            "fr": "Monter ses aptitudes n'est pas une nécessité, car cela n'augmente pas les capacités de buff de [[character:prune]]."
+            "fr": "Monter ses aptitudes n'est pas une nécessité, car cela n'augmente pas les capacités de buff de [[character:prune]].",
+            "it": "I livelli dei Talenti non aumentano le capacità di potenziamento di [[character:prune]], e dunque non sono necessari."
         }
     ]
 }
