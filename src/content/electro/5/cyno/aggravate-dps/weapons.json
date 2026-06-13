@@ -22,9 +22,9 @@
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "Assume passive is active",
-                        "fr": "Suppose que le passif est actif.",
-                        "it": "Presuppone che la passiva sia attiva."
+                        "en": "Assume passive is active. At **[R5]**, this weapon performs slightly worse than **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme est est légèrement moins performante que **[[weapon:disaster-and-remorse]]**.",
+                        "it": "Presuppone che la passiva sia attiva. A **[R5]**, quest'arma ha prestazioni leggermente peggiori a **[[weapon:disaster-and-remorse]]**."
                     }
                 },
                 {
