@@ -7,7 +7,35 @@
         },
         {
             "items": [
-                "primordial-jade-winged-spear"
+                "disaster-and-remorse"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-winged-spear",
+                "lumidouce-elegy"
+            ]
+        },
+        {
+            "items": [
+                "fractured-halo",
+                {
+                    "name": "ballad-of-the-fjords",
+                    "note": {
+                        "en": "Assume passive is active",
+                        "fr": "Suppose que le passif est actif.",
+                        "it": "Presuppone che la passiva sia attiva."
+                    }
+                },
+                {
+                    "name": "deathmatch",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similarly to **[[weapon:primordial-jade-winged-spear]]**.",
+                        "fr": "Une fois **[R5]**, cette arme est comparable à **[[weapon:primordial-jade-winged-spear]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:primordial-jade-winged-spear]]**."
+                    }
+                },
+                "staff-of-homa"
             ]
         },
         {
@@ -15,22 +43,6 @@
                 {
                     "name": "white-tassel",
                     "refinement": 5
-                },
-                {
-                    "name": "ballad-of-the-fjords",
-                    "note": {
-                        "en": "Assume passive is active",
-                        "fr": "Suppose que le passif est actif."
-                    }
-                },
-                "staff-of-homa",
-                "lumidouce-elegy",
-                {
-                    "name": "deathmatch",
-                    "note": {
-                        "en": "At **[R5]**, this weapon performs similarly to **[[weapon:primordial-jade-winged-spear]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est comparable à **[[weapon:primordial-jade-winged-spear]]**."
-                    }
                 }
             ]
         },
@@ -39,23 +51,25 @@
                 {
                     "name": "skyward-spine",
                     "note": {
-                        "en": "In teams where [[character:cyno]] **does not need the [[stat:er]] from this weapon, do not use this weapon**. This weapon **may perform equal to or better than [[weapon:white-tassel]] [R5]** if the ATK Speed it gives is utilized to hit more of [[character:cyno]]'s [[ability:na]]s.",
-                        "fr": "Dans les équipes où [[character:cyno]] **n'a pas besoin de la [[stat:er]] de cette arme, ne l'utilisez pas**. Cette arme peut être **équivalente ou meilleure que [[weapon:white-tassel]] [R5]** si la vitesse d'attaque qu'elle donne est utilisée pour performer plus d'[[ability:na|attaques normales]] de [[character:cyno]]."
+                        "en": "This weapon **may perform equal to or better than **[[weapon:white-tassel]] [R5]** if the ATK Speed it gives is utilized to hit more of [[character:cyno]]'s [[ability:na]]s.",
+                        "fr": "Cette arme peut être **équivalente ou meilleure que **[[weapon:white-tassel]] [R5]** si la vitesse d'attaque qu'elle donne est utilisée pour performer plus d'[[ability:na|attaques normales]] de [[character:cyno]].",
+                        "it": "Quest'arma può avere prestazioni pari a o migliori di **[[weapon:white-tassel]] [R5]** se la VEL d'ATT fornita è utilizzata per effettuare più [[ability:na|Attacchi Normali]]."
                     }
                 },
-                {
-                    "name": "kitain-cross-spear",
-                    "note": {
-                        "en": "This weapon is especially competitive with the options higher on the list if [[character:cyno]] is not being run with an [[element:electro]] battery.",
-                        "fr": "Cette arme est particulièrement compétitive avec les options plus haut dans la liste si [[character:cyno]] n'est pas joué avec une batterie [[element:electro]]."
-                    }
-                }
+                "crimson-moons-semblance",
+                "bloodsoaked-ruins",
+                "kitain-cross-spear"
+            ]
+        },
+        {
+            "items": [
+                "sacrificers-staff"
             ]
         },
         {
             "items": [
                 "favonius-lance"
             ]
-        }
+        },
     ]
 }
