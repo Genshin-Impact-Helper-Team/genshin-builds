@@ -1,10 +1,4 @@
 {
-    "notes": [
-        {
-            "en": "Weapon Rankings Assuming a Significant Amount of [[element:hydro]] Application from an Off Field Unit",
-            "fr": "Le classement des armes suppose une quantité significative d'application [[element:hydro]] par un personnage off-field"
-        }
-    ],
     "weapons": [
         {
             "items": [
@@ -13,26 +7,51 @@
         },
         {
             "items": [
-                "ballad-of-the-fjords"
+                "disaster-and-remorse"
             ]
         },
         {
             "items": [
-                "primordial-jade-winged-spear"
-            ]
-        },
-        {
-            "items": [
-                "deathmatch"
-            ]
+                "primordial-jade-winged-spear",
+                {
+                    "name": "ballad-of-the-fjords",
+                    "note": {
+                        "en": "At **[R5]**, this weapon ranks higher than **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme est meilleure que **[[weapon:disaster-and-remorse]]**.",
+                        "it": "Presuppone che la passiva sia attiva. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:disaster-and-remorse]]**."
+                    }
+                },
+            ],   
         },
         {
             "items": [
                 "lumidouce-elegy",
+                "fractured-halo",
                 "staff-of-homa",
                 {
                     "name": "white-tassel",
                     "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "deathmatch",
+                    "note": {
+                        "en": "At **[R5]**, this weapon ranks higher than **[[weapon:primordial-jade-winged-spear]]**.",
+                        "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:primordial-jade-winged-spear]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:primordial-jade-winged-spear]]**."
+                    }
+                },
+                "symphonist-of-scents",
+                {
+                    "name": "kitain-cross-spear",
+                    "note": {
+                        "en": "In teams where energy is scarce, such as teams without another Favonius weapon or an [[element:electro]] user, this weapon can be desired for the energy it gives.",
+                        "fr": "Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour l'énergie qu'elle donne.",
+                        "it": "In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore."
+                    }
                 },
                 {
                     "name": "missive-windspear",
@@ -42,19 +61,13 @@
         },
         {
             "items": [
-                "kitain-cross-spear",
-                "dragons-bane"
-            ]
-        },
-        {
-            "items": [
                 {
                     "name": "skyward-spine",
                     "note": {
-                        "en": "This weapon may perform equal to or better than **[[weapon:white-tassel]] [R5]** if the ATK Speed it gives is utilized to hit more of [[character:cyno]]'s [[ability:na]]s.",
-                        "fr": " Cette arme peut être **équivalente ou meilleure que [[weapon:white-tassel]] [R5]** si la vitesse d'attaque qu'elle donne est utilisée pour performer plus d'[[ability:na|attaques normales]] de [[character:cyno]]."
+                        "en": "This weapon **may perform equal to or better than **[[weapon:white-tassel]] [R5]** if the ATK Speed it gives is utilized to hit more of [[character:cyno]]'s [[ability:na]]s.",
+                        "fr": "Cette arme peut être **équivalente ou meilleure que **[[weapon:white-tassel]] [R5]** si la vitesse d'attaque qu'elle donne est utilisée pour performer plus d'[[ability:na|attaques normales]] de [[character:cyno]].",
+                        "it": "Quest'arma può avere prestazioni pari a o migliori di **[[weapon:white-tassel]] [R5]** se la VEL d'ATT fornita è utilizzata per effettuare più [[ability:na|Attacchi Normali]]."
                     }
-                }
             ]
         },
         {
@@ -63,7 +76,8 @@
                     "name": "favonius-lance",
                     "note": {
                         "en": "In teams where energy is scarce, such as teams without another Favonius weapon or an [[element:electro]] user, this weapon can be desired for the [[stat:er]] it gives.",
-                        "fr": "Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour la [[stat:er]] qu'elle donne."
+                        "fr": "Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour la [[stat:er]] qu'elle donne.",
+                        "it": "In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore."
                     }
                 }
             ]
