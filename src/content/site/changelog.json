@@ -5,8 +5,13 @@
             "version": "6.6 / Luna VII",
             "entries": [
                 {
+                    "date": "June 13,2026",
+                    "changes": "Added Disaster and Remorse to Cyno section.",
+                    "appliedBy": "Quincy"
+                },
+                {
                     "date": "June 12,2026",
-                    "changes": "Added Gest of the Mighty Wolf to Mavuika section.",
+                    "changes": "Added Gest of the Mighty Wolf to Mavuika section. Massively updated Cyno section.",
                     "appliedBy": "Quincy"
                 },
                 {
