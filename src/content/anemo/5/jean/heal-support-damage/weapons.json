@@ -28,7 +28,8 @@
                     "name": "amenoma-kageuchi",
                     "note": {
                         "en": "This weapon can lower your [[stat:er]] requirements, depending on the number of stacks on the passive and the refinement of this weapon. As such, at higher refines / more stacks on the passive, this weapon can perform better than **[[weapon:skyward-blade]]**, while at lower refines / less stacks, it can perform worse.",
-                        "fr": "Cette arme peut réduire vos besoins en [[stat:er]], selon le nombre de cumuls du passif et son raffinement. Ainsi, avec des raffinements élevés / plus de cumuls du passif, cette arme peut dépasser **[[weapon:skyward-blade]]**, tandis qu'avec de faibles raffinements / moins de cumuls, elle peut être moins bonne."
+                        "fr": "Cette arme peut réduire vos besoins en [[stat:er]], selon le nombre de cumuls du passif et son raffinement. Ainsi, avec des raffinements élevés / plus de cumuls du passif, cette arme peut dépasser **[[weapon:skyward-blade]]**, tandis qu'avec de faibles raffinements / moins de cumuls, elle peut être moins bonne.",
+                        "it": "Quest'arma può abbassare i requisiti di [[stat:er]] di [[character:jean]], a seconda del numero di accumuli e di miglioramenti. Per questo, ad alti miglioramenti e con più accumuli, quest'arma può avere prestazioni migliori di **[[weapon:skyward-blade]]**, mentre a miglioramenti bassi e con meno accumuli, può avere prestazioni peggiori."
                     }
                 }
             ]
@@ -51,7 +52,8 @@
                     "name": "lions-roar",
                     "note": {
                         "en": "Depending on passive uptime, it can be ranked much higher in terms of [[character:jean]]'s personal damage.",
-                        "fr": "Selon l'uptime du passif, cette arme peut être classée bien plus haut pour les dégâts personnels de [[character:jean]]."
+                        "fr": "Selon l'uptime du passif, cette arme peut être classée bien plus haut pour les dégâts personnels de [[character:jean]].",
+                        "it": "A seconda del tempo di funzionamento della passiva, quest'arma può piazzarsi più alta in classifica in termini di danni personali di [[character:jean]]."
                     }
                 }
             ]
