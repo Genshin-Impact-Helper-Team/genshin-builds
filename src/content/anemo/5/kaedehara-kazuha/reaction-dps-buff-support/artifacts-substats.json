@@ -4,7 +4,8 @@
             "name": "er",
             "note": {
                 "en": "Prioritize [[stat:er]] until you meet the requirement.",
-                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis."
+                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis.",
+                "it": "Dare la priorità finché non vengono soddisfatti i requisiti."
             }
         },
         "em",
@@ -12,7 +13,8 @@
             "name": "cr",
             "note": {
                 "en": "[[stat:cr]] substats are only important when running **[[weapon:favonius-sword]]**",
-                "fr": "Les sous-stats de [[stat:cr]] sont seulement importantes avec **[[weapon:favonius-sword]]**."
+                "fr": "Les sous-stats de [[stat:cr]] sont seulement importantes avec **[[weapon:favonius-sword]]**.",
+                "it": "Solo se utilizzi **[[weapon:favonius-sword]]**."
             }
         }
     ]
