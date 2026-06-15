@@ -15,8 +15,9 @@
                 {
                     "name": "na",
                     "note": {
-                        "en": "Upgrading [[character:kaedehara-kazuha]]'s [[ability:na]] talent increases the damage of his plunge attack after using [[ability:skill]]",
-                        "fr": "Monter l'aptitude d'[[ability:na]] de [[character:kaedehara-kazuha]] augmente les dégâts de son attaque plongeante après avoir utilisé le [[ability:skill]]."
+                        "en": "Upgrading [[character:kaedehara-kazuha]]'s [[ability:na]] talent increases the damage of his plunge attack after using [[ability:skill]].",
+                        "fr": "Monter l'aptitude d'[[ability:na]] de [[character:kaedehara-kazuha]] augmente les dégâts de son attaque plongeante après avoir utilisé le [[ability:skill]].",
+                        "it": "Alzare di livello l'[[ability:na]] di [[character:kaedehara-kazuha]] aumenta i danni causati dall'Attacco in picchiata che segue la sua [[ability:skill]]."
                     }
                 }
             ]
@@ -25,7 +26,8 @@
     "notes": [
         {
             "en": "[[character:kaedehara-kazuha]] generally does not need his talents leveled on an [[stat:em]] build.",
-            "fr": "[[character:kaedehara-kazuha]] n'a généralement pas besoin de monter ses aptitudes sur un build [[stat:em]]."
+            "fr": "[[character:kaedehara-kazuha]] n'a généralement pas besoin de monter ses aptitudes sur un build [[stat:em]].",
+            "it": "Non è solitamente necessario alzare di livello i Talenti di [[character:kaedehara-kazuha]] con una build Maestria Elementale."
         }
     ]
 }
