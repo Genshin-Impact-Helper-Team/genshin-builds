@@ -8,7 +8,8 @@
                 "name": "atk%",
                 "note": {
                     "en": "The generalist pick for the goblet. In most teams, the respective Elemental goblet ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) will perform slightly better.",
-                    "fr": "Le choix généraliste pour la coupe. Dans la plupart des équipes, la coupe élémentaire correspondante ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) sera légèrement meilleure."
+                    "fr": "Le choix généraliste pour la coupe. Dans la plupart des équipes, la coupe élémentaire correspondante ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) sera légèrement meilleure.",
+                    "it": "La miglior scelta generalista. Nella maggior parte dei team, il rispettivo Calice DAN% avrà prestazioni leggermente migliori."
                 }
             }
         ],
