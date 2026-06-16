@@ -8,8 +8,9 @@
                             "name": "viridescent-venerer",
                             "pieces": 4,
                             "note": {
-                                "en": "Prioritize this set unless someone else holds it",
-                                "fr": "Priorisez ce set sauf si quelqu'un d'autre l'a déjà."
+                                "en": "Prioritize this set unless someone else is holding it.",
+                                "fr": "Priorisez ce set sauf si quelqu'un d'autre l'a déjà.",
+                                "it": "Dai la priorità a questo set se nessun altro nel team lo sta utilizzando."
                             }
                         }
                     ]
