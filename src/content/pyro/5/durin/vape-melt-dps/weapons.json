@@ -8,11 +8,6 @@
         {
             "items": [
                 "primordial-jade-cutter",
-                "azurelight"
-            ]
-        },
-        {
-            "items": [
                 "mistsplitter-reforged"
             ]
         },
@@ -23,38 +18,70 @@
         },
         {
             "items": [
-                "absolution"
+                "absolution",
+                "light-of-foliar-incision"
             ]
         },
         {
             "items": [
-                "summit-shaper",
-                "light-of-foliar-incision",
+                "azurelight"
+            ]
+        },
+        {
+            "items": [
+                "uraku-misugiri",
                 "freedom-sworn",
-                {
-                    "name": "finale-of-the-deep",
-                    "note": {
-                        "en": "For this ranking it is assumed that **[[character:durin]] is healed**, and the [[ability:bol]] is cleared. If **this cannot occur**, this weapon ranks roughly equal to **[[weapon:moonweavers-dawn]]**.",
-                        "fr": "Ce classement suppose que **[[character:durin]] se fait soigner**, et que l'[[ability:bol]] est retiré. Si **ce n'est pas le cas**, cette arme se classe environ au même niveau que **[[weapon:moonweavers-dawn]]**.",
-                        "it": "La posizione in classifica presuppone che [[character:durin]] **riceva cure sufficienti da rimuovere il [[ability:bol]]**. **In caso contrario**, quest'arma ha prestazioni simili ad **[[weapon:moonweavers-dawn]]**."
-                    }
-                },
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]** this weapon ranks above **[[weapon:summit-shaper]]**.",
-                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:summit-shaper]]**.",
-                        "it": "A **[R5]** quest'arma ha prestazioni migliori di **[[weapon:summit-shaper]]**."
+                        "en": "At **[R5]** this weapon ranks above **[[weapon:haran-geppaku-futsu]]**.",
+                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:haran-geppaku-futsu]]**.",
+                        "it": "A **[R5]** quest'arma ha prestazioni migliori di **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]
         },
         {
             "items": [
-                "uraku-misugiri",
-                "splendor-of-tranquil-waters",
-                "lightbearing-moonshard",
-                "moonweavers-dawn"
+                "summit-shaper",
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Only use this weapon if [[character:durin]] can reliably stay above 90% HP for the passive.",
+                        "fr": "N'utilisez cette arme que si [[character:durin]] peut rester au dessus de 90% de PV pour le passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "moonweavers-dawn",
+                {
+                    "name": "iron-sting",
+                    "refinement": 5
+                },
+                {
+                    "name": "toukabou-shigure",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "note": {
+                        "en": "If you can reliably trigger this weapon's passive, it ranks similarly to **[[weapon:summit-shaper]]**.",
+                        "fr": "Si vous pouvez déclencher à coup sûr le passif de l'arme, elle devient similaire à **[[weapon:summit-shaper]]**."
+                    }
+                }
             ]
         }
     ]

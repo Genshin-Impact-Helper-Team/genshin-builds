@@ -21,23 +21,7 @@
                             "pieces": 4
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "crimson-witch-of-flames",
-                            "pieces": 4
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
+                },
                 {
                     "items": [
                         {
@@ -56,6 +40,18 @@
         {
             "groups": [
                 {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
                     "choose": true,
                     "items": [
                         {
@@ -64,6 +60,10 @@
                         },
                         {
                             "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
                             "pieces": 2
                         },
                         {

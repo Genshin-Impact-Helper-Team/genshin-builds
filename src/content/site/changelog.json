@@ -5,6 +5,11 @@
             "version": "6.6 / Luna VII",
             "entries": [
                 {
+                    "date": "June 21, 2026",
+                    "changes": "Revamped Durin Vaporize/Melt section with updated, post-Lohen calculations",
+                    "appliedBy": "Quincy"
+                },
+                {
                     "date": "June 13,2026",
                     "changes": "Added Disaster and Remorse to Cyno section.",
                     "appliedBy": "Quincy"

@@ -21,6 +21,10 @@
             "it": "**Combo generica**: {rot:2N1C E 2N1C, ripeti 3 volte}"
         },
         {
+            "en": "Since using [[character:lohen]]'s CA will automatically use his normal attack beforehand, you do not have to worry about using multiple inputs for N1 > CA",
+            "fr": "Puisque la CA de [[character:lohen]] utilise automatiquement sa N1, vous n'avez pas besoin d'effectuer plusieurs actions pour faire N1 > CA"
+        },
+        {
             "en": "Rankings assume [[character:lohen]] is **not** run in a team where he himself triggers [[element:melt]] reactions.",
             "fr": "Les classements supposent que [[character:lohen]] n'est **pas** joué dans une équipe où il déclenche lui-même des réactions de [[element:melt]].",
             "it": "Le classifiche partono dal presupposto che [[character:lohen]] **non** sia giocato in un team dove lui stesso provoca reazioni di [[element:melt]]."
