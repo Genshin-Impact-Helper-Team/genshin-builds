@@ -7,8 +7,8 @@
     "best": true,
     "notes": [
         {
-            "en": "This build focuses primarily on [[character:xinyan]]'s [[stat:physical-damage]] as an On-Field DPS. At **[C2]**, [[character:xinyan]] can build a 1:3 [[stat:cr]] : [[stat:cd]] ratio instead of the usual 1:2 [[stat:cr]] : [[stat:cd]] ratio.",
-            "fr": "Cette build se concentre principalement sur les [[stat:physical-damage]] de [[character:xinyan]] en tant que DPS On-Field. Une fois **[C2]**, [[character:xinyan]] peut se build avec un ratio [[stat:cr]] : [[stat:cd]] 1:3 au lieu du ratio 1:2 habituel.",
+            "en": "This build focuses primarily on [[character:xinyan]]'s [[stat:physical-dmg]] as an On-Field DPS. At **[C2]**, [[character:xinyan]] can build a 1:3 [[stat:cr]] : [[stat:cd]] ratio instead of the usual 1:2 [[stat:cr]] : [[stat:cd]] ratio.",
+            "fr": "Cette build se concentre principalement sur les [[stat:physical-dmg]] de [[character:xinyan]] en tant que DPS On-Field. Une fois **[C2]**, [[character:xinyan]] peut se build avec un ratio [[stat:cr]] : [[stat:cd]] 1:3 au lieu du ratio 1:2 habituel.",
             "it": "Questa build si concentra principalmete sui DAN Fisici di [[character:xinyan]] come DPS sul campo. A **[C2]**, puoi mirare ad una proporzione 1:3 di [[stat:cr]] : [[stat:cd]], al posto della consueta 1:2."
         }
     ]
