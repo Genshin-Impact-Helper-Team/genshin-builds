@@ -19,12 +19,12 @@
         {
             "en": "- **[[set:desert-pavilion-chronicle]] and Signature Weapon Rotation**: {rot:(Q) E CA (N3 repeat)}",
             "fr": "- **Rotation [[set:desert-pavilion-chronicle]] et arme signature**: {rot:(Q) E CA (N3 repeat)}",
-            "it": "- **Combo con Tulaytullah e [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N3}"
+            "it": "- **Combo con [[weapon:tulaytullahs-remembrance]] e [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N3}"
         },
         {
             "en": "- **Signature Weapon Rotation (non [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
             "fr": "- **Rotation avec l'arme signature (sans [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
-            "it": "- **Combo con Tulaytullah, senza [[set:desert-pavilion-chronicle]]**: {rot:(Q)E > ripeti N3}"
+            "it": "- **Combo con [[weapon:tulaytullahs-remembrance]], senza [[set:desert-pavilion-chronicle]]**: {rot:(Q)E > ripeti N3}"
         },
         {
             "en": "- **[[set:desert-pavilion-chronicle]] Rotation**: {rot:(Q) E CA (N2C repeat)}",
