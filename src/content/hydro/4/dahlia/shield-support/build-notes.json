@@ -13,7 +13,7 @@
         },
         {
             "en": "[[character:dahlia]]'s shield will take overflow damage when broken. This occurs before it is renewed with a Benison stack.",
-            "fr": "Le bouclier de [[character:dahlia]], s'il est brisé avant son refresh avec un cumul de sacrement, ne bloquera pas les dégâts au delà de sa capacité.".
+            "fr": "Le bouclier de [[character:dahlia]], s'il est brisé avant son refresh avec un cumul de sacrement, ne bloquera pas les dégâts au delà de sa capacité.",
             "ru": "При получении урона, ломающего щит Далии, остаточный урон наносится персонажу до появления нового щита."
         },
         {
