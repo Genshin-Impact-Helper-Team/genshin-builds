@@ -115,7 +115,6 @@ const sourceLabel = t(locale, 'ui', 'Source', undefined, false);
 const imageUrl = weapon.id ? resolveWeaponAssetUrlById(weapon.id) : '';
 const popoverCardHtml = info
   ? [
-      '<span class="info-popover-card" role="tooltip">',
       '<span class="info-popover-header',
       imageUrl ? ' has-image' : '',
       '">',
@@ -184,12 +183,14 @@ const popoverCardHtml = info
             '</strong></span>',
           ].join('')
         : '',
-      '</span>',
     ].join('')
   : '';
 ---
 
-<span class="info-popover weapon-popover">
+<span
+  class="info-popover weapon-popover"
+  data-info-popover-html={info ? popoverCardHtml : undefined}
+>
   <span
     class="info-popover-trigger"
     role="button"
@@ -198,11 +199,4 @@ const popoverCardHtml = info
   >
     <InlineNoteLabel label={weapon.name} noteId={noteId} hasNote={hasNote} />
   </span>
-
-  {
-    info && (
-      <template data-info-popover-template set:html={popoverCardHtml}
-      ></template>
-    )
-  }
 </span>

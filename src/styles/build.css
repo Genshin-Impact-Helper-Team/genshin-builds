@@ -737,17 +737,7 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.info-popover:hover .info-popover-card,
-.info-popover:focus-within .info-popover-card,
-.info-popover.is-open .info-popover-card {
-  display: block;
-}
-
-body.info-popover-locked .info-popover:not(.is-open) .info-popover-card {
-  display: none;
-}
-
-body.info-popover-locked .info-popover.is-open .info-popover-card {
+.info-popover-card.is-visible {
   display: block;
 }
 
@@ -996,12 +986,7 @@ body.info-popover-locked .info-popover.is-open .info-popover-card {
     height: 58px;
   }
 
-  .info-popover:hover .info-popover-card,
-  .info-popover:focus-within .info-popover-card {
-    display: none;
-  }
-
-  .info-popover.is-open .info-popover-card {
+  .info-popover-card.is-visible {
     display: block;
   }
 }
