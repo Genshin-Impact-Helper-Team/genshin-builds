@@ -516,7 +516,7 @@
   position: relative;
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1.16;
+  appearance: none;
   border: 1px solid transparent;
   border-radius: 8px;
   padding: 0;
@@ -541,11 +541,11 @@
     transform 0.16s ease;
 }
 
-.roster-character::after {
+.roster-character-ratio {
   display: block;
+  width: 100%;
   padding-bottom: 116%;
   pointer-events: none;
-  content: '';
 }
 
 .roster-character::before {
