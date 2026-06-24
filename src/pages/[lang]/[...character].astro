@@ -1,6 +1,7 @@
 ---
 import Weapon from '../../components/Weapon.astro';
 import Artifact from '../../components/Artifact.astro';
+import ArtifactStats from '../../components/ArtifactStats.astro';
 import Talent from '../../components/Talent.astro';
 import Notes from '../../components/Notes.astro';
 import CharacterPageLayout from '../../layouts/CharacterLayout.astro';
@@ -51,6 +52,12 @@ const noteMarkerExplanation = t(
   element={element}
   lang={currentLang}
   locale={locale}
+  defaultBuildSlug={defaultBuildSlug}
+  builds={builds.map((build) => ({
+    slug: build.slug,
+    name: build.name,
+    isBest: build.isBest,
+  }))}
 >
   <div class="character-builds-layout" data-default-build={defaultBuildSlug}>
     <div class="build-list">
@@ -58,23 +65,20 @@ const noteMarkerExplanation = t(
         builds.map((build) => {
           const buildContentId = `build-content-${build.slug}`;
           const hasNoteMarkerHint = buildHasItemNotes(build.notes);
+          const isDefaultBuild = build.slug === defaultBuildSlug;
 
           return (
-            <div class="build-card" data-id={build.slug}>
-              <button
-                class="build-header"
-                aria-expanded="false"
-                aria-controls={buildContentId}
-              >
-                <span class="build-title">{build.name}</span>
-                {build.isBest && (
-                  <span class="build-badge">
-                    {t(locale, 'ui', 'Best Role')}
-                  </span>
-                )}
-              </button>
-
-              <div class="build-content" id={buildContentId} hidden aria-hidden="true">
+            <section
+              class={`build-card${isDefaultBuild ? ' open' : ''}`}
+              data-build-panel
+              data-id={build.slug}
+              id={buildContentId}
+              role="tabpanel"
+              aria-labelledby={`build-tab-${build.slug}`}
+              aria-hidden={isDefaultBuild ? 'false' : 'true'}
+              hidden={!isDefaultBuild}
+            >
+              <div class="build-content">
                 {hasNoteMarkerHint && (
                   <div class="build-note-hint">
                     <span class="note-marker-text" aria-hidden="true">
@@ -95,6 +99,7 @@ const noteMarkerExplanation = t(
                     locale={locale}
                     lang={currentLang}
                   />
+                  <ArtifactStats artifacts={build.artifacts} locale={locale} />
                   <Talent talents={build.talents} locale={locale} />
                 </div>
                 <Notes
@@ -103,7 +108,7 @@ const noteMarkerExplanation = t(
                   locale={locale}
                 />
               </div>
-            </div>
+            </section>
           );
         })
       }
@@ -122,6 +127,6 @@ const noteMarkerExplanation = t(
 }
 
 <script>
-  import '../../scripts/build-accordion';
+  import '../../scripts/build-selector';
   import '../../scripts/note-highlight';
 </script>

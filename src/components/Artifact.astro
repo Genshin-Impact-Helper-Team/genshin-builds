@@ -1,6 +1,5 @@
 ---
 import ArtifactSetGroup from './ArtifactSetGroup.astro';
-import InlineNoteLabel from './InlineNoteLabel.astro';
 import { t } from '../utils/i18n';
 
 type ArtifactSetItem = {
@@ -20,28 +19,10 @@ type ArtifactSetRank = {
   groups: ArtifactSetGroupData[];
 };
 
-type StatItem = {
-  name: string;
-  note?: string;
-  noteId?: string;
-};
-
-type SubstatPriority = StatItem | { items: StatItem[] };
-
 type ArtifactRecommendations = {
   sets: {
     artifact_sets?: ArtifactSetRank[];
     conditional?: ArtifactSetGroupData[];
-  };
-  mainstats: {
-    main_stats: {
-      sands: StatItem[];
-      goblet: StatItem[];
-      circlet: StatItem[];
-    };
-  };
-  substats: {
-    substats_priority: SubstatPriority[];
   };
 };
 
@@ -57,26 +38,10 @@ const {
 
 const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
 const conditionalArtifactGroups = artifacts.sets.conditional ?? [];
-const hasNoteMarker = (item: { note?: string; noteId?: string }) =>
-  item.noteId || item.note;
-
-const mainStatSlots = [
-  { label: 'Sands', items: artifacts.mainstats.main_stats.sands },
-  { label: 'Goblet', items: artifacts.mainstats.main_stats.goblet },
-  { label: 'Circlet', items: artifacts.mainstats.main_stats.circlet },
-];
-
-const substatRows = artifacts.substats.substats_priority.map(
-  (priority: SubstatPriority, index: number) => ({
-    rank: index + 1,
-    items: 'items' in priority ? priority.items : [priority],
-    hasAlternatives: 'items' in priority,
-  }),
-);
 ---
 
-<div class="card recommendation-card artifact-card">
-  <h2>{t(locale, 'ui', 'Artifacts')}</h2>
+<div class="card recommendation-card artifact-card artifact-sets-card">
+  <h2>{t(locale, 'ui', 'Artifacts Sets', undefined, false)}</h2>
 
   <div class="recommendation-card-body">
     {/* SETS */}
@@ -86,35 +51,39 @@ const substatRows = artifacts.substats.substats_priority.map(
       <div class="rank-list">
         {
           artifactSetRanks.length > 0 &&
-            artifactSetRanks.map((rank: ArtifactSetRank, i: number) => (
-              <div class="rank-group">
-                {rank.groups[0] && (
-                  <div class="rank-row">
-                    <strong class="rank-number">{i + 1}</strong>
-                    <div class="rank-content artifact-set-content">
-                      <ArtifactSetGroup
-                        group={rank.groups[0]}
-                        locale={locale}
-                        lang={lang}
-                      />
-                    </div>
-                  </div>
-                )}
+            artifactSetRanks.map((rank: ArtifactSetRank, i: number) => {
+              const [mainGroup, ...alternativeGroups] = rank.groups;
 
-                {rank.groups.slice(1).map((group) => (
-                  <div class="rank-row alt">
-                    <span class="rank-approx">&asymp;</span>
-                    <div class="rank-content artifact-set-content">
+              return (
+                <div class="rank-group">
+                  {mainGroup && (
+                    <div class="rank-row">
+                      <strong class="rank-number">{i + 1}</strong>
+                      <div class="rank-content artifact-set-content">
                       <ArtifactSetGroup
-                        group={group}
+                        group={mainGroup}
                         locale={locale}
                         lang={lang}
                       />
+                      </div>
                     </div>
-                  </div>
-                ))}
-              </div>
-            ))
+                  )}
+
+                  {alternativeGroups.map((group) => (
+                    <div class="rank-row alt">
+                      <span class="rank-approx">&asymp;</span>
+                      <div class="rank-content artifact-set-content">
+                        <ArtifactSetGroup
+                          group={group}
+                          locale={locale}
+                          lang={lang}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              );
+            })
         }
       </div>
 
@@ -142,76 +111,6 @@ const substatRows = artifacts.substats.substats_priority.map(
           </div>
         )
       }
-    </div>
-
-    {/* MAIN STATS */}
-    <div class="section recommendation-section">
-      <h3>{t(locale, 'ui', 'Main Stats')}</h3>
-
-      <div class="stat-grid">
-        {
-          mainStatSlots.map((slot) => (
-            <div class="stat-row">
-              <strong>{t(locale, 'ui', slot.label)}</strong>
-              <span>
-                {slot.items.map((stat: StatItem, statIndex: number) => (
-                  <>
-                    {statIndex > 0 && ' / '}
-                    <InlineNoteLabel
-                      label={stat.name}
-                      noteId={stat.noteId}
-                      hasNote={Boolean(hasNoteMarker(stat))}
-                      emphasized
-                    />
-                  </>
-                ))}
-              </span>
-            </div>
-          ))
-        }
-      </div>
-    </div>
-
-    {/* SUBSTATS */}
-    <div class="section recommendation-section">
-      <h3>{t(locale, 'ui', 'Substats')}</h3>
-
-      <div class="rank-list">
-        {
-          substatRows.map((row) => (
-            <div class="rank-group">
-              {row.items[0] && (
-                <div class="rank-row">
-                  <strong class="rank-number">{row.rank}</strong>
-                  <span class="rank-content">
-                    <InlineNoteLabel
-                      label={row.items[0].name}
-                      noteId={row.items[0].noteId}
-                      hasNote={Boolean(hasNoteMarker(row.items[0]))}
-                      emphasized
-                    />
-                  </span>
-                </div>
-              )}
-
-              {row.hasAlternatives &&
-                row.items.slice(1).map((item) => (
-                  <div class="rank-row alt">
-                    <span class="rank-approx">&asymp;</span>
-                    <span class="rank-content">
-                      <InlineNoteLabel
-                        label={item.name}
-                        noteId={item.noteId}
-                        hasNote={Boolean(hasNoteMarker(item))}
-                        emphasized
-                      />
-                    </span>
-                  </div>
-                ))}
-            </div>
-          ))
-        }
-      </div>
     </div>
   </div>
 </div>

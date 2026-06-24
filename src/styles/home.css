@@ -80,7 +80,7 @@
 .home-filters label,
 .home-filters .home-select-filter {
   position: relative;
-  contain: layout paint;
+  contain: layout;
   display: grid;
   min-width: 0;
   gap: 4px;

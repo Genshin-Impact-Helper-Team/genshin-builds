@@ -13,11 +13,16 @@ const {
   metadata,
   lang,
   locale,
+  builds = [],
+  defaultBuildSlug,
 } = Astro.props;
 const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
   '{name}',
   character,
 );
+const characterHeaderImage = metadata?.portrait ?? metadata?.image;
+const buildLabel = t(locale, 'ui', 'Builds', undefined, false);
+const bestRoleLabel = t(locale, 'ui', 'Best Role');
 ---
 
 <html lang={lang}>
@@ -35,41 +40,76 @@ const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
     <!-- The header needs the URL slug, not the localized display name. -->
     <Header locale={locale} lang={lang} character={characterSlug} />
     <div class="page character-page">
-      <section class="character-header" aria-labelledby="character-title">
-        <div class="character-header-copy">
-          <h1 id="character-title" class="page-title">{character}</h1>
+      <div class="character-page-layout">
+        <aside class="character-header" aria-labelledby="character-title">
+          {
+            characterHeaderImage && (
+              <div class="character-art-stage">
+                <img
+                  class="character-image"
+                  src={characterHeaderImage}
+                  alt={characterArtAlt}
+                  loading="eager"
+                  decoding="async"
+                  fetchpriority="high"
+                />
+              </div>
+            )
+          }
 
-          <div class="character-header-meta">
-            {
-              metadata?.last_updated && (
-                <div class="last-updated">
-                  <span>{t(locale, 'ui', 'Last Updated')}</span>
-                  <strong>
-                    {t(locale, 'ui', 'Version')} {metadata.last_updated}
-                  </strong>
-                </div>
-              )
-            }
-          </div>
-        </div>
+          <div class="character-header-copy">
+            <h1 id="character-title" class="page-title">{character}</h1>
 
-        {
-          metadata?.image && (
-            <div class="character-art-stage">
-              <img
-                class="character-image"
-                src={metadata.image}
-                alt={characterArtAlt}
-                loading="eager"
-                decoding="async"
-                fetchpriority="high"
-              />
+            <div class="character-header-meta">
+              {
+                metadata?.last_updated && (
+                  <div class="last-updated">
+                    <span>{t(locale, 'ui', 'Last Updated')}</span>
+                    <strong>
+                      {t(locale, 'ui', 'Version')} {metadata.last_updated}
+                    </strong>
+                  </div>
+                )
+              }
             </div>
-          )
-        }
-      </section>
+          </div>
 
-      <slot />
+          {
+            builds.length > 0 && (
+              <nav class="build-switcher" role="tablist" aria-label={buildLabel}>
+                {builds.map((build: any, index: number) => {
+                  const isDefaultBuild =
+                    build.slug === defaultBuildSlug ||
+                    (!defaultBuildSlug && index === 0);
+
+                  return (
+                    <button
+                      id={`build-tab-${build.slug}`}
+                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
+                      type="button"
+                      role="tab"
+                      data-build-tab
+                      data-id={build.slug}
+                      aria-controls={`build-content-${build.slug}`}
+                      aria-selected={isDefaultBuild ? 'true' : 'false'}
+                      tabindex={isDefaultBuild ? '0' : '-1'}
+                    >
+                      <span class="build-switcher-name">{build.name}</span>
+                      {build.isBest && (
+                        <span class="build-badge">{bestRoleLabel}</span>
+                      )}
+                    </button>
+                  );
+                })}
+              </nav>
+            )
+          }
+        </aside>
+
+        <div class="character-main">
+          <slot />
+        </div>
+      </div>
     </div>
     <Footer lang={lang} />
   </body>

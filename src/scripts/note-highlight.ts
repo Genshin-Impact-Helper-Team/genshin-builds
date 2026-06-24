@@ -54,6 +54,7 @@ function scrollToNote(hash: string) {
 document.querySelectorAll<HTMLAnchorElement>('.note-link').forEach((link) => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
+    event.stopPropagation();
     scrollToNote(link.hash);
   });
 });

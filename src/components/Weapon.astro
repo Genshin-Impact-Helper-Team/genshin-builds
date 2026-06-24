@@ -70,14 +70,13 @@ const conditionalWeapons = weapons.conditional ?? [];
 const rankedWeaponGroups = weapons.weapons.map(
   (position: WeaponRank, index: number) => ({
     rank: index + 1,
-    rows: position.items.map((weapon, weaponIndex) => ({
-      weapon,
-      isAlternative: weaponIndex > 0,
-    })),
+    mainItem: position.items[0],
+    alternativeItems: position.items.slice(1),
   }),
 );
 const hasFreeWeapon = rankedWeaponGroups.some((position) =>
-  position.rows.some(({ weapon }) => isFreeWeapon(weapon)),
+  Boolean(position.mainItem && isFreeWeapon(position.mainItem)) ||
+  position.alternativeItems.some((weapon) => isFreeWeapon(weapon)),
 ) || conditionalWeapons.some((weapon) => isFreeWeapon(weapon));
 ---
 
@@ -98,40 +97,62 @@ const hasFreeWeapon = rankedWeaponGroups.some((position) =>
     }
     <div class="rank-list">
       {
-        rankedWeaponGroups.map((position) => (
-          <div class="rank-group">
-            {position.rows.map(({ weapon, isAlternative }) => {
-              const isFree = isFreeWeapon(weapon);
-              const content = (
-                <span class="inline-info-label">
-                  <WeaponInfoPopover
-                    weapon={weapon}
-                    locale={locale}
-                    lang={lang}
-                    noteId={weapon.noteId}
-                    hasNote={Boolean(hasNoteMarker(weapon))}
-                  />
-                  <span class="bold">
-                    ({weapon.rarity}
-                    {'\u2605'}){formatRefinement(weapon.refinement)}
-                  </span>
-                </span>
-              );
+        rankedWeaponGroups.map((position) => {
+          const mainItem = position.mainItem;
+          const mainItemIsFree = mainItem && isFreeWeapon(mainItem);
 
-              return isAlternative ? (
-                <div class={`rank-row alt${isFree ? ' is-free-weapon' : ''}`}>
-                  <span class="rank-approx">&asymp;</span>
-                  <span class="rank-content">{content}</span>
-                </div>
-              ) : (
-                <div class={`rank-row${isFree ? ' is-free-weapon' : ''}`}>
+          return (
+            <div class="rank-group">
+              {mainItem && (
+                <div
+                  class={`rank-row${mainItemIsFree ? ' is-free-weapon' : ''}`}
+                >
                   <strong class="rank-number">{position.rank}</strong>
-                  <span class="rank-content">{content}</span>
+                  <span class="rank-content">
+                    <span class="inline-info-label">
+                      <WeaponInfoPopover
+                        weapon={mainItem}
+                        locale={locale}
+                        lang={lang}
+                        noteId={mainItem.noteId}
+                        hasNote={Boolean(hasNoteMarker(mainItem))}
+                      />
+                      <span class="bold">
+                        ({mainItem.rarity}
+                        {'\u2605'}){formatRefinement(mainItem.refinement)}
+                      </span>
+                    </span>
+                  </span>
                 </div>
-              );
-            })}
-          </div>
-        ))
+              )}
+
+              {position.alternativeItems.map((weapon) => {
+                const isFree = isFreeWeapon(weapon);
+
+                return (
+                  <div class={`rank-row alt${isFree ? ' is-free-weapon' : ''}`}>
+                    <span class="rank-approx">&asymp;</span>
+                    <span class="rank-content">
+                      <span class="inline-info-label">
+                        <WeaponInfoPopover
+                          weapon={weapon}
+                          locale={locale}
+                          lang={lang}
+                          noteId={weapon.noteId}
+                          hasNote={Boolean(hasNoteMarker(weapon))}
+                        />
+                        <span class="bold">
+                          ({weapon.rarity}
+                          {'\u2605'}){formatRefinement(weapon.refinement)}
+                        </span>
+                      </span>
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })
       }
     </div>
 

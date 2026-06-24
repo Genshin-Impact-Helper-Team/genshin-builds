@@ -9,9 +9,11 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   const POPOVER_GAP = 8;
   const MOBILE_POPOVER_QUERY = '(max-width: 900px)';
   const POPOVER_CARD_ID = 'info-popover-card';
+  const HOVER_SCROLL_SUPPRESSION_MS = 160;
   let ignoreNextClick = false;
   let lastTouchY = 0;
   let lockedScrollY = 0;
+  let hoverSuppressedUntil = 0;
   let hoveredPopover: HTMLElement | null = null;
   let focusedPopover: HTMLElement | null = null;
   let openPopover: HTMLElement | null = null;
@@ -37,6 +39,11 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   const isInsidePopoverCard = (target: EventTarget | null) =>
     target instanceof HTMLElement
       ? target.closest<HTMLElement>('.info-popover-card') !== null
+      : false;
+
+  const isNoteLink = (target: EventTarget | null) =>
+    target instanceof HTMLElement
+      ? target.closest<HTMLAnchorElement>('.note-link') !== null
       : false;
 
   const getPopoverCard = () => {
@@ -68,6 +75,12 @@ if (!infoPopoverWindow.__infoPopoversReady) {
 
   const isMobilePopoverViewport = () =>
     window.matchMedia(MOBILE_POPOVER_QUERY).matches;
+
+  const isHoverSuppressed = () => Date.now() < hoverSuppressedUntil;
+
+  const suppressHoverPopoversBriefly = () => {
+    hoverSuppressedUntil = Date.now() + HOVER_SCROLL_SUPPRESSION_MS;
+  };
 
   const shouldLockPageScroll = () =>
     hasOpenPopover() && isMobilePopoverViewport();
@@ -223,6 +236,19 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     }
   };
 
+  const clearTransientHoverPopover = () => {
+    const hadTransientPopover = hoveredPopover || isCardHovered;
+
+    hoveredPopover = null;
+    isCardHovered = false;
+
+    if (!hadTransientPopover) {
+      return;
+    }
+
+    syncPopoverVisibility(false);
+  };
+
   const positionActivePopover = (includeHover = true) => {
     const visiblePopover = getVisiblePopover(includeHover);
 
@@ -335,6 +361,12 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     syncPopoverVisibility();
   };
 
+  const handleNoteLinkInteraction = () => {
+    suppressHoverPopoversBriefly();
+    closeInfoPopovers();
+    hidePopoverCard();
+  };
+
   const handlePopoverTouchStart = (event: TouchEvent) => {
     if (!getOpenPopoverCard()) return;
 
@@ -353,7 +385,12 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     const trigger = target.closest('.info-popover-trigger');
     const card = target.closest('.info-popover-card');
 
-    if (noteLink || card) {
+    if (noteLink) {
+      handleNoteLinkInteraction();
+      return;
+    }
+
+    if (card) {
       return;
     }
 
@@ -417,6 +454,11 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   };
 
   document.addEventListener('pointerdown', (event) => {
+    if (isNoteLink(event.target)) {
+      handleNoteLinkInteraction();
+      return;
+    }
+
     if (event.pointerType === 'mouse') return;
 
     handleRefinementChange(event);
@@ -450,8 +492,18 @@ if (!infoPopoverWindow.__infoPopoversReady) {
       return;
     }
 
+    if (isNoteLink(target)) {
+      suppressHoverPopoversBriefly();
+      clearTransientHoverPopover();
+      return;
+    }
+
     if (isInsidePopoverCard(target)) {
       isCardHovered = true;
+      return;
+    }
+
+    if (isHoverSuppressed()) {
       return;
     }
 
@@ -498,6 +550,11 @@ if (!infoPopoverWindow.__infoPopoversReady) {
   });
 
   document.addEventListener('focusin', (event) => {
+    if (isNoteLink(event.target)) {
+      handleNoteLinkInteraction();
+      return;
+    }
+
     if (isInsidePopoverCard(event.target)) {
       return;
     }
@@ -545,6 +602,8 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     'scroll',
     (event) => {
       if (!isInsidePopoverCard(event.target)) {
+        suppressHoverPopoversBriefly();
+        clearTransientHoverPopover();
         scheduleActivePopoverPosition(false);
       }
     },
@@ -565,6 +624,7 @@ if (!infoPopoverWindow.__infoPopoversReady) {
     const target = event.target as HTMLElement;
 
     if (target.closest('.note-link')) {
+      handleNoteLinkInteraction();
       return;
     }
 
