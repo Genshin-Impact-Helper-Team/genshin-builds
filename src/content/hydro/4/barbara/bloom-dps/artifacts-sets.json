@@ -49,7 +49,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set can do more damage than other options in certain situations, while also increasing [[character:barbara]]'s healing to deal with [[element:bloom]] self-damage. ",
-                                "fr": "Ce set peut permettre des dégâts plus importants dans certaines situations, tout en augmentant le soin de [[character:barbara]] pour contrer les dégâts auto-ingligés de [[element:bloom]]."
+                                "fr": "Ce set peut permettre des dégâts plus importants dans certaines situations, tout en augmentant le soin de [[character:barbara]] pour contrer les dégâts auto-ingligés de [[element:bloom]].",
+                                "ru": "В определенных ситуациях дает больше урона, чем иные варианты, а также увеличивает лечение."
                             }
                         }
                     ]
