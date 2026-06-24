@@ -11,7 +11,8 @@
                     "name": "everlasting-moonglow",
                     "note": {
                         "en": "This weapon focuses on maximizing [[character:barbara]]'s personal damage when played on field. However, [[weapon:ttds]] commonly results in the highest team damage if someone can make use of the buff.",
-                        "fr": "Cette arme se concentre sur maximiser les dégâts personnels de [[character:barbara]] lorsqu'elle est sur le terrain. Cependant, [[weapon:ttds]] permet généralement de meilleurs dégâts pour l'équipe si le buff est utile pour quelqu'un."
+                        "fr": "Cette arme se concentre sur maximiser les dégâts personnels de [[character:barbara]] lorsqu'elle est sur le terrain. Cependant, [[weapon:ttds]] permet généralement de meilleurs dégâts pour l'équipe si le buff est utile pour quelqu'un.",
+                        "ru": "В отрядах, где Барбара играет на поле, это оружие обеспечит наибольший прирост урона Барбаре, но Эпос о драконоборцах чаще всего будет полезнее в целом, если в отряде есть персонаж, использующий бонус Силы атаки."
                     }
                 }
             ]
@@ -34,7 +35,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon is a strong pick for teams that make good use of its passive and let [[character:barbara]] trigger [[element:electro]] reactions reliably.",
-                        "fr": "Cette arme est une bonne option pour les équipes qui peuvent tirer partie du buff et laisser [[character:barbara]] déclencher des réactions liées à l'[[element:electro]] de façon fiable."
+                        "fr": "Cette arme est une bonne option pour les équipes qui peuvent tirer partie du buff et laisser [[character:barbara]] déclencher des réactions liées à l'[[element:electro]] de façon fiable.",
+                        "ru": "Хороший выбор в отрядах, использующих бонус Пассивной способности, если Барбара может стабильно закрывать Электро реакции."
                     }
                 }
             ]
