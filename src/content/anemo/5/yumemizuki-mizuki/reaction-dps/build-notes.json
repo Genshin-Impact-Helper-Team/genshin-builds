@@ -2,12 +2,14 @@
     "best": true,
     "name": {
         "en": "Reaction DPS",
-        "fr": "DPS Réactions"
+        "fr": "DPS Réactions",
+        "it": "DPS da Reazione"
     },
     "notes": [
         {
-            "en": "[[character:yumemizuki-mizuki]] is a driver that focuses on enhancing and triggering the [[element:swirl]] reaction. Her only needed stats are [[stat:em]], to strengthen her [[element:swirl]] buff as well as [[element:swirl]] damage, and [[stat:er]] to be able to use her [[ability:burst]] every rotation for healing and more [[element:swirl]]s.",
-            "fr": "[[character:yumemizuki-mizuki]] est un driver centré sur l'amélioration et le déclenchement des réactions de [[element:swirl]]. Ses seules stats nécéssaires sont [[stat:em]] pour renforcer son buff et ses dégâts de [[element:swirl]], et [[stat:er]] pour pouvoir utiliser son [[ability:burst]] à chaque rotation pour le soin et plus de [[element:swirl]]s."
+            "en": "[[character:yumemizuki-mizuki]] is a driver that focuses on **enhancing and triggering the [[element:swirl]] reaction**. Her only needed stats are [[stat:em]], to strengthen her [[element:swirl]] buff as well as [[element:swirl]] damage, and [[stat:er]] to be able to use her [[ability:burst]] every rotation for healing and more [[element:swirl]]s.",
+            "fr": "[[character:yumemizuki-mizuki]] est un driver centré sur **l'amélioration et le déclenchement des réactions de [[element:swirl]]**. Ses seules stats nécéssaires sont [[stat:em]] pour renforcer son buff et ses dégâts de [[element:swirl]], et [[stat:er]] pour pouvoir utiliser son [[ability:burst]] à chaque rotation pour le soin et plus de [[element:swirl]]s.",
+            "it": "[[character:yumemizuki-mizuki]] è un personaggio usato sul campo ('driver') che si concentra sul **potenziare ed innescare reazioni [[element:swirl]]**. Le sole statistiche di cui necessita sono [[stat:em]], per potenziare sia il suo potenziamento a [[element:swirl]] sia i suoi danni da [[element:swirl]], e [[stat:er]], per utilizzare il suo [[ability:burst]] in ogni rotazione per le sue cure e per innescare più reazioni."
         }
     ]
 }
