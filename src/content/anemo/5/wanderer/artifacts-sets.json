@@ -20,8 +20,9 @@
                             "name": "shimenawas-reminiscence",
                             "pieces": 4,
                             "note": {
-                                "en": "If [[character:wanderer]] is [C2] or higher it is not recommended to run this set.",
-                                "fr": "Si [[character:wanderer]] est [C2] ou plus, il n'est pas recommandé d'utiliser ce set."
+                                "en": "If [[character:wanderer]] is **[C2]** or higher it is **not** recommended to run this set.",
+                                "fr": "Si [[character:wanderer]] est **[C2]** ou plus, il **n'est pas** recommandé d'utiliser ce set.",
+                                "it": "Se [[character:wanderer]] è **[C2+]**, **non** è consigliabile utilizzare questo set."
                             }
                         }
                     ]
@@ -36,8 +37,9 @@
                             "name": "echoes-of-an-offering",
                             "pieces": 4,
                             "note": {
-                                "en": "If your ping is above 100, it is not recommended to run this set specifically",
-                                "fr": "Si votre ping est supérieur à 100, il n'est pas recommandé d'utiliser ce set en particulier."
+                                "en": "If your **ping is above 100, it is not recommended to run this set** specifically",
+                                "fr": "Si votre **ping est supérieur à 100, il n'est pas recommandé d'utiliser ce set** en particulier.",
+                                "it": "Se il tuo **ping è superiore a 100, non è consigliabile utilizzare questo set**."
                             }
                         }
                     ]
@@ -78,7 +80,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "In teams where the majority of the damage share is not linked to [[character:wanderer]], and there is no other viable holder of the set, he may use **[[set:viridescent-venerer]]** (4).",
-                                "fr": "Dans les équipes où la majorité de la part de dégâts n'est pas liée à [[character:wanderer]], et où il n'y a aucun autre porteur viable du set, il peut utiliser **[[set:viridescent-venerer]]** (4)."
+                                "fr": "Dans les équipes où la majorité de la part de dégâts n'est pas liée à [[character:wanderer]], et où il n'y a aucun autre porteur viable du set, il peut utiliser **[[set:viridescent-venerer]]** (4).",
+                                "it": "In team in cui la maggior parte dei danni non è inflitta da [[character:wanderer]] e non ci sono altri validi utilizzatori del set, è possibile utilizzare **[[set:viridescent-venerer]]** (4)."
                             }
                         }
                     ]
@@ -94,7 +97,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "This set synergizes well with the 20% [[stat:cr]] that [[character:wanderer]] gets from swirling [[element:cryo]]. It is only recommended if you have close to 100% uptime on [[element:freeze]], which requires very specific teams. Despite this, with 100% [[element:freeze]] uptime, this set is still worse than **[[set:desert-pavilion-chronicle]]** (4).",
-                        "fr": "Ce set se synergise bien avec les 20 % de [[stat:cr]] que [[character:wanderer]] obtient en dispersant du [[element:cryo]]. Il est seulement recommandé si vous avez près de 100 % d'uptime sur le [[element:freeze]], ce qui demande des équipes très spécifiques. Malgré cela, même avec 100 % d'uptime sur le [[element:freeze]], ce set reste moins bon que **[[set:desert-pavilion-chronicle]]** (4)."
+                        "fr": "Ce set se synergise bien avec les 20 % de [[stat:cr]] que [[character:wanderer]] obtient en dispersant du [[element:cryo]]. Il est seulement recommandé si vous avez près de 100 % d'uptime sur le [[element:freeze]], ce qui demande des équipes très spécifiques. Malgré cela, même avec 100 % d'uptime sur le [[element:freeze]], ce set reste moins bon que **[[set:desert-pavilion-chronicle]]** (4).",
+                        "it": "Questo set si integra bene con il 20% di [[stat:cr]] che [[character:wanderer]] ottiene provocando [[element:swirl]] [[element:cryo]]. È consigliato solo se hai un tempo di funzionamento vicino al 100% di [[element:freeze]], il che richiede team molto specifici. Nonostante ciò, anche con un tempo di funzionamento di [[element:freeze]] del 100%, questo set rimane peggiore di **[[set:desert-pavilion-chronicle]]** (4)."
                     }
                 }
             ]
@@ -106,7 +110,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "In teams with consistent [[element:pyro]] application, this set is about equal to **[[set:echoes-of-an-offering]]** (4).",
-                        "fr": "Dans les équipes avec une application [[element:pyro]] constante, ce set est à peu près équivalent à **[[set:echoes-of-an-offering]]** (4)."
+                        "fr": "Dans les équipes avec une application [[element:pyro]] constante, ce set est à peu près équivalent à **[[set:echoes-of-an-offering]]** (4).",
+                        "it": "In team con applicazione [[element:pyro]] costante, questo set è più o meno equivalente ad **[[set:echoes-of-an-offering]]** (4)."
                     }
                 }
             ]

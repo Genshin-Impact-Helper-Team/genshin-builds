@@ -11,7 +11,8 @@
                     "name": "favonius-codex",
                     "note": {
                         "en": "With high team [[stat:er]] Requirements, this weapon pulls ahead in value.",
-                        "fr": "Avec des besoins en [[stat:er]] élevés pour l'équipe, cette arme gagne en valeur."
+                        "fr": "Avec des besoins en [[stat:er]] élevés pour l'équipe, cette arme gagne en valeur.",
+                        "it": "In **team con requisiti di [[stat:er]] alti**, quest'arma guadagna valore."
                     }
                 },
                 "oathsworn-eye"
@@ -23,7 +24,8 @@
                     "name": "wine-and-song",
                     "note": {
                         "en": "Perform a dash to gain the [[stat:atk%]] from the passive.",
-                        "fr": "Effectuez un dash pour obtenir l'[[stat:atk%]] du passif."
+                        "fr": "Effectuez un dash pour obtenir l'[[stat:atk%]] du passif.",
+                        "it": "Esegui uno scatto per ottenere l'[[stat:atk%]] dalla passiva."
                     }
                 }
             ]
@@ -35,15 +37,17 @@
                     "name": "hakushin-ring",
                     "note": {
                         "en": "In teams with [[element:electro]] units to benefit from the passive, this weapon ranks higher than **[[weapon:ballad-of-the-boundless-blue]]**.",
-                        "fr": "Dans les équipes avec des personnages [[element:electro]] qui peuvent bénéficier du passif, cette arme se classe au-dessus de **[[weapon:ballad-of-the-boundless-blue]]**."
+                        "fr": "Dans les équipes avec des personnages [[element:electro]] qui peuvent bénéficier du passif, cette arme se classe au-dessus de **[[weapon:ballad-of-the-boundless-blue]]**.",
+                        "it": "In team **con personaggi [[element:electro]]** che riescono a sfruttare la passiva, quest'arma ha prestazioni migliori di **[[weapon:ballad-of-the-boundless-blue]]**."
                     }
                 },
                 {
                     "name": "prototype-amber",
                     "refinement": "3+",
                     "note": {
-                        "en": "At low refinements, this weapon is not worth using. The lower [[character:xianyun]]'s total [[stat:er]] requirements, the worse this weapon performs. At [R5] this weapon is similar or better than **[[weapon:ballad-of-the-boundless-blue]]**.",
-                        "fr": "À bas raffinements, cette arme ne vaut pas la peine d'être utilisée. Plus les besoins totaux en [[stat:er]] de [[character:xianyun]] sont bas, moins cette arme est bonne. Une fois [R5], cette arme équivaut ou dépasse **[[weapon:ballad-of-the-boundless-blue]]**."
+                        "en": "At low refinements, this weapon is not worth using. The lower [[character:xianyun]]'s total [[stat:er]] requirements, the worse this weapon performs. At **[R5]** this weapon is similar or better than **[[weapon:ballad-of-the-boundless-blue]]**.",
+                        "fr": "À bas raffinements, cette arme ne vaut pas la peine d'être utilisée. Plus les besoins totaux en [[stat:er]] de [[character:xianyun]] sont bas, moins cette arme est bonne. Une fois **[R5]**, cette arme équivaut ou dépasse **[[weapon:ballad-of-the-boundless-blue]]**.",
+                        "it": "A bassi miglioramenti, non vale la pena utilizzare quest'arma. Più bassi sono i requisiti di [[stat:er]] di [[character:xianyun]], peggiori sono le prestazioni di quest'arma. A **[R5]**, quest'arma ha prestazioni simili o migliori di **[[weapon:ballad-of-the-boundless-blue]]**."
                     }
                 }
             ]

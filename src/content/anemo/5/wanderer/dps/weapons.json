@@ -11,7 +11,8 @@
                     "name": "memory-of-dust",
                     "note": {
                         "en": "This weapon can pull farther ahead than other options if [[character:wanderer]] is shielded. If shielded, it maintains its ranking without [[character:bennett]], and performs better than **[[weapon:the-widsith]]** with [[character:bennett]].",
-                        "fr": "Cette arme peut prendre plus d'avance sur les autres options si [[character:wanderer]] est protégé par un bouclier. Avec un bouclier, elle maintient son classement sans [[character:bennett]], et dépasse **[[weapon:the-widsith]]** avec [[character:bennett]]."
+                        "fr": "Cette arme peut prendre plus d'avance sur les autres options si [[character:wanderer]] est protégé par un bouclier. Avec un bouclier, elle maintient son classement sans [[character:bennett]], et dépasse **[[weapon:the-widsith]]** avec [[character:bennett]].",
+                        "it": "Quest'arma può superare le altre opzioni se [[character:wanderer]] è protetto da uno scudo. Se protetto da uno scudo, mantiene la sua posizione nella classifica senza [[character:bennett]] e ha prestazioni migliori rispetto a **[[weapon:the-widsith]]** con [[character:bennett]]."
                     }
                 },
                 "skyward-atlas",
@@ -24,7 +25,8 @@
                     "name": "the-widsith",
                     "note": {
                         "en": "Because [[character:wanderer]] doesn't focus on [[element:swirl]] damage, this weapon can be inconsistent if you get the [[stat:em]] buff.",
-                        "fr": "Comme [[character:wanderer]] ne se concentre pas sur les dégâts de [[element:swirl]], cette arme peut être irrégulière si vous obtenez le buff de [[stat:em]]."
+                        "fr": "Comme [[character:wanderer]] ne se concentre pas sur les dégâts de [[element:swirl]], cette arme peut être irrégulière si vous obtenez le buff de [[stat:em]].",
+                        "it": "Poiché [[character:wanderer]] non si concentra su danni da [[element:swirl]], quest'arma può essere inefficace se si ottiene il potenziamento alla [[stat:em]]."
                     }
                 },
                 {
@@ -32,7 +34,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon uses a different rotation of {rot:E N1 CAx6 N1 CAx6} to maximize its passive.",
-                        "fr": "Cette arme utilise une rotation différente, {rot:E N1 CAx6 N1 CAx6}, afin de maximiser son passif."
+                        "fr": "Cette arme utilise une rotation différente, {rot:E N1 CAx6 N1 CAx6}, afin de maximiser son passif.",
+                        "it": "Quando utilizzi quest'arma, esegui una rotazione diversa ({rot:E N1 6CA N1 6CA}) per massimizzare la sua passiva."
                     }
                 }
             ]

@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Better than **[[set:viridescent-venerer]]** if someone else already has the set or if [[element:pyro]]/[[element:hydro]]/[[element:cryo]]/[[element:electro]] damage is not a large source of the team's damage.",
-                                "fr": "Meilleur que **[[set:viridescent-venerer]]** si quelqu'un d'autre porte déjà le set ou si les dégâts [[element:pyro]]/[[element:hydro]]/[[element:cryo]]/[[element:electro]] ne représentent pas une grande part des dégâts de l'équipe."
+                                "fr": "Meilleur que **[[set:viridescent-venerer]]** si quelqu'un d'autre porte déjà le set ou si les dégâts [[element:pyro]]/[[element:hydro]]/[[element:cryo]]/[[element:electro]] ne représentent pas une grande part des dégâts de l'équipe.",
+                                "it": "Migliore di **[[set:viridescent-venerer]]** se qualcun'altro nel team lo sta già utilizzando **o se danni [[element:pyro]]/[[element:hydro]]/[[element:cryo]]/[[element:electro]] non costituiscono la maggioranza dei danni del team**."
                             }
                         }
                     ]
@@ -44,8 +45,9 @@
                             "name": "song-of-days-past",
                             "pieces": 4,
                             "note": {
-                                "en": "In Single Target scenarios, **[[set:song-of-days-past]]** can be better than **[[set:ocean-hued-clam]]**. However, **[[set:ocean-hued-clam]]** is more consistent.",
-                                "fr": "En situation de cible unique, **[[set:song-of-days-past]]** peut dépasser **[[set:ocean-hued-clam]]**. Cependant, **[[set:ocean-hued-clam]]** est plus constant."
+                                "en": "In Single Target scenarios, **[[set:song-of-days-past]] (4)** can be better than **[[set:ocean-hued-clam]] (4)**. However, **[[set:ocean-hued-clam]] (4)** is more consistent.",
+                                "fr": "En situation de cible unique, **[[set:song-of-days-past]] (4)** peut dépasser **[[set:ocean-hued-clam]] (4)**. Cependant, **[[set:ocean-hued-clam]] (4)** est plus constant.",
+                                "it": "In situazioni contro nemici singoli, **[[set:song-of-days-past]] (4)** può essere migliore di **[[set:ocean-hued-clam]] (4)**. Tuttavia, **[[set:ocean-hued-clam]] (4)** è più costante."
                             }
                         }
                     ]

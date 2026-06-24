@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "High Energy Requirement Buff & Heal Support",
-        "fr": "Support Buff & Heal (Besoins en Energie Elevés)"
+        "fr": "Support Buff & Heal (Besoins en Energie Elevés)",
+        "it": "Supporto Potenziamento & Cure (requisiti di energia alti)"
     },
     "best": true,
     "global": [
@@ -12,12 +13,14 @@
     ],
     "notes": [
         {
-            "en": "[[character:xianyun]]'s main utilities are her jump height boost, healing, and Plunging Attack buff. While her healing is tied to her [[ability:burst]] Levels, the only way to increase her Plunging Attack buff is by increasing her total [[stat:atk|ATK]].",
-            "fr": "Les principales commodités de [[character:xianyun]] sont son boost de hauteur de saut, son soin et son buff d'attaques plongeantes. Bien que son soin dépende des niveaux de son [[ability:burst]], la seule façon d'augmenter son buff d'attaques plongeantes est d'augmenter son total d'[[stat:atk]]."
+            "en": "[[character:xianyun]]'s main utilities are her **jump height boost, healing, and Plunging Attack buff**. While her healing is tied to her [[ability:burst]] Levels, the only way to increase her Plunging Attack buff is by increasing her total [[stat:atk|ATK]].",
+            "fr": "Les principales commodités de [[character:xianyun]] sont son **boost de hauteur de saut, son soin et son buff d'attaques plongeantes**. Bien que son soin dépende des niveaux de son [[ability:burst]], la seule façon d'augmenter son buff d'attaques plongeantes est d'augmenter son total d'[[stat:atk]].",
+            "it": "Le funzioni principali di [[character:xianyun]] sono **l'aumento dell'altezza dei salti, le cure, ed il potenziamento agli Attacchi in picchiata**. La potenza delle sue cure è legata ai livelli del suo [[ability:burst]], mentre l'unico modo per aumentare il suo potenziamento agli Attacchi in picchiata è aumentare il suo [[stat:atk]] totale."
         },
         {
             "en": "Most teams will not use all three uses of [[character:xianyun]]'s [[ability:skill]], since it is too time intensive to do so. A simple {rot:E Q} is the ideal rotation for most teams.",
-            "fr": "La plupart des équipes n'utiliseront pas les trois utilisations du [[ability:skill]] de [[character:xianyun]], car cela prend trop de temps. Une simple rotation {rot:E Q} est idéale pour la plupart des équipes."
+            "fr": "La plupart des équipes n'utiliseront pas les trois utilisations du [[ability:skill]] de [[character:xianyun]], car cela prend trop de temps. Une simple rotation {rot:E Q} est idéale pour la plupart des équipes.",
+            "it": "La maggior parte dei team non utilizza tutte e tre le cariche dell'[[ability:skill]] di [[character:xianyun]], poiché richiederebbe troppo tempo. La combo ideale nella maggior parte dei casi è semplicemente {rot:EQ}."
         }
     ]
 }

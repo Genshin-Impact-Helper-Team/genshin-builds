@@ -42,7 +42,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon ranks above **[[weapon:haran-geppaku-futsu]]**.",
                         "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:haran-geppaku-futsu]]**.",
-                        "it": "A **[R5]** quest'arma ha prestazioni migliori di **[[weapon:haran-geppaku-futsu]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]
@@ -54,8 +54,9 @@
                     "name": "harbinger-of-dawn",
                     "refinement": 5,
                     "note": {
-                        "en": "Only use this weapon if [[character:durin]] can reliably stay above 90% HP for the passive.",
-                        "fr": "N'utilisez cette arme que si [[character:durin]] peut rester au dessus de 90% de PV pour le passif."
+                        "en": "Only use this weapon if [[character:durin]] can reliably stay **above 90% HP** for the passive.",
+                        "fr": "N'utilisez cette arme que si [[character:durin]] peut rester au **dessus de 90% de PV** pour le passif.",
+                        "it": "La posizione in classifica presuppone che **la passiva (>90% HP) sia sempre attiva**. In caso contrario, non utilizzare quest'arma."
                     }
                 }
             ]
@@ -79,7 +80,8 @@
                     "name": "finale-of-the-deep",
                     "note": {
                         "en": "If you can reliably trigger this weapon's passive, it ranks similarly to **[[weapon:summit-shaper]]**.",
-                        "fr": "Si vous pouvez déclencher à coup sûr le passif de l'arme, elle devient similaire à **[[weapon:summit-shaper]]**."
+                        "fr": "Si vous pouvez déclencher à coup sûr le passif de l'arme, elle devient similaire à **[[weapon:summit-shaper]]**.",
+                        "it": "Se [[character:durin]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**."
                     }
                 }
             ]
