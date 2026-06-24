@@ -29,7 +29,8 @@
                     "refinement": "4+",
                     "note": {
                         "en": "Despite this weapon providing the most energy for [[character:xingqiu]] himself, it is a selfish weapon that extends rotation times which is a loss in team DPS. However, if you aren't worried about damage, its comfort is unparalleled as long as it is **[R4+]**.",
-                        "fr": "Bien que cette arme donne le plus d'énergie à [[character:xingqiu]], c'est un choix d'arme égoïste qui allonge la durée de la rotation ce qui est une perte de DPS pour l'équipe. Cependant, si vous ne vous inquiétez pas dé dégâts, son confort est inégalé tant que l'arme est **[R4+]**."
+                        "fr": "Bien que cette arme donne le plus d'énergie à [[character:xingqiu]], c'est un choix d'arme égoïste qui allonge la durée de la rotation ce qui est une perte de DPS pour l'équipe. Cependant, si vous ne vous inquiétez pas dé dégâts, son confort est inégalé tant que l'arme est **[R4+]**.",
+                        "ru": "Несмотря на то, что данное оружие дает наибольшее количество энергии для самого Син Цю, его использование приводит к удлинению ротаций, тем самым понижая общий показатель урона в секунду. Если вы готовы принять потерю в уроне, данное оружие является комфортным выбором на [R4+]."
                     }
                 }
             ]
@@ -40,21 +41,24 @@
             "name": "athame-artis",
             "note": {
                 "en": "If you are able to meet [[stat:er]] requirements, this weapon outperforms [[weapon:favonius-sword]] by a large enough margin to mention here.",
-                "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné."
+                "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné.",
+                "ru": "Если Вам удаётся достигнуть требований к Восстановлению энергии, превосходит Меч Фавония достаточно сильно, чтобы заслуживать упоминания."
             }
         },
         {
             "name": "primordial-jade-cutter",
             "note": {
                 "en": "If you are able to meet [[stat:er]] requirements, this weapon outperforms [[weapon:favonius-sword]] by a large enough margin to mention here.",
-                "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné."
+                "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné.",
+                "ru": "Если Вам удаётся достигнуть требований к Восстановлению энергии, превосходит Меч Фавония достаточно сильно, чтобы заслуживать упоминания."
             }
         },
         {
             "name": "freedom-sworn",
             "note": {
                 "en": "In a team where [[character:xingqiu]] consistently triggers reactions (most commonly [[element:bloom]] or [[element:electrocharged]]) and the team benefits from [[weapon:freedom-sworn]]'s buff, this becomes competitive with [[weapon:primordial-jade-cutter]] for [[character:xingqiu]]'s best weapon assuming you are able to meet [[stat:er]] requirements.",
-                "fr": "Dans les équipes où [[character:xingqiu]] déclenche régulièrement des réactions ([[element:bloom]] ou [[element:electrocharged]] la plupart du temps) et que l'équipe bénéficie du buff de [[weapon:freedom-sworn]], cette arme devient équivalente à [[weapon:primordial-jade-cutter]] pour la meilleure arme de [[character:xingqiu]] en partant du principe que les besoins en [[stat:er]] sont atteints."
+                "fr": "Dans les équipes où [[character:xingqiu]] déclenche régulièrement des réactions ([[element:bloom]] ou [[element:electrocharged]] la plupart du temps) et que l'équipe bénéficie du buff de [[weapon:freedom-sworn]], cette arme devient équivalente à [[weapon:primordial-jade-cutter]] pour la meilleure arme de [[character:xingqiu]] en partant du principe que les besoins en [[stat:er]] sont atteints.",
+                "ru": "В отрядах, где Син Цю может стабильно вызывать реакции (чаще всего Заряжен или Бутонизация), и другие члены отряда используют бонус Пассивной способности, соответствует Драгоценному омуту при условии достижения требований к Восстановлению энергии."
             }
         }
     ]

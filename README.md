@@ -22,7 +22,7 @@
 
 The current website is here:
 
-https://akhalaplo.github.io/genshin-builds/
+https://genshin-impact-helper-team.github.io/genshin-builds/
 
 The website shows the content that has been accepted into the branch `main` at all times: any changes made on `main` will be reflected on the website.
 

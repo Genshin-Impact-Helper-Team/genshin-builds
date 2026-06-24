@@ -21,13 +21,15 @@
                     "name": "peak-patrol-song",
                     "note": {
                         "en": "Does not aid [[character:dahlia]]'s stats, but offer some team buffing in return. Only use it if the team can reliably trigger its passive, and you've met [[stat:er]] and [[stat:hp%]] thresholds.",
-                        "fr": "N'aide pas pour les stats de [[character:dahlia]], mais offre des buffs à l'équipe en contrepartie. A n'utiliser que si l'équipe peut déclencher le passif de l'arme à coup sûr, et si vous avez déjà atteints les montants nécéssaires de [[stat:er]] et [[stat:hp%]]."
+                        "fr": "N'aide pas pour les stats de [[character:dahlia]], mais offre des buffs à l'équipe en contrepartie. A n'utiliser que si l'équipe peut déclencher le passif de l'arme à coup sûr, et si vous avez déjà atteints les montants nécéssaires de [[stat:er]] et [[stat:hp%]].",
+                        "ru": "Не даёт нужных Далии статов, взамен предлагая бонусы для команды. Используйте только при возможности стабильно активировать Пассивную способность и при достижении необходимого уровня ВЭ и HP."
                     }
                 },
                 {
                     "name": "freedom-sworn",
                     "note": {
-                        "en": ""
+                        "en": "",
+                        "ru": "Не даёт нужных Далии статов, взамен предлагая бонусы для команды. Используйте только при возможности стабильно активировать Пассивную способность и при достижении необходимого уровня ВЭ и HP."
                     }
                 }
             ]

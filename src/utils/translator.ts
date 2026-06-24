@@ -262,12 +262,7 @@ export class TranslationHelper {
    * Builds the inline HTML for one rotation notation popover.
    */
   private renderRotationPopover(notation: string) {
-    return [
-      '<span class="info-popover rotation-popover">',
-      '<button class="info-popover-trigger rotation-popover-trigger" type="button" aria-expanded="false">',
-      escapeHtml(notation),
-      '</button>',
-      '<span class="info-popover-card rotation-popover-card" role="tooltip">',
+    const cardHtml = [
       '<span class="rotation-popover-intro">',
       escapeHtml(
         t(this.locale, 'ui', ROTATION_POPOVER_INTRO_ID, undefined, false),
@@ -295,7 +290,15 @@ export class TranslationHelper {
         t(this.locale, 'ui', ROTATION_POPOVER_EXAMPLE_ID, undefined, false),
       ),
       '</span>',
-      '</span>',
+    ].join('');
+
+    return [
+      '<span class="info-popover rotation-popover" data-info-popover-card-class="rotation-popover-card" data-info-popover-html="',
+      escapeHtml(cardHtml),
+      '">',
+      '<button class="info-popover-trigger rotation-popover-trigger" type="button" aria-expanded="false">',
+      escapeHtml(notation),
+      '</button>',
       '</span>',
     ].join('');
   }
@@ -466,13 +469,7 @@ export class TranslationHelper {
           '" alt="" loading="lazy" decoding="async"></span>',
         ].join('')
       : '';
-
-    return [
-      '<span class="info-popover weapon-popover">',
-      '<button class="info-popover-trigger" type="button" aria-expanded="false">',
-      escapeHtml(label),
-      '</button>',
-      '<span class="info-popover-card" role="tooltip">',
+    const cardHtml = [
       '<span class="info-popover-header',
       imageUrl ? ' has-image' : '',
       '">',
@@ -495,7 +492,15 @@ export class TranslationHelper {
       passivePanels,
       '</span>',
       sourceFooter,
-      '</span>',
+    ].join('');
+
+    return [
+      '<span class="info-popover weapon-popover" data-info-popover-html="',
+      escapeHtml(cardHtml),
+      '">',
+      '<button class="info-popover-trigger" type="button" aria-expanded="false">',
+      escapeHtml(label),
+      '</button>',
       '</span>',
     ].join('');
   }
@@ -532,13 +537,7 @@ export class TranslationHelper {
           '" alt="" loading="lazy" decoding="async"></span>',
         ].join('')
       : '';
-
-    return [
-      '<span class="info-popover artifact-popover">',
-      '<button class="info-popover-trigger artifact-popover-trigger" type="button" aria-expanded="false">',
-      escapeHtml(label),
-      '</button>',
-      '<span class="info-popover-card artifact-popover-card" role="tooltip">',
+    const cardHtml = [
       '<span class="info-popover-header',
       imageUrl ? ' has-image' : '',
       '">',
@@ -561,7 +560,15 @@ export class TranslationHelper {
           ].join(''),
         )
         .join(''),
-      '</span>',
+    ].join('');
+
+    return [
+      '<span class="info-popover artifact-popover" data-info-popover-card-class="artifact-popover-card" data-info-popover-html="',
+      escapeHtml(cardHtml),
+      '">',
+      '<button class="info-popover-trigger artifact-popover-trigger" type="button" aria-expanded="false">',
+      escapeHtml(label),
+      '</button>',
       '</span>',
     ].join('');
   }

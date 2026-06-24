@@ -2,24 +2,29 @@
     "best": true,
     "name": {
         "en": "Buff Support",
-        "fr": "Support Buff"
+        "fr": "Support Buff",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "[[character:candace]] is a 4-star [[element:hydro]] Support who specializes in providing off-field [[element:hydro]] application with her HP-scaling [[ability:burst]], infusing melee allies' [[ability:na]]s with [[element:hydro]] and providing defensive utility with her [[ability:skill]].",
-            "fr": "[[character:candace]] est un support [[element:hydro]] 4 étoiles qui se spécialise dans l'application [[element:hydro]] off-field avec son [[ability:burst]], infusant les [[ability:na|attaques normales]] d'arme de mélée des alliés avec [[element:hydro]], et offrant des commodités défensives grâce à son [[ability:skill]]."
+            "fr": "[[character:candace]] est un support [[element:hydro]] 4 étoiles qui se spécialise dans l'application [[element:hydro]] off-field avec son [[ability:burst]], infusant les [[ability:na|attaques normales]] d'arme de mélée des alliés avec [[element:hydro]], et offrant des commodités défensives grâce à son [[ability:skill]].",
+            "ru": "Кандакия - 4* Гидро саппорт, специализирующийся на наложении Гидро из кармана за счет Взрыва стихии. Благодаря эффекту Молитва алой короны союзники, владеющие одноручным, двуручным или древковым оружием, получают Гидро инфузию. Элементальный навык в свою очередь выполняет функцию щита."
         },
         {
             "en": "It is worth noting that [[character:candace]] will never be the strongest option for your teams. At the cost of having different kinds of utility in one kit, she will never be the best at them. Her damage contribution is surpassed by offensive [[element:hydro]] supports like [[character:xingqiu]], and her defensive capabilities are outclassed by other [[element:hydro]] healers.",
-            "fr": "Il faut garder en tête que [[character:candace]] ne sera jamais la meilleure options pour vos équipes. Bien qu'ayant différent types de commodités dans son kit, elle n'est la meilleure pour aucune d'entre elles. Sa contribution aux dégâts est surpassée par des supports [[element:hydro]] offensifs tels que [[character:xingqiu]], et ses capacités défensives sont surpsassés par les soigneurs [[element:hydro]]."
+            "fr": "Il faut garder en tête que [[character:candace]] ne sera jamais la meilleure options pour vos équipes. Bien qu'ayant différent types de commodités dans son kit, elle n'est la meilleure pour aucune d'entre elles. Sa contribution aux dégâts est surpassée par des supports [[element:hydro]] offensifs tels que [[character:xingqiu]], et ses capacités défensives sont surpsassés par les soigneurs [[element:hydro]].",
+            "ru": "Следует отметить, что она не считается ультимативным вариантом ни в одном из отрядов: из-за разнообразия имеющихся способностей она не является лучшей ни в одной из ролей. Её вклад в урон отряда меньше, чем у персонажей типа Син Цю, а щиты обеспечивают меньше выживаемости, чем способности гидро хилеров."
         },
         {
             "en": "Because of this, it is recommended to focus on [[character:candace]]'s strength as a consistent [[element:hydro]] applier by getting as much [[stat:er]] as possible, helping her maintain consistent [[ability:burst]] uptime. Her weapon and artifact rankings therefore focus on Particle/Energy generation and Recharge.",
-            "fr": "Pour cette raison, il est recommandé de se concentrer sur sa capacité à appliquer [[element:hydro]] de façon consistante en ayant le plus de [[stat:er]] que possible, l'aidant à avoir son [[ability:burst]] en permanence. Les classements d'arme/artéfacts sont donc concentrés sur la génération de particules/énergie."
+            "fr": "Pour cette raison, il est recommandé de se concentrer sur sa capacité à appliquer [[element:hydro]] de façon consistante en ayant le plus de [[stat:er]] que possible, l'aidant à avoir son [[ability:burst]] en permanence. Les classements d'arme/artéfacts sont donc concentrés sur la génération de particules/énergie.",
+            "ru": "Поэтому сосредоточиться следует на её способности как Гидро аппликатора, добиваясь достаточного уровня ВЭ для использования Взрыва стихии (основного источника Гидро статуса) по откату. Из-за этого рейтинг оружия и артефактов собран с учетом фокуса на ВЭ и генерацию частиц для использования Взрыва стихии по откату."
         },
         {
             "en": "In some teams, [[character:candace]]'s hold [[ability:skill]] cooldown is too long for rotations to work properly. If [[character:candace]] is not **C4**, avoid getting hit and use a tap [[ability:skill]] as quickly as possible.",
-            "fr": "Dans certaines équipes, le TdR du [[ability:skill]] appuyé de [[character:candace]] est trop long pour que les rotations fonctionnent correctement. Si [[character:candace]] n'est pas **C4**, évitez de vous faire toucher et utilisez un tap [[ability:skill]] le plus rapidement possible."
+            "fr": "Dans certaines équipes, le TdR du [[ability:skill]] appuyé de [[character:candace]] est trop long pour que les rotations fonctionnent correctement. Si [[character:candace]] n'est pas **C4**, évitez de vous faire toucher et utilisez un tap [[ability:skill]] le plus rapidement possible.",
+            "ru": "В некоторых отрядах откат зажатого Элементального навыка слишком велик для стандартной ротации, поэтому до получения её [C4] рекомендуется избегать получения ударов на щит и активировать навык простым нажатием как можно быстрее."
         }
     ]
 }

@@ -2,20 +2,24 @@
     "best": true,
     "name": {
         "en": "Heal Support",
-        "fr": "Support Soins"
+        "fr": "Support Soins",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "[[character:barbara]]'s main role is to provide sustain via her [[ability:skill]]. Due to the lack of particle generation, building [[stat:er]] to [[ability:burst]] every rotation is not feasible. Her [[ability:burst]] should be treated as an emergency button.",
-            "fr": "Le rôle principal de [[character:barbara]] est de soutenir l'équipe via son [[ability:skill]]. A cause de l'absence de génération de particules, build la [[stat:er]] pour [[ability:burst]] à chaque rotation demanderait des montants trop importants pour être utile. Son [[ability:burst]] sert surtout de solution d'urgence."
+            "fr": "Le rôle principal de [[character:barbara]] est de soutenir l'équipe via son [[ability:skill]]. A cause de l'absence de génération de particules, build la [[stat:er]] pour [[ability:burst]] à chaque rotation demanderait des montants trop importants pour être utile. Son [[ability:burst]] sert surtout de solution d'urgence.",
+            "ru": "После применения Элементального навыка/Взрыва стихии необходимо сразу переключаться. Сборка в ВЭ не требуется, так как Взрыв стихии остается для крайних случаев и не используется каждую ротацию. Это также усугубляется отсутствием у Барбары генерации частиц."
         },
         {
             "en": "[[character:barbara]]'s [[ability:skill]] gives you a pulse of healing every 5 seconds, every pulse will imbue you with a [[element:hydro]] status, that means it can be used for status-cleansing ([[element:pyro]] in specific, while other elements may take more pulses).",
-            "fr": "Le [[ability:skill]] de [[character:barbara]] soigne par impulsion toutes les 5 secondes, chaque impulsion vous appliquant un statut [[element:hydro]]. Cela signigie qu'il peut être utilisé pour retirer les statuts d'autres éléments ([[element:pyro]] spécifiquement, cela peut prendre plusieurs impulsions pour les autres éléments)."
+            "fr": "Le [[ability:skill]] de [[character:barbara]] soigne par impulsion toutes les 5 secondes, chaque impulsion vous appliquant un statut [[element:hydro]]. Cela signigie qu'il peut être utilisé pour retirer les statuts d'autres éléments ([[element:pyro]] spécifiquement, cela peut prendre plusieurs impulsions pour les autres éléments).",
+            "ru": "Элементальный навык Барбары дает тик лечения раз в 5 секунд, накладывая при этом Гидро статус, который можно использовать для снятия внешних эффектов (в первую очередь, Пиро, относительно других статусов менее эффективен)."
         },
         {
             "en": "Take note that [[element:hydro]] reacting with [[element:cryo]] status will freeze you in place, her [[ability:skill]] should be used in consideration of the environment.",
-            "fr": "Gardez à l'esprit qu'une réaction entre les statuts [[element:hydro]] et [[element:cryo]] vous gèlera sur place: son status [[ability:skill]] doit donc être utilisé en tenant compte de l'environnement."
+            "fr": "Gardez à l'esprit qu'une réaction entre les statuts [[element:hydro]] et [[element:cryo]] vous gèlera sur place: son status [[ability:skill]] doit donc être utilisé en tenant compte de l'environnement.",
+            "ru": "Следует отметить, что одновременное присутствие Гидро и Крио статусов на персонаже заморозит его."
         }
     ]
 }

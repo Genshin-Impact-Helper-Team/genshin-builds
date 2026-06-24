@@ -1631,5 +1631,40 @@
             40,
             80
         ]
+    },
+    "a-teaspoon-of-transcendence": {
+        "rarity": 5,
+        "passive": {
+            "en": "ATK increased by {{value}}%. Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by {{value}}% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 48,
+            "substat_value": "-%"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "44.10%"
+        },
+        "r1": [
+            28,
+            16
+        ],
+        "r2": [
+            "-",
+            "-"
+        ],
+        "r3": [
+            "-",
+            "-"
+        ],
+        "r4": [
+            "-",
+            "-"
+        ],
+        "r5": [
+            "-",
+            "-"
+        ]
     }
 }

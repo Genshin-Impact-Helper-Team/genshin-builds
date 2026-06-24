@@ -1,96 +1,109 @@
 {
-  "surveyUrl": "https://tinyurl.com/GIHelperTeamCBSurvey",
-  "translators": {
-    "fr": ["Akhala_"],
-    "de": [],
-    "es": [],
-    "it": ["itsnotyourcall"],
-    "ru": [
-        "Finnyke",
-        "Anaana"
-      ]
-  },
-  "sections": [
-    {
-      "title": "Active Contributors",
-      "names": [
-        "folie",
-        "Akalight",
-        "strawbery_steel",
-        "hyperactivesugar",
-        "nicenekreed",
-        "wakanai",
-        "quinslay",
-        "george.h_",
-        "thegreenster",
-        "chiston",
-        "speify"
-      ]
+    "surveyUrl": "https://tinyurl.com/GIHelperTeamCBSurvey",
+    "translators": {
+        "fr": [
+            "Akhala_"
+        ],
+        "de": [],
+        "es": [],
+        "it": [
+            "itsnotyourcall"
+        ],
+        "ru": [
+            "Finnyke",
+            "Anaana"
+        ]
     },
-    {
-      "title": "Extensive References",
-      "names": [
-        "zvnto",
-        "paraszczak#0148",
-        "itsjaeyou",
-        "archednosi",
-        "braxophone",
-        "trulydakka",
-        "Ender#1359",
-        "arashi#2449",
-        "kleefulframes",
-        "IonFox#8887",
-        "HailCorporate#2970",
-        "jd baby#6541",
-        "Mast.Ros#3302",
-        "JohnM#8618",
-        "Konα#3196",
-        "Parararara#2704",
-        "velo#5034",
-        "mildvertex#7703",
-        "ayzel",
-        "jamberry",
-        "xandy#7124",
-        "Risuke#6743",
-        "xf3",
-        "CQLQRS#7853",
-        "vladutsu",
-        "pai#3602",
-        "Lucase2767#9329",
-        "Akane#0926",
-        "rockidayo#6703",
-        "kolvii",
-        "cuzimori",
-        "seima",
-        ".athene.",
-        "cynematic",
-        "Erk_kimbo#2028",
-        "yukiyafuyu"
-      ]
-    },
-    {
-      "title": "Special Thanks",
-      "names": ["Jinjinx", "mr.doug"]
-    },
-    {
-      "title": "Other Contributors",
-      "names": [
-        "Dreamslayer Ahri #9122",
-        "Enku#8746",
-        "Dandi#2113",
-        "Gianity#1311",
-        "Dawn#1610",
-        "judgementt",
-        "Tyler_Bot#6631",
-        "_luo",
-        "potaaaaaatooo",
-        "ceeelery#3568",
-        "ascarotte",
-        "larrythecableguy",
-        "2riheart",
-        "Adeptus#5461",
-        "shiroqei"
-      ]
-    }
-  ]
+    "sections": [
+        {
+            "title": "Active Contributors",
+            "names": [
+                "folie",
+                "Akalight",
+                "strawbery_steel",
+                "hyperactivesugar",
+                "nicenekreed",
+                "wakanai",
+                "quinslay",
+                "george.h_",
+                "thegreenster",
+                "chiston",
+                "speify"
+            ]
+        },
+        {
+            "title": "Website Development",
+            "names": [
+                "Akhala_"
+            ]
+        },
+        {
+            "title": "Extensive References",
+            "names": [
+                "zvnto",
+                "paraszczak#0148",
+                "itsjaeyou",
+                "archednosi",
+                "braxophone",
+                "trulydakka",
+                "Ender#1359",
+                "arashi#2449",
+                "kleefulframes",
+                "IonFox#8887",
+                "HailCorporate#2970",
+                "jd baby#6541",
+                "Mast.Ros#3302",
+                "JohnM#8618",
+                "Konα#3196",
+                "Parararara#2704",
+                "velo#5034",
+                "mildvertex#7703",
+                "ayzel",
+                "jamberry",
+                "xandy#7124",
+                "Risuke#6743",
+                "xf3",
+                "CQLQRS#7853",
+                "vladutsu",
+                "pai#3602",
+                "Lucase2767#9329",
+                "Akane#0926",
+                "rockidayo#6703",
+                "kolvii",
+                "cuzimori",
+                "seima",
+                ".athene.",
+                "cynematic",
+                "Erk_kimbo#2028",
+                "yukiyafuyu"
+            ]
+        },
+        {
+            "title": "Special Thanks",
+            "names": [
+                "Jinjinx",
+                "mr.doug"
+            ]
+        },
+        {
+            "title": "Other Contributors",
+            "names": [
+                "Dreamslayer Ahri #9122",
+                "Enku#8746",
+                "Dandi#2113",
+                "Gianity#1311",
+                "Dawn#1610",
+                "judgementt",
+                "Tyler_Bot#6631",
+                "_luo",
+                "potaaaaaatooo",
+                "ceeelery#3568",
+                "ascarotte",
+                "larrythecableguy",
+                "2riheart",
+                "Adeptus#5461",
+                "shiroqei"
+            ]
+        }
+    ]
 }

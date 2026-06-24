@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "[[element:bloom]] DPS",
-        "fr": "DPS [[element:bloom]]"
+        "fr": "DPS [[element:bloom]]",
+        "ru": "Бутонизация"
     },
     "notes": [
         {
             "en": "This build is specifically for [[element:bloom]] teams where [[character:barbara]] is the character intended to trigger the majority of [[element:bloom]]s.",
-            "fr": "Ce build est spécifiquement pour les équipes [[element:bloom]] où [[character:barbara]] est le personnage qui va déclencher la majorité des [[element:bloom]]s."
+            "fr": "Ce build est spécifiquement pour les équipes [[element:bloom]] où [[character:barbara]] est le personnage qui va déclencher la majorité des [[element:bloom]]s.",
+            "en": "Сборка предназначена для играющих через Бутонизацию команд, в которых именно Барбара создает большую часть бутонов."
         }
     ]
 }

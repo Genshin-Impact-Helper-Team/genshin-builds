@@ -35,6 +35,15 @@ const {
 } = Astro.props as Props;
 const info = artifact.info;
 
+function escapeHtml(value: unknown) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 /**
  * Selects the localized set effect with English fallback.
  */
@@ -49,11 +58,47 @@ const effects = info
     ].filter((effect) => effect.value)
   : [];
 const imageUrl = artifact.id ? resolveArtifactAssetUrl(artifact.id) : '';
+const popoverCardHtml = info
+  ? [
+      '<span class="info-popover-header',
+      imageUrl ? ' has-image' : '',
+      '">',
+      imageUrl
+        ? [
+            '<span class="info-popover-image artifact-popover-image"><img src="',
+            escapeHtml(imageUrl),
+            '" alt="" loading="lazy" decoding="async"></span>',
+          ].join('')
+        : '',
+      '<span class="info-popover-name">',
+      escapeHtml(artifact.name),
+      '</span>',
+      '<span class="info-popover-rarity">',
+      escapeHtml(info.rarity),
+      ' \u2605</span>',
+      '</span>',
+      effects
+        .map((effect) =>
+          [
+            '<span class="info-popover-stat artifact-popover-effect"><span>',
+            escapeHtml(effect.label),
+            '</span><strong>',
+            escapeHtml(effect.value),
+            '</strong></span>',
+          ].join(''),
+        )
+        .join(''),
+    ].join('')
+  : '';
 ---
 
 {
   info ? (
-    <span class="info-popover artifact-popover">
+    <span
+      class="info-popover artifact-popover"
+      data-info-popover-card-class="artifact-popover-card"
+      data-info-popover-html={popoverCardHtml}
+    >
       <span
         class="info-popover-trigger artifact-popover-trigger"
         role="button"
@@ -72,27 +117,6 @@ const imageUrl = artifact.id ? resolveArtifactAssetUrl(artifact.id) : '';
             {suffix}
           </span>
         )}
-      </span>
-
-      <span class="info-popover-card artifact-popover-card" role="tooltip">
-        <span class={`info-popover-header${imageUrl ? ' has-image' : ''}`}>
-          {imageUrl && (
-            <span class="info-popover-image artifact-popover-image">
-              <img src={imageUrl} alt="" loading="lazy" decoding="async" />
-            </span>
-          )}
-          <span class="info-popover-name">{artifact.name}</span>
-          <span class="info-popover-rarity">
-            {info.rarity} {'\u2605'}
-          </span>
-        </span>
-
-        {effects.map((effect) => (
-          <span class="info-popover-stat artifact-popover-effect">
-            <span>{effect.label}</span>
-            <strong>{effect.value}</strong>
-          </span>
-        ))}
       </span>
     </span>
   ) : (

@@ -27,9 +27,15 @@ function openCard(targetId: string | null, updateUrl = true) {
   cards.forEach((card) => {
     const isTarget = card.dataset.id === targetId;
     const button = card.querySelector<HTMLButtonElement>('.build-header');
+    const content = card.querySelector<HTMLElement>('.build-content');
 
     card.classList.toggle('open', isTarget);
     button?.setAttribute('aria-expanded', String(isTarget));
+
+    if (content) {
+      content.hidden = !isTarget;
+      content.setAttribute('aria-hidden', String(!isTarget));
+    }
   });
 
   if (updateUrl) {

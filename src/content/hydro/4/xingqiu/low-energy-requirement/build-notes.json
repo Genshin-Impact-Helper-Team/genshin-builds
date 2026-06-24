@@ -1,29 +1,35 @@
 {
     "name": {
         "en": "Low Energy Requirement (Off-Field DPS)",
-        "fr": "Besoins en Énergie faibles (DPS Off-Field)"
+        "fr": "Besoins en Énergie faibles (DPS Off-Field)",
+        "ru": "Карманный ДД (Низкая потребность в энергии)"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:xingqiu]]'s Off-Field DPS build centers on his ability to deal damage and apply an immense amount of [[element:hydro]] off-field with his [[ability:burst]]. His [[stat:er]] needs can change a lot based on team and constellations, and so do his list of recommended weapons. As such this serves a general idea of which weapons are most viable on [[character:xingqiu]].",
-            "fr": "Le  build de DPS Off-Field de [[character:xingqiu]] est centré sur sa capacité à infliger des dégâts et appliquer énormément d'[[element:hydro]] en étant off-field grâce à son [[ability:burst]]. Ses besoins en [[stat:er]] varient beaucoup selon son équipe et ses constellations, donc sa liste d'armes recommandées aussi. Ainsi, cette liste sert d'idée générale des armes les plus viables sur [[character:xingqiu]]."
+            "fr": "Le  build de DPS Off-Field de [[character:xingqiu]] est centré sur sa capacité à infliger des dégâts et appliquer énormément d'[[element:hydro]] en étant off-field grâce à son [[ability:burst]]. Ses besoins en [[stat:er]] varient beaucoup selon son équipe et ses constellations, donc sa liste d'armes recommandées aussi. Ainsi, cette liste sert d'idée générale des armes les plus viables sur [[character:xingqiu]].",
+            "ru": "В основе билда лежит способность Син Цю наносить урон вне поля и накладывать большое количество Гидро за счёт Взрыва стихии. Его потребность в ВЭ и рейтинг оружия зависит от состава отряда и наличия созвездий. Данный рейтинг даёт лишь общий обзор наиболее эффективных вариантов."
         },
         {
             "en": "**Rotations**:",
-            "fr": "**Rotations** :"
+            "fr": "**Rotations** :",
+            "ru": "Ротации:"
         },
         {
             "en": "*Quick*: {rot:E D Q N1}",
-            "fr": "*Rotation rapide*: {rot:E D A N1}"
+            "fr": "*Rotation rapide*: {rot:E D A N1}",
+            "ru": "Короткая - {rot:E D Q N1}"
         },
         {
             "en": "*Longer Rotation (C4+)*: {rot:Q N1 E D N2}*",
-            "fr": "*Rotation plus longue (C4+)*: {rot:A N1 E D N2}*"
+            "fr": "*Rotation plus longue (C4+)*: {rot:A N1 E D N2}*",
+            "ru": "Длинная (на [C4+]) - {rot:Q N1 E D N2}*"
         },
         {
             "en": "*One can use the **Book trick method** instead of the final {rot:N2} which involves pausing the game by opening a menu for a second to allow him to collect the particles.",
-            "fr": "*On peut utiliser le **trick du livre** au lieu du {rot:N2} final, ce qui consiste à mettre en pause le jeu en ouvrant un menu pendant une seconde pour lui permettre de collecter les particules."
+            "fr": "*On peut utiliser le **trick du livre** au lieu du {rot:N2} final, ce qui consiste à mettre en pause le jeu en ouvrant un menu pendant une seconde pour lui permettre de collecter les particules.",
+            "ru": "Вместо N2 можно воспользоваться уловкой (открыть на секунду меню, приостановив игру), позволяющей быстро собрать частицы"
         }
     ],
     "weapons": {

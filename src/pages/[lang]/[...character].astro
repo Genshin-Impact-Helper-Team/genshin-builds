@@ -74,7 +74,7 @@ const noteMarkerExplanation = t(
                 )}
               </button>
 
-              <div class="build-content" id={buildContentId}>
+              <div class="build-content" id={buildContentId} hidden aria-hidden="true">
                 {hasNoteMarkerHint && (
                   <div class="build-note-hint">
                     <span class="note-marker-text" aria-hidden="true">
@@ -113,7 +113,7 @@ const noteMarkerExplanation = t(
 
 {
   /* Forward missing translation warnings to the browser console for authors. */
-  warnings.length > 0 ? (
+  import.meta.env.DEV && warnings.length > 0 ? (
     <script
       is:inline
       set:html={`const warnings = ${JSON.stringify(warnings)}; warnings.forEach((warning) => console.warn(warning));`}

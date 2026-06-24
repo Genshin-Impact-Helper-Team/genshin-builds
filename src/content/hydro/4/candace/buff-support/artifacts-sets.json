@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Even though **[[character:candace]]** is not from Natlan, she can still take advantage of the **12% DMG Bonus** buff for the team, alongside the **Flat Energy** refund from **[[set:scroll]] (2)** if there is a **[[ability:nightsoul-burst]]** being activated on the team.",
-                                "fr": "Bien que **[[character:candace]]** ne soit pas de Natlan, elle peut quand même tirer avantage du buff de **12% de bonus de DGT** pour l'équipe, ainsi que de **l'énergie récupérée** via **[[set:scroll]] (2)** si une **[[ability:nightsoul-burst]]** est activée dans l'équipe."
+                                "fr": "Bien que **[[character:candace]]** ne soit pas de Natlan, elle peut quand même tirer avantage du buff de **12% de bonus de DGT** pour l'équipe, ainsi que de **l'énergie récupérée** via **[[set:scroll]] (2)** si une **[[ability:nightsoul-burst]]** est activée dans l'équipe.",
+                                "ru": "Хотя Кандакия не из Натлана, она все еще может активировать бонус на 12% урона, а также получить энергию от эффекта 2 частей, если в отряде есть возможность активировать Вспышку Ночного духа."
                             }
                         }
                     ]
@@ -25,7 +26,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "The only necessary artifact stat for [[character:candace]] is the 20% [[stat:er]] from the **2-piece effect. The 4-piece effect** lets her better capitalize on the high [[stat:er]] amounts she wants to equip, making it her strongest personal option. However, [[set:emblem]] is a highly contested artifact set and thus it is possible for you to end up using the 2-piece + 2-piece alternatives listed above. ",
-                                "fr": "La seule stat nécessaire pour [[character:candace]] est le 20% de [[stat:er]] **du 2P. Le 4P** lui permet de capitaliser sur ses hauts besoins en [[stat:er]], en faisant son meilleur set. Cependant, [[set:emblem]] est un set très demandé, vous pouvez donc très bien utiliser une des options 2P/2P mentionnée dans la liste. "
+                                "fr": "La seule stat nécessaire pour [[character:candace]] est le 20% de [[stat:er]] **du 2P. Le 4P** lui permet de capitaliser sur ses hauts besoins en [[stat:er]], en faisant son meilleur set. Cependant, [[set:emblem]] est un set très demandé, vous pouvez donc très bien utiliser une des options 2P/2P mentionnée dans la liste. ",
+                                "ru": "Кандакия нуждается только в 20% ВЭ от Эмблемы (2). Эмблема (4) же реализует её ВЭ, что делает этот сет лучшим вариантом. Однако артефакты из этого набора нужны многим персонажам (и Кандакия не является первой в очереди), и сборка в 2+2 может быть проще."
                             }
                         }
                     ]

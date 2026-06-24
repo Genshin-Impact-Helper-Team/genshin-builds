@@ -2,20 +2,24 @@
     "best": true,
     "name": {
         "en": "Shield Support",
-        "fr": "Support Bouclier"
+        "fr": "Support Bouclier",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "[[character:dahlia]] offers both shielding and an ATK SPD increase to characters protected by his shield, both of which scale with his [[stat:hp%]]. As such, building [[stat:er]] to use [[character:dahlia]]'s [[ability:burst]] and building [[stat:hp%]] to increase his support capabilities are the focus of his build.",
-            "fr": "[[character:dahlia]] offre à la fois un bouclier et un buff de vitesse d'attaque aux personnages protégés par son bouclier, les deux augmentant avec ses [[stat:hp%]]. Ainsi, build de la [[stat:er]] pour utiliser son [[ability:burst]] et les [[stat:hp%]] pour augmenter ses capacités de supports sont les points principaux de ce build."
+            "fr": "[[character:dahlia]] offre à la fois un bouclier et un buff de vitesse d'attaque aux personnages protégés par son bouclier, les deux augmentant avec ses [[stat:hp%]]. Ainsi, build de la [[stat:er]] pour utiliser son [[ability:burst]] et les [[stat:hp%]] pour augmenter ses capacités de supports sont les points principaux de ce build.",
+            "ru": "Далия полезен за счёт щита и бонуса скорости атаки (которые зависят от его HP). Целью данной сборки является увеличение его HP и Восстановления энергии для стабильного активации Взрыва стихии, являющегося источником щита."
         },
         {
             "en": "[[character:dahlia]]'s shield will take overflow damage when broken. This occurs before it is renewed with a Benison stack.",
-            "fr": "Le bouclier de [[character:dahlia]], s'il est brisé avant son refresh avec un cumul de sacrement, ne bloquera pas les dégâts au delà de sa capacité."
+            "fr": "Le bouclier de [[character:dahlia]], s'il est brisé avant son refresh avec un cumul de sacrement, ne bloquera pas les dégâts au delà de sa capacité.",
+            "ru": "При получении урона, ломающего щит Далии, остаточный урон наносится персонажу до появления нового щита."
         },
         {
             "en": "[[character:dahlia]]'s A4 passive is maximized at 40,000 HP.",
-            "fr": "Le passif A4 de [[character:dahlia]] est maximisé avec 40 000 PV."
+            "fr": "Le passif A4 de [[character:dahlia]] est maximisé avec 40 000 PV.",
+            "ru": "Для полной реализации второго Пассивного таланта необходимо иметь 40000 HP."
         }
     ]
 }
