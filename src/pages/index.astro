@@ -26,13 +26,8 @@ const { characters, latestVersion, locale, recentlyUpdatedCharacters } =
     <Header locale={locale} lang="en" />
     <main class="home-page">
       <h1>Genshin Builds</h1>
-      <p class="home-intro">
-        {t(locale, 'ui', 'Home source intro before link')}{' '}
-        <a
-          href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pubhtml#gid=2001372201"
-          >{t(locale, 'ui', 'GI Helper Team builds doc')}</a
-        >{' '}
-        {t(locale, 'ui', 'Home source intro after link')}
+      <p class="home-disclaimer">
+        {t(locale, 'ui', 'Home translation disclaimer', undefined, false)}
       </p>
       <HomeFilters
         latestVersion={latestVersion}
