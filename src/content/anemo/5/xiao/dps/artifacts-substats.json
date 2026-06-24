@@ -3,8 +3,9 @@
         {
             "name": "er",
             "note": {
-                "en": "Until requirement is met",
-                "fr": "Jusqu'à atteindre le besoin requis"
+                "en": "Until requirement is met.",
+                "fr": "Jusqu'à atteindre le besoin requis.",
+                "it": "Dare la priorità finché non vengono soddisfatti i requisiti."
             }
         },
         "cr/cd",
