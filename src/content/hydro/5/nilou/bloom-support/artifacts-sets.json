@@ -41,7 +41,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Can be an option if other teammates are not [[set:deepwood]] holders.",
-                                "fr": "Peut être une option dans les équipes où personne ne porte [[set:deepwood]]."
+                                "fr": "Peut être une option dans les équipes où personne ne porte [[set:deepwood]].",
+                                "ru": "Возможный вариант при отсутствии иных носителей в отряде."
                             }
                         }
                     ]
