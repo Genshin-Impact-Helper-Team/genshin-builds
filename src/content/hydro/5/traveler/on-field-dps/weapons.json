@@ -9,7 +9,8 @@
                     "name": "uraku-misugiri",
                     "note": {
                         "en": "**[[element:hydro]] [[character:traveler]]'s best weapon** in teams with a **[[element:geo]]** character.",
-                        "fr": "**La meilleure arme pour le [[character:traveler]] [[element:hydro]]** dans les équipes ayant un personnage **[[element:geo]]** character."
+                        "fr": "**La meilleure arme pour le [[character:traveler]] [[element:hydro]]** dans les équipes ayant un personnage **[[element:geo]]** character.",
+                        "ru": "Оптимален для Путешественника в отряде с Гео персонажем."
                     }
                 }
             ]
@@ -27,7 +28,8 @@
                     "name": "summit-shaper",
                     "note": {
                         "en": "Ranked assuming [[element:hydro]] [[character:traveler]] is **C4**, which provides a shield for them.",
-                        "fr": "Classée en supposant que le [[character:traveler]] [[element:hydro]] est **C4**, ce qui lui offre un bouclier."
+                        "fr": "Classée en supposant que le [[character:traveler]] [[element:hydro]] est **C4**, ce qui lui offre un bouclier.",
+                        "ru": "Предполагается наличие у Путешественника С4, дающего ему щит."
                     }
                 },
                 "lightbearing-moonshard"
@@ -39,7 +41,8 @@
                     "name": "wolf-fang",
                     "note": {
                         "en": "At **[R5]**, this weapon is about equal to **[[weapon:light-of-foliar-incision]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut plus ou moins à **[[weapon:light-of-foliar-incision]]**."
+                        "fr": "Une fois **[R5]**, cette arme équivaut plus ou moins à **[[weapon:light-of-foliar-incision]]**.",
+                        "ru": "На [R5] может соответствовать Свету лиственного разреза."
                     }
                 }
             ]
@@ -51,7 +54,8 @@
                     "name": "harbinger-of-dawn",
                     "note": {
                         "en": "Assumes the passive is active.",
-                        "fr": "Suppose que le passif est actif."
+                        "fr": "Suppose que le passif est actif.",
+                        "ru": "Предполагается, что Пассивная способность активна."
                     }
                 }
             ]
@@ -74,7 +78,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "This weapon's utility may make it better than the options above.",
-                        "fr": "Les commodités de cette arme peuvent en faire une meilleure option que celles classées au dessus."
+                        "fr": "Les commodités de cette arme peuvent en faire une meilleure option que celles classées au dessus.",
+                        "ru": "Может превзойти перечисленные выше варианты за счёт пользы для отряда."
                     }
                 }
             ]
