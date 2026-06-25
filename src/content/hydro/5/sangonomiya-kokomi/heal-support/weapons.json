@@ -16,8 +16,9 @@
                 {
                     "name": "hakushin-ring",
                     "note": {
-                        "en": "This weapon can provide Elemental DMG% for the team in **[[element:electrochared]] teams** and will outperform **[[weapon:prototype-amber]]** if you value damage more than healing.",
-                        "fr": "Cette arme offre du DGT% élémentaire pour l'équipe dans les compositions [[element:electrocharged]], et dépasse **[[weapon:prototype-amber]]** si vous préférez les dégâts au soin."
+                        "en": "This weapon can provide Elemental DMG% for the team in **[[element:electrocharged]] teams** and will outperform **[[weapon:prototype-amber]]** if you value damage more than healing.",
+                        "fr": "Cette arme offre du DGT% élémentaire pour l'équipe dans les compositions [[element:electrocharged]], et dépasse **[[weapon:prototype-amber]]** si vous préférez les dégâts au soin.",
+                        "ru": "Дает бонус Элементального урона членам отряда в командах, играющих через реакцию Заряжен. Может быть полезнее Прототипа: Янтарь, если вам необходим бонус урона в большей степени, нежели лечение."
                     }
                 }
             ]
@@ -28,7 +29,8 @@
                     "name": "sacrificial-fragments",
                     "note": {
                         "en": "Can be useful as [[character:sangonomiya-kokomi]] won't need to use her [[ability:burst]] to reset her [[ability:skill]] duration. This allows for smoother rotations as she will not face the problem of missing out on the reset for her [[ability:skill]] due to not casting [[ability:burst]] in time.",
-                        "fr": "Peut être utile puisque [[character:sangonomiya-kokomi]] n'aurait pas besoin d'utiliser son [[ability:burst]] pour réinitialiser la durée de son [[ability:skill]]. Cela permet de simplifier les rotations puisqu'il n'y aura plus le problème de potentiellement rater la réinitialisation de la duré du [[ability:skill]] car l'[[ability:burst]] n'a pas été utilisé à temps."
+                        "fr": "Peut être utile puisque [[character:sangonomiya-kokomi]] n'aurait pas besoin d'utiliser son [[ability:burst]] pour réinitialiser la durée de son [[ability:skill]]. Cela permet de simplifier les rotations puisqu'il n'y aura plus le problème de potentiellement rater la réinitialisation de la duré du [[ability:skill]] car l'[[ability:burst]] n'a pas été utilisé à temps.",
+                        "ru": "Могут быть полезными, так как Пассивная способность оружия позволяет не использовать Взрыв стихии для обновления Элементального навыка. Это обеспечивает более плавную ротацию, так как нет проблем с обновлением навыка из-за несвоевременной активации Взрыва стихии."
                     }
                 }
             ]
