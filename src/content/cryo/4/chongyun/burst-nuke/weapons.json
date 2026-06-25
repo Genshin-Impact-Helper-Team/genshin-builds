@@ -42,7 +42,8 @@
                     "name": "akuoumaru",
                     "note": {
                         "en": "At **[R1]**, **[[weapon:akuoumaru]]** beats **[[weapon:luxurious-sea-lord]]** if [[character:chongyun]] is used in a team with 260 or greater total team energy. **[[weapon:akuoumaru]]** only beats **[[weapon:luxurious-sea-lord]]** if **[R2]** and above otherwise.",
-                        "fr": "Une fois **[R1]**, **[[weapon:akuoumaru]]** dépasse **[[weapon:luxurious-sea-lord]]** si [[character:chongyun]] est utilisé dans une équipe avec un coût d'énergie total de 260 ou plus. Sinon, **[[weapon:akuoumaru]]** ne dépasse **[[weapon:luxurious-sea-lord]]** qu'à partir de **[R2]**."
+                        "fr": "Une fois **[R1]**, **[[weapon:akuoumaru]]** dépasse **[[weapon:luxurious-sea-lord]]** si [[character:chongyun]] est utilisé dans une équipe avec un coût d'énergie total de 260 ou plus. Sinon, **[[weapon:akuoumaru]]** ne dépasse **[[weapon:luxurious-sea-lord]]** qu'à partir de **[R2]**.",
+                        "it": "A **[R1]**, **[[weapon:akuoumaru]]** batte **[[weapon:luxurious-sea-lord]]** se [[character:chongyun]] viene utilizzato in un team con Energia totale pari o superiore a 260. Altrimenti, **[[weapon:akuoumaru]]** batte **[[weapon:luxurious-sea-lord]]** solo se **[R2]+**."
                     }
                 }
             ]
