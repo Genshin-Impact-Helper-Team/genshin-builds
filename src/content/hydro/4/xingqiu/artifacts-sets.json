@@ -1,100 +1,100 @@
 {
-  "artifact_sets": [
-    {
-      "groups": [
+    "artifact_sets": [
         {
-          "items": [
-            {
-              "name": "emblem-of-severed-fate",
-              "pieces": 4,
-              "note": {
-                "en": "This set falls off in terms of damage if [[character:xingqiu]] has less than 130% [[stat:er]].",
-                "ru": "Не дает значительного бонуса урона, если Син Цю имеет менее 130% ВЭ."
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "groups": [
-        {
-          "items": [
-            {
-              "name": "noblesse-oblige",
-              "pieces": 4,
-              "note": {
-                "en": "Offers party-wide [[stat:atk]] boost, you can use this set on [[character:xingqiu]] **if nobody else on the party is able to use it better**. If someone else on the team **already has [[set:noblesse-oblige]] (4), [[set:noblesse-oblige]] (4) should not be used**.",
-                "ru": "Дает бонус Силы атаки% членам команды, использование на Син Цю возможно при отсутствии иных носителей в отряде. Если другой персонаж в отряде использует Церемония древней знати (4), то Синцю следует использовать другой сет."
-              }
-            }
-          ]
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "emblem-of-severed-fate",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set falls off in terms of damage if [[character:xingqiu]] has less than 130% [[stat:er]].",
+                                "ru": "Не дает значительного бонуса урона, если Син Цю имеет менее 130% ВЭ."
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "items": [
-            {
-              "name": "scroll-of-the-hero-of-cinder-city",
-              "pieces": 4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "groups": [
-        {
-          "items": [
-            {
-              "name": "nymphs-dream",
-              "pieces": 4
-            }
-          ]
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Offers party-wide [[stat:atk]] boost, you can use this set on [[character:xingqiu]] **if nobody else on the party is able to use it better**. If someone else on the team **already has [[set:noblesse-oblige]] (4), [[set:noblesse-oblige]] (4) should not be used**.",
+                                "ru": "Дает бонус Силы атаки% членам команды, использование на Син Цю возможно при отсутствии иных носителей в отряде. Если другой персонаж в отряде использует Церемония древней знати (4), то Синцю следует использовать другой сет."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "items": [
-            {
-              "name": "a-day-carved-from-rising-winds",
-              "pieces": 4
-            }
-          ]
-        },
-        {
-          "choose": true,
-          "items": [
-            {
-              "name": "noblesse-oblige",
-              "pieces": 2
-            },
-            {
-              "name": "hydro-set",
-              "pieces": 2
-            },
-            {
-              "name": "atk-set",
-              "pieces": 2
-            },
-            {
-              "name": "emblem-of-severed-fate",
-              "pieces": 2
-            }
-          ]
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "nymphs-dream",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hydro-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "conditional": [
-    {
-      "items": [
+    ],
+    "conditional": [
         {
-          "name": "blizzard-strayer",
-          "pieces": 4,
-          "note": {
-            "en": "Outperforms **[[set:emblem-of-severed-fate]]** on **[[element:freeze]] Teams**. However, it is generally **not recommended** to farm specifically for this set.",
-            "fr": "Meilleur que **[[set:emblem-of-severed-fate]]** dans les equipes **[[element:freeze]]**. Cependant, il n'est generalement **pas recommande** de farmer specifiquement pour ce set.",
-            "ru": "Превосходит Эмблема рассечённой судьбы (4) в отрядах, играющих через Заморозку. Тем не менее, специально фармить данный сет для Син Цю не рекомендуется."
-          }
+            "items": [
+                {
+                    "name": "blizzard-strayer",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Outperforms **[[set:emblem-of-severed-fate]]** on **[[element:freeze]] Teams**. However, it is generally **not recommended** to farm specifically for this set.",
+                        "fr": "Meilleur que **[[set:emblem-of-severed-fate]]** dans les equipes **[[element:freeze]]**. Cependant, il n'est generalement **pas recommande** de farmer specifiquement pour ce set.",
+                        "ru": "Превосходит Эмблема рассечённой судьбы (4) в отрядах, играющих через Заморозку. Тем не менее, специально фармить данный сет для Син Цю не рекомендуется."
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
