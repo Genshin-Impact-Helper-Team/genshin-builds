@@ -53,7 +53,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Can be used in teams with a relevant amount of ATK scaling damage, and will generally outperform 2pc mixed sets in such instances.",
-                                "fr": "Peut être utilisé dans les équipes ayant un scaling ATQ, et sera généralement meilleur que les options 2P/2P dans ces cas là."
+                                "fr": "Peut être utilisé dans les équipes ayant un scaling ATQ, et sera généralement meilleur que les options 2P/2P dans ces cas là.",
+                                "ru": "Может использоваться в командах со значительным объемом урона, зависящего от Силы атаки. При этом будет превосходить смешанные наборы."
                             }
                         }
                     ]
