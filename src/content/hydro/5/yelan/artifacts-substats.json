@@ -4,7 +4,8 @@
             "name": "er",
             "note": {
                 "en": "Should be prioritised until requirements are met.",
-                "fr": "A prioriser jusqu'à remplir les besoins."
+                "fr": "A prioriser jusqu'à remplir les besoins.",
+                "ru": "ВЭ приоритетно при невозможности использования Взрыва стихии по откату"
             }
         },
         {
