@@ -27,7 +27,7 @@
                             "note": {
                                 "en": "Another option for providing utilities to the team. This set gives a 20% partywide [[stat:atk|ATK]] boost after [[character:jean]] casts her [[ability:burst]].",
                                 "fr": "Une autre option pour apporter des commodités à l'équipe. Ce set donne un bonus d'[[stat:atk]] de 20 % à toute l'équipe après que [[character:jean]] utilise son [[ability:burst]].",
-                                "it": "È necessario utilizzare il [[ability:burst]] di [[character:jean]] per attivare il potenziamento [[stat:atk%]] di questo set." 
+                                "it": "È necessario utilizzare il [[ability:burst]] di [[character:jean]] per attivare il potenziamento [[stat:atk%]] di questo set."
                             }
                         }
                     ]
@@ -57,7 +57,7 @@
                     "choose": true,
                     "items": [
                         {
-                            "name": "emblem-of-severed-fate",
+                            "name": "er-set",
                             "pieces": 2
                         },
                         {
