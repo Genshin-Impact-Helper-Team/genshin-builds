@@ -4,7 +4,8 @@
             "name": "er",
             "note": {
                 "en": "Prioritize [[stat:er]] until you meet the requirement.",
-                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis."
+                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre le besoin requis.",
+                "it": "*Dare la priorità finché non vengono soddisfatti i requisiti."
             }
         },
         "cr/cd",
