@@ -19,7 +19,8 @@
                     "name": "hakushin-ring",
                     "note": {
                         "en": "This weapon can provide Elemental DMG% for the team in [[element:electrocharged]] teams, and is the best choice in those situations.",
-                        "fr": "Cette arme offre du DGT% élémentaire pour l'équipe dans les compositions [[element:electrocharged]], ce qui en fait le meilleur choix pour ces situations."
+                        "fr": "Cette arme offre du DGT% élémentaire pour l'équipe dans les compositions [[element:electrocharged]], ce qui en fait le meilleur choix pour ces situations.",
+                        "ru": "Может быть источником бонуса Элементального урона в командах, играющих через реакцию Заряжен, а также лучшим оружием на Кокоми в таких отрядах."
                     }
                 }
             ]
@@ -30,7 +31,8 @@
                     "name": "ttds",
                     "note": {
                         "en": "Although this weapon doesn't provide as much personal damage for [[character:sangonomiya-kokomi]], the 48% [[stat:atk%]] buff is usually more worth in most cases. **This can be her best weapon in for overall team DPS if you don't already have another [[weapon:ttds]] user in your team.**",
-                        "fr": "Bien que cette arme n'offre pas tant de dégâts personnels pour [[character:sangonomiya-kokomi]], le buff de 48% d'[[stat:atk%]] est généralement plus utile dans la plupart des cas. **Cela peut être sa meilleure option pour le DPS global de l'équipe si personne d'autre dans l'équipe n'utilise déjà [[weapon:ttds]].**"
+                        "fr": "Bien que cette arme n'offre pas tant de dégâts personnels pour [[character:sangonomiya-kokomi]], le buff de 48% d'[[stat:atk%]] est généralement plus utile dans la plupart des cas. **Cela peut être sa meilleure option pour le DPS global de l'équipe si personne d'autre dans l'équipe n'utilise déjà [[weapon:ttds]].**",
+                        "ru": "Хоть Эпос мало увеличивает личный урон Кокоми, бонус 48% Силы атаки может быть полезным. Если в отряде нет другого носителя Эпоса, то он может быть её лучшим оружием для увеличения командного урона."
                     }
                 }
             ]
