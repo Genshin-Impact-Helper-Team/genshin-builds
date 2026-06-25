@@ -16,7 +16,6 @@ src/content/<element>/<rarity>/<character>/metadata.json
 {
   "weapon": "bow",
   "last_updated": "5.7",
-  "image": "https://example.com/character-full.webp",
   "portrait": "https://example.com/character-icon.webp"
 }
 ```
@@ -29,8 +28,6 @@ src/content/<element>/<rarity>/<character>/metadata.json
   files in `src/data/weapons`.
 - `last_updated`: Genshin version string shown in the page header and used by
   the home page `Recently updated` filter.
-- `image`: Official fallback URL for the large character image shown in the
-  character page header. Should come from the official HoYoWiki.
 - `portrait`: Official fallback URL for the small character icon used on the
   home page character list. Should come from the Hoyolab Battle Chronicles
   Character list.
@@ -60,7 +57,6 @@ checked.
 Hosted image files can live directly inside the character folder:
 
 ```txt
-src/content/<element>/<rarity>/<character>/splash_art.webp
 src/content/<element>/<rarity>/<character>/portrait.webp
 ```
 
@@ -68,19 +64,16 @@ If those files exist, the site uses them before the URLs in `metadata.json`.
 The metadata URLs still need to stay filled in because they are the fallback
 when a local file is missing.
 
-The hosted files must be real WebP images and must use these exact names:
+The hosted files must be real WebP images and must use this exact names:
 
-- `splash_art.webp`: local file for the `image` field.
 - `portrait.webp`: local file for the `portrait` field.
 
-Both fallback URLs must come from official sources:
+Fallback URL must come from official sources:
 
 ```txt
-https://wiki.hoyolab.com/pc/genshin/home
 https://act.hoyolab.com/app/community-game-records-sea/index.html
 ```
 
-- Use the wish character image from hoyowiki for `image`.
 - Use the small character icon from the hoyolab battle chronicles for `portrait`.
 - Do not use fan wiki, cropped screenshots, or unofficial image links.
 - We're using the battle chronicles portrait because the images are of higher quality, and won't look blurry on mobile.
