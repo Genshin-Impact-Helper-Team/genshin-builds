@@ -22,7 +22,7 @@
         {
             "en": "At **[C1]**: {rot:N3D}, which might result in a loss of [[character:beidou]] Stormbreaker hits (DPS loss), and as such is only recommended in a [[element:vaporize]] comp where the added [[element:hydro]] application is favoured.",
             "fr": "En **[C1]**: {rot:N3D}, ce qui peut faire perdre des coups de Brisure d'orage de [[character:beidou]] (perte de DPS). Ce combo n'est donc recommandé que dans une équipe [[element:vaporize]] où l'application [[element:hydro]] supplémentaire est appréciée.",
-            "ru": "На **[C0]**: {rot:N2D}; может привести к снижению урона от Взрыва стихии Бэй Доу, и поэтому рекомендуется использовать только в командах, играющих через реакцию Пар, где желательно обильное наложение Гидро."
+            "ru": "На **[C1]**: {rot:N3D}; может привести к снижению урона от Взрыва стихии Бэй Доу, и поэтому рекомендуется использовать только в командах, играющих через реакцию Пар, где желательно обильное наложение Гидро."
         }
     ]
 }
