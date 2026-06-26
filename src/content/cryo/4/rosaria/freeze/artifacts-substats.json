@@ -12,7 +12,8 @@
             "name": "cr",
             "note": {
                 "en": "Some weapons requires 0 rolls into [[stat:cr]].",
-                "fr": "Certaines armes demandent 0 roll en [[stat:cr]]."
+                "fr": "Certaines armes demandent 0 roll en [[stat:cr]].",
+                "it": "Alcune armi richiedono 0 statistiche secondarie [[stat:cr]]."
             }
         }
     ]

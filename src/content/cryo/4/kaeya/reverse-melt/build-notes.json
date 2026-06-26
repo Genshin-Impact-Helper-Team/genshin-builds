@@ -1,13 +1,15 @@
 {
     "name": {
         "en": "Reverse [[element:melt]]",
-        "fr": "[[element:melt]] inversée"
+        "fr": "[[element:melt]] inversée",
+        "it": "[[element:melt]] Inversa"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:kaeya]] is both a good DPS and battery in Reverse [[element:melt]] teams. His Damage contribution comes from both [[ability:burst]] hits as well as occasional melted [[ability:skill]]s.",
-            "fr": "[[character:kaeya]] est à la fois un bon DPS et une bonne batterie dans les équipes [[element:melt|Fonte inversée]]. Sa contribution aux dégâts vient à la fois des coups de son [[ability:burst]] ainsi que de [[ability:skill|Skills]] déclenchant occasionnellement [[element:melt]]."
+            "fr": "[[character:kaeya]] est à la fois un bon DPS et une bonne batterie dans les équipes [[element:melt|Fonte inversée]]. Sa contribution aux dégâts vient à la fois des coups de son [[ability:burst]] ainsi que de [[ability:skill|Skills]] déclenchant occasionnellement [[element:melt]].",
+            "it": "[[character:kaeya]] è sia un **buon DPS** che una **buona batteria** in team [[element:melt]] Inversa. Il suo contributo di danni deriva sia dai colpi del [[ability:burst]] che dalle [[ability:skill]] che occasionalmente provocano [[element:melt]]."
         }
     ]
 }

@@ -17,7 +17,8 @@
                     "name": "uraku-misugiri",
                     "note": {
                         "en": "With a [[element:geo]] unit on the team, this weapon can perform similarly to **[[weapon:mistsplitter-reforged]]** if [[character:kaeya]] melts two or more [[ability:skill]]s per rotation.",
-                        "fr": "Avec un personnage [[element:geo]] dans l'équipe, cette arme peut se rapprocher de **[[weapon:mistsplitter-reforged]]** si [[character:kaeya]] déclenche [[element:melt]] avec deux [[ability:skill|Skills]] ou plus par rotation."
+                        "fr": "Avec un personnage [[element:geo]] dans l'équipe, cette arme peut se rapprocher de **[[weapon:mistsplitter-reforged]]** si [[character:kaeya]] déclenche [[element:melt]] avec deux [[ability:skill|Skills]] ou plus par rotation.",
+                        "it": "Con un personaggio [[element:geo]] nel team, quest'arma può avere prestazioni simili a **[[weapon:mistsplitter-reforged]]** se [[character:kaeya]] provoca [[element:melt]] con due o più [[ability:skill]] per rotazione."
                     }
                 },
                 "light-of-foliar-incision"
@@ -50,7 +51,8 @@
                     "name": "lions-roar",
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:absolution]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:absolution]]**."
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:absolution]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:absolution]]**."
                     }
                 }
             ]
@@ -62,7 +64,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If you can reliably clear [[ability:bol]] before casting [[ability:burst]], this weapon performs better than **[[weapon:summit-shaper]]**.",
-                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:summit-shaper]]**."
+                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:summit-shaper]]**.",
+                        "it": "Se [[character:kaeya]] riceve **cure sufficienti a rimuovere il [[ability:bol]]** in modo affidabile prima di attivare il [[ability:burst]], quest'arma offre prestazioni migliori rispetto ad **[[weapon:summit-shaper]]**."
                     }
                 }
             ]
@@ -73,14 +76,16 @@
                     "name": "skyward-blade",
                     "note": {
                         "en": "In teams without a second [[element:cryo]] unit, this weapon increases in value.",
-                        "fr": "Dans les équipes sans second personnage [[element:cryo]], cette arme gagne en valeur."
+                        "fr": "Dans les équipes sans second personnage [[element:cryo]], cette arme gagne en valeur.",
+                        "it": "In team senza un secondo personaggio [[element:cryo]], quest'arma guadagna valore."
                     }
                 },
                 {
                     "name": "favonius-sword",
                     "note": {
                         "en": "This weapon can be preferred over other options to help the team meet [[stat:er]] requirements.",
-                        "fr": "Cette arme peut être préférée aux autres options pour aider l'équipe à atteindre ses besoins en [[stat:er]]."
+                        "fr": "Cette arme peut être préférée aux autres options pour aider l'équipe à atteindre ses besoins en [[stat:er]].",
+                        "it": "Quest'arma può essere preferibile ad altre opzioni per aiutare il team a soddisfare i propri requisiti di [[stat:er]]."
                     }
                 }
             ]

@@ -5,8 +5,9 @@
             {
                 "name": "er",
                 "note": {
-                    "en": "[[character:layla]]'s [[stat:er]] requirements will generally be low enough (especially with C2 or other [[element:cryo]] characters) that an [[stat:er]] sands is not justified",
-                    "fr": "Les besoins en [[stat:er]] de [[character:layla]] seront généralement assez bas (surtout avec la C2 ou d'autres personnages [[element:cryo]]) pour qu'un sablier [[stat:er]] ne soit pas justifié."
+                    "en": "[[character:layla]]'s [[stat:er]] requirements will generally be low enough (especially with C2 or other [[element:cryo]] characters) that an [[stat:er]] sands is not justified.",
+                    "fr": "Les besoins en [[stat:er]] de [[character:layla]] seront généralement assez bas (surtout avec la C2 ou d'autres personnages [[element:cryo]]) pour qu'un sablier [[stat:er]] ne soit pas justifié.",
+                    "it": "I requisiti di [[stat:er]] di [[character:layla]] sono generalmente abbastanza bassi (soprattutto con la **[C2]** o altri personaggi [[element:cryo]] nel team) da non giustificare l'uso di Sabbie [[stat:er]]."
                 }
             }
         ],
@@ -19,5 +20,12 @@
             "cd",
             "hp%"
         ]
+    },
+      "notes": [
+    {
+        "en": "While a [[stat:hp%]]/[[stat:cryo-dmg]]/CRIT build is ideal for personal damage, additional [[stat:hp%]] Main Stats can be used to increase shield durability without a huge drop in personal damage as [[character:layla]]'s damage is partially [[stat:hp]] scaling.",
+        "fr": "Si une configuration axée sur [[stat:hp%]]/[[stat:cryo-dmg]]/CRIT est idéale pour optimiser les dégâts personnels, il est possible d'ajouter des statistiques principales [[stat:hp%]] supplémentaires afin d'augmenter la résistance du bouclier sans pour autant réduire de manière significative les dégâts personnels, car les dégâts des [[character:layla]] dépendent en partie des [[stat:hp]].",
+        "it": "Sebbene una build [[stat:hp%]]/[[stat:cryo-dmg]]/CRIT sia ideale per i danni personali, è possibile utilizzare Statistiche Principali [[stat:hp%]] aggiuntive per aumentare la resistenza dello scudo senza un calo significativo dei danni personali, poiché i danni di [[character:layla]] sono parzialmente scalati in base ai [[stat:hp]]."
     }
+        ]
 }

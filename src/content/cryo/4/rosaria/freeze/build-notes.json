@@ -6,12 +6,14 @@
     "best": true,
     "notes": [
         {
-            "en": "If [[character:rosaria]] is being used with [[character:chongyun]] to infuse her [[ability:na]]s with [[element:cryo]], her [[ability:na]] talent will have higher priority than [[ability:skill]].",
-            "fr": "Si [[character:rosaria]] est utilisée avec [[character:chongyun]] pour infuser ses [[ability:na]]s en [[element:cryo]], son talent d'[[ability:na]] aura une priorité plus élevée que le [[ability:skill]]."
+            "en": "This build can be used on both a quickswap/sub-dps and perma-[[element:freeze]] dps [[character:rosaria]]. Generally played as a secondary DPS to an onfield [[element:freeze]] carry like [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]].",
+            "fr": "Ce build peut être utilisé à la fois pour une [[character:rosaria]] quickswap/sub-DPS et une DPS perma-[[element:freeze]]. Elle est généralement jouée comme DPS secondaire auprès d'un carry [[element:freeze]] on-field comme [[character:kamisato-ayaka]], [[character:ganyu]] ou [[character:wriothesley]].",
+            "it": "Questa build può essere utilizzata sia per una Rosaria DPS a scambio rapido ('quickswap') che DPS sul campo. Generalmente viene utilizzata com DPS secondario insieme ad un DPS [[element:freeze]] sul campo come [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]]."
         },
         {
-            "en": "This build can be used on both a quickswap/sub-dps and perma-[[element:freeze]] dps [[character:rosaria]]. Generally played as a secondary DPS to an onfield [[element:freeze]] carry like [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]].",
-            "fr": "Ce build peut être utilisé à la fois pour une [[character:rosaria]] quickswap/sub-DPS et une DPS perma-[[element:freeze]]. Elle est généralement jouée comme DPS secondaire auprès d'un carry [[element:freeze]] on-field comme [[character:kamisato-ayaka]], [[character:ganyu]] ou [[character:wriothesley]]."
+            "en": "If [[character:rosaria]] is being used with [[character:chongyun]] to infuse her [[ability:na]]s with [[element:cryo]], her [[ability:na]] talent will have higher priority than [[ability:skill]].",
+            "fr": "Si [[character:rosaria]] est utilisée avec [[character:chongyun]] pour infuser ses [[ability:na]]s en [[element:cryo]], son talent d'[[ability:na]] aura une priorité plus élevée que le [[ability:skill]].",
+            "it": "Se [[character:rosaria]] viene utilizzata con [[character:chongyun]] per infondere i suoi [[ability:na|Attacchi Normali]] con [[element:cryo]], il suo talento [[ability:na]] avrà la priorità rispetto all'[[ability:skill]]."
         }
     ],
     "weapons": [

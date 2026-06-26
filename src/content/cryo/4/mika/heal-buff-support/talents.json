@@ -12,8 +12,9 @@
                 {
                     "name": "burst",
                     "note": {
-                        "en": "Prioritize it if you value additional healing",
-                        "fr": "Priorisez le si vous valorisez les soins supplémentaires"
+                        "en": "Prioritize it if you value additional healing.",
+                        "fr": "Priorisez le si vous valorisez les soins supplémentaires.",
+                        "it": "Dai la priorità a questo Talento se desideri cure aggiuntive."
                     }
                 }
             ]

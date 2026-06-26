@@ -17,7 +17,8 @@
                     "name": "haran-geppaku-futsu",
                     "note": {
                         "en": "This Weapon performs slightly better than **[[weapon:light-of-foliar-incision]]** if [[character:kaeya]] is played on-field with [[character:chongyun]] in the team.",
-                        "fr": "Cette arme dépasse légèrement **[[weapon:light-of-foliar-incision]]** si [[character:kaeya]] est joué on-field avec [[character:chongyun]] dans l'équipe."
+                        "fr": "Cette arme dépasse légèrement **[[weapon:light-of-foliar-incision]]** si [[character:kaeya]] est joué on-field avec [[character:chongyun]] dans l'équipe.",
+                        "it": "Quest'arma offre prestazioni leggermente superiori a **[[weapon:light-of-foliar-incision]]** se [[character:kaeya]] è giocato sul campo con [[character:chongyun]] nel team."
                     }
                 }
             ]
@@ -31,7 +32,8 @@
                     "name": "primordial-jade-cutter",
                     "note": {
                         "en": "If running **[[set:blizzard-strayer]] (4)**, it is impossible not to overcrit with this weapon in [[element:freeze]] teams and very hard not to overcrit in Mono [[element:cryo]] teams. It is advised to switch either the weapon or the set in this case.",
-                        "fr": "Si vous jouez **[[set:blizzard-strayer]] (4)**, il est impossible de ne pas overcrit avec cette arme dans les équipes [[element:freeze]] et très difficile de ne pas overcrit dans les équipes Mono [[element:cryo]]. Il est conseillé de changer soit l'arme, soit le set dans ce cas."
+                        "fr": "Si vous jouez **[[set:blizzard-strayer]] (4)**, il est impossible de ne pas overcrit avec cette arme dans les équipes [[element:freeze]] et très difficile de ne pas overcrit dans les équipes Mono [[element:cryo]]. Il est conseillé de changer soit l'arme, soit le set dans ce cas.",
+                        "it": "Se utilizzi **[[set:blizzard-strayer]] (4)** con quest'arma, è impossibile non superare il massimo di [[stat:cr]] in team [[element:freeze]], ed è molto difficile non superarlo in team Mono Cryo. Si consiglia dunque di cambiare l'arma o il set."
                     }
                 }
             ]
@@ -43,7 +45,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If you can reliably clear [[ability:bol]] before casting [[ability:burst]], this weapon performs better than **[[weapon:splendor-of-tranquil-waters]]**.",
-                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:splendor-of-tranquil-waters]]**."
+                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:splendor-of-tranquil-waters]]**.",
+                        "it": "Se Kaeya riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni migliori di **[[weapon:splendor-of-tranquil-waters]]**."
                     }
                 }
             ]
@@ -54,7 +57,8 @@
                     "name": "amenoma-kageuchi",
                     "note": {
                         "en": "This weapon has higher value in teams where [[character:kaeya]] faces high [[stat:er]] Requirements.",
-                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma guadagna valore in team in cui [[character:kaeya]] ha requisiti elevati di [[stat:er]]."
                     }
                 },
                 {
@@ -65,7 +69,8 @@
                     "name": "skyward-blade",
                     "note": {
                         "en": "This weapon has higher value in teams where [[character:kaeya]] faces high [[stat:er]] Requirements.",
-                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma guadagna valore in team in cui [[character:kaeya]] ha requisiti elevati di [[stat:er]]."
                     }
                 }
             ]
@@ -76,7 +81,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "This weapon has higher value in teams where [[character:kaeya]] faces high [[stat:er]] Requirements.",
-                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme a plus de valeur dans les équipes où [[character:kaeya]] fait face à des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma guadagna valore in team in cui [[character:kaeya]] ha requisiti elevati di [[stat:er]]."
                     }
                 }
             ]

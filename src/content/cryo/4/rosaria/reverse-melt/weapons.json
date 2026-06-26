@@ -36,14 +36,16 @@
                     "name": "vortex-vanquisher",
                     "note": {
                         "en": "Ranking assumed shielded, if unshielded, this weapon performs slightly better than **[[weapon:deathmatch]] [R1]**.",
-                        "fr": "Le classement suppose un bouclier actif ; sans bouclier, cette arme dépasse légèrement **[[weapon:deathmatch]] [R1]**."
+                        "fr": "Le classement suppose un bouclier actif ; sans bouclier, cette arme dépasse légèrement **[[weapon:deathmatch]] [R1]**.",
+                        "it": "La classifica presuppone l'assenza di uno scudo. Se è presente uno scudo, può superare **[[weapon:deathmatch]] [R1]**."
                     }
                 },
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At high refinement [R4-R5] with 2+ enemy, this performs just below **[[weapon:calamity-queller]]**. This weapon can outperform all 4-star options and even **[[weapon:primordial-jade-winged-spear]]** when used with **[[set:gilded-dreams]] (4)** in single target situations.",
-                        "fr": "Une fois **[R4]** avec 2 ennemis ou plus, cette arme se place juste en dessous de **[[weapon:calamity-queller]]**. Elle peut dépasser toutes les options 4 étoiles et même **[[weapon:primordial-jade-winged-spear]]** lorsqu'elle est utilisée avec **[[set:gilded-dreams]] (4)** en monocible."
+                        "en": "At high refinement **[R4-R5]** with 2+ enemy, this performs just below **[[weapon:calamity-queller]]**. This weapon can outperform all 4-star options and even **[[weapon:primordial-jade-winged-spear]]** when used with **[[set:gilded-dreams]] (4)** in single target situations.",
+                        "fr": "Une fois **[R4]** avec 2 ennemis ou plus, cette arme se place juste en dessous de **[[weapon:calamity-queller]]**. Elle peut dépasser toutes les options 4 étoiles et même **[[weapon:primordial-jade-winged-spear]]** lorsqu'elle est utilisée avec **[[set:gilded-dreams]] (4)** en monocible.",
+                        "it": "Ad alti miglioramenti **[R4-R5]** contro 2 o più nemici, ha prestazioni di poco peggiori di **[[weapon:calamity-queller]]**. Quest'arma può superare tutte le opzioni 4 stelle e persino **[[weapon:primordial-jade-winged-spear]]** quando utilizzata con **[[set:gilded-dreams]] (4)** contro un nemico singolo."
                     }
                 },
                 {
@@ -58,15 +60,17 @@
                 {
                     "name": "dragons-bane",
                     "note": {
-                        "en": "At high refinement [R4-R5] this weapon performs slightly better than **[[weapon:calamity-queller]]**.",
-                        "fr": "Une fois **[R4]**, cette arme dépasse légèrement **[[weapon:calamity-queller]]**."
+                        "en": "At high refinement **[R4-R5]** this weapon performs slightly better than **[[weapon:calamity-queller]]**.",
+                        "fr": "Une fois **[R4]**, cette arme dépasse légèrement **[[weapon:calamity-queller]]**.",
+                        "it": "Ad alti miglioramenti **[R4-R5]** ha prestazioni leggermente migliori di **[[weapon:calamity-queller]]**."
                     }
                 },
                 {
                     "name": "wavebreakers-fin",
                     "note": {
-                        "en": "At high refinement [R4-R5], this weapon performs just below **[[weapon:calamity-queller]]**.",
-                        "fr": "Une fois **[R4]**, cette arme se place juste en dessous de **[[weapon:calamity-queller]]**."
+                        "en": "At high refinement **[R4-R5]**, this weapon performs just below **[[weapon:calamity-queller]]**.",
+                        "fr": "Une fois **[R4]**, cette arme se place juste en dessous de **[[weapon:calamity-queller]]**.",
+                        "it": "Ad alti miglioramenti **[R4-R5]** ha prestazioni appena inferiori a **[[weapon:calamity-queller]]**."
                     }
                 },
                 "skyward-spine"

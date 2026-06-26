@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Heal & Buff Support",
-        "fr": "Support Soins & Buff"
+        "fr": "Support Soins & Buff",
+        "it": "Supporto Cure & Potenziamento"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:mika]] is a Physical damage support who offers [[stat:physical-dmg]]% through Detector stacks, and Physical [[stat:cd]] at C6. He is additionally able to heal and provide some Attack Speed.",
-            "fr": "[[character:mika]] est un support de dégâts physiques qui offre du [[stat:physical-dmg]]% grâce aux stacks de Détecteur, et des [[stat:cd]] physiques en C6. Il est également capable de soigner et de fournir de la Vitesse d'attaque."
+            "fr": "[[character:mika]] est un support de dégâts physiques qui offre du [[stat:physical-dmg]]% grâce aux stacks de Détecteur, et des [[stat:cd]] physiques en C6. Il est également capable de soigner et de fournir de la Vitesse d'attaque.",
+            "it": "[[character:mika]] è un **supporto al danno Fisico** che offre [[stat:physical-dmg]]% tramite gli accumuli Rilevatore e [[stat:cd]] Fisico% a **[C6]**. È inoltre in grado di **curare** e fornire un po' di **VEL d'ATT**."
         },
         {
             "en": "Do note that [[character:mika]]'s buffs apply to your on-field character and do not linger, this is something to keep in mind especially when playing him with [[character:eula]], as you will lose his buffs if you detonate her Lightfall Sword early.",
-            "fr": "Notez que les buffs de [[character:mika]] s'appliquent à votre personnage on-field et ne persistent pas ; c'est un point à garder en tête surtout lorsque vous le jouez avec [[character:eula]], puisque vous perdrez ses buffs si vous faites exploser son Épée de lumière descendante plus tôt."
+            "fr": "Notez que les buffs de [[character:mika]] s'appliquent à votre personnage on-field et ne persistent pas ; c'est un point à garder en tête surtout lorsque vous le jouez avec [[character:eula]], puisque vous perdrez ses buffs si vous faites exploser son Épée de lumière descendante plus tôt.",
+            "it": "Tieni presente che i potenziamenti di [[character:mika]] si applicano al personaggio attivo e non persistono; questo è da tenere a mente soprattutto quando lo giochi con [[character:eula]], poiché perderai i suoi potenziamenti se detoni la sua Spada di Luce Cadente troppo presto."
         }
     ]
 }

@@ -12,7 +12,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Weapon ranking is assuming [[character:layla]] is above 90% HP. As [[character:layla]] is primarily used as an off-field character, she can usually have good uptime on the **[[weapon:harbinger-of-dawn]]** passive. Though it's possible that good uptime may be unrealistic depending on your team, or if you're facing enemies where corrosion is present.",
-                        "fr": "Le classement de l'arme suppose que [[character:layla]] est au-dessus de 90% de PV. Comme [[character:layla]] est principalement utilisée comme personnage off-field, elle peut généralement maintenir un bon uptime sur le passif de **[[weapon:harbinger-of-dawn]]**. Il est toutefois possible qu'un bon uptime soit irréaliste selon votre équipe, ou si vous affrontez des ennemis avec de la corrosion."
+                        "fr": "Le classement de l'arme suppose que [[character:layla]] est au-dessus de 90% de PV. Comme [[character:layla]] est principalement utilisée comme personnage off-field, elle peut généralement maintenir un bon uptime sur le passif de **[[weapon:harbinger-of-dawn]]**. Il est toutefois possible qu'un bon uptime soit irréaliste selon votre équipe, ou si vous affrontez des ennemis avec de la corrosion.",
+                        "it": "La classifica presuppone che [[character:layla]] abbia più del 90% di PS. Poiché [[character:layla]] viene utilizzata principalmente da fuori campo, ha di solito un buon tempo di funzionamento della passiva. Tuttavia, è possibile che questo non sia realistico a seconda del tuo team (ad esempio con [[character:furina]]) o se affronti nemici che infliggono Corrosione."
                     }
                 }
             ]
@@ -31,8 +32,9 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At [R5] this weapon performs similarly to **[[weapon:harbinger-of-dawn]] [R5]**.",
-                        "fr": "Une fois [R5], cette arme équivaut à **[[weapon:harbinger-of-dawn]] [R5]**."
+                        "en": "At **[R5]** this weapon performs similarly to **[[weapon:harbinger-of-dawn]] [R5]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:harbinger-of-dawn]] [R5]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:harbinger-of-dawn]] [R5]**."
                     }
                 }
             ]
@@ -48,7 +50,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "This weapon performs significantly worse than other listed options in terms of personal damage, but the extra particles for your team could be valuable.",
-                        "fr": "Cette arme est nettement moins performante que les autres options listées en termes de dégâts personnels, mais les particules supplémentaires pour votre équipe peuvent avoir de la valeur."
+                        "fr": "Cette arme est nettement moins performante que les autres options listées en termes de dégâts personnels, mais les particules supplémentaires pour votre équipe peuvent avoir de la valeur.",
+                        "it": "Quest'arma ha prestazioni significativamente peggiori rispetto alle altre opzioni elencate in termini di danni personali, ma le particelle extra per il tuo team potrebbero essere preziose."
                     }
                 }
             ]
