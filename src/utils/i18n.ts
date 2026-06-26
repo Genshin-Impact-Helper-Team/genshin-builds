@@ -5,6 +5,7 @@ import enStats from '../i18n/en/stats.json';
 import enElements from '../i18n/en/elements.json';
 import enUi from '../i18n/en/ui.json';
 import enAbilities from '../i18n/en/abilities.json';
+import enNotes from '../i18n/en/notes.json';
 
 import frWeapons from '../i18n/fr/weapons.json';
 import frArtifacts from '../i18n/fr/artifact-sets.json';
@@ -13,6 +14,7 @@ import frStats from '../i18n/fr/stats.json';
 import frElements from '../i18n/fr/elements.json';
 import frUi from '../i18n/fr/ui.json';
 import frAbilities from '../i18n/fr/abilities.json';
+import frNotes from '../i18n/fr/notes.json';
 
 import deWeapons from '../i18n/de/weapons.json';
 import deArtifacts from '../i18n/de/artifact-sets.json';
@@ -21,6 +23,7 @@ import deStats from '../i18n/de/stats.json';
 import deElements from '../i18n/de/elements.json';
 import deUi from '../i18n/de/ui.json';
 import deAbilities from '../i18n/de/abilities.json';
+import deNotes from '../i18n/de/notes.json';
 
 import esWeapons from '../i18n/es/weapons.json';
 import esArtifacts from '../i18n/es/artifact-sets.json';
@@ -29,6 +32,7 @@ import esStats from '../i18n/es/stats.json';
 import esElements from '../i18n/es/elements.json';
 import esUi from '../i18n/es/ui.json';
 import esAbilities from '../i18n/es/abilities.json';
+import esNotes from '../i18n/es/notes.json';
 
 import itWeapons from '../i18n/it/weapons.json';
 import itArtifacts from '../i18n/it/artifact-sets.json';
@@ -37,6 +41,7 @@ import itStats from '../i18n/it/stats.json';
 import itElements from '../i18n/it/elements.json';
 import itUi from '../i18n/it/ui.json';
 import itAbilities from '../i18n/it/abilities.json';
+import itNotes from '../i18n/it/notes.json';
 
 import ruWeapons from '../i18n/ru/weapons.json';
 import ruArtifacts from '../i18n/ru/artifact-sets.json';
@@ -45,6 +50,7 @@ import ruStats from '../i18n/ru/stats.json';
 import ruElements from '../i18n/ru/elements.json';
 import ruUi from '../i18n/ru/ui.json';
 import ruAbilities from '../i18n/ru/abilities.json';
+import ruNotes from '../i18n/ru/notes.json';
 
 import ptWeapons from '../i18n/pt/weapons.json';
 import ptArtifacts from '../i18n/pt/artifact-sets.json';
@@ -53,6 +59,7 @@ import ptStats from '../i18n/pt/stats.json';
 import ptElements from '../i18n/pt/elements.json';
 import ptUi from '../i18n/pt/ui.json';
 import ptAbilities from '../i18n/pt/abilities.json';
+import ptNotes from '../i18n/pt/notes.json';
 
 import type { LanguageCode } from './languages';
 
@@ -65,6 +72,7 @@ type LocaleBundle = {
     element: LocaleCategory;
     ability: LocaleCategory;
     ui: LocaleCategory;
+    note: LocaleCategory;
 };
 
 // Keep locale imports explicit so bundlers include every JSON dictionary.
@@ -77,6 +85,7 @@ const locales = {
         element: enElements,
         ability: enAbilities,
         ui: enUi,
+        note: enNotes
     },
 
     fr: {
@@ -87,6 +96,8 @@ const locales = {
         element: frElements,
         ability: frAbilities,
         ui: frUi,
+        note: frNotes
+
     },
 
     de: {
@@ -97,6 +108,7 @@ const locales = {
         element: deElements,
         ability: deAbilities,
         ui: deUi,
+        note: deNotes
     },
 
     es: {
@@ -107,6 +119,7 @@ const locales = {
         element: esElements,
         ability: esAbilities,
         ui: esUi,
+        note: esNotes
     },
 
     it: {
@@ -117,6 +130,8 @@ const locales = {
         element: itElements,
         ability: itAbilities,
         ui: itUi,
+        note: itNotes
+
     },
 
     ru: {
@@ -127,6 +142,7 @@ const locales = {
         element: ruElements,
         ability: ruAbilities,
         ui: ruUi,
+        note: ruNotes
     },
 
     pt: {
@@ -137,6 +153,7 @@ const locales = {
         element: ptElements,
         ability: ptAbilities,
         ui: ptUi,
+        note: ptNotes
     },
 } satisfies Record<LanguageCode, LocaleBundle>;
 

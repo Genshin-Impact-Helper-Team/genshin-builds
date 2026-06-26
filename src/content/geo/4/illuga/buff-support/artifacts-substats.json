@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize until requirements are met.",
-                "fr": "A prioriser jusqu'à remplir les besoins nécéssaires."
+                "en": "[[note:er-req]]."
             }
         },
         "em",

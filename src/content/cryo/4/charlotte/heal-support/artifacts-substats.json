@@ -3,9 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Should be prioritized until requirements are met.",
-                "fr": "Doit être priorisée jusqu'à atteindre les besoins requis.",
-                "it": "Dare la priorità finché non vengono soddisfatti i requisiti."
+                "en": "[[note:er-req]]."
             }
         },
         "atk%",

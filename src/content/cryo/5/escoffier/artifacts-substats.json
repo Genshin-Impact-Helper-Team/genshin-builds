@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize [[stat:er]] until Requirements are met",
-                "fr": "Priorisez la [[stat:er]] jusqu'à atteindre les besoins requis"
+                "en": "[[note:er-req]]."
             }
         },
         "cr/cd",
