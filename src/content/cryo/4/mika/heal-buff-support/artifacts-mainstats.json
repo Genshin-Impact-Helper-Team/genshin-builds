@@ -12,8 +12,7 @@
             {
                 "name": "cr",
                 "note": {
-                    "en": "A [[stat:cr]] circlet can be considered when running **[[weapon:favonius-lance]]** for more consistent procs. Additionally, [[stat:cr]] substats are useful when running **[[weapon:favonius-lance]]**.",
-                    "fr": "Un diadème [[stat:cr]] peut être envisagé avec **[[weapon:favonius-lance]]** pour des déclenchements plus constants. De plus, les sous-stats de [[stat:cr]] sont utiles avec **[[weapon:favonius-lance]]**."
+                    "en": "[[note:cr-favo]]"
                 }
             }
         ]
