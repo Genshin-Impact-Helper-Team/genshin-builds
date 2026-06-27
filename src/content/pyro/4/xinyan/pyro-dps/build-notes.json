@@ -2,13 +2,15 @@
     "name": {
         "en": "[[element:pyro]] DPS",
         "fr": "DPS [[element:pyro]]",
-        "it": "DPS [[element:pyro]]"
+        "it": "DPS [[element:pyro]]",
+        "ru": "[[element:pyro]] ДД"
     },
     "notes": [
         {
             "en": "It is **required** to run this build with [C6] [[character:bennett]].",
             "fr": "Ce build se joue **uniquement** avec [[character:bennett]] [C6].",
-            "it": "È **necessario** utilizzare questa build con **[[character:bennett]] [C6]**."
+            "it": "È **necessario** utilizzare questa build con **[[character:bennett]] [C6]**.",
+            "ru": "Для этой сборки необходим [C6] Беннет"
         }
     ]
 }
