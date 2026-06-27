@@ -2,29 +2,34 @@
     "name": {
         "en": "Buff Support",
         "fr": "Support Buff",
-        "it": "Supporto Potenziamento"
+        "it": "Supporto Potenziamento",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:chevreuse]] provides various character buffs and enemy debuffs when party members trigger **[[element:overload]]**.",
             "fr": "[[character:chevreuse]] fournit divers buffs de personnage et debuffs d'ennemi lorsque les membres de l'équipe déclenchent **[[element:overload]]**.",
-            "it": "[[character:chevreuse]] fornisce vari potenziamenti ai personaggi e penalità ai nemici quando i membri del team provocano **[[element:overload]]**."
+            "it": "[[character:chevreuse]] fornisce vari potenziamenti ai personaggi e penalità ai nemici quando i membri del team provocano **[[element:overload]]**.",
+            "ru": "Шеврёз накладывает различные усиления на союзников и ослабления на противников при активации отрядом Перегрузки."
         },
         {
             "en": "The main function of her kit, the [[element:pyro]] and [[element:electro]] RES reduction, only activates if **the entire team consists of [[element:pyro]] and [[element:electro]] characters**.",
             "fr": "La fonction principale de son kit, la réduction de RES [[element:pyro]] et [[element:electro]], ne s'active que si **toute l'équipe est composée de personnages [[element:pyro]] et [[element:electro]]**.",
-            "it": "La funzione principale del suo kit, ovvero la riduzione di RES [[element:pyro]] ed [[element:electro]], si attiva **solo se il team è composto esclusivamente da personaggi [[element:pyro]] ed [[element:electro]]**."
+            "it": "La funzione principale del suo kit, ovvero la riduzione di RES [[element:pyro]] ed [[element:electro]], si attiva **solo se il team è composto esclusivamente da personaggi [[element:pyro]] ed [[element:electro]]**.",
+            "ru": "Основной её талант - снижение Пиро и Электро сопротивления противников - активен только в том случае, когда отряд полностью состоит из Электро и Пиро персонажей."
         },
         {
             "en": "Her buff caps at **40,000 HP**, after which she no longer needs to build HP.",
             "fr": "Son buff a une limite de **40 000 PV**, au-delà de laquelle elle n'a plus besoin de build des PV.",
-            "it": "Il suo potenziamento raggiunge il massimo potenziale a **40,000 PS**, dopodiché non non ha più bisogno di accumulare PS."
+            "it": "Il suo potenziamento raggiunge il massimo potenziale a **40,000 PS**, dopodiché non non ha più bisogno di accumulare PS.",
+            "ru": "Лимит HP для её А4 - 40 000 - нет необходимости набирать его сверх этого."
         },
         {
             "en": "[[character:chevreuse]] does not always need to use her [[ability:burst]], so [[stat:er]] is not needed if she chooses not to use her [[ability:burst]].",
             "fr": "[[character:chevreuse]] n'a pas toujours besoin d'utiliser son [[ability:burst]], donc la [[stat:er]] n'est pas nécessaire si elle choisit de ne pas l'utiliser.",
-            "it": "Non sempre è necessario utilizzare il [[ability:burst]] di [[character:chevreuse]], e nel caso non sia necessario non ha bisogno di alcuna [[stat:er]]."
+            "it": "Non sempre è necessario utilizzare il [[ability:burst]] di [[character:chevreuse]], e nel caso non sia necessario non ha bisogno di alcuna [[stat:er]].",
+            "ru": "Шеврёз не требуется использовать Взрыв стихии постоянно - если вы решили этого не делать, набор ВЭ-статов необязателен."
         }
     ]
 }
