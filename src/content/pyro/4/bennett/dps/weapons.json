@@ -13,7 +13,8 @@
                     "note": {
                         "en": "When [[character:bennett]] is not able to use infused [[ability:na]]s, this weapon performs significantly worse.",
                         "fr": "Quand [[character:bennett]] ne peut pas utiliser d'[[ability:na]] infusée, cette arme devient beaucoup moins bonne.",
-                        "it": "Se [[character:bennett]] non riesce ad utilizzare Attacchi Normali infusi, quest'arma ha prestazioni significativamente peggiori."
+                        "it": "Se [[character:bennett]] non riesce ad utilizzare Attacchi Normali infusi, quest'arma ha prestazioni significativamente peggiori.",
+                        "ru": "Если Беннет не может использовать Обычные атаки с инфузией, это оружие показывают себя значительно хуже."
                     }
                 }
             ]
@@ -31,7 +32,8 @@
                     "note": {
                         "en": "When [[character:bennett]] is not able to use infused [[ability:na]]s, this weapon performs significantly worse.",
                         "fr": "Quand [[character:bennett]] ne peut pas utiliser d'[[ability:na]] infusée, cette arme devient beaucoup moins bonne.",
-                        "it": "Se [[character:bennett]] non riesce ad utilizzare Attacchi Normali infusi, quest'arma ha prestazioni significativamente peggiori."
+                        "it": "Se [[character:bennett]] non riesce ad utilizzare Attacchi Normali infusi, quest'arma ha prestazioni significativamente peggiori.",
+                        "ru": "Если Беннет не может использовать Обычные атаки с инфузией, это оружие показывают себя значительно хуже."
                     }
                 }
             ]
@@ -45,7 +47,8 @@
                     "note": {
                         "en": "If [[character:bennett]] is not able to trigger [[element:melt]] or [[element:vaporize]] frequently, this weapon performs poorly.",
                         "fr": "Si [[character:bennett]] ne peut pas déclencher [[element:melt]] ou [[element:vaporize]] fréquemment, cette arme performe mal.",
-                        "it": "Se [[character:bennett]] non riesce a provocare [[element:melt]] o [[element:vaporize]] frequentemente, quest'arma ha prestazioni scarse."
+                        "it": "Se [[character:bennett]] non riesce a provocare [[element:melt]] o [[element:vaporize]] frequentemente, quest'arma ha prestazioni scarse.",
+                        "ru": "Если Беннетт не может стабильно закрывать реакции Пар/Таяние, это оружие не рекомендуются к использованию."
                     }
                 },
                 {
@@ -53,7 +56,8 @@
                     "note": {
                         "en": "Assumes no shield. With a shield, this weapon performs better than similarly ranked weapons.",
                         "fr": "Suppose qu'aucun bouclier n'est actif. Avec un bouclier, cette arme performe mieux que les armes de rang similaire.",
-                        "it": "Presuppone l'assenza di uno scudo. Se è presente uno scudo, quest'arma ha prestazioni migliori delle altre alla stessa posizione."
+                        "it": "Presuppone l'assenza di uno scudo. Se è presente uno scudo, quest'arma ha prestazioni migliori delle altre alla stessa posizione.",
+                        "ru": "Предполагается отсутствие щита. При наличии щита показывает себя лучше, чем оружия на том же месте в рейтинге."
                     }
                 }
             ]
@@ -65,7 +69,8 @@
                     "note": {
                         "en": "At [R5], this weapon performs significantly better, matching **[[weapon:summit-shaper]]**.",
                         "fr": "Une fois [R5], cette arme performe significativement mieux, équivalente à **[[weapon:summit-shaper]]**.",
-                        "it": "A [R5], quest'arma ha prestazioni significativamente migliori, alla pari di **[[weapon:summit-shaper]]**."
+                        "it": "A [R5], quest'arma ha prestazioni significativamente migliori, alla pari di **[[weapon:summit-shaper]]**.",
+                        "ru": "На [R5] показывает себя значительно лучше, соответствуя Кромсателю пиков."
                     }
                 }
             ]
@@ -77,7 +82,8 @@
                     "note": {
                         "en": "If [[character:bennett]] is not able to trigger [[element:melt]] or [[element:vaporize]] frequently, this weapon performs poorly.",
                         "fr": "Si [[character:bennett]] ne peut pas déclencher [[element:melt]] ou [[element:vaporize]] fréquemment, cette arme performe mal.",
-                        "it": "Se [[character:bennett]] non riesce a provocare [[element:melt]] o [[element:vaporize]] frequentemente, quest'arma ha prestazioni scarse."
+                        "it": "Se [[character:bennett]] non riesce a provocare [[element:melt]] o [[element:vaporize]] frequentemente, quest'arma ha prestazioni scarse.",
+                        "ru": "Если Беннетт не может стабильно закрывать реакции Пар/Таяние, это оружие не рекомендуются к использованию."
                     }
                 },
                 {
@@ -86,7 +92,8 @@
                     "note": {
                         "en": "If you can reliably clear the [[ability:bol]], this weapon performs similarly to **[[weapon:summit-shaper]]**.",
                         "fr": "Si vous pouvez retirer l'[[ability:bol]] de façon consistante, cette arme est équivalente à **[[weapon:summit-shaper]]**.",
-                        "it": "Se [[character:bennett]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**."
+                        "it": "Se [[character:bennett]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**.",
+                        "ru": "Если есть возможность стабильно активировать Пассивную способность данного оружия, оно соответствует Кромсателю пиков."
                     }
                 },
                 {
@@ -94,7 +101,8 @@
                     "note": {
                         "en": "When [[character:bennett]] is not able to use infused [[ability:na]]s, this weapon performs significantly worse.",
                         "fr": "Quand [[character:bennett]] ne peut pas utiliser d'[[ability:na]] infusée, cette arme devient beaucoup moins bonne.",
-                        "it": "Se [[character:bennett]] non riesce ad utilizzare Attacchi Normali infusi, quest'arma ha prestazioni significativamente peggiori."
+                        "it": "Se [[character:bennett]] non riesce ad utilizzare Attacchi Normali infusi, quest'arma ha prestazioni significativamente peggiori.",
+                        "ru": "Если Беннет не может использовать Обычные атаки с инфузией, это оружие показывают себя значительно хуже."
                     }
                 }
             ]
