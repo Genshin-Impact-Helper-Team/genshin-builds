@@ -2,18 +2,21 @@
     "name": {
         "en": "Buff Support & Damage",
         "fr": "Support Buff & Dégâts",
-        "it": "Supporto Potenziamento & Danni"
+        "it": "Supporto Potenziamento & Danni",
+        "ru": "Саппорт с уроном"
     },
     "notes": [
         {
             "en": "Support and Damage [[character:chevreuse]] aims to deal high amounts of damage with her [[ability:burst]] and [[ability:skill]] while maintaining her supportive abilities in [[element:pyro]] [[element:electro]] teams.",
             "fr": "[[character:chevreuse]] Support et Dégâts vise à infliger de gros dégâts avec son [[ability:burst]] et son [[ability:skill]] tout en maintenant ses capacités de soutien dans les équipes [[element:pyro]] [[element:electro]].",
-            "it": "Una [[character:chevreuse]] con una build Supporto e Danni ha l'obiettivo di provocare considerevoli danni tramite il suo [[ability:burst]] e la sua [[ability:skill]], mantenendo le sue capacità di supporto per team [[element:pyro]] [[element:electro]]."
+            "it": "Una [[character:chevreuse]] con una build Supporto e Danni ha l'obiettivo di provocare considerevoli danni tramite il suo [[ability:burst]] e la sua [[ability:skill]], mantenendo le sue capacità di supporto per team [[element:pyro]] [[element:electro]].",
+            "ru": "В такоя сборке Шеврёз должна наносить как можно больше урона Элементальным навыком и Взрывом стихии, сохраняя при этом свою роль персонажа поддержки в отряде."
         },
         {
             "en": "This playstyle is made viable **after [C4] because of her ability to use multiple [[ability:skill]]s per rotation**.",
             "fr": "Ce style de jeu est rendu viable **après sa [C4] grâce à sa capacité à utiliser plusieurs [[ability:skill]] par rotation**.",
-            "it": "Questo stile di gioco è realisticamente praticabile solo **dopo la [C4], grazie alla possibilità di utilizzare la sua [[ability:skill]] più volte in una rotazione**."
+            "it": "Questo stile di gioco è realisticamente praticabile solo **dopo la [C4], grazie alla possibilità di utilizzare la sua [[ability:skill]] più volte in una rotazione**.",
+            "ru": "Билд жизнеспособен на [C4+] благодаря возможности использовать несколько Элементальных навыков за ротацию."
         }
     ]
 }
