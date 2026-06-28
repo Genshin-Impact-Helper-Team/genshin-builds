@@ -23,7 +23,7 @@
             "en": "Her [[ability:skill]] and [[ability:burst]] Infusion priority is [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]].",
             "fr": "La priorité d'infusion de son [[ability:skill]] et de son [[ability:burst]] est [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]].",
             "it": "La sua priorità d'infusione è [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]].",
-            "ru": "Приоритет поглощения [[ability:skill|Элементального навыка]] and [[ability:burst|Взрыва стихии]] - [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]]."
+            "ru": "Приоритет поглощения [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]] - [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]]."
         },
         {
             "en": "If the active character has 70% HP or more, [[character:jahoda]]'s [[ability:burst]] will also heal the character with the lowest HP.",
