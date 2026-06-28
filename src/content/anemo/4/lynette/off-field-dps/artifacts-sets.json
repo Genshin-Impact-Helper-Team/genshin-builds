@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "This set will give [[character:lynette]] her best personal damage output, assuming the team is already running **[[set:viridescent-venerer]] (4)**.",
                                 "fr": "Ce set donnera à [[character:lynette]] ses meilleurs dégâts personnels, en supposant que l'équipe joue déjà **[[set:viridescent-venerer]] (4)**.",
-                                "it": "Questo è il miglior set per i danni personali di [[character:lynette]], presupponendo che un altro personaggio nel team stia già utilizzando  **[[set:viridescent-venerer]] (4)**."
+                                "it": "Questo è il miglior set per i danni personali di [[character:lynette]], presupponendo che un altro personaggio nel team stia già utilizzando  **[[set:viridescent-venerer]] (4)**.",
+                                "ru": "Обеспечивает [[character:lynette]] максимальный личный урон, если в отряде уже есть носитель **[[set:viridescent-venerer|Изумрудной тени]] (4)**."
                             }
                         }
                     ]
@@ -39,7 +40,8 @@
                             "note": {
                                 "en": "This is a good option for her in teams that either won't benefit significantly from **[[set:viridescent-venerer]] (4)** shred, or where putting it on her is the lowest total team damage loss.",
                                 "fr": "C'est une bonne option pour elle dans les équipes qui ne bénéficient pas significativement de la baisse de RES de **[[set:viridescent-venerer]] (4)**, ou lorsque le lui donner représente la plus faible perte de dégâts d'équipe.",
-                                "it": "Una buona opzione in team che non traggono benefici significativi dalla riduzione di RES di **[[set:viridescent-venerer]] (4)**, o in team in cui utilizzarlo comporta la minore perdita totale di danni per la squadra."
+                                "it": "Una buona opzione in team che non traggono benefici significativi dalla riduzione di RES di **[[set:viridescent-venerer]] (4)**, o in team in cui utilizzarlo comporta la minore perdita totale di danni per la squadra.",
+                                "ru": "Хороший вариант, если **[[set:viridescent-venerer]] (4)** не требуется или её отсутствие приводит к минимальному снижению урона отряда. "
                             }
                         }
                     ]
