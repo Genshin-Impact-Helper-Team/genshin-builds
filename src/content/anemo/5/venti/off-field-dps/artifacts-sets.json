@@ -10,7 +10,8 @@
                             "note": {
                                 "en": "Prioritize this set unless someone else is holding it.",
                                 "fr": "Priorisez ce set sauf si quelqu'un d'autre l'a déjà.",
-                                "it": "Dai la priorità a questo set se nessun altro nel team lo sta utilizzando."
+                                "it": "Dai la priorità a questo set se nessun altro nel team lo sta utilizzando.",
+                                "ru": "В приоритете, если в отряде нет другого носителя."
                             }
                         }
                     ]
