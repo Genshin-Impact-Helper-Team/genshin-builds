@@ -3,7 +3,7 @@
         "en": "Off-Field Reaction DPS & Heal Support",
         "fr": "DPS Réaction off-field & Support Soins",
         "it": "DPS da Reazione Fuori Campo & Supporto Cure",
-        "ru": "Карманный ДД от реакций & Лечение"
+        "ru": "Карманный ДД от реакций & Саппорт"
     },
     "best": true,
     "notes": [
@@ -11,7 +11,7 @@
             "en": "[[character:jahoda]] offers continuous healing for the active character with her [[ability:burst]], and Off-Field Elemental Application with her infused [[ability:skill]] and [[ability:burst]]. While Ascendant Gleam is active, her [[ability:skill]] can steal enemy auras and use them for herself.",
             "fr": "[[character:jahoda]] offre un soin continu au personnage actif avec son [[ability:burst]], ainsi qu'une application élémentaire off-field avec son [[ability:skill]] et son [[ability:burst]] infusés. Tant que Lueur ascendante est active, son [[ability:skill]] peut voler les auras ennemies et les utiliser pour elle-même.",
             "it": "[[character:jahoda]] offre cure continue al personaggio attivo tramite il suo [[ability:burst]], ed applicazione elementale da fuori campo tramite l'infusione dell'[[ability:skill]] e del [[ability:burst]]. Mentre Presagio lunare: Barlume ascendente è attivo, la sua [[ability:skill]] può assorbire le aure nemiche.",
-            "ru": "[[character:jahoda]] лечит активного персонажа своим [[ability:burst|Взрывом стихии]] и накладывает статус вне поля с помощью [[ability:skill|Элементального навыка]] and [[ability:burst|Взрыва стихии]]. При активном Лунном знамении - Высшее сияние её [[ability:skill]] может поглощать элементальные ауры с противников и наносить удары соответствующим элементом из кармана."
+            "ru": "[[character:jahoda]] лечит активного персонажа своим [[ability:burst|Взрывом стихии]] и накладывает статус вне поля с помощью [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]]. При активном Лунном знамении - Высшее сияние её [[ability:skill]] может поглощать элементальные ауры с противников и наносить удары соответствующим элементом из кармана."
         },
         {
             "en": "[[character:jahoda]] heavily favors having Moonsign: Ascendant Gleam.",
@@ -23,7 +23,7 @@
             "en": "Her [[ability:skill]] and [[ability:burst]] Infusion priority is [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]].",
             "fr": "La priorité d'infusion de son [[ability:skill]] et de son [[ability:burst]] est [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]].",
             "it": "La sua priorità d'infusione è [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]].",
-            "ru": "Приоритет поглощения [[ability:skill|Элементального навыка]] and [[ability:burst|Взрыва стихии]] - [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]]."
+            "ru": "Приоритет поглощения [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]] - [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]]."
         },
         {
             "en": "If the active character has 70% HP or more, [[character:jahoda]]'s [[ability:burst]] will also heal the character with the lowest HP.",

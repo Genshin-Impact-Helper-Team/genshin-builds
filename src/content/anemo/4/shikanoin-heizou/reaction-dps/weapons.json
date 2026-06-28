@@ -3,7 +3,8 @@
         {
             "en": "In teams where [[character:shikanoin-heizou]]'s damage is less potent, or his goal is to support the team with **[[set:viridescent-venerer]] (4)** and his A4, he can choose to run one of the following weapons.",
             "fr": "Dans les équipes où les dégâts de [[character:shikanoin-heizou]] sont moins importants, ou si son objectif est de soutenir l'équipe avec **[[set:viridescent-venerer]] (4)** et son A4, il peut choisir d'utiliser l'une des armes suivantes.",
-            "it": "In team in cui i danni di [[character:shikanoin-heizou]] sono meno rilevanti, oppure in cui la sua funzione è supportare il team con il set **[[set:viridescent-venerer]] (4)** e la sua passiva A4, puoi scegliere utilizzare un'arma di supporto."
+            "it": "In team in cui i danni di [[character:shikanoin-heizou]] sono meno rilevanti, oppure in cui la sua funzione è supportare il team con il set **[[set:viridescent-venerer]] (4)** e la sua passiva A4, puoi scegliere utilizzare un'arma di supporto.",
+            "ru": "В отрядах, где урон [[character:shikanoin-heizou]] не важен, а его роль - выступать носителем **[[set:viridescent-venerer|Изумрудной тени]] (4)** и использовать Пассивную способность (от 4-го Возвышения), он может использовать один из вариантов для поддержки."
         }
     ],
     "weapons": [
@@ -35,7 +36,8 @@
                     "note": {
                         "en": "This weapon can help lower [[stat:er]] requirements for the team, as well as allow [[character:shikanoin-heizou]] to run less [[stat:er]] on himself.",
                         "fr": "Cette arme peut réduire les besoins en [[stat:er]] de l'équipe, tout en permettant à [[character:shikanoin-heizou]] d'en avoir moins lui-même.",
-                        "it": "Quest'arma **riduce i requisiti di [[stat:er]] dell'intero team**, incluso [[character:shikanoin-heizou]]."
+                        "it": "Quest'arma **riduce i requisiti di [[stat:er]] dell'intero team**, incluso [[character:shikanoin-heizou]].",
+                        "ru": "Снижает потребность в [[stat:er|энергии]] как отряда, так и самого [[character:shikanoin-heizou]]."
                     }
                 },
                 {
@@ -43,7 +45,8 @@
                     "note": {
                         "en": "This weapon offers a colossal 48% ATK buff to a party member at the expense of [[character:shikanoin-heizou]]'s damage.",
                         "fr": "Cette arme offre un énorme buff d'ATQ de 48 % à un membre de l'équipe au détriment des dégâts de [[character:shikanoin-heizou]].",
-                        "it": "Quest'arma offre un **potenziamento di 48% all'ATT di un membro del team** a scapito dei danni inflitti da [[character:shikanoin-heizou]]."
+                        "it": "Quest'arma offre un **potenziamento di 48% all'ATT di un membro del team** a scapito dei danni inflitti da [[character:shikanoin-heizou]].",
+                        "ru": "Даёт бонус в виде 48% силы атаки одному из членов отряда, но не усиливает самого [[character:shikanoin-heizou]]."
                     }
                 },
                 {
@@ -51,7 +54,8 @@
                     "note": {
                         "en": "In [[element:electrocharged]] teams, this can be used to buff both [[element:anemo]], [[element:hydro]], and [[element:electro]] damage, and scales well with refines. It is recommended to run [[stat:anemo-dmg]] based artifacts on this build.",
                         "fr": "Dans les équipes [[element:electrocharged]], cette arme peut être utilisée pour buff à la fois les dégâts [[element:anemo]], [[element:hydro]] et [[element:electro]], et elle profite bien des raffinements. Il est recommandé d'utiliser des artéfacts basés sur les [[stat:anemo-dmg]] avec ce build.",
-                        "it": "In team **[[element:electrocharged]]**, questa arma può essere utilizzata per potenziare DAN [[element:anemo]], [[element:hydro]] ed [[element:electro]], e scala bene con i miglioramenti. È consigliato utilizzare un calice [[stat:anemo-dmg]] in questa build."
+                        "it": "In team **[[element:electrocharged]]**, questa arma può essere utilizzata per potenziare DAN [[element:anemo]], [[element:hydro]] ed [[element:electro]], e scala bene con i miglioramenti. È consigliato utilizzare un calice [[stat:anemo-dmg]] in questa build.",
+                        "ru": "Может давать бонус [[element:anemo]], [[element:hydro]], и [[element:electro]] урона в командах, играющих от реакции [[element:electrocharged]]; усиливается на Пробуждениях. Рекомендуется использовать сборку в [[stat:anemo-dmg|Анемо урон]]."
                     }
                 },
                 {
@@ -59,7 +63,8 @@
                     "note": {
                         "en": "In teams where there is no healer, [[character:shikanoin-heizou]] can use this weapon to help the team's survivability.",
                         "fr": "Dans les équipes sans healer, [[character:shikanoin-heizou]] peut utiliser cette arme pour aider à la survie de l'équipe.",
-                        "it": "In team privi di cure, [[character:shikanoin-heizou]] può utilizzare quest’arma per contribuire alla sopravvivenza del team."
+                        "it": "In team privi di cure, [[character:shikanoin-heizou]] può utilizzare quest’arma per contribuire alla sopravvivenza del team.",
+                        "ru": "В отрядах без хилера может использоваться для повышения выживаемости персонажей."
                     }
                 }
             ]

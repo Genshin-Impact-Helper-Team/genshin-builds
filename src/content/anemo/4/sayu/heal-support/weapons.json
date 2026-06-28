@@ -12,7 +12,8 @@
                     "note": {
                         "en": "This is a universal claymore that is capable of buffing your teammates along with providing more healing in [[character:sayu]]'s case. It is best used once you achieve your [[stat:er]] threshold.",
                         "fr": "C'est une claymore universelle capable de buff vos coéquipiers tout en apportant plus de soins dans le cas de [[character:sayu]]. Elle est à utiliser de préférence une fois votre seuil de [[stat:er]] atteint.",
-                        "it": "Si tratta di una spadone universale in grado di potenziare l'intero team ed allo stesso tempo di aumentare le cure di [[character:sayu]]. È più efficace una volta raggiunta la soglia di [[stat:er]] necessaria."
+                        "it": "Si tratta di una spadone universale in grado di potenziare l'intero team ed allo stesso tempo di aumentare le cure di [[character:sayu]]. È più efficace una volta raggiunta la soglia di [[stat:er]] necessaria.",
+                        "ru": "Универсальное оружие, полезное для усиления команды и обеспечивающее больший объем лечения. Используется в случае достигнутого рекомендуемого количества [[stat:er|Восстановления энергии]]."
                     }
                 }
             ]
@@ -55,7 +56,8 @@
                     "note": {
                         "en": "When used in its niche with [[element:aggravate]] teams it can outperform **[[weapon:katsuragikiri-nagamasa]]**. Outside of that its just an [[stat:er]] stat stick.",
                         "fr": "Dans sa niche avec les équipes [[element:aggravate]], cette arme peut dépasser **[[weapon:katsuragikiri-nagamasa]]**. En dehors de cela, elle n'est qu'une stat stick de [[stat:er]].",
-                        "it": "In team [[element:aggravate]], può superare le prestazioni di **[[weapon:katsuragikiri-nagamasa]]**. Al di fuori di tali team, la sua unica utilità è fornire [[stat:er]]."
+                        "it": "In team [[element:aggravate]], può superare le prestazioni di **[[weapon:katsuragikiri-nagamasa]]**. Al di fuori di tali team, la sua unica utilità è fornire [[stat:er]].",
+                        "ru": " При использовании в командах от [[element:aggravate|Обострения]] полезнее **[[weapon:katsuragikiri-nagamasa|Кацурагикири нагамасы]]**. В остальных случаях нужен лишь как источник [[stat:er|Восстановления энергии]]."
                     }
                 }
             ]

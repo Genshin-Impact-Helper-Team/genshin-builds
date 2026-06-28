@@ -11,7 +11,8 @@
             "note": {
                 "en": "Only assumes higher priority than [[stat:cd]] when using **[[weapon:favonius-sword]]**.",
                 "fr": "Ne suppose une priorité plus élevée que [[stat:cd]] qu'avec **[[weapon:favonius-sword]]**.",
-                "it": "Ha priorità più alta di [[stat:cd]] solo quando utilizzi **[[weapon:favonius-sword]]**."
+                "it": "Ha priorità più alta di [[stat:cd]] solo quando utilizzi **[[weapon:favonius-sword]]**.",
+                "ru": "С **[[weapon:favonius-sword|Мечом Фавония]]** этот стат приоритетней [[stat:cd|Крит. урона]]."
             }
         },
         "cd",

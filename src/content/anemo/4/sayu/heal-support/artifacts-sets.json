@@ -10,7 +10,8 @@
                             "note": {
                                 "en": "The bread and butter artifact set for [[element:anemo]] units, this set provides the ability to shred the enemy's elemental resistance while also buffing [[character:sayu]]'s [[element:swirl]] damage output.",
                                 "fr": "Le set d'artéfacts de base pour les personnages [[element:anemo]], ce set permet de réduire la résistance élémentaire des ennemis tout en buffant les dégâts de [[element:swirl]] de [[character:sayu]].",
-                                "it": "Il set di manufatti fondamentale per i personaggi [[element:anemo]]: permette di ridurre la resistenza elementale dei nemici ed allo stesso tempo aumenta i danni da [[element:swirl]] di [[character:sayu]]."
+                                "it": "Il set di manufatti fondamentale per i personaggi [[element:anemo]]: permette di ridurre la resistenza elementale dei nemici ed allo stesso tempo aumenta i danni da [[element:swirl]] di [[character:sayu]].",
+                                "ru": "Рекомендуемый комплект для [[element:anemo]] персонажей, используется для снижения сопротивления к рассеянному элементу и повышения урона [[element:swirl|Рассеивания]] [[character:sayu]]. "
                             }
                         }
                     ]
@@ -55,7 +56,8 @@
                             "note": {
                                 "en": "This artifact set trades [[character:sayu]]'s utility in favor of stronger healing and some extra damage. It is generally not recommended to farm this set for [[character:sayu]] specifically.",
                                 "fr": "Ce set d'artéfacts échange les commodités de [[character:sayu]] contre des soins plus puissants et quelques dégâts supplémentaires. Il n'est généralement pas recommandé de farmer ce set spécifiquement pour [[character:sayu]].",
-                                "it": "Questo set sacrifica l’utilità di [[character:sayu]] in favore di cure più potenti e di un po’ di danno aggiuntivo. In generale, non è consigliato farmare questo set appositamente per [[character:sayu]]."
+                                "it": "Questo set sacrifica l’utilità di [[character:sayu]] in favore di cure più potenti e di un po’ di danno aggiuntivo. In generale, non è consigliato farmare questo set appositamente per [[character:sayu]].",
+                                "ru": "Даёт бонус лечения и доп.урон [[character:sayu]] взамен иных полезных усилений. Фармить этот сет специально для [[character:sayu]] не рекомендуется."
                             }
                         }
                     ]

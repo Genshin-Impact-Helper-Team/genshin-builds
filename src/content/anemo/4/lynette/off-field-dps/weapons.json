@@ -13,7 +13,8 @@
                     "note": {
                         "en": "Ideally you would want higher refinement levels as in [R3]+ so its cooldown aligns better with your rotation.",
                         "fr": "Idéalement, il vaut mieux avoir des raffinements élevés ([R3]+) pour que son TdR s'aligne mieux avec votre rotation.",
-                        "it": "Idealmente vorresti miglioramenti più elevati come **[R3]+**, in modo che il tempo di ricarica di quest'arma si allinei meglio con la tua rotazione."
+                        "it": "Idealmente vorresti miglioramenti più elevati come **[R3]+**, in modo che il tempo di ricarica di quest'arma si allinei meglio con la tua rotazione.",
+                        "ru": "Рекомендовано использовать на **[R3+]**, чтобы откат пассивной способности оружия лучше сочетался с ротацией отряда."
                     }
                 },
                 "amenoma-kageuchi",
@@ -27,7 +28,8 @@
                     "note": {
                         "en": "While this is her best buffing weapon it would be extremely difficult to meet her [[stat:er]] requirements without an [[stat:er]] weapon especially while primarily using her as an off-field unit.",
                         "fr": "Bien qu'il s'agisse de sa meilleure arme de buff, il serait extrêmement difficile d'atteindre ses besoins en [[stat:er]] sans arme [[stat:er]], surtout en l'utilisant principalement comme personnage off-field.",
-                        "it": "Sebbene questa sia la sua arma migliore di [[character:lynette]] per quanto riguarda i potenziamenti forniti, sarebbe estremamente difficile soddisfare i suoi requisiti di [[stat:er]] senza un'arma [[stat:er]], specialmente se la si utilizza principalmente come unità fuori campo."
+                        "it": "Sebbene questa sia la sua arma migliore di [[character:lynette]] per quanto riguarda i potenziamenti forniti, sarebbe estremamente difficile soddisfare i suoi requisiti di [[stat:er]] senza un'arma [[stat:er]], specialmente se la si utilizza principalmente come unità fuori campo.",
+                        "ru": "Дает больше всего бонусов отряду, но набор достаточного количества [[stat:er|Восстановления энергии]] с этим оружием может оказаться затруднительным, особенно если Линетт находится вне поля большую часть времени."
                     }
                 }
             ]

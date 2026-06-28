@@ -2,14 +2,16 @@
     "name": {
         "en": "Reaction DPS",
         "fr": "DPS Réaction",
-        "it": "DPS da Reazione"
+        "it": "DPS da Reazione",
+        "ru": "ДД от реакций"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:shikanoin-heizou]] does not get the same benefits from an [[stat:em]] build as other [[element:anemo]] users do. He still has to level his talents, and allocate substats into offensive substats such as attack and crit to equal [[element:anemo]] DPS. However it is notably better than [[element:anemo]] DPS build if used in [[element:electrocharged]] teams.",
             "fr": "[[character:shikanoin-heizou]] ne profite pas autant d'un build [[stat:em]] que les autres personnages [[element:anemo]]. Il doit tout de même monter ses talents et investir des substats offensives comme l'attaque et le crit pour égaler le DPS [[element:anemo]]. Cependant, ce build est nettement meilleur que le build DPS [[element:anemo]] s'il est utilisé dans les équipes [[element:electrocharged]].",
-            "it": "[[character:shikanoin-heizou]] non ottiene gli stessi benefici degli altri personaggi [[element:anemo]] da una build basata su [[stat:em]]. Devi comunque aumentare di livello i suoi Talenti ed ottenere stat secondarie offensive come [[stat:atk%]] e CRIT% per eguagliare la build da DPS [[element:anemo]]. Tuttavia, è notevolmente migliore rispetto a una build DPS [[element:anemo]] in team [[element:electrocharged]]."
+            "it": "[[character:shikanoin-heizou]] non ottiene gli stessi benefici degli altri personaggi [[element:anemo]] da una build basata su [[stat:em]]. Devi comunque aumentare di livello i suoi Talenti ed ottenere stat secondarie offensive come [[stat:atk%]] e CRIT% per eguagliare la build da DPS [[element:anemo]]. Tuttavia, è notevolmente migliore rispetto a una build DPS [[element:anemo]] in team [[element:electrocharged]].",
+            "ru": "[[stat:em|МС]]-билд не настолько же выгоден [[character:shikanoin-heizou]], как другим [[element:anemo]] персонажам. Для того, чтобы сравняться по урону с [[element:anemo]]-ДД сборкой, необходимо повышение уровня талантов, Сила атаки и Криты в сабстатах. Однако в отрядах, играющих через реакцию [[element:electrocharged]], МС-билд значительно превосходит [[element:anemo]]."
         }
     ],
     "weapons": [
