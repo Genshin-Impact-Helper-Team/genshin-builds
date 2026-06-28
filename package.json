@@ -1,27 +1,28 @@
 {
-  "name": "genshin-builds",
-  "type": "module",
-  "version": "0.0.1",
-  "engines": {
-    "node": ">=22.12.0"
-  },
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "download:artifact-assets": "node scripts/download-assets.mjs artifact",
-    "download:weapon-assets": "node scripts/download-assets.mjs weapon",
-    "project:plan": "node scripts/sync-build-project.mjs --print-plan",
-    "project:sync": "node scripts/sync-build-project.mjs"
-  },
-  "dependencies": {
-    "astro": "^6.3.1",
-    "marked": "^18.0.3"
-  },
-  "devDependencies": {
-    "@types/node": "^25.6.2",
-    "prettier": "^3.8.3",
-    "prettier-plugin-astro": "^0.14.1"
-  }
+    "name": "genshin-builds",
+    "type": "module",
+    "version": "0.0.1",
+    "engines": {
+        "node": ">=22.12.0"
+    },
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro",
+        "download:artifact-assets": "node scripts/download-assets.mjs artifact",
+        "download:weapon-assets": "node scripts/download-assets.mjs weapon",
+        "project:plan": "node scripts/sync-build-project.mjs --print-plan",
+        "project:sync": "node scripts/sync-build-project.mjs --dry-run",
+        "project:sync:apply": "node scripts/sync-build-project.mjs --apply"
+    },
+    "dependencies": {
+        "astro": "^6.3.1",
+        "marked": "^18.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "^25.6.2",
+        "prettier": "^3.8.3",
+        "prettier-plugin-astro": "^0.14.1"
+    }
 }

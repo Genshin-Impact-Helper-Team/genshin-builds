@@ -38,6 +38,9 @@ jobs:
           PROJECT_FIELD_NAME: Last Updated
           WEAPON_COUNT_FIELD_NAME: Weapon Count
           ARTIFACT_SET_COUNT_FIELD_NAME: Artifact Count
+          BEST_ROLE_FIELD_NAME: Best Role
+          CHARACTER_PRIORITY_FIELD_NAME: Character Priority
+          UPDATE_PRIORITY_FIELD_NAME: Update Priority
         run: >-
           node scripts/sync-build-project.mjs
-          ${{ inputs.dry_run && '--dry-run' || '' }}
+          ${{ inputs.dry_run && '--dry-run' || '--apply' }}

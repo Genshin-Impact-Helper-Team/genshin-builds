@@ -10,6 +10,14 @@ const RELEASE_AUDIT_START =
   '<!-- genshin-build-project-sync:release-audit:start -->';
 const RELEASE_AUDIT_END =
   '<!-- genshin-build-project-sync:release-audit:end -->';
+const BUILD_MARKER_PREFIX = '<!-- genshin-build-project-sync:build:';
+const CHARACTER_PRIORITY_SCORES = new Map([
+  ['very low', 0],
+  ['low', 0.25],
+  ['normal', 0.5],
+  ['high', 0.75],
+  ['very high', 1],
+]);
 
 const sleep = (milliseconds) =>
   new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -32,12 +40,55 @@ function issueNodeId(issue) {
   return issue.node_id ?? issue.id;
 }
 
+function isSameIssue(left, right) {
+  return Boolean(left && right && issueNodeId(left) === issueNodeId(right));
+}
+
+export function uniqueOtherIssues(issue, candidates) {
+  return [
+    ...new Map(
+      candidates
+        .filter((candidate) => candidate && !isSameIssue(candidate, issue))
+        .map((candidate) => [issueNodeId(candidate), candidate]),
+    ).values(),
+  ];
+}
+
+export function staleBuildIssues(
+  issuesByMarker,
+  activeMarkers,
+  activeIssueIds,
+) {
+  return [...issuesByMarker]
+    .filter(
+      ([marker, issue]) =>
+        marker.startsWith(BUILD_MARKER_PREFIX) &&
+        !activeMarkers.has(marker) &&
+        !activeIssueIds.has(issueNodeId(issue)),
+    )
+    .map(([, issue]) => issue);
+}
+
 function issueLabel(issue) {
   return `${issue.title} (#${issue.number})`;
 }
 
+function hasIssueLabel(issue, labelName) {
+  return (issue.labels ?? []).some((label) => {
+    const currentName = typeof label === 'string' ? label : label.name;
+    return (
+      typeof currentName === 'string' &&
+      titleKey(currentName) === titleKey(labelName)
+    );
+  });
+}
+
 function parentTitle(character, element) {
   return character === 'traveler' ? `${element}-traveler` : character;
+}
+
+function buildIssueTitle(characterName, buildName) {
+  return `${characterName} - ${buildName}`;
 }
 
 function automationMarker(kind, sourcePath) {
@@ -69,6 +120,59 @@ function compareGameVersions(left, right) {
   const [rightMajor, rightMinor] = parseGameVersion(right, 'Version');
 
   return leftMajor - rightMajor || leftMinor - rightMinor;
+}
+
+function gameVersionIndex(value, context) {
+  const [major, minor] = parseGameVersion(value, context);
+  return major * 10 + minor;
+}
+
+export function rankBuilds(builds, currentVersion) {
+  const currentVersionIndex = gameVersionIndex(
+    currentVersion,
+    'Current game version',
+  );
+  const scored = builds.map((build) => {
+    const characterPriority = titleKey(build.characterPriority ?? 'normal');
+    const characterScore = CHARACTER_PRIORITY_SCORES.get(characterPriority);
+
+    if (characterScore === undefined) {
+      throw new Error(
+        `${build.title} has unsupported character priority ${JSON.stringify(build.characterPriority)}.`,
+      );
+    }
+
+    return {
+      ...build,
+      characterScore,
+      age: Math.max(
+        0,
+        currentVersionIndex -
+          gameVersionIndex(build.lastUpdated, `${build.title} last_updated`),
+      ),
+    };
+  });
+  const maximum = (property) =>
+    Math.max(1, ...scored.map((build) => build[property]));
+  const maxAge = maximum('age');
+  const maxWeapons = maximum('weaponCount');
+  const maxArtifactSets = maximum('artifactSetCount');
+
+  return scored
+    .map((build) => ({
+      ...build,
+      score:
+        build.characterScore * 0.4 +
+        Number(build.bestRole) * 0.2 +
+        (build.age / maxAge) * 0.3 +
+        (build.weaponCount / maxWeapons) * 0.05 +
+        (build.artifactSetCount / maxArtifactSets) * 0.05,
+    }))
+    .sort(
+      (left, right) =>
+        right.score - left.score || left.title.localeCompare(right.title),
+    )
+    .map((build, index) => ({ ...build, updatePriority: index + 1 }));
 }
 
 function collectKnownIds(value, knownIds, result = new Set()) {
@@ -184,6 +288,23 @@ export function loadReleaseCatalog(rootDirectory = process.cwd()) {
   };
 }
 
+export function latestReleaseVersion(catalog) {
+  const releases = [
+    ...catalog.artifactSets,
+    ...[...catalog.weaponsByType.values()].flat(),
+  ];
+
+  if (releases.length === 0) {
+    throw new Error('The release catalog is empty.');
+  }
+
+  return releases.reduce(
+    (latest, item) =>
+      compareGameVersions(item.version, latest) > 0 ? item.version : latest,
+    releases[0].version,
+  );
+}
+
 function sortReleaseItems(items) {
   return items.sort(
     (left, right) =>
@@ -285,11 +406,10 @@ export function renderReleaseAudit(audit) {
 export function buildIssueBody(currentBody, buildMarker, audit) {
   let body = String(currentBody ?? '')
     .replaceAll('\r\n', '\n')
+    .replace(/<!-- genshin-build-project-sync:build:[^>]+ -->\n*/g, '')
     .trim();
 
-  if (!body.includes(buildMarker)) {
-    body = [buildMarker, body].filter(Boolean).join('\n\n');
-  }
+  body = [buildMarker, body].filter(Boolean).join('\n\n');
 
   const section = renderReleaseAudit(audit);
   const startIndex = body.indexOf(RELEASE_AUDIT_START);
@@ -371,10 +491,19 @@ export function loadBuildInventory(contentDirectory) {
         const builds = fs
           .readdirSync(characterDirectory, { withFileTypes: true })
           .filter((entry) => entry.isDirectory())
-          .map((entry) => ({
-            name: entry.name,
-            sourcePath: `${sourcePath}/${entry.name}`,
-          }))
+          .map((entry) => {
+            const buildPath = path.join(characterDirectory, entry.name);
+            const buildNotesPath = path.join(buildPath, 'build-notes.json');
+            const buildNotes = fs.existsSync(buildNotesPath)
+              ? readJsonFile(buildNotesPath)
+              : {};
+
+            return {
+              name: entry.name,
+              sourcePath: `${sourcePath}/${entry.name}`,
+              bestRole: buildNotes.best === true,
+            };
+          })
           .sort((left, right) => left.name.localeCompare(right.name));
 
         characters.push({
@@ -562,12 +691,12 @@ async function addIssueLabel(client, repository, issueNumber, labelName) {
   });
 }
 
-async function updateIssueBody(client, repository, issueNumber, body) {
+async function updateIssue(client, repository, issueNumber, changes) {
   const { payload } = await client.request(
     `/repos/${repository}/issues/${issueNumber}`,
     {
       method: 'PATCH',
-      body: { body },
+      body: changes,
       mutation: true,
     },
   );
@@ -575,14 +704,30 @@ async function updateIssueBody(client, repository, issueNumber, body) {
   return payload;
 }
 
-async function addSubIssue(client, repository, parentNumber, subIssueId) {
+async function removeSubIssue(client, repository, parentNumber, subIssueId) {
   await client.request(
-    `/repos/${repository}/issues/${parentNumber}/sub_issues`,
+    `/repos/${repository}/issues/${parentNumber}/sub_issue`,
     {
-      method: 'POST',
+      method: 'DELETE',
       body: { sub_issue_id: subIssueId },
       mutation: true,
     },
+  );
+}
+
+async function deleteIssue(client, issueId) {
+  await client.graphql(
+    `
+      mutation DeleteIssue($issueId: ID!) {
+        deleteIssue(input: { issueId: $issueId }) {
+          repository {
+            id
+          }
+        }
+      }
+    `,
+    { issueId },
+    { mutation: true },
   );
 }
 
@@ -608,6 +753,10 @@ async function loadProject(client, owner, projectNumber) {
                 ... on ProjectV2SingleSelectField {
                   id
                   name
+                  options {
+                    id
+                    name
+                  }
                 }
               }
               pageInfo {
@@ -656,6 +805,51 @@ async function createProjectField(client, projectId, fieldName, dataType) {
   return data.createProjectV2Field.projectV2Field;
 }
 
+async function createBestRoleField(client, projectId, fieldName) {
+  // ponytail: Projects has no boolean field type; a true/false single-select
+  // is the native filterable equivalent.
+  const { data } = await client.graphql(
+    `
+      mutation CreateBestRoleField($projectId: ID!, $name: String!) {
+        createProjectV2Field(
+          input: {
+            projectId: $projectId
+            dataType: SINGLE_SELECT
+            name: $name
+            singleSelectOptions: [
+              {
+                name: "true"
+                color: GREEN
+                description: "Build notes mark this as a best role"
+              }
+              {
+                name: "false"
+                color: GRAY
+                description: "Build notes do not mark this as a best role"
+              }
+            ]
+          }
+        ) {
+          projectV2Field {
+            ... on ProjectV2SingleSelectField {
+              id
+              name
+              options {
+                id
+                name
+              }
+            }
+          }
+        }
+      }
+    `,
+    { projectId, name: fieldName },
+    { mutation: true },
+  );
+
+  return data.createProjectV2Field.projectV2Field;
+}
+
 async function listProjectItems(client, projectId, fieldNames) {
   const items = [];
   let after = null;
@@ -668,6 +862,9 @@ async function listProjectItems(client, projectId, fieldNames) {
           $lastUpdatedFieldName: String!
           $weaponCountFieldName: String!
           $artifactSetCountFieldName: String!
+          $bestRoleFieldName: String!
+          $characterPriorityFieldName: String!
+          $updatePriorityFieldName: String!
           $after: String
         ) {
           node(id: $projectId) {
@@ -707,6 +904,29 @@ async function listProjectItems(client, projectId, fieldNames) {
                       number
                     }
                   }
+                  bestRoleValue: fieldValueByName(
+                    name: $bestRoleFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldSingleSelectValue {
+                      optionId
+                      name
+                    }
+                  }
+                  characterPriorityValue: fieldValueByName(
+                    name: $characterPriorityFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldSingleSelectValue {
+                      optionId
+                      name
+                    }
+                  }
+                  updatePriorityValue: fieldValueByName(
+                    name: $updatePriorityFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldNumberValue {
+                      number
+                    }
+                  }
                 }
                 pageInfo {
                   hasNextPage
@@ -722,6 +942,9 @@ async function listProjectItems(client, projectId, fieldNames) {
         lastUpdatedFieldName: fieldNames.lastUpdated,
         weaponCountFieldName: fieldNames.weaponCount,
         artifactSetCountFieldName: fieldNames.artifactSetCount,
+        bestRoleFieldName: fieldNames.bestRole,
+        characterPriorityFieldName: fieldNames.characterPriority,
+        updatePriorityFieldName: fieldNames.updatePriority,
         after,
       },
     );
@@ -816,6 +1039,40 @@ async function updateNumberField(client, projectId, itemId, fieldId, value) {
   );
 }
 
+async function updateSingleSelectField(
+  client,
+  projectId,
+  itemId,
+  fieldId,
+  optionId,
+) {
+  await client.graphql(
+    `
+      mutation UpdateSingleSelectField(
+        $projectId: ID!
+        $itemId: ID!
+        $fieldId: ID!
+        $optionId: String!
+      ) {
+        updateProjectV2ItemFieldValue(
+          input: {
+            projectId: $projectId
+            itemId: $itemId
+            fieldId: $fieldId
+            value: { singleSelectOptionId: $optionId }
+          }
+        ) {
+          projectV2Item {
+            id
+          }
+        }
+      }
+    `,
+    { projectId, itemId, fieldId, optionId },
+    { mutation: true },
+  );
+}
+
 function chooseIssue(candidates, description) {
   if (!candidates?.length) {
     return null;
@@ -891,24 +1148,61 @@ export async function synchronize({
   fieldName,
   weaponCountFieldName,
   artifactSetCountFieldName,
+  bestRoleFieldName,
+  characterPriorityFieldName,
+  updatePriorityFieldName,
+  currentVersion,
   labelName,
   dryRun,
 }) {
   const stats = {
     issuesCreated: 0,
+    issuesRenamed: 0,
+    issuesDeleted: 0,
     issueBodiesUpdated: 0,
     labelsAdded: 0,
-    subIssueRelationshipsAdded: 0,
+    subIssueRelationshipsRemoved: 0,
     projectItemsAdded: 0,
     fieldValuesUpdated: 0,
     unchangedFieldValues: 0,
     plannedChanges: 0,
   };
   const project = await loadProject(client, projectOwner, projectNumber);
+  const expectedPriorityOptions = [...CHARACTER_PRIORITY_SCORES.keys()];
+  const supportsCharacterPriorities = (field) => {
+    const options = new Set(
+      (field?.options ?? []).map((option) => titleKey(option.name)),
+    );
+    return expectedPriorityOptions.every((name) => options.has(name));
+  };
+  let characterPriorityField = project.fields.nodes.find(
+    (field) =>
+      typeof field?.name === 'string' &&
+      titleKey(field.name) === titleKey(characterPriorityFieldName),
+  );
+
+  if (!characterPriorityField) {
+    const compatibleFields = project.fields.nodes.filter(
+      supportsCharacterPriorities,
+    );
+    if (compatibleFields.length === 1) {
+      [characterPriorityField] = compatibleFields;
+    }
+  }
+
+  if (!supportsCharacterPriorities(characterPriorityField)) {
+    throw new Error(
+      `Project field "${characterPriorityFieldName}" must be a single-select with Very low, Low, Normal, High, and Very high options.`,
+    );
+  }
+
   const requestedFieldNames = [
     fieldName,
     weaponCountFieldName,
     artifactSetCountFieldName,
+    bestRoleFieldName,
+    characterPriorityField.name,
+    updatePriorityFieldName,
   ];
 
   if (
@@ -967,6 +1261,58 @@ export async function synchronize({
     artifactSetCountFieldName,
     'NUMBER',
   );
+  const updatePriorityField = await ensureProjectField(
+    updatePriorityFieldName,
+    'NUMBER',
+  );
+  let bestRoleField = project.fields.nodes.find(
+    (candidate) =>
+      candidate &&
+      typeof candidate.name === 'string' &&
+      titleKey(candidate.name) === titleKey(bestRoleFieldName),
+  );
+
+  if (bestRoleField && !Array.isArray(bestRoleField.options)) {
+    throw new Error(
+      `Project field "${bestRoleField.name}" must be a single-select field.`,
+    );
+  }
+
+  if (!bestRoleField) {
+    if (dryRun) {
+      console.log(
+        `[dry-run] Create single-select project field "${bestRoleFieldName}" with true/false options.`,
+      );
+      stats.plannedChanges += 1;
+      bestRoleField = {
+        id: null,
+        name: bestRoleFieldName,
+        options: [
+          { id: null, name: 'true' },
+          { id: null, name: 'false' },
+        ],
+      };
+    } else {
+      bestRoleField = await createBestRoleField(
+        client,
+        project.id,
+        bestRoleFieldName,
+      );
+      console.log(
+        `Created single-select project field "${bestRoleFieldName}".`,
+      );
+    }
+  }
+
+  const bestRoleOptions = new Map(
+    bestRoleField.options.map((option) => [titleKey(option.name), option]),
+  );
+
+  if (!bestRoleOptions.has('true') || !bestRoleOptions.has('false')) {
+    throw new Error(
+      `Project field "${bestRoleField.name}" must contain true and false options.`,
+    );
+  }
 
   const [repositoryIssues, projectItems] = await Promise.all([
     listRepositoryIssues(client, repository),
@@ -974,6 +1320,9 @@ export async function synchronize({
       lastUpdated: fieldName,
       weaponCount: weaponCountFieldName,
       artifactSetCount: artifactSetCountFieldName,
+      bestRole: bestRoleFieldName,
+      characterPriority: characterPriorityField.name,
+      updatePriority: updatePriorityFieldName,
     }),
   ]);
   const issuesByTitle = groupIssuesByTitle(repositoryIssues);
@@ -985,16 +1334,7 @@ export async function synchronize({
   );
 
   const ensureIssueLabel = async (issue) => {
-    const hasLabel = (issue.labels ?? []).some((label) => {
-      const currentName = typeof label === 'string' ? label : label.name;
-
-      return (
-        typeof currentName === 'string' &&
-        titleKey(currentName) === titleKey(labelName)
-      );
-    });
-
-    if (hasLabel) {
+    if (hasIssueLabel(issue, labelName)) {
       return;
     }
 
@@ -1012,33 +1352,33 @@ export async function synchronize({
     console.log(`Added label "${labelName}" to ${issueLabel(issue)}.`);
   };
 
-  const ensureBuildIssueBody = async (issue, buildMarker, audit) => {
+  const ensureBuildIssue = async (issue, desiredTitle, buildMarker, audit) => {
     const currentBody = String(issue.body ?? '').replaceAll('\r\n', '\n');
     const desiredBody = buildIssueBody(currentBody, buildMarker, audit);
+    const titleChanged = issue.title !== desiredTitle;
+    const bodyChanged = currentBody.trim() !== desiredBody;
 
-    if (currentBody.trim() === desiredBody) {
+    if (!titleChanged && !bodyChanged) {
       return;
     }
 
     if (dryRun) {
       console.log(
-        `[dry-run] Update ${issueLabel(issue)} body with ${audit.weapons.length} newer weapon(s) and ${audit.artifactSets.length} newer artifact set(s).`,
+        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? ` body with ${audit.weapons.length} newer weapon(s) and ${audit.artifactSets.length} newer artifact set(s)` : ''}.`,
       );
       stats.plannedChanges += 1;
       return;
     }
 
-    const updatedIssue = await updateIssueBody(
-      client,
-      repository,
-      issue.number,
-      desiredBody,
-    );
+    const updatedIssue = await updateIssue(client, repository, issue.number, {
+      ...(titleChanged ? { title: desiredTitle } : {}),
+      ...(bodyChanged ? { body: desiredBody } : {}),
+    });
+    issue.title = updatedIssue.title ?? desiredTitle;
     issue.body = updatedIssue.body ?? desiredBody;
-    stats.issueBodiesUpdated += 1;
-    console.log(
-      `Updated ${issueLabel(issue)} body with ${audit.weapons.length} newer weapon(s) and ${audit.artifactSets.length} newer artifact set(s).`,
-    );
+    stats.issuesRenamed += Number(titleChanged);
+    stats.issueBodiesUpdated += Number(bodyChanged);
+    console.log(`Updated ${issueLabel(issue)}.`);
   };
 
   const ensureProjectItem = async (issue) => {
@@ -1058,6 +1398,9 @@ export async function synchronize({
         lastUpdatedValue: null,
         weaponCountValue: null,
         artifactSetCountValue: null,
+        bestRoleValue: null,
+        characterPriorityValue: null,
+        updatePriorityValue: null,
       };
     }
 
@@ -1066,6 +1409,9 @@ export async function synchronize({
     item.lastUpdatedValue = null;
     item.weaponCountValue = null;
     item.artifactSetCountValue = null;
+    item.bestRoleValue = null;
+    item.characterPriorityValue = null;
+    item.updatePriorityValue = null;
     projectItemsByContentId.set(contentId, item);
     stats.projectItemsAdded += 1;
     console.log(`Added ${issueLabel(issue)} to project.`);
@@ -1138,142 +1484,232 @@ export async function synchronize({
     );
   };
 
+  const ensureBestRoleValue = async (issue, item, value) => {
+    const desiredName = String(value);
+    const option = bestRoleOptions.get(desiredName);
+    const currentName = item?.bestRoleValue?.name ?? null;
+
+    if (titleKey(currentName ?? '') === desiredName) {
+      stats.unchangedFieldValues += 1;
+      return;
+    }
+
+    if (dryRun) {
+      console.log(
+        `[dry-run] Set ${issueLabel(issue)} field "${bestRoleField.name}" from ${JSON.stringify(currentName)} to "${desiredName}".`,
+      );
+      stats.plannedChanges += 1;
+      return;
+    }
+
+    await updateSingleSelectField(
+      client,
+      project.id,
+      item.id,
+      bestRoleField.id,
+      option.id,
+    );
+    item.bestRoleValue = { optionId: option.id, name: desiredName };
+    stats.fieldValuesUpdated += 1;
+    console.log(
+      `Set ${issueLabel(issue)} field "${bestRoleField.name}" to "${desiredName}".`,
+    );
+  };
+
+  const detachedIssueIds = new Set();
+  const deletedIssueIds = new Set();
+  const activeBuildMarkers = new Set();
+  const activeBuildIssueIds = new Set();
+  const synchronizedBuilds = [];
+
+  const detachIssue = async (parentIssue, subIssue) => {
+    if (detachedIssueIds.has(subIssue.id)) return;
+
+    if (dryRun) {
+      console.log(
+        `[dry-run] Detach ${issueLabel(subIssue)} from ${issueLabel(parentIssue)}.`,
+      );
+      stats.plannedChanges += 1;
+    } else {
+      await removeSubIssue(client, repository, parentIssue.number, subIssue.id);
+      stats.subIssueRelationshipsRemoved += 1;
+      console.log(
+        `Detached ${issueLabel(subIssue)} from ${issueLabel(parentIssue)}.`,
+      );
+    }
+
+    detachedIssueIds.add(subIssue.id);
+  };
+
+  const deleteManagedIssue = async (issue) => {
+    const nodeId = issueNodeId(issue);
+    if (deletedIssueIds.has(nodeId)) return;
+
+    if (dryRun) {
+      console.log(`[dry-run] Delete ${issueLabel(issue)}.`);
+      stats.plannedChanges += 1;
+    } else {
+      await deleteIssue(client, nodeId);
+      stats.issuesDeleted += 1;
+      console.log(`Deleted ${issueLabel(issue)}.`);
+    }
+
+    deletedIssueIds.add(nodeId);
+  };
+
   for (const character of inventory) {
     const parentMarker = automationMarker('parent', character.sourcePath);
-    let parentIssue = chooseIssue(
-      issuesByTitle.get(titleKey(character.name)),
-      `parent title "${character.name}"`,
-    );
-
-    if (!parentIssue) {
-      parentIssue = issuesByMarker.get(parentMarker) ?? null;
-    }
-
-    if (!parentIssue) {
-      if (dryRun) {
-        console.log(
-          `[dry-run] Create parent issue "${character.name}" with label "${labelName}".`,
-        );
-        console.log(
-          `[dry-run] Add the new parent issue "${character.name}" to the project.`,
-        );
-        stats.plannedChanges += 2;
-      } else {
-        parentIssue = await createIssue(
-          client,
-          repository,
-          character.name,
-          parentMarker,
-          labelName,
-        );
-        repositoryIssues.push(parentIssue);
-        issuesByTitle.set(titleKey(character.name), [parentIssue]);
-        issuesByMarker.set(parentMarker, parentIssue);
-        stats.issuesCreated += 1;
-        stats.labelsAdded += 1;
-        console.log(`Created parent issue ${issueLabel(parentIssue)}.`);
-      }
-    }
-
-    if (!parentIssue) {
-      for (const build of character.builds) {
-        console.log(
-          `[dry-run] Create sub-issue "${build.name}" with label "${labelName}" and a release audit containing ${build.releaseAudit.weapons.length} weapon(s) and ${build.releaseAudit.artifactSets.length} artifact set(s), attach it to "${character.name}", add it to the project, and set its three synchronized fields.`,
-        );
-        stats.plannedChanges += 6;
-      }
-      continue;
-    }
-
-    await ensureIssueLabel(parentIssue);
-    await ensureProjectItem(parentIssue);
-    const subIssues = await listSubIssues(
-      client,
-      repository,
-      parentIssue.number,
-    );
+    const parentIssue =
+      issuesByMarker.get(parentMarker) ??
+      chooseIssue(
+        (issuesByTitle.get(titleKey(character.name)) ?? []).filter((issue) =>
+          hasIssueLabel(issue, labelName),
+        ),
+        `managed character title "${character.name}"`,
+      );
+    const subIssues = parentIssue
+      ? await listSubIssues(client, repository, parentIssue.number)
+      : [];
     const subIssuesByTitle = groupIssuesByTitle(subIssues);
+    const parentSubIssueIds = new Set(subIssues.map((issue) => issue.id));
 
     for (const build of character.builds) {
+      const desiredTitle = buildIssueTitle(character.name, build.name);
       const buildMarker = automationMarker('build', build.sourcePath);
-      let subIssue = chooseIssue(
+      activeBuildMarkers.add(buildMarker);
+      const markerIssue = issuesByMarker.get(buildMarker) ?? null;
+      const legacySubIssue = chooseIssue(
         subIssuesByTitle.get(titleKey(build.name)),
-        `sub-issue title "${build.name}" under "${character.name}"`,
+        `legacy sub-issue title "${build.name}" under "${character.name}"`,
       );
-      let needsRelationship = false;
+      let buildIssue =
+        chooseIssue(
+          issuesByTitle.get(titleKey(desiredTitle)),
+          `build title "${desiredTitle}"`,
+        ) ??
+        markerIssue ??
+        legacySubIssue;
 
-      if (!subIssue) {
-        subIssue = issuesByMarker.get(buildMarker) ?? null;
-        needsRelationship = Boolean(subIssue);
-      }
+      const duplicates = uniqueOtherIssues(buildIssue, [
+        markerIssue,
+        legacySubIssue,
+      ]);
 
-      if (!subIssue) {
-        if (dryRun) {
-          console.log(
-            `[dry-run] Create sub-issue "${build.name}" with label "${labelName}" and a release audit containing ${build.releaseAudit.weapons.length} weapon(s) and ${build.releaseAudit.artifactSets.length} artifact set(s) under "${character.name}".`,
-          );
-          stats.plannedChanges += 2;
-          console.log(
-            `[dry-run] Add the new sub-issue to the project and set "${fieldName}" to ${JSON.stringify(character.lastUpdated)}, "${weaponCountFieldName}" to ${build.releaseAudit.weapons.length}, and "${artifactSetCountFieldName}" to ${build.releaseAudit.artifactSets.length}.`,
-          );
-          stats.plannedChanges += 4;
-          continue;
+      for (const duplicate of duplicates) {
+        if (parentIssue && parentSubIssueIds.has(duplicate.id)) {
+          await detachIssue(parentIssue, duplicate);
         }
-
-        subIssue = await createIssue(
-          client,
-          repository,
-          build.name,
-          buildIssueBody('', buildMarker, build.releaseAudit),
-          labelName,
-        );
-        repositoryIssues.push(subIssue);
-        issuesByMarker.set(buildMarker, subIssue);
-        stats.issuesCreated += 1;
-        stats.labelsAdded += 1;
-        needsRelationship = true;
-        console.log(`Created build issue ${issueLabel(subIssue)}.`);
+        await deleteManagedIssue(duplicate);
       }
 
-      if (needsRelationship) {
+      if (!buildIssue) {
         if (dryRun) {
           console.log(
-            `[dry-run] Attach ${issueLabel(subIssue)} to parent ${issueLabel(parentIssue)}.`,
+            `[dry-run] Create standalone issue "${desiredTitle}" with label "${labelName}" and its release audit.`,
           );
           stats.plannedChanges += 1;
+          buildIssue = {
+            id: `dry-run:${build.sourcePath}`,
+            node_id: `dry-run:${build.sourcePath}`,
+            number: 'new',
+            title: desiredTitle,
+            body: buildIssueBody('', buildMarker, build.releaseAudit),
+            labels: [{ name: labelName }],
+          };
         } else {
-          await addSubIssue(
+          buildIssue = await createIssue(
             client,
             repository,
-            parentIssue.number,
-            subIssue.id,
+            desiredTitle,
+            buildIssueBody('', buildMarker, build.releaseAudit),
+            labelName,
           );
-          stats.subIssueRelationshipsAdded += 1;
+          repositoryIssues.push(buildIssue);
+          issuesByTitle.set(titleKey(desiredTitle), [buildIssue]);
+          issuesByMarker.set(buildMarker, buildIssue);
+          stats.issuesCreated += 1;
+          stats.labelsAdded += 1;
           console.log(
-            `Attached ${issueLabel(subIssue)} to parent ${issueLabel(parentIssue)}.`,
+            `Created standalone build issue ${issueLabel(buildIssue)}.`,
           );
         }
       }
 
-      await ensureBuildIssueBody(subIssue, buildMarker, build.releaseAudit);
-      await ensureIssueLabel(subIssue);
-      const item = await ensureProjectItem(subIssue);
-      await ensureTextFieldValue(subIssue, item, character.lastUpdated);
+      if (parentIssue && parentSubIssueIds.has(buildIssue.id)) {
+        await detachIssue(parentIssue, buildIssue);
+      }
+
+      activeBuildIssueIds.add(issueNodeId(buildIssue));
+      await ensureBuildIssue(
+        buildIssue,
+        desiredTitle,
+        buildMarker,
+        build.releaseAudit,
+      );
+      await ensureIssueLabel(buildIssue);
+      const item = await ensureProjectItem(buildIssue);
+      await ensureTextFieldValue(buildIssue, item, character.lastUpdated);
       await ensureNumberFieldValue(
-        subIssue,
+        buildIssue,
         item,
         weaponCountField,
         'weaponCountValue',
         build.releaseAudit.weapons.length,
       );
       await ensureNumberFieldValue(
-        subIssue,
+        buildIssue,
         item,
         artifactSetCountField,
         'artifactSetCountValue',
         build.releaseAudit.artifactSets.length,
       );
+      await ensureBestRoleValue(buildIssue, item, build.bestRole);
+      const characterPriority = item.characterPriorityValue?.name ?? 'normal';
+
+      if (!item.characterPriorityValue?.name) {
+        console.warn(
+          `${issueLabel(buildIssue)} has no "${characterPriorityField.name}" value; ranking it as Normal.`,
+        );
+      }
+
+      synchronizedBuilds.push({
+        issue: buildIssue,
+        item,
+        title: desiredTitle,
+        characterPriority,
+        bestRole: build.bestRole,
+        lastUpdated: character.lastUpdated,
+        weaponCount: build.releaseAudit.weapons.length,
+        artifactSetCount: build.releaseAudit.artifactSets.length,
+      });
     }
+
+    if (parentIssue) {
+      for (const subIssue of subIssues) {
+        if (!deletedIssueIds.has(issueNodeId(subIssue))) {
+          await detachIssue(parentIssue, subIssue);
+        }
+      }
+      await deleteManagedIssue(parentIssue);
+    }
+  }
+
+  for (const staleIssue of staleBuildIssues(
+    issuesByMarker,
+    activeBuildMarkers,
+    activeBuildIssueIds,
+  )) {
+    await deleteManagedIssue(staleIssue);
+  }
+
+  for (const build of rankBuilds(synchronizedBuilds, currentVersion)) {
+    await ensureNumberFieldValue(
+      build.issue,
+      build.item,
+      updatePriorityField,
+      'updatePriorityValue',
+      build.updatePriority,
+    );
   }
 
   console.log(
@@ -1285,7 +1721,7 @@ export async function synchronize({
 
 async function main() {
   const argumentsSet = new Set(process.argv.slice(2));
-  const knownArguments = new Set(['--dry-run', '--print-plan']);
+  const knownArguments = new Set(['--dry-run', '--apply', '--print-plan']);
   const unknownArguments = [...argumentsSet].filter(
     (argument) => !knownArguments.has(argument),
   );
@@ -1294,9 +1730,10 @@ async function main() {
     throw new Error(`Unknown options: ${unknownArguments.join(', ')}`);
   }
 
+  const catalog = loadReleaseCatalog(process.cwd());
   const inventory = addReleaseAudits(
     loadBuildInventory(path.join(process.cwd(), 'src', 'content')),
-    loadReleaseCatalog(process.cwd()),
+    catalog,
   );
 
   if (argumentsSet.has('--print-plan')) {
@@ -1304,8 +1741,15 @@ async function main() {
     return;
   }
 
-  const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
+  const dryRun = argumentsSet.has('--dry-run');
+  const apply = argumentsSet.has('--apply');
 
+  if (dryRun === apply) {
+    throw new Error('Pass exactly one of --dry-run or --apply.');
+  }
+
+  const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
+  
   if (!token) {
     throw new Error(
       'GH_TOKEN is required. Use --print-plan to inspect local data without GitHub access.',
@@ -1342,8 +1786,14 @@ async function main() {
     weaponCountFieldName: process.env.WEAPON_COUNT_FIELD_NAME ?? 'Weapon Count',
     artifactSetCountFieldName:
       process.env.ARTIFACT_SET_COUNT_FIELD_NAME ?? 'Artifact Count',
+    bestRoleFieldName: process.env.BEST_ROLE_FIELD_NAME ?? 'Best Role',
+    characterPriorityFieldName:
+      process.env.CHARACTER_PRIORITY_FIELD_NAME ?? 'Character Priority',
+    updatePriorityFieldName:
+      process.env.UPDATE_PRIORITY_FIELD_NAME ?? 'Update Priority',
+    currentVersion: latestReleaseVersion(catalog),
     labelName: 'Auto Sync',
-    dryRun: argumentsSet.has('--dry-run'),
+    dryRun,
   });
 }
 
