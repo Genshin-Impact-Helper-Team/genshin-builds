@@ -16,7 +16,7 @@
             "en": "- **[[set:desert-pavilion-chronicle]] and Signature Weapon Rotation**: {rot:(Q) E CA (N3 repeat)}",
             "fr": "- **Rotation [[set:desert-pavilion-chronicle]] et arme signature**: {rot:(Q) E CA (N3 repeat)}",
             "it": "- **Combo con [[weapon:tulaytullahs-remembrance]] e [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N3}",
-            "ru": "- **Ротация с сигнатурным оружием и [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (N3 repeat)}"
+            "ru": "- **Ротация с сигнатурным оружием и [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N3)}"
         },
         {
             "en": "- **Signature Weapon Rotation (non [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
