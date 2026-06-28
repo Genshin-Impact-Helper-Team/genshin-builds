@@ -22,7 +22,8 @@
                     "note": {
                         "en": "At **[R1]**, this weapon usually performs worse than **[[weapon:favonius-sword]]** due to providing less effective energy to the team. At higher refinements, this weapon can rival **[[weapon:freedom-sworn]]** in terms of value due to how much [[stat:er]] it provides to [[character:kaedehara-kazuha]] and the team.",
                         "fr": "En **[R1]**, cette arme est généralement moins bonne que **[[weapon:favonius-sword]]**, car elle apporte moins d'énergie à l'équipe. À raffinements plus élevés, cette arme peut rivaliser avec **[[weapon:freedom-sworn]]** en termes de valeur grâce à la quantité de [[stat:er]] qu'elle apporte à [[character:kaedehara-kazuha]] et à l'équipe.",
-                        "it": "A **[R1]**, quest'arma ha solitamente prestazioni peggiori di **[[weapon:favonius-sword]]**, che fornisce più Energia effettiva al team. A miglioramenti più alti, quest'arma può raggiungere le prestazioni di **[[weapon:freedom-sworn]]** grazie alla quantità di [[stat:er]] fornita a [[character:kaedehara-kazuha]] ed al team."
+                        "it": "A **[R1]**, quest'arma ha solitamente prestazioni peggiori di **[[weapon:favonius-sword]]**, che fornisce più Energia effettiva al team. A miglioramenti più alti, quest'arma può raggiungere le prestazioni di **[[weapon:freedom-sworn]]** grazie alla quantità di [[stat:er]] fornita a [[character:kaedehara-kazuha]] ed al team.",
+                        "ru": "На **[R1]** обычно уступает **[[weapon:favonius-sword|Мечу Фавония]]** (даёт отряду меньше энергии). На более высоких рангах может соответствовать **[[weapon:freedom-sworn|Клятве свободы]]** за счёт [[stat:er|ВЭ]] для [[character:kaedehara-kazuha|Кадзухи]] и отряда."
                     }
                 }
             ]
@@ -34,7 +35,8 @@
                     "note": {
                         "en": "This weapon is mainly used for the [[stat:er]] it provides. The [[ability:skill]] reset should not be used unless the **extra grouping** is needed.",
                         "fr": "Cette arme est surtout utilisée pour la [[stat:er]] qu'elle apporte. Le reset de [[ability:skill]] ne devrait pas être utilisé sauf si le **regroupement** supplémentaire est nécessaire.",
-                        "it": "Quest'arma è usata principalmente per la [[stat:er]] che fornisce. L'[[ability:skill]] non dovrebbe essere utilizzata due volte a meno che non sia necessaria per **raggruppare i nemici**."
+                        "it": "Quest'arma è usata principalmente per la [[stat:er]] che fornisce. L'[[ability:skill]] non dovrebbe essere utilizzata due volte a meno che non sia necessaria per **raggruppare i nemici**.",
+                        "ru": "Зачастую нужен только за счёт [[stat:er|Восстановления энергии]] в сабстате. Как правило, дополнительный навык от [[ability:skill|Пассивной способности]] оружия нет нужды использовать, кроме как для дополнительной стяжки противников."
                     }
                 },
                 "fleuve-cendre-ferryman",
@@ -48,7 +50,8 @@
                     "note": {
                         "en": "This weapon can perform better than **[[weapon:sacrificial-sword]]** if you can get enough [[stat:er]] from substats.",
                         "fr": "Cette arme peut dépasser **[[weapon:sacrificial-sword]]** si vous pouvez obtenir suffisamment de [[stat:er]] via les sous-stats.",
-                        "it": "Quest'arma può avere prestazioni migliori di **[[weapon:sacrificial-sword]]** se riesci ad ottenere abbastanza [[stat:er]] dalle statistiche secondarie."
+                        "it": "Quest'arma può avere prestazioni migliori di **[[weapon:sacrificial-sword]]** se riesci ad ottenere abbastanza [[stat:er]] dalle statistiche secondarie.",
+                        "ru": "Превосходит **[[weapon:sacrificial-sword]]**, если в сабстатах артефактов достаточно [[stat:er|Восстановления энергии]]."
                     }
                 },
                 {
@@ -56,8 +59,8 @@
                     "note": {
                         "en": "This weapon can perform better than **[[weapon:sacrificial-sword]]** if you can get enough [[stat:er]] from substats.",
                         "fr": "Cette arme peut dépasser **[[weapon:sacrificial-sword]]** si vous pouvez obtenir suffisamment de [[stat:er]] via les sous-stats.",
-                        "it": "Quest'arma può avere prestazioni migliori di **[[weapon:sacrificial-sword]]** se riesci ad ottenere abbastanza [[stat:er]] dalle statistiche secondarie."
-                    }
+                        "it": "Quest'arma può avere prestazioni migliori di **[[weapon:sacrificial-sword]]** se riesci ad ottenere abbastanza [[stat:er]] dalle statistiche secondarie.",
+                        "ru": "Превосходит **[[weapon:sacrificial-sword]]**, если в сабстатах артефактов достаточно [[stat:er|Восстановления энергии]]."                    }
                 },
                 "skyrider-sword"
             ]
