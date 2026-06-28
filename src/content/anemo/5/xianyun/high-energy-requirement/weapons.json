@@ -12,7 +12,8 @@
                     "note": {
                         "en": "With high team [[stat:er]] Requirements, this weapon pulls ahead in value.",
                         "fr": "Avec des besoins en [[stat:er]] élevés pour l'équipe, cette arme gagne en valeur.",
-                        "it": "In **team con requisiti di [[stat:er]] alti**, quest'arma guadagna valore."
+                        "it": "In **team con requisiti di [[stat:er]] alti**, quest'arma guadagna valore.",
+                        "ru": "Чем выше потребность отряда в [[stat:er|энергии]], тем более полезен."
                     }
                 },
                 "oathsworn-eye"
@@ -25,7 +26,8 @@
                     "note": {
                         "en": "Perform a dash to gain the [[stat:atk%]] from the passive.",
                         "fr": "Effectuez un dash pour obtenir l'[[stat:atk%]] du passif.",
-                        "it": "Esegui uno scatto per ottenere l'[[stat:atk%]] dalla passiva."
+                        "it": "Esegui uno scatto per ottenere l'[[stat:atk%]] dalla passiva.",
+                        "ru": "Выполните рывок для активации Пассивной способности оружия."
                     }
                 }
             ]
@@ -38,7 +40,8 @@
                     "note": {
                         "en": "In teams with [[element:electro]] units to benefit from the passive, this weapon ranks higher than **[[weapon:ballad-of-the-boundless-blue]]**.",
                         "fr": "Dans les équipes avec des personnages [[element:electro]] qui peuvent bénéficier du passif, cette arme se classe au-dessus de **[[weapon:ballad-of-the-boundless-blue]]**.",
-                        "it": "In team **con personaggi [[element:electro]]** che riescono a sfruttare la passiva, quest'arma ha prestazioni migliori di **[[weapon:ballad-of-the-boundless-blue]]**."
+                        "it": "In team **con personaggi [[element:electro]]** che riescono a sfruttare la passiva, quest'arma ha prestazioni migliori di **[[weapon:ballad-of-the-boundless-blue]]**.",
+                        "ru": "В отрядах с [[element:electro]] персонажами и работающей Пассивной способностью оружия может превосходить **[[weapon:ballad-of-the-boundless-blue]]**."
                     }
                 },
                 {
@@ -47,7 +50,8 @@
                     "note": {
                         "en": "At low refinements, this weapon is not worth using. The lower [[character:xianyun]]'s total [[stat:er]] requirements, the worse this weapon performs. At **[R5]** this weapon is similar or better than **[[weapon:ballad-of-the-boundless-blue]]**.",
                         "fr": "À bas raffinements, cette arme ne vaut pas la peine d'être utilisée. Plus les besoins totaux en [[stat:er]] de [[character:xianyun]] sont bas, moins cette arme est bonne. Une fois **[R5]**, cette arme équivaut ou dépasse **[[weapon:ballad-of-the-boundless-blue]]**.",
-                        "it": "A bassi miglioramenti, non vale la pena utilizzare quest'arma. Più bassi sono i requisiti di [[stat:er]] di [[character:xianyun]], peggiori sono le prestazioni di quest'arma. A **[R5]**, quest'arma ha prestazioni simili o migliori di **[[weapon:ballad-of-the-boundless-blue]]**."
+                        "it": "A bassi miglioramenti, non vale la pena utilizzare quest'arma. Più bassi sono i requisiti di [[stat:er]] di [[character:xianyun]], peggiori sono le prestazioni di quest'arma. A **[R5]**, quest'arma ha prestazioni simili o migliori di **[[weapon:ballad-of-the-boundless-blue]]**.",
+                        "ru": "Не рекомендуется использовать на низких рангах пробуждения. Показывает себя тем хуже, чем ниже потребность [[character:xianyun]] в [[stat:er|энергии]]. На **[R5]** в некоторых  ситуациях может соответствовать **[[weapon:ballad-of-the-boundless-blue]]** или превосходить её."
                     }
                 }
             ]
