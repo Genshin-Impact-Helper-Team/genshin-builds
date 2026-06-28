@@ -23,37 +23,37 @@
             "en": "- **[[set:desert-pavilion-chronicle]] and Signature Weapon Rotation**: {rot:(Q) E CA (N3 repeat)}",
             "fr": "- **Rotation [[set:desert-pavilion-chronicle]] et arme signature**: {rot:(Q) E CA (N3 repeat)}",
             "it": "- **Combo con [[weapon:tulaytullahs-remembrance]] e [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N3}",
-            "ru": "- **Ротация с сигнатурным оружием и [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (N3 repeat)}"
+            "ru": "- **Ротация с сигнатурным оружием и [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N3)}"
         },
         {
             "en": "- **Signature Weapon Rotation (non [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
             "fr": "- **Rotation avec l'arme signature (sans [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
             "it": "- **Combo con [[weapon:tulaytullahs-remembrance]], senza [[set:desert-pavilion-chronicle]]**: {rot:(Q)E > ripeti N3}",
-            "ru": "- **Ротация с сигнатурным оружием (без [[set:desert-pavilion-chronicle|Хроник]])**: {rot:(Q) E (N3 repeat)}"
+            "ru": "- **Ротация с сигнатурным оружием (без [[set:desert-pavilion-chronicle|Хроник]])**: {rot:(Q) E (повтор N3)}"
         },
         {
             "en": "- **[[set:desert-pavilion-chronicle]] Rotation**: {rot:(Q) E CA (N2C repeat)}",
             "fr": "- **Rotation [[set:desert-pavilion-chronicle]]**: {rot:(Q) E CA (N2C repeat)}",
             "it": "- **Combo con [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N2C}",
-            "ru": "- **Ротация c [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (N2C repeat)}"
+            "ru": "- **Ротация c [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N2C)}"
         },
         {
             "en": "- **Other Artifact Sets Rotation:** {rot:(Q) E (N2C repeat)}",
             "fr": "- **Rotation avec les autres sets d'artéfacts**: {rot:(Q) E (N2C repeat)}",
             "it": "- **Combo con altri set di manufatti:** {rot:(Q)E > ripeti N2C}",
-            "ru": "- **Ротация с другими сетами:** {rot:(Q) E (N2C repeat)}"
+            "ru": "- **Ротация с другими сетами:** {rot:(Q) E (повтор N2C)}"
         },
         {
             "en": "- **[[set:shimenawas-reminiscence]] Rotation**: {rot:E (N2C repeat) (Q)}",
             "fr": "- **Rotation [[set:shimenawas-reminiscence]]** : {rot:E (N2C repeat) (Q)}",
             "it": "- **Combo con [[set:shimenawas-reminiscence]]**: {rot:E > ripeti N2C > (Q)}",
-            "ru": "- **Ротация с [[set:shimenawas-reminiscence|Воспоминаниями Симэнавы]]**: {rot:E (N2C repeat) (Q)}"
+            "ru": "- **Ротация с [[set:shimenawas-reminiscence|Воспоминаниями Симэнавы]]**: {rot:E (повтор N2C) (Q)}"
         },
         {
             "en": "- **[[element:swirl]] Driver Rotation**: {rot:E (N3C repeat)}",
             "fr": "- **Rotation Driver [[element:swirl]]**: {rot:E (N3C repeat)}",
             "it": "- **Combo come 'driver' di [[element:swirl]]**: {rot:E > ripeti N3C}",
-            "ru": "- **Ротация в качестве драйвера [[element:swirl|Рассеивания]]**: {rot:E (N3C repeat)}"
+            "ru": "- **Ротация в качестве драйвера [[element:swirl|Рассеивания]]**: {rot:E (повтор N3C)}"
         }
     ]
 }
