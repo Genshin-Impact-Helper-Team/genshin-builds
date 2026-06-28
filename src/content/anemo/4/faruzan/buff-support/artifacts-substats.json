@@ -6,7 +6,8 @@
             "note": {
                 "en": "Only assumes higher priority than [[stat:cd]] when using **[[weapon:favonius-warbow]]**.",
                 "fr": "Ne suppose une priorité plus élevée que [[stat:cd]] qu'avec **[[weapon:favonius-warbow]]**.",
-                "it": "Ha priorità più alta di [[stat:cd]] quando utilizzi **[[weapon:favonius-warbow]]**."
+                "it": "Ha priorità più alta di [[stat:cd]] quando utilizzi **[[weapon:favonius-warbow]]**.",
+                "ru": "Приоритетней [[stat:cd|Крит. урона]] только при использовании [[weapon:favonius-warbow|Боевого лука Фавония]]."
             }
         },
         "cd",
