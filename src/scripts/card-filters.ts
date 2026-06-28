@@ -1,4 +1,7 @@
+import { compareCharacterCards } from './character-sort.mjs';
+
 type FilterKind = 'character' | 'weapon' | 'artifact';
+const characterSortStorageKey = 'genshin-builds:character-sort';
 
 const selectors = {
   character: {
@@ -33,6 +36,30 @@ if (kind) {
   );
   const count = document.querySelector<HTMLElement>(selector.count);
   const empty = document.querySelector<HTMLElement>(selector.empty);
+  const sortSelect =
+    kind === 'character' ? form?.elements.namedItem('sort') : null;
+
+  if (sortSelect instanceof HTMLSelectElement) {
+    try {
+      const savedSort = localStorage.getItem(characterSortStorageKey);
+      if (
+        savedSort &&
+        [...sortSelect.options].some((option) => option.value === savedSort)
+      ) {
+        sortSelect.value = savedSort;
+      }
+    } catch {
+      // Storage can be unavailable in private or restricted browser contexts.
+    }
+
+    sortSelect.addEventListener('change', () => {
+      try {
+        localStorage.setItem(characterSortStorageKey, sortSelect.value);
+      } catch {
+        // Sorting still works for the current visit without persistence.
+      }
+    });
+  }
 
   const applyFilters = () => {
     if (!form) return;
@@ -43,10 +70,18 @@ if (kind) {
       .toLowerCase();
     let visibleCount = 0;
 
+    if (kind === 'character') {
+      cards[0]?.parentElement?.append(
+        ...[...cards].sort((left, right) =>
+          compareCharacterCards(left, right, String(values.sort ?? 'element')),
+        ),
+      );
+    }
+
     cards.forEach((card) => {
       const matches = Object.entries(values).every(([name, value]) => {
         const selected = String(value);
-        if (!selected || name === 'search') return true;
+        if (!selected || name === 'search' || name === 'sort') return true;
 
         const key =
           name === 'updated'
@@ -76,6 +111,9 @@ if (kind) {
   form?.addEventListener('change', applyFilters);
   form?.addEventListener('input', applyFilters);
   form?.addEventListener('submit', (event) => event.preventDefault());
+  if (sortSelect instanceof HTMLSelectElement) {
+    sortSelect.addEventListener('change', applyFilters);
+  }
   applyFilters();
 }
 

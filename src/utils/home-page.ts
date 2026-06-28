@@ -104,7 +104,10 @@ export function getHomePageData(lang = 'en') {
         builds: getBuildSummaries(characterPath, lang, translator),
       };
     })
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort(
+      (a, b) =>
+        a.element.localeCompare(b.element) || a.name.localeCompare(b.name),
+    );
 
   const recentlyUpdatedCharacters = latestVersion
     ? characters.filter((character) => character.lastUpdated === latestVersion)

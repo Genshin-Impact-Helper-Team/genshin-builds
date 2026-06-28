@@ -321,6 +321,26 @@
   font-weight: 750;
 }
 
+.roster-sort {
+  display: grid;
+  min-width: 172px;
+  gap: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 6px 9px;
+  background: rgba(255, 255, 255, 0.045);
+  color: color-mix(in srgb, var(--text) 58%, transparent);
+  font-size: 0.62rem;
+  font-weight: 780;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.roster-sort .home-native-select {
+  min-height: 24px;
+  font-size: 0.82rem;
+}
+
 .roster-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
@@ -334,11 +354,11 @@
 }
 
 .roster-character.anemo {
-  --roster-element: #30d8a0;
+  --roster-element: #2ecf8f;
 }
 
 .roster-character.cryo {
-  --roster-element: #7af0f0;
+  --roster-element: #b7e3ff;
 }
 
 .roster-character.dendro {
