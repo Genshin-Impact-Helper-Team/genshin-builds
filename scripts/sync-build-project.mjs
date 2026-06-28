@@ -251,14 +251,22 @@ async function listSubIssues(client, repository, parentNumber) {
   }
 }
 
-async function createIssue(client, repository, title, body) {
+async function createIssue(client, repository, title, body, labelName) {
   const { payload } = await client.request(`/repos/${repository}/issues`, {
     method: 'POST',
-    body: { title, body },
+    body: { title, body, labels: [labelName] },
     mutation: true,
   });
 
   return payload;
+}
+
+async function addIssueLabel(client, repository, issueNumber, labelName) {
+  await client.request(`/repos/${repository}/issues/${issueNumber}/labels`, {
+    method: 'POST',
+    body: { labels: [labelName] },
+    mutation: true,
+  });
 }
 
 async function addSubIssue(client, repository, parentNumber, subIssueId) {
@@ -515,10 +523,13 @@ export async function synchronize({
   projectOwner,
   projectNumber,
   fieldName,
+  labelName,
   dryRun,
 }) {
+
   const stats = {
     issuesCreated: 0,
+    labelsAdded: 0,
     subIssueRelationshipsAdded: 0,
     projectItemsAdded: 0,
     fieldValuesUpdated: 0,
@@ -561,6 +572,34 @@ export async function synchronize({
       .filter((item) => item?.content?.id)
       .map((item) => [item.content.id, item]),
   );
+
+  const ensureIssueLabel = async (issue) => {
+    const hasLabel = (issue.labels ?? []).some((label) => {
+      const currentName = typeof label === 'string' ? label : label.name;
+
+      return (
+        typeof currentName === 'string' &&
+        titleKey(currentName) === titleKey(labelName)
+      );
+    });
+
+    if (hasLabel) {
+      return;
+    }
+
+    if (dryRun) {
+      console.log(
+        `[dry-run] Add label "${labelName}" to ${issueLabel(issue)}.`,
+      );
+      stats.plannedChanges += 1;
+      return;
+    }
+
+    await addIssueLabel(client, repository, issue.number, labelName);
+    issue.labels = [...(issue.labels ?? []), { name: labelName }];
+    stats.labelsAdded += 1;
+    console.log(`Added label "${labelName}" to ${issueLabel(issue)}.`);
+  };
 
   const ensureProjectItem = async (issue) => {
     const contentId = issueNodeId(issue);
@@ -622,7 +661,9 @@ export async function synchronize({
 
     if (!parentIssue) {
       if (dryRun) {
-        console.log(`[dry-run] Create parent issue "${character.name}".`);
+        console.log(
+          `[dry-run] Create parent issue "${character.name}" with label "${labelName}".`,
+        );
         console.log(
           `[dry-run] Add the new parent issue "${character.name}" to the project.`,
         );
@@ -633,11 +674,13 @@ export async function synchronize({
           repository,
           character.name,
           parentMarker,
+          labelName,
         );
         repositoryIssues.push(parentIssue);
         issuesByTitle.set(titleKey(character.name), [parentIssue]);
         issuesByMarker.set(parentMarker, parentIssue);
         stats.issuesCreated += 1;
+        stats.labelsAdded += 1;
         console.log(`Created parent issue ${issueLabel(parentIssue)}.`);
       }
     }
@@ -645,13 +688,14 @@ export async function synchronize({
     if (!parentIssue) {
       for (const build of character.builds) {
         console.log(
-          `[dry-run] Create sub-issue "${build.name}", attach it to "${character.name}", add it to the project, and set "${fieldName}" to ${JSON.stringify(character.lastUpdated)}.`,
+          `[dry-run] Create sub-issue "${build.name}" with label "${labelName}", attach it to "${character.name}", add it to the project, and set "${fieldName}" to ${JSON.stringify(character.lastUpdated)}.`,
         );
         stats.plannedChanges += 4;
       }
       continue;
     }
 
+    await ensureIssueLabel(parentIssue);
     await ensureProjectItem(parentIssue);
     const subIssues = await listSubIssues(
       client,
@@ -676,7 +720,7 @@ export async function synchronize({
       if (!subIssue) {
         if (dryRun) {
           console.log(
-            `[dry-run] Create sub-issue "${build.name}" under "${character.name}".`,
+            `[dry-run] Create sub-issue "${build.name}" with label "${labelName}" under "${character.name}".`,
           );
           stats.plannedChanges += 2;
           console.log(
@@ -691,10 +735,12 @@ export async function synchronize({
           repository,
           build.name,
           buildMarker,
+          labelName,
         );
         repositoryIssues.push(subIssue);
         issuesByMarker.set(buildMarker, subIssue);
         stats.issuesCreated += 1;
+        stats.labelsAdded += 1;
         needsRelationship = true;
         console.log(`Created build issue ${issueLabel(subIssue)}.`);
       }
@@ -719,6 +765,7 @@ export async function synchronize({
         }
       }
 
+      await ensureIssueLabel(subIssue);
       const item = await ensureProjectItem(subIssue);
       await ensureFieldValue(subIssue, item, character.lastUpdated);
     }
@@ -786,6 +833,7 @@ async function main() {
       1,
     ),
     fieldName: process.env.PROJECT_FIELD_NAME ?? 'last_updated',
+    labelName: 'Auto Sync',
     dryRun: argumentsSet.has('--dry-run'),
   });
 }

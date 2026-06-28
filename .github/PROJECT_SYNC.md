@@ -6,6 +6,7 @@ project 1:
 - each character folder gets a parent issue with the same stable folder name
 - each immediate build folder gets a sub-issue under that character
 - both parent and build issues are added to the project
+- every managed parent and build issue gets the `Auto Sync` label
 - each build project item gets a `last_updated` text field matching its
   character's `metadata.json`
 - missing issues, sub-issue relationships, project items, and the text field are
