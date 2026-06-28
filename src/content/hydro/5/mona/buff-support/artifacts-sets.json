@@ -5,6 +5,18 @@
                 {
                     "items": [
                         {
+                            "name": "celestial-gift",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "noblesse",
                             "pieces": 4
                         }
