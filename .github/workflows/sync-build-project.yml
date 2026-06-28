@@ -8,12 +8,6 @@ on:
         required: false
         default: false
         type: boolean
-  push:
-    branches: [main]
-    paths:
-      - 'src/content/**'
-      - 'scripts/sync-build-project.mjs'
-      - '.github/workflows/sync-build-project.yml'
 
 permissions:
   contents: read

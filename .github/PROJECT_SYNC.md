@@ -17,7 +17,8 @@ the elemental variants do not all resolve to one issue.
 ## Running it
 
 Run `Sync Build Project` from the Actions tab. Select `dry_run` for a preview.
-The workflow also runs after changes under `src/content` reach `main`.
+The workflow runs only when manually dispatched; pushes and pull requests do
+not trigger it.
 
 The first real run can create several hundred issues and project items. The
 script sends writes serially, pauses between them, and honors GitHub rate-limit

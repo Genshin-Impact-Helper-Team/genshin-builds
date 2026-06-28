@@ -318,9 +318,11 @@ async function createTextField(client, projectId, fieldName) {
           input: { projectId: $projectId, dataType: TEXT, name: $name }
         ) {
           projectV2Field {
-            id
-            name
-            dataType
+            ... on ProjectV2Field {
+              id
+              name
+              dataType
+            }
           }
         }
       }
