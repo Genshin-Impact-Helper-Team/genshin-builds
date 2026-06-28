@@ -4,6 +4,9 @@ const panels = Array.from(
 const tabs = Array.from(
   document.querySelectorAll<HTMLButtonElement>('[data-build-tab]'),
 );
+const calculationPanels = Array.from(
+  document.querySelectorAll<HTMLElement>('[data-build-calculation-panel]'),
+);
 const buildsLayout = document.querySelector<HTMLElement>(
   '.character-builds-layout',
 );
@@ -62,6 +65,14 @@ function selectBuild(targetId: string | null, updateUrl = true) {
     tab.classList.toggle('is-active', isActive);
     tab.setAttribute('aria-selected', String(isActive));
     tab.tabIndex = isActive ? 0 : -1;
+  });
+
+  calculationPanels.forEach((panel) => {
+    const isActive = panel.dataset.id === activeId;
+
+    panel.classList.toggle('is-active', isActive);
+    panel.hidden = !isActive;
+    panel.setAttribute('aria-hidden', String(!isActive));
   });
 
   if (updateUrl) {
