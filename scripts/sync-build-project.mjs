@@ -253,10 +253,7 @@ function renderReleaseList(items) {
   }
 
   return items
-    .map(
-      (item) =>
-        `- **${item.name}** (\`${item.id}\`) — released in \`${item.version}\``,
-    )
+    .map((item) => `- **${item.name}**: released in \`${item.version}\``)
     .join('\n');
 }
 
@@ -627,12 +624,20 @@ async function loadProject(client, owner, projectNumber) {
   return data.organization?.projectV2;
 }
 
-async function createTextField(client, projectId, fieldName) {
+async function createProjectField(client, projectId, fieldName, dataType) {
   const { data } = await client.graphql(
     `
-      mutation CreateTextField($projectId: ID!, $name: String!) {
+      mutation CreateProjectField(
+        $projectId: ID!
+        $name: String!
+        $dataType: ProjectV2CustomFieldType!
+      ) {
         createProjectV2Field(
-          input: { projectId: $projectId, dataType: TEXT, name: $name }
+          input: {
+            projectId: $projectId
+            dataType: $dataType
+            name: $name
+          }
         ) {
           projectV2Field {
             ... on ProjectV2Field {
@@ -644,14 +649,14 @@ async function createTextField(client, projectId, fieldName) {
         }
       }
     `,
-    { projectId, name: fieldName },
+    { projectId, name: fieldName, dataType },
     { mutation: true },
   );
 
   return data.createProjectV2Field.projectV2Field;
 }
 
-async function listProjectItems(client, projectId, fieldName) {
+async function listProjectItems(client, projectId, fieldNames) {
   const items = [];
   let after = null;
 
@@ -660,7 +665,9 @@ async function listProjectItems(client, projectId, fieldName) {
       `
         query ProjectItems(
           $projectId: ID!
-          $fieldName: String!
+          $lastUpdatedFieldName: String!
+          $weaponCountFieldName: String!
+          $artifactSetCountFieldName: String!
           $after: String
         ) {
           node(id: $projectId) {
@@ -679,9 +686,25 @@ async function listProjectItems(client, projectId, fieldName) {
                       }
                     }
                   }
-                  fieldValueByName(name: $fieldName) {
+                  lastUpdatedValue: fieldValueByName(
+                    name: $lastUpdatedFieldName
+                  ) {
                     ... on ProjectV2ItemFieldTextValue {
                       text
+                    }
+                  }
+                  weaponCountValue: fieldValueByName(
+                    name: $weaponCountFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldNumberValue {
+                      number
+                    }
+                  }
+                  artifactSetCountValue: fieldValueByName(
+                    name: $artifactSetCountFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldNumberValue {
+                      number
                     }
                   }
                 }
@@ -694,7 +717,13 @@ async function listProjectItems(client, projectId, fieldName) {
           }
         }
       `,
-      { projectId, fieldName, after },
+      {
+        projectId,
+        lastUpdatedFieldName: fieldNames.lastUpdated,
+        weaponCountFieldName: fieldNames.weaponCount,
+        artifactSetCountFieldName: fieldNames.artifactSetCount,
+        after,
+      },
     );
     const connection = data.node?.items;
 
@@ -746,6 +775,34 @@ async function updateTextField(client, projectId, itemId, fieldId, value) {
             itemId: $itemId
             fieldId: $fieldId
             value: { text: $value }
+          }
+        ) {
+          projectV2Item {
+            id
+          }
+        }
+      }
+    `,
+    { projectId, itemId, fieldId, value },
+    { mutation: true },
+  );
+}
+
+async function updateNumberField(client, projectId, itemId, fieldId, value) {
+  await client.graphql(
+    `
+      mutation UpdateNumberField(
+        $projectId: ID!
+        $itemId: ID!
+        $fieldId: ID!
+        $value: Float!
+      ) {
+        updateProjectV2ItemFieldValue(
+          input: {
+            projectId: $projectId
+            itemId: $itemId
+            fieldId: $fieldId
+            value: { number: $value }
           }
         ) {
           projectV2Item {
@@ -832,6 +889,8 @@ export async function synchronize({
   projectOwner,
   projectNumber,
   fieldName,
+  weaponCountFieldName,
+  artifactSetCountFieldName,
   labelName,
   dryRun,
 }) {
@@ -846,33 +905,76 @@ export async function synchronize({
     plannedChanges: 0,
   };
   const project = await loadProject(client, projectOwner, projectNumber);
-  let field = project.fields.nodes.find(
-    (candidate) =>
-      candidate &&
-      typeof candidate.name === 'string' &&
-      titleKey(candidate.name) === titleKey(fieldName),
-  );
+  const requestedFieldNames = [
+    fieldName,
+    weaponCountFieldName,
+    artifactSetCountFieldName,
+  ];
 
-  if (field && field.dataType !== 'TEXT') {
-    throw new Error(
-      `Project field "${field.name}" exists but is not a text field.`,
+  if (
+    requestedFieldNames.some(
+      (name) => typeof name !== 'string' || name.trim().length === 0,
+    ) ||
+    new Set(requestedFieldNames.map(titleKey)).size !==
+      requestedFieldNames.length
+  ) {
+    throw new Error('Project field names must be non-empty and distinct.');
+  }
+
+  const ensureProjectField = async (name, dataType) => {
+    let projectField = project.fields.nodes.find(
+      (candidate) =>
+        candidate &&
+        typeof candidate.name === 'string' &&
+        titleKey(candidate.name) === titleKey(name),
     );
-  }
 
-  if (!field) {
-    if (dryRun) {
-      console.log(`[dry-run] Create text project field "${fieldName}".`);
-      stats.plannedChanges += 1;
-      field = { id: null, name: fieldName, dataType: 'TEXT' };
-    } else {
-      field = await createTextField(client, project.id, fieldName);
-      console.log(`Created text project field "${fieldName}".`);
+    if (projectField && projectField.dataType !== dataType) {
+      throw new Error(
+        `Project field "${projectField.name}" must have type ${dataType}, but it has type ${projectField.dataType ?? 'unknown'}.`,
+      );
     }
-  }
+
+    if (!projectField) {
+      if (dryRun) {
+        console.log(
+          `[dry-run] Create ${dataType.toLowerCase()} project field "${name}".`,
+        );
+        stats.plannedChanges += 1;
+        projectField = { id: null, name, dataType };
+      } else {
+        projectField = await createProjectField(
+          client,
+          project.id,
+          name,
+          dataType,
+        );
+        console.log(
+          `Created ${dataType.toLowerCase()} project field "${name}".`,
+        );
+      }
+    }
+
+    return projectField;
+  };
+
+  const lastUpdatedField = await ensureProjectField(fieldName, 'TEXT');
+  const weaponCountField = await ensureProjectField(
+    weaponCountFieldName,
+    'NUMBER',
+  );
+  const artifactSetCountField = await ensureProjectField(
+    artifactSetCountFieldName,
+    'NUMBER',
+  );
 
   const [repositoryIssues, projectItems] = await Promise.all([
     listRepositoryIssues(client, repository),
-    listProjectItems(client, project.id, fieldName),
+    listProjectItems(client, project.id, {
+      lastUpdated: fieldName,
+      weaponCount: weaponCountFieldName,
+      artifactSetCount: artifactSetCountFieldName,
+    }),
   ]);
   const issuesByTitle = groupIssuesByTitle(repositoryIssues);
   const issuesByMarker = indexIssuesByMarker(repositoryIssues);
@@ -950,20 +1052,28 @@ export async function synchronize({
     if (dryRun) {
       console.log(`[dry-run] Add ${issueLabel(issue)} to project.`);
       stats.plannedChanges += 1;
-      return { id: null, content: { id: contentId }, fieldValueByName: null };
+      return {
+        id: null,
+        content: { id: contentId },
+        lastUpdatedValue: null,
+        weaponCountValue: null,
+        artifactSetCountValue: null,
+      };
     }
 
     item = await addProjectItem(client, project.id, contentId);
     item.content = { id: contentId };
-    item.fieldValueByName = null;
+    item.lastUpdatedValue = null;
+    item.weaponCountValue = null;
+    item.artifactSetCountValue = null;
     projectItemsByContentId.set(contentId, item);
     stats.projectItemsAdded += 1;
     console.log(`Added ${issueLabel(issue)} to project.`);
     return item;
   };
 
-  const ensureFieldValue = async (issue, item, value) => {
-    const currentValue = item?.fieldValueByName?.text ?? null;
+  const ensureTextFieldValue = async (issue, item, value) => {
+    const currentValue = item?.lastUpdatedValue?.text ?? null;
 
     if (currentValue === value) {
       stats.unchangedFieldValues += 1;
@@ -978,11 +1088,53 @@ export async function synchronize({
       return;
     }
 
-    await updateTextField(client, project.id, item.id, field.id, value);
-    item.fieldValueByName = { text: value };
+    await updateTextField(
+      client,
+      project.id,
+      item.id,
+      lastUpdatedField.id,
+      value,
+    );
+    item.lastUpdatedValue = { text: value };
     stats.fieldValuesUpdated += 1;
     console.log(
       `Set ${issueLabel(issue)} field "${fieldName}" to ${JSON.stringify(value)}.`,
+    );
+  };
+
+  const ensureNumberFieldValue = async (
+    issue,
+    item,
+    projectField,
+    itemValueName,
+    value,
+  ) => {
+    const currentValue = item?.[itemValueName]?.number ?? null;
+
+    if (currentValue === value) {
+      stats.unchangedFieldValues += 1;
+      return;
+    }
+
+    if (dryRun) {
+      console.log(
+        `[dry-run] Set ${issueLabel(issue)} field "${projectField.name}" from ${JSON.stringify(currentValue)} to ${value}.`,
+      );
+      stats.plannedChanges += 1;
+      return;
+    }
+
+    await updateNumberField(
+      client,
+      project.id,
+      item.id,
+      projectField.id,
+      value,
+    );
+    item[itemValueName] = { number: value };
+    stats.fieldValuesUpdated += 1;
+    console.log(
+      `Set ${issueLabel(issue)} field "${projectField.name}" to ${value}.`,
     );
   };
 
@@ -1026,9 +1178,9 @@ export async function synchronize({
     if (!parentIssue) {
       for (const build of character.builds) {
         console.log(
-          `[dry-run] Create sub-issue "${build.name}" with label "${labelName}" and a release audit containing ${build.releaseAudit.weapons.length} weapon(s) and ${build.releaseAudit.artifactSets.length} artifact set(s), attach it to "${character.name}", add it to the project, and set "${fieldName}" to ${JSON.stringify(character.lastUpdated)}.`,
+          `[dry-run] Create sub-issue "${build.name}" with label "${labelName}" and a release audit containing ${build.releaseAudit.weapons.length} weapon(s) and ${build.releaseAudit.artifactSets.length} artifact set(s), attach it to "${character.name}", add it to the project, and set its three synchronized fields.`,
         );
-        stats.plannedChanges += 4;
+        stats.plannedChanges += 6;
       }
       continue;
     }
@@ -1062,9 +1214,9 @@ export async function synchronize({
           );
           stats.plannedChanges += 2;
           console.log(
-            `[dry-run] Add the new sub-issue to the project and set "${fieldName}" to ${JSON.stringify(character.lastUpdated)}.`,
+            `[dry-run] Add the new sub-issue to the project and set "${fieldName}" to ${JSON.stringify(character.lastUpdated)}, "${weaponCountFieldName}" to ${build.releaseAudit.weapons.length}, and "${artifactSetCountFieldName}" to ${build.releaseAudit.artifactSets.length}.`,
           );
-          stats.plannedChanges += 2;
+          stats.plannedChanges += 4;
           continue;
         }
 
@@ -1106,7 +1258,21 @@ export async function synchronize({
       await ensureBuildIssueBody(subIssue, buildMarker, build.releaseAudit);
       await ensureIssueLabel(subIssue);
       const item = await ensureProjectItem(subIssue);
-      await ensureFieldValue(subIssue, item, character.lastUpdated);
+      await ensureTextFieldValue(subIssue, item, character.lastUpdated);
+      await ensureNumberFieldValue(
+        subIssue,
+        item,
+        weaponCountField,
+        'weaponCountValue',
+        build.releaseAudit.weapons.length,
+      );
+      await ensureNumberFieldValue(
+        subIssue,
+        item,
+        artifactSetCountField,
+        'artifactSetCountValue',
+        build.releaseAudit.artifactSets.length,
+      );
     }
   }
 
@@ -1172,7 +1338,10 @@ async function main() {
       'PROJECT_NUMBER',
       1,
     ),
-    fieldName: process.env.PROJECT_FIELD_NAME ?? 'last_updated',
+    fieldName: process.env.PROJECT_FIELD_NAME ?? 'Last Updated',
+    weaponCountFieldName: process.env.WEAPON_COUNT_FIELD_NAME ?? 'Weapon Count',
+    artifactSetCountFieldName:
+      process.env.ARTIFACT_SET_COUNT_FIELD_NAME ?? 'Artifact Count',
     labelName: 'Auto Sync',
     dryRun: argumentsSet.has('--dry-run'),
   });

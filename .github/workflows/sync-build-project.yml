@@ -35,7 +35,9 @@ jobs:
           ISSUE_REPOSITORY: Genshin-Impact-Helper-Team/genshin-builds
           PROJECT_OWNER: Genshin-Impact-Helper-Team
           PROJECT_NUMBER: '1'
-          PROJECT_FIELD_NAME: last_updated
+          PROJECT_FIELD_NAME: Last Updated
+          WEAPON_COUNT_FIELD_NAME: Weapon Count
+          ARTIFACT_SET_COUNT_FIELD_NAME: Artifact Count
         run: >-
           node scripts/sync-build-project.mjs
           ${{ inputs.dry_run && '--dry-run' || '' }}

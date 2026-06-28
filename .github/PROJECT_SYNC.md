@@ -9,6 +9,8 @@ project 1:
 - every managed parent and build issue gets the `Auto Sync` label
 - each build project item gets a `last_updated` text field matching its
   character's `metadata.json`
+- each build project item gets numeric `weapon_count` and `artifact_set_count`
+  fields matching the generated release lists
 - each build issue contains an automatically maintained list of weapons and artifact sets released after `last_updated` that are not already referenced by that build
 - missing issues, sub-issue relationships, project items, and the text field are
   created automatically; unrelated project data is left alone
@@ -47,4 +49,5 @@ GH_TOKEN=... npm run project:sync -- --dry-run
 ```
 
 The target can be changed with `ISSUE_REPOSITORY`, `PROJECT_OWNER`,
-`PROJECT_NUMBER`, or `PROJECT_FIELD_NAME` environment variables.
+`PROJECT_NUMBER`, `PROJECT_FIELD_NAME`, `WEAPON_COUNT_FIELD_NAME`, or
+`ARTIFACT_SET_COUNT_FIELD_NAME` environment variables.
