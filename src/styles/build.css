@@ -123,7 +123,7 @@
   margin-top: 8px;
   padding: 7px 9px;
   border-radius: 8px;
-  background:rgba(7, 10, 15, 0.18);
+  background: rgba(7, 10, 15, 0.18);
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.09),
     0 12px 28px rgba(0, 0, 0, 0.1);
@@ -248,7 +248,11 @@
 .build-switcher-button:hover,
 .build-switcher-button:focus-visible {
   border-color: color-mix(in srgb, var(--element) 42%, transparent);
-  background: color-mix(in srgb, var(--element) 10%, rgba(255, 255, 255, 0.045));
+  background: color-mix(
+    in srgb,
+    var(--element) 10%,
+    rgba(255, 255, 255, 0.045)
+  );
   outline: none;
 }
 
@@ -277,6 +281,75 @@
   min-height: 20px;
   padding: 3px 6px;
   font-size: 0.62rem;
+}
+
+.build-calculation-panels {
+  display: contents;
+}
+
+.build-calculation-panel {
+  position: relative;
+  z-index: 2;
+  display: none;
+  min-width: 0;
+}
+
+.build-calculation-panel.is-active:not([hidden]) {
+  display: block;
+}
+
+.build-calculation-card {
+  overflow: hidden;
+  border: 1px solid var(--element);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.build-calculation-card h2 {
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 7px 9px;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.build-calculation-list {
+  display: grid;
+  gap: 1px;
+}
+
+.build-calculation-link {
+  min-width: 0;
+  padding: 7px 9px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.build-calculation-link + .build-calculation-link {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.build-calculation-link > a {
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 850;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.build-calculation-link > a::after {
+  margin-left: 4px;
+  content: '\2197';
+}
+
+.build-calculation-credit {
+  margin-top: 3px;
+  color: color-mix(in srgb, var(--text) 68%, transparent);
+  font-size: 0.67rem;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
 }
 
 .build-list {
@@ -354,7 +427,7 @@
   margin-bottom: 9px;
   border: 0;
   padding: 0;
-  background:rgba(7, 10, 15, 0.18);
+  background: rgba(7, 10, 15, 0.18);
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, 0.09),
     0 8px 20px rgba(0, 0, 0, 0.08);
@@ -731,8 +804,7 @@
 .notes-block,
 .notes-section,
 .note-group,
-.build-note-list,
-.calculation-links {
+.build-note-list {
   display: grid;
   gap: 7px;
 }
@@ -759,7 +831,6 @@
   font-weight: 850;
 }
 
-.calculation-link,
 .build-note-list,
 .note-target {
   border: 1px solid rgba(124, 85, 85, 0.08);
@@ -771,12 +842,8 @@
   padding: 4px 8px;
 }
 
-.build-note-list p{
-    margin: 2px 0;
-}
-
-.calculation-link {
-  padding: 7px 8px;
+.build-note-list p {
+  margin: 2px 0;
 }
 
 .weapon-card:hover,
@@ -1073,7 +1140,6 @@
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
 }
 
 @media (max-width: 900px) {
@@ -1125,7 +1191,8 @@
     grid-template-columns: 68px minmax(0, 1fr);
     grid-template-areas:
       'art copy'
-      'builds builds';
+      'builds builds'
+      'calculations calculations';
     gap: 9px 10px;
     margin-bottom: 0;
     overflow: hidden;
@@ -1187,6 +1254,19 @@
     margin-top: 0;
     overflow: visible;
     padding: 0;
+  }
+
+  .build-calculation-panel {
+    grid-area: calculations;
+  }
+
+  .build-calculation-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .build-calculation-link:nth-child(even) {
+    border-top: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.07);
   }
 
   .build-switcher-button {
@@ -1292,6 +1372,15 @@
 
   .build-switcher-button {
     min-width: 0;
+  }
+
+  .build-calculation-list {
+    grid-template-columns: 1fr;
+  }
+
+  .build-calculation-link:nth-child(even) {
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-left: 0;
   }
 
   .recommendation-card-body {

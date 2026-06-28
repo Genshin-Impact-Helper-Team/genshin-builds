@@ -27,6 +27,24 @@ const {
 const defaultBuildSlug =
   builds.find((build) => build.isBest)?.slug ?? builds[0]?.slug;
 
+const calculationKeys = [
+  'artifact',
+  'artifacts',
+  'weapons',
+  'talent',
+  'talents',
+  'global',
+];
+
+const hasBuildCalculations = (buildNote: any) =>
+  calculationKeys.some((key) => {
+    const credits = Array.isArray(buildNote?.[key])
+      ? buildNote[key]
+      : [buildNote?.[key]];
+
+    return credits.some((credit) => credit?.author && credit?.link);
+  });
+
 const buildHasItemNotes = (notes: any) =>
   [
     notes?.weapons?.items,
@@ -57,6 +75,8 @@ const noteMarkerExplanation = t(
     slug: build.slug,
     name: build.name,
     isBest: build.isBest,
+    buildNote: build.buildNote,
+    hasCalculations: hasBuildCalculations(build.buildNote),
   }))}
 >
   <div class="character-builds-layout" data-default-build={defaultBuildSlug}>
