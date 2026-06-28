@@ -11,7 +11,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "download:artifact-assets": "node scripts/download-artifact-assets.mjs",
-    "download:weapon-assets": "node scripts/download-weapon-assets.mjs"
+    "download:weapon-assets": "node scripts/download-weapon-assets.mjs",
+    "project:plan": "node scripts/sync-build-project.mjs --print-plan",
+    "project:sync": "node scripts/sync-build-project.mjs"
   },
   "dependencies": {
     "astro": "^6.3.1",
