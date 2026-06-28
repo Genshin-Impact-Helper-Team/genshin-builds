@@ -2,34 +2,40 @@
     "name": {
         "en": "Off-Field Reaction DPS & Heal Support",
         "fr": "DPS Réaction off-field & Support Soins",
-        "it": "DPS da Reazione Fuori Campo & Supporto Cure"
+        "it": "DPS da Reazione Fuori Campo & Supporto Cure",
+        "ru": "Карманный ДД от реакций & Лечение"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:jahoda]] offers continuous healing for the active character with her [[ability:burst]], and Off-Field Elemental Application with her infused [[ability:skill]] and [[ability:burst]]. While Ascendant Gleam is active, her [[ability:skill]] can steal enemy auras and use them for herself.",
             "fr": "[[character:jahoda]] offre un soin continu au personnage actif avec son [[ability:burst]], ainsi qu'une application élémentaire off-field avec son [[ability:skill]] et son [[ability:burst]] infusés. Tant que Lueur ascendante est active, son [[ability:skill]] peut voler les auras ennemies et les utiliser pour elle-même.",
-            "it": "[[character:jahoda]] offre cure continue al personaggio attivo tramite il suo [[ability:burst]], ed applicazione elementale da fuori campo tramite l'infusione dell'[[ability:skill]] e del [[ability:burst]]. Mentre Presagio lunare: Barlume ascendente è attivo, la sua [[ability:skill]] può assorbire le aure nemiche."
+            "it": "[[character:jahoda]] offre cure continue al personaggio attivo tramite il suo [[ability:burst]], ed applicazione elementale da fuori campo tramite l'infusione dell'[[ability:skill]] e del [[ability:burst]]. Mentre Presagio lunare: Barlume ascendente è attivo, la sua [[ability:skill]] può assorbire le aure nemiche.",
+            "ru": "[[character:jahoda]] лечит активного персонажа своим [[ability:burst|Взрывом стихии]] и накладывает статус вне поля с помощью [[ability:skill|Элементального навыка]] and [[ability:burst|Взрыва стихии]]. При активном Лунном знамении - Высшее сияние её [[ability:skill]] может поглощать элементальные ауры с противников и наносить удары соответствующим элементом из кармана."
         },
         {
             "en": "[[character:jahoda]] heavily favors having Moonsign: Ascendant Gleam.",
             "fr": "[[character:jahoda]] préfère fortement avoir le Signe lunaire : Lueur ascendante.",
-            "it": "[[character:jahoda]] predilige fortemente che Presagio lunare: Barlume ascendente sia attivo."
+            "it": "[[character:jahoda]] predilige fortemente che Presagio lunare: Barlume ascendente sia attivo.",
+            "ru": "Для [[character:jahoda|Ягоды]] важно наличия Лунного знамения - Высшее сияние."
         },
         {
             "en": "Her [[ability:skill]] and [[ability:burst]] Infusion priority is [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]].",
             "fr": "La priorité d'infusion de son [[ability:skill]] et de son [[ability:burst]] est [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]].",
-            "it": "La sua priorità d'infusione è [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]]."
+            "it": "La sua priorità d'infusione è [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]].",
+            "ru": "Приоритет поглощения [[ability:skill|Элементального навыка]] and [[ability:burst|Взрыва стихии]] - [[element:pyro]]>[[element:hydro]]>[[element:electro]]>[[element:cryo]]."
         },
         {
             "en": "If the active character has 70% HP or more, [[character:jahoda]]'s [[ability:burst]] will also heal the character with the lowest HP.",
             "fr": "Si le personnage actif a 70 % de PV ou plus, l'[[ability:burst]] de [[character:jahoda]] soignera aussi le personnage avec le moins de PV.",
-            "it": "Se il personaggio attivo ha 70% o più PS, il [[ability:burst]] di [[character:jahoda]] curerà anche il personaggio con il minor numero di PS."
+            "it": "Se il personaggio attivo ha 70% o più PS, il [[ability:burst]] di [[character:jahoda]] curerà anche il personaggio con il minor numero di PS.",
+            "ru": "Если у активного персонажа 70% HP или больше, то [[ability:burst|Взрыв стихии]] [[character:jahoda|Ягоды]] также будет лечить персонажа с наименьшим HP."
         },
         {
             "en": "[[character:jahoda]]'s [C6] will only take effect if the Purr-Loined Treasure Flask is full.",
             "fr": "La [C6] de [[character:jahoda]] ne prendra effet que si le Flacon au trésor chapardé est plein.",
-            "it": "La **[C6]** di Jahoda avrà effetto solo se la Fiaschetta preziosa Purr purr è piena."
+            "it": "La **[C6]** di Jahoda avrà effetto solo se la Fiaschetta preziosa Purr purr è piena.",
+            "ru": "Эффект [C6] [[character:jahoda|Ягоды]] активируется только после заполнения Секретной буль-буль-фляжки."
         }
     ]
 }
