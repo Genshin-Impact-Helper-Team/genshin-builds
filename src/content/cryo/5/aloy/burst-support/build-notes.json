@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "[[ability:burst]] Support",
-        "fr": "Support [[ability:burst]]"
+        "fr": "Support [[ability:burst]]",
+        "it": "Supporto [[ability:burst]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:aloy]] is much preferred as a [[ability:burst]] Support over Main DPS as getting coil stacks for her [[element:cryo]] infusion can be quite unreliable. **[[character:aloy]] needs 4 coil stacks to get the [[element:cryo]] infusion and you can only get 1 stack every 0.1 seconds** which is quite hard to do considering the Bomblets are scattered all over the place. One thing to note regarding [[character:aloy]]'s coil stacks is that **she can still get coil stacks even when she's off-field.",
-            "fr": "[[character:aloy]] est largement préférée en Support [[ability:burst]] plutôt qu'en Main DPS, car obtenir des cumuls de bobine pour son infusion [[element:cryo]] peut être assez peu fiable. **[[character:aloy]] a besoin de 4 cumuls de bobine pour obtenir l'infusion [[element:cryo]] et vous ne pouvez obtenir qu'1 cumul toutes les 0,1 secondes**, ce qui est assez difficile puisque les bombelettes sont dispersées un peu partout. Il faut aussi noter qu'**elle peut obtenir des cumuls de bobine même en étant off-field**."
+            "fr": "[[character:aloy]] est largement préférée en Support [[ability:burst]] plutôt qu'en Main DPS, car obtenir des cumuls de bobine pour son infusion [[element:cryo]] peut être assez peu fiable. **[[character:aloy]] a besoin de 4 cumuls de bobine pour obtenir l'infusion [[element:cryo]] et vous ne pouvez obtenir qu'1 cumul toutes les 0,1 secondes**, ce qui est assez difficile puisque les bombelettes sont dispersées un peu partout. Il faut aussi noter qu'**elle peut obtenir des cumuls de bobine même en étant off-field**.",
+            "it": "[[character:aloy]] è molto più apprezzata come supporto tramite il [[ability:burst]] che come DPS sul campo, poiché ottenere gli accumuli Bobina per la sua infusione [[element:cryo]] può essere piuttosto incostante. **[[character:aloy]] ha bisogno di 4 accumuli Bobina per attivare l’infusione [[element:cryo]], ed é possibile ottenere al massimo 1 accumulo ogni 0,1 secondi**, cosa abbastanza difficile da gestire considerando che le Bombe congelanti si disperdono un po’ ovunque. Un aspetto importante da notare è che **[[character:aloy]] può comunque ottenere accumuli Bobina anche quando è fuori campo**."
         },
         {
             "en": "[[character:aloy]] is very niche as she only performs well in certain comps and even then, she's still completely replaceable by other characters. **She can be utilized on a [[element:freeze]] team** where she can be a battery and nuke at the same time since she provides 5 [[element:cryo]] particles on her [[ability:skill]]. She can also be utilized on a [[element:melt]] team where you can [[element:melt]] her [[ability:burst]] for quite a decent amount of damage.",
-            "fr": "[[character:aloy]] est très niche, car elle n'est vraiment efficace que dans certaines compositions, et même là, elle reste complètement remplaçable par d'autres personnages. **Elle peut être utilisée dans une équipe [[element:freeze]]**, où elle peut servir de batterie et de nuke en même temps puisqu'elle fournit 5 particules [[element:cryo]] avec son [[ability:skill]]. Elle peut aussi être utilisée dans une équipe [[element:melt]], où vous pouvez déclencher [[element:melt]] sur son [[ability:burst]] pour infliger une quantité correcte de dégâts."
+            "fr": "[[character:aloy]] est très niche, car elle n'est vraiment efficace que dans certaines compositions, et même là, elle reste complètement remplaçable par d'autres personnages. **Elle peut être utilisée dans une équipe [[element:freeze]]**, où elle peut servir de batterie et de nuke en même temps puisqu'elle fournit 5 particules [[element:cryo]] avec son [[ability:skill]]. Elle peut aussi être utilisée dans une équipe [[element:melt]], où vous pouvez déclencher [[element:melt]] sur son [[ability:burst]] pour infliger une quantité correcte de dégâts.",
+            "it": "[[character:aloy]] è un personaggio di nicchia che ha prestazioni buone solo in alcuni team, nei quali è comunque sostituibile da altri personaggi. **Può essere usata in team [[element:freeze]] come batteria e nuke**, dato che genera 5 particelle [[element:cryo]] tramite la sua [[ability:skill]]. Può essere usata anche in team [[element:melt]] dove è possibile provocare [[element:melt]] con il suo [[ability:burst]] per infliggere danni rilevanti."
         }
     ]
 }
