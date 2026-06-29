@@ -23,7 +23,8 @@
                     "note": {
                         "en": "A good choice in solo [[element:anemo]] teams or teams with overall high [[stat:er]] requirements.",
                         "fr": "Une bonne option dans les équipes avec un seul [[element:anemo]] ou une équipes avec de hauts besoins en [[stat:er]].",
-                        "it": "Una buona opzione in team in cui [[character:yumemizuki-mizuki]] è l'unico personaggio [[element:anemo]] o in team che hanno requisiti di [[stat:er]] alti."
+                        "it": "Una buona opzione in team in cui [[character:yumemizuki-mizuki]] è l'unico personaggio [[element:anemo]] o in team che hanno requisiti di [[stat:er]] alti.",
+                        "ru": "Хороший выбор в отрядах с высокими требованиями к [[stat:er|энергии]] и отрядах, где она является единственным [[element:anemo]] персонажем."
                     }
                 },
                 "fruit-of-fulfillment"
@@ -36,7 +37,8 @@
                     "note": {
                         "en": "This weapon should only be used if there is an [[element:electro]] DPS on the team.",
                         "fr": "Cette arme ne devrait être utilisée que s'il y a un DPS [[element:electro]] dans l'équipe.",
-                        "it": "Quest'arma dovrebbe essere utilizzata solo se nel team è presente un DPS [[element:electro]]."
+                        "it": "Quest'arma dovrebbe essere utilizzata solo se nel team è presente un DPS [[element:electro]].",
+                        "ru": "Используется только в командах с [[element:electro]] ДД."
                     }
                 },
                 {
@@ -44,7 +46,8 @@
                     "note": {
                         "en": "This weapon is a great option if the team can use the attack buff. At higher refines, this weapon performs better than **[[weapon:sacrificial-fragments]]**.",
                         "fr": "Cette arme est une très bonne option si l'équipe peut profiter du buff d'ATQ. A haut raffinements, cette arme est meilleure que **[[weapon:sacrificial-fragments]]**.",
-                        "it": "Quest'arma è un'ottima opzione se il team trae vantaggio dal potenziamento all'ATT. Ad alti miglioramenti, ha prestazioni migliori di **[[weapon:sacrificial-fragments]]**."
+                        "it": "Quest'arma è un'ottima opzione se il team trae vantaggio dal potenziamento all'ATT. Ad alti miglioramenti, ha prestazioni migliori di **[[weapon:sacrificial-fragments]]**.",
+                        "ru": "Хорошо показывает себя, если отряду полезен бонус к Силе атаки. На высоких рангах пробуждения превосходит **[[weapon:sacrificial-fragments]]**."
                     }
                 },
                 "magic-guide"
