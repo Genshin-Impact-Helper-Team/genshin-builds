@@ -22,7 +22,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Against freezable enemies, this set slightly outperforms **[[set:golden-troupe]] (4)**, however it is way worse without reliable [[element:freeze]] uptime and can be hard to build around with [[stat:cr]] weapons.",
-                                "fr": "Contre les ennemis pouvant être gelés, ce set dépasse légèrement **[[set:golden-troupe]] (4)**, mais il est bien pire sans uptime fiable de [[element:freeze]] et peut être difficile à build avec des armes en [[stat:cr]]."
+                                "fr": "Contre les ennemis pouvant être gelés, ce set dépasse légèrement **[[set:golden-troupe]] (4)**, mais il est bien pire sans uptime fiable de [[element:freeze]] et peut être difficile à build avec des armes en [[stat:cr]].",
+                                "it": "Contro nemici che possono essere **Congelati**, questo set supera leggermente **[[set:golden-troupe]] (4)**, ma risulta molto meno efficace senza un tempo di funzionamento affidabile di [[element:freeze]] e può rendere la build difficile da realizzare con armi che forniscono [[stat:cr]]."
                             }
                         }
                     ]
@@ -63,7 +64,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is very bad for [[character:escoffier]]'s personal damage, but provide an additional buff to the team.",
-                                "fr": "Ce set est très mauvais pour les dégâts personnels de [[character:escoffier]], mais apporte un buff supplémentaire à l'équipe."
+                                "fr": "Ce set est très mauvais pour les dégâts personnels de [[character:escoffier]], mais apporte un buff supplémentaire à l'équipe.",
+                                "it": "Questo set è molto scarso per i danni personali di [[character:escoffier]], ma offre un potenziamento aggiuntivo all’intero team."
                             }
                         }
                     ]
@@ -75,7 +77,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is very bad for [[character:escoffier]]'s personal damage, but provide an additional buff to the team.",
-                                "fr": "Ce set est très mauvais pour les dégâts personnels de [[character:escoffier]], mais apporte un buff supplémentaire à l'équipe."
+                                "fr": "Ce set est très mauvais pour les dégâts personnels de [[character:escoffier]], mais apporte un buff supplémentaire à l'équipe.",
+                                "it": "Questo set è molto scarso per i danni personali di [[character:escoffier]], ma offre un potenziamento aggiuntivo all’intero team."
                             }
                         }
                     ]
