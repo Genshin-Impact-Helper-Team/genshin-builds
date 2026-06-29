@@ -22,7 +22,6 @@
                 "primordial-jade-winged-spear",
                 "lumidouce-elegy",
                 "fractured-halo"
-                
             ]
         },
         {
@@ -52,7 +51,7 @@
                         "fr": "Avec un raffinement plus haut, cette arme est similaire à **[[primordial-jade-winged-spear]]**.",
                         "it": "A miglioramenti più alti, quest'arma ha prestazione simili a **[[primordial-jade-winged-spear]]**."
                     }
-                }
+                },
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
@@ -72,17 +71,17 @@
             "items": [
                 {
                     "name": "missive-windspear",
-                    "refinement": 5
+                    "refinement": 5,
                     "note": {
                         "en": "If [[character:arlecchino]] is not triggering [[element:vaporize]] or [[element:melt]], do not use this weapon**."
                     }
-                }
+                },
                 {
                     "name": "white-tassel",
                     "refinement": 5
                 }
             ]
-        },
+        }
     ],
     "notes": [
         {
