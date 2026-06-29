@@ -17,7 +17,8 @@
                     "note": {
                         "en": "The best weapon for [[character:collei]]'s personal damage, however it is generally best to opt for a support weapon like [[weapon:elegy-for-the-end]] as the teamwide buff is more valuable.",
                         "fr": "La meilleure arme pour les dégâts personnels de [[character:collei]], cependant il est généralement préférable d'opter pour une arme de soutien comme [[weapon:elegy-for-the-end]] car le buff d'équipe est plus précieux.",
-                        "it": "Questa è l'arma migliore per i danni personali di [[character:collei]], ma generalmente è meglio optare per un'arma di supporto come [[weapon:elegy-for-the-end]], in quanto il potenziamento al team è più importante."
+                        "it": "Questa è l'arma migliore per i danni personali di [[character:collei]], ma generalmente è meglio optare per un'arma di supporto come [[weapon:elegy-for-the-end]], in quanto il potenziamento al team è più importante.",
+                        "ru": "Даёт большой прирост к личному урону [[character:collei]], но в целом не рекомендуется, так как бонусы урона для команды (как, например, от **[[weapon:elegy-for-the-end|Элегии]]** зачастую приносят больше пользы."
                     }
                 }
             ]
@@ -30,7 +31,8 @@
                     "note": {
                         "en": "Should only be used at **at least [R4]**.",
                         "fr": "Ne doit être utilisé **qu'à partir de [R4]**.",
-                        "it": "Dovrebbe essere utilizzato solo quando **almeno [R4]**."
+                        "it": "Dovrebbe essere utilizzato solo quando **almeno [R4]**.",
+                        "ru": "Рекомендуется использовать только на **[R4+]**."
                     }
                 }
             ]

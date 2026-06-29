@@ -11,7 +11,8 @@
                     "name": "sapwood-blade",
                     "note": {
                         "en": "While worse than some other options in terms of shield strength, the Leaf of Consciousness buff can make it a stronger option overall.",
-                        "fr": "Bien que moins bonne que certaines autres options en termes de solidité du bouclier, le buff \"Feuille de conscience\" peut en faire une option globalement plus forte."
+                        "fr": "Bien que moins bonne que certaines autres options en termes de solidité du bouclier, le buff \"Feuille de conscience\" peut en faire une option globalement plus forte.",
+                        "ru": "Уступает по прочности щита, но бонус Семени сознания может сделать его довольно полезным."
                     }
                 }
             ]
@@ -27,7 +28,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "[[character:kirara]]'s [[stat:er]] requirements are generally low, however the passive can still be useful for generating energy for the rest of your team.",
-                        "fr": "Les besoins en [[stat:er]] de [[character:kirara]] sont généralement faibles, cependant le passif peut toujours être utile pour générer de l'énergie pour le reste de votre équipe."
+                        "fr": "Les besoins en [[stat:er]] de [[character:kirara]] sont généralement faibles, cependant le passif peut toujours être utile pour générer de l'énergie pour le reste de votre équipe.",
+                        "ru": "Потребность [[character:kirara|Кирары]] в [[stat:er|Восстановлении энергии]] обычно не слишком высока, однако оружие может быть полезно для отряда."
                     }
                 }
             ]
@@ -38,7 +40,8 @@
                     "name": "freedom-sworn",
                     "note": {
                         "en": "An option in teams which value the buff, though there are generally better users of this weapon.",
-                        "fr": "Une option dans les équipes qui valorisent le buff, bien qu'il y ait généralement de meilleurs porteurs de cette arme."
+                        "fr": "Une option dans les équipes qui valorisent le buff, bien qu'il y ait généralement de meilleurs porteurs de cette arme.",
+                        "ru": "Возможный вариант из-за бонусов оружия, но для этого меча есть и лучшие носители."
                     }
                 }
             ]

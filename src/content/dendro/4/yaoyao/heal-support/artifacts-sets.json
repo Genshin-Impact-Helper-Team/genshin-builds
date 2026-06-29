@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is the default option in teams where you care about reducing [[element:dendro]] resistance and nobody else on the team is using it.",
-                                "fr": "Ce set est l'option par défaut dans les équipes où vous voulez réduire la résistance [[element:dendro]] et où personne d'autre dans l'équipe ne l'utilise."
+                                "fr": "Ce set est l'option par défaut dans les équipes où vous voulez réduire la résistance [[element:dendro]] et où personne d'autre dans l'équipe ne l'utilise.",
+                                "ru": "Используется как стандартный вариант при нужде отряда в снижении [[element:dendro]] сопротивления, если нет иных носителей."
                             }
                         }
                     ]
@@ -25,7 +26,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is a good option in teams where reducing [[element:dendro]] resistance is not important, such as [[character:yaoyao]], [[element:anemo]], two [[element:electro]] damage dealers ([[element:aggravate]]).",
-                                "fr": "Ce set est une bonne option dans les équipes où réduire la résistance [[element:dendro]] n'est pas important, comme [[character:yaoyao]]/[[element:anemo]]/2 DPS [[element:electro]] ([[element:aggravate]])."
+                                "fr": "Ce set est une bonne option dans les équipes où réduire la résistance [[element:dendro]] n'est pas important, comme [[character:yaoyao]]/[[element:anemo]]/2 DPS [[element:electro]] ([[element:aggravate]]).",
+                                "ru": "Неплохой вариант, если снижения [[element:dendro]] сопротивления не требуется, например, в отряде с [[element:anemo]] и двумя [[element:electro]] (игра от [[element:aggravate|Обострения]])."
                             }
                         }
                     ]
@@ -41,7 +43,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Similarly to **[[set:tenacity-of-the-millelith|Tenacity]]**, this set can be a good option in teams where reducing [[element:dendro]] resistance is not important, or if someone else on the team is already using **[[set:deepwood-memories]]**. Do note that [[character:yaoyao]] has to trigger a reaction on-field to provide the 4pc bonus. Additionally, your stat potential on this set will be limited as it does not come in 5* rarity.",
-                                "fr": "De manière similaire à **[[set:tenacity-of-the-millelith]]**, ce set peut être une bonne option dans les équipes où réduire la résistance [[element:dendro]] n'est pas important, ou si quelqu'un d'autre dans l'équipe utilise déjà **[[set:deepwood-memories]]**. Notez que [[character:yaoyao]] doit déclencher une réaction on-field pour fournir le bonus 4 pièces. De plus, votre potentiel de stats sur ce set sera limité puisqu'il n'existe pas en rareté 5*."
+                                "fr": "De manière similaire à **[[set:tenacity-of-the-millelith]]**, ce set peut être une bonne option dans les équipes où réduire la résistance [[element:dendro]] n'est pas important, ou si quelqu'un d'autre dans l'équipe utilise déjà **[[set:deepwood-memories]]**. Notez que [[character:yaoyao]] doit déclencher une réaction on-field pour fournir le bonus 4 pièces. De plus, votre potentiel de stats sur ce set sera limité puisqu'il n'existe pas en rareté 5*.",
+                                "ru": "Как и **[[set:tenacity-of-the-millelith]]** (4), может быть хорошим выбором, если нет нужды в снижении [[element:dendro]] сопротивления (или есть иной носитель **[[set:deepwood-memories|Воспоминаний]]**). Обратите внимание, что [[character:yaoyao]] для активации бонуса набора должна вызывать реакции, находясь на поле. Также личные статы будут ниже, чем при использовании пятизвёздочных вариантов."
                             }
                         }
                     ]
@@ -57,7 +60,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is a good option in teams where you on-field [[character:yaoyao]] and a supportive set is not needed.",
-                                "fr": "Ce set est une bonne option dans les équipes où vous jouez [[character:yaoyao]] on-field et où un set de support n'est pas nécessaire."
+                                "fr": "Ce set est une bonne option dans les équipes où vous jouez [[character:yaoyao]] on-field et où un set de support n'est pas nécessaire.",
+                                "ru": "Стоит рассматривать, если [[character:yaoyao]] преимущественно находится на поле, а сеты поддержки не требуются."
                             }
                         }
                     ]
@@ -106,7 +110,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This option is specifically for [[character:nilou]] [[element:bloom]] teams where [[character:yaoyao]] has a significant amount of [[element:bloom]] ownership and is built with [[stat:em]]. Do note that **[[set:ocean-hued-clam]] (4)** can still be better in these teams, assuming you on-field [[character:yaoyao]].",
-                                "fr": "Cette option est spécifiquement pour les équipes [[element:bloom]] avec [[character:nilou]] où [[character:yaoyao]] déclenche la plupart des [[element:bloom]] et est build avec de la [[stat:em]]. Notez que **[[set:ocean-hued-clam]] (4)** peut toujours être meilleur dans ces équipes, en supposant que vous jouez [[character:yaoyao]] on-field."
+                                "fr": "Cette option est spécifiquement pour les équipes [[element:bloom]] avec [[character:nilou]] où [[character:yaoyao]] déclenche la plupart des [[element:bloom]] et est build avec de la [[stat:em]]. Notez que **[[set:ocean-hued-clam]] (4)** peut toujours être meilleur dans ces équipes, en supposant que vous jouez [[character:yaoyao]] on-field.",
+                                "ru": "Вариант, предназначенный для отряда [[element:bloom|Бутонизации]] с [[character:nilou]], где [[character:yaoyao]] обильно вызывает [[element:bloom|Бутонизацию]] и собирается в [[stat:em]]. Обратите внимание, что **[[set:ocean-hued-clam]] (4)** может превосходить данный набор, когда [[character:yaoyao]] играет на поле."
                             }
                         }
                     ]
@@ -122,7 +127,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This option is specifically for [[character:nilou]] [[element:bloom]] teams where [[character:yaoyao]] has a significant amount of [[element:bloom]] ownership and is built with [[stat:em]]. Do note that **[[set:ocean-hued-clam]] (4)** can still be better in these teams, assuming you on-field [[character:yaoyao]].",
-                                "fr": "Cette option est spécifiquement pour les équipes [[element:bloom]] avec [[character:nilou]] où [[character:yaoyao]] déclenche la plupart des [[element:bloom]] et est build avec de la [[stat:em]]. Notez que **[[set:ocean-hued-clam]] (4)** peut toujours être meilleur dans ces équipes, en supposant que vous jouez [[character:yaoyao]] on-field."
+                                "fr": "Cette option est spécifiquement pour les équipes [[element:bloom]] avec [[character:nilou]] où [[character:yaoyao]] déclenche la plupart des [[element:bloom]] et est build avec de la [[stat:em]]. Notez que **[[set:ocean-hued-clam]] (4)** peut toujours être meilleur dans ces équipes, en supposant que vous jouez [[character:yaoyao]] on-field.",
+                                "ru": "Вариант, предназначенный для отряда [[element:bloom|Бутонизации]] с [[character:nilou]], где [[character:yaoyao]] обильно вызывает [[element:bloom|Бутонизацию]] и собирается в [[stat:em]]. Обратите внимание, что **[[set:ocean-hued-clam]] (4)** может превосходить данный набор, когда [[character:yaoyao]] играет на поле."
                             }
                         }
                     ]
@@ -142,7 +148,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "This option is specifically for [[character:nilou]] [[element:bloom]] teams where [[character:yaoyao]] has a significant amount of [[element:bloom]] ownership and is built with [[stat:em]]. Do note that **[[set:ocean-hued-clam]] (4)** can still be better in these teams, assuming you on-field [[character:yaoyao]].",
-                                "fr": "Cette option est spécifiquement pour les équipes [[element:bloom]] avec [[character:nilou]] où [[character:yaoyao]] possède une part importante des déclenchements de [[element:bloom]] et est build avec de la [[stat:em]]. Notez que **[[set:ocean-hued-clam]] (4)** peut toujours être meilleure dans ces équipes, en supposant que vous jouez [[character:yaoyao]] on-field."
+                                "fr": "Cette option est spécifiquement pour les équipes [[element:bloom]] avec [[character:nilou]] où [[character:yaoyao]] possède une part importante des déclenchements de [[element:bloom]] et est build avec de la [[stat:em]]. Notez que **[[set:ocean-hued-clam]] (4)** peut toujours être meilleure dans ces équipes, en supposant que vous jouez [[character:yaoyao]] on-field.",
+                                "ru": "Вариант, предназначенный для отряда [[element:bloom|Бутонизации]] с [[character:nilou]], где [[character:yaoyao]] обильно вызывает [[element:bloom|Бутонизацию]] и собирается в [[stat:em]]. Обратите внимание, что **[[set:ocean-hued-clam]] (4)** может превосходить данный набор, когда [[character:yaoyao]] играет на поле."
                             }
                         }
                     ]
