@@ -2,12 +2,14 @@
     "best": true,
     "name": {
         "en": "Buff Support",
-        "fr": "Support Buff"
+        "fr": "Support Buff",
+        "it": "Supporto Potenziamento"
     },
     "notes": [
         {
             "en": "While [[character:citlali]] mainly provides sustain through her shield, her passive **Mamaloaco's Frigid Rain**, which provides [[element:hydro]] and [[element:pyro]] RES reduction, and the ability to fully utilize **[[set:scroll]]** give her access to great offensive utility for the team.",
-            "fr": "Bien que [[character:citlali]] offre principalement du support grâce à son bouclier, son passif **Pluie frigide de Mamaloaco** qui baisse la RES [[element:hydro]] et [[element:pyro]] ainsi que sa capacité à utiliser pleinement **[[set:scroll]]** lui permettent d'offrir de très bonnes commodités offensives pour l'équipe."
+            "fr": "Bien que [[character:citlali]] offre principalement du support grâce à son bouclier, son passif **Pluie frigide de Mamaloaco** qui baisse la RES [[element:hydro]] et [[element:pyro]] ainsi que sa capacité à utiliser pleinement **[[set:scroll]]** lui permettent d'offrir de très bonnes commodités offensives pour l'équipe.",
+            "it": "Oltre a fornire utilità difensiva al team attraverso il suo scudo, il Talento passivo di [[character:citlali]] 'Pioggia gelida di Mamaloaco' **riduce la RES [[element:hydro]] e [[element:pyro]] dei nemici. Questo, insieme alla capacità di sfruttare appieno il set **[[set:scroll]]**, le consente di offrire anche una grande utilità offensiva al team."
         }
     ]
 }
