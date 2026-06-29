@@ -5,6 +5,18 @@
                 {
                     "items": [
                         {
+                            "name": "celestial-gift",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "noblesse",
                             "pieces": 4
                         }
@@ -33,7 +45,8 @@
                             "pieces": 4,
                             "notes": {
                                 "en": "Run this set if there's already another character with **[[set:noblesse]] (4)** on the team.",
-                                "fr": "Jouez ce set s'il y a déjà un personnage avec **[[set:noblesse]] (4)** dans l'équipe."
+                                "fr": "Jouez ce set s'il y a déjà un personnage avec **[[set:noblesse]] (4)** dans l'équipe.",
+                                "ru": "Сет используется, если в команде уже есть носитель Церемонии древней знати (4)."
                             }
                         }
                     ]
@@ -45,7 +58,8 @@
                             "pieces": 4,
                             "notes": {
                                 "en": "Run this set if there's already another character with **[[set:noblesse]] (4)** on the team.",
-                                "fr": "Jouez ce set s'il y a déjà un personnage avec **[[set:noblesse]] (4)** dans l'équipe."
+                                "fr": "Jouez ce set s'il y a déjà un personnage avec **[[set:noblesse]] (4)** dans l'équipe.",
+                                "ru": "Сет используется, если в команде уже есть носитель Церемонии древней знати (4)."
                             }
                         }
                     ]

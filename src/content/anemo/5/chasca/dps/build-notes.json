@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "global": {
@@ -12,22 +13,26 @@
         {
             "en": "[[character:chasca]] is a DPS that focuses on dealing damage through her converted Shining Shadowhunt Shells. Her [[element:anemo]] damage is considerably low, therefore she is best played with multiple different PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) elements present on the team to enable reactions and convert as many Shells as possible.",
             "fr": "[[character:chasca]] est un DPS qui se concentre sur les dégâts de ses Cartouches Radieuses de Chassombre. Ses dégâts [[element:anemo]] sont considérablement faibles, elle est donc mieux jouée avec plusieurs éléments PHEC différents ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) présents dans l'équipe pour permettre des réactions et convertir autant de projectiles que possible.",
-            "it": "[[character:chasca]] è una DPS che si concentra sull'infliggere danni tramite i suoi Proiettili Cacciaombre radiosi convertiti in altri elementi. I suoi danni [[element:anemo]] sono decisamente bassi, di conseguenza i suoi team migliori includono diversi elementi PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) per abilitare reazioni e convertire il più Proiettili possibili."
+            "it": "[[character:chasca]] è una DPS che si concentra sull'infliggere danni tramite i suoi Proiettili Cacciaombre radiosi convertiti in altri elementi. I suoi danni [[element:anemo]] sono decisamente bassi, di conseguenza i suoi team migliori includono diversi elementi PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) per abilitare reazioni e convertire il più Proiettili possibili.",
+            "ru": "[[character:chasca]] - ДД, который наносит урон преимущественно за счёт Пуль охотника на тени с конвертируемым уроном. Её чистый [[element:anemo]] урон невысок, поэтому в отряде должно быть несколько персонажей с различными элементами ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]), чтобы конвертировать как можно больше снарядов и вызывать больше реакций."
         },
         {
             "en": "[[character:chasca]]'s bullets follow the 'last in first out' rule, meaning the last loaded bullet hits first, while the [[element:anemo]] bullet in slot 1 hits last.",
             "fr": "Les balles de [[character:chasca]] suivent la règle du « dernier entré, premier sorti », ce qui signifie que la dernière balle chargée touche en premier, tandis que la balle [[element:anemo]] à l'emplacement 1 touche en dernier.",
-            "it": "I proiettili di Chasca seguono la regola 'ultimo ad entrare primo ad uscire', il che significa che l'ultimo proiettile caricato sarà il primo a colpire, mentre il proiettile [[element:anemo]] al primo posto colpirà per ultimo."
+            "it": "I proiettili di Chasca seguono la regola 'ultimo ad entrare primo ad uscire', il che significa che l'ultimo proiettile caricato sarà il primo a colpire, mentre il proiettile [[element:anemo]] al primo posto colpirà per ultimo.",
+            "ru": "Пули [[character:chasca|Часки]] работают по принципу зарядился последним - выстрелил первым, то есть последняя заряженная Пуля охотника на тени бьёт первой, а [[element:anemo]] пуля, заряженная раньше всех - последней."
         },
         {
             "en": "[[character:chasca]] ideally needs 3 different types of PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) to maximize the conversion rate and Damage Bonus from her passive Bullet Trick.",
             "fr": "[[character:chasca]] a idéalement besoin de 3 types différents de PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) pour maximiser le taux de conversion et le bonus de dégâts de son passif Astuce Balistique.",
-            "it": "Idealmente [[character:chasca]] necessita di 3 diversi tipi di PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) per massimizzare il tasso di conversione ed il DAN Bonus del Talento A1 Trucco del proiettile."
+            "it": "Idealmente [[character:chasca]] necessita di 3 diversi tipi di PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) per massimizzare il tasso di conversione ed il DAN Bonus del Talento A1 Trucco del proiettile.",
+            "ru": "В идеале [[character:chasca|Часке]] нужны 3 персонажа разных стихий ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]), чтобы конвертировать максимальное число пуль и реализовать Пассивный талант Трюк с пулей."
         },
         {
             "en": "Ideal Combo: {rot:4[CA6]}. The number after 'CA' refers to the number of Bullets loaded",
             "fr": "Combo idéal : {rot:4[CA6]}. Le nombre après « CA » correspond au nombre de balles chargées.",
-            "it": "**Combo ideale:** {rot:4[CA6]}. Il numero dopo 'CA' si riferisce al numero di proiettili caricati."
+            "it": "**Combo ideale:** {rot:4[CA6]}. Il numero dopo 'CA' si riferisce al numero di proiettili caricati.",
+            "ru": "Идеальное комбо: {rot:4[CA6]}. Число после 'CA' - количество зарядов Пуль охотника на тени."
         }
     ]
 }

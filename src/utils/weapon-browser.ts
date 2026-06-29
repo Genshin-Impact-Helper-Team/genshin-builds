@@ -1,4 +1,3 @@
-import fs from 'fs';
 import path from 'path';
 import translationAliases from '../data/translation-aliases.json';
 import {
@@ -6,6 +5,7 @@ import {
   getPublicCharacterSlug,
 } from './character-slugs';
 import { loadJSON, readJSONFile } from './content';
+import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale, t } from './i18n';
 import { resolveWeaponAssetUrl } from './item-assets';
 import { localizedPath } from './paths';
@@ -147,98 +147,36 @@ function normalizeWeaponItemId(item: any) {
  * @returns Weapon IDs mapped to the characters that rank them.
  */
 function getWeaponRankingUsage(locale: any, lang: string) {
-  const contentPath = path.resolve('src/content');
   const usageByWeapon = new Map<string, WeaponRankingUsage[]>();
 
-  if (!fs.existsSync(contentPath)) {
-    return usageByWeapon;
+  for (const character of getContentCharacters()) {
+    const characterName = getPublicCharacterName(locale, character);
+    const href = localizedPath(lang, getPublicCharacterSlug(character));
+    const usageEntry = {
+      characterName,
+      characterRarity: character.rarity,
+      href,
+    };
+
+    for (const build of getCharacterBuilds(character.characterPath)) {
+      if (loadJSON(build.path, 'build-notes.json')?.best !== true) continue;
+
+      const rankingGroups = loadJSON(build.path, 'weapons.json')?.weapons ?? [];
+      const seenInBuild = new Set<string>();
+
+      for (const group of rankingGroups) {
+        for (const item of group.items ?? []) {
+          const weaponId = normalizeWeaponItemId(item);
+          if (!weaponId || seenInBuild.has(weaponId)) continue;
+
+          seenInBuild.add(weaponId);
+          const usage = usageByWeapon.get(weaponId) ?? [];
+          if (!usage.some((item) => item.href === href)) usage.push(usageEntry);
+          usageByWeapon.set(weaponId, usage);
+        }
+      }
+    }
   }
-
-  fs.readdirSync(contentPath, { withFileTypes: true })
-    .filter((element) => element.isDirectory() && element.name !== 'site')
-    .forEach((element) => {
-      const elementPath = path.join(contentPath, element.name);
-
-      fs.readdirSync(elementPath, { withFileTypes: true })
-        .filter((rarity) => rarity.isDirectory())
-        .forEach((rarity) => {
-          const rarityPath = path.join(elementPath, rarity.name);
-
-          fs.readdirSync(rarityPath, { withFileTypes: true })
-            .filter((character) => character.isDirectory())
-            .forEach((character) => {
-              const characterPath = path.join(rarityPath, character.name);
-              const metadataPath = path.join(characterPath, 'metadata.json');
-
-              if (!fs.existsSync(metadataPath)) {
-                return;
-              }
-
-              const characterName = getPublicCharacterName(locale, {
-                character: character.name,
-                element: element.name,
-              });
-              const characterSlug = getPublicCharacterSlug({
-                character: character.name,
-                element: element.name,
-              });
-              const href = localizedPath(lang, characterSlug);
-
-              fs.readdirSync(characterPath, { withFileTypes: true })
-                .filter((build) => build.isDirectory())
-                .forEach((build) => {
-                  const buildPath = path.join(characterPath, build.name);
-                  const buildNoteData = loadJSON(buildPath, 'build-notes.json');
-
-                  if (buildNoteData?.best !== true) {
-                    return;
-                  }
-
-                  const rawWeapons = loadJSON(buildPath, 'weapons.json');
-                  const rankingGroups = Array.isArray(rawWeapons?.weapons)
-                    ? rawWeapons.weapons
-                    : [];
-
-                  if (rankingGroups.length === 0) {
-                    return;
-                  }
-
-                  const usageEntry = {
-                    characterName,
-                    characterRarity: rarity.name,
-                    href,
-                  };
-                  const seenInBuild = new Set<string>();
-
-                  rankingGroups.forEach((group: { items?: any[] }) => {
-                    if (!Array.isArray(group?.items)) {
-                      return;
-                    }
-
-                    group.items.forEach((item) => {
-                      const weaponId = normalizeWeaponItemId(item);
-
-                      if (!weaponId || seenInBuild.has(weaponId)) {
-                        return;
-                      }
-
-                      seenInBuild.add(weaponId);
-
-                      if (!usageByWeapon.has(weaponId)) {
-                        usageByWeapon.set(weaponId, []);
-                      }
-
-                      const usage = usageByWeapon.get(weaponId);
-
-                      if (!usage?.some((item) => item.href === href)) {
-                        usage?.push(usageEntry);
-                      }
-                    });
-                  });
-                });
-            });
-        });
-    });
 
   usageByWeapon.forEach((usage) => {
     usage.sort((a, b) => a.characterName.localeCompare(b.characterName));

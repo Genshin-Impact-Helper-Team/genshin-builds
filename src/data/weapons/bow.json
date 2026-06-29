@@ -1,6 +1,7 @@
 {
     "alley-hunter": {
         "rarity": 4,
+        "version_released": "1.4",
         "passive": {
             "en": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by {{value}}% every second up to a max of {{value}}%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by {{value}}% per second until it reaches 0%.",
             "de": "Erhöht den von der mit dieser Waffe ausgerüsteten Figur verursachten Schaden, wenn diese Figur in der Truppe, aber nicht eingewechselt ist, pro s um {{value}}% und insgesamt um bis zu {{value}}%. Verringert diesen Schadensbonus 4 s nach Einwechseln dieser Figur pro s um {{value}}%, bis der Bonus auf 0 % gefallen ist.",
@@ -47,6 +48,7 @@
     },
     "amos-bow": {
         "rarity": 5,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases Normal and Charged Attack DMG by {{value}}%. After a Normal or Charged Attack is fired, DMG dealt increases by a further {{value}}% every 0.1s the arrow is in the air for up to 5 times.",
             "de": "Erhöht den mit Standardangriffen und heftigen Schlägen verursachten Schaden um {{value}}% und den Gesamtschaden von Pfeilen von Standardangriffen und heftigen Schlägen alle 0,1 s nach dem Abschießen um {{value}}%, 5-fach stapelbar.",
@@ -88,6 +90,7 @@
     },
     "aqua-simulacra": {
         "rarity": 5,
+        "version_released": "2.7",
         "passive": {
             "en": "HP is increased by {{value}}%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by {{value}}%. This will take effect whether the character is on-field or not.",
             "de": "Erhöht die LP um {{value}}%. Erhöht, wenn es in der Umgebung Gegner gibt, den durch die mit dieser Waffe ausgerüstete Figur verursachten Schaden um {{value}}%, ganz gleich, ob sie aktiv oder inaktiv ist.",
@@ -129,6 +132,7 @@
     },
     "astral-vultures-crimson-plumage": {
         "rarity": 5,
+        "version_released": "5.2",
         "passive": {
             "en": "For 12s after triggering a Swirl reaction, ATK increases by {{value}}%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by {{value}}% / {{value}}% and Elemental Burst DMG dealt is increased by {{value}}% / {{value}}%.",
             "de": "Erhöht den ANG nach Auslösen der Reaktion Verwirbelung 12 s lang um {{value}}%. Erhöht, wenn sich mindestens 1/2 Figur(en) in der Truppe befinden, deren Elementartypen sich von dem des Trägers unterscheiden, den mit heftigen Schlägen des Trägers verursachten Schaden um {{value}}% / {{value}}% und den mit Spezialfähigkeiten des Trägers verursachten Schaden um {{value}}% / {{value}}%.",
@@ -185,6 +189,7 @@
     },
     "blackcliff-warbow": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
             "en": "After defeating an enemy, ATK is increased by {{value}}% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
@@ -222,6 +227,7 @@
     },
     "chain-breaker": {
         "rarity": 4,
+        "version_released": "5.0",
         "source": "Craft",
         "passive": {
             "en": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains {{value}}% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains {{value}} Elemental Mastery.",
@@ -264,6 +270,7 @@
     },
     "cloudforged": {
         "rarity": 4,
+        "version_released": "4.7",
         "source": "Event",
         "passive": {
             "en": "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by {{value}} for 18s. Max 2 stacks.",
@@ -301,6 +308,7 @@
     },
     "compound-bow": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Craft",
         "passive": {
             "en": "Normal Attack and Charged Attack hits increase ATK by {{value}}% and Normal ATK SPD by {{value}}% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
@@ -343,6 +351,7 @@
     },
     "elegy-for-the-end": {
         "rarity": 5,
+        "version_released": "1.4",
         "passive": {
             "en": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by {{value}}. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by {{value}} and increases ATK by {{value}}%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
             "de": "Ein Teil der „Bewegung des Jahrtausends“, die mit dem Wind zieht. Erhöht die Elementarkunde um {{value}} Punkte. Gibt der damit ausgerüsteten Figur beim Treffen von Gegnern mit Elementarfähigkeiten und Spezialfähigkeiten ein Zeichen des Gedenkens, 0,2 s Abklingzeit. Der Effekt bleibt auch bestehen, wenn die Figur ausgewechselt wird. Verbraucht alle Zeichen des Gedenkens, sobald 4 davon vorhanden sind, und verleiht allen Truppenmitgliedern in der Nähe den 12 s anhaltenden Effekt von „Bewegung des Jahrtausends &ndash; Lied vom Abschied“: Erhöht die Elementarkunde um {{value}} Punkte und den ANG um {{value}}%. Nach Auslösen dieses Effekts kann 20 s lang kein weiteres Zeichen des Gedenkens erhalten werden. Die verschiedenen durch „Bewegung des Jahrtausends“ ausgelösten Boni können bei gleicher Art nicht gestapelt werden.",
@@ -389,6 +398,7 @@
     },
     "end-of-the-line": {
         "rarity": 4,
+        "version_released": "3.0",
         "source": "Fishing",
         "passive": {
             "en": "Triggers the Flowrider effect after using an Elemental Skill, dealing {{value}}% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
@@ -426,6 +436,7 @@
     },
     "fading-twilight": {
         "rarity": 4,
+        "version_released": "2.7",
         "source": "Event",
         "passive": {
             "en": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by {{value}}/{{value}}/{{value}}% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field.",
@@ -473,6 +484,7 @@
     },
     "favonius-warbow": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}}s.",
             "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
@@ -514,6 +526,7 @@
     },
     "flower-wreathed-feathers": {
         "rarity": 4,
+        "version_released": "5.2",
         "passive": {
             "en": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by {{value}}% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
             "de": "Verringert die beim Gleiten verbrauchte Ausdauer um 15 %. Erhöht den mit heftigen Schlägen verursachten Schaden beim gezielten Schuss alle 0,5 s um {{value}}%, 6-fach stapelbar. Dieser Effekt wird 10 s, nachdem die Figur nicht mehr im Zielmodus ist, entfernt.",
@@ -550,6 +563,7 @@
     },
     "golden-frostbound-oath": {
         "rarity": 5,
+        "version_released": "6.5 / Luna VI",
         "passive": {
             "en": "Increase DEF by {{value}}%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by {{value}}%, Lunar-Crystallize Reaction DMG increases by {{value}}%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by {{value}}% and Lunar-Crystallize Reaction DMG increases by {{value}}%. This effect can be triggered even when the equipping character is off-field.",
             "de": "Erhöht die VTD um {{value}}%. Verleiht dem Träger, wenn er Gegner mit seiner Elementarfähigkeit oder Mond-Kristallisation trifft, 6 s lang den Effekt „Dank der Frostfee“: Erhöht den durch den Träger verursachten Geo-SCH um {{value}}% und den verursachten Mond-Kristallisations-SCH um {{value}}%. Verleiht, wenn sich während der Dauer ein Mondkäfig in der Nähe des Trägers befindet, allen anderen Truppenmitgliedern in der Nähe zusätzlich den Effekt „Untaten der Frostfee“: Erhöht den verursachten Geo-SCH um {{value}}% und den verursachten Mond-Kristallisations-SCH um {{value}}%. Dieser Effekt kann auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.",
@@ -606,6 +620,7 @@
     },
     "hamayumi": {
         "rarity": 4,
+        "version_released": "2.0",
         "source": "Craft",
         "passive": {
             "en": "Increases Normal Attack DMG by {{value}}% and Charged Attack DMG by {{value}}%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
@@ -648,6 +663,7 @@
     },
     "hunters-bow": {
         "rarity": 1,
+        "version_released": "1.0",
         "passive": {
             "en": ""
         },
@@ -663,6 +679,7 @@
     },
     "hunters-path": {
         "rarity": 5,
+        "version_released": "3.0",
         "passive": {
             "en": "Gain {{value}}% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by {{value}}% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
             "de": "Erhöht den Schaden aller Elemente um {{value}}%. Erhält nach Treffern mit heftigen Schlägen den Effekt „Unermüdliche Jagd“: Erhöht den Schaden heftiger Schläge um {{value}}% der Elementarkunde. Dieser Effekt verschwindet nach 10 s oder 12 heftigen Schlägen. 12 s Abklingzeit.",
@@ -704,6 +721,7 @@
     },
     "ibis-piercer": {
         "rarity": 4,
+        "version_released": "3.7",
         "source": "Event",
         "passive": {
             "en": "The character's Elemental Mastery will increase by {{value}} within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.",
@@ -741,6 +759,7 @@
     },
     "kings-squire": {
         "rarity": 4,
+        "version_released": "3.0",
         "source": "Craft",
         "passive": {
             "en": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by {{value}} for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal {{value}}% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
@@ -783,6 +802,7 @@
     },
     "messenger": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "Charged Attack hits on weak points deal an additional {{value}}% ATK DMG as CRIT DMG. Can only occur once every 10s.",
@@ -820,6 +840,7 @@
     },
     "mitternachts-waltz": {
         "rarity": 4,
+        "version_released": "1.6",
         "passive": {
             "en": "Normal Attack hits on opponents increase Elemental Skill DMG by {{value}}% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by {{value}}% for 5s.",
             "de": "Erhöht den mit Elementarfähigkeiten verursachten Schaden nach dem Treffen von Gegnern mit Standardangriffen 5 s lang um {{value}}%. Erhöht den mit Standardangriffen verursachten Schaden nach dem Treffen von Gegnern mit Elementarfähigkeiten 5 s lang um {{value}}%.",
@@ -861,6 +882,7 @@
     },
     "mouuns-moon": {
         "rarity": 4,
+        "version_released": "2.2",
         "passive": {
             "en": "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by {{value}}%. A maximum of {{value}}% increased Elemental Burst DMG can be achieved this way.",
             "de": "Erhöht den mit Spezialfähigkeiten der mit dieser Waffe ausgerüsteten Figur verursachten Schaden für jeden Punkt aus der Summe der max. Elementarenergie aller Truppenmitglieder zusammengerechnet um {{value}}%. Erhöht den mit Spezialfähigkeit verursachten Schaden auf diese Weise um bis zu {{value}}%.",
@@ -902,6 +924,7 @@
     },
     "polar-star": {
         "rarity": 5,
+        "version_released": "2.2",
         "passive": {
             "en": "Elemental Skill and Elemental Burst DMG increased by {{value}}%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by {{value}}/{{value}}/{{value}}/{{value}}% . The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others.",
             "de": "Erhöht den mit Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um {{value}}%. Erschafft beim Treffen von Gegnern mit Standardangriffen, heftigen Schlägen, Elementarfähigkeiten oder Spezialfähigkeiten 1 12 s anhaltende Stapelung des Effekts „Stern der weißen Nacht“. Erhöht den ANG bei 1/2/3/4 Stapelungen von „Stern der weißen Nacht“ um {{value}}/{{value}}/{{value}}/{{value}}%. Die durch Standardangriffe, heftige Schläge, Elementarfähigkeiten oder Spezialfähigkeiten entstandenen Effekte von „Stern der weißen Nacht“ existieren unabhängig voneinander.",
@@ -958,6 +981,7 @@
     },
     "predator": {
         "rarity": 4,
+        "version_released": "2.1",
         "source": "Playstation",
         "passive": {
             "en": "Effective only on the following platform: <br>\"PlayStation™Network\"<br>Dealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66.",
@@ -980,6 +1004,7 @@
     },
     "prototype-crescent": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Craft",
         "passive": {
             "en": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by {{value}}% for 10s.",
@@ -1017,6 +1042,7 @@
     },
     "rainbow-serpents-rain-bow": {
         "rarity": 4,
+        "version_released": "6.2 / Luna III",
         "source": "Event",
         "passive": {
             "en": "ATK is increased by {{value}}% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
@@ -1054,6 +1080,7 @@
     },
     "range-gauge": {
         "rarity": 4,
+        "version_released": "4.1",
         "passive": {
             "en": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain {{value}}% ATK and {{value}}% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
             "de": "Verleiht der Figur bei erhaltener Heilung, oder wenn sie jemanden heilt, ein Zeichen des Zusammenhalts, hält 30 s. Es können max. bis zu 3 Zeichen des Zusammenhalts vorhanden sein. Verbraucht beim Auslösen der Elementarfähigkeit oder der Spezialfähigkeit alle Zeichen des Zusammenhalts und löst den Effekt „Auflehnung“ aus, der 10 s hält: Jedes verbrauchte Zeichen des Zusammenhalts erhöht den ANG um {{value}}% und den Elementar-SCH-Bonus aller Elemente um {{value}}%. 15 s Abklingzeit für den Effekt „Auflehnung“. Zeichen des Zusammenhalts können auch erhalten werden, wenn die Figur inaktiv in der Truppe ist.",
@@ -1095,6 +1122,7 @@
     },
     "raven-bow": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases DMG against opponents affected by Hydro or Pyro by {{value}}%.",
             "de": "Erhöht den von Hydro- oder Pyro-Effekten betroffenen Gegnern zugefügten Schaden um {{value}}%.",
@@ -1131,6 +1159,7 @@
     },
     "recurve-bow": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "Defeating an opponent restores {{value}}% HP.",
@@ -1168,6 +1197,7 @@
     },
     "royal-bow": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
             "en": "Upon damaging an opponent, increases CRIT Rate by {{value}}%. Max 5 stacks. A CRIT Hit removes all stacks.",
@@ -1205,6 +1235,7 @@
     },
     "rust": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases Normal Attack DMG by {{value}}% but decreases Charged Attack DMG by 10%.",
             "de": "Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% und verringert den mit heftigen Schlägen verursachten Schaden um 10 %.",
@@ -1241,6 +1272,7 @@
     },
     "sacrificial-bow": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every {{value}} s.",
             "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
@@ -1282,6 +1314,7 @@
     },
     "scion-of-the-blazing-sun": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Battle Pass",
         "passive": {
             "en": "After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing {{value}}% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take {{value}}% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s.",
@@ -1324,6 +1357,7 @@
     },
     "seasoned-hunters-bow": {
         "rarity": 2,
+        "version_released": "1.0",
         "passive": {
             "en": ""
         },
@@ -1339,6 +1373,7 @@
     },
     "sequence-of-solitude": {
         "rarity": 4,
+        "version_released": "5.6",
         "source": "Event",
         "passive": {
             "en": "When an attack hits an opponent, deal AoE DMG equal to {{value}}% of Max HP at the target location. This effect can be triggered once every 15s.",
@@ -1376,6 +1411,7 @@
     },
     "sharpshooters-oath": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases DMG against weak spots by {{value}}%.",
             "de": "Erhöht den Schwachstellen zugefügten Schaden um {{value}}%.",
@@ -1412,6 +1448,7 @@
     },
     "silvershower-heartstrings": {
         "rarity": 5,
+        "version_released": "4.7",
         "passive": {
             "en": "The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by {{value}}/{{value}}/{{value}}%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by {{value}}%. This effect will be canceled 4s after falling under 3 stacks.",
             "de": "Verleiht dem Träger „Behandlung“. Erhöht die max. LP des Trägers bei 1/2/3 Stapelungen Behandlung um jeweils {{value}}/{{value}}/{{value}}%. Bedingungen zum Verleihen einer Stapelung Behandlung: Beim Auslösen der Elementarfähigkeit, hält 25 s; bei Erhöhung des Werts von Eid des Lebens, hält 25 s; bei aktiver Heilung durch den Träger, hält 20 s. Kann auch dann ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet. Die Wirkungsdauer jeder Stapelung Behandlung wird unabhängig voneinander berechnet. Erhöht bei 3 Stapelungen Behandlung außerdem die KT der Spezialfähigkeit um {{value}}%. Bei weniger als 3 Stapelungen Behandlung wird der Effekt nach 4 s entfernt.",
@@ -1463,6 +1500,7 @@
     },
     "skyward-harp": {
         "rarity": 5,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases CRIT DMG by {{value}}%. Hits have a {{value}}% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every {{value}} s",
             "de": "Erhöht den KSCH um {{value}}% und verursacht bei einem Treffer mit einer Wahrscheinlichkeit von {{value}}% physischen Schaden mit geringer Reichweite in Höhe von 125 % ANG. {{value}} s Abklingzeit.",
@@ -1509,6 +1547,7 @@
     },
     "slingshot": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by {{value}}%. Otherwise, decreases DMG by 10%.",
             "de": "Erhöht den Schaden beim Treffen von Gegnern mit Pfeilen von Standardangriffen und heftigen Schlägen innerhalb von 0,3 s nach dem Abschießen eines Pfeils um {{value}}%, verringert den verursachten Schaden ansonsten jedoch um 10 %.",
@@ -1545,6 +1584,7 @@
     },
     "snare-hook": {
         "rarity": 4,
+        "version_released": "6.0 / Luna I",
         "source": "Craft",
         "passive": {
             "en": "Upon causing an Elemental Reaction, increases Elemental Mastery by {{value}} for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by {{value}}. This effect can be triggered even if the equipping character is off-field.",
@@ -1587,6 +1627,7 @@
     },
     "song-of-stillness": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Craft",
         "passive": {
             "en": "After the wielder is healed, they will deal {{value}}% more DMG for 8s. This can be triggered even when the character is not on the field.",
@@ -1624,6 +1665,7 @@
     },
     "the-daybreak-chronicles": {
         "rarity": 5,
+        "version_released": "6.2 / Luna III",
         "passive": {
             "en": "The equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by {{value}}%. While in combat, this DMG Bonus will decrease by {{value}}% per second until it reaches 0%. When the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by {{value}}% until it reaches {{value}}%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.<br>Additionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by {{value}}% instead.",
             "de": "Verleiht dem Träger „Aufsteigende Morgenbrise“: Erhöht den durch Standardangriffe, Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um {{value}}%, sobald der Träger den Kampf für 3 s verlassen hat. Verringert den oben genannten SCH-Bonus im Kampf jede Sekunde um {{value}}%, bis auf 0 %. Erhöht, wenn der Träger Gegner mit Standardangriffen, Elementarfähigkeiten oder Spezialfähigkeiten trifft, den SCH-Bonus für die entsprechende Art um {{value}}%, bis auf max. {{value}}%. 0,1 s Abklingzeit für jede obige Angriffsart. Dieser Effekt kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.<br>Wenn der Effekt „Hexerei &ndash; Geheimes Ritual“ in der Truppe vorhanden ist: Erhöht stattdessen, wenn der Träger Gegner mit Standardangriffen, Elementarfähigkeiten oder Spezialfähigkeiten trifft, den SCH-Bonus für alle Arten um {{value}}%.",
@@ -1680,6 +1722,7 @@
     },
     "the-first-great-magic": {
         "rarity": 5,
+        "version_released": "4.0",
         "passive": {
             "en": "DMG dealt by Charged Attacks increased by {{value}}%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by {{value}}/{{value}}/{{value}}%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by {{value}}/{{value}}/{{value}}%.",
             "de": "Erhöht den mit heftigen Schlägen verursachten Schaden um {{value}}%. Verleiht für jede Figur in der Truppe, die den gleichen Elementartyp wie der Träger hat (einschließlich des Trägers selbst), 1 Stapelung „Tricks“ hinzu. Verleiht für jede Figur in der Truppe, die nicht den gleichen Elementartyp hat, 1 Stapelung „Schauspielkunst“ hinzu. Erhöht den ANG bei 1/2/3 oder mehr Stapelungen von „Tricks“ um {{value}}/{{value}}/{{value}}%. Erhöht die Bewegungsgeschwindigkeit bei 1/2/3 oder mehr Stapelungen von „Schauspielkunst“ um {{value}}/{{value}}/{{value}}%.",
@@ -1746,6 +1789,7 @@
     },
     "the-stringless": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases Elemental Skill and Elemental Burst DMG by {{value}}%.",
             "de": "Erhöht den Schaden von Elementarfähigkeiten und Spezialfähigkeiten um {{value}}%.",
@@ -1782,6 +1826,7 @@
     },
     "the-viridescent-hunt": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Battle Pass",
         "passive": {
             "en": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing {{value}}% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every {{value}} s.",
@@ -1824,6 +1869,7 @@
     },
     "thundering-pulse": {
         "rarity": 5,
+        "version_released": "2.0",
         "passive": {
             "en": "Increases ATK by {{value}}% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by {{value}}/{{value}}/{{value}}%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
             "de": "Erhöht den ANG um {{value}}% und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils {{value}}/{{value}}/{{value}}%. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig.",
@@ -1875,6 +1921,7 @@
     },
     "windblume-ode": {
         "rarity": 4,
+        "version_released": "1.4",
         "source": "Event",
         "passive": {
             "en": "After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by {{value}}% for 6s.",

@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "[[element:cryo]] DPS",
-        "fr": "DPS [[element:cryo]]"
+        "fr": "DPS [[element:cryo]]",
+        "it": "DPS [[element:cryo]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[element:cryo]] DPS [[character:freminet]] uses Level Zero Shattering Pressure instances to deal [[element:cryo]] damage with his [[ability:skill]]. Rankings assume he can reliably trigger Shatter.",
-            "fr": "[[character:freminet]] DPS [[element:cryo]] utilise des instances de Concassage Présurisé de niveau zéro pour infliger des dégâts [[element:cryo]] avec son [[ability:skill]]. Les classements supposent qu'il peut déclencher Brise-Glace de manière fiable."
+            "fr": "[[character:freminet]] DPS [[element:cryo]] utilise des instances de Concassage Présurisé de niveau zéro pour infliger des dégâts [[element:cryo]] avec son [[ability:skill]]. Les classements supposent qu'il peut déclencher Brise-Glace de manière fiable.",
+            "it": "[[character:freminet]] DPS [[element:cryo]] utilizza istanze di Pressione Frantumante a livello zero per infliggere danni [[element:cryo]] con la sua [[ability:skill]]. Le classifiche presuppongono che sia in grado di provocare Rompigelo (Shatter) in maniera affidabile."
         },
         {
             "en": "Rotation: {rot:E E Q 4[E E (N1 or N2)]}",
-            "fr": "Rotation : {rot:E E A 4[E E (N1 or N2)]}"
+            "fr": "Rotation : {rot:E E A 4[E E (N1 or N2)]}",
+            "it": "Rotation : {rot:EEQ 4[EE(N1 o N2)]}"
         }
     ]
 }

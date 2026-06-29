@@ -6,6 +6,7 @@ import {
 } from './character-slugs';
 import { resolveCharacterAssetUrl } from './character-assets';
 import { readJSONFile, toTitleCase } from './content';
+import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale } from './i18n';
 import { TranslationHelper } from './translator';
 
@@ -35,27 +36,20 @@ function getBuildSummaries(
   lang: string,
   translator: TranslationHelper,
 ) {
-  return fs
-    .readdirSync(characterPath, { withFileTypes: true })
-    .filter((build) => build.isDirectory())
-    .map((build) => {
-      const buildNotesPath = path.join(
-        characterPath,
-        build.name,
-        'build-notes.json',
-      );
-      const buildNoteData = fs.existsSync(buildNotesPath)
-        ? readJSONFile(buildNotesPath)
-        : null;
-      const rawBuildName =
-        buildNoteData?.name?.[lang] ??
-        buildNoteData?.name?.en ??
-        toTitleCase(build.name);
+  return getCharacterBuilds(characterPath).map((build) => {
+    const buildNotesPath = path.join(build.path, 'build-notes.json');
+    const buildNoteData = fs.existsSync(buildNotesPath)
+      ? readJSONFile(buildNotesPath)
+      : null;
+    const rawBuildName =
+      buildNoteData?.name?.[lang] ??
+      buildNoteData?.name?.en ??
+      toTitleCase(build.name);
 
-      return {
-        name: translator.translateNoteText(rawBuildName, buildNotesPath),
-      };
-    });
+    return {
+      name: translator.translateNoteText(rawBuildName, buildNotesPath),
+    };
+  });
 }
 
 /**
@@ -73,77 +67,47 @@ export function getHomePageData(lang = 'en') {
   const translator = new TranslationHelper(locale, {}, lang);
   const latestVersion = getLatestChangelogVersion(contentPath);
 
-  // Walk element/rarity/character folders so new content appears automatically.
-  const characters = fs
-    .readdirSync(contentPath, { withFileTypes: true })
-    .filter((element) => element.isDirectory())
-    .flatMap((element) =>
-      fs
-        .readdirSync(path.join(contentPath, element.name), {
-          withFileTypes: true,
-        })
-        .filter((rarity) => rarity.isDirectory())
-        .flatMap((rarity) =>
-          fs
-            .readdirSync(path.join(contentPath, element.name, rarity.name), {
-              withFileTypes: true,
-            })
-            .filter((character) => character.isDirectory())
-            .flatMap((character) => {
-              const characterPath = path.join(
-                contentPath,
-                element.name,
-                rarity.name,
-                character.name,
-              );
-              const metadataPath = path.join(characterPath, 'metadata.json');
+  const characters = getContentCharacters(contentPath)
+    .map(({ character, characterPath, element, metadataPath, rarity }) => {
+      const metadata = readJSONFile(metadataPath);
+      const assetContext = {
+        element,
+        rarity,
+        character,
+        characterPath,
+      };
+      const name = getPublicCharacterName(locale, {
+        character,
+        element,
+      });
+      const lastUpdated = normalizeVersion(metadata.last_updated);
 
-              if (!fs.existsSync(metadataPath)) {
-                return [];
-              }
-
-              const metadata = readJSONFile(metadataPath);
-              const assetContext = {
-                element: element.name,
-                rarity: rarity.name,
-                character: character.name,
-                characterPath,
-              };
-              const name = getPublicCharacterName(locale, {
-                character: character.name,
-                element: element.name,
-              });
-              const lastUpdated = normalizeVersion(metadata.last_updated);
-
-              return {
-                name,
-                slug: getPublicCharacterSlug({
-                  character: character.name,
-                  element: element.name,
-                }),
-                element: element.name,
-                rarity: rarity.name,
-                weapon: metadata.weapon,
-                lastUpdated,
-                isRecentlyUpdated: latestVersion
-                  ? lastUpdated === latestVersion
-                  : false,
-                image: resolveCharacterAssetUrl(
-                  assetContext,
-                  metadata.image,
-                  'image',
-                ),
-                portrait: resolveCharacterAssetUrl(
-                  assetContext,
-                  metadata.portrait,
-                  'portrait',
-                ),
-                builds: getBuildSummaries(characterPath, lang, translator),
-              };
-            }),
+      return {
+        name,
+        slug: getPublicCharacterSlug({
+          character,
+          element,
+        }),
+        element,
+        rarity,
+        weapon: metadata.weapon,
+        lastUpdated,
+        isRecentlyUpdated: latestVersion
+          ? lastUpdated === latestVersion
+          : false,
+        image: resolveCharacterAssetUrl(assetContext, metadata.image, 'image'),
+        portrait: resolveCharacterAssetUrl(
+          assetContext,
+          metadata.portrait,
+          'portrait',
         ),
-    )
-    .sort((a, b) => a.name.localeCompare(b.name));
+        builds: getBuildSummaries(characterPath, lang, translator),
+      };
+    })
+    .sort(
+      (a, b) =>
+        a.element.localeCompare(b.element) || a.name.localeCompare(b.name),
+    );
 
   const recentlyUpdatedCharacters = latestVersion
     ? characters.filter((character) => character.lastUpdated === latestVersion)

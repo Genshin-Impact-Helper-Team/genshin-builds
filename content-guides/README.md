@@ -18,18 +18,18 @@ Example:
 src/content/pyro/4/amber/melt-DPS/
 ```
 
-Character-level files live directly inside the character folder:
+Character metadata lives inside the character folder. Matching local images
+mirror that path under `public/character-assets`:
 
 ```txt
 src/content/pyro/4/amber/metadata.json
-src/content/pyro/4/amber/splash_art.webp
-src/content/pyro/4/amber/portrait.webp
+public/character-assets/pyro/4/amber/splash_art.webp
+public/character-assets/pyro/4/amber/portrait.webp
 ```
 
 `metadata.json` is used for character display data and the home page character
-filters. `splash_art.webp` and `portrait.webp` are preferred for character
-images when present; the `image` and `portrait` URLs in `metadata.json` stay as
-official fallback sources.
+filters. The public WebPs are preferred when present; the `image` and `portrait`
+URLs in `metadata.json` stay as official fallback sources.
 
 Build-level files live inside each build folder:
 
@@ -94,9 +94,9 @@ content loader, including:
 - Notes, when present, must include `en`; other languages are optional.
 - Requested language falls back to `en`.
 - Notes support Markdown (adding `**` around a work to make it bold for example), inline translation tokens, and rotation notation popovers.
-- Item notes automatically add a `*` marker next to the item and create a
+- Item notes automatically add a `ⓘ` marker next to the item and create a
   matching entry in the relevant notes section.
-- Top-level section notes do not add a `*` marker because they are not attached
+- Top-level section notes do not add a `ⓘ` marker because they are not attached
   to one specific item.
 
 ## Recently Updated Home Filter
@@ -137,7 +137,7 @@ Example:
 ```
 
 Section-level notes render inside the matching notes section, such as
-`Regarding Artifacts Choices:`, without adding a `*` marker to any listed item.
+`Regarding Artifacts Choices:`, without adding a `ⓘ` marker to any listed item.
 
 ## Item-Level Notes
 
@@ -158,7 +158,7 @@ Example:
 
 This automatically:
 
-- adds a `*` marker next to the item in the build card
+- adds a `ⓘ` marker next to the item in the build card
 - creates the matching entry under the correct notes heading
 
 For example, weapon notes render under `Regarding Weapons Choices:`, artifact
@@ -188,7 +188,7 @@ there.
 
 ## i18n Dictionary Files
 
-Each language folder can contain these translation dictionaries:
+Each language folder must contain these translation dictionaries:
 
 ```txt
 src/i18n/<lang>/weapons.json
@@ -196,6 +196,8 @@ src/i18n/<lang>/artifact-sets.json
 src/i18n/<lang>/characters.json
 src/i18n/<lang>/stats.json
 src/i18n/<lang>/elements.json
+src/i18n/<lang>/abilities.json
+src/i18n/<lang>/notes.json
 src/i18n/<lang>/ui.json
 ```
 
@@ -204,6 +206,9 @@ Use `stats.json` for stat labels and stat-like pseudo-set labels, such as `er`,
 
 Use `elements.json` for elemental labels and reactions, such as `melt`,
 `vaporize`, `swirl`, and `bloom`.
+
+Use `abilities.json` for ability labels and `notes.json` for reusable note
+labels referenced by inline translation tokens.
 
 ## Inline Translation Tokens
 

@@ -3,9 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize until requirements are met.",
-                "fr": "A prioriser jusqu'à remplir les besoins nécéssaires.",
-                "it": "Dare la priorità finché non vengono soddisfatti i requisiti."
+                "en": "[[note:er-req]]."
             }
         },
         "cr/cd",

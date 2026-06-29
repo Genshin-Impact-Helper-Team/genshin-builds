@@ -6,7 +6,8 @@
                     "name": "elegy-for-the-end",
                     "note": {
                         "en": "This weapon is not ideal for [[character:yelan]]'s personal damage so should only be used in teams which can utilise the buff well.",
-                        "fr": "Cette arme n'est pas idéale pour les dégâts personnels de [[character:yelan]] et ne doit donc être utilisée que dans les équipes où elle peut profiter du buff."
+                        "fr": "Cette arme n'est pas idéale pour les dégâts personnels de [[character:yelan]] et ne doit donc être utilisée que dans les équipes où elle peut profiter du buff.",
+                        "ru": "Не слишком усиливает урон Е Лань, поэтому данное оружие стоит использовать только в отрядах, хорошо реализующих бонусы Пассивной способности."
                     }
                 }
             ]
@@ -22,7 +23,8 @@
                     "name": "aqua-simulacra",
                     "note": {
                         "en": "Still the best option for personal damage even at high [[stat:er]] requirements, but may be unfeasible to run in some teams as the [[stat:er]] requirement can become very difficult to reach without an [[stat:er]] weapon.",
-                        "fr": "La meilleure option pour ses dégâts personnels même avec de besoin en [[stat:er]] élevés, mais il peut être impossible de jouer cette arme dans certains équipes car la quantité de [[stat:er]] à atteindre sans arme [[stat:er]] peut devenir démesurée."
+                        "fr": "La meilleure option pour ses dégâts personnels même avec de besoin en [[stat:er]] élevés, mais il peut être impossible de jouer cette arme dans certains équipes car la quantité de [[stat:er]] à atteindre sans arme [[stat:er]] peut devenir démesurée.",
+                        "ru": "Лучший выбор при достижении требований к ВЭ, но собрать достаточно ВЭ в некоторых отрядах может быть затруднительно."
                     }
                 }
             ]
@@ -34,7 +36,8 @@
                     "refinement": "3",
                     "note": {
                         "en": "This ideally needs to be at refinement **[R3-R5]** to **function properly in most [[character:yelan]] teams rotations** without **desyncing the rotation and extending her field time**.",
-                        "fr": "Cette arme nécessite idéalement d'être à raffinement **[R3-R5]** pour fonctionner **dans la plupart des rotations des équipes de [[character:yelan]]** sans **désynchroniser la rotation et allonger son temps de terrain**."
+                        "fr": "Cette arme nécessite idéalement d'être à raffinement **[R3-R5]** pour fonctionner **dans la plupart des rotations des équipes de [[character:yelan]]** sans **désynchroniser la rotation et allonger son temps de terrain**.",
+                        "ru": "В идеале требуется [R3-R5], чтобы нормально работать, не ломая ротацию отряда и не заставляя Е Лань слишком долго находиться на поле."
                     }
                 }
             ]

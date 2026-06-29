@@ -3,6 +3,10 @@
     "name": {
         "en": "DPS"
     },
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/d/1kBHw97vhG--6vClQvq21LhgGnlXc28wdJNnXXrCIBSQ/edit?usp=sharing",
+        "author": "Quincy"
+    },
     "notes": [
         {
             "en": "[[character:arlecchino]] is a [[element:pyro]] DPS that focuses on dealing damage through her [[ability:bol]] mechanic. It should be noted that while in combat, [[character:arlecchino]] cannot be healed by any source other than her [[ability:burst]]. For this reason, a shielder is strongly recommended within her teams.",

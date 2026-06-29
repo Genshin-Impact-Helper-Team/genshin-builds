@@ -1,6 +1,5 @@
-import fs from 'fs';
-import path from 'path';
 import { getPublicCharacterSlug } from './character-slugs';
+import { getContentCharacters } from './content-tree';
 import { languageCodes } from './languages';
 
 /**
@@ -21,36 +20,11 @@ export function getLanguageStaticPaths() {
  * @returns Sorted unique character slugs.
  */
 function getCharacterSlugs() {
-  const contentPath = path.join(process.cwd(), 'src', 'content');
-  const slugs = new Set<string>();
-
-  fs.readdirSync(contentPath, { withFileTypes: true })
-    .filter((element) => element.isDirectory() && element.name !== 'site')
-    .forEach((element) => {
-      const elementPath = path.join(contentPath, element.name);
-
-      fs.readdirSync(elementPath, { withFileTypes: true })
-        .filter((rarity) => rarity.isDirectory())
-        .forEach((rarity) => {
-          const rarityPath = path.join(elementPath, rarity.name);
-
-          fs.readdirSync(rarityPath, { withFileTypes: true })
-            .filter((character) => character.isDirectory())
-            .filter((character) =>
-              fs.existsSync(
-                path.join(rarityPath, character.name, 'metadata.json'),
-              ),
-            )
-            .forEach((character) =>
-              slugs.add(
-                getPublicCharacterSlug({
-                  character: character.name,
-                  element: element.name,
-                }),
-              ),
-            );
-        });
-    });
+  const slugs = new Set(
+    getContentCharacters().map(({ character, element }) =>
+      getPublicCharacterSlug({ character, element }),
+    ),
+  );
 
   return [...slugs].sort((a, b) => a.localeCompare(b));
 }

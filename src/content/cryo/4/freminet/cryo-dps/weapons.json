@@ -17,8 +17,9 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "If [[character:freminet]] is C2 or has low [[stat:er]] Requirements this weapon is less potent due to the [[stat:er]] stat being less useful.",
-                        "fr": "Si [[character:freminet]] est C2 ou a de faibles besoins en [[stat:er]], cette arme perd en puissance puisque la stat de [[stat:er]] devient moins utile."
+                        "en": "If [[character:freminet]] is **[C2]** or has low [[stat:er]] Requirements this weapon is less potent due to the [[stat:er]] stat being less useful.",
+                        "fr": "Si [[character:freminet]] est **[C2]** ou a de faibles besoins en [[stat:er]], cette arme perd en puissance puisque la stat de [[stat:er]] devient moins utile.",
+                        "it": "Se [[character:freminet]] è **[C2]** o ha requisiti di [[stat:er]] bassi quest'arma è meno potente."
                     }
                 }
             ]
@@ -34,8 +35,9 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "At [R5] this weapon can equal or surpass **[[weapon:wolfs-gravestone]]**.",
-                        "fr": "Une fois [R5], cette arme peut égaler ou dépasser **[[weapon:wolfs-gravestone]]**."
+                        "en": "At **[R5]** this weapon can equal or surpass **[[weapon:wolfs-gravestone]]**.",
+                        "fr": "Une fois **[R5]**, cette arme peut égaler ou dépasser **[[weapon:wolfs-gravestone]]**.",
+                        "it": "A **[R5]**, quest'arma può essere pari o superiore a **[[weapon:wolfs-gravestone]]**."
                     }
                 },
                 "redhorn-stonethresher",
@@ -48,7 +50,8 @@
                     "name": "tidal-shadow",
                     "note": {
                         "en": "The performance of this weapon depends on the healing abilities of your team. If your team has healing capabilities, this weapon can be equal to **[[weapon:redhorn-stonethresher]]** or better depending on refinement.",
-                        "fr": "Les performances de cette arme dépendent des capacités de soin de votre équipe. Si votre équipe peut soigner, cette arme peut être au niveau de **[[weapon:redhorn-stonethresher]]**, voire meilleure selon le raffinement."
+                        "fr": "Les performances de cette arme dépendent des capacités de soin de votre équipe. Si votre équipe peut soigner, cette arme peut être au niveau de **[[weapon:redhorn-stonethresher]]**, voire meilleure selon le raffinement.",
+                        "it": "Le prestazioni di quest'arma dipendono dalle capacità curative del tuo team. Se il tuo team ha capacità di cura, quest'arma può essere pari o superiore a **[[weapon:redhorn-stonethresher]]** a seconda dei miglioramenti."
                     }
                 }
             ]

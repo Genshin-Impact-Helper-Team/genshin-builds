@@ -2,13 +2,15 @@
   "name": {
     "en": "[[element:melt]] DPS",
     "fr": "DPS [[element:melt]]",
-    "it": "DPS [[element:melt]]"
+    "it": "DPS [[element:melt]]",
+    "ru": "Таяние"
   },
   "notes": [
     {
       "en": "[[character:amber]] [[element:melt]] DPS is a playstyle where she uses Charged Attacks to trigger [[element:melt]]. Rankings assume she is used with **[[character:bennett]]**.",
       "fr": "[[character:amber]] DPS [[element:melt]] est un style de jeu ou elle utilise des CA pour declencher des [[element:melt]]. Les classements supposent qu'elle est jouee avec **[[character:bennett]]**.",
-      "it": "DPS [[element:melt]] è uno stile di gioco nel quale [[character:amber]] utilizza i suoi Attacchi Caricati per provocare [[element:melt]]. Le classifiche presuppongono che sia utilizzata con **[[character:bennett]]**."
+      "it": "DPS [[element:melt]] è uno stile di gioco nel quale [[character:amber]] utilizza i suoi Attacchi Caricati per provocare [[element:melt]]. Le classifiche presuppongono che sia utilizzata con **[[character:bennett]]**.",
+      "ru": "Эмбер через Таяние использует Заряженные атаки для активации как можно большего числа реакций. Предполагается, что она играет с Беннетом."
     }
   ]
 }

@@ -2,110 +2,17 @@ import fs from 'fs';
 import path from 'path';
 import { parsePublicCharacterSlug } from './character-slugs';
 
-/**
- * Formats a JSON path for build errors.
- *
- * Uses a repo-relative path when possible so CI logs point to the file without
- * leaking machine-specific absolute paths, and normalizes separators for GitHub.
- *
- * @param filePath JSON file path.
- * @returns Display-ready file path.
- */
-function formatFilePath(filePath: string) {
-  const absolutePath = path.resolve(filePath);
-  const relativePath = path.relative(process.cwd(), absolutePath);
-  const displayPath =
-    relativePath &&
-    !relativePath.startsWith('..') &&
-    !path.isAbsolute(relativePath)
-      ? relativePath
-      : absolutePath;
-
-  return displayPath.split(path.sep).join('/');
-}
-
-/**
- * Extracts line and column information from Node's JSON parse error message.
- *
- * Node includes this location in the message text rather than as structured
- * properties, so this returns null when the runtime does not provide it.
- *
- * @param error Error thrown while parsing JSON.
- * @returns Parsed line and column, or null when unavailable.
- */
-function getJSONErrorLocation(error: unknown) {
-  if (!(error instanceof Error)) {
-    return null;
-  }
-
-  const match = error.message.match(/\(line (\d+) column (\d+)\)/);
-
-  if (!match) {
-    return null;
-  }
-
-  return {
-    line: Number(match[1]),
-    column: Number(match[2]),
-  };
-}
-
-/**
- * Builds a small source excerpt for a JSON parse error.
- *
- * The excerpt includes the failing line and a caret under the reported column.
- *
- * @param source JSON source text.
- * @param error Error thrown while parsing the source.
- * @returns Formatted excerpt, or null when no location can be found.
- */
-function getJSONErrorExcerpt(source: string, error: unknown) {
-  const location = getJSONErrorLocation(error);
-
-  if (!location) {
-    return null;
-  }
-
-  const lineText = source.split(/\r?\n/)[location.line - 1];
-
-  if (lineText === undefined) {
-    return null;
-  }
-
-  const linePrefix = `${location.line} | `;
-  const pointerOffset = linePrefix.length + Math.max(location.column - 1, 0);
-
-  return `${linePrefix}${lineText}\n${' '.repeat(pointerOffset)}^`;
-}
-
-/**
- * Reads and parses a JSON file with path-aware syntax errors.
- *
- * On invalid JSON, the thrown SyntaxError includes the source file path, the
- * original parser message, and a caret excerpt when the runtime reports a line
- * and column.
- *
- * @param filePath JSON file path.
- * @returns Parsed JSON value.
- */
 export function readJSONFile(filePath: string) {
   const source = fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, '');
 
   try {
     return JSON.parse(source);
   } catch (error) {
-    const details = error instanceof Error ? error.message : String(error);
-    const excerpt = getJSONErrorExcerpt(source, error);
     const parseError = new SyntaxError(
-      [
-        `Failed to parse JSON file: ${formatFilePath(filePath)}`,
-        details,
-        excerpt,
-      ]
-        .filter(Boolean)
-        .join('\n'),
+      `${path.relative(process.cwd(), filePath)}: ${
+        error instanceof Error ? error.message : String(error)
+      }`,
     );
-
     (parseError as SyntaxError & { cause?: unknown }).cause = error;
     throw parseError;
   }

@@ -10,10 +10,10 @@
   - [Step 1: Create a Branch](#step-1-create-a-branch)
   - [Step 2: Edit Files](#step-2-edit-files)
   - [Step 3: Open a Pull Request](#step-3-open-a-pull-request)
-- [Add a Build for a Character](#1-add-a-build-for-a-character)
+- [Add a Build for a Character](#add-a-build-for-a-character)
   - [Recently Updated Filter](#recently-updated-filter)
-- [Translate a Build](#2-translate-a-build)
-- [Add a New Language](#3-add-a-new-language)
+- [Translate a Build](#translate-a-build)
+- [Add a New Language](#add-a-new-language)
 - [Developer Setup](#developer-setup)
 
 ---
@@ -42,14 +42,15 @@ Most content contributors will work in these folders:
 ```txt
 genshin-builds/
 |-- content-guides/          Guides that explain how content JSON files work
+|-- public/
+|   |-- character-assets/    Character portraits
+|   |-- item-assets/         Weapon and artifact set images
 |-- src/
 |   |-- content/             Character builds and shared site content
 |   |   |-- <element>/
 |   |   |   |-- <rarity>/
 |   |   |   |   |-- <character>/
 |   |   |   |   |   |-- metadata.json
-|   |   |   |   |   |-- splash_art.webp
-|   |   |   |   |   |-- portrait.webp
 |   |   |   |   |   |-- <build>/
 |   |   |   |   |   |   |-- weapons.json
 |   |   |   |   |   |   |-- artifacts-sets.json
@@ -70,7 +71,7 @@ Developers may also work in these folders:
 ```txt
 genshin-builds/
 |-- .github/workflows/       GitHub automation, including website deployment
-|-- public/                  Static files, such as the site favicon
+|-- public/                  Static images and the site favicon
 |-- src/
 |   |-- components/          Reusable parts of the website
 |   |-- layouts/             Page layouts
@@ -111,7 +112,7 @@ content/xiangling-energy-notes
 translation/fr-xingqiu-notes
 translation/es-ui-labels
 i18n/add-ja
-fix/mobile-side-menu
+fix/mobile-navbar
 docs/root-readme
 ```
 
@@ -150,8 +151,8 @@ docs/root-readme
 > - You did not edit generated files in `dist`.
 > - Any localized content has an English fallback.
 > - GitHub will automatically check that the site builds when you open or update the PR.
+> - Vercel will generate a preview, allowing you to browse the website with your changes
 > - If the build check fails, ask for help before the PR is merged.
-> - If you are unsure about JSON formatting, add the `Needs Format Check` label so someone can check it.
 
 #### How to:
 
@@ -165,12 +166,6 @@ docs/root-readme
 
 **Goal:** Ask for your changes to be added to the site.
 
-#### Pull Request Labels
-
-Use this label when you need help before the PR can be merged:
-
-- `Needs Format Check`: use this if you are unsure about JSON formatting and need someone to check it.
-
 ---
 
 ## Add a Build for a Character
@@ -181,15 +176,15 @@ The website is built on our folder structure: adding a new folder will automatic
 
 2. Find the correct character folder in [`src/content`](./src/content).
 
-3. Make sure the character folder has `metadata.json`. Character images can be
-   hosted in the same folder as `splash_art.webp` and `portrait.webp`; the URLs
-   in `metadata.json` stay as official fallbacks.
+3. Make sure the character folder has `metadata.json`; see
+   [`content-guides/metadata.md`](./content-guides/metadata.md). Character images
+   live in `public/character-assets/<element>/<rarity>/<character>/` as `portrait.webp`; the URLs in `metadata.json` stay as
+   official fallbacks.
 
-4. Add or update the build/character files.
+4. Add or update the character and build JSON files.
 
-   A build folder can contain these files:
+   The character folder contains `metadata.json`. A build folder can contain:
 
-   - `metadata.json`: see [`content-guides/metadata.md`](./content-guides/metadata.md)
    - `weapons.json`: see [`content-guides/weapons.md`](./content-guides/weapons.md)
    - `artifacts-sets.json`: see [`content-guides/artifacts-sets.md`](./content-guides/artifacts-sets.md)
    - `artifacts-mainstats.json`: see [`content-guides/artifacts-mainstats.md`](./content-guides/artifacts-mainstats.md)
@@ -290,6 +285,8 @@ The default language is english. When adding a new build, contributor may have u
    src/i18n/<lang>/characters.json
    src/i18n/<lang>/stats.json
    src/i18n/<lang>/elements.json
+   src/i18n/<lang>/abilities.json
+   src/i18n/<lang>/notes.json
    src/i18n/<lang>/ui.json
    ```
 
@@ -324,27 +321,15 @@ The website was designed with localisation in mind. Adding a new language should
    { code: '<lang>', name: 'Language Name' }
    ```
 
-4. Add the new language to [`src/utils/i18n.ts`](./src/utils/i18n.ts).
+   The matching JSON dictionaries are loaded automatically from the new
+   language folder.
 
-   Import the new JSON files, then add the new locale to the `locales` object:
-
-   ```ts
-   <lang>: {
-     weapon: <lang>Weapons,
-     artifact: <lang>Artifacts,
-     character: <lang>Characters,
-     stat: <lang>Stats,
-     element: <lang>Elements,
-     ui: <lang>Ui,
-   }
-   ```
-
-5. Translate localized editorial text in [`src/content`](./src/content).
+4. Translate localized editorial text in [`src/content`](./src/content).
 
    This includes build notes, FAQ content, and credits. Content that does not
    have the new language key will fall back to English.
 
-6. GitHub will automatically check that the site builds when you open or update
+5. GitHub will automatically check that the site builds when you open or update
    the Pull Request.
 
    Developers can still run the build locally before opening a Pull Request:

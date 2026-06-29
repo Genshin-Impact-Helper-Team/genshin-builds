@@ -2,16 +2,19 @@
     "best": true,
     "name": {
         "en": "High Energy Requirement Off-Field DPS & Buff Support",
-        "fr": "DPS Off-Field avec des Besoins en Energie Elevés & Support Buff"
+        "fr": "DPS Off-Field avec des Besoins en Energie Elevés & Support Buff",
+        "ru": "Карманный ДД и саппорт (Высокая потребность в энергии)"
     },
     "notes": [
         {
             "en": "[[character:columbina]] blesses her team with a large buff to Lunar reactions, while also inflicting good amounts of Lunar damage herself, mimicking whatever lunar reaction is dominant in your team.",
-            "fr": "[[character:columbina]] offre à son équipe un large buff pour les réactions sélènes, tout en infligeant elle même de bons dégâts sélène, imitant la réaction sélène majoritaire dans l'équipe."
+            "fr": "[[character:columbina]] offre à son équipe un large buff pour les réactions sélènes, tout en infligeant elle même de bons dégâts sélène, imitant la réaction sélène majoritaire dans l'équipe.",
+            "ru": "Коломбина даёт отряду бонус урона к Лунным реакциям, а также самостоятельно наносит урон. Тип Лунного урона, наносимого Элементальным навыком Коломбины, зависит от того, какую Лунную реакцию чаще всего вызывает отряд"
         },
         {
             "en": "Starting at **[C1]**, [[character:columbina]] should use her [[ability:burst]] before her [[ability:skill]] so the extra Gravity Interference triggered by C1 will be buffed by her [[ability:burst]].",
-            "fr": "A partir de la **[C1]**, [[character:columbina]] doit utiliser son [[ability:burst]] avant son [[ability:skill]] pour que l'interférence gravitationnelle déclenchée par la C1 soit buff par son [[ability:burst]]."
+            "fr": "A partir de la **[C1]**, [[character:columbina]] doit utiliser son [[ability:burst]] avant son [[ability:skill]] pour que l'interférence gravitationnelle déclenchée par la C1 soit buff par son [[ability:burst]].",
+            "ru": "Начиная с [C1], Коломбина должна использовать Взрыв стихии до Элементального навыка, чтобы дополнительное Вмешательство тяготения получило бонус Лунного урона."
         }
     ]
 }

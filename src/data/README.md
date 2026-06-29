@@ -23,6 +23,13 @@ src/data/
 |   |-- sword.json
 ```
 
+Matching static item images live separately under:
+
+```txt
+public/item-assets/artifacts/<artifact-set-id>.webp
+public/item-assets/weapons/<weapon-type>/<weapon-id>.webp
+```
+
 ## How It Connects To Content
 
 Build files usually store IDs, not full display data.
@@ -41,6 +48,8 @@ The site then uses:
 - `src/i18n/<lang>/weapons.json` to display the localized weapon name.
 - `src/data/weapons/<weapon-type>.json` to display weapon rarity, stats, and
   passive information in the weapon popover.
+- `public/item-assets/weapons/<weapon-type>/<weapon-id>.webp` to display its
+  image.
 
 Artifact sets work the same way:
 
@@ -48,6 +57,7 @@ Artifact sets work the same way:
 - `src/i18n/<lang>/artifact-sets.json` displays localized artifact set names.
 - `src/data/artifacts/artifact_sets.json` displays rarity and set effects in
   the artifact popover.
+- `public/item-assets/artifacts/<artifact-set-id>.webp` displays its image.
 
 ## Weapon Data
 
@@ -103,6 +113,18 @@ An artifact set entry can include:
 Most artifact sets only have `2p` and `4p`. Do not add an empty `1p` field when
 the set does not have a 1-piece effect.
 
+## Item Images
+
+Download matching WebPs from HoYoWiki with:
+
+```sh
+npm run download:weapon-assets -- <weapon-id>
+npm run download:artifact-assets -- <artifact-set-id>
+```
+
+Both commands also accept `--all`, `--file <path>`, `--force`, and `--dry-run`.
+The downloaded files are written to the matching `public/item-assets` folder.
+
 ## Localization Rules
 
 Gameplay data can contain localized effect text directly, such as weapon
@@ -126,6 +148,8 @@ Edit this folder when you need to add or fix reusable gameplay data, such as:
 - a missing artifact set effect;
 - an incorrect artifact set rarity;
 - a new weapon or artifact set used by build content.
+
+Use the item image commands above when that ID also needs a local image.
 
 Do not edit this folder for build rankings, character notes, or translation-only
 name changes. Use these folders instead:

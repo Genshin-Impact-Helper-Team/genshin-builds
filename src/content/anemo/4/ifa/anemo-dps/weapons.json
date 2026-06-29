@@ -27,7 +27,8 @@
                     "note": {
                         "en": "When HP loss is present (notably with **[[character:furina]]**), this weapon becomes [[character:ifa]]'s best in slot.",
                         "fr": "Lorsqu'une perte de PV est présente (notamment avec **[[character:furina]]**), cette arme devient le best in slot de [[character:ifa]].",
-                        "it": "Se è presente una perdita di PS (ad esempio se **[[character:furina]]** è nel team), questa è la migliore arma di [[character:ifa]]."
+                        "it": "Se è presente una perdita di PS (ad esempio se **[[character:furina]]** è nel team), questa è la migliore arma di [[character:ifa]].",
+                        "ru": "Лучший вариант при игре с **[[character:furina|Фуриной]]** или другим постоянным источником снижения HP."
                     }
                 }
             ]
@@ -45,7 +46,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon will perform roughly equal to **[[weapon:surfs-up]]** and its similar ranking options.",
                         "fr": "Une fois **[R5]**, cette arme équivaut à peu près à **[[weapon:surfs-up]]** et aux options au classement similaire.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:surfs-up]]** ed alle altre opzioni alla stessa posizione in classifica."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:surfs-up]]** ed alle altre opzioni alla stessa posizione in classifica.",
+                        "ru": "На **[R5]** примерно соответствует **[[weapon:surfs-up]]** и другим вариантам этого уровня."
                     }
                 },
                 "memory-of-dust"

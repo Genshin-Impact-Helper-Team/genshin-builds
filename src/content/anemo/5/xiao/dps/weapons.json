@@ -21,7 +21,8 @@
                     "note": {
                         "en": "In Teams with neither [[character:bennett]] nor [[character:xianyun]], this weapon increases in value.",
                         "fr": "Dans les équipes sans [[character:bennett]] ni [[character:xianyun]], cette arme gagne en valeur.",
-                        "it": "In team senza [[character:bennett]] né [[character:xianyun]], quest'arma aumenta di valore."
+                        "it": "In team senza [[character:bennett]] né [[character:xianyun]], quest'arma aumenta di valore.",
+                        "ru": "Более эффективен в отрядах без [[character:bennett|Беннета]] и [[character:xianyun]]."
                     }
                 },
                 "deathmatch",
@@ -30,7 +31,8 @@
                     "note": {
                         "en": "While generally just a stat stick for the high base attack and [[stat:cr]] substat, this weapon's passive can be utilized in teams with no or only [[character:bennett]]'s healing by performing a [[ability:ca]] at the start of [[character:xiao]]'s [[ability:burst]].",
                         "fr": "Bien qu'elle soit généralement juste une stat stick grâce à sa haute attaque de base et sa sous-stat [[stat:cr]], le passif de cette arme peut être utilisé dans les équipes sans soin ou avec seulement le soin de [[character:bennett]], en effectuant une [[ability:ca]] au début de l'[[ability:burst]] de [[character:xiao]].",
-                        "it": "Sebbene sia generalmente utilizzata solo per l'elevato Attacco Base e la statistica secondaria di [[stat:cr]], la passiva di quest'arma può essere utilizzata in team senza cure o con solo le cure di [[character:bennett]] eseguendo un [[ability:ca]] all'inizio del [[ability:burst]] di [[character:xiao]]."
+                        "it": "Sebbene sia generalmente utilizzata solo per l'elevato Attacco Base e la statistica secondaria di [[stat:cr]], la passiva di quest'arma può essere utilizzata in team senza cure o con solo le cure di [[character:bennett]] eseguendo un [[ability:ca]] all'inizio del [[ability:burst]] di [[character:xiao]].",
+                        "ru": "Как правило, просто статовая палка. Однако Пассивную способность можно использовать в отрядах без хилера (или единственным - [[character:bennett|Беннетом]]), выполняя [[ability:ca|Заряженную атаку]] после активации [[ability:burst|Взрыва стихии]] [[character:xiao]]."
                     }
                 },
                 {
@@ -38,7 +40,8 @@
                     "note": {
                         "en": "Assumes no shield on the team. In teams with a shield or without [[character:xianyun]] or [[character:bennett]], this weapon performs slightly better.",
                         "fr": "Suppose qu'il n'y a pas de bouclier dans l'équipe. Dans les équipes avec un bouclier ou sans [[character:xianyun]] ni [[character:bennett]], cette arme est légèrement meilleure.",
-                        "it": "La posizione in classifica presuppone che non ci siano scudi nella squadra. Nelle squadre con uno scudo o senza [[character:xianyun]] o [[character:bennett]], quest'arma ha prestazioni leggermente migliori."
+                        "it": "La posizione in classifica presuppone che non ci siano scudi nella squadra. Nelle squadre con uno scudo o senza [[character:xianyun]] o [[character:bennett]], quest'arma ha prestazioni leggermente migliori.",
+                        "ru": "Предполагается, что в отряде нет щитовика. Более полезен со щитом или без [[character:xianyun]]/[[character:bennett|Беннета]]."
                     }
                 },
                 {
@@ -46,7 +49,8 @@
                     "note": {
                         "en": "This weapon become significantly better choice in teams with very high [[stat:er]] Requirements.",
                         "fr": "Cette arme devient un choix nettement meilleur dans les équipes avec des besoins en [[stat:er]] très élevés.",
-                        "it": "Quest'arma diventa una scelta significativamente migliore in team con **requisiti di [[stat:er]] molto elevati**."
+                        "it": "Quest'arma diventa una scelta significativamente migliore in team con **requisiti di [[stat:er]] molto elevati**.",
+                        "ru": "В отрядах с большой потребностью в [[stat:er|энергии]] показывает себя лучше."
                     }
                 }
             ]
@@ -58,7 +62,8 @@
                     "note": {
                         "en": "This Ranking assumes 0 stacks. In Teams with [[character:bennett]], this weapon performs similar to **[[weapon:calamity-queller]]**. This weapon's passive is generally unreliable, but can lead to a slightly higher ranking when applicable.",
                         "fr": "Ce classement suppose 0 cumul. Dans les équipes avec [[character:bennett]], cette arme se rapproche de **[[weapon:calamity-queller]]**. Le passif de cette arme est généralement peu fiable, mais peut mener à un classement légèrement plus élevé lorsqu'il est applicable.",
-                        "it": "In team con [[character:bennett]], quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**. La passiva di quest'arma è generalmente inaffidabile, ma può portare ad una posizione in classifica leggermente più alta quando applicabile."
+                        "it": "In team con [[character:bennett]], quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**. La passiva di quest'arma è generalmente inaffidabile, ma può portare ad una posizione in classifica leggermente più alta quando applicabile.",
+                        "ru": "Предполагается 0 уровней Пассивной способности. Соответствует **[[weapon:calamity-queller|Усмирителю бед]]** в отрядах с [[character:bennett|Беннетом]]. Пассивная способность ненадёжна, но, если она может поддерживаться, оружие немного поднимается в рейтинге."
                     }
                 },
                 {
@@ -74,7 +79,8 @@
                     "note": {
                         "en": "This Ranking assumes 1 Stack. This weapon's performance varies greatly with refines and stacks. At **[R5]**, this weapon performs similar to **[[weapon:blackcliff-pole]]** with one stack and **[[weapon:calamity-queller]]** with two stacks.",
                         "fr": "Ce classement suppose 1 cumul. Les performances de cette arme varient beaucoup selon les raffinements et les cumuls. Une fois **[R5]**, cette arme équivaut à **[[weapon:blackcliff-pole]]** avec un cumul et à **[[weapon:calamity-queller]]** avec deux cumuls.",
-                        "it": "La posizione in classifica presuppone 1 accumulo. Le prestazioni di quest'arma variano notevolmente a seconda dei miglioramenti e degli accumuli. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:blackcliff-pole]]** con 1 accumulo ed a **[[weapon:calamity-queller]]** con 2 accumuli."
+                        "it": "La posizione in classifica presuppone 1 accumulo. Le prestazioni di quest'arma variano notevolmente a seconda dei miglioramenti e degli accumuli. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:blackcliff-pole]]** con 1 accumulo ed a **[[weapon:calamity-queller]]** con 2 accumuli.",
+                        "ru": "Предполагается игра с 1 уровнем Пассивной способности оружия. Эффективность может разниться в зависимости от Пробуждения и уровня Пассивной способности. На **[R5]** соответствует **[[weapon:blackcliff-pole|Черногорской пике]]** (1 уровень) и **[[weapon:calamity-queller|Усмирителю бед]]** (2 уровня)."
                     }
                 }
             ]
@@ -87,7 +93,8 @@
                     "note": {
                         "en": "If [[character:xiao]] can reliably trigger this weapon's passive, it performs closer to **[[weapon:blackcliff-pole]]**.",
                         "fr": "Si [[character:xiao]] peut déclencher le passif de cette arme de façon fiable, elle se rapproche de **[[weapon:blackcliff-pole]]**.",
-                        "it": "Se [[character:xiao]] riesce ad attivare in modo affidabile la passiva di quest'arma, innescando una (o più) reazioni ogni 10 secondi, le sue prestazioni si avvicinano a quelle di **[[weapon:blackcliff-pole]]**."
+                        "it": "Se [[character:xiao]] riesce ad attivare in modo affidabile la passiva di quest'arma, innescando una (o più) reazioni ogni 10 secondi, le sue prestazioni si avvicinano a quelle di **[[weapon:blackcliff-pole]]**.",
+                        "ru": "Может сравниться с **[[weapon:blackcliff-pole|Черногорской пикой]]**, если поддерживать работу Пассивной способности оружия."
                     }
                 },
                 {
@@ -95,7 +102,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:skyward-spine]]** given a reliable healer is present.",
                         "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:skyward-spine]]** à condition d'avoir un soigneur fiable.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:skyward-spine]]** se sono presenti cure affidabili."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:skyward-spine]]** se sono presenti cure affidabili.",
+                        "ru": "На **[R5]** соответствует **[[weapon:skyward-spine|Небесной оси]]** (при стабильном лечении)."
                     }
                 },
                 "wavebreakers-fin"
@@ -108,7 +116,8 @@
                     "note": {
                         "en": "This weapon become significantly better choice in teams with very high [[stat:er]] Requirements.",
                         "fr": "Cette arme devient un choix nettement meilleur dans les équipes avec des besoins en [[stat:er]] très élevés.",
-                        "it": "Quest'arma diventa una scelta significativamente migliore in team con **requisiti di [[stat:er]] molto elevati**."
+                        "it": "Quest'arma diventa una scelta significativamente migliore in team con **requisiti di [[stat:er]] molto elevati**.",
+                        "ru": "Показывает себя лучше в отрядах с высокой потребностью в [[stat:er|энергии]]."
                     }
                 }
             ]

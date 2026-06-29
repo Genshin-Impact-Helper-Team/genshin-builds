@@ -10,7 +10,8 @@
                 "name": "hydro-dmg",
                 "note": {
                     "en": "[[stat:hp%]] is recommended with **[[set:golden-troupe]] (4)** as an artifact set, elsewise, [[stat:hydro-dmg]] is recommended. At **[C2]** the two become roughly similar, assuming **[[set:golden-troupe]] (4)**.",
-                    "fr": "La coupe [[stat:hp%]] est recommandée lorsque le set **[[set:golden-troupe]] (4)** est utilisé, sinon [[stat:hydro-dmg]] est meilleure. Une fois **[C2]**, les deux deviennent similaire, en supposant le set **[[set:golden-troupe]] (4)**."
+                    "fr": "La coupe [[stat:hp%]] est recommandée lorsque le set **[[set:golden-troupe]] (4)** est utilisé, sinon [[stat:hydro-dmg]] est meilleure. Une fois **[C2]**, les deux deviennent similaire, en supposant le set **[[set:golden-troupe]] (4)**.",
+                    "ru": "HP% рекомендуется при использовании Золотой труппы (4), в остальных случаях предпочтителен бонус Гидро урона. На C2 они примерно равны даже в случае Золотой труппы (4)."
                 }
             }
         ],

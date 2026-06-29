@@ -1,0 +1,77 @@
+---
+import { t } from '../utils/i18n';
+
+const { buildNote, locale } = Astro.props;
+
+type CalculationCredit = {
+  author?: string;
+  link?: string;
+  detail?: string;
+};
+
+type CalculationItem = {
+  keys: string[];
+  linkText: string;
+};
+
+const toCalculationCredits = (value: CalculationCredit | CalculationCredit[]) =>
+  (Array.isArray(value) ? value : [value]).filter(
+    (credit) => credit?.author && credit?.link,
+  );
+
+const calculationItems: CalculationItem[] = [
+  {
+    keys: ['artifact', 'artifacts'],
+    linkText: t(locale, 'ui', 'Detailed artifacts calculation'),
+  },
+  {
+    keys: ['weapons'],
+    linkText: t(locale, 'ui', 'Detailed weapons calculation'),
+  },
+  {
+    keys: ['talent', 'talents'],
+    linkText: t(locale, 'ui', 'Detailed talents calculation'),
+  },
+  {
+    keys: ['global'],
+    linkText: t(locale, 'ui', 'Detailed calculations'),
+  },
+];
+
+const calculationCredits = buildNote
+  ? calculationItems.flatMap((item) =>
+      item.keys.flatMap((key) =>
+        toCalculationCredits(buildNote[key] ?? []).map((credit) => ({
+          ...item,
+          credit,
+        })),
+      ),
+    )
+  : [];
+---
+
+{
+  calculationCredits.length > 0 && (
+    <section class="build-calculation-card">
+      <h2>{t(locale, 'ui', 'Detailed calculations')}</h2>
+      <div class="build-calculation-list">
+        {calculationCredits.map(({ linkText, credit }) => (
+          <div class="build-calculation-link">
+            <a href={credit.link} target="_blank" rel="noreferrer">
+              {linkText}
+            </a>
+            <div class="build-calculation-credit">
+              {credit.detail && (
+                <>
+                  <span set:html={credit.detail} />
+                  <span aria-hidden="true"> - </span>
+                </>
+              )}
+              {t(locale, 'ui', 'Thank you to')} {credit.author}!
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}

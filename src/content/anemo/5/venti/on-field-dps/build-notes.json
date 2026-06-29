@@ -2,7 +2,8 @@
     "name": {
         "en": "On-Field DPS",
         "fr": "DPS On-Field",
-        "it": "DPS Sul Campo"
+        "it": "DPS Sul Campo",
+        "ru": "ДД на поле"
     },
     "best": true,
     "weapons": {
@@ -13,7 +14,8 @@
         {
             "en": "[[character:venti]], when paired with another [[ability:hexerei]] character, can be used as a strong, Normal-attacking, On-Field DPS who has large amounts of damage from multiple sources.",
             "fr": "[[character:venti]], lorsqu'il est joué avec un autre personnage [[ability:hexerei]], peut être utilisé comme un puissant DPS on-field attaquant avec ses attaques normales, avec de grandes quantités de dégâts provenant de plusieurs sources.",
-            "it": "In team con un altro personaggio [[ability:hexerei]], [[character:venti]] può essere utilizzato come un forte DPS sul campo che esegue Attacchi Normali ed infligge grandi quantità di danno da diverse fonti."
+            "it": "In team con un altro personaggio [[ability:hexerei]], [[character:venti]] può essere utilizzato come un forte DPS sul campo che esegue Attacchi Normali ed infligge grandi quantità di danno da diverse fonti.",
+            "ru": "В отряде с другим персонажем [[ability:hexerei|Ведьмовства]] [[character:venti]] может играть как неплохой ДД на поле с уроном из различных источников."
         }
     ]
 }

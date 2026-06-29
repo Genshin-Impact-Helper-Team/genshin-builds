@@ -28,7 +28,8 @@
                     "note": {
                         "en": "This weapon's performance is highly reliant on using the attack speed buff. If you are having issues with combo execution in general, this weapon is not recommended.",
                         "fr": "Les performances de cette arme dépendent fortement de l'utilisation du buff de vitesse d'attaque. Si vous avez des problèmes d'exécution de combo en général, cette arme n'est pas recommandée.",
-                        "it": "Le prestazioni di quest'arma dipendono in larga misura dall'utilizzo del potenziamento alla velocità degli attacchi. Se hai difficoltà ad eseguire combo, quest'arma non è consigliata."
+                        "it": "Le prestazioni di quest'arma dipendono in larga misura dall'utilizzo del potenziamento alla velocità degli attacchi. Se hai difficoltà ad eseguire combo, quest'arma non è consigliata.",
+                        "ru": "Эффективность сильно зависит от использования бонуса к скорости Обычных атак. Не рекомендуется, если у вас возникают проблемы с реализацией комбо."
                     }
                 }
             ]
@@ -40,7 +41,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:verdict]]**.",
                         "fr": "Une fois **[R5]**, cette arme offre des performances proches de **[[weapon:verdict]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:verdict|Вердикту]]**."
                     }
                 },
                 "wolfs-gravestone"
@@ -53,7 +55,8 @@
                     "note": {
                         "en": "With this weapon, it is recommended to use [[character:varka]]'s special [[ability:skill]] instead of the special [[ability:ca]].",
                         "fr": "Avec cette arme, il est recommandé d'utiliser le [[ability:skill]] spécial de [[character:varka]] plutôt que l'[[ability:ca]] spéciale.",
-                        "it": "Con quest'arma, è consigliato utilizzare l'[[ability:skill]] speciale di [[character:varka]] al posto dell'[[ability:ca]] speciale."
+                        "it": "Con quest'arma, è consigliato utilizzare l'[[ability:skill]] speciale di [[character:varka]] al posto dell'[[ability:ca]] speciale.",
+                        "ru": "При использовании данного оружия рекомендуется применять особый [[ability:skill]] вместо особой [[ability:ca|Заряженной атаки]]."
                     }
                 },
                 "the-unforged"
@@ -66,7 +69,8 @@
                     "note": {
                         "en": "Assumes **[[character:varka]] is healed** to activate the passive. As this is not feasible in his current best teams, this weapon can quickly fall to the bottom of this list.",
                         "fr": "Suppose que **[[character:varka]] est soigné** pour activer le passif. Comme ce n'est pas faisable dans ses meilleures équipes actuelles, cette arme peut rapidement tomber en bas de cette liste.",
-                        "it": "Presuppone che **[[character:varka]] riceva cure**. Poiché ciò non è fattibile nei suoi team migliori attuali, quest'arma può rapidamente finire in fondo alla lista."
+                        "it": "Presuppone che **[[character:varka]] riceva cure**. Poiché ciò non è fattibile nei suoi team migliori attuali, quest'arma può rapidamente finire in fondo alla lista.",
+                        "ru": "Предполагается, что **[[character:varka]] получает лечение** для реализации Пассивной способности. В лучших отрядах [[character:varka|Варки]] это условие не выполняется, и при этом оно становится хуже других вариантов."
                     }
                 },
                 {
@@ -74,7 +78,8 @@
                     "note": {
                         "en": "Assumes the [[element:pyro]] passive being active. At **[R5]**, this weapon performs similarly to **[[weapon:fang-of-the-mountain-king]]**.",
                         "fr": "Suppose que le passif [[element:pyro]] est actif. Une fois **[R5]**, cette arme se rapproche de **[[weapon:fang-of-the-mountain-king]]**.",
-                        "it": "Presuppone che la passiva [[element:pyro]] sia attiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:fang-of-the-mountain-king]]**."
+                        "it": "Presuppone che la passiva [[element:pyro]] sia attiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:fang-of-the-mountain-king]]**.",
+                        "ru": "Предполагается, что эффект Пассивной способности после получения эффекта [[element:pyro]] всегда активен. На **[R5]** соответствует **[[weapon:fang-of-the-mountain-king|Клыку Горного короля]]**."
                     }
                 },
                 "blackcliff-slasher"
@@ -88,7 +93,8 @@
                     "note": {
                         "en": "While [[stat:er]] is a useless stat for [[character:varka]], this weapon is one of the few accessible options that are actually reliable.",
                         "fr": "Bien que la [[stat:er]] soit une stat inutile pour [[character:varka]], cette arme fait partie des rares options accessibles qui sont réellement fiables.",
-                        "it": "Nonostante [[stat:er]] sia una stat inutile per [[character:varka]], quest'arma è una delle poche opzioni accessibili che è anche effettivamente affidabile."
+                        "it": "Nonostante [[stat:er]] sia una stat inutile per [[character:varka]], quest'arma è una delle poche opzioni accessibili che è anche effettivamente affidabile.",
+                        "ru": "Хотя [[stat:er]] бесполезно для [[character:varka|Варки]], данное оружие является одним из немногих надёжных и доступных вариантов."
                     }
                 }
             ]

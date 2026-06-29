@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "The Non-[[stat:er]] Weapons see better performances when **[[character:furina]] is used in teams with lower [[stat:er]] Requirements**.",
-            "fr": "Les armes qui ne sont pas [[stat:er]] ont de meilleures performances lorsque **[character:furina]] est jouée dans une équipe avec des besoins en [[stat:er]] plus faibles**."
+            "fr": "Les armes qui ne sont pas [[stat:er]] ont de meilleures performances lorsque **[character:furina]] est jouée dans une équipe avec des besoins en [[stat:er]] plus faibles**.",
+            "ru": "Оружие, не дающее энергию или ВЭ, лучше всего показывают себя при низкой потребности Фурины в ВЭ."
         }
     ],
     "weapons": [
@@ -26,14 +27,16 @@
                     "name": "key-of-khaj-nisut",
                     "note": {
                         "en": "Three stacks of this weapon is extremely reliable as long as [[character:furina]]'s [[ability:skill]] hits opponents. It can help elevate the team's damage with its teamwide [[stat:em]] buff which can lead to it performing better than weapons listed above.",
-                        "fr": "Obtenir 3 stacks avec cette arme se fait facilement tant que le [[ability:skill]] de [[character:furina]] touche des ennemis. Cela peut aider à augmenter les dégâts de l'équipe avec son buff de [[stat:em]], ce qui peut permettre à cette arme de performer mieux que les autres options classées au dessus."
+                        "fr": "Obtenir 3 stacks avec cette arme se fait facilement tant que le [[ability:skill]] de [[character:furina]] touche des ennemis. Cela peut aider à augmenter les dégâts de l'équipe avec son buff de [[stat:em]], ce qui peut permettre à cette arme de performer mieux que les autres options classées au dessus.",
+                        "ru": "Пока навык Фурины атакует противников, три уровня Пассивной способности набираются достаточно стабильно. Может усилить отряд за счёт бонуса МС."
                     }
                 },
                 {
                     "name": "uraku-misugiri",
                     "note": {
                         "en": "This ranking assumes [[character:furina]] is **not paired with a [[element:geo]]** unit. If [[character:furina]] is **paired with a [[element:geo]] unit**, this weapon is better than **[[weapon:primordial-jade-cutter]]**.",
-                        "fr": "Ce classement suppose que [[character:furina]] n'est **pas jouée avec un personnage [[element:geo]]. Dans le cas contraire**, cette arme est meilleure que **[[weapon:primordial-jade-cutter]]**."
+                        "fr": "Ce classement suppose que [[character:furina]] n'est **pas jouée avec un personnage [[element:geo]]. Dans le cas contraire**, cette arme est meilleure que **[[weapon:primordial-jade-cutter]]**.",
+                        "ru": "Предполагается, что в отряде Фурины нет Гео персонажей. Если таковые имеются, этот вариант превосходит Драгоценный омут."
                     }
                 }
             ]
@@ -48,7 +51,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "The value of this weapon can fluctuate based on **[[character:furina]]'s [[stat:er]] requirements** and the **team's [[stat:er]] Requirements**.",
-                        "fr": "La valeur de cette arme peut varier selon les **besoins en [[stat:er]] de [[character:furina]] et de l'équipe**."
+                        "fr": "La valeur de cette arme peut varier selon les **besoins en [[stat:er]] de [[character:furina]] et de l'équipe**.",
+                        "ru": "Польза оружия зависит от потребности Фурины и отряда в ВЭ"
                     }
                 }
             ]

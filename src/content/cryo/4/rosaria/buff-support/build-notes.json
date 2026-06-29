@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Buff Support",
-        "fr": "Support Buff"
+        "fr": "Support Buff",
+        "it": "Supporto Potenziamento"
     },
     "best": true,
     "notes": [
         {
-            "en": "[[character:rosaria]] A4 passive provides a potent [[stat:cr]] buff to her teammates via her own [[stat:cr]] after casting [[ability:burst]]. This heavily incentivizes building enough [[stat:er]] to [[ability:burst]] consistently and getting as close to 100% [[stat:cr]] as possible",
-            "fr": "Le passif A4 de [[character:rosaria]] fournit un puissant buff de [[stat:cr]] à ses coéquipiers via son propre [[stat:cr]] après avoir lancé son [[ability:burst]]. Cela encourage fortement à build assez de [[stat:er]] pour utiliser son [[ability:burst]] constamment et à se rapprocher autant que possible de 100% de [[stat:cr]]."
+            "en": "This Build focuses on [[character:rosaria]]'s Buffing/Energy generation/[[element:cryo]] application capabilities. Though it does not mean that you dont invest in her personal damage, only that it's a lower priority overall.",
+            "fr": "Ce build se concentre sur les capacités de [[character:rosaria]] de buff, de génération d'énergie et d'application [[element:cryo]]. Cela ne signifie pas que vous ne devez pas investir dans ses dégâts personnels, seulement que c'est une priorité globale plus basse.",
+            "it": "Questa build si concentra sulle capacità di [[character:rosaria]] di **potenziamento, batteria, ed applicazione [[element:cryo]]**. Ciò non significa che non si debba investire nei suoi danni personali, solo che hanno una priorità minore."
         },
         {
-            "en": "This Build focuses on her Buffing/Energy generation/[[element:cryo]] application capabilities. Though it does not mean that you dont invest in her personal damage, only that it's a lower priority overall.",
-            "fr": "Ce build se concentre sur ses capacités de buff, de génération d'énergie et d'application [[element:cryo]]. Cela ne signifie pas que vous ne devez pas investir dans ses dégâts personnels, seulement que c'est une priorité globale plus basse."
+            "en": "[[character:rosaria]] A4 passive provides a potent [[stat:cr]] buff to her teammates via her own [[stat:cr]] after casting [[ability:burst]]. This heavily incentivizes building enough [[stat:er]] to [[ability:burst]] consistently and getting as close to 100% [[stat:cr]] as possible",
+            "fr": "Le passif A4 de [[character:rosaria]] fournit un puissant buff de [[stat:cr]] à ses coéquipiers via son propre [[stat:cr]] après avoir lancé son [[ability:burst]]. Cela encourage fortement à build assez de [[stat:er]] pour utiliser son [[ability:burst]] constamment et à se rapprocher autant que possible de 100% de [[stat:cr]].",
+            "it": "Il suo Talento passivo A4 di [[character:rosaria]] fornisce un forte potenziamento al [[stat:cr]] agli altri personaggi nel team quando utilizza il [[ability:burst]], che scala sul proprio [[stat:cr]]. Ciò incentiva fortemente ad accumulare [[stat:er] sufficiente ad utilizzare il [[ability:burst]] in modo costante e ad avvicinarsi il più possibile al 100% di [[stat:cr]]."
         }
     ]
 }

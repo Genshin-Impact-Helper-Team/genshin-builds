@@ -1,17 +1,5 @@
 ---
-import SimplePageLayout from '../layouts/SimplePageLayout.astro';
-import SimplePageContent from '../components/SimplePageContent.astro';
-import { getLocale, t } from '../utils/i18n';
+import { localizedPath } from '../utils/paths';
 
-const lang = 'en';
-const locale = getLocale(lang);
+return Astro.redirect(localizedPath('en', 'faq'));
 ---
-
-<SimplePageLayout
-  title={t(locale, 'ui', 'FAQ')}
-  lang={lang}
-  locale={locale}
-  page="faq"
->
-  <SimplePageContent kind="faq" lang={lang} />
-</SimplePageLayout>

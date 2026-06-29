@@ -28,7 +28,8 @@
                     "note": {
                         "en": "As [[character:chasca]]'s Shining Shadowhunt Shells are not a projectile and therefore have no travel time, she does not benefit from any stacks of this weapon's passive. It is still a good Stat stick nonetheless.",
                         "fr": "Comme les Cartouches Radieuses de Chassombre de [[character:chasca]] ne sont pas des projectiles et n'ont donc pas de temps de trajet, elle ne bénéficie d'aucun stack du passif de cette arme. Cela reste néanmoins un bon stat stick.",
-                        "it": "Poiché i Proiettili Cacciaombre radiosi non sono considerati veri e propri 'proiettili' e non hanno tempo 'in aria', [[character:chasca]] non trae vantaggio dagli accumuli della passiva di quest'arma. Rimane comunque un arma con stat utili."
+                        "it": "Poiché i Proiettili Cacciaombre radiosi non sono considerati veri e propri 'proiettili' e non hanno tempo 'in aria', [[character:chasca]] non trae vantaggio dagli accumuli della passiva di quest'arma. Rimane comunque un arma con stat utili.",
+                        "ru": "Поскольку Сияющие пули охотника на тени не имеют времени полета, она не набирает уровни Пассивной способности оружия. Однако Амос можно использовать за счёт полезных статов."
                     }
                 },
                 {
@@ -36,7 +37,8 @@
                     "note": {
                         "en": "In theory, this weapon performs slightly better than **[[weapon:amos-bow]]**. However, due to its high [[stat:cr]] substat, **optimizing builds around this weapon is very hard**.",
                         "fr": "En théorie, cette arme dépasse légèrement **[[weapon:amos-bow]]**. Cependant, à cause de sa substat [[stat:cr]] élevée, **optimiser les builds autour de cette arme est très difficile**.",
-                        "it": "In teoria, quest'arma ha prestazioni leggermente migliori di **[[weapon:amos-bow]]**. Tuttavia, a causa dell'alto [[stat:cr]] fornito dalla sua stat secondaria, **ottimizzare la build di Chasca con quest'arma è molto difficoltoso**."
+                        "it": "In teoria, quest'arma ha prestazioni leggermente migliori di **[[weapon:amos-bow]]**. Tuttavia, a causa dell'alto [[stat:cr]] fornito dalla sua stat secondaria, **ottimizzare la build di Chasca con quest'arma è molto difficoltoso**.",
+                        "ru": "В теории немного превосходит **[[weapon:amos-bow]]**, однако **сбалансировать криты может быть затруднительно**."
                     }
                 },
                 {
@@ -44,7 +46,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs close to **[[weapon:skyward-harp]]**.",
                         "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:skyward-harp]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 }
             ]
@@ -61,7 +64,8 @@
                     "note": {
                         "en": "Assumes permanent uptime on the passive. If the team cannot provide **frequent heals**, this weapon should not be considered.",
                         "fr": "Suppose une disponibilité permanente du passif. Si l'équipe ne peut pas fournir des **soins fréquents**, cette arme ne devrait pas être envisagée.",
-                        "it": "La classifica presuppone un tempo di funzionamento costante della passiva. Se il team non può fornire **cure frequenti**, quest'arma non dovrebbe essere presa in considerazione."
+                        "it": "La classifica presuppone un tempo di funzionamento costante della passiva. Se il team non può fornire **cure frequenti**, quest'arma non dovrebbe essere presa in considerazione.",
+                        "ru": "Предполагается, что условия работы Пассивной способности поддерживаются постоянно. Если отряд не предоставляет **стабильного лечения**, данное оружие не стоит рассматривать."
                     }
                 },
                 {
@@ -69,7 +73,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similarly to **[[weapon:skyward-harp]]**.",
                         "fr": "Une fois **[R5]**, cette arme équivaut presque à **[[weapon:skyward-harp]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 },
                 {
@@ -85,7 +90,8 @@
                     "note": {
                         "en": "This weapon needs **reliable healing** to perform well. With frequent, guaranteed healing instances, this weapon performs slightly better than **[[weapon:song-of-stillness]] [R5]**, and slightly better than **[[weapon:amos-bow]]** at **[R5]**.",
                         "fr": "Cette arme a besoin de **soins fiables** pour être performante. Avec des soins fréquents et garantis, cette arme dépasse légèrement **[[weapon:song-of-stillness]] [R5]**, et dépasse légèrement **[[weapon:amos-bow]]** une fois **[R5]**.",
-                        "it": "Quest'arma necessita di una **buona quantità di cure** per funzionare bene. Con cure frequenti e garantite, quest'arma ha prestazioni leggermente migliori di **[[weapon:song-of-stillness]] [R5]**, e leggermente migliori di **[[weapon:amos-bow]]** a **[R5]**."
+                        "it": "Quest'arma necessita di una **buona quantità di cure** per funzionare bene. Con cure frequenti e garantite, quest'arma ha prestazioni leggermente migliori di **[[weapon:song-of-stillness]] [R5]**, e leggermente migliori di **[[weapon:amos-bow]]** a **[R5]**.",
+                        "ru": "Для нормальной работы требуется **стабильное лечение**. При наличии стабильного источника частого лечения несколько превосходит **[[weapon:song-of-stillness|Мелодию покоя]] [R5]**, а на **[R5]** начинает превосходить **[[weapon:amos-bow]]**."
                     }
                 }
             ]

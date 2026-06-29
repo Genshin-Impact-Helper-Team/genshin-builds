@@ -2,16 +2,19 @@
     "best": true,
     "name": {
         "en": "High Energy Requirement (Off-Field DPS)",
-        "fr": "Besoins en Energie élevés (DPS Off-Field)"
+        "fr": "Besoins en Energie élevés (DPS Off-Field)",
+        "ru": "Карманный ДД (Высокая потребность в энергии)"
     },
     "notes": [
         {
             "en": "[[character:yelan]]'s primary role is as an off-field [[element:hydro]] DPS who can also enable reactions thanks to her elemental application. Similarly to [[character:xingqiu]], her exquisite throws from [[ability:burst]] require your character to perform the [[ability:na]] action.",
-            "fr": "Le rôle principal de [[character:yelan]] est DPS [[element:hydro]] Off-Field DPS qui permet de déclencher des réactions grâce à son application élémentaire. De la même façon que [[character:xingqiu]], le Dé Exquis de son [[ability:burst]] nécéssite que votre personnage effectue une [[ability:na]]."
+            "fr": "Le rôle principal de [[character:yelan]]est DPS [[element:hydro]] Off-Field DPS qui permet de déclencher des réactions grâce à son application élémentaire. De la même façon que [[character:xingqiu]], le Dé Exquis de son [[ability:burst]] nécéssite que votre personnage effectue une [[ability:na]].",
+            "ru": "Е Лань наносит урон из кармана из предоставляет Гидро статус для последующего закрытия реакций другими персонажами в отряде. Атаки ее Взрыва стихии, аналогично Син Цю, активируются при использовании активным персонажем Обычных атак."
         },
         {
             "en": "Big thanks to **Vladone ツ#9281** for helping out",
-            "fr": "Un grand merci à **Vladone ツ#9281** pour son aide"
+            "fr": "Un grand merci à **Vladone ツ#9281** pour son aide",
+            "ru": "Большое спасибо Vladone ツ#9281 за помощь в расчётах."
         }
     ]
 }

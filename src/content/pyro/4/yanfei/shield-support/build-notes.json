@@ -2,18 +2,21 @@
     "name": {
         "en": "Shield Support [C4+ Required]",
         "fr": "Support de Bouclier [C4+ Requise]",
-        "it": "Supporto Scudo [C4+ Necessaria]"
+        "it": "Supporto Scudo [C4+ Necessaria]",
+        "ru": "Щит на С4"
     },
     "notes": [
         {
             "en": "This section is dedicated to a playstyle where [[character:yanfei]] is used as a primary shielder through her 4th Constellation.",
             "fr": "Cette section est dédiée à un style de jeu où [[character:yanfei]] est utilisée comme bouclier principal grâce à sa 4ème Constellation.",
-            "it": "Questa sezione è dedicata ad uno stile di gioco in cui Yanfei è utilizzata come scudo grazie alla sua **[C4]**."
+            "it": "Questa sezione è dedicata ad uno stile di gioco in cui Yanfei è utilizzata come scudo grazie alla sua **[C4]**.",
+            "ru": "Данная сборка используется на Янь Фэй как источнике щита на [C4+]"
         },
         {
             "en": "Due to the requirement of having to [[ability:burst]] off cooldown, this build has **high energy requirements**.",
             "fr": "En raison de la nécessité de recharger son [[ability:burst]] après chaque utilisation, ce build a des **besoins en énergie élevés**.",
-            "it": "Per questo stile di gioco è necessario utilizzare il [[ability:burst]] appena finito il Tempo di Ricarica, cosa che rende i suoi **requisiti di [[stat:er]] per questa build molto alti**."
+            "it": "Per questo stile di gioco è necessario utilizzare il [[ability:burst]] appena finito il Tempo di Ricarica, cosa che rende i suoi **requisiti di [[stat:er]] per questa build molto alti**.",
+            "ru": "Требует значительного уровня ВЭ из-за необходимости использования Взрыва стихии по откату."
         }
     ]
 }

@@ -2,7 +2,9 @@
 
 This folder contains the shared translation dictionaries used by the site.
 
-Each language has its own folder and each language folder **must contain the same dictionary files**.
+Each language has its own folder and each language folder **must contain the
+same dictionary files**. After a language is registered in
+`src/utils/languages.ts`, these JSON files are loaded automatically.
 
 ## How It Works
 
@@ -29,8 +31,9 @@ Use:
   or `atk-set`.
 - `elements.json` for elements and reactions, such as `pyro`, `melt`,
   `vaporize`, or `bloom`.
-- `talents.json` for talent names, such as `normal-attack`, `charged-attack`,
+- `abilities.json` for talent names, such as `normal-attack`, `charged-attack`,
   `skill`, and `burst`.
+- `notes.json` for reusable note labels referenced by inline tokens.
 - `ui.json` for website labels, section titles, buttons, and general interface
   text.
 
@@ -175,4 +178,6 @@ the canonical ID.
 - Add new English entries first, then translate them into other languages.
 - If you are unsure about JSON formatting, add the `Needs Format Check` label
   to your Pull Request.
-- Each language folder needs to contain the same files, even if they contain an empty dictionary (`{}`). If you create a new file to in the ./en folder (if a file was starting to get too long and you decide to split it into two files for example), make sure to add it to the other languages folders too!
+- Each language folder must contain `weapons.json`, `artifact-sets.json`,
+  `characters.json`, `stats.json`, `elements.json`, `abilities.json`, `ui.json`,
+  and `notes.json`, even when a dictionary is empty (`{}`).

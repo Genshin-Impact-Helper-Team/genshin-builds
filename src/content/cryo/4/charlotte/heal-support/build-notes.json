@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Heal Support",
-        "fr": "Support Soins"
+        "fr": "Support Soins",
+        "it": "Supporto Cure"
     },
     "best": true,
     "notes": [
         {
-            "en": "[[character:charlotte]] supports the team through her healing, and minor off-field damage. Though she has [[stat:atk%]] scaling on her healing, her personal damage is rather poor and support based artifacts and weapons are recommended.",
-            "fr": "[[character:charlotte]] soutient l'équipe grâce à ses soins et à de légers dégâts off-field. Même si ses soins ont un scaling en [[stat:atk%]], ses dégâts personnels sont plutôt faibles et les artéfacts et armes orientés support sont recommandés."
+            "en": "[[character:charlotte]] supports the team through her healing, and minor off-field damage. Though she has **[[stat:atk%]] scaling on her healing**, her personal damage is rather poor and support based artifacts and weapons are recommended.",
+            "fr": "[[character:charlotte]] soutient l'équipe grâce à ses soins et à de légers dégâts off-field. Même si **ses soins ont un scaling en [[stat:atk%]]**, ses dégâts personnels sont plutôt faibles et les artéfacts et armes orientés support sont recommandés.",
+            "it": "[[character:charlotte]] fornisce supporto al team tramite le sue cure e danni inflitti da fuori campo. Nonostante **le sue cure scalino con [[stat:atk%]]**, il suo contributo in termini di danno è limitato. È consigliabile equipaggiarla con armi e manufatti orientati al supporto."
         },
         {
             "en": "[[character:charlotte]]'s Hold [[ability:skill]] will change to Photo Mode if the Special Analysis Zoom Lens gadget is toggled on. Be sure to toggle it off in the inventory if you wish to properly use her Hold [[ability:skill]] in combat.",
-            "fr": "Le [[ability:skill]] maintenu de [[character:charlotte]] passera en mode photo si le gadget Zomm d'Analyse Spéciale est activé. Pensez à le désactiver dans l'inventaire si vous voulez utiliser correctement son [[ability:skill]] maintenu en combat."
+            "fr": "Le [[ability:skill]] maintenu de [[character:charlotte]] passera en mode photo si le gadget Zomm d'Analyse Spéciale est activé. Pensez à le désactiver dans l'inventaire si vous voulez utiliser correctement son [[ability:skill]] maintenu en combat.",
+            "it": "L'[[ability:skill]] premuta a lungo di [[character:charlotte]] avvia la Modalità Foto se il gadget 'Teleobiettivo per analisi speciali' è attivo. Assicurati di disattivarlo se desideri utilizzare la sua [[ability:skill]] premuta a lungo durante il combattimento."
         }
     ]
 }

@@ -1,20 +1,24 @@
 {
     "name": {
         "en": "On-Field DPS",
-        "fr": "DPS On-Field"
+        "fr": "DPS On-Field",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "**IMPORTANT NOTICE:** At the time of writing, [[element:hydro]] [[character:traveler]] provides no utility to a team that cannot be better filled by another unit, including [[character:barbara]], who all players can obtain at AR 18.",
-            "fr": "**INFORMATION IMPORTANTE:** Lors de l'écriture de ce guide,le [[character:traveler]] [[element:hydro]] n'offre aucune commodité pour les équipes qui ne peut pas être obtenue avec un autre personnage, [[character:barbara]] inclue, que tous les joueurs peuvent obtenir à l'AR 18."
+            "fr": "**INFORMATION IMPORTANTE:** Lors de l'écriture de ce guide,le [[character:traveler]] [[element:hydro]] n'offre aucune commodité pour les équipes qui ne peut pas être obtenue avec un autre personnage, [[character:barbara]] inclue, que tous les joueurs peuvent obtenir à l'AR 18.",
+            "ru": "ВАЖНОЕ ПРИМЕЧАНИЕ: На момент написания раздела Гидро Путешественник не превосходит ни в одном из аспектов ни одного Гидро персонажа, включая Барбару (которая выдаётся бесплатно на 18 Ранге)."
         },
         {
             "en": "[[element:hydro]] [[character:traveler]] can be used as an on-field DPS. This is typically only worth using in teams with [[character:furina]], [[character:bennett]], and a flexible unit. Their DPS is not extremely high, however. ",
-            "fr": "Le [[character:traveler]] [[element:hydro]] peut être utilisé comme DPS on-field. Ce n'est intéressant à jouer que dans les équipes avec [[character:furina]], [[character:bennett]], et un personnage flex. Son DPS ne sera cependant pas vraiment élevé."
+            "fr": "Le [[character:traveler]] [[element:hydro]] peut être utilisé comme DPS on-field. Ce n'est intéressant à jouer que dans les équipes avec [[character:furina]], [[character:bennett]], et un personnage flex. Son DPS ne sera cependant pas vraiment élevé.",
+            "ru": "Гидро Путешественник может использоваться как ДД. Обычно реализуется только с Фуриной, Беннетом и иным полезным персонажем, однако DPS такого отряда не слишком высок."
         },
         {
             "en": "[[element:hydro]] [[character:traveler]]'s personal DPS is not high enough to clear Abyss unless used in an extremely expensive and invested team.",
-            "fr": "Le DPS personnel du [[character:traveler]] [[element:hydro]] n'est pas suffisamment élevé pour passer les Abysses, à moins de le jouer dans une équipe couteuse avec beaucoup d'investissement."
+            "fr": "Le DPS personnel du [[character:traveler]] [[element:hydro]] n'est pas suffisamment élevé pour passer les Abysses, à moins de le jouer dans une équipe couteuse avec beaucoup d'investissement.",
+            "ru": "Урон Гидро Путешественника недостаточно высок для зачистки Бездны, если не использовать его в отряде с другими хорошо собранными персонажами."
         }
     ],
     "weapons": {

@@ -10,6 +10,13 @@ const openBuildsLabel = t(locale, 'ui', 'Open builds');
 const resultsLabel = t(locale, 'ui', 'Results');
 const versionLabel = t(locale, 'ui', 'Version', undefined, false);
 const characterPortraitAltTemplate = t(locale, 'ui', 'Character portrait alt');
+const sortByLabel = t(locale, 'ui', 'Sort by', undefined, false);
+const sortOptions = [
+  { value: 'name', label: `${characterCountLabel} - A-Z` },
+  { value: 'element', label: `${t(locale, 'ui', 'Element')} - A-Z` },
+  { value: 'rarity', label: `${t(locale, 'ui', 'Rarity')} - A-Z` },
+  { value: 'weapon', label: `${t(locale, 'ui', 'Weapon')} - A-Z` },
+];
 const eagerPortraitCount = 9;
 const highPriorityPortraitCount = 4;
 
@@ -47,6 +54,26 @@ const rosterCharacters = characters.map(getCharacterViewModel);
           {resultsLabel}
         </p>
       </div>
+      <label class="roster-sort">
+        {sortByLabel}
+        <select
+          class="home-native-select"
+          name="sort"
+          form="character-filters"
+          aria-label={sortByLabel}
+        >
+          {
+            sortOptions.map((option) => (
+              <option
+                value={option.value}
+                selected={option.value === 'element'}
+              >
+                {option.label}
+              </option>
+            ))
+          }
+        </select>
+      </label>
     </div>
 
     <div class="roster-list" role="list" data-roster-list>

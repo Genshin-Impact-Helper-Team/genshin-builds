@@ -42,7 +42,7 @@ const weaponOptions = [
 ];
 ---
 
-<form class="home-filters" data-character-filters>
+<form class="home-filters" id="character-filters" data-character-filters>
   <label class="home-search">
     {t(locale, 'ui', 'Search')}
     <input
@@ -105,7 +105,7 @@ const weaponOptions = [
           class="home-updated-toggle-input"
           type="checkbox"
           name="updated"
-          value="latest"
+          value="true"
         />
         <span class="home-updated-toggle-mark" aria-hidden="true" />
         <span class="home-updated-text">

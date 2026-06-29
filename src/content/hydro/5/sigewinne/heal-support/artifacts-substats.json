@@ -5,8 +5,7 @@
         {
             "name": "cr",
             "note": {
-                "en": "Only if using [[weapon:favonius-warbow]]",
-                "fr": "Seulement si jouée avec [[weapon:favonius-warbow]]"
+                "en": "[[note:cr-favo]]."
             }
         }
     ]

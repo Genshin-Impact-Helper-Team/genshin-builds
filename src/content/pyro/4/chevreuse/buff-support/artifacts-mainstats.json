@@ -14,7 +14,8 @@
                 "note": {
                     "en": "Only use this if [[character:chevreuse]] has already reached 40,000 HP.",
                     "fr": "A n'utiliser que si [[character:chevreuse]] a déjà atteint les 40,000 PV.",
-                    "it": "Usalo solo se Chevreuse ha già raggiunto 40,000 PS."
+                    "it": "Usalo solo se Chevreuse ha già raggiunto 40,000 PS.",
+                    "ru": "Использовать, только если 40,000 HP уже набрано."
                 }
             }
         ]

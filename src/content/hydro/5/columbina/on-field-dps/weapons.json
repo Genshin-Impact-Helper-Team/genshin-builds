@@ -11,7 +11,8 @@
                     "name": "reliquary-of-truth",
                     "note": {
                         "en": "If [[character:columbina]] can consistently trigger [[element:lunar-bloom]] for the full passive, this weapon performs close to **[[weapon:nocturnes-curtain-call]]**.",
-                        "fr": "Si [[character:columbina]] peut déclencher [[element:lunar-bloom]] à coup sûr pour le passif complet, cette arme est presque égale à **[[weapon:nocturnes-curtain-call]]**."
+                        "fr": "Si [[character:columbina]] peut déclencher [[element:lunar-bloom]] à coup sûr pour le passif complet, cette arme est presque égale à **[[weapon:nocturnes-curtain-call]]**.",
+                        "ru": "Если Коломбина может стабильно закрывать Лунную бутонизацию для поддерживания Пассивной способности, приблизительно соответствует Вызову Ноктюрна."
                     }
                 }
             ]
@@ -29,7 +30,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon should only be used if the team is centered around [[element:lunar-bloom]].",
-                        "fr": "A n'utiliser que si l'équipe est centrée sur les [[element:lunar-bloom]]s."
+                        "fr": "A n'utiliser que si l'équipe est centrée sur les [[element:lunar-bloom]]s.",
+                        "ru": "Используется только в командах от Лунной бутонизации."
                     }
                 }
             ]
@@ -48,7 +50,8 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At [R5], this weapon performs on par with [[weapon:surfs-up]] and [[weapon:tome-of-the-eternal-flow]]."
+                        "en": "At [R5], this weapon performs on par with [[weapon:surfs-up]] and [[weapon:tome-of-the-eternal-flow]].",
+                        "ru": "На [R5] соответствует Обряду вечного течения."
                     }
                 }
             ]

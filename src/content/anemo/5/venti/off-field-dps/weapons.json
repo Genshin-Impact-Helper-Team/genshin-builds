@@ -23,7 +23,8 @@
                     "note": {
                         "en": "With three Gimmick stacks, this weapon performs better than **[[weapon:astral-vultures-crimson-plumage]]**.",
                         "fr": "Avec trois cumuls de Roublardise, cette arme dépasse **[[weapon:astral-vultures-crimson-plumage]]**.",
-                        "it": "La posizione in classifica presuppone 2 personaggi Anemo nel team. Con 3 personaggi Anemo, quest'arma ha prestazioni migliori di **[[weapon:astral-vultures-crimson-plumage]]**."
+                        "it": "La posizione in classifica presuppone 2 personaggi Anemo nel team. Con 3 personaggi Anemo, quest'arma ha prestazioni migliori di **[[weapon:astral-vultures-crimson-plumage]]**.",
+                        "ru": "С тремя уровнями Уловки превосходит **[[weapon:astral-vultures-crimson-plumage]]**."
                     }
                 },
                 "aqua-simulacra",
@@ -42,7 +43,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks similarly to **[[weapon:hunters-path]]**.",
                         "fr": "Une fois **[R5]**, cette arme se classe de façon similaire à **[[weapon:hunters-path]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:hunters-path]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:hunters-path]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:hunters-path|Охотничьей тропе]]**. "
                     }
                 },
                 {
@@ -51,7 +53,8 @@
                     "note": {
                         "en": "ranked under the assumption that **[[character:venti]] is healed**, thus activating its passive.",
                         "fr": "Classée en supposant que **[[character:venti]] est soigné**, activant ainsi son passif.",
-                        "it": "La posizione in classifica presuppone che **[[character:venti]] riceva cure**, attivando la passiva di quest'arma."
+                        "it": "La posizione in classifica presuppone che **[[character:venti]] riceva cure**, attivando la passiva di quest'arma.",
+                        "ru": "Предполагается, что **[[character:venti]] получает лечение**."
                     }
                 },
                 "the-stringless",

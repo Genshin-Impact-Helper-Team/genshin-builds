@@ -5,9 +5,7 @@
         {
             "name": "cr",
             "note": {
-                "en": "Prioritize if using **[[weapon:favonius-greatsword]]**",
-                "fr": "A prioriser si vous utilisez **[[weapon:favonius-greatsword]]**",
-                "it": "Solo se utilizzi **[[weapon:favonius-greatsword]]**."
+                "en": "[[note:cr-favo]]."
             }
         }
     ]

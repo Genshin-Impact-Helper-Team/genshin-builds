@@ -1,12 +1,14 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "DPS [[character:neuvillette]] centers around using his [[ability:ca]]s to deal damage.",
-            "fr": "[[character:neuvillette]] DPS est centré sur l'utilisation de ses [[ability:ca]]s pour infliger des dégâts."
+            "fr": "[[character:neuvillette]] DPS est centré sur l'utilisation de ses [[ability:ca]]s pour infliger des dégâts.",
+            "ru": "Основным источником урона Нёвиллета являются Заряженные атаки."
         }
     ]
 }

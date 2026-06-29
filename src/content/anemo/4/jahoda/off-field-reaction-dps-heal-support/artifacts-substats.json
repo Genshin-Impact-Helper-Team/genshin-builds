@@ -3,18 +3,14 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize until requirements are met.",
-                "fr": "Priorisez jusqu'à ce que les besoins soient atteints.",
-                "it": "Dare la priorità finché non vengono soddisfatti i requisiti."
+                "en": "[[note:er-req]]."
             }
         },
         "atk%",
         {
             "name": "cr",
             "note": {
-                "en": "Only if using **[[weapon:favonius-warbow]]**.",
-                "fr": "Seulement avec **[[weapon:favonius-warbow]]**.",
-                "it": "Solo se utilizzi **[[weapon:favonius-warbow]]**."
+                "en": "[[note:cr-favo]]."
             }
         },
         "em"

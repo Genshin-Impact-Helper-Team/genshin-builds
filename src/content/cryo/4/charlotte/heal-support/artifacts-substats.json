@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Should be prioritized until requirements are met.",
-                "fr": "Doit être priorisée jusqu'à atteindre les besoins requis."
+                "en": "[[note:er-req]]."
             }
         },
         "atk%",
@@ -12,7 +11,8 @@
             "name": "cr",
             "note": {
                 "en": "Only more useful than [[stat:cd]] when using **[[weapon:favonius-codex]]**.",
-                "fr": "Seulement plus utile que les [[stat:cd]] avec **[[weapon:favonius-codex]]**."
+                "fr": "Seulement plus utile que les [[stat:cd]] avec **[[weapon:favonius-codex]]**.",
+                "it": "Ha la priorità su [[stat:cd]] solo se utilizzi  **[[weapon:favonius-codex]]**."
             }
         },
         "atk",

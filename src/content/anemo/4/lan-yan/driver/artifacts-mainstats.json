@@ -15,9 +15,7 @@
             {
                 "name": "cr",
                 "note": {
-                    "en": "Only if using **[[weapon:favonius-codex]]**.",
-                    "fr": "Seulement avec **[[weapon:favonius-codex]]**.",
-                    "it": "Solo se utilizzi **[[weapon:favonius-codex]]**."
+                    "en": "[[note:cr-favo]]."
                 }
             }
         ]

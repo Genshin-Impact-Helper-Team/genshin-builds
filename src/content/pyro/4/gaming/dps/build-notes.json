@@ -1,13 +1,15 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "[[character:gaming]] can reliably [[element:vaporize]] or [[element:melt]] most, if not all, of his [[ability:skill]]-enhanced Plunge Attacks. This allows him to deal high amounts of damage during his [[ability:burst]]'s Wushou state.",
             "fr": "[[character:gaming]] peut déclencher [[element:vaporize]] ou [[element:melt]] de manière fiable sur la plupart, si ce n'est toutes, les attaques plongeants de son [[ability:skill]]. Cela lui permet d'infliger des dégâts importants pendant l'état Wushou de son [[ability:burst]].",
-            "it": "[[character:gaming]] **può provocare [[element:vaporize]] o [[element:melt]] in maniera costante con tutti o quasi tutti gli Attacchi in picchiata migliorati dalla sua [[ability:skill]]**. Questo gli consente di provocare grandi quantità di danni durante lo stato Wushou del suo [[ability:burst]]."
+            "it": "[[character:gaming]] **può provocare [[element:vaporize]] o [[element:melt]] in maniera costante con tutti o quasi tutti gli Attacchi in picchiata migliorati dalla sua [[ability:skill]]**. Questo gli consente di provocare grandi quantità di danni durante lo stato Wushou del suo [[ability:burst]].",
+            "ru": "Ка Мин стабильно вызывает Пар/Таяние большей частью своих усиленных Элементальным навыком атак в падении. Это позволяет ему наносить значительный урон в стойке Ушоу."
         }
     ],
     "weapons": {

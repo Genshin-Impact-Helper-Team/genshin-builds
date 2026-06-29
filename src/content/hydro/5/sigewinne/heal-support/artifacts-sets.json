@@ -33,11 +33,11 @@
                 {
                     "items": [
                         {
-                            "name": "tenacity-of-the-millelith",
+                            "name": "hp-set",
                             "pieces": 2
                         },
                         {
-                            "name": "vourukashas-glow",
+                            "name": "hp-set",
                             "pieces": 2
                         }
                     ]
@@ -53,7 +53,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Can be used in teams with a relevant amount of ATK scaling damage, and will generally outperform 2pc mixed sets in such instances.",
-                                "fr": "Peut être utilisé dans les équipes ayant un scaling ATQ, et sera généralement meilleur que les options 2P/2P dans ces cas là."
+                                "fr": "Peut être utilisé dans les équipes ayant un scaling ATQ, et sera généralement meilleur que les options 2P/2P dans ces cas là.",
+                                "ru": "Вариант в отрядах с ДД, которым полезна Сила атаки. В таких случаях может показывать себя лучше, чем Стойкость Миллелита (2) / Сияние Вурукаши (2)."
                             }
                         }
                     ]

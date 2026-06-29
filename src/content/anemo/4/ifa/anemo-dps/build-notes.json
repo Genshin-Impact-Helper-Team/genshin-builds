@@ -2,19 +2,22 @@
     "name": {
         "en": "[[element:anemo]] DPS",
         "fr": "DPS [[element:anemo]]",
-        "it": "DPS [[element:anemo]]"
+        "it": "DPS [[element:anemo]]",
+        "ru": "[[element:anemo]] ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "This build focuses on [[character:ifa]]'s [[stat:anemo-dmg]].",
             "fr": "Ce build se concentre sur les [[stat:anemo-dmg]] de [[character:ifa]].",
-            "it": "Questa build di concentra sui danni [[stat:anemo-dmg]] di [[character:ifa]]."
+            "it": "Questa build di concentra sui danni [[stat:anemo-dmg]] di [[character:ifa]].",
+            "ru": "Сборка [[character:ifa|Ифы]] в [[stat:anemo-dmg|Анемо урон]]."
         },
         {
             "en": "[[character:ifa]]'s healing as an [[element:anemo]] DPS by itself is generally not enough to fulfill [[character:furina]]'s Fanfare, so it's recommended to pair him with another healer, most notably being [[character:sayu]].",
             "fr": "Le soin de [[character:ifa]] en tant que DPS [[element:anemo]] ne suffit généralement pas à lui seul pour compléter la Fanfare de [[character:furina]], il est donc recommandé de le jouer avec un autre healer, notamment [[character:sayu]].",
-            "it": "Le cure di [[character:ifa]] DPS [[element:anemo]] non sono sufficienti a massimizzare la Fanfara di [[character:furina]], ed è quindi consigliato utilizzare un secondo guaritore - [[character:sayu]] è l'esempio più rilevante."
+            "it": "Le cure di [[character:ifa]] DPS [[element:anemo]] non sono sufficienti a massimizzare la Fanfara di [[character:furina]], ed è quindi consigliato utilizzare un secondo guaritore - [[character:sayu]] è l'esempio più rilevante.",
+            "ru": "Объема исцеления [[character:ifa|Ифы]] зачастую недостаточно, чтобы полностью набирать Фанфары [[character:furina|Фурины]], поэтому рекомендуется комбинировать его с другими хилерами (например, с [[character:sayu]])."
         }
     ],
     "weapons": [

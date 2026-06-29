@@ -12,7 +12,8 @@
                     "note": {
                         "en": "Usually only a better option at higher constellation levels such as [C6] where her energy needs can be met without Favonius passive particles.",
                         "fr": "Généralement une meilleure option seulement aux constellations élevées comme [C6], lorsque ses besoins en énergie peuvent être couverts sans les particules du passif Favonius.",
-                        "it": "Di solito è un’opzione migliore solo a costellazioni più alte come la **[C6]**, quando i suoi requisiti di Energia possono essere soddisfatti senza fare affidamento sulle particelle generate da **[[weapon:favonius-warbow]]**."
+                        "it": "Di solito è un’opzione migliore solo a costellazioni più alte come la **[C6]**, quando i suoi requisiti di Energia possono essere soddisfatti senza fare affidamento sulle particelle generate da **[[weapon:favonius-warbow]]**.",
+                        "ru": "Является приоритетным вариантом преимущественно на [C6], когда её потребность в энергии может быть удовлетворена без частиц от **[[weapon:favonius-warbow|Боевого лука Фавония]]**."
                     }
                 }
             ]
@@ -35,7 +36,8 @@
                     "note": {
                         "en": "It's worth mentioning that the extra Pressurized Collapse from a second [[ability:skill]] wont give you any extra particles if it's within her 5.5 second particle generation cooldown.",
                         "fr": "Il est bon de noter que l'effondrement compressé supplémentaire d'un second [[ability:skill]] ne donnera pas de particules supplémentaires s'il a lieu pendant son TdR de génération de particules de 5,5 secondes.",
-                        "it": "Vale la pena ricordare che il Collasso pressurizzato aggiuntivo ottenuto tramite una seconda attivazione dell'[[ability:skill]] non genererà particelle aggiuntive se avviene entro i 5,5 secondi di ricarica della generazione delle particelle."
+                        "it": "Vale la pena ricordare che il Collasso pressurizzato aggiuntivo ottenuto tramite una seconda attivazione dell'[[ability:skill]] non genererà particelle aggiuntive se avviene entro i 5,5 secondi di ricarica della generazione delle particelle.",
+                        "ru": "Следует отметить, что второй Обвал под давлением от [[ability:skill|навыка]] не дает дополнительных частиц, если вызывается в период 5,5 секунд после предыдущего, так как существует откат генерации частиц."
                     }
                 }
             ]

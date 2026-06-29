@@ -1,47 +1,43 @@
 const header = document.querySelector<HTMLElement>('.site-header');
-const openButton =
-  document.querySelector<HTMLButtonElement>('[data-menu-open]');
-const closeButtons =
-  document.querySelectorAll<HTMLElement>('[data-menu-close]');
+const navToggle = header?.querySelector<HTMLButtonElement>('[data-nav-toggle]');
+const navDropdown = header?.querySelector<HTMLDetailsElement>('.nav-dropdown');
 
-/**
- * Opens or closes the side menu and keeps ARIA state synchronized.
- */
-const setMenuOpen = (isOpen: boolean) => {
-  header?.classList.toggle('menu-is-open', isOpen);
-  openButton?.setAttribute('aria-expanded', String(isOpen));
+/** Keeps the compact navigation and its ARIA state synchronized. */
+const setNavOpen = (isOpen: boolean) => {
+  header?.classList.toggle('nav-is-open', isOpen);
+  navToggle?.setAttribute('aria-expanded', String(isOpen));
+  navToggle?.setAttribute(
+    'aria-label',
+    isOpen ? 'Close navigation' : 'Open navigation',
+  );
+
+  if (!isOpen) navDropdown?.removeAttribute('open');
 };
 
-openButton?.addEventListener('click', () => {
-  const isOpen = openButton.getAttribute('aria-expanded') === 'true';
-  setMenuOpen(!isOpen);
+navToggle?.addEventListener('click', () => {
+  setNavOpen(navToggle.getAttribute('aria-expanded') !== 'true');
 });
 
-closeButtons.forEach((button) => {
-  button.addEventListener('click', () => setMenuOpen(false));
+header?.querySelectorAll<HTMLAnchorElement>('.nav-panel a').forEach((link) => {
+  link.addEventListener('click', () => setNavOpen(false));
+});
+
+document.addEventListener('click', (event) => {
+  if (event.target instanceof Node && !header?.contains(event.target)) {
+    setNavOpen(false);
+  }
 });
 
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
-    setMenuOpen(false);
+    setNavOpen(false);
+    navToggle?.focus();
   }
 });
 
-document
-  .querySelectorAll<HTMLDetailsElement>('.side-menu details')
-  .forEach((details) => {
-    details.addEventListener('toggle', () => {
-      if (!details.open) return;
-
-      details.parentElement
-        ?.querySelectorAll<HTMLDetailsElement>(':scope > details')
-        .forEach((sibling) => {
-          if (sibling !== details) {
-            sibling.removeAttribute('open');
-          }
-        });
-    });
-  });
+window.matchMedia('(min-width: 981px)').addEventListener('change', (event) => {
+  if (event.matches) setNavOpen(false);
+});
 
 const baseUrl = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL

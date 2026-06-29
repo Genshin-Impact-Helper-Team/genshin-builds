@@ -1,4 +1,3 @@
-import fs from 'fs';
 import path from 'path';
 import translationAliases from '../data/translation-aliases.json';
 import {
@@ -6,6 +5,7 @@ import {
   getPublicCharacterSlug,
 } from './character-slugs';
 import { loadJSON, readJSONFile } from './content';
+import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale, t } from './i18n';
 import { resolveArtifactAssetUrl } from './item-assets';
 import { localizedPath } from './paths';
@@ -32,9 +32,7 @@ type ArtifactSetUsage = {
 /**
  * Translation aliases relevant to canonicalizing artifact set recommendation IDs.
  */
-type TranslationAliasCategory = Partial<
-  Record<'set', Record<string, string>>
->;
+type TranslationAliasCategory = Partial<Record<'set', Record<string, string>>>;
 
 const aliases = translationAliases as TranslationAliasCategory;
 
@@ -106,113 +104,45 @@ function getArtifactSetItems(group: any) {
  * @returns Artifact set IDs mapped to characters that mention them as 4-piece.
  */
 function getArtifactSetFourPieceUsage(locale: any, lang: string) {
-  const contentPath = path.resolve('src/content');
   const usageBySet = new Map<string, ArtifactSetUsage[]>();
 
-  if (!fs.existsSync(contentPath)) {
-    return usageBySet;
+  for (const character of getContentCharacters()) {
+    const characterName = getPublicCharacterName(locale, character);
+    const href = localizedPath(lang, getPublicCharacterSlug(character));
+    const usageEntry = {
+      characterName,
+      characterRarity: character.rarity,
+      href,
+    };
+
+    for (const build of getCharacterBuilds(character.characterPath)) {
+      if (loadJSON(build.path, 'build-notes.json')?.best !== true) continue;
+
+      const data = loadJSON(build.path, 'artifacts-sets.json');
+      const groups = [
+        ...(data?.artifact_sets?.flatMap((rank: any) => rank.groups ?? []) ??
+          []),
+        ...(data?.conditional?.flatMap(
+          (entry: any) => entry.groups ?? [entry],
+        ) ?? []),
+      ];
+      const seenInBuild = new Set<string>();
+
+      for (const group of groups) {
+        for (const item of getArtifactSetItems(group)) {
+          if (Number(item?.pieces) !== 4) continue;
+
+          const setId = normalizeArtifactSetItemId(item);
+          if (!setId || seenInBuild.has(setId)) continue;
+
+          seenInBuild.add(setId);
+          const usage = usageBySet.get(setId) ?? [];
+          if (!usage.some((item) => item.href === href)) usage.push(usageEntry);
+          usageBySet.set(setId, usage);
+        }
+      }
+    }
   }
-
-  fs.readdirSync(contentPath, { withFileTypes: true })
-    .filter((element) => element.isDirectory() && element.name !== 'site')
-    .forEach((element) => {
-      const elementPath = path.join(contentPath, element.name);
-
-      fs.readdirSync(elementPath, { withFileTypes: true })
-        .filter((rarity) => rarity.isDirectory())
-        .forEach((rarity) => {
-          const rarityPath = path.join(elementPath, rarity.name);
-
-          fs.readdirSync(rarityPath, { withFileTypes: true })
-            .filter((character) => character.isDirectory())
-            .forEach((character) => {
-              const characterPath = path.join(rarityPath, character.name);
-              const metadataPath = path.join(characterPath, 'metadata.json');
-
-              if (!fs.existsSync(metadataPath)) {
-                return;
-              }
-
-              const characterName = getPublicCharacterName(locale, {
-                character: character.name,
-                element: element.name,
-              });
-              const characterSlug = getPublicCharacterSlug({
-                character: character.name,
-                element: element.name,
-              });
-              const href = localizedPath(lang, characterSlug);
-
-              fs.readdirSync(characterPath, { withFileTypes: true })
-                .filter((build) => build.isDirectory())
-                .forEach((build) => {
-                  const buildPath = path.join(characterPath, build.name);
-                  const buildNoteData = loadJSON(buildPath, 'build-notes.json');
-
-                  if (buildNoteData?.best !== true) {
-                    return;
-                  }
-
-                  const rawArtifactSets = loadJSON(
-                    buildPath,
-                    'artifacts-sets.json',
-                  );
-                  const rankedGroups = Array.isArray(
-                    rawArtifactSets?.artifact_sets,
-                  )
-                    ? rawArtifactSets.artifact_sets.flatMap(
-                        (rank: any) => rank.groups ?? [],
-                      )
-                    : [];
-                  const conditionalGroups = Array.isArray(
-                    rawArtifactSets?.conditional,
-                  )
-                    ? rawArtifactSets.conditional.flatMap(
-                        (entry: any) => entry.groups ?? [entry],
-                      )
-                    : [];
-                  const groups = [...rankedGroups, ...conditionalGroups];
-
-                  if (groups.length === 0) {
-                    return;
-                  }
-
-                  const usageEntry = {
-                    characterName,
-                    characterRarity: rarity.name,
-                    href,
-                  };
-                  const seenInBuild = new Set<string>();
-
-                  groups.forEach((group: any) => {
-                    getArtifactSetItems(group).forEach((item: any) => {
-                      if (Number(item?.pieces) !== 4) {
-                        return;
-                      }
-
-                      const setId = normalizeArtifactSetItemId(item);
-
-                      if (!setId || seenInBuild.has(setId)) {
-                        return;
-                      }
-
-                      seenInBuild.add(setId);
-
-                      if (!usageBySet.has(setId)) {
-                        usageBySet.set(setId, []);
-                      }
-
-                      const usage = usageBySet.get(setId);
-
-                      if (!usage?.some((item) => item.href === href)) {
-                        usage?.push(usageEntry);
-                      }
-                    });
-                  });
-                });
-            });
-        });
-    });
 
   usageBySet.forEach((usage) => {
     usage.sort((a, b) => a.characterName.localeCompare(b.characterName));

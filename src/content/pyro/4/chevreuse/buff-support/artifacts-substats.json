@@ -5,16 +5,15 @@
             "note": {
                 "en": "Only if needed. Prioritize until meeting [[stat:er]] requirements.",
                 "fr": "Seulement si nécessaire. Prioriser jusqu'à atteindre les besoins de [[stat:er]].",
-                "it": "Solo se necessario, dare la priorità ai requisiti di [[stat:er]]."
+                "it": "Solo se necessario, dare la priorità ai requisiti di [[stat:er]].",
+                "ru": "Только при нужде во Взрыве стихии"
             }
         },
         "hp%",
         {
             "name": "cr",
             "note": {
-                "en": "Only if using **[[weapon:favonius-lance]]**.",
-                "fr": "Seulement si **[[weapon:favonius-lance]]** est équipée.",
-                "it": "Solo se utilizzi **[[weapon:favonius-lance]]**."
+                "en": "[[note:cr-favo]]."
             }
         },
         "hp",

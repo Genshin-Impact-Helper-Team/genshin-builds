@@ -2,18 +2,6 @@
 import { t } from '../utils/i18n';
 const { notes, buildNote, locale } = Astro.props;
 
-type CalculationCredit = {
-  author?: string;
-  link?: string;
-  detail?: string;
-};
-
-type NoteItem = {
-  keys: string[];
-  label: string;
-  linkText: string;
-};
-
 type RenderedNote = {
   id: string;
   name: string;
@@ -32,56 +20,12 @@ type NoteSection = {
 };
 
 /**
- * Normalizes one or many calculation credits into valid linked credits.
- */
-const toCalculationCredits = (value: CalculationCredit | CalculationCredit[]) =>
-  (Array.isArray(value) ? value : [value]).filter(
-    (credit) => credit?.author && credit?.link,
-  );
-
-/**
- * Collects all calculation credits that belong to one note section.
- */
-const getCalculationCredits = (item: NoteItem) =>
-  item.keys.flatMap((key) => toCalculationCredits(buildNote?.[key] ?? []));
-
-/**
  * Checks whether a note section has any global notes or item notes.
  */
 const hasNoteContent = (section: NoteSection) =>
   section.global.length +
     section.groups.reduce((total, group) => total + group.items.length, 0) >
   0;
-
-// Detailed calculation links use slightly different keys than their UI labels.
-const noteItems: NoteItem[] = [
-  {
-    keys: ['artifact', 'artifacts'],
-    label: t(locale, 'ui', 'Artifacts'),
-    linkText: t(locale, 'ui', 'Detailed artifacts calculation'),
-  },
-  {
-    keys: ['weapons'],
-    label: t(locale, 'ui', 'Weapons'),
-    linkText: t(locale, 'ui', 'Detailed weapons calculation'),
-  },
-  {
-    keys: ['talent', 'talents'],
-    label: t(locale, 'ui', 'Talents'),
-    linkText: t(locale, 'ui', 'Detailed talents calculation'),
-  },
-  {
-    keys: ['global'],
-    label: t(locale, 'ui', 'General'),
-    linkText: t(locale, 'ui', 'Detailed calculations'),
-  },
-];
-
-const calculationCreditItems = buildNote
-  ? noteItems.flatMap((item) =>
-      getCalculationCredits(item).map((credit) => ({ ...item, credit })),
-    )
-  : [];
 
 const noteSections: NoteSection[] = [
   {
@@ -109,37 +53,13 @@ const hasNotes = noteSections.length > 0;
 ---
 
 {
-  (hasNotes ||
-    calculationCreditItems.length > 0 ||
-    buildNote?.notes?.length > 0) && (
+  (hasNotes || buildNote?.notes?.length > 0) && (
     <div class="card notes-card">
       <h2>{t(locale, 'ui', 'Notes')}</h2>
 
       <div class="notes-content">
         {buildNote && (
           <div class="notes-block">
-            {/* Optional external calculation links credited in build-notes.json. */}
-            {calculationCreditItems.length > 0 && (
-              <div class="calculation-links">
-                {calculationCreditItems.map(({ linkText, credit }) => (
-                  <div class="calculation-link">
-                    <a href={credit.link} target="_blank">
-                      {linkText}
-                    </a>
-                    {credit.detail && (
-                      <>
-                        {' '}
-                        (<span set:html={credit.detail} />)
-                      </>
-                    )}{' '}
-                    - {t(locale, 'ui', 'Thank you to')}
-                    {'\u00a0'}
-                    {credit.author}!
-                  </div>
-                ))}
-              </div>
-            )}
-
             {buildNote.notes?.length > 0 && (
               <div class="build-note-list">
                 {/* Build-level editorial notes are already localized and rendered. */}
@@ -181,7 +101,3 @@ const hasNotes = noteSections.length > 0;
     </div>
   )
 }
-
-<script>
-  import '../scripts/info-popover';
-</script>

@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "Physical DPS",
-        "fr": "DPS Physique"
+        "fr": "DPS Physique",
+        "it": "DPS Fisico"
     },
     "best": true,
     "notes": [
         {
             "en": "Physical DPS [[character:freminet]] stacks his Pers Timer to max using [[ability:na]]s and unleashes a powerful Physical Shattering Pressure. Rankings assume he is in a team that can reliably trigger Shatter and [[element:superconduct]].",
-            "fr": "[[character:freminet]] DPS Physique remplit son Indicateur de Pers avec ses [[ability:na]]s et libère un Concassage Pressurisé physique (niveau 4). Les classements supposent qu'il est dans une équipe capable de déclencher Brise-Glace et [[element:superconduct]] de manière fiable."
+            "fr": "[[character:freminet]] DPS Physique remplit son Indicateur de Pers avec ses [[ability:na]]s et libère un Concassage Pressurisé physique (niveau 4). Les classements supposent qu'il est dans une équipe capable de déclencher Brise-Glace et [[element:superconduct]] de manière fiable.",
+            "it": "[[character:freminet]] DPS Fisico accumula il suo Manometro Pers al massimo usando gli [[ability:na|Attacchi Normali]] e scatena una potente Pressione Frantumante Fisica. Le classifiche presuppongono che sia in un team in grado di provocare in maniera affidabile Rompigelo (Shatter) e [[element:superconduct]]."
         },
         {
             "en": "Rotation: {rot:E Q N2 E 3[N1 E N2 (E or NA)]}",
-            "fr": "Rotation : {rot:E A N2 E 3[N1 E N2 (E or NA)]}"
+            "fr": "Rotation : {rot:E A N2 E 3[N1 E N2 (E or NA)]}",
+            "it": "Rotazione: {rot:EQ N2E 3[N1EN2(E o NA)]}"
         },
         {
             "en": "You can perform a [[ability:na]] instead of using [[ability:skill]] at Pressure Level 4, because this also ends the Pers Timer state.",
-            "fr": "Vous pouvez effectuer une [[ability:na]] au lieu d'utiliser le [[ability:skill]] au niveau de pression 4, parce que cela met aussi fin à l'état Indicateur de Pers."
+            "fr": "Vous pouvez effectuer une [[ability:na]] au lieu d'utiliser le [[ability:skill]] au niveau de pression 4, parce que cela met aussi fin à l'état Indicateur de Pers.",
+            "it": "Puoi eseguire un [[ability:na]] al posto dell'[[ability:skill]] di livello Pressione 4, poiché entrambi terminano lo stato Manometro di Pers."
         }
     ]
 }

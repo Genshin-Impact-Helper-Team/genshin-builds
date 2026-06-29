@@ -2,16 +2,19 @@
     "best": true,
     "name": {
         "en": "[[element:vaporize]] DPS",
-        "fr": "DPS [[element:vaporize]]"
+        "fr": "DPS [[element:vaporize]]",
+        "ru": "ДД через пар"
     },
     "notes": [
         {
             "en": "[[character:mualani]] is able to consistently [[element:vaporize]] her Sharky Bites as colliding with enemies while on Sharky Surfboard does not apply any [[element:hydro]].",
-            "fr": "[[character:mualani]] peut déclencher [[element:vaporize]] sur ses Morsures de Requinou à coup sûr, puisque toucher un ennemi en étant sur la la planche Requinou n'applique pas [[element:hydro]]."
+            "fr": "[[character:mualani]] peut déclencher [[element:vaporize]] sur ses Morsures de Requinou à coup sûr, puisque toucher un ennemi en étant sur la la planche Requinou n'applique pas [[element:hydro]].",
+            "ru": "Муалани может закрывать Пар всеми Укусами акулки, так как столкновение с противниками и наложение меток не сопровождается наложением Гидро статуса."
         },
         {
             "en": " If [[character:mualani]] attacks a marked enemy with a Sharky Bite, any other marked enemies are hit with additional Missiles. Both the Sharky Bites and the additional Missiles are considered [[ability:na]] Damage.",
-            "fr": " Si [[character:mualani]] attaque un ennemi ayant une Marque de proie, tous les ennemis marqués sont attaqués par des missiles de Requinou. La morsure et le missile de Requinou sont tout deux considérés comme des dégâts d'[[ability:na]]."
+            "fr": " Si [[character:mualani]] attaque un ennemi ayant une Marque de proie, tous les ennemis marqués sont attaqués par des missiles de Requinou. La morsure et le missile de Requinou sont tout deux considérés comme des dégâts d'[[ability:na]].",
+            "ru": "При атаке отмеченного противника Укусом акулки по остальным отмеченным противникам дополнительно выпускаются Акулкины ракеты (урон обеих приёмов считается уроном обычной атаки)."
         }
     ],
     "weapons": [

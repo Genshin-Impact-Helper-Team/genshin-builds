@@ -28,6 +28,7 @@ src/content/<element>/<rarity>/<character>/metadata.json
   files in `src/data/weapons`.
 - `last_updated`: Genshin version string shown in the page header and used by
   the home page `Recently updated` filter.
+- `image`: Official fallback URL for the character splash art.
 - `portrait`: Official fallback URL for the small character icon used on the
   home page character list. Should come from the Hoyolab Battle Chronicles
   Character list.
@@ -54,10 +55,12 @@ checked.
 
 ## Images
 
-Hosted image files can live directly inside the character folder:
+Hosted image files mirror the character content path under
+`public/character-assets`:
 
 ```txt
-src/content/<element>/<rarity>/<character>/portrait.webp
+public/character-assets/<element>/<rarity>/<character>/splash_art.webp
+public/character-assets/<element>/<rarity>/<character>/portrait.webp
 ```
 
 If those files exist, the site uses them before the URLs in `metadata.json`.

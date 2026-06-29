@@ -3,7 +3,6 @@ import '../styles/header.css';
 import { t } from '../utils/i18n';
 import { languages } from '../utils/languages';
 import { localizedPath } from '../utils/paths';
-import { getSideMenuData } from '../utils/side-menu';
 
 type Props = {
   locale: any;
@@ -15,13 +14,11 @@ type Props = {
 const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
-const menuElements = getSideMenuData(locale);
-const isHomePage = !character && !page;
-const browseLinks = [
+const primaryLinks = [
   {
     href: localizedPath(currentLang),
-    label: t(locale, 'ui', 'Home', undefined, false),
-    isCurrent: isHomePage,
+    label: t(locale, 'ui', 'Characters', undefined, false),
+    isCurrent: !page,
   },
   {
     href: localizedPath(currentLang, 'weapons'),
@@ -51,140 +48,95 @@ const infoLinks = [
     isCurrent: page === 'changelog',
   },
 ];
+const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
 ---
 
 <header class="site-header">
-  <div class="header-content">
-    <div class="header-brand">
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-label="Open menu"
-        aria-expanded="false"
-        aria-controls="side-menu"
-        data-menu-open
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+  <div class="navbar">
+    <a
+      href={localizedPath(currentLang)}
+      class="logo-link"
+      aria-label="Genshin Builds home"
+    >
+      <span>Genshin Builds</span>
+    </a>
 
-      <a
-        href={localizedPath(currentLang)}
-        class="logo-link"
-        aria-label="Genshin Builds home"
-      >
-        <h1>Genshin Builds</h1>
-      </a>
-    </div>
-
-    <nav class="language-switcher">
-      <span class="language-label">{t(locale, 'ui', 'Language')}:</span>
-      <select
-        class="language-select"
-        id="language-select"
-        value={currentLang}
-        data-character={character}
-        data-page={page}
-      >
+    <div class="nav-panel" id="primary-navigation">
+      <nav class="primary-nav" aria-label="Main navigation">
         {
-          languages.map((language) => (
-            <option
-              value={language.code}
-              selected={language.code === currentLang}
+          primaryLinks.map((link) => (
+            <a
+              class="nav-link"
+              href={link.href}
+              aria-current={link.isCurrent ? 'page' : undefined}
             >
-              {language.name}
-            </option>
+              {link.label}
+            </a>
           ))
         }
-      </select>
-    </nav>
-  </div>
 
-  <div class="menu-backdrop" data-menu-close></div>
-  <aside class="side-menu" id="side-menu" aria-label="Site menu">
-    <div class="side-menu-header">
-      <button
-        class="menu-close"
-        type="button"
-        aria-label="Close menu"
-        data-menu-close
-      >
-        &times;
-      </button>
+        <details class={`nav-dropdown${isInfoCurrent ? ' is-current' : ''}`}>
+          <summary class="nav-link">
+            {t(locale, 'ui', 'Information', undefined, false)}
+            <span class="dropdown-chevron" aria-hidden="true"></span>
+          </summary>
+          <div class="dropdown-menu">
+            {
+              infoLinks.map((link) => (
+                <a
+                  class="dropdown-link"
+                  href={link.href}
+                  aria-current={link.isCurrent ? 'page' : undefined}
+                >
+                  {link.label}
+                </a>
+              ))
+            }
+          </div>
+        </details>
+      </nav>
     </div>
 
-    <nav class="side-menu-nav">
-      <section class="side-menu-section" aria-labelledby="side-menu-browse">
-        <h2 id="side-menu-browse">
-          {t(locale, 'ui', 'Browse', undefined, false)}
-        </h2>
-        <div class="side-menu-links">
+    <div class="navbar-actions">
+      <div class="language-switcher">
+        <label class="language-label" for="language-select">
+          {t(locale, 'ui', 'Language')}:
+        </label>
+        <select
+          class="language-select"
+          id="language-select"
+          aria-label={t(locale, 'ui', 'Language')}
+          value={currentLang}
+          data-character={character}
+          data-page={page}
+        >
           {
-            browseLinks.map((link) => (
-              <a
-                class="side-menu-link"
-                href={link.href}
-                aria-current={link.isCurrent ? 'page' : undefined}
+            languages.map((language) => (
+              <option
+                value={language.code}
+                selected={language.code === currentLang}
               >
-                {link.label}
-              </a>
+                {language.name}
+              </option>
             ))
           }
-        </div>
-      </section>
+        </select>
+      </div>
 
-      <section class="side-menu-section" aria-labelledby="side-menu-info">
-        <h2 id="side-menu-info">
-          {t(locale, 'ui', 'Information', undefined, false)}
-        </h2>
-        <div class="side-menu-links">
-          {
-            infoLinks.map((link) => (
-              <a
-                class="side-menu-link"
-                href={link.href}
-                aria-current={link.isCurrent ? 'page' : undefined}
-              >
-                {link.label}
-              </a>
-            ))
-          }
-        </div>
-      </section>
-
-      <details class="side-menu-section character-index">
-        <summary>{t(locale, 'ui', 'Characters', undefined, false)}</summary>
-        <div class="character-index-groups">
-          {
-            menuElements.map((element) => (
-              <details class={`element-group ${element.element}`}>
-                <summary>{element.name}</summary>
-                <div class="rarity-groups">
-                  {element.rarities.map((rarity) => (
-                    <details class="rarity-group">
-                      <summary>{rarity.label}</summary>
-                      <ul>
-                        {rarity.characters.map((character) => (
-                          <li>
-                            <a
-                              href={localizedPath(currentLang, character.slug)}
-                            >
-                              {character.name}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    </details>
-                  ))}
-                </div>
-              </details>
-            ))
-          }
-        </div>
-      </details>
-    </nav>
-  </aside>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
 </header>
 
 <script>

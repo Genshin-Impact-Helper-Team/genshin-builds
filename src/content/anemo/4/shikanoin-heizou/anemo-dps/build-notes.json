@@ -2,14 +2,16 @@
     "name": {
         "en": "[[element:anemo]] DPS",
         "fr": "DPS [[element:anemo]]",
-        "it": "DPS [[element:anemo]]"
+        "it": "DPS [[element:anemo]]",
+        "ru": "[[element:anemo]] ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:shikanoin-heizou]]'s [[element:anemo]] DPS build is roughly equal to his [[stat:em]] build assuming he **isn't being used in an [[element:electrocharged]] team**. He has very low [[stat:er]] needs; At [C4] he can run 100% [[stat:er]].",
             "fr": "Le build DPS [[element:anemo]] de [[character:shikanoin-heizou]] est à peu près équivalent à son build [[stat:em]] **s'il n'est pas utilisé dans une équipe [[element:electrocharged]]**. Il a de très faibles besoins en [[stat:er]] ; une fois [C4], il peut être joué avec 100 % de [[stat:er]].",
-            "it": "La build DPS [[element:anemo]] di [[character:shikanoin-heizou]] è più o meno equivalente alla sua build basata sulla [[stat:em]], **purché non sia utilizzato in un team [[element:electrocharged]]**. **Ha requisiti di [[stat:er]] molto bassi**; a **[C4]** può funzionare con **100% [[stat:er]]**."
+            "it": "La build DPS [[element:anemo]] di [[character:shikanoin-heizou]] è più o meno equivalente alla sua build basata sulla [[stat:em]], **purché non sia utilizzato in un team [[element:electrocharged]]**. **Ha requisiti di [[stat:er]] molto bassi**; a **[C4]** può funzionare con **100% [[stat:er]]**.",
+            "ru": "Сборка [[character:shikanoin-heizou]] как [[element:anemo]] ДД по урону примерно соответствует [[stat:em|МС]]-билду во всех командах, **кроме как играющих через реакцию [[element:electrocharged]]**. У него довольно низкая потребность в [[stat:er|Восстановлении энергии]] - на [C4] достаточно 100%."
         }
     ]
 }

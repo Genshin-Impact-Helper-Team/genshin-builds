@@ -3,6 +3,5 @@
         "prettier-plugin-astro"
     ],
     "singleQuote": true,
-    "semi": true,
-    "max_line_length": 1000
+    "semi": true
 }

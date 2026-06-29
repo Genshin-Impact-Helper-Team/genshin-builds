@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Unconditional 12 DMG% to any element that she reacts with, **[[set:scroll-of-the-hero-of-cinder-city]] (2)** also help her [[stat:er]] requirement when there is a [[ability:nightsoul-burst]] triggered in the party",
-                                "fr": "12% de DGT inconditionnels à tout élément avec lequel elle réagit ; **[[set:scroll-of-the-hero-of-cinder-city]] (2)** aide aussi son besoin en [[stat:er]] lorsqu'un [[ability:nightsoul-burst]] est déclenché dans l'équipe."
+                                "fr": "12% de DGT inconditionnels à tout élément avec lequel elle réagit ; **[[set:scroll-of-the-hero-of-cinder-city]] (2)** aide aussi son besoin en [[stat:er]] lorsqu'un [[ability:nightsoul-burst]] est déclenché dans l'équipe.",
+                                "it": "Fornisce 12% DAN incondizionato a qualsiasi elemento con cui reagisce. Aiuta a soddisfare i requisiti di [[stat:er]] di [[character:rosaria]] quando nel team viene attivato un [[ability:nightsoul-burst]]."
                             }
                         }
                     ]
@@ -37,7 +38,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Only used in teams where she can reliably pick up Crystalized crystals",
-                                "fr": "À utiliser uniquement dans les équipes où elle peut ramasser de manière fiable des cristaux de Cristallisation."
+                                "fr": "À utiliser uniquement dans les équipes où elle peut ramasser de manière fiable des cristaux de Cristallisation.",
+                                "it": "Da utilizzare solo in team in cui Rosaria può raccogliere Frammenti Cristallizzazione in modo affidabile."
                             }
                         }
                     ]
@@ -53,7 +55,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Can be the better option in teams that prefer the [[stat:em]] buff over ATK, such as [[character:hu-tao]] VapeMelt, while sacrificing her [[stat:cr]] buffing potential",
-                                "fr": "Peut être la meilleure option dans les équipes qui préfèrent le buff de [[stat:em]] à l'ATQ, comme [[character:hu-tao]] [[element:vaporize]]/[[element:melt]], au prix d'une partie de son potentiel de buff de [[stat:cr]]."
+                                "fr": "Peut être la meilleure option dans les équipes qui préfèrent le buff de [[stat:em]] à l'ATQ, comme [[character:hu-tao]] [[element:vaporize]]/[[element:melt]], au prix d'une partie de son potentiel de buff de [[stat:cr]].",
+                                "it": "Può essere l'opzione migliore in team che preferiscono un potenziamento alla [[stat:em]] piuttosto che all'[[stat:atk]], sacrificando però il potenziale del suo potenziamento di [[stat:cr]]."
                             }
                         }
                     ]

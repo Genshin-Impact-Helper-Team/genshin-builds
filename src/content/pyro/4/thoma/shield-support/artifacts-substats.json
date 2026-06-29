@@ -3,18 +3,14 @@
         {
             "name": "er",
             "note": {
-                "en": "Until requirement is met.",
-                "fr": "Jusqu'à atteindre les besoins requis.",
-                "it": "Finché non sono soddisfatti i requisiti."
+                "en": "[[note:er-req]]."
             }
         },
         "hp%",
         {
             "name": "cr",
             "note": {
-                "en": "Desired substat when using [[weapon:favonius-lance]].",
-                "fr": "Souhaité lors de l'utilisation de [[weapon:favonius-lance]].",
-                 "it": "Substat desiderabile se utilizzi [[weapon:favonius-lance]]."
+                "en": "[[note:cr-favo]]."
             }
         },
         "hp"

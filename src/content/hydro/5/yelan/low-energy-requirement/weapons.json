@@ -17,7 +17,8 @@
                     "refinement": "3-5",
                     "note": {
                         "en": "This weapon **works best at [R3+]** and **makes [[stat:hp%]] Goblet potentially a stronger option than [[stat:hydro-dmg]]%** in teams with **significant DMG% buffing**.",
-                        "fr": "Cette arme **fonctionne mieux une fois [R3+]** et **peut potentiellement rendre une coupe [[stat:hp%]] meilleure qu'une coupe [[stat:hydro-dmg]]%** dans les équipes ayant **déjà beaucoup de buff DGT%**."
+                        "fr": "Cette arme **fonctionne mieux une fois [R3+]** et **peut potentiellement rendre une coupe [[stat:hp%]] meilleure qu'une coupe [[stat:hydro-dmg]]%** dans les équipes ayant **déjà beaucoup de buff DGT%**.",
+                        "ru": "Отлично показывает себя на [R3]+ и делает кубок с HP% потенциально превосходящим кубок с бонусом Гидро урона%, особенно при наличии большого количества бонусов урона%."
                     }
                 },
                 {
@@ -37,28 +38,32 @@
                     "name": "hunters-path",
                     "note": {
                         "en": "This weapon performs slightly better than **[[weapon:slingshot]]**, however as [[character:yelan]] does not care about Base ATK and the passives are less than ideal for her, it is not recommended to pull or prioritize using it on [[character:yelan]] over **[[weapon:slingshot]]** if you have characters who could benefit more from this weapon.",
-                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier."
+                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier.",
+                        "ru": "Сильнее Бесструнного, однако в связи с тем, что Е Лань не получает пользы от высокой базовой Силы атаки и неэффективно реализует Пассивую способностьв, не рекомендуется выбивать специально для Е Лань или использовать вместо Рогатки при наличии более подходящих для него персонажей."
                     }
                 },
                 {
                     "name": "polar-star",
                     "note": {
                         "en": "This weapon performs slightly better than **[[weapon:slingshot]]**, however as [[character:yelan]] does not care about Base ATK and the passives are less than ideal for her, it is not recommended to pull or prioritize using it on [[character:yelan]] over **[[weapon:slingshot]]** if you have characters who could benefit more from this weapon.",
-                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier."
+                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier.",
+                        "ru": "Сильнее Бесструнного, однако в связи с тем, что Е Лань не получает пользы от высокой базовой Силы атаки и неэффективно реализует Пассивую способностьв, не рекомендуется выбивать специально для Е Лань или использовать вместо Рогатки при наличии более подходящих для него персонажей."
                     }
                 },
                 {
                     "name": "thundering-pulse",
                     "note": {
                         "en": "This weapon performs slightly better than **[[weapon:slingshot]]**, however as [[character:yelan]] does not care about Base ATK and the passives are less than ideal for her, it is not recommended to pull or prioritize using it on [[character:yelan]] over **[[weapon:slingshot]]** if you have characters who could benefit more from this weapon.",
-                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier."
+                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier.",
+                        "ru": "Сильнее Бесструнного, однако в связи с тем, что Е Лань не получает пользы от высокой базовой Силы атаки и неэффективно реализует Пассивую способностьв, не рекомендуется выбивать специально для Е Лань или использовать вместо Рогатки при наличии более подходящих для него персонажей."
                     }
                 },
                 {
                     "name": "skyward-harp",
                     "note": {
                         "en": "This weapon performs slightly better than **[[weapon:slingshot]]**, however as [[character:yelan]] does not care about Base ATK and the passives are less than ideal for her, it is not recommended to pull or prioritize using it on [[character:yelan]] over **[[weapon:slingshot]]** if you have characters who could benefit more from this weapon.",
-                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier."
+                        "fr": "Cette arme performe légèrement mieux que **[[weapon:slingshot]]**, cependant comme [[character:yelan]] n'a pas besoin de la Base ATQ et que le passif n'est pas idéal poru elle, il n'est pas recommandé de pull ou prioriser cette arme pour [[character:yelan]] à la place de **[[weapon:slingshot]]** si vous avez d'autres personnages qui pourraient plus en bénéficier.",
+                        "ru": "Сильнее Бесструнного, однако в связи с тем, что Е Лань не получает пользы от высокой базовой Силы атаки и неэффективно реализует Пассивую способностьв, не рекомендуется выбивать специально для Е Лань или использовать вместо Рогатки при наличии более подходящих для него персонажей."
                     }
                 }
             ]

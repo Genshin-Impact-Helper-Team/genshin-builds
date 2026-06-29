@@ -1,637 +1,173 @@
-const infoPopoverWindow = window as typeof window & {
-  __infoPopoversReady?: boolean;
-};
+const card = document.createElement('span');
+card.className = 'info-popover-card';
+card.id = 'info-popover-card';
+card.setAttribute('popover', 'auto');
+card.setAttribute('role', 'dialog');
+document.body.append(card);
 
-if (!infoPopoverWindow.__infoPopoversReady) {
-  infoPopoverWindow.__infoPopoversReady = true;
+let activePopover: HTMLElement | null = null;
+let pinned = false;
 
-  const VIEWPORT_PADDING = 8;
-  const POPOVER_GAP = 8;
-  const MOBILE_POPOVER_QUERY = '(max-width: 900px)';
-  const POPOVER_CARD_ID = 'info-popover-card';
-  const HOVER_SCROLL_SUPPRESSION_MS = 160;
-  let ignoreNextClick = false;
-  let lastTouchY = 0;
-  let lockedScrollY = 0;
-  let hoverSuppressedUntil = 0;
-  let hoveredPopover: HTMLElement | null = null;
-  let focusedPopover: HTMLElement | null = null;
-  let openPopover: HTMLElement | null = null;
-  let activePopover: HTMLElement | null = null;
-  let isCardHovered = false;
-  let popoverPositionFrame = 0;
-  let isTouchMoveBound = false;
+const getPopover = (target: EventTarget | null) =>
+  target instanceof Element
+    ? target.closest<HTMLElement>('.info-popover')
+    : null;
 
-  const clamp = (value: number, min: number, max: number) =>
-    Math.min(Math.max(value, min), max);
+function positionCard(popover: HTMLElement) {
+  const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
+  if (!trigger) return;
 
-  const setTriggerExpanded = (popover: HTMLElement, isExpanded: boolean) => {
-    popover
-      .querySelector<HTMLElement>('.info-popover-trigger')
-      ?.setAttribute('aria-expanded', String(isExpanded));
-  };
+  const triggerRect = trigger.getBoundingClientRect();
+  const cardRect = card.getBoundingClientRect();
+  const padding = 8;
+  const top =
+    triggerRect.top >= cardRect.height + padding
+      ? triggerRect.top - cardRect.height - padding
+      : triggerRect.bottom + padding;
 
-  const getClosestPopover = (target: EventTarget | null) =>
-    target instanceof HTMLElement
-      ? target.closest<HTMLElement>('.info-popover')
-      : null;
+  card.style.left = `${Math.min(
+    Math.max(triggerRect.left, padding),
+    window.innerWidth - cardRect.width - padding,
+  )}px`;
+  card.style.top = `${Math.min(
+    Math.max(top, padding),
+    window.innerHeight - cardRect.height - padding,
+  )}px`;
+}
 
-  const isInsidePopoverCard = (target: EventTarget | null) =>
-    target instanceof HTMLElement
-      ? target.closest<HTMLElement>('.info-popover-card') !== null
-      : false;
+function showPopover(popover: HTMLElement, pin = false) {
+  const html = popover.dataset.infoPopoverHtml;
+  if (!html) return;
 
-  const isNoteLink = (target: EventTarget | null) =>
-    target instanceof HTMLElement
-      ? target.closest<HTMLAnchorElement>('.note-link') !== null
-      : false;
+  activePopover
+    ?.querySelector<HTMLElement>('.info-popover-trigger')
+    ?.setAttribute('aria-expanded', 'false');
+  activePopover = popover;
+  pinned = pin;
+  card.className = [
+    'info-popover-card',
+    popover.dataset.infoPopoverCardClass ?? '',
+  ]
+    .filter(Boolean)
+    .join(' ');
+  card.innerHTML = html;
+  const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
+  trigger?.setAttribute('aria-controls', card.id);
+  trigger?.setAttribute('aria-expanded', 'true');
 
-  const getPopoverCard = () => {
-    const existingCard = document.getElementById(POPOVER_CARD_ID);
+  if (!card.matches(':popover-open')) card.showPopover();
+  positionCard(popover);
+}
 
-    if (existingCard) {
-      return existingCard;
-    }
+function hidePopover() {
+  activePopover
+    ?.querySelector<HTMLElement>('.info-popover-trigger')
+    ?.setAttribute('aria-expanded', 'false');
+  activePopover = null;
+  pinned = false;
+  if (card.matches(':popover-open')) card.hidePopover();
+}
 
-    const card = document.createElement('span');
-    card.id = POPOVER_CARD_ID;
-    card.className = 'info-popover-card';
-    card.setAttribute('role', 'tooltip');
-    card.setAttribute('aria-hidden', 'true');
-    document.body.append(card);
+function selectRefinement(button: HTMLElement) {
+  const refinement = button.dataset.refinement;
+  if (!refinement) return;
 
-    return card;
-  };
-
-  const getOpenPopoverCard = () => {
-    const card = document.getElementById(POPOVER_CARD_ID);
-
-    return card?.classList.contains('is-visible') ? card : null;
-  };
-
-  const hasOpenPopover = () =>
-    openPopover?.isConnected === true &&
-    openPopover.classList.contains('is-open');
-
-  const isMobilePopoverViewport = () =>
-    window.matchMedia(MOBILE_POPOVER_QUERY).matches;
-
-  const isHoverSuppressed = () => Date.now() < hoverSuppressedUntil;
-
-  const suppressHoverPopoversBriefly = () => {
-    hoverSuppressedUntil = Date.now() + HOVER_SCROLL_SUPPRESSION_MS;
-  };
-
-  const shouldLockPageScroll = () =>
-    hasOpenPopover() && isMobilePopoverViewport();
-
-  const readPopoverPayload = (popover: HTMLElement) => {
-    const html = popover.dataset.infoPopoverHtml;
-
-    if (html === undefined) {
-      return null;
-    }
-
-    return {
-      cardClassName: popover.dataset.infoPopoverCardClass ?? '',
-      html,
-    };
-  };
-
-  const updatePopoverCard = (popover: HTMLElement) => {
-    const payload = readPopoverPayload(popover);
-
-    if (!payload) {
-      return null;
-    }
-
-    const card = getPopoverCard();
-    const isVisible = card.classList.contains('is-visible');
-    const classNames = [
-      'info-popover-card',
-      payload.cardClassName,
-      isVisible ? 'is-visible' : '',
-    ]
-      .filter(Boolean)
-      .join(' ');
-
-    if (activePopover !== popover) {
-      if (activePopover && activePopover !== openPopover) {
-        setTriggerExpanded(activePopover, false);
-      }
-
-      card.innerHTML = payload.html;
-      activePopover = popover;
-    }
-
-    card.className = classNames;
-
-    return card;
-  };
-
-  const hidePopoverCard = () => {
-    const card = document.getElementById(POPOVER_CARD_ID);
-
-    if (activePopover && activePopover !== openPopover) {
-      setTriggerExpanded(activePopover, false);
-    }
-
-    activePopover = null;
-    isCardHovered = false;
-
-    if (!card) {
-      return;
-    }
-
-    card.classList.remove('is-visible');
-    card.setAttribute('aria-hidden', 'true');
-    card.innerHTML = '';
-  };
-
-  const getVisiblePopover = (includeHover = true) => {
-    if (hasOpenPopover()) {
-      return openPopover;
-    }
-
-    if (focusedPopover?.isConnected) {
-      return focusedPopover;
-    }
-
-    if (includeHover && hoveredPopover?.isConnected) {
-      return hoveredPopover;
-    }
-
-    if (includeHover && isCardHovered && activePopover?.isConnected) {
-      return activePopover;
-    }
-
-    return null;
-  };
-
-  const positionPopoverCard = (popover: HTMLElement) => {
-    const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
-    const card = updatePopoverCard(popover);
-
-    if (!trigger || !card) return;
-
-    const wasVisible = card.classList.contains('is-visible');
-    const previousVisibility = card.style.visibility;
-
-    card.classList.add('is-visible');
-    card.style.visibility = 'hidden';
-
-    const triggerRect = trigger.getBoundingClientRect();
-    const cardRect = card.getBoundingClientRect();
-    const maxLeft = window.innerWidth - cardRect.width - VIEWPORT_PADDING;
-    const maxTop = window.innerHeight - cardRect.height - VIEWPORT_PADDING;
-    const alignedLeft = triggerRect.left;
-    const topPlacement = triggerRect.top - cardRect.height - POPOVER_GAP;
-    const bottomPlacement = triggerRect.bottom + POPOVER_GAP;
-    const hasRoomAbove = topPlacement >= VIEWPORT_PADDING;
-    const hasRoomBelow =
-      bottomPlacement + cardRect.height <=
-      window.innerHeight - VIEWPORT_PADDING;
-    const preferredTop =
-      hasRoomAbove || !hasRoomBelow ? topPlacement : bottomPlacement;
-    const finalLeft = clamp(
-      alignedLeft,
-      VIEWPORT_PADDING,
-      Math.max(VIEWPORT_PADDING, maxLeft),
+  card
+    .querySelectorAll<HTMLElement>('[data-refinement]')
+    .forEach((item) =>
+      item.setAttribute('aria-selected', String(item === button)),
     );
-    const finalTop = clamp(
-      preferredTop,
-      VIEWPORT_PADDING,
-      Math.max(VIEWPORT_PADDING, maxTop),
-    );
-
-    card.style.left = `${finalLeft}px`;
-    card.style.top = `${finalTop}px`;
-    card.style.visibility = previousVisibility;
-
-    if (!wasVisible) {
-      card.classList.remove('is-visible');
-    }
-  };
-
-  const showPopoverCard = (popover: HTMLElement) => {
-    const card = updatePopoverCard(popover);
-
-    if (!card) {
-      return;
-    }
-
-    setTriggerExpanded(popover, true);
-    card.classList.add('is-visible');
-    card.setAttribute('aria-hidden', 'false');
-    positionPopoverCard(popover);
-  };
-
-  const syncPopoverVisibility = (includeHover = true) => {
-    const visiblePopover = getVisiblePopover(includeHover);
-
-    if (visiblePopover) {
-      showPopoverCard(visiblePopover);
-    } else {
-      hidePopoverCard();
-    }
-  };
-
-  const clearTransientHoverPopover = () => {
-    const hadTransientPopover = hoveredPopover || isCardHovered;
-
-    hoveredPopover = null;
-    isCardHovered = false;
-
-    if (!hadTransientPopover) {
-      return;
-    }
-
-    syncPopoverVisibility(false);
-  };
-
-  const positionActivePopover = (includeHover = true) => {
-    const visiblePopover = getVisiblePopover(includeHover);
-
-    if (visiblePopover) {
-      positionPopoverCard(visiblePopover);
-    }
-  };
-
-  const scheduleActivePopoverPosition = (includeHover = true) => {
-    if (!getVisiblePopover(includeHover) || popoverPositionFrame) {
-      return;
-    }
-
-    popoverPositionFrame = window.requestAnimationFrame(() => {
-      popoverPositionFrame = 0;
-      positionActivePopover(includeHover);
+  card
+    .querySelectorAll<HTMLElement>('[data-refinement-panel]')
+    .forEach((panel) => {
+      panel.hidden = panel.dataset.refinementPanel !== refinement;
     });
-  };
+  if (activePopover) positionCard(activePopover);
+}
 
-  function handlePopoverTouchMove(event: TouchEvent) {
-    const card = getOpenPopoverCard();
+document.addEventListener('click', (event) => {
+  const target = event.target;
+  if (!(target instanceof Element)) return;
 
-    if (!card) return;
-
-    const touch = event.touches[0];
-
-    if (!touch) return;
-
-    const target = event.target;
-
-    if (!(target instanceof Node) || !card.contains(target)) {
-      event.preventDefault();
-      return;
-    }
-
-    event.preventDefault();
-
-    const currentTouchY = touch.clientY;
-    const deltaY = lastTouchY - currentTouchY;
-    lastTouchY = currentTouchY;
-    card.scrollTop += deltaY;
+  const refinement = target.closest<HTMLElement>('[data-refinement]');
+  if (refinement && card.contains(refinement)) {
+    selectRefinement(refinement);
+    return;
   }
 
-  const syncPopoverTouchMoveListener = () => {
-    const shouldBind = shouldLockPageScroll();
-
-    if (shouldBind && !isTouchMoveBound) {
-      document.addEventListener('touchmove', handlePopoverTouchMove, {
-        passive: false,
-      });
-      isTouchMoveBound = true;
-      return;
-    }
-
-    if (!shouldBind && isTouchMoveBound) {
-      document.removeEventListener('touchmove', handlePopoverTouchMove);
-      isTouchMoveBound = false;
-    }
-  };
-
-  const lockPageScroll = () => {
-    lockedScrollY = window.scrollY;
-  };
-
-  const unlockPageScroll = () => {
-    if (document.body.style.position !== 'fixed') return;
-
-    const previousScrollBehavior =
-      document.documentElement.style.scrollBehavior;
-
-    document.documentElement.style.scrollBehavior = 'auto';
-    document.body.style.position = '';
-    document.body.style.top = '';
-    document.body.style.left = '';
-    document.body.style.right = '';
-    document.body.style.width = '';
-    window.scrollTo(0, lockedScrollY);
-    document.documentElement.style.scrollBehavior = previousScrollBehavior;
-  };
-
-  const syncPageScrollLock = () => {
-    if (shouldLockPageScroll()) {
-      lockPageScroll();
-    } else {
-      unlockPageScroll();
-    }
-
-    syncPopoverTouchMoveListener();
-  };
-
-  const closeInfoPopovers = (except?: HTMLElement) => {
-    document
-      .querySelectorAll<HTMLElement>('.info-popover.is-open')
-      .forEach((popover) => {
-        if (popover !== except) {
-          popover.classList.remove('is-open');
-          setTriggerExpanded(popover, false);
-        }
-      });
-
-    if (!except) {
-      hoveredPopover = null;
-      focusedPopover = null;
-      isCardHovered = false;
-    }
-
-    openPopover = except?.classList.contains('is-open') ? except : null;
-    document.body.classList.toggle('info-popover-locked', hasOpenPopover());
-    syncPageScrollLock();
-    syncPopoverVisibility();
-  };
-
-  const handleNoteLinkInteraction = () => {
-    suppressHoverPopoversBriefly();
-    closeInfoPopovers();
-    hidePopoverCard();
-  };
-
-  const handlePopoverTouchStart = (event: TouchEvent) => {
-    if (!getOpenPopoverCard()) return;
-
-    lastTouchY = event.touches[0]?.clientY ?? 0;
-  };
-
-  const handlePopoverToggle = (event: Event) => {
-    const target = event.target;
-
-    if (!(target instanceof HTMLElement)) {
-      closeInfoPopovers();
-      return;
-    }
-
-    const noteLink = target.closest('.note-link');
-    const trigger = target.closest('.info-popover-trigger');
-    const card = target.closest('.info-popover-card');
-
-    if (noteLink) {
-      handleNoteLinkInteraction();
-      return;
-    }
-
-    if (card) {
-      return;
-    }
-
-    if (!trigger) {
-      closeInfoPopovers();
-      return;
-    }
-
-    const popover = getClosestPopover(trigger);
-    if (!popover || !readPopoverPayload(popover)) return;
-
-    event.preventDefault();
-
-    const wasOpen = popover.classList.contains('is-open');
-    closeInfoPopovers();
-
-    if (!wasOpen) {
-      popover.classList.add('is-open');
-      openPopover = popover;
-      setTriggerExpanded(popover, true);
-      showPopoverCard(popover);
-    }
-
-    document.body.classList.toggle('info-popover-locked', hasOpenPopover());
-    syncPageScrollLock();
-  };
-
-  const handleRefinementChange = (event: Event) => {
-    const button = (event.target as HTMLElement).closest(
-      '.weapon-popover-refinement-button',
-    ) as HTMLElement | null;
-
-    if (!button) return;
-
-    event.preventDefault();
-
-    const card = button.closest('.info-popover-card');
-
-    if (!card) return;
-
-    const refinement = button.dataset.refinement;
-
-    if (!refinement) return;
-
-    card
-      .querySelectorAll('.weapon-popover-refinement-button')
-      .forEach((item) => {
-        item.setAttribute('aria-selected', String(item === button));
-      });
-
-    card
-      .querySelectorAll('.weapon-popover-passive-refinement')
-      .forEach((panel) => {
-        (panel as HTMLElement).hidden =
-          (panel as HTMLElement).dataset.refinementPanel !== refinement;
-      });
-
-    if (activePopover) {
-      positionPopoverCard(activePopover);
-    }
-  };
-
-  document.addEventListener('pointerdown', (event) => {
-    if (isNoteLink(event.target)) {
-      handleNoteLinkInteraction();
-      return;
-    }
-
-    if (event.pointerType === 'mouse') return;
-
-    handleRefinementChange(event);
-
-    if (!event.defaultPrevented) {
-      handlePopoverToggle(event);
-    }
-
-    if (event.defaultPrevented) {
-      ignoreNextClick = true;
-    }
-  });
-
-  document.addEventListener('click', (event) => {
-    if (ignoreNextClick) {
-      ignoreNextClick = false;
-      return;
-    }
-
-    handlePopoverToggle(event);
-  });
-
-  document.addEventListener('touchstart', handlePopoverTouchStart, {
-    passive: true,
-  });
-
-  document.addEventListener('pointerover', (event) => {
-    const target = event.target;
-
-    if (!(target instanceof HTMLElement) || event.pointerType === 'touch') {
-      return;
-    }
-
-    if (isNoteLink(target)) {
-      suppressHoverPopoversBriefly();
-      clearTransientHoverPopover();
-      return;
-    }
-
-    if (isInsidePopoverCard(target)) {
-      isCardHovered = true;
-      return;
-    }
-
-    if (isHoverSuppressed()) {
-      return;
-    }
-
-    const popover = getClosestPopover(target);
-
-    if (popover && readPopoverPayload(popover)) {
-      hoveredPopover = popover;
-      syncPopoverVisibility();
-    }
-  });
-
-  document.addEventListener('pointerout', (event) => {
-    const target = event.target;
-
-    if (!(target instanceof HTMLElement)) {
-      return;
-    }
-
-    const nextPopover = getClosestPopover(event.relatedTarget);
-
-    if (isInsidePopoverCard(target)) {
-      if (
-        !isInsidePopoverCard(event.relatedTarget) &&
-        nextPopover !== activePopover
-      ) {
-        isCardHovered = false;
-        syncPopoverVisibility();
-      }
-
-      return;
-    }
-
-    const popover = getClosestPopover(target);
-
-    if (
-      popover &&
-      popover !== nextPopover &&
-      !isInsidePopoverCard(event.relatedTarget) &&
-      hoveredPopover === popover
-    ) {
-      hoveredPopover = null;
-      syncPopoverVisibility();
-    }
-  });
-
-  document.addEventListener('focusin', (event) => {
-    if (isNoteLink(event.target)) {
-      handleNoteLinkInteraction();
-      return;
-    }
-
-    if (isInsidePopoverCard(event.target)) {
-      return;
-    }
-
-    const popover = getClosestPopover(event.target);
-
-    if (popover && !document.body.classList.contains('info-popover-locked')) {
-      focusedPopover = popover;
-      closeInfoPopovers(popover);
-      syncPopoverVisibility();
-    }
-  });
-
-  document.addEventListener('focusout', (event) => {
-    const popover = getClosestPopover(event.target);
-    const nextPopover = getClosestPopover(event.relatedTarget);
-
-    if (
-      popover &&
-      popover !== nextPopover &&
-      !isInsidePopoverCard(event.relatedTarget) &&
-      focusedPopover === popover
-    ) {
-      focusedPopover = null;
-      syncPopoverVisibility();
-      return;
-    }
-
-    if (
-      isInsidePopoverCard(event.target) &&
-      !isInsidePopoverCard(event.relatedTarget) &&
-      nextPopover !== activePopover
-    ) {
-      focusedPopover = null;
-      syncPopoverVisibility();
-    }
-  });
-
-  window.addEventListener('resize', () => {
-    scheduleActivePopoverPosition();
-    syncPageScrollLock();
-  });
-
-  window.addEventListener(
-    'scroll',
-    (event) => {
-      if (!isInsidePopoverCard(event.target)) {
-        suppressHoverPopoversBriefly();
-        clearTransientHoverPopover();
-        scheduleActivePopoverPosition(false);
-      }
-    },
-    true,
+  if (target.closest('.note-link')) {
+    hidePopover();
+    return;
+  }
+
+  const popover = getPopover(target.closest('.info-popover-trigger'));
+  if (!popover) return;
+
+  event.preventDefault();
+  if (activePopover === popover && pinned) hidePopover();
+  else showPopover(popover, true);
+});
+
+document.addEventListener('pointerover', (event) => {
+  if ((event as PointerEvent).pointerType === 'touch') return;
+  const popover = getPopover(event.target);
+  if (popover && popover !== activePopover && !pinned) showPopover(popover);
+});
+
+document.addEventListener('pointerout', (event) => {
+  if (pinned || !activePopover) return;
+  const next = event.relatedTarget;
+  if (
+    next instanceof Node &&
+    (activePopover.contains(next) || card.contains(next))
+  ) {
+    return;
+  }
+  hidePopover();
+});
+
+document.addEventListener('focusin', (event) => {
+  const popover = getPopover(event.target);
+  if (popover && !pinned) showPopover(popover);
+});
+
+document.addEventListener('focusout', (event) => {
+  if (pinned || !activePopover) return;
+  const next = event.relatedTarget;
+  if (
+    next instanceof Node &&
+    (activePopover.contains(next) || card.contains(next))
+  ) {
+    return;
+  }
+  hidePopover();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'Enter' && event.key !== ' ') return;
+
+  const popover = getPopover(
+    event.target instanceof Element
+      ? event.target.closest('.info-popover-trigger')
+      : null,
   );
+  if (!popover) return;
 
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-      closeInfoPopovers();
-      hidePopoverCard();
-      return;
-    }
+  event.preventDefault();
+  if (activePopover === popover && pinned) hidePopover();
+  else showPopover(popover, true);
+});
 
-    if (event.key !== 'Enter' && event.key !== ' ') {
-      return;
-    }
+card.addEventListener('toggle', () => {
+  if (!card.matches(':popover-open')) {
+    activePopover
+      ?.querySelector<HTMLElement>('.info-popover-trigger')
+      ?.setAttribute('aria-expanded', 'false');
+    activePopover = null;
+    pinned = false;
+  }
+});
 
-    const target = event.target as HTMLElement;
-
-    if (target.closest('.note-link')) {
-      handleNoteLinkInteraction();
-      return;
-    }
-
-    if (target.closest('.info-popover-trigger')) {
-      handlePopoverToggle(event);
-    }
-  });
-
-  document.addEventListener('click', handleRefinementChange);
-}
+window.addEventListener('resize', () => {
+  if (activePopover) positionCard(activePopover);
+});

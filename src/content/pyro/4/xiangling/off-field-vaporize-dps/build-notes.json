@@ -2,21 +2,26 @@
     "name": {
         "en": "Off-Field [[element:vaporize]] DPS",
         "fr": "DPS [[element:vaporize]] Off-Field",
-        "it": "DPS [[element:vaporize]] Fuori Campo"
+        "it": "DPS [[element:vaporize]] Fuori Campo",
+        "ru": "Карманный ДД: [[element:vaporize]]"
     },
     "best": true,
     "notes": [
         {
             "en": "This ranking assumes [[character:xiangling]] is run with [[character:bennett]] and a buffer.",
-            "it": "Questa sezione presuppone che [[character:xiangling]] sia utilizzata con [[character:bennett]] ed un buffer."
+            "fr": "Ce classement suppose que [[character:xiangling]] est jouée avec [[character:bennett]] et un buffer.",
+            "it": "Questa sezione presuppone che [[character:xiangling]] sia utilizzata con [[character:bennett]] ed un buffer.",
+            "ru": "При составлении рейтинга в отрядах через Пар предполагается, что Сян Лин играет с Беннетом и другими бонусами урона."
         },
         {
             "en": "Artifacts and weapons with [[stat:em]], such as [[weapon:dragons-bane]], [[weapon:kitain-cross-spear]], gain value in team comps where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] at the same time, such as Raiden National.",
-            "it": "Manufatti ed armi con [[stat:em]], come [[weapon:dragons-bane]], [[weapon:kitain-cross-spear]], guadagnano valore in team in cui [[character:xiangling]] provoca sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National."
+            "fr": "Les artéfacts et armes avec de la [[stat:em]], comme [[weapon:dragons-bane]] ou [[weapon:kitain-cross-spear]] par exemple, gagnent en valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]], comme la Raiden National.",
+            "it": "Manufatti ed armi con [[stat:em]], come [[weapon:dragons-bane]], [[weapon:kitain-cross-spear]], guadagnano valore in team in cui [[character:xiangling]] provoca sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National.",
+            "ru": "В командах, где Сян Лин одновременно вызывает реакции Пар и Перегрузка (к примеру, Националка с Райдэн), МС более ценно, а оружие и артефакты с МС-статами дают больший прирост к урону."
         }
     ],
     "weapons": {
-        "link": "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1s7au0UhfqU9h0Wp0hihwWvL6t0YEuTrtzt_2nYDIs0Q/edit?usp%3Dsharing&sa=D&source=editors&ust=1778522320355251&usg=AOvVaw3M5viDSd1fE8fujenRZwy-",
-        "author": "XXX"
+        "link": "https://docs.google.com/spreadsheets/d/1s7au0UhfqU9h0Wp0hihwWvL6t0YEuTrtzt_2nYDIs0Q",
+        "author": "Quincy"
     }
 }

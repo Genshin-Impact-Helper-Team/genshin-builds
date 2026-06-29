@@ -25,7 +25,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Reliant on **[[character:kamisato-ayato]]'s Water Illusion hitting enemies** which can be inconsistent against some content. Without the third stack of the passive, this set becomes about **equal to [[stat:atk-set]] (2) [[stat:hydro-set]] (2)**.",
-                                "fr": "Repose sur le fait que **l'Illusion Aqueuse de [[character:kamisato-ayato]] touche un ennemi**, ce qui peut ne pas être voulu dans certains contenus. Sans le 3ème stack du passif, ce set devient **équivalent à [[stat:atk-set]] (2) [[stat:hydro-set]] (2)**."
+                                "fr": "Repose sur le fait que **l'Illusion Aqueuse de [[character:kamisato-ayato]] touche un ennemi**, ce qui peut ne pas être voulu dans certains contenus. Sans le 3ème stack du passif, ce set devient **équivalent à [[stat:atk-set]] (2) [[stat:hydro-set]] (2)**.",
+                                "ru": "Полная реализация зависит от попадания водной иллюзии Аято по противникам, что не всегда возможно. Без третьего уровня пассивной способности примерно соответствует варианту Сет с бонусом +15% Гидро урона (2) Сет с +18% Силы атаки (2)"
                             }
                         }
                     ]
@@ -57,7 +58,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "**When run in a [[element:freeze]] Team**, this is [[character:kamisato-ayato]]'s best set. **Note that it is not recommended to farm specifically for this set**.",
-                                "fr": "**Lorsque joué dans une équipe [[element:freeze]]**, il s'agit du meilleur set pour [[character:kamisato-ayato]]. **Gardez en tête qu'il n'est pas recommandé de farm exprès pour ce set.**."
+                                "fr": "**Lorsque joué dans une équipe [[element:freeze]]**, il s'agit du meilleur set pour [[character:kamisato-ayato]]. **Gardez en tête qu'il n'est pas recommandé de farm exprès pour ce set.**.",
+                                "ru": "Лучший сет для игры в командах Заморозки. Следует отметить, что целенаправленный фарм данного сета для Аято не рекомендован."
                             }
                         }
                     ]
@@ -73,7 +75,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "**When run in an [[element:electrocharged]] team**, this is [[character:kamisato-ayato]]'s best set due to the Cooldown Reduction on [[ability:skill]] allowing for shorter rotations. **Note that it is not recommended to farm specifically for this set.**",
-                                "fr": "**Lorsque joué dans une équipe [[element:electrocharged]]**, il s'agit du meilleur set de [[character:kamisato-ayato]] en raison de la baisse du TdR du [[ability:skill]] permettant des rotations plus courtes. **Gardez en tête qu'il n'est pas recommandé de farm exprès pour ce set.**"
+                                "fr": "**Lorsque joué dans une équipe [[element:electrocharged]]**, il s'agit du meilleur set de [[character:kamisato-ayato]] en raison de la baisse du TdR du [[ability:skill]] permettant des rotations plus courtes. **Gardez en tête qu'il n'est pas recommandé de farm exprès pour ce set.**",
+                                "ru": "Лучший сет в командах, играющих от реакции Заряжен, так как сокращает откат Элементального навыка и делает ротации короче. Следует отметить, что целенаправленный фарм данного сета для Аято не рекомендован."
                             }
                         }
                     ]
@@ -89,7 +92,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "The performance of this artifact set is **inconsistent**, and is based on user ping and other factors. **It is not recommended to run this set unless your ping is consistently below 100**. If you can achieve this, **[[set:echoes-of-an-offering]] (4)** is competitive with **[[set:heart-of-depth]] (4)**.",
-                        "fr": "Les performances de ce set sont **inconsistantes**, et se basent sur le ping du joueur et autres facteurs. **Il n'est pas recommandé de jouer ce set à moins que votre ping soit <100 en permanence**. Si c'est le cas, **[[set:echoes-of-an-offering]] (4)** rivalise avec **[[set:heart-of-depth]] (4)**."
+                        "fr": "Les performances de ce set sont **inconsistantes**, et se basent sur le ping du joueur et autres facteurs. **Il n'est pas recommandé de jouer ce set à moins que votre ping soit <100 en permanence**. Si c'est le cas, **[[set:echoes-of-an-offering]] (4)** rivalise avec **[[set:heart-of-depth]] (4)**.",
+                        "ru": "Эффективность данного сета зависит от пинга пользователя и иных факторов. Не рекомендуется к применению, кроме как при пинге стабильно ниже 100. При выполнении этого условия может конкурировать по урону с Сердцем глубин (4)."
                     }
                 }
             ]
@@ -101,7 +105,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "If [[character:kamisato-ayato]] is used in a **[[element:burgeon]]** team where he consistently takes damage, or with **[[character:furina]]**, this is **his best set**.",
-                        "fr": "Si [[character:kamisato-ayato]] est joué dans une équipe **[[element:burgeon]]** où il prend régulièrement des dégâts, ou avec **[[character:furina]]**, il s'agit de **son meilleur set**."
+                        "fr": "Si [[character:kamisato-ayato]] est joué dans une équipe **[[element:burgeon]]** où il prend régulièrement des dégâts, ou avec **[[character:furina]]**, il s'agit de **son meilleur set**.",
+                        "ru": "При игре в отрядах через Цветение (где Аято постоянно получает урон) или с Фуриной является лучшим сетом."
                     }
                 }
             ]

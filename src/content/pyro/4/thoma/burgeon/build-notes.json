@@ -7,12 +7,14 @@
         {
             "en": "This section focuses on using [[character:thoma]] as a trigger for [[element:burgeon]]. [[character:thoma]]'s slow rate of [[element:pyro]] application paired with frequent Fiery Collapse triggers make him a great option for [[element:burgeon]].",
             "fr": "Cette section se concentre sur l'utilisation de [[character:thoma]] comme déclencheur pour [[element:burgeon]]. Le taux lent d'application [[element:pyro]] de [[character:thoma]] associé aux déclencheurs fréquents de l'effondrement ardent en font une excellente option pour [[element:burgeon]].",
-            "it": "Questa sezione si concentra sull'utilizzare l'applicazione [[element:pyro]] lenta di [[character:thoma]] che, in combinazione con i colpi frequenti di Crollo infuocato, lo rende un'ottima opzione per **[[element:burgeon]]**." 
+            "it": "Questa sezione si concentra sull'utilizzare l'applicazione [[element:pyro]] lenta di [[character:thoma]] che, in combinazione con i colpi frequenti di Crollo infuocato, lo rende un'ottima opzione per **[[element:burgeon]]**.",
+            "ru": "В этой сборке Тома используется как триггер Цветения. Он прекрасно подходит для этой роли, так как его редкое наложение Пиро снижает вероятность возникновения Горения."
         },
         {
             "en": "Additionally, he provides defensive utility in the form of shields.",
             "fr": "De plus, il offre une commodité défensive sous forme de boucliers.",
-            "it": "Inoltre, fornisce utilità difensiva al team grazie al suo **scudo**."
+            "it": "Inoltre, fornisce utilità difensiva al team grazie al suo **scudo**.",
+            "ru": "Кроме того, щит снижает урон, получаемый от взрыва бутонов"
         }
     ]
 }

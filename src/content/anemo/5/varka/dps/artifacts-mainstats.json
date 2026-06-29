@@ -9,7 +9,8 @@
                 "note": {
                     "en": "The generalist pick for the goblet. In most teams, the respective Elemental goblet ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) will perform slightly better.",
                     "fr": "Le choix généraliste pour la coupe. Dans la plupart des équipes, la coupe élémentaire correspondante ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) sera légèrement meilleure.",
-                    "it": "La miglior scelta generalista. Nella maggior parte dei team, il rispettivo Calice DAN% avrà prestazioni leggermente migliori."
+                    "it": "La miglior scelta generalista. Nella maggior parte dei team, il rispettivo Calice DAN% avrà prestazioni leggermente migliori.",
+                    "ru": "Стандартный выбор для Кубка. В большинстве команд Кубок на Бонус урона к элементу, соответствующему второму элементу отряда ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]), показывает себя лучше."
                 }
             }
         ],

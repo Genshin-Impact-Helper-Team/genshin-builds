@@ -1,15 +1,26 @@
 ---
+import { getLocale, t } from '../utils/i18n';
 import { localizedPath } from '../utils/paths';
 
 const { lang = 'en' } = Astro.props;
+const locale = getLocale(lang);
 const deployVersion = import.meta.env.PUBLIC_DEPLOY_VERSION;
 ---
 
 <footer class="site-footer">
   <nav class="footer-links" aria-label="Footer">
-    <a href={localizedPath(lang, 'credits')}>Credits</a>
-    <a href={localizedPath(lang, 'faq')}>FAQ</a>
-    <a href={localizedPath(lang, 'changelog')}>Changelog</a>
+    <a href={localizedPath(lang, 'credits')}>
+      {t(locale, 'ui', 'Credits', undefined, false)}
+    </a>
+    <a href={localizedPath(lang, 'faq')}>
+      {t(locale, 'ui', 'FAQ', undefined, false)}
+    </a>
+    <a href={localizedPath(lang, 'changelog')}>
+      {t(locale, 'ui', 'Changelog', undefined, false)}
+    </a>
+    <a href="https://tinyurl.com/GIHelperTeamCBSurvey">
+      {t(locale, 'ui', 'Feedback', undefined, false)}
+    </a>
   </nav>
 
   <p>This website is not affiliated with HoYoverse.</p>

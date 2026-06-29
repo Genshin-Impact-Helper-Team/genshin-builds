@@ -4,6 +4,7 @@ import '../styles/build.css';
 import '../styles/theme.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CalculationLinks from '../components/CalculationLinks.astro';
 import { t } from '../utils/i18n';
 import { sitePath } from '../utils/paths';
 
@@ -76,7 +77,11 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
 
           {
             builds.length > 0 && (
-              <nav class="build-switcher" role="tablist" aria-label={buildLabel}>
+              <nav
+                class="build-switcher"
+                role="tablist"
+                aria-label={buildLabel}
+              >
                 {builds.map((build: any, index: number) => {
                   const isDefaultBuild =
                     build.slug === defaultBuildSlug ||
@@ -102,6 +107,33 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
                   );
                 })}
               </nav>
+            )
+          }
+
+          {
+            builds.length > 0 && (
+              <div class="build-calculation-panels">
+                {builds
+                  .filter((build: any) => build.hasCalculations)
+                  .map((build: any) => {
+                    const isDefaultBuild = build.slug === defaultBuildSlug;
+
+                    return (
+                      <div
+                        class={`build-calculation-panel${isDefaultBuild ? ' is-active' : ''}`}
+                        data-build-calculation-panel
+                        data-id={build.slug}
+                        hidden={!isDefaultBuild}
+                        aria-hidden={isDefaultBuild ? 'false' : 'true'}
+                      >
+                        <CalculationLinks
+                          buildNote={build.buildNote}
+                          locale={locale}
+                        />
+                      </div>
+                    );
+                  })}
+              </div>
             )
           }
         </aside>

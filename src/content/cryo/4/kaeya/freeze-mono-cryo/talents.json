@@ -12,8 +12,9 @@
                 {
                     "name": "na",
                     "note": {
-                        "en": "If not paired with [[character:chongyun]], [[ability:skill]] takes priority over [[ability:na]]s",
-                        "fr": "Si [[character:kaeya]] n'est pas associé à [[character:chongyun]], le [[ability:skill]] prend la priorité sur ses [[ability:na|attaques normales]]."
+                        "en": "If not paired with [[character:chongyun]], [[ability:skill]] takes priority over [[ability:na]]s.",
+                        "fr": "Si [[character:kaeya]] n'est pas associé à [[character:chongyun]], le [[ability:skill]] prend la priorité sur ses [[ability:na|attaques normales]].",
+                        "it": "Se [[character:kaeya]] non è abbinato a [[character:chongyun]], l'[[ability:skill]] ha la priorità sull'[[ability:na]]."
                     }
                 }
             ]

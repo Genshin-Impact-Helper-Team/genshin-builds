@@ -5,8 +5,7 @@
         {
             "name": "cr",
             "note": {
-                "en": "Only if running **[[weapon:favonius-sword]]**",
-                "ru": "*Шанс крит. попадания необходим при использовании Меча Фавония."
+                "en": "[[note:cr-favo]]."
             }
         },
         "hp"

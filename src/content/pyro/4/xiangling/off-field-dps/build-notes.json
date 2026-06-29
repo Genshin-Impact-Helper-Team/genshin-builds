@@ -2,18 +2,20 @@
     "name": {
         "en": "Off-Field DPS",
         "fr": "DPS Off-Field",
-        "it": "DPS Fuori Campo"
+        "it": "DPS Fuori Campo",
+        "ru": "Карманный ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "This build treats [[character:xiangling]] as a reactionless off-field DPS used for her utility as well as her damage.",
             "fr": "Ce build considère [[character:xiangling]] comme un DPS off-field sans réaction utilisée pour ses commodités et ses dégâts.",
-            "it": "Questa build si concentra sull'utilizzo di [[character:xiangling]] come DPS Fuori Campo per la sua utilità generale e per i suoi danni senza reazioni."
+            "it": "Questa build si concentra sull'utilizzo di [[character:xiangling]] come DPS Fuori Campo per la sua utilità generale e per i suoi danni senza reazioni.",
+            "ru": "Предполагается, что Сян Лин не закрывает реакции и используется как для нанесения урона, так и для помощи отряду"
         }
     ],
     "weapons": {
-        "link": "https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1s7au0UhfqU9h0Wp0hihwWvL6t0YEuTrtzt_2nYDIs0Q/edit?usp%3Dsharing&sa=D&source=editors&ust=1778522320355251&usg=AOvVaw3M5viDSd1fE8fujenRZwy-",
-        "author": "XXX"
+        "link": "https://docs.google.com/spreadsheets/d/1s7au0UhfqU9h0Wp0hihwWvL6t0YEuTrtzt_2nYDIs0Q/",
+        "author": "Quincy"
     }
 }

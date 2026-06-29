@@ -1,17 +1,5 @@
 ---
-import SimplePageLayout from '../layouts/SimplePageLayout.astro';
-import SimplePageContent from '../components/SimplePageContent.astro';
-import { getLocale } from '../utils/i18n';
+import { localizedPath } from '../utils/paths';
 
-const lang = 'en';
-const locale = getLocale(lang);
+return Astro.redirect(localizedPath('en', 'changelog'));
 ---
-
-<SimplePageLayout
-  title="Changelog"
-  lang={lang}
-  locale={locale}
-  page="changelog"
->
-  <SimplePageContent kind="changelog" />
-</SimplePageLayout>

@@ -29,7 +29,8 @@
                     "note": {
                         "en": "Ranking assumes you stay close to the enemy but this weapons has the potential to outclasses **[[weapon:aqua-simulacra]]** with max stacks but maintaining stacks would be difficult.",
                         "fr": "Le classement suppose que vous restiez proche des ennemis. Cette arme peut dépasser **[[weapon:aqua-simulacra]]** avec le maximum de stacks, mais maintenir les stacks peut être compliqué.",
-                        "it": "La posizione in classifica presuppone che il giocatore rimanga **vicino al nemico**. Quest'arma ha il potenziale di superare **[[weapon:aqua-simulacra]]** se viene accumulato l'effetto massimo, ma mantenerlo può essere difficoltoso."
+                        "it": "La posizione in classifica presuppone che il giocatore rimanga **vicino al nemico**. Quest'arma ha il potenziale di superare **[[weapon:aqua-simulacra]]** se viene accumulato l'effetto massimo, ma mantenerlo può essere difficoltoso.",
+                        "ru": "Предполагается, что вы находитесь близко к противнику. При полной реализации Пассивной способности оружия может превзойти Авку симулякрум, но это может быть затруднительным."
                     }
                 },
                 "hunters-path"
@@ -68,7 +69,8 @@
                     "note": {
                         "en": "Significantly more potent if used in a headshot heavy [[ability:ca]] playstyle.",
                         "fr": "Beaucoup plus efficace si elle est utilisée avec un style de jeu axé sur les headshots avec des Attaques Chargées.",
-                        "it": "Significativamente più potente se utilizzata in uno stile di gioco con molti '**headshot**' con Attacchi Caricati."
+                        "it": "Significativamente più potente se utilizzata in uno stile di gioco con molti '**headshot**' con Attacchi Caricati.",
+                        "ru": "Крайне хорош при игре через слабые места противников."
                     }
                 },
                 "kings-squire",
@@ -78,7 +80,8 @@
                 {
       "en": "When attacking Weak Points, the attacks are guaranteed to Crit, making weapons with [[stat:cr]] substat lose value.",
       "fr": "Les attaques touchant les points faibles des ennemis sont garanties de crit, ce qui fait perdre de la valeur aux armes ayant une substat [[stat:cr]].",
-      "it": "Se vengono colpiti i Punti Deboli, è garantito un colpo critico - questo fa perdere valore alle armi con [[stat:cr]]. Tuttavia, molti nemici non hanno Punti Deboli."
+      "it": "Se vengono colpiti i Punti Deboli, è garantito un colpo critico - questo fa perdere valore alle armi con [[stat:cr]]. Tuttavia, molti nemici non hanno Punti Deboli.",
+      "ru": "Атаки по слабым местами имеют гарантированный крит, в результате чего оружие на Шанс крит. попадания может быть не слишком полезным."
     }
             ]
         }

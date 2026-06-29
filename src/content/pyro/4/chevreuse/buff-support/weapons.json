@@ -7,7 +7,8 @@
           "note": {
             "en": "Bear in mind you will need around 31% HP from substat rolls with [[stat:hp%]] / [[stat:hp%]] / [[stat:hp%]] main stats to cap out her A4 passive using this, which makes it difficult to build enough [[stat:er]] to use her [[ability:burst]] every rotation.",
             "fr": "Gardez à l'esprit que vous aurez besoin d'environ 31% de PV grâce aux sous-stats avec des stats principales [[stat:hp%]] / [[stat:hp%]] / [[stat:hp%]] pour atteindre le maximum de son passif A4 en utilisant cette arme, ce qui rend difficile d'obtenir suffisamment de [[stat:er]] pour utiliser son [[ability:burst]] à chaque rotation.",
-            "it": "Tieni presente che con quest'arma avrai bisogno di circa 31% PS dalle delle statistiche secondarie con statistiche principali [[stat:hp%]] / [[stat:hp%]] / [[stat:hp%]] per raggiungere il limite massimo della sua passiva A4, il che rende difficile accumulare abbastanza [[stat:er]] per usare il suo [[ability:burst]] ad ogni rotazione."
+            "it": "Tieni presente che con quest'arma avrai bisogno di circa 31% PS dalle delle statistiche secondarie con statistiche principali [[stat:hp%]] / [[stat:hp%]] / [[stat:hp%]] per raggiungere il limite massimo della sua passiva A4, il che rende difficile accumulare abbastanza [[stat:er]] per usare il suo [[ability:burst]] ad ogni rotazione.",
+            "ru": "Следует отметить, что при использовании HP%/HP%/HP% в основных статах для достижения лимита Пассивной способности необходимо набрать еще 31% HP, из-за чего может быть сложно набрать достаточное кол-во ВЭ для того, чтобы использовать Взрыв стихии каждую ротацию."
           }
         }
       ]
@@ -19,7 +20,8 @@
           "note": {
             "en": "Loses some value if [[character:chevreuse]] does not [[ability:burst]]. Still valuable for team energy.",
             "fr": "Perd de la valeur si [[character:chevreuse]] n'utilise pas son [[ability:burst]]. Est tout de même utile pour l'énergie de l'équipe.",
-            "it": "Quest'arma perde valore se [[character:chevreuse]] non utilizza il [[ability:burst]], ma è comunque apprezzata per l'Energia fornita al team."
+            "it": "Quest'arma perde valore se [[character:chevreuse]] non utilizza il [[ability:burst]], ma è comunque apprezzata per l'Energia fornita al team.",
+            "ru": "Несколько менее ценно, если Шеврёз не использует Взрыв стихии, но по-прежнему полезно для отряда за счёт доп. энергии."
           }
         }
       ]

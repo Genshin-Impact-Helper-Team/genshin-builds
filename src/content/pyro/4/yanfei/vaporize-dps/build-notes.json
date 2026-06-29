@@ -2,24 +2,28 @@
     "name": {
         "en": "[[element:vaporize]] DPS",
         "fr": "DPS [[element:vaporize]]",
-        "it": "DPS [[element:vaporize]]"
+        "it": "DPS [[element:vaporize]]",
+        "ru": "ДД через [[element:vaporize]]"
     },
     "best": true,
     "notes": [
         {
             "en": "Calculations assume [[character:bennett]]. [[character:yanfei]] is a [[ability:ca]] damage dealer that utilizes a stack mechanic to increase the damage of her [[ability:ca]]s.",
             "fr": "Les calculs supposent que [[character:bennett]] est présent. [[character:yanfei]] inflige des dégâts via ses [[ability:ca]], et utilise un mécanisme de stack pour augmenter leurs dégâts.",
-            "it": "I calcoli presuppongono la presenza di [[character:bennett]]. [[character:yanfei]] infligge danni tramite i suoi Attacchi Caricati, utilizzando una meccanica di accumuli per aumentare i loro danni."
+            "it": "I calcoli presuppongono la presenza di [[character:bennett]]. [[character:yanfei]] infligge danni tramite i suoi Attacchi Caricati, utilizzando una meccanica di accumuli per aumentare i loro danni.",
+            "ru": "Предполагается, что Янь Фэй играет с Беннетом. Сборка сосредоточена на нанесении урона Заряженными атаками. Янь Фэй накапливает Багровые печати при помощи Обычных атак и Взрыва стихии, расходуя их при использовании Заряженных атак для увеличения урона."
         },
         {
             "en": "[[character:yanfei]] typically does **{rot:N2C}** as her combo to maximize her damage, especially during her [[ability:burst]] state. With two [[element:hydro]] characters, this results in consistent [[element:vaporize]] hits. However, if you only have one [[element:hydro]] character on your [[character:yanfei]] team, it may be best to do **{rot:N3C}** instead.",
             "fr": "On utilise généralement **{rot:N2C}** comme combo pour maximiser les dégâts de [[character:yanfei]], en particulier pendant son [[ability:burst]]. Avec deux personnages [[element:hydro]], cela permet de déclencher [[element:vaporize]] de façon constante. Cependant, si vous n'avez qu'un seul personnage [[element:hydro]] dans votre équipe, il peut être préférable de faire **{rot:N3C}** à la place.",
-            "it": "[[character:yanfei]] usa solitamente la combo **{rot:N2C}** per massimizzare i suoi danni, specialmente durante lo stato del suo [[ability:burst]]. Con due personaggi [[element:hydro]] nel team, questo risulta in colpi Vaporizzati costanti. Tuttavia, se è presente un solo personaggio [[element:hydro]] nel tuo team, può essere preferibile utilizzare la combo **{rot:N3C}**."
+            "it": "[[character:yanfei]] usa solitamente la combo **{rot:N2C}** per massimizzare i suoi danni, specialmente durante lo stato del suo [[ability:burst]]. Con due personaggi [[element:hydro]] nel team, questo risulta in colpi Vaporizzati costanti. Tuttavia, se è presente un solo personaggio [[element:hydro]] nel tuo team, può essere preferibile utilizzare la combo **{rot:N3C}**.",
+            "ru": "Оптимальное комбо Янь Фэй, особенно при использовании Взрыва стихии - N2C. В отрядах с двумя Гидро персонажами данное комбо позволяет стабильно закрывать реакцию Пар. При использовании только одного Гидро персонажа рекомендуется использовать комбо N3C."
         },
         {
             "en": "[[character:yanfei]]'s A4 being reliant on a crit hit makes her ideal crit ratio skew toward **3:4** and **3:5** instead of the standard **1:2**.",
             "fr": "La dépendance de l'A4 de [[character:yanfei]] à un coup critique fait que son crit ratio idéal tends plus vers **3:4** ou **3:5** que le standard **1:2**.",
-            "it": "Il fatto che il Talento A4 di [[character:yanfei]] sia dipendente da un colpo critico devia la proporzione di CRIT ideale verso 3:4 e 3:5 invece che la standard 1:2."
+            "it": "Il fatto che il Talento A4 di [[character:yanfei]] sia dipendente da un colpo critico devia la proporzione di CRIT ideale verso 3:4 e 3:5 invece che la standard 1:2.",
+            "ru": "Второй Пассивный талант Янь Фэй наносит дополнительный удар после Крит. Заряженной атаки, в связи с чем отпимальное соотношение Шанса крит. попадания к Крит. урону составляет ~3:4-3:5 заместо обычного 1:2."
         }
     ],
     "weapons": {

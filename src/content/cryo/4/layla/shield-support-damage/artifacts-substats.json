@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "[[stat:er]] until requirement is met",
-                "fr": "La [[stat:er]] jusqu'à atteindre le besoin requis."
+                "en": "[[note:er-req]]."
             }
         },
         {

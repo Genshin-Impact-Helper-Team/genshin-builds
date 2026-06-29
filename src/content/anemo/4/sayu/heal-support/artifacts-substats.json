@@ -6,9 +6,7 @@
         {
             "name": "cr",
             "note": {
-                "en": "Only for **[[weapon:favonius-greatsword]]**.",
-                "fr": "Seulement avec **[[weapon:favonius-greatsword]]**.",
-                "it": "Solo se utilizzi **[[weapon:favonius-greatsword]]**."
+                "en": "[[note:cr-favo]]."
             }
         }
     ]

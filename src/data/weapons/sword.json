@@ -1,6 +1,7 @@
 {
     "absolution": {
         "rarity": 5,
+        "version_released": "4.7",
         "passive": {
             "en": "CRIT DMG increased by {{value}}%. Increasing the value of a Bond of Life increases the DMG the equipping character deals by {{value}}% for 6s. Max 3 stacks.",
             "de": "Erhöht den KSCH um {{value}}%. Erhöht den vom Träger verursachten Schaden um {{value}}%, wenn Eid des Lebens erhöht wird. Hält 6 s, 3-fach stapelbar.",
@@ -42,6 +43,7 @@
     },
     "amenoma-kageuchi": {
         "rarity": 4,
+        "version_released": "2.0",
         "source": "Craft",
         "passive": {
             "en": "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates {{value}} Energy for each seed consumed.",
@@ -79,6 +81,7 @@
     },
     "aquila-favonia": {
         "rarity": 5,
+        "version_released": "1.0",
         "passive": {
             "en": "ATK is increased by {{value}}%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to {{value}}% of ATK and dealing {{value}}% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s.",
             "de": "Erhöht den ANG um {{value}}%. Effekt beim Erleiden von Schaden: Die Seele des Falken des Westens erwacht und erhebt die Fahne des Widerstands. Stellt LP in Höhe von {{value}}% ANG wieder her und fügt Gegnern in der Umgebung Schaden in Höhe von {{value}}% ANG zu. 15 s Abklingzeit.",
@@ -125,6 +128,7 @@
     },
     "athame-artis": {
         "rarity": 5,
+        "version_released": "6.2 / Luna III",
         "passive": {
             "en": "CRIT DMG from Elemental Bursts is increased by {{value}}%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by {{value}}%. Nearby active party members other than the equipping character have their ATK increased by {{value}}% for 3s.<br>Additionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field.",
             "de": "Erhöht den durch die Spezialfähigkeiten verursachten kritischen Schaden um {{value}}%. Gewährt beim Treffen von Gegnern mit der Spezialfähigkeit den Effekt „Klinge des Tageslichts“: Erhöht den ANG um {{value}}% sowie den ANG der aktuellen Figuren auf dem Feld in der Nähe in der Truppe (ausgenommen des Trägers) um {{value}}%, hält 3 s lang.<br>Erhöht den Effekt von „Klinge des Tageslichts“ zusätzlich um 75 %, wenn die Truppe den Effekt „Hexerei &ndash; Geheimes Ritual“ besitzt. Der obige Effekt kann auch ausgelöst werden, wenn der Träger inaktiv in der Truppe ist.",
@@ -171,6 +175,7 @@
     },
     "azurelight": {
         "rarity": 5,
+        "version_released": "5.7",
         "passive": {
             "en": "Within 12s after an Elemental Skill is used, ATK is increased by {{value}}%. During this time, when the equipping character has 0 Energy, ATK will be further increased by {{value}}%, and CRIT DMG will be increased by {{value}}%.",
             "de": "Erhöht nach dem Anwenden von Elementarfähigkeiten den ANG 12 s lang um {{value}}%. Wenn die Elementarenergie des Trägers während der Wirkungsdauer 0 Punkte beträgt, werden der ANG nochmal um {{value}}% erhöht und der KSCH wird um {{value}}% erhöht.",
@@ -217,6 +222,7 @@
     },
     "blackcliff-longsword": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
             "en": "After defeating an opponent, ATK is increased by {{value}}% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
@@ -254,6 +260,7 @@
     },
     "calamity-of-eshu": {
         "rarity": 4,
+        "version_released": "5.2",
         "source": "Event",
         "passive": {
             "en": "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by {{value}}%, and Normal and Charged Attack CRIT Rate is increased by {{value}}%.",
@@ -296,6 +303,7 @@
     },
     "cinnabar-spindle": {
         "rarity": 4,
+        "version_released": "2.3",
         "source": "Event",
         "passive": {
             "en": "Elemental Skill DMG is increased by {{value}}% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.",
@@ -333,6 +341,7 @@
     },
     "cool-steel": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases DMG against opponents affected by Hydro or Cryo by {{value}}%.",
             "de": "Erhöht den von Hydro- oder Kryo-Effekten betroffenen Gegnern zugefügten Schaden um {{value}}%.",
@@ -369,6 +378,7 @@
     },
     "dark-iron-sword": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "Upon causing an Overloaded, Superconduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by {{value}}% for 12s.",
@@ -406,6 +416,7 @@
     },
     "dull-blade": {
         "rarity": 1,
+        "version_released": "1.0",
         "passive": {
             "en": ""
         },
@@ -421,6 +432,7 @@
     },
     "favonius-sword": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}} s.",
             "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
@@ -462,6 +474,7 @@
     },
     "festering-desire": {
         "rarity": 4,
+        "version_released": "1.2",
         "source": "Event",
         "passive": {
             "en": "Increases Elemental Skill DMG by {{value}}% and Elemental Skill CRIT Rate by {{value}}%.",
@@ -504,6 +517,7 @@
     },
     "fillet-blade": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "On hit, has a 50% chance to deal {{value}}% ATK DMG to a single opponent. Can only occur once every 15s/14s/13s/12s/11s.",
@@ -541,6 +555,7 @@
     },
     "finale-of-the-deep": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Craft",
         "passive": {
             "en": "When using an Elemental Skill, ATK will be increased by {{value}}% for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of {{value}} ATK will be gained based on {{value}}% of the total amount of the Life Bond cleared, lasting for 15s.",
@@ -588,6 +603,7 @@
     },
     "fleuve-cendre-ferryman": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Fishing",
         "passive": {
             "en": "Increases Elemental Skill CRIT Rate by {{value}}%. Additionally, increases Energy Recharge by {{value}}% for 5s after using an Elemental Skill.",
@@ -630,6 +646,7 @@
     },
     "flute-of-ezpitzal": {
         "rarity": 4,
+        "version_released": "5.0",
         "source": "Craft",
         "passive": {
             "en": "Using an Elemental Skill increases DEF by {{value}}% for 15s.",
@@ -667,6 +684,7 @@
     },
     "freedom-sworn": {
         "rarity": 5,
+        "version_released": "1.6",
         "passive": {
             "en": "A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by {{value}}%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by {{value}}% and increases ATK by {{value}}%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack.",
             "de": "Ein Teil der „Bewegung des Jahrtausends“, die mit dem Wind zieht. Erhöht den verursachten Schaden um {{value}}%. Gibt der damit ausgerüsteten Figur beim Auslösen von Elementarreaktionen ein Zeichen der Revolte, 0,5 s Abklingzeit. Der Effekt bleibt auch bestehen, wenn die Figur ausgewechselt wird. Verbraucht alle Zeichen der Revolte, sobald 2 davon vorhanden sind, und verleiht allen Truppenmitgliedern in der Nähe den 12 s anhaltenden Effekt von „Bewegung des Jahrtausends &ndash; Lied der Revolution“: Erhöht den mit Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall verursachten Schaden um {{value}}% und den ANG um {{value}}%. Nach Auslösen dieses Effekts kann 20 s lang kein weiteres Zeichen der Revolte erhalten werden. Die verschiedenen durch „Bewegung des Jahrtausends“ ausgelösten Boni können bei gleicher Art nicht gestapelt werden.",
@@ -713,6 +731,7 @@
     },
     "haran-geppaku-futsu": {
         "rarity": 5,
+        "version_released": "2.6",
         "passive": {
             "en": "Obtain {{value}}% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by {{value}}% for 8s.",
             "de": "Erhöht den Schaden aller Elemente um {{value}}%. Verleiht der mit dieser Waffe ausgerüsteten Figur bei Anwendung von Elementarfähigkeiten anderer Truppenmitglieder in der Nähe 1 Stapelung des Effekts „Wellenähre“, 2-fach stapelbar, 0,3 s Abklingzeit. Verbraucht bei der Anwendung der Elementarfähigkeit der mit dieser Waffe ausgerüsteten Figur den gesamten Effekt „Wellenähre“, sofern dieser Effekt vorhanden ist, und erhält den Effekt „Wogenprall“: Erhöht den mit Standardangriffen verursachten Schaden pro verbrauchte Stapelung 8 s lang um {{value}}%.",
@@ -754,6 +773,7 @@
     },
     "harbinger-of-dawn": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "When HP is above 90%, increases CRIT Rate by {{value}}%.",
             "de": "Erhöht die KT bei mehr als 90 % LP um {{value}}%.",
@@ -790,6 +810,7 @@
     },
     "iron-sting": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Craft",
         "passive": {
             "en": "Dealing Elemental DMG increases all DMG by {{value}}% for 6s. Max 2 stacks. Can occur once every 1s.",
@@ -827,6 +848,7 @@
     },
     "kagotsurube-isshin": {
         "rarity": 4,
+        "version_released": "2.8",
         "source": "Exploration",
         "passive": {
             "en": "When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s.",
@@ -849,6 +871,7 @@
     },
     "key-of-khaj-nisut": {
         "rarity": 5,
+        "version_released": "3.1",
         "passive": {
             "en": "HP increased by {{value}}%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by {{value}}% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by {{value}}% of the equipping character's max HP for 20s.",
             "de": "Erhöht die LP um {{value}}%. Löst nach dem Treffen von Gegnern mit der Elementarfähigkeit den Effekt „Grandiose Verse“ aus, der 20 s hält: Erhöht die Elementarkunde der damit ausgerüsteten Figur um {{value}}% ihrer max. LP, 0,3 s Abklingzeit, 3-fach stapelbar. Erhöht bei 3 Stapelungen oder der Aktualisierung der Wirkungsdauer der dritten Stapelung die Elementarkunde aller Truppenmitglieder in der Nähe um {{value}}% der max. LP der damit ausgerüsteten Figur, hält 20 s.",
@@ -895,6 +918,7 @@
     },
     "lightbearing-moonshard": {
         "rarity": 5,
+        "version_released": "6.3 / Luna IV",
         "passive": {
             "en": "Increases DEF by {{value}}%. DMG inflicted by Lunar-Crystallize reactions increases by {{value}}% for 5s after the equipping character uses an Elemental Skill.",
             "de": "Erhöht die VTD um {{value}}%. Erhöht nach dem Anwenden der Elementarfähigkeit durch den Träger 5 s lang den Schaden der Reaktion Mond-Kristallisation um {{value}}%.",
@@ -936,6 +960,7 @@
     },
     "light-of-foliar-incision": {
         "rarity": 5,
+        "version_released": "3.4",
         "passive": {
             "en": "CRIT Rate is increased by {{value}}%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by {{value}}% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.",
             "de": "Erhöht die KT um {{value}}%. Erhält, nachdem durch Standardangriffe Elementar-Schaden verursacht wurde, den Effekt „Blattschneider“: Erhöht den von Standardangriffen und Elementarfähigkeit verursachten Schaden um {{value}}% der Elementarkunde. Dieser Effekt verschwindet nach 12 s oder nach 28 Auslösungen des Bonus. 12 s Abklingzeit auf das Erhalten des Effekts „Blattschneider“.",
@@ -977,6 +1002,7 @@
     },
     "lions-roar": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases DMG against opponents affected by Pyro or Electro by {{value}}%.",
             "de": "Erhöht den von Pyro- oder Elektro-Effekten betroffenen Gegnern zugefügten Schaden um {{value}}%.",
@@ -1013,6 +1039,7 @@
     },
     "mistsplitter-reforged": {
         "rarity": 5,
+        "version_released": "2.0",
         "passive": {
             "en": "Gain a {{value}}% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a {{value}}/{{value}}/{{value}}% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
             "de": "Erhöht den Elementar-SCH aller Elemente um {{value}}% und verleiht die Kraft des „Nebelspaltersiegels“: Erhöht den Elementar-SCH des eigenen Elements bei 1/2/3 Stapelungen um jeweils {{value}}/{{value}}/{{value}}%. Verleiht der Figur in folgenden Situationen je 1 Nebelspaltersiegel: Verursachen von Elementar-SCH mit Standardangriffen, hält 5 s; Anwendung von Spezialfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Nebelspaltersiegel ist unabhängig.",
@@ -1064,6 +1091,7 @@
     },
     "moonweavers-dawn": {
         "rarity": 4,
+        "version_released": "6.0 / Luna I",
         "passive": {
             "en": "Increases Elemental Burst DMG by {{value}}%. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional {{value}}/{{value}}%.",
             "de": "Erhöht den mit Spezialfähigkeiten verursachten Schaden um {{value}}%. Erhöht den mit Spezialfähigkeiten verursachten Schaden zusätzlich um {{value}}/{{value}}%, wenn die max. Elementarenergie des Trägers nicht mehr als 60/40 Punkte ist.",
@@ -1110,6 +1138,7 @@
     },
     "peak-patrol-song": {
         "rarity": 5,
+        "version_released": "5.1",
         "passive": {
             "en": "Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by {{value}}% and gain a {{value}}% All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by {{value}}% for every 1,000 DEF the equipping character has, up to a maximum of {{value}}%, for 15s.",
             "de": "Erhält nach dem Treffen von Gegnern mit Standardangriffen oder Angriffen aus dem Fall „Glorreiches Lied“: Erhöht die VTD um {{value}}% und erhält einen Elementar-SCH-Bonus aller Elemente von {{value}}%, hält 6 s, 2-fach stapelbar, 0,1 s Abklingzeit. Erhöht bei 2 Stapelungen oder beim Zurücksetzen der Wirkungsdauer von 2 Stapelungen für je 1.000 Punkte VTD des Trägers den Elementar-SCH-Bonus für alle Elemente aller Truppenmitglieder in der Nähe 15 s lang um {{value}}%, höchstens {{value}}%.",
@@ -1161,6 +1190,7 @@
     },
     "primordial-jade-cutter": {
         "rarity": 5,
+        "version_released": "1.3",
         "passive": {
             "en": "HP increased by {{value}}%. Additionally, provides an ATK Bonus based on {{value}}% of the wielder's Max HP.",
             "de": "Erhöht die LP um {{value}}%. Erhöht den ANG um {{value}}% der max. LP der mit dieser Waffe ausgerüsteten Figur.",
@@ -1202,6 +1232,7 @@
     },
     "prototype-rancour": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Craft",
         "passive": {
             "en": "On hit, Normal or Charged Attacks increase ATK and DEF by {{value}}% for 6s. Max 4 stacks. This effect can only occur once every 0.3s.",
@@ -1239,6 +1270,7 @@
     },
     "royal-longsword": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
             "en": "Upon damaging an opponent, increases CRIT Rate by {{value}}%. Max 5 stacks. A CRIT Hit removes all stacks.",
@@ -1276,6 +1308,7 @@
     },
     "sacrificial-sword": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every {{value}} s.",
             "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
@@ -1317,6 +1350,7 @@
     },
     "sapwood-blade": {
         "rarity": 4,
+        "version_released": "3.0",
         "source": "Craft",
         "passive": {
             "en": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character {{value}} Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
@@ -1354,6 +1388,7 @@
     },
     "serenitys-call": {
         "rarity": 4,
+        "version_released": "6.0 / Luna I",
         "source": "Craft",
         "passive": {
             "en": "Upon causing an Elemental Reaction, increases Max HP by {{value}}% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by {{value}}%. This effect can be triggered even if the equipping character is off-field.",
@@ -1396,6 +1431,7 @@
     },
     "silver-sword": {
         "rarity": 2,
+        "version_released": "1.0",
         "passive": {
             "en": ""
         },
@@ -1411,6 +1447,7 @@
     },
     "skyrider-sword": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "Using an Elemental Burst grants a {{value}}% increase in ATK and Movement SPD for 15s.",
             "de": "Erhöht den ANG und die Bewegungs-GSW nach Anwendung einer Spezialfähigkeit 15 s lang um {{value}}%.",
@@ -1447,6 +1484,7 @@
     },
     "skyward-blade": {
         "rarity": 5,
+        "version_released": "1.0",
         "passive": {
             "en": "CRIT Rate increased by {{value}}%. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and Normal and Charged hits deal additional DMG equal to {{value}}% of ATK. Skypiercing Might lasts for 12s.",
             "de": "Erhöht die KT um {{value}}%. Aktiviert bei Anwendung von Spezialfähigkeiten Himmelsbohrer: Erhöht die Bewegungs-GSW um {{value}}% und die Angriffs-GSW um {{value}}%, verursacht bei Treffern mit Standardangriffen und heftigen Schlägen zusätzlichen Schaden in Höhe von {{value}}% ANG, hält 12 s.",
@@ -1488,6 +1526,7 @@
     },
     "splendor-of-tranquil-waters": {
         "rarity": 5,
+        "version_released": "4.2",
         "passive": {
             "en": "When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by {{value}}% for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by {{value}}% for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field.",
             "de": "Erhöht, wenn die aktuellen LP des Trägers steigen oder sinken, den durch die Elementarfähigkeit verursachten Schaden 6 s lang um {{value}}%, 3-fach stapelbar, 0,2 s Abklingzeit. Erhöht, wenn die aktuellen LP anderer Truppenmitglieder steigen oder sinken, die max. LP des Trägers 6 s lang um {{value}}%, 2-fach stapelbar, 0,2 s Abklingzeit. Dieser Effekt kann auch noch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv in der Truppe ist.",
@@ -1529,6 +1568,7 @@
     },
     "sturdy-bone": {
         "rarity": 4,
+        "version_released": "5.1",
         "passive": {
             "en": "Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by {{value}}% of ATK. This effect expires after triggering 18 times or 7s.",
             "de": "Verringert die beim Rennen oder von Fähigkeiten, die Rennen ersetzen, verbrauchte Ausdauer um 15 %. Erhöht außerdem den mit Standardangriffen verursachten Schaden nach dem Rennen oder Anwenden einer Fähigkeit, die Rennen ersetzt, um {{value}}% ANG. Dieser Effekt verschwindet nach 18 Auslösungen oder 7 s.",
@@ -1565,6 +1605,7 @@
     },
     "summit-shaper": {
         "rarity": 5,
+        "version_released": "1.2",
         "passive": {
             "en": "Increases Shield Strength by {{value}}%. Scoring hits on opponents increases ATK by {{value}}% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
             "de": "Erhöht die Schildeffizienz um {{value}}%. Erhöht den ANG nach Treffern 8 s lang um {{value}}%. 5-fach stapelbar, 0,3 s Abklingzeit. Erhöht die Wirksamkeit der Erhöhung des ANG außerdem im Schutz von Schilden um 100 %.",
@@ -1606,6 +1647,7 @@
     },
     "sword-of-descension": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Playstation",
         "passive": {
             "en": "Effective only on the following platform: <br>\"PlayStation™Network\"<br>Hitting opponents with Normal and Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.",
@@ -1628,6 +1670,7 @@
     },
     "sword-of-narzissenkreuz": {
         "rarity": 4,
+        "version_released": "4.2",
         "source": "Exploration",
         "passive": {
             "en": "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing {{value}}% of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz.",
@@ -1665,6 +1708,7 @@
     },
     "the-alley-flash": {
         "rarity": 4,
+        "version_released": "1.4",
         "passive": {
             "en": "Increases DMG dealt by the character equipping this weapon by {{value}}%. Taking DMG disables this effect for 5s.",
             "de": "Erhöht den von Figuren verursachten Schaden um {{value}}%. Dieser Schadensbonus erlischt beim Erleiden von Schaden 5 s lang.",
@@ -1701,6 +1745,7 @@
     },
     "the-black-sword": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Battle Pass",
         "passive": {
             "en": "Increases DMG dealt by Normal and Charged Attacks by {{value}}%. Additionally, regenerates {{value}}% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.",
@@ -1743,6 +1788,7 @@
     },
     "the-dockhands-assistant": {
         "rarity": 4,
+        "version_released": "4.1",
         "passive": {
             "en": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain {{value}} Elemental Mastery, and 2s after the effect occurs, {{value}} Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
             "de": "Verleiht der Figur bei erhaltener Heilung, oder wenn sie jemanden heilt, ein Zeichen der Beharrlichkeit, hält 30 s. Es können max. bis zu 3 Zeichen der Beharrlichkeit vorhanden sein. Verbraucht beim Auslösen der Elementarfähigkeit oder der Spezialfähigkeit alle Zeichen der Beharrlichkeit und löst den Effekt „Erhabenheit“ aus, der 10 s hält: Jedes verbrauchte Zeichen der Beharrlichkeit erhöht die Elementarkunde um {{value}} Punkte. Außerdem stellt jedes verbrauchte Zeichen dem Träger 2 s nach Auslösen des Effekts {{value}} Punkte Elementarenergie wieder her. 15 s Abklingzeit für den Effekt „Erhabenheit“. Zeichen der Beharrlichkeit können auch erhalten werden, wenn die Figur inaktiv in der Truppe ist.",
@@ -1784,6 +1830,7 @@
     },
     "the-flute": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals {{value}}% ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.",
             "de": "Erzeugt bei Treffern mit Standardangriffen und heftigen Schlägen einen harmonischen Ton. Hast du insgesamt 5 harmonische Töne gesammelt, wird die Kraft der Klänge freigegeben und fügt den Gegnern in der Umgebung Schaden in Höhe von {{value}}% ANG zu. Harmonische Töne bestehen für 30 s. Erzeugt höchstens alle 0,5 s 1 harmonischen Ton.",
@@ -1820,6 +1867,7 @@
     },
     "toukabou-shigure": {
         "rarity": 4,
+        "version_released": "3.3",
         "source": "Event",
         "passive": {
             "en": "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal {{value}}% more DMG to the opponent affected by Cursed Parasol.",
@@ -1857,6 +1905,7 @@
     },
     "travelers-handy-sword": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "Each Elemental Orb or Particle collected restores {{value}}% HP.",
@@ -1894,6 +1943,7 @@
     },
     "uraku-misugiri": {
         "rarity": 5,
+        "version_released": "4.5",
         "passive": {
             "en": "Normal Attack DMG is increased by {{value}}% and Elemental Skill DMG is increased by {{value}}%. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by {{value}}%.",
             "de": "Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% und den mit Elementarfähigkeiten verursachten Schaden um {{value}}%. Erhöht diesen Effekt um 100 %, wenn Truppenmitglieder in der Nähe Geo-Schaden auf dem Feld verursachen, hält 15 s. Erhöht außerdem die VTD des Trägers um {{value}}%.",
@@ -1940,6 +1990,7 @@
     },
     "wolf-fang": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Battle Pass",
         "passive": {
             "en": "DMG dealt by Elemental Skill and Elemental Burst is increased by {{value}}%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by {{value}}%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by {{value}}%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.",
@@ -1987,6 +2038,7 @@
     },
     "xiphos-moonlight": {
         "rarity": 4,
+        "version_released": "3.1",
         "passive": {
             "en": "The following effect will trigger every 10s: The equipping character will gain {{value}}% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
             "de": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht die Aufladerate der damit ausgerüsteten Figur um {{value}}% für jeden Punkt der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",

@@ -10,7 +10,8 @@
                             "note": {
                                 "en": "This set pulls ahead of **[[set:vermillion-hereafter]]** (4) with either [[character:bennett]] or [[character:xianyun]] on the Team. This set is hard to build around when using a [[stat:cr]] Weapon, making other sets a better overall choice.",
                                 "fr": "Ce set dépasse **[[set:vermillion-hereafter]]** (4) avec [[character:bennett]] ou [[character:xianyun]] dans l'équipe. Ce set est difficile à build avec une arme [[stat:cr]], ce qui fait des autres sets un meilleur choix global.",
-                                "it": "Questo set supera **[[set:vermillion-hereafter]]** (4) con [[character:bennett]] o [[character:xianyun]] nel team. Questo set è difficile da bilanciare quando si utilizza un'arma con [[stat:cr]], il che rende gli altri set una scelta complessivamente migliore."
+                                "it": "Questo set supera **[[set:vermillion-hereafter]]** (4) con [[character:bennett]] o [[character:xianyun]] nel team. Questo set è difficile da bilanciare quando si utilizza un'arma con [[stat:cr]], il che rende gli altri set una scelta complessivamente migliore.",
+                                "ru": "Превосходит **[[set:vermillion-hereafter]]** (4) в отрядах с [[character:bennett|Беннетом]]/[[character:xianyun]]. Сложно совместить с оружием на [[stat:cr]], что может сделать другие сеты лучшим вариантом."
                             }
                         }
                     ]
@@ -31,7 +32,8 @@
                             "note": {
                                 "en": "While being a strong alternative to similar ranking sets, it is not recommended to farm this set currently as it combines an inefficient domain with a team- and skill- dependent damage performance.",
                                 "fr": "Bien qu'il soit une solide alternative aux sets au classement similaire, il n'est actuellement pas recommandé de farm ce set car il combine un domaine inefficace avec des performances de dégâts dépendantes de l'équipe et des compétences.",
-                                "it": "Pur essendo una valida alternativa a set simili in classifica, al momento non è consigliabile farmare questo set poiché combina un dominio inefficiente con prestazioni di danno dipendenti dal team utilizzato e dall'abilità del giocatore."
+                                "it": "Pur essendo una valida alternativa a set simili in classifica, al momento non è consigliabile farmare questo set poiché combina un dominio inefficiente con prestazioni di danno dipendenti dal team utilizzato e dall'abilità del giocatore.",
+                                "ru": "Несмотря на отличный бонус набора, на данный момент не рекомендуется к фарму из-за неэффективного в целом данжа."
                             }
                         }
                     ]
@@ -48,7 +50,8 @@
                             "note": {
                                 "en": "**Perform a [[ability:ca]] at the start of [[character:xiao]]'s [[ability:burst]]** to utilize this set fully. With a low base attack weapon and [[character:bennett]] on the team, this set performs close to **[[set:vermillion-hereafter]]** (4). It is not recommended to farm this Domain specifically for [[character:xiao]].",
                                 "fr": "**Effectuez une [[ability:ca]] au début de l'[[ability:burst]] de [[character:xiao]]** pour utiliser pleinement ce set. Avec une arme à faible attaque de base et [[character:bennett]] dans l'équipe, ce set se rapproche de **[[set:vermillion-hereafter]]** (4). Il n'est pas recommandé de farm ce domaine spécifiquement pour [[character:xiao]].",
-                                "it": "**Esegui un [[ability:ca]] all'inizio del [[ability:burst]] di [[character:xiao]]** per utilizzare appieno questo set. Con un'arma con Attacco Base basso e [[character:bennett]] nel team, questo set ha prestazioni simili ad **[[set:vermillion-hereafter]]** (4). Non è consigliato farmare questo set specificamente per Xiao."
+                                "it": "**Esegui un [[ability:ca]] all'inizio del [[ability:burst]] di [[character:xiao]]** per utilizzare appieno questo set. Con un'arma con Attacco Base basso e [[character:bennett]] nel team, questo set ha prestazioni simili ad **[[set:vermillion-hereafter]]** (4). Non è consigliato farmare questo set specificamente per Xiao.",
+                                "ru": "Используйте [[ability:ca|Заряженную атаку]] после [[ability:burst|Взрыва стихии]] для полной активации бонуса. Если [[character:xiao]] использует оружие с низкой Базовой атакой и обильно получает Силу атаки% от отряда ([[character:bennett]]), может соответствовать **[[set:vermillion-hereafter|Киноварному загробью]]** (4) или даже превосходить его."
                             }
                         }
                     ]
@@ -76,7 +79,7 @@
                                     "pieces": 2
                                 },
                                 {
-                                    "name": "emblem-of-severed-fate",
+                                    "name": "er-set",
                                     "pieces": 2
                                 }
                             ]

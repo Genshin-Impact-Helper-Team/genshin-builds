@@ -1,34 +1,5 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import ArtifactSetBrowser from '../components/ArtifactSetBrowser.astro';
-import '../styles/base.css';
-import '../styles/home.css';
-import '../styles/theme.css';
-import '../styles/artifact-sets.css';
-import { t } from '../utils/i18n';
-import { sitePath } from '../utils/paths';
-import { getArtifactSetBrowserData } from '../utils/artifact-browser';
+import { localizedPath } from '../utils/paths';
 
-const data = getArtifactSetBrowserData('en');
-const { locale } = data;
-const title = `${t(locale, 'ui', 'Artifacts')} ${t(locale, 'ui', 'Sets')}`;
+return Astro.redirect(localizedPath('en', 'artifacts'));
 ---
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title} - Genshin Builds</title>
-  </head>
-  <body data-element="anemo">
-    <Header locale={locale} lang="en" page="artifacts" />
-    <main class="artifact-set-page">
-      <h1>{title}</h1>
-      <ArtifactSetBrowser data={data} locale={locale} />
-    </main>
-    <Footer lang="en" />
-  </body>
-</html>

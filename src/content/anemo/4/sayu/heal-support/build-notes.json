@@ -2,19 +2,22 @@
     "name": {
         "en": "Heal Support",
         "fr": "Support Soins",
-        "it": "Supporto Cure"
+        "it": "Supporto Cure",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:sayu]] does more damage with [[stat:em]] builds and heals more with ATK hybrid builds, [[stat:healing-bonus]] circlet's can be used for better heals while maintaining respectable damage. Note that [[character:sayu]] wants a large amount of [[stat:er]] when used as the only [[element:anemo]] slot on the team.",
             "fr": "[[character:sayu]] inflige plus de dégâts avec les builds [[stat:em]] et soigne davantage avec les builds hybrides ATQ. Les diadèmes [[stat:healing-bonus]] peuvent être utilisés pour de meilleurs soins tout en gardant des dégâts respectables. Notez que [[character:sayu]] veut une grande quantité de [[stat:er]] lorsqu'elle est utilisée comme seul personnage [[element:anemo]] de l'équipe.",
-            "it": "[[character:sayu]] infligge più danni con una build basata su [[stat:em]], ma guarisce di più con una build ibrida che include [[stat:atk]]. È possibile utilizzare una Corona [[stat:healing-bonus]] per migliorare le cure mantenendo comunque danni rispettabili. Tieni presente che [[character:sayu]] ha bisogno di un'alta quantità di [[stat:er]] se utilizzata come unico personaggio [[element:anemo]] nel team."
+            "it": "[[character:sayu]] infligge più danni con una build basata su [[stat:em]], ma guarisce di più con una build ibrida che include [[stat:atk]]. È possibile utilizzare una Corona [[stat:healing-bonus]] per migliorare le cure mantenendo comunque danni rispettabili. Tieni presente che [[character:sayu]] ha bisogno di un'alta quantità di [[stat:er]] se utilizzata come unico personaggio [[element:anemo]] nel team.",
+            "ru": "[[character:sayu]] наносит больше урона в МС-билде, а активнее исцеляет в АТК- и гибридной сборке. Корону на [[stat:healing-bonus]] можно использовать для увеличения лечения при сохранении приличного урона. Следует отметить, что [[character:sayu]] нуждается в значительном количестве [[stat:er|Восстановления энергии]], если является единственным [[element:anemo]] персонажем в команде."
         },
         {
             "en": "Use hold [[ability:skill]] then immediately press it to generate more particles.",
             "fr": "Utilisez le [[ability:skill]] maintenu puis appuyez immédiatement à nouveau pour générer plus de particules.",
-            "it": "Per generare più particelle, premi a lungo l'[[ability:skill]], poi cliccala rapidamente."
+            "it": "Per generare più particelle, premi a lungo l'[[ability:skill]], poi cliccala rapidamente.",
+            "ru": "Используйте долгое нажатие [[ability:skill|Элементального навыка]], затем сразу же нажмите его повторно для генерации большего количества частиц."
         }
     ]
 }

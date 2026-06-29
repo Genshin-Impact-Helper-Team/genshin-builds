@@ -10,7 +10,8 @@
                             "note": {
                                 "en": "Prioritize this set if no one else holds it.",
                                 "fr": "Priorisez ce set si personne d'autre ne le porte.",
-                                "it": "Dai la priorità a questo set se nessun altro personaggio nel team lo sta utilizzando."
+                                "it": "Dai la priorità a questo set se nessun altro personaggio nel team lo sta utilizzando.",
+                                "ru": "В приоритете, если в отряде нет другого носителя."
                             }
                         }
                     ]
@@ -39,7 +40,8 @@
                     "note": {
                         "en": "This set can be used in teams where there is a large amount of [[element:dendro]] damage, such as in [[character:nefer]] teams.",
                         "fr": "Ce set peut être utilisé dans les équipes avec une grande quantité de dégâts [[element:dendro]], comme les équipes [[character:nefer]].",
-                        "it": "Questo set è un'opzione di supporto in team con una quantità rilevante di **danni [[element:dendro]]** (es. **Nefer**)."
+                        "it": "Questo set è un'opzione di supporto in team con una quantità rilevante di **danni [[element:dendro]]** (es. **Nefer**).",
+                        "ru": "Может использоваться в отрядах со значительным [[element:dendro]] уроном (например, отряды с [[character:nefer]])."
                     }
                 }
             ]

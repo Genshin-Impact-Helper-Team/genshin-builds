@@ -2,19 +2,22 @@
     "name": {
         "en": "[[stat:em]] Support",
         "fr": "Support [[stat:em]]",
-        "it": "Supporto [[stat:em]]"
+        "it": "Supporto [[stat:em]]",
+        "ru": "[[stat:em|МС]] саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:sucrose]]'s Ascension 4 Talent boosts the entire team's [[stat:em]] by 20% of [[character:sucrose]]'s total [[stat:em]], which is why you want to stack as much [[stat:em]] as possible in her artifacts. As a support, most of [[character:sucrose]]'s value lies on her Ascension 1 and 4 talents, hence leveling her other talents ([[ability:na]], [[ability:skill]], [[ability:burst]]) is not required.",
             "fr": "Le passif d'Ascension 4 de [[character:sucrose]] buff la [[stat:em]] de toute l'équipe de 20% de la [[stat:em]] de [[character:sucrose]], ce qui est la raison pour laquelle on cherche autant de [[stat:em]] que possible sur ses artéfacts. En tant que support, la valeur de [[character:sucrose]] vient principalement de ses passifs d'Ascension 1 et 4, donc il n'est pas nécessaire de améliorer ses autres talents ([[ability:na]], [[ability:skill]], [[ability:burst]]).",
-            "it": "Il Talento A4 di [[character:sucrose]] aumenta la [[stat:em]] dell'intero team del 20% della sua [[stat:em]], ed è per questo importante **accumulare più [[stat:em]] possibile nei suoi manufatti**. Il valore principale di [[character:sucrose]] risiede nei suoi Talenti di A1/A4; gli altri Talenti non necessitano di essere aumentati di livello."
+            "it": "Il Talento A4 di [[character:sucrose]] aumenta la [[stat:em]] dell'intero team del 20% della sua [[stat:em]], ed è per questo importante **accumulare più [[stat:em]] possibile nei suoi manufatti**. Il valore principale di [[character:sucrose]] risiede nei suoi Talenti di A1/A4; gli altri Talenti non necessitano di essere aumentati di livello.",
+            "ru": "Пассивный талант (А4) [[character:sucrose|Сахарозы]] повышает [[stat:em]] членов отряда на 20% от [[stat:em|МС]] [[character:sucrose|Сахарозы]] (поэтому рекомендуется сборка в максимальное значение [[stat:em|МС]]). В качестве поддержки [[character:sucrose]] ценится за свои пассивные таланты (А1 и А4), поэтому повышение уровня [[ability:na|Обычной атаки]], [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]] необязательно."
         },
         {
             "en": "When utilized as a [[set:viridescent-venerer]] (4) artifact set holder, **make sure you don't immediately swap away after casting [[ability:skill]]/[[ability:burst]]**, you need to be on-field when the [[element:swirl]] reaction happens for you to trigger the 4-set effect.",
             "fr": "Lorsqu'elle est utilisée pour porter le set [[set:viridescent-venerer]] (4), **faites attention à ne pas changer de personnage directement après le [[ability:skill]]/[[ability:burst]]**, il faut être on-field quand la réaction de [[element:swirl]] a lieu pour déclencher l'effet du 4p.",
-            "it": "Quando viene usata con il set [[set:viridescent-venerer]] (4), **assicurati di non cambiare subito personaggio dopo aver attivato [[ability:skill]]/[[ability:burst]], poiché [[character:sucrose]] deve essere sul campo quando si verifica la reazione [[element:swirl]] per attivare l'effetto del set**."
+            "it": "Quando viene usata con il set [[set:viridescent-venerer]] (4), **assicurati di non cambiare subito personaggio dopo aver attivato [[ability:skill]]/[[ability:burst]], poiché [[character:sucrose]] deve essere sul campo quando si verifica la reazione [[element:swirl]] per attivare l'effetto del set**.",
+            "ru": "При использовании сета **[[set:viridescent-venerer]] (4)** **не переключайте персонажа сразу после применения [[ability:skill|Элементального навыка]]/[[ability:burst|Взрыва стихии]]**, дождитесь активации [[element:swirl|Рассеивания]]. Бонус набора (4) активируется, лишь когда носитель находится на поле во время реакции."
         }
     ]
 }

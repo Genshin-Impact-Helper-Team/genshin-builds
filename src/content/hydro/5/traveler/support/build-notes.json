@@ -1,27 +1,33 @@
 {
     "name": {
-        "en": "Support"
+        "en": "Support",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "**IMPORTANT NOTICE:** At the time of writing, [[element:hydro]] [[character:traveler]] provides no utility to a team that cannot be better filled by another unit, including [[character:barbara]], who all players can obtain at AR 18.",
-            "fr": "**INFORMATION IMPORTANTE:** Lors de l'écriture de ce guide,le [[character:traveler]] [[element:hydro]] n'offre aucune commodité pour les équipes qui ne peut pas être obtenue avec un autre personnage, [[character:barbara]] inclue, que tous les joueurs peuvent obtenir à l'AR 18."
+            "fr": "**INFORMATION IMPORTANTE:** Lors de l'écriture de ce guide,le [[character:traveler]] [[element:hydro]] n'offre aucune commodité pour les équipes qui ne peut pas être obtenue avec un autre personnage, [[character:barbara]] inclue, que tous les joueurs peuvent obtenir à l'AR 18.",
+            "ru": "ВАЖНОЕ ПРИМЕЧАНИЕ: На момент написания раздела Гидро Путешественник не превосходит ни в одном из аспектов ни одного Гидро персонажа, включая Барбару (которая выдаётся бесплатно на 18 Ранге)."
         },
         {
             "en": "This playstyle focuses on using their [[ability:skill]] and [[ability:burst]] to trigger support-based weapon and artifact passives while dealing [[ability:pneuma]] damage with their [[ability:skill]]. This is only recommended if a source of [[ability:pneuma]] is required and [[character:traveler]] is your only source of [[ability:pneuma]]-aligned damage.",
-            "fr": "Ce mode de jeu se concentre sur l'utilisation du [[ability:skill]] et [[ability:burst]] pour déclencher les passifs des armes et sets d'artéfacts tout en infligeant des dégâts [[ability:pneuma]] avec son [[ability:skill]]. Ce n'est recommendé que si une source de [[ability:pneuma]] est nécessaire et que le [[character:traveler]] est votre seule source de dégâts [[ability:pneuma]]."
+            "fr": "Ce mode de jeu se concentre sur l'utilisation du [[ability:skill]] et [[ability:burst]] pour déclencher les passifs des armes et sets d'artéfacts tout en infligeant des dégâts [[ability:pneuma]] avec son [[ability:skill]]. Ce n'est recommendé que si une source de [[ability:pneuma]] est nécessaire et que le [[character:traveler]] est votre seule source de dégâts [[ability:pneuma]].",
+            "ru": "Так как Гидро Путешественник не приносит пользу отряду за счёт собственных способностей, игра за него нацелена на реализацию различных Пассивных способностей оружия и артефактов за счёт Элементального навыка/Взрыва стихии и нанесения урона Пневмы. Рекомендуется использовать только в случае, если требуется энергия Пневмы, а Путешественник - единственный её источник на аккаунте."
         },
         {
             "en": "The guaranteeable 4-star [[weapon:sword-of-narzissenkreuz]] can also provide an [[ability:arkhe]] attack for other characters, further diminishing [[element:hydro]] [[character:traveler]]'s usability if this weapon has been obtained.",
-            "fr": "L'arme 4 étoiles [[weapon:sword-of-narzissenkreuz]] obtenue lors d'une quête permet d'effecter des attaques [[ability:arkhe]] avec d'autres personnages, diminuant encore plus l'intérêt de jouer le [[character:traveler]] [[element:hydro]] si vous possédez cette arme."
+            "fr": "L'arme 4 étoiles [[weapon:sword-of-narzissenkreuz]] obtenue lors d'une quête permet d'effecter des attaques [[ability:arkhe]] avec d'autres personnages, diminuant encore plus l'intérêt de jouer le [[character:traveler]] [[element:hydro]] si vous possédez cette arme.",
+            "ru": "Следует отметить, что бесплатный 4* Меч Нарциссенкрейца может обеспечить отряд Архэ даже без персонажей из Фонтейна, что делает Гидро Путешественника ещё менее полезным."
         },
         {
             "en": "Do not use [[element:hydro]] [[character:traveler]] unless you need them for [[ability:pneuma]] mechanics and do not own [[weapon:sword-of-narzissenkreuz]] yet.",
-            "fr": "Ne jouez pas le [[character:traveler]] [[element:hydro]] à moins d'en avoir besoin pour les mécaniques [[ability:pneuma]] sans posséder [[weapon:sword-of-narzissenkreuz]]"
+            "fr": "Ne jouez pas le [[character:traveler]] [[element:hydro]] à moins d'en avoir besoin pour les mécaniques [[ability:pneuma]] sans posséder [[weapon:sword-of-narzissenkreuz]]",
+            "ru": "Не рекомендуется использовать Гидро Путешественника, кроме как при нужде в энергии Пневмы и в отсутствие Меча Нарциссенкрейца."
         },
         {
             "en": "[[character:traveler]] does not generate particles if interrupted during the hold state of their [[ability:skill]].",
-            "fr": "Le [[character:traveler]] [[element:hydro]] ne génèr pas de particules s'il est interrompu pendant son [[ability:skill]] appuyé."
+            "fr": "Le [[character:traveler]] [[element:hydro]] ne génèr pas de particules s'il est interrompu pendant son [[ability:skill]] appuyé.",
+            "ru": "Путешественник не генерирует частицы при прерывании заряженного Элементального навыка."
         }
     ]
 }

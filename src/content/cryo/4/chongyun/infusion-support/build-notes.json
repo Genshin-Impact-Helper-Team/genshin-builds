@@ -1,16 +1,19 @@
 {
     "name": {
         "en": "Infusion Support",
-        "fr": "Support Infusion"
+        "fr": "Support Infusion",
+        "it": "Supporto Infusione"
     },
     "notes": [
         {
             "en": "[[character:chongyun]] as an infusion support is rather niche, since it is only used to enable on-field [[element:cryo]] characters that don't already have [[element:cryo]] infusions. The most notable of these is [[element:cryo]] DPS [[character:freminet]].",
-            "fr": "[[character:chongyun]] en tant que support d'infusion est assez niche, puisqu'il sert uniquement à permettre aux personnages [[element:cryo]] on-field qui n'ont pas déjà une infusion [[element:cryo]] de fonctionner. Le plus notable d'entre eux est le DPS [[element:cryo]] [[character:freminet]]."
+            "fr": "[[character:chongyun]] en tant que support d'infusion est assez niche, puisqu'il sert uniquement à permettre aux personnages [[element:cryo]] on-field qui n'ont pas déjà une infusion [[element:cryo]] de fonctionner. Le plus notable d'entre eux est le DPS [[element:cryo]] [[character:freminet]].",
+            "it": "[[character:chongyun]] come supporto infusione è piuttosto di nicchia, poiché viene utilizzato solo per abilitare i personaggi [[element:cryo]] sul campo che non dispongono già di infusioni [[element:cryo]]. Il più rilevante caso tra questi è [[character:freminet]]."
         },
         {
             "en": "[[character:chongyun]]'s Infusion is overridden by [[character:bennett]]'s C6 and [[character:diluc]], but overrides [[character:candace]]'s infusion.",
-            "fr": "L'infusion de [[character:chongyun]] est écrasée par la C6 de [[character:bennett]] et par [[character:diluc]], mais elle écrase l'infusion de [[character:candace]]."
+            "fr": "L'infusion de [[character:chongyun]] est écrasée par la C6 de [[character:bennett]] et par [[character:diluc]], mais elle écrase l'infusion de [[character:candace]].",
+            "it": "L'Infusione di [[character:chongyun]] viene bypassata dalla [C6] di [[character:bennett]] e da [[character:diluc]], ma bypassa l'infusione di [[character:candace]]."
         }
     ],
     "weapons": [

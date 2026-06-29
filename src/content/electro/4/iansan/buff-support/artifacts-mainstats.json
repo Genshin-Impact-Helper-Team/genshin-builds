@@ -12,8 +12,7 @@
             {
                 "name": "cr",
                 "note": {
-                    "en": "Only if using [[weapon:favonius-lance]]",
-                    "fr": "Seulement si vous jouez [[weapon:favonius-lance]]"
+                    "en": "[[note:cr-favo]]."
                 }
             }
         ]

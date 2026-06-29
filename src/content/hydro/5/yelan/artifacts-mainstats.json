@@ -10,7 +10,8 @@
                 "name": "hp%",
                 "note": {
                     "en": "[[stat:hydro-dmg]]% should be used by default. In teams with significant DMG% buffing or with weapons which provide a lot of DMG%, [[stat:hp%]] goblet can be competitive.",
-                    "fr": "[[stat:hydro-dmg]]% devrait être utilisé par défaut pour la coupe. Dans les équipes avec d'importants buff de DGT% ou avec une arme qui offre beaucoup de DGT%, une coupe [[stat:hp%]] peut être une meilleure option."
+                    "fr": "[[stat:hydro-dmg]]% devrait être utilisé par défaut pour la coupe. Dans les équipes avec d'importants buff de DGT% ou avec une arme qui offre beaucoup de DGT%, une coupe [[stat:hp%]] peut être une meilleure option.",
+                    "ru": "Стандартным выбором должен быть кубок на бонус Гидро урона%. Кубок на НР% может соответствовать ему, если Е Лань получает значительное кол-во бонусов Элементального урона от других персонажей в отряде или Пассивной способности оружия."
                 }
             }
         ],
@@ -23,7 +24,8 @@
     "notes": [
         {
             "en": "It's never recommended to run more than 2 [[stat:hp%]] Main Stat artifacts at a time.",
-            "fr": "Il n'est jamais recommandé d'avoir + de 2 Stat Principales [[stat:hp%]] à la fois."
+            "fr": "Il n'est jamais recommandé d'avoir + de 2 Stat Principales [[stat:hp%]] à la fois.",
+            "ru": "Использовать более двух HP%-артефактов сразу не рекомендуется."
         }
     ]
 }

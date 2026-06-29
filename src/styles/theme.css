@@ -10,6 +10,11 @@ body {
   color: var(--text);
 }
 
+body[data-element="anemo"] {
+  --bg: #153434;
+  --element: #30d8a0;
+}
+
 body[data-element="cryo"] {
   --bg: #235d74;
   --element: #7af0f0;
@@ -38,4 +43,9 @@ body[data-element="hydro"] {
 body[data-element="pyro"] {
   --bg: #3d1818;
   --element: #ff6640;
+}
+
+body[data-element="base"] {
+  --bg: #153434;
+  --element: #30d8a0;
 }

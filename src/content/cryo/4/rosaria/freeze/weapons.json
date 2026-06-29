@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "120% [[stat:er]] requirement, some weapons requires 0 rolls into [[stat:cr]]",
-            "fr": "Le classement suppose un besoin de 120% de [[stat:er]] ; certaines armes demandent 0 roll en [[stat:cr]]."
+            "fr": "Le classement suppose un besoin de 120% de [[stat:er]] ; certaines armes demandent 0 roll en [[stat:cr]].",
+            "it": "La classifica presuppone 120% [[stat:er]]; alcune armi richiedono 0 statistiche secondarie [[stat:cr]]."
         }
     ],
     "weapons": [
@@ -29,7 +30,8 @@
                     "name": "vortex-vanquisher",
                     "note": {
                         "en": "Assumed 2 stacks, unshielded.",
-                        "fr": "Suppose 2 stacks, sans bouclier."
+                        "fr": "Suppose 2 stacks, sans bouclier.",
+                        "it": "La classifica presuppone l'assenza di uno scudo."
                     }
                 }
             ]
@@ -47,8 +49,9 @@
                 {
                     "name": "wavebreakers-fin",
                     "note": {
-                        "en": "At high refinement [R4-R5] with a 270 energy cost team, this weapon perform just below **[[weapon:staff-of-homa]]**.",
-                        "fr": "À haut raffinement **[R4-R5]** avec une équipe à 270 de coût d'énergie total, cette arme se place juste en dessous de **[[weapon:staff-of-homa]]**."
+                        "en": "At high refinement **[R4-R5]** with a 270 energy cost team, this weapon perform just below **[[weapon:staff-of-homa]]**.",
+                        "fr": "À haut raffinement **[R4-R5]** avec une équipe à 270 de coût d'énergie total, cette arme se place juste en dessous de **[[weapon:staff-of-homa]]**.",
+                        "it": "Ad alti miglioramenti **[R4-R5]** con un team con un costo di Energia pari a 270, ha prestazioni appena inferiori a **[[weapon:staff-of-homa]]**."
                     }
                 },
                 "skyward-spine",

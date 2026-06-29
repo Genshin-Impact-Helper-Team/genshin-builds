@@ -1,6 +1,7 @@
 {
     "apprentices-notes": {
         "rarity": 1,
+        "version_released": "1.0",
         "passive": {
             "en": ""
         },
@@ -16,6 +17,7 @@
     },
     "ash-graven-drinking-horn": {
         "rarity": 4,
+        "version_released": "5.0",
         "source": "Event",
         "passive": {
             "en": "When an attack hits an opponent, deal AoE DMG equal to {{value}}% of Max HP at the target location. This effect can be triggered once every 15s.",
@@ -53,6 +55,7 @@
     },
     "a-thousand-floating-dreams": {
         "rarity": 5,
+        "version_released": "3.2",
         "passive": {
             "en": "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by {{value}}. If not, increase the equipping character's DMG Bonus from their Elemental Type by {{value}}%. Each of the aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by {{value}}. Multiple such effects from multiple such weapons can stack.",
             "de": "Verleiht dem Träger für jedes weitere Truppenmitglied gemäß dessen Elementartyp folgende Boni. Gleicher Elementartyp: Erhöht die Elementarkunde um {{value}} Punkte. Anderer Elementartyp: Erhöht den Schaden des jeweiligen Elements des Trägers um {{value}}%. Beide Effekte sind 3-fach stapelbar. Erhöht außerdem die Elementarkunde der anderen Truppenmitglieder in der Nähe um {{value}} Punkte. Dieser Effekt kann bei mehreren gleichen Waffen gestapelt werden.",
@@ -99,6 +102,7 @@
     },
     "ballad-of-the-boundless-blue": {
         "rarity": 4,
+        "version_released": "4.1",
         "source": "Event",
         "passive": {
             "en": "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by {{value}}% and Charged Attack DMG will be increased by {{value}}%. Max 3 stacks. This effect can be triggered once every 0.3s.",
@@ -141,6 +145,7 @@
     },
     "blackcliff-agate": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
             "en": "After defeating an enemy, ATK is increased by {{value}}% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
@@ -178,6 +183,7 @@
     },
     "blackmarrow-lantern": {
         "rarity": 4,
+        "version_released": "6.0 / Luna I",
         "source": "Craft",
         "passive": {
             "en": "Bloom DMG is increased by 48%/60%/72%/84%/96%, and Lunar-Bloom DMG is increased by 12%/15%/18%/21%/24%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%/15%/18%/21%/24%.",
@@ -225,6 +231,7 @@
     },
     "cashflow-supervision": {
         "rarity": 5,
+        "version_released": "4.1",
         "passive": {
             "en": "ATK is increased by {{value}}%. When current HP increases or decreases, Normal Attack DMG will be increased by {{value}}% and Charged Attack DMG will be increased by {{value}}% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by {{value}}%.",
             "de": "Erhöht den ANG um {{value}}%. Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% und den mit heftigen Schlägen verursachten Schaden um {{value}}%, wenn sich die aktuellen LP erhöhen oder verringern. Hält 4 s, 3-fach stapelbar, 0,3 s Abklingzeit. Erhöht bei Erreichen von 3 Stapelungen die Angriffs-GSW um {{value}}%.",
@@ -276,6 +283,7 @@
     },
     "cranes-echoing-call": {
         "rarity": 5,
+        "version_released": "4.4",
         "passive": {
             "en": "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal {{value}}% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore {{value}} Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field.",
             "de": "Erhöht den Schaden des Angriffs aus dem Fall aller Truppenmitglieder in der Nähe 20 s lang um {{value}}%, nachdem der Träger Gegner mit dem Angriff aus dem Fall getroffen hat. Stellt dem Träger {{value}} Punkte Elementarenergie wieder her, wenn die Angriffe aus dem Fall der Truppenmitglieder in der Nähe Gegner treffen, 0,7 s Abklingzeit. Die Elementarenergie kann auch wiederhergestellt werden, wenn der Träger inaktiv in der Truppe ist.",
@@ -317,6 +325,7 @@
     },
     "dawning-frost": {
         "rarity": 4,
+        "version_released": "6.1 / Luna II",
         "passive": {
             "en": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by {{value}}. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by {{value}}.",
             "de": "Erhöht nach dem Treffen von Gegnern mit heftigen Schlägen 10 s lang die Elementarkunde um {{value}} Punkte. Erhöht nach dem Treffen von Gegnern mit der Elementarfähigkeit 10 s lang die Elementarkunde um {{value}} Punkte.",
@@ -358,6 +367,7 @@
     },
     "dodoco-tales": {
         "rarity": 4,
+        "version_released": "1.6",
         "source": "Event",
         "passive": {
             "en": "Normal Attack hits on opponents increase Charged Attack DMG by 16%/20%/24%/28%/32% for 6s. Charged Attack hits on opponents increase ATK by 8%/10%/12%/14%/16% for 6s.",
@@ -400,6 +410,7 @@
     },
     "emerald-orb": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20%/25%/30%/35%/40% for 12s.",
             "de": "Erhöht den ANG nach Auslösen der Reaktionen „Verdampfen“, „Unter Strom“, „Gefroren“, „Sprießen“, „Mond unter Strom“, „Mondspross“ und „Hydro-Verwirbelung“ 12 s lang um {{value}}%.",
@@ -436,6 +447,7 @@
     },
     "etherlight-spindlelute": {
         "rarity": 4,
+        "version_released": "6.0 / Luna I",
         "source": "Event",
         "passive": {
             "en": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by {{value}}.",
@@ -473,6 +485,7 @@
     },
     "everlasting-moonglow": {
         "rarity": 5,
+        "version_released": "2.1",
         "passive": {
             "en": "Healing Bonus increased by {{value}}%, Normal Attack DMG is increased by {{value}}% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s.",
             "de": "Erhöht den Heilungsbonus um {{value}}%. Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% der max. LP der mit dieser Waffe ausgerüsteten Figur. Stellt nach Anwendung von Spezialfähigkeiten 12 s lang beim Treffen von Gegnern mit Standardangriffen 0,6 Punkte Elementarenergie wieder her. Stellt auf diese Weise alle 0,1 s höchstens einmal Elementarenergie wieder her.",
@@ -514,6 +527,7 @@
     },
     "eye-of-perception": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240%/270%/300%/330%/360% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 12s/11s/10s/9s/8s.",
             "de": "Schießt bei Treffern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % eine Kugel des Herzensblicks ab und verursacht Schaden in Höhe von {{value}}% ANG. Geht bis zu 4-mal auf Gegner in der Nähe über. {{value}} s Abklingzeit.",
@@ -550,6 +564,7 @@
     },
     "favonius-codex": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "CRIT Hits have a {{value}}% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every {{value}} s.",
             "de": "Erschafft bei einem KT mit einer Wahrscheinlichkeit von {{value}}% einige Elementarteilchen, die der Figur 6 Punkte Elementarenergie wiederherstellen. {{value}} s Abklingzeit.",
@@ -591,6 +606,7 @@
     },
     "flowing-purity": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Craft",
         "passive": {
             "en": "When using an Elemental Skill, All Elemental DMG Bonus will be increased by {{value}}% for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide {{value}}% All Elemental DMG Bonus, up to a maximum of {{value}}%. This effect lasts 15s.",
@@ -638,6 +654,7 @@
     },
     "frostbearer": {
         "rarity": 4,
+        "version_released": "1.2",
         "source": "Craft",
         "passive": {
             "en": "Hitting an opponent with Normal and Charged Attacks has a 60%/70%/80%/90%/100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80%/95%/110%/125%/140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200%/240%/280%/320%/360% of ATK. Can only occur once every 10s.",
@@ -685,6 +702,7 @@
     },
     "fruit-of-fulfillment": {
         "rarity": 4,
+        "version_released": "3.0",
         "source": "Craft",
         "passive": {
             "en": "Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining {{value}} Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.",
@@ -722,6 +740,7 @@
     },
     "hakushin-ring": {
         "rarity": 4,
+        "version_released": "2.0",
         "source": "Craft",
         "passive": {
             "en": "After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a {{value}}% Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.",
@@ -759,6 +778,7 @@
     },
     "jadefalls-splendor": {
         "rarity": 5,
+        "version_released": "3.6",
         "passive": {
             "en": "For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore {{value}} Energy every 2.5s, and gain {{value}}% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to {{value}}%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.",
             "de": "Verleiht innerhalb 3 s nach Anwenden von Spezialfähigkeiten oder Erstellen eines Schilds den Effekt „Urzeitliche Jadeinsignien“: Stellt alle 2,5 s {{value}} Punkte Elementarenergie wieder her und erhöht den Elementar-SCH-Bonus des jeweiligen Elementartyps basierend auf den max. LP des Trägers für je 1.000 Punkte um {{value}}%, max. {{value}}%. Der Effekt „Urzeitliche Jadeinsignien“ wird auch ausgelöst, wenn die mit dieser Waffe ausgerüstete Figur inaktiv ist.",
@@ -805,6 +825,7 @@
     },
     "kaguras-verity": {
         "rarity": 5,
+        "version_released": "2.5",
         "passive": {
             "en": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by {{value}}% for 16s. Max 3 stacks. This character will gain {{value}}% All Elemental DMG Bonus when they possess 3 stacks.",
             "de": "Verleiht bei Anwendung von Elementarfähigkeiten den Effekt „Kagura-Tanz“, der den mit Elementarfähigkeiten der mit dieser Waffe ausgerüsteten Figur verursachten Schaden 16 s lang um {{value}}% erhöht, 3-fach stapelbar. Erhöht bei 3 Stapelungen den Schaden aller Elemente dieser Figur um {{value}}%.",
@@ -846,6 +867,7 @@
     },
     "lost-prayer-to-the-sacred-winds": {
         "rarity": 5,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases Movement SPD by 10%. When in battle, gain a {{value}}% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
             "de": "Erhöht die Bewegungs-GSW um 10 % und den Elementar-SCH nach dem Einwechseln alle 4 s um {{value}}%. 4-fach stapelbar, hält bis zum Auswechseln oder, bis die Figur ohnmächtig wird.",
@@ -882,6 +904,7 @@
     },
     "magic-guide": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases DMG against opponents affected by Hydro or Electro by 12%/15%/18%/21%/24%.",
             "de": "Erhöht den von Hydro- oder Elektro-Effekten betroffenen Gegnern zugefügten Schaden um {{value}}%.",
@@ -918,6 +941,7 @@
     },
     "mappa-mare": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Craft",
         "passive": {
             "en": "Triggering an Elemental reaction grants a 8%/10%/12%/14%/16% Elemental DMG Bonus for 10s. Max 2 stacks.",
@@ -955,6 +979,7 @@
     },
     "memory-of-dust": {
         "rarity": 5,
+        "version_released": "1.1",
         "passive": {
             "en": "Increases Shield Strength by 20%/25%/30%/35%/40%. Scoring hits on opponents increases ATK by 4%/5%/6%/7%/8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
             "de": "Erhöht die Schildeffizienz um {{value}}%. Erhöht den ANG nach Treffern 8 s lang um {{value}}%. 5-fach stapelbar, 0,3 s Abklingzeit. Erhöht die Wirksamkeit der Erhöhung des ANG außerdem im Schutz von Schilden um 100 %.",
@@ -996,6 +1021,7 @@
     },
     "nightweavers-looking-glass": {
         "rarity": 5,
+        "version_released": "6.0 / Luna I",
         "passive": {
             "en": "When the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by {{value}} for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by {{value}} for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by {{value}}%, their Hyperbloom and Burgeon DMG is increased by {{value}}%, and their Lunar-Bloom DMG is increased by {{value}}%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.",
             "de": "Verleiht dem Träger, wenn er mit seiner Elementarfähigkeit Hydro- oder Dendro-Schaden verursacht, den Effekt „Heilige Worte des Nordens“: Erhöht die Elementarkunde 4,5 s lang um {{value}} Punkte. Verleiht dem Träger, wenn Truppenmitglieder in der Nähe die Reaktion „Mondspross“ auslösen, den Effekt „Verse des Neumonds“: Erhöht die Elementarkunde 10 s lang um {{value}} Punkte. Erhöht, wenn die Effekte „Heilige Worte des Nordens“ und „Verse des Neumonds“ gleichzeitig existieren, den von allen Truppenmitgliedern in der Nähe mit der Reaktion „Sprießen“ verursachten Schaden um {{value}}%, den mit den Reaktionen „Supraspross“ und „Flammenspross“ verursachten Schaden um {{value}}% sowie den mit der Reaktion „Mondspross“ verursachten Schaden um {{value}}%. Dieser Effekt ist nicht stapelbar und kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
@@ -1052,6 +1078,7 @@
     },
     "nocturnes-curtain-call": {
         "rarity": 5,
+        "version_released": "6.3 / Luna IV",
         "passive": {
             "en": "Max HP increases by {{value}}%. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover {{value}} Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional {{value}}%, CRIT DMG from Lunar Reaction DMG increases by {{value}}%. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field.",
             "de": "Erhöht die max. LP um {{value}}%. Stellt dem Träger, wenn dieser eine Mondleuchten-Reaktion auslöst oder Gegnern damit Schaden zufügt, {{value}} Punkte Elementarenergie wieder her und verleiht ihm den Effekt „Heiligwein des Meers des reichen Segens“, der 12 s lang anhält: Erhöht die max. LP weiter um {{value}}% und den KSCH durch Mondleuchten-Reaktionen um {{value}}%. Der Elementarenergie-Wiederherstellungs-Effekt hat eine Abklingzeit von 18 s und kann auch ausgelöst werden, wenn der Träger inaktiv ist.",
@@ -1103,6 +1130,7 @@
     },
     "oathsworn-eye": {
         "rarity": 4,
+        "version_released": "2.5",
         "source": "Event",
         "passive": {
             "en": "Increases Energy Recharge by 24%/30%/36%/42%/48% for 10s after using an Elemental Skill.",
@@ -1140,6 +1168,7 @@
     },
     "otherworldly-story": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "Each Elemental Orb or Particle collected restores {{value}}% HP.",
@@ -1177,6 +1206,7 @@
     },
     "prototype-amber": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Craft",
         "passive": {
             "en": "Using an Elemental Burst regenerates {{value}} Energy every 2s for 6s. All party members will regenerate {{value}}% HP every 2s for this duration.",
@@ -1219,6 +1249,7 @@
     },
     "reliquary-of-truth": {
         "rarity": 5,
+        "version_released": "6.1 / Luna II",
         "passive": {
             "en": "CRIT Rate is increased by {{value}}%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by {{value}} for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by {{value}}% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.",
             "de": "Erhöht die KT um {{value}}%. Verleiht dem Träger beim Anwenden der Elementarfähigkeit den Effekt „Geheimnis der Lüge“: Erhöht die Elementarkunde 12 s lang um {{value}} Punkte. Verleiht dem Träger, wenn er Gegnern durch die Reaktion Mondspross Schaden zufügt, den Effekt „Mond der wahren Erkenntnis“: Erhöht den kritischen Schaden 4 s lang um {{value}}%. Erhöht, wenn die Effekte „Geheimnis der Lüge“ und „Mond der wahren Erkenntnis“ gleichzeitig existieren, die Wirkung beider Effekte jeweils um 50 %.",
@@ -1265,6 +1296,7 @@
     },
     "ring-of-yaxche": {
         "rarity": 4,
+        "version_released": "5.0",
         "source": "Craft",
         "passive": {
             "en": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by 0.6%/0.7%/0.8%/0.9%/1% for 10s. Normal Attack DMG can be increased this way by a maximum of 16%/20%/24%/28%/32%.",
@@ -1307,6 +1339,7 @@
     },
     "royal-grimoire": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
             "en": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
@@ -1344,6 +1377,7 @@
     },
     "sacrificial-fragments": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every {{value}} s.",
             "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
@@ -1385,6 +1419,7 @@
     },
     "sacrificial-jade": {
         "rarity": 4,
+        "version_released": "4.0",
         "source": "Battle Pass",
         "passive": {
             "en": "When not on the field for more than 5s, Max HP will be increased by {{value}}% and Elemental Mastery will be increased by {{value}}. These effects will be canceled after the wielder has been on the field for 10s.",
@@ -1427,6 +1462,7 @@
     },
     "skyward-atlas": {
         "rarity": 5,
+        "version_released": "1.0",
         "passive": {
             "en": "Increases Elemental DMG Bonus by {{value}}%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing {{value}}% ATK DMG. Can only occur once every 30s.",
             "de": "Erhöht den Elementarschaden um {{value}}% und erhält bei Treffern mit Standardangriffen mit einer Wahrscheinlichkeit von 50 % die Gunst der Wolken, die Gegner in der Umgebung aktiv angreifen und Schaden in Höhe von {{value}}% ANG verursachen. 30 s Abklingzeit.",
@@ -1468,6 +1504,7 @@
     },
     "solar-pearl": {
         "rarity": 4,
+        "version_released": "1.0",
         "source": "Battle Pass",
         "passive": {
             "en": "Normal Attack hits increase Elemental Skill and Elemental Burst DMG by {{value}}% for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by {{value}}% for 6s.",
@@ -1510,6 +1547,7 @@
     },
     "starcallers-watch": {
         "rarity": 5,
+        "version_released": "5.3",
         "passive": {
             "en": "Increases Elemental Mastery by {{value}}. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals {{value}}% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
             "de": "Erhöht die Elementarkunde um {{value}} Punkte. Verleiht innerhalb von 15 s nach Erschaffen eines Schildes durch den Träger den Effekt „Nacht reflektierender Spiegel“: Erhöht den in der Nähe befindlichen Gegnern durch die eigene aktuelle Figur in der Truppe zugefügten Schaden um {{value}}%. 14 s Abklingzeit für das Erhalten des Effektes „Nacht reflektierender Spiegel“.",
@@ -1551,6 +1589,7 @@
     },
     "sunny-morning-sleep-in": {
         "rarity": 5,
+        "version_released": "5.4",
         "passive": {
             "en": "Elemental Mastery increases by {{value}} for 6s after triggering Swirl. Elemental Mastery increases by {{value}} for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by {{value}} for 30s after the wielder's Elemental Burst hits an opponent.",
             "de": "Erhöht die Elementarkunde nach Auslösen der Reaktion Verwirbelung 6 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Elementarfähigkeiten 9 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Spezialfähigkeiten 30 s lang um {{value}} Punkte.",
@@ -1597,6 +1636,7 @@
     },
     "surfs-up": {
         "rarity": 5,
+        "version_released": "5.0",
         "passive": {
             "en": "Max HP increased by {{value}}%. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by {{value}}%. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks.",
             "de": "Erhöht die max. LP um {{value}}%. Verleiht alle 15 s einmal nach dem Anwenden der Elementarfähigkeit folgenden 14 s anhaltenden Effekt: Verleiht 4 Stapelungen „Sommerhitze“ und erhöht für jede Stapelung den mit Standardangriffen verursachten Schaden um {{value}}%. Entfernt während der Wirkungsdauer alle 1,5 s einmal nach dem Treffen von Gegnern mit Standardangriffen 1 Stapelung. Fügt während der Wirkungsdauer alle 1,5 s einmal nach dem Verursachen der Reaktion „Verdampfen“ an Gegnern 1 Stapelung hinzu. Effekt „Sommerhitze“ ist 4-fach stapelbar.",
@@ -1638,6 +1678,7 @@
     },
     "the-widsith": {
         "rarity": 4,
+        "version_released": "1.0",
         "passive": {
             "en": "When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by {{value}}%. Aria: Increases all Elemental DMG by {{value}}%. Interlude: Elemental Mastery is increased by {{value}}.",
             "de": "Spielt beim Wechseln zu dieser Figur 10 s lang ein zufälliges Lied. 30 s Abklingzeit. Rezitativ: Erhöht ANG um {{value}}%; Arie: Erhöht gesamten Elementar-SCH um {{value}}%; Intermezzo: Erhöht Elementarkunde um {{value}} Punkte.",
@@ -1684,6 +1725,7 @@
     },
     "thrilling-tales-of-dragon-slayers": {
         "rarity": 3,
+        "version_released": "1.0",
         "passive": {
             "en": "When switching characters, the new character taking the field has their ATK increased by {{value}}% for 10s. This effect can only occur once every 20s.",
             "de": "Erhöht den ANG aktiv eingewechselter Figuren 10 s lang um {{value}}%. 20 s Abklingzeit.",
@@ -1720,6 +1762,7 @@
     },
     "tome-of-the-eternal-flow": {
         "rarity": 5,
+        "version_released": "4.1",
         "passive": {
             "en": "HP is increased by {{value}}%. When current HP increases or decreases, Charged Attack DMG will be increased by {{value}}% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, {{value}} Energy will be restored. This Energy restoration effect can be triggered once every 12s.",
             "de": "Erhöht die LP um {{value}}%. Erhöht den mit heftigen Schlägen verursachten Schaden um {{value}}%, wenn sich die aktuellen LP erhöhen oder verringern. Hält 4 s, 3-fach stapelbar, 0,3 s Abklingzeit. Stellt bei Erreichen von 3 Stapelungen oder bei Zurücksetzen der Wirkungsdauer von 3 Stapelungen {{value}} Punkte Elementarenergie wieder her. 12 s Abklingzeit.",
@@ -1766,6 +1809,7 @@
     },
     "tulaytullahs-remembrance": {
         "rarity": 5,
+        "version_released": "3.3",
         "passive": {
             "en": "Normal Attack SPD is increased by {{value}}%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by {{value}}% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by {{value}}%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is {{value}}%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
             "de": "Erhöht die Standardangriffs-GSW um {{value}}%. Innerhalb von 14 s nach Anwenden der Elementarfähigkeit: Erhöht den von Standardangriffen verursachten Schaden um {{value}}% pro s. Nach dem Treffen von Gegnern mit Standardangriffen wird der von Standardangriffen verursachte Schaden um {{value}}% erhöht, 0,3 s Abklingzeit. Innerhalb der Wirkungsdauer kann der von Standardangriffen verursachte Schaden höchstens um {{value}}% erhöht werden. Beim Auswechseln der Figur wird dieser Effekt entfernt. Erneutes Anwenden der Elementarfähigkeit entfernt den bestehenden Effekt.",
@@ -1817,6 +1861,7 @@
     },
     "twin-nephrite": {
         "rarity": 3,
+        "version_released": "1.0",
         "source": "Exploration",
         "passive": {
             "en": "Defeating an opponent increases Movement SPD and ATK by {{value}}% for 15s.",
@@ -1854,6 +1899,7 @@
     },
     "vivid-notions": {
         "rarity": 5,
+        "version_released": "5.5",
         "passive": {
             "en": "ATK is increased by {{value}}%. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by {{value}}%. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by {{value}}%. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target.",
             "de": "Erhöht den ANG um {{value}}%. Löst, wenn die Figur einen Angriff aus dem Fall einsetzt, den Effekt „Farbe der Morgendämmerung“ aus: Erhöht den mit Angriffen aus dem Fall verursachten KSCH um {{value}}%. Löst, wenn die Figur eine Elementarfähigkeit oder Spezialfähigkeit einsetzt, den Effekt „Glanz der Abenddämmerung“ aus: Erhöht den mit Angriffen aus dem Fall verursachten KSCH um {{value}}%. Die beiden oben beschriebenen Effekte halten jeweils 15 s. Die Effekte werden 0,1 s nach dem Treffen von Gegnern durch Aufkommen auf dem Boden entfernt.",
@@ -1900,6 +1946,7 @@
     },
     "wandering-evenstar": {
         "rarity": 4,
+        "version_released": "3.1",
         "passive": {
             "en": "The following effect will trigger every 10s: The equipping character will gain 24%/30%/36%/42%/48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
             "de": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um {{value}}% der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",
@@ -1936,6 +1983,7 @@
     },
     "waveriding-whirl": {
         "rarity": 4,
+        "version_released": "5.2",
         "passive": {
             "en": "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by {{value}}%. For every Hydro Elemental Type character in the party, Max HP is increased by another {{value}}%, and the maximum increase that can be achieved in this way is {{value}}%. Can be triggered once every 15s.",
             "de": "Verringert die beim Schwimmen verbrauchte Ausdauer um 15 %. Erhöht außerdem die max. LP nach Anwendung der Elementarfähigkeit 10 s lang um {{value}}%. Für jede Figur des Elementartyps Hydro in der Truppe werden die max. LP weiter um {{value}}% erhöht. Auf diese Weise können die max. LP um bis zu {{value}}% erhöht werden. 15 s Abklingzeit.",
@@ -1982,6 +2030,7 @@
     },
     "wine-and-song": {
         "rarity": 4,
+        "version_released": "1.4",
         "passive": {
             "en": "Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by {{value}}% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by {{value}}% for 5s.",
             "de": "Verringert den Ausdauerverbrauch beim Rennen oder von Fähigkeiten, die Rennen ersetzen, beim Treffen von Gegnern mit Standardangriffen 5 s lang um {{value}}%. Erhöht außerdem den ANG beim Rennen oder bei Anwendung von Fähigkeiten, die Rennen ersetzen, 5 s lang um {{value}}%.",
@@ -2023,6 +2072,7 @@
     },
     "angelos-heptades": {
         "rarity": 5,
+        "version_released": "6.6 / Luna VII",
         "passive": {
             "en": "ATK is increased by {{value}}%. After the equipping character creates a Shield, they gain \"Pathfinder's Light\" for 20s: Increases your active party member's DMG by {{value}}% for every 1,000 ATK the equipping character has, up to a maximum of {{value}}%. Additionally, when the equipping character creates a Shield, they will also gain \"Guide's Contentment\": Restores {{value}} Elemental Energy to the equipping character. The aforementioned effect can trigger once every 14s, and can also be triggered when any type of chest is opened outside of combat. The equipping character may trigger this effect even when they are an off-field.<br>Hexerei: Secret Rite: When your own Hexerei character is off-field in the party, they will also gain 50% of the DMG increase from Pathfinder's Light.",
             "fr": "Augmente l'ATQ de {{value}}%. Lorsque le personnage équipé de l'arme a créé un bouclier, il obtient l'effet Lumière de l'éclaireur pendant 20 s : chaque tranche de 1 000 pts d'ATQ du personnage équipé de l'arme augmente les DGT de votre personnage déployé de {{value}}%, jusqu'à un maximum de {{value}}%. De plus, lorsque le personnage équipé de l'arme crée un bouclier, il obtient l'effet Contentement du guide, ce qui lui restaure {{value}} pts d'énergie, cet effet pouvant être déclenché une fois toutes les 14 s et pouvant également être déclenché lors de l'ouverture de tout type de coffre en dehors des combats. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.<br>Hexerei : Rituel secret : Tout personnage héxère faisant partie de votre équipe mais n'étant pas déployé bénéficie d'une augmentation de DGT de 50 % de celle de l'effet Lumière de l'éclaireur.",

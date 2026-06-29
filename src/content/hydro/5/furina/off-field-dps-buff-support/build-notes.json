@@ -2,16 +2,19 @@
     "best": true,
     "name": {
         "en": "Off-Field DPS & Buff Support",
-        "fr": "DPS Off-Field & Support Buff"
+        "fr": "DPS Off-Field & Support Buff",
+        "ru": "Карманный ДД и саппорт"
     },
     "notes": [
         {
             "en": "[[character:furina]] buffs team members with her [[ability:burst]], and deals off-field damage with her [[ability:skill]].",
-            "fr": "[[character:furina]] buff son équipe grâce à son [[ability:burst]], et inflige des dégâts en étant off-field grâce à son [[ability:skill]]."
+            "fr": "[[character:furina]] buff son équipe grâce à son [[ability:burst]], et inflige des dégâts en étant off-field grâce à son [[ability:skill]].",
+            "ru": "Фурина усиливает членов отряда за счёт Взрыва стихии и наносит урон из кармана навыком."
         },
         {
             "en": "Because of her HP drain and [[ability:burst]] mechanics, [[character:furina]] encourages the use of teamwide healers.",
-            "fr": "A cause du drain de PV et de la mécanique de son [[ability:burst]], [[character:furina]] encourage l'utilisation de soins sur l'ensemble de l'équipe."
+            "fr": "A cause du drain de PV et de la mécanique de son [[ability:burst]], [[character:furina]] encourage l'utilisation de soins sur l'ensemble de l'équipe.",
+            "ru": "Механика истощения HP и фанфары побуждают использовать хилеров, способных исцелять весь отряд."
         }
     ],
     "weapons": [

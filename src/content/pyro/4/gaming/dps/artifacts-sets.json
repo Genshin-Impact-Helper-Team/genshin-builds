@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "This set performs worse if [[character:gaming]] is **[C6] and/or using a weapon with a [[stat:cr]] secondary stat**.",
                                 "fr": "Ce set performe moins bien si [[character:gaming]] est **[C6] et/ou utilise une arme avec un stat secondaire [[stat:cr]]**.",
-                                "it": "Questo set ha prestazioni peggiori se [[character:gaming]] è **[C6] e sta utilizzando un'arma con [[stat:cr]]** come stat secondaria."
+                                "it": "Questo set ha prestazioni peggiori se [[character:gaming]] è **[C6] e sta utilizzando un'arma con [[stat:cr]]** come stat secondaria.",
+                                "ru": "Показывает себя хуже при наличии [С6] или использовании оружия на Шанс крит. попадания."
                             }
                         }
                     ]

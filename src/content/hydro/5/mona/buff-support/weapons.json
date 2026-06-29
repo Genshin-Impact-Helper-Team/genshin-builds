@@ -6,7 +6,8 @@
                     "name": "ttds",
                     "note": {
                         "en": "Generally the best option on Support [[character:mona]] **because she can furthermore buff the ATK of your Main DPS. This however comes with an assumption that with this weapon, you still have 100% [[ability:burst]] uptime.** If you do not, pick the other [[stat:er]] weapon options for more [[ability:burst]] uptime.",
-                        "fr": "généralement la meilleure option pour une [[character:mona]] support **car elle peut buff encore plus l'ATQ de votre Main DPS. C'est cependant en supposant que vous pouvez avoir l'[[ability:burst]] disponible en permanence.** Si ce n'est pas le cas, choisissez une autre option d'arme [[stat:er]] pour que son [[ability:burst]] soit plus présent."
+                        "fr": "généralement la meilleure option pour une [[character:mona]] support **car elle peut buff encore plus l'ATQ de votre Main DPS. C'est cependant en supposant que vous pouvez avoir l'[[ability:burst]] disponible en permanence.** Si ce n'est pas le cas, choisissez une autre option d'arme [[stat:er]] pour que son [[ability:burst]] soit plus présent.",
+                        "ru": "Зачастую лучший вариант при игре через Заморозку, так как Мона может дать бонус Силы атаки% ДД. Является рабочим вариантом только при возможности активации Взрыва стихии по откату. При невозможности этого лучше выбрать оружие с Восстановлением энергии в статах."
                     }
                 }
             ]
@@ -22,7 +23,8 @@
                     "name": "a-thousand-floating-dreams",
                     "note": {
                         "en": "If the team does not need [[stat:em]] this weapon should not be used on [[character:mona]]. If the team does need [[stat:em]] and does not benefit heavily from [[stat:atk%]], this weapon can compete with [[weapon:ttds]].",
-                        "fr": "Si l'équipe n'a pas besoin de [[stat:em]], il ne faut pas utiliser cette arme sur [[character:mona]]. Si l'équipe bénéficie de la [[stat:em]] et ne profite pas/peu de l'[[stat:atk%]], cette arme rivalise [[weapon:ttds]]."
+                        "fr": "Si l'équipe n'a pas besoin de [[stat:em]], il ne faut pas utiliser cette arme sur [[character:mona]]. Si l'équipe bénéficie de la [[stat:em]] et ne profite pas/peu de l'[[stat:atk%]], cette arme rivalise [[weapon:ttds]].",
+                        "ru": "Не следует использовать, если отряду не требуется МС. При необходимости такового может превосходить Эпос."
                     }
                 }
             ]

@@ -2,20 +2,24 @@
     "best": true,
     "name": {
         "en": "Heal Support",
-        "fr": "Support Soins"
+        "fr": "Support Soins",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "[[character:sigewinne]] focuses on teamwide healing with her [[ability:skill]]. She can create Sourcewater Droplets, and absorbing these Droplets will give her a [[ability:bol]]. Clearing this [[ability:bol]] will give her Energy for herself. With her A1 talent, upon [[ability:skill]] cast [[character:sigewinne]] gains 10 stacks of Convalescence, which **boosts Off-Field [[ability:skill]] Damage**. The damage boost provided when a Convalescence stack is consumed cannot apply to [[character:sigewinne]]'s own damage.",
-            "fr": "[[character:sigewinne]] se concentre sur du soin pour toute l'équipe avec son [[ability:skill]]. Elle peut créer des bulles d'eau curatives, et les absorber lui donnera un [[ability:bol]]. Retirer cet [[ability:bol]] lui donne de l'énergie. Avec son passif A1, son [[ability:skill]] permet à [[character:sigewinne]] de gagner 10 stacks de'Analepsie, ce qui **augment les dégâts de [[ability:skill]] off-field**. Ce buff de dégâts ne peut pas s'appliquer aux propres dégâts de [[character:sigewinne]]."
+            "fr": "[[character:sigewinne]] se concentre sur du soin pour toute l'équipe avec son [[ability:skill]]. Elle peut créer des bulles d'eau curatives, et les absorber lui donnera un [[ability:bol]]. Retirer cet [[ability:bol]] lui donne de l'énergie. Avec son passif A1, son [[ability:skill]] permet à [[character:sigewinne]] de gagner 10 stacks de'Analepsie, ce qui **augment les dégâts de [[ability:skill]] off-field**. Ce buff de dégâts ne peut pas s'appliquer aux propres dégâts de [[character:sigewinne]].",
+            "ru": "Сиджвин лечит команду своим Элементальным навыком. Как Нёвиллет и Гидро Путешественник, может создавать Капли источника. Поглощение Капель даёт ей Долг жизни, снятие которого восстанавливает энергию Сиджвин. Пассивная способность дает ей 10 уровней Выздоровления при применении Элементального навыка. Когда член отряда наносит урон Элементальным навыком из кармана, 1 уровень Выздоровления поглощается, чтобы увеличить урон данной атаки. Сиджвин не может поглощать уровни Выздоровления сама."
         },
         {
             "en": "**She is best used in a [[character:furina]]-centric team**.",
-            "fr": "**Elle se joue généralement dans une équipe centrée autour de [[character:furina]]**."
+            "fr": "**Elle se joue généralement dans une équipe centrée autour de [[character:furina]]**.",
+            "ru": "Лучше всего показывает себя в командах с Фуриной."
         },
         {
             "en": "At **[C1]**, [[character:sigewinne]] instead gains 18 Convalescence stacks.",
-            "fr": "Une fois **[C1]**, [[character:sigewinne]] gagne 18 stacks d'Analepsie au lieu de 10."
+            "fr": "Une fois **[C1]**, [[character:sigewinne]] gagne 18 stacks d'Analepsie au lieu de 10.",
+            "ru": "На [C1] Сиджвин получает 18 уровней Выздоровления."
         }
     ]
 }

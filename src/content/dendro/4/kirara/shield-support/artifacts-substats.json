@@ -3,16 +3,14 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize [[stat:er]] until requirement is met",
-                "fr": "Priorisez la [[stat:er]] jusqu'à ce que les besoins soient atteints"
+                "en": "[[note:er-req]]."
             }
         },
         "hp%",
         {
             "name": "cr",
             "note": {
-                "en": "Only for **[[weapon:favonius-sword]]**.",
-                "fr": "Uniquement pour **[[weapon:favonius-sword]]**."
+                "en": "[[note:cr-favo]]."
             }
         },
         "hp"

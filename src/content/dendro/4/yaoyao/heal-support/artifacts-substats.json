@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Until requirement is met",
-                "fr": "Jusqu'à ce que les besoins soient atteints"
+                "en": "[[note:er-req]]."
             }
         },
         "hp%",

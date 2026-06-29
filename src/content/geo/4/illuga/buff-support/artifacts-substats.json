@@ -3,16 +3,14 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize until requirements are met.",
-                "fr": "A prioriser jusqu'à remplir les besoins nécéssaires."
+                "en": "[[note:er-req]]."
             }
         },
         "em",
         {
             "name": "cr",
             "note": {
-                "en": "Only if using [[weapon:favonius-lance]].",
-                "fr": "Seulement en jouant [[weapon:favonius-lance]]."
+                "en": "[[note:cr-favo]]."
             }
         }
     ]

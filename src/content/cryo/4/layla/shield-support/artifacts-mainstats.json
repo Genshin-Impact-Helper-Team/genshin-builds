@@ -12,8 +12,7 @@
             {
                 "name": "cr",
                 "note": {
-                    "en": "[[stat:cr]] is only recommended if using **[[weapon:favonius-sword]]**",
-                    "fr": "La [[stat:cr]] est uniquement recommandée avec **[[weapon:favonius-sword]]**."
+                    "en": "[[note:cr-favo]]."
                 }
             }
         ]

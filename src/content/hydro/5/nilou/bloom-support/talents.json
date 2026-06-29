@@ -18,7 +18,8 @@
     "notes": [
         {
             "en": "Talent levels do not affect [[character:nilou]]'s buff to [[element:bloom]] damage, so heavy investment in Talents is not necessary",
-            "fr": "Les niveaux de talents n'affectent pas le buff de [[character:nilou]] aux dégâts de [[element:bloom]], il n'est donc pas nécessaire de beaucoup y invetsir"
+            "fr": "Les niveaux de talents n'affectent pas le buff de [[character:nilou]] aux dégâts de [[element:bloom]], il n'est donc pas nécessaire de beaucoup y invetsir",
+            "ru": "Уровни талантов не влияют на бонус урона Нилу и необязательны к прокачке"
         }
     ]
 }

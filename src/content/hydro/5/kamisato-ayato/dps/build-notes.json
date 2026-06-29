@@ -1,20 +1,24 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "DPS [[character:kamisato-ayato]] focuses on doing large amounts of on-field damage with his [[ability:skill]] and [[ability:burst]].",
-            "fr": "[[character:kamisato-ayato]] DPS se concentre sur les dégâts on-field grâce à son [[ability:skill]] et son [[ability:burst]]."
+            "fr": "[[character:kamisato-ayato]] DPS se concentre sur les dégâts on-field grâce à son [[ability:skill]] et son [[ability:burst]].",
+            "ru": "ДД Аято наносит значительный урон за счет Элементального навыка и Взрыва стихии."
         },
         {
             "en": "Try to activate [[character:kamisato-ayato]]'s [[ability:burst]] before using his [[ability:skill]] to maximize his [[ability:na]] DMG. Getting enough [[stat:er]] for this is important, and varies based on team. Since the casting time is so long, it may not be worth snapshotting into buffs.",
-            "fr": "Essayez d'activer l'[[ability:burst]] de [[character:kamisato-ayato]] avant son [[ability:skill]] pour maximiser les dégâts de ses [[ability:na]]. Avoir assez de [[stat:er]] pour ça est important, et le montant nécessaire dépend de l'équipe. Puisque l'animation de l'[[ability:burst]] est longue, il peut ne pas être rentable de le snapshot."
+            "fr": "Essayez d'activer l'[[ability:burst]] de [[character:kamisato-ayato]] avant son [[ability:skill]] pour maximiser les dégâts de ses [[ability:na]]. Avoir assez de [[stat:er]] pour ça est important, et le montant nécessaire dépend de l'équipe. Puisque l'animation de l'[[ability:burst]] est longue, il peut ne pas être rentable de le snapshot.",
+            "ru": "Старайтесь всегда активировать Взрыв стихии Аято до Элементального навыка для увеличения урона Обычной атаки. Для этого важно иметь достаточный уровень Восстановления энергии."
         },
         {
             "en": "The amount of slashes [[character:kamisato-ayato]] can do during an [[ability:skill]] window is sometimes influenced by the player's set FPS.",
-            "fr": "Le nombre de slash que [[character:kamisato-ayato]] peut faire au cours de son [[ability:skill]] est parfois influencé par les FPS du joueur."
+            "fr": "Le nombre de slash que [[character:kamisato-ayato]] peut faire au cours de son [[ability:skill]] est parfois influencé par les FPS du joueur.",
+            "ru": "Количество нанесенных ударов в стойке (Элементальный навык) может зависеть от FPS."
         }
     ],
     "weapons": [

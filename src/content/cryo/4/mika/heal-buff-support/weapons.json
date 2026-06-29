@@ -6,14 +6,16 @@
                     "name": "symphonist-of-scents",
                     "note": {
                         "en": "Keep in mind that without his C4, it can be very difficult to meet his [[stat:er]] needs to [[ability:burst]] every rotation and make full use of this weapon.",
-                        "fr": "Gardez en tête que sans sa C4, il peut être très difficile d'atteindre ses besoins en [[stat:er]] pour utiliser son [[ability:burst]] à chaque rotation et exploiter pleinement cette arme."
+                        "fr": "Gardez en tête que sans sa C4, il peut être très difficile d'atteindre ses besoins en [[stat:er]] pour utiliser son [[ability:burst]] à chaque rotation et exploiter pleinement cette arme.",
+                        "it": "Tieni presente che senza la [C4] di Mika può essere molto difficile accumulare [[stat:er]] sufficiente ad utilizzare il [[ability:burst]] ad ogni rotazione per sfruttare appieno quest'arma."
                     }
                 },
                 {
                     "name": "favonius-lance",
                     "note": {
                         "en": "This is often [[character:mika]]'s best in slot option, as both an [[stat:er]] weapon and one with a useful passive which generates particles on Crit. Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
-                        "fr": "C'est souvent la meilleure option de [[character:mika]], à la fois comme arme de [[stat:er]] et comme arme au passif utile qui génère des particules sur coup CRIT. Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]]."
+                        "fr": "C'est souvent la meilleure option de [[character:mika]], à la fois comme arme de [[stat:er]] et comme arme au passif utile qui génère des particules sur coup CRIT. Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
+                        "it": "Questa è spesso l'opzione migliore per [[character:mika]], grazie alla [[stat:er]] fornita ed alla passiva utile per il team. Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
                     }
                 }
             ]
@@ -29,7 +31,8 @@
                     "name": "engulfing-lightning",
                     "note": {
                         "en": "Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
-                        "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]]."
+                        "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
+                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
                     }
                 }
             ]
@@ -40,14 +43,16 @@
                     "name": "prototype-starglitter",
                     "note": {
                         "en": "Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
-                        "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]]."
+                        "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
+                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
                     }
                 },
                 {
                     "name": "the-catch",
                     "note": {
                         "en": "Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
-                        "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]]."
+                        "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
+                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
                     }
                 },
                 "rightful-reward"

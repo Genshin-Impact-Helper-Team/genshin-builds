@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize until requirements are met.",
-                "fr": "A prioriser jusqu'à remplir les besoins nécéssaires."
+                "en": "[[note:er-req]]."
             }
         },
         "def%",
@@ -12,8 +11,7 @@
         {
             "name": "cr",
             "note": {
-                "en": "Only if using [[weapon:favonius-sword]].",
-                "fr": "Seulement si vous utilisez [[weapon:favonius-sword]]."
+                "en": "[[note:cr-favo]]."
             }
         }
     ]

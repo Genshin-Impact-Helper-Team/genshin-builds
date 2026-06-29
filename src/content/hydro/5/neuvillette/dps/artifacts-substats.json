@@ -3,8 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "[[stat:er]] should be prioritised until requirements are met."
-                ,"fr": "La [[stat:er]] doit être priorisée jusqu'à remplir les besoins."
+                "en": "[[note:er-req]]."
             }
         },
         {

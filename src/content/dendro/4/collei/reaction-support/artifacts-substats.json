@@ -3,9 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize first until you meet the requirement",
-                "fr": "A prioriser jusqu'à atteindre le seuil requis",
-                "it": "Finché i requisiti non sono soddisfatti."
+                "en": "[[note:er-req]]."
             }
         },
         "cr/cd",

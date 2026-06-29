@@ -2,14 +2,16 @@
     "name": {
         "en": "Buff Support",
         "fr": "Buff Support",
-        "it": "Supporto Potenziamento"
+        "it": "Supporto Potenziamento",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "Due to her poor scalings, this section is dedicated to a low-investment build that provides utility and shieldbreaking capabilities by abusing her quick [[element:pyro]] application on her [[ability:burst]]. Due to her energy generation being extremely poor, her [[stat:er]] options are prioritized.",
             "fr": "En raison de ses faibles multiplicateurs, cette section est dediee a un build a faible investissement, axe sur l'application rapide de [[element:pyro]] via son [[ability:burst]] pour briser rapidement les boucliers. Sa generation d'energie etant tres limitee, les options augmentant sa [[stat:er]] sont à privilegier.",
-            "it": "A causa delle statistiche basse di [[character:amber]], questa sezione è dedicata ad una build che richiede un investimento basso ma che fornisce utilità generale grazie alla veloce Applicazione [[element:pyro]] del suo [[ability:burst]]. A causa della povera generazione di energia di [[character:amber]], i suoi requisiti di [[stat:er]] hanno la massima priorità."
+            "it": "A causa delle statistiche basse di [[character:amber]], questa sezione è dedicata ad una build che richiede un investimento basso ma che fornisce utilità generale grazie alla veloce Applicazione [[element:pyro]] del suo [[ability:burst]]. A causa della povera generazione di energia di [[character:amber]], i suoi requisiti di [[stat:er]] hanno la massima priorità.",
+            "ru": "Из-за низких множителей Эмбер в данной роли использует недорогие сборки, приносящие пользу отряду и позволяющие часто активировать Взрыв стихии для массивного наложения Пиро статуса (что полезно для разрушения щитов). Из-за малой генерации частиц элементальным навыком Восстановление энергии является приоритетным."
         }
     ]
 }

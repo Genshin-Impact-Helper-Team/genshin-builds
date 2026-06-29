@@ -12,9 +12,8 @@
             "healing-bonus",
             {
                 "name": "cr",
-                "notes": {
-                    "en": "Only if using [[weapon:favonius-sword]]",
-                    "fr": "Seulement en jouant [[weapon:favonius-sword]]"
+                "note": {
+                    "en": "[[note:cr-favo]]."
                 }
             }
         ]

@@ -1,0 +1,46 @@
+name: Sync Build Project
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview changes without writing to GitHub
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-build-project
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sync character and build issues
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_SYNC_TOKEN }}
+          ISSUE_REPOSITORY: Genshin-Impact-Helper-Team/genshin-builds
+          PROJECT_OWNER: Genshin-Impact-Helper-Team
+          PROJECT_NUMBER: '1'
+          PROJECT_FIELD_NAME: Last Updated
+          WEAPON_COUNT_FIELD_NAME: Weapon Count
+          ARTIFACT_SET_COUNT_FIELD_NAME: Artifact Count
+          BEST_ROLE_FIELD_NAME: Best Role
+          CHARACTER_PRIORITY_FIELD_NAME: Character Priority
+          UPDATE_PRIORITY_FIELD_NAME: Update Priority
+        run: >-
+          node scripts/sync-build-project.mjs
+          ${{ inputs.dry_run && '--dry-run' || '--apply' }}

@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "With proper extension of [[character:sangonomiya-kokomi]]'s [[ability:skill]], she can maintain near 100% uptime on this artifact set's 4 piece effect.",
-                                "fr": "Avec une bonne extension du [[ability:skill]] de [[character:sangonomiya-kokomi]], elle peut garder l'effet du 4p actif 100% du temps."
+                                "fr": "Avec une bonne extension du [[ability:skill]] de [[character:sangonomiya-kokomi]], elle peut garder l'effet du 4p actif 100% du temps.",
+                                "ru": "При правильном использовании Элементального навыка Кокоми может поддерживать эффект Бонуса комплекта (4) беспрерывно."
                             }
                         }
                     ]
@@ -25,7 +26,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This ranking assumes [[character:sangonomiya-kokomi]] is being used **only for her [[ability:skill]]**. If she is being used to attack onfield during [[ability:burst]], this set may **overtake [[set:tenacity-of-the-millelith]] (4)**.",
-                                "fr": "Ce classement suppose que [[character:sangonomiya-kokomi]] n'est utilisée **que pour son [[ability:skill]]**. Si elle est aussi utilisé pour attaquer on-field pendant son [[ability:burst]], ce set peut être **meilleur que [[set:tenacity-of-the-millelith]] (4)**."
+                                "fr": "Ce classement suppose que [[character:sangonomiya-kokomi]] n'est utilisée **que pour son [[ability:skill]]**. Si elle est aussi utilisé pour attaquer on-field pendant son [[ability:burst]], ce set peut être **meilleur que [[set:tenacity-of-the-millelith]] (4)**.",
+                                "ru": "Предполагается, что Кокоми использует только Элементальный навык. Если она, находясь на поле, использует Обычные атаки во время Взрыва стихии, сет превосходит Стойкость Миллелита (4)."
                             }
                         }
                     ]

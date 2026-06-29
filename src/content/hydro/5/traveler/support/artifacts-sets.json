@@ -37,7 +37,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Only used if you use the hold version of [[character:traveler]]'s [[ability:skill]].",
-                                "fr": "A n'utiliser que si vous vous servez de la version appui long du [[ability:skill]] du [[character:traveler]]."
+                                "fr": "A n'utiliser que si vous vous servez de la version appui long du [[ability:skill]] du [[character:traveler]].",
+                                "ru": "Используйте только в том случае, если регулярно применяете долгую версию навыка Путешественника."
                             }
                         }
                     ]

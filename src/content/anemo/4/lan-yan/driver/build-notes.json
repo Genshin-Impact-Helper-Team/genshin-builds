@@ -2,23 +2,27 @@
     "name": {
         "en": "Driver",
         "fr": "Driver",
-        "it": "Driver"
+        "it": "Driver",
+        "ru": "Драйвер"
     },
     "notes": [
         {
             "en": "[[character:lan-yan]] can contribute some of her damage to the team as a driver through her [[stat:em]] scalings. Though it does sacrifice some of her shield strength.",
             "fr": "[[character:lan-yan]] peut contribuer une partie de ses dégâts à l'équipe en tant que driver grâce à ses scalings en [[stat:em]]. Cependant, cela sacrifie une partie de la solidité de son bouclier.",
-            "it": "[[character:lan-yan]] può contribuire qualche danno al team come 'driver' sul campo grazie alle sue abilità che scalano sulla [[stat:em]]. Questa build sacrifica però parte della resistenza del suo scudo."
+            "it": "[[character:lan-yan]] può contribuire qualche danno al team come 'driver' sul campo grazie alle sue abilità che scalano sulla [[stat:em]]. Questa build sacrifica però parte della resistenza del suo scudo.",
+            "ru": "[[character:lan-yan]] может наносить дополнительный урон в качестве драйвера благодаря усилению от [[stat:em|Мастерства стихий]]. Стоит отметить, что в этой сборке ее щит становится слабее."
         },
         {
             "en": "[[character:lan-yan]]'s shield can undergo Elemental Absorption, meaning that her shield can absorb PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) and become more resistant to the element it has absorbed.",
             "fr": "Le bouclier de [[character:lan-yan]] peut subir une absorption élémentaire, ce qui signifie qu'il peut absorber les éléments PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) et devenir plus résistant à l'élément absorbé.",
-            "it": "Lo scudo di [[character:lan-yan]] può assorbire PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]), rendendolo più resistente all'elemento che ha assorbito."
+            "it": "Lo scudo di [[character:lan-yan]] può assorbire PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]), rendendolo più resistente all'elemento che ha assorbito.",
+            "ru": "Щит [[character:lan-yan]] может изменить свой элемент при контакте с [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]], при этом он будет поглощать урон нового элемента с повышенной эффективностью."
         },
         {
             "en": "[[character:lan-yan]] has to make contact with an enemy upon [[ability:skill]] cast for the absorption to take place.",
             "fr": "[[character:lan-yan]] doit entrer en contact avec un ennemi lors du lancement de son [[ability:skill]] pour que l'absorption ait lieu.",
-            "it": "[[character:lan-yan]] deve entrare in contatto con un nemico durante l'[[ability:skill]] per assorbire un elemento."
+            "it": "[[character:lan-yan]] deve entrare in contatto con un nemico durante l'[[ability:skill]] per assorbire un elemento.",
+            "ru": "[[character:lan-yan]] необходимо попасть по цели при использовании [[ability:skill|Элементального навыка]], чтобы изменить элемент щита."
         }
     ]
 }

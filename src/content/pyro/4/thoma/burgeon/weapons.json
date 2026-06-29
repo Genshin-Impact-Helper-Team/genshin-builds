@@ -7,7 +7,8 @@
                     "note": {
                         "en": "**High refinement is recommended** to further reduce [[character:thoma]]'s [[stat:er]] requirements.",
                         "fr": "**Un haut raffinement est recommandé** pour réduire davantage les besoins en [[stat:er]] de [[character:thoma]].",
-                        "it": "**Sono consigliati miglioramenti alti** per ridurre ulteriormente i requisiti di [[stat:er]] di [[character:thoma]]."
+                        "it": "**Sono consigliati miglioramenti alti** per ridurre ulteriormente i requisiti di [[stat:er]] di [[character:thoma]].",
+                        "ru": "Рекомендуется пробудить до высоких рангов для снижения потребности Томы в энергии."
                     }
                 }
             ]
@@ -17,9 +18,7 @@
                 {
                     "name": "favonius-lance",
                     "note": {
-                        "en": "If using this weapon, try to build some **[[stat:cr]]** so [[character:thoma]] can trigger the passive.",
-                        "fr": "Si vous utilisez cette arme, essayez de build un peu de **[[stat:cr]]** afin que [[character:thoma]] puisse déclencher le passif.",
-                        "it": "Se utilizzi quest'arma, cerca di ottenere un po' di **[[stat:cr]]** così che [[character:thoma]] riesca ad attivare la passiva." 
+                        "en": "[[note:favo]]."
                     }
                 }
             ]
@@ -31,7 +30,8 @@
                     "note": {
                         "en": "Becomes a more reasonable option when you have [[character:thoma]]'s **[C4]**.",
                         "fr": "Devient une option plus raisonnable lorsque vous avez [[character:thoma]] **[C4]**.",
-                        "it": "Diventa un'opzione più ragionevole se si possiede la **[C4]** di [[character:thoma]]."
+                        "it": "Diventa un'opzione più ragionevole se si possiede la **[C4]** di [[character:thoma]].",
+                        "ru": "Становится приемлемой опцией при наличии у Томы [С4]."
                     }
                 }
             ]
@@ -53,7 +53,8 @@
                     "note": {
                         "en": "In teams where you are able to heal [[character:thoma]] consistently, overhealing also counts, **[[weapon:rightful-reward]]** can be a reasonable option due to the amount of energy generation.",
                         "fr": "Dans les équipes où vous êtes capable de soigner [[character:thoma]] de manière consistante, le surplus de soin comptant également, **[[weapon:rightful-reward]]** peut être une option raisonnable en raison du volume de génération d'énergie.",
-                        "it": "In team dove riesci a curare [[character:thoma]] in maniera affidabile (anche l'overhealing conta), **[[weapon:rightful-reward]]** può essere un'opzione ragionevole grazie alla quantità di energia che riesce a generare." 
+                        "it": "In team dove riesci a curare [[character:thoma]] in maniera affidabile (anche l'overhealing conta), **[[weapon:rightful-reward]]** può essere un'opzione ragionevole grazie alla quantità di energia che riesce a generare.",
+                        "ru": "В отрядах, где возможно постоянно накладывать лечение на Тому (включая оверхил), Награда может быть разумным вариантом благодаря обильной генерации энергии."
                     }
                 }
             ]

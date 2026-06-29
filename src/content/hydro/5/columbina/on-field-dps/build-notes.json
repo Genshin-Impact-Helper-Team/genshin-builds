@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "On-Field DPS",
-        "fr": "DPS On-Field"
+        "fr": "DPS On-Field",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "[[character:columbina]] has potential as an On-Field DPS, most notably in [[element:lunar-bloom]] teams thanks to her special [[ability:ca]] which consumes [[ability:verdant-dew]] to deal [[element:lunar-bloom]] damage.",
-            "fr": "[[character:columbina]] a du potentiel en tant que DPS On-Field, particulièrement dans les équipes [[element:lunar-bloom]] grâce à son [[ability:ca]] spéciale qui consomme la [[ability:verdant-dew]] pour infliger des dégâts de [[element:lunar-bloom]]."
+            "fr": "[[character:columbina]] a du potentiel en tant que DPS On-Field, particulièrement dans les équipes [[element:lunar-bloom]] grâce à son [[ability:ca]] spéciale qui consomme la [[ability:verdant-dew]] pour infliger des dégâts de [[element:lunar-bloom]].",
+            "ru": "Коломбина обладает потенциалом в качестве ДД на поле, в первую очередь в отрядах от Лунной бутонизации, где она может применять особую Заряженную атаку, поглощающую заряды Зелёной росы."
         }
     ]
 }

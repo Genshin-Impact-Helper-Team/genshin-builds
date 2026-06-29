@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": ""
     },
     "best": true,
     "global": {
@@ -12,37 +13,44 @@
         {
             "en": "[[character:xiao]] is a Hypercarry that is centered around plunge attacks. Due to his expensive [[ability:burst]], [[character:xiao]] usually requires a high amount of [[stat:er]] and/or at least one [[element:anemo]] battery ([[character:sucrose]], [C6] [[character:faruzan]], [[character:xianyun]]) on his team to help him recharge his [[ability:burst]].",
             "fr": "[[character:xiao]] est un Hypercarry centré autour des attaques plongeantes. En raison de son [[ability:burst]] coûteux, [[character:xiao]] a généralement besoin d'une grande quantité de [[stat:er]] et/ou d'au moins une batterie [[element:anemo]] ([[character:sucrose]], [[character:faruzan]] [C6], [[character:xianyun]]) dans son équipe pour l'aider à recharger son [[ability:burst]].",
-            "it": "[[character:xiao]] è un 'hypercarry' incentrato sugli Attacchi in picchiata. A causa dell'alto costo di Energia del suo [[ability:burst]], [[character:xiao]] necessita solitamente di un'elevata quantità di [[stat:er]] e/o almeno una batteria [[element:anemo]] ([[character:sucrose]], [[character:faruzan]] [C6], [[character:xianyun]]) all'interno del team."
+            "it": "[[character:xiao]] è un 'hypercarry' incentrato sugli Attacchi in picchiata. A causa dell'alto costo di Energia del suo [[ability:burst]], [[character:xiao]] necessita solitamente di un'elevata quantità di [[stat:er]] e/o almeno una batteria [[element:anemo]] ([[character:sucrose]], [[character:faruzan]] [C6], [[character:xianyun]]) all'interno del team.",
+            "ru": "Гиперкерри, играющий от атак в падении. Из-за стоимости [[ability:burst|Взрыва стихии]] Сяо требуется большое количество [[stat:er|ВЭ]] и / или как минимум одна [[element:anemo]] батарейка ([[character:sucrose]], [C6] [[character:faruzan]], [[character:xianyun]])."
         },
         {
             "en": "**[[character:xiao]]'s Optimal [[ability:skill]] Rotation:** {rot: E E Q Plunge Combo}",
             "fr": "**Rotation optimale du [[ability:skill]] de [[character:xiao]] : {rot: E E A PCombo}**",
-            "it": "**Combo ottimale:** {rot:EEQ > Combo Attacchi in picchiata}"
+            "it": "**Combo ottimale:** {rot:EEQ > Combo Attacchi in picchiata}",
+            "ru": "**Оптимальное комбо [[ability:skill|навыков]]:** {rot: E E Q Комбо атак в падении}"
         },
         {
             "en": "**[[character:xiao]]'s Plunge Combo:**",
             "fr": "**Combo d'attaques plongeantes de [[character:xiao]] :**",
-            "it": "**Combo Attacchi in picchiata:**"
+            "it": "**Combo Attacchi in picchiata:**",
+            "ru": "**Комбо атак в падении**:"
         },
         {
             "en": "- **Best combo for [[character:xiao]] when fighting a single target:**",
             "fr": "- **Meilleur combo pour [[character:xiao]] contre une cible unique :**",
-            "it": "- **contro un singolo nemico:**"
+            "it": "- **contro un singolo nemico:**",
+            "ru": "- **Против одиночного врага:**"
         },
         {
             "en": " - {rot:NA CA hP} (no collision possible)\n - {rot:NA > CA lP} (collision only possible on Low Plunge)\n - {rot:hP spam} (collision possible on High Plunge)",
             "fr": " - {rot:N C HP} (aucune collision possible)\n - {rot:N C LP} (collision seulement possible sur la Plunge basse)\n - {rot:HP spam} (collision possible sur la Plunge haute)",
-            "it": " - {rot:NA > CA > Attacco in picchiata alto} (collisione non possibile)\n - {rot:NA > CA > Attacco in picchiata basso} (collisione possibile solo su Picchiata bassa)\n - Attacchi in picchiata alti a ripetizione (collisione possibile su Picchiata alta)"
+            "it": " - {rot:NA > CA > Attacco in picchiata alto} (collisione non possibile)\n - {rot:NA > CA > Attacco in picchiata basso} (collisione possibile solo su Picchiata bassa)\n - Attacchi in picchiata alti a ripetizione (collisione possibile su Picchiata alta)",
+            "ru": " - {rot:NA CA hP} (без коллизии)\n - {rot:NA > CA lP} (коллизия возможна с низкими атаками)\n - {rot:hP spam} (коллизия возможна с высокими атаками)"
         },
         {
             "en": "- **Best combo for [[character:xiao]] when fighting multiple enemies:**",
             "fr": "- **Meilleur combo pour [[character:xiao]] contre plusieurs ennemis :**",
-            "it": "- **contro più nemici:**"
+            "it": "- **contro più nemici:**",
+            "ru": "- **Против нескольких врагов:**"
         },
         {
             "en": "- {rot:hP spam}",
             "fr": "- {rot:HP spam}",
-            "it": "- Attacchi in picchiata alti a ripetizione"
+            "it": "- Attacchi in picchiata alti a ripetizione",
+            "ru": "- {rot: спам hP}"
         }
     ]
 }

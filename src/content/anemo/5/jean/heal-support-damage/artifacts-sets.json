@@ -10,7 +10,8 @@
                             "note": {
                                 "en": "The bread and butter for [[element:anemo]] characters in general, as it is commonly used for the 40% elemental resistance shred.",
                                 "fr": "Le choix de base pour les personnages [[element:anemo]] en général, car il est couramment utilisé pour la baisse de 40% de RES élémentaire.",
-                                "it": "La scelta classica per i personaggi [[element:anemo]], grazie al 40% diminuzione di RES che fornisce."
+                                "it": "La scelta classica per i personaggi [[element:anemo]], grazie al 40% diminuzione di RES che fornisce.",
+                                "ru": "Лучший сет для [[element:anemo]] персонажей, используется для 40% снижения сопротивления к рассеиваемому элементу."
                             }
                         }
                     ]
@@ -27,7 +28,8 @@
                             "note": {
                                 "en": "Another option for providing utilities to the team. This set gives a 20% partywide [[stat:atk|ATK]] boost after [[character:jean]] casts her [[ability:burst]].",
                                 "fr": "Une autre option pour apporter des commodités à l'équipe. Ce set donne un bonus d'[[stat:atk]] de 20 % à toute l'équipe après que [[character:jean]] utilise son [[ability:burst]].",
-                                "it": "È necessario utilizzare il [[ability:burst]] di [[character:jean]] per attivare il potenziamento [[stat:atk%]] di questo set." 
+                                "it": "È necessario utilizzare il [[ability:burst]] di [[character:jean]] per attivare il potenziamento [[stat:atk%]] di questo set.",
+                                "ru": "Еще один вариант поддержки команды. Увеличивает [[stat:atk|Силу атаки]] всех персонажей на 20% после использования [[ability:burst|Взрыва стихии]] [[character:jean]]."
                             }
                         }
                     ]
@@ -44,7 +46,8 @@
                             "note": {
                                 "en": "The best set for [[character:jean]]'s personal damage, as the damage it deals scales with [[character:jean]]'s [[ability:burst]] healing. However, because [[character:jean]]'s total damage output is on the low end, it is generally recommended to prioritize utility options such as **[[set:noblesse-oblige]] (4)** or **[[set:viridescent-venerer]] (4)** over this set.",
                                 "fr": "Le meilleur set pour les dégâts personnels de [[character:jean]], car les dégâts qu'il inflige dépendent du soin de son [[ability:burst]]. Cependant, comme les dégâts totaux de [[character:jean]] sont assez faibles, il est généralement recommandé de prioriser des options utilitaires comme **[[set:noblesse-oblige]] (4)** ou **[[set:viridescent-venerer]] (4)** plutôt que ce set.",
-                                "it": "Il miglior set per i danni personali di [[character:jean]], in quanto i danni che provoca scalano con le cure del suo [[ability:burst]]. Tuttavia, poiché i danni di [[character:jean]] sono modesti, è generalmente consigliato utilizzare opzioni più utili al team come **[[set:noblesse-oblige]] (4)** o **[[set:viridescent-venerer]] (4)**."
+                                "it": "Il miglior set per i danni personali di [[character:jean]], in quanto i danni che provoca scalano con le cure del suo [[ability:burst]]. Tuttavia, poiché i danni di [[character:jean]] sono modesti, è generalmente consigliato utilizzare opzioni più utili al team come **[[set:noblesse-oblige]] (4)** o **[[set:viridescent-venerer]] (4)**.",
+                                "ru": "Лучший сет для личного урона [[character:jean]], так как наносимый урон увеличивается соразмерно с лечением от [[ability:burst|Взрыва стихии]]. Однако обычно рекомендуется отдавать приоритет **[[set:noblesse-oblige|Церемонии древней знати]] (4)** и **[[set:viridescent-venerer|Изумрудной тени]] (4)** для усиления отряда."
                             }
                         }
                     ]
@@ -57,7 +60,7 @@
                     "choose": true,
                     "items": [
                         {
-                            "name": "emblem-of-severed-fate",
+                            "name": "er-set",
                             "pieces": 2
                         },
                         {

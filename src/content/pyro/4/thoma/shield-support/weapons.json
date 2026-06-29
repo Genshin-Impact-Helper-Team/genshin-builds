@@ -7,7 +7,8 @@
                     "note": {
                         "en": "This is generally [[character:thoma]]'s best weapon for a Shield Support build. Make sure to build some [[stat:cr]] if using it so that you can trigger the passive.",
                         "fr": "C'est généralement l'arme la plus adaptée pour un build de Support Bouclier. Assurez-vous de build un peu de [[stat:cr]] si vous l'utilisez pour pouvoir déclencher le passif.",
-                        "it": "Generalmente l'arma migliore di [[character:thoma]] - assicurati di accumulare un po' di **[[stat:cr]]** per attivare la passiva."
+                        "it": "Generalmente l'arma migliore di [[character:thoma]] - assicurati di accumulare un po' di **[[stat:cr]]** per attivare la passiva.",
+                        "ru": "Лучший вариант для текущей сборки. При использовании этого копья убедитесь, что у вас достаточно Шанса крит.попадания для реализации Пассивной способности оружия."
                     }
                 }
             ]
@@ -52,7 +53,8 @@
                     "note": {
                         "en": "In teams where you would typically use [[character:thoma]] as a Shield Support, it is difficult or even unfeasible to trigger this weapon passive. If you are able to trigger the passive consistently, then it becomes a good option due to the [[stat:hp%]] stat along with energy generation.",
                         "fr": "Dans les équipes où vous utiliseriez généralement [[character:thoma]] comme Support Bouclier, il est difficile ou même impossible de déclencher le passif de cette arme. Si vous arrivez à déclencher le passif de manière consistante, alors elle devient une bonne option grâce à la stat [[stat:hp%]] ainsi qu'à la génération d'énergie.",
-                        "it": "Solitamente, nei team dove viene utilizzato [[character:thoma]] come Supporto Scudo, è difficile o impraticabile attivare la passiva di quest'arma. Se però è possibile attivarla in maniera affidabile, diventa una buona opzione grazie alla stat [[stat:hp%]] ed alla generazione di energia."
+                        "it": "Solitamente, nei team dove viene utilizzato [[character:thoma]] come Supporto Scudo, è difficile o impraticabile attivare la passiva di quest'arma. Se però è possibile attivarla in maniera affidabile, diventa una buona opzione grazie alla stat [[stat:hp%]] ed alla generazione di energia.",
+                        "ru": "Занимает низкое место в рейтинге из-за сложности реализации Пассивной способности оружия в обычных отрядах с Томой-саппортом. Если вы сможете стабильно её использовать, то это копье может быть отличным вариантом благодаря HP% и генерации энергии."
                     }
                 }
             ]

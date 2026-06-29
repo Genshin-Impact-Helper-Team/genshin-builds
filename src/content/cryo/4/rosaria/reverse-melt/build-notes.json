@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "Reverse [[element:melt]]",
-        "fr": "[[element:melt]] inversée"
+        "fr": "[[element:melt]] inversée",
+        "it": "[[element:melt]] Inversa"
     },
     "best": true,
     "notes": [
         {
             "en": "This build capitalizes on the fact **[[character:rosaria]]'s [[ability:skill]] and [[ability:burst]] don't have an ICD**, allowing her to [[element:melt]] all [[ability:skill]] and [[ability:burst]] procs. Which in combination with **snapshotting buffs onto her [[ability:burst]] makes it one of her highest personal damage builds**.",
-            "fr": "Ce build capitalise sur le fait que **le [[ability:skill]] et l'[[ability:burst]] de [[character:rosaria]] n'ont pas d'ICD**, ce qui lui permet de déclencher [[element:melt]] sur toutes les occurrences de [[ability:skill]] et d'[[ability:burst]]. Combiné au **snapshot des buffs sur son [[ability:burst]], cela en fait l'un de ses builds avec les plus hauts dégâts personnels**."
+            "fr": "Ce build capitalise sur le fait que **le [[ability:skill]] et l'[[ability:burst]] de [[character:rosaria]] n'ont pas d'ICD**, ce qui lui permet de déclencher [[element:melt]] sur toutes les occurrences de [[ability:skill]] et d'[[ability:burst]]. Combiné au **snapshot des buffs sur son [[ability:burst]], cela en fait l'un de ses builds avec les plus hauts dégâts personnels**.",
+            "it": "Questa build approfitta del fatto che **l'[[ability:skill]] ed il [[ability:burst]] di Rosaria non abbiano ICD**, permettendole di provocare [[element:melt]] con tutti i colpi dell'[[ability:skill]] e del [[ability:burst]]. Questo, in combinazione con la capacità di Rosaria di **'snapshottare' potenziamenti sul suo [[ability:burst]]**, rende questa una delle sue build con il danno personale più alto."
         },
         {
             "en": "Be sure to cast [[ability:skill]] before [[ability:burst]] as [[stat:cr]] granted by the Ascension 1 Talent will be included with Ascension 4 Talent Bonus as well.",
-            "fr": "Assurez-vous de lancer le [[ability:skill]] avant l'[[ability:burst]], puisque le bonus de [[stat:cr]] accordé par le talent d'élévation 1 sera également inclus dans le bonus du talent d'élévation 4."
+            "fr": "Assurez-vous de lancer le [[ability:skill]] avant l'[[ability:burst]], puisque le bonus de [[stat:cr]] accordé par le talent d'élévation 1 sera également inclus dans le bonus du talent d'élévation 4.",
+            "it": "Assicurati di attivare l'[[ability:skill]] prima del [[ability:burst]], poiché il [[stat:cr]] fornito dal Talento A1 sarà incluso anche nel Bonus del Talento A4."
         },
         {
             "en": "[[character:rosaria]]'s [[ability:skill]] and [[ability:burst]] can be Reverse [[element:melt]]ed (1.5x) with another [[element:pyro]] applier for some quick and powerful damage.",
-            "fr": "[[character:rosaria]] peut déclencher une [[element:melt]] inversée (1,5x) avec son [[ability:skill]] et son [[ability:burst]] grâce à un autre applicateur [[element:pyro]], pour des dégâts rapides et puissants."
+            "fr": "[[character:rosaria]] peut déclencher une [[element:melt]] inversée (1,5x) avec son [[ability:skill]] et son [[ability:burst]] grâce à un autre applicateur [[element:pyro]], pour des dégâts rapides et puissants.",
+            "it": "L'[[ability:skill]] ed il [[ability:burst]] di [[character:rosaria]] possono provocare [[element:melt]] Inversa (1,5x) con un applicatore [[element:pyro]] nel team per infliggere danni rapidi e potenti."
         }
     ],
     "weapons": [

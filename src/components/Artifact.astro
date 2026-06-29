@@ -57,11 +57,11 @@ const conditionalArtifactGroups = artifacts.sets.conditional ?? [];
                     <div class="rank-row">
                       <strong class="rank-number">{i + 1}</strong>
                       <div class="rank-content artifact-set-content">
-                      <ArtifactSetGroup
-                        group={mainGroup}
-                        locale={locale}
-                        lang={lang}
-                      />
+                        <ArtifactSetGroup
+                          group={mainGroup}
+                          locale={locale}
+                          lang={lang}
+                        />
                       </div>
                     </div>
                   )}
@@ -111,7 +111,3 @@ const conditionalArtifactGroups = artifacts.sets.conditional ?? [];
     </div>
   </div>
 </div>
-
-<script>
-  import '../scripts/info-popover';
-</script>

@@ -5,9 +5,7 @@
                 {
                     "name": "favonius-greatsword",
                     "note": {
-                        "en": "With this weapon, you want to build some [[stat:cr]] to help proc the passive.",
-                        "fr": "Avec cette arme, vous voulez un peu de [[stat:cr]] pour pouvoir déclencher le passif.",
-                        "ru": "При использовании данного оружия важно собирать [[stat:cr]], чтобы активировать Пассивную способность."
+                        "en": "[[note:favo]]."
                     }
                 }
             ]
