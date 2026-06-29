@@ -11,7 +11,7 @@
                     "name": "staff-of-the-scarlet-sands",
                     "note": {
                         "en": "If [[character:arlecchino]] is not triggering [[element:vaporize]] or [[element:melt]], do not use an [[stat:em]] Sands with this weapon and it ranks lower than **[[weapon:staff-of-homa]]**.",
-                        "fr": "Si [[character:arlecchino]] ne déclence pas d'[[element:vaporize]] ou [[element:melt]], n'utilisez pas de sablier [[stat:em]] avec cette arme, et elle se classe plus bas que **[[weapon:staff-of-homa]]**.",
+                        "fr": "Si [[character:arlecchino]] ne déclenche pas d'[[element:vaporize]] ou [[element:melt]], n'utilisez pas de sablier [[stat:em]] avec cette arme, et elle se classe plus bas que **[[weapon:staff-of-homa]]**.",
                         "it": "Se [[character:arlecchino]] non provoca [[element:vaporize]] o [[element:melt]], non usare Sabbie [[stat:em]] con quest'arma, che avrà prestazioni inferiori a **[[weapon:staff-of-homa]]**."
                     }
                 }
@@ -55,7 +55,8 @@
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "If [[character:arlecchino]] is not triggering [[element:vaporize]] or [[element:melt]], do not use this weapon. At higher refinements, this weapon will perform similarly to **[[primordial-jade-winged-spear]]**."
+                        "en": "If [[character:arlecchino]] is not triggering [[element:vaporize]] or [[element:melt]], do not use this weapon. At higher refinements, this weapon will perform similarly to **[[weapon:primordial-jade-winged-spear]]**.",
+                        "fr": "Si [[character:arlecchino]] ne déclenche pas [[element:vaporize]] ou [[element:melt]], n'utilisez pas cette arme. Avec un raffinement plus haut, cette arme équivaut à **[[weapon:primordial-jade-winged-spear]]**."
                     }
                 }
             ]
@@ -73,7 +74,8 @@
                     "name": "missive-windspear",
                     "refinement": 5,
                     "note": {
-                        "en": "If [[character:arlecchino]] is not triggering [[element:vaporize]] or [[element:melt]], do not use this weapon**."
+                        "en": "If [[character:arlecchino]] is not triggering [[element:vaporize]] or [[element:melt]], do not use this weapon.",
+                        "fr": "Si [[character:arlecchino]] ne déclenche pas [[element:vaporize]] ou [[element:melt]], n'utilisez pas cette arme."
                     }
                 },
                 {
@@ -85,9 +87,9 @@
     ],
     "notes": [
         {
-            "en": "Weapon ranking assumes [[character:arlecchino]] is used with [[character:bennett]] or [[character:nicole]] and triggers [[element:vaporize]] or [[element:melt]].",
-            "fr": "Le classement des armes suppose qu'[[character:arlecchino]] est jouée avec [[character:bennett]].",
-            "it": "La classifica delle armi presuppone che [[character:arlecchino]] sia utilizzata con **[[character:bennett]]**."
+            "en": "Weapon ranking assumes [[character:arlecchino]] is used with **[[character:bennett]] or [[character:nicole]]** and triggers **[[element:vaporize]] or [[element:melt]]**.",
+            "fr": "Le classement des armes suppose qu'[[character:arlecchino]] est jouée avec **[[character:bennett]] ou [[character:nicole]]** et déclenche **[[element:vaporize]] ou [[element:melt]]**.",
+            "it": "La classifica delle armi presuppone che [[character:arlecchino]] sia utilizzata con **[[character:bennett]] o [[character:nicole]]**."
         }
     ]
 }
