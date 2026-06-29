@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "[[element:bloom]] / [[element:burgeon]] Driver",
-        "fr": "Driver [[element:bloom]] / [[element:burgeon]]"
+        "fr": "Driver [[element:bloom]] / [[element:burgeon]]",
+        "ru": "Драйвер [[element:bloom|Бутонизации]] / [[element:burgeon|Цветения]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:kaveh]] focuses on being the onfield unit for [[element:bloom]] teams, boosting their damage with his [[ability:burst]], and applying [[element:dendro]] to create [[element:bloom]] Cores. His self-healing allows these teams to not need an additional defensive unit.",
-            "fr": "[[character:kaveh]] se concentre sur le fait d'être le personnage on-field des équipes [[element:bloom]], en boostant leurs dégâts avec son [[ability:burst]] et en appliquant du [[element:dendro]] pour créer des noyaux de [[element:bloom]]. Son self-healing permet à ces équipes de ne pas avoir besoin d'un personnage défensif supplémentaire."
+            "fr": "[[character:kaveh]] se concentre sur le fait d'être le personnage on-field des équipes [[element:bloom]], en boostant leurs dégâts avec son [[ability:burst]] et en appliquant du [[element:dendro]] pour créer des noyaux de [[element:bloom]]. Son self-healing permet à ces équipes de ne pas avoir besoin d'un personnage défensif supplémentaire.",
+            "ru": "[[character:kaveh]] - персонаж, стоящий на поле в командах, играющих через [[element:bloom|Бутонизацию]], способный увеличивать урон ядер за счет [[ability:burst|Взрыва стихии]] и накладывать [[element:dendro]] для создания ядер. Его самолечение позволяет играть без дополнительных защитных способностей в отряде."
         },
         {
             "en": "[[character:kaveh]]'s best combo is {rot:N3D}.",
-            "fr": "Le meilleur combo de [[character:kaveh]] est {rot:N3D}."
+            "fr": "Le meilleur combo de [[character:kaveh]] est {rot:N3D}.",
+            "ru": "Оптимальное комбо [[character:kaveh]]а - {rot:N3D}."
         }
     ]
 }
