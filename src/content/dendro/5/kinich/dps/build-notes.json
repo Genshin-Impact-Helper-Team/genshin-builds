@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:kinich]] is a [[element:dendro]] DPS who relies on tethering himself to enemies with his grappling hook and firing Loop Shots to generate [[ability:nightsoul-point]]s in order to use the Scalespiker Cannon. Both the Loop Shots and the Scalespiker Cannon are considered [[ability:skill]] DMG. With his A1 Talent, his [[ability:skill]] puts enemies in the Desolation State, which, when they are affected by [[element:burning]] or [[element:burgeon]], generates even more [[ability:nightsoul-point|Nightsoul Points]] for [[character:kinich]]. Summoning Ajaw to the field will extend his [[ability:nightsoul-blessing]] state briefly.",
-            "fr": "[[character:kinich]] est un DPS [[element:dendro]] qui se base sur le fait de s'accrocher aux ennemis avec son grappin et de tirer des Tirs Circulaires pour générer des [[ability:nightsoul-point|points de noctâme]] afin d'utiliser le Canon à pointe d'écailles. Les Tirs Circulaires et le Canon à pointe d'écailles sont tous deux considérés comme des dégâts de [[ability:skill]]. Avec son passif A1, son [[ability:skill]] place les ennemis dans l'état Désolation qui, lorsqu'ils sont affectés par [[element:burning]] ou [[element:burgeon]], génère encore plus de [[ability:nightsoul-point|points de noctâme]] pour [[character:kinich]]. Invoquer Ajaw sur le terrain prolongera brièvement son état de [[ability:nightsoul-blessing]]."
+            "fr": "[[character:kinich]] est un DPS [[element:dendro]] qui se base sur le fait de s'accrocher aux ennemis avec son grappin et de tirer des Tirs Circulaires pour générer des [[ability:nightsoul-point|points de noctâme]] afin d'utiliser le Canon à pointe d'écailles. Les Tirs Circulaires et le Canon à pointe d'écailles sont tous deux considérés comme des dégâts de [[ability:skill]]. Avec son passif A1, son [[ability:skill]] place les ennemis dans l'état Désolation qui, lorsqu'ils sont affectés par [[element:burning]] ou [[element:burgeon]], génère encore plus de [[ability:nightsoul-point|points de noctâme]] pour [[character:kinich]]. Invoquer Ajaw sur le terrain prolongera brièvement son état de [[ability:nightsoul-blessing]].",
+            "ru": "[[character:kinich]] - [[element:dendro]] ДД, играющий за счёт цепляния врагов крюком и запуска кольцевых выстрелов, которые генерируют [[ability:nightsoul-point|очки Ночного духа]]. При накоплении достаточного их количества он может использовать навык Чешуебой. Кольцевые выстрелы и выстрелы из Чешуебоя считаются уроном [ability:skill|Элементального навыка]]. Благодаря А1 таланту Кинич при попадании [[ability:skill|навыком]] вводит врагов в состояние Запустения, что помогает создавать ещё больше [[ability:nightsoul-point|очков Ночного духа]] (если противник получает урон от [[element:burning|Горения]] или [[element:burgeon|Цветения]]). Призыв Ахава может ненадолго увеличивать длительность текущего [[ability:nightsoul-blessing|Благословления]]."
         },
         {
             "en": "When paired with [[character:xiangling]], spin counter clockwise so her Pyronado can hit opponents more frequently.",
-            "fr": "Lorsque vous jouez avec [[character:xiangling]], tournez dans le sens inverse des aiguilles d'une montre afin que sa Pyronado puisse toucher les ennemis plus fréquemment."
+            "fr": "Lorsque vous jouez avec [[character:xiangling]], tournez dans le sens inverse des aiguilles d'une montre afin que sa Pyronado puisse toucher les ennemis plus fréquemment.",
+            "ru": "В паре с [[character:xiangling]] вращайтесь против часовой стрелки, чтобы Огневихрь чаще бил по врагам."
         }
     ],
     "weapons": [
