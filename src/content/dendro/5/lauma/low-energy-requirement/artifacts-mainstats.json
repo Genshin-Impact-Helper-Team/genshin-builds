@@ -12,7 +12,8 @@
                 "name": "cr/cd",
                 "note": {
                     "en": "[[stat:cr]] and [[stat:cd]] only affects LAUMA'S PERSONAL damage, this does not increase her [[element:bloom]] crit buffs",
-                    "fr": "Le [[stat:cr]] et les [[stat:cd]] affectent uniquement les dégâts personnels de [[character:lauma]], cela n'augmente pas ses buffs de crit de [[element:bloom]]."
+                    "fr": "Le [[stat:cr]] et les [[stat:cd]] affectent uniquement les dégâts personnels de [[character:lauma]], cela n'augmente pas ses buffs de crit de [[element:bloom]].",
+                    "ru": "[[stat:cr]] и [[stat:cd]] влияют только на собственный урон [[character:lauma|Лаумы]] и не увеличивают её крит-бонусы к [[element:bloom|Бутонизации]]."
                 }
             }
         ]
