@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Rankings assume [[character:kinich]] is used with [[character:bennett]].",
-            "fr": "Le classement suppose que [[character:kinich]] est joué avec [[character:bennett]]."
+            "fr": "Le classement suppose que [[character:kinich]] est joué avec [[character:bennett]].",
+            "ru": "Предполагается, что [[character:kinich]] играет с [[character:bennett|Беннетом]]."
         }
     ],
     "weapons": [
@@ -24,7 +25,8 @@
                     "name": "serpent-spine",
                     "note": {
                         "en": "Performs much worse without a shielder. At **[R5]**, this weapon performs better than **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "fr": "Elle est nettement moins bonne sans bouclier. Une fois **[R5]**, cette arme dépasse **[[weapon:beacon-of-the-reed-sea]]**."
+                        "fr": "Elle est nettement moins bonne sans bouclier. Une fois **[R5]**, cette arme dépasse **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "Показывает себя намного хуже без щита. На **[R5]** превосходит **[[weapon:beacon-of-the-reed-sea]]**."
                     }
                 }
             ]
@@ -41,14 +43,16 @@
                     "refinement": 5,
                     "note": {
                         "en": "**[[weapon:earth-shaker]]** is an inconsistent weapon choice in teams only consisting of [[element:dendro]] and [[element:pyro]] characters. Since only the activation of [[element:burning]] counts toward the passive, meaning that the passive activation can only trigger once per enemy.",
-                        "fr": "**[[weapon:earth-shaker]]** est un choix d'arme inconsistant dans les équipes composées uniquement de personnages [[element:dendro]] et [[element:pyro]]. Comme seule l'activation de [[element:burning]] compte pour le passif, cela signifie que le passif ne peut s'activer qu'une fois par ennemi."
+                        "fr": "**[[weapon:earth-shaker]]** est un choix d'arme inconsistant dans les équipes composées uniquement de personnages [[element:dendro]] et [[element:pyro]]. Comme seule l'activation de [[element:burning]] compte pour le passif, cela signifie que le passif ne peut s'activer qu'une fois par ennemi.",
+                        "ru": "Противоречивый вариант в отрядах, состоящих только из [[element:dendro]] и [[element:pyro]] персонажей. Пассивная способность оружия учитывает только первичную активацию [[element:burning|Горения]] (а не последующие тики), то есть на одном враге она срабатывает только один раз."
                     }
                 },
                 {
                     "name": "wolfs-gravestone",
                     "note": {
                         "en": "This option is mainly just a statstick for [[character:kinich]] as many of his teammates, barring [[character:xiangling]], [[character:emilie]], [[character:mavuika]], or [[character:xingqiu]], don't benefit much from the [[stat:atk%]] buff from the passive.",
-                        "fr": "Cette option sert principalement de stat stick pour [[character:kinich]], car beaucoup de ses coéquipiers, à part [[character:xiangling]], [[character:emilie]], [[character:mavuika]] ou [[character:xingqiu]], ne profitent pas beaucoup du buff d'[[stat:atk%]] du passif."
+                        "fr": "Cette option sert principalement de stat stick pour [[character:kinich]], car beaucoup de ses coéquipiers, à part [[character:xiangling]], [[character:emilie]], [[character:mavuika]] ou [[character:xingqiu]], ne profitent pas beaucoup du buff d'[[stat:atk%]] du passif.",
+                        "ru": "В основном используется как затычка из-за статов - увеличение силы атаки членов отряда (исключая [[character:mavuika|Мавуику]], [[character:xiangling]], [[character:xingqiu]] и [[character:emilie|Эмилию]]) зачастую не слишком полезно."
                     }
                 },
                 "redhorn-stonethresher"
