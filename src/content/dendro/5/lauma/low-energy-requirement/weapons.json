@@ -33,7 +33,7 @@
                     "note": {
                         "en": "This weapon assumes you are gaining the [[stat:em]] from the [[ability:skill]] portion of the passive.",
                         "fr": "Ce classement suppose que vous obtenez la [[stat:em]] de la partie [[ability:skill]] du passif.",
-                        "ru": "Предполагается, что [[stat:em]] получает бонус к [[stat:em|МС]] после использования [[ability:skill|Элементального навыка]]."
+                        "ru": "Предполагается, что [[character:lauma]] получает бонус к [[stat:em|МС]] после использования [[ability:skill|Элементального навыка]]."
                     }
                 }
             ]
@@ -45,7 +45,7 @@
                     "note": {
                         "en": "[[character:lauma]] has no trouble proccing the passive; it is recommended to not instantly use the [[ability:skill]] reset - most optimally hold for ~7.5s for all [[ability:verdant-dew]] stacks before using again. At **[R1 -> R4]**, assume this weapon will proc every other rotation, consumes 2 [[ability:verdant-dew]] stacks on 2nd [[ability:skill]]. At **[R5]** this weapon performs closer to **[[weapon:a-thousand-floating-dreams]]**, assume this weapon will proc every rotation, consumes 2 [[ability:verdant-dew]] stacks on 2nd [[ability:skill]].",
                         "fr": "[[character:lauma]] n'a aucun mal à déclencher le passif. Il est recommandé de ne pas utiliser immédiatement le deuxième [[ability:skill]]: l'idéal est d'attendre ~7.5s d'avoir tous les stacks de [[ability:verdant-dew]] avant de l'utiliser à nouveau. De **[R1] à [R4]**, supposez que le passif de cette arme se déclenche une rotation sur deux et consommez 2 stacks de [[ability:verdant-dew]] sur le 2e [[ability:skill]]. Une fois **[R5]**, cette arme se rapproche de **[[weapon:a-thousand-floating-dreams]]**, supposez que le passif se déclenche à chaque rotation et consommez 2 stacks de [[ability:verdant-dew]] sur le 2e [[ability:skill]].",
-                        "ru": ""
+                        "ru": "[[character:lauma]] без проблем использует Пассивную способность. Рекомендуется использовать откатившийся [[ability:skill]] спустя ~7.5 секунд, чтобы получить заряды [[ability:verdant-dew|Зелёной росы]]. На **[R1-R4]** предполагается, что Пассивная способность активируется раз в две ротации и при втором использовании навыка у Лаумы есть 2 единицы [[ability:verdant-dew|Зелёной росы]]. На **[R5]** примерно соответствует **[[weapon:a-thousand-floating-dreams|Сновидениям тысячи ночей]]**; при этом предполагается, что Пассивная способность активируется каждую ротацию и при втором использовании [[ability:skill|навыка]] у Лаумы 2 единицы [[ability:verdant-dew|Зелёной росы]]."
                     }
                 }
             ]
@@ -57,7 +57,7 @@
                     "note": {
                         "en": "This weapon assumes dynamic stacking.",
                         "fr": "Cette arme suppose un stacking dynamique.",
-                        "ru": ""
+                        "ru": "В расчётах учитывается изменение уровня Пассивной способности в ходе ротации."
                     }
                 },
                 {
@@ -65,7 +65,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon performs closer to **[[weapon:sacrificial-fragments]] [R1 -> R4]**",
                         "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:sacrificial-fragments]] [R4]**.",
-                        "ru": ""
+                        "ru": "На **[R5]** примерно соотвествует **[R1-R4] [[weapon:sacrificial-fragments|Церемониальным мемуарам]]**."
                     }
                 },
                 {
