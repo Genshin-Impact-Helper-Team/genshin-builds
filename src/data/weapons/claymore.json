@@ -1678,12 +1678,18 @@
         "rarity": 5,
         "version_released": "6.7 / Luna VIII",
         "passive": {
-            "en": "ATK increased by {{value}}%. Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Surmount\" for a short time: their Stellar-Conduct DMG is increased by {{value}}% for 5s. This effect can stack once every 0.2s, max 3 stacks."
+            "en": "ATK increased by {{value}}%.<br>Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by {{value}}% for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+            "de": "Erhöht den ANG um {{value}}%.<br>Der Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5 s lang um {{value}}%. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2 s.",
+            "es": "El ATQ aumenta en un {{value}}%.<br>Además, cada vez que el portador de esta arma golpee a un enemigo con un Ataque Cargado, obtendrá brevemente el efecto de “trascendencia”, el cual aumenta en un {{value}}% su daño de Superconductor Estelar durante 5 s. Este efecto puede acumularse hasta 3 veces y solo se puede obtener 1 carga cada 0.2 s.",
+            "fr": "Augmente l'ATQ du personnage équipé de l'arme de {{value}}%.<br>De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de {{value}}% pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
+            "it": "L'ATT aumenta di un {{value}}%.<br>Inoltre, ogni volta che il personaggio che equipaggia l'arma colpisce un avversario con il suo attacco caricato, ottiene per un breve periodo l'effetto Trascendenza, che aumenta i suoi DAN da Astroconduzione di un {{value}}% per 5 s. L'effetto può accumularsi una volta ogni 0,2 s, per un massimo di 3 accumuli.",
+            "ru": "Увеличивает силу атаки на {{value}}%.<br>Также каждый раз после того, как заряженная атака экипированного персонажа поражает противника, персонаж на короткое время получает Превосходство: урон его реакции Звёздный проводник повышается на {{value}}% на 5 сек. Эффект складывается до 3 раз не чаще одного раза в 0,2 сек.",
+            "pt": "Aumenta o ATQ em {{value}}%.<br>Além disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar causado pelo portador em {{value}}% por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s."
         },
         "substat": "cd",
         "level_1": {
             "base_attack": 48,
-            "substat_value": "-%"
+            "substat_value": "9.6%"
         },
         "level_max": {
             "base_attack": 674,
@@ -1694,20 +1700,20 @@
             16
         ],
         "r2": [
-            "-",
-            "-"
+            35,
+            20
         ],
         "r3": [
-            "-",
-            "-"
+            42,
+            24
         ],
         "r4": [
-            "-",
-            "-"
+            49,
+            28
         ],
         "r5": [
-            "-",
-            "-"
+            56,
+            32
         ]
     }
 }

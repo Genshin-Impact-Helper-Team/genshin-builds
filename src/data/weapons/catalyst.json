@@ -233,13 +233,13 @@
         "rarity": 5,
         "version_released": "4.1",
         "passive": {
-            "en": "ATK is increased by {{value}}%. When current HP increases or decreases, Normal Attack DMG will be increased by {{value}}% and Charged Attack DMG will be increased by {{value}}% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by {{value}}%.",
-            "de": "Erhöht den ANG um {{value}}%. Erhöht den mit Standardangriffen verursachten Schaden um {{value}}% und den mit heftigen Schlägen verursachten Schaden um {{value}}%, wenn sich die aktuellen LP erhöhen oder verringern. Hält 4 s, 3-fach stapelbar, 0,3 s Abklingzeit. Erhöht bei Erreichen von 3 Stapelungen die Angriffs-GSW um {{value}}%.",
-            "es": "El ATQ aumenta en un {{value}}%. Cuando la Vida del personaje aumenta o disminuye, el daño de sus Ataques Normales aumenta en un {{value}}% y el de sus Ataques Cargados, en un {{value}}%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones, la Vel. de Ataque aumenta en un {{value}}%.",
-            "fr": "L'ATQ augmente de {{value}}%. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de {{value}}% et ceux infligés par les attaques chargées augmentent de {{value}}%, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de {{value}}%.",
-            "it": "L'ATT aumenta di un {{value}}%. Quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale e da attacco caricato aumentano rispettivamente di un {{value}}% e di un {{value}}% per 4 s. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3 s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un {{value}}%.",
-            "ru": "Увеличивает силу атаки на {{value}}%. Когда текущее HP персонажа повышается или понижается, на 4 сек. урон обычной атаки увеличивается на {{value}}%, а заряженной атаки - на {{value}}%. Эффект складывается до 3 раз и возникает не чаще, чем 1 раз в 0,3 сек. При получении экипированным персонажем 3 уровней скорость атаки увеличивается на {{value}}%.",
-            "pt": "Aumenta o ATQ em {{value}}%. Quando a Vida atual aumentar ou cair, o Dano causado pelo Ataque Normal aumenta em {{value}}%, e o Dano causado pelo Ataque Carregado em {{value}}%. Esse efeito dura 4s, pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s. Quando possuir 3 acúmulos, aumenta a Vel. de ATQ em {{value}}%."
+            "en": "ATK is increased by {{value}}%. When current HP increases or decreases, Normal Attack DMG is increased by {{value}}%, Charged Attack DMG is increased by {{value}}%, and Stellar-Conduct DMG is increased by {{value}}% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by {{value}}%.",
+            "de": "Erhöht den ANG um {{value}}%. Erhöht den mit Standardangriffen verursachten Schaden um {{value}}%, den mit heftigen Schlägen verursachten Schaden um {{value}}% und den mit der Reaktion Stellar-Supraleiter verursachten Schaden um {{value}}%, wenn sich die aktuellen LP erhöhen oder verringern. Hält 4 s, 3-fach stapelbar, 0,3 s Abklingzeit. Erhöht bei Erreichen von 3 Stapelungen die Angriffs-GSW um {{value}}%.",
+            "es": "El ATQ aumenta en un {{value}}%. Cuando la Vida del personaje aumenta o disminuye, el daño de sus Ataques Normales aumenta en un {{value}}%, y tanto el daño de sus Ataques Cargados como el de la reacción de Superconductor Estelar aumentan en un {{value}}%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones, la Vel. de Ataque aumenta en un {{value}}%.",
+            "fr": "L'ATQ augmente de {{value}}%. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de {{value}}%, ceux infligés par les attaques chargées augmentent de {{value}}% et les DGT de réaction d'Astroconduction augmentent de {{value}}%, le tout pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de {{value}}%.",
+            "it": "L'ATT aumenta di un {{value}}%. Per 4 s quando la quantità di PS attuali aumenta o diminuisce, i DAN da attacco normale aumentano di un {{value}}%, mentre i DAN da attacco caricato e Astroconduzione aumentano di un {{value}}%. Massimo 3 accumuli. Quest'effetto può attivarsi una volta ogni 0,3 s. Quando il personaggio che equipaggia l'arma raggiunge il massimo numero di accumuli, la sua VEL d'ATT aumenta di un {{value}}%.",
+            "ru": "Увеличивает силу атаки на {{value}}%. Когда текущее HP персонажа повышается или понижается, на 4 сек. урон обычной атаки увеличивается на {{value}}%, а заряженной атаки и реакции Звёздный проводник - на {{value}}%. Эффект складывается до 3 раз и возникает один раз в 0,3 сек. При наличии у экипированного персонажа 3 уровней скорость атаки увеличивается на {{value}}%.",
+            "pt": "Aumenta o ATQ em {{value}}%. Quando a Vida aumentar ou reduzir, aumenta o Dano causado pelo Ataque Normal em {{value}}%, aumenta o Dano causado pelo Ataque Carregado em {{value}}%, e aumenta o Dano causado por Supercondutor Estelar em {{value}}% por 4s. Acumulável até 3 vezes. É possível desencadear uma vez a cada 0.3s. Ao possuir 3 acúmulos, aumenta a Vel. de ATQ em {{value}}%."
         },
         "substat": "cr",
         "level_1": {
@@ -254,11 +254,13 @@
             16,
             16,
             14,
+            14,
             8
         ],
         "r2": [
             20,
             20,
+            17.5,
             17.5,
             10
         ],
@@ -266,17 +268,20 @@
             24,
             24,
             21,
+            21,
             12
         ],
         "r4": [
             28,
             28,
             24.5,
+            24.5,
             14
         ],
         "r5": [
             32,
             32,
+            28,
             28,
             16
         ]
@@ -827,13 +832,13 @@
         "rarity": 5,
         "version_released": "2.5",
         "passive": {
-            "en": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by {{value}}% for 16s. Max 3 stacks. This character will gain {{value}}% All Elemental DMG Bonus when they possess 3 stacks.",
-            "de": "Verleiht bei Anwendung von Elementarfähigkeiten den Effekt „Kagura-Tanz“, der den mit Elementarfähigkeiten der mit dieser Waffe ausgerüsteten Figur verursachten Schaden 16 s lang um {{value}}% erhöht, 3-fach stapelbar. Erhöht bei 3 Stapelungen den Schaden aller Elemente dieser Figur um {{value}}%.",
-            "es": "Al usar la Habilidad Elemental, obtienes el efecto de “danza kagura”, el cual aumenta en un {{value}}% el daño de la Habilidad Elemental del personaje que equipa esta arma. Este efecto dura 16 s y puede acumularse hasta 3 veces. Al tener 3 acumulaciones, dicho personaje obtiene un {{value}}% de todos los Bonos de Daño Elemental.",
-            "fr": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de {{value}}% pendant 16 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de {{value}}%.",
-            "it": "Ottiene l'effetto Danza Kagura quando usa un'abilità elementale, provocando un aumento dei DAN da abilità elementale di un {{value}}% per il personaggio che brandisce quest'arma per 16 s. Cumulabile fino a 3 volte. Quando possiede 3 accumuli, il personaggio ottiene un {{value}}% di bonus DAN per tutti gli elementi.",
-            "ru": "Использование элементального навыка наделяет экипированного этим оружием персонажа эффектом «Танец кагура», который увеличивает урон его элементального навыка на {{value}}%. Этот эффект длится 16 сек. и может складываться до 3 раз. На 3 уровне эффекта персонаж получает {{value}}% бонус урона всеми элементами.",
-            "pt": "Ao usar a Habilidade Elemental, obtém o efeito de \"Dança Kagura\", o qual aumenta o Dano da Habilidade Elemental em {{value}}% do personagem que tiver esta arma equipada. Este efeito dura 16s e pode ser acumulado em até 3 vezes. Ao obter 3 acúmulos, o personagem obtém {{value}}% de Bônus de Dano de todos os Elementos."
+            "en": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by {{value}}% as well as their Stellar-Conduct DMG by {{value}}% for 24s. Max 3 stacks. This character will gain a {{value}}% All Elemental DMG Bonus when they possess 3 stacks.",
+            "de": "Verleiht bei Anwendung von Elementarfähigkeiten den Effekt „Kagura-Tanz“, der den mit Elementarfähigkeiten der mit dieser Waffe ausgerüsteten Figur verursachten Schaden 24 s lang um {{value}}% sowie den mit der Reaktion Stellar-Supraleiter verursachten Schaden um {{value}}% erhöht, 3-fach stapelbar. Erhöht bei 3 Stapelungen den Schaden aller Elemente dieser Figur um {{value}}%.",
+            "es": "Al usar la Habilidad Elemental, se obtiene el efecto de “danza kagura”, el cual aumenta en un {{value}}% el daño de la Habilidad Elemental y de la reacción de Superconductor Estelar del personaje que lleva esta arma equipada. Este efecto dura 24 s y puede acumularse hasta 3 veces. Al tener 3 acumulaciones, todos los Bonos de Daño Elemental de dicho personaje aumentan en un {{value}}%.",
+            "fr": "Libérer une compétence élémentaire confère l'effet Danse Kagura, permettant d'augmenter les DGT infligés par les compétences élémentaires du personnage équipé de l'arme de {{value}}% et ses DGT de réaction d'Astroconduction de {{value}}%, le tout pendant 24 s. Cet effet peut être cumulé 3 fois maximum. Avec 3 cumuls, le personnage bénéficie d'un bonus de DGT élémentaires de {{value}}%.",
+            "it": "Usare un'abilità elementale conferisce l'effetto Danza Kagura, che aumenta di un {{value}}% per 24 s i DAN da abilità elementale e i DAN da Astroconduzione del personaggio che equipaggia l'arma. Cumulabile fino a 3 volte. Quando possiede 3 accumuli, il personaggio ottiene un {{value}}% di bonus DAN per tutti gli elementi.",
+            "ru": "Использование элементального навыка наделяет экипированного персонажа эффектом Танец кагура, который увеличивает урон его элементального навыка и реакции Звёздный проводник на {{value}}%. Эффект длится 24 сек. и может складываться до 3 раз. При наличии 3 уровней эффекта персонаж получает {{value}}% бонус урона всеми элементами.",
+            "pt": "Ao lançar a Habilidade Elemental, obtém o efeito Dança Kagura, aumentando o Dano da Habilidade Elemental do portador em {{value}}%, e aumentando o Dano de Supercondutor Estelar em {{value}}% por 24s. Acumulável até 3 vezes. Ao possuir 3 acúmulos, esse personagem obtém {{value}}% de bônus de todos os Danos Elementais."
         },
         "substat": "cd",
         "level_1": {
@@ -846,21 +851,26 @@
         },
         "r1": [
             12,
+            12,
             12
         ],
         "r2": [
+            15,
             15,
             15
         ],
         "r3": [
             18,
+            18,
             18
         ],
         "r4": [
             21,
+            21,
             21
         ],
         "r5": [
+            24,
             24,
             24
         ]
