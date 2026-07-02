@@ -4,7 +4,8 @@
             "name": "er",
             "note": {
                 "en": "Certain [[element:quicken]] teams can run little to no [[stat:er]] and simply [[ability:burst]] every other rotation without a dps loss",
-                "fr": "Certaines équipes [[element:quicken]] peuvent jouer avec très peu voire pas de [[stat:er]], et simplement utiliser l'[[ability:burst]] une rotation sur deux sans perte de DPS."
+                "fr": "Certaines équipes [[element:quicken]] peuvent jouer avec très peu voire pas de [[stat:er]], et simplement utiliser l'[[ability:burst]] une rotation sur deux sans perte de DPS.",
+                "ru": "В некоторых отрядах через [[element:quicken|Стимуляцию]] [[stat:er]] практически не требуется - [[ability:burst]] используется каждую вторую ротацию практически без потери ДПС."
             }
         },
         "cr/cd",
@@ -12,7 +13,8 @@
             "name": "em",
             "note": {
                 "en": "If you're running under 200 [[stat:em]] this substat has priority over Crit",
-                "fr": "Si vous jouez avec moins de 200 [[stat:em]], cette substat est prioritaire sur le Crit."
+                "fr": "Si vous jouez avec moins de 200 [[stat:em]], cette substat est prioritaire sur le Crit.",
+                "ru": "Если у аль-Хайтама меньше 200 [[stat:em|МС]], этот стат будет приоритетнее критов."
             }
         },
         "atk%"
