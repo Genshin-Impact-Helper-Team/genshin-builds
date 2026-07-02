@@ -68,7 +68,7 @@
                     "note": {
                         "en": "The fewer the reactions [[character:nahida]] triggers, the more potent this option become.",
                         "fr": "Moins [[character:nahida]] déclenche de réactions, plus cette option devient puissante.",
-                        "ru": ""
+                        "ru": "Чем меньше реакций вызывает [[character:nahida]], тем лучше показывают себя."
                     }
                 },
                 {
@@ -76,7 +76,7 @@
                     "note": {
                         "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
                         "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field.",
-                        "ru": "Чем меньше реакций вызывает [[character:nahida]], тем лучше показывают себя."
+                        "ru": "Показывает себя лучше, если [[character:nahida]] играет на поле."
                     }
                 }
             ]
