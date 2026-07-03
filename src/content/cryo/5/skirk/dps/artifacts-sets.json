@@ -66,7 +66,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is only useful against fully freezable enemies, in which case it becomes [[character:skirk]]'s best in slot. However, this setup makes it easy to overcap on [[stat:cr]] with certain weapons.",
-                                "fr": "Ce set n'est utile que contre des ennemis entièrement gelables, auquel cas il devient le best in slot de [[character:skirk]]. Cependant, cette configuration facilite l'overcap en [[stat:cr]] avec certaines armes."
+                                "fr": "Ce set n'est utile que contre des ennemis entièrement gelables, auquel cas il devient le best in slot de [[character:skirk]]. Cependant, cette configuration facilite l'overcap en [[stat:cr]] avec certaines armes.",
+                                "it": "Questo set è utile solo contro nemici soggetti a Congelamento, diventando in tal caso il set migliore di [[character:skirk]]. Tuttavia, questa configurazione può facilmente portare ad un eccesso di [[stat:cr]] con alcune armi."
                             }
                         }
                     ]
@@ -81,8 +82,9 @@
                     "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "This set should only be used with [[character:furina]] on the team, in which case it performs the same as **[[set:finale-of-the-deep-galleries]] (4)**. If [[character:skirk]] is [C1] or higher, this set consistently outperforms **[[set:finale-of-the-deep-galleries]]** for the [[ability:na]] playstyle.",
-                        "fr": "Ce set ne devrait être utilisé qu'avec [[character:furina]] dans l'équipe ; dans ce cas, il équivaut à **[[set:finale-of-the-deep-galleries]] (4)**. Si [[character:skirk]] est [C1] ou plus, ce set dépasse **[[set:finale-of-the-deep-galleries]]** pour un style de jeu en [[ability:na]]."
+                        "en": "This set should only be used with **[[character:furina]]** on the team, in which case it performs the same as **[[set:finale-of-the-deep-galleries]] (4)**. If [[character:skirk]] is [C1] or higher, this set consistently outperforms **[[set:finale-of-the-deep-galleries]]** for the [[ability:na]] playstyle.",
+                        "fr": "Ce set ne devrait être utilisé qu'avec **[[character:furina]]** dans l'équipe ; dans ce cas, il équivaut à **[[set:finale-of-the-deep-galleries]] (4)**. Si [[character:skirk]] est [C1] ou plus, ce set dépasse **[[set:finale-of-the-deep-galleries]]** pour un style de jeu en [[ability:na]].",
+                        "it": "Questo set dovrebbe essere usato solo se **[[character:furina]]** è presente nel team, ed in tal caso offre prestazioni equivalenti a **[[set:finale-of-the-deep-galleries]] (4)**. Se [[character:skirk]] è [C1]+, questo set supera **[[set:finale-of-the-deep-galleries]]** in uno stile di gioco basato sugli [[ability:na|Attacchi Normali]]."
                     }
                 }
             ]
