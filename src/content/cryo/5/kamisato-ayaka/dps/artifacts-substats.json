@@ -7,7 +7,8 @@
             "name": "cr",
             "note": {
                 "en": "Loses value here assuming you're running **[[set:blizzard-strayer]] (4)**, if you're not using that artifact set, then it has the same priority as [[stat:cd]] (You still want to aim for 1:2 ratio in the end)",
-                "fr": "Perd de la valeur ici si vous jouez **[[set:blizzard-strayer]] (4)**. Si vous n'utilisez pas ce set d'artéfacts, elle a alors la même priorité que le [[stat:cd]] (vous voulez toujours viser un ratio de 1:2 au final)."
+                "fr": "Perd de la valeur ici si vous jouez **[[set:blizzard-strayer]] (4)**. Si vous n'utilisez pas ce set d'artéfacts, elle a alors la même priorité que le [[stat:cd]] (vous voulez toujours viser un ratio de 1:2 au final).",
+                "it": "Perde di valore con **[[set:blizzard-strayer]] (4)**. Se non utilizzi questo set, ha la stessa priorità di [[stat:cd]] (in qualsiasi caso, l'obiettivo è una proporzione 1:2 Tasso:DAN)."
             }
         }
     ]
