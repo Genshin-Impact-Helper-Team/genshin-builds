@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "**[[stat:er]]:** It is usually beneficial for [[character:tighnari]] to use his [[ability:burst]] every time he uses his [[ability:skill]] if possible. His [[stat:er]] needs vary widely, but provided they are low enough to be reachable, Bursting every [[ability:skill]] is a large DPS increase.",
-            "fr": "**[[stat:er]] :** Il est généralement bénéfique que [[character:tighnari]] utilise son [[ability:burst]] chaque fois qu'il utilise son [[ability:skill]] si possible. Ses besoins en [[stat:er]] varient beaucoup, mais s'ils sont assez bas pour être atteignables, utiliser l'[[ability:burst]] à chaque [[ability:skill]] est un gros gain de DPS."
+            "fr": "**[[stat:er]] :** Il est généralement bénéfique que [[character:tighnari]] utilise son [[ability:burst]] chaque fois qu'il utilise son [[ability:skill]] si possible. Ses besoins en [[stat:er]] varient beaucoup, mais s'ils sont assez bas pour être atteignables, utiliser l'[[ability:burst]] à chaque [[ability:skill]] est un gros gain de DPS.",
+            "ru": "**[[stat:er]]:** Использование [[ability:burst|Взрыва стихии]] каждый раз, когда [[character:tighnari]] активирует [[ability:skill]] - наиболее выгодная стратегия. Потребность в [[stat:er|энергии]] может сильно меняться; при условии, что она не очень высока, достижение необходимого порога [[stat:er|ВЭ]] для использования [[ability:burst|Взрыва стихии]] каждую ротацию значительно поднимает ДПС отряда."
         }
     ],
     "main_stats": {

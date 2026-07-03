@@ -16,7 +16,8 @@
                     "name": "sacrificial-sword",
                     "note": {
                         "en": "Prioritized over **[[weapon:sapwood-blade]]** due to [[element:dendro]] [[character:traveler]]'s exceedingly high [[stat:er]] requirements for [[ability:burst]] uptime consistency.",
-                        "fr": "Priorisée par rapport à **[[weapon:sapwood-blade]]** en raison des besoins en [[stat:er]] extrêmement élevés du [[character:traveler]] [[element:dendro]] que son [[ability:burst]] soit disponible en permanence."
+                        "fr": "Priorisée par rapport à **[[weapon:sapwood-blade]]** en raison des besoins en [[stat:er]] extrêmement élevés du [[character:traveler]] [[element:dendro]] que son [[ability:burst]] soit disponible en permanence.",
+                        "ru": "Предпочтительнее **[[weapon:sapwood-blade|Деревянного клинка]]** из-за чрезвычайно высоких требований к [[stat:er|Восстановлению энергии]] для использования [[ability:burst|Взрыва стихии]] по откату."
                     }
                 }
             ]

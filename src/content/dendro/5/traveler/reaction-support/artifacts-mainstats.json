@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Prioritize maintaining their [[ability:burst]] uptime, the [[stat:er]] needs for [[element:dendro]] [[character:traveler]] would be a lot greater if they are the only [[element:dendro]] unit in the team.",
-            "fr": "Priorisez le maintien de l'uptime de son [[ability:burst]]. Les besoins en [[stat:er]] du [[character:traveler]] [[element:dendro]] seront bien plus élevés s'il est le seul personnage [[element:dendro]] dans l'équipe."
+            "fr": "Priorisez le maintien de l'uptime de son [[ability:burst]]. Les besoins en [[stat:er]] du [[character:traveler]] [[element:dendro]] seront bien plus élevés s'il est le seul personnage [[element:dendro]] dans l'équipe.",
+            "ru": "Важно обеспечить возможность использования [[ability:burst|Взрыва стихии]] по откату, поэтому потребность в [[stat:er|Восстановлении энергии]] у [[element:dendro]] [[character:traveler]]а выше, если он единственный [[element:dendro]] персонаж в команде."
         }
     ],
     "main_stats": {

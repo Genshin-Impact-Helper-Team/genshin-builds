@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This ranking assumes that you already have another **[[set:deepwood-memories]]** holder on the team, if not then **[[set:deepwood-memories]]** becomes his best set.",
-                                "fr": "Ce classement suppose que vous avez déjà un autre porteur de **[[set:deepwood-memories]]** dans l'équipe, sinon **[[set:deepwood-memories]]** devient son meilleur set."
+                                "fr": "Ce classement suppose que vous avez déjà un autre porteur de **[[set:deepwood-memories]]** dans l'équipe, sinon **[[set:deepwood-memories]]** devient son meilleur set.",
+                                "ru": "Предполагается, что в отряде есть другой носитель **[[set:deepwood-memories|Воспоминаний дремучего леса]]**. Если такового нет, то **[[set:deepwood-memories]]** - лучший вариант для аль-Хайтама."
                             }
                         }
                     ]
@@ -34,7 +35,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "These split set options can actually perform similarly to **[[set:gilded-dreams]] (4)** or even surpass it in situations where you have higher [[stat:er]] requirements or want to [[ability:burst]] every rotation. Or even if they just have better substat rolls on them.",
-                                "fr": "Ces options de sets 2p peuvent en fait être comparables à **[[set:gilded-dreams]] (4)** -voire les dépasser- dans les situations où vous avez des besoins en [[stat:er]] plus élevés, si voulez utiliser l'[[ability:burst]] à chaque rotation, ou bien même si elles ont simplement de meilleures sous stats."
+                                "fr": "Ces options de sets 2p peuvent en fait être comparables à **[[set:gilded-dreams]] (4)** -voire les dépasser- dans les situations où vous avez des besoins en [[stat:er]] plus élevés, si voulez utiliser l'[[ability:burst]] à chaque rotation, ou bien même si elles ont simplement de meilleures sous stats.",
+                                "ru": "Могут соответствовать **[[set:gilded-dreams|Позолоченным снам]] (4)** или превосходить их при высокой потребности в [[stat:er|ВЭ]], желании использовать [[ability:burst]] каждую ротацию или при наличии лучших сабстатов."
                             }
                         }
                     ]
@@ -62,7 +64,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "If played with [[character:furina]], this is [[character:alhaitham]]'s best set.",
-                        "fr": "Si joué avec [[character:furina]], c'est le meilleur set d'[[character:alhaitham]]."
+                        "fr": "Si joué avec [[character:furina]], c'est le meilleur set d'[[character:alhaitham]].",
+                        "ru": "При игре с [[character:furina|Фуриной]] этот сет превосходит другие варианты."
                     }
                 }
             ]
