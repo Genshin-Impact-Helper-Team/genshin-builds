@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "[[element:melt]] DPS",
-        "fr": "DPS [[element:melt]]"
+        "fr": "DPS [[element:melt]]",
+        "it": "DPS [[element:melt]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:ganyu]]'s Level 2 [[ability:ca]] applies two instances [[element:cryo]] as they do not share the same ICD, which allows you to trigger [[element:melt]] reaction twice for both damage instances. [[ability:ca]] will be the majority of her damage output while neglecting her [[ability:skill]]/[[ability:burst]] damage contribution for most scenarios.",
-            "fr": "L'[[ability:ca]] de niveau 2 de [[character:ganyu]] applique deux instances [[element:cryo]] comme elles ne partagent pas le même ICD, ce qui vous permet de déclencher la réaction [[element:melt]] deux fois pour les deux instances de dégâts. Les [[ability:ca|attaques chargées]] représenteront la majorité de ses dégâts, en négligeant la contribution de dégâts de son [[ability:skill]]/[[ability:burst]] dans la plupart des scénarios."
+            "fr": "L'[[ability:ca]] de niveau 2 de [[character:ganyu]] applique deux instances [[element:cryo]] comme elles ne partagent pas le même ICD, ce qui vous permet de déclencher la réaction [[element:melt]] deux fois pour les deux instances de dégâts. Les [[ability:ca|attaques chargées]] représenteront la majorité de ses dégâts, en négligeant la contribution de dégâts de son [[ability:skill]]/[[ability:burst]] dans la plupart des scénarios.",
+            "it": "Gli [[ability:ca|Attacchi Caricati]] di Livello 2 applicano Cryo due volte (poiché non condividono ICD), il che permette di provocare [[element:melt]] due volte. Gli [[ability:ca|Attacchi Caricati]] rappresentano dunque la fonte principale di danno di [[character:ganyu]] in team [[element:melt]], con un trascurabile contributo da parte dell'[[ability:skill]] e del [[ability:burst]]."
         },
         {
             "en": "[[character:ganyu]]'s [[ability:burst]] should not be used in most [[element:melt]] teams, as it can lead to [[ability:ca]]s not being able to trigger [[element:melt]].",
-            "fr": "L'[[ability:burst]] de [[character:ganyu]] ne devrait pas être utilisé dans la plupart des équipes [[element:melt]], car cela peut empêcher ses [[ability:ca]]s de déclencher [[element:melt]]."
+            "fr": "L'[[ability:burst]] de [[character:ganyu]] ne devrait pas être utilisé dans la plupart des équipes [[element:melt]], car cela peut empêcher ses [[ability:ca]]s de déclencher [[element:melt]].",
+            "it": "Nella maggior parte dei team [[element:melt]], il [[ability:burst]] di [[ability:burst]] dovrebbe essere evitato, poiché potrebbe impedire ai suoi [[ability:ca|Attacchi Caricati]] di provocare [[element:melt]] (Melt)."
         }
     ]
 }
