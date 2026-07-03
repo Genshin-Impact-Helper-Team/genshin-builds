@@ -7,19 +7,23 @@
     "notes": [
         {
             "en": "[[character:skirk]] is a [[element:cryo]] DPS that specializes on dealing damage on field through [[ability:na]]s, while also being able to take the role of a [[ability:burst]] Nuke. [[character:skirk]]'s Ascension 4 Passive provides her with a big Base Damage Modifier, therefore it is important to run her with **only [[element:cryo]] and [[element:hydro]] Teammates** to maximize this passive.",
-            "fr": "[[character:skirk]] est une DPS [[element:cryo]] spécialisée dans les dégâts on-field avec ses [[ability:na]], tout en pouvant aussi jouer le rôle de Nuke [[ability:burst]]. Son Passif d'Ascension 4 lui apporte un gros Modificateur de dégâts de base ; il est donc important de la jouer **uniquement avec des personnages [[element:cryo]] et [[element:hydro]]** pour maximiser ce passif."
+            "fr": "[[character:skirk]] est une DPS [[element:cryo]] spécialisée dans les dégâts on-field avec ses [[ability:na]], tout en pouvant aussi jouer le rôle de Nuke [[ability:burst]]. Son Passif d'Ascension 4 lui apporte un gros Modificateur de dégâts de base ; il est donc important de la jouer **uniquement avec des personnages [[element:cryo]] et [[element:hydro]]** pour maximiser ce passif.",
+            "it": "[[character:skirk]] è un DPS [[element:cryo]] specializzata nell'infliggere danni sul campo tramite i suoi [[ability:na|Attacchi Normali]], ma può anche assumere il ruolo di Nuke tramite il suo [[ability:burst]]. Il suo Talento A4 le fornisce un significativo aumento al modificatore di Danno Base, quindi è importante usarla **in team composti esclusivamente da membri [[element:cryo]] e [[element:hydro]]** per massimizzare questo vantaggio."
         },
         {
             "en": "[[character:skirk]] uses \"Serpent's Subtlety\" instead of Energy. She does not benefit from [[stat:er]], and her \"Elemental Energy\" is always 0.",
-            "fr": "[[character:skirk]] utilise la « Finesse serpentine » à la place de l'énergie. Elle ne bénéficie pas de la [[stat:er]], et son « Énergie élémentaire » est toujours à 0."
+            "fr": "[[character:skirk]] utilise la « Finesse serpentine » à la place de l'énergie. Elle ne bénéficie pas de la [[stat:er]], et son « Énergie élémentaire » est toujours à 0.",
+            "it": "[[character:skirk]] utilizza l''Astuzia del serpente' al posto dell'Energia, e non richiede alcuna [[stat:er]]. La sua 'Energia Elementale' è sempre pari a 0."
         },
         {
-            "en": "- First Rotation with big [[ability:burst]] ready: {rot:Q E N5 C 2N5 C N5}",
-            "fr": "- Première rotation avec le gros [[ability:burst]] prêt : {rot:A E N5 C 2N5 C N5}"
+            "en": "- First Rotation with big [[ability:burst]] ready: {rot:Q E N5 CA 2N5 CA N5}",
+            "fr": "- Première rotation avec le gros [[ability:burst]] prêt : {rot:A E N5 C 2N5 C N5}",
+            "it": "- Prima rotazione con [[ability:burst]] carico: {rot:Q E N5 CA 2N5 CA N5}"
         },
         {
-            "en": "- Rotations without big [[ability:burst]]: {rot:E N5 Q 2N5 C N5}",
-            "fr": "- Rotations sans le gros [[ability:burst]] : {rot:E N5 A 2N5 C N5}"
+            "en": "- Rotations without big [[ability:burst]]: {rot:E N5 Q 2N5 CA N5}",
+            "fr": "- Rotations sans le gros [[ability:burst]] : {rot:E N5 A 2N5 C N5}",
+            "it": "- Rotazione senza [[ability:burst]] carico: {rot:E N5 Q 2N5 CA N5}"
         }
     ]
 }
