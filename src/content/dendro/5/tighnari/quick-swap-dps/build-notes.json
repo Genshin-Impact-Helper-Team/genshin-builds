@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Quick Swap DPS",
-        "fr": "DPS Quick Swap"
+        "fr": "DPS Quick Swap",
+        "ru": "ДД в револьверных отрядах"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:tighnari]]'s standard build revolves around him doing his [[ability:skill]], Three Clusterbloom Arrows, an [[ability:burst]], and promptly swapping out to another character.",
-            "fr": "Le build standard de [[character:tighnari]] tourne autour du fait d'utiliser son [[ability:skill]], trois flèches florales, un [[ability:burst]], et de rapidement swap vers un autre personnage."
+            "fr": "Le build standard de [[character:tighnari]] tourne autour du fait d'utiliser son [[ability:skill]], trois flèches florales, un [[ability:burst]], et de rapidement swap vers un autre personnage.",
+            "ru": "Предполагается, что [[character:tighnari]] в стандартной сборке использует [[ability:skill]], три стрелы-соцветия и [[ability:burst]] и сразу же переключается на другого персонажа."
         },
         {
             "en": "There are three recommended combos that [[character:tighnari]] can perform:\n1. {rot:E C Q 2C} - This is the most mechanically difficult combo. However, this combo allows [[character:tighnari]] to have both his [[ability:burst]] affected by A1 and funnel particles from his [[ability:skill]] to his next [[ability:burst]].\n2. {rot:E 3C Q} - Allows [[character:tighnari]]'s [[ability:burst]] to benefit from A1. However, this combo doesn't allow [[character:tighnari]] to funnel particles from his [[ability:skill]] into his next [[ability:burst]].\n3. {rot:E Q 3C} - Simplest combo to use, and generally weakest combo though it allows prefunneling. His [[ability:burst]] does not benefit from A1 in this combo. It is recommended at [C4] due to the [[stat:em]] buff.",
-            "fr": "Il y a trois combos recommandés que [[character:tighnari]] peut effectuer :\n1. {rot:E C Q 2C} - C'est le combo le plus difficile mécaniquement. Cependant, ce combo permet à [[character:tighnari]] d'avoir à la fois son [[ability:burst]] affecté par son A1 et de funnel les particules de son [[ability:skill]] vers son prochain [[ability:burst]].\n2. {rot:E 3C A} - Permet à l'[[ability:burst]] de [[character:tighnari]] de bénéficier de son passif A1. Cependant, ce combo ne permet pas à [[character:tighnari]] de funnel les particules de son [[ability:skill]] vers son prochain [[ability:burst]].\n3. {rot:E A 3C} - Le combo le plus simple à utiliser, et généralement le plus faible, bien qu'il permette de prefunnel. Son [[ability:burst]] ne bénéficie pas de son passif A1 dans ce combo. Il est recommandé une fois [C4] grâce au buff de [[stat:em]]."
+            "fr": "Il y a trois combos recommandés que [[character:tighnari]] peut effectuer :\n1. {rot:E C Q 2C} - C'est le combo le plus difficile mécaniquement. Cependant, ce combo permet à [[character:tighnari]] d'avoir à la fois son [[ability:burst]] affecté par son A1 et de funnel les particules de son [[ability:skill]] vers son prochain [[ability:burst]].\n2. {rot:E 3C A} - Permet à l'[[ability:burst]] de [[character:tighnari]] de bénéficier de son passif A1. Cependant, ce combo ne permet pas à [[character:tighnari]] de funnel les particules de son [[ability:skill]] vers son prochain [[ability:burst]].\n3. {rot:E A 3C} - Le combo le plus simple à utiliser, et généralement le plus faible, bien qu'il permette de prefunnel. Son [[ability:burst]] ne bénéficie pas de son passif A1 dans ce combo. Il est recommandé une fois [C4] grâce au buff de [[stat:em]].",
+            "ru": "Рекомендуемые комбо:\n1. {rot:E C Q 2C} - Самое технически сложное комбо; реализует первый Пассивный талант и позволяет заряжать [[ability:burst]] [[ability:skill|навыком]] для следующей ротации.\n2. {rot:E 3C Q} - Первый Пассивный талант увеличивает урон [[ability:burst|Взрыва стихии]]. Однако частицы от [[ability:skill|Элементального навыка]] не заряжают следующий [[ability:burst]].\n3. {rot:E Q 3C} - Самое простое, но также самое слабое комбо. [[ability:burst]] не получает бонус первого Пассивного таланта. Рекомендуется на [C4] из-за бонуса [[stat:em|МС]]."
         }
     ],
     "weapons": [
