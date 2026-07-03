@@ -18,7 +18,8 @@
                     "name": "amos-bow",
                     "note": {
                         "en": "[[character:ganyu]]'s Level 2 [[ability:ca]] Bloom extends arrow flight duration allowing her to get 3 stacks of **[[weapon:amos-bow]]** passive even on point blank range.",
-                        "fr": "La fleur de la flèche chargée de niveau 2 de [[character:ganyu]] prolonge la durée de vol de la flèche, ce qui lui permet d'obtenir 3 stacks du passif de **[[weapon:amos-bow]]** même à bout portant."
+                        "fr": "La fleur de la flèche chargée de niveau 2 de [[character:ganyu]] prolonge la durée de vol de la flèche, ce qui lui permet d'obtenir 3 stacks du passif de **[[weapon:amos-bow]]** même à bout portant.",
+                        "it": "L'[[ability:ca]] di Livello 2 di [[character:ganyu]] allunga la durata del volo della freccia, permettendole di ottenere 3 accumuli della passiva di **[[weapon:amos-bow]]** anche a distanza ravvicinata."
                     }
                 }
             ]
@@ -35,8 +36,9 @@
                 {
                     "name": "flower-wreathed-feathers",
                     "note": {
-                        "en": "This weapon scales incredibly well with refinements. At [R5], this weapon performs better than **[[weapon:the-first-great-magic]]**.",
-                        "fr": "Cette arme profite extrêmement bien des raffinements. Une fois [R5], cette arme dépasse **[[weapon:the-first-great-magic]]**."
+                        "en": "This weapon scales incredibly well with refinements. At **[R5]**, this weapon performs better than **[[weapon:the-first-great-magic]]**.",
+                        "fr": "Cette arme profite extrêmement bien des raffinements. Une fois **[R5]**, cette arme dépasse **[[weapon:the-first-great-magic]]**.",
+                        "it": "Quest'arma scala incredibilmente bene con i miglioramenti. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:the-first-great-magic]]**."
                     }
                 }
             ]
@@ -47,14 +49,16 @@
                     "name": "hamayumi",
                     "note": {
                         "en": "Due to its passive, this weapon prefers **[[set:wanderers-troupe]] (4)** instead. At higher refinements, **[[weapon:hamayumi]]** can outperform **[[weapon:thundering-pulse]]** and **[[weapon:skyward-harp]]**.",
-                        "fr": "En raison de son passif, cette arme préfère plutôt **[[set:wanderers-troupe]] (4)**. Aux raffinements élevés, **[[weapon:hamayumi]]** peut dépasser **[[weapon:thundering-pulse]]** et **[[weapon:skyward-harp]]**."
+                        "fr": "En raison de son passif, cette arme préfère plutôt **[[set:wanderers-troupe]] (4)**. Aux raffinements élevés, **[[weapon:hamayumi]]** peut dépasser **[[weapon:thundering-pulse]]** et **[[weapon:skyward-harp]]**.",
+                        "it": "A causa della sua passiva, quest'arma preferisce **[[set:wanderers-troupe]] (4)**. A miglioramenti elevati, può superare **[[weapon:thundering-pulse]]** e **[[weapon:skyward-harp]]**."
                     }
                 },
                 {
                     "name": "scion-of-the-blazing-sun",
                     "note": {
-                        "en": "At [R5], this weapon can outperform **[[weapon:thundering-pulse]]** and **[[weapon:skyward-harp]]**.",
-                        "fr": "Une fois [R5], cette arme peut être meilleure que **[[weapon:thundering-pulse]]** et **[[weapon:skyward-harp]]**."
+                        "en": "At **[R5]**, this weapon can outperform **[[weapon:thundering-pulse]]** and **[[weapon:skyward-harp]]**.",
+                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:thundering-pulse]]** et **[[weapon:skyward-harp]]**.",
+                        "it": "A **[R5]**, quest'arma può superare **[[weapon:thundering-pulse]]** e **[[weapon:skyward-harp]]**."
                     }
                 }
             ]
@@ -65,7 +69,8 @@
                     "name": "prototype-crescent",
                     "note": {
                         "en": "At higher refinement levels with good uptime on its passive, it can potentially be on par with **[[weapon:skyward-harp]]**. However, do bear in mind that not all enemies have weak spots that you can headshot, which does affect its performance significantly.",
-                        "fr": "Aux raffinements élevés avec un bon uptime de son passif, elle peut potentiellement équivaloir à **[[weapon:skyward-harp]]**. Cependant, gardez à l'esprit que tous les ennemis n'ont pas forcément de point faible, ce qui affecte fortement ses performances."
+                        "fr": "Aux raffinements élevés avec un bon uptime de son passif, elle peut potentiellement équivaloir à **[[weapon:skyward-harp]]**. Cependant, gardez à l'esprit que tous les ennemis n'ont pas forcément de point faible, ce qui affecte fortement ses performances.",
+                        "it": "A miglioramenti elevati e con un buon tempo di funzionamento della passiva, può potenzialmente essere alla pari di **[[weapon:skyward-harp]]**. Tuttavia, tieni presente che non tutti i nemici hanno Punti Deboli, il che influisce in modo significativo sulle sue prestazioni."
                     }
                 }
             ]

@@ -6,7 +6,8 @@
                     "name": "calamity-queller",
                     "note": {
                         "en": "The passive of this weapon works perfectly with [[character:shenhe]]'s [[ability:skill]] because it's dynamic.",
-                        "fr": "Le passif de cette arme fonctionne parfaitement avec le [[ability:skill]] de [[character:shenhe]], parce qu'il est dynamique."
+                        "fr": "Le passif de cette arme fonctionne parfaitement avec le [[ability:skill]] de [[character:shenhe]], parce qu'il est dynamique.",
+                        "it": "La passiva di quest'arma, poiché dinamica, funziona perfettamente con l'[[ability:skill]] di [[character:shenhe]]."
                     }
                 }
             ]
@@ -22,7 +23,8 @@
                     "name": "vortex-vanquisher",
                     "note": {
                         "en": "This weapon's passive can't be stacked off-field, but it's still an ATK stat stick which provides [[character:shenhe]] with a lot of ATK.",
-                        "fr": "Le passif de cette arme ne peut pas être stacké off-field, mais elle reste une stat stick ATQ qui apporte beaucoup d'ATQ à [[character:shenhe]]."
+                        "fr": "Le passif de cette arme ne peut pas être stacké off-field, mais elle reste une stat stick ATQ qui apporte beaucoup d'ATQ à [[character:shenhe]].",
+                        "it": "La passiva di quest'arma non può generare accumuli quando il personaggio è fuori campo, ma resta comunque un'arma che fornisce molto ATT a [[character:shenhe]]."
                     }
                 }
             ]
@@ -43,7 +45,8 @@
                     "name": "favonius-lance",
                     "note": {
                         "en": "[[note:favo]]. Do note that [[element:cryo]] Resonance provides 15% [[stat:cr]] on [[element:cryo]]-imbued enemies, so the need for [[stat:cr]] on [[character:shenhe]] is lowered. With refinements especially, **[[weapon:favonius-lance]]** can outperform 5-star options under some conditions.",
-                        "fr": "[[note:favo]]. Notez que la Résonance [[element:cryo]] donne 15 % de [[stat:cr]] contre les ennemis imprégnés de [[element:cryo]], donc le besoin de [[stat:cr]] sur [[character:shenhe]] est réduit. Avec les raffinements, **[[weapon:favonius-lance]]** peut dépasser des options 5 étoiles sous certaines conditions."
+                        "fr": "[[note:favo]]. Notez que la Résonance [[element:cryo]] donne 15 % de [[stat:cr]] contre les ennemis imprégnés de [[element:cryo]], donc le besoin de [[stat:cr]] sur [[character:shenhe]] est réduit. Avec les raffinements, **[[weapon:favonius-lance]]** peut dépasser des options 5 étoiles sous certaines conditions.",
+                        "it": "[[note:favo]]. Si noti che la [[element:cryo]] fornisce un 15% [[stat:cr]] sui nemici infusi con [[element:cryo]].  **[[weapon:favonius-lance]]** può superare le opzioni 5* in determinate condizioni, specialmente con dei miglioramenti."
                     }
                 },
                 {

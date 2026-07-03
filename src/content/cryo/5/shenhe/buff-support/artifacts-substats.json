@@ -11,7 +11,8 @@
             "name": "cr/cd",
             "note": {
                 "en": "[[stat:cr]] substats become more relevant when using **[[weapon:favonius-lance]]**.",
-                "fr": "Les substats de [[stat:cr]] deviennent plus pertinentes avec **[[weapon:favonius-lance]]**."
+                "fr": "Les substats de [[stat:cr]] deviennent plus pertinentes avec **[[weapon:favonius-lance]]**.",
+                "it": "Stat secondarie [[stat:cr]] hanno maggiore rilievo con **[[weapon:favonius-lance]]**."
             }
         },
         "atk"
