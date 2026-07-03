@@ -17,7 +17,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set becomes slightly better than **[[set:wanderers-troupe]]** if [[character:tighnari]] uses his [[ability:burst]] every time he uses his [[ability:skill]].",
-                                "fr": "Ce set devient légèrement meilleur que **[[set:wanderers-troupe]]** si [[character:tighnari]] utilise son [[ability:burst]] chaque fois qu'il utilise son [[ability:skill]]."
+                                "fr": "Ce set devient légèrement meilleur que **[[set:wanderers-troupe]]** si [[character:tighnari]] utilise son [[ability:burst]] chaque fois qu'il utilise son [[ability:skill]].",
+                                "ru": "Превосходит **[[set:wanderers-troupe]]** в случае, если [[character:tighnari]] использует [[ability:burst]] каждый раз, когда активирует [[ability:skill]]."
                             }
                         }
                     ]
@@ -66,7 +67,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This is by far [[character:tighnari]]'s best set if no one else on the team is using it.",
-                                "fr": "C'est de loin le meilleur set de [[character:tighnari]] si personne d'autre dans l'équipe ne l'utilise."
+                                "fr": "C'est de loin le meilleur set de [[character:tighnari]] si personne d'autre dans l'équipe ne l'utilise.",
+                                "ru": "Лучший набор при отсутствии другого носителя в отряде."
                             }
                         }
                     ]
