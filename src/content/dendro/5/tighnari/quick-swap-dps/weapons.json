@@ -14,7 +14,8 @@
                     "name": "the-first-great-magic",
                     "note": {
                         "en": "Weapon ranking is assuming two Gimmick stacks. It performs a bit worse in solo [[element:dendro]], but still remains a good option.",
-                        "fr": "Le classement de l'arme suppose deux stacks de Roublardise. Elle devient un peu moins bonne en solo [[element:dendro]], mais reste toujours une bonne option."
+                        "fr": "Le classement de l'arme suppose deux stacks de Roublardise. Elle devient un peu moins bonne en solo [[element:dendro]], mais reste toujours une bonne option.",
+                        "ru": "Предполагается, что активны два уровня Уловки. В моно-[[element:dendro]] отрядах показывает себя немного хуже, но остается неплохим вариантом."
                     }
                 }
             ]
@@ -31,7 +32,8 @@
                     "name": "elegy-for-the-end",
                     "note": {
                         "en": "If [[character:tighnari]] does not need the [[stat:er]] that **[[weapon:elegy-for-the-end]]** provides, this weapon will perform worse than **[[weapon:scion-of-the-blazing-sun]]** for his personal damage.",
-                        "fr": "Si [[character:tighnari]] n'a pas besoin de la [[stat:er]] qu'**[[weapon:elegy-for-the-end]]** fournit, cette arme sera moins performante que **[[weapon:scion-of-the-blazing-sun]]** pour ses dégâts personnels."
+                        "fr": "Si [[character:tighnari]] n'a pas besoin de la [[stat:er]] qu'**[[weapon:elegy-for-the-end]]** fournit, cette arme sera moins performante que **[[weapon:scion-of-the-blazing-sun]]** pour ses dégâts personnels.",
+                        "ru": "Проигрывает **[[weapon:scion-of-the-blazing-sun|Наследнику слепящего солнца]]** по личному урону, если [[character:tighnari]] не требуется [[stat:er]] от **[[weapon:elegy-for-the-end|Элегии]]**."
                     }
                 },
                 "amos-bow",
@@ -40,7 +42,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If [[character:tighnari]] does not need the [[stat:er]] this weapon provides, it is similar to **[[weapon:prototype-crescent]]** in terms of damage.",
-                        "fr": "Si [[character:tighnari]] n'a pas besoin de la [[stat:er]] que cette arme fournit, elle est similaire à **[[weapon:prototype-crescent]]** en termes de dégâts."
+                        "fr": "Si [[character:tighnari]] n'a pas besoin de la [[stat:er]] que cette arme fournit, elle est similaire à **[[weapon:prototype-crescent]]** en termes de dégâts.",
+                        "ru": "Соответствует **[[weapon:prototype-crescent|Прототипу]]**, если [[character:tighnari]] не требуется [[stat:er]] от данного оружия."
                     }
                 }
             ]
@@ -51,7 +54,8 @@
                     "name": "scion-of-the-blazing-sun",
                     "note": {
                         "en": "At **[R5]** this weapon is slightly worse than **[[weapon:thundering-pulse]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est légèrement moins bonne que **[[weapon:thundering-pulse]]**."
+                        "fr": "Une fois **[R5]**, cette arme est légèrement moins bonne que **[[weapon:thundering-pulse]]**.",
+                        "ru": "На **[R5]** немного уступает **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 },
                 "the-viridescent-hunt"
@@ -64,14 +68,16 @@
                     "refinement": 5,
                     "note": {
                         "en": "Significantly worse when fighting from a long range.",
-                        "fr": "Bien moins bonne en combattant à longue distance."
+                        "fr": "Bien moins bonne en combattant à longue distance.",
+                        "ru": "Показывает себя значительно хуже на дальних дистанциях."
                     }
                 },
                 {
                     "name": "range-gauge",
                     "note": {
                         "en": "This weapon is strong if you can get three passive stacks. At **[R5]** with three passive stacks, this weapon performs similarly to **[[weapon:thundering-pulse]]**.",
-                        "fr": "Cette arme est forte si vous pouvez obtenir trois stacks de passif. Une fois **[R5]** avec trois stacks de passif, cette arme est comparable à **[[weapon:thundering-pulse]]**."
+                        "fr": "Cette arme est forte si vous pouvez obtenir trois stacks de passif. Une fois **[R5]** avec trois stacks de passif, cette arme est comparable à **[[weapon:thundering-pulse]]**.",
+                        "ru": "Дальномер: Крайне силён при наборе трёх уровней Пассивной способности. На **[R5]** и с предыдущим условием соответствует **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 },
                 {
@@ -82,7 +88,8 @@
                     "name": "song-of-stillness",
                     "note": {
                         "en": "Weapon ranking assumes passive is active. At **[R5]**, it performs similarly to **[[weapon:range-gauge]]**.",
-                        "fr": "Le classement de l'arme suppose que le passif est actif. Une fois **[R5]**, elle équivaut à **[[weapon:range-gauge]]**."
+                        "fr": "Le classement de l'arme suppose que le passif est actif. Une fois **[R5]**, elle équivaut à **[[weapon:range-gauge]]**.",
+                        "ru": "Мелодия покоя: Предполагается, что поддерживается бонус Пассивной способности оружия. На **[R5]** соответствует **[[weapon:range-gauge|Дальномеру]]**."
                     }
                 }
             ]
@@ -93,7 +100,8 @@
                     "name": "prototype-crescent",
                     "note": {
                         "en": "At **[R5]**, this weapon is better than **[[weapon:slingshot]]**. Notably, this weapon is heavily reliant on enemies having weakspots.",
-                        "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:slingshot]]**. A noter, cette arme dépend fortement du fait que les ennemis aient des points faibles."
+                        "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:slingshot]]**. A noter, cette arme dépend fortement du fait que les ennemis aient des points faibles.",
+                        "ru": "Превосходит **[[weapon:slingshot|Рогатку]]** на **[R5]**. Эффективность зависит от наличия слабых мест у противников."
                     }
                 }
             ]
