@@ -6,11 +6,7 @@
                     "items": [
                         {
                             "name": "tenacity-of-the-millelith",
-                            "pieces": 4,
-                            "note": {
-                                "en": "This option is recommended only when paired with **[[weapon:sacrificial-sword]]** to be able to maintain uptime on the [[stat:atk%]] buff from the set.",
-                                "fr": "Cette option n'est recommandée qu'avec **[[weapon:sacrificial-sword]]** afin de pouvoir maintenir l'uptime du buff de [[stat:atk%]] du set."
-                            }
+                            "pieces": 4
                         }
                     ]
                 }
@@ -24,8 +20,8 @@
                             "name": "scroll-of-the-hero-of-cinder-city",
                             "pieces": 4,
                             "note": {
-                                "en": "This set is a great option if [[character:qiqi]] is placed in a party with a character from Natlan. Do note that she may have a rough time triggering an elemental reaction if you are solely using her [[ability:skill]].",
-                                "fr": "Ce set est une très bonne option si [[character:qiqi]] est placée dans une équipe avec un personnage de Natlan. Notez qu'elle peut avoir du mal à déclencher une réaction élémentaire si vous utilisez uniquement son [[ability:skill]]."
+                                "en": "This set is a great option if [[character:qiqi]] is placed in a party with a character from Natlan.",
+                                "fr": "Ce set est une très bonne option si [[character:qiqi]] est placée dans une équipe avec un personnage de Natlan."
                             }
                         }
                     ]

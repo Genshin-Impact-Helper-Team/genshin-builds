@@ -1,13 +1,18 @@
 {
     "name": {
-        "en": "Heal Support",
-        "fr": "Support Soins"
+        "en": "Heal & Buff Support"
     },
     "best": true,
     "notes": [
         {
-            "en": "[[character:qiqi]] has extremely strong healing capabilities, but it comes with the drawback of 0 way to battery herself pre-[C1] and no other meaningful way to support her team through her kit alone. Her A4 allows her to apply her healing talisman with her [[ability:na]]s which has a 30-second cooldown, and scales with her [[ability:burst]] talent. [[stat:er]] will greatly benefit [[character:qiqi]], however you should not need to [[ability:burst]] every rotation.",
-            "fr": "[[character:qiqi]] possède d'excellentes capacités de soin, mais souffre de l'inconvénient de n'avoir aucun moyen de se générer de l'énergie elle-même avant sa [C1] et aucun autre moyen vraiment notable de soutenir son équipe via son kit seul. Son A4 lui permet d'appliquer son talisman de soin avec ses [[ability:na]], qui a un cooldown de 30 secondes et dépend de son talent d'[[ability:burst]]. La [[stat:er]] profitera beaucoup à [[character:qiqi]], mais vous ne devriez pas avoir besoin d'utiliser son [[ability:burst]] à chaque rotation."
+            "en": "**This section assumes you have unlocked Qiqi's Lucid Revelation buffs from the Witch's Revelation Quest: Instruction of Curious Form.**"
+
+        },
+        {
+            "en": "[[character:qiqi]] is capable of providing not only extremely strong healing, but also decent [[element:cryo]] Application and Energy generation. Not only can she now generate energy when the Herald of Frost hits enemies, but now her [[elemental:skill]] has near 100% uptime, and performs coordiated attacks off-field."
+        },
+        {
+            "en": "Additionaly, [[character:qiqi]] is capable of providing potent buffs to the [[element:stellar-conduct]] reaction, so she is an excellent member to pair with [[character:sandrone]] (who is currently the only character capable of performing the [[element:stellar-conduct]] reaction, and thus creating a Polestar Field)."
         }
     ]
 }
