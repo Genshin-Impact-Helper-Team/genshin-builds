@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "This set can rival or outdo **[[set:a-day-carved-from-rising-winds]]** if [[character:lohen]] is fighting enemies that can be consistently frozen.  Do not use this set in teams that do not have consistent [[element:cryo]] aura on enemies.",
                                 "fr": "Ce set peut rivaliser avec **[[set:a-day-carved-from-rising-winds]]**, voire le dépasser, si [[character:lohen]] affronte des ennemis pouvant être gelés de manière constante. N'utilisez pas ce set dans les équipes qui n'ont pas une aura [[element:cryo]] permanente sur les ennemis.",
-                                "it": "Questo set può eguagliare o superare **[[set:a-day-carved-from-rising-winds]]** quando [[character:lohen]] combatte nemici che possono essere **Congelati** in maniera costante. Non usare questo set se il tuo team non riesce a mantenere un'aura [[element:cryo]] costante sui nemici."
+                                "it": "Questo set può eguagliare o superare **[[set:a-day-carved-from-rising-winds]]** quando [[character:lohen]] combatte nemici che possono essere **Congelati** in maniera costante. Non usare questo set se il tuo team non riesce a mantenere un'aura [[element:cryo]] costante sui nemici.",
+                                "ru": "Может соответствовать **[[set:a-day-carved-from-rising-winds|Дню восходящих ветров]]** (4) или превосходить его против целей, которые могут быть заморожены. Не стоит использовать, если команда не позволяет поддерживать [[element:cryo]] статус на цели."
                             }
                         }
                     ]
@@ -84,7 +85,8 @@
                     "note": {
                         "en": "This set is roughly equal to **[[set:a-day-carved-from-rising-winds]]** if [[character:lohen]] is used with **[[character:furina]]**.",
                         "fr": "Ce set est à peu près équivalent à **[[set:a-day-carved-from-rising-winds]]** si [[character:lohen]] est joué avec **[[character:furina]]**.",
-                        "it": "Questo set ha prestazioni simili a **[[set:a-day-carved-from-rising-winds]]** se [[character:lohen]] è giocato con **[[character:furina]]**."
+                        "it": "Questo set ha prestazioni simili a **[[set:a-day-carved-from-rising-winds]]** se [[character:lohen]] è giocato con **[[character:furina]]**.",
+                        "ru": "Примерно соответствует **[[set:a-day-carved-from-rising-winds|Дню восходящих ветров]]** (4) в отрядах с **[[character:furina|Фуриной]]**."
                     }
                 }
             ]
