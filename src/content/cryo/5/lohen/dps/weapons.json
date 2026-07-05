@@ -42,7 +42,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
                         "fr": "Une fois **[R5]**, cette arme se classe de manière similaire à **[[weapon:calamity-queller]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 },
                 {
@@ -50,7 +51,8 @@
                     "note": {
                         "en": "If [[character:lohen]] is **consistently shielded**, this weapon ranks similarly to **[[weapon:staff-of-the-scarlet-sands]]**.",
                         "fr": "Si [[character:lohen]] est **constamment sous bouclier**, cette arme se rapproche de **[[weapon:staff-of-the-scarlet-sands]]**.",
-                        "it": "Se [[character:lohen]] si trova sotto la protezione di uno **scudo**, quest'arma ha prestazioni simili a **[[weapon:staff-of-the-scarlet-sands]]**."
+                        "it": "Se [[character:lohen]] si trova sotto la protezione di uno **scudo**, quest'arma ha prestazioni simili a **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "ru": "При **наличии щита** на [[character:lohen]]е соответствует **[[weapon:staff-of-the-scarlet-sands|Посоху алых песков]]**."
                     }
                 }
             ]
@@ -62,7 +64,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks similarly to **[[weapon:deathmatch]]**.",
                         "fr": "Une fois **[R5]**, cette arme se classe de manière similaire à **[[weapon:deathmatch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:deathmatch|Смертельному бою]]**."
                     }
                 },
                 "blackcliff-pole"
@@ -88,7 +91,8 @@
                     "note": {
                         "en": "This weapon's performance heavily depends on **how much value the rest of the team gains** from having lower [[stat:er]] requirements.",
                         "fr": "Les performances de cette arme dépendent beaucoup de **l'intérêt que le reste de l'équipe tire** de besoins en [[stat:er]] plus bas.",
-                        "it": "Le prestazioni di quest'arma dipendono in larga misura da **quanto il resto del team tragga vantaggio da requisiti di [[stat:er]] più bassi**."
+                        "it": "Le prestazioni di quest'arma dipendono in larga misura da **quanto il resto del team tragga vantaggio da requisiti di [[stat:er]] più bassi**.",
+                        "ru": "Эффективность этого оружия зависит от того, насколько сниженная потребность в [[stat:er|энергии]] полезна **другим членам отряда**."
                     }
                 },
                 {
