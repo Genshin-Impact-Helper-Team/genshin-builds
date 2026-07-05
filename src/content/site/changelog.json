@@ -2,6 +2,16 @@
     "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pub?gid=172546500&single=true&output=csv",
     "groups": [
         {
+            "version": "6.7 / Luna VIII",
+            "entries": [
+                {
+                    "date": "July 5, 2026",
+                    "changes": "Updated Qiqi section.",
+                    "appliedBy": "Greenster"
+                }
+            ]
+        },
+        {
             "version": "6.6 / Luna VII",
             "entries": [
                 {

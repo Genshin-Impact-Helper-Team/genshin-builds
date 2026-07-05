@@ -34,11 +34,7 @@
                     "items": [
                         {
                             "name": "ocean-hued-clam",
-                            "pieces": 4,
-                            "note": {
-                                "en": "This ranking assumes [[character:qiqi]] does not get her [[ability:burst]] up often and is instead relying mainly on her [[ability:skill]] for healing. If she is in a team which funds her enough energy particles, or if she acts as the on-field DPS, this set can overtake **[[set:tenacity-of-the-millelith]] (4)**.",
-                                "fr": "Ce classement suppose que [[character:qiqi]] n'a pas souvent son [[ability:burst]] et qu'elle s'appuie principalement sur son [[ability:skill]] pour soigner. Si elle est dans une équipe qui lui fournit suffisamment de particules d'énergie, ou si elle agit comme DPS on-field, ce set peut dépasser **[[set:tenacity-of-the-millelith]] (4)**."
-                            }
+                            "pieces": 4
                         }
                     ]
                 },

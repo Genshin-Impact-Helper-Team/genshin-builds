@@ -1,31 +1,13 @@
 {
     "notes": [
         {
-            "en": "Due to [[character:qiqi]]'s extremely high [[stat:er]] needs and inability to generate energy for herself, [[stat:er]] weapons are prioritized.",
-            "fr": "En raison des besoins extrêmement élevés de [[character:qiqi]] en [[stat:er]] et de son incapacité à générer de l'énergie pour elle-même, les armes de [[stat:er]] sont priorisées."
+            "en": "[[character:qiqi]] still wants [[stat:er]] weapons to help bring her [[ability:burst]] back every rotation. As such, they are still prioritized."
         }
     ],
     "weapons": [
         {
             "items": [
-                {
-                    "name": "sacrificial-sword",
-                    "note": {
-                        "en": "This is [[character:qiqi]]'s best option for maintaining [[ability:skill]] uptime, assuming the Frost Herald is able to hit an enemy. Should the weapon proc, wait for the Frost Herald to disappear before using her [[ability:skill]] again.",
-                        "fr": "C'est la meilleure option de [[character:qiqi]] pour maintenir l'uptime de son [[ability:skill]], à condition que le Héraut de givre puisse toucher un ennemi. Si le passif de l'arme se déclenche, attendez que le Héraut de givre disparaisse avant d'utiliser à nouveau son [[ability:skill]]."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "favonius-sword",
-                    "note": {
-                        "en": "This weapon can place higher if the team values the particles generated from it. Otherwise, it is preferred to use **[[weapon:sacrificial-sword]]** or other available options.",
-                        "fr": "Cette arme peut se classer plus haut si l'équipe valorise les particules qu'elle génère. Sinon, il est préférable d'utiliser **[[weapon:sacrificial-sword]]** ou d'autres options disponibles."
-                    }
-                }
+                "favonius-sword"
             ]
         },
         {
