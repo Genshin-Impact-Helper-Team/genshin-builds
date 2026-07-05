@@ -24,7 +24,8 @@
                     "note": {
                         "en": "Ranking assumes one enemy. At **[R5]**, this weapon performs the same as **[[weapon:lumidouce-elegy]]**.",
                         "fr": "Le classement suppose 1 ennemi. Une fois **[R5]**, cette arme équivaut à **[[weapon:lumidouce-elegy]]**.",
-                        "it": "La classifica presuppone un solo nemico. A **[R5]**, quest’arma offre prestazioni migliori di **[[weapon:lumidouce-elegy]]**."
+                        "it": "La classifica presuppone un solo nemico. A **[R5]**, quest’arma offre prestazioni migliori di **[[weapon:lumidouce-elegy]]**.",
+                        "ru": "Предполагается бой против одного противника. На **[R5]** соответствует **[[weapon:lumidouce-elegy|Элегию Люмидус]]**."
                     }
                 },
                 "staff-of-the-scarlet-sands",
@@ -37,7 +38,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs close to **[[weapon:calamity-queller]]**.",
                         "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:calamity-queller]]**.",
-                        "it": "A **[R5]**, quest’arma ha prestazioni simili a **[[weapon:calamity-queller]]**."
+                        "it": "A **[R5]**, quest’arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
+                        "ru": "На **[R5]** примерно соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 }
             ]
@@ -58,7 +60,8 @@
                     "note": {
                         "en": "[[character:escoffier]] can reliably get high stacks starting from second rotation onward. Performs better than **[[weapon:staff-of-the-scarlet-sands]]** at **[R5]**.",
                         "fr": "[[character:escoffier]] peut obtenir des stacks élevés de façon fiable à partir de la deuxième rotation. Une fois **[R5]**, elle dépasse **[[weapon:staff-of-the-scarlet-sands]]**.",
-                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. A **[R5]**, le prestazioni di quest'arma superano quelle di **[[weapon:staff-of-the-scarlet-sands]]**."
+                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. A **[R5]**, le prestazioni di quest'arma superano quelle di **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "ru": "[[character:escoffier]] может стабильно набирать уровни Пассивной способности, начиная со второй ротации. На **[R5]** соответствует **[[weapon:staff-of-the-scarlet-sands|Посоху алых песков]]**."
                     }
                 },
                 {
@@ -66,7 +69,8 @@
                     "note": {
                         "en": "At **[R5]** this weapon performs slightly better than similar ranking options.",
                         "fr": "Une fois **[R5]**, cette arme fait légèrement mieux que les options classées de façon similaire.",
-                        "it": "A **[R5]**, quest’arma offre prestazioni leggermente migliori rispetto ad altre opzioni di pari livello."
+                        "it": "A **[R5]**, quest’arma offre prestazioni leggermente migliori rispetto ad altre opzioni di pari livello.",
+                        "ru": " На **[R5]** несколько превосходит варианты на той же позиции в рейтинге."
                     }
                 },
                 "wavebreakers-fin",
@@ -83,7 +87,8 @@
                     "note": {
                         "en": "This weapon is extremely detrimental for [[character:escoffier]]'s personal damage if she does not have high [[stat:er]] Requirements, but can possibly yield more team damage.",
                         "fr": "Cette arme nuit énormément aux dégâts personnels de [[character:escoffier]] si elle n'a pas de besoins élevés en [[stat:er]], mais elle peut éventuellement apporter plus de dégâts d'équipe.",
-                        "it": "Quest’arma penalizza fortemente i danni personali di [[character:escoffier]] se non ha elevate esigenze di [[stat:er]], ma può comunque aumentare il danno complessivo del team."
+                        "it": "Quest’arma penalizza fortemente i danni personali di [[character:escoffier]] se non ha elevate esigenze di [[stat:er]], ma può comunque aumentare il danno complessivo del team.",
+                        "ru": "Крайне слабый вариант для личного урона Эскофье при низкой потребности в энергии, но может принести пользу за счёт энергии для отряда."
                     }
                 }
             ]
