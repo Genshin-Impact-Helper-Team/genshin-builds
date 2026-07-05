@@ -7,6 +7,7 @@
                     "note": {
                         "en": "This weapon is a good generalist option for [[character:yaoyao]], providing [[stat:er]] with a useful passive.",
                         "fr": "Cette arme est une bonne option généraliste pour [[character:yaoyao]], fournissant de la [[stat:er]] avec un passif utile.",
+                        "it": "Quest'arma è una buona opzione generalista, fornendo [[stat:er]] ed una passiva utile.",
                         "ru": "Является отличным универсальным вариантом, дающим [[stat:er]] [[character:yaoyao]] и энергию отряду."
                     }
                 }
@@ -25,6 +26,7 @@
                     "note": {
                         "en": "This weapon performs worse if you are not planning to use [[character:yaoyao]]'s [[ability:burst]].",
                         "fr": "Cette arme est moins bonne si vous ne prévoyez pas d'utiliser l'[[ability:burst]] de [[character:yaoyao]].",
+                        "it": "Quest'arma ha prestazioni peggiori se non si ha intenzione di utilizzare il [[ability:burst]] di [[character:yaoyao]].",
                         "ru": "Показывает себя хуже, если [[character:yaoyao]] не использует [[ability:burst]]."
                     }
                 }
@@ -42,6 +44,7 @@
                     "note": {
                         "en": "This weapon can be better than **[[weapon:favonius-lance]]** in teams where [[character:yaoyao]] has a significant amount of [[element:bloom]] ownership.",
                         "fr": "Cette arme peut dépasser **[[weapon:favonius-lance]]** dans les équipes où [[character:yaoyao]] déclenche une grande partie des [[element:bloom]]s.",
+                        "it": "Quest'arma può avere prestazioni migliori di **[[weapon:favonius-lance]]** in team dove [[character:yaoyao]] innesca personalmente una significativa quantità di reazioni [[element:bloom]].",
                         "ru": "Превосходит **[[weapon:favonius-lance]]** в отрядах, где [[character:yaoyao]] активно вызывает [[element:bloom|Бутонизацию]]."
                     }
                 }
