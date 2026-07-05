@@ -11,7 +11,8 @@
                 "note": {
                     "en": "While [[stat:cryo-dmg]] Bonus is usually better for Damage, high amounts of DMG% buffs can make [[stat:atk%]] Goblets competitive while also providing a bit more healing.",
                     "fr": "Bien que le bonus de [[stat:cryo-dmg]] soit généralement meilleur pour les dégâts, de grandes quantités de buffs de DGT% peuvent rendre les coupes [[stat:atk%]] compétitives tout en apportant un peu plus de soin.",
-                    "it": "Nonostante [[stat:cryo-dmg]] sia solitamente migliore per i danni di [[character:escoffier]], quantità elevate di potenziamento di DAN% possono rendere competitivo un Calice [[stat:atk%]], fornendo allo stesso tempo un po’ più di cure."
+                    "it": "Nonostante [[stat:cryo-dmg]] sia solitamente migliore per i danni di [[character:escoffier]], quantità elevate di potenziamento di DAN% possono rendere competitivo un Calice [[stat:atk%]], fornendo allo stesso tempo un po’ più di cure.",
+                    "ru": "Хотя [[stat:cryo-dmg]] обычно превосходит [[stat:atk%|Силу атаки%]], при большом количестве бонусов Элементального урона из внешних источников [[stat:atk%]] может сравниться c ним, при этом повышая и объём лечения."
                 }
             }
         ],
