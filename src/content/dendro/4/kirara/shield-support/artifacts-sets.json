@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "While worse for shield strength, this set is a great option when using [[character:kirara]] in [[element:aggravate]] teams for the teamwide [[stat:em]] buff.",
                                 "fr": "Bien que moins bon pour la solidité du bouclier, ce set est une excellente option lorsque [[character:kirara]] est utilisée dans les équipes [[element:aggravate]] pour le buff de [[stat:em]].",
+                                "it": "Sebbene peggiore in termini di resistenza dello scudo, questo set è un'ottima opzione quando [[character:kirara]] viene utilizzata in un team [[element:aggravate]] grazie al potenziamento alla [[stat:em]] di tutto il team.",
                                 "ru": "Уступает по прочности щита, но крайне полезен за счёт бонуса [[stat:em|МС]] в отрядах, играющих от [[element:aggravate|Обострения]]."
                             }
                         }
@@ -27,6 +28,7 @@
                             "note": {
                                 "en": "This set should be used in teams which involve a relevant amount of [[element:dendro]] damage and nobody else is using it.",
                                 "fr": "Ce set devrait être utilisé dans les équipes qui impliquent une quantité pertinente de dégâts [[element:dendro]] et où personne d'autre ne l'utilise.",
+                                "it": "Questo set dovrebbe essere utilizzato in team che infliggono una quantità rilevante di danni [[element:dendro]] ed in cui nessun altro lo sta utilizzando.".
                                 "ru": "Рекомендуется использовать в играющих от [[element:dendro]] отрядах, если нет другого носителя."
                             }
                         }
@@ -52,6 +54,7 @@
                             "note": {
                                 "en": "This set is an option when using [[character:kirara]] on-field.",
                                 "fr": "Ce set est une option lorsque [[character:kirara]] est utilisée on-field.",
+                                "it": "Questa è un'opzione quando [[character:kirara]] è utilizzata sul campo.",
                                 "ru": "Лучший выбор, если [[character:kirara]] играет на поле."                      
                             }
                         }
