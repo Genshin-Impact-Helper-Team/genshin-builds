@@ -618,58 +618,69 @@ function loadBuildData({
   const buildNotesFile = fileInBuild(buildPath, 'build-notes.json');
 
   const rawWeapons = loadJSON(buildPath, 'weapons.json');
-  const weaponData = loadWeaponData(weaponType);
+  const weapons = rawWeapons
+    ? translateWeaponRecommendations(rawWeapons, {
+        weaponData: loadWeaponData(weaponType),
+        weaponType,
+        sourceFile: weaponsFile,
+        translator,
+      })
+    : null;
 
-  const weapons = translateWeaponRecommendations(rawWeapons, {
-    weaponData,
-    weaponType,
-    sourceFile: weaponsFile,
-    translator,
-  });
+  const rawArtifactSets = loadJSON(buildPath, 'artifacts-sets.json');
+  const rawArtifactMainstats = loadJSON(buildPath, 'artifacts-mainstats.json');
+  const rawArtifactSubstats = loadJSON(buildPath, 'artifacts-substats.json');
 
   const artifacts = {
-    sets: translateArtifactSetRecommendations(
-      loadJSON(buildPath, 'artifacts-sets.json'),
-      translator,
-      locale,
-      artifactSetsFile,
-      artifactSetData,
-    ),
-    mainstats: loadJSON(buildPath, 'artifacts-mainstats.json'),
-    substats: loadJSON(buildPath, 'artifacts-substats.json'),
+    sets: rawArtifactSets
+      ? translateArtifactSetRecommendations(
+          rawArtifactSets,
+          translator,
+          locale,
+          artifactSetsFile,
+          artifactSetData,
+        )
+      : null,
+    mainstats: rawArtifactMainstats,
+    substats: rawArtifactSubstats,
   };
 
-  artifacts.mainstats.main_stats = translateMainStats(
-    locale,
-    artifacts.mainstats,
-    artifactMainstatsFile,
-    translator,
-  );
-
-  artifacts.substats.substats_priority =
-    artifacts.substats.substats_priority.map((item: any) =>
-      translateSubstatPriorityItem(
-        locale,
-        item,
-        artifactSubstatsFile,
-        translator,
-      ),
+  if (artifacts.mainstats) {
+    artifacts.mainstats.main_stats = translateMainStats(
+      locale,
+      artifacts.mainstats,
+      artifactMainstatsFile,
+      translator,
     );
+  }
 
-  const talents = translateTalentPriorities(
-    loadJSON(buildPath, 'talents.json'),
-    translator,
-    talentsFile,
-  );
+  if (artifacts.substats) {
+    artifacts.substats.substats_priority =
+      artifacts.substats.substats_priority.map((item: any) =>
+        translateSubstatPriorityItem(
+          locale,
+          item,
+          artifactSubstatsFile,
+          translator,
+        ),
+      );
+  }
+
+  const rawTalents = loadJSON(buildPath, 'talents.json');
+  const talents = rawTalents
+    ? translateTalentPriorities(rawTalents, translator, talentsFile)
+    : null;
 
   const notes = {
     weapons: {
       global: collectSectionNotes(weapons, weaponsFile, lang, translator),
       items: collectNotes(
-        [
-          ...weapons.weapons,
-          ...(weapons.conditional ? [{ items: weapons.conditional }] : []),
-        ],
+        weapons
+          ? [
+              ...weapons.weapons,
+              ...(weapons.conditional ? [{ items: weapons.conditional }] : []),
+            ]
+          : [],
         (weapon: { name: any }) => weapon.name,
         weaponsFile,
         lang,
@@ -698,31 +709,35 @@ function loadBuildData({
         ),
       ],
       sets: collectNotes(
-        getArtifactSetNoteGroups(artifacts.sets),
+        artifacts.sets ? getArtifactSetNoteGroups(artifacts.sets) : [],
         (artifact: { name: any; pieces: any }) =>
           `${artifact.name} (${artifact.pieces})`,
         artifactSetsFile,
         lang,
         translator,
       ),
-      mainstats: collectMainStatNotes(
-        artifacts.mainstats.main_stats,
-        artifactMainstatsFile,
-        lang,
-        translator,
-      ),
-      substats: collectStatNotes(
-        artifacts.substats.substats_priority,
-        (stat: { name: any }) => stat.name,
-        artifactSubstatsFile,
-        lang,
-        translator,
-      ),
+      mainstats: artifacts.mainstats
+        ? collectMainStatNotes(
+            artifacts.mainstats.main_stats,
+            artifactMainstatsFile,
+            lang,
+            translator,
+          )
+        : [],
+      substats: artifacts.substats
+        ? collectStatNotes(
+            artifacts.substats.substats_priority,
+            (stat: { name: any }) => stat.name,
+            artifactSubstatsFile,
+            lang,
+            translator,
+          )
+        : [],
     },
     talents: {
       global: collectSectionNotes(talents, talentsFile, lang, translator),
       items: collectNotes(
-        talents.talents,
+        talents?.talents ?? [],
         (talent: { name: any }) => talent.name,
         talentsFile,
         lang,

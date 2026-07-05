@@ -109,18 +109,29 @@ const noteMarkerExplanation = t(
                 )}
 
                 <div class="grid">
-                  <Weapon
-                    weapons={build.weapons}
-                    locale={locale}
-                    lang={currentLang}
-                  />
-                  <Artifact
-                    artifacts={build.artifacts}
-                    locale={locale}
-                    lang={currentLang}
-                  />
-                  <ArtifactStats artifacts={build.artifacts} locale={locale} />
-                  <Talent talents={build.talents} locale={locale} />
+                  {build.weapons && (
+                    <Weapon
+                      weapons={build.weapons}
+                      locale={locale}
+                      lang={currentLang}
+                    />
+                  )}
+                  {build.artifacts.sets && (
+                    <Artifact
+                      artifacts={build.artifacts}
+                      locale={locale}
+                      lang={currentLang}
+                    />
+                  )}
+                  {build.artifacts.mainstats && build.artifacts.substats && (
+                    <ArtifactStats
+                      artifacts={build.artifacts}
+                      locale={locale}
+                    />
+                  )}
+                  {build.talents && (
+                    <Talent talents={build.talents} locale={locale} />
+                  )}
                 </div>
                 <Notes
                   notes={build.notes}
