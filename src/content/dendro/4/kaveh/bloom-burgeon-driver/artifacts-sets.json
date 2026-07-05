@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "Do not use this set on [[character:kaveh]] if another character is already using it.",
                                 "fr": "N'utilisez pas ce set sur [[character:kaveh]] si un autre personnage l'utilise déjà.",
+                                "it": "Non usare questo set su [[character:kaveh]] se un altro personaggio in team lo sta già usando.",
                                 "ru": "Не рекомендуется использовать, если в отряде уже есть другой носитель данного сета."
                             }
                         }
@@ -27,6 +28,7 @@
                             "note": {
                                 "en": "Outclasses **[[set:deepwood-memories]] (4)** as long as another user can hold **[[set:deepwood-memories]]**. It gets notably better at **[C1]**.",
                                 "fr": "Surpasse **[[set:deepwood-memories]] (4)** tant qu'un autre personnage peut porter **[[set:deepwood-memories]]**. Devient nettement meilleur avec la **[C1]**.",
+                                "it": "Supera **[[set:deepwood-memories]] (4)** purché un altro membro del team stia utilizzando **[[set:deepwood-memories]] (4)**. Ha prestazioni notevolmente migliori a **[C1]**.",
                                 "ru": "Потенциально может превосходить **[[set:deepwood-memories]] (4)**, если в отряде уже есть другой носитель данного сета. Становится актуальнее с получением **[C1]**."
                             }
                         }
@@ -44,6 +46,7 @@
                             "note": {
                                 "en": "This set can be better than **[[set:ocean-hued-clam]] (4)** if [[character:kaveh]] triggers the majority of [[element:bloom]]s in your team.",
                                 "fr": "Ce set peut être meilleur que **[[set:ocean-hued-clam]] (4)** si [[character:kaveh]] déclenche la majorité des [[element:bloom]]s dans votre équipe.",
+                                "it": "Questo set può avere prestazioni migliori di **[[set:ocean-hued-clam]] (4)** se [[character:kaveh]] **innesca la maggior parte delle reazioni [[element:bloom]] nel team**.",
                                 "ru": "Может превосходить **[[set:ocean-hued-clam]] (4)**, если [[character:kaveh]] закрывает большую часть [[element:bloom|Бутонизации]] в отряде."
                             }
                         }
