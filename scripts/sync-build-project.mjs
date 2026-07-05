@@ -806,8 +806,6 @@ async function createProjectField(client, projectId, fieldName, dataType) {
 }
 
 async function createBestRoleField(client, projectId, fieldName) {
-  // ponytail: Projects has no boolean field type; a true/false single-select
-  // is the native filterable equivalent.
   const { data } = await client.graphql(
     `
       mutation CreateBestRoleField($projectId: ID!, $name: String!) {

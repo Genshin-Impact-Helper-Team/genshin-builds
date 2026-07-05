@@ -39,7 +39,8 @@
                     "note": {
                         "en": "Ranking assumes one enemy. At **[R5]**, this weapon performs better than **[[weapon:staff-of-homa]]**.",
                         "fr": "Le classement suppose 1 ennemi. Une fois **[R5]**, cette arme dépasse **[[weapon:staff-of-homa]]**.",
-                        "it": "La classifica presuppone un solo nemico. A **[R5]**, quest’arma offre prestazioni migliori di **[[weapon:staff-of-homa]]**."
+                        "it": "La classifica presuppone un solo nemico. A **[R5]**, quest’arma offre prestazioni migliori di **[[weapon:staff-of-homa]]**.",
+                        "ru": "Предполагается бой против одиночного противника. На **[R5]** превосходит **[[weapon:staff-of-homa]]**."
                     }
                 },
                 {
@@ -47,7 +48,8 @@
                     "note": {
                         "en": "While inferior to a number of weapons in terms of personal damage, this weapon can be very good thanks to helping the team with Energy.",
                         "fr": "Bien qu'elle soit inférieure à plusieurs armes en termes de dégâts personnels, cette arme peut être très bonne grâce à son aide pour l'énergie de l'équipe.",
-                        "it": "Pur essendo inferiore a diverse armi in termini di danni personali, quest’arma può rivelarsi molto utile grazie al supporto fornito al team."
+                        "it": "Pur essendo inferiore a diverse armi in termini di danni personali, quest’arma può rivelarsi molto utile grazie al supporto fornito al team.",
+                        "ru": "Уступает другим вариантам по личному урону Эскофье, но может компенсировать это за счёт энергии для отряда."
                     }
                 },
                 "skyward-spine",
@@ -56,7 +58,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:engulfing-lightning]]**.",
                         "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:engulfing-lightning]]**.",
-                        "it": "A **[R5]**, quest’arma ha prestazioni simili a **[[weapon:engulfing-lightning]]**."
+                        "it": "A **[R5]**, quest’arma ha prestazioni simili a **[[weapon:engulfing-lightning]]**.",
+                        "ru": "На **[R5]** примерно соответствует **[[weapon:engulfing-lightning|Сияющей жатве]]**."
                     }
                 }
             ]
@@ -70,7 +73,8 @@
                     "note": {
                         "en": "[[character:escoffier]] can reliably get high stacks starting from second rotation onward. Performs close to **[[weapon:lumidouce-elegy]]** at **[R5]**.",
                         "fr": "[[character:escoffier]] peut obtenir des stacks élevés de façon fiable à partir de la deuxième rotation. Une fois **[R5]**, elle se rapproche de **[[weapon:lumidouce-elegy]]**.",
-                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. A **[R5]**, le prestazioni di quest'arma si avvicinano a quelle di **[[weapon:lumidouce-elegy]]**."
+                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. A **[R5]**, le prestazioni di quest'arma si avvicinano a quelle di **[[weapon:lumidouce-elegy]]**.",
+                        "ru": "[[character:escoffier]] может стабильно набирать уровни Пассивной способности, начиная со второй ротации. На **[R5]** соответствует **[[weapon:lumidouce-elegy|Элегии Люмидус]]**."
                     }
                 }
             ]
@@ -86,7 +90,8 @@
                     "note": {
                         "en": "At **[R5]** this weapon performs slightly better than similar ranking options.",
                         "fr": "Une fois **[R5]**, cette arme fait légèrement mieux que les options classées de façon similaire.",
-                        "it": "A **[R5]**, quest’arma offre prestazioni leggermente migliori rispetto ad altre opzioni di pari livello."
+                        "it": "A **[R5]**, quest’arma offre prestazioni leggermente migliori rispetto ad altre opzioni di pari livello.",
+                        "ru": "На **[R5]** несколько превосходит варианты на той же позиции в рейтинге."
                     }
                 },
                 "wavebreakers-fin"

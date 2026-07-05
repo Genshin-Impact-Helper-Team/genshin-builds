@@ -2,6 +2,7 @@
     "name": {
         "en": "Heal Support",
         "fr": "Support Soins",
+        "it": "Supporto Cure",
         "ru": "Саппорт"
     },
     "best": true,
@@ -9,16 +10,19 @@
         {
             "en": "[[character:yaoyao]] focuses on healing and applying [[element:dendro]] with her [[ability:skill]] and [[ability:burst]]. She can be used in a wide range of team archetypes, but do note her [[element:dendro]] application from her [[ability:skill]] alone is generally insufficient for [[element:bloom]]/[[element:hyperbloom]]/[[element:burgeon]] teams as a solo [[element:dendro]] option.",
             "fr": "[[character:yaoyao]] se concentre sur les soins et l'application [[element:dendro]] avec son [[ability:skill]] et son [[ability:burst]]. Elle peut être utilisée dans un bon nombre d'archétypes d'équipe, mais notez que son application [[element:dendro]] avec uniquement son [[ability:skill]] est généralement insuffisante pour les équipes [[element:bloom]]/[[element:hyperbloom]]/[[element:burgeon]] en tant que seule option [[element:dendro]].",
+            "it": "[[character:yaoyao]] è incentrata sulle cure e sull'applicazione [[element:dendro]] tramite l'[[ability:skill]] ed il [[ability:burst]]. Può essere utilizzata in un'ampia gamma di team, ma c'è da tener conto che l'applicazione [[element:dendro]] dalla sua [[ability:skill]] da sola non è di solito sufficiente per essere l'unica [[element:dendro]] nel team per le reazioni [[element:bloom]]/[[element:hyperbloom]]/[[element:burgeon]].",
             "ru": "[[character:yaoyao]] фокусируется на лечении отряда и наложении [[element:dendro]] за счет [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]]. Яо Яо используется в широком спектре отрядов, но следует учитывать, что без второго [[element:dendro]] персонажа статуса от её [[ability:skill|Элементального навыка]] может быть недостаточно в играющих от бутонов отрядах."
         },
         {
             "en": "The additional Yueguis summoned by the [[ability:burst]] are removed when [[character:yaoyao]] leaves the field.",
             "fr": "Les Yueguis supplémentaires invoqués par l'[[ability:burst]] disparaissent quand [[character:yaoyao]] quitte le terrain.",
+            "it": "Gli Yuegui addizionali evocati dal [[ability:burst]] scompaiono quando [[character:yaoyao]] esce dal campo.",
             "ru": "Юэгуи, вызываемые [[ability:burst|Взрывом стихии]], исчезают, если [[character:yaoyao]] уходит в карман."
         },
         {
             "en": "If using **[[weapon:favonius-lance]]**, you can perform [[ability:skill]] followed by two [[ability:na|Normal Attacks]] in order to trigger the passive.",
             "fr": "Si vous utilisez **[[weapon:favonius-lance]]**, vous pouvez utiliser le [[ability:skill]] suivi de deux [[ability:na|attaques normales]] afin de déclencher le passif.",
+            "it": "Se si utilizza la **[[weapon:favonius-lance]]**, puoi attivare la sua [[ability:skill]] seguita da due [[ability:na|Attacchi Normali]] in sequenza per attivare la passiva.",
             "ru": "При использовании **[[weapon:favonius-lance|Копья Фавония]]** для активации эффекта оружия можно выполнять две [[ability:na|Обычные атаки]]."
         }
     ]
