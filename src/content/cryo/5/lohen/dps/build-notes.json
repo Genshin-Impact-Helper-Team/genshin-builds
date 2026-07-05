@@ -2,7 +2,8 @@
     "name": {
         "en": "DPS",
         "fr": "DPS",
-        "it": "DPS"
+        "it": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "global": {
@@ -13,21 +14,25 @@
         {
             "en": "[[character:lohen]] is a [[element:cryo]] DPS who deals the majority of his damage through [[ability:na]]s and [[ability:ca]]s, but weaves [[ability:skill]] and [[ability:burst]] damage throughout. [[character:lohen]]'s damage is further increased when Off-Field DPS units deal large amounts of damage.",
             "fr": "[[character:lohen]] est un DPS [[element:cryo]] qui inflige la majorité de ses dégâts avec ses [[ability:na]]s et [[ability:ca]]s, tout en intégrant des dégâts de [[ability:skill]] et de [[ability:burst]] tout au long de sa rotation. Les dégâts de [[character:lohen]] augmentent davantage lorsque des personnages DPS off-field infligent de grandes quantités de dégâts.",
-            "it": "[[character:lohen]] è un DPS [[element:cryo]] che infligge la maggior parte dei suoi danni tramite [[ability:na|Attacchi Normali]] e [[ability:ca|Caricati]], integrando però anche danni da [[ability:skill]] e da [[ability:burst]]. I **danni inflitti da [[character:lohen]] aumentano ulteriormente quando sono presenti DPS fuori campo che infliggono danni ingenti**."
+            "it": "[[character:lohen]] è un DPS [[element:cryo]] che infligge la maggior parte dei suoi danni tramite [[ability:na|Attacchi Normali]] e [[ability:ca|Caricati]], integrando però anche danni da [[ability:skill]] e da [[ability:burst]]. I **danni inflitti da [[character:lohen]] aumentano ulteriormente quando sono presenti DPS fuori campo che infliggono danni ingenti**.",
+            "ru": "[[character:lohen]] - [[element:cryo]] ДД, который наносит большую часть урона за счёт [[ability:na|Обычных]] и [[ability:ca|Заряженных атак]], а также активно использует [[ability:skill]] и [[ability:burst]]. Его урон дополнительно увеличивается, если другие члены отряда наносят высокий урон из кармана. "
         },
         {
             "en": "**General Combo**: {rot:N1 > CA > N1 > CA > E > N1 > CA > N1 > CA > repeat x3}",
             "fr": "**Combo général**: {rot: 3[2N1C E 2N1C]}",
-            "it": "**Combo generica**: {rot:2N1C E 2N1C, ripeti 3 volte}"
+            "it": "**Combo generica**: {rot:2N1C E 2N1C, ripeti 3 volte}",
+            "ru": "**Стандартное комбо**: {rot:N1 > CA > N1 > CA > E > N1 > CA > N1 > CA > повторить x3}"
         },
         {
             "en": "Since using [[character:lohen]]'s CA will automatically use his normal attack beforehand, you do not have to worry about using multiple inputs for N1 > CA",
-            "fr": "Puisque la CA de [[character:lohen]] utilise automatiquement sa N1, vous n'avez pas besoin d'effectuer plusieurs actions pour faire N1 > CA"
+            "fr": "Puisque la CA de [[character:lohen]] utilise automatiquement sa N1, vous n'avez pas besoin d'effectuer plusieurs actions pour faire N1 > CA",
+            "ru": "Нет нужды слишком активно нажимать клавиши атаки, так как при выполнении Заряженной атаки перед ней автоматически активируется Обычная."
         },
         {
             "en": "Rankings assume [[character:lohen]] is **not** run in a team where he himself triggers [[element:melt]] reactions.",
             "fr": "Les classements supposent que [[character:lohen]] n'est **pas** joué dans une équipe où il déclenche lui-même des réactions de [[element:melt]].",
-            "it": "Le classifiche partono dal presupposto che [[character:lohen]] **non** sia giocato in un team dove lui stesso provoca reazioni di [[element:melt]]."
+            "it": "Le classifiche partono dal presupposto che [[character:lohen]] **non** sia giocato in un team dove lui stesso provoca reazioni di [[element:melt]].",
+            "ru": "Рейтинг составлен с учётом того, что [[character:lohen]] играет в отряде, где **не закрывает [[element:melt]]**."
         }
     ]
 }
