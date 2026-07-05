@@ -2,19 +2,22 @@
     "name": {
         "en": "Low Energy Requirement (Off-Field DPS, 3-4 [[element:cryo]] Team Members)",
         "fr": "Besoin en énergie faible (DPS off-field, 3-4 personnages [[element:cryo]])",
-        "it": "DPS Fuori Campo (Requisiti di Energia Bassi, 3-4 personaggi [[element:cryo]])"
+        "it": "DPS Fuori Campo (Requisiti di Energia Bassi, 3-4 personaggi [[element:cryo]])",
+        "ru": "Карманный ДД (Низкая потребность в энергии, 3-4 [[element:cryo]] персонажа в отряде)"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:escoffier]] is a DPS that dishes out respectable amounts of Off-Field damage through her [[ability:skill]] while also serving up a sizeable [[element:cryo]] and [[element:hydro]] Resistance shred thanks to her Ascension 4 Talent. Additionally, her [[ability:burst]] and Ascension 1 Talent allow her to keep her Team well nourished and healed.",
             "fr": "[[character:escoffier]] est une DPS qui sert des quantités respectables de dégâts off-field grâce à son [[ability:skill]], tout en offrant une réduction importante de Résistance [[element:cryo]] et [[element:hydro]] grâce à son Talent d'Ascension 4. De plus, son [[ability:burst]] et son Talent d'Ascension 1 lui permettent de garder son équipe bien nourrie et soignée.",
-            "it": "[[character:escoffier]] è una DPS che infligge danni rispettabili da fuori campo tramite la sua [[ability:skill]], oltre a ridurre in modo significativo la RES [[element:cryo]] e [[element:hydro]] dei nemici grazie al suo Talento A4. Inoltre, il suo [[ability:burst]] e Talento A1 le permettono di curare il team."
+            "it": "[[character:escoffier]] è una DPS che infligge danni rispettabili da fuori campo tramite la sua [[ability:skill]], oltre a ridurre in modo significativo la RES [[element:cryo]] e [[element:hydro]] dei nemici grazie al suo Talento A4. Inoltre, il suo [[ability:burst]] e Talento A1 le permettono di curare il team.",
+            "ru": "[[character:escoffier]] наносит урон из кармана [[ability:skill|Элементальным навыком]] и уменьшает сопротивление врагов к [[element:cryo]] и [[element:hydro]] с помощью второго Пассивного таланта. Также она может лечить команду [[ability:burst|Взрывом стихии]] и первым Пассивным талантом."
         },
         {
             "en": "[[character:escoffier]]'s Hold [[ability:skill]] can provide you with up to 10 special delicious dishes per week, but does not help you with cooking your enemies, so avoid using it during combat.",
             "fr": "Le Hold [[ability:skill]] de [[character:escoffier]] peut vous fournir jusqu'à 10 plats délicieux spéciaux par semaine, mais il ne vous aide pas à cuisiner vos ennemis, donc évitez de l'utiliser en combat.",
-            "it": "L’[[ability:skill]] premuta a lungo di [[character:escoffier]] può fornire fino a 10 Piatti Deliziosi Speciali a settimana, ma non aiuta a 'cucinare' i nemici, dunque evita di usarla durante i combattimenti."
+            "it": "L’[[ability:skill]] premuta a lungo di [[character:escoffier]] può fornire fino a 10 Piatti Deliziosi Speciali a settimana, ma non aiuta a 'cucinare' i nemici, dunque evita di usarla durante i combattimenti.",
+            "ru": "Долгое нажатие [[ability:skill|Элементального навыка]] [[character:escoffier]] даёт до 10 особых вкусных блюд за неделю, но никак не помогает против врагов, поэтому не используйте его во время битвы."
         }
     ],
     "weapons": [
