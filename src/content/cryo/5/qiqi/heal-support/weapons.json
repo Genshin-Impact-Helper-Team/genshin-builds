@@ -1,7 +1,9 @@
 {
     "notes": [
         {
-            "en": "[[character:qiqi]] still wants [[stat:er]] weapons to help bring her [[ability:burst]] back every rotation. As such, they are still prioritized."
+            "en": "[[character:qiqi]] still wants [[stat:er]] weapons to help bring her [[ability:burst]] back every rotation. As such, they are still prioritized.",
+            "ru": "Оружие на [[stat:er]] - желательный вариант для [[character:qiqi]], чтобы активировать [[ability:burst]] каждую ротацию."
+            
         }
     ],
     "weapons": [
@@ -16,7 +18,8 @@
                     "name": "peak-patrol-song",
                     "note": {
                         "en": "Thanks to [[character:qiqi]]'s high Base [[stat:def|DEF]], you can get a meaningful amount of the buff from this weapon. While using this weapon, you must [[ability:na]] twice to activate the passive. [[stat:def%]] stats can be considered if your team does not struggle with survivability.",
-                        "fr": "Grâce à la [[stat:def]] de base élevée de [[character:qiqi]], vous pouvez obtenir une quantité notable du buff de cette arme. En utilisant cette arme, vous devez effectuer deux [[ability:na]] pour activer le passif. Des stats de [[stat:def%]] peuvent être envisagées si votre équipe ne manque pas de survivabilité."
+                        "fr": "Grâce à la [[stat:def]] de base élevée de [[character:qiqi]], vous pouvez obtenir une quantité notable du buff de cette arme. En utilisant cette arme, vous devez effectuer deux [[ability:na]] pour activer le passif. Des stats de [[stat:def%]] peuvent être envisagées si votre équipe ne manque pas de survivabilité.",
+                        "ru": "У [[character:qiqi]] довольно высокая базовая [[stat:def|DEF]], что позволяет реализовать бонус этого оружия. Для его активации следует выполнить две [[ability:na|Обычные атаки]]. Если у отряда нет проблем с выживаемостью, [[character:qiqi]] можно собрать с упором в [[stat:def%|Защиту]]."
                     }
                 }
             ]
@@ -42,7 +45,8 @@
                     "name": "amenoma-kageuchi",
                     "note": {
                         "en": "This weapon will significantly improve [[character:qiqi]]'s healing capabilities, however, it takes lower priority over weapons that provide [[stat:er]].",
-                        "fr": "Cette arme améliorera considérablement les capacités de soin de [[character:qiqi]], mais elle passe après les armes qui fournissent de la [[stat:er]]."
+                        "fr": "Cette arme améliorera considérablement les capacités de soin de [[character:qiqi]], mais elle passe après les armes qui fournissent de la [[stat:er]].",
+                        "ru": "Это оружие значительно усиливает объем лечения [[character:qiqi]], но оно всё ещё менее предпочтительно, чем варианты с [[stat:er|Восстановлением энергии]]."
                     }
                 }
             ]
