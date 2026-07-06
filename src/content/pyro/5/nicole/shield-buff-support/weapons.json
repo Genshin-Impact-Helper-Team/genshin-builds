@@ -12,7 +12,8 @@
                     "note": {
                         "en": "As [[character:nicole]] snapshots her own Attack when pressing [[ability:skill]], **it is advised to attack a few times before using [[ability:skill]]** to benefit from this weapon's passive.",
                         "fr": "Comme [[character:nicole]] snapshot sa propre ATQ en utilisant son [[ability:skill]], **il est recommandé d'attaquer plusieurs fois avant d'utiliser son [[ability:skill]]** pour bénéficier du passif de l'arme.",
-                        "it": "Dato che [[character:nicole]] registra il proprio Attacco al momento dell'attivazione dell'[[ability:skill]], **si consiglia di attaccare qualche volta prima di usare l'[[ability:skill]]** per sfruttare al meglio la passiva di quest'arma."
+                        "it": "Dato che [[character:nicole]] registra il proprio Attacco al momento dell'attivazione dell'[[ability:skill]], **si consiglia di attaccare qualche volta prima di usare l'[[ability:skill]]** per sfruttare al meglio la passiva di quest'arma.",
+                        "ru": "Поскольку [[character:nicole]] фиксирует значение атаки при нажатии [[ability:skill|Элементального навыка]], **рекомендуется выполнить несколько обычных атак до [[ability:skill|навыка]]**, чтобы активировать бонус этого оружия."
                     }
                 }
             ]
@@ -26,7 +27,8 @@
                     "note": {
                         "en": "While not contributing a lot to high Attack, **this weapon provides a reliable Damage Bonus to your onfielder**.",
                         "fr": "Bien que ne contribuant pas beacoup pour l'ATQ, **cette arme offre un bon buff DGT% à votre personnage actif**.",
-                        "it": "Pur non contribuendo in modo significativo all'ATT di [[character:nicole]], **quest'arma fornisce Bonus DAN% al personaggio sul campo**."
+                        "it": "Pur non contribuendo in modo significativo all'ATT di [[character:nicole]], **quest'arma fornisce Bonus DAN% al personaggio sul campo**.",
+                        "ru": "Этот вариант, хоть и не даёт большой прибавки к атаке самой Николь,  накладывает бонус урона на активного персонажа."
                     }
                 }
             ]
@@ -43,7 +45,8 @@
                     "note": {
                         "en": "In teams where this weapon's passive becomes applicable, it increases in value and appreciates refinements.",
                         "fr": "Dans les équipes où le passif de cette arme est applicable, sa valeur augmente et les raffinements sont appréciés.",
-                        "it": "Nei team in cui la passiva di quest'arma risulta applicabile, il suo valore aumenta e vale la pena forgiare i suoi miglioramenti."
+                        "it": "Nei team in cui la passiva di quest'arma risulta applicabile, il suo valore aumenta e vale la pena forgiare i suoi miglioramenti.",
+                        "ru": "На высоких рангах Пробуждения может оказаться полезным в отрядах, в которых работает его Пассивная способность."
                     }
                 },
                 "flowing-purity"
@@ -56,7 +59,8 @@
                     "note": {
                         "en": "This weapon can have significantly more value **if the team's [[stat:er]] requirements are dire**.",
                         "fr": "Cette arme peut avoir beaucoup plus de valeur **si les besoins en [[stat:er]] de l'équipe sont énormes**.",
-                        "it": "Quest'arma può avere un valore significativamente maggiore **se i requisiti di [[stat:er]] del team sono molto elevati**."
+                        "it": "Quest'arma può avere un valore significativamente maggiore **se i requisiti di [[stat:er]] del team sono molto elevati**.",
+                        "ru": "Может быть полезен **в отрядах с высокой потребностью в [[stat:er|энергии]]**."
                     }
                 }
             ]
@@ -68,7 +72,8 @@
                     "note": {
                         "en": "This weapon severely reduces the potency of [[character:nicole]]'s buff, but **brings a hefty buff of its own to the onfielder**. Depending on the team, this weapon can be one of [[character:nicole]]'s best choices.",
                         "fr": "Cette arme réduit énormément la puissance du buff de [[character:nicole]], mais **offre un joli buff au personnage actif** grâce à son propre passif. Selon l'équipe, cette arme peut être l'une des meilleures options de [[character:nicole]].",
-                        "it": "Quest'arma riduce notevolmente la portata del potenziamento ATT di [[character:nicole]], ma **offre un notevole potenziamento proprio al personaggio sul campo**. A seconda del team, può essere una delle scelte migliori."
+                        "it": "Quest'arma riduce notevolmente la portata del potenziamento ATT di [[character:nicole]], ma **offre un notevole potenziamento proprio al personaggio sul campo**. A seconda del team, può essere una delle scelte migliori.",
+                        "ru": "Значительно снижает эффективность бонусов [[character:nicole]], но само по себе **накладывает мощное усиление на активного персонажа**, что в некоторых случаях может сделать его лучшим вариантом."
                     }
                 }
             ]
