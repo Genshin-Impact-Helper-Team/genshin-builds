@@ -1,14 +1,9 @@
 import path from 'path';
 import translationAliases from '../data/translation-aliases.json';
-import {
-  getPublicCharacterName,
-  getPublicCharacterSlug,
-} from './character-slugs';
+import { getBestBuildUsage, type BuildUsage } from './build-usage';
 import { loadJSON, readJSONFile } from './content';
-import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale, t } from './i18n';
 import { resolveWeaponAssetUrl } from './item-assets';
-import { localizedPath } from './paths';
 import {
   formatWeaponPassive,
   type WeaponPassiveText,
@@ -31,18 +26,6 @@ const weaponTypes = [
  * Refinement levels rendered as selectable passive descriptions.
  */
 const refinements = [1, 2, 3, 4, 5] as const;
-
-type WeaponType = (typeof weaponTypes)[number];
-
-/**
- * Character link rendered in the "Ranked on" section of a weapon card.
- */
-type WeaponRankingUsage = {
-  characterName: string;
-  characterRarity: string;
-  href: string;
-  rank: number;
-};
 
 /**
  * Translation aliases relevant to canonicalizing weapon recommendation IDs.
@@ -78,20 +61,6 @@ type SharedWeaponData = {
     substat_value?: string;
   };
 };
-
-/**
- * Normalizes numeric and string stat values for table rendering.
- *
- * @param value Raw value from a weapon level block.
- * @returns Display-ready value, or an empty string when no value exists.
- */
-function formatWeaponValue(value?: number | string) {
-  if (value === undefined || value === null || value === '') {
-    return '';
-  }
-
-  return String(value);
-}
 
 /**
  * Translates a weapon acquisition source with normalized source fallback.
@@ -148,49 +117,15 @@ function normalizeWeaponItemId(item: any) {
  * @returns Weapon IDs mapped to the characters that rank them.
  */
 function getWeaponRankingUsage(locale: any, lang: string) {
-  const usageByWeapon = new Map<string, WeaponRankingUsage[]>();
-
-  for (const character of getContentCharacters()) {
-    const characterName = getPublicCharacterName(locale, character);
-    const href = localizedPath(lang, getPublicCharacterSlug(character));
-    const usageEntry = {
-      characterName,
-      characterRarity: character.rarity,
-      href,
-    };
-
-    for (const build of getCharacterBuilds(character.characterPath)) {
-      if (loadJSON(build.path, 'build-notes.json')?.best !== true) continue;
-
-      const rankingGroups = loadJSON(build.path, 'weapons.json')?.weapons ?? [];
-      const seenInBuild = new Set<string>();
-
-      for (const [groupIndex, group] of rankingGroups.entries()) {
-        for (const item of group.items ?? []) {
-          const weaponId = normalizeWeaponItemId(item);
-          if (!weaponId || seenInBuild.has(weaponId)) continue;
-
-          seenInBuild.add(weaponId);
-          const usage = usageByWeapon.get(weaponId) ?? [];
-          const existingUsage = usage.find((item) => item.href === href);
-          const rank = groupIndex + 1;
-
-          if (existingUsage) {
-            existingUsage.rank = Math.min(existingUsage.rank, rank);
-          } else {
-            usage.push({ ...usageEntry, rank });
-          }
-          usageByWeapon.set(weaponId, usage);
-        }
-      }
-    }
-  }
-
-  usageByWeapon.forEach((usage) => {
-    usage.sort((a, b) => a.characterName.localeCompare(b.characterName));
-  });
-
-  return usageByWeapon;
+  return getBestBuildUsage(locale, lang, (buildPath) =>
+    (loadJSON(buildPath, 'weapons.json')?.weapons ?? []).flatMap(
+      (group: any, index: number) =>
+        (group.items ?? []).map((item: any) => ({
+          id: normalizeWeaponItemId(item),
+          rank: index + 1,
+        })),
+    ),
+  );
 }
 
 /**
@@ -207,7 +142,7 @@ function getWeaponRankingUsage(locale: any, lang: string) {
 function getWeaponEntries(
   locale: any,
   lang: string,
-  rankingUsageByWeapon: Map<string, WeaponRankingUsage[]>,
+  rankingUsageByWeapon: Map<string, BuildUsage[]>,
 ) {
   const weaponDataPath = path.resolve('src/data/weapons');
 
@@ -232,10 +167,10 @@ function getWeaponEntries(
         rankingUsage: rankingUsageByWeapon.get(id) ?? [],
         substat: info.substat ?? '',
         substatName,
-        level1BaseAttack: formatWeaponValue(info.level_1?.base_attack),
-        levelMaxBaseAttack: formatWeaponValue(info.level_max?.base_attack),
-        level1Substat: formatWeaponValue(info.level_1?.substat_value),
-        levelMaxSubstat: formatWeaponValue(info.level_max?.substat_value),
+        level1BaseAttack: String(info.level_1?.base_attack ?? ''),
+        levelMaxBaseAttack: String(info.level_max?.base_attack ?? ''),
+        level1Substat: String(info.level_1?.substat_value ?? ''),
+        levelMaxSubstat: String(info.level_max?.substat_value ?? ''),
         passivePanels: info.passive
           ? refinements.map((refinement) => ({
               refinement,
