@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "Heal & Buff Support",
-        "fr": "Soins & Support Buffs"
+        "fr": "Soins & Support Buffs",
+        "ru": "Хилер & Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "**This section assumes you have unlocked [[character:qiqi]]'s Lucid Revelation buffs from the Witch's Revelation Quest: Instruction of Curious Form.**",
-            "fr": "**Cette section suppose que vous avez débloqué les révélations de [[character:qiqi]] avec sa quête Révélation de la sorcière: Instructions de la forme curieuse.**"
+            "fr": "**Cette section suppose que vous avez débloqué les révélations de [[character:qiqi]] avec sa quête Révélation de la sorcière: Instructions de la forme curieuse.**",
+            "ru": "**Предполагается, что активировано усиление Ясное пророчество (пройдено задание Пророчество ведьмы: Указания причудливой формы).**"
         },
         {
             "en": "[[character:qiqi]] is capable of providing not only extremely strong healing, but also decent [[element:cryo]] Application and Energy generation. Not only can she now generate energy when the Herald of Frost hits enemies, but now her [[ability:skill]] has near 100% uptime, and performs coordiated attacks off-field.",
-            "fr": "En plus de soins extrêmement puissants, [[character:qiqi]] peut offrir une application [[element:cryo]] correcte et de la génération d'énergie. En plus de régénerer de l'énergie lorsque son Héraut de givre touche un ennemi, son [[ability:skill]] peut être actif pratiquement 100% du temps, et performe des attaques coordonnées off-field."
+            "fr": "En plus de soins extrêmement puissants, [[character:qiqi]] peut offrir une application [[element:cryo]] correcte et de la génération d'énergie. En plus de régénerer de l'énergie lorsque son Héraut de givre touche un ennemi, son [[ability:skill]] peut être actif pratiquement 100% du temps, et performe des attaques coordonnées off-field.",
+            "ru": "[[character:qiqi]] перестала быть просто мощным хилером - она способна неплохо накладывать [[element:cryo]] и генерировать частицы энергии. Её усиленный [[ability:skill|навык]], помимо генерации энергии при попадании Вестником стужи по противнику, позволяет выполнять совместные атаки, а длительность его отката совпадает с длительностью его действия."
         },
         {
             "en": "Additionaly, [[character:qiqi]] is capable of providing potent buffs to the [[element:stellar-conduct]] reaction, so she is an excellent member to pair with [[character:sandrone]] (who is currently the only character capable of enabling the [[element:stellar-conduct]] reaction, and thus creating a [[ability:polestar-field]]).",
-            "fr": "De plus, [[character:qiqi]] peut offir des buffs importants à la réaction d'[[element:stellar-conduct]], elle est donc un excellent personnage à jouer avec [[character:sandrone]] (qui est actuellement le seul personnage capable d'activer la réaction d'[[element:stellar-conduct]], et donc de créer une [[ability:polestar-field]])."
+            "fr": "De plus, [[character:qiqi]] peut offir des buffs importants à la réaction d'[[element:stellar-conduct]], elle est donc un excellent personnage à jouer avec [[character:sandrone]] (qui est actuellement le seul personnage capable d'activer la réaction d'[[element:stellar-conduct]], et donc de créer une [[ability:polestar-field]]).",
+            "ru": "Вдобавок к этому, [[character:qiqi]] может усиливать [[element:stellar-conduct]]. Всё это превращает её в неплохого сокомандника для [[character:sandrone]] (единственного на данный момент персонажа, который может вызывать  [[element:stellar-conduct]] и создавать [[ability:polestar-field]]."
         }
     ]
 }
