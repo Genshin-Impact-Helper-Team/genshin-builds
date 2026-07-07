@@ -14,46 +14,34 @@
             "ru": "Большая часть урона [[character:wanderer|Странника]] - это усиленные за счет стойки [[ability:skill|Элементального навыка]] [[ability:na|Обычные атаки]]. Cледует отметить, что в этой стойке у него практически нет сопротивления к прерыванию, поэтому рекомендуется использовать щит или другую форму сопротивления. Набор [[stat:er|ВЭ]] для использования [[ability:burst|Взрыва стихии]] каждую ротацию до [C2] не рекомендован, вместо этого лучше использовать его каждую вторую ротацию."
         },
         {
-            "en": "External Buffs means the existence of a unit that provides [[stat:atk|ATK]], or makes [[stat:atk|ATK]] less necessary (e.g. [[character:bennett]], [[character:yun-jin]])",
-            "fr": "Les buffs externes désignent la présence d'un personnage qui fournit de l'[[stat:atk]], ou rend l'[[stat:atk]] moins nécessaire (par ex. [[character:bennett]], [[character:yun-jin]]).",
-            "it": "DPS 'con potenziamenti ATT esterni' indica la presenza nel team di un personaggio che fornisce [[stat:atk]], o rende l'[[stat:atk]] meno necessario (ad esempio [[character:bennett]], [[character:yun-jin]]).",
-            "ru": "Внешние бонусы силы атаки могут повышать [[stat:atk|силу атаки]] напрямую или снижают потребность в ней (например, [[character:bennett]] или [[character:yun-jin]])."
+            "en": "- **[[set:desert-pavilion-chronicle]] and Signature Weapon Rotation**: {rot:(Q) E CA (N3/N2D repeat)}",
+            "fr": "- **Rotation [[set:desert-pavilion-chronicle]] et arme signature**: {rot:(Q) E CA (N3/N2D repeat)}",
+            "it": "- **Combo con [[weapon:tulaytullahs-remembrance]] e [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N3/N2D}",
+            "ru": "- **Ротация с сигнатурным оружием и [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N3/N2D)}"
         },
         {
-            "en": "- **[[set:desert-pavilion-chronicle]] and Signature Weapon Rotation**: {rot:(Q) E CA (N3 repeat)}",
-            "fr": "- **Rotation [[set:desert-pavilion-chronicle]] et arme signature**: {rot:(Q) E CA (N3 repeat)}",
-            "it": "- **Combo con [[weapon:tulaytullahs-remembrance]] e [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N3}",
-            "ru": "- **Ротация с сигнатурным оружием и [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N3)}"
+            "en": "- **Signature Weapon Rotation (non [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3/N2D repeat)}",
+            "fr": "- **Rotation avec l'arme signature (sans [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3/N2D repeat)}",
+            "it": "- **Combo con [[weapon:tulaytullahs-remembrance]], senza [[set:desert-pavilion-chronicle]]**: {rot:(Q)E > ripeti N3/N2D}",
+            "ru": "- **Ротация с сигнатурным оружием (без [[set:desert-pavilion-chronicle|Хроник]])**: {rot:(Q) E (повтор N3/N2D)}"
         },
         {
-            "en": "- **Signature Weapon Rotation (non [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
-            "fr": "- **Rotation avec l'arme signature (sans [[set:desert-pavilion-chronicle]])**: {rot:(Q) E (N3 repeat)}",
-            "it": "- **Combo con [[weapon:tulaytullahs-remembrance]], senza [[set:desert-pavilion-chronicle]]**: {rot:(Q)E > ripeti N3}",
-            "ru": "- **Ротация с сигнатурным оружием (без [[set:desert-pavilion-chronicle|Хроник]])**: {rot:(Q) E (повтор N3)}"
+            "en": "- **[[set:desert-pavilion-chronicle]] Rotation**: {rot:(Q) E CA (N2C/N2D repeat)}",
+            "fr": "- **Rotation [[set:desert-pavilion-chronicle]]**: {rot:(Q) E CA (N2C/N2D repeat)}",
+            "it": "- **Combo con [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N2C/N2D}",
+            "ru": "- **Ротация c [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N2C/N2D)}"
         },
         {
-            "en": "- **[[set:desert-pavilion-chronicle]] Rotation**: {rot:(Q) E CA (N2C repeat)}",
-            "fr": "- **Rotation [[set:desert-pavilion-chronicle]]**: {rot:(Q) E CA (N2C repeat)}",
-            "it": "- **Combo con [[set:desert-pavilion-chronicle]]**: {rot:(Q)ECA > ripeti N2C}",
-            "ru": "- **Ротация c [[set:desert-pavilion-chronicle|Хрониками чертогов в пустыне]]**: {rot:(Q) E CA (повтор N2C)}"
+            "en": "- **Other Artifact Sets Rotation:** {rot:(Q) E (N2C/N2D repeat)}",
+            "fr": "- **Rotation avec les autres sets d'artéfacts**: {rot:(Q) E (N2C/N2D repeat)}",
+            "it": "- **Combo con altri set di manufatti:** {rot:(Q)E > ripeti N2C/N2D}",
+            "ru": "- **Ротация с другими сетами:** {rot:(Q) E (повтор N2C/N2D)}"
         },
         {
-            "en": "- **Other Artifact Sets Rotation:** {rot:(Q) E (N2C repeat)}",
-            "fr": "- **Rotation avec les autres sets d'artéfacts**: {rot:(Q) E (N2C repeat)}",
-            "it": "- **Combo con altri set di manufatti:** {rot:(Q)E > ripeti N2C}",
-            "ru": "- **Ротация с другими сетами:** {rot:(Q) E (повтор N2C)}"
-        },
-        {
-            "en": "- **[[set:shimenawas-reminiscence]] Rotation**: {rot:E (N2C repeat) (Q)}",
-            "fr": "- **Rotation [[set:shimenawas-reminiscence]]** : {rot:E (N2C repeat) (Q)}",
-            "it": "- **Combo con [[set:shimenawas-reminiscence]]**: {rot:E > ripeti N2C > (Q)}",
-            "ru": "- **Ротация с [[set:shimenawas-reminiscence|Воспоминаниями Симэнавы]]**: {rot:E (повтор N2C) (Q)}"
-        },
-        {
-            "en": "- **[[element:swirl]] Driver Rotation**: {rot:E (N3C repeat)}",
-            "fr": "- **Rotation Driver [[element:swirl]]**: {rot:E (N3C repeat)}",
-            "it": "- **Combo come 'driver' di [[element:swirl]]**: {rot:E > ripeti N3C}",
-            "ru": "- **Ротация в качестве драйвера [[element:swirl|Рассеивания]]**: {rot:E (повтор N3C)}"
+            "en": "- **[[set:shimenawas-reminiscence]] Rotation**: {rot:E (N2C/N2D repeat) (Q)}",
+            "fr": "- **Rotation [[set:shimenawas-reminiscence]]** : {rot:E (N2C/N2D repeat) (Q)}",
+            "it": "- **Combo con [[set:shimenawas-reminiscence]]**: {rot:E > ripeti N2C/N2D > (Q)}",
+            "ru": "- **Ротация с [[set:shimenawas-reminiscence|Воспоминаниями Симэнавы]]**: {rot:E (повтор N2C/N2D) (Q)}"
         }
     ]
 }
