@@ -3,28 +3,33 @@
     "name": {
         "en": "Shield & Buff Support",
         "fr": "Support Bouclier & Buff",
-        "it": "Supporto Scudo & Potenziamento"
+        "it": "Supporto Scudo & Potenziamento",
+        "ru": "Шит & Саппорт"
     },
     "notes": [
         {
             "en": "[[character:nicole]] is a potent Support that provides both a **shield** and a **sizeable [[stat:atk]] buff to the entire team**. The party member on field also gets an additional [[stat:atk|ATK]] buff after 3 seconds or instantly if they are a [[ability:hexerei]] character.",
             "fr": "[[character:nicole]] est un puissant Support qui offre à la fois un **bouclier** et un **buff d'attaque important à toute l'équipe**. Le personnage actif obtient un buff d'attaque supplémentaire après 3 secondes, ou instantanément s'il s'agit d'un personnage [[ability:hexerei]].",
-            "it": "[[character:nicole]] è un potente personaggio di supporto che fornisce sia uno **scudo** che un **notevole potenziamento all'[[stat:atk]] dell'intero team**. Il personaggio attivo riceve inoltre un ulteriore potenziamento all'[[stat:atk]] dopo 3 secondi sul campo, o immediatamente se si tratta di un personaggio [[ability:hexerei]]."
+            "it": "[[character:nicole]] è un potente personaggio di supporto che fornisce sia uno **scudo** che un **notevole potenziamento all'[[stat:atk]] dell'intero team**. Il personaggio attivo riceve inoltre un ulteriore potenziamento all'[[stat:atk]] dopo 3 secondi sul campo, o immediatamente se si tratta di un personaggio [[ability:hexerei]].",
+            "ru": "[[character:nicole]] - мощный персонаж поддержки, который может накладывать **щит** на членов отряда и напрямую **увеличивать силу атаки** всем сокомандникам. Активный персонаж получает дополнительный бонус к силе атаки через 3 секунды (или мгновенно, если это [[ability:hexerei|Ведьминский]] персонаж)."
         },
         {
             "en": "[[character:nicole]] needs **4000 [[stat:atk|Attack]]** to reach her full [[stat:atk|Attack]] buff.",
             "fr": "[[character:nicole]] a besoin de **4000 d'[[stat:atk|Attaque]]** pour atteindre le maximum de son buff.",
-            "it": "Nicole ha bisogno di **4000 [[stat:atk]]** per raggiungere il massimo potenziamento [[stat:atk]]."
+            "it": "Nicole ha bisogno di **4000 [[stat:atk]]** per raggiungere il massimo potenziamento [[stat:atk]].",
+            "ru": "Для полного бонуса [[character:nicole]] необходимо набрать **4000 силы атаки**."
         },
         {
             "en": "[[character:nicole]]'s [[ability:burst]] provides additional damage that **counts as being dealt by the triggering character**, not [[character:nicole]] herself. This damage matches the elemental type of the triggering character but **does not apply the element** at all.",
             "fr": "L'[[ability:burst]] de [[character:nicole]] offre des dégâts supplémentaires qui **comptent comme étant infligés par le personnage qui a déclenché l'attaque**, pas [[character:nicole]] ell-même. Ces dégâts sont du même élément que celui du personnage qui a déclenché l'attaque, mais **n'appliquent aucun élément**.",
-            "it": "Il [[ability:burst]] di [[character:nicole]] infligge danni aggiuntivi che vengono **considerati come inflitti dal personaggio che lo attiva**, non da [[character:nicole]] stessa. Questi danni corrispondono all'elemento del personaggio che lo attiva, ma **non applicano alcun elemento**."
+            "it": "Il [[ability:burst]] di [[character:nicole]] infligge danni aggiuntivi che vengono **considerati come inflitti dal personaggio che lo attiva**, non da [[character:nicole]] stessa. Questi danni corrispondono all'elemento del personaggio che lo attiva, ma **non applicano alcun elemento**.",
+            "ru": "[[ability:burst]] [[character:nicole]] периодически наносит урон, который **считается уроном персонажа, вызвавшего срабатывание [[ability:burst|Взрыва]]**, а не самой [[character:nicole]]. Он соответствует стихии вызвавшего его персонажа, но **не накладывает статус**."
         },
         {
             "en": "**Some teams do not gain a lot - if anything at all - from [[character:nicole]]'s [[ability:burst]]**, in which case building [[stat:er]] is not required.",
             "fr": "**Certaines équipes ne gagnent que très peu - si ce n'est rien - avec l'[[ability:burst]] de [[character:nicole]]**, auquel  cas il n'est pas utile d'aller chercher de la [[stat:er]].",
-            "it": "**Alcuni team non traggono grandi benefici — se non addirittura nessuno — dal [[ability:burst]] di [[character:nicole]]**; in tal caso, non è necessario accumulare [[stat:er]]."
+            "it": "**Alcuni team non traggono grandi benefici — se non addirittura nessuno — dal [[ability:burst]] di [[character:nicole]]**; in tal caso, non è necessario accumulare [[stat:er]].",
+            "ru": "Для некоторых отрядов [[ability:burst]] [[character:nicole]] не слишком нужен или вовсе бесполезен - в этом случае сборка в [[stat:er|ВЭ]] не требуется."
         }
     ]
 }

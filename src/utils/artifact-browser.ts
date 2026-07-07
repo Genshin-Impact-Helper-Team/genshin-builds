@@ -1,14 +1,9 @@
 import path from 'path';
 import translationAliases from '../data/translation-aliases.json';
-import {
-  getPublicCharacterName,
-  getPublicCharacterSlug,
-} from './character-slugs';
+import { getBestBuildUsage, type BuildUsage } from './build-usage';
 import { loadJSON, readJSONFile } from './content';
-import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale, t } from './i18n';
 import { resolveArtifactAssetUrl } from './item-assets';
-import { localizedPath } from './paths';
 
 /**
  * Artifact set bonus keys supported by the source data.
@@ -17,18 +12,6 @@ import { localizedPath } from './paths';
  * circlet-only sets provide a 1-piece bonus.
  */
 const bonusKeys = ['1p', '2p', '4p'] as const;
-
-type BonusKey = (typeof bonusKeys)[number];
-
-/**
- * Character link rendered in the 4-piece artifact set usage section.
- */
-type ArtifactSetUsage = {
-  characterName: string;
-  characterRarity: string;
-  href: string;
-  rank?: number;
-};
 
 /**
  * Translation aliases relevant to canonicalizing artifact set recommendation IDs.
@@ -105,75 +88,26 @@ function getArtifactSetItems(group: any) {
  * @returns Artifact set IDs mapped to characters that mention them as 4-piece.
  */
 function getArtifactSetFourPieceUsage(locale: any, lang: string) {
-  const usageBySet = new Map<string, ArtifactSetUsage[]>();
+  return getBestBuildUsage(locale, lang, (buildPath) => {
+    const data = loadJSON(buildPath, 'artifacts-sets.json');
+    const groups = [
+      ...(data?.artifact_sets?.flatMap((entry: any, index: number) =>
+        (entry.groups ?? []).map((group: any) => ({
+          group,
+          rank: index + 1,
+        })),
+      ) ?? []),
+      ...(data?.conditional?.flatMap((entry: any) =>
+        (entry.groups ?? [entry]).map((group: any) => ({ group })),
+      ) ?? []),
+    ];
 
-  for (const character of getContentCharacters()) {
-    const characterName = getPublicCharacterName(locale, character);
-    const href = localizedPath(lang, getPublicCharacterSlug(character));
-    const usageEntry = {
-      characterName,
-      characterRarity: character.rarity,
-      href,
-    };
-
-    for (const build of getCharacterBuilds(character.characterPath)) {
-      if (loadJSON(build.path, 'build-notes.json')?.best !== true) continue;
-
-      const data = loadJSON(build.path, 'artifacts-sets.json');
-      const groups = [
-        ...(data?.artifact_sets?.flatMap((entry: any, index: number) =>
-          (entry.groups ?? []).map((group: any) => ({
-            group,
-            rank: index + 1,
-          })),
-        ) ?? []),
-        ...(data?.conditional?.flatMap((entry: any) =>
-          (entry.groups ?? [entry]).map((group: any) => ({ group })),
-        ) ?? []),
-      ];
-      const seenInBuild = new Set<string>();
-
-      for (const { group, rank } of groups) {
-        for (const item of getArtifactSetItems(group)) {
-          if (Number(item?.pieces) !== 4) continue;
-
-          const setId = normalizeArtifactSetItemId(item);
-          if (!setId || seenInBuild.has(setId)) continue;
-
-          seenInBuild.add(setId);
-          const usage = usageBySet.get(setId) ?? [];
-          const existingUsage = usage.find((item) => item.href === href);
-
-          if (existingUsage && rank !== undefined) {
-            existingUsage.rank = Math.min(existingUsage.rank ?? rank, rank);
-          } else if (!existingUsage) {
-            usage.push({ ...usageEntry, rank });
-          }
-          usageBySet.set(setId, usage);
-        }
-      }
-    }
-  }
-
-  usageBySet.forEach((usage) => {
-    usage.sort((a, b) => a.characterName.localeCompare(b.characterName));
+    return groups.flatMap(({ group, rank }) =>
+      getArtifactSetItems(group)
+        .filter((item) => Number(item?.pieces) === 4)
+        .map((item) => ({ id: normalizeArtifactSetItemId(item), rank })),
+    );
   });
-
-  return usageBySet;
-}
-
-/**
- * Returns a localized artifact bonus description with English fallback.
- *
- * @param effect Localized bonus text object from the artifact data.
- * @param lang Active language code.
- * @returns Localized HTML/text for the bonus, or an empty string when absent.
- */
-function getLocalizedEffect(
-  effect: LocalizedArtifactEffect | undefined,
-  lang: string,
-) {
-  return effect?.[lang] ?? effect?.en ?? '';
 }
 
 /**
@@ -189,7 +123,7 @@ function getLocalizedEffect(
 function getArtifactSetEntries(
   locale: any,
   lang: string,
-  fourPieceUsageBySet: Map<string, ArtifactSetUsage[]>,
+  fourPieceUsageBySet: Map<string, BuildUsage[]>,
 ) {
   const filePath = path.resolve('src/data/artifacts/artifact_sets.json');
   const artifactData = readJSONFile(filePath) as Record<
@@ -202,7 +136,7 @@ function getArtifactSetEntries(
       .map((key) => ({
         id: key,
         label: key.toUpperCase(),
-        html: getLocalizedEffect(info[key as BonusKey], lang),
+        html: info[key]?.[lang] ?? info[key]?.en ?? '',
       }))
       .filter((bonus) => bonus.html);
 
