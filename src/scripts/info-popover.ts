@@ -12,8 +12,6 @@ const getPopover = (target: EventTarget | null) =>
   target instanceof Element
     ? target.closest<HTMLElement>('.info-popover')
     : null;
-const isNoteLink = (target: EventTarget | null) =>
-  target instanceof Element && target.closest('.note-link');
 
 function positionCard(popover: HTMLElement) {
   const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
@@ -97,7 +95,7 @@ document.addEventListener('click', (event) => {
     return;
   }
 
-  if (isNoteLink(target)) {
+  if (target.closest('.note-link')) {
     hidePopover();
     return;
   }
@@ -112,7 +110,11 @@ document.addEventListener('click', (event) => {
 
 document.addEventListener('pointerover', (event) => {
   if ((event as PointerEvent).pointerType === 'touch') return;
-  const popover = getPopover(event.target);
+  const popover = getPopover(
+    event.target instanceof Element
+      ? event.target.closest('.info-popover-trigger')
+      : null,
+  );
   if (popover && popover !== activePopover && !pinned) showPopover(popover);
 });
 
@@ -129,8 +131,11 @@ document.addEventListener('pointerout', (event) => {
 });
 
 document.addEventListener('focusin', (event) => {
-  if (isNoteLink(event.target)) return;
-  const popover = getPopover(event.target);
+  const popover = getPopover(
+    event.target instanceof Element
+      ? event.target.closest('.info-popover-trigger')
+      : null,
+  );
   if (popover && !pinned) showPopover(popover);
 });
 
@@ -147,7 +152,6 @@ document.addEventListener('focusout', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
-  if (isNoteLink(event.target)) return;
   if (event.key !== 'Enter' && event.key !== ' ') return;
 
   const popover = getPopover(

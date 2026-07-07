@@ -38,17 +38,9 @@ type Props = {
     rarity: number;
     info?: WeaponInfo;
   };
-  noteId?: string;
-  hasNote?: boolean;
 };
 
-const {
-  locale,
-  weapon,
-  lang = 'en',
-  noteId,
-  hasNote = false,
-} = Astro.props as Props;
+const { locale, weapon, lang = 'en' } = Astro.props as Props;
 const info = weapon.info;
 const refinements = [1, 2, 3, 4, 5] as const;
 
@@ -197,6 +189,6 @@ const popoverCardHtml = info
     tabindex="0"
     aria-expanded="false"
   >
-    <InlineNoteLabel label={weapon.name} noteId={noteId} hasNote={hasNote} />
+    <InlineNoteLabel label={weapon.name} />
   </span>
 </span>

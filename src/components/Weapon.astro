@@ -1,4 +1,5 @@
 ---
+import InlineNoteLabel from './InlineNoteLabel.astro';
 import WeaponInfoPopover from './WeaponInfoPopover.astro';
 import { t } from '../utils/i18n';
 import type {
@@ -116,9 +117,14 @@ const hasFreeWeapon =
                         weapon={mainItem}
                         locale={locale}
                         lang={lang}
-                        noteId={mainItem.noteId}
-                        hasNote={Boolean(hasNoteMarker(mainItem))}
                       />
+                      {hasNoteMarker(mainItem) && (
+                        <InlineNoteLabel
+                          label=""
+                          noteId={mainItem.noteId}
+                          hasNote={Boolean(hasNoteMarker(mainItem))}
+                        />
+                      )}
                       <span class="bold">
                         ({mainItem.rarity}
                         {'\u2605'}){formatRefinement(mainItem.refinement)}
@@ -140,9 +146,14 @@ const hasFreeWeapon =
                           weapon={weapon}
                           locale={locale}
                           lang={lang}
-                          noteId={weapon.noteId}
-                          hasNote={Boolean(hasNoteMarker(weapon))}
                         />
+                        {hasNoteMarker(weapon) && (
+                          <InlineNoteLabel
+                            label=""
+                            noteId={weapon.noteId}
+                            hasNote={Boolean(hasNoteMarker(weapon))}
+                          />
+                        )}
                         <span class="bold">
                           ({weapon.rarity}
                           {'\u2605'}){formatRefinement(weapon.refinement)}
@@ -181,9 +192,14 @@ const hasFreeWeapon =
                         weapon={weapon}
                         locale={locale}
                         lang={lang}
-                        noteId={weapon.noteId}
-                        hasNote={Boolean(hasNoteMarker(weapon))}
                       />
+                      {hasNoteMarker(weapon) && (
+                        <InlineNoteLabel
+                          label=""
+                          noteId={weapon.noteId}
+                          hasNote={Boolean(hasNoteMarker(weapon))}
+                        />
+                      )}
                       <span class="bold">
                         ({weapon.rarity}
                         {'\u2605'}){formatRefinement(weapon.refinement)}

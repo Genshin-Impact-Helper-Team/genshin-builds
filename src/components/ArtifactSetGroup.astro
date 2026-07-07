@@ -1,6 +1,7 @@
 ---
 import { t } from '../utils/i18n';
 import ArtifactSetInfoPopover from './ArtifactSetInfoPopover.astro';
+import InlineNoteLabel from './InlineNoteLabel.astro';
 
 type ArtifactSetItem = {
   name: string;
@@ -69,6 +70,7 @@ const rows: ArtifactSetRow[] = group.choose
           chooseOne: true,
         }))
       : [{ items: groupItems }];
+const hasNoteMarker = (item: ArtifactSetItem) => item.noteId || item.note;
 ---
 
 {
@@ -87,11 +89,18 @@ const rows: ArtifactSetRow[] = group.choose
             <span class="inline-info-label artifact-info-label">
               <ArtifactSetInfoPopover
                 artifact={item}
-                suffix={`(${item.pieces})`}
                 lang={lang}
-                noteId={item.noteId}
-                hasNote={Boolean(item.noteId || item.note)}
               />
+              {hasNoteMarker(item) && (
+                <InlineNoteLabel
+                  label=""
+                  noteId={item.noteId}
+                  hasNote={Boolean(hasNoteMarker(item))}
+                />
+              )}
+              <span class="artifact-piece-suffix">
+                {'\u00a0'}({item.pieces})
+              </span>
             </span>
           </>
         ))}
@@ -107,11 +116,18 @@ const rows: ArtifactSetRow[] = group.choose
                 <span class="inline-info-label artifact-info-label">
                   <ArtifactSetInfoPopover
                     artifact={item}
-                    suffix={`(${item.pieces})`}
                     lang={lang}
-                    noteId={item.noteId}
-                    hasNote={Boolean(item.noteId || item.note)}
                   />
+                  {hasNoteMarker(item) && (
+                    <InlineNoteLabel
+                      label=""
+                      noteId={item.noteId}
+                      hasNote={Boolean(hasNoteMarker(item))}
+                    />
+                  )}
+                  <span class="artifact-piece-suffix">
+                    {'\u00a0'}({item.pieces})
+                  </span>
                 </span>
               </>
             ))}
