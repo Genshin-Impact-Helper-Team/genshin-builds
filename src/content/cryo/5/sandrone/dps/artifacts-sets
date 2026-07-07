@@ -12,8 +12,8 @@
         },
         {
             "items": [
-                "2pc-80-em",
-                "2pc-18-atk"
+                "em-set",
+                "atk-set"
             ],
             "note": {
                 "en": "Choose Two"
