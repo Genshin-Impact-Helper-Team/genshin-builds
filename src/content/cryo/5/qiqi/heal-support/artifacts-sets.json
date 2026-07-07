@@ -21,8 +21,7 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is a great option if [[character:qiqi]] is placed in a party with a Natlan DPS. It should be noted that the DMG% buffs provided by the 4-Piece effect does not do anything in [[element:stellar-conduct]] team.",
-                                "fr": "Ce set est une très bonne option si [[character:qiqi]] est dans une équipe comportant un personnage de Natlan. A noter cependant que le buff de DGT% du 4P n'a aucun effet dans les équipes [[element:stellar-conduct]].",
-                                "ru": "Неплохой вариант, если [[character:qiqi]] играет с персонажами из Натлана."
+                                "fr": "Ce set est une très bonne option si [[character:qiqi]] est dans une équipe comportant un DPS de Natlan. A noter cependant que le buff de DGT% du 4P n'a aucun effet dans les équipes [[element:stellar-conduct]]."
                             }
                         }
                     ]
