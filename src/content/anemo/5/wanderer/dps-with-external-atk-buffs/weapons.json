@@ -48,7 +48,7 @@
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "If [[character:wanderer]] is not protected by a shield, this weapon ranks **below [[weapon:skyward-atlas]]**."
+                        "en": "Assumes Wanderer is shielded. If [[character:wanderer]] is not protected by a shield, this weapon ranks **below [[weapon:skyward-atlas]]**."
                     }
                 }
             ]
@@ -86,7 +86,7 @@
                     "name": "dodoco-tales",
                     "refinement": 5,
                     "note": {
-                        "en": "The optimal rotation for this weapon is to only use [[character:wanderer]]'s Charged Attacks, weaving a Normal Attack every ~6 seconds to keep passive uptime."
+                        "en": "The optimal rotation for this weapon is to only use [[character:wanderer]]'s [[ability:ca]]s, weaving a [[ability:na]] every ~6 seconds to keep passive uptime."
                     }
                 }
             ]
