@@ -1,0 +1,23 @@
+{
+    "artifacts": [
+        {
+            "items": [
+                "disenchantment-in-deep-shadow"
+            ]
+        },
+        {
+            "items": [
+                "gilded-dreams"
+            ]
+        },
+        {
+            "items": [
+                "2pc-80-em",
+                "2pc-18-atk"
+            ],
+            "note": {
+                "en": "Choose Two"
+            }
+        }
+    ]
+}
