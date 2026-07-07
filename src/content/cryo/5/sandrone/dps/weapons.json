@@ -26,7 +26,7 @@
                 {
                     "name": "the-unforged",
                     "note": {
-                        "en": "Ranking assumes you are unshielded. If you maintain a shield, this weapon's performance increases significantly, ranking just below A Thousand Blazing Suns."
+                        "en": "Ranking assumes you are **unshielded**. If you maintain a shield, this weapon's performance increases significantly, ranking just below **[[weapon:a-thousand-blazing-suns]]**."
                     }
                 }
             ]
@@ -37,7 +37,7 @@
                     "name": "tidal-shadow",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes [[character:sandrone]] is healed consistently to maintain the passive uptime."
+                        "en": "Ranking assumes **[[character:sandrone]]** is healed consistently to maintain the passive uptime."
                     }
                 },
                 {
@@ -46,14 +46,14 @@
                 },
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
-                    "refinement": 5,
+                    "refinement": 5
                 }
             ]
         }
     ],
     "notes": [
         {
-            "en": "Without consistent [[element:cryo]] Resonance active, weapons with CRIT Rate will perform slightly better than listed."
+            "en": "Without consistent **[[element:cryo]]** Resonance active, weapons with CRIT Rate will perform slightly better than listed."
         }
     ]
 }
