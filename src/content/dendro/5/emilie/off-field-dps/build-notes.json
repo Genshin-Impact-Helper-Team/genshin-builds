@@ -2,6 +2,7 @@
     "name": {
         "en": "Off-Field DPS",
         "fr": "DPS Off-Field",
+        "it": "DPS Fuori Campo",
         "ru": "Карманный ДД"
     },
     "best": true,
@@ -9,6 +10,7 @@
         {
             "en": "[[character:emilie]] does not use the [[element:burning]] reaction as her primary source of damage, but rather she uses the reaction to help her continuously deal [[element:dendro]] damage. Thus, [[character:emilie]] would rather build offensive stats rather than focus on building around the [[element:burning]] reaction.",
             "fr": "[[character:emilie]] n'utilise pas la réaction de [[element:burning]] comme sa source principale de dégâts, mais elle utilise plutôt cette réaction pour l'aider à infliger continuellement des dégâts [[element:dendro]]. Ainsi, [[character:emilie]] préfère build des stats offensives plutôt que se concentrer sur un build autour de la réaction de [[element:burning]].",
+            "it": "[[character:emilie]] non utilizza la reazione [[element:burning]] come fonte primaria di danno, ma [[element:burning]] le consente di infliggere continuamente danni [[element:dendro]]. È preferibile potenziare le statistiche offensive piuttosto che concentrarsi sui danni da [[element:burning]].",
             "ru": "[[element:burning]] - не основной источник урона [[character:emilie|Эмилии]], оно используется для того, чтобы помочь ей непрерывно наносить [[element:dendro]] урон. Поэтому предпочтительна сборка в атакующие характеристики (cила атаки и криты), а не наращивание урона [[element:burning|Горения]]."
         }
     ],
