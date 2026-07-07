@@ -23,7 +23,7 @@
         {
             "en": "- Full Combo: {rot:E 4[N4E]} - Replace 1 {rot:N4E} with {rot:N1QE} if [[ability:burst]] is available",
             "fr": "- Combo complet : {rot:E 4[N4E]} - Remplacez 1 {rot:N4E} par {rot:N1QE} si l'[[ability:burst]] est disponible.",
-            "ru": "- Полное комбо: {rot:E 4[N4E]} - Заменить 1 {rot:N4E} на {rot:N1QE} если доступен [[ability: burst]]."
+            "ru": "- Полное комбо: {rot:E 4[N4E]} - Заменить 1 {rot:N4E} на {rot:N1QE} если доступен Взрыв стихии."
         },
         {
             "en": "- {rot:E n4 n4 E n1E n1E QE} - Condensed rotation, does not offer more damage and tends to put you in teammate's [[ability:skill]] cooldown time, only used when needing front-loaded damage",
