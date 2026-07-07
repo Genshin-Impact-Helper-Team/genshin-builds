@@ -7,7 +7,8 @@
             "name": "er",
             "note": {
                 "en": "Only necessary if you need to use [[character:linnea]]'s [[ability:burst]] to the heal the team.",
-                "fr": "Seulement nécessaire si vous avez besoin d'utiliser l'[[ability:burst]] de [[character:linnea]] pour soigner l'équipe."
+                "fr": "Seulement nécessaire si vous avez besoin d'utiliser l'[[ability:burst]] de [[character:linnea]] pour soigner l'équipe.",
+                "ru": "Нужно только в том случае, когда есть потребность в лечении от [[ability:burst|Взрыва стихии]] [[character:linnea|Линнеи]]."
             }
         }
     ]

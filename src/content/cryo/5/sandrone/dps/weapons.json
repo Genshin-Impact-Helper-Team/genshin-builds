@@ -27,7 +27,8 @@
                     "name": "the-unforged",
                     "note": {
                         "en": "Ranking assumes you are **unshielded**. If you maintain a shield, this weapon's performance increases significantly, ranking just below **[[weapon:a-thousand-blazing-suns]]**.",
-                        "fr": "Le classement suppose qu'il n'y a **pas de bouclier**. Si vous en avez un, les performances de cette arme augmentent significativement, se classant juste en dessous de **[[weapon:a-thousand-blazing-suns]]**."
+                        "fr": "Le classement suppose qu'il n'y a **pas de bouclier**. Si vous en avez un, les performances de cette arme augmentent significativement, se classant juste en dessous de **[[weapon:a-thousand-blazing-suns]]**.",
+                        "ru": "Предполагается **отсутствие щита**. При его наличии эффективность оружия значительно возрастает, что делает его ненамного хуже **[[weapon:a-thousand-blazing-suns|Тысячи ослепительных солнц]].**"
                     }
                 }
             ]
@@ -39,7 +40,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking assumes **[[character:sandrone]]** is healed consistently to maintain the passive uptime.",
-                        "fr": "Suppose que **[[character:sandrone]]** reçoit des soins régulièrement pour maintenir l'uptime du passif de cette arme."
+                        "fr": "Suppose que **[[character:sandrone]]** reçoit des soins régulièrement pour maintenir l'uptime du passif de cette arme.",
+                        "ru": "Предполагается, что **[[character:sandrone]]** получает достаточный объем лечения для поддержания работы Пассивной способности оружия."
                     }
                 },
                 {
@@ -56,7 +58,8 @@
     "notes": [
         {
             "en": "Without consistent **[[element:cryo]]** Resonance active, weapons with [[stat:cr]] will perform slightly better than listed.",
-            "fr": "Sans résonnance **[[element:cryo]]** active, les armes [[stat:cr]] auront des performances légèrement meilleures que ce qui est affiché."
+            "fr": "Sans résonnance **[[element:cryo]]** active, les armes [[stat:cr]] auront des performances légèrement meilleures que ce qui est affiché.",
+            "ru": "В отрядах, в которых не поддерживается эффект **[[element:cryo]] резонанса**, варианты на [[stat:cr]] могут работать лучше, чем указано в рейтинге."
         }
     ]
 }
