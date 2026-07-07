@@ -17,6 +17,7 @@
                     "note": {
                         "en": "Keep in mind that while this weapon serves as a decent stat stick for [[character:emilie]], using it on her wastes one of the game's stronger buffing weapons since her kit lacks any healing to activate its buff.",
                         "fr": "Gardez en tête que, même si cette arme sert de stat stick correct pour [[character:emilie]], l'utiliser sur elle gaspille l'un des meilleurs buff d'arme du jeu puisque son kit ne possède aucun soin pour activer ce buff.",
+                        "it": "Tieni presente che, sebbene quest'arma sia un'arma con stat discrete per [[character:emilie]], utilizzarla su di lei significa sprecare una delle armi con potenziamenti più forti in tutto gioco, poiché il suo kit non dispone di alcuna abilità curativa per attivarne il potenziamento.",
                         "ru": "Неплохой вариант за счёт статов, но из-за отсутствия у Эмилии способности к лечению теряется крайне сильный бонус для отряда (заложенный в Пассивной способности оружия)"
                     }
                 },
@@ -42,6 +43,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon will perform better than **[[weapon:engulfing-lightning]]**, and it will perform a little worse than **[[weapon:staff-of-homa]]** if she is played in single-target.",
                         "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:engulfing-lightning]]**, et elle reste un peu en dessous de **[[weapon:staff-of-homa]]** si [[character:emilie]] est jouée en monocible.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:engulfing-lightning]]**, e prestazioni leggermente inferiori di **[[weapon:staff-of-homa]]** se contro un nemico singolo.",
                         "ru": "На **[R5]** превосходит **[[weapon:engulfing-lightning|Сияющую жатву]]** и немного уступает **[[weapon:staff-of-homa|Посоху Хомы]]** в бою с одиночным противником."
                     }
                 }
