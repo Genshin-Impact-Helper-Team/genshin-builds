@@ -13,7 +13,8 @@
                     "name": "burst",
                     "note": {
                         "en": "[[ability:burst]] talent levels are not required if you do not need to use [[character:linnea]]'s [[ability:burst]] to heal the team.",
-                        "fr": "Les niveaux de l'[[ability:burst]] ne sont pas nécessaires si vous n'avez pas besoin de l'utiliser pour soigner l'équipe."
+                        "fr": "Les niveaux de l'[[ability:burst]] ne sont pas nécessaires si vous n'avez pas besoin de l'utiliser pour soigner l'équipe.",
+                        "ru": "Повышение уровня [[ability:burst|Взрыва стихии]] не является обязательным, если он не используется для лечения."
                     }
                 }
             ]

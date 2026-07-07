@@ -1,25 +1,30 @@
 {
     "name": {
         "en": "Off-Field DPS & Buff and Heal Support",
-        "fr": " DPS Off-Field & Support Soins et Buffs"
+        "fr": "DPS Off-Field & Support Soins et Buffs",
+        "ru": "Карманный ДД & Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:linnea]] is a potent support for [[element:geo]] units, providing Off-Field Damage with her companion Lumi, [[element:lunar-crystallize]] DMG when Moondrifts are present, and also providing [[element:geo]] Resistance shredding and teamwide healing. In addition, when Ascendant Gleam is active, Lumi can also boost the team's [[stat:em]], and further amplifies the [[element:geo]] Resistance shredding.",
-            "fr": "[[character:linnea]] est un puissant support pour les personnages [[element:geo]], offrant des dégâts Off-Field avec son compagnon Lumi, des dégpats [[element:lunar-crystallize]] quand les voiles lunaires sont présents, ainsi que de la baisse de RES [[element:geo]] et du soin pour toute l'équipe. De plus, quand Signelune: Lueur Ascendant est actif, Lumi peut aussi booster la [[stat:em]] de l'équipe, et encore plus baisser la RES [[element:geo]]."
+            "fr": "[[character:linnea]] est un puissant support pour les personnages [[element:geo]], offrant des dégâts Off-Field avec son compagnon Lumi, des dégpats [[element:lunar-crystallize]] quand les voiles lunaires sont présents, ainsi que de la baisse de RES [[element:geo]] et du soin pour toute l'équipe. De plus, quand Signelune: Lueur Ascendant est actif, Lumi peut aussi booster la [[stat:em]] de l'équipe, et encore plus baisser la RES [[element:geo]].",
+            "ru": "[[character:linnea]] - мощный саппорт для [[element:geo]] персонажей, предлагающий личный урон из кармана, урон реакции [[element:lunar-crystallize|Лунного кристалла]] при наличии Лунной пелены, срез [[element:geo]] сопротивления и лечение для всего отряда. Кроме того, при достижении Лунного знамения - Высшее сияние Линнея дает бонус к [[stat:em|Мастерству стихий]], а срез [[element:geo]] сопротивления увеличивается."
         },
         {
             "en": "[[character:linnea]] can feed Lumi into her Ultimate Power form to execute the Million Ton Crush, a huge [[element:lunar-crystallize]] DMG nuke.",
-            "fr": "[[character:linnea]] peut nourrir Lumi pour le faire passer dans sa forme ultra puissante pour déclencher son Marteau d'un million de tonnes, un énorme nuke [[element:lunar-crystallize]]."
+            "fr": "[[character:linnea]] peut nourrir Lumi pour le faire passer dans sa forme ultra puissante pour déclencher son Marteau d'un million de tonnes, un énorme nuke [[element:lunar-crystallize]].",
+            "ru": "[[character:linnea]] может накормить Луми и вызвать Форму наивысшей силы, чтобы активировать Мегатонный молот и нанести массивный урон реакции [[element:lunar-crystallize]]."
         },
         {
             "en": "After inputting {rot:[1E]}, Lumi will continuously deal [[element:lunar-crystallize]] and [[element:geo]] DMG. Inputting {rot:[4E]} will lead to Lumi dealing all of her [[element:lunar-crystallize]] DMG via the Million Ton Crush, after which she will only deal continuous [[element:geo]] DMG.",
-            "fr": "Avec {rot:[1E]}, Lumi va infliger des dégâts [[element:lunar-crystallize]] et [[element:geo]] en continu. Utiliser {rot:[4E]} permettra à Lumi d'infliger tout ses dégâts [[element:lunar-crystallize]] via son Marteau d'un million de tonnes, après lequel elle n'infligera que des dégâts [[element:geo]] continus."
+            "fr": "Avec {rot:[1E]}, Lumi va infliger des dégâts [[element:lunar-crystallize]] et [[element:geo]] en continu. Utiliser {rot:[4E]} permettra à Lumi d'infliger tout ses dégâts [[element:lunar-crystallize]] via son Marteau d'un million de tonnes, après lequel elle n'infligera que des dégâts [[element:geo]] continus.",
+            "ru": "После нажатия {rot:[1E]} Луми непрерывно наносит [[element:geo]] урон и урон реакции [[element:lunar-crystallize]]. При нажатии {rot:[4E]} Луми наносит весь урон [[element:lunar-crystallize|Лунного кристалла]] за один раз, после чего наносит только [[element:geo]] урон."
         },
         {
             "en": "Both modes yield pretty similar damage, however using {rot:[1E]} is generally more advisable in most teams.",
-            "fr": "Les deux modes génèrent des dégats similaires, mais il est généralement plus recommandé d'utiliser {rot:[1E]} dans la plupart des équipes."
+            "fr": "Les deux modes génèrent des dégats similaires, mais il est généralement plus recommandé d'utiliser {rot:[1E]} dans la plupart des équipes.",
+            "ru": "Общий урон обоих вариантов приблизительно равен, но в большинстве случаев рекомендуется {rot:[1E]}."
         }
     ],
     "weapons": {

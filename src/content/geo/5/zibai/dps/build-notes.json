@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "weapons": {
@@ -11,23 +12,28 @@
     "notes": [
         {
             "en": "[[character:zibai]] is an on-field damage dealer that focuses on getting enough stacks to use her enhanced [[ability:skill]] via using [[ability:na|Normal Attacks]] and proccing [[element:lunar-crystallize|Lunar-Crystallized]] reaction. This leads to [[character:zibai]] wanting as much field time as possible to make use of all 4 of her [[ability:skill]] charges along with getting to the final hits of her [[ability:na|NA]] chain.",
-            "fr": "[[character:zibai]] est une DPS on-field qui se concentre sur l'obtention d'assez de stacks pour utiliser son [[ability:skill]] renforcé en utilisant des [[ability:na|attaques normales]] et en déclenchant la réaction [[element:lunar-crystallize]]. Cela pousse [[character:zibai]] à vouloir autant de temps de terrain que possible afin d'utiliser ses 4 charges de [[ability:skill]] et d'atteindre les derniers coups de sa chaîne d'[[ability:na|attaques normales]]."
+            "fr": "[[character:zibai]] est une DPS on-field qui se concentre sur l'obtention d'assez de stacks pour utiliser son [[ability:skill]] renforcé en utilisant des [[ability:na|attaques normales]] et en déclenchant la réaction [[element:lunar-crystallize]]. Cela pousse [[character:zibai]] à vouloir autant de temps de terrain que possible afin d'utiliser ses 4 charges de [[ability:skill]] et d'atteindre les derniers coups de sa chaîne d'[[ability:na|attaques normales]].",
+            "ru": "[[character:zibai]] играет как ДД на поле. Основная её цель - набирать достаточно зарядов для усиленного [[ability:skill|Элементального навыка]], выполняя [[ability:na|Обычные атаки]] и активируя [[element:lunar-crystallize|Лунный кристалл]]. Для этого [[character:zibai]] нужно достаточно времени на поле, чтобы использовать усиленный [[ability:skill|навык]] 4 раза, и, по возможности, полностью завершать последовательность [[ability:na|Обычных атак]]."
         },
         {
             "en": "[[character:zibai]] requires another Moonsign character in her team to unlock a large portion of her damage potential.",
-            "fr": "[[character:zibai]] nécessite un autre personnage Signelune dans son équipe pour débloquer une grande partie de son potentiel de dégâts."
+            "fr": "[[character:zibai]] nécessite un autre personnage Signelune dans son équipe pour débloquer une grande partie de son potentiel de dégâts.",
+            "ru": "Для полного раскрытия потенциала [[character:zibai]] требуется еще один персонаж с Лунным знамением в отряде."
         },
         {
             "en": "- Full Combo: {rot:E 4[N4E]} - Replace 1 {rot:N4E} with {rot:N1QE} if [[ability:burst]] is available",
-            "fr": "- Combo complet : {rot:E 4[N4E]} - Remplacez 1 {rot:N4E} par {rot:N1QE} si l'[[ability:burst]] est disponible."
+            "fr": "- Combo complet : {rot:E 4[N4E]} - Remplacez 1 {rot:N4E} par {rot:N1QE} si l'[[ability:burst]] est disponible.",
+            "ru": "- Полное комбо: {rot:E 4[N4E]} - Заменить 1 {rot:N4E} на {rot:N1QE} если доступен Взрыв стихии."
         },
         {
             "en": "- {rot:E n4 n4 E n1E n1E QE} - Condensed rotation, does not offer more damage and tends to put you in teammate's [[ability:skill]] cooldown time, only used when needing front-loaded damage",
-            "fr": "- {rot:E n4 n4 E n1E n1E AE} - Rotation condensée, n'offre pas plus de dégâts et tend à vous placer dans le temps de recharge des [[ability:skill]] de vos coéquipiers, utilisée uniquement lorsqu'il faut des dégâts dès le début de la rotation."
+            "fr": "- {rot:E n4 n4 E n1E n1E AE} - Rotation condensée, n'offre pas plus de dégâts et tend à vous placer dans le temps de recharge des [[ability:skill]] de vos coéquipiers, utilisée uniquement lorsqu'il faut des dégâts dès le début de la rotation.",
+            "ru": "- {rot:E n4 n4 E n1E n1E QE} - Укороченный вариант, не опережает стандартное комбо по урону. Возможно, что придется ждать отката способностей других персонажей в отряде. Стоит применять, если требуется нанести больше урона за короткое время."
         },
         {
             "en": "Combo for [[character:zibai]] can be unreliable due to her teams generally having slower off - field [[element:hydro]] appliers that interfere with her proccing [[element:lunar-crystallize|Lunar-Crystallized]] at the right moment, which makes her combo more flexible to use depending on the situation",
-            "fr": "Le combo de [[character:zibai]] peut être peu fiable car ses équipes ont généralement des applicateurs [[element:hydro]] off-field plus lents, qui interfèrent avec le déclenchement de [[element:lunar-crystallize]] au bon moment, ce qui rend son combo plus flexible à utiliser selon la situation."
+            "fr": "Le combo de [[character:zibai]] peut être peu fiable car ses équipes ont généralement des applicateurs [[element:hydro]] off-field plus lents, qui interfèrent avec le déclenchement de [[element:lunar-crystallize]] au bon moment, ce qui rend son combo plus flexible à utiliser selon la situation.",
+            "ru": "На указанные комбинации нельзя полагаться безоговорочно; если [[element:hydro]] из кармана накладывается нечасто, [[element:lunar-crystallize]] может не закрываться вовремя. В связи с этим комбо [[character:zibai]] может быть достаточно гибким и зависеть от текущей ситуации."
         }
     ]
 }
