@@ -13,6 +13,7 @@
                     "note": {
                         "en": "In addition to the amount of flat energy generation for the user, this weapon can provide significant team-wide healing when used in conjunction with [[stat:healing-bonus]]. It is a great option when using [[character:baizhu]] with [[character:furina]] for building Fanfare points from the second rotation onwards.",
                         "fr": "En plus de la génération d'énergie fixe pour son utilisateur, cette arme peut fournir un soin d'équipe significatif lorsqu'elle est utilisée avec le [[stat:healing-bonus]]. C'est une excellente option lorsque vous utilisez [[character:baizhu]] avec [[character:furina]] pour générer des points de Fanfare à partir de la deuxième rotation.",
+                        "it": "Oltre alla quantità di energia fornita a [[character:baizhu]], può fornire significative cure a tutto il team se utilizzata in combinazione ad una Corona [[stat:healing-bonus]]. Un'ottima opzione quando [[character:baizhu]] è utilizzato con [[character:furina]] per accumulare punti Fanfara dalla seconda rotazione in poi.",
                         "ru": "Этот катализатор, наряду с прямой заливкой энергии носителю, может существенно увеличить объем исцеления отряда (при использовании с короной на [[stat:healing-bonus]]). Отличный вариант, если [[character:baizhu]] играет с [[character:furina|Фуриной]] для накопления Фанфар (начиная со второй ротации)."
                     }
                 }
@@ -35,6 +36,7 @@
                     "note": {
                         "en": "This weapon is best used in [[element:quicken]] teams when [[character:baizhu]] is able to provide reasonable uptime on the buff.",
                         "fr": "Cette arme s'utilise surtout dans les équipes [[element:quicken]] quand [[character:baizhu]] peut fournir un uptime raisonnable sur le buff.",
+                        "it": "Quest'arma è particolarmente efficace in team [[element:quicken]] in cui [[character:baizhu]] è in grado di fornire un tempo di funzionamento ragionevole per il potenziamento.",
                         "ru": "Лучше всего использовать в отрядах, где [[character:baizhu]] может регулярно обновлять эффект Пассивной способности оружия."
                     }
                 }
@@ -52,6 +54,7 @@
                     "note": {
                         "en": "This weapon can be considered in certain teams for the modest [[stat:em]] team buff it provides, though there are generally better uses for it.",
                         "fr": "Cette arme peut être envisagée dans certaines équipes pour le modeste buff de [[stat:em]] d'équipe qu'elle apporte, bien qu'il y ait généralement de meilleurs usages pour elle.",
+                        "it": "Quest'arma può essere presa in considerazione in alcuni team per il modesto potenziamento alla [[stat:em]] che fornisce, anche se in genere se ne possono fare usi migliori.",
                         "ru": "Может быть вариантом в некоторых отрядах из-за общего увеличения [[stat:em|МС]], но в целом у него есть более подходящие носители."
                     }
                 }

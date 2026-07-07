@@ -2,6 +2,7 @@
     "name": {
         "en": "Heal Support",
         "fr": "Support Soins",
+        "it": "Supporto Cure",
         "ru": "Саппорт"
     },
     "best": true,
@@ -9,11 +10,13 @@
         {
             "en": "[[character:baizhu]] provides teamwide healing through the use of his [[ability:skill]], and heals the active character from his [[ability:burst]]. The shields generated from his [[ability:burst]] should be considered as interrupt resistance as opposed to a reliable form of damage mitigation for non-[[element:bloom]] reaction related damage sources. Due to being a [[element:dendro]] catalyst, [[character:baizhu]] can work effectively in a large range of different [[element:dendro]] team archetypes.",
             "fr": "[[character:baizhu]] offre du soin pour toute l'équipe avec son [[ability:skill]], et soigne le personnage actif avec son [[ability:burst]]. Le bouclier généré par son [[ability:burst]] doit être considéré comme de la résistance à l'interruption plutôt que comme une protection fiable contre les sources de dégâts autre que les dégâts auto-infligés de [[element:bloom]]. Puisqu'il s'agit d'un catalyseur [[element:dendro]], [[character:baizhu]] peut fonctionner efficacement dans un grand nombre d'archétypes d'équipes [[element:dendro]].",
+            "it": "[[character:baizhu]] fornisce cure a tutto il team tramite la sua [[ability:skill]], e cura il personaggio attivo tramite il suo [[ability:burst]]. Gli scudi generati dal [[ability:burst]] dovrebbero essere considerati come una fonte di resistenza all'interruzione piuttosto che veri e propri scudi in team che non sono [[element:bloom]]. Essendo un catalizzatore [[element:dendro]], può funzionare efficacemente in una vasta gamma di team.",
             "ru": "[[character:baizhu]] исцеляет отряд за счет [[ability:skill|Элементального навыка]] и активного персонажа за счет [[ability:burst|Взрыва стихии]]. Накладываемый [[ability:burst|Взрывом]] щит следует рассматривать как источник сопротивления прерыванию, а не надежную защиту от урона (помимо урона от [[element:bloom|Бутонизации]]). Благодаря тому, что [[character:baizhu]] является [[element:dendro]] катализатором, он может эффективно играть в большинстве типов [[element:dendro]] отрядов."
         },
         {
             "en": "[[character:baizhu]]'s [[ability:skill]] has a 2-3 second delay between cast time and heal received, keep this in mind when swapping to low HP allies after [[character:baizhu]]'s rotation.",
             "fr": "Le [[ability:skill]] de [[character:baizhu]] a un délai de 2-3 secondes entre le lancement et le soin reçu, gardez cela en tête lorsque vous passez sur des alliés avec peu de PV après la rotation de [[character:baizhu]].",
+            "it": "L'[[ability:skill]] di [[character:baizhu]] ha un ritardo di 2-3 secondi tra il momento dell'attivazione e la ricezione delle cure; tienilo presente quando passi a personaggi con PS bassi.",
             "ru": "Между активацией [[ability:skill|Элементального навыка]] [[character:baizhu]] и тиком исцеления есть 2-3-хсекундное окно. Помните об этом, переключаясь на союзника с низким НР после ротации [[character:baizhu]]."
         }
     ]
