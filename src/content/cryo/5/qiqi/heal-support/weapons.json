@@ -1,8 +1,7 @@
 {
     "notes": [
         {
-            "en": "[[character:qiqi]] still wants [[stat:er]] weapons to help bring her [[ability:burst]] back every rotation. As such, they are still prioritized.",
-            "ru": "Оружие на [[stat:er]] - желательный вариант для [[character:qiqi]], чтобы активировать [[ability:burst]] каждую ротацию."
+            "en": "Building [[stat:er]] on [[character:qiqi]] helps her use her [[ability:burst]] for better healing, as her [[ability:skill]] does not heal a whole lot on it's own."
             
         }
     ],
@@ -31,16 +30,8 @@
         },
         {
             "items": [
-                "sapwood-blade"
-            ]
-        },
-        {
-            "items": [
-                "fleuve-cendre-ferryman"
-            ]
-        },
-        {
-            "items": [
+                "sapwood-blade",
+                "fleuve-cendre-ferryman",
                 {
                     "name": "amenoma-kageuchi",
                     "note": {
