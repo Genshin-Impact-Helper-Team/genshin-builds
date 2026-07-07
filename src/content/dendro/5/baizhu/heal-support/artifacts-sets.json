@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "Under AoE situations, it may be better for another party member to hold this set as [[character:baizhu]] has lackluster AoE.",
                                 "fr": "En situation d'AoE, il peut être préférable qu'un autre personnage porte ce set, car [[character:baizhu]] a une AoE assez limitée.",
+                                "it": "In situazioni ad area (AoE), potrebbe essere preferibile che un altro membro del team utilizzi questo set, poiché [[character:baizhu]] ha un'AoE poco efficace.",
                                 "ru": "Из-за маленького радиуса урона [[character:baizhu]] лучше, если другой персонаж с большим АоЕ будет носить данный сет."
                             }
                         }
@@ -39,6 +40,7 @@
                             "note": {
                                 "en": "The [[stat:em]] gained from this set outweighs the reduction in A4 passive bonus from lower main stat values.",
                                 "fr": "La [[stat:em]] gagnée grâce à ce set compense la réduction du bonus de son passif A4 due aux valeurs plus faibles des stats principales.",
+                                "it": "La [[stat:em]] ottenuta da questo set supera la riduzione del bonus passivo A4 derivante dai valori inferiori delle stat.",
                                 "ru": "[[stat:em]] за счет бонуса комплекта перевешивает снижение бонуса от А4 Пассивной способности из-за более низких основных статов."
                             }
                         }
@@ -56,6 +58,7 @@
                             "note": {
                                 "en": "In teams that benefit from [[stat:atk%]], this set can be run over **[[set:instructor]] (4)** if the additional sustain from higher HP values is preferred.",
                                 "fr": "Dans les équipes qui profitent de l'[[stat:atk%]], ce set peut être joué à la place d'**[[set:instructor]] (4)** si le sustain supplémentaire apporté par des PV plus élevés est préféré.",
+                                "it": "In team che traggono vantaggio da [[stat:atk%]], questo set può essere utilizzato al posto di **[[set:instructor]] (4)** se si preferisce il sostegno aggiuntivo derivante da valori di PS più elevati.",
                                 "ru": "В отрядах, нуждающихся в [[stat:atk%|cиле атаки%]], может быть полезнее **[[set:instructor|Инструктора]] (4)** за счет бонуса комплекта и большего уровня HP."
                             }
                         }
