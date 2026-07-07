@@ -4,7 +4,8 @@
     },
     "notes": [
         {
-            "en": "[[character:sandrone]] is used with [[element:electro]] and [[element:cryo]] characters to activate her Radiance: Stellar Conduct state and deal massively increased damage. [[character:sandrone]] is a character who uses her Charged Attack to deal damage while refreshing its uptime with her Skill. She often uses her Burst for the extra damage it provides."
+            "en": "[[character:sandrone]] is used with [[element:electro]] and [[element:cryo]] characters to activate her Radiance: [[element:stellar-conduct]] state and deal massively increased damage. [[character:sandrone]] is a character who uses her [[ability:ca]] to deal damage while refreshing its uptime with her [[ability:skill]]. She often uses her [[ability:burst]] for the extra damage it provides.",
+            "fr": "[[character:sandrone]] se joue avec des personnages [[element:electro]] & [[element:cryo]] pour activer son état de Radiance \"[[element:stellar-conduct]]\" et infligés des dégâts grandement augmentés. [[character:sandrone]] est un personnage qui utilise ses [[ability:ca|Attaques Chargées]] pour infliger des dégâts tout en utilisant son [[ability:skill]] pour reset son uptime. Elle utilise souvent son [[ability:burst]] pour les dégâts additionnels qu'il offre."
         }
     ],
     "global": {
