@@ -26,7 +26,7 @@
                 {
                     "name": "the-unforged",
                     "note": {
-                        "en": "Ranking assumes you are **unshielded**. If you maintain a shield, this weapon's performance increases significantly, ranking just below **[[weapon:a-thousand-blazing-suns]]**."
+                        "en": "Ranking assumes you are unshielded. If you maintain a shield, this weapon's performance increases significantly, ranking just below [[weapon:a-thousand-blazing-suns]]."
                     }
                 }
             ]
@@ -37,7 +37,7 @@
                     "name": "tidal-shadow",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes **[[character:sandrone]]** is healed consistently to maintain the passive uptime."
+                        "en": "Ranking assumes [[character:sandrone]] is healed consistently to maintain the passive uptime."
                     }
                 },
                 {
@@ -53,7 +53,7 @@
     ],
     "notes": [
         {
-            "en": "Without consistent **[[element:cryo]]** Resonance active, weapons with a **[[stat:crit-rate]]** substat will perform slightly better than listed."
+            "en": "Without consistent [[element:cryo]] Resonance active, weapons with CRIT Rate will perform slightly better than listed."
         }
     ]
 }
