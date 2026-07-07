@@ -1,23 +1,39 @@
 {
     "artifacts": [
         {
-            "items": [
-                "disenchantment-in-deep-shadow"
+            "groups": [
+                {
+                    "items": [
+                        "disenchantment-in-deep-shadow"
+                    ]
+                }
             ]
         },
         {
-            "items": [
-                "gilded-dreams"
+            "groups": [
+                {
+                    "items": [
+                        "gilded-dreams"
+                    ]
+                }
             ]
         },
         {
-            "items": [
-                "em-set",
-                "atk-set"
-            ],
-            "note": {
-                "en": "Choose Two"
-            }
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
