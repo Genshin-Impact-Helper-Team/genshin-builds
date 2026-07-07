@@ -7,6 +7,7 @@
                     "note": {
                         "en": "This weapon prefers [[stat:em]] sands even in situations with fewer or no [[element:spread]] procs such as in [[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]] teams.",
                         "fr": "Cette arme préfère un sablier [[stat:em]] même dans les situations avec moins, voire aucun proc de [[element:spread]], comme dans les équipes [[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]].",
+                        "it": "Quest'arma predilige Sabbie [[stat:em]], anche in team con poche o nessuna reazioni [[element:spread]], come nei team [[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]].",
                         "ru": "С этим оружием предпочтительно использовать [[stat:em|МС]]-часы даже без игры через [[element:spread]] (команды через [[element:bloom|Бутонизацию]]/[[element:burgeon]]/[[element:hyperbloom|Вегетацию]])"
                     }
                 }
@@ -19,6 +20,7 @@
                     "note": {
                         "en": "With a [[element:geo]] unit on the team this performs on par with **[[weapon:light-of-foliar-incision]]**, or even slightly better in AoE scenarios where you lose stacks faster on **[[weapon:light-of-foliar-incision]]**.",
                         "fr": "Avec un personnage [[element:geo]] dans l'équipe, cette arme est au niveau de **[[weapon:light-of-foliar-incision]]**, voire légèrement meilleure en AoE dans les scénarios où vous perdez les stacks plus vite sur **[[weapon:light-of-foliar-incision]]**.",
+                        "it": "Con un personaggio [[element:geo]] nel team, quest'arma ha prestazioni pari a quelle di **[[weapon:light-of-foliar-incision]]**, risultando persino leggermente superiori in scenari ad area (AoE), dove gli accumuli di **[[weapon:light-of-foliar-incision]]** si consumano più rapidamente.",
                         "ru": "При наличии [[element:geo]] персонажа в отряде соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**; при этом может превосходить его в AoE, где уровни **[[weapon:light-of-foliar-incision|Света лиственного разреза]]** расходуются быстрее."
                     }
                 },
@@ -43,6 +45,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similarly to **[[weapon:haran-geppaku-futsu]]** and **[[weapon:mistsplitter-reforged]]**.",
                         "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:haran-geppaku-futsu]]** et **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]** e **[[weapon:mistsplitter-reforged]]**.",
                         "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]** и **[[weapon:mistsplitter-reforged|Рассекающему туману]]**."
                     }
                 }
@@ -55,6 +58,7 @@
                     "note": {
                         "en": "This ranking assumes single-target situations, in AoE situations it starts falling behind weapons such as **[[weapon:iron-sting]]** and **[[weapon:blackcliff-longsword]]**.",
                         "fr": "Ce classement suppose des situations monocible, en AoE elle commence à passer derrière des armes comme **[[weapon:iron-sting]]** et **[[weapon:blackcliff-longsword]]**.",
+                        "it": "Questa classifica presuppone scenari con un nemico singolo; in scenari ad area (AoE), comincia a risultare meno efficace rispetto ad armi come **[[weapon:iron-sting]]** e **[[weapon:blackcliff-longsword]]**.",
                         "ru": "Рейтинг применим к ситуациям боя с одиночными противниками, в АоЕ этот вариант уступает **[[weapon:iron-sting|Стальному жалу]]** и **[[weapon:blackcliff-longsword|Черногорскому длинному мечу]]**."
                     }
                 }
@@ -75,6 +79,7 @@
                     "note": {
                         "en": "If you can maintain near perfect uptime on its passive this weapon will perform similarly to weapons like **[[weapon:haran-geppaku-futsu]]**.",
                         "fr": "Si vous pouvez maintenir un uptime presque parfait sur son passif, cette arme se rapproche d'armes comme **[[weapon:haran-geppaku-futsu]]**.",
+                        "it": "Se riesci a mantenere la passiva (PS al di sopra del 90%) quasi sempre attiva, quest'arma può offrire prestazioni paragonabili a **[[weapon:haran-geppaku-futsu]]**.",
                         "ru": "При поддержании бонуса Пассивной способности может соответствовать **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
@@ -87,6 +92,7 @@
                     "note": {
                         "en": "This weapon can perform similarly to **[[weapon:the-black-sword]]** in teams where you have higher [[stat:er]] requirements or want to [[ability:burst]] every rotation.",
                         "fr": "Cette arme peut être comparable à **[[weapon:the-black-sword]]** dans les équipes où vous avez des besoins en [[stat:er]] plus élevés ou si voulez utiliser l'[[ability:burst]] à chaque rotation.",
+                        "it": "Quest'arma può offrire prestazioni simili a **[[weapon:the-black-sword]]** in team che richiedono [[stat:er]] più elevata o in cui si desidera attivare il [[ability:burst]] in ogni rotazione.",
                         "ru": "Может соответствовать **[[weapon:the-black-sword|Чёрному мечу]]** в отрядах с большей потребностью в [[stat:er|ВЭ]]/при использовании [[ability:burst|Взрыва стихии]] каждую ротацию."
                     }
                 },
@@ -95,6 +101,7 @@
                     "note": {
                         "en": "This weapon can perform similarly to **[[weapon:the-black-sword]]** in teams where you have higher [[stat:er]] requirements or want to [[ability:burst]] every rotation.",
                         "fr": "Cette arme peut être comparable à **[[weapon:the-black-sword]]** dans les équipes où vous avez des besoins en [[stat:er]] plus élevés ou si voulez utiliser l'[[ability:burst]] à chaque rotation.",
+                        "it": "Quest'arma può offrire prestazioni simili a **[[weapon:the-black-sword]]** in team che richiedono [[stat:er]] più elevata o in cui si desidera attivare il [[ability:burst]] in ogni rotazione.",
                         "ru": "Может соответствовать **[[weapon:the-black-sword|Чёрному мечу]]** в отрядах с большей потребностью в [[stat:er|ВЭ]]/при использовании [[ability:burst|Взрыва стихии]] каждую ротацию."
                     }
                 }
