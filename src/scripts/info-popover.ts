@@ -110,7 +110,11 @@ document.addEventListener('click', (event) => {
 
 document.addEventListener('pointerover', (event) => {
   if ((event as PointerEvent).pointerType === 'touch') return;
-  const popover = getPopover(event.target);
+  const popover = getPopover(
+    event.target instanceof Element
+      ? event.target.closest('.info-popover-trigger')
+      : null,
+  );
   if (popover && popover !== activePopover && !pinned) showPopover(popover);
 });
 
@@ -127,7 +131,11 @@ document.addEventListener('pointerout', (event) => {
 });
 
 document.addEventListener('focusin', (event) => {
-  const popover = getPopover(event.target);
+  const popover = getPopover(
+    event.target instanceof Element
+      ? event.target.closest('.info-popover-trigger')
+      : null,
+  );
   if (popover && !pinned) showPopover(popover);
 });
 

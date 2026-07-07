@@ -20,19 +20,10 @@ type Props = {
     id?: string;
     info?: ArtifactSetInfo;
   };
-  suffix?: string;
   lang?: string;
-  noteId?: string;
-  hasNote?: boolean;
 };
 
-const {
-  artifact,
-  suffix = '',
-  lang = 'en',
-  noteId,
-  hasNote = false,
-} = Astro.props as Props;
+const { artifact, lang = 'en' } = Astro.props as Props;
 const info = artifact.info;
 
 function escapeHtml(value: unknown) {
@@ -107,32 +98,11 @@ const popoverCardHtml = info
       >
         <InlineNoteLabel
           label={artifact.name}
-          noteId={noteId}
-          hasNote={hasNote}
           emphasized
         />
-        {suffix && (
-          <span class="artifact-piece-suffix">
-            {'\u00a0'}
-            {suffix}
-          </span>
-        )}
       </span>
     </span>
   ) : (
-    <>
-      <InlineNoteLabel
-        label={artifact.name}
-        noteId={noteId}
-        hasNote={hasNote}
-        emphasized
-      />
-      {suffix && (
-        <span class="artifact-piece-suffix">
-          {'\u00a0'}
-          {suffix}
-        </span>
-      )}
-    </>
+    <InlineNoteLabel label={artifact.name} emphasized />
   )
 }
