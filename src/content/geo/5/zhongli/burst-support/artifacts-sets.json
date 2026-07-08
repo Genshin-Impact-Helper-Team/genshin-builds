@@ -25,7 +25,8 @@
                             "pieces": 2,
                             "note": {
                                 "en": "Combined with **[[set:noblesse-oblige]] (2)**, on lower [[stat:er]] requirements where [[character:zhongli]] doesn't need to worry about his energy needs, this set pulls ahead of **[[set:emblem-of-severed-fate]]** (4).",
-                                "fr": "Combiné avec **[[set:noblesse-oblige]] (2)** et avec des besoins en [[stat:er]] plus bas, lorsque [[character:zhongli]] n'a pas à se soucier de son énergie, cette combinaison passe devant **[[set:emblem-of-severed-fate]]** (4)."
+                                "fr": "Combiné avec **[[set:noblesse-oblige]] (2)** et avec des besoins en [[stat:er]] plus bas, lorsque [[character:zhongli]] n'a pas à se soucier de son énergie, cette combinaison passe devant **[[set:emblem-of-severed-fate]]** (4).",
+                                "ru": "В комбинации с **[[set:noblesse-oblige|Церемонией древней знати]] (2)** и при низкой потребности в [[stat:er|ВЭ]] превосходит **[[set:emblem-of-severed-fate|Эмблему рассеченной судьбы]] (4)**."
                             }
                         }
                     ]
@@ -41,7 +42,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set provides [[character:zhongli]] more utility when casting his [[ability:burst]], you can use this set on [[character:zhongli]] if there is nobody else on the team who's equipping this set.",
-                                "fr": "Ce set apporte plus d'utilité à [[character:zhongli]] lorsqu'il lance son [[ability:burst]] ; vous pouvez l'utiliser sur [[character:zhongli]] si personne d'autre dans l'équipe ne l'équipe."
+                                "fr": "Ce set apporte plus d'utilité à [[character:zhongli]] lorsqu'il lance son [[ability:burst]] ; vous pouvez l'utiliser sur [[character:zhongli]] si personne d'autre dans l'équipe ne l'équipe.",
+                                "ru": "Заставляет [[ability:burst]] [[character:zhongli]] приносить больше пользы. Следует рассматривать, если в отряде нет другого носителя данного набора."
                             }
                         }
                     ]
@@ -57,7 +59,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Just like **[[set:noblesse-oblige]]** (4), this set provides [[character:zhongli]] with more utility if his [[ability:skill]] hits an enemy. This set also provides [[character:zhongli]] with stronger shields.",
-                                "fr": "Comme **[[set:noblesse-oblige]]** (4), ce set apporte plus d'utilité à [[character:zhongli]] si son [[ability:skill]] touche un ennemi. Ce set fournit aussi à [[character:zhongli]] des boucliers plus solides."
+                                "fr": "Comme **[[set:noblesse-oblige]]** (4), ce set apporte plus d'utilité à [[character:zhongli]] si son [[ability:skill]] touche un ennemi. Ce set fournit aussi à [[character:zhongli]] des boucliers plus solides.",
+                                "ru": "Как и **[[set:noblesse-oblige]] (4)**, данный набор позволяет [[ability:skill|Элементальному навыку]] приносить больше пользы (при условии попадания по противникам). Также увеличивает прочность щита."
                             }
                         }
                     ]
