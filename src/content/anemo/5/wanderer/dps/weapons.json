@@ -27,7 +27,8 @@
                 {
                     "name": "cashflow-supervision",
                     "note": {
-                        "en": "If paired **with [[character:furina]]**, this weapon ranks above **[[weapon:tulaytullahs-remembrance]]**."
+                        "en": "If paired **with [[character:furina]]**, this weapon ranks above **[[weapon:tulaytullahs-remembrance]]**.",
+                        "fr": "Si joué **avec [[character:furina]]**, cette arme se classe au dessus de **[[weapon:tulaytullahs-remembrance]]**."
                     }
                 }
             ]
@@ -38,7 +39,8 @@
                 {
                     "name": "tome-of-the-eternal-flow",
                     "note": {
-                        "en": "If paired **with [[character:furina]]**, this weapon's ranks similarly to **[[weapon:reliquary-of-truth]]**."
+                        "en": "If paired **with [[character:furina]]**, this weapon's ranks similarly to **[[weapon:reliquary-of-truth]]**.",
+                        "fr": "Si joué **avec [[character:furina]]**, cette arme devient similaire à **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -48,7 +50,8 @@
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "Assumes Wanderer is shielded. If [[character:wanderer]] is not protected by a shield, this weapon ranks **below [[weapon:skyward-atlas]]**."
+                        "en": "Assumes [[character:wanderer]] is shielded. If [[character:wanderer]] is not protected by a shield, this weapon ranks **below [[weapon:skyward-atlas]]**.",
+                        "fr": "Suppose que [[character:wanderer]] a un bouclier. Si ce n'est pas le cas, cette arme passe **en dessous de [[weapon:skyward-atlas]]**."
                     }
                 }
             ]
@@ -68,7 +71,8 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At R5, this weapon ranks above **[[weapon:skyward-atlas]]**."
+                        "en": "At [R5], this weapon ranks above **[[weapon:skyward-atlas]]**.",
+                        "fr": "Une fois [R5], cette arme se classe au dessus de **[[weapon:skyward-atlas]]**."
                     }
                 },
                 "solar-pearl"
@@ -86,7 +90,8 @@
                     "name": "dodoco-tales",
                     "refinement": 5,
                     "note": {
-                        "en": "The optimal rotation for this weapon is to only use [[character:wanderer]]'s [[ability:ca]]s, weaving a [[ability:na]] every ~6 seconds to keep passive uptime."
+                        "en": "The optimal rotation for this weapon is to only use [[character:wanderer]]'s [[ability:ca]]s, weaving a [[ability:na]] every ~6 seconds to keep passive uptime.",
+                        "fr": "La rotation optimale pour cette arme est de n'utiliser que les [[ability:ca|Attaques Chargées]] de [[character:wanderer]], en utilisant une [[ability:na]] toutes les ~6 secondes pour garder le passif actif."
                     }
                 }
             ]
@@ -101,7 +106,8 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "If the **Bond of Life is cleared**, this weapon ranks similarly to **[[weapon:the-widsith]]**."
+                        "en": "If the **[[ability:bol]] is cleared**, this weapon ranks similarly to **[[weapon:the-widsith]]**.",
+                        "fr": "Si l'**[[ability:bol]] est retiré**, cette arme devient similaire à **[[weapon:the-widsith]]**."
                     }
                 }
             ]
