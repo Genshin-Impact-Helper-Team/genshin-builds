@@ -1,9 +1,9 @@
 {
     "name": {
-        "en": "DPS (With External [[stat:atk|ATK]] Buffs)",
-        "fr": "DPS (Avec buffs d'[[stat:atk]])",
-        "it": "DPS (Con Potenziamenti [[stat:atk]] Esterni)",
-        "ru": "ДД (с внешними бонусами силы атаки)"
+        "en": "DPS",
+        "fr": "DPS",
+        "it": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "notes": [
