@@ -19,7 +19,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking is assuming the passive is active. [[character:chiori]] can usually have good uptime on the **[[weapon:harbinger-of-dawn]]** passive as she is primarily used as an off-field character, along with having good synergy with certain [[element:geo]] characters like [[character:zhongli]] who provide a shield. If using [[character:furina]] however uptime may be problematic depending on how strong your teamwide healing is, or if facing enemies where corrosion is present.",
-                        "fr": "Le classement suppose que le passif est actif. [[character:chiori]] peut généralement avoir un bon uptime sur le passif de **[[weapon:harbinger-of-dawn]]**, puisqu'elle est principalement utilisée comme personnage off-field, tout en ayant une bonne synergie avec certains personnages [[element:geo]] comme [[character:zhongli]], qui fournissent un bouclier. Avec [[character:furina]] cependant, l'uptime peut être problématique selon la puissance de votre soin d'équipe, ou face à des ennemis où la corrosion est présente."
+                        "fr": "Le classement suppose que le passif est actif. [[character:chiori]] peut généralement avoir un bon uptime sur le passif de **[[weapon:harbinger-of-dawn]]**, puisqu'elle est principalement utilisée comme personnage off-field, tout en ayant une bonne synergie avec certains personnages [[element:geo]] comme [[character:zhongli]], qui fournissent un bouclier. Avec [[character:furina]] cependant, l'uptime peut être problématique selon la puissance de votre soin d'équipe, ou face à des ennemis où la corrosion est présente.",
+                        "ru": "Предполагается, что эффект Пассивной способности оружия постоянно активен. Обычно это удаётся, так как [[character:chiori]] играет из кармана и часто используется с другими [[element:geo]] персонажами со щитами. Однако при наличии [[character:furina|Фурины]] в отряде или в бою с противниками, накладывающими Разложение, могут возникнуть проблемы (необходим большой объем лечения и возможность поддерживать НР на достаточном уровне)."
                     }
                 },
                 {
@@ -27,7 +28,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking is assuming one doll. This weapon performs slightly worse than **[[weapon:harbinger-of-dawn]]** [R5] with 2 dolls.",
-                        "fr": "Le classement suppose une poupée. Cette arme est légèrement en dessous de **[[weapon:harbinger-of-dawn]]** [R5] avec 2 poupées."
+                        "fr": "Le classement suppose une poupée. Cette arme est légèrement en dessous de **[[weapon:harbinger-of-dawn]]** [R5] avec 2 poupées.",
+                        "ru": "Предполагается наличие одной куклы. Немного уступает **[[weapon:harbinger-of-dawn|Предвестнику зари]] [R5]** с двумя куклами."
                     }
                 },
                 "light-of-foliar-incision",
@@ -36,7 +38,8 @@
                     "name": "mistsplitter-reforged",
                     "note": {
                         "en": "Ranking assumes one stack on the passive.",
-                        "fr": "Le classement suppose un stack sur le passif."
+                        "fr": "Le classement suppose un stack sur le passif.",
+                        "ru": "Предполагается наличие одного уровня Пассивной способности оружия."
                     }
                 },
                 "splendor-of-tranquil-waters"
@@ -48,7 +51,8 @@
                     "name": "wolf-fang",
                     "note": {
                         "en": "At [R5] this weapon performs close to **[[weapon:primordial-jade-cutter]]**.",
-                        "fr": "Une fois [R5], cette arme se rapproche de **[[weapon:primordial-jade-cutter]]**."
+                        "fr": "Une fois [R5], cette arme se rapproche de **[[weapon:primordial-jade-cutter]]**.",
+                        "ru": "На **[R5]** примерно соответствует **[[weapon:primordial-jade-cutter|Драгоценному омуту]]**."
                     }
                 }
             ]
