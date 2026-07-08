@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Weapon options below [[weapon:favonius-sword]] do not really affect [[character:xilonen]]'s performance as a Support.",
-            "fr": "Les options en dessous de [[weapon:favonius-sword]] n'affectent pas vraiment les performances de [[character:xilonen]]en tant que Support."
+            "fr": "Les options en dessous de [[weapon:favonius-sword]] n'affectent pas vraiment les performances de [[character:xilonen]]en tant que Support.",
+            "ru": "Варианты, лежащие в списке ниже [[weapon:favonius-sword|Меча Фавония]], не оказывают влияния на эффективность [[character:xilonen]] как саппорта."
         }
     ],
     "weapons": [
@@ -12,7 +13,8 @@
                     "name": "peak-patrol-song",
                     "note": {
                         "en": "The buff from this weapon caps out once [[character:xilonen]] reaches 3,200 [[stat:def|DEF]].",
-                        "fr": "Le buff de cette arme est au maximum lorsque [[character:xilonen]] atteint 3,200 de [[stat:def]]."
+                        "fr": "Le buff de cette arme est au maximum lorsque [[character:xilonen]] atteint 3,200 de [[stat:def]].",
+                        "ru": "Максимальное значение защиты для реализации бонуса оружия - 3200 единиц."
                     }
                 }
             ]
@@ -23,7 +25,8 @@
                     "name": "freedom-sworn",
                     "note": {
                         "en": "This option is competitive with [[weapon:peak-patrol-song]] if the team can utilize both of its buffs. To proc it consistently, you either need to [[ability:burst]] every rotation, or add a delay between the initial [[ability:skill]] hit and [[ability:na|normal attacking]]. It is not needed to level this weapon for [[character:xilonen]].",
-                        "fr": "Cette option rivalise [[weapon:peak-patrol-song]] si l'équipe peut profiter de ses deux buffs. Pour les déclencher de façon consistante, vous devez soit [[ability:burst]] à chaque rotation, soit attendre un peu entre le premier coup du [[ability:skill]] et vos [[ability:na|attaques normales]]. Il n'est pas nécessaire de monter de niveau cette arme pour [[character:xilonen]]."
+                        "fr": "Cette option rivalise [[weapon:peak-patrol-song]] si l'équipe peut profiter de ses deux buffs. Pour les déclencher de façon consistante, vous devez soit [[ability:burst]] à chaque rotation, soit attendre un peu entre le premier coup du [[ability:skill]] et vos [[ability:na|attaques normales]]. Il n'est pas nécessaire de monter de niveau cette arme pour [[character:xilonen]].",
+                        "ru": "Конкурент **[[weapon:peak-patrol-song|Песни]]** в отрядах, где реализуются оба бонуса **[[weapon:freedom-sworn|Клятвы]]**. Для этого требуется либо использовать [[ability:burst]] каждую ротацию, либо выдерживать паузу между первым ударом [[ability:skill|навыка]] и [[ability:na|Обычной атакой]]. Следует отметить, что [[character:xilonen]] не нуждается в повышении уровня **[[weapon:freedom-sworn|Клятвы]]**."
                     }
                 }
             ]
@@ -39,7 +42,8 @@
                     "name": "flute-of-ezpitzal",
                     "note": {
                         "en": "Refinements for this weapon are insignificant on [[character:xilonen]].",
-                        "fr": "Les raffinements sur cette arme sont insignifiants pour [[character:xilonen]]."
+                        "fr": "Les raffinements sur cette arme sont insignifiants pour [[character:xilonen]].",
+                        "ru": "Пробуждать этот меч для [[character:xilonen]] не имеет смысла."
                     }
                 }
             ]
