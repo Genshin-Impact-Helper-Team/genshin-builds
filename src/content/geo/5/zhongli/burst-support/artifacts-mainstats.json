@@ -14,7 +14,8 @@
     "notes": [
         {
             "en": "[[stat:atk%]] sands provides more damage than [[stat:hp%]] sands, but it does have lesser Shield HP. If you want more Shield HP, you can consider running a [[stat:hp%]] sands.",
-            "fr": "Un sablier [[stat:atk%]] apporte plus de dégâts qu'un sablier [[stat:hp%]], mais il donne moins de PV au bouclier. Si vous voulez plus de PV de bouclier, vous pouvez envisager un sablier [[stat:hp%]]."
+            "fr": "Un sablier [[stat:atk%]] apporte plus de dégâts qu'un sablier [[stat:hp%]], mais il donne moins de PV au bouclier. Si vous voulez plus de PV de bouclier, vous pouvez envisager un sablier [[stat:hp%]].",
+            "ru": "Часы на Силу атаки дают больший урон, чем НР-часы, но меньшую прочность щита. Если вы нуждаетесь в более плотном щите, задумайтесь о НР-часах."
         }
     ]
 }
