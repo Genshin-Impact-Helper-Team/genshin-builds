@@ -9,7 +9,8 @@
                 "name": "geo-dmg",
                 "note": {
                     "en": "[[stat:def%]] is generally preferred for team damage unless [[character:albedo]] already has, or is close to 3,000 [[stat:def|DEF]] in combat.",
-                    "fr": "La [[stat:def%]] est généralement préférée pour les dégâts de l'équipe, sauf si [[character:albedo]] a déjà, ou est proche de 3 000 [[stat:def|DÉF]] en combat."
+                    "fr": "La [[stat:def%]] est généralement préférée pour les dégâts de l'équipe, sauf si [[character:albedo]] a déjà, ou est proche de 3 000 [[stat:def|DÉF]] en combat.",
+                    "ru": "В большинстве случаев рекомендуется [[stat:def%]] для наращивания командного урона (кроме случаев, когда Защита [[character:albedo]] без кубка уже достигает 3000)."
                 }
             }
         ],
