@@ -66,7 +66,7 @@
         {
             "items": [
                 {
-                    "name": "widsith",
+                    "name": "the-widsith",
                     "note": {
                         "en": "At R5, this weapon ranks above **[[weapon:skyward-atlas]]**."
                     }
@@ -101,7 +101,7 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "If the **Bond of Life is cleared**, this weapon ranks similarly to **[[weapon:widsith]]**."
+                        "en": "If the **Bond of Life is cleared**, this weapon ranks similarly to **[[weapon:the-widsith]]**."
                     }
                 }
             ]
