@@ -59,7 +59,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "[[character:furina]] teams only, performs as well or better than **[[set:nighttime-whispers-in-the-echoing-woods]]**",
-                        "fr": "Équipes avec [[character:furina]] uniquement, ce set équivaut à **[[set:nighttime-whispers-in-the-echoing-woods]]**, voire fait mieux."
+                        "fr": "Équipes avec [[character:furina]] uniquement, ce set équivaut à **[[set:nighttime-whispers-in-the-echoing-woods]]**, voire fait mieux.",
+                        "ru": "Используется только в отрядах с [[character:furina|Фуриной]], где  соответствует **[[set:nighttime-whispers-in-the-echoing-woods|Ночному шёпоту в Лесу откликающегося эха]] (4)** или превосходит его."
                     }
                 }
             ]
