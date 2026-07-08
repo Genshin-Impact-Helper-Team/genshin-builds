@@ -15,14 +15,10 @@
             "fr": "[[character:albedo]] est un personnage qui peut invoquer une construction [[element:geo]] avec son [[ability:skill]], infligeant des dégâts toutes les 2 secondes lorsque les ennemis dans son champ subissent des dégâts. Son [[ability:burst]] fournit 125 [[stat:em]] à l'équipe, ce qui est bon dans les équipes qui dépendent des réactions d'amplification comme [[element:vaporize]] par exemple. Il faut noter que puisque sa priorité de stats se concentre sur la [[stat:def|DÉF]] (scaling du [[ability:skill]]), vous pouvez vouloir éviter de lancer son [[ability:burst]] si votre équipe ne profite pas du buff de 125 [[stat:em]].",
             "ru": "[[character:albedo]] призывает [[element:geo]] конструкции своим [[ability:skill|Элементальным навыком]]. Призванные конструкции наносят урон урон с интервалом в 2 секунды каждый раз, когда противники получают урон из других источников. [[ability:burst]] [[character:albedo]] увеличивает [[stat:em]] членов отряда на 125 единиц, что может быть полезным в играющих от реакций командах. Поскольку [[character:albedo]] чаще всего собирается в Защиту (от которой зависит урон [[ability:skill|Элементального навыка]]), [[ability:burst]] можно и не использовать в командах, не нуждающихся в [[stat:em|МС]]."
     },
-            
-        },
         {
             "en": "Casting [[character:albedo]]'s [[ability:skill]] on top of a boss will summon a Silver Isotoma as long as the initial cast hits the opponent.",
             "fr": "Lancer le [[ability:skill]] de [[character:albedo]] sur un boss invoquera une Germe éphémère tant que le lancement initial touche l'adversaire.",
             "ru": "Использование [[ability:skill|Элементального навыка]] поверх босса сразу же призывает  Цветок серебра, если первый удар попадает по противнику."
-    },
-            
         }
     ]
 }
