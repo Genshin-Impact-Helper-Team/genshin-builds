@@ -33,7 +33,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set grants you an additional 40% [[ability:na|Normal]] and [[ability:ca|Charged Attack]] DMG when shielded. [[element:crystallize]] can be unreliable so a consistent shielder is preferred, such as [[character:zhongli]].",
-                                "fr": "Ce set vous accorde 40% de DGT supplémentaires sur les [[ability:na|attaques normales]] et les [[ability:ca|attaques chargées]] lorsque vous êtes protégé par un bouclier. [[element:crystallize]] peut être peu fiable, donc un shielder constant est préférable, comme [[character:zhongli]]."
+                                "fr": "Ce set vous accorde 40% de DGT supplémentaires sur les [[ability:na|attaques normales]] et les [[ability:ca|attaques chargées]] lorsque vous êtes protégé par un bouclier. [[element:crystallize]] peut être peu fiable, donc un shielder constant est préférable, comme [[character:zhongli]].",
+                                "ru": "Увеличивает урон [[ability:na|Обычных]] и [[ability:ca|Заряженных]] атак, когда персонаж находится под щитом. [[element:crystallize]] может быть ненадежна, предпочтителен стабильный щит, к примеру, [[character:zhongli]]."
                             }
                         }
                     ]
