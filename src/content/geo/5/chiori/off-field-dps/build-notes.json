@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "Off-Field DPS",
-        "fr": "DPS Off-Field"
+        "fr": "DPS Off-Field",
+        "ru": "Карманный ДД"
     },
     "best": true,
     "global": {
@@ -11,7 +12,8 @@
     "notes": [
         {
             "en": "[[character:chiori]] is an off-field damage dealer focusing on her automation dolls ([[ability:skill]] DMG). While there is an incentive to play her in teams which have a [[element:geo]] Construct (pre-C1), she is still a good option even in [[element:geo]] teams which do not have a [[element:geo]] Construct (such as with [[character:navia]]).",
-            "fr": "[[character:chiori]] est une source de dégâts off-field qui se concentre sur ses poupées automates (DGT de [[ability:skill]]). Même s'il y a un intérêt à la jouer dans des équipes qui ont une construction [[element:geo]] (pré-C1), elle reste une bonne option même dans les équipes [[element:geo]] qui n'ont pas de construction [[element:geo]] (comme avec [[character:navia]])."
+            "fr": "[[character:chiori]] est une source de dégâts off-field qui se concentre sur ses poupées automates (DGT de [[ability:skill]]). Même s'il y a un intérêt à la jouer dans des équipes qui ont une construction [[element:geo]] (pré-C1), elle reste une bonne option même dans les équipes [[element:geo]] qui n'ont pas de construction [[element:geo]] (comme avec [[character:navia]]).",
+            "ru": "[[character:chiori]] - карманный ДД, который наносит урон своими куклами ([[ability:skill|Элементальным навыком]]). До [С1] есть смысл играть в отрядах, где есть [[element:geo]] конструкции, но даже без них она довольно хороша (например, с [[character:navia|Навией]])."
         }
     ]
 }
