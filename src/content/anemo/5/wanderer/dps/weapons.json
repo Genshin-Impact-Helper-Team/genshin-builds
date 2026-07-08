@@ -7,17 +7,60 @@
         },
         {
             "items": [
+                "reliquary-of-truth"
+            ]
+        },
+        {
+            "items": [
+                "vivid-notions"
+            ]
+        },
+        {
+            "items": [
+                "surfs-up",
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                "kaguras-verity",
+                {
+                    "name": "cashflow-supervision",
+                    "note": {
+                        "en": "If paired **with [[character:furina]]**, this weapon ranks above **[[weapon:tulaytullahs-remembrance]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "nocturnes-curtain-call",
+                {
+                    "name": "tome-of-the-eternal-flow",
+                    "note": {
+                        "en": "If paired **with [[character:furina]]**, this weapon's ranks similarly to **[[weapon:reliquary-of-truth]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "This weapon can pull farther ahead than other options if [[character:wanderer]] is shielded. If shielded, it maintains its ranking without [[character:bennett]], and performs better than **[[weapon:the-widsith]]** with [[character:bennett]].",
-                        "fr": "Cette arme peut prendre plus d'avance sur les autres options si [[character:wanderer]] est protégé par un bouclier. Avec un bouclier, elle maintient son classement sans [[character:bennett]], et dépasse **[[weapon:the-widsith]]** avec [[character:bennett]].",
-                        "it": "Quest'arma può superare le altre opzioni se [[character:wanderer]] è protetto da uno scudo. Se protetto da uno scudo, mantiene la sua posizione nella classifica senza [[character:bennett]] e ha prestazioni migliori rispetto a **[[weapon:the-widsith]]** con [[character:bennett]].",
-                        "ru": "Может значительно превосходить другие варианты при наличии щита. Со щитом, но без [[character:bennett|Беннета]] сохраняет позицию в рейтинге; с [[character:bennett|Беннетом]] превосходит **[[weapon:the-widsith]]**."
+                        "en": "Assumes Wanderer is shielded. If [[character:wanderer]] is not protected by a shield, this weapon ranks **below [[weapon:skyward-atlas]]**."
                     }
-                },
-                "skyward-atlas",
-                "lost-prayer-to-the-sacred-winds"
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-atlas"
+            ]
+        },
+        {
+            "items": [
+                "angelos-heptades"
             ]
         },
         {
@@ -25,33 +68,27 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "Because [[character:wanderer]] doesn't focus on [[element:swirl]] damage, this weapon can be inconsistent if you get the [[stat:em]] buff.",
-                        "fr": "Comme [[character:wanderer]] ne se concentre pas sur les dégâts de [[element:swirl]], cette arme peut être irrégulière si vous obtenez le buff de [[stat:em]].",
-                        "it": "Poiché [[character:wanderer]] non si concentra su danni da [[element:swirl]], quest'arma può essere inefficace se si ottiene il potenziamento alla [[stat:em]].",
-                        "ru": "Поскольку [[character:wanderer]] не играет от [[element:swirl|Рассеивания]], урон может быть неустойчив из-за шанса получить бонус [[stat:em|Мастерства стихий]]."
+                        "en": "At R5, this weapon ranks above **[[weapon:skyward-atlas]]**."
                     }
                 },
+                "solar-pearl"
+            ]
+        },
+        {
+            "items": [
+                "cranes-echoing-call"
+            ]
+        },
+        {
+            "items": [
+                "sacrificial-jade",
                 {
                     "name": "dodoco-tales",
                     "refinement": 5,
                     "note": {
-                        "en": "This weapon uses a different rotation of {rot:E N1 CAx6 N1 CAx6} to maximize its passive.",
-                        "fr": "Cette arme utilise une rotation différente, {rot:E N1 CAx6 N1 CAx6}, afin de maximiser son passif.",
-                        "it": "Quando utilizzi quest'arma, esegui una rotazione diversa ({rot:E N1 6CA N1 6CA}) per massimizzare la sua passiva.",
-                        "ru": "Рекомендуемая ротация с этим оружием - {rot:E N1 CAx6 N1 CAx6}, что отлично раскрывает Пассивную способность."
+                        "en": "The optimal rotation for this weapon is to only use [[character:wanderer]]'s [[ability:ca]]s, weaving a [[ability:na]] every ~6 seconds to keep passive uptime."
                     }
                 }
-            ]
-        },
-        {
-            "items": [
-                "kaguras-verity",
-                "tome-of-the-eternal-flow"
-            ]
-        },
-        {
-            "items": [
-                "solar-pearl"
             ]
         },
         {
@@ -59,19 +96,14 @@
                 {
                     "name": "ballad-of-the-boundless-blue",
                     "refinement": 5
+                },
+                {
+                    "name": "flowing-purity",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If the **Bond of Life is cleared**, this weapon ranks similarly to **[[weapon:the-widsith]]**."
+                    }
                 }
-            ]
-        },
-        {
-            "items": [
-                "blackcliff-agate",
-                "eye-of-perception"
-            ]
-        },
-        {
-            "items": [
-                "mappa-mare",
-                "frostbearer"
             ]
         }
     ]

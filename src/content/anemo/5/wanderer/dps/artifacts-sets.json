@@ -106,20 +106,6 @@
                     }
                 }
             ]
-        },
-        {
-            "items": [
-                {
-                    "name": "lavawalker",
-                    "pieces": 4,
-                    "note": {
-                        "en": "In teams with consistent [[element:pyro]] application, this set is about equal to **[[set:echoes-of-an-offering]]** (4).",
-                        "fr": "Dans les équipes avec une application [[element:pyro]] constante, ce set est à peu près équivalent à **[[set:echoes-of-an-offering]]** (4).",
-                        "it": "In team con applicazione [[element:pyro]] costante, questo set è più o meno equivalente ad **[[set:echoes-of-an-offering]]** (4).",
-                        "ru": "Примерно соответствует **[[set:echoes-of-an-offering|Отголоскам подношения]]** (4) в отрядах с постоянным поддержанием [[element:pyro]] на противниках."
-                    }
-                }
-            ]
         }
     ]
 }
