@@ -6,6 +6,10 @@
         "ru": "ДД"
     },
     "best": true,
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/d/1cX3WdEsXCAHxsqN-55ldlYGVM8eszlSlHJT8WWn74rY/edit?usp=sharing",
+        "author": "Quincy"
+    },
     "notes": [
         {
             "en": "[[character:wanderer]] focuses on doing damage by activating his [[ability:skill]] and performing boosted [[ability:na]]s. It should be noted that in this state, he does not have knockback resistance so a shielder or other form of knockback immunity is recommended. It is not worth building [[stat:er]] to [[ability:burst]] every rotation unless [[character:wanderer]] is C2. Instead, bursting every other rotation is preferred.",
