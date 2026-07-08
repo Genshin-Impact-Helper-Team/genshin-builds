@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "If no other member of the team can hold it, **[[set:scroll]] (4)** should be the top priority for [[character:xilonen]]. The other options are there in the event someone else has [[set:scroll]] occupied.",
-                                "fr": "Si aucun autre membre de l'équipe ne le porte, **[[set:scroll]] (4)** doit être la première priorité pour [[character:xilonen]]. Les autres options sont là pour les cas où quelqu'un d'autre équiperait déjà [[set:scroll]]."
+                                "fr": "Si aucun autre membre de l'équipe ne le porte, **[[set:scroll]] (4)** doit être la première priorité pour [[character:xilonen]]. Les autres options sont là pour les cas où quelqu'un d'autre équiperait déjà [[set:scroll]].",
+                                "ru": "Вариант выбора для [[character:xilonen]], если нет другого носителя в отряде. Остальные наборы используются только в том случае, если **[[set:scroll|Свиток]] (4)** уже занят."
                             }
                         }
                     ]
