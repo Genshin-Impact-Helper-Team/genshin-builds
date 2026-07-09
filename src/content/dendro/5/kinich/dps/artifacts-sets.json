@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "This set is about equal to **[[set:unfinished-reverie]] (4)**. The more DMG% [[character:kinich]] already has, the better this set performs.",
                                 "fr": "Ce set est à peu près équivalent à **[[set:unfinished-reverie]] (4)**. Plus [[character:kinich]] a déjà de DGT%, plus **[[set:obsidian-codex]] (4)** devient meilleur.",
+                                "it": "Questo set è più o meno equivalente a **[[set:unfinished-reverie]] (4)**. Maggiore è il DAN% che [[character:kinich]] ha già, migliori saranno le prestazioni di questo set.",
                                 "ru": "Соответствует **[[set:unfinished-reverie|Незаконченным грёзам]] (4)**. Чем **больше** бонусов урона% имеет [[character:kinich]] (от оружия/отряда), тем лучше это набор себя показывает."
                             }
                         }
@@ -23,6 +24,7 @@
                             "note": {
                                 "en": "This set is about equal to **[[set:obsidian-codex]] (4)**.  The less DMG% [[character:kinich]] has from his weapon and/or team, the better this set performs. ",
                                 "fr": "Ce set est à peu près équivalent à **[[set:obsidian-codex]] (4)**. Moins [[character:kinich]] a de DGT% via son arme et/ou son équipe, plus **[[set:unfinished-reverie]] (4)** devient performant.",
+                                "it": "Questo set è più o meno equivalente a **[[set:obsidian-codex]] (4)**. Minore è il DAN% che [[character:kinich]] ha già, migliori saranno le prestazioni di questo set.",
                                 "ru": "Соответствует  **[[set:obsidian-codex|Обсидиановому фолианту]] (4)**. Чем **меньше** бонусов урона% получает [[character:kinich]] (от оружия/отряда), тем лучше это набор себя показывает."
                             }
                         }
@@ -73,6 +75,7 @@
                     "note": {
                         "en": "Only to be used when paired with [[character:furina]], or when played in [[element:burgeon]]. Performs similarly to **[[set:unfinished-reverie]] (4)**.",
                         "fr": "À utiliser uniquement avec [[character:furina]], ou lorsque [[character:kinich]] est joué en [[element:burgeon]]. Ses performances sont proches de **[[set:unfinished-reverie]] (4)**.",
+                        "it": "Utilizzabile solo in team con **[[character:furina]]** o quando si provoca [[element:burgeon]]. Ha prestazioni simili a **[[set:unfinished-reverie]] (4)**.",
                         "ru": "Используется только при игре с [[character:furina|Фуриной]] или через [[element:burgeon]]. При этом условии соответствует **[[set:unfinished-reverie|Незаконченным грёзам]] (4)**."
                     }
                 }
