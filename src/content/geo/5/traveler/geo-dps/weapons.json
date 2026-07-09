@@ -29,7 +29,8 @@
                     "name": "summit-shaper",
                     "note": {
                         "en": "Assumes the [[element:geo]] [[character:traveler]] is shielded. Without reliable shield uptime, this weapon performs worse than **[[weapon:wolf-fang]]**.",
-                        "fr": "Suppose que le [[character:traveler]] [[element:geo]] est protégé par un bouclier. Sans uptime fiable de bouclier, cette arme passe derrière **[[weapon:wolf-fang]]**."
+                        "fr": "Suppose que le [[character:traveler]] [[element:geo]] est protégé par un bouclier. Sans uptime fiable de bouclier, cette arme passe derrière **[[weapon:wolf-fang]]**.",
+                        "ru": "Предполагается наличие щита. При его отсутствии показывает себя хуже, чем **[[weapon:wolf-fang]]**."
                     }
                 }
             ]
@@ -40,7 +41,8 @@
                     "name": "wolf-fang",
                     "note": {
                         "en": "At [R5], this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
-                        "fr": "Une fois [R5], cette arme équivaut à **[[weapon:haran-geppaku-futsu]]**."
+                        "fr": "Une fois [R5], cette arme équivaut à **[[weapon:haran-geppaku-futsu]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]
@@ -51,7 +53,8 @@
                     "name": "finale-of-the-deep",
                     "note": {
                         "en": "Assumes [[ability:bol]] is being cleared.",
-                        "fr": "Suppose que l'[[ability:bol]] est retiré."
+                        "fr": "Suppose que l'[[ability:bol]] est retiré.",
+                        "ru": "Предполагается, что [[ability:bol]] стабильно снимается."
                     }
                 },
                 {
@@ -59,7 +62,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
-                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
                     }
                 },
                 {
@@ -67,14 +71,16 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
-                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
                     }
                 },
                 {
                     "name": "skyward-blade",
                     "note": {
                         "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
-                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
                     }
                 },
                 {
@@ -82,21 +88,24 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
-                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]]."
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
                     }
                 },
                 {
                     "name": "peak-patrol-song",
                     "note": {
                         "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
-                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe."
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe.",
+                        "ru": "Не слишком силён по личному урону, но может быть полезен за счёт бонусов для отряда."
                     }
                 },
                 {
                     "name": "freedom-sworn",
                     "note": {
                         "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
-                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe."
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe.",
+                        "ru": "Не слишком силён по личному урону, но может быть полезен за счёт бонусов для отряда."
                     }
                 }
             ]
@@ -107,7 +116,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
-                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe."
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe.",
+                        "ru": "Не слишком силён по личному урону, но может быть полезен за счёт бонусов для отряда."
                     }
                 }
             ]
