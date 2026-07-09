@@ -3,6 +3,7 @@
         {
             "en": "Building [[stat:er]] on [[character:qiqi]] helps her use her [[ability:burst]] for better healing, as her [[ability:skill]] does not heal a whole lot on it's own.",
             "fr": "Build de la [[stat:er]] sur [[character:qiqi]] lui permet d'[[ability:burst]] pour un meilleur soin, puisque son [[ability:skill]] ne soigne pas tant que ça à lui tout seul.",
+            "it": "La [[stat:er]] permette a [[character:qiqi]] di sfruttare al meglio il [[ability:burst]] per curare più efficacemente, dato che la sua [[ability:skill]] da sola non garantisce una grande quantità di cure.",
             "ru": "Сборка в [[stat:er]] позволяет использовать [[ability:burst]] [[character:qiqi]] чаще и активнее лечить отряд, так как её [[ability:skill]] сам по себе не выдаёт достаточно большого объёма лечения."
         }
     ],
@@ -19,6 +20,7 @@
                     "note": {
                         "en": "Thanks to [[character:qiqi]]'s high Base [[stat:def|DEF]], you can get a meaningful amount of the buff from this weapon. While using this weapon, you must [[ability:na]] twice to activate the passive. [[stat:def%]] stats can be considered if your team does not struggle with survivability.",
                         "fr": "Grâce à la [[stat:def]] de base élevée de [[character:qiqi]], vous pouvez obtenir une quantité notable du buff de cette arme. En utilisant cette arme, vous devez effectuer deux [[ability:na]] pour activer le passif. Des stats de [[stat:def%]] peuvent être envisagées si votre équipe ne manque pas de survivabilité.",
+                        "it": "Grazie all'elevata [[stat:def]] Base di [[character:qiqi]], è possibile ottenere un significativo potenziamento da quest'arma. Quando si utilizza quest'arma, è necessario utiizzare due [[ability:na|Attacchi Normali]] per attivarne la passiva. È possibile considerare statistiche [[stat:def%]] se il team non ha problemi di sopravvivenza.",
                         "ru": "У [[character:qiqi]] довольно высокая базовая [[stat:def|DEF]], что позволяет реализовать бонус этого оружия. Для его активации следует выполнить две [[ability:na|Обычные атаки]]. Если у отряда нет проблем с выживаемостью, [[character:qiqi]] можно собрать с упором в [[stat:def%|Защиту]]."
                     }
                 }
@@ -38,6 +40,7 @@
                     "note": {
                         "en": "This weapon will significantly improve [[character:qiqi]]'s healing capabilities, however, it takes lower priority over weapons that provide [[stat:er]].",
                         "fr": "Cette arme améliorera considérablement les capacités de soin de [[character:qiqi]], mais elle passe après les armes qui fournissent de la [[stat:er]].",
+                        "it": "Quest'arma migliorerà notevolmente le capacità curative di [[character:qiqi]], tuttavia ha una priorità inferiore rispetto alle armi che forniscono [[stat:er]].",
                         "ru": "Это оружие значительно усиливает объем лечения [[character:qiqi]], но оно всё ещё менее предпочтительно, чем варианты с [[stat:er|Восстановлением энергии]]."
                     }
                 }
