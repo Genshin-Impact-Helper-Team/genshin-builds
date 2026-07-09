@@ -12,8 +12,9 @@
         {
             "name": "def%",
             "note": {
-                "en": "Only when using **[[weapon:peak-patrol-song]]**",
+                "en": "Only when using **[[weapon:peak-patrol-song]]**.",
                 "fr": "Uniquement avec **[[weapon:peak-patrol-song]]**.",
+                "it": "Solo se stai utilizzando **[[weapon:peak-patrol-song]]**.",
                 "ru": "Требуется только при использовании **[[weapon:peak-patrol-song|Песни патруля пиков]]**."
             }
         }

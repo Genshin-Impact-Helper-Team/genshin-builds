@@ -28,7 +28,8 @@
                     "name": "cashflow-supervision",
                     "note": {
                         "en": "If paired **with [[character:furina]]**, this weapon ranks above **[[weapon:tulaytullahs-remembrance]]**.",
-                        "fr": "Si joué **avec [[character:furina]]**, cette arme se classe au dessus de **[[weapon:tulaytullahs-remembrance]]**."
+                        "fr": "Si joué **avec [[character:furina]]**, cette arme se classe au dessus de **[[weapon:tulaytullahs-remembrance]]**.",
+                        "it": "Se giocato in team **con [[character:furina]]**, quest'arma ha prestazioni migliori di **[[weapon:tulaytullahs-remembrance]]**."
                     }
                 }
             ]
@@ -40,7 +41,8 @@
                     "name": "tome-of-the-eternal-flow",
                     "note": {
                         "en": "If paired **with [[character:furina]]**, this weapon's ranks similarly to **[[weapon:reliquary-of-truth]]**.",
-                        "fr": "Si joué **avec [[character:furina]]**, cette arme devient similaire à **[[weapon:reliquary-of-truth]]**."
+                        "fr": "Si joué **avec [[character:furina]]**, cette arme devient similaire à **[[weapon:reliquary-of-truth]]**.",
+                        "it": "Se giocato in team **con [[character:furina]]**, quest'arma ha prestazioni simili a **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -51,7 +53,8 @@
                     "name": "memory-of-dust",
                     "note": {
                         "en": "Assumes [[character:wanderer]] is shielded. If [[character:wanderer]] is not protected by a shield, this weapon ranks **below [[weapon:skyward-atlas]]**.",
-                        "fr": "Suppose que [[character:wanderer]] a un bouclier. Si ce n'est pas le cas, cette arme passe **en dessous de [[weapon:skyward-atlas]]**."
+                        "fr": "Suppose que [[character:wanderer]] a un bouclier. Si ce n'est pas le cas, cette arme passe **en dessous de [[weapon:skyward-atlas]]**.",
+                        "it": "La classifica presuppone che [[character:wanderer]] sia **sotto la protezione di uno scudo**. In assenza di uno scudo, quest'arma ha prestazioni **peggiori di [[weapon:skyward-atlas]]**."
                     }
                 }
             ]
@@ -71,8 +74,9 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At [R5], this weapon ranks above **[[weapon:skyward-atlas]]**.",
-                        "fr": "Une fois [R5], cette arme se classe au dessus de **[[weapon:skyward-atlas]]**."
+                        "en": "At **[R5]**, this weapon ranks above **[[weapon:skyward-atlas]]**.",
+                        "fr": "Une fois **[R5]**, cette arme se classe au dessus de **[[weapon:skyward-atlas]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:skyward-atlas]]**."
                     }
                 },
                 "solar-pearl"
@@ -91,7 +95,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "The optimal rotation for this weapon is to only use [[character:wanderer]]'s [[ability:ca]]s, weaving a [[ability:na]] every ~6 seconds to keep passive uptime.",
-                        "fr": "La rotation optimale pour cette arme est de n'utiliser que les [[ability:ca|Attaques Chargées]] de [[character:wanderer]], en utilisant une [[ability:na]] toutes les ~6 secondes pour garder le passif actif."
+                        "fr": "La rotation optimale pour cette arme est de n'utiliser que les [[ability:ca|Attaques Chargées]] de [[character:wanderer]], en utilisant une [[ability:na]] toutes les ~6 secondes pour garder le passif actif.",
+                        "it": "La rotazione ottimale con quest'arma consiste nell'utilizzare esclusivamente gli [[ability:ca|Attacchi Caricati]] di [[personaggio:wanderer]], inserendo un'[[ability:na]] ogni ~6 secondi per mantenere tempo di funzionamento sulla passiva."
                     }
                 }
             ]
@@ -107,7 +112,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If the **[[ability:bol]] is cleared**, this weapon ranks similarly to **[[weapon:the-widsith]]**.",
-                        "fr": "Si l'**[[ability:bol]] est retiré**, cette arme devient similaire à **[[weapon:the-widsith]]**."
+                        "fr": "Si l'**[[ability:bol]] est retiré**, cette arme devient similaire à **[[weapon:the-widsith]]**.",
+                        "it": "Con cure sufficienti ad eliminare il **[[ability:bol]]**, quest'arma ha prestazioni simili a **[[weapon:the-widsith]]**."
                     }
                 }
             ]
