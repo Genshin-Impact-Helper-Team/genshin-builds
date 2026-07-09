@@ -1,8 +1,8 @@
 {
     "name": {
         "en": "Burst Support",
-        "fr": "Support Burst"
-    },
+        "fr": "Support Burst",
+        "ru": "Бурст Саппорт"
     "notes": [
         {
             "en": "[[character:zhongli]] can be utilized as a [[element:geo]] [[ability:burst]] damage dealer due to his short [[ability:burst]] cooldown (12s) and low energy cost (40 Energy). His [[ability:skill]] Hold Cast (Shield) scales with HP and at Ascension 4, you would unlock a talent that allows your [[ability:burst]] to scale with 33% of [[character:zhongli]]'s Max HP, making him a great source of Shield and damage. Though in certain teams without either very high investment into his damage or enough time in the rotation to burst without extending rotation times his burst can be a DPS loss.",
