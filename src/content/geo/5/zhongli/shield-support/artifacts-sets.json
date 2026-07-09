@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Can be more useful than **[[set:tenacity-of-the-millelith]]** (4) in teams that don't scale as well with [[stat:atk|ATK]] buffs or already have another **[[set:tenacity-of-the-millelith]]** holder. Though it can be an awkward set to utilize well without extending rotation times, since the Holder of the set ([[character:zhongli]] in this case) has to pickup the shard for the buff to take effect.",
-                                "fr": "Peut être plus utile que **[[set:tenacity-of-the-millelith]]** (4) dans les équipes qui ne scalent pas aussi bien avec les buffs d'[[stat:atk]], ou qui ont déjà un autre porteur de **[[set:tenacity-of-the-millelith]]**. Cela dit, ce set peut être compliqué à bien utiliser sans allonger les rotations, puisque le porteur du set ([[character:zhongli]] dans ce cas) doit ramasser le fragment pour que le buff prenne effet."
+                                "fr": "Peut être plus utile que **[[set:tenacity-of-the-millelith]]** (4) dans les équipes qui ne scalent pas aussi bien avec les buffs d'[[stat:atk]], ou qui ont déjà un autre porteur de **[[set:tenacity-of-the-millelith]]**. Cela dit, ce set peut être compliqué à bien utiliser sans allonger les rotations, puisque le porteur du set ([[character:zhongli]] dans ce cas) doit ramasser le fragment pour que le buff prenne effet.",
+                                "ru": "Может превосходить **[[set:tenacity-of-the-millelith]] (4)** в отрядах, в которых не нужна [[stat:atk|Сила атаки]] или уже есть носитель этого сета. Но он не всегда удобен и может влиять на длительность ротации, так как носителю ([[character:zhongli]]) для активации бонуса набора нужно подобрать кристалл."
                             }
                         }
                     ]
@@ -21,7 +22,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Preferred over **[[set:archaic-petra]]** if there are multiple [[element:crystallize]]-compatible Elements or [[element:geo]] characters that want DMG% bonus.",
-                                "fr": "Préféré à **[[set:archaic-petra]]** s'il y a plusieurs éléments compatibles avec [[element:crystallize]] ou des personnages [[element:geo]] qui veulent un bonus de DGT%."
+                                "fr": "Préféré à **[[set:archaic-petra]]** s'il y a plusieurs éléments compatibles avec [[element:crystallize]] ou des personnages [[element:geo]] qui veulent un bonus de DGT%.",
+                                "ru": "Предпочтительнее **[[set:archaic-petra|Архаичного камня]]**, если в отряде есть несколько способных к [[element:crystallize|Кристаллизации]] элементов или [[element:geo]] персонажи, которым полезен бонус урона."
                             }
                         }
                     ]
@@ -37,7 +39,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set works best in [[element:dendro]] reaction focused teams ([[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]]/[[element:spread]]) that prefer having **[[set:deepwood-memories]]** on [[character:zhongli]] so that they can run more damage focused sets such as **[[set:gilded-dreams]]** / **[[set:flower-of-paradise-lost]]** instead for the highest overall damage gain. That said it means keeping the enemies near your pillars to have good uptime on the [[element:dendro]] resistance shred effect, which can be difficult with no grouping abilities in a team.",
-                                "fr": "Ce set fonctionne mieux dans les équipes centrées sur les réactions [[element:dendro]] ([[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]]/[[element:spread]]) qui préfèrent avoir **[[set:deepwood-memories]]** sur [[character:zhongli]] afin de pouvoir jouer des sets plus orientés dégâts comme **[[set:gilded-dreams]]** / **[[set:flower-of-paradise-lost]]**, pour le meilleur gain de dégâts global. Cela implique cependant de garder les ennemis près de vos piliers pour maintenir une bonne disponibilité de la baisse de RES [[element:dendro]], ce qui peut être difficile sans capacité de regroupement dans l'équipe."
+                                "fr": "Ce set fonctionne mieux dans les équipes centrées sur les réactions [[element:dendro]] ([[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]]/[[element:spread]]) qui préfèrent avoir **[[set:deepwood-memories]]** sur [[character:zhongli]] afin de pouvoir jouer des sets plus orientés dégâts comme **[[set:gilded-dreams]]** / **[[set:flower-of-paradise-lost]]**, pour le meilleur gain de dégâts global. Cela implique cependant de garder les ennemis près de vos piliers pour maintenir une bonne disponibilité de la baisse de RES [[element:dendro]], ce qui peut être difficile sans capacité de regroupement dans l'équipe.",
+                                "ru": "Лучше всего работает в отрядах, играющих через [[element:dendro]] реакции ([[element:bloom]]/[[element:burgeon]]/[[element:hyperbloom]]/[[element:spread]]). Использование данного сета на [[character:zhongli]] позволяет другим членам отряда надевать ориентированные на урон наборы (**[[set:gilded-dreams]]**/**[[set:flower-of-paradise-lost]]**)для максимального наразщивания урона отряда. Однако это означает, что противники должны находиться рядом с колонной, чтобы поддерживать бонус сета, что может быть затруднительно."
                             }
                         }
                     ]
@@ -49,7 +52,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is usually only used in a few heavily reaction focused teams, such as [[character:ganyu]] [[element:melt]] or [[character:hu-tao]] [[element:vaporize|Vape]], where you're maximising your damage in exchange for a weaker shield. Though [[character:zhongli]]'s shield is still usually more than strong enough even with fewer substat rolls to strengthen it.",
-                                "fr": "Ce set n'est généralement utilisé que dans quelques équipes très centrées sur les réactions, comme [[character:ganyu]] [[element:melt]] ou [[character:hu-tao]] [[element:vaporize]], où vous maximisez vos dégâts en échange d'un bouclier plus faible. Le bouclier de [[character:zhongli]] reste cependant généralement plus qu'assez solide, même avec moins de rolls de substats pour le renforcer."
+                                "fr": "Ce set n'est généralement utilisé que dans quelques équipes très centrées sur les réactions, comme [[character:ganyu]] [[element:melt]] ou [[character:hu-tao]] [[element:vaporize]], où vous maximisez vos dégâts en échange d'un bouclier plus faible. Le bouclier de [[character:zhongli]] reste cependant généralement plus qu'assez solide, même avec moins de rolls de substats pour le renforcer.",
+                                "ru": "Обычно используется в отрядах, играющих от реакций ([[character:ganyu]] через [[element:melt]] или [[character:hu-tao]] через [[element:vaporize]]), где в обмен на больший урон теряется прочность щита. Хотя даже в этом случае щит [[character:zhongli]] остается достаточно крепким."
                             }
                         }
                     ]
@@ -65,7 +69,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is best in slot for Shield HP, but it's usually inconsistent against Bosses and needs good Construct placement, due to it's inconsistency, it's better to use other buffing sets that are mentioned if they work for the team.",
-                                "fr": "Ce set est le meilleur choix pour les PV du bouclier, mais il est généralement inconsistant contre les boss et demande un bon placement de construction. En raison de son inconsistance, il vaut mieux utiliser les autres sets de buff mentionnés s'ils fonctionnent dans l'équipe."
+                                "fr": "Ce set est le meilleur choix pour les PV du bouclier, mais il est généralement inconsistant contre les boss et demande un bon placement de construction. En raison de son inconsistance, il vaut mieux utiliser les autres sets de buff mentionnés s'ils fonctionnent dans l'équipe.",
+                                "ru": "Часто является лучшим вариантом по прочности щита, но нестабилен против боссов и требует позиционирования [[element:geo]] конструкций. Из-за этого рекомендуется использовать иные сеты, если они полезны отряду."
                             }
                         }
                     ]
