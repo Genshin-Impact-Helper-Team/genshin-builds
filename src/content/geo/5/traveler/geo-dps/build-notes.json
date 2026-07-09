@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "[[element:geo]] DPS",
-        "fr": "DPS [[element:geo]]"
+        "fr": "DPS [[element:geo]]",
+        "ru": "[[element:geo]] ДД"
     },
     "best": true,
     "global": {
@@ -11,7 +12,8 @@
     "notes": [
         {
             "en": "The [[element:geo]] [[character:traveler]] is ideally played as a quick swap DPS, swapping them in for short amounts of time to drop their [[ability:skill]] or [[ability:burst]]. While dealing decent damage of their own, the [[element:geo]] [[character:traveler]] is also a great battery for [[element:geo]] units.",
-            "fr": "Le [[character:traveler]] [[element:geo]] se joue idéalement comme un DPS quickswap, en l'amenant sur le terrain pendant de courts instants pour poser son [[ability:skill]] ou son [[ability:burst]]. En infligeant des dégâts personnels décents, le [[character:traveler]] [[element:geo]] est aussi une excellente batterie pour les personnages [[element:geo]]."
+            "fr": "Le [[character:traveler]] [[element:geo]] se joue idéalement comme un DPS quickswap, en l'amenant sur le terrain pendant de courts instants pour poser son [[ability:skill]] ou son [[ability:burst]]. En infligeant des dégâts personnels décents, le [[character:traveler]] [[element:geo]] est aussi une excellente batterie pour les personnages [[element:geo]].",
+            "ru": "[[element:geo]] [[character:traveler]] отлично играет в револьверных отрядах, появляясь на поле, только чтобы сбросить [[ability:skill]] или [[ability:burst]]. При этом он не только наносит приличный урон, но и хорош как батарейка для других [[element:geo]] персонажей."
         }
     ]
 }
