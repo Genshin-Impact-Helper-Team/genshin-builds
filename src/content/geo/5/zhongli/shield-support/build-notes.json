@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Shield Support",
-        "fr": "Support Bouclier"
+        "fr": "Support Bouclier",
+        "ru": "Щит"
     },
     "best": true,
     "notes": [
         {
             "en": "This kind of playstyle is very straightforward; stack as much HP as possible. Prioritize HP scaling polearms such as **[[weapon:black-tassel]]** and artifact sets such as **[[set:tenacity-of-the-millelith]]** (4) to capitalize on [[character:zhongli]]'s Shield. Most of the time, especially on a HP-focused [[character:zhongli]], casting [[ability:burst]] is a DPS loss due to the cast time, which is why you'd only want to cast [[ability:burst]] for the Crowd Control it offers, and not for damage.",
-            "fr": "Ce style de jeu est très simple ; accumulez autant de PV que possible. Priorisez les lances qui scalent avec les PV comme **[[weapon:black-tassel]]** et les sets d'artéfacts comme **[[set:tenacity-of-the-millelith]]** (4) pour capitaliser sur le bouclier de [[character:zhongli]]. La plupart du temps, surtout sur un [[character:zhongli]] orienté PV, lancer son [[ability:burst]] est une perte de DPS à cause du temps d'animation, c'est pourquoi vous ne devriez lancer son [[ability:burst]] que pour le contrôle de foule qu'il offre, et pas pour les dégâts."
+            "fr": "Ce style de jeu est très simple ; accumulez autant de PV que possible. Priorisez les lances qui scalent avec les PV comme **[[weapon:black-tassel]]** et les sets d'artéfacts comme **[[set:tenacity-of-the-millelith]]** (4) pour capitaliser sur le bouclier de [[character:zhongli]]. La plupart du temps, surtout sur un [[character:zhongli]] orienté PV, lancer son [[ability:burst]] est une perte de DPS à cause du temps d'animation, c'est pourquoi vous ne devriez lancer son [[ability:burst]] que pour le contrôle de foule qu'il offre, et pas pour les dégâts.",
+            "ru": "Сборка достаточно проста - чем больше HP, тем лучше. Иж оружия в приоритете **[[weapon:black-tassel]]**, из артефактов - **[[set:tenacity-of-the-millelith]] (4)**, что позволяет сделать максимально крепкий щит. В большинстве случаев, особенно в чистой НР-сборке, использование [[ability:burst|Взрыва стихии]] приводит к потере ДПС из-за долгой анимации, поэтому рекомендуется активировать его только для контроля противников, а не нанесения урона."
         },
         {
             "en": "Note that if paired with [[character:xingqiu]] and/or [[character:beidou]], the damage reduction from orbitals from [[character:xingqiu]]'s [[ability:skill]] and [[ability:burst]] and/or [[character:beidou]]'s [[ability:burst]] can be utilized on [[character:zhongli]]'s shield, making it basically unbreakable.",
-            "fr": "Notez que si [[character:zhongli]] est joué avec [[character:xingqiu]] et/ou [[character:beidou]], la réduction de dégâts des orbitaux du [[ability:skill]] et de l'[[ability:burst]] de [[character:xingqiu]] et/ou de l'[[ability:burst]] de [[character:beidou]] peut s'appliquer au bouclier de [[character:zhongli]], le rendant pratiquement incassable."
+            "fr": "Notez que si [[character:zhongli]] est joué avec [[character:xingqiu]] et/ou [[character:beidou]], la réduction de dégâts des orbitaux du [[ability:skill]] et de l'[[ability:burst]] de [[character:xingqiu]] et/ou de l'[[ability:burst]] de [[character:beidou]] peut s'appliquer au bouclier de [[character:zhongli]], le rendant pratiquement incassable.",
+            "ru": "Следует отметить, что в паре с [[character:xingqiu]]/[[character:beidou]] при использовании ими [[ability:skill|Элементального навыка]]/[[ability:burst|Взрыва стихии]] щит Чжун Ли становится фактически неразрушимым из-за снижения входящего урона."
         }
     ]
 }
