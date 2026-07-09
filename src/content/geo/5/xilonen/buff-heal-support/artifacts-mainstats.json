@@ -21,7 +21,8 @@
     "notes": [
         {
             "en": "If you do not need [[character:xilonen]]'s healing ability and are not using [[weapon:peak-patrol-song]], her artifact stats do not matter.",
-            "fr": "Si vous n'avez pas besoin du soin de [[character:xilonen]] et n'utilisez pas [[weapon:peak-patrol-song]], les stats de ses artéfacts n'ont pas d'importance."
+            "fr": "Si vous n'avez pas besoin du soin de [[character:xilonen]] et n'utilisez pas [[weapon:peak-patrol-song]], les stats de ses artéfacts n'ont pas d'importance.",
+            "ru": "Статы артефактов [[character:xilonen]] не имеют значения, если не используется **[[weapon:peak-patrol-song]]** или нет нужды в лечении."
         }
     ]
 }

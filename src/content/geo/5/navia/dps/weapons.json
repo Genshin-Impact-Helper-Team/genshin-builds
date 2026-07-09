@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Rankings assume [[character:navia]] is used with [[character:bennett]], 125% [[stat:er]] Requirement.",
-            "fr": "Le classement suppose que [[character:navia]] est jouée avec [[character:bennett]], avec un besoin de 125% de [[stat:er]]."
+            "fr": "Le classement suppose que [[character:navia]] est jouée avec [[character:bennett]], avec un besoin de 125% de [[stat:er]].",
+            "ru": "Предполагается, что [[character:navia]] играет с [[character:bennett|Беннетом]] и имеет 125% [[stat:er|ВЭ]]."
         }
     ],
     "weapons": [
@@ -18,7 +19,8 @@
                     "name": "serpent-spine",
                     "note": {
                         "en": "One of her best performing 4-star options, at [R5] max stacks it will perform as well as **[[weapon:a-thousand-blazing-suns]]**",
-                        "fr": "L'une de ses meilleures options 4 étoiles, une fois [R5] avec les stacks au maximum, elle équivaut à **[[weapon:a-thousand-blazing-suns]]**."
+                        "fr": "L'une de ses meilleures options 4 étoiles, une fois [R5] avec les stacks au maximum, elle équivaut à **[[weapon:a-thousand-blazing-suns]]**.",
+                        "ru": "Один из наиболее эффективных 4✩ мечей. На **[R5]** и максимальном уровне Пассивной способности соответствует **[[weapon:a-thousand-blazing-suns|Тысяче ослепительных солнц]]**."
                     }
                 }
             ]
@@ -44,7 +46,8 @@
                     "name": "fang-of-the-mountain-king",
                     "note": {
                         "en": "Assumed averaged 0.5 stack of [[ability:burst]]%, and 1 stack of [[ability:skill]]% for [[character:navia]]'s second [[ability:skill]]",
-                        "fr": "Suppose une moyenne de 0,5 stack de [[ability:burst]]%, et 1 stack de [[ability:skill]]% pour le second [[ability:skill]] de [[character:navia]]."
+                        "fr": "Suppose une moyenne de 0,5 stack de [[ability:burst]]%, et 1 stack de [[ability:skill]]% pour le second [[ability:skill]] de [[character:navia]].",
+                        "ru": "Предполагается, что половина атак [[ability:burst|Взрыва стихии]] и второй [[ability:skill]] в ротации получают 1 уровень Пассивной способности."
                     }
                 }
             ]
@@ -55,14 +58,16 @@
                     "name": "wolfs-gravestone",
                     "note": {
                         "en": "Assumed passive is not active",
-                        "fr": "Suppose que le passif n'est pas actif."
+                        "fr": "Suppose que le passif n'est pas actif.",
+                        "ru": "Дополнительный эффект Пассивной способности не учитывается."
                     }
                 },
                 {
                     "name": "the-unforged",
                     "note": {
                         "en": "Assumed shielded, dynamically stacked",
-                        "fr": "Suppose un bouclier actif et des stacks dynamiques."
+                        "fr": "Suppose un bouclier actif et des stacks dynamiques.",
+                        "ru": "Предполагается наличие щита и набор уровней Пассивной способности в ходе ротации."
                     }
                 }
             ]
@@ -79,7 +84,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:navia]] is able to be healed. Otherwise, it is not recommended to use this weapon.",
-                        "fr": "Suppose que [[character:navia]] peut être soignée. Sinon, il n'est pas recommandé d'utiliser cette arme."
+                        "fr": "Suppose que [[character:navia]] peut être soignée. Sinon, il n'est pas recommandé d'utiliser cette arme.",
+                        "ru": "Требует постоянного лечения. В противном случае использовать не рекомендуется."
                     }
                 }
             ]
@@ -99,7 +105,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes there is a [[element:pyro]]-related reaction before her field time, this is achievable by using [[character:bennett]]'s [[ability:skill]] before swapping to [[character:navia]], or using an off-field [[element:pyro]] unit like [[character:xiangling]] or [[character:mavuika]]",
-                        "fr": "Suppose qu'il y a une réaction liée au [[element:pyro]] avant son temps de terrain; c'est réalisable en utilisant le [[ability:skill]] de [[character:bennett]] avant de passer à [[character:navia]], ou en utilisant un personnage [[element:pyro]] off-field comme [[character:xiangling]] ou [[character:mavuika]]."
+                        "fr": "Suppose qu'il y a une réaction liée au [[element:pyro]] avant son temps de terrain; c'est réalisable en utilisant le [[ability:skill]] de [[character:bennett]] avant de passer à [[character:navia]], ou en utilisant un personnage [[element:pyro]] off-field comme [[character:xiangling]] ou [[character:mavuika]].",
+                        "ru": "Предполагается, что [[element:pyro]] реакции активированы до выхода [[character:navia|Навии]] на поле (за счёт [[ability:skill|Элементального навыка]] [[character:bennett]]а или карманных [[element:pyro]] по типу [[character:xiangling]] с [[character:mavuika|Мавуикой]])."
                     }
                 }
             ]

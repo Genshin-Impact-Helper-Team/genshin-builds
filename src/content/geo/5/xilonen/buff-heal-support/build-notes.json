@@ -1,25 +1,30 @@
 {
     "name": {
         "en": "Buff & Reaction Support",
-        "fr": "Support Réactions & Buff"
+        "fr": "Support Réactions & Buff",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:xilonen]]'s main job is to decrease Elemental Resistances of opponents using her Samplers. This, paired alongside the ability to hold **[[set:scroll]] (4)**, makes her a great asset to many teams.",
-            "fr": "Le rôle principal de [[character:xilonen]] est de baisser les résistances élémentaires des ennemis grâce à ses échantillonneurs. Ca plus sa capacité à porter le set **[[set:scroll]] (4)** font d'elle un très bon atout pour beaucoup d'équipes."
+            "fr": "Le rôle principal de [[character:xilonen]] est de baisser les résistances élémentaires des ennemis grâce à ses échantillonneurs. Ca plus sa capacité à porter le set **[[set:scroll]] (4)** font d'elle un très bon atout pour beaucoup d'équipes.",
+            "ru": "Основная задача [[character:xilonen]] - снижать сопротивление стихиям противников за счёт Сэмплов. Это, как и возможность носить и полностью активировать **[[set:scroll]] (4)**, делает её отличным саппортом для большого числа отрядов."
         },
         {
             "en": "[[character:xilonen]]'s [[ability:burst]] will heal the active character at intervals if 2 or more of her Samplers had their elemental types changed. Otherwise, she will deal additional instances of [[element:geo]] DMG.",
-            "fr": "L'[[ability:burst]] de [[character:xilonen]] soigne le personnage active à intervalle régulier si 2 échantillonneurs ou plus ont un élément différent. Sinon, elle infligera des dégâts [[element:geo]] supplémentaires."
+            "fr": "L'[[ability:burst]] de [[character:xilonen]] soigne le personnage active à intervalle régulier si 2 échantillonneurs ou plus ont un élément différent. Sinon, elle infligera des dégâts [[element:geo]] supplémentaires.",
+            "ru": "[[ability:burst]] [[character:xilonen]] накладывает периодическое лечение на активного персонажа, если 2 или более её сэмпла не являются [[element:geo]]. В противном случае он наносит дополнительный [[element:geo]] урон."
         },
         {
             "en": "The resistance shredding from the Samplers occurs when [[character:xilonen]] is paired with **2+ PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]])** members. To activate them, press [[ability:skill]], and continuously [[ability:na]] until her [[ability:nightsoul-point]]s are full. This takes 2 or 3 [[ability:na]]s to do.",
-            "fr": "La baisse de RES de ses échantillonneurs a lieu lorsque [[character:xilonen]] est jouée avec **2+ PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]])**. Pour les activez, faites un [[ability:skill]] puis des [[ability:na|attaques normales]] jusqu'à ce que ses [[ability:nightsoul-point]] soient pleins. Cela nécéssite 2 ou 3 [[ability:na]]."
+            "fr": "La baisse de RES de ses échantillonneurs a lieu lorsque [[character:xilonen]] est jouée avec **2+ PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]])**. Pour les activez, faites un [[ability:skill]] puis des [[ability:na|attaques normales]] jusqu'à ce que ses [[ability:nightsoul-point]] soient pleins. Cela nécéssite 2 ou 3 [[ability:na]].",
+            "ru": "Когда [[character:xilonen]] играет более чем с двумя [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] персонажами, её Сэмплы снижают сопротивление врагов к соответствующему элементу. Чтобы активировать их, используйте [[ability:skill]] и продолжайте нажимать [[ability:na|Обычные атаки]] для набора шкалы очков [[ability:nightsoul-point|Ночного духа]] (требуется 2-3 атаки)."
         },
         {
             "en": "At **[C2]**, [[character:xilonen]]'s [[element:geo]] Samplers are always active, enabling her to be added in teams with 2 or more [[element:geo]] members already present.",
-            "fr": "Une fois **[C2]**, les échantillonneurs [[element:geo]] de [[character:xilonen]] sont toujours actifs, lui permettant d'être ajoutée à des équipes ayant déjà 2 personnages [[element:geo]] ou plus."
+            "fr": "Une fois **[C2]**, les échantillonneurs [[element:geo]] de [[character:xilonen]] sont toujours actifs, lui permettant d'être ajoutée à des équipes ayant déjà 2 personnages [[element:geo]] ou plus.",
+            "ru": "На [C2] исходные [[element:geo]] сэмплы [[character:xilonen]] всегда активны, что позволяет ей играть с двумя или более [[element:geo] персонажами."
         }
     ]
 }

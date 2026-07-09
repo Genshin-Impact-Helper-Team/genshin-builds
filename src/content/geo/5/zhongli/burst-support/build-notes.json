@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "Burst Support",
-        "fr": "Support Burst"
-    },
+        "fr": "Support Burst",
+        "ru": "Бурст Саппорт"
+         },
     "notes": [
         {
             "en": "[[character:zhongli]] can be utilized as a [[element:geo]] [[ability:burst]] damage dealer due to his short [[ability:burst]] cooldown (12s) and low energy cost (40 Energy). His [[ability:skill]] Hold Cast (Shield) scales with HP and at Ascension 4, you would unlock a talent that allows your [[ability:burst]] to scale with 33% of [[character:zhongli]]'s Max HP, making him a great source of Shield and damage. Though in certain teams without either very high investment into his damage or enough time in the rotation to burst without extending rotation times his burst can be a DPS loss.",
-            "fr": "[[character:zhongli]] peut être utilisé comme source de dégâts [[element:geo]] via son [[ability:burst]] grâce au faible temps de recharge de son [[ability:burst]] (12 s) et à son faible coût en énergie (40 énergie). Le maintien de son [[ability:skill]] (bouclier) scale avec les PV, et à l'élévation 4 vous débloquez un talent permettant à son [[ability:burst]] de scaler avec 33% des PV max de [[character:zhongli]], ce qui en fait une excellente source de bouclier et de dégâts. Cela dit, dans certaines équipes sans très gros investissement dans ses dégâts ou sans assez de temps dans la rotation pour utiliser le burst sans l'allonger, son burst peut être une perte de DPS."
+            "fr": "[[character:zhongli]] peut être utilisé comme source de dégâts [[element:geo]] via son [[ability:burst]] grâce au faible temps de recharge de son [[ability:burst]] (12 s) et à son faible coût en énergie (40 énergie). Le maintien de son [[ability:skill]] (bouclier) scale avec les PV, et à l'élévation 4 vous débloquez un talent permettant à son [[ability:burst]] de scaler avec 33% des PV max de [[character:zhongli]], ce qui en fait une excellente source de bouclier et de dégâts. Cela dit, dans certaines équipes sans très gros investissement dans ses dégâts ou sans assez de temps dans la rotation pour utiliser le burst sans l'allonger, son burst peut être une perte de DPS.",
+            "ru": "[[character:zhongli]] может наносить неплохой урон с помощью [[ability:burst|Взрыва стихии]] благодаря его короткому откату (12 сек) и низкой стоимости (40 ед. энергии). Его [[ability:skill]] (щит) зависит от НР, а второй Пассивный талант даёт бонус урона к [[ability:burst|Взрыву стихии]] в размере 33% от НР. За счет этого [[character:zhongli]] может быть неплохим источником и щита, и урона одновременно. Но стоит помнить, что без адекватной сборки или в условиях, когда использование [[ability:burst|Взрыва стихии]] приводит к неоправданному удлинению ротации, частая активация [[ability:burst|Взрыва стихии]] может приводить к потере ДПС отряда."
         }
     ]
 }

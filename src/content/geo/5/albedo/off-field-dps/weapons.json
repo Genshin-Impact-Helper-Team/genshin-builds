@@ -6,7 +6,8 @@
                     "name": "peak-patrol-song",
                     "note": {
                         "en": "Make sure you [[ability:na]] twice before or after using his [[ability:skill]] with this weapon.",
-                        "fr": "Assurez-vous d'utiliser deux [[ability:na|attaques normales]] avant ou après son [[ability:skill]] avec cette arme."
+                        "fr": "Assurez-vous d'utiliser deux [[ability:na|attaques normales]] avant ou après son [[ability:skill]] avec cette arme.",
+                        "ru": "Не забудьте дважды использовать [[ability:na|Обычную атаку]] до или после активации [[ability:skill|навыка]]."
                     }
                 }
             ]
@@ -32,7 +33,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes the passive is active. Without the passive active most of the time, this weapon is not worth using.",
-                        "fr": "Suppose que le passif est actif. Sans le passif actif la plupart du temps, cette arme ne vaut pas la peine d'être utilisée."
+                        "fr": "Suppose que le passif est actif. Sans le passif actif la plupart du temps, cette arme ne vaut pas la peine d'être utilisée.",
+                        "ru": "Предполагается, что эффект Пассивной способности постоянно активен. Без этого условия использовать не рекомендуется."
                     }
                 },
                 "light-of-foliar-incision",

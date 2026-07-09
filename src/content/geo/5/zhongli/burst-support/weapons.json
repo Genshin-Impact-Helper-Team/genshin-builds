@@ -73,7 +73,8 @@
                     "name": "favonius-lance",
                     "note": {
                         "en": "If the team values the particles from this weapon, then it can be better than all the other options mentioned for overall team damage (Note that you need to build some amount of [[stat:cr]] if you are running **[[weapon:favonius-lance]]** to trigger the passive)",
-                        "fr": "Si l'équipe valorise les particules de cette arme, elle peut être meilleure que toutes les autres options mentionnées pour les dégâts globaux de l'équipe (notez que vous devez build une certaine quantité de [[stat:cr]] si vous jouez **[[weapon:favonius-lance]]** pour déclencher le passif)."
+                        "fr": "Si l'équipe valorise les particules de cette arme, elle peut être meilleure que toutes les autres options mentionnées pour les dégâts globaux de l'équipe (notez que vous devez build une certaine quantité de [[stat:cr]] si vous jouez **[[weapon:favonius-lance]]** pour déclencher le passif).",
+                        "ru": "Если отряду нужна энергия, этот вариант может превзойти остальные за счёт увеличения урона отряда (но стоит помнить, что для стабильной работы Пассивной способности оружия требуется определённое количество [[stat:cr|Шанса крит. попадания]])."
                     }
                 }
             ]

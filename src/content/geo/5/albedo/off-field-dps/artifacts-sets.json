@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Due to [[character:albedo]]'s [[ability:skill]] snapshotting upon cast, you need to either wait ~12 seconds before starting a domain/fight to reach max stacks or recast his [[ability:skill]] to benefit from the [[stat:def|DEF]] and [[stat:geo-dmg]] bonus provided by the 4 piece set effect.",
-                                "fr": "Comme le [[ability:skill]] de [[character:albedo]] snapshot au lancement, vous devez soit attendre environ 12 secondes avant de commencer un donjon/combat pour atteindre le nombre maximum de stacks, soit relancer son [[ability:skill]] pour bénéficier du bonus de [[stat:def|DÉF]] et de [[stat:geo-dmg]] fourni par l'effet du set 4 pièces."
+                                "fr": "Comme le [[ability:skill]] de [[character:albedo]] snapshot au lancement, vous devez soit attendre environ 12 secondes avant de commencer un donjon/combat pour atteindre le nombre maximum de stacks, soit relancer son [[ability:skill]] pour bénéficier du bonus de [[stat:def|DÉF]] et de [[stat:geo-dmg]] fourni par l'effet du set 4 pièces.",
+                                "ru": "Из-за того, что [[ability:skill]] [[character:albedo]] берёт характеристики Защиты при активации, необходимо либо подождать ~12 секунд до начала битвы для максимального набора уровней Любопытства, либо повторно активировать [[ability:skill|навык]], чтобы учитывались усиленные бонусом набора [[stat:def]] и [[stat:geo-dmg|Гео урон]]."
                             }
                         }
                     ]
@@ -54,7 +55,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is a niche option for [[character:albedo]]. It is lower personal damage than several other set options, but can be a reasonable option in some teams for buffing other characters. Do note that the 4pc bonus requires you to pick the shard up on [[character:albedo]].",
-                                "fr": "Ce set est une option de niche pour [[character:albedo]]. Il donne moins de dégâts personnels que plusieurs autres options de sets, mais peut être un choix raisonnable dans certaines équipes pour buff d'autres personnages. Notez que le bonus 4 pièces nécessite que vous ramassiez le cristal avec [[character:albedo]]."
+                                "fr": "Ce set est une option de niche pour [[character:albedo]]. Il donne moins de dégâts personnels que plusieurs autres options de sets, mais peut être un choix raisonnable dans certaines équipes pour buff d'autres personnages. Notez que le bonus 4 pièces nécessite que vous ramassiez le cristal avec [[character:albedo]].",
+                                "ru": "Нишевый вариант. Личный урон ниже, чем с другими наборами, но этот сет может быть полезен за счет усиления отряда. Обратите внимание, что для активации бонуса набора [[character:albedo]] необходимо подбирать осколки."
                             }
                         }
                     ]
@@ -70,7 +72,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is used for the 4 piece set effect which has good uptime on [[character:albedo]]. Worth noting that this set decreases your [[ability:skill]] damage by a lot if compared to the other offensive sets.",
-                                "fr": "Ce set est utilisé pour son effet 4 pièces, qui a une bonne uptime sur [[character:albedo]]. Il faut noter que ce set réduit beaucoup vos dégâts de [[ability:skill]] par rapport aux autres sets offensifs."
+                                "fr": "Ce set est utilisé pour son effet 4 pièces, qui a une bonne uptime sur [[character:albedo]]. Il faut noter que ce set réduit beaucoup vos dégâts de [[ability:skill]] par rapport aux autres sets offensifs.",
+                                "ru": "Данный сет используется из-за бонуса комплекта, так как тот стабильно работает с [[ability:skill|Элементальным навыком]] [[character:albedo]]. Следует отметить, что, в сравнении с другими наборами артефактов, данный комплект значительно уменьшает урон [[ability:skill|Элементального навыка]]."
                             }
                         }
                     ]
