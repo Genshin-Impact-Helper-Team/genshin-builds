@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Buff Support",
-        "fr": "Support Buff"
+        "fr": "Support Buff",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:yun-jin]] is a Support character for [[ability:na]] focused characters who can deal off-field damage via her [[ability:burst]]. [[character:yun-jin]]'s **[[ability:burst]] grants nearby party members 30 stacks of additional flat damage bonus** on [[ability:na]]s which scales with [[character:yun-jin]]'s current [[stat:def|DEF]].",
-            "fr": "[[character:yun-jin]] est un personnage Support pour les personnages centrés autour des [[ability:na|attaques normales]] et qui peut infliger des dégâts en étant off-field grâce à son [[ability:burst]]. L'[[ability:burst]] de [[character:yun-jin]] **offre aux personnages à proximité 30 stack de bonus de DGT flat** sur l'[[ability:na]], qui scale sur la [[stat:def]] actuelle de [[character:yun-jin]]."
+            "fr": "[[character:yun-jin]] est un personnage Support pour les personnages centrés autour des [[ability:na|attaques normales]] et qui peut infliger des dégâts en étant off-field grâce à son [[ability:burst]]. L'[[ability:burst]] de [[character:yun-jin]] **offre aux personnages à proximité 30 stack de bonus de DGT flat** sur l'[[ability:na]], qui scale sur la [[stat:def]] actuelle de [[character:yun-jin]].",
+            "ru": "[[character:yun-jin]] - саппорт для персонажей, играющих от [[ability:na|Обычных атак]]. Её **[[ability:burst]] даёт ближайшим членам отряда 30 зарядов фиксированного бонуса к урону [[ability:na|Обычных атак]]**; величина бонуса зависит от её текущей [[stat:def|Защиты]]. "
         },
         {
             "en": "This means that external [[stat:def|DEF]] buffs like from [[character:gorou]]'s [[ability:skill]] and/or [[ability:burst]] doesn't provide much to [[character:yun-jin]] since it only buffs active characters and not off-field ones.",
-            "fr": "Cela signifie que les buffs de [[stat:def]] externes tels que ceux de [[character:gorou]] n'offrent pas tant que ça à [[character:yun-jin]] puisque cela ne buff que le personnage actif et non pas ceux Off-Field."
+            "fr": "Cela signifie que les buffs de [[stat:def]] externes tels que ceux de [[character:gorou]] n'offrent pas tant que ça à [[character:yun-jin]] puisque cela ne buff que le personnage actif et non pas ceux Off-Field.",
+            "ru": "Это означает, что внешние источники [[stat:def|Защиты]] (к примеру, [[ability:skill]] и [[ability:burst]] [[character:gorou]]) не влияют на усиление [[character:yun-jin]], так как применяются только к активному персонажу и не влияют на тех, кто находится вне поля."
         }
     ]
 }
