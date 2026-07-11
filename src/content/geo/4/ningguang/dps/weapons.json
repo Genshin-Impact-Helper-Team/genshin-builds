@@ -28,7 +28,8 @@
                     "name": "memory-of-dust",
                     "note": {
                         "en": "This weapon performs slightly worse if [[character:ningguang]] does not have a shielder or consistent [[element:crystallize]] uptime.",
-                        "fr": "Cette arme performe légèrement moins bien si [[character:ningguang]] n'a pas de bouclier ou un uptime consistant de [[element:crystallize]]."
+                        "fr": "Cette arme performe légèrement moins bien si [[character:ningguang]] n'a pas de bouclier ou un uptime consistant de [[element:crystallize]].",
+                        "ru": "Показывает себя хуже без постоянного источника щита/[[element:crystallize|Кристаллизации]]."
                     }
                 },
                 "tulaytullahs-remembrance",
@@ -36,7 +37,8 @@
                     "name": "the-widsith",
                     "note": {
                         "en": "This weapon performs better than **[[weapon:skyward-atlas]] at [R5]**.",
-                        "fr": "Cette arme performe mieux que **[[weapon:skyward-atlas]] une fois [R5]**."
+                        "fr": "Cette arme performe mieux que **[[weapon:skyward-atlas]] une fois [R5]**.",
+                        "ru": "На **[R5]** в превосходит **[[weapon:skyward-atlas]]**."
                     }
                 }
             ]
@@ -47,7 +49,8 @@
                     "name": "solar-pearl",
                     "note": {
                         "en": "This weapon performs better than **[[weapon:skyward-atlas]] at [R5]**.",
-                        "fr": "Cette arme performe mieux que **[[weapon:skyward-atlas]] une fois [R5]**."
+                        "fr": "Cette arme performe mieux que **[[weapon:skyward-atlas]] une fois [R5]**.",
+                        "ru": "На **[R5]** в превосходит **[[weapon:skyward-atlas]]**."
                     }
                 },
                 "cranes-echoing-call"
@@ -59,7 +62,8 @@
                     "name": "flowing-purity",
                     "note": {
                         "en": "This weapon performs worse than [[weapon:dodoco-tales]] if you cannot clear the [[ability:bol]] from its passive.",
-                        "fr": "Cette arme performe moins bien que **[[weapon:dodoco-tales]]** si vous ne pouvez pas retirer l'[[ability:bol]] de son passif."
+                        "fr": "Cette arme performe moins bien que **[[weapon:dodoco-tales]]** si vous ne pouvez pas retirer l'[[ability:bol]] de son passif.",
+                        "ru": "Хуже [[weapon:dodoco-tales|Историй Додоко]], если не снимать [[ability:bol]] от Пассивной способности оружия."
                     }
                 }
             ]
