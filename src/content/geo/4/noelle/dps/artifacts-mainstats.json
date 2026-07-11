@@ -6,7 +6,8 @@
                 "name": "atk%",
                 "note": {
                     "en": "[[stat:atk%]] sands when below [C6] or below Talent Level 9 [[ability:burst]].",
-                    "fr": "Sablier [[stat:atk%]] lorsqu'elle n'est pas [C6] ou que son [[ability:burst]] n'est pas niveau 9+."
+                    "fr": "Sablier [[stat:atk%]] lorsqu'elle n'est pas [C6] ou que son [[ability:burst]] n'est pas niveau 9+.",
+                    "ru": "[[stat:atk%]] в часах нужна до **[C6]** или 9-го уровня [[ability:burst|Взрыва стихии]]."
                 }
             }
         ],
