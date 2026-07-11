@@ -16,7 +16,8 @@
     "notes": [
         {
             "en": "When driving a team with [[character:furina]], [[character:noelle]] generally lacks [[stat:def%]] from weapon, set bonus, and team buffs. In order to counteract [[character:furina]]'s [[stat:hp|HP]] drain, especialy with high [[stat:hp|HP]] units like [[character:yelan]], multiple [[stat:def%]] Main Stats may be required.",
-            "fr": "Lorsqu'elle sert de driver dans une équipe avec [[character:furina]], [[character:noelle]] manque généralement de [[stat:def%]] de son arme. Pour compenser le drain de [[stat:hp]] de [[character:furina]], surtout avec des personnages ayant beaucoup de [[stat:hp]] comme [[character:yelan]], plusieurs stats principales [[stat:def%]] peuvent être nécessaires."
+            "fr": "Lorsqu'elle sert de driver dans une équipe avec [[character:furina]], [[character:noelle]] manque généralement de [[stat:def%]] de son arme. Pour compenser le drain de [[stat:hp]] de [[character:furina]], surtout avec des personnages ayant beaucoup de [[stat:hp]] comme [[character:yelan]], plusieurs stats principales [[stat:def%]] peuvent être nécessaires.",
+            "ru": "При игре с [[character:furina|Фуриной]] [[character:noelle]] зачастую не хватает [[stat:def%|Защиты%]] от оружия, сетбонусов артефактов и бонусов членов отряда. Чтобы компенсировать снижение НР Фуриной, особенно при игре с персонажами с большим его количеством ([[character:yelan]]), может понадобиться несколько артефактов с [[stat:def%|Защитой%]] в основном стате."
         }
     ]
 }
