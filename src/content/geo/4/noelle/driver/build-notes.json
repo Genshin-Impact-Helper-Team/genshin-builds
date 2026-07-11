@@ -1,6 +1,7 @@
 {
     "name": {
-        "en": "Driver"
+        "en": "Driver",
+        "ru": "Драйвер"
     },
     "best": true,
     "notes": [
