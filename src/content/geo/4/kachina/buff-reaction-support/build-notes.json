@@ -1,25 +1,30 @@
 {
     "name": {
         "en": "Buff & Reaction Support",
-        "fr": "Support Réactions & Buff"
+        "fr": "Support Réactions & Buff",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "As a free unit from Natlan, [[character:kachina]]'s value comes from being able to provide Off-Field [[element:geo]] Application with her [[ability:skill]], and being able to hold **[[set:scroll]] (4)** to great effect. [[character:kachina]]'s [[ability:burst]] can extend the radius in which Turbo Twirly creates shockwaves, allowing you to hit enemies from a distance if you need to. While she can be built for damage, her personal scalings are rather low, and building her for damage isn't a requirement.",
-            "fr": "En tant que personnage gratuit de Natlan, la valeur de [[character:kachina]] vient de son application [[element:geo]] Off-Field avec son [[ability:skill]], et de sa capacité à porter **[[set:scroll]] (4)**. L'[[ability:burst]] de [[character:kachina]] peut étendre le rayon dans lequel Virevolturbo créé ses ondes de choc, vous permettant de toucher les ennemis à distances si vous en avez besoin. Bien qu'elle puisse être build pour ses dégâts, ses scalings personnels sont plutôt bas et la build pour ses dégâts n'est pas une obligation."
+            "fr": "En tant que personnage gratuit de Natlan, la valeur de [[character:kachina]] vient de son application [[element:geo]] Off-Field avec son [[ability:skill]], et de sa capacité à porter **[[set:scroll]] (4)**. L'[[ability:burst]] de [[character:kachina]] peut étendre le rayon dans lequel Virevolturbo créé ses ondes de choc, vous permettant de toucher les ennemis à distances si vous en avez besoin. Bien qu'elle puisse être build pour ses dégâts, ses scalings personnels sont plutôt bas et la build pour ses dégâts n'est pas une obligation.",
+            "ru": "[[character:kachina]] является бесплатным персонажем из Натлана и ценна способностью накладывать [[element:geo]] вне поля [[ability:skill|навыком]] и полностью раскрывать **[[set:scroll]] (4)**. [[ability:burst]] [[character:kachina|Качины]] увеличивает зону поражения навыка, что позволяет при необходимости бить врагов на большей дистанции. Следует отметить, что её личный урон не слишком велик, и недорогая сборка без упора в него вполне возможна."
         },
         {
             "en": "[[character:kachina]]'s **[C1]** allows her to restore 3 Energy whenever she picks up a [[element:crystallize]] Shard, and mounting/dismounting Turbo Twirly absorbs nearby shards. The energy restoration can only trigger once every 5 seconds, but does help alleviate some of her [[stat:er]] needs.",
-            "fr": "La **[C1]** de [[character:kachina]] lui permet de rendre 3 d'énergie à chaque fois qu'elle ramasse un cristal de [[element:crystallize]] Shard, et monter/descendre de Virevolturbo absorbe les cristaux à proximité. La restauration d'énergie ne peut être déclenchée que toutes les 5 secondes, mais permet de réduire ses besoins en [[stat:er]]."
+            "fr": "La **[C1]** de [[character:kachina]] lui permet de rendre 3 d'énergie à chaque fois qu'elle ramasse un cristal de [[element:crystallize]] Shard, et monter/descendre de Virevolturbo absorbe les cristaux à proximité. La restauration d'énergie ne peut être déclenchée que toutes les 5 secondes, mais permet de réduire ses besoins en [[stat:er]].",
+            "ru": "**[C1]** Качины восстанавливает 3 единицы энергии каждый раз, когда она поднимает осколок [[element:crystallize|Кристаллизации]], а Турбовихрь при призыве/исчезновении поглощает ближайшие осколки. Эффект срабатывает только 1 раз в 5 секунд, но немного помогает с энергией."
         },
         {
             "en": "Turbo Twirly is considered a [[element:geo]] Construct.",
-            "fr": "Virevolturbo est considéré comme une construction [[element:geo]]."
+            "fr": "Virevolturbo est considéré comme une construction [[element:geo]].",
+            "ru": "Турбовихрь считается [[element:geo]] конструкцией."
         },
         {
             "en": "[[character:kachina]]'s [[ability:burst]] can bring Turbo Twirly back to her location if it is already on the field, allowing for a quick method of repositioning without having to actually ride Turbo Twirly. Her **[C2]** will summon a new Turbo Twirly if one isn't on the field instead.",
-            "fr": "L'[[ability:burst]] de [[character:kachina]] peut ramener Virevolturbo à son emplacement s'il est déjà sur le terrain, permettant de le repositionner rapidement sans avoir besoin de le monter. Sa **[C2]** fera apparaître un nouveau Virevolturbo s'il n'y en a pas déjà un sur le terrain."
+            "fr": "L'[[ability:burst]] de [[character:kachina]] peut ramener Virevolturbo à son emplacement s'il est déjà sur le terrain, permettant de le repositionner rapidement sans avoir besoin de le monter. Sa **[C2]** fera apparaître un nouveau Virevolturbo s'il n'y en a pas déjà un sur le terrain.",
+            "ru": "[[ability:burst]] [[character:kachina|Качины]] призывает Турбовихрь к ней, если он уже на поле, что позволяет быстро сменить его положение без необходимости перемещать вручную. На **[C2]** [[ability:burst]] создаёт Турбовихрь, если его нет на поле."
         }
     ]
 }
