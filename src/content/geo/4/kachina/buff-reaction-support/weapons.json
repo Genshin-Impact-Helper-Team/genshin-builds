@@ -10,8 +10,9 @@
                 {
                     "name": "footprint-of-the-rainbow",
                     "note": {
-                        "en": "[[character:kachina]] can opt to use this weapon if her [[stat:er]] needs are satisfied and the team does not value the energy from [[weapon:favonius-lance]]. Refinements are unnecessary unless you wish to see more out of [[character:kachina]]'s personal damage.",
-                        "fr": "[[character:kachina]] peut jouer cette arme si ses besoins en [[stat:er|ER]] sont atteints et que l'équipe n'a pas besoin de l'énergie de [[weapon:favonius-lance]]. Les raffinements ne sont pas nécessaires à moins que vous souhaitiez avoir plus de dégâts personnels pour [[character:kachina]]."
+                        "en": "[[character:kachina]] can opt to use this weapon if her [[stat:er]] needs are satisfied and the team does not value the energy from **[[weapon:favonius-lance]]**. Refinements are unnecessary unless you wish to see more out of [[character:kachina]]'s personal damage.",
+                        "fr": "[[character:kachina]] peut jouer cette arme si ses besoins en [[stat:er|ER]] sont atteints et que l'équipe n'a pas besoin de l'énergie de **[[weapon:favonius-lance]]**. Les raffinements ne sont pas nécessaires à moins que vous souhaitiez avoir plus de dégâts personnels pour [[character:kachina]].",
+                        "ru": "Может использоваться, если у [[character:kachina|Качины]] достаточный уровень [[stat:er|ВЭ]] и команде не требуется энергия от **[[weapon:favonius-lance|Копья Фавония]]**. Пробуждения не нужны, если вы не вкладываетесь в её личный урон."
                     }
                 }
             ]
