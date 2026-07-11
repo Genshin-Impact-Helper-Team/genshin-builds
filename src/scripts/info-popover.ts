@@ -117,6 +117,8 @@ card.addEventListener('pointerdown', (event) => {
   const refinement = target.closest<HTMLElement>('[data-refinement]');
   if (!refinement) return;
 
+  pinned = true;
+  card.setPointerCapture(event.pointerId);
   event.preventDefault();
   event.stopPropagation();
   selectRefinement(refinement);
