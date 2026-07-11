@@ -91,6 +91,8 @@ document.addEventListener('click', (event) => {
 
   const refinement = target.closest<HTMLElement>('[data-refinement]');
   if (refinement && card.contains(refinement)) {
+    event.preventDefault();
+    event.stopPropagation();
     selectRefinement(refinement);
     return;
   }
@@ -106,6 +108,18 @@ document.addEventListener('click', (event) => {
   event.preventDefault();
   if (activePopover === popover && pinned) hidePopover();
   else showPopover(popover, true);
+});
+
+card.addEventListener('pointerdown', (event) => {
+  const target = event.target;
+  if (!(target instanceof Element)) return;
+
+  const refinement = target.closest<HTMLElement>('[data-refinement]');
+  if (!refinement) return;
+
+  event.preventDefault();
+  event.stopPropagation();
+  selectRefinement(refinement);
 });
 
 document.addEventListener('pointerover', (event) => {
