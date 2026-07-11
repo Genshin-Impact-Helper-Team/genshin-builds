@@ -16,7 +16,8 @@
                     "name": "serpent-spine",
                     "note": {
                         "en": "When using [[set:husk-of-opulent-dreams]] (4), [[weapon:serpent-spine]] stacks are prioritized over [[set:husk-of-opulent-dreams]] stacks due to their conflicting nature in gaining stacks (On-Field vs Off-Field).",
-                        "fr": "En jouant [[set:husk-of-opulent-dreams]] (4), les stacks de [[weapon:serpent-spine]] sont à prioriser par rapport à ceux de [[set:husk-of-opulent-dreams]] puisqu'ils s'obtiennent de façon opposée (On-Field vs Off-Field)."
+                        "fr": "En jouant [[set:husk-of-opulent-dreams]] (4), les stacks de [[weapon:serpent-spine]] sont à prioriser par rapport à ceux de [[set:husk-of-opulent-dreams]] puisqu'ils s'obtiennent de façon opposée (On-Field vs Off-Field).",
+                        "ru": ""
                     }
                 }
             ]
@@ -27,7 +28,8 @@
                     "name": "skyward-pride",
                     "note": {
                         "en": "Useful if you are unable to get [[stat:er]] from your substats. Does really well while passive is active, but falls of in sustained fights. Comfort option that can lose to a high refined [[weapon:whiteblind]] with stacks.",
-                        "fr": "Utile si vous n'arrivez pas à avoir de la [[stat:er]] avec vos sous-stats. Fonctionne très bien quand le passif est actif, mais moins bien quand le combat est long. C'est une option confortable qui peut cependant être moins bien que [[weapon:whiteblind]] à haut raffinement avec ses stacks."
+                        "fr": "Utile si vous n'arrivez pas à avoir de la [[stat:er]] avec vos sous-stats. Fonctionne très bien quand le passif est actif, mais moins bien quand le combat est long. C'est une option confortable qui peut cependant être moins bien que [[weapon:whiteblind]] à haut raffinement avec ses stacks.",
+                        "ru": ""
                     }
                 }
             ]
