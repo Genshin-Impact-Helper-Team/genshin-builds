@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": ""
     },
     "best": true,
     "notes": [
         {
             "en": "Assumes buffs from **[[character:bennett]] and 40% [[stat:geo-dmg]] bonus**.",
-            "fr": "On suppose que [[character:ningguang]] a les buffs de **[[character:bennett]] et un bonus de 40% [[stat:geo-dmg]]**."
+            "fr": "On suppose que [[character:ningguang]] a les buffs de **[[character:bennett]] et un bonus de 40% [[stat:geo-dmg]]**.",
+            "ru": "Предполагается, что [[character:ningguang]] играет с [[character:bennett]]ом и 40% [[stat:geo-dmg|бонусом Гео урона]] (саппорт со **[[set:scroll|Свитком]]**)."
         },
         {
             "en": "[[character:ningguang]]'s [[ability:skill]] has a 6 second internal cooldown on generating energy, so for the sake of maintaining [[ability:burst]] uptime, wait 6 seconds to cast again if you need energy. It also breaks when cast on top of another [[element:geo]] Structure, you can intentionally use a structure to break your first screen.",
-            "fr": "Le [[ability:skill]] de [[character:ningguang]] a un ICD de 6 secondes pour générer de l'énergie, donc pour que l'[[ability:burst]] soit disponible tout le temps, attendez 6 secondes pour lancer le [[ability:skill]] à nouveau si vous avez besoin d'énergie. Il se brise également lorsqu'il est lancé sur une autre Structure géo, vous pouvez intentionnellement utiliser une structure pour casser votre premier écran."
+            "fr": "Le [[ability:skill]] de [[character:ningguang]] a un ICD de 6 secondes pour générer de l'énergie, donc pour que l'[[ability:burst]] soit disponible tout le temps, attendez 6 secondes pour lancer le [[ability:skill]] à nouveau si vous avez besoin d'énergie. Il se brise également lorsqu'il est lancé sur une autre Structure géo, vous pouvez intentionnellement utiliser une structure pour casser votre premier écran.",
+            "ru": "[[ability:skill]] [[character:ningguang]] имеет 6-секундный откат генерации частиц, поэтому для наиболее эффективного набора энергии и активации [[ability:burst|Взрыва стихии]] по откату подождите 6 секунд для повторной установки Нефритовой ширмы. Обратите внимание, что ширма ломается, если ставить её поверх другой [[element:geo]] конструкции."
         }
     ],
     "weapons": {
