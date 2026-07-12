@@ -143,7 +143,7 @@
                 "en": "When referring to something such as N3E (as an example), the doc is talking about using 3 Normal Attacks, and then Elemental Skill. For simplification reasons, the doc roughly uses the default keybinds on PC to represent abilities. Below you can find a legend of commonly used keys and their meaning:\n\nN(x) = Normal Attack; x = number of times to attack within a character's attack string\nC = Charged Attack\nE = Elemental Skill\ntE = Tap Skill\nhE = Hold Skill\nQ = Elemental Burst\nJ = Jump\nD = Dash/Dodge (This is just a quick tap of the sprint button)\nP = Plunge\nx[combo]; x = number of times to repeat said combo",
                 "fr": "Lorsque l'on utilise des combinaisons comme N3E (par exemple), cela veut dire d'utiliser 3 Attaques normales puis le skill. Pour simplifier l'écriture, ce guide utilisera les touches utilisées sur PC pour représenter les aptitudes. Vous trouverez ci-dessous une légende de ces termes:\n\nN = Attaque normale\n\nC = Attaque chargée\n\nE = Skil\n\ntE = Tap Skill\n\nhE = Skill appuyé\n\nA = Ulti\n\nJ = Saut\n\nD = Sprint/Esquive (Juste un appui rapide sur le bouton pour sprint)\n\nP = Attaque plongeante\n\nx[combo]; x = nombre de fois où l'on répète le combo",
                 "it": "Le lettere corrispondono alle scorciatoie da tastiera di default per le diverse abilità dei personaggi. Elenchiamo quelle più utilizzate:\n\n**N** o **NA** = Attacco Normale\n**N(x)** = Attacco Normale ripetuto x volte\n**C** o **CA** = Attacco Caricato\n**E** = Abilità Elementale\n**tE** = premere l'Abilità\n**hE** = tenere premuta l'Abilità\n**Q** = Tripudio Elementale\n**J** = Salto\n**D** = Scatto (Dash/Dodge)\n**P** = Attacco in picchiata\n**x[combo]** = = combo ripetuta x volte; ad esempio, 3N2Q indica una combo di 3 Attacchi Normali seguiti da un Tripudio Elementale, ripetuta 3 volte.",
-                "ru": ""
+                "ru": "Для примера: N3E в описании ротации означает, что используется последовательность из 3 Обычных атак и Элементального навыка. Для удобства все навыки обозначены стандартными клавишами ПК для соответствующих действий. Полный список ниже: \n\nN(x) = Обычная атака; x = количество последовательных атак из цепочки\nC = Заряженная атака\nE = Элементальный навык\ntE = короткое нажатие Элементального навыка\nhE = долгое нажатие Элементального навыка\nQ = Взрыв стихии\nJ = Прыжок\nD = Рывок/Уклонение (короткое нажатие на кнопку спринта)\nP = Атака в падении\nx[комбо]; x = количество повторений комбо"
             }
         },
         {
@@ -151,13 +151,13 @@
                 "en": " Are there at least F2P Options for each character?",
                 "fr": "Y-a-t-il au moins une option F2P pour chaque personnage?",
                 "it": "Ci sono almeno delle opzioni F2P per ogni personaggio?",
-                "ru": ""
+                "ru": "Есть ли F2P варианты оружия для персонажей?"
             },
             "answer": {
                 "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, or the easily obtainable 3* Gacha Weapons.",
                 "fr": "Oui. Ce document garantie qu'il y a au moins 1 option F2P obtenable de façon permanente pour chaque personnage, même si cette option n'est pas forcément la meilleure pour lui. Les armes F2P obtenables de façon permanente incluent les armes qui peuvent être forgées, qui peuvent être obtenues dans les coffres de Mondstadt et Liyue, ou les armes 3✩ facilement obtenables grâces aux voeux.",
                 "it": "Sì, la guida si assicura che sia presente **almeno 1 opzione F2P accessibile in maniera permanente** per ogni personaggio, anche nel caso in cui non sia una delle opzioni migliori. Opzioni accessibili in maniera permanente includono armi che possono essere forgiate od ottenute gratuitamente tramite pesca o come ricompense da bauli di Mondstadt e Liyue, od armi a 3 stelle facilmente ottenibili dai banner.",
-                "ru": ""
+                "ru": "Да. Документ содержит как минимум 1 постоянно доступный бесплатный вариант, даже если он не является лучшим. В бесплатные варианты включено оружие из кузницы, сундуков Мондштадта/Ли Юэ и трёхзвёздочные опции из Молитв."
             }
         },
         {
@@ -165,13 +165,13 @@
                 "en": " What are the Constellation assumptions for each character?",
                 "fr": "Quel niveau de constellation est supposé pour chaque personnage?",
                 "it": "Quali sono i presupposti per le Costellazioni dei personaggi?",
-                "ru": ""
+                "ru": "Каковы требования к Созвездиям персонажей?"
             },
             "answer": {
                 "en": "4★ Characters may have varying constellation level assumptions, when this affects build choices, it will be mentioned. 5★ Characters are assumed [C0].",
                 "fr": "Le niveau de constellation supposé pour les personnages 4✩ peut varier. Si cela impacte le choix du build, le niveau de constellation sera mentionné. Concernant les personnages 5✩, on suppose qu'ils sont [C0].",
                 "it": "I personaggi 4✩ hanno presupposti variabili - quando questo influenza le build, verrà menzionato. **I personaggi 5✩ sono considerati C0**.",
-                "ru": ""
+                "ru": "Для 4✩ персонажей: может потребоваться различное количество Созвездий; если это влияет на сборку, то указывается в документе. Для 5✩ персонажей: отсутствие Созвездий."
             }
         },
         {
@@ -179,13 +179,13 @@
                 "en": " Do you have build docs for Honkai Star Rail and Zenless Zone Zero?",
                 "fr": "Avez-vous des document similaires pour Honkai Star Rail et Zenless Zone Zero?",
                 "it": "Avete documenti simili per Honkai Star Rail e/o Zenless Zone Zero?",
-                "ru": ""
+                "ru": "Есть ли у вас аналогичные руководства для Honkai Star Rail и Zenless Zone Zero?"
             },
             "answer": {
                 "en": "They are out there, but the Genshin Doc team doesn't manage them. To find them, please head to their respective official Discord servers.",
                 "fr": "Il y en a, mais notre équipe ne s'en occupe pas. Pour les trouver, veuillez vous rendre sur leurs serveurs Discord officiels respectifs.",
                 "it": "Esistono, ma non sono gestiti dal nostro team. Per trovarli, si prega dirigersi ai rispettivi server Discord ufficiali.",
-                "ru": ""
+                "ru": "Такие руководства есть, но разрабатываются не этой командой. Для ознакомления с ними перейдите на соответствующий Discord-сервер."
             }
         },
         {
@@ -193,13 +193,13 @@
                 "en": " When will you update X Character? They're extremely outdated!",
                 "fr": "Quand allez-vous mettre à jour X personnage? Le build est n'est plus à jour depuis longtemps!",
                 "it": "Quando aggiornerete personaggio X? La sezione è obsoleta!",
-                "ru": ""
+                "ru": "Когда вы обновите персонажа А? Раздел устарел!"
             },
             "answer": {
                 "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours.",
                 "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre.",
                 "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro.",
-                "ru": ""
+                "ru": "Некоторых персонажей довольно сложно обновить из-за их неучастия в эндгейм-контенте, но команда старается со временем обновлять всех. В игре более сотни персонажей, и нашей довольно небольшой команде может быть непросто поддерживать всех в актуальном состоянии."
             }
         }
     ]
