@@ -1,25 +1,30 @@
 {
     "name": {
         "en": "Buff Support",
-        "fr": "Support Buff"
+        "fr": "Support Buff",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:gorou]] is a Support character that can give increasing buffs to your party members from his [[ability:skill]] and [[ability:burst]] based on the number of [[element:geo]] characters in your team (capped at 3). Casting his [[ability:skill]] sets up a banner which gives [[stat:def]] (1 [[element:geo]]), Interruption Resistance (2 [[element:geo]]) and [[stat:geo-dmg]] Bonus (3 [[element:geo]]) for your active character standing inside the banner radius.",
-            "fr": "[[character:gorou]] est un Support qui donne des buffs à toute l'équipe grâce à son [[ability:skill]] et son [[ability:burst]] en fonction du nombre de personnages [[element:geo]] dans l'équipe (max 3). Utiliser son [[ability:skill]] place un drapeau qui donne de la [[stat:def]] (1 [[element:geo]]), de la résistance à l'interruption (2 [[element:geo]]) et un bonus de [[stat:geo-dmg]] (3 [[element:geo]]) pour votre personnage actif s'il se tient dans le rayon du drapeau."
+            "fr": "[[character:gorou]] est un Support qui donne des buffs à toute l'équipe grâce à son [[ability:skill]] et son [[ability:burst]] en fonction du nombre de personnages [[element:geo]] dans l'équipe (max 3). Utiliser son [[ability:skill]] place un drapeau qui donne de la [[stat:def]] (1 [[element:geo]]), de la résistance à l'interruption (2 [[element:geo]]) et un bonus de [[stat:geo-dmg]] (3 [[element:geo]]) pour votre personnage actif s'il se tient dans le rayon du drapeau.",
+            "ru": "[[character:gorou]] - саппорт, способный усиливать членов отряда своим [[ability:skill|Элементальным навыком]] и [[ability:burst|Взрывом стихии]]. Мощность усиления зависит от количества [[element:geo]] персонажей в команде, максимум - 3. Используя [[ability:skill]], он ставит Боевой штандарт генерала, увеличивающий [[stat:def|Защиту]] (1 [[element:geo]]), сопротивление прерыванию (2 [[element:geo]]) и бонус [[element:geo]] урона (3 [[element:geo]]) активного персонажа в зоне действия штандарта."
         },
         {
-            "en": "Casting his [[ability:burst]] creates a field following the active character which deals periodic damage and offers the same bonuses given by the [[ability:skill, destroying any placed banners in the process, it also pulls in nearby Elemental Shards created by [[element:crystallize]] reactions.",
-            "fr": "Utiliser son [[ability:burst]] créé un champ qui suit le personnage actif et inflige périodiquement des dégâts tout en offrant les mêmes bonus que ceux donnés par le [[ability:skill, détruisant tous les drapeaux placés au passage. Il attire aussi les cristaux élémentaires créés par la réaction [[element:crystallize]]."
+            "en": "Casting his [[ability:burst]] creates a field following the active character which deals periodic damage and offers the same bonuses given by the [[ability:skill]], destroying any placed banners in the process, it also pulls in nearby Elemental Shards created by [[element:crystallize]] reactions.",
+            "fr": "Utiliser son [[ability:burst]] créé un champ qui suit le personnage actif et inflige périodiquement des dégâts tout en offrant les mêmes bonus que ceux donnés par le [[ability:skill]], détruisant tous les drapeaux placés au passage. Il attire aussi les cristaux élémentaires créés par la réaction [[element:crystallize]].",
+            "ru": "Его [[ability:burst]] создает поле, которое следуют за активным персонажем, наносит периодический урон и даёт те же бонусы, что и [[ability:skill]]. Помимо этого, поле притягивает осколки [[element:crystallize|Кристаллизации]] к активному персонажу."
         },
         {
             "en": "Due to his kit focusing on buffing [[stat:def%]] and [[stat:geo-dmg]], he's a specialised support geared towards [[element:geo]] DPS that scales with [[stat:def%|DEF]], such as [[character:noelle]] or [[character:arataki-itto]]. He can see niche use at **[C6]** with other [[element:geo]] characters as well.",
-            "fr": "Comme son kit buff la [[stat:def%]] et les [[stat:geo-dmg]], c'est un support spécialisé pour les DPS [[element:geo]] qui scalent sur la [[stat:def]], comme [[character:noelle]] ou [[character:arataki-itto]]. Il peut aussi être joué comme niche une fois **[C6]** pour d'autres personnages [[element:geo]]."
+            "fr": "Comme son kit buff la [[stat:def%]] et les [[stat:geo-dmg]], c'est un support spécialisé pour les DPS [[element:geo]] qui scalent sur la [[stat:def]], comme [[character:noelle]] ou [[character:arataki-itto]]. Il peut aussi être joué comme niche une fois **[C6]** pour d'autres personnages [[element:geo]].",
+            "ru": "Из-за способности увеличивать [[stat:def%|Защиту]] и [[stat:geo-dmg|Гео урон]] Горо является узкоспециализированным саппортом для [[element:geo]] ДД, чей урон зависит от [[stat:def%|Защиты]] ([[character:noelle]], [[character:arataki-itto]]). На [C6] он может оказать определенную поддержку и другим [[element:geo]] персонажам."
         },
         {
             "en": "**[C2]** extends the duration of [[character:gorou]]'s [[ability:burst]] from 9 seconds to 12 seconds if you can obtain the required [[element:crystallize]] shields. This allows his teammates to gain the 3 [[element:geo]] 15% [[stat:geo-dmg]] bonus for a longer duration, so it's preferable to use [[ability:burst]] as your last ability before swapping into your DPS.",
-            "fr": "La **[C2]** augmente la durée de l'[[ability:burst]] de [[character:gorou]] de 9 à 12 secondes si vous pouvez obtenir le bouclier [[element:crystallize]] nécessaire. Cela permet à l'équipe de gagner les 15% de bonus de [[stat:geo-dmg]] pour une plus longue durée, donc il est préférable d'utiliser votre [[ability:burst]] en dernier avant de changer de personnage sur votre DPS."
+            "fr": "La **[C2]** augmente la durée de l'[[ability:burst]] de [[character:gorou]] de 9 à 12 secondes si vous pouvez obtenir le bouclier [[element:crystallize]] nécessaire. Cela permet à l'équipe de gagner les 15% de bonus de [[stat:geo-dmg]] pour une plus longue durée, donc il est préférable d'utiliser votre [[ability:burst]] en dernier avant de changer de personnage sur votre DPS.",
+            "ru": "[C2] увеличивает длительность [[ability:burst|Взрыва стихии]] [[character:gorou]] с 9 до 12 секунд при ловле осколков [[element:crystallize|Кристаллизации]] активным персонажем. Это позволяет продлить бонус [[element:geo]] урона на больший срок, поэтому рекомендуется применять [[ability:burst]] последним непосредственно перед переключением на ДД."
         }
     ]
 }

@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "notes": {
                                 "en": "This set requires **[C2]** [[character:illuga]].",
-                                "fr": "Ce set nécéssite la **[C2]** d'[[character:illuga]]."
+                                "fr": "Ce set nécéssite la **[C2]** d'[[character:illuga]].",
+                                "ru": "Для работы сета [[character:illuga]] необходимо **[C2]**."
                             }
                         }
                     ]

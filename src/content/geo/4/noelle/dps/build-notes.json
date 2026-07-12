@@ -1,24 +1,29 @@
 {
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "**This build is only recommended for [C6] [[character:noelle]].** [[character:noelle]] DPS is best optimized at **[C6]** where converts an additional 50% [[stat:def|DEF]] into [stat:atk|ATK]]. Her ability to sustain her team with shields, heals and AoE damage makes for a reliable DPS when your team is built around her.",
-            "fr": "**Ce build n'est recommandé que pour une [[character:noelle]] [C6].** [[character:noelle]] DPS est le plus optimal une fois **[C6]** puisqu'elle convertit 50% de [[stat:def]] en plus en [stat:atk]]. Sa capacité à soutenir son équipe avec son bouclier, son soin et ses dégâts de zone font d'elle un bon DPS quand l'équipe est build autour d'elle."
+            "fr": "**Ce build n'est recommandé que pour une [[character:noelle]] [C6].** [[character:noelle]] DPS est le plus optimal une fois **[C6]** puisqu'elle convertit 50% de [[stat:def]] en plus en [stat:atk]]. Sa capacité à soutenir son équipe avec son bouclier, son soin et ses dégâts de zone font d'elle un bon DPS quand l'équipe est build autour d'elle.",
+            "ru": "**Не рекомендуется собирать [[character:noelle]] в ДД, если она не [C6].** Лучше всего она показывает себя на **[C6]**, когда начинает дополнительно преобразовывать 50% [[stat:def|Защиты]] в [stat:atk|Силу атаки]]. Её способность поддерживать команду за счет щитов, лечения и урона по площади делает из [[character:noelle]] надёжное ядро отряда."
         },
         {
             "en": "**Combos:**\n- 1 / 2 Targets: **{rot:N4 D/J}**. This isn't always feasible due to cast time (as well as knockback issues).",
-            "fr": "**Combos:**\n- 1 / 2 Cibles: **{rot:N4 D/J}**. Ce n'est pas toujours faisable à cause de l'animation de sa N4 et des problèmes d'interruption."
+            "fr": "**Combos:**\n- 1 / 2 Cibles: **{rot:N4 D/J}**. Ce n'est pas toujours faisable à cause de l'animation de sa N4 et des problèmes d'interruption.",
+            "ru": "**Комбо:**\n- 1 / 2 цели: **{rot:N4 D/J}**. Ротация не всегда выполнима из-за времязатрат (и проблем с откидыванием врагов)."
         },
         {
             "en": "- Multiple Targets: **{rot:N3 D/J}**.",
-            "fr": "- Plusieurs Cibles: **{rot:N3 D/J}**."
+            "fr": "- Plusieurs Cibles: **{rot:N3 D/J}**.",
+            "ru": "- Несколько целей: **{rot:N3 D/J}**."
         },
         {
-            "en": "With [[weapon:redhorn-stonethresher]], using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
-            "fr": "Avec [[weapon:redhorn-stonethresher]], utiliser des [[ability:ca|attaques chargées]] peut être plus efficace. En tournant, ouvrir et fermer la carte ou le Guide de l'Aventurier vous permettra d'ignorer la limite de 5 secondes de la CA."
+            "en": "With **[[weapon:redhorn-stonethresher]]**, using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
+            "fr": "Avec **[[weapon:redhorn-stonethresher]]**, utiliser des [[ability:ca|attaques chargées]] peut être plus efficace. En tournant, ouvrir et fermer la carte ou le Guide de l'Aventurier vous permettra d'ignorer la limite de 5 secondes de la CA.",
+            "ru": "С **[[weapon:redhorn-stonethresher|Камнерубом]]** использование [[ability:ca|Заряженных атак]] может быть эффективнее указанных ротаций. Во время вращения можно открыть-закрыть карту или справочник, что позволит проигнорировать пятисекундный лимит."
         }
     ]
 }

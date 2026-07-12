@@ -20,8 +20,10 @@
                             "name": "husk-of-opulent-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:skill]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks.",
-                                "fr": "[[character:noelle]] snapshot sa [[stat:def]] sur son [[ability:skill]]. Pour obtenir le buff de [[stat:def%]] sur les 4 stacks pendant votre premier [[ability:burst]], vous devez attendre 12 secondes avant de switch sur Noeëlle. En abysses, le temps passé avant que le combat ne commence génère aussi des stacks."
+                                "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:burst]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks.",
+                                "fr": "[[character:noelle]] snapshot sa [[stat:def]] sur son [[ability:burst]]. Pour obtenir le buff de [[stat:def%]] sur les 4 stacks pendant votre premier [[ability:burst]], vous devez attendre 12 secondes avant de switch sur Noeëlle. En abysses, le temps passé avant que le combat ne commence génère aussi des stacks.",
+                                "ru": "[[ability:burst]] [[character:noelle]] учитывает характеристики [[stat:def|Защиты]] только на момент его активации. Для максимального набора бонуса (4 уровня) необходимо 12 секунд продержать [[character:noelle]] вне поля перед переключением на неё. В Витой Бездне время до начала испытания также учитывается при наборе бонуса."
+
                             }
                         }
                     ]

@@ -15,7 +15,8 @@
     "notes": [
         {
             "en": "If you are building [[character:kachina]] as a low investment support, using the correct mainstats is not important. [[stat:cr]] should be prioritised further in this case when using [[weapon:favonius-lance]] for more consistent triggers.",
-            "fr": "Si vous buildez [[character:kachina]] comme un support à faible investissement, utiliser les bonnes stats principales n'est pas important. Dans ce cas, le [[stat:cr]] devrait être encore plus priorisé lorsque vous jouez [[weapon:favonius-lance]] pour pouvoir déclencher le passif plus régulièrement."
+            "fr": "Si vous buildez [[character:kachina]] comme un support à faible investissement, utiliser les bonnes stats principales n'est pas important. Dans ce cas, le [[stat:cr]] devrait être encore plus priorisé lorsque vous jouez [[weapon:favonius-lance]] pour pouvoir déclencher le passif plus régulièrement.",
+            "ru": "Если [[character:kachina]] собирается как недорогой саппорт, значения основных статов и сабстатов не особенно важны (кроме [[stat:cr|Шанса крит. попадания]] при использовании **[[weapon:favonius-lance|Копья Фавония]]**)."
         }
     ]
 }

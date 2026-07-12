@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "notes": {
                                 "en": "Casting [[ability:burst]] regenerates a total of 6 Energy for each of your party member. This set reduces your [[stat:er]] Requirements by a bit for all of your party members, which can be quite beneficial. Do note that this is a 4 star set so you're potentially missing out on 5 star stat scaling, which is a 34% difference in Main Stat value and 25% difference in individual substat value.",
-                                "fr": "Utiliser l'[[ability:burst]] rend 6 d'énergie à chaque membre de l'équipe. Ce set réduit les besoins en [[stat:er]] de toute l'équipe, ce qui peut être plutôt utile. Notez qu'il s'agit d'un set 4 étoiles, donc vous perdrez des stats comparé à un artéfact 5 étoiles: 34% de différence sur une stat principale et 25% sur chaque sous stat."
+                                "fr": "Utiliser l'[[ability:burst]] rend 6 d'énergie à chaque membre de l'équipe. Ce set réduit les besoins en [[stat:er]] de toute l'équipe, ce qui peut être plutôt utile. Notez qu'il s'agit d'un set 4 étoiles, donc vous perdrez des stats comparé à un artéfact 5 étoiles: 34% de différence sur une stat principale et 25% sur chaque sous stat.",
+                                "ru": "Использование [[ability:burst|Взрыва стихии]] восстанавливает суммарно 6 единиц каждому члену отряда, что несколько снижает потребность в [[stat:er|энергии]] и может быть весьма полезным. Следует отметить, что это 4☆ сет с меньшими значениями статов, чем у 5☆ артефактов (на 34% - основные статы и на 25% - сабстаты)."
                             }
                         }
                     ]
@@ -25,7 +26,8 @@
                             "pieces": 4,
                             "notes": {
                                 "en": "The effectiveness of this set increases if you've already met the [[stat:er]] requirement for [[character:gorou]]. At that point, you'd no longer need to run the recommended [[stat:er]] sets, which means you can opt for this instead.",
-                                "fr": "L'intérêt de ce set augment si vous avez déjà atteint les besoins en [[stat:er]] de [[character:gorou]]. Vous n'auriez plus besoin de jouer les sets [[stat:er]] recommandés, ce qui veut dire que vous pourriez choisir ce set à la place."
+                                "fr": "L'intérêt de ce set augment si vous avez déjà atteint les besoins en [[stat:er]] de [[character:gorou]]. Vous n'auriez plus besoin de jouer les sets [[stat:er]] recommandés, ce qui veut dire que vous pourriez choisir ce set à la place.",
+                                "ru": "Может быть полезен, если [[character:gorou]] имеет достаточный уровень [[stat:er|Восстановления энергии]]. Стоит использовать только при отсутствии потребности в наборах с бонусом ВЭ."
                             }
                         }
                     ]
@@ -66,7 +68,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "This is a set [[character:gorou]] may run when used in a [[element:lunar-crystallize]] team, notably when paired with [[character:zibai]]. Because this is a 4-star set, you're losing out on 5-star stat scaling. It is recommended to run an offpiece 5-star sands while running this set.",
-                        "fr": "Ce set peut être utilisé dans une équipe [[element:lunar-crystallize]], notamment lorsque joué avec [[character:zibai]]. Comme il s'agit d'un set 4 étoiles, vous perdez des stats comparé à un set 5 étoiles. Il est recommandé de jouer un Sablier offset 5 étoiles avec ce set."
+                        "fr": "Ce set peut être utilisé dans une équipe [[element:lunar-crystallize]], notamment lorsque joué avec [[character:zibai]]. Comme il s'agit d'un set 4 étoiles, vous perdez des stats comparé à un set 5 étoiles. Il est recommandé de jouer un Sablier offset 5 étoiles avec ce set.",
+                        "ru": "Можно использовать в отрядах, играющих через [[element:lunar-crystallize]], например, с [[character:zibai]]. Сет имеет меньшие значения статов, чем пятизвёздочные варианты. Рекомендуется использовать пятизвёздочные офф-сет пески."
                     }
                 }
             ]
@@ -78,7 +81,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "Can be used when [[character:gorou]] is paired with [[character:columbina]] or [[character:zibai]] so that other units can run more beneficial artifact sets.",
-                        "fr": "Peut être utilisé si [[character:gorou]] est joué avec [[character:columbina]] oru[[character:zibai]] pour que les autres personnages puisse porter un set plus bénéfique pour eux."
+                        "fr": "Peut être utilisé si [[character:gorou]] est joué avec [[character:columbina]] oru[[character:zibai]] pour que les autres personnages puisse porter un set plus bénéfique pour eux.",
+                        "ru": "Можно использовать в отряде с [[character:columbina|Колумбиной]] или [[character:zibai]], чтобы остальные члены отряда играли с более выгодными для них вариантами."
                     }
                 }
             ]

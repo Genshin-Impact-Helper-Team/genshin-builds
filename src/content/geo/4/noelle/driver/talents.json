@@ -6,7 +6,8 @@
                     "name": "skill",
                     "note": {
                         "en": "Dependence on [[ability:skill]]'s talent level depends on your total [[stat:def|DEF]] and whether [[character:furina]] is in the team or not.",
-                        "fr": "L'importance du niveau du [[ability:skill]] dépend de votre [[stat:def]] totale et de si [[character:furina]] est dans l'équipe."
+                        "fr": "L'importance du niveau du [[ability:skill]] dépend de votre [[stat:def]] totale et de si [[character:furina]] est dans l'équipe.",
+                        "ru": "Целесообразность повышения уровня [[ability:skill|Элементального навыка]] зависит от значения Защиты и наличия [[character:furina|Фурины]] в отряде."
                     }
                 }
             ]

@@ -1,16 +1,19 @@
 {
     "name": {
-        "en": "Driver"
+        "en": "Driver",
+        "ru": "Драйвер"
     },
     "best": true,
     "notes": [
         {
             "en": "Generally optimal when running multiple off-field DPS like [[character:yelan]], [[character:xingqiu]], or [[character:fischl]].",
-            "fr": "Généralement optimal lorsqu'elle est jouée avec plusieurs DPS Off-Field comme [[character:yelan]], [[character:xingqiu]], ou [[character:fischl]]."
+            "fr": "Généralement optimal lorsqu'elle est jouée avec plusieurs DPS Off-Field comme [[character:yelan]], [[character:xingqiu]], ou [[character:fischl]].",
+            "ru": "Может быть лучшим билдом при наличии нескольких карманных ДД в отряде ([[character:yelan]], [[character:xingqiu]], [[character:fischl]])."
         },
         {
-            "en": "Instead of focusing on her own damage (but not neglecting it), [[character:noelle]] takes a supportive role with [[set:archaic-petra]] to buff her team, while still taking advantage of her AoE and strong defensive utility.",
-            "fr": "Plutôt que de se concentrer sur ses propres dégâts (sans pour autant les négliger), [[character:noelle]] prends un rôle de support avec le set [[set:archaic-petra]] pour bff son équipe, tout en prenant avantage de son AoE et ses fortes commodités défensives."
+            "en": "Instead of focusing on her own damage (but not neglecting it), [[character:noelle]] takes a supportive role with **[[set:archaic-petra]]** to buff her team, while still taking advantage of her AoE and strong defensive utility.",
+            "fr": "Plutôt que de se concentrer sur ses propres dégâts (sans pour autant les négliger), [[character:noelle]] prends un rôle de support avec le set **[[set:archaic-petra]]** pour bff son équipe, tout en prenant avantage de son AoE et ses fortes commodités défensives.",
+            "ru": "Вместо сборки в личный урон (хотя и его не стоит игнорировать) [[character:noelle]] усиливает отряд за счёт [[set:archaic-petra|Архаичного камня]], одновременно извлекая пользу от атак по площади и защитных способностей."
         }
     ]
 }
