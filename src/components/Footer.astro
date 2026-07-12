@@ -23,10 +23,14 @@ const deployVersion = import.meta.env.PUBLIC_DEPLOY_VERSION;
     </a>
   </nav>
 
-  <p>This website is not affiliated with HoYoverse.</p>
   <p>
-    Genshin Impact, game content and materials are trademarks and copyrights of
-    HoYoverse.
+    Original code and guide content <a href={localizedPath(lang, 'credits')}
+      >&copy; Genshin Impact Helper Team contributors.</a
+    > This website is not affiliated with HoYoverse.
+  </p>
+  <p>
+    Genshin Impact, game content, and materials are trademarks and copyrights of
+    COGNOSPHERE, HoYoverse, and their respective owners.
   </p>
   {deployVersion && <p class="footer-version">Deploy #{deployVersion}</p>}
 </footer>
