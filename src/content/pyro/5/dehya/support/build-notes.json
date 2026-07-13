@@ -2,18 +2,21 @@
     "best": true,
     "name": {
         "en": "Support",
-        "it": "Supporto"
+        "it": "Supporto",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "Support [[character:dehya]] uses her [[ability:skill]] to do passive damage and apply [[element:pyro]], while providing the team with interruption resistance and tank damage.",
             "fr": "[[character:dehya]] Support utilise son [[ability:skill]] pour infliger des dégâts de manière passive et appliquer [[element:pyro]], tout en offrant de la résistance à l'interruption et en tankant les dégâts.",
-            "it": "[[character:dehya]] Supporto utilizza la sua [[ability:skill]] per provocare danni passivi ed applicare [[element:pyro]], al contempo fornendo al team resistenza all'interruzione e protezione dai danni."
+            "it": "[[character:dehya]] Supporto utilizza la sua [[ability:skill]] per provocare danni passivi ed applicare [[element:pyro]], al contempo fornendo al team resistenza all'interruzione e protezione dai danni.",
+            "ru": "[[character:dehya]] в роли саппорта использует [[ability:skill]], чтобы наносить урон и накладывать [[element:pyro]], одновременно усиливая сопротивление прерыванию и уменьшая входящий урон для активных членов отряда."
         },
         {
             "en": "Support [[character:dehya]] is not reliant on her [[ability:burst]] to support the team as a damage tank.",
             "fr": "[[character:dehya]] Support ne dépend pas de son [[ability:burst]] pour être un support tank pour l'équipe.",
-            "it": "[[character:dehya]] Supporto non è dipendente dal suo [[ability:burst]] per supportare il team come 'tank' di danni."
+            "it": "[[character:dehya]] Supporto non è dipendente dal suo [[ability:burst]] per supportare il team come 'tank' di danni.",
+            "ru": "[[character:dehya]]-саппорт не нуждается во [[ability:burst|Взрыве стихий]] для выполнения своих задач."
         }
     ]
 }
