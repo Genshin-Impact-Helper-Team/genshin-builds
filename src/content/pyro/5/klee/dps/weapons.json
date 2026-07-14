@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Rankings assume [[ability:hexerei]] Resonance is active.",
-            "fr": "Le classement suppose que la résonance [[ability:hexerei]] est active."
+            "fr": "Le classement suppose que la résonance [[ability:hexerei]] est active.",
+            "ru": "Предполагается, что эффект **[[ability:hexerei|Ведьмовство: Тайный обряд]]** активен."
         }
     ],
     "weapons": [
@@ -17,14 +18,16 @@
                     "name": "lost-prayer-to-the-sacred-winds",
                     "note": {
                         "en": "Assumes 12% DMG averaged.",
-                        "fr": "Suppose +12% DGT en moyenne."
+                        "fr": "Suppose +12% DGT en moyenne.",
+                        "ru": "Предполагается, что бонус составляет 12%."
                     }
                 },
                 {
                     "name": "kaguras-verity",
                     "note": {
                         "en": "Assumes 2 stacks on the weapon passive.",
-                        "fr": "Suppose 2 stacks du passif de l'arme."
+                        "fr": "Suppose 2 stacks du passif de l'arme.",
+                        "ru": "Предполагается, что поддерживается 2 уровня Пассивной способности оружия."
                     }
                 },
                 "vivid-notions"
@@ -42,14 +45,16 @@
                     "name": "tulaytullahs-remembrance",
                     "note": {
                         "en": "Averages 25% [[ability:na]] DMG.",
-                        "fr": "Suppose 25% DGT [[ability:na]] en moyenne."
+                        "fr": "Suppose 25% DGT [[ability:na]] en moyenne.",
+                        "ru": "Предполагается, что бонус урона [[ability:na|Обычных атак]] в среднем составляет 25%."
                     }
                 },
                 {
                     "name": "surfs-up",
                     "note": {
                         "en": "Assumes dynamic stacking.",
-                        "fr": "Suppose un stacking dynamique."
+                        "fr": "Suppose un stacking dynamique.",
+                        "ru": "Предполагается динамический набор усиления."
                     }
                 }
             ]
@@ -65,14 +70,16 @@
                     "name": "the-widsith",
                     "note": {
                         "en": "At **[R5]**, this weapon performs closer to **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] cannot reliably use the [[stat:em]] buff, should she acquire it.",
-                        "fr": "Une fois **[R5]**, cette arme devient plus proche de **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] ne peut pas utiliser le buff de [[stat:em]] de manière fiable lorsqu'elle l'obtient."
+                        "fr": "Une fois **[R5]**, cette arme devient plus proche de **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] ne peut pas utiliser le buff de [[stat:em]] de manière fiable lorsqu'elle l'obtient.",
+                        "ru": "На **[R5]** может соответствовать **[[weapon:tulaytullahs-remembrance|Воспоминаниям Тулайтуллы]]**, но [[stat:em]] может оказаться для [[character:klee]] бесполезным."
                     }
                 },
                 {
                     "name": "solar-pearl",
                     "note": {
                         "en": "At **[R5]**, this weapon performs slightly worse than **[[weapon:the-widsith]] [R5]**.",
-                        "fr": "Même **[R5]**, cette arme reste légèrement moins bonne que **[[weapon:the-widsith]] [R5]**."
+                        "fr": "Même **[R5]**, cette arme reste légèrement moins bonne que **[[weapon:the-widsith]] [R5]**.",
+                        "ru": "На **[R5]** немного уступает **[R5] [[weapon:the-widsith|Песни странника]]**."
                     }
                 }
             ]
@@ -89,7 +96,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Calculated with [[ability:bol]] cleared. If paired with **[[set:fragment-of-harmonic-whimsy]] (4)** at max stacks, this weapon can perform as well as **[[weapon:tulaytullahs-remembrance]]**.",
-                        "fr": "Calculée avec un [[ability:bol]] retiré. Si joué avec **[[set:fragment-of-harmonic-whimsy]] (4)** avec les stacks maximums, cette arme offre des performances similaires à **[[weapon:tulaytullahs-remembrance]]**."
+                        "fr": "Calculée avec un [[ability:bol]] retiré. Si joué avec **[[set:fragment-of-harmonic-whimsy]] (4)** avec les stacks maximums, cette arme offre des performances similaires à **[[weapon:tulaytullahs-remembrance]]**.",
+                        "ru": "Предполагается, что [[ability:bol]] снимается. При использовании с **[[set:fragment-of-harmonic-whimsy|Фрагментом гармонической фантазии]] (4)** с максимальным бонусом может соответствовать **[[weapon:tulaytullahs-remembrance|Воспоминаниям Тулайтуллы]]**."
                     }
                 }
             ]

@@ -20,7 +20,8 @@
                     "note": {
                         "en": "[[character:dehya]] has a hard time keeping up this weapon's stacks. At **[R5]**, this weapon can perform better than **[[weapon:wolfs-gravestone]]**.",
                         "fr": "[[character:dehya]] a du mal à garder les stacks de cette arme. Une fois **[R5]**, cette arme peut être meileure que **[[weapon:wolfs-gravestone]]**.",
-                        "it": "[[character:dehya]] ha difficoltà a mantenere gli accumuli di quest'arma. A **[R5]**, può avere prestazioni migliori di **[[weapon:wolfs-gravestone]]**."
+                        "it": "[[character:dehya]] ha difficoltà a mantenere gli accumuli di quest'arma. A **[R5]**, può avere prestazioni migliori di **[[weapon:wolfs-gravestone]]**.",
+                        "ru": "Поддержание Пассивной способности может оказаться затруднительным для [[character:dehya|Дэхъи]]. На **[R5]** данное оружие превосходит **[[weapon:wolfs-gravestone|Волчью погибель]]**."
                     }
                 },
                 {
@@ -29,7 +30,8 @@
                     "note": {
                         "en": "This weapon is only useful in [[element:melt]] or [[element:vaporize]] teams and should not be considered otherwise.",
                         "fr": "Cette arme n'est utile que dans des équipes [[element:melt]] ou [[element:vaporize]] et ne doit pas être considérée le cas contraire.",
-                        "it": "Quest'arma è utile esclusivamente in team **[[element:vaporize]]** o **[[element:melt]]**, e non dovrebbe essere presa in considerazione in altri casi."
+                        "it": "Quest'arma è utile esclusivamente in team **[[element:vaporize]]** o **[[element:melt]]**, e non dovrebbe essere presa in considerazione in altri casi.",
+                        "ru": "Используется только в отрядах через [[element:melt]] или [[element:vaporize]]."
                     }
                 },
                 {
@@ -37,7 +39,8 @@
                     "note": {
                         "en": "Only useful in [[element:vaporize]] teams. At **[R5]**, this weapon performs similar to **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Utile uniquement pour les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme a des performances similaires à **[[weapon:redhorn-stonethresher]]**.",
-                        "it": "Utile esclusivamente in team **[[element:vaporize]]**. A **[R5]** ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**."
+                        "it": "Utile esclusivamente in team **[[element:vaporize]]**. A **[R5]** ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "Используется только в отрядах через [[element:vaporize]]. На **[R5]** соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
                     }
                 }
             ]
@@ -50,7 +53,8 @@
                     "note": {
                         "en": "Assumes [[character:dehya]] is being healed.",
                         "fr": "Suppose que [[character:dehya]] se fait soigner.",
-                        "it": "La classifica presuppone che [[character:dehya]] venga curata."
+                        "it": "La classifica presuppone che [[character:dehya]] venga curata.",
+                        "ru": "Предполагается, что [[character:dehya]] получает лечение."
                         
                     }
                 },
@@ -63,7 +67,8 @@
                     "note": {
                         "en": "Assumes [[character:dehya]] is affected by [[element:pyro]]. At **[R5]**, this weapon performs better than **[[weapon:tidal-shadow]] [R5]**.",
                         "fr": "Suppose que [[character:dehya]] est affectée par [[element:pyro]]. Une fois **[R5]**, cette arme performe mieux que **[[weapon:tidal-shadow]] [R5]**.",
-                        "it": "La classifica presuppone che [[character:dehya]] sia affetta da [[element:pyro]]. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:tidal-shadow]] [R5]**."
+                        "it": "La classifica presuppone che [[character:dehya]] sia affetta da [[element:pyro]]. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:tidal-shadow]] [R5]**.",
+                        "ru": "Предполагается, что на [[character:dehya|Дэхъю]] накладывается [[element:pyro]]. На **[R5]** превосходит **[R5] [[weapon:tidal-shadow]]**."
                     }
                 },
                 "the-unforged",
@@ -72,7 +77,8 @@
                     "note": {
                         "en": "As [[character:dehya]] needs to place her [[ability:skill]] at the very start of the rotation to not suffer from very high [[stat:er]] requirements, she often cannot have this weapon's passive active during her [[ability:burst]]. In teams where 10 seconds pass between her [[ability:skill]] and [[ability:burst]] use, this weapon performs similar to **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Comme [[character:dehya]] doit utiliser son [[ability:skill]] au tout début de sa rotation pour ne pas rencontre de problèmes à cause des besoins en [[stat:er]] très élevés, elle ne bénéficie pas souvent du passif de cette arme sur son [[ability:burst]]. Dans les équipes avec plus de 10 secondes entre son [[ability:skill]] et son [[ability:burst]], cette arme équivaut à **[[weapon:redhorn-stonethresher]]**.",
-                        "it": "Poiché [[character:dehya]] ha bisogno di piazzare la sua [[ability:skill]] all'inizio della rotazione per ridurre i suoi requisiti di [[stat:er]] (altrimenti molto alti), spesso non riesce ad avere la passiva di quest'arma attiva durante il [[ability:burst]]. In team dove passano 10 secondi tra l'utilizzo della sua [[ability:skill]] e del suo [[ability:burst]], quest'arma ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**."
+                        "it": "Poiché [[character:dehya]] ha bisogno di piazzare la sua [[ability:skill]] all'inizio della rotazione per ridurre i suoi requisiti di [[stat:er]] (altrimenti molto alti), spesso non riesce ad avere la passiva di quest'arma attiva durante il [[ability:burst]]. In team dove passano 10 secondi tra l'utilizzo della sua [[ability:skill]] e del suo [[ability:burst]], quest'arma ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "В связи с тем, что [[character:dehya]] обычно использует [[ability:skill]] в начале ротации для генерации энергии, зачастую эффект Пассивной способности уже не действует на момент активации [[ability:burst|Взрыва стихии]]. В отрядах, где между активацией [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]] проходит 10 секунд, данное оружие соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
                     }
                 },
                 "skyward-pride"

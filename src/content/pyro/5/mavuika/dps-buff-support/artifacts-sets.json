@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "If no other member of the team can hold it, this becomes [[character:mavuika]]'s best artifact set for Off-Field.",
                                 "fr": "Si aucun autre membre de l'équipe ne porte ce set, il devient la meilleure option pour une [[character:mavuika]] Off-Field.",
-                                "it": "Se nessun altro personaggio del team può utilizzare questo set, è il set migliore di [[character:mavuika]] quando utilizzata fuori campo."
+                                "it": "Se nessun altro personaggio del team può utilizzare questo set, è il set migliore di [[character:mavuika]] quando utilizzata fuori campo.",
+                                "ru": "Лучший сет при игре из кармана, если в отряде нет других его носителей."
                             }
                         }
                     ]
@@ -39,7 +40,8 @@
                     "note": {
                         "en": "Only to be used when paired with [[character:furina]] - Performs mildly worse than **[[set:obsidian-codex]] (4)**.",
                         "fr": "A n'utiliser que si jouée avec [[character:furina]] - Performe légèrement moins bien que **[[set:obsidian-codex]] (4)**.",
-                        "it": "Da utilizzare solo con **[[character:furina]]**  - ha prestazioni di poco peggiori di **[[set:obsidian-codex]] (4)**."
+                        "it": "Da utilizzare solo con **[[character:furina]]**  - ha prestazioni di poco peggiori di **[[set:obsidian-codex]] (4)**.",
+                        "ru": "Следует рассматривать только в отрядах с [[character:furina|Фуриной]]. Немного уступает **[[set:obsidian-codex|Обсидиановому фолианту]] (4)**."
                     }
                 }
             ]
@@ -52,7 +54,8 @@
                     "note": {
                         "en": "This set is a support option in teams with a relevant amount of **Dendro damage** (i.e. [[character:kinich]]).",
                         "fr": "Ce set est une option de support dans les équipes axés autour des **dégâts dendro** (comme [[character:kinich]] par exemple).",
-                        "it": "Questo set è un'opzione di supporto in team con una quantità rilevante di **danni Dendro** (es. [[character:kinich]])."
+                        "it": "Questo set è un'opzione di supporto in team con una quantità rilevante di **danni Dendro** (es. [[character:kinich]]).",
+                        "ru": "Может использоваться в отрядах с высоким Дендро уроном (например, с [[character:kinich]]ем)."
                     }
                 }
             ]

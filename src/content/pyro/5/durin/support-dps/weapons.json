@@ -41,7 +41,8 @@
                     "note": {
                         "en": "This weapon is ranked assuming **the passive can be activated AND the team benefits** from the passive. Otherwise do not use this weapon.",
                         "fr": "Cette arme est classé en supposant que **le passif peut être activé ET que l'équipe en bénéficie**. Autrement, n'utilisez pas cette arme.",
-                        "it": "La posizione in classifica presuppone che **la passiva possa essere attivata E che il team ne tragga beneficio**. In caso contrario, non utilizzare quest'arma."
+                        "it": "La posizione in classifica presuppone che **la passiva possa essere attivata E che il team ne tragga beneficio**. In caso contrario, non utilizzare quest'arma.",
+                        "ru": "Предполагается, что **Пассивная способность может быть активирована, а также приносит пользу отряду**. В ином случае использовать не рекомендуется."
                     }
                 }
             ]
@@ -53,7 +54,8 @@
                     "note": {
                         "en": "At **[R5]** this weapon ranks similarly to **[[weapon:azurelight]]**.",
                         "fr": "Une fois **[R5]** cette arme se classe au même niveau que **[[weapon:azurelight]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:azurelight]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:azurelight]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:azurelight|Лазурному сиянию]]**."
                     }
                 }
             ]
@@ -66,7 +68,8 @@
                     "note": {
                         "en": "This weapon is ranked assuming **90% uptime** on the passive effect. At **[R5]**, this weapon ranks similarly to **[[weapon:wolf-fang]]**.",
                         "fr": "Le classement suppose que le passif est actif **90% du temps**. Une fois **[R5]**, cette arme est similaire à **[[weapon:wolf-fang]]**.",
-                        "it": "La posizione in classifica presuppone un tempo di funzionamento dell'**aura Pyro/Electro del 90%**. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:wolf-fang]]**."
+                        "it": "La posizione in classifica presuppone un tempo di funzionamento dell'**aura Pyro/Electro del 90%**. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:wolf-fang]]**.",
+                        "ru": "Предполагается, что **Пассивная способность поддерживается 90% времени**. На **[R5]** соответствует **[[weapon:wolf-fang|Волчьему клыку]]**."
                     }
                 },
                 "moonweavers-dawn",
@@ -75,7 +78,8 @@
                     "note": {
                         "en": "This weapon is ranked assuming the **passive is always active**. Otherwise, **do not use this weapon**.",
                         "fr": "Classée en supposant que le **passif est toujours actif**. Autrement, **n'utilisez pas cette arme**.",
-                        "it": "La posizione in classifica presuppone che **la passiva sia sempre attiva**. In caso contrario, **non utilizzare quest'arma**."
+                        "it": "La posizione in classifica presuppone che **la passiva sia sempre attiva**. In caso contrario, **non utilizzare quest'arma**.",
+                        "ru": "Предполагается, что **Пассивная способность постоянно поддерживается**. В ином случае использовать не рекомендуется."
                     }
                 }
             ]
@@ -87,7 +91,8 @@
                     "note": {
                         "en": "If you can reliably clear the [[ability:bol]], this weapon ranks similarly to **[[weapon:summit-shaper]]**.",
                         "fr": "Si vous pouvez retirer l'[[ability:bol]] à coup sûr, cette arme est similaire à **[[weapon:summit-shaper]]**.",
-                        "it": "Se Durin riceve cure sufficienti da rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**."
+                        "it": "Se Durin riceve cure sufficienti da rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**.",
+                        "ru": "Предполагается, что [[ability:bol]] снимается. В противном случае примерно соответствует **[[weapon:summit-shaper|Кромсателю пиков]]**."
                     }
                 }
             ]

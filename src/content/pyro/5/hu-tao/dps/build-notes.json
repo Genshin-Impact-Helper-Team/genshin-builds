@@ -1,28 +1,33 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "[[character:hu-tao]] is a predominantly [[ability:ca]] focused DPS who best synergizes in teams with sufficient off-field [[element:hydro]] application which allow her to [[element:vaporize]] all of her [[ability:ca]] hits.",
             "fr": "[[character:hu-tao]] est un DPS qui se joue principalement sur ses [[ability:ca]]s et qui synergie le plus avec les équipes ayant suffisamment d'application [[element:hydro]] off-field pour lui permettre de déclencher [[element:vaporize]] sur toutes ses [[ability:ca]].",
-            "it": "[[character:hu-tao]] è una DPS che infligge la maggioranza dei suoi danni tramite i suoi [[ability:ca|Attacchi Caricati]], ed è utilizzata al meglio in team con applicazione [[element:hydro]] da fuori campo sufficiente da permetterle di [[element:vaporize|Vaporizzare]] tutti i suoi [[ability:ca|Attacchi Caricati]]."
+            "it": "[[character:hu-tao]] è una DPS che infligge la maggioranza dei suoi danni tramite i suoi [[ability:ca|Attacchi Caricati]], ed è utilizzata al meglio in team con applicazione [[element:hydro]] da fuori campo sufficiente da permetterle di [[element:vaporize|Vaporizzare]] tutti i suoi [[ability:ca|Attacchi Caricati]].",
+            "ru": "Основным источником урона [[character:hu-tao]] являются [[ability:ca|Заряженные атаки]]. В отряде с достаточным количеством [[element:hydro]] из кармана она может закрывать [[element:vaporize]] всеми своими [[ability:ca|Заряженными атаками]]."
         },
         {
             "en": "When ending [[character:hu-tao]]'s combos with a [[ability:burst]], if you do not jump/dash cancel the last [[ability:ca]], the [[ability:burst]] still benefit from [[character:hu-tao]]'s [[ability:skill]].",
             "fr": "Lorsque vous terminez le combo de [[character:hu-tao]] avec un [[ability:burst]], si vous ne faites pas de jump/dash cancel pour la dernière [[ability:ca]], l'[[ability:burst]] bénéficiera encore de son [[ability:skill]].",
-            "it": "Se concludi la combo di [[character:hu-tao]] con un [[ability:burst]], **non** annullare l'ultimo [[ability:ca]] con uno scatto/salto permetterà al [[ability:burst]] di beneficiare dell'[[ability:skill]] di [[character:hu-tao]]."
+            "it": "Se concludi la combo di [[character:hu-tao]] con un [[ability:burst]], **non** annullare l'ultimo [[ability:ca]] con uno scatto/salto permetterà al [[ability:burst]] di beneficiare dell'[[ability:skill]] di [[character:hu-tao]].",
+            "ru": "В конце ротации [[character:hu-tao]] со [[ability:burst|Взрывом стихии]] не отменяйте [[ability:ca|Заряженную атаку]] прыжком/рывком, чтобы сохранить эффект [[ability:skill|Элементального навыка]] для [[ability:burst|Взрыва стихии]]."
         },
         {
             "en": "It is recommended to use cancels when performing your [[character:hu-tao]] combos as to maximize damage.",
             "fr": "Il est recommandé d'utiliser des cancels lors de vos combos [[character:hu-tao]] pour maximiser les dégâts.",
-            "it": "È consigliato utilizzare annulli nelle combo di Hu Tao per massimizzare i suoi danni."
+            "it": "È consigliato utilizzare annulli nelle combo di Hu Tao per massimizzare i suoi danni.",
+            "ru": "Для увеличения урона рекомендуется отменять анимации Заряженных атак [[character:hu-tao]]. "
         },
         {
             "en": "**{rot:N2CJ}** for **[C0]** and **{rot:N2CD}** for **[C1]**. **{rot:N3CJ/N3CD}** can be used to conserve stamina at the cost of damage.",
             "fr": "**{rot:N2CJ}** en **[C0]** et **{rot:N2CD}** en **[C1]**. **{rot:N3CJ/N3CD}** peut être utilisé pour préserver l'endurance, au détriment des dégâts.",
-            "it": "**{rot:N2CJ}** se **[C0]** e **{rot:N2CD}** se **[C1]**. **{rot:N3CJ/N3CD}** può essere utilizzato per risparmiare stamina, a scapito di danni."
+            "it": "**{rot:N2CJ}** se **[C0]** e **{rot:N2CD}** se **[C1]**. **{rot:N3CJ/N3CD}** può essere utilizzato per risparmiare stamina, a scapito di danni.",
+            "ru": "**{rot:N2CJ}** для **[C0]** и **{rot:N2CD}** для **[C1]**. **{rot:N3CJ/N3CD}** может использоваться для экономии стамины за счёт урона."
         }
     ],
     "weapons": {
