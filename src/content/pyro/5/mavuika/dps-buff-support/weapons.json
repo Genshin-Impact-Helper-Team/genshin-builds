@@ -19,7 +19,7 @@
                         "en": "Ranking assumes 1 stack.",
                         "fr": "Le classement suppose 1 stack.",
                         "it": "La classifica presuppone 1 accumulo, il che richiede la presenza di almeno un personaggio **Geo** nel team.",
-                        "ru": ""
+                        "ru": "Предполагается, что поддерживается 1 уровень Пассивной способности."
                     }
                 }
             ]
@@ -32,7 +32,7 @@
                         "en": "Ranking assumes [[character:mavuika]] does not take damage.",
                         "fr": "Le classement suppose que [[character:mavuika]] ne prend aucun dégâts.",
                         "it": "La classifica presuppone che [[character:mavuika]] non subisca danni.",
-                        "ru": ""
+                        "ru": "Предполагается, что [[character:mavuika]] не получает урон."
                     }
                 }
             ]
@@ -50,7 +50,7 @@
                         "en": "Ranking assumes dynamic stacks, shielded.",
                         "fr": "Le classement suppose des stack dynamiques, sous bouclier.",
                         "it": "La classifica presuppone la presenza di uno **scudo**.",
-                        "ru": ""
+                        "ru": "Предполагается, что уровень Пассивной способности изменяется в ходе ротации. Предполагается наличие щита."
                     }
                 }
             ]
@@ -63,7 +63,7 @@
                         "en": "This weapon assumes 3 stacks. At **[R5]**, this weapon will perform close to **[[weapon:beacon-of-the-reed-sea]] in [[element:melt]]** teams, and close to **[[weapon:verdict]] in [[element:vaporize]]** teams. At max stacks at **[R5]**, it performs better than **[[weapon:redhorn-stonethresher]]**. It should be noted that since [[character:mavuika]] inherently has many sources of [[stat:cr]] buffs, it is easy to overcap with **[[weapon:serpent-spine]]**.",
                         "fr": "Le classement de cette arme suppose 3 stacks. Une fois **[R5]**, cette arme se rapproche de **[[weapon:beacon-of-the-reed-sea]] en équipes [[element:melt]]**, et de **[[weapon:verdict]] en équipes [[element:vaporize]]**. Avec le nombre max de stack une fois **[R5]**, elle devient meilleure que **[[weapon:redhorn-stonethresher]]**. A noter que puisque [[character:mavuika]] profite de plusieurs buff de [[stat:cr]], il est facile d'overcap avec **[[weapon:serpent-spine]]**.",
                         "it": "La classifica presuppone 3 accumuli. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]] in [[element:melt]]** ed a **[[weapon:verdict]] in [[element:vaporize]]**. Ad effetto massimo a **[R5]**, ha prestazioni migliori di **[[weapon:redhorn-stonethresher]]**. Vale la pena notare che poiché [[character:mavuika]] ha molte fonti di [[stat:cr]], è facile superare il massimo necessario quando si utilizza **[[weapon:serpent-spine]]**.",
-                        "ru": ""
+                        "ru": "Предполагается, что набрано 3 уровня Пассивной способности. На **[R5]** это оружие почти соответствует **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]] в отрядах через [[element:melt]]** и **[[weapon:verdict]]у в отрядах через [[element:vaporize]]**. На максимальном уровне Пассивной способности на **[R5]** оно превосходит **[[weapon:redhorn-stonethresher]]**. Поскольку [[character:mavuika]] получает много [[stat:cr|Шанса крит. попадания]] извне, при использовании **[[weapon:serpent-spine|Меча драконьей кости]]** возможен избыток этой характеристики."
                     }
                 },
                 "fang-of-the-mountain-king"
@@ -78,7 +78,7 @@
                         "en": "Ranking assumes [[character:mavuika]] gets healing.",
                         "fr": "Le classement suppose que [[character:mavuika]] reçoit du soin.",
                         "it": "La classifica presuppone che [[character:mavuika]] **riceva cure**.",
-                        "ru": ""
+                        "ru": "Предполагается, что [[character:mavuika]] получает лечение."
                     }
                 }
             ]
@@ -92,7 +92,7 @@
                         "en": "This weapon performs as well as **[[weapon:serpent-spine]] [R1]** in a **[[element:vaporize]]** team.",
                         "fr": "Cette arme performe aussi bien que **[[weapon:serpent-spine]] [R1]** dans une équipe **[[element:vaporize]]**.",
                         "it": "Quest'arma ha prestazioni simili a **[[weapon:serpent-spine]] [R1]** in team **[[element:vaporize]]**.",
-                        "ru": ""
+                        "ru": "В отрядах через [[element:vaporize]] соответствует **[[weapon:serpent-spine|Мечу драконьей кости]] [R1]**."
                     }
                 }
             ]
