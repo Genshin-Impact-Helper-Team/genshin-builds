@@ -44,7 +44,7 @@
                         "en": "This weapon should only be used in [[element:vaporize]]. At **[R5]**, this weapon is about equal to **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Cette arme ne devrait être utilisée que dans les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme est à peu près équivalente à **[[weapon:redhorn-stonethresher]]**.",
                         "it": "Quest'arma dovrebe essere utilizzata esclusivamente in team **[[element:vaporize]]**. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
-                        "ru": "Имеет смысл использовать только в отрядах от Пара. На [R5] соответствует Краснорогому камнерубу."
+                        "ru": "Имеет смысл использовать только в отрядах от Пара. На **[R5]** соответствует Краснорогому камнерубу."
                     }
                 }
             ]
@@ -71,7 +71,6 @@
                         "fr": "Gagne légèrement en valeur si [[character:gaming]] a un **bouclier**, ce qui rend cette arme approximativement équivalente à **[[weapon:wolfs-gravestone]]**.",
                         "it": "Quest'arma guadagna leggermente valore se [[character:gaming]] è sotto la protezione di uno **scudo**, rendendo le sue prestazioni più o meno equivalenti a quelle di **[[weapon:wolfs-gravestone]]**.",
                         "ru": "Становится полезнее при наличии щита у Ка Мина (примерно соответствует Волчьей погибели)."
-
                     }
                 }
             ]

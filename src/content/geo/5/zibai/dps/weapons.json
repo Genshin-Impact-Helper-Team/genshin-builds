@@ -35,8 +35,8 @@
                     "name": "harbinger-of-dawn",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes the passive is active 90% of the time. Without consistent healing/shielding, this weapon performs worse than **[[weapon:flute-of-ezpitzal]]** [R5].",
-                        "fr": "Le classement suppose que le passif est actif 90% du temps. Sans soin/bouclier constant, cette arme est en dessous de **[[weapon:flute-of-ezpitzal]]** [R5].",
+                        "en": "Ranking assumes the passive is active 90% of the time. Without consistent healing/shielding, this weapon performs worse than **[[weapon:flute-of-ezpitzal]]** **[R5]**.",
+                        "fr": "Le classement suppose que le passif est actif 90% du temps. Sans soin/bouclier constant, cette arme est en dessous de **[[weapon:flute-of-ezpitzal]]** **[R5]**.",
                         "ru": "Предполагается, что Пассивная способность работает 90% времени. Без достаточного лечения или щитов для поддержания уровня HP данное оружие уступает **[[weapon:flute-of-ezpitzal|Флейте Эспицаль]] [R5]**."
                     }
                 }

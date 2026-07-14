@@ -67,10 +67,10 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At [R5], this weapon performs significantly better, matching **[[weapon:summit-shaper]]**.",
-                        "fr": "Une fois [R5], cette arme performe significativement mieux, équivalente à **[[weapon:summit-shaper]]**.",
-                        "it": "A [R5], quest'arma ha prestazioni significativamente migliori, alla pari di **[[weapon:summit-shaper]]**.",
-                        "ru": "На [R5] показывает себя значительно лучше, соответствуя Кромсателю пиков."
+                        "en": "At **[R5]**, this weapon performs significantly better, matching **[[weapon:summit-shaper]]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe significativement mieux, équivalente à **[[weapon:summit-shaper]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni significativamente migliori, alla pari di **[[weapon:summit-shaper]]**.",
+                        "ru": "На **[R5]** показывает себя значительно лучше, соответствуя Кромсателю пиков."
                     }
                 }
             ]

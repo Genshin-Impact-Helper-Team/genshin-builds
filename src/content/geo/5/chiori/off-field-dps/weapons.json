@@ -27,9 +27,9 @@
                     "name": "cinnabar-spindle",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking is assuming one doll. This weapon performs slightly worse than **[[weapon:harbinger-of-dawn]]** [R5] with 2 dolls.",
-                        "fr": "Le classement suppose une poupée. Cette arme est légèrement en dessous de **[[weapon:harbinger-of-dawn]]** [R5] avec 2 poupées.",
-                        "ru": "Предполагается наличие одной куклы. Немного уступает **[[weapon:harbinger-of-dawn|Предвестнику зари]] [R5]** с двумя куклами."
+                        "en": "Ranking is assuming one doll. This weapon performs slightly worse than **[[weapon:harbinger-of-dawn]]** **[R5]** with 2 dolls.",
+                        "fr": "Le classement suppose une poupée. Cette arme est légèrement en dessous de **[[weapon:harbinger-of-dawn]]** **[R5]** avec 2 poupées.",
+                        "ru": "Предполагается наличие одной куклы. Немного уступает **[[weapon:harbinger-of-dawn|Предвестнику зари]] **[R5]**** с двумя куклами."
                     }
                 },
                 "light-of-foliar-incision",
@@ -50,8 +50,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At [R5] this weapon performs close to **[[weapon:primordial-jade-cutter]]**.",
-                        "fr": "Une fois [R5], cette arme se rapproche de **[[weapon:primordial-jade-cutter]]**.",
+                        "en": "At **[R5]** this weapon performs close to **[[weapon:primordial-jade-cutter]]**.",
+                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:primordial-jade-cutter]]**.",
                         "ru": "На **[R5]** примерно соответствует **[[weapon:primordial-jade-cutter|Драгоценному омуту]]**."
                     }
                 }
