@@ -3,28 +3,33 @@
     "name": {
         "en": "Buff Support",
         "fr": "Support Buff",
-        "it": "Supporto Potenziamento"
+        "it": "Supporto Potenziamento",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "[[element:pyro]] [[character:traveler]] takes on a supportive role with [[element:pyro]] application and the ability to hold supportive sets such as **[[set:scroll-of-the-hero-of-cinder-city]] (4)**, as well as weapons that provide team utility.",
             "fr": "Le [[character:traveler]] [[element:pyro]] joue un rôle de support avec l'application de [[element:pyro]] et la capacité à porter des sets de support tels que **[[set:scroll-of-the-hero-of-cinder-city]] (4)**, ainsi que des armes qui fournissent des commodités pour l'équipe.",
-            "it": "Il [[character:traveler]] [[element:pyro]] ricopre un ruolo di supporto tramite l'Applicazione [[element:pyro]] e la capacità di utilizzare set di supporto come **[[set:scroll-of-the-hero-of-cinder-city]] (4)** ed armi di utilità per il team."
+            "it": "Il [[character:traveler]] [[element:pyro]] ricopre un ruolo di supporto tramite l'Applicazione [[element:pyro]] e la capacità di utilizzare set di supporto come **[[set:scroll-of-the-hero-of-cinder-city]] (4)** ed armi di utilità per il team.",
+            "ru": "[[element:pyro]] [[character:traveler]] является персонажем поддержки, полезным за счёт наложения [[element:pyro]], возможности использовать ценные для отряда оружие и артефакты (например, **[[set:scroll-of-the-hero-of-cinder-city]] (4)**)."
         },
         {
             "en": "**Because [[character:traveler]] is NOT from Natlan, they do not count toward the [[ability:nightsoul-burst]] cooldown reduction**. They can, however, trigger effects that rely on the consumption of [[ability:nightsoul-point]], which their [[ability:burst]] can help with since it restores some of their [[ability:nightsoul-point]].",
             "fr": "**Comme le [[character:traveler]] n'est PAS de Natlan, il ne compte pas dans la réduction du TdR de l'[[ability:nightsoul-burst]]**. Il peut cependant déclencher des effets qui dépendent de la consommation de [[ability:nightsoul-point]], ce pour quoi l'[[ability:burst]] peut être utile car il restaure des [[ability:nightsoul-point]].",
-            "it": "Vale la pena notare che **poiché il [[character:traveler]] NON proviene da Natlan, la sua presenza nel team non riduce i Tempi di Ricarica degli [[ability:nightsoul-burst|Impeti dell'Anima della Notte]]**. Tuttavia, può attivare effetti che richiedono il consumo di [[ability:nightsoul-point|Punti Anima della Notte]], ed a tal fine può essere d'aiuto il suo [[ability:burst]], che ripristina parte dei suoi [[ability:nightsoul-point|Punti Anima della Notte]]."
+            "it": "Vale la pena notare che **poiché il [[character:traveler]] NON proviene da Natlan, la sua presenza nel team non riduce i Tempi di Ricarica degli [[ability:nightsoul-burst|Impeti dell'Anima della Notte]]**. Tuttavia, può attivare effetti che richiedono il consumo di [[ability:nightsoul-point|Punti Anima della Notte]], ed a tal fine può essere d'aiuto il suo [[ability:burst]], che ripristina parte dei suoi [[ability:nightsoul-point|Punti Anima della Notte]].",
+            "ru": "Важно отметить, что **[[character:traveler]] не является персонажем из Натлана и включение его в команду не влияет на уменьшение времени отката [[ability:nightsoul-burst|Вспышки Ночного духа]]**. Однако он может активировать эффекты, для которых необходимо накопление/расходование очков Ночного духа."
         },
         {
             "en": "[[character:traveler]]'s personal damage is rather low, so their damage investment is not a major priority for this build.",
             "fr": "Les dégâts personnels de [[character:traveler]] sont plutôt faibles, donc l'investissement pour ses dégâts n'est pas une priorité majeure pour ce build.",
-            "it": "I danni personali del [[character:traveler]] sono piuttosto bassi, e di conseguenza l'investimento in stat offensive non è una priorità."
+            "it": "I danni personali del [[character:traveler]] sono piuttosto bassi, e di conseguenza l'investimento in stat offensive non è una priorità.",
+            "ru": "Личный урон [[character:traveler]] в данной сборке невелик и не стоит вложений."
         },
         {
             "en": "[[character:traveler]]'s [[ability:skill]] has two variations. Their Tap [[ability:skill]] forms a ring around the active character and deals damage when close to an enemy. Their Hold [[ability:skill]] deals damage as a conjoined attack whenever the active character deals damage.",
             "fr": "Le [[ability:skill]] du [[character:traveler]] a deux variantes. Le [[ability:skill]] simple forme un cercle autour du personnage actif et inflige des dégâts lorsqu'à proximité d'un ennemi. Le [[ability:skill]] appuyé inflige des dégâts en tant qu'attaque conjointe chaque fois que le personnage actif inflige des dégâts.",
-            "it": "L'[[ability:skill]] del [[character:traveler]] ha 2 varianti. Quando **cliccata**, forma un anello intorno al personaggio attivo e provoca danni quando ci si avvicina ad un nemico. Quando **premuta a lungo**, provoca danni tramite un attacco coordinato ogni volta che il personaggio attivo provoca danni."
+            "it": "L'[[ability:skill]] del [[character:traveler]] ha 2 varianti. Quando **cliccata**, forma un anello intorno al personaggio attivo e provoca danni quando ci si avvicina ad un nemico. Quando **premuta a lungo**, provoca danni tramite un attacco coordinato ogni volta che il personaggio attivo provoca danni.",
+            "ru": "[[ability:skill]] [[character:traveler]]а имеет две версии. Быстрое нажатие создает кольцо вокруг активного персонажа и наносит урон врагам поблизости. Долгое нажатие позволяет навыку совершать совместную атаку, когда активный персонаж наносит урон противникам."
         }
     ]
 }

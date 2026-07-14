@@ -12,7 +12,8 @@
                     "note": {
                         "en": "When using this weapon, **[[set:gilded-dreams]] (4)** becomes competitive with **[[set:crimson-witch-of-flames]] (4)** for being [[character:hu-tao]]'s best artifact set.",
                         "fr": "Lorsque vous utilisez cette arme, **[[set:gilded-dreams]] (4)** rivalise **[[set:crimson-witch-of-flames]] (4)** en tant que meilleur set pour [[character:hu-tao]].",
-                        "it": "Quando si utilizza quest'arma, **[[set:gilded-dreams]] (4)** diventa competitivo con **[[set:crimson-witch-of-flames]] (4)** come set migliore di [[character:hu-tao]]."
+                        "it": "Quando si utilizza quest'arma, **[[set:gilded-dreams]] (4)** diventa competitivo con **[[set:crimson-witch-of-flames]] (4)** come set migliore di [[character:hu-tao]].",
+                        "ru": "С данным оружием **[[set:gilded-dreams]] (4)** начинают соответствовать по силе *[[set:crimson-witch-of-flames|Горящей алой ведьме]] (4)**."
                     }
                 }
             ]
@@ -24,7 +25,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon is better than **[[weapon:staff-of-the-scarlet-sands]]**.",
                         "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:staff-of-the-scarlet-sands]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:staff-of-the-scarlet-sands]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:staff-of-the-scarlet-sands]]**."
                     }
                 },
                 "lumidouce-elegy"
@@ -38,7 +40,8 @@
                     "note": {
                         "en": "This weapon is better than **[[weapon:dragons-bane]]** when you're not doing [[element:vaporize]].",
                         "fr": "Cette arme est meilleure que **[[weapon:dragons-bane]]** lorsque vous ne jouez pas [[element:vaporize]].",
-                        "it": "Quest'arma ha prestazioni migliori di **[[weapon:dragons-bane]]** quando **non** si provoca [[element:vaporize]]."
+                        "it": "Quest'arma ha prestazioni migliori di **[[weapon:dragons-bane]]** quando **non** si provoca [[element:vaporize]].",
+                        "ru": "Превосходит **[[weapon:dragons-bane|Грозу драконов]]**, если Ху Тао играет не через реакцию [[element:vaporize]]."
                     }
                 }
             ]
@@ -50,7 +53,8 @@
                     "note": {
                         "en": "Is better than the **[R1]** variants of **[[weapon:dragons-bane]]** and **[[weapon:deathmatch]]** with ideal stacking. While this is a very strong weapon when fully stacked, maintaining the stacks on [[character:hu-tao]] isn't ideal in realistic situations making the weapon less consistent than other options.",
                         "fr": "Meilleure que les variants **[R1]** de **[[weapon:dragons-bane]]** et **[[weapon:deathmatch]]** avec un stacking idéal. Bien qu'il s'agisse d'une très bonne arme avec tout les stacks, les maintenir sur [[character:hu-tao]] n'est pas idéal dans une situation réaliste, rendant l'arme moins consistante que d'autres options.",
-                        "it": "Con accumuli ideali, quest'arma ha prestazioni migliori di **[[weapon:dragons-bane]] [R1]** e **[[weapon:deathmatch]][R1]**. Tuttavia, mantenere gli accumuli non è realistico in molte situazioni."
+                        "it": "Con accumuli ideali, quest'arma ha prestazioni migliori di **[[weapon:dragons-bane]] [R1]** e **[[weapon:deathmatch]][R1]**. Tuttavia, mantenere gli accumuli non è realistico in molte situazioni.",
+                        "ru": "Превосходит **[R1]** **[[weapon:dragons-bane|Грозу драконов]]** и **[[weapon:deathmatch]]** при полностью набранных уровнях Пассивной спосоности. В большинстве ситуаций это достаточно сложно реализовать, что делает **[[weapon:primordial-jade-winged-spear|Коршун]]** менее стабильным вариантом, чем указанные выше."
                     }
                 }
             ]
@@ -62,7 +66,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon is better than **[[weapon:staff-of-the-scarlet-sands]]**.",
                         "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:staff-of-the-scarlet-sands]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:staff-of-the-scarlet-sands]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:staff-of-the-scarlet-sands]]**."
                     }
                 }
             ]
@@ -79,7 +84,8 @@
                     "note": {
                         "en": "This weapon prefers an **{rot:N2C}** combo over an **{rot:N1C}** combo.",
                         "fr": "Cette arme préfère un combo **{rot:N2C}** plutôt que **{rot:N1C}**.",
-                        "it": "Quest'arma preferisce una combo **{rot:N2C}** rispetto a **{rot:N1C}**"
+                        "it": "Quest'arma preferisce una combo **{rot:N2C}** rispetto a **{rot:N1C}**",
+                        "ru": "Предпочтительное комбо - **{rot:N2C}** комбо вместо **{rot:N1C}**."
                     }
                 },
                 {
@@ -87,7 +93,8 @@
                     "note": {
                         "en": "Despite seeming quite good due to the [[stat:cd]] substat, **[[weapon:blackcliff-pole]]** at 1 stack performs only slightly better than an **[R5] [[weapon:white-tassel]]** in practice as it is difficult to maintain stacks consistently. It is not recommended to buy this weapon specifically for [[character:hu-tao]] and should only be used if you already have one.",
                         "fr": "Bien que semblant assez bien grâce à la substat [[stat:cd]] cette arme avec 1 stack est en pratique à peine meilleure que **[[weapon:white-tassel]] [R5]** puisqu'il est difficile de maintenir les stacks. Il n'est pas recommandé d'acheter cette arme juste pour [[character:hu-tao]] et vous ne devriez l'utiliser que si vous en possédez déjà une.",
-                        "it": "Nonostante la stat secondaria [[stat:cd]], **[[weapon:blackcliff-pole]]** con 1 accumulo ha prestazioni di poco migliori di **[[weapon:white-tassel]] [R5]** nella pratica, poiché è difficile mantenere gli accumuli in maniera affidabile. **Non è consigliato acquistare quest'arma** per [[character:hu-tao]]."
+                        "it": "Nonostante la stat secondaria [[stat:cd]], **[[weapon:blackcliff-pole]]** con 1 accumulo ha prestazioni di poco migliori di **[[weapon:white-tassel]] [R5]** nella pratica, poiché è difficile mantenere gli accumuli in maniera affidabile. **Non è consigliato acquistare quest'arma** per [[character:hu-tao]].",
+                        "ru": "Несмотря на [[stat:cd]], **[[weapon:blackcliff-pole]]** на 1 уровне Пассивной способности лишь ненамного превосходит **[R5] [[weapon:white-tassel|Белую кисть]]** (а поддержание уровней Пассивной способности затруднительно). Покупка этого копья специально для [[character:hu-tao]] не рекомендована, используйте его только при наличии."
                     }
                 },
                 "kitain-cross-spear",

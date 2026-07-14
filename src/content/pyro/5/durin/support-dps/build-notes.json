@@ -3,23 +3,27 @@
     "name": {
         "en": "Buff Support & Off-Field DPS",
         "fr": "Support Buff & DPS Off-Field",
-        "it": "Supporto Potenziamento & DPS Fuori Campo"
+        "it": "Supporto Potenziamento & DPS Fuori Campo",
+        "ru": "Саппорт & Карманный ДД"
     },
     "notes": [
         {
             "en": "This playstyle uses [[character:durin]]'s Purity form to decrease the Elemental Resistance of [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] and [[element:geo]] when reactions with those elements and [[element:pyro]] occur.",
             "fr": "Ce style de jeu utilise la forme Confirmation de pureté de [[character:durin]] pour baisser la résistance élémentaire de [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] et [[element:geo]] quand des réactions avec [[element:pyro]] sont déclenchées.",
-            "it": "Questo stile di gioco utilizza la **modalità Purezza** di [[character:durin]] per **diminuire la RES [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] e [[element:geo]] dei nemici** quando vengono provocate reazioni tra [[element:pyro]] ed i suddetti elementi."
+            "it": "Questo stile di gioco utilizza la **modalità Purezza** di [[character:durin]] per **diminuire la RES [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] e [[element:geo]] dei nemici** quando vengono provocate reazioni tra [[element:pyro]] ed i suddetti elementi.",
+            "ru": "[[character:durin]] может играть в этой роли благодаря тому, что форма Утверждения чистоты позволяет ему снижать сопротивление противников к [[element:pyro]], [[element:dendro]], [[element:electro]], [[element:anemo]] и [[element:geo]] урону. Для этого необходимо вызывать реакции между [[element:pyro]] и соответствующими элементами."
         },
         {
             "en": "Purity form is [[character:durin]]'s default [[ability:burst]], it can be swapped to (if in Denial form) via an **{rot:E E Q}** rotation.",
             "fr": "La forme Confirmation de pureté de [[character:durin]] est la forme par défaut de son [[ability:burst]]. On peut y revenir (si passage en forme Déni de ténèbre) avec une rotation **{rot:E E A}**.",
-            "it": "**La modalità Purezza è la modalità predefinita del [[ability:burst]] di [[character:durin]]. Se è attiva la modalità Negazione, puoi passare alla modalità Purezza utilizzando la combo {rot:E E Q}.**"
+            "it": "**La modalità Purezza è la modalità predefinita del [[ability:burst]] di [[character:durin]]. Se è attiva la modalità Negazione, puoi passare alla modalità Purezza utilizzando la combo {rot:E E Q}.**",
+            "ru": "Форма Утверждения чистоты активируется по умолчанию при использовании [[ability:burst|Взрыва стихии]], а также после нажатия **{rot:E E Q}**."
         },
         {
             "en": "[[character:durin]]'s [[ability:burst]] in Purity form hits once per 1s, and can apply [[element:pyro]] in an AoE every other hit.",
             "fr": "L'[[ability:burst]] de [[character:durin]] en forme Pureté touche une fois par seconde, et peut appliquer [[element:pyro]] en zone une fois sur deux.",
-            "it": "Il [[ability:burst]] di [[character:durin]] in modalità Purezza colpisce una volta al secondo, e può applicare Pyro in AoE ogni due colpi."
+            "it": "Il [[ability:burst]] di [[character:durin]] in modalità Purezza colpisce una volta al secondo, e può applicare Pyro in AoE ogni due colpi.",
+            "ru": "[[ability:burst]] [[character:durin]]а в форме Утверждения чистоты наносит урон раз в 1 секунду и накладывает [[element:pyro]] по площади раз в два удара."
         }
     ],
     "weapons": {

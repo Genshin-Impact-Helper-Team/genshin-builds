@@ -32,9 +32,10 @@
                             "name": "gilded-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "This artifact set should only be used in teams where [[character:yoimiya]]]] frequently triggers elemental reactions.",
+                                "en": "This artifact set should only be used in teams where [[character:yoimiya]] frequently triggers elemental reactions.",
                                 "fr": "Ce set ne doit être utilisé que dans les équipes où [[character:yoimiya]] déclenche fréquemment des réactions élémentaires.",
-                                "it": "Questo set di manufatti dovrebbe essere utilizzato solamente in team dove [[character:yoimiya]] provoca spesso reazioni elementali."
+                                "it": "Questo set di manufatti dovrebbe essere utilizzato solamente in team dove [[character:yoimiya]] provoca spesso reazioni elementali.",
+                                "ru": "Используется только в том случае, если [[character:yoimiya]] закрывает реакции."
                             }
                         }
                     ]
@@ -51,7 +52,8 @@
                             "note": {
                                 "en": "An okay choice if you have a good set already, however not recommended to farm as it is very inconsistent and becomes even less useful if your ping is >100 or generally jumping a lot.",
                                 "fr": "Un choix correct si vous avez déjà un bon set, il n'est cependant pas recommandé de le farm car il est très inconsistant et devient encore moins utile si votre ping est >100 ou globalement inconstant.",
-                                "it": "Una scelta accettabile se hai già un buon set, tuttavia non è consigliato farmarlo poiché è molto incostante e diventa ancora meno utile se il tuo ping è >100 o comunque poco regolare."
+                                "it": "Una scelta accettabile se hai già un buon set, tuttavia non è consigliato farmarlo poiché è molto incostante e diventa ancora meno utile se il tuo ping è >100 o comunque poco regolare.",
+                                "ru": "Неплохой сет при наличии хороших артефактов, но не рекомендуется к фарму в связи с тем, что реализация жестко зависит от пинга. При его значении выше 100 или нестабильности использовать не рекомендуется."
                             }
                         }
                     ]

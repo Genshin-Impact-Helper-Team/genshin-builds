@@ -1,28 +1,33 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "[[character:diluc]] has a number of combos he can do during his uptime:",
             "fr": "[[character:diluc]] peut se jouer avec différents combo:",
-            "it": "[[character:diluc]] ha diverse possibili combo:"
+            "it": "[[character:diluc]] ha diverse possibili combo:",
+            "ru": "Некоторые комбо-атаки [[character:diluc]]а с учетом отката его способностей:"
         },
         {
             "en": "His most common combo is **{rot:Q N2 E N2 E N2 E}**. This fits perfectly into the buff window of his teams.",
             "fr": "Son combo le plus commun est **{rot:A N2 E N2 E N2 E}** qui tiens parfaitement dans la période de buff de ses équipes.",
-            "it": "La sua combo più comune è **{rot:Q N2 E N2 E N2 E}**."
+            "it": "La sua combo più comune è **{rot:Q N2 E N2 E N2 E}**.",
+            "ru": "Наиболее распространенное комбо: **{rot:Q N2 E N2 E N2 E}**. Идеально совпадает с длительностью усилений сокомандников."
         },
         {
             "en": "For high upfront damage, use **{rot:E Q N1 E N1 E N1}**. This falls off significantly if the enemy is not killed within this window.",
             "fr": "Pour d'importants dégâts en début de rotation, utilisez **{rot:E A N1 E N1 E N1}**. Cela perd énormément d'intérêt si l'ennemi n'est pas tué à la fin du combo.",
-            "it": "Per danni più alti all'inizio della combo, usa **{rot:E Q N1 E N1 E N1}**. L'efficacia di questa combo cala significativamente se il nemico non viene ucciso durante questo lasso di tempo."
+            "it": "Per danni più alti all'inizio della combo, usa **{rot:E Q N1 E N1 E N1}**. L'efficacia di questa combo cala significativamente se il nemico non viene ucciso durante questo lasso di tempo.",
+            "ru": "Используйте **{rot:E Q N1 E N1 E N1}** нанесения массивного урона за короткое время. Эффективность существенно снижается, если противник не побежден за это комбо."
         },
         {
             "en": "A full rotation combo can look similar to **{rot:Q N2 E N2 E N2 E N4 N3 E N1 E E}**. An example video can be found [here](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ).",
             "fr": "Un rotation complète peut ressembler à **{rot:A N2 E N2 E N2 E N4 N3 E N1 E E}**. Vous pourrez trouver une vidéo d'exemple [ici](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ).",
-            "it": "Una combo più lunga può assomigliare a **{rot:Q N2 E N2 E N2 E N4 N3 E N1 E E}**. Potete trovare un video di esempio [qui](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ)."
+            "it": "Una combo più lunga può assomigliare a **{rot:Q N2 E N2 E N2 E N4 N3 E N1 E E}**. Potete trovare un video di esempio [qui](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ).",
+            "ru": "В полноценной ротации комбо зачастую выглядит как **{rot:Q N2 E N2 E N2 E N4 N3 E N1 E E}**. Пример можно увидеть [здесь](https://www.google.com/url?q=https://youtu.be/wDzOoHiMpbs&sa=D&source=editors&ust=1778778522182526&usg=AOvVaw1P98QnGDq6o8zGpTOD7PtJ)."
         }
     ],
     "weapons": {

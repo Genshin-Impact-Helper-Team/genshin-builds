@@ -1,13 +1,15 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "[[character:lyney]] does high damage using his [[ability:ca]]s along with supplemental damage from his [[ability:skill]] and [[ability:burst]]. Because of his A4, he is commonly used in **Mono-[[element:pyro]] teams.**",
             "fr": "[[character:lyney]] inflige beaucoup de dégâts grâce à ses [[ability:ca]]s ainsi que des dégâts supplémentaires avec son [[ability:skill]] et [[ability:burst]]. Son passif A4 fait qu'il est généralement joué dans des **équipes Mono-[[element:pyro]].**",
-            "it": "[[character:lyney]] provoca molti danni utilizzando i suoi [[ability:ca|Attacchi Caricati]], accompagnati da danni supplementari provocati da [[ability:skill]] e [[ability:burst]]. A causa del suo talento A4, è spesso utilizzato in team Mono-[[element:pyro]]."
+            "it": "[[character:lyney]] provoca molti danni utilizzando i suoi [[ability:ca|Attacchi Caricati]], accompagnati da danni supplementari provocati da [[ability:skill]] e [[ability:burst]]. A causa del suo talento A4, è spesso utilizzato in team Mono-[[element:pyro]].",
+            "ru": "[[character:lyney]] наносит наибольшую часть урона своими [[ability:ca|Заряженными атаками]], остальную же - [[ability:skill|Элементальным навыком]] и [[ability:burst|Взрывом стихии]]. Из-за второго Пассивного таланта он обычно играет в **моно-[[element:pyro]] отрядах**."
         }
     ]
 }

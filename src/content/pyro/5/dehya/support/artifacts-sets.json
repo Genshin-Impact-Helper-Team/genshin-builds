@@ -34,7 +34,8 @@
                             "note": {
                                 "en": "A useful set if the team appreciates **[[stat:em]]**.",
                                 "fr": "Un set utile si l'équipe apprécie la **[[stat:em]]**.",
-                                "it": "Un set utile se il tuo team trae beneficio dalla **[[stat:em]]**."
+                                "it": "Un set utile se il tuo team trae beneficio dalla **[[stat:em]]**.",
+                                "ru": "Полезен в отрядах, нуждающихся в **[[stat:em|МС]]**."
                             }
                         }
                     ]
@@ -67,7 +68,8 @@
                             "note": {
                                 "en": "This set is only useful in teams that are focused on **[[element:dendro]] damage**, including [[element:bloom]]-based teams.",
                                 "fr": "Ce set n'est utile que pour les équipent qui tournent autour des dégâts **[[element:dendro]]**, y compris les équipes [[element:bloom]].",
-                                "it": "Questo set è utile esclusivamente in team che si concentrano su **danni [[element:dendro]]**, inclusi team basati su [[element:bloom]]."
+                                "it": "Questo set è utile esclusivamente in team che si concentrano su **danni [[element:dendro]]**, inclusi team basati su [[element:bloom]].",
+                                "ru": "Используется только в отрядах, в которых наносится значительный [[element:dendro]] урон (включая [[element:bloom|Бутонизацию]] и производные)."
                             }
                         }
                     ]

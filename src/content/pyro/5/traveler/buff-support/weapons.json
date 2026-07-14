@@ -17,7 +17,8 @@
                     "note": {
                         "en": "If [[character:traveler]]'s personal damage is not something you are looking for, it is not needed to level this weapon for them.",
                         "fr": "Si les dégâts personnels de [[character:traveler]] ne sont pas ce que vous recherchez, il n'est pas nécessaire d'augmenter le niveau de l'arme.",
-                        "it": "Se i danni personali del Viaggiatore non ti interessano, non è necessario alzare il livello di quest'arma."
+                        "it": "Se i danni personali del Viaggiatore non ti interessano, non è necessario alzare il livello di quest'arma.",
+                        "ru": "Для дешевой сборки, игнорирующей личный урон [[character:traveler]]а, не требуется повышать уровень этого оружия."
                     }
                 },
                 {
@@ -25,7 +26,8 @@
                     "note": {
                         "en": "If [[character:traveler]]'s personal damage is not something you are looking for, it is not needed to level this weapon for them.",
                         "fr": "Si les dégâts personnels de [[character:traveler]] ne sont pas ce que vous recherchez, il n'est pas nécessaire d'augmenter le niveau de l'arme.",
-                        "it": "Se i danni personali del Viaggiatore non ti interessano, non è necessario alzare il livello di quest'arma."
+                        "it": "Se i danni personali del Viaggiatore non ti interessano, non è necessario alzare il livello di quest'arma.",
+                        "ru": "Для дешевой сборки, игнорирующей личный урон [[character:traveler]]а, не требуется повышать уровень этого оружия."
                     }
                 }
             ]

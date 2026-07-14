@@ -3,12 +3,13 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import HomeFilters from '../../components/HomeFilters.astro';
 import HomeRoster from '../../components/HomeRoster.astro';
+import changelog from '../../content/site/changelog.json';
 import '../../styles/base.css';
 import '../../styles/home.css';
 import '../../styles/theme.css';
 import { getHomePageData } from '../../utils/home-page';
 import { t } from '../../utils/i18n';
-import { sitePath } from '../../utils/paths';
+import { localizedPath, sitePath } from '../../utils/paths';
 import { getLanguageStaticPaths } from '../../utils/routes';
 
 export const getStaticPaths = getLanguageStaticPaths;
@@ -16,9 +17,13 @@ export const getStaticPaths = getLanguageStaticPaths;
 const requestedLang = Array.isArray(Astro.params.lang)
   ? Astro.params.lang[0]
   : Astro.params.lang;
-const { characters, lang, locale, recentlyUpdatedCharacters } = getHomePageData(
-  requestedLang ?? 'en',
-);
+const {
+  characters,
+  lang,
+  locale,
+  recentlyUpdatedCharacters,
+} = getHomePageData(requestedLang ?? 'en');
+const latestChangelogEntry = changelog.groups[0]?.entries?.[0];
 ---
 
 <html lang={lang}>
@@ -36,6 +41,27 @@ const { characters, lang, locale, recentlyUpdatedCharacters } = getHomePageData(
       <p class="home-disclaimer">
         {t(locale, 'ui', 'Home translation disclaimer', undefined, false)}
       </p>
+      {
+        latestChangelogEntry?.changes && (
+          <a
+            class="home-last-update"
+            href={localizedPath(lang, 'changelog')}
+          >
+            <h2>
+              {t(locale, 'ui', 'Last Updated', undefined, false)}
+            </h2>
+            <p class="home-last-update-change">
+              {latestChangelogEntry.changes}
+            </p>
+            <p class="home-last-update-meta">
+              <time>{latestChangelogEntry.date}</time>
+              {latestChangelogEntry.appliedBy && (
+                <span>Applied by {latestChangelogEntry.appliedBy}</span>
+              )}
+            </p>
+          </a>
+        )
+      }
       <HomeFilters
         locale={locale}
         recentlyUpdatedCount={recentlyUpdatedCharacters.length}

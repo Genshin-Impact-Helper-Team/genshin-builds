@@ -18,7 +18,8 @@
                     "note": {
                         "en": "Assumes 2 stacks by performing a quick aimed shot before using [[ability:skill]].",
                         "fr": "Suppose 2 stacks en effectuant une attaque visée rapide avant d'utiliser le [[ability:skill]].",
-                        "it": "La classifica presuppone 2 accumuli, ottenuti utilizzando **un veloce attacco mirato prima di utilizzare l'[[ability:skill]]**."
+                        "it": "La classifica presuppone 2 accumuli, ottenuti utilizzando **un veloce attacco mirato prima di utilizzare l'[[ability:skill]]**.",
+                        "ru": "Предполагается наличие 2 уровней Пассивной способности, для чего нужно использовать быструю Заряженную атаку перед [[ability:skill|навыком]]."
                     }
                 }
             ]
@@ -40,7 +41,8 @@
                     "note": {
                         "en": "Weapon rankings are assuming 3 stacks. At 2 stacks it performs worse than **[[weapon:slingshot]] [R5]**. The closer you are to the enemy, the less stacks this weapon gets.",
                         "fr": "Le classement de cette arme suppose 3 stacks. Avec 2 stacks, elle performe moins bien que **[[weapon:slingshot]] [R5]**. Le plus proche de l'ennemi vous êtes, le moins de stack cette arme reçoit.",
-                        "it": "La classifica presuppone 3 accumuli. A 2 accumuli, quest'arma ha prestazioni peggiori di **[[weapon:slingshot]] [R5]**. Più vicino sei al nemico, meno quest'arma ottiene accumuli."
+                        "it": "La classifica presuppone 3 accumuli. A 2 accumuli, quest'arma ha prestazioni peggiori di **[[weapon:slingshot]] [R5]**. Più vicino sei al nemico, meno quest'arma ottiene accumuli.",
+                        "ru": "Предполагается поддержание 3 уровней Пассивной способности. С двумя показывает себя хуже **[R5] [[weapon:slingshot|Рогатки]]**. Чем ближе Ёимия к противнику, тем меньше уровней Пассивной способности можно набрать."
                     }
                 }
             ]
@@ -52,7 +54,8 @@
                     "note": {
                         "en": "Scales well with refinements, at **[R5]** this weapon performs similar to **[[weapon:polar-star]]**. At **[R4+]** it outperforms **[[weapon:slingshot]] [R5]**.",
                         "fr": "Bénéfie plutôt bien des raffinements, une fois **[R5]** cette arme devient similaire à **[[weapon:polar-star]]**. Une fois **[R4+]**, elle dépasse **[[weapon:slingshot]] [R5]**.",
-                        "it": "Scala bene con i miglioramenti, ed a **[R5]** ha prestazioni simili a **[[weapon:polar-star]]**. A **[R4+]** supera **[[weapon:slingshot]] [R5]**."
+                        "it": "Scala bene con i miglioramenti, ed a **[R5]** ha prestazioni simili a **[[weapon:polar-star]]**. A **[R4+]** supera **[[weapon:slingshot]] [R5]**.",
+                        "ru": "Резко усиливается на Пробуждениях, на **[R4]** превосходит **[R5] [[weapon:slingshot|Рогатку]]**, на **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
                     }
                 }
             ]

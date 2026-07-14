@@ -6,7 +6,8 @@
             "note": {
                 "en": "Should only be considered if [[character:arlecchino]] is in a [[element:vaporize]] or [[element:melt]] team.",
                 "fr": "Ne doit être envisagé que si [[character:arlecchino]] est dans une équipe [[element:vaporize]] ou [[element:melt]].",
-                "it": "Dovrebbe essere presa in considerazione solo nel caso in cui [[character:arlecchino]] sia in un team **[[element:vaporize]]** o **[[element:melt]]**."
+                "it": "Dovrebbe essere presa in considerazione solo nel caso in cui [[character:arlecchino]] sia in un team **[[element:vaporize]]** o **[[element:melt]]**.",
+                "ru": "Только для отрядов с [[character:arlecchino]] через [[element:vaporize]] или [[element:melt]]."
             }
         },
         "atk%"
