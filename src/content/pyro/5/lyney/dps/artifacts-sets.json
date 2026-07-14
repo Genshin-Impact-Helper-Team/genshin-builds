@@ -30,7 +30,8 @@
                             "note": {
                                 "en": "Only use this set **if [[character:lyney]] can [[ability:burst]] every rotation**. If he can, this set **is better than [[set:lavawalker]] (4). Start your rotation with [[character:lyney]]'s [[ability:burst]] if using this set**.",
                                 "fr": "Ce set n'est à utiliser que **si [[character:lyney]] peut [[ability:burst]] à chaque rotation**. Le cas échéant, ce set **est meilleur que [[set:lavawalker]] (4). Commencez votre rotation avec l'[[ability:burst]] de [[character:lyney]] si vous utilisez ce set**.",
-                                "it": "Utilizza questo set solamente **se [[character:lyney]] può utilizzare il [[ability:burst]] in ogni rotazione**. Se ne è capace, questo set **è migliore di [[set:lavawalker]] (4). Comincia la tua rotazione con il [[ability:burst]] di [[character:lyney]] se utilizzi questo set**."
+                                "it": "Utilizza questo set solamente **se [[character:lyney]] può utilizzare il [[ability:burst]] in ogni rotazione**. Se ne è capace, questo set **è migliore di [[set:lavawalker]] (4). Comincia la tua rotazione con il [[ability:burst]] di [[character:lyney]] se utilizzi questo set**.",
+                                "ru": "Следует использовать **только при возможности активировать [[ability:burst]] [[character:lyney]] каждую ротацию**. В этом случае превосходит **[[set:lavawalker]] (4)**. Ротацию следует начинать со [[ability:burst|Взрыва стихии]] [[character:lyney]]."
                             }
                         }
                     ]
@@ -43,7 +44,8 @@
                             "note": {
                                 "en": "Only use this set **if [[character:lyney]] cannot [[ability:burst]] every rotation**. If the following is true, this set **is better than [[set:lavawalker]] (4). Start your rotation with [[character:lyney]]'s [[ability:skill]] if using this set**.",
                                 "fr": "Ce set n'est à utiliser que **si [[character:lyney]] ne peut pas [[ability:burst]] à chaque rotation**. Le cas échéant, ce set **est meilleur que [[set:lavawalker]] (4). Commencez votre rotation avec le [[ability:skill]] de [[character:lyney]] si vous utilisez ce set**.",
-                                "it": "Utilizza questo set solamente **se [[character:lyney]] non può utilizzare il [[ability:burst]] in ogni rotazione**. Se può, questo set **è migliore di [[set:lavawalker]] (4). Comincia la tua rotazione con l'[[ability:skill]] di [[character:lyney]] se utilizzi questo set**."
+                                "it": "Utilizza questo set solamente **se [[character:lyney]] non può utilizzare il [[ability:burst]] in ogni rotazione**. Se può, questo set **è migliore di [[set:lavawalker]] (4). Comincia la tua rotazione con l'[[ability:skill]] di [[character:lyney]] se utilizzi questo set**.",
+                                "ru": "Следует использовать **только при невозможности активировать [[ability:burst]] [[character:lyney]] каждую ротацию**. В этом случае превосходит **[[set:lavawalker]] (4)**. Ротацию следует начинать со [[ability:skill|Элементального навыка]] [[character:lyney]]."
                             }
                         }
                     ]
@@ -81,7 +83,8 @@
                             "note": {
                                 "en": "Only worthwhile if **[[character:lyney]] uses a strong shielder**.",
                                 "fr": "Utile seulement si **[[character:lyney]] est accompagné d'un bouclier puissant**.",
-                                "it": "Valido solo in caso **[[character:lyney]] utilizzi un buono scudo**."
+                                "it": "Valido solo in caso **[[character:lyney]] utilizzi un buono scudo**.",
+                                "ru": "Имеет смысл использовать только с крепким щитом."
                             }
                         }
                     ]
