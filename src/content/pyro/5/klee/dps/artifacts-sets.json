@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "[[character:klee]]'s kit makes it harder to utilize [[element:vaporize]] and [[element:melt]] the same way another [[element:pyro]] carry would, but her constant [[element:pyro]] application makes this set viable.",
                                 "fr": "Le kit de [[character:klee]] rend difficile l'utilisation de [[element:vaporize]] et [[element:melt]] de la même façon qu'un autre carry [[element:pyro]] le pourrait, mais son application [[element:pyro]] constante rend ce set viable.",
-                                "it": "Il kit di [[character:klee]] rende più difficile utilizzare le reazioni [[element:vaporize]] e [[element:melt]] allo stesso modo di altri DPS [[element:pyro]], ma la sua costante applicazione di [[element:pyro]] rende **[[set:lavawalker]] (4)** un set valido."
+                                "it": "Il kit di [[character:klee]] rende più difficile utilizzare le reazioni [[element:vaporize]] e [[element:melt]] allo stesso modo di altri DPS [[element:pyro]], ma la sua costante applicazione di [[element:pyro]] rende **[[set:lavawalker]] (4)** un set valido.",
+                                "ru": "Навыки [[character:klee]] обильно накладывают [[element:pyro]], что может препятствовать игре через [[element:vaporize]]/[[element:melt]], но это же делает данный сет эффективным."
                             }
                         }
                     ]
@@ -39,7 +40,8 @@
                             "note": {
                                 "en": "With a 50.2% proc chance on average that gives Flat DMG to her [[ability:na]]s, this set is competitive with **[[set:lavawalker]] (4)** and easier to farm.",
                                 "fr": "Avec une chance moyenne de 50.2% de proc d'avoir des dégâts supplémentaires sur ses [[ability:na|attaques normales]], ce set rivalise avec **[[set:lavawalker]] (4)** et est plus simple à farm.",
-                                "it": "Questo set è competitivo con **[[set:lavawalker]] (4)** e più facile da farmare."
+                                "it": "Questo set è competitivo con **[[set:lavawalker]] (4)** e più facile da farmare.",
+                                "ru": "Со средним шансом получить прибавку к урону [[ability:na|Обычных атак]] в 50,2% этот сет может соответствовать по общему урону **[[set:lavawalker|Ступающему по лаве]] (4)**."
                             }
                         }
                     ]
@@ -51,7 +53,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "[[character:klee]] naturally uses a [[ability:ca]] early in the rotation, making this set viable.",
-                                "fr": "[[character:klee]] utilise naturellement une [[ability:ca]] en début de rotation, rendant ce set viable."
+                                "fr": "[[character:klee]] utilise naturellement une [[ability:ca]] en début de rotation, rendant ce set viable.",
+                                "ru": "Рабочий вариант, так как [[character:klee]] может использовать [[ability:ca|Заряженную атаку]] в начале ротации."
                             }
                         }
                     ]
@@ -101,7 +104,8 @@
                     "note": {
                         "en": "This becomes [[character:klee]]'s second-best set when you are specifically using **[[weapon:flowing-purity]]**. For this reason, it's not recommended to farm this set specifically for [[character:klee]].",
                         "fr": "Ce set devient la deuxième meilleure option de [[character:klee]] si vous la jouez avec **[[weapon:flowing-purity]]**. Pour cette raison, vous ne devriez pas farm pour ce set, et il n'est recommandé que si vous aavez déjà les pièces nécéssaires de côté.",
-                        "it": "Questo diventa il secondo set migliore di [[character:klee]] solo nel caso in cui stia utilizzando **[[weapon:flowing-purity]]**. Non è consigliabile farmarlo appositamente per [[character:klee]]."
+                        "it": "Questo diventa il secondo set migliore di [[character:klee]] solo nel caso in cui stia utilizzando **[[weapon:flowing-purity]]**. Non è consigliabile farmarlo appositamente per [[character:klee]].",
+                        "ru": "Второй по силе набор при использовании **[[weapon:flowing-purity|Сверкания чистых вод]]**. Не рекомендуется фармить, экипируйте только при наличии готового сета. "
                     }
                 }
             ]
