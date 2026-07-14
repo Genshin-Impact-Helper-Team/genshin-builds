@@ -7,7 +7,7 @@
     },
     "scripts": {
         "dev": "astro dev",
-        "build": "astro build",
+        "build": "node scripts/check-duplicate-json-keys.mjs && astro build",
         "preview": "astro preview",
         "astro": "astro",
         "download:artifact-assets": "node scripts/download-assets.mjs artifact",
@@ -22,6 +22,7 @@
     },
     "devDependencies": {
         "@types/node": "^25.6.2",
+        "jsonc-parser": "^3.3.1",
         "prettier": "^3.8.3",
         "prettier-plugin-astro": "^0.14.1"
     }
