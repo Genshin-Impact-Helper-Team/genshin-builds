@@ -1,17 +1,20 @@
 {
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "[[element:pyro]] [[character:traveler]]'s **[C6]** offers access to a [[element:pyro]] infusion as well as a 40% [[stat:cd]] buff to infused attacks. This allows them to be a potent DPS in a wide variety of teams. **Ranking assume [[element:overload]]**, which is an easily accessible [[element:pyro]] [[character:traveler]] DPS team. However, potent [[element:vaporize]] teams also exist.",
             "fr": "La **C6** du [[character:traveler]] [[element:pyro]] donne accès à une infusion [[element:pyro]] ainsi qu'à un buff de 40% de [[stat:cd]] sur ses attaques infusées. Cela lui permet d'être un puissant DPS dans beaucoup d'équipes. **Le classement suppose une équipe [[element:overload]]** qui est une équipe facilement accessible pour un [[character:traveler]] [[element:pyro]] DPS. Cependant, de très bonnes équipes [[element:Vaporize]] existent aussi.",
-            "it": "La **C6** del [[character:traveler]] [[element:pyro]] dà accesso ad un'infusione [[element:pyro]] ed ad un potenziamento di 40% [[stat:cd]] agli attacchi infusi. Questo permette al Viaggiatore di essere un potente DPS in una varietà di team. **La classifica presuppone un team [[element:overload]]**, un team facilmente accessibile, ma esistono anche potenti team [[element:vaporize]]."
+            "it": "La **C6** del [[character:traveler]] [[element:pyro]] dà accesso ad un'infusione [[element:pyro]] ed ad un potenziamento di 40% [[stat:cd]] agli attacchi infusi. Questo permette al Viaggiatore di essere un potente DPS in una varietà di team. **La classifica presuppone un team [[element:overload]]**, un team facilmente accessibile, ma esistono anche potenti team [[element:vaporize]].",
+            "ru": "**[С6]** [[element:pyro]] [[character:traveler]]а открывает доступ к [[element:pyro]] инфузии и увеличивает [[stat:cd]] Обычных/Заряженных атак и атак в падении на 40%. Данное созвездие позволяет [[element:pyro]] [[character:traveler]]у играть в качестве ДД в различных отрядах. Рейтинг создавался для отрядов через [[element:overload|Перегрузку]] - достаточно доступного отряда для ДД-Путешественника). Однако это не исключает существования достаточно сильных команд через [[element:vaporize]]."
         },
         {
             "en": "**{rot:N1C}** is [[element:pyro]] [[character:traveler]]'s ideal combo",
             "fr": "**{rot:N1C}** est le combo idéal du [[character:traveler]] [[element:pyro]].",
-            "it": "**{rot:N1C}** è la combo ideale del [[character:traveler]] [[element:pyro]]."
+            "it": "**{rot:N1C}** è la combo ideale del [[character:traveler]] [[element:pyro]].",
+            "ru": "Оптимальным комбо является **{rot:N1C}**."
         }
     ],
     "weapons": {
