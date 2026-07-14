@@ -22,20 +22,25 @@
         },
         {
             "items": [
-                {
-                    "name": "serpent-spine",
-                    "note": {
-                        "en": "Performs much worse without a shielder. At **[R5]**, this weapon performs better than **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "fr": "Elle est nettement moins bonne sans bouclier. Une fois **[R5]**, cette arme dépasse **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "it": "Ha prestazioni significativamente peggiori se [[character:kinich]] non è protetto da uno scudo. A **[R5]**, ha prestazioni migliori di **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "ru": "Показывает себя намного хуже без щита. На **[R5]** превосходит **[[weapon:beacon-of-the-reed-sea]]**."
-                    }
-                }
+                "a-teaspoon-of-transcendence"
             ]
         },
         {
             "items": [
                 "verdict"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "Performs much worse without a shielder. At **[R5]**, this weapon performs better than **[[weapon:a-thousand-blazing-suns]]**.",
+                        "fr": "Elle est nettement moins bonne sans bouclier. Une fois **[R5]**, cette arme dépasse **[[weapon:a-thousand-blazing-suns]]**.",
+                        "it": "Ha prestazioni significativamente peggiori se [[character:kinich]] non è protetto da uno scudo. A **[R5]**, ha prestazioni migliori di **[[weapon:a-thousand-blazing-suns]]**.",
+                        "ru": "Показывает себя намного хуже без щита. На **[R5]** превосходит **[[weapon:a-thousand-blazing-suns]]**."
+                    }
+                }
             ]
         },
         {
