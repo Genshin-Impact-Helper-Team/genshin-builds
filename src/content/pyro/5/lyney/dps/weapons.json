@@ -7,7 +7,8 @@
                     "note": {
                         "en": "This weapon assumes **two passive stacks**. With 3 stacks of the passive, this weapon is much better than **[[weapon:astral-vultures-crimson-plumage]]**. Otherwise, it performs similarly.",
                         "fr": "Suppose **2 stacks du passif**. Avec 3 stack, cette arme est bien meilleure que **[[weapon:astral-vultures-crimson-plumage]]**. Sinon, elle performe de manière équivalente.",
-                        "it": "La posizione in classifica presuppone che il team contenga 2 personaggi [[element:pyro]]. Con 3 personaggi [[element:pyro]], quest'arma è molto migliore di **[[weapon:astral-vultures-crimson-plumage]]**."
+                        "it": "La posizione in classifica presuppone che il team contenga 2 personaggi [[element:pyro]]. Con 3 personaggi [[element:pyro]], quest'arma è molto migliore di **[[weapon:astral-vultures-crimson-plumage]]**.",
+                        "ru": "Предполагается, что набрано **2 уровня Пассивной способности**. С 3 уровнями значительно превосходит **[[weapon:astral-vultures-crimson-plumage]]**, в ином случае - соответствует ему."
                     }
                 },
                 {
@@ -15,7 +16,8 @@
                     "note": {
                         "en": "This weapon assumes **two passive stacks**. With only **one passive stack it performs similarly to [[weapon:thundering-pulse]]**.",
                         "fr": "Suppose **2 stacks du passif**. Avec seulement **1 stack, elle performe de manière similaire à [[weapon:thundering-pulse]]**.",
-                        "it": "La classifica presuppone che **2 personaggi del team non siano Pyro**. Se solamente un personaggio nel team non è Pyro, quest'arma ha prestazioni simili a **[[weapon:thundering-pulse]]**."
+                        "it": "La classifica presuppone che **2 personaggi del team non siano Pyro**. Se solamente un personaggio nel team non è Pyro, quest'arma ha prestazioni simili a **[[weapon:thundering-pulse]]**.",
+                        "ru": "Предполагается, что набрано **2 уровня Пассивной способности**. С 1 уровнем соответствует **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 }
             ]
@@ -52,7 +54,8 @@
         {
             "en": "Weapon rankings assume [[character:lyney]] is **used with [[character:bennett]]** and using **[[set:marechaussee-hunter]] (4)**.",
             "fr": "Le classement suppose que [[character:lyney]] est **joué avec [[character:bennett]]** et **[[set:marechaussee-hunter]] (4)**.",
-            "it": "La classifica delle armi presuppone che [[character:lyney]] sia giocato con **[[character:bennett]]** e che utilizzi **[[set:marechaussee-hunter]] (4)**."
+            "it": "La classifica delle armi presuppone che [[character:lyney]] sia giocato con **[[character:bennett]]** e che utilizzi **[[set:marechaussee-hunter]] (4)**.",
+            "ru": "Предполагается, что [[character:lyney]] играет с [[character:bennett]]ом и использует **[[set:marechaussee-hunter]] (4)**."
         }
     ]
 }
