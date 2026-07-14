@@ -15,7 +15,8 @@
         {
             "en": "**[[stat:def%]]** main stats can be used when using **[[weapon:peak-patrol-song]]**.",
             "fr": "Il est possible d'utiliser des mainstats **[[stat:def%]]** si **[[weapon:peak-patrol-song]]** est équipée.",
-            "it": "È possibile utilizzare statistiche principali **[[stat:def%]]** nel caso si utilizzi **[[weapon:peak-patrol-song]]**."
+            "it": "È possibile utilizzare statistiche principali **[[stat:def%]]** nel caso si utilizzi **[[weapon:peak-patrol-song]]**.",
+            "ru": "**[[stat:def%|Защиту%]]** в основных статах можно собирать при использовании **[[weapon:peak-patrol-song|Песни патруля пиков]]**."
         }
     ]
 }
