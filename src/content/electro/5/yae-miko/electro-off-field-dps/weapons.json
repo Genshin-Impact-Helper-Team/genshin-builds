@@ -50,7 +50,7 @@
                 {
                     "name": "wandering-evenstar",
                     "note": {
-                        "en": "This weapon's teamwide ATK buff can further elevate its performance. At R5, it ranks above **[[weapon:sunny-morning-sleep-in]]**."
+                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At [R5], it ranks above **[[weapon:sunny-morning-sleep-in]]**."
                     }
                 }
             ]
@@ -76,7 +76,7 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At R5, this weapon ranks above **[[weapon:lost-prayer-to-the-sacred-winds]]**."
+                        "en": "At [R5], this weapon ranks above **[[weapon:lost-prayer-to-the-sacred-winds]]**."
                     }
                 }
             ]
@@ -92,7 +92,7 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "If you can reliably clear the Bond of Life, this weapon ranks above **[[weapon:the-widsith]]**."
+                        "en": "If you can reliably clear the [[ability:bol]], this weapon ranks above **[[weapon:the-widsith]]**."
                     }
                 },
                 {
