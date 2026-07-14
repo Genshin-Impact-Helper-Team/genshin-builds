@@ -18,7 +18,8 @@
                             "note": {
                                 "en": "This set is usually [[character:durin]]'s best set on teams with **[[ability:hexerei]]: Secret Rite** if there is **no one else on the team** that can hold it. ",
                                 "fr": "Ce set est généralement le meilleur set pour [[character:durin]] dans les équipes **[[ability:hexerei]]** si **personne d'autre dans l'équipe** ne peux l'équiper. ",
-                                "it": "Questo è solitamente il set migliore di [[character:durin]] in team in cui è attivo **[[ability:hexerei]]: Rito Segreto** nel caso in cui **non sia utilizzato da nessun altro personaggio nel team**."
+                                "it": "Questo è solitamente il set migliore di [[character:durin]] in team in cui è attivo **[[ability:hexerei]]: Rito Segreto** nel caso in cui **non sia utilizzato da nessun altro personaggio nel team**.",
+                                "ru": "Является лучшим набором [[character:durin]]а при игре с Ведьмовскими персонажами, **если нет другого носителя в отряде**."
                             }
                         }
                     ]
@@ -47,7 +48,8 @@
                             "note": {
                                 "en": "This set can be competitive over **[[set:a-day-carved-from-rising-winds]] (4)** in teams where **[[character:durin]] has notably higher [[stat:er]] Requirements** (usually 160%+).",
                                 "fr": "Ce set peut être équivalent à **[[set:a-day-carved-from-rising-winds]] (4)** dans les équipes où **[[character:durin]] a des besoins en [[stat:er]] plus élevés** (environ 160%+).",
-                                "it": "Questo set può essere competitivo con **[[set:a-day-carved-from-rising-winds]] (4)** in team in cui **[[character:durin]] ha requisiti di [[stat:er]] più alti** (solitamente 160+%)."
+                                "it": "Questo set può essere competitivo con **[[set:a-day-carved-from-rising-winds]] (4)** in team in cui **[[character:durin]] ha requisiti di [[stat:er]] più alti** (solitamente 160+%).",
+                                "ru": "Может соперничать с **[[set:a-day-carved-from-rising-winds|Днём восходящих ветров]] (4)** в отрядах **с высокой потребностью в энергии у [[character:durin]]а** (обычно 160%+)."
                             }
                         }
                     ]
