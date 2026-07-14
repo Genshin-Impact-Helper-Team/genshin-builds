@@ -31,6 +31,11 @@
         },
         {
             "items": [
+                "disaster-and-remorse"
+            ]
+        },
+        {
+            "items": [
                 "crimson-moons-semblance"
             ]
         },
@@ -43,7 +48,6 @@
                         "fr": "Si [[character:flins]] est protégé par un bouclier, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
                     }
                 },
-                "disaster-and-remorse",
                 {
                     "name": "deathmatch",
                     "note": {
