@@ -7,68 +7,92 @@
         },
         {
             "items": [
+                "vivid-notions"
+            ]
+        },
+        {
+            "items": [
+                "reliquary-of-truth",
                 {
                     "name": "a-thousand-floating-dreams",
                     "note": {
-                        "en": "The team **[[stat:em]] buff this weapon provides** may make it desirable over other options.",
-                        "fr": "Le buff de **[[stat:em]] que cette arme fournit à l'équipe** peut la rendre désirable par rapport aux autres options."
+                        "en": "This weapon's teamwide EM buff can further elevate its performance."
                     }
-                },
+                }
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "cashflow-supervision",
                 "sunny-morning-sleep-in"
             ]
         },
         {
             "items": [
-                "tome-of-the-eternal-flow"
+                "tome-of-the-eternal-flow",
+                "surfs-up",
+                "nocturnes-curtain-call"
             ]
         },
         {
             "items": [
-                "lost-prayer-to-the-sacred-winds",
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
                 "skyward-atlas",
                 {
-                    "name": "the-widsith",
+                    "name": "wandering-evenstar",
                     "note": {
-                        "en": "At **[R5]** this weapon is equal to **[[weapon:a-thousand-floating-dreams]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:a-thousand-floating-dreams]]**."
+                        "en": "This weapon's teamwide ATK buff can further elevate its performance. At R5, it ranks above **[[weapon:sunny-morning-sleep-in]]**."
                     }
-                },
+                }
+            ]
+        },
+        {
+            "items": [
                 "tulaytullahs-remembrance"
             ]
         },
         {
             "items": [
+                "nightweavers-looking-glass"
+            ]
+        },
+        {
+            "items": [
                 {
-                    "name": "solar-pearl",
+                    "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]** this weapon is better than **[[weapon:tome-of-the-eternal-flow]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:tome-of-the-eternal-flow]]**."
+                        "en": "At R5, this weapon ranks above **[[weapon:lost-prayer-to-the-sacred-winds]]**."
                     }
                 }
             ]
         },
         {
             "items": [
+                "cranes-echoing-call"
+            ]
+        },
+        {
+            "items": [
                 {
-                    "name": "oathsworn-eye",
+                    "name": "flowing-purity",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If you can reliably clear the Bond of Life, this weapon ranks above **[[weapon:the-widsith]]**."
+                    }
+                },
+                {
+                    "name": "mappa-mare",
                     "refinement": 5
                 }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "hakushin-ring",
-                    "note": {
-                        "en": "This weapon's passive can buff your other team members, which **may be more beneficial than [[character:yae-miko]]'s personal damage** depending on the team and rotation used. Note that the passive cannot be triggered when off-field.",
-                        "fr": "Le passif de cette arme peut buff vos autres membres de l'équipe, ce qui **peut être plus bénéfique que les dégâts personnels de [[character:yae-miko]]** selon l'équipe et la rotation utilisée. Notez que le passif ne peut pas être déclenché off-field."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
-                "mappa-mare"
             ]
         }
     ]
