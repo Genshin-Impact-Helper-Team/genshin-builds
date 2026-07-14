@@ -1,0 +1,24 @@
+{
+    "name": {
+        "en": "[[element:stellar-conduct]] Off-Field DPS"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "Take note that none of [[character:yae-miko]]'s abilities snapshot.",
+            "fr": "Gardez à l'esprit qu'aucune des aptitudes de [[character:yae-miko]] ne snapshot."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Yoren",
+            "link": "https://docs.google.com/spreadsheets/d/1BKtSW_DMWqkrLJt5HmMn4vCUXh_v_VI62HqsDFzjhxk/edit?usp=sharing"
+        }
+    ],
+    "artifacts": [
+        {
+            "author": "Yoren",
+            "link": "https://docs.google.com/spreadsheets/d/1BKtSW_DMWqkrLJt5HmMn4vCUXh_v_VI62HqsDFzjhxk/edit?usp=sharing"
+        }
+    ]
+}

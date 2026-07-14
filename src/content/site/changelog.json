@@ -5,6 +5,11 @@
             "version": "6.7 / Luna VIII",
             "entries": [
                 {
+                    "date": "July 14, 2026",
+                    "changes": "Updated Yae section. Merged Yae's Electro DPS sections.",
+                    "appliedBy": "Quincy"
+                },
+                {
                     "date": "July 7, 2026",
                     "changes": "Updated Wanderer section. Merged Wanderer's DPS sections.",
                     "appliedBy": "Quincy"

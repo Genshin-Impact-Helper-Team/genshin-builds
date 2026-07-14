@@ -1,0 +1,105 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                "vivid-notions"
+            ]
+        },
+        {
+            "items": [
+                "reliquary-of-truth",
+                {
+                    "name": "a-thousand-floating-dreams",
+                    "note": {
+                        "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "cashflow-supervision",
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                "tome-of-the-eternal-flow",
+                "surfs-up",
+                "nocturnes-curtain-call"
+            ]
+        },
+        {
+            "items": [
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                "skyward-atlas",
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At [R5], it ranks above **[[weapon:sunny-morning-sleep-in]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "tulaytullahs-remembrance"
+            ]
+        },
+        {
+            "items": [
+                "angelos-heptades",
+                "memory-of-dust"
+            ]
+        },
+        {
+            "items": [
+                "nightweavers-looking-glass"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "At [R5], this weapon ranks above **[[weapon:lost-prayer-to-the-sacred-winds]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "cranes-echoing-call"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flowing-purity",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If you can reliably clear the [[ability:bol]], this weapon ranks above **[[weapon:the-widsith]]**."
+                    }
+                },
+                {
+                    "name": "mappa-mare",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                "reliquary-of-truth",
+                "vivid-notions"
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch",
+                "sunny-morning-sleep-in",
+                {
+                    "name": "a-thousand-floating-dreams",
+                    "note": {
+                        "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-atlas",
+                "angelos-heptades"
+            ]
+        },
+        {
+            "items": [
+                "tome-of-the-eternal-flow",
+                "surfs-up",
+                "nocturnes-curtain-call",
+                "tulaytullahs-remembrance"
+            ]
+        },
+        {
+            "items": [
+                "cashflow-supervision",
+                "memory-of-dust",
+                "lost-prayer-to-the-sacred-winds",
+                "nightweavers-looking-glass",
+                "cranes-echoing-call"
+            ]
+        },
+        {
+            "items": [
+                "dawning-frost",
+                "the-widsith"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At [R5], it ranks above **[[weapon:dawning-frost]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flowing-purity",
+                    "refinement": 5
+                },
+                {
+                    "name": "mappa-mare",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}
