@@ -18,7 +18,8 @@
                 {
                     "name": "a-thousand-floating-dreams",
                     "note": {
-                        "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases."
+                        "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases.",
+                        "it": "Se il team trae beneficio dalla [[stat:em]] fornita da quest'arma, le sue prestazioni migliorano."
                     }
                 }
             ]
@@ -57,7 +58,8 @@
                 {
                     "name": "wandering-evenstar",
                     "note": {
-                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At [R5], it ranks above **[[weapon:dawning-frost]]**."
+                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At [R5], it ranks above **[[weapon:dawning-frost]]**.",
+                        "it": "Se il team trae beneficio dall'[[stat:atk]] fornito da quest'arma, le sue prestazioni migliorano. A **[R5]**, ha prestazioni migliori di **[[weapon:dawning-frost]]**."
                     }
                 }
             ]
