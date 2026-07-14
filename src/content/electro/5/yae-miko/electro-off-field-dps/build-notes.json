@@ -10,8 +10,8 @@
             "fr": "Commencez vos rotations avec le [[ability:skill]] de [[character:yae-miko]] pour amplifier les dégâts de son [[ability:burst]]."
         },
         {
-            "en": "[[ability:burst]] combo: {rot:E3 Q E3}",
-            "fr": "Combo d'[[ability:burst]]: {rot:E3 A E3}"
+            "en": "[[ability:burst]] combo: {rot:E3 Q}",
+            "fr": "Combo d'[[ability:burst]]: {rot:E3 A}"
         },
         {
             "en": "After the first set of EEE you usually swap out and go through your buff rotation before swapping back to [[ability:burst]]",
