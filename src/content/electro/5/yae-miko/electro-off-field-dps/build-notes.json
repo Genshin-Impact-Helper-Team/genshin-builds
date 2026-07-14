@@ -3,7 +3,7 @@
         "en": "[[element:electro]] Off-field DPS",
         "fr": "DPS [[element:electro]] Off-Field"
     },
-    "best": true,
+    "best": false,
     "notes": [
         {
             "en": "Start your rotations with [[character:yae-miko|Yae]]'s [[ability:skill]] to amplify her [[ability:burst]] damage.",
