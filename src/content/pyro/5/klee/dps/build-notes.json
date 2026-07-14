@@ -32,7 +32,7 @@
             "en": "Her A1 grants Explosive Spark stacks when she uses [[ability:na]], [[ability:skill]], or [[ability:burst]]. When consumed, they give her [[ability:ca]] extra DMG% and prevent them from consuming Stamina.",
             "fr": "Son passif A1 offre une étincelle explosive et stack lorsqu'elle utilise une [[ability:na]], un [[ability:skill]], ou son [[ability:burst]]. Quand consommée, ces étincelles donnent des dégâts supplémentaires à son [[ability:ca]] et font qu'elle ne consomme pas d'endurance.",
             "it": "Quando Klee utilizza [[ability:na|Attacchi Normali]], [[ability:skill]], o il [[ability:burst]], il suo Talento A1 le fornisce accumuli di 'Scintilla esplosiva' che, una volta consumati, forniscono DAN% ai suoi [[ability:ca|Attacchi Caricati]] ed azzerano il loro consumo di Stamina.",
-            "ru": "А1 генерирует Взрывные искры при выполнении различных чипов атак ([[ability:na]], [[ability:skill]], [[ability:burst]]). При расходовании Взрывные искры усиливают урон [[ability:ca|Заряженных атак]] и позволяют не тратить на них выносливость."
+            "ru": "Первая Пассивная способность генерирует Взрывные искры при выполнении различных типов атак ([[ability:na]], [[ability:skill]], [[ability:burst]]). При расходовании Взрывные искры усиливают урон [[ability:ca|Заряженных атак]] и позволяют не тратить на них выносливость."
         },
         {
             "en": "[[ability:hexerei]] effects give her up to 150% DMG to her Enhanced [[ability:ca]]. This effect should always be active at max stacks.",
