@@ -18,7 +18,7 @@
                 {
                     "name": "a-thousand-floating-dreams",
                     "note": {
-                        "en": "This weapon's teamwide EM buff can further elevate its performance."
+                        "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases."
                     }
                 }
             ]
@@ -57,7 +57,7 @@
                 {
                     "name": "wandering-evenstar",
                     "note": {
-                        "en": "This weapon's teamwide ATK buff can further elevate its performance. At R5, it ranks above **[[weapon:dawning-frost]]**."
+                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At R5, it ranks above **[[weapon:dawning-frost]]**."
                     }
                 }
             ]
