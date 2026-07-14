@@ -1,7 +1,8 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
