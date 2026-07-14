@@ -1,7 +1,7 @@
 {
     "name": {
-        "en": "Off-field [[element:aggravate]] DPS",
-        "fr": "DPS [[element:aggravate]] Off-Field"
+        "en": "Off-field [[element:electro]] DPS",
+        "fr": "DPS [[element:electro]] Off-Field"
     },
     "best": true,
     "notes": [
@@ -25,13 +25,13 @@
     "weapons": [
         {
             "author": "Quinslay",
-            "link": "https://docs.google.com/spreadsheets/d/1tCrljJbN6t-_d1OphJpng01Oh7daZrS_n9q3NKlewUU/edit?gid=942751900#gid=942751900"
+            "link": "https://docs.google.com/spreadsheets/d/1gJxaDq8uJpKTDPhKlUAstQN7vZgMV8qfj6T-oZgfMJM/edit?usp=sharing"
         }
     ],
     "artifacts": [
         {
             "author": "Quinslay",
-            "link": "https://docs.google.com/spreadsheets/d/11gnTGsbiy060z1ftGrYWwRAgwgWgSb1ANtek2tG7ISQ/edit?gid=904804077#gid=904804077"
+            "link": "https://docs.google.com/spreadsheets/d/1gJxaDq8uJpKTDPhKlUAstQN7vZgMV8qfj6T-oZgfMJM/edit?usp=sharing"
         }
     ]
 }
