@@ -8,7 +8,8 @@
             "note": {
                 "en": "Only prioritized when using **[[weapon:peak-patrol-song]]**.",
                 "fr": "A prioriser uniquement lorsque **[[weapon:peak-patrol-song]]** est équipée.",
-                "it": "Dare la priorità nel caso si utilizzi **[[weapon:peak-patrol-song]]**."
+                "it": "Dare la priorità nel caso si utilizzi **[[weapon:peak-patrol-song]]**.",
+                "ru": "Только при использовании **[[weapon:peak-patrol-song|Песни патруля пиков]]**."
             }
         }
     ]
