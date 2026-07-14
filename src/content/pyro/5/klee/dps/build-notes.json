@@ -1,42 +1,50 @@
 {
     "best": true,
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "notes": [
         {
             "en": "Being extremely squishy and prone to interruptions, [[character:klee]] requires good positioning or a shielder.",
             "fr": "Étant extrêmement fragile et facilement interrompue, [[character:klee]] nécessite un bon positionnement ou bien l'utilisation d'un bouclier.",
-            "it": "Essendo estremamente fragile e soggetta a interruzioni, Klee richiede un ottimo posizionamento o l'uso di uno scudo."
+            "it": "Essendo estremamente fragile e soggetta a interruzioni, Klee richiede un ottimo posizionamento o l'uso di uno scudo.",
+            "ru": "В связи с отсутствием сопротивления прерыванию [[character:klee]] требует отличного позиционирования или использования щитов."
         },
         {
             "en": "This is partially mitigated in her best teams, which currently focus on [[element:overload]] with [[character:chevreuse]] and provide strong stagger, helping [[character:klee]] avoid getting hit. Even with this consideration, her best teams nomally don't include a shielder, she can often get knocked around and even KO'd in the midst of your rotations.",
             "fr": "Ces problèmes sont partiellement atténués dans ses meilleures équipes puisqu'elles reposent actuellement sur la [[element:overload]] avec [[character:chevreuse]] et permettent donc d'interrompre les ennemis, empêchant [[character:klee]] de prendre des coups. Même en tenant compte de ça, ses meilleures teams n'incluent généralement pas de bouclier: elle peut donc souvent se faire envoyer valser ou même tuer en plein milieu d'une rotation.",
-            "it": "Questo è parzialmente mitigato in alcuni dei suoi team migliori, come [[element:overload]] con [[character:chevreuse]], in cui l'interruzione ai nemici aiuta molto."
+            "it": "Questo è parzialmente mitigato in alcuni dei suoi team migliori, come [[element:overload]] con [[character:chevreuse]], in cui l'interruzione ai nemici aiuta molto.",
+            "ru": "Это частично компенсируется в её текущих лучших отрядах через [[element:overload|Перегрузку]] с [[character:chevreuse]], где оглушение противников позволяет ей избегать атак. Но даже с учётом этого её относительно легко отбросить, сбить ротацию или убить, так как привычные команды с [[character:klee]] не включают щитовика."
         },
         {
             "en": "Running a shielder makes survivability with [[character:klee]] more comfortable, but at the cost of total DPS. You can choose teammates depending on your level of skill and comfortability.",
-            "fr": "Jouer un bouclier dans son équipe rend la survie plus simple, au détriment du DPS total. Vous pouvez choisir les membres de l'équipe selon votre confort et votre niveau."
+            "fr": "Jouer un bouclier dans son équipe rend la survie plus simple, au détriment du DPS total. Vous pouvez choisir les membres de l'équipe selon votre confort et votre niveau.",
+            "ru": "Щит делает игру за неё гораздо более комфортной ценой уменьшения потенциального урона отряда. Выбирая отряд, ориентируйтесь на собственные навыки и предпочтительный уровень удобства."
         },
         {
             "en": "[[character:klee]] has access to several animation cancels that let her deal damage with her talents faster than normal.",
             "fr": "[[character:klee]] a accès à différentes animation cancels qui lui permettent d'infliger des dégâts plus rapidement que la normale.",
-            "it": "[[character:klee]] ha accesso a diversi annulli di animazione che le permettono di provocare danni più velocemente del normale."
+            "it": "[[character:klee]] ha accesso a diversi annulli di animazione che le permettono di provocare danni più velocemente del normale.",
+            "ru": "Существует несколько способов отмены анимаций [[character:klee]], что позволяет наносить урон быстрее обычного."
         },
         {
             "en": "Her A1 grants Explosive Spark stacks when she uses [[ability:na]], [[ability:skill]], or [[ability:burst]]. When consumed, they give her [[ability:ca]] extra DMG% and prevent them from consuming Stamina.",
             "fr": "Son passif A1 offre une étincelle explosive et stack lorsqu'elle utilise une [[ability:na]], un [[ability:skill]], ou son [[ability:burst]]. Quand consommée, ces étincelles donnent des dégâts supplémentaires à son [[ability:ca]] et font qu'elle ne consomme pas d'endurance.",
-            "it": "Quando Klee utilizza [[ability:na|Attacchi Normali]], [[ability:skill]], o il [[ability:burst]], il suo Talento A1 le fornisce accumuli di 'Scintilla esplosiva' che, una volta consumati, forniscono DAN% ai suoi [[ability:ca|Attacchi Caricati]] ed azzerano il loro consumo di Stamina."
+            "it": "Quando Klee utilizza [[ability:na|Attacchi Normali]], [[ability:skill]], o il [[ability:burst]], il suo Talento A1 le fornisce accumuli di 'Scintilla esplosiva' che, una volta consumati, forniscono DAN% ai suoi [[ability:ca|Attacchi Caricati]] ed azzerano il loro consumo di Stamina.",
+            "ru": "А1 генерирует Взрывные искры при выполнении различных чипов атак ([[ability:na]], [[ability:skill]], [[ability:burst]]). При расходовании Взрывные искры усиливают урон [[ability:ca|Заряженных атак]] и позволяют не тратить на них выносливость."
         },
         {
             "en": "[[ability:hexerei]] effects give her up to 150% DMG to her Enhanced [[ability:ca]]. This effect should always be active at max stacks.",
             "fr": "Les effets [[ability:hexerei]] lui donnent jusqu'à 150% de dégâts sur son [[ability:ca]] améliorée. Cet effet devrait être actif en permanence avec le maximum de stacks.",
-            "it": "I potenziamenti [[ability:hexerei]] forniscono fino a 150% DAN ai suoi [[ability:ca|Attacchi Caricati]] Potenziati - questo effetto dovrebbe essere costantemente attivo."
+            "it": "I potenziamenti [[ability:hexerei]] forniscono fino a 150% DAN ai suoi [[ability:ca|Attacchi Caricati]] Potenziati - questo effetto dovrebbe essere costantemente attivo.",
+            "ru": "Эффекты [[ability:hexerei|Ведьмовства]] дают ей бонус 150% к усиленным [[ability:ca|Заряженным атакам]] - всегда набирайте максимальный уровень этого эффекта."
         },
         {
             "en": "Her optimal combos include **{rot:N1C/N3}** in teams where [[ability:hexerei]] Resonance is active, or **{rot:N1C/N1W}** in teams where it is not.",
             "fr": "Son combo optimal inclut **{rot:N1C/N3}** dans les équipes avec résonnance[[ability:hexerei]], ou **{rot:N1C/N1W}** sans.",
-            "it": "Le sue combo ottimali includono **{rot:N1C/N3}** in team con risonanza [[ability:hexerei]], o **{rot:N1C/N1W}** in team senza risonanza [[ability:hexerei]]."
+            "it": "Le sue combo ottimali includono **{rot:N1C/N3}** in team con risonanza [[ability:hexerei]], o **{rot:N1C/N1W}** in team senza risonanza [[ability:hexerei]].",
+            "ru": "В командах [[ability:hexerei|Ведьмовства]] её оптимальное комбо **{rot:N1C/N3}**, в остальных отрядах **{rot:N1C/N1W}**."
         }
     ],
     "weapons": {
