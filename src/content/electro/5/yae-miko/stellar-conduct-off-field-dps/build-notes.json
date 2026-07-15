@@ -2,14 +2,16 @@
     "name": {
         "en": "[[element:stellar-conduct]] Off-Field DPS",
         "fr": "DPS [[element:stellar-conduct]] Off-Field",
-        "it": "DPS [[element:stellar-conduct]] Fuori Campo"
+        "it": "DPS [[element:stellar-conduct]] Fuori Campo",
+        "ru": "Карманный ДД через [[element:stellar-conduct]]"
     },
     "best": true,
     "notes": [
         {
             "en": "Take note that none of [[character:yae-miko]]'s abilities snapshot.",
             "fr": "Gardez à l'esprit qu'aucune des aptitudes de [[character:yae-miko]] ne snapshot.",
-            "it": "Tieni presente che nessuna delle abilità di [[character:yae-miko]] è in grado di 'snapshottare'."
+            "it": "Tieni presente che nessuna delle abilità di [[character:yae-miko]] è in grado di 'snapshottare'.",
+            "ru": "Обратите внимание, что ни один из талантов [[character:yae-miko]] не запоминает характеристики на момент активации (снапшотит)."
         }
     ],
     "weapons": [

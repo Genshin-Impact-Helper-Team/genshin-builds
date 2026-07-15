@@ -46,7 +46,8 @@
                             "note": {
                                 "en": "The performance of this artifact set depends on whether teammates can benefit from the [[stat:atk%]] buff.",
                                 "fr": "Les performances de ce set dépendent de si le reste de l'équipe peut bénéficier du buff d'[[stat:atk%]].",
-                                "it": "Le prestazioni di questo set dipendono dalla capacità del team di trarre beneficio dal potenziamento all'[[stat:atk%]]."
+                                "it": "Le prestazioni di questo set dipendono dalla capacità del team di trarre beneficio dal potenziamento all'[[stat:atk%]].",
+                                "ru": "Эффективность данного набора зависит от того, насколько [[stat:atk%]] полезна членам отряда."
                             }
                         }
                     ]

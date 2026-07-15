@@ -18,7 +18,8 @@
                     "note": {
                         "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases.",
                         "fr": "Si l'équipe bénéficie du bonus de [[stat:em]] de cette arme, ses performances augmentent.",
-                        "it": "Se il team trae beneficio dalla [[stat:em]] fornita da quest'arma, le sue prestazioni migliorano."
+                        "it": "Se il team trae beneficio dalla [[stat:em]] fornita da quest'arma, le sue prestazioni migliorano.",
+                        "ru": "Эффективность данного оружия растёт, если членам отряда полезен бонус [[stat:em|Мастерства стихий]]."
                     }
                 }
             ]
@@ -54,7 +55,8 @@
                     "note": {
                         "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At **[R5]**, it ranks above **[[weapon:sunny-morning-sleep-in]]**.",
                         "fr": "Si l'équipe peut bénéficier du buff d'[[stat:atk]] de cette arme, ses performances augmentent. Une fois **[R5]**, elle dépasse **[[weapon:sunny-morning-sleep-in]]**.",
-                        "it": "Se il team trae beneficio dall'[[stat:atk]] fornito da quest'arma, le sue prestazioni migliorano. A **[R5]**, ha prestazioni migliori di **[[weapon:sunny-morning-sleep-in]]**."
+                        "it": "Se il team trae beneficio dall'[[stat:atk]] fornito da quest'arma, le sue prestazioni migliorano. A **[R5]**, ha prestazioni migliori di **[[weapon:sunny-morning-sleep-in]]**.",
+                        "ru": "Эффективность данного оружия растёт, если членам отряда полезен бонус [[stat:atk|Силы атаки]]. На **[R5]** превосходит **[[weapon:sunny-morning-sleep-in]]**."
                     }
                 }
             ]
@@ -82,7 +84,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks above **[[weapon:lost-prayer-to-the-sacred-winds]]**.",
                         "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:lost-prayer-to-the-sacred-winds]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:lost-prayer-to-the-sacred-winds]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:lost-prayer-to-the-sacred-winds]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:lost-prayer-to-the-sacred-winds|Молитву святым ветрам]]**."
                     }
                 }
             ]
@@ -100,7 +103,8 @@
                     "note": {
                         "en": "If you can reliably clear the **[[ability:bol]]**, this weapon ranks above **[[weapon:the-widsith]]**.",
                         "fr": "Si vous pouvez efficacement retirer **l'[[ability:bol]]**, cette arme devient meilleure que **[[weapon:the-widsith]]**.",
-                        "it": "Se [[character:yae-miko]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni migliori di **[[weapon:the-widsith]]**."
+                        "it": "Se [[character:yae-miko]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni migliori di **[[weapon:the-widsith]]**.",
+                        "ru": "При возможности стабильно снимать **[[ability:bol]]** превосходит **[[weapon:the-widsith]]**."
                     }
                 },
                 {
