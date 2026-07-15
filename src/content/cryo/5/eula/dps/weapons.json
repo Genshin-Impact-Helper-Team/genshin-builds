@@ -3,7 +3,8 @@
         {
             "en": "**Regarding weapons which provide [[stat:er]]**: In teams with low ER requirements on [[character:eula]] (such as Triple [[element:cryo]] + [[character:shogun-raiden|Raiden]]) these weapons lose some effectiveness.",
             "fr": "**Concernant les armes qui apportent de la [[stat:er]]** : dans les équipes où [[character:eula]] a de faibles besoins en [[stat:er]] (comme Triple [[element:cryo]] + [[character:shogun-raiden]]), ces armes perdent en efficacité.",
-            "it": "**A proposito di armi che forniscono [[stat:er]]**: In team con requisiti di [[stat:er]] bassi su [[character:eula]] (es. 3 personaggi [[element:cryo]] + [[character:shogun-raiden|Raiden]]) queste armi perdono parte della loro efficacia."
+            "it": "**A proposito di armi che forniscono [[stat:er]]**: In team con requisiti di [[stat:er]] bassi su [[character:eula]] (es. 3 personaggi [[element:cryo]] + [[character:shogun-raiden|Raiden]]) queste armi perdono parte della loro efficacia.",
+            "ru": "**Об оружии с [[stat:er|Восстановлением энергии]]:** Показывают меньшую эффективность при низкой потребности в ВЭ (к примеру, отряды с тремя [[element:cryo]] + [[character:shogun-raiden|Raiden]])."
         }
     ],
     "weapons": [
@@ -20,7 +21,8 @@
                     "note": {
                         "en": "Assumes one stack. At two stacks, it outperforms other weapon options.",
                         "fr": "Suppose 1 stack. Avec deux stacks, elle depasse les autres options d'armes.",
-                        "it": "La classifica presuppone un accumulo. Con due accumuli, supera le prestazioni delle altre armi."
+                        "it": "La classifica presuppone un accumulo. Con due accumuli, supera le prestazioni delle altre armi.",
+                        "ru": "Предполагается наличие одного уровня Пассивной способности, при стабильных двух уровнях превосходит остальные варианты."
                     }
                 }
             ]
@@ -33,7 +35,8 @@
                     "note": {
                         "en": "Weapon rankings are assuming no [[element:crystallize]].",
                         "fr": "Le classement de cette arme suppose l'absence de [[element:crystallize]].",
-                        "it": "La classifica presuppone l’assenza di [[element:crystallize]]."
+                        "it": "La classifica presuppone l’assenza di [[element:crystallize]].",
+                        "ru": "Предполагается отсутствие [[element:crystallize|Кристаллизации]]."
                     }
                 }
             ]
@@ -45,7 +48,8 @@
                     "note": {
                         "en": "Weapon rankings are assuming no shield. With a shield this weapon performs similarly to **[[weapon:beacon-of-the-reed-sea]]** and **[[weapon:wolfs-gravestone]]**.",
                         "fr": "Le classement de cette arme suppose l'absence de bouclier. Avec un bouclier, cette arme est comparable à **[[weapon:beacon-of-the-reed-sea]]** et **[[weapon:wolfs-gravestone]]**.",
-                        "it": "La classifica presuppone l'assenza di uno scudo. Con uno scudo, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]]** e **[[weapon:wolfs-gravestone]]**."
+                        "it": "La classifica presuppone l'assenza di uno scudo. Con uno scudo, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]]** e **[[weapon:wolfs-gravestone]]**.",
+                        "ru": "Предполагается отсутствие щита. При его наличии может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]** и **[[weapon:wolfs-gravestone|Волчьей погибели]]**."
                     }
                 }
             ]
@@ -57,7 +61,8 @@
                     "note": {
                         "en": "This weapon can overtake **[[weapon:wolfs-gravestone]]** in terms of [[character:eula]]'s own damage if team provides enough ATK buffs, but **[[weapon:wolfs-gravestone]]** can make up the damage difference by buffing team damage.",
                         "fr": "Cette arme peut dépasser **[[weapon:wolfs-gravestone]]** en termes de dégâts personnels de [[character:eula]] si l'équipe apporte assez de buffs d'ATQ, mais **[[weapon:wolfs-gravestone]]** peut compenser l'écart en buffant les dégâts de l'équipe.",
-                        "it": "Quest'arma può superare **[[weapon:wolfs-gravestone]]** in termini di danni inflitti da [[character:eula]] se il team fornisce potenziamenti all'ATT sufficienti. Tuttavia **[[weapon:wolfs-gravestone]]** può compensare la differenza potenziando il resto del team."
+                        "it": "Quest'arma può superare **[[weapon:wolfs-gravestone]]** in termini di danni inflitti da [[character:eula]] se il team fornisce potenziamenti all'ATT sufficienti. Tuttavia **[[weapon:wolfs-gravestone]]** può compensare la differenza potenziando il resto del team.",
+                        "ru": "При наличии бонусов Силы атаки% может превзойти по личному урону **[[weapon:wolfs-gravestone|Волчью погибель]]**, но за счет увеличения **[[weapon:wolfs-gravestone|Погибелью]]** Силы атаки% команды разница в общем уроне может оказаться несущественной."
                     }
                 }
             ]
@@ -69,7 +74,8 @@
                     "note": {
                         "en": "Weapon rankings are assuming max stacks, in practice this often means running a shielder. At **[R5]** this weapon performs similarly to **[[weapon:beacon-of-the-reed-sea]]**.",
                         "fr": "Suppose le nombre maximum de stacks, ce qui signifie souvent en pratique jouer un shielder. Une fois **[R5]**, cette arme se rapproche de **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "it": "La classifica presuppone il numero massimo di accumuli, il che in pratica significa spesso dover utilizzare uno scudo. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]]**."
+                        "it": "La classifica presuppone il numero massimo di accumuli, il che in pratica significa spesso dover utilizzare uno scudo. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "Предполагается, что Пассивная способность поддерживается на максимальном уровне, что зачастую требует использования щита. На **[R5]** соответствует **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 },
                 {
@@ -89,7 +95,8 @@
                     "note": {
                         "en": "This weapon will outperform **[[weapon:luxurious-sea-lord]]** at higher refinements. At **[R5]** it can perform similarly to **[[weapon:verdict]]** and **[[weapon:skyward-pride]]**.",
                         "fr": "Cette arme dépassera **[[weapon:luxurious-sea-lord]]** aux raffinements élevés. Une fois **[R5]**, elle peut équivaloir à **[[weapon:verdict]]** et **[[weapon:skyward-pride]]**.",
-                        "it": "Quest'arma supera **[[weapon:luxurious-sea-lord]]** a miglioramenti più elevati. A **[R5]** può avere prestazioni simili a **[[weapon:verdict]]** e **[[weapon:skyward-pride]]**."
+                        "it": "Quest'arma supera **[[weapon:luxurious-sea-lord]]** a miglioramenti più elevati. A **[R5]** può avere prestazioni simili a **[[weapon:verdict]]** e **[[weapon:skyward-pride]]**.",
+                        "ru": "Может превосходить **[[weapon:luxurious-sea-lord|Благодатного владыку вод]]** на высоких рангах Пробуждения. На **[R5]** соответствует **[[weapon:verdict]]у** и **[[weapon:skyward-pride|Небесному величию]]**."
                     }
                 },
                 {
@@ -97,7 +104,8 @@
                     "note": {
                         "en": "Weapon rankings are assuming the passive is active. At **[R5]** this weapon performs similarly to **[[weapon:serpent-spine]] [R1]** at 5 stacks.",
                         "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme est comparable à **[[weapon:serpent-spine]] [R1]** à 5 stacks.",
-                        "it": "La classifica presuppone che [[character:eula]] riceva cure per mantenere attiva la passiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:serpent-spine]] [R1]** con 5 accumuli."
+                        "it": "La classifica presuppone che [[character:eula]] riceva cure per mantenere attiva la passiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:serpent-spine]] [R1]** con 5 accumuli.",
+                        "ru": "Предполагается, что пассивная способность оружия поддерживается. На **[R5]** соответствует **[R1] [[weapon:serpent-spine|Мечу драконьей кости]]** с полностью работающей Пассивной способностью."
                     }
                 }
             ]
