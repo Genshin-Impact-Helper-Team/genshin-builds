@@ -1,29 +1,34 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:eula]] is an on-field [[stat:physical-dmg]] dealer who deals a significant portion of her damage through her [[ability:burst]]. Her [[ability:na]]s also make up a large portion of her overall damage at low Constellation. Weapon rankings are assuming 130% [[stat:er]] minimum, [[element:superconduct]] and 4pc **[[set:noblesse-oblige]]** buff, otherwise no buffs.",
             "fr": "[[character:eula]] est un DPS [[stat:physical-dmg]] on-field qui inflige une grande partie de ses dégâts grâce à son [[ability:burst]]. Ses [[ability:na]]s représentent aussi une grande partie de ses dégâts globaux lorsqu'elle a peu de Constellations. Les classements d'armes supposent un minimum de 130 % de [[stat:er]], [[element:superconduct]] et le buff 4p de **[[set:noblesse-oblige]]**, sans autre buff.",
-            "it": "[[character:eula]] è un personaggio che infligge danni Fisici sul campo, di cui una parte significativa attraverso il suo [[ability:burst]]. Anche gli [[ability:na|Attacchi Normali]] costituiscono una parte importante dei suoi danni complessivi a basse Costellazioni. Le classifiche delle armi presuppongono un minimo di 130% [[stat:er]], [[element:superconduct]] e **[[set:noblesse-oblige]] (4)** per il potenziamento, altrimenti nessun potenziamento."
+            "it": "[[character:eula]] è un personaggio che infligge danni Fisici sul campo, di cui una parte significativa attraverso il suo [[ability:burst]]. Anche gli [[ability:na|Attacchi Normali]] costituiscono una parte importante dei suoi danni complessivi a basse Costellazioni. Le classifiche delle armi presuppongono un minimo di 130% [[stat:er]], [[element:superconduct]] e **[[set:noblesse-oblige]] (4)** per il potenziamento, altrimenti nessun potenziamento.",
+            "ru": "Эола играет роль ДД на поле и наносит физический урон (большую часть - [[ability:burst|Взрывом стихии]]). При отсутствии созвездий [[ability:na|Обычные атаки]] также являются значимым источником её урона. Рейтинг оружия сформирован с учётом того, что набран минимум [[stat:er|ВЭ]] в 130%, используется [[element:superconduct]] и в отряде есть носитель **[[set:noblesse-oblige|Знати]]**."
         },
         {
             "en": "Normal combo while no [[ability:burst]]: {rot:NA Spam > tE > N Spam > tE}",
             "fr": "Combo normal sans [[ability:burst]] : {rot:N Spam > tE > N Spam > tE}",
-            "it": "Combo normale senza [[ability:burst]]: {rot:NA a ripetizione > tE > NA a ripetizione > tE}"
+            "it": "Combo normale senza [[ability:burst]]: {rot:NA a ripetizione > tE > NA a ripetizione > tE}",
+            "ru": "Обычное комбо без [[ability:burst|Взрыва стихии]]: {rot:NA Spam > tE > N Spam > tE}"
         },
         {
             "en": "[[ability:burst]] combo: {rot:tE Q N4 hE N4}",
             "fr": "Combo de [[ability:burst]] : {rot:tE A N4 hE N4}",
-            "it": "Combo con [[ability:burst]]: {rot:tE Q N4 hE N4}"
+            "it": "Combo con [[ability:burst]]: {rot:tE Q N4 hE N4}",
+            "ru": "Комбо со [[ability:burst|Взрывом стихии]]: {rot:tE Q N4 hE N4}"
         },
         {
             "en": "[[ability:burst]] combo that generates more energy at the cost of slightly less DPS: {rot:tE Q tE N4 D N2 hE N2}",
             "fr": "Combo de [[ability:burst]] qui génère plus d'énergie au prix d'un DPS légèrement inférieur : {rot:tE A tE N4 D N2 hE N2}",
-            "it": "Combo con [[ability:burst]] che genera più energia a scapito di un DPS leggermente inferiore: {rot:tE Q tE N4 D N2 hE N2}"
+            "it": "Combo con [[ability:burst]] che genera più energia a scapito di un DPS leggermente inferiore: {rot:tE Q tE N4 D N2 hE N2}",
+            "ru": "Комбо со [[ability:burst|Взрывом стихии]], генерирующее больше энергии ценой чуть меньшего урона: {rot:tE Q tE N4 D N2 hE N2}"
         }
     ]
 }
