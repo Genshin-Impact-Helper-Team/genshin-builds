@@ -8,7 +8,7 @@
                 "en": "Only an option if your [[character:aloy]] is played on a Reverse [[element:melt]] team as it provides nothing to a [[element:freeze]] [[character:aloy]].",
                 "fr": "Une option que si votre [[character:aloy]] est jouée dans une équipe [[element:melt]] inversée, puisqu'elle n'apporte rien à une [[character:aloy]] [[element:freeze]].",
                 "it": "La [[stat:em]] è una buona stat solo se [[character:aloy]] viene giocata in team [[element:melt]] Inversa.",
-                "ru": ""
+                "ru": "[[stat:em]] полезно только для [[character:aloy]], играющей от обратного [[element:melt|Таяния]]. Бесполезный стат в [[element:freeze|Заморозке]]."
             }
         },
         "er"
