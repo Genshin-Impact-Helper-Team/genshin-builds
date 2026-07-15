@@ -2,28 +2,34 @@
     "name": {
         "en": "[[element:electro]] Off-Field DPS",
         "fr": "DPS [[element:electro]] Off-Field",
-        "it": "DPS [[element:electro]] Fuori Campo"
+        "it": "DPS [[element:electro]] Fuori Campo",
+        "ru": "Карманный [[element:electro]] ДД"
     },
     "notes": [
         {
             "en": "Start your rotations with [[character:yae-miko|Yae]]'s [[ability:skill]] to amplify her [[ability:burst]] damage.",
             "fr": "Commencez vos rotations avec le [[ability:skill]] de [[character:yae-miko]] pour amplifier les dégâts de son [[ability:burst]].",
-            "it": "Inizia la rotazione utilizzando l'[[ability:skill]] di [[character:yae-miko]] per potenziare i danni del suo [[ability:burst]]."
+            "it": "Inizia la rotazione utilizzando l'[[ability:skill]] di [[character:yae-miko]] per potenziare i danni del suo [[ability:burst]].",
+            "ru": "Начинайте ротацию с [[ability:skill|Элементального навыка]] [[character:yae-miko|Яэ]] для усиления её [[ability:burst|Взрыва стихии]]."
+            
         },
         {
             "en": "[[ability:burst]] combo: {rot:E3 Q}",
             "fr": "Combo d'[[ability:burst]]: {rot:E3 A}",
-            "it": "Combo con [[ability:burst]]: {rot:E3 Q}"
+            "it": "Combo con [[ability:burst]]: {rot:E3 Q}",
+            "ru": "Комбо для [[ability:burst|Взрыва стихии]]: {rot:E3 Q}"
         },
         {
             "en": "After the first set of EEE you usually swap out and go through your buff rotation before swapping back to [[ability:burst]].",
             "fr": "Après le premier set de EEE, vous changez généralement de personnage et faites votre rotation de buffs avant de revenir pour utiliser l'[[ability:burst]].",
-            "it": "Dopo la prima serie di EEE, di solito si cambia personaggio e si esegue la rotazione dei potenziamenti prima di tornare su [[character:yae-miko]] per utilizzare il [[ability:burst]]."
+            "it": "Dopo la prima serie di EEE, di solito si cambia personaggio e si esegue la rotazione dei potenziamenti prima di tornare su [[character:yae-miko]] per utilizzare il [[ability:burst]].",
+            "ru": "После первой серии EEE обычно следует переключение на других персонажей для активации бонусов, и лишь затем - [[ability:burst]]."
         },
         {
             "en": "Take note that none of [[character:yae-miko]]'s abilities snapshot.",
             "fr": "Gardez à l'esprit qu'aucune des aptitudes de [[character:yae-miko]] ne snapshot.",
-            "it": "Tieni presente che nessuna delle abilità di [[character:yae-miko]] è in grado di 'snapshottare'."
+            "it": "Tieni presente che nessuna delle abilità di [[character:yae-miko]] è in grado di 'snapshottare'.",
+            "ru": "Обратите внимание, что ни один из талантов [[character:yae-miko]] не запоминает характеристики на момент активации (снапшотит)."
         }
     ],
     "weapons": [
