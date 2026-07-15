@@ -44,22 +44,22 @@
                 {
                     "name": "vortex-vanquisher",
                     "note": {
-                        "en": "If [[character:flins]] is shielded, this weapon performs similar to **[[weapon:disaster-and-remorse]]**.",
-                        "fr": "Si [[character:flins]] est protégé par un bouclier, cette arme équivaut à **[[weapon:disaster-and-remorse]]**."
+                        "en": "If [[character:flins]] is shielded, this weapon performs slightly better than **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Si [[character:flins]] est protégé par un bouclier, cette arme devient légèrement meilleure que **[[weapon:disaster-and-remorse]]**."
                     }
                 },
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:crimson-moons-semblance]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
+                        "en": "At **[R5]**, this weapon performs slightly better than **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Une fois **[R5]**, cette arme devient légèrement meilleure que **[[weapon:disaster-and-remorse]]**."
                     }
                 },
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:crimson-moons-semblance]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:disaster-and-remorse]]**."
                     }
                 },
                 "calamity-queller"
