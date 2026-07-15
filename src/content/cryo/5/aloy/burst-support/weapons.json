@@ -12,7 +12,8 @@
                     "note": {
                         "en": "Forcing to get **[[weapon:polar-star]]** stacks isn't worth due to consuming extra time to get those stacks.",
                         "fr": "Forcer les stacks de **[[weapon:polar-star]]** ne vaut pas le temps supplémentaire nécessaire pour les obtenir.",
-                        "it": "Non vale la pena impiegare tempo aggiuntivo per cercare di ottenere accumuli su quest'arma."
+                        "it": "Non vale la pena impiegare tempo aggiuntivo per cercare di ottenere accumuli su quest'arma.",
+                        "ru": "Набор уровней Пассивной способности оружия не стоит затраченного на это времени."
                     }
                 }
             ]
@@ -29,7 +30,8 @@
                     "note": {
                         "en": "Placement assumes [[character:aloy]] is used on a Reverse [[element:melt]] team. On Reverse [[element:melt]] [[character:aloy]] **[[weapon:the-stringless]]**, especially at higher refinement levels, can pull ahead of **[[weapon:thundering-pulse]]**.",
                         "fr": "Le classement suppose que [[character:aloy]] est utilisée dans une équipe [[element:melt]] inversée. Dans ce cas, **[[weapon:the-stringless]]** à raffinement élevé peut dépasser **[[weapon:thundering-pulse]]**.",
-                        "it": "La classifica presuppone un team [[element:melt]] Inversa. In team [[element:melt]] Inversa, specialmente a miglioramenti più elevati, può superare **[[weapon:thundering-pulse]]**."
+                        "it": "La classifica presuppone un team [[element:melt]] Inversa. In team [[element:melt]] Inversa, specialmente a miglioramenti più elevati, può superare **[[weapon:thundering-pulse]]**.",
+                        "ru": "В отрядах, где [[character:aloy]] закрывает обратное [[element:melt]], **[[weapon:the-stringless]]** на высоких рангах Пробуждения может быть сильнее **[[weapon:thundering-pulse|Громового пульса]]**."
                     }
                 }
             ]
@@ -51,7 +53,8 @@
                     "note": {
                         "en": "Assumes the passive is active by proccing a weak point shot. This weapon especially at higher refinement levels can be as good as **[[weapon:skyward-harp]]**.",
                         "fr": "Suppose que le passif est actif en touchant un point faible. Cette arme, surtout aux raffinements élevés, peut être aussi bonne que **[[weapon:skyward-harp]]**.",
-                        "it": "La classifica presuppone che la passiva sia stata attivata colpendo un Punto Debole. A miglioramenti elevati, quest'arma può raggiungere prestazioni simili a quelle di **[[weapon:skyward-harp]]**."
+                        "it": "La classifica presuppone che la passiva sia stata attivata colpendo un Punto Debole. A miglioramenti elevati, quest'arma può raggiungere prestazioni simili a quelle di **[[weapon:skyward-harp]]**.",
+                        "ru": "Предполагается, что Пассивная способность оружия поддерживается. На высоких рангах Пробуждения соответствует **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 }
             ]
@@ -68,7 +71,8 @@
                     "note": {
                         "en": "A pretty decent option to make [[character:aloy]] a [[element:cryo]] battery as her [[ability:skill]] provides 5 [[element:cryo]] particles.",
                         "fr": "Une option correcte pour faire de [[character:aloy]] une batterie [[element:cryo]], puisque son [[ability:skill]] fournit 5 particules [[element:cryo]].",
-                        "it": "Un'opzione valida per rendere [[character:aloy]] una buona batteria [[element:cryo]], poiché la sua [[ability:skill]] genera 5 particelle [[element:cryo]]."
+                        "it": "Un'opzione valida per rendere [[character:aloy]] una buona batteria [[element:cryo]], poiché la sua [[ability:skill]] genera 5 particelle [[element:cryo]].",
+                        "ru": "Неплохой вариант для [[character:aloy]] в роли [[element:cryo]] батарейки, так как её [[ability:skill]] генерирует 5 [[element:cryo]] частиц."
                     }
                 }
             ]
