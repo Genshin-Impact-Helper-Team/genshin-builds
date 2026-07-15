@@ -62,7 +62,8 @@
                     "name": "elegy-for-the-end",
                     "note": {
                         "en": "This weapon's performance depends on how useful its buffs are to your team.",
-                        "fr": "Les performances de cette arme dépendent de l'utilité de ses buffs pour l'équipe."
+                        "fr": "Les performances de cette arme dépendent de l'utilité de ses buffs pour l'équipe.",
+                        "ru": "Эффективность зависит от того, насколько бонусы оружия полезны отряду."
                     }
                 },
                 "alley-hunter",
