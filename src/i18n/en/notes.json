@@ -1,5 +1,12 @@
 {
     "favo": "Try to build some CRIT Rate if using this weapon to trigger the passive consistently",
     "cr-favo": "Only recommended if using a **Favonius** weapon",
-    "er-req": "Prioritize until requirements are met"
+    "er-req": "Prioritize until requirements are met",
+    "pre-ar-45": "Before AR 45",
+    "investment-value": "**Investment Value**",
+    "high-iv": "High",
+    "med-high-iv": "Medium-High",
+    "medium-iv": "Medium",
+    "low-medium-iv": "Low-Medium",
+    "low-iv": "Low"
 }

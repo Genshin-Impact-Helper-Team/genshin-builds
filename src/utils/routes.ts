@@ -1,5 +1,9 @@
 import { getPublicCharacterSlug } from './character-slugs';
-import { getContentCharacters } from './content-tree';
+import {
+  getCharacterBuilds,
+  getContentCharacters,
+  PRE_AR_45_ROUTE_SEGMENT,
+} from './content-tree';
 import { languageCodes } from './languages';
 
 /**
@@ -20,11 +24,17 @@ export function getLanguageStaticPaths() {
  * @returns Sorted unique character slugs.
  */
 function getCharacterSlugs() {
-  const slugs = new Set(
-    getContentCharacters().map(({ character, element }) =>
-      getPublicCharacterSlug({ character, element }),
-    ),
-  );
+  const slugs = new Set<string>();
+
+  getContentCharacters().forEach(({ character, characterPath, element }) => {
+    const slug = getPublicCharacterSlug({ character, element });
+
+    slugs.add(slug);
+    if (getCharacterBuilds(characterPath, PRE_AR_45_ROUTE_SEGMENT).length > 0) {
+      slugs.add(`${slug}/${PRE_AR_45_ROUTE_SEGMENT}`);
+      slugs.add(`${slug}/pre-ar-45`);
+    }
+  });
 
   return [...slugs].sort((a, b) => a.localeCompare(b));
 }

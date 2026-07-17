@@ -1,0 +1,30 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "finale-of-the-deep"
+            ]
+        },
+        {
+            "items": [
+                "fleuve-cendre-ferryman",
+                "amenoma-kageuchi"
+            ]
+        },
+        {
+            "items": [
+                "skyrider-sword"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "harbinger-of-dawn",
+                    "note": {
+                        "en": "Good if you can maintain the passive but ER weapons would be more benefitial early game"
+                    }
+                }
+            ]
+        }
+    ]
+}

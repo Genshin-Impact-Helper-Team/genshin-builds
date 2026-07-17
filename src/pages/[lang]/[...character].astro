@@ -15,12 +15,15 @@ const { lang, character: characterPath } = Astro.params;
 // Server-side loader resolves content JSON into translated, display-ready data.
 const {
   characterSlug,
+  characterRouteSlug,
   characterName,
   metadata,
   element,
   lang: currentLang,
   locale,
   builds,
+  isPreAr45,
+  hasPreAr45Build,
   warnings,
 } = getCharacterPageData({ lang, characterPath });
 
@@ -65,12 +68,15 @@ const noteMarkerExplanation = t(
 
 <CharacterPageLayout
   characterSlug={characterSlug}
+  characterRouteSlug={characterRouteSlug}
   character={characterName}
   metadata={metadata}
   element={element}
   lang={currentLang}
   locale={locale}
   defaultBuildSlug={defaultBuildSlug}
+  isPreAr45={isPreAr45}
+  hasPreAr45Build={hasPreAr45Build}
   builds={builds.map((build) => ({
     slug: build.slug,
     name: build.name,
@@ -123,14 +129,31 @@ const noteMarkerExplanation = t(
                       lang={currentLang}
                     />
                   )}
-                  {build.artifacts.mainstats && build.artifacts.substats && (
-                    <ArtifactStats
-                      artifacts={build.artifacts}
-                      locale={locale}
-                    />
-                  )}
-                  {build.talents && (
-                    <Talent talents={build.talents} locale={locale} />
+                  {isPreAr45 ? (
+                    <div class="pre-ar45-side-stack">
+                      {build.artifacts.mainstats && (
+                        <ArtifactStats
+                          artifacts={build.artifacts}
+                          locale={locale}
+                        />
+                      )}
+                      {build.talents && (
+                        <Talent talents={build.talents} locale={locale} />
+                      )}
+                    </div>
+                  ) : (
+                    <>
+                      {build.artifacts.mainstats &&
+                        build.artifacts.substats && (
+                          <ArtifactStats
+                            artifacts={build.artifacts}
+                            locale={locale}
+                          />
+                        )}
+                      {build.talents && (
+                        <Talent talents={build.talents} locale={locale} />
+                      )}
+                    </>
                   )}
                 </div>
                 <Notes
