@@ -32,7 +32,6 @@ function getCharacterSlugs() {
     slugs.add(slug);
     if (getCharacterBuilds(characterPath, PRE_AR_45_ROUTE_SEGMENT).length > 0) {
       slugs.add(`${slug}/${PRE_AR_45_ROUTE_SEGMENT}`);
-      slugs.add(`${slug}/pre-ar-45`);
     }
   });
 

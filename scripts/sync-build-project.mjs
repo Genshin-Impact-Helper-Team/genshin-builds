@@ -11,6 +11,7 @@ const RELEASE_AUDIT_START =
 const RELEASE_AUDIT_END =
   '<!-- genshin-build-project-sync:release-audit:end -->';
 const BUILD_MARKER_PREFIX = '<!-- genshin-build-project-sync:build:';
+const PRE_AR_45_BUILD_SLUG = 'pre-ar45';
 const CHARACTER_PRIORITY_SCORES = new Map([
   ['very low', 0],
   ['low', 0.25],
@@ -490,7 +491,10 @@ export function loadBuildInventory(contentDirectory) {
           .replaceAll('\\', '/');
         const builds = fs
           .readdirSync(characterDirectory, { withFileTypes: true })
-          .filter((entry) => entry.isDirectory())
+          .filter(
+            (entry) =>
+              entry.isDirectory() && entry.name !== PRE_AR_45_BUILD_SLUG,
+          )
           .map((entry) => {
             const buildPath = path.join(characterDirectory, entry.name);
             const buildNotesPath = path.join(buildPath, 'build-notes.json');

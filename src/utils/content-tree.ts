@@ -11,12 +11,10 @@ export type ContentCharacter = {
 };
 
 export const PRE_AR_45_ROUTE_SEGMENT = 'pre-ar45';
-// Accept the old folder spelling too; public URLs always use pre-ar45.
-const PRE_AR_45_BUILD_SLUGS = new Set([PRE_AR_45_ROUTE_SEGMENT, 'pre-ar-45']);
 type BuildMode = 'default' | typeof PRE_AR_45_ROUTE_SEGMENT;
 
 export function isPreAr45BuildSlug(slug: string) {
-  return PRE_AR_45_BUILD_SLUGS.has(slug);
+  return slug === PRE_AR_45_ROUTE_SEGMENT;
 }
 
 export function getContentCharacters(
