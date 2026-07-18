@@ -51,7 +51,7 @@
                     "name": "song-of-stillness",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranked under the assumption that **[[character:venti]] is healed**, thus activating its passive.",
+                        "en": "Ranked under the assumption that **[[character:venti]] is healed**, thus activating its passive. Otherwise, do not use this weapon.",
                         "fr": "Classée en supposant que **[[character:venti]] est soigné**, activant ainsi son passif.",
                         "it": "La posizione in classifica presuppone che **[[character:venti]] riceva cure**, attivando la passiva di quest'arma.",
                         "ru": "Предполагается, что **[[character:venti]] получает лечение**."
@@ -77,6 +77,14 @@
                     }
                 },
                 "mouuns-moon"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hamayumi",
+                    "refinement": 5
+                }
             ]
         }
     ]
