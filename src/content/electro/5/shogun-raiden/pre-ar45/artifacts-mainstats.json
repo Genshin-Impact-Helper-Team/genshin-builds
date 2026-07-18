@@ -5,17 +5,16 @@
             "atk%"
         ],
         "goblet": [
-            
             "atk%"
         ],
         "circlet": [
             "cr/cd",
-          "atk%"
+            "atk%"
         ]
     },
     "notes": [
         {
-            "en": "[[character:shogun-raiden|Raiden]] goes full EM build if played in a hyperbloom team.",
+            "en": "[[character:shogun-raiden|Raiden]] goes full EM build if played in a hyperbloom team."
         }
     ]
 }
