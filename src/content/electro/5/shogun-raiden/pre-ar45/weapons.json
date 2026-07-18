@@ -2,8 +2,23 @@
     "weapons": [
         {
             "items": [
-                "the-catch",
+                "the-catch"
+            ]
+        },
+        {
+            "items": [
                 "prototype-starglitter"
+            ]
+        },
+        {
+            "items": [
+                "kitain-cross-spear",
+                {
+                    "name": "moonpiercer",
+                    "note": {
+                        "en": "Use these EM weapons if played in a Hyperbloom team."
+                    }
+                }
             ]
         }
     ]
