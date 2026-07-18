@@ -28,6 +28,21 @@
                     ]
                 }
             ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Got-to choice in a Hyperbloom team, boosting team-wide Elemental Mastery (EM)."
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
