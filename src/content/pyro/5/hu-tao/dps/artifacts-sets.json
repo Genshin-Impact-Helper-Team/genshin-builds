@@ -56,6 +56,10 @@
                             "pieces": 2
                         },
                         {
+                            "name": "MH",
+                            "pieces": 2
+                        },
+                        {
                             "name": "em-set",
                             "pieces": 2
                         },
@@ -81,6 +85,13 @@
                                 "fr": "Le meilleur set pour [[character:hu-tao]] si vous pouvez obtenir les 3 stacks à coup sûr, ce qui nécessite souvent de la jouer avec [[character:furina]], ou un healer qui peut soigner en continu (comme [[character:xianyun]] ou [[character:chevreuse]] par exemple).",
                                 "it": "Questo è il miglior set di [[character:hu-tao]] quando è possibile ottenere 3 accumuli in maniera affidabile, il che in genere richiede l'uso di [[character:furina]] o di un guaritore in grado di curare piccole quantità nel tempo (es. [[character:xianyun]], [[character:chevreuse]]).",
                                 "ru": "Лучший вариант, если есть возможность полностью активировать сетбонус, что обычно требует игры с [[character:furina|Фуриной]] или с персонажем с невысоким периодическим лечением (например, [[character:xianyun]] или [[character:chevreuse]])."
+                            }
+                        },
+                        {
+                            "name": "notsu",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is [[character:hu-tao]]'s best set if there are two Nod Krai characters to activate Moonsign: Ascendant Gleam."
                             }
                         }
                     ]
