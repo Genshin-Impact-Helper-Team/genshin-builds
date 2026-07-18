@@ -18,7 +18,8 @@
                     "note": {
                         "en": "With **[[set:blizzard-strayer]] (4)** and [[element:cryo]] Resonance, this weapon overcrits, so try to avoid getting [[stat:cr]] substats.",
                         "fr": "Avec **[[set:blizzard-strayer]] (4)** et la résonance [[element:cryo]], cette arme donne trop de [[stat:cr]], donc essayez d'éviter les substats de [[stat:cr]].",
-                        "it": "Con **[[set:blizzard-strayer]] (4)** e la Risonanza [[element:cryo]], quest'arma supera il massimo [[stat:cr]] necessario, quindi cerca di evitare stat secondarie [[stat:cr]]."
+                        "it": "Con **[[set:blizzard-strayer]] (4)** e la Risonanza [[element:cryo]], quest'arma supera il massimo [[stat:cr]] necessario, quindi cerca di evitare stat secondarie [[stat:cr]].",
+                        "ru": "С **[[set:blizzard-strayer|Заблудшим в метели]] (4)** и [[element:cryo]] резонансом возможен избыток [[stat:cr|Шанса крит. попадания]], чего следует избегать."
                     }
                 },
                 "summit-shaper"
@@ -32,7 +33,8 @@
                     "note": {
                         "en": "Weapon rankings are assuming you clear the **[[ability:bol]]**. If you cannot clear the [[ability:bol]], it performs similarly to **[[weapon:amenoma-kageuchi]]**.",
                         "fr": "Le classement des armes suppose que vous dissipez l'**[[ability:bol]]**. Si vous ne pouvez pas le dissiper, cette arme équivaut à **[[weapon:amenoma-kageuchi]]**.",
-                        "it": "La classifica presuppone che Ayala riceva cure sufficienti a rimuovere il **[[ability:bol]]**. In caso contrario, ha prestazioni simili ad **[[weapon:amenoma-kageuchi]]**."
+                        "it": "La classifica presuppone che Ayala riceva cure sufficienti a rimuovere il **[[ability:bol]]**. In caso contrario, ha prestazioni simili ad **[[weapon:amenoma-kageuchi]]**.",
+                        "ru": "Грандиозный финал глубин: Предполагается, что **[[ability:bol]]** снимается. Без этого условия соответствует **[[weapon:amenoma-kageuchi|Амэноме кагэути]]**."
                     }
                 }
             ]
@@ -44,7 +46,8 @@
                     "note": {
                         "en": "While it has [[stat:physical-dmg]] as a main stat, which is basically useless on [[character:kamisato-ayaka]], it is still a good statstick as it has a high base [[stat:atk|ATK]] and [[stat:atk%]] buff from the passive, however, it's not a huge upgrade over the other 4 star options and there might be a character which can utilize this weapon better (such as [[character:bennett]]).",
                         "fr": "Même s'il s'agit d'une arme [[stat:physical-dmg]], ce qui est pratiquement inutile sur [[character:kamisato-ayaka]], elle reste une bonne statstick grâce à sa haute [[stat:atk|ATK]] de base et au buff d'ATQ% de son passif. Cependant, elle n'est pas une grosse amélioration par rapport aux autres options 4 étoiles, et d'autres personnages pourraient plus bénéficier de cette arme (comme [[character:bennett]] par exemple).",
-                        "it": "Sebbene abbia come stat principale [[stat:physical-dmg]], che è praticamente inutile per [[character:kamisato-ayaka]], resta comunque un’arma discreta grazie all’elevato [[stat:atk]] Base e al bonus di [[stat:atk%]] fornito dalla sua passiva. Tuttavia, non rappresenta un miglioramento significativo rispetto alle opzioni a 4 stelle e potrebbe essere meglio utilizzata su altri personaggi, come [[character:bennett]]."
+                        "it": "Sebbene abbia come stat principale [[stat:physical-dmg]], che è praticamente inutile per [[character:kamisato-ayaka]], resta comunque un’arma discreta grazie all’elevato [[stat:atk]] Base e al bonus di [[stat:atk%]] fornito dalla sua passiva. Tuttavia, non rappresenta un miglioramento significativo rispetto alle opzioni a 4 stelle e potrebbe essere meglio utilizzata su altri personaggi, come [[character:bennett]].",
+                        "ru": "Хотя он имеет в сабстате [[stat:physical-dmg|бонус Физ. урона]], бесполезный на Аяке, данный вариант все равно неплох из-за высокой базовой атаки и [[stat:atk%|Силы атаки%]] в Пассивной способности. Однако значительного превосходства над 4* вариантами он не дает и может быть более полезным на иных персонажах (к примеру, [[character:bennett]]е)."
                     }
                 },
                 {
@@ -52,7 +55,8 @@
                     "note": {
                         "en": "The [[stat:er]] main stat provided from this sword makes [[character:kamisato-ayaka]] comfortable in terms of having a good [[ability:burst]] uptime, try to avoid getting [[stat:er]] substats since the weapon already provides you with enough [[stat:er]].",
                         "fr": "La stat principale de [[stat:er]] fournie par cette épée rend [[character:kamisato-ayaka]] confortable pour maintenir un bon uptime d'[[ability:burst]] ; essayez d'éviter les substats de [[stat:er]], puisque l'arme vous en fournit déjà assez.",
-                        "it": "La [[stat:er]] fornita da quest'arma permette ad [[character:kamisato-ayaka]] di avere un buon tempo di funzionamento del [[ability:burst]] senza difficoltà. Cerca di evitare stat secondarie di [[stat:er]], poiché l’arma ne fornisce già a sufficienza."
+                        "it": "La [[stat:er]] fornita da quest'arma permette ad [[character:kamisato-ayaka]] di avere un buon tempo di funzionamento del [[ability:burst]] senza difficoltà. Cerca di evitare stat secondarie di [[stat:er]], poiché l’arma ne fornisce già a sufficienza.",
+                        "ru": "[[stat:er]] упрощает набор энергии для более частого применения [[ability:burst|Взрыва стихии]]. При использовании этого оружия следует избегать сабстатов на [[stat:er|ВЭ]] в артефактах, так как меч дает достаточное его количество."
                     }
                 }
             ]
@@ -64,7 +68,8 @@
                     "note": {
                         "en": "Lowers [[character:kamisato-ayaka]]'s [[stat:er]] requirement which allows her to allocate some of her [[stat:er]] substats to other offensive substats.",
                         "fr": "Réduit les besoins en [[stat:er]] de [[character:kamisato-ayaka]], ce qui lui permet de remplacer une partie de ses substats de [[stat:er]] par d'autres substats offensives.",
-                        "it": "Abbassa i requisiti di [[stat:er]] di [[character:kamisato-ayaka]], permettendole di destinare alcune stat secondarie [[stat:er]] ad altre stat secondarie offensive."
+                        "it": "Abbassa i requisiti di [[stat:er]] di [[character:kamisato-ayaka]], permettendole di destinare alcune stat secondarie [[stat:er]] ad altre stat secondarie offensive.",
+                        "ru": "Снижает потребность в энергии, что позволяет дать [[character:kamisato-ayaka|Аяке]] больше направленных на урон сабстатов."
                     }
                 },
                 "the-black-sword",
@@ -79,7 +84,8 @@
                     "note": {
                         "en": "A good Crit statstick if you can keep the requirements up (having >90% [[stat:hp]]).",
                         "fr": "Une bonne statstick Crit si vous pouvez maintenir la condition (avoir >90 % de [[stat:hp]]).",
-                        "it": "Fornisce una buona quantità di stat se si riesce a mantenerne attiva la passiva, che richiede avere >90% [[stat:hp]]."
+                        "it": "Fornisce una buona quantità di stat se si riesce a mantenerne attiva la passiva, che richiede avere >90% [[stat:hp]].",
+                        "ru": "Имеет неплохие Крит. статы при соблюдении условий Пассивной способности (иметь >90% HP)."
                     }
                 }
             ]
