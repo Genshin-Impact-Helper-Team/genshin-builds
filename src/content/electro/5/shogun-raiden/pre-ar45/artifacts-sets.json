@@ -3,6 +3,7 @@
         {
             "groups": [
                 {
+                    "choose": true,
                     "items": [
                         {
                             "name": "the-exile",
@@ -11,31 +12,11 @@
                         {
                             "name": "berserker",
                             "pieces": 2
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
+                        },
                         {
                             "name": "scholar",
                             "pieces": 2
                         },
-                        {
-                            "name": "the-exile",
-                            "pieces": 2
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
                         {
                             "name": "atk-set",
                             "pieces": 2
