@@ -12,8 +12,8 @@
         },
         {
             "items": [
-                "thundering-pulse",
                 "hunters-path",
+                "thundering-pulse",
                 "skyward-harp",
                 "aqua-simulacra"
             ]
@@ -42,20 +42,25 @@
         },
         {
             "items": [
-                "amos-bow",
-                {
-                    "name": "slingshot",
-                    "refinement": 5
-                },
+                "golden-frostbound-oath"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "song-of-stillness",
                     "refinement": 5,
                     "note": {
-                        "en": "ranked under the assumption that **[[character:venti]] is healed**, thus activating its passive.",
+                        "en": "Ranked under the assumption that **[[character:venti]] is healed**, thus activating its passive. Otherwise, do not use this weapon.",
                         "fr": "Classée en supposant que **[[character:venti]] est soigné**, activant ainsi son passif.",
                         "it": "La posizione in classifica presuppone che **[[character:venti]] riceva cure**, attivando la passiva di quest'arma.",
                         "ru": "Предполагается, что **[[character:venti]] получает лечение**."
                     }
+                },
+                "amos-bow",
+                {
+                    "name": "slingshot",
+                    "refinement": 5
                 },
                 "the-viridescent-hunt"
             ]
@@ -65,13 +70,21 @@
                 {
                     "name": "rust",
                     "note": {
-                        "en": "At **[R5]** this weapon performs better than **[[weapon:amos-bow]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:amos-bow]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:amos-bow]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:amos-bow]]**."
+                        "en": "At **[R5]** this weapon performs better than **[[weapon:song-of-stillness]] [R5]**.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:song-of-stillness]] [R5]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:song-of-stillness]] [R5]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:song-of-stillness]] [R5]**."
                     }
                 },
                 "mouuns-moon"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hamayumi",
+                    "refinement": 5
+                }
             ]
         }
     ]

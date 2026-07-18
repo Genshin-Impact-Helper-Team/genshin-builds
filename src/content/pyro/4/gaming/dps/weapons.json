@@ -7,15 +7,7 @@
         },
         {
             "items": [
-                {
-                    "name": "serpent-spine",
-                    "note": {
-                        "en": "The value of [[weapon:serpent-spine]] **decreases if it is lower refinement and/or if [[character:gaming]] cannot maintain at least three stacks with it** (i.e. without a shielder).",
-                        "fr": "La valeur de [[weapon:serpent-spine]] **diminue si elle est peu raffinée et/ou si [[character:gaming]] ne peut pas maintenir au moins trois stacks avec celle-ci** (i.e. sans un bouclier).",
-                        "it": "Il valore di [[weapon:serpent-spine]] **scende se è a miglioramento più basso e/o se [[character:gaming]] non riesce a mantenere al meno tre accumuli della passiva** (es. senza la protezione di uno scudo).",
-                        "ru": "Показывает себя хуже на низких Рангах пробуждения и без возможности полной реализации Пассивной способности оружия (к примеру, за счет щита)."
-                    }
-                },
+                "a-teaspoon-of-transcendence",
                 "redhorn-stonethresher",
                 "a-thousand-blazing-suns",
                 "verdict"
@@ -23,7 +15,8 @@
         },
         {
             "items": [
-                "beacon-of-the-reed-sea"
+                "beacon-of-the-reed-sea",
+                "serpent-spine"
             ]
         },
         {

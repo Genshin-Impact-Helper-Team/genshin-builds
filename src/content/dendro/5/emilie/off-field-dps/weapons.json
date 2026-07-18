@@ -12,6 +12,7 @@
         },
         {
             "items": [
+                "fractured-halo",
                 {
                     "name": "symphonist-of-scents",
                     "note": {
@@ -33,7 +34,9 @@
         {
             "items": [
                 "primordial-jade-winged-spear",
-                "crimson-moons-semblance"
+                "crimson-moons-semblance",
+                "disaster-and-remorse",
+                "bloodsoaked-ruins"
             ]
         },
         {

@@ -22,8 +22,20 @@
         },
         {
             "items": [
+                {
+                    "name": "the-daybreak-chronicles",
+                    "note": {
+                        "en": "If [[character:tighnari]] cannot use his [[ability:burst]] every rotation, this weapon ranks below **[[weapon:golden-frostbound-oath]]**"
+                        ,"fr": "Si [[character:tighnari]] ne peut pas [[ability:burst]] à chaque rotation, cette arme se classe en dessous de **[[weapon:golden-frostbound-oath]]**"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "thundering-pulse",
                 "skyward-harp",
-                "thundering-pulse"
+                "golden-frostbound-oath"
             ]
         },
         {
@@ -50,6 +62,7 @@
         },
         {
             "items": [
+                "the-viridescent-hunt",
                 {
                     "name": "scion-of-the-blazing-sun",
                     "note": {
@@ -57,8 +70,7 @@
                         "fr": "Une fois **[R5]**, cette arme est légèrement moins bonne que **[[weapon:thundering-pulse]]**.",
                         "ru": "На **[R5]** немного уступает **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
-                },
-                "the-viridescent-hunt"
+                }
             ]
         },
         {

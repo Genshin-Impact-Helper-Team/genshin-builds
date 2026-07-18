@@ -16,5 +16,11 @@
             "en": "[[character:razor]]'s [[ability:burst]] resets the cooldown of his [[ability:skill]], as such {rot:tE > Q > tE} is the standard opener for [[character:razor]]'s combos.",
             "fr": "L'[[ability:burst]] de [[character:razor]] réinitialise le TdR de son [[ability:skill]], ce qui fait de {rot:tE > Q > tE} un bon début pour ses combos."
         }
+    ],
+    "global": [
+        {
+            "author": "Quinslay",
+            "link": "https://docs.google.com/spreadsheets/d/1CVWjcanbGexM1YbH4-jojkerigQ5yiw30R8sc07qSvQ/edit?usp=sharing"
+        }
     ]
 }

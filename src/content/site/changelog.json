@@ -5,6 +5,11 @@
             "version": "6.7 / Luna VIII",
             "entries": [
                 {
+                    "date": "July 18, 2026",
+                    "changes": "Updated Venti, Xiao, Escoffier, Emilie, Kinich, Tighnari, Flins, Ineffa, Razor, Gaming, Hu Tao, and Yoimiya section to be up to date.",
+                    "appliedBy": "Plo, Quincy, Greenster, Finnyke"
+                },
+                {
                     "date": "July 14, 2026",
                     "changes": "Updated Yae section. Merged Yae's Electro DPS sections.",
                     "appliedBy": "Quincy"
