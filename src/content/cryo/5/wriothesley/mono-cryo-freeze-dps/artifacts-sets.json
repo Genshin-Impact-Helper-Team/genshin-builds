@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "**[[character:wriothesley]] shatters [[element:freeze]]** which makes this set lose valuable uptime. Unlike **[[set:marechaussee-hunter]] (4)**, it cannot be used in [[element:melt]] teams, and loses versatility.",
-                                "fr": "**[[character:wriothesley]] brise le [[element:freeze]]**, ce qui fait perdre à ce set un uptime précieux. Contrairement à **[[set:marechaussee-hunter]] (4)**, il ne peut pas être utilisé dans les équipes [[element:melt]], ce qui lui fait perdre en polyvalence."
+                                "fr": "**[[character:wriothesley]] brise le [[element:freeze]]**, ce qui fait perdre à ce set un uptime précieux. Contrairement à **[[set:marechaussee-hunter]] (4)**, il ne peut pas être utilisé dans les équipes [[element:melt]], ce qui lui fait perdre en polyvalence.",
+                                "ru": "**[[character:wriothesley]] вызывает реакцию Разбит по [[element:freeze|Заморозке]]**, что делает этот сет менее полезным. Также, в отличие от **[[set:marechaussee-hunter|Охотника Сумеречного двора]] (4)**, он гораздо менее универсален, так как не используется при игре от [[element:melt|Таяния]]."
                             }
                         }
                     ]
