@@ -1,21 +1,29 @@
 {
     "artifact_sets": [
         {
-            "items": [
+            "groups": [
                 {
-                    "name": "shimenawa",
-                    "pieces": 4,
-                    "note": {
-                        "en": "This set is equal to [[set:crimson-witch-of-flames]] with [C0] [[character:hu-tao]], but pulls ahead with [C1] [[character:hu-tao]] due to the higher volume of [[ability:na]] and [[ability:ca]] damage that [[character:hu-tao]] deals."
-                    }
+                    "items": [
+                        {
+                            "name": "shimenawa",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is equal to [[set:crimson-witch-of-flames]] with [C0] [[character:hu-tao]], but pulls ahead with [C1] [[character:hu-tao]] due to the higher volume of [[ability:na]] and [[ability:ca]] damage that [[character:hu-tao]] deals."
+                            }
+                        }
+                    ]
                 }
             ]
         },
         {
-            "items": [
+            "groups": [
                 {
-                    "name": "crimson-witch-of-flames",
-                    "pieces": 4,
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
+                        }
+                    ]
                 }
             ]
         },
@@ -61,16 +69,20 @@
     ],
     "conditional": [
         {
-            "items": [
+            "groups": [
                 {
-                    "name": "MH",
-                    "pieces": 4,
-                    "note": {
-                        "en": "This is [[character:hu-tao]]'s best set when you can reliably get 3 stacks, which typically requires running [[character:furina]], or healer that can heal smaller amounts over time (i.e. [[character:xianyun]], [[character:chevreuse]], [[weapon:prototype-amber]]).",
-                        "fr": "Le meilleur set pour [[character:hu-tao]] si vous pouvez obtenir les 3 stacks à coup sûr, ce qui nécessite souvent de la jouer avec [[character:furina]], ou un healer qui peut soigner en continu (comme [[character:xianyun]] ou [[character:chevreuse]] par exemple).",
-                        "it": "Questo è il miglior set di [[character:hu-tao]] quando è possibile ottenere 3 accumuli in maniera affidabile, il che in genere richiede l'uso di [[character:furina]] o di un guaritore in grado di curare piccole quantità nel tempo (es. [[character:xianyun]], [[character:chevreuse]]).",
-                        "ru": "Лучший вариант, если есть возможность полностью активировать сетбонус, что обычно требует игры с [[character:furina|Фуриной]] или с персонажем с невысоким периодическим лечением (например, [[character:xianyun]] или [[character:chevreuse]])."
-                    }
+                    "items": [
+                        {
+                            "name": "MH",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is [[character:hu-tao]]'s best set when you can reliably get 3 stacks, which typically requires running [[character:furina]], or healer that can heal smaller amounts over time (i.e. [[character:xianyun]], [[character:chevreuse]], [[weapon:prototype-amber]]).",
+                                "fr": "Le meilleur set pour [[character:hu-tao]] si vous pouvez obtenir les 3 stacks à coup sûr, ce qui nécessite souvent de la jouer avec [[character:furina]], ou un healer qui peut soigner en continu (comme [[character:xianyun]] ou [[character:chevreuse]] par exemple).",
+                                "it": "Questo è il miglior set di [[character:hu-tao]] quando è possibile ottenere 3 accumuli in maniera affidabile, il che in genere richiede l'uso di [[character:furina]] o di un guaritore in grado di curare piccole quantità nel tempo (es. [[character:xianyun]], [[character:chevreuse]]).",
+                                "ru": "Лучший вариант, если есть возможность полностью активировать сетбонус, что обычно требует игры с [[character:furina|Фуриной]] или с персонажем с невысоким периодическим лечением (например, [[character:xianyun]] или [[character:chevreuse]])."
+                            }
+                        }
+                    ]
                 }
             ]
         }
