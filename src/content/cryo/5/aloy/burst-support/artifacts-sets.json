@@ -66,7 +66,7 @@
                                 "en": "This artifact set bonus only benefits a [[element:melt]]-focused [[character:aloy]], [[stat:em]] provides nothing on a [[element:freeze]] [[character:aloy]].",
                                 "fr": "Ce bonus de set d'artéfacts ne bénéficie qu'à une [[character:aloy]] orientée [[element:melt]], la [[stat:em]] n'apporte rien à une [[character:aloy]] [[element:freeze]].",
                                 "it": "Utile soltanto in team [[element:melt]], poiché la [[stat:em]] non ha alcuna utilità in team [[element:freeze]].",
-                                "ru": "Полезен только для [[element:melt]], играющей от обратного [[element:melt|Таяния]]. В [[element:freeze|Заморозке]] [[stat:em]] бесполезно."
+                                "ru": "Полезен только для [[character:aloy]], играющей от обратного [[element:melt|Таяния]]. В [[element:freeze|Заморозке]] [[stat:em]] бесполезно."
                             }
                         },
                         {
