@@ -12,11 +12,16 @@
         },
         {
             "items": [
-                "kitain-cross-spear",
+                {
+                    "name": "kitain-cross-spear",
+                    "note": {
+                        "en": "Use Elemental Mastery (EM) weapons if she's being used as a Hyperbloom trigger."
+                    }
+                },
                 {
                     "name": "moonpiercer",
                     "note": {
-                        "en": "Use these EM weapons if played in a Hyperbloom team."
+                        "en": "Use Elemental Mastery (EM) weapons if she's being used as a Hyperbloom trigger."
                     }
                 }
             ]
