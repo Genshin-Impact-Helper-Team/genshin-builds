@@ -17,7 +17,8 @@
                     "note": {
                         "en": "If [[character:shenhe]] is present on the team, this weapon performs worse than **[[weapon:skyward-harp]]**.",
                         "fr": "Si [[character:shenhe]] est présente dans l'équipe, cette arme est moins bonne que **[[weapon:skyward-harp]]**.",
-                        "it": "Se [[character:shenhe]] è presente nel team, quest'arma ha prestazioni peggiori di **[[weapon:skyward-harp]]**."
+                        "it": "Se [[character:shenhe]] è presente nel team, quest'arma ha prestazioni peggiori di **[[weapon:skyward-harp]]**.",
+                        "ru": "В отрядах с [[character:shenhe]] уступает **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 },
                 "aqua-simulacra",
@@ -33,7 +34,8 @@
                     "note": {
                         "en": "Ranking assumed [[character:ganyu]] receives healing before casting her [[ability:burst]].",
                         "fr": "Le classement suppose que [[character:ganyu]] reçoit des soins avant de lancer son [[ability:burst]].",
-                        "it": "La classifica presuppone che [[character:ganyu]] riceva cure prima di attivare il suo [[ability:burst]]."
+                        "it": "La classifica presuppone che [[character:ganyu]] riceva cure prima di attivare il suo [[ability:burst]].",
+                        "ru": ""
                     }
                 }
             ]
@@ -50,7 +52,8 @@
                     "note": {
                         "en": "This weapon scales incredibly well with refinements. At **[R5]**, this weapon performs closer to **[[weapon:amos-bow]]**.",
                         "fr": "Cette arme profite extrêmement bien des raffinements. Une fois **[R5]**, elle se rapproche davantage de **[[weapon:amos-bow]]**.",
-                        "it": "Quest'arma scala incredibilmente bene con i miglioramenti. A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:amos-bow]]**."
+                        "it": "Quest'arma scala incredibilmente bene con i miglioramenti. A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:amos-bow]]**.",
+                        "ru": ""
                     }
                 },
                 {
@@ -58,7 +61,8 @@
                     "note": {
                         "en": "Requires a weak spot hit before casting [[character:ganyu]]'s [[ability:burst]] to utilize the passive fully. At **[R5]**, this weapon peforms sligthly better (without [[character:shenhe]]) or slightly worse (with [[character:shenhe]]) than **[[weapon:skyward-harp]]**.",
                         "fr": "Nécessite de toucher un point faible avant de lancer l'[[ability:burst]] de [[character:ganyu]] afin d'exploiter pleinement le passif. Une fois **[R5]**, cette arme est légèrement meilleure (sans [[character:shenhe]]) ou légèrement moins bonne (avec [[character:shenhe]]) que **[[weapon:skyward-harp]]**.",
-                        "it": "Necessita di un colpo ad un Punto Debole prima di attivare il [[ability:burst]] per sfruttare appieno la passiva. A **[R5]**, quest'arma ha prestazioni leggermente migliori (senza [[character:shenhe]]) o leggermente peggiori (con [[character:shenhe]]) di **[[weapon:skyward-harp]]**."
+                        "it": "Necessita di un colpo ad un Punto Debole prima di attivare il [[ability:burst]] per sfruttare appieno la passiva. A **[R5]**, quest'arma ha prestazioni leggermente migliori (senza [[character:shenhe]]) o leggermente peggiori (con [[character:shenhe]]) di **[[weapon:skyward-harp]]**.",
+                        "ru": ""
                     }
                 },
                 {
@@ -66,7 +70,8 @@
                     "note": {
                         "en": "This weapon's exact performance varies with the teams total [[ability:burst]] cost. Performs better than similar options with [[character:shenhe]] present on the team.",
                         "fr": "Les performances exactes de cette arme varient selon le coût total d'[[ability:burst]] de l'équipe. Elle dépasse les options similaires lorsque [[character:shenhe]] est présente dans l'équipe.",
-                        "it": "Le prestazioni esatte di quest'arma variano in base al costo totale dei [[ability:burst]] del team. Offre prestazioni migliori rispetto ad opzioni simili quando [[character:shenhe]] è nel team."
+                        "it": "Le prestazioni esatte di quest'arma variano in base al costo totale dei [[ability:burst]] del team. Offre prestazioni migliori rispetto ad opzioni simili quando [[character:shenhe]] è nel team.",
+                        "ru": ""
                     }
                 }
             ]
