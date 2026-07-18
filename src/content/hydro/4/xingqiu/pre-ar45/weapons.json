@@ -21,7 +21,8 @@
                 {
                     "name": "harbinger-of-dawn",
                     "note": {
-                        "en": "Good if you can maintain the passive but ER weapons would be more benefitial early game"
+                        "en": "Good if you can maintain the passive but [[stat:er]] weapons would be more benefitial early game",
+                        "fr": "Bonne option si vous pouvez maintenir le passif, mais une arme [[stat:er]] serait meilleure en début de jeu"
                     }
                 }
             ]
