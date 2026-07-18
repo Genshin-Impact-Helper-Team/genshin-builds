@@ -116,7 +116,8 @@
                     "name": "lithic-blade",
                     "note": {
                         "en": "Assumes 1 stack.",
-                        "fr": "Suppose 1 stack."
+                        "fr": "Suppose 1 stack.",
+                        "ru": "Предполагается наличие 1 уровня Пассивной способности оружия."
                     }
                 }
             ]
