@@ -1,20 +1,21 @@
 {
-  "main_stats": {
-    "sands": [
-      "er",
-      "atk%"
-    ],
-    "goblet": [
-      "atk%"
-    ],
-    "circlet": [
-      "cr/cd",
-      "atk%"
+    "main_stats": {
+        "sands": [
+            "er",
+            "atk%"
+        ],
+        "goblet": [
+            "atk%"
+        ],
+        "circlet": [
+            "cr/cd",
+            "atk%"
+        ]
+    },
+    "notes": [
+        {
+            "en": "[[character:shogun-raiden|Raiden]] goes full [[stat:em]] build if played in a [[element:hyperbloom]] team.",
+            "fr": "[[character:shogun-raiden|Raiden]] se build entièrement avec de la [[stat:em]] si jouée dans une équipe [[element:hyperbloom]]."
+        }
     ]
-  },
-  "notes": [
-    {
-      "en": "[[character:shogun-raiden|Raiden]] goes full EM build if played in a hyperbloom team."
-    }
-  ]
 }

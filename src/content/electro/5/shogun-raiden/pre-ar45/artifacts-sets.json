@@ -37,7 +37,8 @@
                             "name": "instructor",
                             "pieces": 4,
                             "note": {
-                                "en": "Got-to choice in a Hyperbloom team, boosting team-wide Elemental Mastery (EM)."
+                                "en": "Got-to choice in a [[element:hyperbloom]] team, boosting team-wide [[stat:em]].",
+                                "fr": "Meilleur choix pour les équipes [[element:hyperbloom]], buffant la [[stat:em]] de toute l'équipe."
                             }
                         }
                     ]
