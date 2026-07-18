@@ -86,8 +86,8 @@
                 {
                     "name": "vortex-vanquisher",
                     "note": {
-                        "en": "If [[character:hu-tao]] is protected by a shield, this weapon equal to **[[weapon-dragons-bane]]**.",
-                        "fr": "Si [[character:hu-tao]] est protégée par un bouclier, cette arme équivaut à **[[weapon-dragons-bane]]**."
+                        "en": "If [[character:hu-tao]] is protected by a shield, this weapon equal to **[[weapon:dragons-bane]]**.",
+                        "fr": "Si [[character:hu-tao]] est protégée par un bouclier, cette arme équivaut à **[[weapon:dragons-bane]]**."
                     }
                 }
             ]
