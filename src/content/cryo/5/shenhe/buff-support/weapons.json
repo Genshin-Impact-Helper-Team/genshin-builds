@@ -64,7 +64,8 @@
                     "name": "lithic-spear",
                     "note": {
                         "en": "Ranking assumes 2 stacks.",
-                        "fr": "Le classement suppose 2 stacks."
+                        "fr": "Le classement suppose 2 stacks.",
+                        "ru": "Предполагается наличие 2-х уровней Пассивной способностей оружия."
                     }
                 }
             ]
