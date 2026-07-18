@@ -1,24 +1,28 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS"
+        "fr": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:kamisato-ayaka]] is a pretty straightforward DPS that **deals most of her damage from her [[ability:burst]]**. She has very high scalings on her [[ability:burst]] at the cost of it being 80 energy. You will likely need **another [[element:cryo]] battery on the team** to provide energy for her ([[character:diona]], [[character:kaeya]], [[character:rosaria]], etc). She has a special dash (like [[character:mona]]) and after she dashes, she will get a [[element:cryo]] infusion on her [[ability:na]]s. Ensure you always have this bonus active to maximise your rotation damage.",
             "fr": "[[character:kamisato-ayaka]] est une DPS assez simple qui **inflige la majorité de ses dégâts avec son [[ability:burst]]**. Son [[ability:burst]] possède de très hauts multiplicateurs, mais en contrepartie coûte 80 d'énergie. Vous aurez probablement besoin d'**une autre batterie [[element:cryo]] dans l'équipe** pour lui fournir de l'énergie ([[character:diona]], [[character:kaeya]], [[character:rosaria]], etc.). Elle possède un dash spécial (comme [[character:mona]]) et, après l'avoir utilisé, ses [[ability:na]]s reçoivent une infusion [[element:cryo]]. Assurez-vous de toujours garder ce bonus actif afin de maximiser les dégâts de votre rotation.",
-            "it": "[[character:kamisato-ayaka]] è una DPS piuttosto intuitiva che **infligge la maggior parte dei suoi danni tramite il suo [[ability:burst]]**. Il suo [[ability:burst]] è di grande efficacia ma richiede 80 Energia, e per questo è solitamente necessario includere nel team **un altro personaggio [[element:cryo]]** in grado di generare particelle di Energia. Ha uno scatto speciale (come [[character:mona]]), e dopo averlo utilizzato, ottiene un’infusione Cryo ai suoi [[ability:na|Attacchi Normali]]. Assicurati di mantenere sempre attivo questo effetto per massimizzare i danni durante la rotazione."
+            "it": "[[character:kamisato-ayaka]] è una DPS piuttosto intuitiva che **infligge la maggior parte dei suoi danni tramite il suo [[ability:burst]]**. Il suo [[ability:burst]] è di grande efficacia ma richiede 80 Energia, e per questo è solitamente necessario includere nel team **un altro personaggio [[element:cryo]]** in grado di generare particelle di Energia. Ha uno scatto speciale (come [[character:mona]]), e dopo averlo utilizzato, ottiene un’infusione Cryo ai suoi [[ability:na|Attacchi Normali]]. Assicurati di mantenere sempre attivo questo effetto per massimizzare i danni durante la rotazione.",
+            "ru": "[[character:kamisato-ayaka]] - довольно простой в использовании ДД, который наносит большую часть урона за счёт [[ability:burst|Взрыва стихии]]. Он имеет достаточно высокие множители урона при стоимости в 80 единиц энергии. Вероятно, что понадобится второй [[element:cryo]] персонаж в качестве батарейки ([[character:diona]], [[character:kaeya]], [[character:rosaria]], и др.). [[character:kamisato-ayaka|Аяка]] также имеет альтернативный спринт (как у [[character:mona|Моны]]) и получает [[element:cryo]] инфузию на [[ability:na|Обычные атаки]] после его применения. Этот эффект должен постоянно поддерживаться."
         },
         {
             "en": "[[character:kamisato-ayaka]]'s [[ability:ca]], [[ability:skill]] and [[ability:burst]] is able to hit enemies sucked inside [[character:venti]]'s [[ability:burst]].",
             "fr": "L'[[ability:ca]], le [[ability:skill]] et l'[[ability:burst]] de [[character:kamisato-ayaka]] peuvent toucher les ennemis aspirés dans l'[[ability:burst]] de [[character:venti]].",
-            "it": "L'[[ability:ca]], l'[[ability:skill]] ed il [[ability:burst]] di [[character:kamisato-ayaka]] sono in grado di colpire i nemici risucchiati all'interno del [[ability:burst]] di [[character:venti]]."
+            "it": "L'[[ability:ca]], l'[[ability:skill]] ed il [[ability:burst]] di [[character:kamisato-ayaka]] sono in grado di colpire i nemici risucchiati all'interno del [[ability:burst]] di [[character:venti]].",
+            "ru": "[[ability:ca|Заряженные атаки]], [[ability:skill]] и [[ability:burst]] стихии [[character:kamisato-ayaka|Аяки]] попадают по врагам внутри [[ability:burst|Взрыва стихии]] [[character:venti]]."
         },
         {
             "en": "Her [[ability:burst]] also stays in place on frozen enemies and slightly knocks enemies away when they're not frozen.",
             "fr": "Son [[ability:burst]] reste sur les ennemis gelés et repousse légèrement les ennemis qui ne le sont pas.",
-            "it": "Il suo [[ability:burst]] rimane in posizione sui nemici Congelati, e respinge leggermente i nemici non Congelati."
+            "it": "Il suo [[ability:burst]] rimane in posizione sui nemici Congelati, e respinge leggermente i nemici non Congelati.",
+            "ru": "Её [[ability:burst]] также тормозит на замороженных врагах и слегка отбрасывает незамороженных противников."
         }
     ]
 }

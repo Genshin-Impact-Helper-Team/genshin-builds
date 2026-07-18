@@ -1,13 +1,15 @@
 {
     "name": {
         "en": "Mono [[element:cryo]] / [[element:freeze]] DPS",
-        "fr": "DPS Mono [[element:cryo]] / [[element:freeze]]"
+        "fr": "DPS Mono [[element:cryo]] / [[element:freeze]]",
+        "ru": "ДД в моно-[[element:cryo]] / [[element:freeze|Заморозке]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:wriothesley]] can use the Mono [[element:cryo]] and [[element:freeze]] teams to benefit from [[element:cryo]] resonance. However, as [[character:wriothesley]]'s [[ability:ca]] shatters, [[element:freeze]] is not extremely consistent. Mono [[element:cryo]] removes the [[element:freeze]] aspect in order to slot another [[element:cryo]] support.",
-            "fr": "[[character:wriothesley]] peut utiliser les équipes Mono [[element:cryo]] et [[element:freeze]] pour bénéficier de la résonance [[element:cryo]]. Cependant, comme les [[ability:ca]] de [[character:wriothesley]] brisent le [[element:freeze]], le [[element:freeze]] n'est pas extrêmement constant. Mono [[element:cryo]] retire l'aspect [[element:freeze]] afin d'ajouter un autre support [[element:cryo]]."
+            "fr": "[[character:wriothesley]] peut utiliser les équipes Mono [[element:cryo]] et [[element:freeze]] pour bénéficier de la résonance [[element:cryo]]. Cependant, comme les [[ability:ca]] de [[character:wriothesley]] brisent le [[element:freeze]], le [[element:freeze]] n'est pas extrêmement constant. Mono [[element:cryo]] retire l'aspect [[element:freeze]] afin d'ajouter un autre support [[element:cryo]].",
+            "ru": "[[character:wriothesley]] может играть в моно-[[element:cryo]] / [[element:freeze|Заморозке]] и извлекать пользу из [[element:cryo]] резонанса. Однако [[ability:ca|Заряженные атаки]] [[character:wriothesley]] вызывают реакцию Разбит, что делает этот вариант очень нестабильным. Моно-[[element:cryo]] же исключает [[element:freeze|Заморозку]], заменяя Гидро персонажа на еще одного Крио саппорта."
         }
     ]
 }

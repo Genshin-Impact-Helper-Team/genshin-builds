@@ -2,24 +2,28 @@
     "name": {
         "en": "Buff Support",
         "fr": "Support Buff",
-        "it": "Supporto Potenziamento"
+        "it": "Supporto Potenziamento",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:shenhe]] is a Support for [[element:cryo]] characters, capable of providing damage buffs from her [[ability:skill]] and dealing damage while providing [[element:cryo]] and Physical resistance shred from her [[ability:burst]]. **Her [[ability:skill]] gives a few stacks of additional flat damage bonus to all nearby party members (5 stacks on Tap and 7 stacks on Hold)**. This additional flat damage bonus **only works on [[element:cryo]] attacks**, so characters who don't use [[element:cryo]] attacks don't benefit from [[character:shenhe]]'s [[ability:skill]], do note that **[[element:cryo]] infusion from [[element:anemo]] characters does act as a [[element:cryo]] attack, so it benefits from [[character:shenhe]]'s [[ability:skill]]**. Another thing to note is that **the additional flat damage bonus [[character:shenhe]] provides uses [[character:shenhe]]'s current ATK, so it doesn't snapshot.**",
             "fr": "[[character:shenhe]] est un Support pour les personnages [[element:cryo]], capable d'apporter des buffs de dégâts avec son [[ability:skill]] et d'infliger des dégâts tout en offrant une réduction de résistance [[element:cryo]] et Physique avec son [[ability:burst]]. **Son [[ability:skill]] donne quelques stacks de bonus de dégâts supplémentaires à tous les personnages à proximité (5 stacks en Tap et 7 stacks en Hold)**. Ce bonus de dégâts supplémentaires **ne fonctionne que sur les attaques [[element:cryo]]**, donc les personnages qui n'utilisent pas d'attaques [[element:cryo]] ne bénéficient pas du [[ability:skill]] de [[character:shenhe]]. Notez que **l'infusion [[element:cryo]] des personnages [[element:anemo]] compte bien comme une attaque [[element:cryo]] et en bénéficient donc bien**. Il faut aussi noter que **le bonus de dégâts supplémentaires fourni par [[character:shenhe]] utilise l'ATQ actuelle de [[character:shenhe]], donc il ne snapshot pas.**",
-            "it": "[[character:shenhe]] è un Supporto per personaggi [[element:cryo]] in grado di fornire bonus ai danni tramite la sua [[ability:skill]], e di infliggere danni e ridurre la RES [[element:cryo]] e Fisica dei nemici tramite il [[ability:burst]]. **La sua [[ability:skill]] fornisce alcuni accumuli di DAN Bonus Additivo fisso a tutti i membri del team (5 accumuli se l'Abilità è cliccata e 7 se premuta a lungo)**. Questo DAN Bonus Additivo fisso funziona **solo sugli attacchi [[element:cryo]]** (nota che anche l’infusione [[element:cryo]] dei personaggi [[element:anemo]] conta come attacco [[element:cryo]]).  Un’altra cosa da tenere a mente è che **il DAN Bonus Additivo fisso fornito da [[character:shenhe]] si basa sul suo ATT attuale, che si aggiorna in tempo reale e che quindi non può essere 'snapshottato'**."
+            "it": "[[character:shenhe]] è un Supporto per personaggi [[element:cryo]] in grado di fornire bonus ai danni tramite la sua [[ability:skill]], e di infliggere danni e ridurre la RES [[element:cryo]] e Fisica dei nemici tramite il [[ability:burst]]. **La sua [[ability:skill]] fornisce alcuni accumuli di DAN Bonus Additivo fisso a tutti i membri del team (5 accumuli se l'Abilità è cliccata e 7 se premuta a lungo)**. Questo DAN Bonus Additivo fisso funziona **solo sugli attacchi [[element:cryo]]** (nota che anche l’infusione [[element:cryo]] dei personaggi [[element:anemo]] conta come attacco [[element:cryo]]).  Un’altra cosa da tenere a mente è che **il DAN Bonus Additivo fisso fornito da [[character:shenhe]] si basa sul suo ATT attuale, che si aggiorna in tempo reale e che quindi non può essere 'snapshottato'**.",
+            "ru": "[[character:shenhe]] - саппорт для [[element:cryo]] персонажей, способный увеличивать их урон [[ability:skill|Элементальным навыком]] и снижать [[element:cryo]] и Физ. сопротивление [[ability:burst|Взрывом стихии]]. **[[ability:skill]] дает фиксированный бонус урона другим персонажам (5 зарядов при быстром нажатии и 7 зарядов - при долгом)**. Этот бонус применяется **только к [[element:cryo]] атакам**. Следует отметить, что [[element:anemo]] персонажи тоже получают бонус [[character:shenhe]], когда наносят урон поглощенным [[element:cryo]] элементом. Важно и то, что бонус зависит от её текущей силы атаки, а не фиксирует значение силы атаки на момент активации навыка."
         },
         {
             "en": "[[character:shenhe]]'s Tap [[ability:skill]] gives a teamwide 15% DMG boost to [[ability:skill]] and [[ability:burst]] DMG. This lasts 10 seconds.",
             "fr": "Le Tap [[ability:skill]] de [[character:shenhe]] donne à toute l'équipe un bonus de DGT de 15 % aux DGT de [[ability:skill]] et d'[[ability:burst]]. Il dure 10 secondes.",
-            "it": "L'[[ability:skill]] cliccata di [[character:shenhe]] fornisce 15% DAN ai danni da [[ability:skill]] e [[ability:burst]] di tutto il team, con una durata di 10 secondi."
+            "it": "L'[[ability:skill]] cliccata di [[character:shenhe]] fornisce 15% DAN ai danni da [[ability:skill]] e [[ability:burst]] di tutto il team, con una durata di 10 secondi.",
+            "ru": "Короткое нажатие [[ability:skill|Элементального навыка]] [[character:shenhe]] увеличивает урон [[ability:skill|Элементальных навыков]] и [[ability:burst|Взрывов стихии]] отряда на 15% в течение 10 секунд."
         },
         {
             "en": "[[character:shenhe]]'s Hold [[ability:skill]] gives a teamwide 15% DMG boost to [[ability:na]], [[ability:ca]], and Plunge Attack DMG. This lasts 15 seconds.",
             "fr": "Le Hold [[ability:skill]] de [[character:shenhe]] donne à toute l'équipe un bonus de DGT de 15 % aux DGT d'[[ability:na]], d'[[ability:ca]] et d'attaque plongeante. Il dure 15 secondes.",
-            "it": "L'[[ability:skill]] premuta a lungo di [[character:shenhe]] fornisce 15% DAN ai danni da [[ability:na]], [[ability:ca]] ed Attacco in picchiata di tutto il team, con una durata di 15 secondi."
+            "it": "L'[[ability:skill]] premuta a lungo di [[character:shenhe]] fornisce 15% DAN ai danni da [[ability:na]], [[ability:ca]] ed Attacco in picchiata di tutto il team, con una durata di 15 secondi.",
+            "ru": "Долгое нажатие [[ability:skill|Элементального навыка]] увеличивает урон [[ability:na|Обычных]], [[ability:ca|Заряженных атак]] и атак в падении на 15% в течение 15 секунд."
         }
     ]
 }

@@ -7,7 +7,8 @@
                     "note": {
                         "en": "This weapon is much harder to optimize with, due to having a very high [[stat:cr]] stat.",
                         "fr": "Cette arme est beaucoup plus difficile à optimiser, car elle possède une stat de [[stat:cr]] très élevée.",
-                        "it": "Quest'arma è molto difficile da ottimizzare, a causa del suo elevato [[stat:cr]]."
+                        "it": "Quest'arma è molto difficile da ottimizzare, a causa del suo elevato [[stat:cr]].",
+                        "ru": "Подбор артефактов может быть затруднительным из-за высокого [[stat:cr|Шанса крит. попадания]]."
                     }
                 }
             ]
@@ -32,7 +33,8 @@
                     "note": {
                         "en": "In quickswap heavy rotations ([[character:ganyu]] [[character:mona]] [[character:venti]] [[character:diona]]) where you usually don't do a lot of [[ability:ca]]s, this weapon performs worse than the other 5 star options listed.",
                         "fr": "Dans les rotations quickswap ([[character:ganyu]] [[character:mona]] [[character:venti]] [[character:diona]]) où vous ne faites généralement pas beaucoup d'[[ability:ca]]s, cette arme est moins bonne que les autres options 5 étoiles listées.",
-                        "it": " In rotazioni con molti scambi tra personaggi (come Ganyu/Mona/Venti/Diona) dove non si eseguono molti [[ability:ca|Attacchi Caricati]], quest'arma ha prestazioni peggiori rispetto alle altre opzioni a 5 stelle elencate."
+                        "it": " In rotazioni con molti scambi tra personaggi (come Ganyu/Mona/Venti/Diona) dove non si eseguono molti [[ability:ca|Attacchi Caricati]], quest'arma ha prestazioni peggiori rispetto alle altre opzioni a 5 stelle elencate.",
+                        "ru": "В ротациях с быстрой сменой персонажей ([[character:ganyu]] [[character:mona]] [[character:venti]] [[character:diona]]) с минимальным использованием [[ability:ca|Заряженных атак]] может уступать другим пятизвездочным вариантам."
                     }
                 },
                 {
@@ -41,7 +43,8 @@
                     "note": {
                         "en": "Ranking assumed [[character:ganyu]] receives healing before casting her [[ability:burst]].",
                         "fr": "Le classement suppose que [[character:ganyu]] reçoit des soins avant de lancer son [[ability:burst]].",
-                        "it": "La classifica presuppone che [[character:ganyu]] riceva cure prima di attivare il suo [[ability:burst]]."
+                        "it": "La classifica presuppone che [[character:ganyu]] riceva cure prima di attivare il suo [[ability:burst]].",
+                        "ru": "Предполагается, что [[character:ganyu]] получает лечение до активации [[ability:burst|Взрыва стихии]]."
                     }
                 }
             ]
@@ -53,7 +56,8 @@
                     "note": {
                         "en": "Requires a weak spot hit before casting [[character:ganyu]]'s [[ability:burst]] to utilize the passive fully. At **[R5]**, this weapon peforms close to **[[weapon:skyward-harp]]**.",
                         "fr": "Nécessite de toucher un point faible avant de lancer l'[[ability:burst]] de [[character:ganyu]] afin d'exploiter pleinement le passif. Une fois **[R5]**, cette arme se rapproche de **[[weapon:skyward-harp]]**.",
-                        "it": "Necessita di un colpo ad un Punto Debole prima del [[ability:burst]] per sfruttare appieno la passiva. A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**."
+                        "it": "Necessita di un colpo ad un Punto Debole prima del [[ability:burst]] per sfruttare appieno la passiva. A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**.",
+                        "ru": "Требуется ударить по слабому месту до активации [[ability:burst|Взрыва стихий]], чтобы сработала Пассивная способность. На **[R5]** близок по силе к **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 },
                 {
@@ -61,7 +65,8 @@
                     "note": {
                         "en": "This weapon's exact performance varies with the teams total [[ability:burst]] cost. At **[R5]**, this weapon performs similar to **[[weapon:thundering-pulse]]**.",
                         "fr": "Les performances exactes de cette arme varient selon le coût total d'[[ability:burst]] de l'équipe. Une fois **[R5]**, cette arme équivaut à **[[weapon:thundering-pulse]]**.",
-                        "it": "Le prestazioni esatte di quest'arma variano in base al costo totale dei [[ability:burst|Tripudi]] del team. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:thundering-pulse]]**."
+                        "it": "Le prestazioni esatte di quest'arma variano in base al costo totale dei [[ability:burst|Tripudi]] del team. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:thundering-pulse]]**.",
+                        "ru": "Сила оружия зависит от стоимости [[ability:burst|Взрывов стихии]] отряда. На **[R5]** соответствует **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 }
             ]

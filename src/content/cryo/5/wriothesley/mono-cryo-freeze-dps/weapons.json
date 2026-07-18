@@ -30,7 +30,8 @@
                     "name": "flowing-purity",
                     "note": {
                         "en": "This weapon is more potent if you can reliably clear the [[ability:bol]]. If you can, this weapon is equal or better than **[[weapon:the-widsith]]**.",
-                        "fr": "Cette arme est plus puissante si vous pouvez retirer l'[[ability:bol]] de façon fiable. Si vous le pouvez, cette arme équivaut à **[[weapon:the-widsith]]**, voire la dépasse."
+                        "fr": "Cette arme est plus puissante si vous pouvez retirer l'[[ability:bol]] de façon fiable. Si vous le pouvez, cette arme équivaut à **[[weapon:the-widsith]]**, voire la dépasse.",
+                        "ru": "Работает лучше всего, если [[ability:bol]] стабильно снимается. При выполнении этого условия может соответствовать **[[weapon:the-widsith|Песни странника]]** или превосходить её."
                     }
                 }
             ]
