@@ -86,7 +86,15 @@
                                 "it": "Questo è il miglior set di [[character:hu-tao]] quando è possibile ottenere 3 accumuli in maniera affidabile, il che in genere richiede l'uso di [[character:furina]] o di un guaritore in grado di curare piccole quantità nel tempo (es. [[character:xianyun]], [[character:chevreuse]]).",
                                 "ru": "Лучший вариант, если есть возможность полностью активировать сетбонус, что обычно требует игры с [[character:furina|Фуриной]] или с персонажем с невысоким периодическим лечением (например, [[character:xianyun]] или [[character:chevreuse]])."
                             }
-                        },
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
                         {
                             "name": "notsu",
                             "pieces": 4,
