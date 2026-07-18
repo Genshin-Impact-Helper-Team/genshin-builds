@@ -5,14 +5,6 @@
                 {
                     "items": [
                         {
-                            "name": "crimson-witch-of-flames",
-                            "pieces": 4
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
                             "name": "shimenawa",
                             "pieces": 4,
                             "note": {
@@ -21,6 +13,14 @@
                                 "it": "Questo set risulta in danni da [[ability:na]] ed [[ability:ca]] più alti rispetto a **[[set:crimson-witch-of-flames]] (4)**, ma riduce i danni da [[ability:burst]], impattando i danni ad area. Inoltre, l'impossibilità di utilizzare il [[ability:burst]] può condurre a problemi di sopravvivenza.",
                                 "ru": "Дает больший бонус к урону [[ability:na|Обычных]] и [[ability:ca|Заряженных атак]], нежели **[[set:crimson-witch-of-flames]] (4)**, но не влияет на [[ability:burst]] (наносящий урон по площади). Если возникают проблемы с использованием [[ability:burst|Взрыва стихии]], набор также может негативно сказаться на выживаемости в отсутствие хилера в отряде."
                             }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
                         }
                     ]
                 }
