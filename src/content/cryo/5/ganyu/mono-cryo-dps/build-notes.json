@@ -2,19 +2,22 @@
     "name": {
         "en": "Mono [[element:cryo]] DPS",
         "fr": "DPS Mono [[element:cryo]]",
-        "it": "DPS Mono [[element:cryo]]"
+        "it": "DPS Mono [[element:cryo]]",
+        "ru": "ДД в моно-[[element:cryo]]"
     },
     "best": true,
     "notes": [
         {
             "en": "Mono [[element:cryo]] [[character:ganyu]] teams utilize **[[set:blizzard-strayer]] (4)** and [[element:cryo]] Resonance while having [[character:ganyu]] on field dealing damage through both her [[ability:ca]]s and [[ability:burst]].",
             "fr": "Les équipes Mono [[element:cryo]] de [[character:ganyu]] utilisent **[[set:blizzard-strayer]] (4)** et la résonance [[element:cryo]], tout en gardant [[character:ganyu]] on-field pour infliger des dégâts avec ses [[ability:ca]]s et son [[ability:burst]].",
-            "it": "I team Mono [[element:cryo]] sfruttano il set **[[set:blizzard-strayer]] (4)** e la Risonanza [[element:cryo]] con [[character:ganyu]] in campo, infliggendo danni sia con i suoi [[ability:ca|Attacchi Caricati]] che con il suo [[ability:burst]]."
+            "it": "I team Mono [[element:cryo]] sfruttano il set **[[set:blizzard-strayer]] (4)** e la Risonanza [[element:cryo]] con [[character:ganyu]] in campo, infliggendo danni sia con i suoi [[ability:ca|Attacchi Caricati]] che con il suo [[ability:burst]].",
+            "ru": "В моно-[[element:cryo]] [[character:ganyu]] использует и [[ability:ca|Заряженные атаки]], и [[ability:burst]], а отряд может реализовать бонусы **[[set:blizzard-strayer|Заблудшего в метели]] (4)** и [[element:cryo]] резонанса."
         },
         {
             "en": "When using **[[set:blizzard-strayer]] (4)**, [[character:ganyu]] reaches max [[stat:cr]] with a base of 45% on her [[ability:ca]]s and a base of 65% on her [[ability:burst]]. Anything between 45% and 55% [[stat:cr]] is a nice point to be at without sacrificing too much damage on either end.",
             "fr": "Avec **[[set:blizzard-strayer]] (4)**, [[character:ganyu]] atteint le [[stat:cr]] maximal avec une base de 45% sur ses attaques chargées et une base de 65% sur son [[ability:burst]]. Entre 45% et 55% de [[stat:cr]] est un bon point d'équilibre sans trop sacrifier de dégâts d'un côté ou de l'autre.",
-            "it": "Con **[[set:blizzard-strayer]] (4)**, [[character:ganyu]] raggiunge il [[stat:cr]] massimo a 45% per gli [[ability:ca|Attacchi Caricati]] e a 65% per il [[ability:burst]]. Qualsiasi valore compreso tra il 45% e il 55% di [[stat:cr]] è un buon punto di equilibrio senza sacrificare troppo danno su entrambi i fronti."
+            "it": "Con **[[set:blizzard-strayer]] (4)**, [[character:ganyu]] raggiunge il [[stat:cr]] massimo a 45% per gli [[ability:ca|Attacchi Caricati]] e a 65% per il [[ability:burst]]. Qualsiasi valore compreso tra il 45% e il 55% di [[stat:cr]] è un buon punto di equilibrio senza sacrificare troppo danno su entrambi i fronti.",
+            "ru": "При использовании **[[set:blizzard-strayer|Заблудшего в метели]] (4)** для достижения капа [[stat:cr|Шанса крит. попадания]] [[ability:ca|Заряженных атак]] нужно 45%, [[ability:burst|Взрыва стихии]] - 65%. В целом, 45-55% - это неплохая цифра, позволяющая обойтись без значимых потерь в уроне."
         }
     ]
 }
