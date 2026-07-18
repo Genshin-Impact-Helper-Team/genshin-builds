@@ -16,7 +16,7 @@
             "en": "Normal combo while no [[ability:burst]]: {rot:NA Spam > tE > N Spam > tE}",
             "fr": "Combo normal sans [[ability:burst]] : {rot:N Spam > tE > N Spam > tE}",
             "it": "Combo normale senza [[ability:burst]]: {rot:NA a ripetizione > tE > NA a ripetizione > tE}",
-            "ru": "Обычное комбо без [[ability:burst|Взрыва стихии]]: {rot:NA Spam > tE > N Spam > tE}"
+            "ru": "Обычное комбо без [[ability:burst|Взрыва стихии]]: {rot: спам NA > tE > спам N > tE}"
         },
         {
             "en": "[[ability:burst]] combo: {rot:tE Q N4 hE N4}",
