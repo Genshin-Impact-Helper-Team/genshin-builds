@@ -10,7 +10,8 @@
                 {
                     "name": "staff-of-the-scarlet-sands",
                     "note": {
-                        "en": "With this weapon, **[[set:gilded-dreams]]** becomes similar to **[[set:crimson-witch-of-flames]]**."
+                        "en": "With this weapon, **[[set:gilded-dreams]]** becomes similar to **[[set:crimson-witch-of-flames]]**.",
+                        "fr": "Avec cette arme, **[[set:gilded-dreams]]** devient similaire à **[[set:crimson-witch-of-flames]]**."
                     }
                 }
             ]
@@ -21,7 +22,8 @@
                 {
                     "name": "disaster-and-remorse",
                     "note": {
-                        "en": "With Hexerei: Secret Rite, this weapon ranks above **fractured-halo**."
+                        "en": "With [[ability:hexerei]]: Secret Rite, this weapon ranks above **[[weapon:fractured-halo]]**.",
+                        "fr": "Dans une équipe [[ability:hexerei]], cette arme dépasse **[[weapon:fractured-halo]]**."
                     }
                 }
             ]
@@ -38,13 +40,15 @@
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "Assumes the passive is active. At [R5], this weapon ranks higher than **[[weapon:fractured-halo]]**."
+                        "en": "Assumes the passive is active. At **[R5]**, this weapon ranks higher than **[[weapon:fractured-halo]]**.",
+                        "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme dépasse **[[weapon:fractured-halo]]**."
                     }
                 },
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At [R5], this weapon ranks higher than **[[weapon:lumidouce-elegy]]**."
+                        "en": "At **[R5]**, this weapon ranks higher than **[[weapon:lumidouce-elegy]]**.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:lumidouce-elegy]]**."
                     }
                 }
             ]
@@ -54,7 +58,8 @@
                 {
                     "name": "crimson-moons-semblance",
                     "note": {
-                        "en": "If Hu Tao is **not** healed, thus preserving the [[ability:bol]], this weapon can rank above **[[weapon:fractured-halo]]**."
+                        "en": "If [[character:hu-tao]] is **not** healed, thus preserving the [[ability:bol]], this weapon can rank above **[[weapon:fractured-halo]]**.",
+                        "fr": "Si [[character:hu-tao]] n'est **pas** soignée, et conserve donc son [[ability:bol]], cette arme peut dépasser **[[weapon:fractured-halo]]**."
                     }
                 },
                 "bloodsoaked-ruins",
@@ -66,7 +71,8 @@
                 {
                     "name": "dragons-bane",
                     "note": {
-                        "en": "At [R5], this weapon ranks above **[[weapon:crimson-moons-semblance]]**."
+                        "en": "At **[R5]**, this weapon ranks above **[[weapon:crimson-moons-semblance]]**.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
                     }
                 },
                 "vortex-vanquisher"
@@ -94,7 +100,8 @@
                 {
                     "name": "lithic-spear",
                     "note": {
-                        "en": "Assumes two stacks of the passive. At [R5], this weapon ranks above **[[weapon:calamity-queller]]** with two stacks."
+                        "en": "Assumes two stacks of the passive. At **[R5]** with two stack, this weapon ranks above **[[weapon:calamity-queller]]**."
+                        ,"fr": "Suppose deux cumuls du passif. Une fois **[R5]** avec deux cumuls, cette arme dépasse **[[weapon:calamity-queller]]**."
                     }
                 }
             ]
