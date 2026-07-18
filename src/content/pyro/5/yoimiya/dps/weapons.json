@@ -65,7 +65,7 @@
             "items": [
                 {
                     "name": "hamayumi",
-                    "refinement": 5
+                    "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:yoimiya]] is **not** at 100% of her max energy because of [[set:shimenawa]]. If you get ~50% uptime with the passive, this weapon ranks above **[[weapon:amos-bow]]**. If the passive is always active, this weapon ranks equal to [[weapon:slingshot]]."
                     }
