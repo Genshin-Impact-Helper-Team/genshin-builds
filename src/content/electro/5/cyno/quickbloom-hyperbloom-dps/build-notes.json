@@ -2,26 +2,31 @@
     "name": {
         "en": "Quickbloom / [[element:hyperbloom]] DPS",
         "fr": "DPS Quickbloom / [[element:hyperbloom]]",
-        "it": "DPS [[element:aggravate]] / [[element:hyperbloom]]"
+        "it": "DPS [[element:aggravate]] / [[element:hyperbloom]]",
+        "ru": "ДД через [[element:aggravate]] с бутонами"
     },
     "best": true,
     "notes": [
         {
             "en": "**[In-depth guide](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) from Cyno Mains**",
-            "fr": "**[Guide détaillé](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) des Cyno Mains (en anglais)**"
+            "fr": "**[Guide détaillé](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) des Cyno Mains (en anglais)**",
+            "ru": "**[Подробное руководство](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) от Cyno Mains**"
         },
         {
             "en": "[[character:cyno]] in Quickbloom/[[element:hyperbloom]] involves building for a mixture of talent, [[element:aggravate]] and [[element:hyperbloom]] damage with a [[element:hydro]] unit on the team.",
             "fr": "[[character:cyno]] en Quickbloom/[[element:hyperbloom]] implique de build pour les dégâts de plusieurs talents, de [[element:aggravate]] et d'[[element:hyperbloom]] avec un personnage [[element:hydro]] dans l'équipe.",
-            "it": "La build di [[character:cyno]] come DPS [[element:aggravate]]/[[element:hyperbloom]] si concentra su un mix di danni da Talento, da [[element:aggravate]] e da [[element:hyperbloom]] con un personaggio [[element:hydro]] nel team."
+            "it": "La build di [[character:cyno]] come DPS [[element:aggravate]]/[[element:hyperbloom]] si concentra su un mix di danni da Talento, da [[element:aggravate]] e da [[element:hyperbloom]] con un personaggio [[element:hydro]] nel team.,",
+            "ru": "[[character:cyno]] в [[element:aggravate|Обострении]] с бутонами наносит урон как собственными способностями, так и за счёт реакций [[element:aggravate]] и [[element:hyperbloom]]. Необходимо наличие [[element:hydro]] персонажа в отряде."
         },
         {
             "en": "[[set:thundering-fury]] (4): {rot:E N1 Q E 6[N4E]}",
-            "fr": "[[set:thundering-fury]] (4): {rot:E N1 A E 6[N4E]}"
+            "fr": "[[set:thundering-fury]] (4): {rot:E N1 A E 6[N4E]}",
+            "ru": "[[set:thundering-fury]] (4): {rot:E N1 A E 6[N4E]}"
         },
         {
             "en": "Non-[[set:thundering-fury]]: {rot:E N1 Q N2E 3[N5 N2E]}",
-            "fr": "Non-[[set:thundering-fury]]: {rot:E N1 A N2E 3[N5 N2E]}"
+            "fr": "Non-[[set:thundering-fury]]: {rot:E N1 A N2E 3[N5 N2E]}",
+            "ru": "Не-[[set:thundering-fury]]: {rot:E N1 Q N2E 3[N5 N2E]}"
         }
     ],
     "global": [
