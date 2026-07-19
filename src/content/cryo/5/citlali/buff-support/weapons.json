@@ -7,23 +7,46 @@
         },
         {
             "items": [
-                "ttds",
-                "favonius-codex",
+                {
+                    "name": "angelos-heptades",
+                    "note": {
+                        "en": "After reaching [[stat:energy-recharge]] requirements, to maximize the team buff provided by this weapon, you can build **[[stat:atk%]]** for artifact main stats and sub stats."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ttds",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Only use this weapon if a teammate, who does significant damage, benefits from **[[stat:atk%]]**."
+                    }
+                },
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "Best used in teams where multiple units benefit from **[[stat:atk]]**."
+                    }
+                },
+                "favonius-codex"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "etherlight-spindlelute",
-                    "refinement": "5"
+                    "refinement": 5
                 },
-                "sacrificial-fragments",
-                "wandering-evenstar"
+                "sacrificial-fragments"
             ]
-        }
-    ],
-    "notes": [
+        },
         {
-            "en": "At high refinements, **[[weapon:wandering-evenstar]]** can be a better option than **[[weapon:ttds]]** if the team has multiple attack scaling units with significant damage share. In hypercarry style teams, **[[weapon:ttds]]** tends to be better. The other weapons can be a great option if the team damage **doesn't scale off of ATK**.",
-            "fr": "A haut raffinement, **[[weapon:wandering-evenstar]]** peut être une meilleure option que **[[weapon:ttds]]** si l'équipe est composée de plusieurs personnages qui scalent ATQ avec une part de dégâts importante. Dans les équipes hypercarry, **[[weapon:ttds]]** est généralement meilleure. Les autres armes du classement peuvent être de meilleures options si les dégâts de l'équipe **ne scalent pas sur l'ATQ**.",
-            "it": "A miglioramenti alti, **[[weapon:wandering-evenstar]]** può essere una scelta migliore di **[[weapon:ttds]]** se il team include più personaggi che scalano su ATT e che infliggono una quantità significativa di danni. In team 'hypercarry', dove un solo personaggio infligge la grande maggioranza dei danni del team, **[[weapon:ttds]]** è solitamente la scelta migliore (se tale personaggio 'hypercarry' scala su ATT). Le altre armi presenti in classifica possono rappresentare un’ottima alternativa se i danni del team **non scalano su ATT**.",
-            "ru": "На высоких рангах пробуждения **[[weapon:wandering-evenstar]]** может превосходить **[[weapon:ttds|Эпос]]** в отрядах, в которых несколько персонажей играют от Силы атаки и наносят урон. В отрядах, где урон идёт преимущественно от одного персонажа, **[[weapon:ttds]]** зачастую полезнее. Другие же катализаторы могут быть лучше, если **отряд не нуждается в Силе атаки**."
+            "items": [
+                "blackmarrow-lantern",
+                "fruit-of-fulfillment"
+            ]
         }
     ]
 }
