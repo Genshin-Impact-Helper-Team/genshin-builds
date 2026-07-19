@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is equal to [[set:crimson-witch-of-flames]] with [C0] [[character:hu-tao]], but pulls ahead with [C1] [[character:hu-tao]] due to the higher volume of [[ability:na]] and [[ability:ca]] damage that [[character:hu-tao]] deals.",
-                                "fr": "Ce set équivaut à [[set:crimson-witch-of-flames]] avec une [[character:hu-tao]] [C0], mais passe devant avec sa [C1] à cause de la plus grosse part de dégâts d'[[ability:na]] et d'[[ability:ca]] qu'[[character:hu-tao]] inflige."
+                                "fr": "Ce set équivaut à [[set:crimson-witch-of-flames]] avec une [[character:hu-tao]] [C0], mais passe devant avec sa [C1] à cause de la plus grosse part de dégâts d'[[ability:na]] et d'[[ability:ca]] qu'[[character:hu-tao]] inflige.",
+                                "ru": "Равен **[[set:crimson-witch-of-flames|Горящей алой ведьме]]** на [C0] [[character:hu-tao]] и превосходит её, если у [[character:hu-tao]] есть [C1] (за счёт большего количества урона от [[ability:na|Обычных]] и [[ability:ca|Заряженных атак]])."
                             }
                         }
                     ]
@@ -100,7 +101,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This is [[character:hu-tao]]'s best set if there are two Nod Krai characters to activate Moonsign: Ascendant Gleam.",
-                                "fr": "Le meilleur set de [[character:hu-tao]] s'il y a deux personnages de NodKrai pour activer le Signe Lunaire: Lueur Ascendante."
+                                "fr": "Le meilleur set de [[character:hu-tao]] s'il y a deux personnages de NodKrai pour activer le Signe Lunaire: Lueur Ascendante.",
+                                "ru": "Лучший вариант, если в отряде есть 2 персонажа из Нод-Края."
                             }
                         }
                     ]

@@ -20,7 +20,8 @@
                 {
                     "name": "hunters-path",
                     "note": {
-                        "en": "Assumes [[character:yoimiya]] is triggering [[element:vaporize]] or [[element:melt]]. Otherwise, this weapon performs worse than [[weapon:slingshot]]."
+                        "en": "Assumes [[character:yoimiya]] is triggering [[element:vaporize]] or [[element:melt]]. Otherwise, this weapon performs worse than [[weapon:slingshot]].",
+                        "ru": "Предполагается, что [[character:yoimiya]] закрывает [[element:vaporize]] или [[element:melt]]. Если нет, то это оружие уступает [[weapon:slingshot|Рогатке]]."
                     }
                 },
                 "skyward-harp"
@@ -56,7 +57,8 @@
                 {
                     "name": "rust",
                     "note": {
-                        "en": "At [R5], this weapon ranks above **[[weapon:hunters-path]]**."
+                        "en": "At [R5], this weapon ranks above **[[weapon:hunters-path]]**.",
+                        "ru": "На [R5] превосходит **[[weapon:hunters-path|Охотничью тропу]]**."
                     }
                 }
             ]
@@ -67,7 +69,8 @@
                     "name": "hamayumi",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes [[character:yoimiya]] is **not** at 100% of her max energy because of [[set:shimenawa]]. If you get ~50% uptime with the passive, this weapon ranks above **[[weapon:amos-bow]]**. If the passive is always active, this weapon ranks equal to [[weapon:slingshot]]."
+                        "en": "Assumes [[character:yoimiya]] is **not** at 100% of her max energy because of [[set:shimenawa]]. If you get ~50% uptime with the passive, this weapon ranks above **[[weapon:amos-bow]]**. If the passive is always active, this weapon ranks equal to [[weapon:slingshot]].",
+                        "ru": "Предполагается, что [[character:yoimiya]] теряет энергию из-за **[[set:shimenawa|Симэнавы]]**. Если Пассивная способность работает половину времени, то данный лук превосходит **[[weapon:amos-bow]]**. При постоянной работе Пассивной способности соответствует [[weapon:slingshot|Рогатке]]."
                     }
                 }
             ]

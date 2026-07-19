@@ -49,7 +49,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This is a more supportive artifact set that sacrifices [[character:ineffa]]'s personal damage in favor of an [[stat:atk%]] buff and an increase to her shield strength.",
-                                "fr": "C'est un set d'artéfacts plus support qui sacrifie les dégâts personnels de [[character:ineffa]] au profit d'un buff d'[[stat:atk%]] et d'une augmentation de la solidité de son bouclier."
+                                "fr": "C'est un set d'artéfacts plus support qui sacrifie les dégâts personnels de [[character:ineffa]] au profit d'un buff d'[[stat:atk%]] et d'une augmentation de la solidité de son bouclier.",
+                                "ru": "Жертвует частью личного урона [[character:ineffa|Инеффы]] в обмен на [[stat:atk%|Силу атаки%]] для отряда и более крепкий щит."
                             }
                         }
                     ]

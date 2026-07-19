@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "Off-field DPS & Buff & Shield Support",
-        "fr": "DPS Off-Field & Support Buff & Bouclier"
+        "fr": "DPS Off-Field & Support Buff & Bouclier",
+        "ru": "Карманный ДД, Саппорт и Щит"
     },
     "best": true,
     "weapons": [
@@ -13,11 +14,13 @@
     "notes": [
         {
             "en": "[[character:ineffa]] transforms all instances of the [[element:electrocharged]] reaction into [[element:lunar-charged]] while she's in the team, which has its own scalings and can even crit. Both her [[ability:skill]] and [[ability:burst]] deploy her robot companion, Birgitta, to the field, who can deal damage and apply [[element:electro]] while off-field. Additionally, [[character:ineffa]]'s [[ability:skill]] can also provide a shield. Her [[ability:burst]] also provides an [[stat:em]] buff based on a portion of [[character:ineffa]]'s ATK (her A4 talent).",
-            "fr": "[[character:ineffa]] transforme toutes les instances de la réaction d'[[element:electrocharged]] en [[element:lunar-charged]] lorsqu'elle est dans l'équipe, réaction qui a ses propres scalings et peut même crit. Son [[ability:skill]] et son [[ability:burst]] déploient tous les deux son robot Birgitta sur le terrain qui permet d'infliger des dégâts et appliquer de l'[[element:electro]] en étant off-field. En plus de tout ça, son [[ability:skill]] fournit un bouclier et son [[ability:burst]] offre un buff de [[stat:em]] basé sur une partie de son ATQ (son talent A4)."
+            "fr": "[[character:ineffa]] transforme toutes les instances de la réaction d'[[element:electrocharged]] en [[element:lunar-charged]] lorsqu'elle est dans l'équipe, réaction qui a ses propres scalings et peut même crit. Son [[ability:skill]] et son [[ability:burst]] déploient tous les deux son robot Birgitta sur le terrain qui permet d'infliger des dégâts et appliquer de l'[[element:electro]] en étant off-field. En plus de tout ça, son [[ability:skill]] fournit un bouclier et son [[ability:burst]] offre un buff de [[stat:em]] basé sur une partie de son ATQ (son talent A4).",
+            "ru": "[[character:ineffa]] преобразует реакцию [[element:electrocharged]] в [[element:lunar-charged]], урон которого рассчитывается по другой формуле и может критовать. Её [[ability:skill]] и [[ability:burst]] призывают робота Биргитту, наносящую урон и накладывающую [[element:electro]] из кармана. Кроме того, [[ability:skill]] [[character:ineffa|Инеффы]] создает щит, а [[ability:burst]] благодаря второму Пассивному таланту даёт бонус [[stat:em|Мастерства стихий]], зависящий от её Силы атаки."
         },
         {
             "en": "Birgitta stays on-field longer than both of [[character:ineffa]]'s [[ability:skill]] and [[ability:burst]] individual cooldowns, meaning that Birgitta has 100% field uptime.",
-            "fr": "Birgitta reste sur le terrain plus longtemps que les TdR respectifs de son [[ability:skill]] et de son [[ability:burst]], ce qui signifie que Birgitta est toujours présente sur le terrain."
+            "fr": "Birgitta reste sur le terrain plus longtemps que les TdR respectifs de son [[ability:skill]] et de son [[ability:burst]], ce qui signifie que Birgitta est toujours présente sur le terrain.",
+            "ru": "Биргитта находится на поле дольше времени отката [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]] [[character:ineffa|Инеффы]], поэтому может быть активна постоянно."
         }
     ]
 }

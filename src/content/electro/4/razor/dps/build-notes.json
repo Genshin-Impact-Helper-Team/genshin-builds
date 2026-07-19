@@ -1,20 +1,24 @@
 {
     "name": {
-        "en": "DPS"
+        "en": "DPS",
+        "ru": "ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "DPS [[character:razor]] focuses on using his [[ability:burst]] and [[ability:skill]] to deal high [[element:electro]] damage which having non-negligable [[ability:na]] damage from his Claymore attacks. He is not incredibly reliant on other [[ability:hexerei]] characters, but it does help his [[stat:er]] requirements and slightly increases his damage. **[[character:razor]]'s DPS is significanly less potent before [C6], and his [[stat:er]] requirements are notably higher.**",
-            "fr": "[[character:razor]] DPS se concentre sur l'utilisation de son [[ability:burst]] et son [[ability:skill]] pour infliger des dégâts [[element:electro]] importants tout en ayant des dégâts d'[[ability:na]] non négligeables. Il ne dépend pas énormément des autres personnages [[ability:hexerei]], mais cela aide pour ses besoins en [[stat:er]] et augmente légèrement ses dégâts. **Le DPS de [[character:razor]] est beaucoup moins important avec sa [C6], et ses besoins en [[stat:er]] sont beaucoup plus élevés.**"
+            "fr": "[[character:razor]] DPS se concentre sur l'utilisation de son [[ability:burst]] et son [[ability:skill]] pour infliger des dégâts [[element:electro]] importants tout en ayant des dégâts d'[[ability:na]] non négligeables. Il ne dépend pas énormément des autres personnages [[ability:hexerei]], mais cela aide pour ses besoins en [[stat:er]] et augmente légèrement ses dégâts. **Le DPS de [[character:razor]] est beaucoup moins important avec sa [C6], et ses besoins en [[stat:er]] sont beaucoup plus élevés.**",
+            "ru": "ДД [[character:razor]] использует [[ability:burst]] и [[ability:skill]], чтобы наносить значительный [[element:electro]] урон. При этом не стоит игнорировать и урон его [[ability:na|Обычных атак]]. Он не слишком сильно зависит от присутствия в отряде других [[ability:hexerei|Ведьмовских]] персонажей, но они помогают уменьшить его потребность в энергии и немного повышают урон. **До [C6] потенциал Рейзора как ДД значительно ниже, а потребность в энергии заметно выше.**"
         },
         {
             "en": "[[character:razor]] tends to prefer his Tap [[ability:skill]] over his Hold [[ability:skill]] for its cooldown advantage.",
-            "fr": "[[character:razor]] préfère utiliser son [[ability:skill]] en appui court plutôt qu'en appui long pour un meilleur TdR."
+            "fr": "[[character:razor]] préfère utiliser son [[ability:skill]] en appui court plutôt qu'en appui long pour un meilleur TdR.",
+            "ru": "[[character:razor]] обычно использует быстрое нажатие [[ability:skill|Элементального навыка]] в связи с меньшим временем отката."
         },
         {
             "en": "[[character:razor]]'s [[ability:burst]] resets the cooldown of his [[ability:skill]], as such {rot:tE > Q > tE} is the standard opener for [[character:razor]]'s combos.",
-            "fr": "L'[[ability:burst]] de [[character:razor]] réinitialise le TdR de son [[ability:skill]], ce qui fait de {rot:tE > Q > tE} un bon début pour ses combos."
+            "fr": "L'[[ability:burst]] de [[character:razor]] réinitialise le TdR de son [[ability:skill]], ce qui fait de {rot:tE > Q > tE} un bon début pour ses combos.",
+            "ru": "[[ability:burst]] [[character:razor]]а сбрасывает откат [[ability:skill|Элементального навыка]], поэтому стандартное комбо [[character:razor]]а начинается с {rot:tE > Q > tE}."
         }
     ],
     "global": [
