@@ -6,14 +6,16 @@
             "name": "em",
             "note": {
                 "en": "In Quickbloom scenarios, [[stat:em]] has a similar priority to [[stat:atk%]], and has a lower priority in [[element:aggravate]]. It should not be built outside of [[element:dendro]]-based teams.",
-                "fr": "Dans les scénarios Quickbloom, la [[stat:em]] a une priorité similaire à l'[[stat:atk%]], et a une priorité plus faible en [[element:aggravate]]. Elle ne devrait pas être build en dehors des équipes basées sur le [[element:dendro]]."
+                "fr": "Dans les scénarios Quickbloom, la [[stat:em]] a une priorité similaire à l'[[stat:atk%]], et a une priorité plus faible en [[element:aggravate]]. Elle ne devrait pas être build en dehors des équipes basées sur le [[element:dendro]].",
+                "ru": "При игре через Обострение с бутонами [[stat:em]] по важности соответствует [[stat:atk%|Силе атаки%]], в чистом [[element:aggravate|Обострении]] приоритет МС ниже. Не следует вкладываться в данный стат вне отрядов с [[element:dendro]]."
             }
         },
         {
             "name": "er",
             "note": {
                 "en": "Having [[stat:er]] rolls can allow [[character:clorinde]] to be able to [[ability:burst]] every rotation, which is useful, however, [[stat:er]] should not be prioritized.",
-                "fr": "Avoir des rolls de [[stat:er]] peut permettre à [[character:clorinde]] d'utiliser son [[ability:burst]] à chaque rotation, ce qui est utile, mais la [[stat:er]] ne devrait pas être priorisée."
+                "fr": "Avoir des rolls de [[stat:er]] peut permettre à [[character:clorinde]] d'utiliser son [[ability:burst]] à chaque rotation, ce qui est utile, mais la [[stat:er]] ne devrait pas être priorisée.",
+                "ru": "Дополнительные роллы [[stat:er|ВЭ]] позволяют [[character:clorinde|Клоринде]] использовать [[ability:burst]] каждую ротацию, что полезно, однако намеренно отдавать ему приоритет не стоит."
             }
         }
     ]
