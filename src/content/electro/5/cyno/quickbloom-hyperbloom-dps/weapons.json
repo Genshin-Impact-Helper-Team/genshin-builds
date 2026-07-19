@@ -18,7 +18,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks higher than **[[weapon:disaster-and-remorse]]**.",
                         "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme est meilleure que **[[weapon:disaster-and-remorse]]**.",
-                        "it": "Presuppone che la passiva sia attiva. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:disaster-and-remorse]]**."
+                        "it": "Presuppone che la passiva sia attiva. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:disaster-and-remorse]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:disaster-and-remorse]]**."
                     }
                 }
             ]   
@@ -41,7 +42,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks higher than **[[weapon:primordial-jade-winged-spear]]**.",
                         "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:primordial-jade-winged-spear]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:primordial-jade-winged-spear]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:primordial-jade-winged-spear]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:primordial-jade-winged-spear]]**."
                     }
                 },
                 "symphonist-of-scents",
@@ -50,7 +52,8 @@
                     "note": {
                         "en": "In teams where energy is scarce, such as teams without another Favonius weapon or an [[element:electro]] user, this weapon can be desired for the energy it gives.",
                         "fr": "Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour l'énergie qu'elle donne.",
-                        "it": "In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore."
+                        "it": "In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore.",
+                        "ru": "В отрядах с недостатком энергии (без Фавония или второго [[element:electro]] в отряде) может быть полезно за счет дополнительной энергии."
                     }
                 },
                 {
@@ -66,7 +69,8 @@
                     "note": {
                         "en": "This weapon may perform equal to or better than **[[weapon:white-tassel]] [R5]** if the ATK Speed it gives is utilized to hit more of [[character:cyno]]'s [[ability:na]]s. In teams where energy is scarce, such as teams without another Favonius weapon or an [[element:electro]] user, this weapon can be desired for the [[stat:er]] it gives.",
                         "fr": "Cette arme peut être équivalente ou meilleure que **[[weapon:white-tassel]] [R5]** si la vitesse d'attaque qu'elle donne est utilisée pour performer plus d'[[ability:na|attaques normales]] de [[character:cyno]]. Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour la [[stat:er]] qu'elle donne.",
-                        "it": "Quest'arma può avere prestazioni pari a o migliori di **[[weapon:white-tassel]] [R5]** se la VEL d'ATT fornita è utilizzata per effettuare più [[ability:na|Attacchi Normali]]. In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore."
+                        "it": "Quest'arma può avere prestazioni pari a o migliori di **[[weapon:white-tassel]] [R5]** se la VEL d'ATT fornita è utilizzata per effettuare più [[ability:na|Attacchi Normali]]. In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore.",
+                        "ru": "Может соответствовать **[[weapon:white-tassel|Белой кисти]] [R5]** или превосходить её, если скорость атаки от Пассивной способности позволяет попадать по противникам большим количеством [[ability:na|Обычных атак]]. В отрядах с недостатком энергии (без Фавония или второго [[element:electro]] в отряде) может быть полезна за счет ВЭ."
                     }
                 }   
             ]
@@ -78,7 +82,8 @@
                     "note": {
                         "en": "In teams where energy is scarce, such as teams without another Favonius weapon or an [[element:electro]] user, this weapon can be desired for the [[stat:er]] it gives.",
                         "fr": "Dans les équipes où l'énergie est rare, comme les équipes sans autre arme de Favonius ou sans personnage [[element:electro]], cette arme peut être désirable pour la [[stat:er]] qu'elle donne.",
-                        "it": "In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore."
+                        "it": "In team con scarsa generazione di energia, ad esempio team senza armi Favonius o un secondo personaggio [[element:electro]], quest'arma guadagna valore.",
+                        "ru": "В отрядах с недостатком энергии (без второго [[element:electro]] в отряде) может быть полезно за счет ВЭ и дополнительной энергии."
                     }
                 }
             ]
