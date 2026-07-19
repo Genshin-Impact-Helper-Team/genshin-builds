@@ -15,7 +15,8 @@
     "notes": [
         {
             "en": "Any combination of [[stat:em]], [[stat:electro-dmg]], and [[stat:cr/cd]] is effective on [[character:cyno]]. With consistent [[element:hydro]] application, his highest damage combination is **[[stat:em]] Sands, [[stat:electro-dmg]] Goblet, and [[stat:em]] Circlet**. However, the Main Stats are extremely close in damage, so it should be determined through **the value of the substats on your pieces.**",
-            "fr": "Toute combinaison de [[stat:em]], [[stat:electro-dmg]] et [[stat:cr/cd]] est efficace sur [[character:cyno]]. Avec une application [[element:hydro]] constante, ses meilleurs dégâts se font avec un **sablier [[stat:em]], une coupe [[stat:electro-dmg]] et un diadème [[stat:em]]**. Cependant, les dégâts sont extrêmement proches entre les différentes combinaisons possibles, il faut donc choisir selon **la valeur des substats sur vos artéfacts**."
+            "fr": "Toute combinaison de [[stat:em]], [[stat:electro-dmg]] et [[stat:cr/cd]] est efficace sur [[character:cyno]]. Avec une application [[element:hydro]] constante, ses meilleurs dégâts se font avec un **sablier [[stat:em]], une coupe [[stat:electro-dmg]] et un diadème [[stat:em]]**. Cependant, les dégâts sont extrêmement proches entre les différentes combinaisons possibles, il faut donc choisir selon **la valeur des substats sur vos artéfacts**.",
+            "ru": "Работают любые комбинации с [[stat:em|МС]], [[stat:electro-dmg|бонусом Электро урона]], [[stat:cr/cd|Крит.уроном/шансом]]. При достаточном  [[element:hydro]] статусе лучший выбор - **часы на [[stat:em|МС]], кубок на [[stat:electro-dmg|бонус Электро урона]] и корона на [[stat:em|МС]]**. Однако эффективность разных вариантов очень близка и зачастую **зависит от сабстатов артефактов**."
         }
     ]
 }
