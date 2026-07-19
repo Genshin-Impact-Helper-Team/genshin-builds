@@ -18,7 +18,7 @@ project 1:
   existing five-level `Character Priority` field supplies the popularity input
 - each build issue contains an automatically maintained list of weapons and
   artifact sets released after `last_updated` that are not already referenced
-  by that build
+  in that build's `weapons.json` or `artifacts-sets.json`
 - missing build issues, project items, and fields are created automatically;
   managed build issues whose source folder no longer exists are deleted;
   unrelated project data is left alone
