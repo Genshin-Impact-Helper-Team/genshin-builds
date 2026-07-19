@@ -11,7 +11,7 @@ project 1:
 - each build project item gets a `Last Updated` text field matching its
   character's `metadata.json`
 - each build project item gets numeric `Weapon Count` and `Artifact Count`
-  fields matching the generated release lists
+  fields matching the unchecked generated release-list items
 - each build project item gets a `Best Role` true/false single-select matching
   whether `build-notes.json` contains `"best": true`
 - each build project item gets a unique numeric `Update Priority` rank; its
@@ -28,9 +28,10 @@ names from `src/i18n/en`, and the character's weapon type from `metadata.json`.
 Build-level recommendation files take precedence over shared character-level
 files.
 
-Update ranks sort a weighted score made from character priority (40%), best
-role (20%), age since `last_updated` (30%), newer weapon count (5%), and newer
-artifact-set count (5%); equal scores are ordered by issue title.
+Update ranks put builds already updated in the current version after every
+older build, then sort a weighted score made from character priority (30%),
+best role (20%), age since `last_updated` (40%), newer weapon count (5%), and
+newer artifact-set count (5%); equal scores are ordered by issue title.
 
 Human-written issue text
 outside the generated release-audit markers is preserved.
