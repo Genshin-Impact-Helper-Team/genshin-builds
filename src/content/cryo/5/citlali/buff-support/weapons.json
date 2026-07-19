@@ -7,7 +7,12 @@
         },
         {
             "items": [
-                "starcallers-watch"
+                {
+                    "name": "angelos-heptades",
+                    "note": {
+                        "en": "After reaching [[stat:energy-recharge]] requirements, to maximize the team buff provided by this weapon, you should use **[[stat:atk%]]** artifact main stats."
+                    }
+                }
             ]
         },
         {
