@@ -6,7 +6,8 @@
                     "name": "skill",
                     "note": {
                         "en": "Typically [[character:shogun-raiden|Raiden]] only uses her [[ability:skill]] for [[element:hyperbloom]], so leveling [[ability:burst]] is not necessary.",
-                        "fr": "Généralement, [[character:shogun-raiden]] utilise seulement son [[ability:skill]] pour [[element:hyperbloom]], monter l'[[ability:burst]] n'est donc pas nécessaire."
+                        "fr": "Généralement, [[character:shogun-raiden]] utilise seulement son [[ability:skill]] pour [[element:hyperbloom]], monter l'[[ability:burst]] n'est donc pas nécessaire.",
+                        "ru": "Обычно [[character:shogun-raiden|Райдэн]] использует только [[ability:skill]], поэтому повышение уровня [[ability:burst|Взрыва стихии]] не требуется."
                     }
                 }
             ]
