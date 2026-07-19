@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "**In optimal conditions, this is [[character:cyno]]'s best artifact set**. This set is an especially competitive option when [[character:cyno]] is the only [[element:electro]] character in the team, as the extra [[ability:skill]] casts help alleviate his energy issues. Do note that casting his [[ability:skill]] off cooldown with this set might lead to **missing Endseer stance windows**. It is highly recommended to use a shielder with [[character:cyno]] with this set.",
-                                "fr": "**Dans des conditions optimales, c'est le meilleur set d'artefacts de [[character:cyno]]**. Ce set est une option particulièrement compétitive lorsque [[character:cyno]] est le seul personnage [[element:electro]] dans l'équipe, puisque les utilisations supplémentaires de [[ability:skill]] aident à alléger ses problèmes d'énergie. Notez bien qu'utiliser son [[ability:skill]] dès la fin du TdR avec ce set peut mener à **manquer la fenêtre d'activation de la posture de prophète final**. Il est fortement recommandé d'utiliser un bouclier avec [[character:cyno]] lorsque vous utilisez ce set."
+                                "fr": "**Dans des conditions optimales, c'est le meilleur set d'artefacts de [[character:cyno]]**. Ce set est une option particulièrement compétitive lorsque [[character:cyno]] est le seul personnage [[element:electro]] dans l'équipe, puisque les utilisations supplémentaires de [[ability:skill]] aident à alléger ses problèmes d'énergie. Notez bien qu'utiliser son [[ability:skill]] dès la fin du TdR avec ce set peut mener à **manquer la fenêtre d'activation de la posture de prophète final**. Il est fortement recommandé d'utiliser un bouclier avec [[character:cyno]] lorsque vous utilisez ce set.",
+                                "ru": "**Лучший сет в идеальных условиях**. Наиболее актуален в отрядах, где [[character:cyno]] является единственным [[element:electro]] персонажем, так как позволяет использовать [[ability:skill]] чаще (что несколько компенсирует проблемы с энергией). Но учтите, что это повышает риск активации [[ability:skill|навыка]] **не под воздействием Свидетеля истины**. При использовании данного набора настоятельно рекомендуется иметь в отряде щит."
                             }
                         }
                     ]
@@ -37,7 +38,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This artifact set is better than **[[set:gladiators-finale]] (4)** on **[[weapon:staff-of-the-scarlet-sands]]** and **[[weapon:white-tassel]]**.",
-                                "fr": "Ce set d'artefacts est meilleur que **[[set:gladiators-finale]] (4)** avec **[[weapon:staff-of-the-scarlet-sands]]** et **[[weapon:white-tassel]]**."
+                                "fr": "Ce set d'artefacts est meilleur que **[[set:gladiators-finale]] (4)** avec **[[weapon:staff-of-the-scarlet-sands]]** et **[[weapon:white-tassel]]**.",
+                                "ru": "Превосходит **[[set:gladiators-finale]] (4)**, если экипированы **[[weapon:staff-of-the-scarlet-sands]]** или **[[weapon:white-tassel]]**."
                             }
                         }
                     ]
@@ -78,7 +80,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "If you can **guarantee 100% uptime on this set**, it performs better than **[[set:gladiators-finale]] (4)**. However, satisfying this condition is infeasible on most teams.",
-                                "fr": "Si vous pouvez **garantir 100% d'uptime sur ce set**, il dépasse **[[set:gladiators-finale]] (4)**. Cependant, remplir cette condition est irréalisable dans la plupart des équipes."
+                                "fr": "Si vous pouvez **garantir 100% d'uptime sur ce set**, il dépasse **[[set:gladiators-finale]] (4)**. Cependant, remplir cette condition est irréalisable dans la plupart des équipes.",
+                                "ru": "При постоянном поддержании бонуса набора может превосходить **[[set:gladiators-finale]] (4)**. Однако в большинстве отрядов выполнить это условие невозможно."
                             }
                         }
                     ]
