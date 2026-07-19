@@ -19,7 +19,7 @@
         {
             "en": "- With [[set:thundering-fury]] (4): {rot:EQE 2N1C E 2N1C}\n- Without [[set:thundering-fury]] (4): {rot:EQE 4N1C}",
             "fr": "- Avec [[set:thundering-fury]] (4): {rot:EQE 2N1C E 2N1C}\n- Sans [[set:thundering-fury]] (4): {rot:EQE 4N1C}",
-            "ru": ""
+            "ru": "- C [[set:thundering-fury|Громогласным рёвом ярости]] (4): {rot:EQE 2N1C E 2N1C}\n- Без [[set:thundering-fury|Громогласного рёва ярости]] (4): {rot:EQE 4N1C}"
         }
     ]
 }
