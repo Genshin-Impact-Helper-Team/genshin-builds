@@ -2,25 +2,30 @@
     "name": {
         "en": "[[element:aggravate]] DPS",
         "fr": "DPS [[element:aggravate]]",
-        "it": "DPS [[element:aggravate]]"
+        "it": "DPS [[element:aggravate]]",
+        "ru": "ДД через [[element:aggravate]]"
     },
     "best": true,
     "notes": [
         {
             "en": "**[In-depth guide](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) from Cyno Mains**",
-            "fr": "**[Guide détaillé](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) des Cyno Mains (en anglais)**"
+            "fr": "**[Guide détaillé](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) des Cyno Mains (en anglais)**",
+            "ru": "**[Подробное руководство](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) от Cyno Mains**"
         },
         {
             "en": "[[character:cyno]] is a DPS character that uses his [[ability:burst]] to change stance and deal [[element:electro]] damage. The damage dealt during this stance is [[ability:na]] damage so [[ability:burst]] damage buffs will not affect him. [[character:cyno]] in [[element:aggravate]] focuses solely on doing high personal damage with his [[ability:burst]] stance with other [[element:dendro]] and [[element:electro]] characters.",
-            "fr": "[[character:cyno]] est un DPS qui utilise son [[ability:burst]] pour changer de posture et infliger des dégâts [[element:electro]]. Les dégâts infligés pendant cette posture sont des dégâts d'[[ability:na]], donc les buffs de dégâts d'[[ability:burst]] ne l'affectent pas. [[character:cyno]] en [[element:aggravate]] se concentre uniquement sur de hauts dégâts personnels avec sa posture d'[[ability:burst]] avec d'autres personnages [[element:dendro]] et [[element:electro]]."
+            "fr": "[[character:cyno]] est un DPS qui utilise son [[ability:burst]] pour changer de posture et infliger des dégâts [[element:electro]]. Les dégâts infligés pendant cette posture sont des dégâts d'[[ability:na]], donc les buffs de dégâts d'[[ability:burst]] ne l'affectent pas. [[character:cyno]] en [[element:aggravate]] se concentre uniquement sur de hauts dégâts personnels avec sa posture d'[[ability:burst]] avec d'autres personnages [[element:dendro]] et [[element:electro]].",
+            "ru": "[[character:cyno]] - ДД, способный за счет [[ability:burst|Взрыва стихии]] менять стойку и наносить [[element:electro]] урон. Урон в этой стойке считается уроном [[ability:na|Обычных атак]], поэтому бонусы к урону [[ability:burst|Взрыва стихий]] для него бесполезны. При игре через [[element:aggravate]] он сосредоточен на нанесении значительного личного урона за счет стойки [[ability:burst|Взрыва стихии]], с чем ему помогают другие [[element:dendro]] и [[element:electro]] персонажи."
         },
         {
             "en": "[[set:thundering-fury]] (4): {rot:E N1 Q E 6[N4E]}",
-            "fr": "[[set:thundering-fury]] (4): {rot:E N1 A E 6[N4E]}"
+            "fr": "[[set:thundering-fury]] (4): {rot:E N1 A E 6[N4E]}",
+            "ru": "[[set:thundering-fury]] (4): {rot:E N1 Q E 6[N4E]}"
         },
         {
             "en": "Non-[[set:thundering-fury]]: {rot:E N1 Q N2E 3(N5 N2E)}",
-            "fr": "Non-[[set:thundering-fury]]: {rot:E N1 A N2E 3(N5 N2E)}"
+            "fr": "Non-[[set:thundering-fury]]: {rot:E N1 A N2E 3(N5 N2E)}",
+            "ru": "Не-[[set:thundering-fury]]: {rot:E N1 Q N2E 3(N5 N2E)}"
         }
     ],
     "global": [
