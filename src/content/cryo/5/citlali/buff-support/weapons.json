@@ -17,11 +17,13 @@
                     "refinement": 5,
                     "note": {
                         "en": "Only use this weapon if a teammate, who does significant damage, benefits from **[[stat:atk%]]**."
+                    }
                 },
                 {
                     "name": "wandering-evenstar",
                     "note": {
                         "en": "Best used in teams where multiple units benefit from **[[stat:atk]]**."
+                    }
                 },
                 "favonius-codex"
             ]
