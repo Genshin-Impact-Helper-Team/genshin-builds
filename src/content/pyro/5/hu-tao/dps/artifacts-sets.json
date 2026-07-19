@@ -5,22 +5,25 @@
                 {
                     "items": [
                         {
-                            "name": "crimson-witch-of-flames",
-                            "pieces": 4
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
                             "name": "shimenawa",
                             "pieces": 4,
                             "note": {
-                                "en": "Provides higher [[ability:na]] and [[ability:ca]] damage than **[[set:crimson-witch-of-flames]] (4)**, but reduces [[ability:burst]] damage, impacting overall AoE damage. Additionally, if you're unable to [[ability:burst]], it might lead to survivability issues unless you're running a healer.",
-                                "fr": "Donne des dégâts d'[[ability:na]] et [[ability:ca]] plus élevés que **[[set:crimson-witch-of-flames]] (4)**, mais réduit les dégâts de l'[[ability:burst]], impactant les dégâts de zone. De plus, si vous ne pouvez pas [[ability:burst]], cella peut entraîner des problèmes de survivabilité à moins de jouer avec un healer.",
-                                "it": "Questo set risulta in danni da [[ability:na]] ed [[ability:ca]] più alti rispetto a **[[set:crimson-witch-of-flames]] (4)**, ma riduce i danni da [[ability:burst]], impattando i danni ad area. Inoltre, l'impossibilità di utilizzare il [[ability:burst]] può condurre a problemi di sopravvivenza.",
-                                "ru": "Дает больший бонус к урону [[ability:na|Обычных]] и [[ability:ca|Заряженных атак]], нежели **[[set:crimson-witch-of-flames]] (4)**, но не влияет на [[ability:burst]] (наносящий урон по площади). Если возникают проблемы с использованием [[ability:burst|Взрыва стихии]], набор также может негативно сказаться на выживаемости в отсутствие хилера в отряде."
+                                "en": "This set is equal to [[set:crimson-witch-of-flames]] with [C0] [[character:hu-tao]], but pulls ahead with [C1] [[character:hu-tao]] due to the higher volume of [[ability:na]] and [[ability:ca]] damage that [[character:hu-tao]] deals.",
+                                "fr": "Ce set équivaut à [[set:crimson-witch-of-flames]] avec une [[character:hu-tao]] [C0], mais passe devant avec sa [C1] à cause de la plus grosse part de dégâts d'[[ability:na]] et d'[[ability:ca]] qu'[[character:hu-tao]] inflige.",
+                                "ru": "Равен **[[set:crimson-witch-of-flames|Горящей алой ведьме]]** на [C0] [[character:hu-tao]] и превосходит её, если у [[character:hu-tao]] есть [C1] (за счёт большего количества урона от [[ability:na|Обычных]] и [[ability:ca|Заряженных атак]])."
                             }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 4
                         }
                     ]
                 }
@@ -54,6 +57,10 @@
                             "pieces": 2
                         },
                         {
+                            "name": "MH",
+                            "pieces": 2
+                        },
+                        {
                             "name": "em-set",
                             "pieces": 2
                         },
@@ -68,16 +75,37 @@
     ],
     "conditional": [
         {
-            "items": [
+            "groups": [
                 {
-                    "name": "MH",
-                    "pieces": 4,
-                    "note": {
-                        "en": "This is [[character:hu-tao]]'s best set when you can reliably get 3 stacks, which typically requires running [[character:furina]], or healer that can heal smaller amounts over time (i.e. [[character:xianyun]], [[character:chevreuse]]).",
-                        "fr": "Le meilleur set pour [[character:hu-tao]] si vous pouvez obtenir les 3 stacks à coup sûr, ce qui nécessite souvent de la jouer avec [[character:furina]], ou un healer qui peut soigner en continu (comme [[character:xianyun]] ou [[character:chevreuse]] par exemple).",
-                        "it": "Questo è il miglior set di [[character:hu-tao]] quando è possibile ottenere 3 accumuli in maniera affidabile, il che in genere richiede l'uso di [[character:furina]] o di un guaritore in grado di curare piccole quantità nel tempo (es. [[character:xianyun]], [[character:chevreuse]]).",
-                        "ru": "Лучший вариант, если есть возможность полностью активировать сетбонус, что обычно требует игры с [[character:furina|Фуриной]] или с персонажем с невысоким периодическим лечением (например, [[character:xianyun]] или [[character:chevreuse]])."
-                    }
+                    "items": [
+                        {
+                            "name": "MH",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is [[character:hu-tao]]'s best set when you can reliably get 3 stacks, which typically requires running [[character:furina]], or healer that can heal smaller amounts over time (i.e. [[character:xianyun]], [[character:chevreuse]], [[weapon:prototype-amber]]).",
+                                "fr": "Le meilleur set pour [[character:hu-tao]] si vous pouvez obtenir les 3 stacks à coup sûr, ce qui nécessite souvent de la jouer avec [[character:furina]], ou un healer qui peut soigner en continu (comme [[character:xianyun]] ou [[character:chevreuse]] par exemple).",
+                                "it": "Questo è il miglior set di [[character:hu-tao]] quando è possibile ottenere 3 accumuli in maniera affidabile, il che in genere richiede l'uso di [[character:furina]] o di un guaritore in grado di curare piccole quantità nel tempo (es. [[character:xianyun]], [[character:chevreuse]]).",
+                                "ru": "Лучший вариант, если есть возможность полностью активировать сетбонус, что обычно требует игры с [[character:furina|Фуриной]] или с персонажем с невысоким периодическим лечением (например, [[character:xianyun]] или [[character:chevreuse]])."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "notsu",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is [[character:hu-tao]]'s best set if there are two Nod Krai characters to activate Moonsign: Ascendant Gleam.",
+                                "fr": "Le meilleur set de [[character:hu-tao]] s'il y a deux personnages de NodKrai pour activer le Signe Lunaire: Lueur Ascendante.",
+                                "ru": "Лучший вариант, если в отряде есть 2 персонажа из Нод-Края."
+                            }
+                        }
+                    ]
                 }
             ]
         }

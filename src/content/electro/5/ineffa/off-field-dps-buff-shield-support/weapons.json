@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Ascendant Gleam assumed here; [[character:ineffa]] uses [[ability:burst]] every other rotation unless she uses an [[stat:er|ER]] weapon",
-            "fr": "Lueur ascendante supposée ici; [[character:ineffa]] utilise son [[ability:burst]] une rotation sur deux sauf si elle utilise une arme [[stat:er]]"
+            "fr": "Lueur ascendante supposée ici; [[character:ineffa]] utilise son [[ability:burst]] une rotation sur deux sauf si elle utilise une arme [[stat:er]]",
+            "ru": "Предполагается, что в отряде активно Лунное знамение - Высшее сияние; [[character:ineffa]] использует [[ability:burst]] каждую вторую ротацию (кроме оружия на [[stat:er|ВЭ]])."
         }
     ],
     "weapons": [
@@ -17,7 +18,8 @@
                     "name": "staff-of-the-scarlet-sands",
                     "note": {
                         "en": "Can sometimes utilize [[stat:em]] Main Stats.",
-                        "fr": "Peut parfois permettre d'utiliser des stats principales [[stat:em]]."
+                        "fr": "Peut parfois permettre d'utiliser des stats principales [[stat:em]].",
+                        "ru": "С этим оружием сборка [[stat:em|МС]] в основных статах может оказаться полезной."
                     }
                 }
             ]
@@ -43,11 +45,13 @@
             "items": [
                 "primordial-jade-winged-spear",
                 "crimson-moons-semblance",
+                "disaster-and-remorse",
                 {
                     "name": "deathmatch",
                     "note": {
                         "en": "Ranking assumes single target scenarios. At **[R5]**, this weapon performs equal to **[[weapon:bloodsoaked-ruins]]**.",
-                        "fr": "Le classement suppose des scénarios monocible. Une fois **[R5]**, cette arme équivaut à **[[weapon:bloodsoaked-ruins]]**."
+                        "fr": "Le classement suppose des scénarios monocible. Une fois **[R5]**, cette arme équivaut à **[[weapon:bloodsoaked-ruins]]**.",
+                        "ru": "Предполагается наличие одного противника. На **[R5]** соответствует **[[weapon:bloodsoaked-ruins|Окровавленным руинам]]**."
                     }
                 }
             ]
@@ -59,7 +63,8 @@
                     "name": "ballad-of-the-fjords",
                     "note": {
                         "en": "At **[R5]** this weapon will perform closer to **[[weapon:primordial-jade-winged-spear]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:primordial-jade-winged-spear]]**."
+                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:primordial-jade-winged-spear]]**.",
+                        "ru": "На **[R5]** данное оружие близко к **[[weapon:primordial-jade-winged-spear|Нефритовому коршуну]]**."
                     }
                 }
             ]
@@ -72,7 +77,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Performs slightly worse than **[[weapon:skyward-spine]]** outside of Ascendant Gleam teams.",
-                        "fr": "Légèrement moins bonne que **[[weapon:skyward-spine]]** dans les équipes dans Lueur Ascendante."
+                        "fr": "Légèrement moins bonne que **[[weapon:skyward-spine]]** dans les équipes dans Lueur Ascendante.",
+                        "ru": "Немного уступает **[[weapon:skyward-spine|Небесной оси]]** в отрядах без Высшего сияния."
                     }
                 },
                 "sacrificers-staff",

@@ -11,7 +11,9 @@
                     "name": "staff-of-the-scarlet-sands",
                     "note": {
                         "en": "With this weapon, an [[stat:em]] Main Stat on a Sands or a Goblet can outperform [[stat:atk%]]. In teams where [[character:flins]] can execute 16 second rotations, this weapon performs similarly to **[[weapon:bloodsoaked-ruins]]**.",
-                        "fr": "Avec cette arme, une stat principale de [[stat:em]] sur un sablier ou une coupe peut dépasser l'[[stat:atk%]]. Dans les équipes où [[character:flins]] peut exécuter des rotations de 16 secondes, cette arme est comparable à **[[weapon:bloodsoaked-ruins]]**."
+                        "fr": "Avec cette arme, une stat principale de [[stat:em]] sur un sablier ou une coupe peut dépasser l'[[stat:atk%]]. Dans les équipes où [[character:flins]] peut exécuter des rotations de 16 secondes, cette arme est comparable à **[[weapon:bloodsoaked-ruins]]**.",
+                        "ru": "При использовании данного оружия [[stat:em]] в качестве основного стата часов или кубка может превосходить [[stat:atk%|Силу атаки%]]. В отрядах, где [[character:flins]] укладывается в 16-тисекундную ротацию, соответствует **[[weapon:bloodsoaked-ruins|Окровавленным руинам]]**."
+                        
                     }
                 }
             ]
@@ -31,6 +33,11 @@
         },
         {
             "items": [
+                "disaster-and-remorse"
+            ]
+        },
+        {
+            "items": [
                 "crimson-moons-semblance"
             ]
         },
@@ -39,22 +46,25 @@
                 {
                     "name": "vortex-vanquisher",
                     "note": {
-                        "en": "If [[character:flins]] is shielded, this weapon performs better than **[[weapon:crimson-moons-semblance]]**.",
-                        "fr": "Si [[character:flins]] est protégé par un bouclier, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
+                        "en": "If [[character:flins]] is shielded, this weapon performs slightly better than **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Si [[character:flins]] est protégé par un bouclier, cette arme devient légèrement meilleure que **[[weapon:disaster-and-remorse]]**.",
+                        "ru": "При наличии щита немного превосходит **[[weapon:disaster-and-remorse]]**."
                     }
                 },
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:crimson-moons-semblance]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
+                        "en": "At **[R5]**, this weapon performs slightly better than **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Une fois **[R5]**, cette arme devient légèrement meilleure que **[[weapon:disaster-and-remorse]]**.",
+                        "ru": "На **[R5]** немного превосходит **[[weapon:disaster-and-remorse]]**."
                     }
                 },
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:crimson-moons-semblance]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**."
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:disaster-and-remorse]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:disaster-and-remorse|Бедствию и раскаянию]]**."
                     }
                 },
                 "calamity-queller"

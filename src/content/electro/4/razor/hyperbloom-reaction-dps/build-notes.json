@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "[[element:hyperbloom]] / Reaction DPS",
-        "fr": "DPS [[element:hyperbloom]] / Réactions"
+        "fr": "DPS [[element:hyperbloom]] / Réactions",
+        "ru": "ДД через [[element:hyperbloom|Вегетацию]] / другие реакции"
     },
     "notes": [
         {
             "en": "[[element:hyperbloom]] / REACTION DPS [[character:razor]] focuses on using his [[ability:burst]]'s [[element:electro]] to trigger [[element:hyperbloom]]. If you have [C6] [[character:bennett]] you can infuse [[character:razor]]'s [[ability:na]]s with [[element:pyro]] to trigger [[element:hyperbloom]], [[element:burgeon]], and [[element:overload]].",
-            "fr": "[[character:razor]] DPS [[element:hyperbloom]] / Réactions se concentre sur l'utilisation de l'[[element:electro]] de son [[ability:burst]] pour déclencher [[element:hyperbloom]]. Si vous avec [[character:bennett]] [C6], vous pouvez infuser les [[ability:na|attaques normales]] de [[character:razor]] avec [[element:pyro]] pour déclencher [[element:hyperbloom]], [[element:burgeon]] et [[element:overload]]."
+            "fr": "[[character:razor]] DPS [[element:hyperbloom]] / Réactions se concentre sur l'utilisation de l'[[element:electro]] de son [[ability:burst]] pour déclencher [[element:hyperbloom]]. Si vous avec [[character:bennett]] [C6], vous pouvez infuser les [[ability:na|attaques normales]] de [[character:razor]] avec [[element:pyro]] pour déclencher [[element:hyperbloom]], [[element:burgeon]] et [[element:overload]].",
+            "ru": "Как ДД через [[element:hyperbloom|Вегетацию]] или другие реакции, [[character:razor]] накладывает [[element:electro]] [[ability:burst|Взрывом стихии]] для подрыва бутонов ([[element:hyperbloom]]). При наличии у [[character:bennett]]а [С6] он может накладывать на [[character:razor]]а [[element:pyro]] инфузию и позволять вызывать [[element:hyperbloom|Вегетацию]], [[element:burgeon]] и [[element:overload|Перегрузку]]."
         }
     ]
 }

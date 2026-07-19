@@ -10,7 +10,8 @@
                             "note": {
                                 "en": "This artifact set is best used on a [[element:freeze]]-focused [[character:aloy]] as it provides a ton of Crit Value.",
                                 "fr": "Ce set d'artéfacts est mieux utilisé sur une [[character:aloy]] orientée [[element:freeze]], car il apporte énormément de Crit Value.",
-                                "it": "Questo set è indicato se [[character:aloy]] è utilizzata in un team [[element:freeze]], poiché fornisce molte Valore Crit."
+                                "it": "Questo set è indicato se [[character:aloy]] è utilizzata in un team [[element:freeze]], poiché fornisce molte Valore Crit.",
+                                "ru": "Лучший сет для [[character:aloy]] в [[element:freeze|Заморозке]] из-за крупного бонуса Шанса крит. попадания."
                             }
                         }
                     ]
@@ -64,7 +65,8 @@
                             "note": {
                                 "en": "This artifact set bonus only benefits a [[element:melt]]-focused [[character:aloy]], [[stat:em]] provides nothing on a [[element:freeze]] [[character:aloy]].",
                                 "fr": "Ce bonus de set d'artéfacts ne bénéficie qu'à une [[character:aloy]] orientée [[element:melt]], la [[stat:em]] n'apporte rien à une [[character:aloy]] [[element:freeze]].",
-                                "it": "Utile soltanto in team [[element:melt]], poiché la [[stat:em]] non ha alcuna utilità in team [[element:freeze]]."
+                                "it": "Utile soltanto in team [[element:melt]], poiché la [[stat:em]] non ha alcuna utilità in team [[element:freeze]].",
+                                "ru": "Полезен только для [[character:aloy]], играющей от обратного [[element:melt|Таяния]]. В [[element:freeze|Заморозке]] [[stat:em]] бесполезно."
                             }
                         },
                         {
@@ -89,7 +91,8 @@
                             "note": {
                                 "en": "[[character:aloy]] is one of the best **[[set:noblesse-oblige]] (4)** holders since she has low energy requirements and cooldown for her [[ability:burst]].",
                                 "fr": "[[character:aloy]] est l'une des meilleures porteuses de **[[set:noblesse-oblige]] (4)** puisqu'elle a de faibles besoins en énergie et un TdR bas pour son [[ability:burst]].",
-                                "it": "[[character:aloy]] fa buon utilizzo di questo set poiché ha bassi requisiti di Energia e tempi di ricarica ridotti per il suo [[ability:burst]]."
+                                "it": "[[character:aloy]] fa buon utilizzo di questo set poiché ha bassi requisiti di Energia e tempi di ricarica ridotti per il suo [[ability:burst]].",
+                                "ru": "Из-за низкой стоимости и короткого отката [[ability:burst|Взрыва стихий]] [[character:aloy]] является отличным носителем данного сета."
                             }
                         }
                     ]

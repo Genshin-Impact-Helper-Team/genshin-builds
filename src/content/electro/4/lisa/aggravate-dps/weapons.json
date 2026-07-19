@@ -60,7 +60,8 @@
                 {
                     "name": "flowing-purity",
                     "note": {
-                        "en": "This weapon is more potent if you can **reliably clear the [[ability:bol]]**. If you can, this weapon is **equal to or better than [[weapon:mappa-mare]]**. At high refinement **[R5]** with its passive met this is on par with **[[weapon:solar-pearl]]**."
+                        "en": "This weapon is more potent if you can **reliably clear the [[ability:bol]]**. If you can, this weapon is **equal to or better than [[weapon:mappa-mare]]**. At **[R5]** with its passive met this is on par with **[[weapon:solar-pearl]]**.",
+                        "fr": "Cette arme est plus puissante si vous pouvez **retirer l'[[ability:bol]] de façon fiable**. Si vous le pouvez, cette arme équivaut à **[[weapon:mappa-mare]]**, voire la dépasse. Une fois **[R5]** avec le passif actif, cette arme est au même niveau que **[[weapon:solar-pearl]]**."
                     }
                 }
             ]

@@ -70,6 +70,10 @@
                             "pieces": 2
                         },
                         {
+                            "name": "MH",
+                            "pieces": 2
+                        },
+                        {
                             "name": "atk-set",
                             "pieces": 2
                         },

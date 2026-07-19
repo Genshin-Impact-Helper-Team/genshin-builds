@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "If you are able to squeeze 5 [[ability:ca]]s during the 10 second buff duration, **[[set:shimenawas-reminiscence]] (4)** pulls ahead of **[[set:wanderers-troupe]] (4)**. Due to it being very difficult to do, **[[set:wanderers-troupe]] (4)** will usually end up dealing more damage for most players.",
                                 "fr": "Si vous pouvez placer 5 [[ability:ca]]s pendant les 10 secondes de durée du buff, **[[set:shimenawas-reminiscence]] (4)** passe devant **[[set:wanderers-troupe]] (4)**. Comme c'est très difficile à faire, **[[set:wanderers-troupe]] (4)** finira généralement par infliger plus de dégâts pour la plupart des joueurs.",
-                                "it": "Se riesci ad eseguire 5 [[ability:ca|Attacchi Caricati]] nei 10 secondi di durata del potenziamento, **[[set:shimenawas-reminiscence]] (4)** supera **[[set:wanderers-troupe]] (4)**. Poiché ciò è molto difficile da eseguire, **[[set:wanderers-troupe]] (4)** finirà solitamente per infliggere più danni per la maggior parte dei giocatori."
+                                "it": "Se riesci ad eseguire 5 [[ability:ca|Attacchi Caricati]] nei 10 secondi di durata del potenziamento, **[[set:shimenawas-reminiscence]] (4)** supera **[[set:wanderers-troupe]] (4)**. Poiché ciò è molto difficile da eseguire, **[[set:wanderers-troupe]] (4)** finirà solitamente per infliggere più danni per la maggior parte dei giocatori.",
+                                "ru": "**[[set:shimenawas-reminiscence|Симэнава]] (4)** превосходит **[[set:wanderers-troupe]] (4)** только при полной реализации бонуса - использовании 5 [[ability:ca|Заряженных атак]] за 10 секунд. Из-за трудности этого **[[set:wanderers-troupe]] (4)** зачастую является лучшим вариантом."
                             }
                         }
                     ]
@@ -64,7 +65,8 @@
                     "note": {
                         "en": "If [[character:ganyu]] is played in a team with consistent [[element:burning]] uptime, this set performs better than **[[set:wanderers-troupe]] (4)** and **[[set:shimenawas-reminiscence]] (4)**.",
                         "fr": "Si [[character:ganyu]] est jouée dans une équipe avec un uptime constant de [[element:burning]], ce set dépasse **[[set:wanderers-troupe]] (4)** et **[[set:shimenawas-reminiscence]] (4)**.",
-                        "it": "Se [[character:ganyu]] è giocata in team con un buon tempo di attività di [[element:burning]], questo set offre prestazioni migliori rispetto a **[[set:wanderers-troupe]] (4)** e **[[set:shimenawas-reminiscence]] (4)**."
+                        "it": "Se [[character:ganyu]] è giocata in team con un buon tempo di attività di [[element:burning]], questo set offre prestazioni migliori rispetto a **[[set:wanderers-troupe]] (4)** e **[[set:shimenawas-reminiscence]] (4)**.",
+                        "ru": "Если [[character:ganyu]] играет в отрядах, способных поддерживать [[element:burning]], этот вариант превосходит и **[[set:wanderers-troupe]] (4)** и **[[set:shimenawas-reminiscence]] (4)**."
                     }
                 }
             ]

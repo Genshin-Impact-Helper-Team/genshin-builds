@@ -2,19 +2,22 @@
     "name": {
         "en": "[[element:freeze]] DPS",
         "fr": "DPS [[element:freeze]]",
-        "it": "DPS [[element:freeze]]"
+        "it": "DPS [[element:freeze]]",
+        "ru": "ДД через Заморозку"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:ganyu]]'s [[ability:burst]] is the main damage source in [[element:freeze]] teams, therefore [[ability:ca]]s should only be used when the time between using the teams [[ability:skill]]s and [[ability:burst]]s allows it. If running [[character:shenhe]] alongside [[character:ganyu]], weapons with [[stat:cr/cd]] stats and/or DMG% are slightly favored.",
             "fr": "L'[[ability:burst]] de [[character:ganyu]] est la source principale de dégâts dans les équipes [[element:freeze]], donc ses [[ability:ca]]s ne devraient être utilisées que lorsque le temps entre les [[ability:skill]]s et [[ability:burst]]s de l'équipe le permet. Si vous jouez [[character:shenhe]] avec [[character:ganyu]], les armes avec des stats de [[stat:cr/cd]] et/ou du Bonus DGT sont légèrement favorisées.",
-            "it": "Il [[ability:burst]] è la principale fonte di danno di [[character:ganyu]] in un team [[element:freeze]], e di conseguenza gli [[ability:ca|Attacchi Caricati]] vanno usati solo quando gli intervalli di tempo tra [[ability:skill]]/[[ability:burst]] del team lo permettono. Se viene utilizzata insieme a [[character:shenhe]], sono preferibili armi con CRIT e/o DAN%."
+            "it": "Il [[ability:burst]] è la principale fonte di danno di [[character:ganyu]] in un team [[element:freeze]], e di conseguenza gli [[ability:ca|Attacchi Caricati]] vanno usati solo quando gli intervalli di tempo tra [[ability:skill]]/[[ability:burst]] del team lo permettono. Se viene utilizzata insieme a [[character:shenhe]], sono preferibili armi con CRIT e/o DAN%.",
+            "ru": "В [[element:freeze|Заморозке]] основной урон [[character:ganyu]] наносит [[ability:burst]], поэтому [[ability:ca|Заряженные атаки]] используются только при наличии свободного времени между активацией [[ability:skill|Элементальных навыков]] и [[ability:burst|Взрывов стихии]] членов отряда. При игре с [[character:shenhe]] рекомендуется использовать луки с [[stat:cr/cd|критами]] или бонусом урона."
         },
         {
             "en": "With **[[set:blizzard-strayer]] (4)**, it is best to aim close to but not above 45% [[stat:cr]].",
             "fr": "Avec **[[set:blizzard-strayer]] (4)**, il vaut mieux viser proche de 45% de [[stat:cr]], sans le dépasser.",
-            "it": "Con **[[set:blizzard-strayer]] (4)**, è meglio puntare vicino ma non oltre 45% [[stat:cr]]."
+            "it": "Con **[[set:blizzard-strayer]] (4)**, è meglio puntare vicino ma non oltre 45% [[stat:cr]].",
+            "ru": "Старайтесь приблизить значение [[stat:cr|Шанса крит. попадания]] к 45%, но не превышать его, если экипирован **[[set:blizzard-strayer]] (4)**."
         }
     ]
 }

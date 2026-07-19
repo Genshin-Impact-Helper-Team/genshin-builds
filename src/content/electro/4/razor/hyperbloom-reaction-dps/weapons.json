@@ -25,7 +25,8 @@
                     "name": "favonius-greatsword",
                     "note": {
                         "en": "This weapon sacrifices some of [[character:razor]]'s potential reaction damage for team energy",
-                        "fr": "Cette arme sacrifie une partie du potentiel de dégâts de réactions de [[character:razor]] pour l'énergie de l'équipe"
+                        "fr": "Cette arme sacrifie une partie du potentiel de dégâts de réactions de [[character:razor]] pour l'énergie de l'équipe",
+                        "ru": "Жертвует потенциальным уроном [[character:razor]]а в обмен на энергию для отряда."
                     }
                 }
             ]

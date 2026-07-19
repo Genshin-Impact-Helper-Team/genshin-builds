@@ -1,13 +1,15 @@
 {
     "name": {
         "en": "[[element:melt]] DPS",
-        "fr": "DPS [[element:melt]]"
+        "fr": "DPS [[element:melt]]",
+        "ru": "ДД через [[element:melt]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:wriothesley]] utilizes the [[element:melt]] reaction to deal increased damage with his attacks.",
-            "fr": "[[character:wriothesley]] utilise la réaction [[element:melt]] pour infliger plus de dégâts avec ses attaques."
+            "fr": "[[character:wriothesley]] utilise la réaction [[element:melt]] pour infliger plus de dégâts avec ses attaques.",
+            "ru": "[[character:wriothesley]] наносит повышенный урон за счёт активации [[element:melt|Таяния]]."
         }
     ]
 }
