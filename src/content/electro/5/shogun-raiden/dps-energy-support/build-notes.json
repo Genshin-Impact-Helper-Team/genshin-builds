@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "DPS & Energy Support",
-        "fr": "DPS & Support Energie"
+        "fr": "DPS & Support Energie",
+        "ru": "ДД и Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "DPS [[character:shogun-raiden|Raiden]] centers around using her [[ability:burst]] for damage and to generate energy for your team, while keeping her [[ability:skill]] active. Due to her Resolve mechanic, on-field playstyle, and the amount of energy she generates, she synergizes best with high-energy-cost off-field characters.",
-            "fr": "[[character:shogun-raiden]] DPS se concentre sur l'utilisation de son [[ability:burst]] pour les dégâts et pour générer de l'énergie pour votre équipe, tout en gardant son [[ability:skill]] actif. Grâce à sa mécanique de Résolution, son gameplay on-field et la quantité d'énergie qu'elle génère, elle synergise au mieux avec les personnages off-field à coût élevé en énergie."
+            "fr": "[[character:shogun-raiden]] DPS se concentre sur l'utilisation de son [[ability:burst]] pour les dégâts et pour générer de l'énergie pour votre équipe, tout en gardant son [[ability:skill]] actif. Grâce à sa mécanique de Résolution, son gameplay on-field et la quantité d'énergie qu'elle génère, elle synergise au mieux avec les personnages off-field à coût élevé en énergie.",
+            "ru": "ДД [[character:shogun-raiden|Райдэн]] играет от [[ability:burst|Взрыва стихии]], который наносит урон и восстанавливает энергию отряда; при этом важно поддерживать активным и её [[ability:skill]]. В связи с механикой Решимости, долгим временем на поле и высоким объемом генерируемой энергии Райдэн лучше всего сочетается с персонажами с высокой стоимостью [[ability:burst|Взрыва стихии]], играющими из кармана."
         },
         {
             "en": "Start your rotation with [[character:shogun-raiden|Raiden]]'s [[ability:skill]].\n\n[[ability:burst]] combo :\n- {rot:Q > 4N4D} (Recommended for general use)\n- {rot:Q > 3N3C + N1C} (Recommended with Attack Speed)",
-            "fr": "Commencez votre rotation avec le [[ability:skill]] de [[character:shogun-raiden]].\n\nCombo pour l'[[ability:burst]] :\n- {rot:A > 4N4D} (Recommandé pour l'usage général)\n- {rot:A > 3N3C + N1C} (Recommandé avec de la vitesse d'Attaque)"
+            "fr": "Commencez votre rotation avec le [[ability:skill]] de [[character:shogun-raiden]].\n\nCombo pour l'[[ability:burst]] :\n- {rot:A > 4N4D} (Recommandé pour l'usage général)\n- {rot:A > 3N3C + N1C} (Recommandé avec de la vitesse d'Attaque)",
+            "ru": "Начните ротацию с [[ability:skill|Элементального навыка]] [[character:shogun-raiden|Райдэн]]'.\n\nКомбо для [[ability:burst|Взрыва стихии]]:\n- {rot:Q > 4N4D} (рекомендуется в целом)\n- {rot:Q > 3N3C + N1C} (рекомендуется при наличии бонусов скорости атаки)"
         }
     ],
     "weapons": [
