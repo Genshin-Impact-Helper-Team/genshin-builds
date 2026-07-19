@@ -2,11 +2,13 @@
     "notes": [
         {
             "en": "Rankings assume [[character:varesa]] is in a team with [[character:iansan]].",
-            "fr": "Le classement suppose que [[character:varesa]] est jouée avec [[character:iansan]]."
+            "fr": "Le classement suppose que [[character:varesa]] est jouée avec [[character:iansan]].",
+            "ru": "Предполагается, что [[character:varesa]] играет с [[character:iansan]]."
         },
         {
             "en": "**[[weapon:tome-of-the-eternal-flow]]**, **[[weapon:cashflow-supervision]]**, **[[weapon:surfs-up]]**: ",
-            "fr": "**[[weapon:tome-of-the-eternal-flow]]**, **[[weapon:cashflow-supervision]]**, **[[weapon:surfs-up]]**: Le passif est supposé ne pas être activé."
+            "fr": "**[[weapon:tome-of-the-eternal-flow]]**, **[[weapon:cashflow-supervision]]**, **[[weapon:surfs-up]]**: Le passif est supposé ne pas être activé.",
+            "ru": "**[[weapon:tome-of-the-eternal-flow]]**, **[[weapon:cashflow-supervision]]**, **[[weapon:surfs-up]]**: "
         }
     ],
     "weapons": [
@@ -36,21 +38,24 @@
                     "name": "tome-of-the-eternal-flow",
                     "note": {
                         "en": "Assume passive is not activated.",
-                        "fr": "Suppose que le passif n'est pas actif."
+                        "fr": "Suppose que le passif n'est pas actif.",
+                        "ru": "Предполагается, что Пассивная способность не работает."
                     }
                 },
                 {
                     "name": "surfs-up",
                     "note": {
                         "en": "Assume passive is not activated.",
-                        "fr": "Suppose que le passif n'est pas actif."
+                        "fr": "Suppose que le passif n'est pas actif.",
+                        "ru": "Предполагается, что Пассивная способность не работает."
                     }
                 },
                 {
                     "name": "cashflow-supervision",
                     "note": {
                         "en": "Assume passive is not activated.",
-                        "fr": "Suppose que le passif n'est pas actif."
+                        "fr": "Suppose que le passif n'est pas actif.",
+                        "ru": "Предполагается, что Пассивная способность не работает."
                     }
                 }
             ]
@@ -62,7 +67,8 @@
                     "name": "cranes-echoing-call",
                     "note": {
                         "en": "Assumes 3 Volcano Kablams instead of 2, no [[stat:er]] requirements.",
-                        "fr": "Suppose 3 Effondrement volcanique au lieu de 2, sans besoins en [[stat:er]]."
+                        "fr": "Suppose 3 Effondrement volcanique au lieu de 2, sans besoins en [[stat:er]].",
+                        "ru": "Предполагается, что использованы 3 Обрушения вулкана вместо 2, без потребности в энергии."
                     }
                 }
             ]
@@ -73,7 +79,8 @@
                     "name": "the-widsith",
                     "note": {
                         "en": "At **[R5]** this weapon performs on average slightly better than **[[weapon:tulaytullahs-remembrance]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse légèrement **[[weapon:tulaytullahs-remembrance]]**."
+                        "fr": "Une fois **[R5]**, cette arme dépasse légèrement **[[weapon:tulaytullahs-remembrance]]**.",
+                        "ru": "На **[R5]** в среднем немного лучше **[[weapon:tulaytullahs-remembrance|Воспоминаний Тулайтуллы]]**."
                     }
                 },
                 "skyward-atlas"
@@ -94,7 +101,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon assumed [[ability:bol]] is cleared.",
-                        "fr": "Cette arme suppose que l'[[ability:bol]] est retiré."
+                        "fr": "Cette arme suppose que l'[[ability:bol]] est retiré.",
+                        "ru": "Предполагается, что [[ability:bol]] снимается."
                     }
                 }
             ]
