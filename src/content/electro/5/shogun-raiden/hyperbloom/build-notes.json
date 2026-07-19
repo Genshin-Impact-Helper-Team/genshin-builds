@@ -1,16 +1,19 @@
 {
     "name": {
         "en": "[[element:hyperbloom]]",
-        "fr": "[[element:hyperbloom]]"
+        "fr": "[[element:hyperbloom]]"?
+        "ru": "[[element:hyperbloom]]"
     },
     "notes": [
         {
             "en": "In this build [[character:shogun-raiden|Raiden]] is used as a **[[element:hyperbloom]] trigger unit** in a [[element:dendro]] team. She is **one of the best units in the game for this role**. Bringing **greater energy particle generation, a faster rate of seed triggering and a team [[ability:burst]] buff** in exchange for reduced team flexibility compared to another top [[element:hyperbloom]] triggering unit like [[character:kuki-shinobu]].",
-            "fr": "Dans ce build, [[character:shogun-raiden|Raiden]] est utilisée comme **personnage déclencheur d'[[element:hyperbloom]]** dans une équipe [[element:dendro]]. Elle est l'un des **meilleurs personnages du jeu pour ce rôle**. Elle apporte **une meilleure génération de particules, un déclenchement des graines plus rapide et un buff d'[[ability:burst]] de l'équipe** en échange d'une flexibilité d'équipe réduite comparé à un autre excellent personnage déclencheur d'[[element:hyperbloom]] comme [[character:kuki-shinobu]]."
+            "fr": "Dans ce build, [[character:shogun-raiden|Raiden]] est utilisée comme **personnage déclencheur d'[[element:hyperbloom]]** dans une équipe [[element:dendro]]. Elle est l'un des **meilleurs personnages du jeu pour ce rôle**. Elle apporte **une meilleure génération de particules, un déclenchement des graines plus rapide et un buff d'[[ability:burst]] de l'équipe** en échange d'une flexibilité d'équipe réduite comparé à un autre excellent personnage déclencheur d'[[element:hyperbloom]] comme [[character:kuki-shinobu]].",
+            "ru": "В этой сборке [[character:shogun-raiden|Райдэн]] используется как **триггер [[element:hyperbloom|Вегетации]]** в [[element:dendro]] отряде. Она является одним из лучших персонажей для этой роли, так как **генерирует больше энергии, чаще вызывает реакцию и усиливает [[ability:burst|Взрывы стихии]] отряда**, чем превосходит других кандидатов (к примеру, [[character:kuki-shinobu]])."
         },
         {
             "en": "In terms of playstyle, [[element:hyperbloom]] [[character:shogun-raiden|Raiden]] is typically only using her [[ability:skill]] then swapping character. Try to ensure it's always active for [[element:hyperbloom]] triggering.",
-            "fr": "En termes de gameplay, [[character:shogun-raiden|Raiden]] [[element:hyperbloom]] utilise seulement son [[ability:skill]] puis change de personnage. Assurez vous qu'il soit toujours actif pour déclencher [[element:hyperbloom]]."
+            "fr": "En termes de gameplay, [[character:shogun-raiden|Raiden]] [[element:hyperbloom]] utilise seulement son [[ability:skill]] puis change de personnage. Assurez vous qu'il soit toujours actif pour déclencher [[element:hyperbloom]].",
+            "ru": "Обычно [[character:shogun-raiden|Райдэн]] использует [[ability:skill]] и переключается на другого персонажа. Поддерживайте его активным для стабильной активации [[element:hyperbloom|Вегетации]]."
         }
     ]
 }
