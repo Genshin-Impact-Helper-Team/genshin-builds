@@ -213,30 +213,15 @@ function collectKnownIds(value, knownIds, result = new Set()) {
   return result;
 }
 
-function loadEffectiveBuildDocuments(characterPath, buildPath) {
-  const characterFiles = fs
-    .readdirSync(characterPath, { withFileTypes: true })
-    .filter(
-      (entry) =>
-        entry.isFile() &&
-        entry.name.endsWith('.json') &&
-        entry.name !== 'metadata.json',
-    )
-    .map((entry) => entry.name);
-  const buildFiles = fs
-    .readdirSync(buildPath, { withFileTypes: true })
-    .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
-    .map((entry) => entry.name);
-  const effectiveFiles = new Set([...characterFiles, ...buildFiles]);
+function loadEffectiveBuildDocument(characterPath, buildPath, fileName) {
+  const buildFile = path.join(buildPath, fileName);
+  const characterFile = path.join(characterPath, fileName);
 
-  return [...effectiveFiles].map((fileName) => {
-    const buildFile = path.join(buildPath, fileName);
-    const effectiveFile = fs.existsSync(buildFile)
-      ? buildFile
-      : path.join(characterPath, fileName);
+  if (fs.existsSync(buildFile)) {
+    return readJsonFile(buildFile);
+  }
 
-    return readJsonFile(effectiveFile);
-  });
+  return fs.existsSync(characterFile) ? readJsonFile(characterFile) : {};
 }
 
 function makeCatalogItems(entries, translations, context) {
@@ -406,13 +391,19 @@ export function addReleaseAudits(inventory, catalog) {
 
     for (const build of character.builds) {
       const buildPath = path.resolve(build.sourcePath);
-      const buildDocuments = loadEffectiveBuildDocuments(
+      const weaponDocument = loadEffectiveBuildDocument(
         characterPath,
         buildPath,
+        'weapons.json',
       );
-      const mentionedWeapons = collectKnownIds(buildDocuments, weaponIds);
+      const artifactSetDocument = loadEffectiveBuildDocument(
+        characterPath,
+        buildPath,
+        'artifacts-sets.json',
+      );
+      const mentionedWeapons = collectKnownIds(weaponDocument, weaponIds);
       const mentionedArtifactSets = collectKnownIds(
-        buildDocuments,
+        artifactSetDocument,
         artifactIds,
       );
 
@@ -453,6 +444,26 @@ function renderReleaseList(items, kind, checked = false) {
     .join('\n');
 }
 
+function renderReleaseSnippet(items, itemKind, noteName) {
+  if (items.length === 0) {
+    return '';
+  }
+
+  const content = [
+    `## [[note:${noteName}]]`,
+    ...items.map((item) => `- [[${itemKind}:${item.id}]]`),
+    '',
+  ].join('\n');
+
+  return [
+    '```',
+    '        {',
+    `            "en": ${JSON.stringify(content)}`,
+    '        }',
+    '```',
+  ].join('\n');
+}
+
 export function renderReleaseAudit(audit) {
   if (!audit) {
     throw new Error('Build release audit data is missing.');
@@ -471,10 +482,16 @@ export function renderReleaseAudit(audit) {
     `### ${weaponType} weapons`,
     '',
     renderReleaseList(audit.weapons, 'weapon'),
+    ...(audit.weapons.length
+      ? ['', renderReleaseSnippet(audit.weapons, 'weapon', 'wip-weapon')]
+      : []),
     '',
     '### Artifact sets',
     '',
     renderReleaseList(audit.artifactSets, 'artifact'),
+    ...(audit.artifactSets.length
+      ? ['', renderReleaseSnippet(audit.artifactSets, 'set', 'wip-artifact')]
+      : []),
     ...(audit.hiddenWeapons?.length || audit.hiddenArtifactSets?.length
       ? [
           '',
