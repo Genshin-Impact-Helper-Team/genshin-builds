@@ -11,7 +11,8 @@
                     "name": "polar-star",
                     "note": {
                         "en": "Perform a quick [[ability:na]] and [[ability:ca]] before summoning Oz for more stacks.",
-                        "fr": "Effectuez une [[ability:na]] rapide et une [[ability:ca]] avant d'invoquer Oz pour obtenir plus de stacks."
+                        "fr": "Effectuez une [[ability:na]] rapide et une [[ability:ca]] avant d'invoquer Oz pour obtenir plus de stacks.",
+                        "ru": "Проведите быстрые обычную и заряженную атаки перед призывом Оза для получения дополнительных уровней Пассивной способности."
                     }
                 }
             ]
@@ -37,7 +38,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:fischl]] is healed before summoning Oz.",
-                        "fr": "Suppose que [[character:fischl]] est soignée avant d'invoquer Oz."
+                        "fr": "Suppose que [[character:fischl]] est soignée avant d'invoquer Oz.",
+                        "ru": "Предполагается, что Фишль получает лечение до призыва Оза."
                     }
                 },
                 {
@@ -53,7 +55,8 @@
                     "name": "alley-hunter",
                     "note": {
                         "en": "At **[R5]** this weapon performs better than **[[weapon:astral-vultures-crimson-plumage]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:astral-vultures-crimson-plumage]]**."
+                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:astral-vultures-crimson-plumage]]**.",
+                        "ru": "На [R5] превосходит Алое перо звёздного грифа."
                     }
                 }
             ]
@@ -65,7 +68,8 @@
                     "name": "the-stringless",
                     "note": {
                         "en": "Becomes better if [[character:fischl]] frequently triggers reactions. At **[R5]** it can perform similarly to **[[weapon:amos-bow]]**.",
-                        "fr": "Devient meilleure si [[character:fischl]] déclenche souvent des réactions. Une fois **[R5]**, elle peut performer de manière similaire à **[[weapon:amos-bow]]**."
+                        "fr": "Devient meilleure si [[character:fischl]] déclenche souvent des réactions. Une fois **[R5]**, elle peut performer de manière similaire à **[[weapon:amos-bow]]**.",
+                        "ru": "Показывает себя лучше в отрядах, где Фишль закрывает реакции. На [R5] соответствует Луку Амоса."
                     }
                 },
                 {
