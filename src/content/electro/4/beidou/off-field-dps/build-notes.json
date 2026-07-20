@@ -2,7 +2,8 @@
     "best": true,
     "name": {
         "en": "Off-Field DPS",
-        "fr": "DPS Off-Field"
+        "fr": "DPS Off-Field",
+        "ru": "Карманный ДД"
     },
     "global": {
         "author": "Chiston",
