@@ -4,7 +4,8 @@
             "name": "er",
             "note": {
                 "en": "Prioritize first until you can [[ability:burst]] off cooldown",
-                "fr": "A prioriser jusqu'à pouvoir [[ability:burst]] dès la fin du TdR"
+                "fr": "A prioriser jusqu'à pouvoir [[ability:burst]] dès la fin du TdR",
+                "ru": "[[note:er-req]]."
             }
         },
         "cr/cd",
@@ -13,7 +14,8 @@
             "name": "em",
             "note": {
                 "en": "Desirable sub stat in [[element:aggravate]] teams",
-                "fr": "Substat voulue dans les équipes [[element:aggravate]]"
+                "fr": "Substat voulue dans les équipes [[element:aggravate]]",
+                "ru": "Мастерство стихий полезно в отрядах через [[element:aggravate]]"
             }
         }
     ]
