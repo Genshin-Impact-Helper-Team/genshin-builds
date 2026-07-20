@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Heal Support",
-        "fr": "Support Soins"
+        "fr": "Support Soins",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:dori]] is mainly a support character that provides Healing and Energy to a teammate through her [[ability:burst]].",
-            "fr": "[[character:dori]] est principalement un personnage de support qui offre du Soin et de l'énergie à son équipe grâce à son [[ability:burst]]."
+            "fr": "[[character:dori]] est principalement un personnage de support qui offre du Soin et de l'énergie à son équipe grâce à son [[ability:burst]].",
+            "ru": "Дори - персонаж поддержки, способная к лечению и обеспечению сокомандников энергией за счет Взрыва стихии."
         },
         {
             "en": "It is generally advised to use 2 [[ability:skill]]s per [[ability:burst]] rotation, as this helps to alleviate her otherwise extreme Energy requirements.",
-            "fr": "Il est généralement recommandé d'utiliser 2 [[ability:skill]]s par rotation d'[[ability:burst]], puisque cela aide à alléger ses besoins en énergie très élevés."
+            "fr": "Il est généralement recommandé d'utiliser 2 [[ability:skill]]s par rotation d'[[ability:burst]], puisque cela aide à alléger ses besoins en énergie très élevés.",
+            "ru": "Использование двух Элементальных навыков за ротацию несколько снижает ее требования к Восстановлению энергии."
         }
     ]
 }
