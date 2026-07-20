@@ -5,6 +5,11 @@
             "version": "6.7 / Luna VIII",
             "entries": [
                 {
+                    "date": "July 20, 2026",
+                    "changes": "Added a list of viable set/weapon as a WIP note for many characters. These aren't calcd yet be could be considered for the build.",
+                    "appliedBy": "Plo, Quincy"
+                },
+                {
                     "date": "July 18, 2026",
                     "changes": "Updated Venti, Xiao, Escoffier, Emilie, Kinich, Tighnari, Flins, Ineffa, Razor, Gaming, Hu Tao, Citlali, and Yoimiya section to be up to date.",
                     "appliedBy": "Plo, Quincy, Greenster, Finnyke"

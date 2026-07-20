@@ -18,6 +18,9 @@
             "fr": "L'élément absorbé par l'[[ability:burst]] de [[character:kaedehara-kazuha]] suit la priorité [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]], et peut être absorbé à la fois depuis le personnage actif et les ennemis. (c.-à-d. se tenir dans l'[[ability:burst]] de [[character:bennett]] fera que l'[[ability:burst]] de [[character:kaedehara-kazuha]] s'infusera en [[element:pyro]], puisque l'[[ability:burst]] de [[character:bennett]] applique [[element:pyro]] au personnage actif).",
             "it": "L'assorbimento di un elemento dal [[ability:burst]] di [[character:kaedehara-kazuha]] segue la priorità [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]], e può essere assorbito sia dal personaggio attivo che dai nemici. Ad esempio, essere posizionato all'interno del [[ability:burst]] di [[character:bennett]] permette al [[ability:burst]] di [[character:kaedehara-kazuha]] di infondersi di [[element:pyro]], poiché il [[ability:burst]] di [[character:bennett]] applica [[element:pyro]] al personaggio attivo.",
             "ru": "Приоритет поглощения [[ability:burst|Взрывом стихии]] [[character:kaedehara-kazuha|Кадзухи]]: [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]], элемент может быть захвачен как от активного персонажа, так и от противника (т.е. нахождение персонажа в зоне [[ability:burst|Взрыва стихии]] [[character:bennett|Беннета]] приведет к захвату [[element:pyro]] [[ability:burst|Взрывом стихии]] [[character:kaedehara-kazuha|Кадзухи]], так как первый накладывает [[element:pyro]] статус на активного персонажа)."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n"
         }
     ]
 }

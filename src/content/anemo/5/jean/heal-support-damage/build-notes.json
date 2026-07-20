@@ -12,6 +12,12 @@
             "fr": "Le [[ability:skill]] de [[character:jean]] peut être utilisé pour projeter les petits ennemis en l'air afin d'infliger des dégâts de chute, et pour faire chanceler les plus gros ennemis. **Son soin scale sur l'[[stat:atk]]**.",
             "it": "L'[[ability:skill]] di [[character:jean]] può essere utilizzata per lanciare in aria i nemici più piccoli e provocare danni da caduta, e per interrompere i nemici più grandi. **Le sue cure scalano su [[stat:atk]]**.",
             "ru": "[[ability:skill]] [[character:jean]] может применяться для подкидывания мелких мобов в воздух и нанесения урона от падения, а также отталкивания крупных противников. **Ее лечение зависит от [[stat:atk|Силы атаки]]**."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

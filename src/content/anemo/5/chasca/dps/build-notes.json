@@ -33,6 +33,12 @@
             "fr": "Combo idéal : {rot:4[CA6]}. Le nombre après « CA » correspond au nombre de balles chargées.",
             "it": "**Combo ideale:** {rot:4[CA6]}. Il numero dopo 'CA' si riferisce al numero di proiettili caricati.",
             "ru": "Идеальное комбо: {rot:4[CA6]}. Число после 'CA' - количество зарядов Пуль охотника на тени."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:golden-frostbound-oath]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

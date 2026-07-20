@@ -25,6 +25,9 @@
             "en": "[[character:lauma]]'s hold [[ability:skill]] will consume [[ability:verdant-dew]] stacks (obtained by triggering [[element:lunar-bloom]] reaction every 2.5s) - It is recommended to have 2-3 stacks before casting hold [[ability:skill]], else tap [[ability:skill]] to conserve [[ability:verdant-dew]] stacks",
             "fr": "Le [[ability:skill]] appui long de [[character:lauma]] consomme des stacks de [[ability:verdant-dew]] (obtenus en déclenchant la réaction de [[element:lunar-bloom]] toutes les 2.5s) - Il est recommandé d'avoir 2-3 stacks avant de lancer le [[ability:skill]] appui long, sinon utilisez le [[ability:skill]] appui court pour conserver les stacks de [[ability:verdant-dew]].",
             "ru": "Зажатый [[ability:skill]] [[character:lauma|Лаумы]] расходует [[ability:verdant-dew|Зелёную росу]] (получаемую при активации [[element:lunar-bloom|Лунной бутонизации]] каждые 2,5 сек). Перед использованием зажатого [[ability:skill|Элементального навыка]] рекомендуется иметь 2-3 единицы Зелёной росы; в противном случае желательно использовать короткое нажатие навыка."
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:celestial-gift]]\n- [[set:disenchantment-in-deep-shadow]]\n"
         }
     ],
     "weapons": [

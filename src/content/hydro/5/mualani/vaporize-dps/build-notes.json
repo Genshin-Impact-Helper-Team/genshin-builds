@@ -15,6 +15,9 @@
             "en": " If [[character:mualani]] attacks a marked enemy with a Sharky Bite, any other marked enemies are hit with additional Missiles. Both the Sharky Bites and the additional Missiles are considered [[ability:na]] Damage.",
             "fr": " Si [[character:mualani]] attaque un ennemi ayant une Marque de proie, tous les ennemis marqués sont attaqués par des missiles de Requinou. La morsure et le missile de Requinou sont tout deux considérés comme des dégâts d'[[ability:na]].",
             "ru": "При атаке отмеченного противника Укусом акулки по остальным отмеченным противникам дополнительно выпускаются Акулкины ракеты (урон обеих приёмов считается уроном обычной атаки)."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:nocturnes-curtain-call]]\n"
         }
     ],
     "weapons": [

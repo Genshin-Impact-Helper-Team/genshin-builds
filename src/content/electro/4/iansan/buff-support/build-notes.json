@@ -34,6 +34,9 @@
             "en": "[[character:iansan]]'s [C1] gives her 15 Energy upon consuming 6 [[ability:nightsoul-point]] as long as she's in combat and in [[ability:nightsoul-blessing]] state, effectively changing her [[ability:burst]] cost from 70 to 55. This has a cooldown of 18 seconds.",
             "fr": "La [C1] de [[character:iansan]] lui rend 15 énergie après avoir consommé 6 [[ability:nightsoul-point]] tant qu'elle est en combat et dans l'état [[ability:nightsoul-blessing]] state, changeant le coût de son [[ability:burst]] de 70 à 55. Ceci a un TdR de 18 secondes.",
             "ru": "[C1] Иансан восстанавливает ей 15 энергии при расходовании 6 очков Ночного духа в состоянии Благословения Ночного духа во время битвы -- по сути, уменьшая затраты энергии на активацию Взрыва стихии с 70 до 55. Время перезарядки эффекта - 18 секунд."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:prospectors-shovel]]\n"
         }
     ]
 }
