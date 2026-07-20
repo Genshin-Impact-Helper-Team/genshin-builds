@@ -1,25 +1,30 @@
 {
     "name": {
         "en": "Buff Support & Damage",
-        "fr": "Support Buff & Dégâts"
+        "fr": "Support Buff & Dégâts",
+        "ru": "Саппорт с уроном"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:kujou-sara]] is a quickswap support who is able to buff your active character via her Crowfeather mechanic while dealing a decent amount of personal damage. When [[character:kujou-sara]] uses her [[ability:skill]], her next Charged Shot will leave a Crowfeather at the target location which explodes after a short while, granting **the active character in its AoE an attack buff based on [[character:kujou-sara]]'s Base ATK**. Active characters within her [[ability:burst]]'s AoE will also receive the same buff or have its duration refreshed.",
-            "fr": "[[character:kujou-sara]] est un support Quicksawp qui est capable de buff votre personnage actif grâce à sa mécanique de Plume de corbeau tout en infligeant des dégâts personnels décents. Lorsque [[character:kujou-sara]] utilise son [[ability:skill]], sa prochaine attaque chargée laisse une plume de corbeau à l'emplacement de la cible qui explose après un petit moment, offrant **au perdonnage actif dans sa zone un buff d'attaque proportionnel à l'attaque de base de Sara**. Le peronnage actif dans la zone de son [[ability:burst]] recevra le même buff ou verra la durée de son buff repartir de 0."
+            "fr": "[[character:kujou-sara]] est un support Quicksawp qui est capable de buff votre personnage actif grâce à sa mécanique de Plume de corbeau tout en infligeant des dégâts personnels décents. Lorsque [[character:kujou-sara]] utilise son [[ability:skill]], sa prochaine attaque chargée laisse une plume de corbeau à l'emplacement de la cible qui explose après un petit moment, offrant **au perdonnage actif dans sa zone un buff d'attaque proportionnel à l'attaque de base de Sara**. Le peronnage actif dans la zone de son [[ability:burst]] recevra le même buff ou verra la durée de son buff repartir de 0.",
+            "ru": "Сара - саппорт под револьверные отряды, способная усиливать активного персонажа за счет механики Вороньего пера, а также наносящая достойный урон. Следующая после использования Элементального навыка Заряженная атака оставляет на поле Воронье перо, которое взрывается через определенный срок и дает персонажу в зоне взрыва бонус Силы атаки, зависящий от Базовой атаки Сары. Такой же эффект получает персонаж в зоне Взрыва стихии Сары."
         },
         {
             "en": "If building [[character:kujou-sara]] for personal damage, it is recommended to let her receive the buff provided by her [[ability:skill]] to enhance her [[ability:burst]], while letting the next active character be buffed by her [[ability:burst]].",
-            "fr": "Si vous prévoyez de build [[character:kujou-sara]] pour ses dégâts personnels, il est recommandé de la laisser recevoir le buff offert par son [[ability:skill]] pour améliorer son [[ability:burst]], tout en laissant le prochain personnage actif être buff par son [[ability:burst]]."
+            "fr": "Si vous prévoyez de build [[character:kujou-sara]] pour ses dégâts personnels, il est recommandé de la laisser recevoir le buff offert par son [[ability:skill]] pour améliorer son [[ability:burst]], tout en laissant le prochain personnage actif être buff par son [[ability:burst]].",
+            "ru": "При использовании сборки в личный урон, рекомендуется получать бонус от Элементального навыка на Саре, а бонус от Взрыва стихии следующему персонажу."
         },
         {
             "en": "At [C2], you can skip the Charged Shot as her [[ability:skill]] immediately drops a Crowfeather, and save it for later on if you wanna swap back to her to extend her buffs. The [[stat:cd]] buff provided by [[character:kujou-sara]]'s [C6] cannot be snapshot and is not shown in the attribute page.",
-            "fr": "Une fois [C2], vous n'avez pas besoin d'utiliser son attaque chargée car son [[ability:skill]] créée immédiatement une Plume de Corbeau, ce qui permet d'utiliser une attaque chargée plus tard pour prolonger son buff. Le buff de [[stat:cd]] offert par la [C6] de [[character:kujou-sara]] ne peut pas être snapshot et ne se voit pas dans la page de détail du personnage."
+            "fr": "Une fois [C2], vous n'avez pas besoin d'utiliser son attaque chargée car son [[ability:skill]] créée immédiatement une Plume de Corbeau, ce qui permet d'utiliser une attaque chargée plus tard pour prolonger son buff. Le buff de [[stat:cd]] offert par la [C6] de [[character:kujou-sara]] ne peut pas être snapshot et ne se voit pas dans la page de détail du personnage.",
+            "ru": "На [C2] использовать Заряженную атаку необязательно - Воронье перо появляется сразу, а дополнительное можно оставить про запас для продления бонуса. Следует отметить, что Крит. урон от [C6] не отображается в статах и не продляется за счёт механики снапшота."
         },
         {
             "en": "For her [[ability:skill]] to generate particles, you need to perform a Charged Shot to place a Crowfeather after casting her [[ability:skill]]. If the Crowfeather explosion hits an enemy, it generates 3 particles.\n\nCrowfeathers dropped through [[character:kujou-sara]]'s [C2] do NOT generate particles.",
-            "fr": "Pour que son [[ability:skill]] génère des particules, il faut effectuer une attaque chargée pour placer une Plume de Corbeau après avoir utilisé son [[ability:skill]]. Si l'explosion de la Plume de corbeau touche un ennemi, elle génère 3 particules.\n\nLes plumes de corbeau générées via le skill grâce à la [C2] de [[character:kujou-sara]] ne génèrent PAS de particules."
+            "fr": "Pour que son [[ability:skill]] génère des particules, il faut effectuer une attaque chargée pour placer une Plume de Corbeau après avoir utilisé son [[ability:skill]]. Si l'explosion de la Plume de corbeau touche un ennemi, elle génère 3 particules.\n\nLes plumes de corbeau générées via le skill grâce à la [C2] de [[character:kujou-sara]] ne génèrent PAS de particules.",
+            "ru": "Для генерации частиц необходимо выполнить Заряженную атаку после Элементального навыка для появления Вороньего пера. Если взрыв Вороньего пера поражает противников, то генерируется 3 частицы.\nВороньи перья, образующиеся от ее [C2], НЕ создают частиц."
         }
     ]
 }
