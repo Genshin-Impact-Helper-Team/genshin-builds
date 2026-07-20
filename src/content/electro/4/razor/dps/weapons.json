@@ -34,7 +34,8 @@
                     "name": "talking-stick",
                     "note": {
                         "en": "Ranking assumes [[character:razor]] is being used with **[[character:bennett]]**. If [[character:razor]] is not used with [[character:bennett]], this weapon is much worse.",
-                        "fr": "Le classement suppose que [[character:razor]] est joué avec **[[character:bennett]]**. Dans le cas contraire, cette arme se classe beaucoup plus bas."
+                        "fr": "Le classement suppose que [[character:razor]] est joué avec **[[character:bennett]]**. Dans le cas contraire, cette arme se classe beaucoup plus bas.",
+                        "ru": "редполагается, что Рэйзор играет в отряде с Беннетом. В противном случае данное оружие значительно хуже."
                     }
                 },
                 "serpent-spine"
@@ -46,7 +47,8 @@
                     "name": "skyward-pride",
                     "note": {
                         "en": "Gains significant value in teams where [[character:razor]]'s [[stat:er]] requirements are higher.",
-                        "fr": "Gagne de la valeur dans les équipes où les besoins en [[stat:er]] de [[character:razor]] sont élevés."
+                        "fr": "Gagne de la valeur dans les équipes où les besoins en [[stat:er]] de [[character:razor]] sont élevés.",
+                        "ru": "Становится заметно лучше в отрядах с высокими требованиями к Восстановлению энергии."
                     }
                 },
                 "wolfs-gravestone"
@@ -64,7 +66,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If [[character:razor]] cannot be **healed**, this weapon ranks lower than **[[weapon:earth-shaker]]**.",
-                        "fr": "Si [[character:razor]] ne peux pas **recevoir de soins**, cette arme se classe en dessous de **[[weapon:earth-shaker]]**."
+                        "fr": "Si [[character:razor]] ne peux pas **recevoir de soins**, cette arme se classe en dessous de **[[weapon:earth-shaker]]**.",
+                        "ru": "В отрядах без гарантированного лечения уступает Сотрясающему землю."
                     }
                 },
                 "blackcliff-slasher",
@@ -78,7 +81,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes a teammate can trigger a [[element:pyro]] reaction, otherwise, use other weapons.",
-                        "fr": "Suppose qu'un membre de l'équipe peut déclencher des réactions [[element:pyro]]. Sinon, choisissez une autre arme."
+                        "fr": "Suppose qu'un membre de l'équipe peut déclencher des réactions [[element:pyro]]. Sinon, choisissez une autre arme.",
+                        "ru": "Предполагается, что в отряде есть возможность закрыть реакцию Пиро. В противном случае используйте другие варианты."
                     }
                 }
             ]
