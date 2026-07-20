@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "It is important to note that at [C0], using non-[[stat:er]] weapons in teams where [[character:iansan]] is the only [[element:electro]] may be unrealistic due to how high her [[stat:er]] needs can become. In addition, in teams where movement is scarce, ATK weapons gain greater value.",
-            "fr": "Il est important de noter qu'en [C0], utiliser des armes qui ne sont pas [[stat:er]] dans des équipes où [[character:iansan]] est le seul [[element:electro]] peut être irréaliste puisque ses besoins en [[stat:er]] deviendraient trop élevés. De plus, dans les équipes où il y a peu de mouvements, les armes ATQ gagnent plus de valeur."
+            "fr": "Il est important de noter qu'en [C0], utiliser des armes qui ne sont pas [[stat:er]] dans des équipes où [[character:iansan]] est le seul [[element:electro]] peut être irréaliste puisque ses besoins en [[stat:er]] deviendraient trop élevés. De plus, dans les équipes où il y a peu de mouvements, les armes ATQ gagnent plus de valeur.",
+            "ru": "Важно отметить, что на [C0] использование не-ВЭ оружия может быть невозможно в отрядах, где Иансан является единственным электро персонажем (из-за её потребности в энергии). Кроме того, если персонажи отряда мало передвигаются, оружие, дающее Силу атаки, показывает себя лучше."
         }
     ],
     "weapons": [
@@ -13,7 +14,8 @@
                     "name": "symphonist-of-scents",
                     "note": {
                         "en": "Keep in mind that the fewer Natlan characters you have on your team, the lower the buff's uptime will be with near perfect uptime usually only achievable when using three or more Natlan characters.",
-                        "fr": "Gardez en tête que le moins de personnages de Natlan vous avez dans l'équipe, le plus court l'uptime du buff sera. L'uptime parfait nécéssite générallement 3 personnages de Natlan ou +."
+                        "fr": "Gardez en tête que le moins de personnages de Natlan vous avez dans l'équipe, le plus court l'uptime du buff sera. L'uptime parfait nécéssite générallement 3 personnages de Natlan ou +.",
+                        "ru": "Стоит отметить, что с уменьшением количества персонажей из Натлана в отряде время, которое Пассивная способность работает, также может уменьшаться. Стабильная реализация обычно требует трёх или более персонажей из Натлана."
                     }
                 }
             ]

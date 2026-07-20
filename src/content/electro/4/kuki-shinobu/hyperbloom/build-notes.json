@@ -6,11 +6,13 @@
     "notes": [
         {
             "en": "This is a [[element:dendro]] team that requires a **reliable [[element:electro]] trigger unit** to work, for which [[character:kuki-shinobu]] is **one of the best [[element:electro]] units** to perform this role.",
-            "fr": "Il s'agit d'une équipe [[element:dendro]] qui nécéssite **un déclencheur [[element:electro]] fiable** pour fonctionner, rôle dans lequel [[character:kuki-shinobu]] est **l'un des meilleurs personnages [[element:electro]]** que l'on pourrait avoir."
+            "fr": "Il s'agit d'une équipe [[element:dendro]] qui nécéssite **un déclencheur [[element:electro]] fiable** pour fonctionner, rôle dans lequel [[character:kuki-shinobu]] est **l'un des meilleurs personnages [[element:electro]]** que l'on pourrait avoir.",
+            "ru": "Отряды, основанные на этой реакции, нуждаются в надежном источнике Электро. В этой роли Куки является одной из лучших."
         },
         {
             "en": "Aim for around 850-950+ [[stat:em]]. Depending on whether you use an [[stat:em]] weapon or not.",
-            "fr": "Visez autour des 850-950+ de [[stat:em]], selon si vous utilisez une arme [[stat:em]] ou pas."
+            "fr": "Visez autour des 850-950+ de [[stat:em]], selon si vous utilisez une arme [[stat:em]] ou pas.",
+            "ru": "Стремитесь к МС на уровне 850-950+ в зависимости от выбранного оружия."
         }
     ]
 }

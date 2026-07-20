@@ -11,7 +11,8 @@
                     "name": "vivid-notions",
                     "note": {
                         "en": "This weapon **works best** in teams where **[[character:lisa]] is enabled to plunge**.",
-                        "fr": "Cette arme **fonctionne au mieux** dans les équipes où **[[character:lisa]] peut faire des attaques plongeantes**."
+                        "fr": "Cette arme **fonctionne au mieux** dans les équipes où **[[character:lisa]] peut faire des attaques plongeantes**.",
+                        "ru": "Показывает себя лучше всего в командах, где Лиза может совершать атаки в падении."
                     }
                 }
             ]
@@ -44,7 +45,8 @@
                     "name": "the-widsith",
                     "note": {
                         "en": "At high refinement **[R4-R5]** this weapon starts **performing similarly to [[weapon:lost-prayer-to-the-sacred-winds]]**.",
-                        "fr": "Une fois **[R4-R5]**, cette arme comment à **performer de manière similaire à [[weapon:lost-prayer-to-the-sacred-winds]]**."
+                        "fr": "Une fois **[R4-R5]**, cette arme comment à **performer de manière similaire à [[weapon:lost-prayer-to-the-sacred-winds]]**.",
+                        "ru": "На высоких Рангах пробуждения [R4-R5] начинает соответствовать Молитве святым ветрам."
                     }
                 }
             ]
@@ -61,7 +63,8 @@
                     "name": "flowing-purity",
                     "note": {
                         "en": "This weapon is more potent if you can **reliably clear the [[ability:bol]]**. If you can, this weapon is **equal to or better than [[weapon:mappa-mare]]**. At **[R5]** with its passive met this is on par with **[[weapon:solar-pearl]]**.",
-                        "fr": "Cette arme est plus puissante si vous pouvez **retirer l'[[ability:bol]] de façon fiable**. Si vous le pouvez, cette arme équivaut à **[[weapon:mappa-mare]]**, voire la dépasse. Une fois **[R5]** avec le passif actif, cette arme est au même niveau que **[[weapon:solar-pearl]]**."
+                        "fr": "Cette arme est plus puissante si vous pouvez **retirer l'[[ability:bol]] de façon fiable**. Si vous le pouvez, cette arme équivaut à **[[weapon:mappa-mare]]**, voire la dépasse. Une fois **[R5]** avec le passif actif, cette arme est au même niveau que **[[weapon:solar-pearl]]**.",
+                        "ru": "Показывает себя лучше, если стабильно снимать Долг жизни, и в таком случае соответствует Морскому атласу или превосходит его. На [R5] со снятым Долгом жизни соттветствует Солнечной жемчужине."
                     }
                 }
             ]
@@ -72,7 +75,8 @@
                     "name": "mappa-mare",
                     "note": {
                         "en": "At high refinement **[R5]** this weapon is **equal to or better than [[weapon:solar-pearl]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est **équivalente ou meilleure que [[weapon:solar-pearl]]**."
+                        "fr": "Une fois **[R5]**, cette arme est **équivalente ou meilleure que [[weapon:solar-pearl]]**.",
+                        "ru": "На [R5] соотвествует Солнечной жемчужине или превосходит её."
                     }
                 }
             ]

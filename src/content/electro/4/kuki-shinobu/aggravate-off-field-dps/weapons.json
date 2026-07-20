@@ -6,7 +6,8 @@
                     "name": "freedom-sworn",
                     "note": {
                         "en": "While not having the highest personal damage it makes up for it in **overall team damage** through its **competitive buffs**.",
-                        "fr": "Bien que n'offrant pas les dégâts personnels les plus élevés, cette épée compense avec les **dégâts globaux** grâce à ses **buffs compétitifs**."
+                        "fr": "Bien que n'offrant pas les dégâts personnels les plus élevés, cette épée compense avec les **dégâts globaux** grâce à ses **buffs compétitifs**.",
+                        "ru": "Клятва компенсирует не самый большой личный урон бонусами для отряда."
                     }
                 }
             ]
@@ -17,14 +18,16 @@
                     "name": "primordial-jade-cutter",
                     "note": {
                         "en": "Has the **highest personal damage** of any weapon on [[character:kuki-shinobu]] but **little to no utility**, which means it usually **falls behind in overall team damage**.",
-                        "fr": "Offre les **dégâts personnels les plus élevés** comparé à n'importe quelle autre arme sur [[character:kuki-shinobu]] mais **mais peu, si ce n'est aucune, commodité**, ce qui signifie généralement que cette arme **est moins bonne en termes de dégâts globaux de l'équipe**."
+                        "fr": "Offre les **dégâts personnels les plus élevés** comparé à n'importe quelle autre arme sur [[character:kuki-shinobu]] mais **mais peu, si ce n'est aucune, commodité**, ce qui signifie généralement que cette arme **est moins bonne en termes de dégâts globaux de l'équipe**.",
+                        "ru": "Дает наибольший прирост к личному урону Куки, но за счет отсутствия полезных бонусов для отряда отстает по общему урону."
                     }
                 },
                 {
                     "name": "key-of-khaj-nisut",
                     "note": {
                         "en": "On paper combines a **mixture of high personal damage with team buffs** to potentially be her best weapon if you manage to get it fully stacked. This is usually an **unrealistic scenario** though with it taking up to 2-3 rotations to fully stack or forcing you to stay on-field to let it stack which is usually a **net DPS loss**.",
-                        "fr": "Sur le papier, combine **de haut dégâts personnels avec des buffs pour l'équipe** ce qui pourrait potentiellement en faire la meilleure option si vous arrivez à obtenir tous les stacks. C'est cependant un **scénario peu réaliste** puisqu'il faut 2-3 rotations pour tous les avoir, ou bien se forcer à rester sur le terrain pour laisser les stacks s'accumuler ce qui est généralement **une perte de DPS**."
+                        "fr": "Sur le papier, combine **de haut dégâts personnels avec des buffs pour l'équipe** ce qui pourrait potentiellement en faire la meilleure option si vous arrivez à obtenir tous les stacks. C'est cependant un **scénario peu réaliste** puisqu'il faut 2-3 rotations pour tous les avoir, ou bien se forcer à rester sur le terrain pour laisser les stacks s'accumuler ce qui est généralement **une perte de DPS**.",
+                        "ru": "В теории объединяет высокий личный урон и бонус для отряда, в связи с чем при максимуме уровней Пассивной способности является лучшим выбором. На практике полная активация Пассивной способности требует либо нескольких ротаций, либо более длительного пребывания Куки в качестве активного персонажа, что в общности ведет к меньшему DPS."
                     }
                 }
             ]

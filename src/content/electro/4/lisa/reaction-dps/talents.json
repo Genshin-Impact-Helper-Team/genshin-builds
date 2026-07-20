@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Talent Levels are not essential.",
-            "fr": "Le niveau des talents n'est pas essentiel pour ce rôle."
+            "fr": "Le niveau des talents n'est pas essentiel pour ce rôle.",
+            "ru": "В МС-сборке повышение уровня талантов необязательно"
         }
     ],
     "talents": [

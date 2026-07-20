@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "[[element:aggravate]] DPS",
-        "fr": "DPS [[element:aggravate]]"
+        "fr": "DPS [[element:aggravate]]",
+        "ru": "[[element:aggravate]]"
     },
     "best": true,
     "weapons": {
@@ -11,15 +12,18 @@
     "notes": [
         {
             "en": "This build makes use of her entire kit, from her [[stat:em]] ascension stat, high rate of [[element:electro]] application, and supportive driving capabilities. Making her an on-field driver for [[element:quicken]] teams also minimizes her [[stat:er]] requirements and is therefore her best use case relative to her other on-field teams.",
-            "fr": "Ce build rend utile la totalité de son kit: son ascension [[stat:em]], son taux élevé d'application [[element:electro]] et ses capacités de driver. En faire un Driver On-Field pour les équipes [[element:quicken]] baisse aussi ses besoins en [[stat:er]] et en fait donc le meilleur cas d'utilisation comparé à ses autres équipes On-Field."
+            "fr": "Ce build rend utile la totalité de son kit: son ascension [[stat:em]], son taux élevé d'application [[element:electro]] et ses capacités de driver. En faire un Driver On-Field pour les équipes [[element:quicken]] baisse aussi ses besoins en [[stat:er]] et en fait donc le meilleur cas d'utilisation comparé à ses autres équipes On-Field.",
+            "ru": "Этот билд использует сильные стороны Лизы: МС бонус за возвышение, частое наложение Электро статуса, способности драйвера. Одновременно он снижает требования Лизы к ВЭ, ставя её как драйвера в отряд через Стимуляцию - что является лучшим для неё вариантом игры на поле."
         },
         {
             "en": "Learning Blocks for On-field [[character:lisa]] rotations:",
-            "fr": "Conseils pour la rotation d'une [[character:lisa]] On-Field:"
+            "fr": "Conseils pour la rotation d'une [[character:lisa]] On-Field:",
+            "ru": "Важны элементы комбо для Лизы на поле:"
         },
         {
             "en": "Aim to use [[character:lisa]]'s {rot:hE} and {rot:Q} every rotation, and consistently weave together {rot:NA}s with her {rot:tE}s or {rot:CA}s.\n\nAs an example: {rot:tE Q tE C N1 tE C tE} …(Swap to teammates)… {rot:tE h3E 2[N2C]}",
-            "fr": "Utilisez son {rot:hE} et son {rot:A} à chaque rotation, et alternez constamment les {rot:NA} avec ses {rot:tE} ou ses {rot:CA}. Par exemple: {rot:tE Q tE C N1 tE C tE} …(Changez de personnage)… {rot:tE h3E 2[N2C]}"
+            "fr": "Utilisez son {rot:hE} et son {rot:A} à chaque rotation, et alternez constamment les {rot:NA} avec ses {rot:tE} ou ses {rot:CA}. Par exemple: {rot:tE Q tE C N1 tE C tE} …(Changez de personnage)… {rot:tE h3E 2[N2C]}",
+            "ru": "Старайтесь использовать долгое нажатие Элементального навыка и Взрыв стихии Лизы каждую ротацию, а также стабильно добавлять Обычные/Заряженные атаки и быстрые нажатия Элементального навыка.\nПример ротации атак: {rot:tE Q tE C N1 tE C tE} …(Переключение на других персонажей)… {rot:tE h3E 2[N2C]}"
         }
     ]
 }

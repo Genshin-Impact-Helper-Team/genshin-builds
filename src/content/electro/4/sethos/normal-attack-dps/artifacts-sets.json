@@ -17,7 +17,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This artifact set's **ATK SPD** allows [[character:sethos]] to use his [[ability:na]] more often during his [[ability:burst]].",
-                                "fr": "La **vitesse d'ATQ** de ce set permet à [[character:sethos]] d'utiliser plus d'[[ability:na|attaques normales]] pendant son [[ability:burst]]."
+                                "fr": "La **vitesse d'ATQ** de ce set permet à [[character:sethos]] d'utiliser plus d'[[ability:na|attaques normales]] pendant son [[ability:burst]].",
+                                "ru": "За счет бонуса скорости атаки позволяет чаще использовать Обычные атаки в период действия Взрыва стихий Сетоса."
                             }
                         }
                     ]

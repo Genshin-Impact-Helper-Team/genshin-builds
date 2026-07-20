@@ -6,7 +6,8 @@
                     "name": "skill",
                     "note": {
                         "en": "[[ability:skill]] levels help with comfort but are not compulsory for a [[element:hyperbloom]] build",
-                        "fr": "Le niveau du [[ability:skill]] aide pour le confort mais n'est pas une obligation pour un build [[element:hyperbloom]]"
+                        "fr": "Le niveau du [[ability:skill]] aide pour le confort mais n'est pas une obligation pour un build [[element:hyperbloom]]",
+                        "ru": "Уровни элементального навыка помогают с лечением, но в остальном не являются важными для сборки через Вегетацию"
                     }
                 }
             ]

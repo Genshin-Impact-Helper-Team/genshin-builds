@@ -2,7 +2,8 @@
     "best": true,
     "name": {
         "en": "[[ability:na]] DPS",
-        "fr": "DPS [[ability:na]]"
+        "fr": "DPS [[ability:na]]",
+        "ru": "ДД от обычных атак"
     },
     "weapons": {
         "author": "Quincy",
@@ -11,7 +12,8 @@
     "notes": [
         {
             "en": "Aside from [[stat:er]] requirements, [[character:sethos]]' builds for [[ability:na]] and [[ability:ca]] DPS are near identical.",
-            "fr": "En dehors des besoins en [[stat:er]], Les build DPS [[ability:na]] & [[ability:ca]] de [[character:sethos]] sont presque identiques."
+            "fr": "En dehors des besoins en [[stat:er]], Les build DPS [[ability:na]] & [[ability:ca]] de [[character:sethos]] sont presque identiques.",
+            "ru": "Сборки Сетоса как ДД от Обычных и Заряженных атак идентичны, кроме необходимого уровня ВЭ"
         }
     ]
 }

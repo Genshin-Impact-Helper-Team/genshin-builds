@@ -17,7 +17,8 @@
                     "name": "key-of-khaj-nisut",
                     "note": {
                         "en": "This becomes a better choice than **[[weapon:iron-sting]] at [C4]** when you can gain the **3rd passive stack without extending your rotation time or taking extra field time**. It can also **net more [[stat:em]] than [[weapon:freedom-sworn]] at 3 stacks**, assuming you have actually built some **[[stat:hp%]] Substats on your Sands/Goblet/Circlet**, but this is usually **not enough to out-perform the overall gains from [[weapon:xiphos-moonlight]]/[[weapon:freedom-sworn]]'s respective passives.**",
-                        "fr": "Devient un meilleur choix que **[[weapon:iron-sting]] lorsque [[character:kuki-shinobu]] est [C4]** car vous gagnez **une 3ème stack du passif sans allonger la rotation ou prendre plus de temps sur le terrain**. Cela peut aussi **apporter plus de [[stat:em]] que [[weapon:freedom-sworn]] avec 3 stacks**, en supposant que vous avez plusieurs **sous-stats [[stat:hp%]] sur vos artéfacts**, bien que ça ne soit en général **pas suffisant pour dépasser l'apport global des passifs respectifs de [[weapon:xiphos-moonlight]]/[[weapon:freedom-sworn]].**"
+                        "fr": "Devient un meilleur choix que **[[weapon:iron-sting]] lorsque [[character:kuki-shinobu]] est [C4]** car vous gagnez **une 3ème stack du passif sans allonger la rotation ou prendre plus de temps sur le terrain**. Cela peut aussi **apporter plus de [[stat:em]] que [[weapon:freedom-sworn]] avec 3 stacks**, en supposant que vous avez plusieurs **sous-stats [[stat:hp%]] sur vos artéfacts**, bien que ça ne soit en général **pas suffisant pour dépasser l'apport global des passifs respectifs de [[weapon:xiphos-moonlight]]/[[weapon:freedom-sworn]].**",
+                        "ru": "ревосходит Стальное жало при [C4], когда возможно активировать 3 уровня Пассивной способности оружия без продления ротации или дополнительного нахождения на поле. Также может дать больше МС, чем Клятва свободы при 3-х уровнях, если Часы/Кубок/Корона имеют HP-сабстаты. Однако и этого зачастую недостаточно, чтобы превзойти Лунное сияние ксифоса/Клятву свободы с учётом бонусов их Пассивных способностей."
                     }
                 },
                 {
@@ -25,7 +26,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon performs **very similarly in a [[element:hyperbloom]] focused build to [[weapon:iron-sting]]** since its **passive does not affect [[element:hyperbloom]] damage**.",
-                        "fr": "Cette arme performe **de façon très similaire à [[weapon:iron-sting]] dans un build centré sur [[element:hyperbloom]]** puisque son **passif n'affecte pas les dégâts d'[[element:hyperbloom]]**."
+                        "fr": "Cette arme performe **de façon très similaire à [[weapon:iron-sting]] dans un build centré sur [[element:hyperbloom]]** puisque son **passif n'affecte pas les dégâts d'[[element:hyperbloom]]**.",
+                        "ru": "Соответствует Стальному жалу, т.к. Пассивная способность не влияет на урон Вегетации."
                     }
                 }
             ]

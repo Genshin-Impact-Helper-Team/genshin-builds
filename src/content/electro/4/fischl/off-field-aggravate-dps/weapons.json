@@ -11,7 +11,8 @@
                     "name": "polar-star",
                     "note": {
                         "en": "Perform a quick [[ability:na]] and [[ability:ca]] before summoning Oz for more stacks.",
-                        "fr": "Effectuez une [[ability:na]] rapide et une [[ability:ca]] avant d'invoquer Oz pour obtenir plus de stacks."
+                        "fr": "Effectuez une [[ability:na]] rapide et une [[ability:ca]] avant d'invoquer Oz pour obtenir plus de stacks.",
+                        "ru": "Проведите быстрые обычную и заряженную атаки перед призывом Оза для получения дополнительных уровней Пассивной способности."
                     }
                 }
             ]
@@ -44,7 +45,8 @@
                     "name": "the-stringless",
                     "note": {
                         "en": "At **[R5]** this weapon performs similar to **[[weapon:skyward-harp]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:skyward-harp]]**."
+                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:skyward-harp]]**.",
+                        "ru": "На [R5] соответствует Небесному крылу."
                     }
                 }
             ]
@@ -56,7 +58,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:fischl]] is healed before summoning Oz.",
-                        "fr": "Suppose que [[character:fischl]] est soignée avant d'invoquer Oz."
+                        "fr": "Suppose que [[character:fischl]] est soignée avant d'invoquer Oz.",
+                        "ru": "Предполагается, что Фишль получает лечение до призыва Оза."
                     }
                 },
                 "the-viridescent-hunt",
@@ -76,7 +79,8 @@
                     "name": "alley-hunter",
                     "note": {
                         "en": "At **[R5]** this weapon performs similar to **[[weapon:the-stringless]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:the-stringless]]**."
+                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:the-stringless]]**.",
+                        "ru": "На [R5] соответствует Бесструнному."
                     }
                 },
                 {
