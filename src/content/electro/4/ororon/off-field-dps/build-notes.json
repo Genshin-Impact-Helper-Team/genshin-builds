@@ -2,7 +2,8 @@
     "best": true,
     "name": {
         "en": "Off-Field DPS",
-        "fr": "DPS Off-Field"
+        "fr": "DPS Off-Field",
+        "ru": "Карманный ДД"
     },
     "weapons": {
         "author": "Quincy",
@@ -11,7 +12,8 @@
     "notes": [
         {
             "en": "[[character:ororon]] focuses on dealing damage off-field with his [[ability:burst]]. His A1 can also allow him to deal off-field damage whenever an enemy is dealt [[element:electrocharged]] damage or when the active character deals Nightsoul-aligned damage, with a cooldown of 1.8 seconds. With his A4 talent, he's able to give up to 9 flat energy per rotation after using his [[ability:skill]], whenever the active character uses a [[ability:na]], [[ability:ca]], or Plunging Attack. [[character:ororon]] will also gain this energy if he is off-field.",
-            "fr": "[[character:ororon]] est centré sur les dégâts off-field avec son [[ability:burst]]. Son passif A1 peut aussi lui permettre d'infliger des dégâts off-field quand un ennemi reçoit des dégâts de [[element:electrocharged]] ou quand le personnage actif inflige des dégâts Noctâme, avec un TdR de 1.8 secondes. Avec son passif A4, il est capable de donner jusqu'à 9 points d'énergie par rotation après avoir utilisé son [[ability:skill]], à chaque fois que le personnage actif utilise une [[ability:na]], [[ability:ca]], ou attaque plongeante. [[character:ororon]] obtiendra aussi cette énergie en étant off-field."
+            "fr": "[[character:ororon]] est centré sur les dégâts off-field avec son [[ability:burst]]. Son passif A1 peut aussi lui permettre d'infliger des dégâts off-field quand un ennemi reçoit des dégâts de [[element:electrocharged]] ou quand le personnage actif inflige des dégâts Noctâme, avec un TdR de 1.8 secondes. Avec son passif A4, il est capable de donner jusqu'à 9 points d'énergie par rotation après avoir utilisé son [[ability:skill]], à chaque fois que le personnage actif utilise une [[ability:na]], [[ability:ca]], ou attaque plongeante. [[character:ororon]] obtiendra aussi cette énergie en étant off-field.",
+            "ru": "Оророн способен наносить урон из кармана с помощью Взрыва стихии и 1-го Пассивного таланта (каждый раз, когда враги получают урон от реакции Заряжен или другие персонажи наносят урон с характеристикой Ночного духа, до 1 раза в 1,8 сек).\n2-й Пассивный талант Оророна (активируется после использования Элементального навыка) позволяет восстановить до 9 ед. энергии активному персонажу: до 3-х ед. за каждое применение Обычной/Заряженной атаки или атаки в падении, до 3-х раз. Если Оророн находится в кармане, он также восстанавливает энергию себе."
         }
     ]
 }
