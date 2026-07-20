@@ -7,7 +7,8 @@
                     "name": "the-first-great-magic",
                     "note": {
                         "en": "Ranking assumes 2 stacks. At 1 stack, it performs similarly to **[[weapon:hunters-path]]**.",
-                        "fr": "Le classement suppose 2 stacks. Avec 1 seul stack, cette arme performe de manière similaire à **[[weapon:hunters-path]]**."
+                        "fr": "Le classement suppose 2 stacks. Avec 1 seul stack, cette arme performe de manière similaire à **[[weapon:hunters-path]]**.",
+                        "ru": "Предполагается, что набраны 2 уровня Пассивной способности. С 1 уровнем соответствует Охотничей тропе."
                     }
                 }
             ]
@@ -37,7 +38,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking assumes 3 stacks.",
-                        "fr": "Le classement suppose 3 stacks."
+                        "fr": "Le classement suppose 3 stacks.",
+                        "ru": "Предполагается наличие 3 уровней Пассивной способности."
                     }
                 },
                 {
@@ -53,7 +55,8 @@
                     "name": "range-gauge",
                     "note": {
                         "en": "This weapon will perform significantly worse if you do not have a proper healer to maintain 3 stacks. At **[R5]**, this weapon performs similarly to **[[weapon:thundering-pulse]]**.",
-                        "fr": "Cette arme devient bien moins bonne si vous ne recevez pas assez de soins pour maintenir les 3 stacks. Une fois **[R5]**, cette arme devient similaire à **[[weapon:thundering-pulse]]**."
+                        "fr": "Cette arme devient bien moins bonne si vous ne recevez pas assez de soins pour maintenir les 3 stacks. Une fois **[R5]**, cette arme devient similaire à **[[weapon:thundering-pulse]]**.",
+                        "ru": "Без стабильного лечения для поддержания 3 уровней Пассивной способности показывает себя гораздо хуже. На [R5] данное оружие сопоставимо с Громовым пульсом."
                     }
                 },
                 {
@@ -61,7 +64,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking assumes [[character:ororon]] is being played with a healer and that the passive is active. Overheal counts for the passive.",
-                        "fr": "Le classement suppose que [[character:ororon]] est joué avec un soigneur et que le passif est actif. Le surplus de soin compte également pour le passif."
+                        "fr": "Le classement suppose que [[character:ororon]] est joué avec un soigneur et que le passif est actif. Le surplus de soin compte également pour le passif.",
+                        "ru": "Предполагается, что Оророн получает достаточное лечение для работы Пассивной способности."
                     }
                 }
             ]
@@ -72,7 +76,8 @@
                     "name": "elegy-for-the-end",
                     "note": {
                         "en": "This weapon provide more team utility in exchange for [[character:ororon]]'s personal damage.",
-                        "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]]."
+                        "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]].",
+                        "ru": "Предоставляет полезные для команды эффекты в обмен на меньший личный урон Оророна."
                     }
                 },
                 {
@@ -87,7 +92,8 @@
                     "name": "favonius-warbow",
                     "note": {
                         "en": "This weapon provide more team utility in exchange for [[character:ororon]]'s personal damage.",
-                        "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]]."
+                        "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]].",
+                        "ru": "Предоставляет полезные для команды эффекты в обмен на меньший личный урон Оророна."
                     }
                 }
             ]
