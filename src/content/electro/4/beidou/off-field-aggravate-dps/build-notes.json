@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "Off-Field [[element:aggravate]] DPS",
-        "fr": "DPS [[element:aggravate]] Off-Field"
+        "fr": "DPS [[element:aggravate]] Off-Field",
+        "ru": "Карманный ДД (Обострение)"
     },
     "global": {
         "author": "Chiston",
