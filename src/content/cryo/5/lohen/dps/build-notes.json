@@ -26,6 +26,7 @@
         {
             "en": "Since using [[character:lohen]]'s CA will automatically use his normal attack beforehand, you do not have to worry about using multiple inputs for N1 > CA",
             "fr": "Puisque la CA de [[character:lohen]] utilise automatiquement sa N1, vous n'avez pas besoin d'effectuer plusieurs actions pour faire N1 > CA",
+            "it": "Poiché l'uso di un Attacco Caricato di [[character:lohen]] comporta l'esecuzione automatica di un Attacco Normale immediatamente prima, non devi preoccuparti di eseguire input multipli per {rot:N1 > CA}."
             "ru": "Нет нужды слишком активно нажимать клавиши атаки, так как при выполнении Заряженной атаки перед ней автоматически активируется Обычная."
         },
         {
