@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "[[element:aggravate]] Off-Field DPS",
-        "fr": "DPS [[element:aggravate]] Off-Field"
+        "fr": "DPS [[element:aggravate]] Off-Field",
+        "ru": "Обострение"
     },
     "notes": [
         {
             "en": "[[element:aggravate]] **adds flat damage to the triggering [[element:electro]] attack** that scales off **[[stat:em]] and levels**, which essentially allows [[character:kuki-shinobu]]'s personal damage to become relevant while also filling the role of a healer in the team.",
-            "fr": "[[element:aggravate]] **ajoute des dégâts flat à l'attaque [[element:electro]] qui a déclenché la réaction** et qui sont proportionnels à la **[[stat:em]] et aux niveaux**. Cela permet essentiellement aux dégâts personnels de [[character:kuki-shinobu]] d'être utiles tout en remplissant son rôle de soigneur dans l'équipe."
+            "fr": "[[element:aggravate]] **ajoute des dégâts flat à l'attaque [[element:electro]] qui a déclenché la réaction** et qui sont proportionnels à la **[[stat:em]] et aux niveaux**. Cela permet essentiellement aux dégâts personnels de [[character:kuki-shinobu]] d'être utiles tout en remplissant son rôle de soigneur dans l'équipe.",
+            "ru": "Реакция увеличивает урон на фиксированное значение, зависящее от Мастерства стихий и уровня персонажа, что позволяет Куки одновременно наносить неплохой урон и обеспечивать лечение."
         }
     ]
 }
