@@ -12,6 +12,7 @@
                     "note": {
                         "en": "After reaching [[stat:er]] requirements, to maximize the team buff provided by this weapon, you can build **[[stat:atk%]]** for artifact main stats and sub stats.",
                         "fr": "Après avoir atteint les besoins en [[stat:er]], vous pouvez build de l'**[[stat:atk%]]** sur les artéfacts pour maximiser le buff que cette arme apporte à l'équipe.",
+                        "it": "Dopo aver soddisfatto i requisiti di [[stat:er]], per massimizzare il potenziamento al team fornito da quest'arma, puoi puntare su statistiche principali e secondarie **[[stat:atk%]]**.",
                         "ru": "После достижения необходимого уровня ВЭ для максимизации бонуса оружия можно сделать упор на **[[stat:atk%|Силу атаки%]]** в основных статах и сабстатах."
                     }
                 }
@@ -25,6 +26,7 @@
                     "note": {
                         "en": "Only use this weapon if a teammate, who does significant damage, benefits from **[[stat:atk%]]**.",
                         "fr": "N'utilisez cette arme que si un membre de l'équipe infligeant beaucoup de dégâts peut bénéficier de l'**[[stat:atk%]]**.",
+                        "it": "Utilizza quest'arma solo se un compagno di squadra, in grado di infliggere danni significativi, beneficia di **[[stat:atk%]]**.",
                         "ru": "Следует использовать только в том случае, если основному ДД полезна **[[stat:atk%]]**."
                     }
                 },
@@ -33,6 +35,7 @@
                     "note": {
                         "en": "Best used in teams where multiple units benefit from **[[stat:atk]]**.",
                         "fr": "Plus utile dans une équipe où plusieurs personnages peuvent bénéficier de l'**[[stat:atk]]**.",
+                        "it": "Ideale in team in cui più personaggi traggono vantaggio da **[[stat:atk]]**.",
                         "ru": "Лучший вариант в отрядах, где **[[stat:atk]]** нужна нескольким персонажам."
                     }
                 },
