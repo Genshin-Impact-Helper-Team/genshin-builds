@@ -74,7 +74,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "**This set is specifically usable when pairing [[character:cyno]] with [[character:furina]], a Quickbloom variant which wants reliable teamwide healing (ideally [[character:baizhu]])**. In this team, it performs similarly to **[[set:gilded-dreams]] (4)**.",
-                        "fr": "**Ce set est utilisé lorsque [[character:cyno]] est spécifiquement joué avec [[character:furina]], une variante Quickbloom qui veut un soin fiable pour toute l'équipe (idéalement [[character:baizhu]])**. Dans cette équipe, il équivaut à **[[set:gilded-dreams]] (4)**."
+                        "fr": "**Ce set est utilisé lorsque [[character:cyno]] est spécifiquement joué avec [[character:furina]], une variante Quickbloom qui veut un soin fiable pour toute l'équipe (idéalement [[character:baizhu]])**. Dans cette équipe, il équivaut à **[[set:gilded-dreams]] (4)**.",
+                        "ru": "**Используется исключительно при игре с [[character:furina|Фуриной]], помимо этого требует надежного источника лечения (в идеале [[character:baizhu]])**. В этом отряде соответствует **[[set:gilded-dreams|Позолоченным снам]] (4)**."
                     }
                 }
             ]

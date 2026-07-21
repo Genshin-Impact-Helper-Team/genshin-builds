@@ -1,20 +1,24 @@
 {
     "name": {
         "en": "Reaction DPS",
-        "fr": "DPS Réactions"
+        "fr": "DPS Réactions",
+        "ru": "МС-билд"
     },
     "notes": [
         {
             "en": "This build aims to be the **consistent trigger for reactions**, most notably **[[element:hyperbloom]]** or **[[element:overload]]**. These reactions are **primarily triggered by her [[ability:burst]]**, which is why it's important to **make sure its uptime is as high as possible**. Avoid having a second [[element:electro]] in the [[element:overload]] team for this build since this could mess up the [[element:pyro]] aura [[character:lisa]] wants for this playstyle.",
-            "fr": "Ce build vise à être le personnage qui **déclenche les réactions**, principalement **[[element:hyperbloom]]** ou **[[element:overload]]**. Ces réactions sont **principalement déclenchées par son [[ability:burst]]**, c'est pourquoi il est important de **s'assurer qu'il est disponible le plus souvent possible**. Evitez d'avoir un deuxième personnage [[element:electro]] dans les équipes [[element:overload]] pour ce build puisque cela pourrait gêner l'aura [[element:pyro]] dont [[character:lisa]] a besoin pour ce style de jeu."
+            "fr": "Ce build vise à être le personnage qui **déclenche les réactions**, principalement **[[element:hyperbloom]]** ou **[[element:overload]]**. Ces réactions sont **principalement déclenchées par son [[ability:burst]]**, c'est pourquoi il est important de **s'assurer qu'il est disponible le plus souvent possible**. Evitez d'avoir un deuxième personnage [[element:electro]] dans les équipes [[element:overload]] pour ce build puisque cela pourrait gêner l'aura [[element:pyro]] dont [[character:lisa]] a besoin pour ce style de jeu.",
+            "ru": "МС Лиза нацелена на постоянный вызов реакций, как правило, Перегрузки или Вегетации. Они вызываются в первую очередь её Взрывом стихии, поэтому важно обеспечить его использование по откату. Избегайте использования второго Электро персонажа при игре через Перегрузку, так как он может сбивать Пиро статус, необходимый Лизе."
         },
         {
             "en": "[[character:lisa]]'s [[ability:burst]] will not have full uptime when off-field due to its cooldown, sometimes on-fielding [[character:lisa]] is advised to fill in downtime and trigger relevant reactions.",
-            "fr": "L'[[ability:burst]] de [[character:lisa]] ne pourra pas être présent en permanence lorsque jouée off-field à cause du TdR, il est donc conseillé de la jouer On-Field en attendant et déclencher les réactions."
+            "fr": "L'[[ability:burst]] de [[character:lisa]] ne pourra pas être présent en permanence lorsque jouée off-field à cause du TdR, il est donc conseillé de la jouer On-Field en attendant et déclencher les réactions.",
+            "ru": "Продолжительность действия Взрыва стихии Лизы меньше длительности его перезарядки, поэтому целесообразно иногда переключаться на ее, чтобы закрывать дополнительные реакции."
         },
         {
             "en": "Big thanks to **ArchedNosi** for the help in putting together this section",
-            "fr": "Un grand merci à **ArchedNosi** pour l'aide sur cette section"
+            "fr": "Un grand merci à **ArchedNosi** pour l'aide sur cette section",
+            "ru": "Большое спасибо **ArchedNosi** за помощь в написании этого раздела!"
         }
     ]
 }

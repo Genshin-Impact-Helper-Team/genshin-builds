@@ -1,17 +1,20 @@
 {
     "name": {
         "en": "Off-Field DPS & Support",
-        "fr": "DPS Off-Field & Support"
+        "fr": "DPS Off-Field & Support",
+        "ru": "Карманный ДД и саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "This build makes [[character:lisa]] a **flexible buffing unit with off-field damage**. She can play in a variety of teams but is most prominent in **[[element:quicken]] teams**, other select teams can use her to **fully buff an on-field character entirely**.",
-            "fr": "Ce build fait de [[character:lisa]] un personnage **flexible qui peut buff avec des dégâts off-field**. Elle peut se jouer dans une grande variété d'équipe mais est meilleure dans les **équipes [[element:quicken]]**, d'autres équipes précises peuvent l'utiliser pour **buff un personnage on-field**."
+            "fr": "Ce build fait de [[character:lisa]] un personnage **flexible qui peut buff avec des dégâts off-field**. Elle peut se jouer dans une grande variété d'équipe mais est meilleure dans les **équipes [[element:quicken]]**, d'autres équipes précises peuvent l'utiliser pour **buff un personnage on-field**.",
+            "ru": "Сборка направлена на игру Лизой как источником бонусов/взрывного урона [значительный урон за короткое время] в револьверных отрядах, в особенности основанных на Стимуляции."
         },
         {
             "en": "Casting [[character:lisa]]'s Hold [[ability:skill]] does not require 4 entire seconds of charging to connect, as long as the indicator aligns with the ring, she can release for full damage.",
-            "fr": "Le [[ability:skill]] appuyé de [[character:lisa]] ne nécessite pas 4 secondes de chargement pour se connecter: à partir du moment où l'indicateur est aligné avec le cercle, elle peut déclencher son attaque à son plein potentiel."
+            "fr": "Le [[ability:skill]] appuyé de [[character:lisa]] ne nécessite pas 4 secondes de chargement pour se connecter: à partir du moment où l'indicateur est aligné avec le cercle, elle peut déclencher son attaque à son plein potentiel.",
+            "ru": "Долгое нажатие Элементального навыка Лизы не требует 4 секунд для полной зарядки, необходимо лишь совпадение индикатора зарядки с кольцом."
         }
     ]
 }

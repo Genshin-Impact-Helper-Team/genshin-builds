@@ -12,6 +12,7 @@
                     "note": {
                         "en": "With this weapon, **[[set:gilded-dreams]]** becomes similar to **[[set:crimson-witch-of-flames]]**.",
                         "fr": "Avec cette arme, **[[set:gilded-dreams]]** devient similaire à **[[set:crimson-witch-of-flames]]**.",
+                        "it": "Con quest'arma, **[[set:gilded-dreams]]** ha prestazioni simili a **[[set:crimson-witch-of-flames]]**.",
                         "ru": "Делает **[[set:gilded-dreams]]** вариантом, не уступающим **[[set:crimson-witch-of-flames|Горящей алой ведьме]]**."
                     }
                 }
@@ -25,6 +26,7 @@
                     "note": {
                         "en": "With [[ability:hexerei]]: Secret Rite, this weapon ranks above **[[weapon:fractured-halo]]**.",
                         "fr": "Dans une équipe [[ability:hexerei]], cette arme dépasse **[[weapon:fractured-halo]]**.",
+                        "it": "In team [[ability:hexerei]], quest'arma ha prestazioni migliori di **[[weapon:fractured-halo]]**.",
                         "ru": "С активным эффектом [[ability:hexerei|Ведьмовства]] превосходит **[[weapon:fractured-halo]]**."
                     }
                 }
@@ -44,6 +46,7 @@
                     "note": {
                         "en": "Assumes the passive is active. At **[R5]**, this weapon ranks higher than **[[weapon:fractured-halo]]**.",
                         "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme dépasse **[[weapon:fractured-halo]]**.",
+                        "it": "La posizione in classifica presuppone che la passiva sia attiva. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:fractured-halo]]**.",
                         "ru": "Предполагается, что эффект Пассивной способности поддерживается. На **[R5]** превосходит **[[weapon:fractured-halo]]**."
                     }
                 },
@@ -52,6 +55,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks higher than **[[weapon:lumidouce-elegy]]**.",
                         "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:lumidouce-elegy]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:lumidouce-elegy]]**.",
                         "ru": "На **[R5]** превосходит **[[weapon:lumidouce-elegy|Элегию Люмидус]]**."
                     }
                 }
@@ -64,6 +68,7 @@
                     "note": {
                         "en": "If [[character:hu-tao]] is **not** healed, thus preserving the [[ability:bol]], this weapon can rank above **[[weapon:fractured-halo]]**.",
                         "fr": "Si [[character:hu-tao]] n'est **pas** soignée, et conserve donc son [[ability:bol]], cette arme peut dépasser **[[weapon:fractured-halo]]**.",
+                        "it": "Se [[character:hu-tao]] **non** riceve cure, e conserva dunque il **[[ability:bol]]**, quest'arma può avere prestazioni migliori di **[[weapon:fractured-halo]]**.",
                         "ru": "Если [[character:hu-tao]] **не получает лечения** и поддерживает [[ability:bol]], данное оружия превосходит **[[weapon:fractured-halo]]**."
                     }
                 },
@@ -78,6 +83,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks above **[[weapon:crimson-moons-semblance]]**.",
                         "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:crimson-moons-semblance]]**.",
                         "ru": "На **[R5]** превосходит **[[weapon:crimson-moons-semblance]]**."
                     }
                 }
@@ -94,6 +100,7 @@
                     "note": {
                         "en": "If [[character:hu-tao]] is protected by a shield, this weapon equal to **[[weapon:dragons-bane]]**.",
                         "fr": "Si [[character:hu-tao]] est protégée par un bouclier, cette arme équivaut à **[[weapon:dragons-bane]]**.",
+                        "it": "Se [[character:hu-tao]] è sotto la protezione di uno scudo, quest'arma ha prestazioni equivalenti a **[[weapon:dragons-bane]]**.",
                         "ru": "При наличии щита на [[character:hu-tao]] превосходит **[[weapon:dragons-bane|Грозу драконов]]**."
                     }
                 }
@@ -115,6 +122,7 @@
                     "note": {
                         "en": "Assumes two stacks of the passive. At **[R5]** with two stack, this weapon ranks above **[[weapon:calamity-queller]]**.",
                         "fr": "Suppose deux cumuls du passif. Une fois **[R5]** avec deux cumuls, cette arme dépasse **[[weapon:calamity-queller]]**.",
+                        "it": "La posizione in classifica presuppone 2 accumuli (ovvero 2 personaggi di Liyue nel team). A  **[R5]** con 2 accumuli, quest'arma ha prestazioni migliori di **[[weapon:calamity-queller]]**.", 
                         "ru": "Предполагается наличие 2 уровней Пассивной способности. На **[R5]** с двумя уровнями превосходит **[[weapon:calamity-queller]]**."
                     }
                 }

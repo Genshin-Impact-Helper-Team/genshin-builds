@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "These options prioritize [[character:lisa]]'s [[ability:burst]] uptime as a defense shredding tool."
-            ,"fr": "Ces options priorisent l'uptime de l'[[ability:burst]] de [[character:lisa]] pour sa réduction de DEF."
+            ,"fr": "Ces options priorisent l'uptime de l'[[ability:burst]] de [[character:lisa]] pour sa réduction de DEF.",
+            "ru": "Приоритетом является возможность использовать Взрыва стихий по откату для понижения Защиты противников"
         }
     ],
     "substats_priority": [

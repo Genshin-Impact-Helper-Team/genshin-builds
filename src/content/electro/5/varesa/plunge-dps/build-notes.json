@@ -1,7 +1,8 @@
 {
     "name": {
         "en": "Plunge DPS",
-        "fr": "DPS Attaque Plongeante"
+        "fr": "DPS Attaque Plongeante",
+        "ru": "ДД через атаки в падении"
     },
     "best": true,
     "weapons": [
@@ -19,15 +20,18 @@
     "notes": [
         {
             "en": "Donning her favorite mask, [[character:varesa]] is a hypercarry [[element:electro]] DPS who focuses on dealing damage through Plunge combos.",
-            "fr": "Revêtant son masque préféré, [[character:varesa]] est un DPS hypercarry [[element:electro]] qui se concentre sur les dégâts via des combos d'attaques plongeantes."
+            "fr": "Revêtant son masque préféré, [[character:varesa]] est un DPS hypercarry [[element:electro]] qui se concentre sur les dégâts via des combos d'attaques plongeantes.",
+            "ru": "[[character:varesa]] - [[element:electro]] ДД, который наносит урон с помощью атак в падении."
         },
         {
             "en": "Generally combos for [[character:varesa]] are very flexible, most of which consist of {rot:[EN1P EN1P (Q)]} chunks that can be used at any time. Before **[C2]** you will not be able to fill your field time with just using all of your [[ability:skill]] due to her fast animations, this makes a secondary DPS a viable option, or can opt for doing {rot:CP CP} to set up for your next rotation.",
-            "fr": "Les combos de [[character:varesa]] sont généralement très flexibles, la plupart consistant à utiliser {rot:[EN1P EN1P (A)]} à tout moment. Avant la **[C2]**, il n'est pas possible d'occuper tout le temps de terrain en utilisant juste vos [[ability:skill]] à cause de ses animations rapides; cela rend la présence d'un second DPS, ou bien vous pouvez opter pour {rot:CP CP} afin de préparer votre prochaine rotation."
+            "fr": "Les combos de [[character:varesa]] sont généralement très flexibles, la plupart consistant à utiliser {rot:[EN1P EN1P (A)]} à tout moment. Avant la **[C2]**, il n'est pas possible d'occuper tout le temps de terrain en utilisant juste vos [[ability:skill]] à cause de ses animations rapides; cela rend la présence d'un second DPS, ou bien vous pouvez opter pour {rot:CP CP} afin de préparer votre prochaine rotation.",
+            "ru": "Как правило, ротации [[character:varesa|Варесы]] достаточно гибки и состоят из повторяющихся блоков {rot:[EN1P EN1P (Q)]}. Без [C2] вы не сможете потратить её время на поле, играя только за счёт [[ability:skill|Элементального навыка]], поэтому второй ДД в отряде может быть разумным вариантом (или же вы можете использовать {rot:CP CP} в конце ротации)."
         },
         {
             "en": "Short Hold [[ability:skill]] when starting the rotation with **[[set:obsidian-codex]] (4)** will result in the highest DMG on average.",
-            "fr": "Un [[ability:skill]] appui court en commençant la rotation avec **[[set:obsidian-codex]] (4)** donnera les meilleurs dégâts en moyenne."
+            "fr": "Un [[ability:skill]] appui court en commençant la rotation avec **[[set:obsidian-codex]] (4)** donnera les meilleurs dégâts en moyenne.",
+            "ru": "Короткое долгое нажатие [[ability:skill|Элементального навыка]] в начале ротации оптимально при использовании **[[set:obsidian-codex|Обсидианового фолианта]] (4)**."
         }
     ]
 }

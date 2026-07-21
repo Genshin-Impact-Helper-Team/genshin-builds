@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "It is entirely possible to become oversaturated on [[stat:cr]] due to how much she gets via weapons and ascension. As such, if you find yourself overcapping frequently, consider farming **[[set:long-nights-oath]] (4)**.",
-                                "fr": "Il est facilement possible de dépasser le maximum de [[stat:cr]] avec tout le [[stat:cr]] que [[character:varesa]] reçoit via son arme et ascension. Ainsi, si vous dépassez le maximum régulièrmeent, envisagez de farmer **[[set:long-nights-oath]] (4)**."
+                                "fr": "Il est facilement possible de dépasser le maximum de [[stat:cr]] avec tout le [[stat:cr]] que [[character:varesa]] reçoit via son arme et ascension. Ainsi, si vous dépassez le maximum régulièrmeent, envisagez de farmer **[[set:long-nights-oath]] (4)**.",
+                                "ru": "С учетом того, что Вареса приобретает [[stat:cr]] при возвышении и может использовать оружие с данным статом, вполне возможен его изыбток. В таком случае есть смысл переключиться на **[[set:long-nights-oath|Клятву долгой ночи]] (4)**."
                             }
                         }
                     ]
@@ -58,7 +59,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "Only to be used when paired with [[character:furina]]. Performs worse than **[[set:obsidian-codex]] (4)**.",
-                        "fr": "À utiliser uniquement avec [[character:furina]]. Moins bon que **[[set:obsidian-codex]] (4)**."
+                        "fr": "À utiliser uniquement avec [[character:furina]]. Moins bon que **[[set:obsidian-codex]] (4)**.",
+                        "ru": "Используется только при игре с [[character:furina|Фуриной]]. Уступает **[[set:long-nights-oath|Клятве долгой ночи]] (4)**."
                     }
                 }
             ]

@@ -38,7 +38,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "It's potentially your BIS set if you can maintain a **constant [[element:electro]] aura** or near that, to be this consistent usually takes **up to 3 [[element:electro]] units** (or possibly 2 [[element:electro]] units and an [[element:anemo]] unit like [[character:kaedehara-kazuha]] or [[character:venti]] swirling [[element:electro]])",
-                                "fr": "Potentiellement la meilleure option si vous pouvez maintenir **une aura [[element:electro]] quasi-constante**, mais cela nécéssite généralement **jusqu'à 3 personnages [[element:electro]]** (ou possiblement 2 [[element:electro]] et un [[element:anemo]] comme [[character:kaedehara-kazuha]] ou [[character:venti]] dispersant [[element:electro]])"
+                                "fr": "Potentiellement la meilleure option si vous pouvez maintenir **une aura [[element:electro]] quasi-constante**, mais cela nécéssite généralement **jusqu'à 3 personnages [[element:electro]]** (ou possiblement 2 [[element:electro]] et un [[element:anemo]] comme [[character:kaedehara-kazuha]] ou [[character:venti]] dispersant [[element:electro]])",
+                                "ru": "Потенциально лучший вариант при условии постоянного Электро статуса на противнике, но для этого необходимо до 3 Электро персонажей (или 2 Электро и Анемо персонаж (к примеру, Венти или Кадзуха), рассеивающий Электро)."
                             }
                         }
                     ]
@@ -72,6 +73,7 @@
     ],
     "notes": {
         "en": "The 2p/2p options usually performs so close to **[[set:gilded-dreams]] (4)** that you can simply pick the set or combination of sets with the highest possible substats.",
-        "fr": "L'option 2p/2p a généralement des performances si proches de celles de **[[set:gilded-dreams]] (4)** que vous pouvez simplement choisir le set ou la combinaison de set avec le plus haut nombre de sous stats."
+        "fr": "L'option 2p/2p a généralement des performances si proches de celles de **[[set:gilded-dreams]] (4)** que vous pouvez simplement choisir le set ou la combinaison de set avec le plus haut nombre de sous stats.",
+        "ru": "Зачастую почти соответствуют Позолоченным снам (4), выбирайте сет/комбо с наилучшими сабстатами."
     }
 }

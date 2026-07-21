@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set should only be used when [[character:dori]] is in a [[element:dendro]] based team composition.",
-                                "fr": "Ce set ne doit être utilisé que lorsque [[character:dori]] est dans une équipe basée sur le [[element:dendro]]."
+                                "fr": "Ce set ne doit être utilisé que lorsque [[character:dori]] est dans une équipe basée sur le [[element:dendro]].",
+                                "ru": "Следует использовать только в отрядах с упором на Дендро урон."
                             }
                         }
                     ]

@@ -146,6 +146,8 @@ export function rankBuilds(builds, currentVersion) {
     return {
       ...build,
       characterScore,
+      isCurrentVersion:
+        compareGameVersions(build.lastUpdated, currentVersion) === 0,
       age: Math.max(
         0,
         currentVersionIndex -
@@ -171,7 +173,9 @@ export function rankBuilds(builds, currentVersion) {
     }))
     .sort(
       (left, right) =>
-        right.score - left.score || left.title.localeCompare(right.title),
+        Number(left.isCurrentVersion) - Number(right.isCurrentVersion) ||
+        right.score - left.score ||
+        left.title.localeCompare(right.title),
     )
     .map((build, index) => ({ ...build, updatePriority: index + 1 }));
 }
@@ -210,30 +214,15 @@ function collectKnownIds(value, knownIds, result = new Set()) {
   return result;
 }
 
-function loadEffectiveBuildDocuments(characterPath, buildPath) {
-  const characterFiles = fs
-    .readdirSync(characterPath, { withFileTypes: true })
-    .filter(
-      (entry) =>
-        entry.isFile() &&
-        entry.name.endsWith('.json') &&
-        entry.name !== 'metadata.json',
-    )
-    .map((entry) => entry.name);
-  const buildFiles = fs
-    .readdirSync(buildPath, { withFileTypes: true })
-    .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
-    .map((entry) => entry.name);
-  const effectiveFiles = new Set([...characterFiles, ...buildFiles]);
+function loadEffectiveBuildDocument(characterPath, buildPath, fileName) {
+  const buildFile = path.join(buildPath, fileName);
+  const characterFile = path.join(characterPath, fileName);
 
-  return [...effectiveFiles].map((fileName) => {
-    const buildFile = path.join(buildPath, fileName);
-    const effectiveFile = fs.existsSync(buildFile)
-      ? buildFile
-      : path.join(characterPath, fileName);
+  if (fs.existsSync(buildFile)) {
+    return readJsonFile(buildFile);
+  }
 
-    return readJsonFile(effectiveFile);
-  });
+  return fs.existsSync(characterFile) ? readJsonFile(characterFile) : {};
 }
 
 function makeCatalogItems(entries, translations, context) {
@@ -314,6 +303,74 @@ function sortReleaseItems(items) {
   );
 }
 
+function releaseIgnoreMarker(kind, id) {
+  return `<!-- genshin-build-project-sync:ignore:${kind}:${id} -->`;
+}
+
+function collectIgnoredReleaseIds(currentBody, audit) {
+  const body = String(currentBody ?? '').replaceAll('\r\n', '\n');
+  const startIndex = body.indexOf(RELEASE_AUDIT_START);
+  const endIndex = body.indexOf(RELEASE_AUDIT_END);
+  const ignored = { weapons: new Set(), artifactSets: new Set() };
+
+  if (startIndex === -1 || endIndex === -1 || endIndex < startIndex) {
+    return ignored;
+  }
+
+  const itemMaps = {
+    weapon: new Map(audit.weapons.map((item) => [item.id, item])),
+    artifact: new Map(audit.artifactSets.map((item) => [item.id, item])),
+  };
+  const nameMaps = {
+    weapon: new Map(audit.weapons.map((item) => [item.name, item.id])),
+    artifact: new Map(audit.artifactSets.map((item) => [item.name, item.id])),
+  };
+
+  for (const line of body.slice(startIndex, endIndex).split('\n')) {
+    if (!/^\s*-\s*\[[xX]\]/.test(line)) continue;
+
+    const marker = line.match(
+      /<!--\s*genshin-build-project-sync:ignore:(weapon|artifact):([^>\s]+)\s*-->/,
+    );
+
+    if (marker) {
+      const [, kind, id] = marker;
+      if (itemMaps[kind].has(id)) {
+        ignored[kind === 'weapon' ? 'weapons' : 'artifactSets'].add(id);
+      }
+      continue;
+    }
+
+    const name = line.match(/\*\*([^*]+)\*\*/)?.[1];
+    const weaponId = nameMaps.weapon.get(name);
+    const artifactId = nameMaps.artifact.get(name);
+    if (weaponId) ignored.weapons.add(weaponId);
+    if (artifactId) ignored.artifactSets.add(artifactId);
+  }
+
+  return ignored;
+}
+
+export function releaseAuditWithIgnores(currentBody, audit) {
+  const ignored = collectIgnoredReleaseIds(currentBody, audit);
+  const hiddenWeapons = audit.weapons.filter((item) =>
+    ignored.weapons.has(item.id),
+  );
+  const hiddenArtifactSets = audit.artifactSets.filter((item) =>
+    ignored.artifactSets.has(item.id),
+  );
+
+  return {
+    ...audit,
+    weapons: audit.weapons.filter((item) => !ignored.weapons.has(item.id)),
+    artifactSets: audit.artifactSets.filter(
+      (item) => !ignored.artifactSets.has(item.id),
+    ),
+    hiddenWeapons,
+    hiddenArtifactSets,
+  };
+}
+
 export function addReleaseAudits(inventory, catalog) {
   const artifactIds = new Set(catalog.artifactSets.map((item) => item.id));
 
@@ -335,13 +392,19 @@ export function addReleaseAudits(inventory, catalog) {
 
     for (const build of character.builds) {
       const buildPath = path.resolve(build.sourcePath);
-      const buildDocuments = loadEffectiveBuildDocuments(
+      const weaponDocument = loadEffectiveBuildDocument(
         characterPath,
         buildPath,
+        'weapons.json',
       );
-      const mentionedWeapons = collectKnownIds(buildDocuments, weaponIds);
+      const artifactSetDocument = loadEffectiveBuildDocument(
+        characterPath,
+        buildPath,
+        'artifacts-sets.json',
+      );
+      const mentionedWeapons = collectKnownIds(weaponDocument, weaponIds);
       const mentionedArtifactSets = collectKnownIds(
-        buildDocuments,
+        artifactSetDocument,
         artifactIds,
       );
 
@@ -369,14 +432,37 @@ export function addReleaseAudits(inventory, catalog) {
   return inventory;
 }
 
-function renderReleaseList(items) {
+function renderReleaseList(items, kind, checked = false) {
   if (items.length === 0) {
     return '_None._';
   }
 
   return items
-    .map((item) => `- **${item.name}**: released in \`${item.version}\``)
+    .map(
+      (item) =>
+        `- [${checked ? 'x' : ' '}] **${item.name}**: released in \`${item.version}\` ${releaseIgnoreMarker(kind, item.id)}`,
+    )
     .join('\n');
+}
+
+function renderReleaseSnippet(items, itemKind, noteName) {
+  if (items.length === 0) {
+    return '';
+  }
+
+  const content = [
+    `## [[note:${noteName}]]`,
+    ...items.map((item) => `- [[${itemKind}:${item.id}]]`),
+    '',
+  ].join('\n');
+
+  return [
+    '```',
+    '        {',
+    `            "en": ${JSON.stringify(content)}`,
+    '        }',
+    '```',
+  ].join('\n');
 }
 
 export function renderReleaseAudit(audit) {
@@ -392,14 +478,38 @@ export function renderReleaseAudit(audit) {
     `## Items released after \`${audit.lastUpdated}\``,
     '',
     'These items are not currently mentioned in this build.',
+    'Check an item to ignore it as a bad option; the next sync hides checked items from this list and the project counts.',
     '',
     `### ${weaponType} weapons`,
     '',
-    renderReleaseList(audit.weapons),
+    renderReleaseList(audit.weapons, 'weapon'),
+    ...(audit.weapons.length
+      ? ['', renderReleaseSnippet(audit.weapons, 'weapon', 'wip-weapon')]
+      : []),
     '',
     '### Artifact sets',
     '',
-    renderReleaseList(audit.artifactSets),
+    renderReleaseList(audit.artifactSets, 'artifact'),
+    ...(audit.artifactSets.length
+      ? ['', renderReleaseSnippet(audit.artifactSets, 'set', 'wip-artifact')]
+      : []),
+    ...(audit.hiddenWeapons?.length || audit.hiddenArtifactSets?.length
+      ? [
+          '',
+          '<details>',
+          '<summary>Ignored items</summary>',
+          '',
+          `#### ${weaponType} weapons`,
+          '',
+          renderReleaseList(audit.hiddenWeapons ?? [], 'weapon', true),
+          '',
+          '#### Artifact sets',
+          '',
+          renderReleaseList(audit.hiddenArtifactSets ?? [], 'artifact', true),
+          '',
+          '</details>',
+        ]
+      : []),
     RELEASE_AUDIT_END,
   ].join('\n');
 }
@@ -412,7 +522,8 @@ export function buildIssueBody(currentBody, buildMarker, audit) {
 
   body = [buildMarker, body].filter(Boolean).join('\n\n');
 
-  const section = renderReleaseAudit(audit);
+  const effectiveAudit = releaseAuditWithIgnores(body, audit);
+  const section = renderReleaseAudit(effectiveAudit);
   const startIndex = body.indexOf(RELEASE_AUDIT_START);
   const endIndex = body.indexOf(RELEASE_AUDIT_END);
 
@@ -1357,19 +1468,20 @@ export async function synchronize({
   const ensureBuildIssue = async (issue, desiredTitle, buildMarker, audit) => {
     const currentBody = String(issue.body ?? '').replaceAll('\r\n', '\n');
     const desiredBody = buildIssueBody(currentBody, buildMarker, audit);
+    const effectiveAudit = releaseAuditWithIgnores(desiredBody, audit);
     const titleChanged = issue.title !== desiredTitle;
     const bodyChanged = currentBody.trim() !== desiredBody;
 
     if (!titleChanged && !bodyChanged) {
-      return;
+      return effectiveAudit;
     }
 
     if (dryRun) {
       console.log(
-        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? ` body with ${audit.weapons.length} newer weapon(s) and ${audit.artifactSets.length} newer artifact set(s)` : ''}.`,
+        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? ` body with ${effectiveAudit.weapons.length} newer weapon(s) and ${effectiveAudit.artifactSets.length} newer artifact set(s)` : ''}.`,
       );
       stats.plannedChanges += 1;
-      return;
+      return effectiveAudit;
     }
 
     const updatedIssue = await updateIssue(client, repository, issue.number, {
@@ -1381,6 +1493,7 @@ export async function synchronize({
     stats.issuesRenamed += Number(titleChanged);
     stats.issueBodiesUpdated += Number(bodyChanged);
     console.log(`Updated ${issueLabel(issue)}.`);
+    return effectiveAudit;
   };
 
   const ensureProjectItem = async (issue) => {
@@ -1642,7 +1755,7 @@ export async function synchronize({
       }
 
       activeBuildIssueIds.add(issueNodeId(buildIssue));
-      await ensureBuildIssue(
+      const releaseAudit = await ensureBuildIssue(
         buildIssue,
         desiredTitle,
         buildMarker,
@@ -1656,14 +1769,14 @@ export async function synchronize({
         item,
         weaponCountField,
         'weaponCountValue',
-        build.releaseAudit.weapons.length,
+        releaseAudit.weapons.length,
       );
       await ensureNumberFieldValue(
         buildIssue,
         item,
         artifactSetCountField,
         'artifactSetCountValue',
-        build.releaseAudit.artifactSets.length,
+        releaseAudit.artifactSets.length,
       );
       await ensureBestRoleValue(buildIssue, item, build.bestRole);
       const characterPriority = item.characterPriorityValue?.name ?? 'normal';
@@ -1681,8 +1794,8 @@ export async function synchronize({
         characterPriority,
         bestRole: build.bestRole,
         lastUpdated: character.lastUpdated,
-        weaponCount: build.releaseAudit.weapons.length,
-        artifactSetCount: build.releaseAudit.artifactSets.length,
+        weaponCount: releaseAudit.weapons.length,
+        artifactSetCount: releaseAudit.artifactSets.length,
       });
     }
 
@@ -1751,7 +1864,7 @@ async function main() {
   }
 
   const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
-  
+
   if (!token) {
     throw new Error(
       'GH_TOKEN is required. Use --print-plan to inspect local data without GitHub access.',

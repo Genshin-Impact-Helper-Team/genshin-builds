@@ -45,7 +45,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Performs significantly worse without constant [[element:electro]] aura on the enemy.",
-                                "fr": "Performances significativement réduites sans aura [[element:electro]] constante sur l'ennemi."
+                                "fr": "Performances significativement réduites sans aura [[element:electro]] constante sur l'ennemi.",
+                                "ru": "Показывает себя значительно хуже, если на противнике не поддерживается Электро статус."
                             }
                         }
                     ]
@@ -82,7 +83,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set is detrimental for [[character:fischl]]'s personal damage, but can provide more value to the team in certain situations.",
-                                "fr": "Ce set est préjudiciable pour les dégâts personnels de [[character:fischl]], mais peut fournir plus de valeur à l'équipe dans certaines situations."
+                                "fr": "Ce set est préjudiciable pour les dégâts personnels de [[character:fischl]], mais peut fournir plus de valeur à l'équipe dans certaines situations.",
+                                "ru": "Сильно уступает другим вариантам для личного урона Фишль, но может компенсировать это усилением отряда."
                             }
                         }
                     ]

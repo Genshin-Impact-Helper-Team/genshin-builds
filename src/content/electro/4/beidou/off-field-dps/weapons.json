@@ -30,14 +30,16 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:beidou]] being healed before casting her [[ability:burst]].",
-                        "fr": "Suppose que [[character:beidou]] reçoit des soins avant d'utiliser son [[ability:burst]]."
+                        "fr": "Suppose que [[character:beidou]] reçoit des soins avant d'utiliser son [[ability:burst]].",
+                        "ru": "Предполагается, что Бэй Доу получает лечение до использования Взрыва стихии."
                     }
                 },
                 {
                     "name": "serpent-spine",
                     "note": {
                         "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:beacon-of-the-reed-sea]]**."
+                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "Меч драконьей кости: Предполагается, что Бэй Доу заранее получает 5 уровней Пассивной способности. На [R5] соответствует Маяку тростникового моря."
                     }
                 }
             ]
@@ -47,7 +49,8 @@
                 {
                     "name": "akuoumaru",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to [[weapon:verdict]]."
+                        "en": "At **[R5]**, this weapon performs similar to [[weapon:verdict]].",
+                        "ru": "На [R5] соответствует Вердикту."
                     }
                 },
                 {
@@ -61,7 +64,8 @@
                 {
                     "name": "lithic-blade",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to [[weapon:tidal-shadow]]."
+                        "en": "At **[R5]**, this weapon performs similar to [[weapon:tidal-shadow]].",
+                        "ru": "Каменный меч: На [R5] соответствует Тени волны."
                     }
                 },
                 {
@@ -71,7 +75,8 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "This weapon becomes significantly better with higher [[stat:er]] requirements."
+                        "en": "This weapon becomes significantly better with higher [[stat:er]] requirements.",
+                        "ru": "Небесное величие: Становится намного лучше при повышении требований к Восстановлению энергии."
                     }
                 }
             ]

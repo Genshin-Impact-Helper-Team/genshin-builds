@@ -17,7 +17,8 @@
                     "name": "a-thousand-floating-dreams",
                     "note": {
                         "en": "Only used in **[[element:quicken]]** teams.",
-                        "fr": "Utilisé uniquement pour les équipes **[[element:quicken]]**."
+                        "fr": "Utilisé uniquement pour les équipes **[[element:quicken]]**.",
+                        "ru": "Используются только в командах от Стимуляции."
                     }
                 },
                 "lost-prayer-to-the-sacred-winds"
@@ -46,7 +47,8 @@
                     "name": "flowing-purity",
                     "note": {
                         "en": "This weapon is more potent if you can **reliably clear the [[ability:bol]]**.",
-                        "fr": "Cette arme est meilleure si vous pouvez **retirer à coup sûr l'[[ability:bol]]**."
+                        "fr": "Cette arme est meilleure si vous pouvez **retirer à coup sûr l'[[ability:bol]]**.",
+                        "ru": "Показывает себя лучше, если стабильно снимать Долг жизни."
                     }
                 },
                 "oathsworn-eye"
@@ -58,7 +60,8 @@
                     "name": "hakushin-ring",
                     "note": {
                         "en": "This weapon can give a teamwide DMG% buff, often utilized in [[element:quicken]] teams. Note that the passive cannot be triggered when off-field.",
-                        "fr": "Cette arme peut donner un buff de DGT% à toute l'équipe, souvent utilisée dans les équipes [[element:quicken]]. Notez que le passif ne peux pas être déclenché en étant off-field."
+                        "fr": "Cette arme peut donner un buff de DGT% à toute l'équipe, souvent utilisée dans les équipes [[element:quicken]]. Notez que le passif ne peux pas être déclenché en étant off-field.",
+                        "ru": "Может предоставлять бонус Элементального урона для отряда, особенно полезный к отрядах от Стимуляции. Чтобы активировать Пассивную способность, Лиза должна быть активным персонажем."
                     }
                 }
             ]
@@ -69,7 +72,8 @@
                     "name": "mappa-mare",
                     "note": {
                         "en": "Only used in [[element:quicken]] teams.",
-                        "f": "Utilisé seulement pour les équipes **[[element:quicken]]**."
+                        "fr": "Utilisé seulement pour les équipes **[[element:quicken]]**.",
+                        "ru": "Используются только в командах от Стимуляции."
                     }
                 }
             ]
@@ -80,14 +84,16 @@
                     "name": "favonius-codex",
                     "note": {
                         "en": "This weapon can be used in teams where [[character:lisa]]'s [[stat:er]] requirement is high, or if your team values the additional particles.",
-                        "fr": "Cette arme peut être utilisée dans les équipes où les besoins en [[stat:er]] de [[character:lisa]]sont hauts, ou si votre équipe a besoin des particules supplémentaires."
+                        "fr": "Cette arme peut être utilisée dans les équipes où les besoins en [[stat:er]] de [[character:lisa]]sont hauts, ou si votre équipe a besoin des particules supplémentaires.",
+                        "ru": "Хороший вариант для отрядов, где у Лизы высокие требования к ВЭ, либо где другим персонажем полезна дополнительная энергия."
                     }
                 },
                 {
                     "name": "thrilling-tales-of-dragon-slayers",
                     "note": {
                         "en": "This weapon sacrifices a lot of [[character:lisa]]'s personal damage for buffing potential on a single character. It can be recommended if [[character:lisa]] is **low investment** and focused on buffing.",
-                        "fr": "Cette arme sacrifie beaucoup des dégâts personnels de [[character:lisa]] en échange des du potentiel de buff pour un autre personnage. Elle peut être recommandée si [[character:lisa]] a un **faible investissement** et se concentre sur les buffs."
+                        "fr": "Cette arme sacrifie beaucoup des dégâts personnels de [[character:lisa]] en échange des du potentiel de buff pour un autre personnage. Elle peut être recommandée si [[character:lisa]] a un **faible investissement** et se concentre sur les buffs.",
+                        "ru": "Жертвует личным уроном Лизы в пользу большого бонуса для одного другого персонажа. Хороший вариант для бюджетной сборки, сосредоточенной на предоставлении бонусов для отряда."
                     }
                 }
             ]

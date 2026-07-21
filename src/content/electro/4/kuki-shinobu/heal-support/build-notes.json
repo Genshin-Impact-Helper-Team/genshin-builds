@@ -1,12 +1,14 @@
 {
     "name": {
         "en": "Heal Support",
-        "fr": "Support Soins"
+        "fr": "Support Soins",
+        "ru": "Саппорт"
     },
     "notes": [
         {
             "en": "Outside of reaction teams where she can be a **reliable trigger unit**, [[character:kuki-shinobu]]'s damage contribution is usually insignificant. Hence her best usage case in those scenarios is building purely for utility.",
-            "fr": "En dehors des équipes centrées autour des réactions où elle peut être **un très bon déclencheur**, la contribution aux dégâts de [[character:kuki-shinobu]] est généralement négligeable. C'est pour cette raison que dans ces scénarios, sa principale utilité est d'être build entièrement pour les commodités."
+            "fr": "En dehors des équipes centrées autour des réactions où elle peut être **un très bon déclencheur**, la contribution aux dégâts de [[character:kuki-shinobu]] est généralement négligeable. C'est pour cette raison que dans ces scénarios, sa principale utilité est d'être build entièrement pour les commodités.",
+            "ru": "Помимо команд, играющих от указанных выше реакций, Куки не наносит достойного урона, рекомендуется использовать её исключительно как персонажа поддержки."
         }
     ]
 }

@@ -13,7 +13,8 @@
                     "name": "serpent-spine",
                     "note": {
                         "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:beacon-of-the-reed-sea]]**."
+                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "Предполагается, что Бэй Доу заранее получает 5 уровней Пассивной способности. На **[R5]** соответствует **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 }
             ]
@@ -31,7 +32,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:beidou]] being healed before casting her [[ability:burst]].",
-                        "fr": "Suppose que [[character:beidou]] reçoit des soins avant d'utiliser son [[ability:burst]]."
+                        "fr": "Suppose que [[character:beidou]] reçoit des soins avant d'utiliser son [[ability:burst]].",
+                        "ru": "Предполагается, что [[character:beidou]] получает лечение до использования Взрыва стихии."
                     }
                 },
                 "the-unforged"
@@ -48,7 +50,8 @@
                     "name": "akuoumaru",
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:verdict]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**."
+                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:verdict|Вердикту]]**."
                     }
                 },
                 {
@@ -63,7 +66,8 @@
                     "name": "skyward-pride",
                     "note": {
                         "en": "This weapon becomes significantly better with higher [[stat:er]] requirements.",
-                        "fr": "Cette arme devient bien meilleure avec des besoins en [[stat:er]] élevés."
+                        "fr": "Cette arme devient bien meilleure avec des besoins en [[stat:er]] élevés.",
+                        "ru": "Становится намного лучше при повышении требований к Восстановлению энергии."                        
                     }
                 }
             ]
@@ -74,7 +78,8 @@
                     "name": "lithic-blade",
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:luxurious-sea-lord]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:luxurious-sea-lord]]**."
+                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:luxurious-sea-lord]]**.",
+                        "ru": "На [R5] соответствует Благодатному владыке вод."
                     }
                 }
             ]

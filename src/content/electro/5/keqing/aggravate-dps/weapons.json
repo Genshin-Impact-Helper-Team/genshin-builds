@@ -14,7 +14,8 @@
                     "name": "uraku-misugiri",
                     "note": {
                         "en": "If using a [[element:geo]] unit, this weapon is as strong as **[[weapon:mistsplitter-reforged]]**.",
-                        "fr": "Si vous utilisez un personnage [[element:geo]], cette arme est aussi puissante que **[[weapon:mistsplitter-reforged]]**."
+                        "fr": "Si vous utilisez un personnage [[element:geo]], cette arme est aussi puissante que **[[weapon:mistsplitter-reforged]]**.",
+                        "ru": "В отрядах с [[element:geo]] персонажами соответствует **[[weapon:mistsplitter-reforged|Рассекающему туман]]**."
                     }
                 }
             ]
@@ -26,7 +27,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes staying above 90% health all the time. Without this condition met, this weapon is not worth considering.",
-                        "fr": "Suppose de rester au-dessus de 90% de vie en permanence. Sans remplir cette condition, cette arme ne vaut pas la peine d'être envisagée."
+                        "fr": "Suppose de rester au-dessus de 90% de vie en permanence. Sans remplir cette condition, cette arme ne vaut pas la peine d'être envisagée.",
+                        "ru": "Предполагается стабильное поддержание Пассивной способности (HP > 90%). При невозможности этого рассматривать данное оружие не следует."
                     }
                 },
                 "splendor-of-tranquil-waters",
@@ -41,7 +43,8 @@
                     "name": "wolf-fang",
                     "note": {
                         "en": "Scales well with refinements. At **[R5]**, this weapon performs similar to **[[weapon:light-of-foliar-incision]]**.",
-                        "fr": "Profite bien des raffinements. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:light-of-foliar-incision]]**."
+                        "fr": "Profite bien des raffinements. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:light-of-foliar-incision]]**.",
+                        "ru": "Значительно усиливается на пробуждениях. На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**."
                     }
                 }
             ]
@@ -52,7 +55,8 @@
                     "name": "the-black-sword",
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:freedom-sworn]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**."
+                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:freedom-sworn|Клятве свободы]]**."
                     }
                 },
                 {
@@ -60,7 +64,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This weapon falls off if facing more than one enemy.",
-                        "fr": "Cette arme est bien moins bonne si vous faites face à plus d'un ennemi."
+                        "fr": "Cette arme est bien moins bonne si vous faites face à plus d'un ennemi.",
+                        "ru": "Становится гораздо слабее в бою с несколькими противниками."
                     }
                 },
                 {
@@ -68,7 +73,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[character:keqing]] is shielded.",
-                        "fr": "Suppose que [[character:keqing]] est sous bouclier."
+                        "fr": "Suppose que [[character:keqing]] est sous bouclier.",
+                        "ru": "Предполагается наличие щита."
                     }
                 }
             ]
@@ -84,21 +90,24 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes [[ability:bol]] is cleared shortly after casting [[ability:skill]].",
-                        "fr": "Suppose que l'[[ability:bol]] est retiré peu après avoir lancé le [[ability:skill]]."
+                        "fr": "Suppose que l'[[ability:bol]] est retiré peu après avoir lancé le [[ability:skill]].",
+                        "ru": "Предполагается, что [[ability:bol]] снимается вскоре после применения [[ability:skill|Элементального навыка]]."
                     }
                 },
                 {
                     "name": "summit-shaper",
                     "note": {
                         "en": "Assumes no shield. If shielded, this weapon performs similar to **[[weapon:the-black-sword]]**.",
-                        "fr": "Suppose aucun bouclier. Si sous bouclier, cette arme performe de manière similaire à **[[weapon:the-black-sword]]**."
+                        "fr": "Suppose aucun bouclier. Si sous bouclier, cette arme performe de manière similaire à **[[weapon:the-black-sword]]**.",
+                        "ru": "Предполагается отсутствие щита. При его наличии это оружие соответствует **[[weapon:the-black-sword|Чёрному мечу]]**."
                     }
                 },
                 {
                     "name": "lions-roar",
                     "note": {
                         "en": "[[element:aggravate]] [[character:keqing]] can usually have 100% uptime on this passive. If the [[element:dendro]] unit is [[character:nahida]], this weapon performs ever so slightly worse. At **[R5]**, this weapon performs similar to **[[weapon:freedom-sworn]]**.",
-                        "fr": "[[character:keqing]] [[element:aggravate]] peut généralement maintenir 100% d'uptime sur ce passif. Si le personnage [[element:dendro]] est [[character:nahida]], cette arme performe un tout petit peu moins bien. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**."
+                        "fr": "[[character:keqing]] [[element:aggravate]] peut généralement maintenir 100% d'uptime sur ce passif. Si le personnage [[element:dendro]] est [[character:nahida]], cette arme performe un tout petit peu moins bien. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**.",
+                        "ru": "В отрядах с [[element:aggravate]]м Пассивная способность, как правило, постоянно поддерживается. Если в отряде есть [[character:nahida]], данное оружие показывает себя чуть хуже. На **[R5]** соответствует **[[weapon:freedom-sworn|Клятве свободы]]**."
                     }
                 }
             ]

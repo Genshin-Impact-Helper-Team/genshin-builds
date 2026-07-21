@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "Off-Field [[element:aggravate]] DPS",
-        "fr": "DPS [[element:aggravate]] Off-Field"
+        "fr": "DPS [[element:aggravate]] Off-Field",
+        "ru": "Карманный ДД (Обострение)"
     },
     "best": true,
     "notes": [
         {
             "en": "It is recommended to level up [[character:fischl]] to level 90",
-            "fr": "Il est recommandé de monter [[character:fischl]] au niveau 90"
+            "fr": "Il est recommandé de monter [[character:fischl]] au niveau 90",
+            "ru": "Рекомендуется повысить уровень Фишль до 90"
         },
         {
             "en": "Both [[character:fischl]]'s [[ability:skill]] and [[ability:burst]] summon Oz, therefore it is best to alternate between them to have high uptime.",
-            "fr": "Le [[ability:skill]] et l'[[ability:burst]] de [[character:fischl]] invoquent tout deux Oz, il est donc préférable d'alterner entre les deux pour maintenir un uptime élevé."
+            "fr": "Le [[ability:skill]] et l'[[ability:burst]] de [[character:fischl]] invoquent tout deux Oz, il est donc préférable d'alterner entre les deux pour maintenir un uptime élevé.",
+            "ru": "И Элементальный навык, и Взрыв стихии Фишль призывают Оза, поэтому их следует чередовать."
         },
         {
             "en": "A big portion of [[element:aggravate]] [[character:fischl]]'s damage comes from her Ascension 4 passive. An on field unit that frequently triggers [[element:electro]] related reactions helps maximize her damage.",
-            "fr": "Une grande partie des dégâts de [[character:fischl]] [[element:aggravate]] proviennent de son passif d'Ascension 4. Un personnage on-field qui déclenche souvent des réactions impliquant [[element:electro]] aide à maximiser ses dégâts."
+            "fr": "Une grande partie des dégâts de [[character:fischl]] [[element:aggravate]] proviennent de son passif d'Ascension 4. Un personnage on-field qui déclenche souvent des réactions impliquant [[element:electro]] aide à maximiser ses dégâts.",
+            "ru": "Значительная часть урона Фишль в отрядах через Обострение исходит от её 2 Пассивного таланта. Её урон увеличивается, если активный персонаж может часто вызывать Электро реакции."
         }
     ],
     "global": {

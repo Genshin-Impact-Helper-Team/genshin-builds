@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Weapons here are **ranked based on Team DPS** to account for [[character:kujou-sara]]'s **Buff and Personal Damage**.",
-            "fr": "Les armes sont **classée par rapport au DPS de l'équipe** pour prendre en compte les **buffs et dégâts personnels** de [[character:kujou-sara]]."
+            "fr": "Les armes sont **classée par rapport au DPS de l'équipe** pour prendre en compte les **buffs et dégâts personnels** de [[character:kujou-sara]].",
+            "ru": "В основу рейтинга лёг общий урон отряда с выбранным оружием, учитывая и личный урон Сары, и силу её баффа."
         }
     ],
     "weapons": [
@@ -12,7 +13,8 @@
                     "name": "skyward-harp",
                     "note": {
                         "en": "This weapon combines the **highest base attack** for [[character:kujou-sara]]'s buff with **good stats for her personal damage**, making it the best overall pick.",
-                        "fr": "Cette armre combine **l'attaque de base la plus haute** pour le buff de [[character:kujou-sara]] avec de **bonnes stats pour ses dégâts personnels**, en faisant le meilleur choix."
+                        "fr": "Cette armre combine **l'attaque de base la plus haute** pour le buff de [[character:kujou-sara]] avec de **bonnes stats pour ses dégâts personnels**, en faisant le meilleur choix.",
+                        "ru": "Имеет самую высокую базовую атаку и полезные для её личного урона статы, что делает Крыло лучшим вариантом."
                     }
                 }
             ]
@@ -23,14 +25,16 @@
                     "name": "polar-star",
                     "note": {
                         "en": "This weapon **trades some buff strength for more personal damage**. Can pull ahead of **[[weapon:skyward-harp]]** if a quick {rot:E CA N1 Q} rotation is performed to maximize its passive.",
-                        "fr": "Cette arme **échange une partie de la puissance du buff contre plus de dégâts personnels**. Elle peut devenir meilleure que **[[weapon:skyward-harp]]** en effetuant une rapide rotation {rot:E CA N1 Q} pour maximiser son passif."
+                        "fr": "Cette arme **échange une partie de la puissance du buff contre plus de dégâts personnels**. Elle peut devenir meilleure que **[[weapon:skyward-harp]]** en effetuant une rapide rotation {rot:E CA N1 Q} pour maximiser son passif.",
+                        "ru": "Базовая атака чуть ниже, но личный урон больше. Может превосходить Небесное крыло, если быстро выполнять ротацию E CA N1 Q для максимальной реализации Пассивной способности оружия."
                     }
                 },
                 {
                     "name": "elegy-for-the-end",
                     "note": {
                         "en": "While providing a strong buff for the team and a large amount of [[stat:er]], [[character:kujou-sara]] can have issues **with reliably activating the passive in Single Target scenarios against small or mobile enemies**.",
-                        "fr": "Bien qu'offrant un buff puissant pour l'équipe et beaucoup de [[stat:er]], [[character:kujou-sara]] peut avoir des problèmes pour **déclencher de manière fiable le passif dans des scénarios à cible unique contre des petits ennemis, ou des ennemis qui bougent beaucoup**."
+                        "fr": "Bien qu'offrant un buff puissant pour l'équipe et beaucoup de [[stat:er]], [[character:kujou-sara]] peut avoir des problèmes pour **déclencher de manière fiable le passif dans des scénarios à cible unique contre des petits ennemis, ou des ennemis qui bougent beaucoup**.",
+                        "ru": "Имеет определённые достоинства (значительные бонусы для отряда и количество Восстановления энергии), но у Сары при его использовании могут возникать проблемы с поддержанием Пассивной способности оружия в бою с мелким или подвижным одиночным противником."
                     }
                 }
             ]
@@ -63,14 +67,16 @@
                     "name": "mouuns-moon",
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to or better than **[[weapon:thundering-pulse]]**, depending on your team's total [[ability:burst]] cost.",
-                        "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:thundering-pulse]]**, selon le coût total des [[ability:burst]] de l'équipe."
+                        "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:thundering-pulse]]**, selon le coût total des [[ability:burst]] de l'équipe.",
+                        "ru": "На [R5] может соответствовать Громовому пульсу или превосходить его (зависит от общей стоимости Взрывов стихии отряда)."
                     }
                 },
                 {
                     "name": "alley-hunter",
                     "note": {
                         "en": "[[character:kujou-sara]]'s quickswap playstyle lets her take advantage of this weapon's passive well. Performs similar to **[[weapon:amos-bow]]** at **[R5]**.",
-                        "fr": "Le style de jeu quickswap de [[character:kujou-sara]] lui permet de tirer avantage du passif de cette arme. A des performances similaires à **[[weapon:amos-bow]]** une fois **[R5]**."
+                        "fr": "Le style de jeu quickswap de [[character:kujou-sara]] lui permet de tirer avantage du passif de cette arme. A des performances similaires à **[[weapon:amos-bow]]** une fois **[R5]**.",
+                        "ru": "Обычный стиль игры Сарой с коротким активным периодом и большим временем в кармане позволяет отлично реализовать Пассивную способность этого оружия. На [R5] соответствует Луку Амоса."
                     }
                 },
                 "the-viridescent-hunt",
@@ -89,7 +95,8 @@
                     "name": "favonius-warbow",
                     "note": {
                         "en": "While being bad for both [[character:kujou-sara]]'s buff and personal damage, **this weapon can be a good pick if the team struggles with high [[stat:er]] requirements**.",
-                        "fr": "Bien que n'étant pas une bonne option pour le buff et les dégâts personnels de [[character:kujou-sara]], **cette arme peut être un bon choix si l'équipe a du mal à cause de hauts besoins en [[stat:er]]**."
+                        "fr": "Bien que n'étant pas une bonne option pour le buff et les dégâts personnels de [[character:kujou-sara]], **cette arme peut être un bon choix si l'équipe a du mal à cause de hauts besoins en [[stat:er]]**.",
+                        "ru": "Даже с учётом низкой базовой атаки, что снижает бонус Сары и её личный урон, при большой потребности отряда в энергии может стать хорошим вариантом."
                     }
                 }
             ]

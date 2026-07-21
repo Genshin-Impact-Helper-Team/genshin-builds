@@ -11,7 +11,8 @@
             "name": "er",
             "note": {
                 "en": "[[element:aggravate]] [[character:keqing]] is usually played with another [[element:electro]] unit on the team, commonly [[character:fischl]], which basically eliminates the need for any [[stat:er]]",
-                "fr": "[[character:keqing]] [[element:aggravate]] est généralement jouée avec un autre personnage [[element:electro]] dans l'équipe, souvent [[character:fischl]], ce qui élimine le besoin de [[stat:er]]"
+                "fr": "[[character:keqing]] [[element:aggravate]] est généralement jouée avec un autre personnage [[element:electro]] dans l'équipe, souvent [[character:fischl]], ce qui élimine le besoin de [[stat:er]]",
+                "ru": "В отрядах через [[element:aggravate]] обычно есть второй [[element:electro]] персонаж, в частности [[character:fischl]], что сводит потребность [[character:keqing]] в энергии к нулю."
             }
         }
     ]
