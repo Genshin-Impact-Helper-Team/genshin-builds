@@ -3,5 +3,17 @@
     "cr-favo": "Only recommended if using a **Favonius** weapon",
     "er-req": "Prioritize until requirements are met",
     "wip-weapon": "Viable Weapons with WIP Calculations:",
-    "wip-artifact": "Viable Artifact Set with WIP Calculations:"
+    "wip-artifact": "Viable Artifact Set with WIP Calculations:",
+    "pre-ar45": "Before AR 45",
+    "investment-value": "**Investment Value**",
+    "high-iv": "High",
+    "med-high-iv": "Medium-High",
+    "medium-iv": "Medium",
+    "low-medium-iv": "Low-Medium",
+    "low-iv": "Low",
+    "4vv-p45": "Anemo characters can be extremely good at buffing **Pyro/Electro/Cryo/Hydro** with this artifact set. It is recommended to spend minimal resin to give your anemo support a cheap 4pc set (regardless of the stats) if it helps your team.",
+    "4scroll-p45": "Natlan supports can easily buff elements reacting with their own with this artifact set. Getting a cheap 4pc set regardless of stats would be beneficial if it helps your team.",
+    "4dm-p45": "It is reccomended to use this set on someone on your team for teams that do mainly Dendro DMG. Similar to Viridescent Venerer (4) for Anemo characters, it is reccomended to spend minimal resin to give your support a cheap 4pc set (regardless of the stats) if your team falls into this category. Anyone on the team can use the set (provided they can trigger the 4pc effect), including non-dendro characters."
+
+
 }

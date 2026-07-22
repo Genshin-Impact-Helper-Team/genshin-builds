@@ -3,5 +3,12 @@
     "cr-favo": "Uniquement recommandé avec une arme de **Favonius**",
     "er-req": "A prioriser jusqu'à atteindre les besoins nécéssaires",
     "wip-weapon": "Armes viables dont les calculs sont en cours:",
-    "wip-artifact": "Sets d'artéfacts viables dont les calculs sont en cours:"
+    "wip-artifact": "Sets d'artéfacts viables dont les calculs sont en cours:",
+    "pre-ar45": "Avant l'AR 45",
+    "investment-value": "**Valeur d'Investissement**",
+    "high-iv": "Haute",
+    "med-high-iv": "Bonne",
+    "medium-iv": "Moyenne",
+    "low-medium-iv": "Limitée",
+    "low-iv": "Faible"
 }

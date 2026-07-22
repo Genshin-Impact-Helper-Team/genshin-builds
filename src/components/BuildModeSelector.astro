@@ -1,0 +1,36 @@
+---
+import { t } from '../utils/i18n';
+
+type Props = {
+  locale: any;
+  normalHref: string;
+  preAr45Href: string;
+  isPreAr45?: boolean;
+};
+
+const {
+  locale,
+  normalHref,
+  preAr45Href,
+  isPreAr45 = false,
+} = Astro.props as Props;
+const label = t(locale, 'ui', 'Player level', undefined, false);
+---
+
+<nav class="build-mode-selector" aria-label={label}>
+  <span class="build-mode-selector-label">{label}</span>
+  <a
+    class="build-mode-option"
+    href={normalHref}
+    aria-current={isPreAr45 ? undefined : 'page'}
+  >
+    {t(locale, 'ui', 'AR 45+', undefined, false)}
+  </a>
+  <a
+    class="build-mode-option"
+    href={preAr45Href}
+    aria-current={isPreAr45 ? 'page' : undefined}
+  >
+    {t(locale, 'ui', 'Before AR 45', undefined, false)}
+  </a>
+</nav>
