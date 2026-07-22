@@ -63,7 +63,7 @@
             ]
         },
         {
-            "groups": [
+            "conditional": [
                 {
                     "items": [
                         {
