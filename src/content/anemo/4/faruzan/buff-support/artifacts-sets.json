@@ -67,13 +67,35 @@
                 {
                     "items": [
                         {
+                            "name": "er-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2,
+                            "note": {
+                                "en": "[[character:faruzan]]'s [[stat:er]] requirements pre-[C6] can be extremely high, so high that it can be difficult to build enough using a 4pc set bonus. As such, using **[[set:emblem-of-severed-fate]] (2)** with whatever artifact combination will give you the most [[stat:er]] is a reasonable option.",
+                                "fr": "Les besoins en [[stat:er]] de [[character:faruzan]] pré-[C6] peuvent être extrêmement élevés, au point qu'il peut être difficile d'en build assez avec un bonus de set 4 pièces. Ainsi, utiliser **[[stat:er-set]] (2)** avec n'importe quelle combinaison d'artéfacts qui vous donne le plus de [[stat:er]] est une option raisonnable.",
+                                "it": "I requisiti di [[stat:er]] di [[character:faruzan]] prima della **[C6]** possono essere estremamente elevati, al punto da rendere difficile ottenerne abbastanza utilizzando un set completo. Per questo, utilizzare 2 **[[stat:er-set]] (2)** o qualunque combinazione fornisca più [[stat:er]] possibile è un’opzione ragionevole.",
+                                "ru": "Потребность [[character:faruzan]] в [[stat:er|Восстановлении энергии]] до [С6] может быть экстремально высока - настолько, что набрать достаточное его уровень с каким-либо определённым сетом может быть затруднительно. Поэтому использование **[[set:emblem-of-severed-fate|Эмблемы рассечённой судьбы]] (2)** с любыми другими артефактами с наибольшим количеством [[stat:er|ВЭ]] является разумным вариантом."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+                "conditional": [
+                {
+                    "items": [
+                        {
                             "name": "golden-troupe",
                             "pieces": 4,
                             "note": {
-                                "en": "This set is better than **[[set:emblem-of-severed-fate]] (4)** if [[character:faruzan]] is [C6] because of the pressurized collapse damage.",
-                                "fr": "Ce set est meilleur que **[[set:emblem-of-severed-fate]] (4)** si [[character:faruzan]] est [C6] grâce aux dégâts d'effondrement compressé.",
-                                "it": "Questo set supera **[[set:emblem-of-severed-fate]] (4)** se [[character:faruzan]] è **[C6]** grazie ai danni da Collasso pressurizzato.",
-                                "ru": "Превосходит **[[set:emblem-of-severed-fate|Эмблему]] (4)** на [C6] за счёт урона Обвала под давлением."
+                                "en": "This set is about equal to **[[set:emblem-of-severed-fate]] (4)** if [[character:faruzan]] is [C6] because of the pressurized collapse damage.",
+                                "fr": "Ce set est à peu près équivalent à **[[set:emblem-of-severed-fate]] (4)** si [[character:faruzan]] est [C6] grâce aux dégâts d'effondrement compressé.",
+                                "it": "Questo set è più o meno equivalente a **[[set:emblem-of-severed-fate]] (4)** se [[character:faruzan]] è **[C6]** grazie ai danni da Collasso pressurizzato.",
+                                "ru": "Соответствует **[[set:emblem-of-severed-fate|Эмблему]] (4)** на [C6] за счёт урона Обвала под давлением."
                             }
                         }
                     ]
@@ -93,28 +115,4 @@
                     ]
                 }
             ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "er-set",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "er-set",
-                            "pieces": 2,
-                            "note": {
-                                "en": "[[character:faruzan]]'s [[stat:er]] requirements pre-[C6] can be extremely high, so high that it can be difficult to build enough using a 4pc set bonus. As such, using **[[set:emblem-of-severed-fate]] (2)** with whatever artifact combination will give you the most [[stat:er]] is a reasonable option.",
-                                "fr": "Les besoins en [[stat:er]] de [[character:faruzan]] pré-[C6] peuvent être extrêmement élevés, au point qu'il peut être difficile d'en build assez avec un bonus de set 4 pièces. Ainsi, utiliser **[[stat:er-set]] (2)** avec n'importe quelle combinaison d'artéfacts qui vous donne le plus de [[stat:er]] est une option raisonnable.",
-                                "it": "I requisiti di [[stat:er]] di [[character:faruzan]] prima della **[C6]** possono essere estremamente elevati, al punto da rendere difficile ottenerne abbastanza utilizzando un set completo. Per questo, utilizzare 2 **[[stat:er-set]] (2)** o qualunque combinazione fornisca più [[stat:er]] possibile è un’opzione ragionevole.",
-                                "ru": "Потребность [[character:faruzan]] в [[stat:er|Восстановлении энергии]] до [С6] может быть экстремально высока - настолько, что набрать достаточное его уровень с каким-либо определённым сетом может быть затруднительно. Поэтому использование **[[set:emblem-of-severed-fate|Эмблемы рассечённой судьбы]] (2)** с любыми другими артефактами с наибольшим количеством [[stat:er|ВЭ]] является разумным вариантом."
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
 }
