@@ -18,6 +18,12 @@
             "fr": "L'[[ability:burst]] de [[character:ganyu]] ne devrait pas être utilisé dans la plupart des équipes [[element:melt]], car cela peut empêcher ses [[ability:ca]]s de déclencher [[element:melt]].",
             "it": "Nella maggior parte dei team [[element:melt]], il [[ability:burst]] di [[ability:burst]] dovrebbe essere evitato, poiché potrebbe impedire ai suoi [[ability:ca|Attacchi Caricati]] di provocare [[element:melt]] (Melt).",
             "ru": "В некоторых командах и ситуациях использование [[ability:burst|Взрыва стихии]] [[character:ganyu]] может навредить общему урону из-за снижения количества вызывающих [[element:melt]] [[ability:ca|Заряженных атак]]."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:golden-frostbound-oath]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

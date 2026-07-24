@@ -3,7 +3,6 @@
         "en": "Energy Support",
         "fr": "Support Energie",
         "ru": "Саппорт"
-        
     },
     "best": true,
     "notes": [
@@ -16,6 +15,12 @@
             "en": "It is not recommended to level [[ability:skill]] and [[ability:burst]] past talent level 7 as the amount of energy generated does not increase.",
             "fr": "Il n'est pas recommandé d'augmenter les talents au delà du niveau 7 puisque le montant d'énergie générée n'augmente pas.",
             "ru": "Не рекомендуется увеличивать уровни [[ability:skill|Элементального навыка]] и [[ability:burst|Взрыва стихии]] выше 7-го, так как количество восстанавливаемой энергии не увеличивается."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:fleuve-cendre-ferryman]]\n- [[weapon:peak-patrol-song]]\n- [[weapon:athame-artis]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n"
         }
     ]
 }

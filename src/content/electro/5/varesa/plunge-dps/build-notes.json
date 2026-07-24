@@ -32,6 +32,12 @@
             "en": "Short Hold [[ability:skill]] when starting the rotation with **[[set:obsidian-codex]] (4)** will result in the highest DMG on average.",
             "fr": "Un [[ability:skill]] appui court en commençant la rotation avec **[[set:obsidian-codex]] (4)** donnera les meilleurs dégâts en moyenne.",
             "ru": "Короткое долгое нажатие [[ability:skill|Элементального навыка]] в начале ротации оптимально при использовании **[[set:obsidian-codex|Обсидианового фолианта]] (4)**."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:nocturnes-curtain-call]]\n- [[weapon:angelos-heptades]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

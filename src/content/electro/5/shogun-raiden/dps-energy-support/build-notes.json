@@ -15,6 +15,12 @@
             "en": "Start your rotation with [[character:shogun-raiden|Raiden]]'s [[ability:skill]].\n\n[[ability:burst]] combo :\n- {rot:Q > 4N4D} (Recommended for general use)\n- {rot:Q > 3N3C + N1C} (Recommended with Attack Speed)",
             "fr": "Commencez votre rotation avec le [[ability:skill]] de [[character:shogun-raiden]].\n\nCombo pour l'[[ability:burst]] :\n- {rot:A > 4N4D} (Recommandé pour l'usage général)\n- {rot:A > 3N3C + N1C} (Recommandé avec de la vitesse d'Attaque)",
             "ru": "Начните ротацию с [[ability:skill|Элементального навыка]] [[character:shogun-raiden|Райдэн]]'.\n\nКомбо для [[ability:burst|Взрыва стихии]]:\n- {rot:Q > 4N4D} (рекомендуется в целом)\n- {rot:Q > 3N3C + N1C} (рекомендуется при наличии бонусов скорости атаки)"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:fractured-halo]]\n- [[weapon:bloodsoaked-ruins]]\n- [[weapon:sacrificers-staff]]\n- [[weapon:disaster-and-remorse]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:silken-moons-serenade]]\n- [[set:a-day-carved-from-rising-winds]]\n- [[set:aubade-of-morningstar-and-moon]]\n- [[set:celestial-gift]]\n- [[set:disenchantment-in-deep-shadow]]\n"
         }
     ],
     "weapons": [

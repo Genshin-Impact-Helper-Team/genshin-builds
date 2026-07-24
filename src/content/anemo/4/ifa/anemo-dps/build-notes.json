@@ -18,6 +18,12 @@
             "fr": "Le soin de [[character:ifa]] en tant que DPS [[element:anemo]] ne suffit généralement pas à lui seul pour compléter la Fanfare de [[character:furina]], il est donc recommandé de le jouer avec un autre healer, notamment [[character:sayu]].",
             "it": "Le cure di [[character:ifa]] DPS [[element:anemo]] non sono sufficienti a massimizzare la Fanfara di [[character:furina]], ed è quindi consigliato utilizzare un secondo guaritore - [[character:sayu]] è l'esempio più rilevante.",
             "ru": "Объема исцеления [[character:ifa|Ифы]] зачастую недостаточно, чтобы полностью набирать Фанфары [[character:furina|Фурины]], поэтому рекомендуется комбинировать его с другими хилерами (например, с [[character:sayu]])."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:dawning-frost]]\n- [[weapon:reliquary-of-truth]]\n- [[weapon:nocturnes-curtain-call]]\n- [[weapon:angelos-heptades]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
     "weapons": [

@@ -21,6 +21,9 @@
             "fr": "[[character:varka]] veut toujours un deuxième personnage [[ability:hexerei]], un deuxième personnage [[element:anemo]] et deux personnages du même type PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]) dans l'équipe. Ne pas remplir ces conditions fera chuter ses dégâts.",
             "it": "I team di [[character:varka]] richiedono un secondo personaggio [[ability:hexerei]], un secondo personaggio [[element:anemo]] e due personaggi dello stesso elemento PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]). Il mancato rispetto di queste condizioni farà crollare i danni di [[character:varka]].",
             "ru": "В отряде [[character:varka|Варки]] всегда стоит иметь второго [[element:anemo]] персонажа, второго [[ability:hexerei|Ведьминского]] персонажа и двух персонажей одного элемента из [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]. В противном случае его урон значительно снижается."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
         }
     ]
 }
