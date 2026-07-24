@@ -49,7 +49,7 @@
                 "en": "Can you add Baseline Stats and Statgoals?"
             },
             "answer": {
-                "en": "No. Because the endgame modes are consistently shifting around, as well as the fluctuating HP values of the many enemies, it's very difficult to ascertain baseline stats and statgoals for every character. If a character talent mentions a specific stat that has a cap, ([[character:prune]]'s ATK cap, for example), the doc will mention those, but will not list the values of stats needed for every character."
+                "en": "No. Because the endgame modes are consistently shifting around, as well as the fluctuating HP values of the many enemies, it's very difficult to ascertain baseline stats and statgoals for every character. If a character talent mentions a specific stat that has a cap, (Prune's ATK cap, for example), the doc will mention those, but will not list the values of stats needed for every character."
             }
         },
         {
@@ -113,7 +113,7 @@
                 "ru": "Для персонажа А есть нишевая сборка, можно ли добавить её в документ?"
             },
             "answer": {
-                "en": "The build guide focuses on optmizing character builds that best suit their desired playstyle and scalings. In other words, builds that the character functions best with. It wouldn't be in best interest to bloat the guide with meme builds such as Physical [[character:zhongli]] or Machine Gun [[character:gorou]]."
+                "en": "The build guide focuses on optmizing character builds that best suit their desired playstyle and scalings. In other words, builds that the character functions best with. It wouldn't be in best interest to bloat the guide with meme builds such as Physical Zhongli or Machine Gun Gorou."
         }
         },
         {
