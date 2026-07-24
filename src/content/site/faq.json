@@ -8,7 +8,7 @@
     "items": [
         {
             "question": {
-                "en": " What is featured on this build doc?",
+                "en": "What is featured on this build doc?",
                 "fr": "Que vais-je trouver dans ce guide?",
                 "it": "Cosa include questa guida?",
                 "ru": "Что можно найти в этом гайде?"
@@ -22,7 +22,39 @@
         },
         {
             "question": {
-                "en": " X Character was just released and I don't see them on here, where are they?",
+                "en": "Why a new website instead of a Google Sheet?"
+            },
+            "answer": {
+                "en": "The Doc Team has decided that it was time to modernize the guide and allow for easy guide translations. We also decided that Google Sheets is just... just terrible."
+            }
+        },
+        {
+            "question": {
+                "en": "Will you go back to the old sheet?"
+            },
+            "answer": {
+                "en": "Very very unlikely. We understand that many of you are not satisfied with the new change, however we now have many Quality of Life features on the new website that we weren't able to have on the original sheet. As such, the old Google Sheet is no longer being maintained. Sorry."
+            }
+        },
+        {
+            "question": {
+                "en": "How many supported translation languages are there? "
+            },
+            "answer": {
+                "en": "English, French, German, Russian, Italian, Spanish and Portuguese are the supported languages. Not everything is translated in all listed languages, but we are working on it."
+            }
+        },
+        {
+            "question": {
+                "en": "Can you add Baseline Stats and Statgoals?"
+            },
+            "answer": {
+                "en": "No. Because the endgame modes are consistently shifting around, as well as the fluctuating HP values of the many enemies, it's very difficult to ascertain baseline stats and statgoals for every character. If a character talent mentions a specific stat that has a cap, ([[character:prune]]'s ATK cap, for example), the doc will mention those, but will not list the values of stats needed for every character."
+            }
+        },
+        {
+            "question": {
+                "en": "X Character was just released and I don't see them on here, where are they?",
                 "fr": "X Personnage vient de sortir et je ne le vois pas dans le guide, où est-il?",
                 "it": "Il personaggio X è appena uscito e non lo vedo nella guida, dov'è?",
                 "ru": "Персонаж А только что вышел, но его нет на сайте, где его найти?"
@@ -36,21 +68,32 @@
         },
         {
             "question": {
-                "en": " Where can I find such weapons and artifacts mentioned on the build doc?",
+                "en": "When will you update X Character? They're extremely outdated!",
+                "fr": "Quand allez-vous mettre à jour X personnage? Le build est n'est plus à jour depuis longtemps!",
+                "it": "Quando aggiornerete personaggio X? La sezione è obsoleta!",
+                "ru": "Когда вы обновите персонажа А? Раздел устарел!"
+            },
+            "answer": {
+                "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours.",
+                "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre.",
+                "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro.",
+                "ru": "Некоторых персонажей довольно сложно обновить из-за их неучастия в эндгейм-контенте, но команда старается со временем обновлять всех. В игре более сотни персонажей, и нашей довольно небольшой команде может быть непросто поддерживать всех в актуальном состоянии."
+            }
+        },
+        {
+            "question": {
+                "en": "Where can I find such weapons and artifacts mentioned on the build doc?",
                 "fr": "Où puis-je trouver les armes et artéfacts mentionnés dans ce guide?",
                 "it": "Dove trovo le armi ed i manufatti menzionati nella guida?",
                 "ru": "Где достать оружие и артефакты, перечисленные в гайде?"
             },
             "answer": {
-                "en": "The method to acquire said weapons and artifacts are listed on the Genshin Fandom Wiki. The wiki is also a great resource for gathering other relevant information.",
-                "fr": "Les différentes façons d'obtenir les armes et artéfacts sont listées sur le Genshin Fandom Wiki. Le wiki est aussi une très bonne ressource pour retrouver de nombreuses informations intéressantes.",
-                "it": "Il modo per ottenere armi e manufatti è dettagliato sulla Genshin Fandom Wiki. La wiki è anche un'ottima risorsa per ogni tipo di informazione.",
-                "ru": "Способы получения указанного оружия и артефактов перечислены на Genshin Impact HoYoWiki и Genshin Impact Fandom Wiki. Вики - отличный ресурс для получения информации по игре."
+                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom. (For example: Craft, Wish, Event, etc.). For a more in-depth guide on acquisition methods, check out the Genshin Fandom Wiki."
             }
         },
         {
             "question": {
-                "en": " I believe X weapon/artifact is good for Y Character, can you add it? Why is it not added? Why won't you add it?",
+                "en": "I believe X weapon/artifact is good for Y Character, can you add it? Why is it not added? Why won't you add it?",
                 "fr": "Je pense que X arme/artéfact est bien pour Y personnage, pouvez-vous l'ajouter? Pourquoi n'est-ce pas ajouté? Pourquoi ne l'ajouterez vous pas?",
                 "it": "Credo che quest'arma/set di manufatti funzioni bene sul personaggio X, potete aggiungerli?",
                 "ru": "Я считаю, что оружие/артефакт А подходят для персонажа Б, можете ли вы добавить его в рейтинг? Почему оно не добавлено? Почему вы не можете его добавить?"
@@ -64,21 +107,18 @@
         },
         {
             "question": {
-                "en": " There is a niche build setup for X character, can it be added to the build doc?",
+                "en": "There is a niche build setup for X character, can it be added to the build doc?",
                 "fr": "Il y a un build niche pour X personnage, est-ce qu'il peut être ajouté au guide?",
                 "it": "C'è una build di nicchia per X personaggio, la potete aggiungere?",
                 "ru": "Для персонажа А есть нишевая сборка, можно ли добавить её в документ?"
             },
             "answer": {
-                "en": "The build doc is for more general, more commonly used builds that are viable in most scenarios. If a specific build only worked in 1 or 2 niches, it really wouldn't be worth mentioning.",
-                "fr": "Ce guide de build est fait pour des builds plus généraux, plus couramment utilisés et qui seront viables dans la plupart des scénarios. Si un build spécifique ne fonctionne que pour 1 ou 2 niches, il n'est pas vraiment utile de le mentionner.",
-                "it": "Questa guida è dedicata a build più generali e comunemente utilizzate. Se una build specifica è utile solamente in pochi casi, non riteniamo utile menzionarla.",
-                "ru": "Руководство предназначено для общепринятых и часто используемых сборок, которые жизнеспособны в большинстве сценариев игры. Большинство нишевых билдов, предназначенных для 1-2 ситуаций, не упоминаются."
-            }
+                "en": "The build guide focuses on optmizing character builds that best suit their desired playstyle and scalings. In other words, builds that the character functions best with. It wouldn't be in best interest to bloat the guide with meme builds such as Physical [[character:zhongli]] or Machine Gun [[character:gorou]]."
+        }
         },
         {
             "question": {
-                "en": " I see that Energy Recharge requirements are mentioned but a value isn't listed. Why is that?",
+                "en": "I see that Energy Recharge requirements are mentioned but a value isn't listed. Why is that?",
                 "fr": "Je vois que l'on parle d'un montant de Recharge d'Energie nécessaire, mais aucune valeur n'est mentionnée, pourquoi?",
                 "it": "Vedo che sono menzionati dei requisiti di Ricarica di Energia, ma non è indicato il valore preciso. Perché?",
                 "ru": "Я вижу, что в некоторых местах упоминается потребность персонажа в энергии, но нет точного значения ВЭ. Почему?"
@@ -92,7 +132,7 @@
         },
         {
             "question": {
-                "en": " Is there data to back up your rankings?",
+                "en": "Is there data to back up your rankings?",
                 "fr": "Sur quelles données vous basez-vous pour établir ces classements?",
                 "it": "Su quali dati si basano le vostre classifiche?",
                 "ru": "На чем основывается рейтинг? Какие данные его подтверждают?"
@@ -106,13 +146,13 @@
         },
         {
             "question": {
-                "en": " Can you make sections for unreleased/teased characters?",
+                "en": "Can you make sections for unreleased/teased characters?",
                 "fr": "Est-ce que vous pouvez faire des sections pour les personnages à venir?",
                 "it": "Potete creare una sezione per un personaggio non ancora uscito?",
                 "ru": "Можете ли вы создать раздел для невышедших/анонсированных персонажей?"
             },
             "answer": {
-                "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters.",
+                "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters. Please see the Legal FAQ for more information.",
                 "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles.",
                 "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**.",
                 "ru": "Руководство НЕ СОДЕРЖИТ утечки или материалы с бета-тестирования. Только релизный контент. Мы не можем и не будем создавать раздел для невышедших персонажей."
@@ -134,7 +174,7 @@
         },
         {
             "question": {
-                "en": " What are these random letters when discussing combos and rotations?",
+                "en": "What are these random letters when discussing combos and rotations?",
                 "fr": "Que signifient ces lettres lorsque l'on parle de combos et de rotations?",
                 "it": "Cosa significano le lettere utilizzate per combo e rotazioni?",
                 "ru": "Что за странные буквы/цифры в описании комбо и ротаций?"
@@ -148,13 +188,13 @@
         },
         {
             "question": {
-                "en": " Are there at least F2P Options for each character?",
+                "en": "Are there at least F2P Options for each character?",
                 "fr": "Y-a-t-il au moins une option F2P pour chaque personnage?",
                 "it": "Ci sono almeno delle opzioni F2P per ogni personaggio?",
                 "ru": "Есть ли F2P варианты оружия для персонажей?"
             },
             "answer": {
-                "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, or the easily obtainable 3* Gacha Weapons.",
+                "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, or the easily obtainable 3* Gacha Weapons.",
                 "fr": "Oui. Ce document garantie qu'il y a au moins 1 option F2P obtenable de façon permanente pour chaque personnage, même si cette option n'est pas forcément la meilleure pour lui. Les armes F2P obtenables de façon permanente incluent les armes qui peuvent être forgées, qui peuvent être obtenues dans les coffres de Mondstadt et Liyue, ou les armes 3✩ facilement obtenables grâces aux voeux.",
                 "it": "Sì, la guida si assicura che sia presente **almeno 1 opzione F2P accessibile in maniera permanente** per ogni personaggio, anche nel caso in cui non sia una delle opzioni migliori. Opzioni accessibili in maniera permanente includono armi che possono essere forgiate od ottenute gratuitamente tramite pesca o come ricompense da bauli di Mondstadt e Liyue, od armi a 3 stelle facilmente ottenibili dai banner.",
                 "ru": "Да. Документ содержит как минимум 1 постоянно доступный бесплатный вариант, даже если он не является лучшим. В бесплатные варианты включено оружие из кузницы, сундуков Мондштадта/Ли Юэ и трёхзвёздочные опции из Молитв."
@@ -162,7 +202,7 @@
         },
         {
             "question": {
-                "en": " What are the Constellation assumptions for each character?",
+                "en": "What are the Constellation assumptions for each character?",
                 "fr": "Quel niveau de constellation est supposé pour chaque personnage?",
                 "it": "Quali sono i presupposti per le Costellazioni dei personaggi?",
                 "ru": "Каковы требования к Созвездиям персонажей?"
@@ -176,7 +216,7 @@
         },
         {
             "question": {
-                "en": " Do you have build docs for Honkai Star Rail and Zenless Zone Zero?",
+                "en": "Do you have build docs for Honkai Star Rail and Zenless Zone Zero?",
                 "fr": "Avez-vous des document similaires pour Honkai Star Rail et Zenless Zone Zero?",
                 "it": "Avete documenti simili per Honkai Star Rail e/o Zenless Zone Zero?",
                 "ru": "Есть ли у вас аналогичные руководства для Honkai Star Rail и Zenless Zone Zero?"
@@ -186,20 +226,6 @@
                 "fr": "Il y en a, mais notre équipe ne s'en occupe pas. Pour les trouver, veuillez vous rendre sur leurs serveurs Discord officiels respectifs.",
                 "it": "Esistono, ma non sono gestiti dal nostro team. Per trovarli, si prega dirigersi ai rispettivi server Discord ufficiali.",
                 "ru": "Такие руководства есть, но разрабатываются не этой командой. Для ознакомления с ними перейдите на соответствующий Discord-сервер."
-            }
-        },
-        {
-            "question": {
-                "en": " When will you update X Character? They're extremely outdated!",
-                "fr": "Quand allez-vous mettre à jour X personnage? Le build est n'est plus à jour depuis longtemps!",
-                "it": "Quando aggiornerete personaggio X? La sezione è obsoleta!",
-                "ru": "Когда вы обновите персонажа А? Раздел устарел!"
-            },
-            "answer": {
-                "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours.",
-                "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre.",
-                "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro.",
-                "ru": "Некоторых персонажей довольно сложно обновить из-за их неучастия в эндгейм-контенте, но команда старается со временем обновлять всех. В игре более сотни персонажей, и нашей довольно небольшой команде может быть непросто поддерживать всех в актуальном состоянии."
             }
         }
     ]
