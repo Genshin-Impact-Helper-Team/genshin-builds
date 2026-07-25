@@ -11,7 +11,7 @@
                 "en": "What is featured on this build doc?",
                 "fr": "Que vais-je trouver dans ce guide?",
                 "it": "Cosa include questa guida?",
-                "ru": "Что можно найти в этом гайде?"
+                "ru": "Что можно найти в этом руководстве?"
             },
             "answer": {
                 "en": "This build doc features optimal weapons, artifacts, and stats for each individual character. This build doc assumes you are at least Adventure Rank 45, and are able to farm 5★ artifacts at the highest level domain.",
@@ -22,34 +22,42 @@
         },
         {
             "question": {
-                "en": "Why a new website instead of a Google Sheet?"
+                "en": "Why a new website instead of a Google Sheet?",
+                "ru": "Почему вы переехали на новый сайт, а не остались на табличной версии?"
             },
             "answer": {
-                "en": "The Doc Team has decided that it was time to modernize the guide and allow for easy guide translations. We also decided that Google Sheets is just... just terrible."
+                "en": "The Doc Team has decided that it was time to modernize the guide and allow for easy guide translations. We also decided that Google Sheets is just... just terrible.",
+                "ru": "Команда решила, что пришла пора обновить руководство и упростить доступ к переводу. Помимо этого, мы считаем что Google Таблицы попросту ужасны."
             }
         },
         {
             "question": {
-                "en": "Will you go back to the old sheet?"
+                "en": "Will you go back to the old sheet?",
+                "ru": "Вы вернетесь к старой таблице?"
             },
             "answer": {
-                "en": "Very very unlikely. We understand that many of you are not satisfied with the new change, however we now have many Quality of Life features on the new website that we weren't able to have on the original sheet. As such, the old Google Sheet is no longer being maintained. Sorry."
+                "en": "Very very unlikely. We understand that many of you are not satisfied with the new change, however we now have many Quality of Life features on the new website that we weren't able to have on the original sheet. As such, the old Google Sheet is no longer being maintained. Sorry.",
+                "ru": "Крайне маловероятно. Мы понимаем, что многие не слишком рады изменениям, но веб-сайт включает в себя множество улучшений, которых не было в изначальной версии. Старая Google Таблица больше не поддерживается. Увы-увы."
             }
         },
         {
             "question": {
-                "en": "How many supported translation languages are there? "
+                "en": "How many supported translation languages are there?",
+                "ru": "Сколько в проекте поддерживаемых языков?"
             },
             "answer": {
-                "en": "English, French, German, Russian, Italian, Spanish and Portuguese are the supported languages. Not everything is translated in all listed languages, but we are working on it."
+                "en": "English, French, German, Russian, Italian, Spanish and Portuguese are the supported languages. Not everything is translated in all listed languages, but we are working on it.",
+                "ru": "На данный момент поддерживается английская, французская, русская, итальянская, испанская и португальская версии. Некоторые примечания доступны не на всех языках. Мы работаем над этим."
             }
         },
         {
             "question": {
-                "en": "Can you add Baseline Stats and Statgoals?"
+                "en": "Can you add Baseline Stats and Statgoals?",
+                "ru": "Можно ли добавить базовые и целевые характеристики для каждого персонажа?"
             },
             "answer": {
-                "en": "No. Because the endgame modes are consistently shifting around, as well as the fluctuating HP values of the many enemies, it's very difficult to ascertain baseline stats and statgoals for every character. If a character talent mentions a specific stat that has a cap, (Prune's ATK cap, for example), the doc will mention those, but will not list the values of stats needed for every character."
+                "en": "No. Because the endgame modes are consistently shifting around, as well as the fluctuating HP values of the many enemies, it's very difficult to ascertain baseline stats and statgoals for every character. If a character talent mentions a specific stat that has a cap, (Prune's ATK cap, for example), the doc will mention those, but will not list the values of stats needed for every character.",
+                "ru": "Нет. Поскольку эндгейм режимы постоянно менются, как и уровень HP врагов, определить базовые и целевые характеристики для каждого персонажа крайне сложно. Если в таланте персонажа упоминается ограничение для конкретного стата (например, сила атаки Прюн), это будет указано в примечании. Полный список целевых значений характеристик для каждого персонажа приводиться не будет."
             }
         },
         {
@@ -88,7 +96,8 @@
                 "ru": "Где достать оружие и артефакты, перечисленные в гайде?"
             },
             "answer": {
-                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom. (For example: Craft, Wish, Event, etc.). For a more in-depth guide on acquisition methods, check out the Genshin Fandom Wiki."
+                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom. (For example: Craft, Wish, Event, etc.). For a more in-depth guide on acquisition methods, check out the Genshin Fandom Wiki.",
+                "ru": "Если навести курсор на оружие, в нижней части всплывающего окна отображается способ получения (кузня,  молитвы, временное событие и др.). С подробностями можно ознакомиться на вики."
             }
         },
         {
@@ -113,7 +122,8 @@
                 "ru": "Для персонажа А есть нишевая сборка, можно ли добавить её в документ?"
             },
             "answer": {
-                "en": "The build guide focuses on optmizing character builds that best suit their desired playstyle and scalings. In other words, builds that the character functions best with. It wouldn't be in best interest to bloat the guide with meme builds such as Physical Zhongli or Machine Gun Gorou."
+                "en": "The build guide focuses on optimizing character builds that best suit their desired playstyle and scalings. In other words, builds that the character functions best with. It wouldn't be in best interest to bloat the guide with meme builds such as Physical Zhongli or Machine Gun Gorou.",
+                "ru": "Руководство предназначено для оптимальных билдов, наиболее подходящих под роль персонажа и его скейлы. Иными словами, это наиболее эффективные сборки для конкретного персонажа. Добавлять мемные сборки вроде физ Чжун Ли или machine gun Горо (пулемёт) нецелесообразно."
         }
         },
         {
