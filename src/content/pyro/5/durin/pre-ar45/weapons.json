@@ -2,7 +2,11 @@
     "weapons": [
         {
             "items": [
-                "finale-of-the-deep",
+                "finale-of-the-deep"
+            ]
+        },
+        {
+            "items": [
                 "moonweavers-dawn"
             ]
         }

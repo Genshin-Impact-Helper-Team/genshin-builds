@@ -2,7 +2,11 @@
     "weapons": [
         {
             "items": [
-                "flowing-purity",
+                "flowing-purity"
+            ]
+        },
+        {
+            "items": [
                 "ttds"
             ]
         }

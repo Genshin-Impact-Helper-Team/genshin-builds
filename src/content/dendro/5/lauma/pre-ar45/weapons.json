@@ -2,7 +2,11 @@
     "weapons": [
         {
             "items": [
-                "blackmarrow-lantern",
+                "blackmarrow-lantern"
+            ]
+        },
+        {
+            "items": [
                 "magic-guide"
             ]
         }

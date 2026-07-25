@@ -2,7 +2,11 @@
     "weapons": [
         {
             "items": [
-                "prospectors-shovel",
+                "prospectors-shovel"
+            ]
+        },
+        {
+            "items": [
                 "white-tassel"
             ]
         }
