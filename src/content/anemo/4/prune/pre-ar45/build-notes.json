@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en": "[[note:pre-ar45]]"
+    },
+    "notes": [
+        {
+            "en": "[[note:investment-value]]: [[note:low-medium-iv]]"
+        },
+        {
+            "en": "DMG% buffer which scales off her [[stat:atk%|ATK]], and buffs [[stat:atk%]] at [c6].",
+            "fr": "Buff les DGT% en se basant sur son [[stat:atk]], et buff l'[[stat:atk%]] une fois [c6]."
+        }
+    ]
+}
