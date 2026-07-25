@@ -5,11 +5,11 @@
             "atk%"
         ],
         "goblet": [
-          "atk%"
+            "atk%"
         ],
         "circlet": [
             "cr/cd",
-          "atk%"
+            "atk%"
         ]
     }
 }
