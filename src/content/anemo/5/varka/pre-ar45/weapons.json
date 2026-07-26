@@ -5,17 +5,19 @@
                 {
                     "name": "tidal-shadow",
                     "note": {
-                        "en": "Assumes **[[character:varka]] is healed** to activate the passive."
+                        "en": "Assumes **[[character:varka]] is healed** to activate the passive.",
+                        "fr": "Suppose que **[[character:varka]] est soigné** pour déclencher le passif."
                     }
                 }
             ]
         },
         {
             "items": [
-                 {
+                {
                     "name": "earth-shaker",
                     "note": {
-                        "en": "Assumes the passive is active."
+                        "en": "Assumes the passive is active.",
+                        "fr": "Suppose que le passif est actif."
                     }
                 }
             ]
