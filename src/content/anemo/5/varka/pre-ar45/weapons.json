@@ -1,0 +1,17 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "tidal-shadow"
+               "note": {
+                        "en": "Assumes **[[character:varka]] is healed** to activate the passive."
+               }
+            ]
+        },
+        {
+            "items": [
+                "earth-shaker"
+            ]
+        }
+    ]
+}
