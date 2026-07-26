@@ -12,7 +12,12 @@
         },
         {
             "items": [
-                "earth-shaker"
+                 {
+                    "name": "earth-shaker",
+                    "note": {
+                        "en": "Assumes the passive is active."
+                    }
+                }
             ]
         }
     ]
