@@ -1,0 +1,25 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%",
+            "em"
+        ],
+        "goblet": [
+            "atk%",
+            "em"
+        ],
+        "circlet": [
+            {
+                "name": "cr",
+               
+           
+            "atk%",
+            {
+                "name": "em",
+                "note": {
+                    "en": "Ifa prefers to go EM if team is reaction-based."
+                }
+            }
+        ]
+    }
+}

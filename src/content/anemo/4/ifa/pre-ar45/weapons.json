@@ -1,0 +1,41 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "flowing-purity",
+                    "note": {
+                        "en": "Requires healing to get the buff from it's passive."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Mainly used if the team has Electro-based elemental reactions."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers",
+                    "note": {
+                        "en": "Only use this if [[character:ifa]] is being used as a pure support."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "magic-guide"
+                }
+            ]
+        }
+    ]
+}
