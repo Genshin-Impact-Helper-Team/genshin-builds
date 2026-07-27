@@ -186,7 +186,7 @@
         "version_released": "6.0 / Luna I",
         "source": "Craft",
         "passive": {
-            "en": "Bloom DMG is increased by 48%/60%/72%/84%/96%, and Lunar-Bloom DMG is increased by 12%/15%/18%/21%/24%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%/15%/18%/21%/24%.",
+            "en": "Bloom DMG is increased by {{value}}%, and Lunar-Bloom DMG is increased by {{value}}%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional {{value}}%.",
             "de": "Erhöht den durch die Reaktion „Sprießen“ verursachten Schaden um {{value}}% und den Schaden durch die Reaktion „Mondspross“ um {{value}}%. Mondomen &ndash; Reifer Glanz: Erhöht den Schaden durch die Reaktion „Mondspross“ zusätzlich um {{value}}%.",
             "es": "Aumenta en un {{value}}% el daño de la reacción de Florecimiento, y en un {{value}}% el de Florecimiento Lunar. Con “presagio lunar: resplandor ascendente”, el daño de la reacción de Florecimiento Lunar aumenta en un {{value}}% adicional.",
             "fr": "Les DGT infligés par les réactions de Fleurissement augmentent de {{value}}% et ceux des réactions de Sélénofleurissement de {{value}}%. Signelune « Lueur ascendante » : les DGT des réactions de Sélénofleurissement augmentent de {{value}}% supplémentaires.",
@@ -375,7 +375,7 @@
         "version_released": "1.6",
         "source": "Event",
         "passive": {
-            "en": "Normal Attack hits on opponents increase Charged Attack DMG by 16%/20%/24%/28%/32% for 6s. Charged Attack hits on opponents increase ATK by 8%/10%/12%/14%/16% for 6s.",
+            "en": "Normal Attack hits on opponents increase Charged Attack DMG by {{value}}% for 6s. Charged Attack hits on opponents increase ATK by {{value}}% for 6s.",
             "de": "Erhöht den mit heftigen Schlägen verursachten Schaden nach dem Treffen von Gegnern mit Standardangriffen 6 s lang um {{value}}%. Erhöht den ANG nach dem Treffen von Gegnern mit heftigen Schlägen 6 s lang um {{value}}%.",
             "es": "Al golpear a un enemigo con un Ataque Normal, el daño infligido con Ataque Cargado aumenta en un {{value}}% durante 6 s. Además, tras golpear a un objetivo con un Ataque Cargado, el ATQ aumenta en un {{value}}% durante 6 s.",
             "fr": "Lorsque vous touchez des ennemis avec des attaques normales, les DGT infligés par les attaques chargées sont augmentés de {{value}}% pendant 6 s. Lorsque vous touchez des ennemis avec des attaques chargées, l'ATQ est augmentée de {{value}}% pendant 6 s.",
@@ -417,7 +417,7 @@
         "rarity": 3,
         "version_released": "1.0",
         "passive": {
-            "en": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20%/25%/30%/35%/40% for 12s.",
+            "en": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by {{value}}% for 12s.",
             "de": "Erhöht den ANG nach Auslösen der Reaktionen „Verdampfen“, „Unter Strom“, „Gefroren“, „Sprießen“, „Mond unter Strom“, „Mondspross“ und „Hydro-Verwirbelung“ 12 s lang um {{value}}%.",
             "es": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento, Electrocargado Lunar, Florecimiento Lunar o Torbellino Hydro, el ATQ aumenta en un {{value}}% durante 12 s.",
             "fr": "Augmente l'ATQ de {{value}}% pendant 12 s après avoir déclenché une réaction d'Évaporation, d'Électrocution, de Sélénocution, de Gel, de Fleurissement, de Sélénofleurissement ou de Dispersion Hydro.",
@@ -534,13 +534,13 @@
         "rarity": 4,
         "version_released": "1.0",
         "passive": {
-            "en": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240%/270%/300%/330%/360% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 12s/11s/10s/9s/8s.",
+            "en": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing {{value}}% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every {{value}} s.",
             "de": "Schießt bei Treffern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % eine Kugel des Herzensblicks ab und verursacht Schaden in Höhe von {{value}}% ANG. Geht bis zu 4-mal auf Gegner in der Nähe über. {{value}} s Abklingzeit.",
             "es": "Los Ataques Normales y Ataques Cargados tienen un 50% de probabilidad de lanzar un Ojo de la Perspicacia que inflige un {{value}}% de ATQ como daño. El Ojo de la Perspicacia puede rebotar entre enemigos un máximo de 4 veces. Este efecto puede ocurrir una vez cada {{value}} s.",
             "fr": "Les attaques normales et chargées ont 50 % de chances lorsqu'elles touchent de tirer une balle illuminatrice d'esprit qui inflige des DGT équivalant à {{value}}% de l'ATQ. La balle peut rebondir jusqu'à 4 fois maximum. Cet effet peut être déclenché une fois toutes les {{value}} s.",
             "it": "Gli attacchi normali e caricati hanno un 50% di probabilità di scagliare un Dardo della percezione, infliggendo DAN pari a un {{value}}% dell'ATT. Questo dardo può rimbalzare da un avversario all'altro fino a 4 volte. Si può verificare una volta ogni {{value}} s.",
             "ru": "При попадании обычной или заряженной атакой появляется 50% шанс запустить Око сознания, которое наносит {{value}}% урона силы атаки. Оно способно отразиться от противника к противнику до 4 раз. Может возникнуть раз в {{value}} сек.",
-            "pt": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando {{value}}% de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada 12s."
+            "pt": "Ataques Normais e Ataques Carregados possuem 50% de chance de disparar uma Bola da Percepção, causando {{value}}% de Dano de ATQ. Esta bola pode rebater entre os inimigos por até 4x. Este efeito pode ser ativado uma vez a cada {{value}} s."
         },
         "substat": "atk%",
         "level_1": {
@@ -552,19 +552,24 @@
             "substat_value": "55.1%"
         },
         "r1": [
-            240
+            240,
+            12
         ],
         "r2": [
-            270
+            270,
+            11
         ],
         "r3": [
-            300
+            300,
+            10
         ],
         "r4": [
-            330
+            330,
+            9
         ],
         "r5": [
-            360
+            360,
+            8
         ]
     },
     "favonius-codex": {
@@ -662,7 +667,7 @@
         "version_released": "1.2",
         "source": "Craft",
         "passive": {
-            "en": "Hitting an opponent with Normal and Charged Attacks has a 60%/70%/80%/90%/100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80%/95%/110%/125%/140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200%/240%/280%/320%/360% of ATK. Can only occur once every 10s.",
+            "en": "Hitting an opponent with Normal and Charged Attacks has a {{value}}% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to {{value}}% of ATK. Opponents affected by Cryo are instead dealt DMG equal to {{value}}% of ATK. Can only occur once every 10s.",
             "de": "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von {{value}}% über den Gegnern einen Kristallkern ewigen Eises, der herunterfällt und Flächenschaden in Höhe von {{value}}% ANG verursacht. Verursacht Schaden in Höhe von {{value}}% ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10 s Abklingzeit.",
             "es": "Al golpear a los enemigos con Ataques Normales y Cargados, hay un {{value}}% de probabilidad de crear un carámbano sobre ellos. Al caer, el carámbano inflige un {{value}}% de daño de ATQ en el AdE. Si los enemigos están afectados por Cryo, el daño de ATQ infligido será del {{value}}%. Este efecto solo puede ocurrir una vez cada 10 s.",
             "fr": "Les attaques normales et chargées ont {{value}}% de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à {{value}}% de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors {{value}}% de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
@@ -916,7 +921,7 @@
         "rarity": 3,
         "version_released": "1.0",
         "passive": {
-            "en": "Increases DMG against opponents affected by Hydro or Electro by 12%/15%/18%/21%/24%.",
+            "en": "Increases DMG against opponents affected by Hydro or Electro by {{value}}%.",
             "de": "Erhöht den von Hydro- oder Elektro-Effekten betroffenen Gegnern zugefügten Schaden um {{value}}%.",
             "es": "Aumenta en un {{value}}% el daño contra los enemigos afectados por Hydro o Electro.",
             "fr": "Augmente les DGT infligés aux ennemis affectés par les éléments Hydro ou Électro de {{value}}%.",
@@ -954,7 +959,7 @@
         "version_released": "1.0",
         "source": "Craft",
         "passive": {
-            "en": "Triggering an Elemental reaction grants a 8%/10%/12%/14%/16% Elemental DMG Bonus for 10s. Max 2 stacks.",
+            "en": "Triggering an Elemental reaction grants a {{value}}% Elemental DMG Bonus for 10s. Max 2 stacks.",
             "de": "Erhöht den Elementar-SCH beim Auslösen von Elementarreaktionen 10 s lang um {{value}}%. 2-fach stapelbar.",
             "es": "Causar una Reacción Elemental otorga un {{value}}% de Bono de Daño Elemental durante 10 s. Puede acumularse hasta 2 veces.",
             "fr": "Déclencher une réaction élémentaire confère un bonus de DGT élémentaires de {{value}}% pendant 10 s. Cet effet peut être cumulé 2 fois maximum.",
@@ -991,7 +996,7 @@
         "rarity": 5,
         "version_released": "1.1",
         "passive": {
-            "en": "Increases Shield Strength by 20%/25%/30%/35%/40%. Scoring hits on opponents increases ATK by 4%/5%/6%/7%/8% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
+            "en": "Increases Shield Strength by {{value}}%. Scoring hits on opponents increases ATK by {{value}}% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%.",
             "de": "Erhöht die Schildeffizienz um {{value}}%. Erhöht den ANG nach Treffern 8 s lang um {{value}}%. 5-fach stapelbar, 0,3 s Abklingzeit. Erhöht die Wirksamkeit der Erhöhung des ANG außerdem im Schutz von Schilden um 100 %.",
             "es": "Aumenta en un {{value}}% la Protección de Escudo. Tras atacar a un enemigo, el ATQ aumenta en un {{value}}% durante 8 s. Este efecto puede acumularse hasta 5 veces y activarse una vez cada 0.3 s. Además, al estar bajo la protección de un escudo, el efecto de aumento de ATQ aumenta en un 100%.",
             "fr": "Augmente la force du bouclier de {{value}}%. Toucher un ennemi augmente l'ATQ de {{value}}% pendant 8 s. Cet effet peut être cumulé 5 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque vous êtes protégé par un bouclier, l'augmentation d'ATQ de cet effet est de 100 %.",
@@ -1143,7 +1148,7 @@
         "version_released": "2.5",
         "source": "Event",
         "passive": {
-            "en": "Increases Energy Recharge by 24%/30%/36%/42%/48% for 10s after using an Elemental Skill.",
+            "en": "Increases Energy Recharge by {{value}}% for 10s after using an Elemental Skill.",
             "de": "Erhöht bei Anwendung von Elementarfähigkeiten die Aufladerate 10 s lang um {{value}}%.",
             "es": "Tras usar la Habilidad Elemental, la Recarga de Energía aumenta en un {{value}}% durante 10 s.",
             "fr": "Augmente la recharge d'énergie de {{value}}% pendant 10 s après l'utilisation d'une compétence élémentaire.",
@@ -1309,7 +1314,7 @@
         "version_released": "5.0",
         "source": "Craft",
         "passive": {
-            "en": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by 0.6%/0.7%/0.8%/0.9%/1% for 10s. Normal Attack DMG can be increased this way by a maximum of 16%/20%/24%/28%/32%.",
+            "en": "Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by {{value}}% for 10s. Normal Attack DMG can be increased this way by a maximum of {{value}}%.",
             "de": "Verleiht beim Auslösen der Elementarfähigkeit den Effekt „Jadenes Haupt“: Erhöht für je 1.000 Punkte der max. LP den mit Standardangriffen verursachten Schaden 10 s lang um {{value}}%. Auf diese Weise kann der mit Standardangriffen verursachte Schaden um bis zu {{value}}% erhöht werden.",
             "es": "Al usar la Habilidad Elemental, otorga el efecto de “corona de jade”, el cual aumenta durante 10 s el daño del Ataque Normal en un {{value}}% por cada 1000 pts. de Vida Máx. que tenga el portador de esta arma. Como máximo, el daño del Ataque Normal puede aumentar en un {{value}}% de esta manera.",
             "fr": "Utiliser une compétence élémentaire accorde l'effet Couronne de Jade : chaque tranche de 1 000 PV max augmente les DGT infligés par les attaques normales de {{value}}% pendant 10 s. Les DGT des attaques normales peuvent être augmentés d'un maximum de {{value}}% de cette manière.",
@@ -1352,7 +1357,7 @@
         "version_released": "1.0",
         "source": "Paimon's Bargains",
         "passive": {
-            "en": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+            "en": "Upon damaging an opponent, increases CRIT Rate by {{value}}%. Max 5 stacks. A CRIT Hit removes all stacks.",
             "de": "Erhöht die KT beim Verursachen von Schaden um {{value}}%, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT.",
             "es": "Al dañar a un enemigo, aumenta la Prob. CRIT en un {{value}}%. Puede acumularse hasta 5 veces. Una vez asestado un golpe CRIT, las acumulaciones de Concentración se reiniciarán.",
             "fr": "Augmente le taux CRIT de {{value}}% à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
@@ -1389,7 +1394,7 @@
         "rarity": 4,
         "version_released": "1.0",
         "passive": {
-            "en": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every {{value}} s.",
+            "en": "After damaging an opponent with an Elemental Skill, the skill has a {{value}}% chance to end its own CD. Can only occur once every {{value}} s.",
             "de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von {{value}}%, {{value}} s Abklingzeit.",
             "es": "Al hacer daño por medio de una Habilidad Elemental, hay un {{value}}% de probabilidad de restablecer el TdE de esta habilidad. Este efecto puede activarse una vez cada {{value}} s.",
             "fr": "Les compétences élémentaires ont {{value}}% de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les {{value}} s.",
@@ -1958,7 +1963,7 @@
         "rarity": 4,
         "version_released": "3.1",
         "passive": {
-            "en": "The following effect will trigger every 10s: The equipping character will gain 24%/30%/36%/42%/48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
+            "en": "The following effect will trigger every 10s: The equipping character will gain {{value}}% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.",
             "de": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um {{value}}% der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",
             "es": "Cada 10 s, el ATQ del personaje que lleve esta arma equipada aumenta durante 12 s en un {{value}}% de su Maestría Elemental, y los personajes del equipo cercanos obtienen un 30% de este bono. Este efecto se puede acumular con los de otros personajes del equipo que lleven esta arma equipada, y se puede activar incluso cuando el personaje está en tu equipo pero no en uso.",
             "fr": "L'effet suivant se déclenche toutes les 10 s : l'ATQ du personnage équipé de l'arme augmente d'une valeur équivalant à {{value}}% de sa maîtrise élémentaire pendant 12 s, alors que les autres personnages de l'équipe à proximité obtiennent 30 % de ce bonus. Plusieurs armes du même nom peuvent permettre à ce bonus de se cumuler. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
