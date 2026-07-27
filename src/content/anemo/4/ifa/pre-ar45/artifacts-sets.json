@@ -36,14 +36,19 @@
                 {
                     "items": [
                         {
-                            "name": "atk-set",
+                            "name": "martial-artist",
                             "pieces": 2
                         },
                         {
                             "name": "atk-set",
                             "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
                         }
-                    ]
+                    ],
+                    "choose": 2
                 }
             ]
         }
