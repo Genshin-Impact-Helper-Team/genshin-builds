@@ -3,5 +3,15 @@
     "cr-favo": "Consigliato solo se utilizzi un'arma **Favonius**",
     "er-req": "Dare la priorità finché non vengono soddisfatti i requisiti",
     "wip-weapon": "Armi praticabili con calcoli in corso:",
-    "wip-artifact": "Manufatti praticabili con calcoli in corso:"
+    "wip-artifact": "Manufatti praticabili con calcoli in corso:",
+    "pre-ar45": "Prima del Grado avventura 45",
+    "investment-value": "**Valore d'Investimento**",
+    "high-iv": "Alto",
+    "med-high-iv": "Medio-Alto",
+    "medium-iv": "Medio",
+    "low-medium-iv": "Basso-Medio",
+    "low-iv": "Basso",
+    "4vv-p45": "I personaggi Anemo possono eccellere nel potenziare **Pyro/Electro/Cryo/Hydro** con questo set di manufatti. Si consiglia di spendere una quantità minima di resina per dotare il proprio personaggio di supporto Anemo di un set da 4 pezzi economico (indipendentemente dalle statistiche), se ciò aiuta il proprio team.",
+    "4scroll-p45": "Con questo set di manufatti, i supporti Natlan possono potenziare facilmente gli elementi che reagiscono con il proprio. Ottenere un set da 4 pezzi a basso costo, indipendentemente dalle statistiche, può essere vantaggioso se aiuta il tuo team.",
+    "4dm-p45": "Si consiglia di equipaggiare questo set ad un personaggio in team che infliggono principalmente danni Dendro. Analogamente a **Viridescent Venerer (4)** per i personaggi Anemo, se il tuo team rientra in questa categoria, è consigliabile spendere una quantità minima di resina per dotare il tuo personaggio di supporto di un set da 4 pezzi a basso costo (indipendentemente dalle statistiche). Chiunque nella squadra può utilizzare il set (purché sia in grado di attivare l’effetto 4 pezzi), compresi i personaggi non Dendro."
 }
