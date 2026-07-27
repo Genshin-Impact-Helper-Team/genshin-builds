@@ -1,0 +1,18 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%"
+            
+        ],
+        "goblet": [
+            "atk%"
+          
+        ],
+        "circlet": [
+            {
+                "name": "atk%",
+              
+            }
+        ]
+    }
+}
