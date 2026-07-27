@@ -10,9 +10,8 @@
         ],
         "circlet": [
             {
-                "name": "cr",
-               
-           
+                "name": "cr/cd"
+            },
             "atk%",
             {
                 "name": "em",
