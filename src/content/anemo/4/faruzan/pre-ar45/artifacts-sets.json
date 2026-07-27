@@ -5,6 +5,21 @@
                 {
                     "items": [
                         {
+                            "name": "viridescent-venerer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Anemo characters can be extremely good at buffing **Pyro/Electro/Cryo/Hydro** with this artifact set. It is recommended to spend minimal resin to give your anemo support a cheap 4pc set (regardless of the stats) if it helps your team. "
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "the-exile",
                             "pieces": 4
                         }
