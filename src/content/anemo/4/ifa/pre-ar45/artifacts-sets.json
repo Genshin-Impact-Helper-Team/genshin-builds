@@ -22,6 +22,10 @@
                         {
                             "name": "martial-artist",
                             "pieces": 4
+                        },
+                        {
+                            "name": "instructor",
+                            "pieces": 4
                         }
                     ]
                 }
