@@ -2,7 +2,9 @@
     "weapons": [
         {
             "items": [
-                "favonius-warbow"
+                {
+                    "name": "favonius-warbow"
+                }
             ]
         }
     ]
