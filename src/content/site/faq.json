@@ -174,7 +174,7 @@
             "answer": {
                 "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters. Please see the Legal FAQ for more information.",
                 "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles.",
-                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**.",
+                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**. Per ulteriori informazioni, consulta Domande legali frequenti.",
                 "ru": "Руководство НЕ СОДЕРЖИТ утечки или материалы с бета-тестирования. Только релизный контент. Мы не можем и не будем создавать раздел для невышедших персонажей."
             }
         },
@@ -216,7 +216,7 @@
             "answer": {
                 "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, or the easily obtainable 3* Gacha Weapons.",
                 "fr": "Oui. Ce document garantie qu'il y a au moins 1 option F2P obtenable de façon permanente pour chaque personnage, même si cette option n'est pas forcément la meilleure pour lui. Les armes F2P obtenables de façon permanente incluent les armes qui peuvent être forgées, qui peuvent être obtenues dans les coffres de Mondstadt et Liyue, ou les armes 3✩ facilement obtenables grâces aux voeux.",
-                "it": "Sì, la guida si assicura che sia presente **almeno 1 opzione F2P accessibile in maniera permanente** per ogni personaggio, anche nel caso in cui non sia una delle opzioni migliori. Opzioni accessibili in maniera permanente includono armi che possono essere forgiate od ottenute gratuitamente tramite pesca o come ricompense da bauli di Mondstadt e Liyue, od armi a 3 stelle facilmente ottenibili dai banner.",
+                "it": "Sì, la guida si assicura che sia presente **almeno 1 opzione F2P accessibile in maniera permanente** per ogni personaggio, anche nel caso in cui non sia una delle opzioni migliori. Opzioni accessibili in maniera permanente includono armi che possono essere forgiate, ottenute tramite la pesca, ottenute da Missioni o come ricompense da bauli a Mondstadt e Liyue, o armi a 3 stelle facilmente ottenibili dai banner.",
                 "ru": "Да. Документ содержит как минимум 1 постоянно доступный бесплатный вариант, даже если он не является лучшим. В бесплатные варианты включено оружие из кузницы, сундуков Мондштадта/Ли Юэ и трёхзвёздочные опции из Молитв."
             }
         },
