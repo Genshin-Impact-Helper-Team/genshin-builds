@@ -1,26 +1,18 @@
 {
     "weapons": [
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "fleuve-cendre-ferryman",
-                            "refinement": 5
-                        }
-                    ]
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
                 }
             ]
         },
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "skyrider-sword",
-                            "refinement": 5
-                        }
-                    ]
+                    "name": "skyrider-sword",
+                    "refinement": 5
                 }
             ]
         }
