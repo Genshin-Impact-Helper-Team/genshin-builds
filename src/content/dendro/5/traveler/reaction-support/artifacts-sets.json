@@ -22,6 +22,7 @@
                             "note": {
                                 "en": "This option would generally be better than **[[set:deepwood-memories]]** (4) if [[element:dendro]] [[character:traveler]] is used in an [[element:aggravate]] focused team.",
                                 "fr": "Cette option est généralement meilleure que **[[set:deepwood-memories]]** (4) si le [[character:traveler]] [[element:dendro]] est joué dans une équipe centrée sur la [[element:aggravate]].",
+                                "it": "Questa opzione è solitamente preferibile rispetto a **[[set:deepwood-memories]] (4)** se il [[character:traveler]] [[element:dendro]] viene usato in un team [[element:aggravate]].",
                                 "ru": "Может превосходить **[[set:deepwood-memories]] (4)** при использовании [[element:dendro]] [[character:traveler]]а в отрядах с [[element:aggravate]]м."
                             }
                         }
@@ -63,6 +64,7 @@
                             "note": {
                                 "en": "An alternative option if they are placed in the same team as [[character:cyno]] to help his [[stat:er]] needs.",
                                 "fr": "Une option alternative si le [[character:traveler]] est placé dans la même équipe que [[character:cyno]] pour aider ses besoins en [[stat:er]].",
+                                "it": "Un'opzione alternativa se il [[character:traveler]] viene usato con [[character:cyno]] per aiutarlo con i suoi requisiti di [[stat:er]].",
                                 "ru": "Альтернативный вариант при игре в одной команде с [[character:cyno]], нужный, чтобы помочь ему с [[stat:er|энергией]]."
                             }
                         }
