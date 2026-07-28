@@ -15,6 +15,7 @@
                     "note": {
                         "en": "Weapon ranking is assuming two Gimmick stacks. It performs a bit worse in solo [[element:dendro]], but still remains a good option.",
                         "fr": "Le classement de l'arme suppose deux stacks de Roublardise. Elle devient un peu moins bonne en solo [[element:dendro]], mais reste toujours une bonne option.",
+                        "it": "La classifica presuppone due personaggi [[element:dendro]] nel team. Se [[character:tighnari]] è l'unico membro [[element:dendro]] nel team, quest'arma ha prestazioni leggermente peggiori, ma rimane una buona scelta.",
                         "ru": "Предполагается, что активны два уровня Уловки. В моно-[[element:dendro]] отрядах показывает себя немного хуже, но остается неплохим вариантом."
                     }
                 }
@@ -25,8 +26,9 @@
                 {
                     "name": "the-daybreak-chronicles",
                     "note": {
-                        "en": "If [[character:tighnari]] cannot use his [[ability:burst]] every rotation, this weapon ranks below **[[weapon:golden-frostbound-oath]]**",
-                        "fr": "Si [[character:tighnari]] ne peut pas [[ability:burst]] à chaque rotation, cette arme se classe en dessous de **[[weapon:golden-frostbound-oath]]**",
+                        "en": "If [[character:tighnari]] cannot use his [[ability:burst]] every rotation, this weapon ranks below **[[weapon:golden-frostbound-oath]]**.",
+                        "fr": "Si [[character:tighnari]] ne peut pas [[ability:burst]] à chaque rotation, cette arme se classe en dessous de **[[weapon:golden-frostbound-oath]]**.",
+                        "it": "Se [[character:tighnari]] non riesce ad utilizzare il [[ability:burst]] in ogni rotazione, quest'arma ha prestazioni peggiori di **[[weapon:golden-frostbound-oath]]**.",
                         "ru": "Уступает **[[weapon:golden-frostbound-oath|Золотой клятве льда]]**, если [[character:tighnari]] не может использовать [[ability:burst]] каждую ротацию."
                     }
                 }
@@ -46,6 +48,7 @@
                     "note": {
                         "en": "If [[character:tighnari]] does not need the [[stat:er]] that **[[weapon:elegy-for-the-end]]** provides, this weapon will perform worse than **[[weapon:scion-of-the-blazing-sun]]** for his personal damage.",
                         "fr": "Si [[character:tighnari]] n'a pas besoin de la [[stat:er]] qu'**[[weapon:elegy-for-the-end]]** fournit, cette arme sera moins performante que **[[weapon:scion-of-the-blazing-sun]]** pour ses dégâts personnels.",
+                        "it": "Se [[character:tighnari]] non ha bisogno della [[stat:er]] fornita da **[[weapon:elegy-for-the-end]]**, quest'arma ha prestazioni inferiori a **[[weapon:scion-of-the-blazing-sun]]** per i suoi danni personali.",
                         "ru": "Проигрывает **[[weapon:scion-of-the-blazing-sun|Наследнику слепящего солнца]]** по личному урону, если [[character:tighnari]] не требуется [[stat:er]] от **[[weapon:elegy-for-the-end|Элегии]]**."
                     }
                 },
@@ -56,6 +59,7 @@
                     "note": {
                         "en": "If [[character:tighnari]] does not need the [[stat:er]] this weapon provides, it is similar to **[[weapon:prototype-crescent]]** in terms of damage.",
                         "fr": "Si [[character:tighnari]] n'a pas besoin de la [[stat:er]] que cette arme fournit, elle est similaire à **[[weapon:prototype-crescent]]** en termes de dégâts.",
+                        "it": "Se [[character:tighnari]] non ha bisogno della [[stat:er]] che quest'arma fornisce, è simile a **[[weapon:prototype-crescent]]** in termini di danno.",
                         "ru": "Соответствует **[[weapon:prototype-crescent|Прототипу]]**, если [[character:tighnari]] не требуется [[stat:er]] от данного оружия."
                     }
                 }
@@ -69,6 +73,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon is slightly worse than **[[weapon:thundering-pulse]]**.",
                         "fr": "Une fois **[R5]**, cette arme est légèrement moins bonne que **[[weapon:thundering-pulse]]**.",
+                        "it": "A **[R5]**, quest'arma è leggermente peggiore di **[[weapon:thundering-pulse]]**.",
                         "ru": "На **[R5]** немного уступает **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 }
@@ -82,6 +87,7 @@
                     "note": {
                         "en": "Significantly worse when fighting from a long range.",
                         "fr": "Bien moins bonne en combattant à longue distance.",
+                        "it": "Significativamente peggiore quando si combatte da lunga distanza.",
                         "ru": "Показывает себя значительно хуже на дальних дистанциях."
                     }
                 },
@@ -90,6 +96,7 @@
                     "note": {
                         "en": "This weapon is strong if you can get three passive stacks. At **[R5]** with three passive stacks, this weapon performs similarly to **[[weapon:thundering-pulse]]**.",
                         "fr": "Cette arme est forte si vous pouvez obtenir trois stacks de passif. Une fois **[R5]** avec trois stacks de passif, cette arme est comparable à **[[weapon:thundering-pulse]]**.",
+                        "it": "Quest'arma è forte se si riescono ad ottenere tre accumuli della passiva. A **[R5]** con tre accumuli, ha prestazioni simili a **[[weapon:thundering-pulse]]**.",
                         "ru": "Дальномер: Крайне силён при наборе трёх уровней Пассивной способности. На **[R5]** и с предыдущим условием соответствует **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 },
@@ -102,6 +109,7 @@
                     "note": {
                         "en": "Weapon ranking assumes passive is active. At **[R5]**, it performs similarly to **[[weapon:range-gauge]]**.",
                         "fr": "Le classement de l'arme suppose que le passif est actif. Une fois **[R5]**, elle équivaut à **[[weapon:range-gauge]]**.",
+                        "it": "La classifica presuppone che [[character:tighnari]] riceva cure per mantenere attiva la passiva. A **[R5]**, ha prestazioni simili a **[[weapon:range-gauge]]**.",
                         "ru": "Мелодия покоя: Предполагается, что поддерживается бонус Пассивной способности оружия. На **[R5]** соответствует **[[weapon:range-gauge|Дальномеру]]**."
                     }
                 }
@@ -114,6 +122,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon is better than **[[weapon:slingshot]]**. Notably, this weapon is heavily reliant on enemies having weakspots.",
                         "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:slingshot]]**. A noter, cette arme dépend fortement du fait que les ennemis aient des points faibles.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:slingshot]]**. Quest'arma dipende fortemente dalla presenza di punti deboli nei nemici.",
                         "ru": "Превосходит **[[weapon:slingshot|Рогатку]]** на **[R5]**. Эффективность зависит от наличия слабых мест у противников."
                     }
                 }

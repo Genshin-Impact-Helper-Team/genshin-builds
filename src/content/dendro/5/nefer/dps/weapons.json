@@ -22,6 +22,7 @@
                     "note": {
                         "en": "Ranking assumes the [[ability:skill]] [[stat:em]] buff and part of the [[ability:burst]] [[stat:em]] buff.",
                         "fr": "Le classement suppose le buff de [[stat:em]] de la partie [[ability:skill]] et une partie du buff de [[stat:em]] de la partie [[ability:burst]].",
+                        "it": "La posizione in classifica presuppone il potenziamento di [[stat:em]] attivato dall'[[ability:skill]] e parte di quello attivato dal [[ability:burst]].",
                         "ru": "Предполагается, что бонус [[stat:em|МС]] от [[ability:skill|Элементального навыка]] активен постоянно, а бонус от [[ability:burst|Взрыва стихии]] активен только часть ротаций."
                     }
                 },
@@ -42,6 +43,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon will perform better than **[[weapon:sunny-morning-sleep-in]]**.",
                         "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:sunny-morning-sleep-in]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:sunny-morning-sleep-in]]**.",
                         "ru": "На **[R5]** превосходит **[[weapon:sunny-morning-sleep-in]]**."
                     }
                 }
@@ -54,6 +56,7 @@
                     "note": {
                         "en": "This weapon loses a lot of value if [[character:nefer]] does not aquire the [[stat:em]] buff. Assuming she does get it, at **[R5]**, this weapon will perform better than **[[weapon:blackmarrow-lantern]]**.",
                         "fr": "Cette arme perd beaucoup de valeur si [[character:nefer]] n'obtient pas le buff de [[stat:em]]. En supposant qu'elle l'obtienne, une fois **[R5]**, cette arme dépasse **[[weapon:blackmarrow-lantern]]**.",
+                        "it": "Quest'arma perde molto valore se [[character:nefer]] non ottiene il potenziamento alla [[stat:em]]. Se lo ottiene, a **[R5]** quest'arma ha prestazioni migliori di **[[weapon:blackmarrow-lantern]]**.",
                         "ru": "С этим оружием [[character:nefer]] значительно теряет в уроне, если активируется бонус не к Мастерству стихий. Если активен нужный бонус, на **[R5]** превосходит **[[weapon:blackmarrow-lantern]]**."
                     }
                 }

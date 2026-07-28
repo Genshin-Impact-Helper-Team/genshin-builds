@@ -27,6 +27,7 @@
                     "note": {
                         "en": "If teammates significantly benefit from the [[stat:atk]] this weapon gives, it has the potential to rival **[[weapon:a-thousand-floating-dreams]]**.",
                         "fr": "Si les coéquipiers bénéficient significativement de l'[[stat:atk]] que cette arme donne, elle a le potentiel de rivaliser avec **[[weapon:a-thousand-floating-dreams]]**.",
+                        "it": "Quest'arma ha il potenziale di competere con **[[weapon:a-thousand-floating-dreams]]** se il team trae molto vantaggio dal potenziamento all'[[stat:atk]] che fornisce.",
                         "ru": "Может конкурировать со **[[weapon:a-thousand-floating-dreams|Сновидениями тысячи ночей]]**, если членам отряда полезна [[stat:atk|сила атаки]], которую дает это оружие."
                     }
                 }
@@ -39,6 +40,7 @@
                     "note": {
                         "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
                         "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field.",
+                        "it": "Quest'arma tende ad avere prestazioni migliori se [[character:nahida]] trascorre tempo **sul campo**.",
                         "ru": "Показывает себя лучше, если [[character:nahida]] играет на поле."
                     }
                 },
@@ -52,6 +54,7 @@
                     "note": {
                         "en": "The fewer the reactions [[character:nahida]] triggers, the more potent this option become.",
                         "fr": "Moins [[character:nahida]] déclenche de réactions, plus cette option devient puissante.",
+                        "it": "Meno reazioni [[character:nahida]] innesca, più valida è questa opzione.",
                         "ru": "Чем меньше реакций вызывает [[character:nahida]], тем лучше показывают себя."
                     }
                 },
@@ -60,6 +63,7 @@
                     "note": {
                         "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
                         "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field.",
+                        "it": "Quest'arma tende ad avere prestazioni migliori se [[character:nahida]] trascorre tempo **sul campo**.",
                         "ru": "Показывает себя лучше, если [[character:nahida]] играет на поле."
                     }
                 },
@@ -68,6 +72,7 @@
                     "note": {
                         "en": "The fewer the reactions [[character:nahida]] triggers, the more potent this option become.",
                         "fr": "Moins [[character:nahida]] déclenche de réactions, plus cette option devient puissante.",
+                        "it": "Meno reazioni [[character:nahida]] innesca, più valida è questa opzione.",
                         "ru": "Чем меньше реакций вызывает [[character:nahida]], тем лучше показывают себя."
                     }
                 },
@@ -76,6 +81,7 @@
                     "note": {
                         "en": "This weapon tend to perform better if [[character:nahida]] is played on-field.",
                         "fr": "Cette arme a tendance à être meilleure si [[character:nahida]] est jouée on-field.",
+                        "it": "Quest'arma tende ad avere prestazioni migliori se [[character:nahida]] trascorre tempo **sul campo**.",
                         "ru": "Показывает себя лучше, если [[character:nahida]] играет на поле."
                     }
                 }
@@ -88,6 +94,7 @@
                     "note": {
                         "en": "This weapon has the potential to rival **[[weapon:a-thousand-floating-dreams]]** if [[character:nahida]] can actively trigger the passive multiple times by attacking on-field. **[[weapon:favonius-codex]]** also has the potential to be a good weapon on [[character:nahida]] in teams where her [[stat:er]] requirement is high, or if your team values the additional particles.",
                         "fr": "Cette arme a le potentiel de rivaliser avec **[[weapon:a-thousand-floating-dreams]]** si [[character:nahida]] peut déclencher activement le passif plusieurs fois en attaquant on-field. **[[weapon:favonius-codex]]** a aussi le potentiel d'être une bonne arme sur [[character:nahida]] dans les équipes où son besoin en [[stat:er]] est élevé, ou si votre équipe valorise les particules supplémentaires.",
+                        "it": "Quest'arma ha il potenziale per competere con **[[weapon:a-thousand-floating-dreams]]** se [[character:nahida]] riesce ad attivare la passiva più volte attaccando mentre è sul campo. Inoltre può essere un'ottima arma per [[character:nahida]] in team in cui i suoi requisiti di [[stat:er]] sono elevati, o se il tuo team ha bisogno di particelle aggiuntive.",
                         "ru": "Может конкурировать со **[[weapon:a-thousand-floating-dreams|Сновидениями тысячи ночей]]**, если [[character:nahida]] стоит на поле и регулярно вызывает срабатывание Пассивной способности оружия. **[[weapon:favonius-codex]]** также может стать отличным вариантом в отрядах, нуждающихся в большом количестве энергии, либо при высокой потребности в [[stat:er|ВЭ]] самой [[character:nahida|Нахиды]]."
                     }
                 }
@@ -102,6 +109,7 @@
                     "note": {
                         "en": "This weapon should only be used if [[character:nahida]] is used in [[element:quicken]] or [[element:hyperbloom]] teams.",
                         "fr": "Cette arme ne devrait être utilisée que si [[character:nahida]] est utilisée dans des équipes [[element:quicken]] ou [[element:hyperbloom]].",
+                        "it": "Quest'arma dovrebbe essere usata solo in team [[element:quicken]] o [[element:hyperbloom]].",
                         "ru": "Следует использовать только в играющих от [[element:quicken|Стимуляции]] или [[element:hyperbloom|Вегетации]] отрядах."
                     }
                 }
@@ -114,6 +122,7 @@
                     "note": {
                         "en": "This weapon sacrifices a lot of [[character:nahida]]'s personal damage for buffing potential. Generally not worth the trade, but can be usable in teams where [[character:nahida]]'s damage share is already low.",
                         "fr": "Cette arme sacrifie beaucoup des dégâts personnels de [[character:nahida]] pour du potentiel de buff. Cela ne vaut généralement pas le coup, mais peut être utilisable dans les équipes où la part de dégâts de [[character:nahida]] est déjà faible.",
+                        "it": "Quest'arma sacrifica gran parte del danno personale di [[character:nahida]] in cambio di un potenziamento ad un altro membro del tuo team. In genere non è consigliato, tuttavia può essere utile in team in cui la percentuale di danni contribuita da [[character:nahida]] è già bassa.",
                         "ru": "Жертвует большей частью личного урона [[character:nahida|Нахиды]] в обмен на усиление отряда. Как правило, не стоит использовать, но иногда может быть он полезен в командах, где доля урона [[character:nahida|Нахиды]] и без того невелика."
                     }
                 }
@@ -126,6 +135,7 @@
                     "note": {
                         "en": "Only to be used if the team otherwise lacks survivability.",
                         "fr": "À utiliser uniquement si l'équipe manque autrement de survivabilité.",
+                        "it": "Da usare solo se il team non ha altre capacità di sopravvivenza.",
                         "ru": "Используется только при недостаточной выживаемости отряда."
                     }
                 }
