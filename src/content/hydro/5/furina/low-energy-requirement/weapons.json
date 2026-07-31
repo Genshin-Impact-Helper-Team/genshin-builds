@@ -55,7 +55,7 @@
                         "fr": "Obtenir 3 stacks avec cette arme se fait facilement tant que le [[ability:skill]] de [[character:furina]] touche des ennemis. Cela peut aider à augmenter les dégâts de l'équipe avec son buff de [[stat:em]], ce qui peut permettre à cette arme de performer mieux que les autres options classées au dessus.",
                         "ru": "Пока навык [[character:furina|Фурины]] атакует противников, три уровня Пассивной способности набираются достаточно стабильно. Может усилить отряд за счёт бонуса МС, благодаря чему может превосходить варианты, расположенные выше в рейтинге."
                     }
-                }
+            ]
         },
         {
             "items": [
@@ -101,8 +101,7 @@
                         "en": "While suboptimal for [[character:furina]]'s personal damage, it can still be a good choice if other characters in the team struggle with energy.",
                         "ru": "Слабый выбор для личного урона [[character:furina|Фурины]], но может быть полезен, если отряду нужна дополнительная энергия."
                     }
-                },
-                "the-dockhands-assistant"
+                }
             ]
         },
         {
