@@ -56,14 +56,6 @@
         },
         {
             "items": [
-                {
-                    "name": "harbinger-of-dawn",
-                    "refinement": 5,
-                    "note": {
-                        "en": "This ranking assumes you can **keep [[character:furina]]'s HP above 90% most of the rotation**. If that's not the case, this weapon is not worth considering.",
-                        "ru": "Предполагается, что **HP [[character:furina|Фурины]] почти не падает ниже 90%**. В противном случае этот вариант не стоит рассматривать"
-                    }
-                },
                 "light-of-foliar-incision"
             ]
         },
@@ -86,8 +78,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]** performs better than **[[weapon:harbinger-of-dawn]]**",
-                        "ru": "На **[R5]** превосходит **[[weapon:harbinger-of-dawn]]**"
+                        "en": "At **[R5]** performs better than **[[weapon:light-of-foliar-incision]]**",
+                        "ru": "На **[R5]** превосходит **[[[weapon:light-of-foliar-incision]]**"
                     }
                 }
             ]
@@ -97,5 +89,16 @@
                 "skyward-blade"
             ]
         }
+        {
+            "items": [
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:light-of-foliar-incision]]**",
+                        "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**"
+                    }
+                }
+            ]
     ]
 }
