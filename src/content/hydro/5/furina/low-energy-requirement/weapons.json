@@ -27,14 +27,6 @@
         {
             "items": [
                 {
-                    "name": "harbinger-of-dawn",
-                    "refinement": 5,
-                    "note": {
-                        "en": "This ranking assumes **you can keep [[character:furina]]'s HP above 90% most of the rotation**. If that's not the case, this weapon is not worth considering.",
-                        "ru": "Предполагается, что **HP [[character:furina|Фурины]] почти не падает ниже 90%**. В противном случае этот вариант не стоит рассматривать"
-                    }
-                },
-                {
                     "name": "festering-desire",
                     "refinement": 5
                 },
@@ -80,8 +72,8 @@
                     "name": "serenitys-call",
                     "refinement": 5,
                     "note": {
-                        "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the pasive. Performs similarly to **[[weapon:harbinger-of-dawn]]** in Ascendant Gleam teams.",
-                        "ru": "Предполагается, что [[character:furina]] **может закрывать реакции** для активации Пассивной способности. В командах с Высшим сиянием соответствует **[[weapon:harbinger-of-dawn|Предвестнику зари]]**."
+                        "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the pasive. Performs similarly to **[[weapon:festering-desire]]** in Ascendant Gleam teams.",
+                        "ru": "Предполагается, что [[character:furina]] **может закрывать реакции** для активации Пассивной способности. В командах с Высшим сиянием превосходит **[[weapon:festering-desire]]**."
                     }
                 }
             ]
@@ -107,6 +99,14 @@
         },
         {
             "items": [
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:festering-desire]]**",
+                        "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:Осквернённому желанию]]**"
+                    }
+                },
                 "the-dockhands-assistant"
             ]
         }
