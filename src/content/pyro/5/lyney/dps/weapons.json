@@ -63,7 +63,8 @@
                     "name": "prototype-crescent",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes one of Lyney's Aimed Shots hits a weak point."
+                        "en": "Ranking assumes one of [[character:lyney]]'s Aimed Shots hits a weak point.",
+                        "fr": "Le classement suppose qu'une des attaques chargées de [[character:lyney]] touchent un point faible."
                     }
                 }
             ]
@@ -73,13 +74,15 @@
                 {
                     "name": "range-gauge",
                     "note": {
-                        "en": "Ranking assumes three stacks of the passive. At [R5], this weapon ranks equal to **[[weapon:polar-star]]**."
+                        "en": "Ranking assumes three stacks of the passive. At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
+                        "fr": "Le classement suppose 3 cumuls du passif. Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**."
                     }
                 },
                 {
                     "name": "flower-wreathed-feathers",
                     "note": {
-                        "en": "At [R5], this weapon ranks equal to **[[weapon:polar-star]]**."
+                        "en": "At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**."
                     }
                 }
             ]
