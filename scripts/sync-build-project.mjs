@@ -1063,11 +1063,16 @@ async function createBestRoleField(client, projectId, fieldName) {
 
 async function createWipNotesField(client, projectId, fieldName) {
   const options = WIP_NOTES_FIELD_OPTIONS.map(
-    (name) => `{
-      name: ${JSON.stringify(name)}
-      color: ${name === 'OK' ? 'GREEN' : 'GRAY'}
-    }`,
-  ).join('\n');
+  (name) => `{
+    name: ${JSON.stringify(name)}
+    color: ${name === 'OK' ? 'GREEN' : 'GRAY'}
+    description: ${JSON.stringify(
+      name === 'OK'
+        ? 'No weapon or artifact issues detected'
+        : `WIP status: ${name}`,
+    )}
+  }`,
+).join('\n');
   const { data } = await client.graphql(
     `
       mutation CreateWipNotesField($projectId: ID!, $name: String!) {
