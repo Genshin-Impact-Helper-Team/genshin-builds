@@ -16,6 +16,9 @@ project 1:
   whether `build-notes.json` contains `"best": true`
 - each build project item gets a unique numeric `Update Priority` rank; its
   existing five-level `Character Priority` field supplies the popularity input
+- if a character is behind the current version but all of its builds have 0
+  unchecked weapons and artifact sets, a character update issue gets
+  `Update Priority` 0
 - each build issue contains an automatically maintained list of weapons and
   artifact sets released after `last_updated` that are not already referenced
   in that build's `weapons.json` or `artifacts-sets.json`

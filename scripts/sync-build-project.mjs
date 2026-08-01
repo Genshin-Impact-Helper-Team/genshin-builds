@@ -87,10 +87,6 @@ function parentTitle(character, element) {
   return character === 'traveler' ? `${element}-traveler` : character;
 }
 
-function buildIssueTitle(characterName, buildName) {
-  return `${characterName} - ${buildName}`;
-}
-
 function automationMarker(kind, sourcePath) {
   return `<!-- genshin-build-project-sync:${kind}:${sourcePath.replaceAll('\\', '/')} -->`;
 }
@@ -177,6 +173,20 @@ export function rankBuilds(builds, currentVersion) {
         left.title.localeCompare(right.title),
     )
     .map((build, index) => ({ ...build, updatePriority: index + 1 }));
+}
+
+export function shouldCreateCharacterUpdateIssue(
+  character,
+  currentVersion,
+  buildCounts,
+) {
+  return (
+    compareGameVersions(character.lastUpdated, currentVersion) < 0 &&
+    buildCounts.length > 0 &&
+    buildCounts.every(
+      (count) => count.weaponCount === 0 && count.artifactSetCount === 0,
+    )
+  );
 }
 
 function collectKnownIds(value, knownIds, result = new Set()) {
@@ -510,6 +520,15 @@ export function renderReleaseAudit(audit) {
         ]
       : []),
     RELEASE_AUDIT_END,
+  ].join('\n');
+}
+
+function characterUpdateIssueBody(marker, character, currentVersion) {
+  return [
+    marker,
+    `All builds for \`${character.name}\` have 0 unchecked weapons and artifact sets.`,
+    '',
+    `Update \`${character.sourcePath}/metadata.json\` from \`${character.lastUpdated}\` to \`${currentVersion}\`.`,
   ].join('\n');
 }
 
@@ -1461,23 +1480,24 @@ export async function synchronize({
     console.log(`Added label "${labelName}" to ${issueLabel(issue)}.`);
   };
 
-  const ensureBuildIssue = async (issue, desiredTitle, buildMarker, audit) => {
+  const ensureIssueDetails = async (
+    issue,
+    desiredTitle,
+    desiredBody,
+    bodyMessage,
+  ) => {
     const currentBody = String(issue.body ?? '').replaceAll('\r\n', '\n');
-    const desiredBody = buildIssueBody(currentBody, buildMarker, audit);
-    const effectiveAudit = releaseAuditWithIgnores(desiredBody, audit);
     const titleChanged = issue.title !== desiredTitle;
     const bodyChanged = currentBody.trim() !== desiredBody;
 
-    if (!titleChanged && !bodyChanged) {
-      return effectiveAudit;
-    }
+    if (!titleChanged && !bodyChanged) return;
 
     if (dryRun) {
       console.log(
-        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? ` body with ${effectiveAudit.weapons.length} newer weapon(s) and ${effectiveAudit.artifactSets.length} newer artifact set(s)` : ''}.`,
+        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? bodyMessage : ''}.`,
       );
       stats.plannedChanges += 1;
-      return effectiveAudit;
+      return;
     }
 
     const updatedIssue = await updateIssue(client, repository, issue.number, {
@@ -1489,8 +1509,31 @@ export async function synchronize({
     stats.issuesRenamed += Number(titleChanged);
     stats.issueBodiesUpdated += Number(bodyChanged);
     console.log(`Updated ${issueLabel(issue)}.`);
+  };
+
+  const ensureBuildIssue = async (issue, desiredTitle, buildMarker, audit) => {
+    const currentBody = String(issue.body ?? '').replaceAll('\r\n', '\n');
+    const desiredBody = buildIssueBody(currentBody, buildMarker, audit);
+    const effectiveAudit = releaseAuditWithIgnores(desiredBody, audit);
+    await ensureIssueDetails(
+      issue,
+      desiredTitle,
+      desiredBody,
+      ` body with ${effectiveAudit.weapons.length} newer weapon(s) and ${effectiveAudit.artifactSets.length} newer artifact set(s)`,
+    );
     return effectiveAudit;
   };
+
+  const blankProjectItemValues = (contentId, id = null) => ({
+    id,
+    content: { id: contentId },
+    lastUpdatedValue: null,
+    weaponCountValue: null,
+    artifactSetCountValue: null,
+    bestRoleValue: null,
+    characterPriorityValue: null,
+    updatePriorityValue: null,
+  });
 
   const ensureProjectItem = async (issue) => {
     const contentId = issueNodeId(issue);
@@ -1503,61 +1546,67 @@ export async function synchronize({
     if (dryRun) {
       console.log(`[dry-run] Add ${issueLabel(issue)} to project.`);
       stats.plannedChanges += 1;
-      return {
-        id: null,
-        content: { id: contentId },
-        lastUpdatedValue: null,
-        weaponCountValue: null,
-        artifactSetCountValue: null,
-        bestRoleValue: null,
-        characterPriorityValue: null,
-        updatePriorityValue: null,
-      };
+      return blankProjectItemValues(contentId);
     }
 
     item = await addProjectItem(client, project.id, contentId);
-    item.content = { id: contentId };
-    item.lastUpdatedValue = null;
-    item.weaponCountValue = null;
-    item.artifactSetCountValue = null;
-    item.bestRoleValue = null;
-    item.characterPriorityValue = null;
-    item.updatePriorityValue = null;
+    Object.assign(item, blankProjectItemValues(contentId, item.id));
     projectItemsByContentId.set(contentId, item);
     stats.projectItemsAdded += 1;
     console.log(`Added ${issueLabel(issue)} to project.`);
     return item;
   };
 
-  const ensureTextFieldValue = async (issue, item, value) => {
-    const currentValue = item?.lastUpdatedValue?.text ?? null;
-
-    if (currentValue === value) {
+  const ensureProjectFieldValue = async ({
+    issue,
+    item,
+    projectField,
+    itemValueName,
+    currentValue,
+    desiredValue,
+    desiredDisplay = JSON.stringify(desiredValue),
+    localValue,
+    update,
+  }) => {
+    if (currentValue === desiredValue) {
       stats.unchangedFieldValues += 1;
       return;
     }
 
     if (dryRun) {
       console.log(
-        `[dry-run] Set ${issueLabel(issue)} field "${fieldName}" from ${JSON.stringify(currentValue)} to ${JSON.stringify(value)}.`,
+        `[dry-run] Set ${issueLabel(issue)} field "${projectField.name}" from ${JSON.stringify(currentValue)} to ${desiredDisplay}.`,
       );
       stats.plannedChanges += 1;
       return;
     }
 
-    await updateTextField(
-      client,
-      project.id,
-      item.id,
-      lastUpdatedField.id,
-      value,
-    );
-    item.lastUpdatedValue = { text: value };
+    await update();
+    item[itemValueName] = localValue;
     stats.fieldValuesUpdated += 1;
     console.log(
-      `Set ${issueLabel(issue)} field "${fieldName}" to ${JSON.stringify(value)}.`,
+      `Set ${issueLabel(issue)} field "${projectField.name}" to ${desiredDisplay}.`,
     );
   };
+
+  const ensureTextFieldValue = (issue, item, value) =>
+    ensureProjectFieldValue({
+      issue,
+      item,
+      projectField: lastUpdatedField,
+      itemValueName: 'lastUpdatedValue',
+      currentValue: item?.lastUpdatedValue?.text ?? null,
+      desiredValue: value,
+      localValue: { text: value },
+      update: () =>
+        updateTextField(
+          client,
+          project.id,
+          item.id,
+          lastUpdatedField.id,
+          value,
+        ),
+    });
 
   const ensureNumberFieldValue = async (
     issue,
@@ -1565,35 +1614,19 @@ export async function synchronize({
     projectField,
     itemValueName,
     value,
-  ) => {
-    const currentValue = item?.[itemValueName]?.number ?? null;
-
-    if (currentValue === value) {
-      stats.unchangedFieldValues += 1;
-      return;
-    }
-
-    if (dryRun) {
-      console.log(
-        `[dry-run] Set ${issueLabel(issue)} field "${projectField.name}" from ${JSON.stringify(currentValue)} to ${value}.`,
-      );
-      stats.plannedChanges += 1;
-      return;
-    }
-
-    await updateNumberField(
-      client,
-      project.id,
-      item.id,
-      projectField.id,
-      value,
-    );
-    item[itemValueName] = { number: value };
-    stats.fieldValuesUpdated += 1;
-    console.log(
-      `Set ${issueLabel(issue)} field "${projectField.name}" to ${value}.`,
-    );
-  };
+  ) =>
+    ensureProjectFieldValue({
+      issue,
+      item,
+      projectField,
+      itemValueName,
+      currentValue: item?.[itemValueName]?.number ?? null,
+      desiredValue: value,
+      desiredDisplay: String(value),
+      localValue: { number: value },
+      update: () =>
+        updateNumberField(client, project.id, item.id, projectField.id, value),
+    });
 
   const ensureBestRoleValue = async (issue, item, value) => {
     const desiredName = String(value);
@@ -1605,26 +1638,24 @@ export async function synchronize({
       return;
     }
 
-    if (dryRun) {
-      console.log(
-        `[dry-run] Set ${issueLabel(issue)} field "${bestRoleField.name}" from ${JSON.stringify(currentName)} to "${desiredName}".`,
-      );
-      stats.plannedChanges += 1;
-      return;
-    }
-
-    await updateSingleSelectField(
-      client,
-      project.id,
-      item.id,
-      bestRoleField.id,
-      option.id,
-    );
-    item.bestRoleValue = { optionId: option.id, name: desiredName };
-    stats.fieldValuesUpdated += 1;
-    console.log(
-      `Set ${issueLabel(issue)} field "${bestRoleField.name}" to "${desiredName}".`,
-    );
+    await ensureProjectFieldValue({
+      issue,
+      item,
+      projectField: bestRoleField,
+      itemValueName: 'bestRoleValue',
+      currentValue: currentName,
+      desiredValue: desiredName,
+      desiredDisplay: `"${desiredName}"`,
+      localValue: { optionId: option.id, name: desiredName },
+      update: () =>
+        updateSingleSelectField(
+          client,
+          project.id,
+          item.id,
+          bestRoleField.id,
+          option.id,
+        ),
+    });
   };
 
   const detachedIssueIds = new Set();
@@ -1670,6 +1701,11 @@ export async function synchronize({
 
   for (const character of inventory) {
     const parentMarker = automationMarker('parent', character.sourcePath);
+    const characterUpdateMarker = automationMarker(
+      'character-update',
+      character.sourcePath,
+    );
+    const characterUpdateTitle = `${character.name} - Update last_updated`;
     const parentIssue =
       issuesByMarker.get(parentMarker) ??
       chooseIssue(
@@ -1683,9 +1719,10 @@ export async function synchronize({
       : [];
     const subIssuesByTitle = groupIssuesByTitle(subIssues);
     const parentSubIssueIds = new Set(subIssues.map((issue) => issue.id));
+    const characterBuildCounts = [];
 
     for (const build of character.builds) {
-      const desiredTitle = buildIssueTitle(character.name, build.name);
+      const desiredTitle = `${character.name} - ${build.name}`;
       const buildMarker = automationMarker('build', build.sourcePath);
       activeBuildMarkers.add(buildMarker);
       const markerIssue = issuesByMarker.get(buildMarker) ?? null;
@@ -1776,6 +1813,10 @@ export async function synchronize({
       );
       await ensureBestRoleValue(buildIssue, item, build.bestRole);
       const characterPriority = item.characterPriorityValue?.name ?? 'normal';
+      characterBuildCounts.push({
+        weaponCount: releaseAudit.weapons.length,
+        artifactSetCount: releaseAudit.artifactSets.length,
+      });
 
       if (!item.characterPriorityValue?.name) {
         console.warn(
@@ -1793,6 +1834,110 @@ export async function synchronize({
         weaponCount: releaseAudit.weapons.length,
         artifactSetCount: releaseAudit.artifactSets.length,
       });
+    }
+
+    const characterUpdateMarkerIssue =
+      issuesByMarker.get(characterUpdateMarker) ?? null;
+    const characterUpdateTitleIssue = chooseIssue(
+      (issuesByTitle.get(titleKey(characterUpdateTitle)) ?? []).filter(
+        (issue) => hasIssueLabel(issue, labelName),
+      ),
+      `managed character update title "${characterUpdateTitle}"`,
+    );
+    let characterUpdateIssue =
+      characterUpdateMarkerIssue ?? characterUpdateTitleIssue;
+
+    for (const duplicate of uniqueOtherIssues(characterUpdateIssue, [
+      characterUpdateMarkerIssue,
+      characterUpdateTitleIssue,
+    ])) {
+      await deleteManagedIssue(duplicate);
+    }
+
+    if (
+      shouldCreateCharacterUpdateIssue(
+        character,
+        currentVersion,
+        characterBuildCounts,
+      )
+    ) {
+      const desiredBody = characterUpdateIssueBody(
+        characterUpdateMarker,
+        character,
+        currentVersion,
+      );
+
+      if (!characterUpdateIssue) {
+        if (dryRun) {
+          console.log(
+            `[dry-run] Create character update issue "${characterUpdateTitle}" with label "${labelName}" and rank 0.`,
+          );
+          stats.plannedChanges += 1;
+          characterUpdateIssue = {
+            id: `dry-run:${character.sourcePath}:character-update`,
+            node_id: `dry-run:${character.sourcePath}:character-update`,
+            number: 'new',
+            title: characterUpdateTitle,
+            body: desiredBody,
+            labels: [{ name: labelName }],
+          };
+        } else {
+          characterUpdateIssue = await createIssue(
+            client,
+            repository,
+            characterUpdateTitle,
+            desiredBody,
+            labelName,
+          );
+          repositoryIssues.push(characterUpdateIssue);
+          issuesByTitle.set(titleKey(characterUpdateTitle), [
+            characterUpdateIssue,
+          ]);
+          issuesByMarker.set(characterUpdateMarker, characterUpdateIssue);
+          stats.issuesCreated += 1;
+          stats.labelsAdded += 1;
+          console.log(
+            `Created character update issue ${issueLabel(characterUpdateIssue)}.`,
+          );
+        }
+      }
+
+      await ensureIssueDetails(
+        characterUpdateIssue,
+        characterUpdateTitle,
+        desiredBody,
+        ' body',
+      );
+      await ensureIssueLabel(characterUpdateIssue);
+      const item = await ensureProjectItem(characterUpdateIssue);
+      await ensureTextFieldValue(
+        characterUpdateIssue,
+        item,
+        character.lastUpdated,
+      );
+      await ensureNumberFieldValue(
+        characterUpdateIssue,
+        item,
+        weaponCountField,
+        'weaponCountValue',
+        0,
+      );
+      await ensureNumberFieldValue(
+        characterUpdateIssue,
+        item,
+        artifactSetCountField,
+        'artifactSetCountValue',
+        0,
+      );
+      await ensureNumberFieldValue(
+        characterUpdateIssue,
+        item,
+        updatePriorityField,
+        'updatePriorityValue',
+        0,
+      );
+    } else if (characterUpdateIssue) {
+      await deleteManagedIssue(characterUpdateIssue);
     }
 
     if (parentIssue) {
