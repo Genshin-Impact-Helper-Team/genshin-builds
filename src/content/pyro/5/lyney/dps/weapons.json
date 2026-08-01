@@ -34,7 +34,13 @@
         },
         {
             "items": [
+                "golden-frostbound-oath",
                 "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                "the-daybreak-chronicles"
             ]
         },
         {
@@ -44,9 +50,38 @@
         },
         {
             "items": [
-                "polar-star",
-                "song-of-stillness",
-                "prototype-crescent"
+                "polar-star"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "song-of-stillness",
+                    "refinement": 5
+                },
+                {
+                    "name": "prototype-crescent",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes one of Lyney's Aimed Shots hits a weak point."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "range-gauge",
+                    "note": {
+                        "en": "Ranking assumes three stacks of the passive. At [R5], this weapon ranks equal to **[[weapon:polar-star]]**."
+                    }
+                },
+                {
+                    "name": "flower-wreathed-feathers",
+                    "note": {
+                        "en": "At [R5], this weapon ranks equal to **[[weapon:polar-star]]**."
+                    }
+                }
             ]
         }
     ],
