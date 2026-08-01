@@ -25,6 +25,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the pasive. Performs similarly to **[[weapon:splendor-of-tranquil-waters]]** in Ascendant Gleam teams.",
+                        "fr": "Ce classement suppose que [[character:furina]] **peut déclencher des réactions** pour activer le passif. Ses performances sont similaires à celles de **[[weapon:splendor-of-tranquil-waters]]** dans les équipes Lueur Ascendante.",
                         "ru": "Предполагается, что [[character:furina]] **может закрывать реакции** для активации Пассивной способности. В командах с Высшим сиянием соответствует **[[weapon:splendor-of-tranquil-waters|Блеску тихих вод]]**."
                     }
                 },
@@ -78,7 +79,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]** performs better than **[[weapon:light-of-foliar-incision]]**",
+                        "en": "At **[R5]**, performs better than **[[weapon:light-of-foliar-incision]]**",
+                        "fr": "Une fois **[R5]**, devient meilleure que **[[weapon:light-of-foliar-incision]]**",
                         "ru": "На **[R5]** превосходит **[[[weapon:light-of-foliar-incision]]**"
                     }
                 }
@@ -96,6 +98,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:light-of-foliar-incision]]**",
+                        "fr": "Si **vous pouvez garder les PV de [[character:furina]] au dessus de 90% pendant la majorité de la rotation**, les performances de cette arme se rapprochent de celles de **[[weapon:light-of-foliar-incision]]**",
                         "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**"
                     }
                 }

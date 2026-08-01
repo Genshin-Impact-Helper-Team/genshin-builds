@@ -2,6 +2,7 @@
     "notes": [
         {
             "en": "This ranking assumes 150% [[stat:er]] Requirements. [[stat:er]] Weapons will gradually drop in value with lower [[stat:er]] Requirements.",
+            "fr": "Ce classement suppose un besoin en [[stat:er]] de 150%. Les armes [[stat:er]] perdent progressivement de la valeur lorsque les besoins en [[stat:er]] baissent.",
             "ru": "Предполагается, что Фурине необходимо 150% ВЭ. Оружие, дающее ВЭ, будет показывать себя хуже с уменьшением потребности в энергии."
         }
     ],
@@ -64,7 +65,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]** performs close to **[[weapon:light-of-foliar-incision]]**",
+                        "en": "At **[R5]**, performs close to **[[weapon:light-of-foliar-incision]]**",
+                        "fr": "Une fois **[R5]**, ses performances sont proche de celles de **[[weapon:light-of-foliar-incision]]**",
                         "ru": "На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**"
                     }
                 },
@@ -72,7 +74,8 @@
                     "name": "serenitys-call",
                     "refinement": 5,
                     "note": {
-                        "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the pasive. Performs similarly to **[[weapon:festering-desire]]** in Ascendant Gleam teams.",
+                        "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the passive. Performs similarly to **[[weapon:festering-desire]]** in Ascendant Gleam teams.",
+                        "fr": "Ce classement suppose que [[character:furina]] **peut déclencher des réactions** pour activer le passif. Ses performances sont similaires à celles de **[[weapon:festering-desire]]** dans les équipes Lueur Ascendante.",
                         "ru": "Предполагается, что [[character:furina]] **может закрывать реакции** для активации Пассивной способности. В командах с Высшим сиянием превосходит **[[weapon:festering-desire]]**."
                     }
                 }
@@ -92,6 +95,7 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "While suboptimal for [[character:furina]]'s personal damage, it can still be a good choice if other characters in the team struggle with energy.",
+                        "fr": "Bien que moins efficace pour les dégâts personnels de [[character:furina]], cela reste cependant une bonne option si d'autres personnages de l'équipes ont des problèmes d'énergie.",
                         "ru": "Слабый выбор для личного урона [[character:furina|Фурины]], но может быть полезен, если отряду нужна дополнительная энергия."
                     }
                 }
@@ -104,6 +108,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:festering-desire]]**",
+                        "fr": "Si **vous pouvez garder les PV de [[character:furina]] au dessus de 90% pendant la majorité de la rotation**, les performances de cette arme se rapprochent de celles de **[[weapon:festering-desire]]**",
                         "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:Осквернённому желанию]]**"
                     }
                 },
