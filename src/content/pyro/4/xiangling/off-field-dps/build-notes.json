@@ -12,6 +12,9 @@
             "fr": "Ce build considère [[character:xiangling]] comme un DPS off-field sans réaction utilisée pour ses commodités et ses dégâts.",
             "it": "Questa build si concentra sull'utilizzo di [[character:xiangling]] come DPS Fuori Campo per la sua utilità generale e per i suoi danni senza reazioni.",
             "ru": "Предполагается, что Сян Лин не закрывает реакции и используется как для нанесения урона, так и для помощи отряду"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:disaster-and-remorse]]\n"
         }
     ],
     "weapons": {

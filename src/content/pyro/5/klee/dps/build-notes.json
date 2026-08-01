@@ -45,6 +45,12 @@
             "fr": "Son combo optimal inclut **{rot:N1C/N3}** dans les équipes avec résonnance[[ability:hexerei]], ou **{rot:N1C/N1W}** sans.",
             "it": "Le sue combo ottimali includono **{rot:N1C/N3}** in team con risonanza [[ability:hexerei]], o **{rot:N1C/N1W}** in team senza risonanza [[ability:hexerei]].",
             "ru": "В командах [[ability:hexerei|Ведьмовства]] её оптимальное комбо **{rot:N1C/N3}**, в остальных отрядах **{rot:N1C/N1W}**."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:angelos-heptades]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:celestial-gift]]\n- [[set:disenchantment-in-deep-shadow]]\n"
         }
     ],
     "weapons": {

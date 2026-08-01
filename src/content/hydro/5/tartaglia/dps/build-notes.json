@@ -34,6 +34,12 @@
             "en": "Le combo Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",
             "fr": "Le combo Optimal offre plus de dégâts mais consomme plus d'endurance. Le combo Recommandé offre légèrement moins de dégâts mais ne consomme pas d'endurance et représente ce qui devrait être utilisé pour la plupart des armes.",
             "ru": "Оптимальное комбо наносит больше урона, но потребляет больше выносливости. Рекомендуемое наносит немного меньше урона, но более эффективно в плане выносливости."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:golden-frostbound-oath]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
     "weapons": {

@@ -19,6 +19,12 @@
             "en": "The amount of slashes [[character:kamisato-ayato]] can do during an [[ability:skill]] window is sometimes influenced by the player's set FPS.",
             "fr": "Le nombre de slash que [[character:kamisato-ayato]] peut faire au cours de son [[ability:skill]] est parfois influencé par les FPS du joueur.",
             "ru": "Количество нанесенных ударов в стойке (Элементальный навык) может зависеть от FPS."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:uraku-misugiri]]\n- [[weapon:absolution]]\n- [[weapon:sturdy-bone]]\n- [[weapon:calamity-of-eshu]]\n- [[weapon:azurelight]]\n- [[weapon:athame-artis]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
     "weapons": [

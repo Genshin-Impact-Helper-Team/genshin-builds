@@ -12,6 +12,12 @@
             "fr": "Cette build se concentre principalement sur les [[stat:physical-dmg]] de [[character:xinyan]] en tant que DPS On-Field. Une fois **[C2]**, [[character:xinyan]] peut se build avec un ratio [[stat:cr]] : [[stat:cd]] 1:3 au lieu du ratio 1:2 habituel.",
             "it": "Questa build si concentra principalmete sui DAN Fisici di [[character:xinyan]] come DPS sul campo. A **[C2]**, puoi mirare ad una proporzione 1:3 di [[stat:cr]] : [[stat:cd]], al posto della consueta 1:2.",
             "ru": "Сборка сосредоточена на её Физическом уроне как ДД на поле поя. На [С2] допустимо соотношение критов 1:3 [Шанс крит. попадания / Крит. урон], а не стандартное 1:2."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:talking-stick]]\n- [[weapon:tidal-shadow]]\n- [[weapon:ultimate-overlords-mega-magic-sword]]\n- [[weapon:verdict]]\n- [[weapon:fang-of-the-mountain-king]]\n- [[weapon:fruitful-hook]]\n- [[weapon:a-thousand-blazing-suns]]\n- [[weapon:flame-forged-insight]]\n- [[weapon:master-key]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n- [[set:disenchantment-in-deep-shadow]]\n"
         }
     ]
 }

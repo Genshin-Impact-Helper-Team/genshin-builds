@@ -15,6 +15,12 @@
             "en": "This means that external [[stat:def|DEF]] buffs like from [[character:gorou]]'s [[ability:skill]] and/or [[ability:burst]] doesn't provide much to [[character:yun-jin]] since it only buffs active characters and not off-field ones.",
             "fr": "Cela signifie que les buffs de [[stat:def]] externes tels que ceux de [[character:gorou]] n'offrent pas tant que ça à [[character:yun-jin]] puisque cela ne buff que le personnage actif et non pas ceux Off-Field.",
             "ru": "Это означает, что внешние источники [[stat:def|Защиты]] (к примеру, [[ability:skill]] и [[ability:burst]] [[character:gorou]]) не влияют на усиление [[character:yun-jin]], так как применяются только к активному персонажу и не влияют на тех, кто находится вне поля."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:footprint-of-the-rainbow]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:scroll-of-the-hero-of-cinder-city]]\n"
         }
     ]
 }

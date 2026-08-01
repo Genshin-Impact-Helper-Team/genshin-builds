@@ -36,6 +36,12 @@
             "fr": "{rot:N1 > tap CA > E > A > Swap}",
             "it": "{rot:N1 > CA breve > E > Q > Cambio}",
             "ru": "{rot:N1 > быстрая CA > E > Q > Переключение}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:rainbow-serpents-rain-bow]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n"
         }
     ]
 }

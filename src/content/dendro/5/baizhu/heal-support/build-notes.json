@@ -18,6 +18,12 @@
             "fr": "Le [[ability:skill]] de [[character:baizhu]] a un délai de 2-3 secondes entre le lancement et le soin reçu, gardez cela en tête lorsque vous passez sur des alliés avec peu de PV après la rotation de [[character:baizhu]].",
             "it": "L'[[ability:skill]] di [[character:baizhu]] ha un ritardo di 2-3 secondi tra il momento dell'attivazione e la ricezione delle cure; tienilo presente quando passi a personaggi con PS bassi.",
             "ru": "Между активацией [[ability:skill|Элементального навыка]] [[character:baizhu]] и тиком исцеления есть 2-3-хсекундное окно. Помните об этом, переключаясь на союзника с низким НР после ротации [[character:baizhu]]."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:ash-graven-drinking-horn]]\n- [[weapon:starcallers-watch]]\n- [[weapon:nightweavers-looking-glass]]\n- [[weapon:angelos-heptades]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:song-of-days-past]]\n- [[set:scroll-of-the-hero-of-cinder-city]]\n- [[set:silken-moons-serenade]]\n"
         }
     ]
 }
