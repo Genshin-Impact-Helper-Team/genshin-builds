@@ -520,13 +520,13 @@
         "version_released": "1.0",
         "source": "Exploration",
         "passive": {
-            "en": "On hit, has a 50% chance to deal {{value}}% ATK DMG to a single opponent. Can only occur once every 15s/14s/13s/12s/11s.",
+            "en": "On hit, has a 50% chance to deal {{value}}% ATK DMG to a single opponent. Can only occur once every {{value}} s.",
             "de": "Fügt einem einzelnen Gegner bei einem Treffer mit einer Wahrscheinlichkeit von 50 % Schaden in Höhe von {{value}}% ANG zu. {{value}} s Abklingzeit.",
             "es": "Al golpear a un enemigo con un ataque, hay un 50% de probabilidad de infligir un {{value}}% de daño a un solo enemigo. Este efecto puede ocurrir una vez cada {{value}} s.",
             "fr": "Les attaques ont 50 % de chances d'infliger {{value}}% de DGT d'ATQ à un ennemi lorsqu'elles touchent. Cet effet peut être déclenché une fois toutes les {{value}} s.",
             "it": "Per colpo a segno, ha un 50% di probabilità d'infliggere un {{value}}% di DAN da ATT a un singolo avversario. Si può verificare una sola volta ogni {{value}} s.",
             "ru": "При попадании с 50% вероятностью наносит {{value}}% урона одной цели. Может возникнуть раз в {{value}} сек.",
-            "pt": "Ao acertar, possui 50% de chance de infligir {{value}}% de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada 15s."
+            "pt": "Ao acertar, possui 50% de chance de infligir {{value}}% de Dano de ATQ a um único alvo. Pode ocorrer uma vez a cada {{value}} s."
         },
         "substat": "atk%",
         "level_1": {
@@ -538,19 +538,24 @@
             "substat_value": "35.2%"
         },
         "r1": [
-            240
+            240,
+            15
         ],
         "r2": [
-            280
+            280,
+            14
         ],
         "r3": [
-            320
+            320,
+            13
         ],
         "r4": [
-            360
+            360,
+            12
         ],
         "r5": [
-            400
+            400,
+            11
         ]
     },
     "finale-of-the-deep": {

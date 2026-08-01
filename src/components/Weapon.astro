@@ -66,7 +66,7 @@ const formatRefinement = (refinement?: number | string) =>
 
 const hasNoteMarker = (item: WeaponItem) => item.noteId || item.note;
 const isFreeWeapon = (item: WeaponItem) =>
-  isFreeWeaponSource(item.info?.source);
+  isFreeWeaponSource(item.info?.source) || item.rarity <= 3;
 const conditionalWeapons = weapons.conditional ?? [];
 const rankedWeaponGroups = weapons.weapons.map(
   (position: WeaponRank, index: number) => ({
