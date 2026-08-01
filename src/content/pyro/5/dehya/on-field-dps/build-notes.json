@@ -23,6 +23,12 @@
             "fr": "Une fois **[C1]**, [[stat:hp%]] devient une state viable pour [[character:dehya]], rivalisant avec [[stat:atk%]] tout en offrant de la survivabilité. De plus, les armes 5 étoiles stat sticks peuvent devenir moins bonnes que des options 4 étoiles car leur haute attaque de base a moins d'importance.",
             "it": "A **[C1]**, [[stat:hp%]] diventa una stat valida per [[character:dehya]], competendo con [[stat:atk%]] e fornendo al contempo migliori capacità di sopravvivenza. Inoltre, gli 'stat stick' 5 stelle possono diventare peggiori di certe opzioni 4 stelle poiché il loro ATT Base alto ha meno rilevanza.",
             "ru": "На **[C1]** [[stat:hp%]] начинает соответствовать [[stat:atk%|Силе атаки]] по урону, при этом повышая выживаемость. Также разница между 5☆ и 4☆ оружиями понижается (и 5☆ статовая палка может уступать полезным 4☆ вариантам), так как более низкая базовая атака имеет меньшее значение."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

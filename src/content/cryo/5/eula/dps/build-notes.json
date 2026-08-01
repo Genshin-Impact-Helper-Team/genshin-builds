@@ -29,6 +29,12 @@
             "fr": "Combo de [[ability:burst]] qui génère plus d'énergie au prix d'un DPS légèrement inférieur : {rot:tE A tE N4 D N2 hE N2}",
             "it": "Combo con [[ability:burst]] che genera più energia a scapito di un DPS leggermente inferiore: {rot:tE Q tE N4 D N2 hE N2}",
             "ru": "Комбо со [[ability:burst|Взрывом стихии]], генерирующее больше энергии ценой чуть меньшего урона: {rot:tE Q tE N4 D N2 hE N2}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:fang-of-the-mountain-king]]\n- [[weapon:a-thousand-blazing-suns]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

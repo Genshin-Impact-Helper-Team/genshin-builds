@@ -19,6 +19,25 @@ const CHARACTER_PRIORITY_SCORES = new Map([
   ['very high', 1],
 ]);
 
+export const WIP_NOTES_FIELD_OPTIONS = [
+  'OK',
+  'Weapon Missing',
+  'Weapon Different',
+  'Weapon Stale',
+  'Artifact Missing',
+  'Artifact Different',
+  'Artifact Stale',
+  'Weapon Missing; Artifact Missing',
+  'Weapon Missing; Artifact Different',
+  'Weapon Missing; Artifact Stale',
+  'Weapon Different; Artifact Missing',
+  'Weapon Different; Artifact Different',
+  'Weapon Different; Artifact Stale',
+  'Weapon Stale; Artifact Missing',
+  'Weapon Stale; Artifact Different',
+  'Weapon Stale; Artifact Stale',
+];
+
 const sleep = (milliseconds) =>
   new Promise((resolve) => setTimeout(resolve, milliseconds));
 
@@ -85,10 +104,6 @@ function hasIssueLabel(issue, labelName) {
 
 function parentTitle(character, element) {
   return character === 'traveler' ? `${element}-traveler` : character;
-}
-
-function buildIssueTitle(characterName, buildName) {
-  return `${characterName} - ${buildName}`;
 }
 
 function automationMarker(kind, sourcePath) {
@@ -179,6 +194,20 @@ export function rankBuilds(builds, currentVersion) {
     .map((build, index) => ({ ...build, updatePriority: index + 1 }));
 }
 
+export function shouldCreateCharacterUpdateIssue(
+  character,
+  currentVersion,
+  buildCounts,
+) {
+  return (
+    compareGameVersions(character.lastUpdated, currentVersion) < 0 &&
+    buildCounts.length > 0 &&
+    buildCounts.every(
+      (count) => count.weaponCount === 0 && count.artifactSetCount === 0,
+    )
+  );
+}
+
 function collectKnownIds(value, knownIds, result = new Set()) {
   if (typeof value === 'string') {
     if (knownIds.has(value)) {
@@ -208,6 +237,22 @@ function collectKnownIds(value, knownIds, result = new Set()) {
     for (const item of Object.values(value)) {
       collectKnownIds(item, knownIds, result);
     }
+  }
+
+  return result;
+}
+
+function extractWipNotes(value, result = {}) {
+  if (typeof value === 'string') {
+    const match = value.match(/^## \[\[note:(wip-(weapon|artifact))\]\]/);
+    if (match) result[match[2]] = value.replaceAll('\r\n', '\n');
+    return result;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) extractWipNotes(item, result);
+  } else if (value && typeof value === 'object') {
+    for (const item of Object.values(value)) extractWipNotes(item, result);
   }
 
   return result;
@@ -410,6 +455,7 @@ export function addReleaseAudits(inventory, catalog) {
       build.releaseAudit = {
         lastUpdated: character.lastUpdated,
         weaponType: character.weaponType,
+        wipNotes: build.wipNotes,
         weapons: sortReleaseItems(
           weaponCatalog.filter(
             (item) =>
@@ -444,16 +490,20 @@ function renderReleaseList(items, kind, checked = false) {
     .join('\n');
 }
 
+function releaseSnippetContent(items, itemKind, noteName) {
+  return [
+    `## [[note:${noteName}]]`,
+    ...items.map((item) => `- [[${itemKind}:${item.id}]]`),
+    '',
+  ].join('\n');
+}
+
 function renderReleaseSnippet(items, itemKind, noteName) {
   if (items.length === 0) {
     return '';
   }
 
-  const content = [
-    `## [[note:${noteName}]]`,
-    ...items.map((item) => `- [[${itemKind}:${item.id}]]`),
-    '',
-  ].join('\n');
+  const content = releaseSnippetContent(items, itemKind, noteName);
 
   return [
     '```',
@@ -462,6 +512,48 @@ function renderReleaseSnippet(items, itemKind, noteName) {
     '        }',
     '```',
   ].join('\n');
+}
+
+function wipNoteState(items, itemKind, noteName, currentNote) {
+  const expected = items.length
+    ? releaseSnippetContent(items, itemKind, noteName)
+    : '';
+  const current = String(currentNote ?? '').replaceAll('\r\n', '\n');
+
+  if (expected.trimEnd() === current.trimEnd()) {
+    return null;
+  }
+
+  if (!expected && current) return 'Stale';
+  if (expected && !current) return 'Missing';
+  return 'Different';
+}
+
+export function wipNotesStatus(audit) {
+  const statuses = [
+    [
+      'Weapon',
+      wipNoteState(
+        audit.weapons,
+        'weapon',
+        'wip-weapon',
+        audit.wipNotes?.weapon,
+      ),
+    ],
+    [
+      'Artifact',
+      wipNoteState(
+        audit.artifactSets,
+        'set',
+        'wip-artifact',
+        audit.wipNotes?.artifact,
+      ),
+    ],
+  ].filter(([, status]) => status);
+
+  return statuses.length
+    ? statuses.map(([kind, status]) => `${kind} ${status}`).join('; ')
+    : 'OK';
 }
 
 export function renderReleaseAudit(audit) {
@@ -510,6 +602,15 @@ export function renderReleaseAudit(audit) {
         ]
       : []),
     RELEASE_AUDIT_END,
+  ].join('\n');
+}
+
+function characterUpdateIssueBody(marker, character, currentVersion) {
+  return [
+    marker,
+    `All builds for \`${character.name}\` have 0 unchecked weapons and artifact sets.`,
+    '',
+    `Update \`${character.sourcePath}/metadata.json\` from \`${character.lastUpdated}\` to \`${currentVersion}\`.`,
   ].join('\n');
 }
 
@@ -613,6 +714,7 @@ export function loadBuildInventory(contentDirectory) {
               name: entry.name,
               sourcePath: `${sourcePath}/${entry.name}`,
               bestRole: buildNotes.best === true,
+              wipNotes: extractWipNotes(buildNotes),
             };
           })
           .sort((left, right) => left.name.localeCompare(right.name));
@@ -959,6 +1061,51 @@ async function createBestRoleField(client, projectId, fieldName) {
   return data.createProjectV2Field.projectV2Field;
 }
 
+async function createWipNotesField(client, projectId, fieldName) {
+  const options = WIP_NOTES_FIELD_OPTIONS.map(
+  (name) => `{
+    name: ${JSON.stringify(name)}
+    color: ${name === 'OK' ? 'GREEN' : 'GRAY'}
+    description: ${JSON.stringify(
+      name === 'OK'
+        ? 'No weapon or artifact issues detected'
+        : `WIP status: ${name}`,
+    )}
+  }`,
+).join('\n');
+  const { data } = await client.graphql(
+    `
+      mutation CreateWipNotesField($projectId: ID!, $name: String!) {
+        createProjectV2Field(
+          input: {
+            projectId: $projectId
+            dataType: SINGLE_SELECT
+            name: $name
+            singleSelectOptions: [
+              ${options}
+            ]
+          }
+        ) {
+          projectV2Field {
+            ... on ProjectV2SingleSelectField {
+              id
+              name
+              options {
+                id
+                name
+              }
+            }
+          }
+        }
+      }
+    `,
+    { projectId, name: fieldName },
+    { mutation: true },
+  );
+
+  return data.createProjectV2Field.projectV2Field;
+}
+
 async function listProjectItems(client, projectId, fieldNames) {
   const items = [];
   let after = null;
@@ -974,6 +1121,7 @@ async function listProjectItems(client, projectId, fieldNames) {
           $bestRoleFieldName: String!
           $characterPriorityFieldName: String!
           $updatePriorityFieldName: String!
+          $wipNotesFieldName: String!
           $after: String
         ) {
           node(id: $projectId) {
@@ -1036,6 +1184,14 @@ async function listProjectItems(client, projectId, fieldNames) {
                       number
                     }
                   }
+                  wipNotesValue: fieldValueByName(
+                    name: $wipNotesFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldSingleSelectValue {
+                      optionId
+                      name
+                    }
+                  }
                 }
                 pageInfo {
                   hasNextPage
@@ -1054,6 +1210,7 @@ async function listProjectItems(client, projectId, fieldNames) {
         bestRoleFieldName: fieldNames.bestRole,
         characterPriorityFieldName: fieldNames.characterPriority,
         updatePriorityFieldName: fieldNames.updatePriority,
+        wipNotesFieldName: fieldNames.wipNotes,
         after,
       },
     );
@@ -1260,6 +1417,7 @@ export async function synchronize({
   bestRoleFieldName,
   characterPriorityFieldName,
   updatePriorityFieldName,
+  wipNotesFieldName,
   currentVersion,
   labelName,
   dryRun,
@@ -1312,6 +1470,7 @@ export async function synchronize({
     bestRoleFieldName,
     characterPriorityField.name,
     updatePriorityFieldName,
+    wipNotesFieldName,
   ];
 
   if (
@@ -1324,13 +1483,16 @@ export async function synchronize({
     throw new Error('Project field names must be non-empty and distinct.');
   }
 
-  const ensureProjectField = async (name, dataType) => {
-    let projectField = project.fields.nodes.find(
+  const findProjectField = (name) =>
+    project.fields.nodes.find(
       (candidate) =>
         candidate &&
         typeof candidate.name === 'string' &&
         titleKey(candidate.name) === titleKey(name),
     );
+
+  const ensureProjectField = async (name, dataType) => {
+    let projectField = findProjectField(name);
 
     if (projectField && projectField.dataType !== dataType) {
       throw new Error(
@@ -1361,6 +1523,55 @@ export async function synchronize({
     return projectField;
   };
 
+  const ensureWipNotesField = async () => {
+    let field = findProjectField(wipNotesFieldName);
+
+    if (field && !Array.isArray(field.options)) {
+      throw new Error(
+        `Project field "${field.name}" must be a single-select field. Delete the old text field or set WIP_NOTES_FIELD_NAME to a new field name.`,
+      );
+    }
+
+    if (!field) {
+      if (dryRun) {
+        console.log(
+          `[dry-run] Create single-select project field "${wipNotesFieldName}" with WIP status options.`,
+        );
+        stats.plannedChanges += 1;
+        field = {
+          id: null,
+          name: wipNotesFieldName,
+          options: WIP_NOTES_FIELD_OPTIONS.map((name) => ({
+            id: null,
+            name,
+          })),
+        };
+      } else {
+        field = await createWipNotesField(
+          client,
+          project.id,
+          wipNotesFieldName,
+        );
+        console.log(
+          `Created single-select project field "${wipNotesFieldName}".`,
+        );
+      }
+    }
+
+    const optionNames = new Set(field.options.map((option) => option.name));
+    const missingOptions = WIP_NOTES_FIELD_OPTIONS.filter(
+      (name) => !optionNames.has(name),
+    );
+
+    if (missingOptions.length > 0) {
+      throw new Error(
+        `Project field "${field.name}" must contain these options: ${WIP_NOTES_FIELD_OPTIONS.map((name) => `"${name}"`).join(', ')}. Missing: ${missingOptions.map((name) => `"${name}"`).join(', ')}.`,
+      );
+    }
+
+    return field;
+  };
+
   const lastUpdatedField = await ensureProjectField(fieldName, 'TEXT');
   const weaponCountField = await ensureProjectField(
     weaponCountFieldName,
@@ -1374,12 +1585,8 @@ export async function synchronize({
     updatePriorityFieldName,
     'NUMBER',
   );
-  let bestRoleField = project.fields.nodes.find(
-    (candidate) =>
-      candidate &&
-      typeof candidate.name === 'string' &&
-      titleKey(candidate.name) === titleKey(bestRoleFieldName),
-  );
+  const wipNotesField = await ensureWipNotesField();
+  let bestRoleField = findProjectField(bestRoleFieldName);
 
   if (bestRoleField && !Array.isArray(bestRoleField.options)) {
     throw new Error(
@@ -1416,6 +1623,9 @@ export async function synchronize({
   const bestRoleOptions = new Map(
     bestRoleField.options.map((option) => [titleKey(option.name), option]),
   );
+  const wipNotesOptions = new Map(
+    wipNotesField.options.map((option) => [option.name, option]),
+  );
 
   if (!bestRoleOptions.has('true') || !bestRoleOptions.has('false')) {
     throw new Error(
@@ -1432,6 +1642,7 @@ export async function synchronize({
       bestRole: bestRoleFieldName,
       characterPriority: characterPriorityField.name,
       updatePriority: updatePriorityFieldName,
+      wipNotes: wipNotesFieldName,
     }),
   ]);
   const issuesByTitle = groupIssuesByTitle(repositoryIssues);
@@ -1461,23 +1672,24 @@ export async function synchronize({
     console.log(`Added label "${labelName}" to ${issueLabel(issue)}.`);
   };
 
-  const ensureBuildIssue = async (issue, desiredTitle, buildMarker, audit) => {
+  const ensureIssueDetails = async (
+    issue,
+    desiredTitle,
+    desiredBody,
+    bodyMessage,
+  ) => {
     const currentBody = String(issue.body ?? '').replaceAll('\r\n', '\n');
-    const desiredBody = buildIssueBody(currentBody, buildMarker, audit);
-    const effectiveAudit = releaseAuditWithIgnores(desiredBody, audit);
     const titleChanged = issue.title !== desiredTitle;
     const bodyChanged = currentBody.trim() !== desiredBody;
 
-    if (!titleChanged && !bodyChanged) {
-      return effectiveAudit;
-    }
+    if (!titleChanged && !bodyChanged) return;
 
     if (dryRun) {
       console.log(
-        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? ` body with ${effectiveAudit.weapons.length} newer weapon(s) and ${effectiveAudit.artifactSets.length} newer artifact set(s)` : ''}.`,
+        `[dry-run] Update ${issueLabel(issue)}${titleChanged ? ` title to "${desiredTitle}"` : ''}${bodyChanged ? bodyMessage : ''}.`,
       );
       stats.plannedChanges += 1;
-      return effectiveAudit;
+      return;
     }
 
     const updatedIssue = await updateIssue(client, repository, issue.number, {
@@ -1489,8 +1701,32 @@ export async function synchronize({
     stats.issuesRenamed += Number(titleChanged);
     stats.issueBodiesUpdated += Number(bodyChanged);
     console.log(`Updated ${issueLabel(issue)}.`);
+  };
+
+  const ensureBuildIssue = async (issue, desiredTitle, buildMarker, audit) => {
+    const currentBody = String(issue.body ?? '').replaceAll('\r\n', '\n');
+    const desiredBody = buildIssueBody(currentBody, buildMarker, audit);
+    const effectiveAudit = releaseAuditWithIgnores(desiredBody, audit);
+    await ensureIssueDetails(
+      issue,
+      desiredTitle,
+      desiredBody,
+      ` body with ${effectiveAudit.weapons.length} newer weapon(s) and ${effectiveAudit.artifactSets.length} newer artifact set(s)`,
+    );
     return effectiveAudit;
   };
+
+  const blankProjectItemValues = (contentId, id = null) => ({
+    id,
+    content: { id: contentId },
+    lastUpdatedValue: null,
+    weaponCountValue: null,
+    artifactSetCountValue: null,
+    bestRoleValue: null,
+    characterPriorityValue: null,
+    updatePriorityValue: null,
+    wipNotesValue: null,
+  });
 
   const ensureProjectItem = async (issue) => {
     const contentId = issueNodeId(issue);
@@ -1503,61 +1739,67 @@ export async function synchronize({
     if (dryRun) {
       console.log(`[dry-run] Add ${issueLabel(issue)} to project.`);
       stats.plannedChanges += 1;
-      return {
-        id: null,
-        content: { id: contentId },
-        lastUpdatedValue: null,
-        weaponCountValue: null,
-        artifactSetCountValue: null,
-        bestRoleValue: null,
-        characterPriorityValue: null,
-        updatePriorityValue: null,
-      };
+      return blankProjectItemValues(contentId);
     }
 
     item = await addProjectItem(client, project.id, contentId);
-    item.content = { id: contentId };
-    item.lastUpdatedValue = null;
-    item.weaponCountValue = null;
-    item.artifactSetCountValue = null;
-    item.bestRoleValue = null;
-    item.characterPriorityValue = null;
-    item.updatePriorityValue = null;
+    Object.assign(item, blankProjectItemValues(contentId, item.id));
     projectItemsByContentId.set(contentId, item);
     stats.projectItemsAdded += 1;
     console.log(`Added ${issueLabel(issue)} to project.`);
     return item;
   };
 
-  const ensureTextFieldValue = async (issue, item, value) => {
-    const currentValue = item?.lastUpdatedValue?.text ?? null;
-
-    if (currentValue === value) {
+  const ensureProjectFieldValue = async ({
+    issue,
+    item,
+    projectField,
+    itemValueName,
+    currentValue,
+    desiredValue,
+    desiredDisplay = JSON.stringify(desiredValue),
+    localValue,
+    update,
+  }) => {
+    if (currentValue === desiredValue) {
       stats.unchangedFieldValues += 1;
       return;
     }
 
     if (dryRun) {
       console.log(
-        `[dry-run] Set ${issueLabel(issue)} field "${fieldName}" from ${JSON.stringify(currentValue)} to ${JSON.stringify(value)}.`,
+        `[dry-run] Set ${issueLabel(issue)} field "${projectField.name}" from ${JSON.stringify(currentValue)} to ${desiredDisplay}.`,
       );
       stats.plannedChanges += 1;
       return;
     }
 
-    await updateTextField(
-      client,
-      project.id,
-      item.id,
-      lastUpdatedField.id,
-      value,
-    );
-    item.lastUpdatedValue = { text: value };
+    await update();
+    item[itemValueName] = localValue;
     stats.fieldValuesUpdated += 1;
     console.log(
-      `Set ${issueLabel(issue)} field "${fieldName}" to ${JSON.stringify(value)}.`,
+      `Set ${issueLabel(issue)} field "${projectField.name}" to ${desiredDisplay}.`,
     );
   };
+
+  const ensureTextFieldValue = (
+    issue,
+    item,
+    projectField,
+    itemValueName,
+    value,
+  ) =>
+    ensureProjectFieldValue({
+      issue,
+      item,
+      projectField,
+      itemValueName,
+      currentValue: item?.[itemValueName]?.text ?? null,
+      desiredValue: value,
+      localValue: { text: value },
+      update: () =>
+        updateTextField(client, project.id, item.id, projectField.id, value),
+    });
 
   const ensureNumberFieldValue = async (
     issue,
@@ -1565,35 +1807,19 @@ export async function synchronize({
     projectField,
     itemValueName,
     value,
-  ) => {
-    const currentValue = item?.[itemValueName]?.number ?? null;
-
-    if (currentValue === value) {
-      stats.unchangedFieldValues += 1;
-      return;
-    }
-
-    if (dryRun) {
-      console.log(
-        `[dry-run] Set ${issueLabel(issue)} field "${projectField.name}" from ${JSON.stringify(currentValue)} to ${value}.`,
-      );
-      stats.plannedChanges += 1;
-      return;
-    }
-
-    await updateNumberField(
-      client,
-      project.id,
-      item.id,
-      projectField.id,
-      value,
-    );
-    item[itemValueName] = { number: value };
-    stats.fieldValuesUpdated += 1;
-    console.log(
-      `Set ${issueLabel(issue)} field "${projectField.name}" to ${value}.`,
-    );
-  };
+  ) =>
+    ensureProjectFieldValue({
+      issue,
+      item,
+      projectField,
+      itemValueName,
+      currentValue: item?.[itemValueName]?.number ?? null,
+      desiredValue: value,
+      desiredDisplay: String(value),
+      localValue: { number: value },
+      update: () =>
+        updateNumberField(client, project.id, item.id, projectField.id, value),
+    });
 
   const ensureBestRoleValue = async (issue, item, value) => {
     const desiredName = String(value);
@@ -1605,26 +1831,52 @@ export async function synchronize({
       return;
     }
 
-    if (dryRun) {
-      console.log(
-        `[dry-run] Set ${issueLabel(issue)} field "${bestRoleField.name}" from ${JSON.stringify(currentName)} to "${desiredName}".`,
-      );
-      stats.plannedChanges += 1;
-      return;
+    await ensureProjectFieldValue({
+      issue,
+      item,
+      projectField: bestRoleField,
+      itemValueName: 'bestRoleValue',
+      currentValue: currentName,
+      desiredValue: desiredName,
+      desiredDisplay: `"${desiredName}"`,
+      localValue: { optionId: option.id, name: desiredName },
+      update: () =>
+        updateSingleSelectField(
+          client,
+          project.id,
+          item.id,
+          bestRoleField.id,
+          option.id,
+        ),
+    });
+  };
+
+  const ensureWipNotesValue = async (issue, item, value) => {
+    const option = wipNotesOptions.get(value);
+    const currentName = item?.wipNotesValue?.name ?? null;
+
+    if (!option) {
+      throw new Error(`Unsupported WIP Notes value ${JSON.stringify(value)}.`);
     }
 
-    await updateSingleSelectField(
-      client,
-      project.id,
-      item.id,
-      bestRoleField.id,
-      option.id,
-    );
-    item.bestRoleValue = { optionId: option.id, name: desiredName };
-    stats.fieldValuesUpdated += 1;
-    console.log(
-      `Set ${issueLabel(issue)} field "${bestRoleField.name}" to "${desiredName}".`,
-    );
+    await ensureProjectFieldValue({
+      issue,
+      item,
+      projectField: wipNotesField,
+      itemValueName: 'wipNotesValue',
+      currentValue: currentName,
+      desiredValue: value,
+      desiredDisplay: `"${value}"`,
+      localValue: { optionId: option.id, name: value },
+      update: () =>
+        updateSingleSelectField(
+          client,
+          project.id,
+          item.id,
+          wipNotesField.id,
+          option.id,
+        ),
+    });
   };
 
   const detachedIssueIds = new Set();
@@ -1670,6 +1922,11 @@ export async function synchronize({
 
   for (const character of inventory) {
     const parentMarker = automationMarker('parent', character.sourcePath);
+    const characterUpdateMarker = automationMarker(
+      'character-update',
+      character.sourcePath,
+    );
+    const characterUpdateTitle = `${character.name} - Update last_updated`;
     const parentIssue =
       issuesByMarker.get(parentMarker) ??
       chooseIssue(
@@ -1683,9 +1940,10 @@ export async function synchronize({
       : [];
     const subIssuesByTitle = groupIssuesByTitle(subIssues);
     const parentSubIssueIds = new Set(subIssues.map((issue) => issue.id));
+    const characterBuildCounts = [];
 
     for (const build of character.builds) {
-      const desiredTitle = buildIssueTitle(character.name, build.name);
+      const desiredTitle = `${character.name} - ${build.name}`;
       const buildMarker = automationMarker('build', build.sourcePath);
       activeBuildMarkers.add(buildMarker);
       const markerIssue = issuesByMarker.get(buildMarker) ?? null;
@@ -1759,7 +2017,14 @@ export async function synchronize({
       );
       await ensureIssueLabel(buildIssue);
       const item = await ensureProjectItem(buildIssue);
-      await ensureTextFieldValue(buildIssue, item, character.lastUpdated);
+      await ensureTextFieldValue(
+        buildIssue,
+        item,
+        lastUpdatedField,
+        'lastUpdatedValue',
+        character.lastUpdated,
+      );
+      await ensureWipNotesValue(buildIssue, item, wipNotesStatus(releaseAudit));
       await ensureNumberFieldValue(
         buildIssue,
         item,
@@ -1776,6 +2041,10 @@ export async function synchronize({
       );
       await ensureBestRoleValue(buildIssue, item, build.bestRole);
       const characterPriority = item.characterPriorityValue?.name ?? 'normal';
+      characterBuildCounts.push({
+        weaponCount: releaseAudit.weapons.length,
+        artifactSetCount: releaseAudit.artifactSets.length,
+      });
 
       if (!item.characterPriorityValue?.name) {
         console.warn(
@@ -1793,6 +2062,112 @@ export async function synchronize({
         weaponCount: releaseAudit.weapons.length,
         artifactSetCount: releaseAudit.artifactSets.length,
       });
+    }
+
+    const characterUpdateMarkerIssue =
+      issuesByMarker.get(characterUpdateMarker) ?? null;
+    const characterUpdateTitleIssue = chooseIssue(
+      (issuesByTitle.get(titleKey(characterUpdateTitle)) ?? []).filter(
+        (issue) => hasIssueLabel(issue, labelName),
+      ),
+      `managed character update title "${characterUpdateTitle}"`,
+    );
+    let characterUpdateIssue =
+      characterUpdateMarkerIssue ?? characterUpdateTitleIssue;
+
+    for (const duplicate of uniqueOtherIssues(characterUpdateIssue, [
+      characterUpdateMarkerIssue,
+      characterUpdateTitleIssue,
+    ])) {
+      await deleteManagedIssue(duplicate);
+    }
+
+    if (
+      shouldCreateCharacterUpdateIssue(
+        character,
+        currentVersion,
+        characterBuildCounts,
+      )
+    ) {
+      const desiredBody = characterUpdateIssueBody(
+        characterUpdateMarker,
+        character,
+        currentVersion,
+      );
+
+      if (!characterUpdateIssue) {
+        if (dryRun) {
+          console.log(
+            `[dry-run] Create character update issue "${characterUpdateTitle}" with label "${labelName}" and rank 0.`,
+          );
+          stats.plannedChanges += 1;
+          characterUpdateIssue = {
+            id: `dry-run:${character.sourcePath}:character-update`,
+            node_id: `dry-run:${character.sourcePath}:character-update`,
+            number: 'new',
+            title: characterUpdateTitle,
+            body: desiredBody,
+            labels: [{ name: labelName }],
+          };
+        } else {
+          characterUpdateIssue = await createIssue(
+            client,
+            repository,
+            characterUpdateTitle,
+            desiredBody,
+            labelName,
+          );
+          repositoryIssues.push(characterUpdateIssue);
+          issuesByTitle.set(titleKey(characterUpdateTitle), [
+            characterUpdateIssue,
+          ]);
+          issuesByMarker.set(characterUpdateMarker, characterUpdateIssue);
+          stats.issuesCreated += 1;
+          stats.labelsAdded += 1;
+          console.log(
+            `Created character update issue ${issueLabel(characterUpdateIssue)}.`,
+          );
+        }
+      }
+
+      await ensureIssueDetails(
+        characterUpdateIssue,
+        characterUpdateTitle,
+        desiredBody,
+        ' body',
+      );
+      await ensureIssueLabel(characterUpdateIssue);
+      const item = await ensureProjectItem(characterUpdateIssue);
+      await ensureTextFieldValue(
+        characterUpdateIssue,
+        item,
+        lastUpdatedField,
+        'lastUpdatedValue',
+        character.lastUpdated,
+      );
+      await ensureNumberFieldValue(
+        characterUpdateIssue,
+        item,
+        weaponCountField,
+        'weaponCountValue',
+        0,
+      );
+      await ensureNumberFieldValue(
+        characterUpdateIssue,
+        item,
+        artifactSetCountField,
+        'artifactSetCountValue',
+        0,
+      );
+      await ensureNumberFieldValue(
+        characterUpdateIssue,
+        item,
+        updatePriorityField,
+        'updatePriorityValue',
+        0,
+      );
+    } else if (characterUpdateIssue) {
+      await deleteManagedIssue(characterUpdateIssue);
     }
 
     if (parentIssue) {
@@ -1902,6 +2277,7 @@ async function main() {
       process.env.CHARACTER_PRIORITY_FIELD_NAME ?? 'Character Priority',
     updatePriorityFieldName:
       process.env.UPDATE_PRIORITY_FIELD_NAME ?? 'Update Priority',
+    wipNotesFieldName: process.env.WIP_NOTES_FIELD_NAME ?? 'WIP Notes',
     currentVersion: latestReleaseVersion(catalog),
     labelName: 'Auto Sync',
     dryRun,

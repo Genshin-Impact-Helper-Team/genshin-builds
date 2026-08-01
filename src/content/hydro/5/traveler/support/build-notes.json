@@ -28,6 +28,12 @@
             "en": "[[character:traveler]] does not generate particles if interrupted during the hold state of their [[ability:skill]].",
             "fr": "Le [[character:traveler]] [[element:hydro]] ne génèr pas de particules s'il est interrompu pendant son [[ability:skill]] appuyé.",
             "ru": "Путешественник не генерирует частицы при прерывании заряженного Элементального навыка."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:peak-patrol-song]]\n- [[weapon:athame-artis]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n"
         }
     ]
 }

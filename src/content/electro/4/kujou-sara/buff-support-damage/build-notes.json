@@ -30,6 +30,12 @@
             "fr": "Pour que son [[ability:skill]] génère des particules, il faut effectuer une attaque chargée pour placer une Plume de Corbeau après avoir utilisé son [[ability:skill]]. Si l'explosion de la Plume de corbeau touche un ennemi, elle génère 3 particules.\n\nLes plumes de corbeau générées via le skill grâce à la [C2] de [[character:kujou-sara]] ne génèrent PAS de particules.",
             "it": "Per generare particelle di energia tramite l'[[ability:skill]], è necessario utilizzare un Colpo Caricato per generare una Piuma corvina dopo aver attivata la sua [[ability:skill]]. Se l'esplosione della Piuma corvina colpisce un nemico, genera 3 particelle.\n\nLe Piume corvine generate dalla [C2] NON generano particelle.",
             "ru": "Для генерации частиц необходимо выполнить Заряженную атаку после Элементального навыка для появления Вороньего пера. Если взрыв Вороньего пера поражает противников, то генерируется 3 частицы.\nВороньи перья, образующиеся от ее [C2], НЕ создают частиц."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:astral-vultures-crimson-plumage]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:golden-frostbound-oath]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

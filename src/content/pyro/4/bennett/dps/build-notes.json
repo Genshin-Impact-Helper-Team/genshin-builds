@@ -2,5 +2,13 @@
     "name": {
         "en": "DPS",
         "ru": "ДД"
-    }
+    },
+    "notes": [
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:azurelight]]\n- [[weapon:moonweavers-dawn]]\n- [[weapon:athame-artis]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
+        }
+    ]
 }

@@ -18,6 +18,12 @@
             "fr": "Avec **[[set:blizzard-strayer]] (4)**, il vaut mieux viser proche de 45% de [[stat:cr]], sans le dépasser.",
             "it": "Con **[[set:blizzard-strayer]] (4)**, è meglio puntare vicino ma non oltre 45% [[stat:cr]].",
             "ru": "Старайтесь приблизить значение [[stat:cr|Шанса крит. попадания]] к 45%, но не превышать его, если экипирован **[[set:blizzard-strayer]] (4)**."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:golden-frostbound-oath]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }
