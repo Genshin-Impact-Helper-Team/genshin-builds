@@ -1,9 +1,9 @@
 {
     "best": true,
     "name": {
-        "en": "Off-Field DPS & Buff Support",
-        "fr": "DPS Off-Field & Support Buff",
-        "ru": "Карманный ДД и саппорт"
+        "en": "Low Energy Requirement (Off-Field DPS & Buff Support)",
+        "fr": "Besoins en Énergie faibles (DPS Off-Field & Support Buff)",
+        "ru": "Карманный ДД и саппорт (низкая потребность в энергии)"
     },
     "notes": [
         {
@@ -19,8 +19,8 @@
     ],
     "weapons": [
         {
-            "author": "Chiston",
-            "link": "https://docs.google.com/spreadsheets/d/1dLh-5vJ-hZd8sLIpPm18U9QJqGztVe3yrH_zd9vNJww/edit?gid=848665920#gid=848665920"
+            "author": "Finnyke",
+            "link": "https://drive.google.com/drive/folders/17_GSLjbwCe7JAYB1UOj96-FIdYeObRe4?usp=sharing"
         }
     ]
 }

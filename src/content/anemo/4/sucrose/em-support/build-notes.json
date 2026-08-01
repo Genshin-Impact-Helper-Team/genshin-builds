@@ -18,6 +18,12 @@
             "fr": "Lorsqu'elle est utilisée pour porter le set [[set:viridescent-venerer]] (4), **faites attention à ne pas changer de personnage directement après le [[ability:skill]]/[[ability:burst]]**, il faut être on-field quand la réaction de [[element:swirl]] a lieu pour déclencher l'effet du 4p.",
             "it": "Quando viene usata con il set [[set:viridescent-venerer]] (4), **assicurati di non cambiare subito personaggio dopo aver attivato [[ability:skill]]/[[ability:burst]], poiché [[character:sucrose]] deve essere sul campo quando si verifica la reazione [[element:swirl]] per attivare l'effetto del set**.",
             "ru": "При использовании сета **[[set:viridescent-venerer]] (4)** **не переключайте персонажа сразу после применения [[ability:skill|Элементального навыка]]/[[ability:burst|Взрыва стихии]]**, дождитесь активации [[element:swirl|Рассеивания]]. Бонус набора (4) активируется, лишь когда носитель находится на поле во время реакции."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:blackmarrow-lantern]]\n- [[weapon:etherlight-spindlelute]]\n- [[weapon:nightweavers-looking-glass]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n- [[set:celestial-gift]]\n"
         }
     ]
 }

@@ -18,6 +18,9 @@
             "fr": "Les artéfacts et armes avec de la [[stat:em]], comme [[weapon:dragons-bane]] ou [[weapon:kitain-cross-spear]] par exemple, gagnent en valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]], comme la Raiden National.",
             "it": "Manufatti ed armi con [[stat:em]], come [[weapon:dragons-bane]], [[weapon:kitain-cross-spear]], guadagnano valore in team in cui [[character:xiangling]] provoca sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National.",
             "ru": "В командах, где Сян Лин одновременно вызывает реакции Пар и Перегрузка (к примеру, Националка с Райдэн), МС более ценно, а оружие и артефакты с МС-статами дают больший прирост к урону."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:disaster-and-remorse]]\n"
         }
     ],
     "weapons": {

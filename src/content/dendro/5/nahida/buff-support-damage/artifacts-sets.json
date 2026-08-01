@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "This is her best set if no one else is wearing this set.",
                                 "fr": "C'est son meilleur set si personne d'autre ne porte ce set.",
+                                "it": "in team in cui gran parte dei danni sono Dendro, questo è il set migliore di [[character:nahida]] se nessun altro lo sta usando.",
                                 "ru": "Лучший вариант, если в отряде нет другого носителя этого сета."
                             }
                         }
@@ -68,6 +69,7 @@
                             "note": {
                                 "en": "In teams where [[character:nahida]]'s damage share is relatively low and there is another holder of **[[set:deepwood-memories]]** and/or no need for the set at all, this can be [[character:nahida]]'s best set.",
                                 "fr": "Dans les équipes où la part de dégâts de [[character:nahida]] est relativement faible et où il y a un autre porteur de **[[set:deepwood-memories]]** et/ou pas besoin du set du tout, cela peut être le meilleur set de [[character:nahida]].",
+                                "it": "In team in cui la percentuale di danno inflitta da [[character:nahida]] è bassa e c'è un altro possessore di **[[set:deepwood-memories]]** (e/o se non c'è alcuna necessità di utilizzare questo set), questo set può essere l'opzione migliore.",
                                 "ru": "Может быть лучшим вариантом в отрядах, где доля личного урона [[character:nahida|Нахиды]] невелика и есть другой носитель **[[set:deepwood-memories|Воспоминаний дремучего леса]]**/нет потребности в этом комплекте."
                             }
                         }
@@ -85,6 +87,7 @@
                             "note": {
                                 "en": "This set is niche, but very powerful in [[element:bloom]] teams where [[character:nahida]] triggers the [[element:bloom]] reaction.",
                                 "fr": "Ce set est niche, mais très puissant dans les équipes [[element:bloom]] où [[character:nahida]] déclenche la réaction.",
+                                "it": "Set di nicchia, ma molto forte in team [[element:bloom]] dove [[character:nahida]] innesca le reazioni [[element:bloom]].",
                                 "ru": "Нишевый вариант, крайне хорошо показывающий себя в командах, где [[character:nahida]] вызывает [[element:bloom|Бутонизацию]]."
                             }
                         }

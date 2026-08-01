@@ -20,6 +20,12 @@
             "en": "Combo without [[ability:burst]]:\n- {rot:E 6N3E}",
             "fr": "Combo sans l'[[ability:burst]]:\n- {rot:E 6N3E}",
             "ru": "Комбо без [[ability:burst|Взрыва стихии]]:\n- {rot:E 6N3E}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:azurelight]]\n- [[weapon:athame-artis]]\n- [[weapon:lightbearing-moonshard]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

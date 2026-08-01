@@ -17,6 +17,7 @@
                     "note": {
                         "en": "Prioritized over **[[weapon:sapwood-blade]]** due to [[element:dendro]] [[character:traveler]]'s exceedingly high [[stat:er]] requirements for [[ability:burst]] uptime consistency.",
                         "fr": "Priorisée par rapport à **[[weapon:sapwood-blade]]** en raison des besoins en [[stat:er]] extrêmement élevés du [[character:traveler]] [[element:dendro]] que son [[ability:burst]] soit disponible en permanence.",
+                        "it": "Questa opzione è preferibile rispetto a **[[weapon:sapwood-blade]]** per via dei requisiti eccessivamente alti di [[stat:er]] del [[character:traveler]] [[element:dendro]], così da garantire un tempo di funzionamento costante del [[ability:burst]].",
                         "ru": "Предпочтительнее **[[weapon:sapwood-blade|Деревянного клинка]]** из-за чрезвычайно высоких требований к [[stat:er|Восстановлению энергии]] для использования [[ability:burst|Взрыва стихии]] по откату."
                     }
                 }

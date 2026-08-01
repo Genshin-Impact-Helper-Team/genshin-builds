@@ -5,6 +5,16 @@
             "version": "6.7 / Luna VIII",
             "entries": [
                 {
+                    "date": "August 2, 2026",
+                    "changes": "Added a list of viable set/weapon as a WIP note for all characters. These options aren't calced yet so they can't be ranked, but could be considered for the build.",
+                    "appliedBy": "Plo, Quincy"
+                },
+                {
+                    "date": "August 1, 2026",
+                    "changes": "Split Furina section into low and high energy requirements. Updated Furina sections.",
+                    "appliedBy": "Finnyke"
+                },
+                {
                     "date": "July 18, 2026",
                     "changes": "Updated Venti, Xiao, Escoffier, Emilie, Kinich, Tighnari, Flins, Ineffa, Razor, Gaming, Hu Tao, Citlali, and Yoimiya section to be up to date.",
                     "appliedBy": "Plo, Quincy, Greenster, Finnyke"

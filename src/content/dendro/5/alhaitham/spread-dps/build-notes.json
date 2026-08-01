@@ -24,6 +24,12 @@
             "fr": "- [[ability:burst]] disponible = {rot:A > E > N2D + 2N3D + N1C + 2N2C}\n- [[ability:burst]] indisponible = {rot:E > N1C + 5N2C + N1}",
             "it": "- con [[ability:burst]]: {rot:Q > E > N2D + 2N3D + N1C + 2N2C}\n- senza [[ability:burst]] down = {rot:E > N1C + 5N2C + N1}",
             "ru": "- [[ability:burst]] можно активировать = {rot:Q > E > N2D + 2N3D + N1C + 2N2C}\n- Без [[ability:burst|Взрыва стихии]] = {rot:E > N1C + 5N2C + N1}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n- [[weapon:lightbearing-moonshard]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n"
         }
     ],
     "weapons": [
