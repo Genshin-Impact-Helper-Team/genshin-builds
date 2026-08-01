@@ -19,6 +19,25 @@ const CHARACTER_PRIORITY_SCORES = new Map([
   ['very high', 1],
 ]);
 
+export const WIP_NOTES_FIELD_OPTIONS = [
+  'OK',
+  'Weapon Missing',
+  'Weapon Different',
+  'Weapon Stale',
+  'Artifact Missing',
+  'Artifact Different',
+  'Artifact Stale',
+  'Weapon Missing; Artifact Missing',
+  'Weapon Missing; Artifact Different',
+  'Weapon Missing; Artifact Stale',
+  'Weapon Different; Artifact Missing',
+  'Weapon Different; Artifact Different',
+  'Weapon Different; Artifact Stale',
+  'Weapon Stale; Artifact Missing',
+  'Weapon Stale; Artifact Different',
+  'Weapon Stale; Artifact Stale',
+];
+
 const sleep = (milliseconds) =>
   new Promise((resolve) => setTimeout(resolve, milliseconds));
 
@@ -223,6 +242,22 @@ function collectKnownIds(value, knownIds, result = new Set()) {
   return result;
 }
 
+function extractWipNotes(value, result = {}) {
+  if (typeof value === 'string') {
+    const match = value.match(/^## \[\[note:(wip-(weapon|artifact))\]\]/);
+    if (match) result[match[2]] = value.replaceAll('\r\n', '\n');
+    return result;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) extractWipNotes(item, result);
+  } else if (value && typeof value === 'object') {
+    for (const item of Object.values(value)) extractWipNotes(item, result);
+  }
+
+  return result;
+}
+
 function loadEffectiveBuildDocument(characterPath, buildPath, fileName) {
   const buildFile = path.join(buildPath, fileName);
   const characterFile = path.join(characterPath, fileName);
@@ -420,6 +455,7 @@ export function addReleaseAudits(inventory, catalog) {
       build.releaseAudit = {
         lastUpdated: character.lastUpdated,
         weaponType: character.weaponType,
+        wipNotes: build.wipNotes,
         weapons: sortReleaseItems(
           weaponCatalog.filter(
             (item) =>
@@ -454,16 +490,20 @@ function renderReleaseList(items, kind, checked = false) {
     .join('\n');
 }
 
+function releaseSnippetContent(items, itemKind, noteName) {
+  return [
+    `## [[note:${noteName}]]`,
+    ...items.map((item) => `- [[${itemKind}:${item.id}]]`),
+    '',
+  ].join('\n');
+}
+
 function renderReleaseSnippet(items, itemKind, noteName) {
   if (items.length === 0) {
     return '';
   }
 
-  const content = [
-    `## [[note:${noteName}]]`,
-    ...items.map((item) => `- [[${itemKind}:${item.id}]]`),
-    '',
-  ].join('\n');
+  const content = releaseSnippetContent(items, itemKind, noteName);
 
   return [
     '```',
@@ -472,6 +512,48 @@ function renderReleaseSnippet(items, itemKind, noteName) {
     '        }',
     '```',
   ].join('\n');
+}
+
+function wipNoteState(items, itemKind, noteName, currentNote) {
+  const expected = items.length
+    ? releaseSnippetContent(items, itemKind, noteName)
+    : '';
+  const current = String(currentNote ?? '').replaceAll('\r\n', '\n');
+
+  if (expected.trimEnd() === current.trimEnd()) {
+    return null;
+  }
+
+  if (!expected && current) return 'Stale';
+  if (expected && !current) return 'Missing';
+  return 'Different';
+}
+
+export function wipNotesStatus(audit) {
+  const statuses = [
+    [
+      'Weapon',
+      wipNoteState(
+        audit.weapons,
+        'weapon',
+        'wip-weapon',
+        audit.wipNotes?.weapon,
+      ),
+    ],
+    [
+      'Artifact',
+      wipNoteState(
+        audit.artifactSets,
+        'set',
+        'wip-artifact',
+        audit.wipNotes?.artifact,
+      ),
+    ],
+  ].filter(([, status]) => status);
+
+  return statuses.length
+    ? statuses.map(([kind, status]) => `${kind} ${status}`).join('; ')
+    : 'OK';
 }
 
 export function renderReleaseAudit(audit) {
@@ -632,6 +714,7 @@ export function loadBuildInventory(contentDirectory) {
               name: entry.name,
               sourcePath: `${sourcePath}/${entry.name}`,
               bestRole: buildNotes.best === true,
+              wipNotes: extractWipNotes(buildNotes),
             };
           })
           .sort((left, right) => left.name.localeCompare(right.name));
@@ -978,6 +1061,46 @@ async function createBestRoleField(client, projectId, fieldName) {
   return data.createProjectV2Field.projectV2Field;
 }
 
+async function createWipNotesField(client, projectId, fieldName) {
+  const options = WIP_NOTES_FIELD_OPTIONS.map(
+    (name) => `{
+      name: ${JSON.stringify(name)}
+      color: ${name === 'OK' ? 'GREEN' : 'GRAY'}
+    }`,
+  ).join('\n');
+  const { data } = await client.graphql(
+    `
+      mutation CreateWipNotesField($projectId: ID!, $name: String!) {
+        createProjectV2Field(
+          input: {
+            projectId: $projectId
+            dataType: SINGLE_SELECT
+            name: $name
+            singleSelectOptions: [
+              ${options}
+            ]
+          }
+        ) {
+          projectV2Field {
+            ... on ProjectV2SingleSelectField {
+              id
+              name
+              options {
+                id
+                name
+              }
+            }
+          }
+        }
+      }
+    `,
+    { projectId, name: fieldName },
+    { mutation: true },
+  );
+
+  return data.createProjectV2Field.projectV2Field;
+}
+
 async function listProjectItems(client, projectId, fieldNames) {
   const items = [];
   let after = null;
@@ -993,6 +1116,7 @@ async function listProjectItems(client, projectId, fieldNames) {
           $bestRoleFieldName: String!
           $characterPriorityFieldName: String!
           $updatePriorityFieldName: String!
+          $wipNotesFieldName: String!
           $after: String
         ) {
           node(id: $projectId) {
@@ -1055,6 +1179,14 @@ async function listProjectItems(client, projectId, fieldNames) {
                       number
                     }
                   }
+                  wipNotesValue: fieldValueByName(
+                    name: $wipNotesFieldName
+                  ) {
+                    ... on ProjectV2ItemFieldSingleSelectValue {
+                      optionId
+                      name
+                    }
+                  }
                 }
                 pageInfo {
                   hasNextPage
@@ -1073,6 +1205,7 @@ async function listProjectItems(client, projectId, fieldNames) {
         bestRoleFieldName: fieldNames.bestRole,
         characterPriorityFieldName: fieldNames.characterPriority,
         updatePriorityFieldName: fieldNames.updatePriority,
+        wipNotesFieldName: fieldNames.wipNotes,
         after,
       },
     );
@@ -1279,6 +1412,7 @@ export async function synchronize({
   bestRoleFieldName,
   characterPriorityFieldName,
   updatePriorityFieldName,
+  wipNotesFieldName,
   currentVersion,
   labelName,
   dryRun,
@@ -1331,6 +1465,7 @@ export async function synchronize({
     bestRoleFieldName,
     characterPriorityField.name,
     updatePriorityFieldName,
+    wipNotesFieldName,
   ];
 
   if (
@@ -1343,13 +1478,16 @@ export async function synchronize({
     throw new Error('Project field names must be non-empty and distinct.');
   }
 
-  const ensureProjectField = async (name, dataType) => {
-    let projectField = project.fields.nodes.find(
+  const findProjectField = (name) =>
+    project.fields.nodes.find(
       (candidate) =>
         candidate &&
         typeof candidate.name === 'string' &&
         titleKey(candidate.name) === titleKey(name),
     );
+
+  const ensureProjectField = async (name, dataType) => {
+    let projectField = findProjectField(name);
 
     if (projectField && projectField.dataType !== dataType) {
       throw new Error(
@@ -1380,6 +1518,55 @@ export async function synchronize({
     return projectField;
   };
 
+  const ensureWipNotesField = async () => {
+    let field = findProjectField(wipNotesFieldName);
+
+    if (field && !Array.isArray(field.options)) {
+      throw new Error(
+        `Project field "${field.name}" must be a single-select field. Delete the old text field or set WIP_NOTES_FIELD_NAME to a new field name.`,
+      );
+    }
+
+    if (!field) {
+      if (dryRun) {
+        console.log(
+          `[dry-run] Create single-select project field "${wipNotesFieldName}" with WIP status options.`,
+        );
+        stats.plannedChanges += 1;
+        field = {
+          id: null,
+          name: wipNotesFieldName,
+          options: WIP_NOTES_FIELD_OPTIONS.map((name) => ({
+            id: null,
+            name,
+          })),
+        };
+      } else {
+        field = await createWipNotesField(
+          client,
+          project.id,
+          wipNotesFieldName,
+        );
+        console.log(
+          `Created single-select project field "${wipNotesFieldName}".`,
+        );
+      }
+    }
+
+    const optionNames = new Set(field.options.map((option) => option.name));
+    const missingOptions = WIP_NOTES_FIELD_OPTIONS.filter(
+      (name) => !optionNames.has(name),
+    );
+
+    if (missingOptions.length > 0) {
+      throw new Error(
+        `Project field "${field.name}" must contain these options: ${WIP_NOTES_FIELD_OPTIONS.map((name) => `"${name}"`).join(', ')}. Missing: ${missingOptions.map((name) => `"${name}"`).join(', ')}.`,
+      );
+    }
+
+    return field;
+  };
+
   const lastUpdatedField = await ensureProjectField(fieldName, 'TEXT');
   const weaponCountField = await ensureProjectField(
     weaponCountFieldName,
@@ -1393,12 +1580,8 @@ export async function synchronize({
     updatePriorityFieldName,
     'NUMBER',
   );
-  let bestRoleField = project.fields.nodes.find(
-    (candidate) =>
-      candidate &&
-      typeof candidate.name === 'string' &&
-      titleKey(candidate.name) === titleKey(bestRoleFieldName),
-  );
+  const wipNotesField = await ensureWipNotesField();
+  let bestRoleField = findProjectField(bestRoleFieldName);
 
   if (bestRoleField && !Array.isArray(bestRoleField.options)) {
     throw new Error(
@@ -1435,6 +1618,9 @@ export async function synchronize({
   const bestRoleOptions = new Map(
     bestRoleField.options.map((option) => [titleKey(option.name), option]),
   );
+  const wipNotesOptions = new Map(
+    wipNotesField.options.map((option) => [option.name, option]),
+  );
 
   if (!bestRoleOptions.has('true') || !bestRoleOptions.has('false')) {
     throw new Error(
@@ -1451,6 +1637,7 @@ export async function synchronize({
       bestRole: bestRoleFieldName,
       characterPriority: characterPriorityField.name,
       updatePriority: updatePriorityFieldName,
+      wipNotes: wipNotesFieldName,
     }),
   ]);
   const issuesByTitle = groupIssuesByTitle(repositoryIssues);
@@ -1533,6 +1720,7 @@ export async function synchronize({
     bestRoleValue: null,
     characterPriorityValue: null,
     updatePriorityValue: null,
+    wipNotesValue: null,
   });
 
   const ensureProjectItem = async (issue) => {
@@ -1589,23 +1777,23 @@ export async function synchronize({
     );
   };
 
-  const ensureTextFieldValue = (issue, item, value) =>
+  const ensureTextFieldValue = (
+    issue,
+    item,
+    projectField,
+    itemValueName,
+    value,
+  ) =>
     ensureProjectFieldValue({
       issue,
       item,
-      projectField: lastUpdatedField,
-      itemValueName: 'lastUpdatedValue',
-      currentValue: item?.lastUpdatedValue?.text ?? null,
+      projectField,
+      itemValueName,
+      currentValue: item?.[itemValueName]?.text ?? null,
       desiredValue: value,
       localValue: { text: value },
       update: () =>
-        updateTextField(
-          client,
-          project.id,
-          item.id,
-          lastUpdatedField.id,
-          value,
-        ),
+        updateTextField(client, project.id, item.id, projectField.id, value),
     });
 
   const ensureNumberFieldValue = async (
@@ -1653,6 +1841,34 @@ export async function synchronize({
           project.id,
           item.id,
           bestRoleField.id,
+          option.id,
+        ),
+    });
+  };
+
+  const ensureWipNotesValue = async (issue, item, value) => {
+    const option = wipNotesOptions.get(value);
+    const currentName = item?.wipNotesValue?.name ?? null;
+
+    if (!option) {
+      throw new Error(`Unsupported WIP Notes value ${JSON.stringify(value)}.`);
+    }
+
+    await ensureProjectFieldValue({
+      issue,
+      item,
+      projectField: wipNotesField,
+      itemValueName: 'wipNotesValue',
+      currentValue: currentName,
+      desiredValue: value,
+      desiredDisplay: `"${value}"`,
+      localValue: { optionId: option.id, name: value },
+      update: () =>
+        updateSingleSelectField(
+          client,
+          project.id,
+          item.id,
+          wipNotesField.id,
           option.id,
         ),
     });
@@ -1796,7 +2012,14 @@ export async function synchronize({
       );
       await ensureIssueLabel(buildIssue);
       const item = await ensureProjectItem(buildIssue);
-      await ensureTextFieldValue(buildIssue, item, character.lastUpdated);
+      await ensureTextFieldValue(
+        buildIssue,
+        item,
+        lastUpdatedField,
+        'lastUpdatedValue',
+        character.lastUpdated,
+      );
+      await ensureWipNotesValue(buildIssue, item, wipNotesStatus(releaseAudit));
       await ensureNumberFieldValue(
         buildIssue,
         item,
@@ -1913,6 +2136,8 @@ export async function synchronize({
       await ensureTextFieldValue(
         characterUpdateIssue,
         item,
+        lastUpdatedField,
+        'lastUpdatedValue',
         character.lastUpdated,
       );
       await ensureNumberFieldValue(
@@ -2047,6 +2272,7 @@ async function main() {
       process.env.CHARACTER_PRIORITY_FIELD_NAME ?? 'Character Priority',
     updatePriorityFieldName:
       process.env.UPDATE_PRIORITY_FIELD_NAME ?? 'Update Priority',
+    wipNotesFieldName: process.env.WIP_NOTES_FIELD_NAME ?? 'WIP Notes',
     currentVersion: latestReleaseVersion(catalog),
     labelName: 'Auto Sync',
     dryRun,

@@ -16,6 +16,9 @@ project 1:
   whether `build-notes.json` contains `"best": true`
 - each build project item gets a unique numeric `Update Priority` rank; its
   existing five-level `Character Priority` field supplies the popularity input
+- each build project item gets a `WIP Notes` single-select field showing whether
+  the
+  generated WIP snippets match `build-notes.json`
 - if a character is behind the current version but all of its builds have 0
   unchecked weapons and artifact sets, a character update issue gets
   `Update Priority` 0
@@ -41,6 +44,31 @@ outside the generated release-audit markers is preserved.
 
 Traveler uses its public slug (`anemo-traveler`, `pyro-traveler`, and so on) in
 the combined issue title.
+
+Exact `WIP Notes` single-select values:
+
+- `OK`
+- `Weapon Missing`
+- `Weapon Different`
+- `Weapon Stale`
+- `Artifact Missing`
+- `Artifact Different`
+- `Artifact Stale`
+- `Weapon Missing; Artifact Missing`
+- `Weapon Missing; Artifact Different`
+- `Weapon Missing; Artifact Stale`
+- `Weapon Different; Artifact Missing`
+- `Weapon Different; Artifact Different`
+- `Weapon Different; Artifact Stale`
+- `Weapon Stale; Artifact Missing`
+- `Weapon Stale; Artifact Different`
+- `Weapon Stale; Artifact Stale`
+
+For each type, 
+`Missing` means the issue found new unchecked items but `build-notes.json` has no matching WIP note, 
+`Different` means both exist but the issue's generated WIP note and `build-notes.json` do not match, 
+and `Stale` means `build-notes.json` still has a WIP note even though the issue has no
+unchecked items for that type.
 
 ## Running it
 
@@ -76,5 +104,5 @@ npm run project:sync:apply
 The target can be changed with `ISSUE_REPOSITORY`, `PROJECT_OWNER`,
 `PROJECT_NUMBER`, `PROJECT_FIELD_NAME`, `WEAPON_COUNT_FIELD_NAME`,
 `ARTIFACT_SET_COUNT_FIELD_NAME`, `BEST_ROLE_FIELD_NAME`,
-`CHARACTER_PRIORITY_FIELD_NAME`, or `UPDATE_PRIORITY_FIELD_NAME` environment
-variables.
+`CHARACTER_PRIORITY_FIELD_NAME`, `UPDATE_PRIORITY_FIELD_NAME`, or
+`WIP_NOTES_FIELD_NAME` environment variables.
