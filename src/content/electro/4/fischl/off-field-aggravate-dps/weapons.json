@@ -47,6 +47,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon performs similar to **[[weapon:skyward-harp]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:skyward-harp]]**.",
+                        "it": "A **[R5]** quest'arma ha prestazioni simili a **[[weapon:skyward-harp]]**.",
                         "ru": "На [R5] соответствует Небесному крылу."
                     }
                 }
@@ -60,6 +61,7 @@
                     "note": {
                         "en": "Assumes [[character:fischl]] is healed before summoning Oz.",
                         "fr": "Suppose que [[character:fischl]] est soignée avant d'invoquer Oz.",
+                        "it": "La classifica presuppone che [[character:fischl]] riceva cure prima di evocare Oz.",
                         "ru": "Предполагается, что Фишль получает лечение до призыва Оза."
                     }
                 },
@@ -81,6 +83,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon performs similar to **[[weapon:the-stringless]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:the-stringless]]**.",
+                        "it": "A **[R5]** quest'arma ha prestazioni simili a **[[weapon:the-stringless]]**.",
                         "ru": "На [R5] соответствует Бесструнному."
                     }
                 },
