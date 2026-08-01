@@ -24,6 +24,12 @@
             "fr": "La dépendance de l'A4 de [[character:yanfei]] à un coup critique fait que son crit ratio idéal tends plus vers **3:4** ou **3:5** que le standard **1:2**.",
             "it": "Il fatto che il Talento A4 di [[character:yanfei]] sia dipendente da un colpo critico devia la proporzione di CRIT ideale verso 3:4 e 3:5 invece che la standard 1:2.",
             "ru": "Второй Пассивный талант Янь Фэй наносит дополнительный удар после Крит. Заряженной атаки, в связи с чем отпимальное соотношение Шанса крит. попадания к Крит. урону составляет ~3:4-3:5 заместо обычного 1:2."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:nocturnes-curtain-call]]\n- [[weapon:angelos-heptades]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
     "weapons": {

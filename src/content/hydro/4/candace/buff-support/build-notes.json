@@ -25,6 +25,9 @@
             "en": "In some teams, [[character:candace]]'s hold [[ability:skill]] cooldown is too long for rotations to work properly. If [[character:candace]] is not **C4**, avoid getting hit and use a tap [[ability:skill]] as quickly as possible.",
             "fr": "Dans certaines équipes, le TdR du [[ability:skill]] appuyé de [[character:candace]] est trop long pour que les rotations fonctionnent correctement. Si [[character:candace]] n'est pas **C4**, évitez de vous faire toucher et utilisez un tap [[ability:skill]] le plus rapidement possible.",
             "ru": "В некоторых отрядах откат зажатого Элементального навыка слишком велик для стандартной ротации, поэтому до получения её [C4] рекомендуется избегать получения ударов на щит и активировать навык простым нажатием как можно быстрее."
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n"
         }
     ]
 }
