@@ -1,0 +1,38 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "mappa-mare"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "emerald-orb"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers",
+                    "note": {
+                        "en": "Great weapon for support [[character:heizou]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Use only if the team has Electro-based elemental reactions."
+                    }
+                }
+            ]
+        }
+    ]
+}
