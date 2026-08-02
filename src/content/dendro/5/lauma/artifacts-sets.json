@@ -16,8 +16,9 @@
                             "name": "deepwood-memories",
                             "pieces": 4,
                             "note": {
-                                "en": "This set should be used if no one else on the team can use it",
+                                "en": "This set should be used if no one else on the team can use it.",
                                 "fr": "Ce set devrait être utilisé si personne d'autre dans l'équipe ne peut l'utiliser.",
+                                "it": "Questo set dovrebbe essere utilizzato se nessun altro nel team può utilizzarlo.",
                                 "ru": "Следует использовать, если в отряде нет другого носителя."
                             }
                         }
@@ -33,8 +34,9 @@
                             "name": "night-of-the-skys-unveiling",
                             "pieces": 4,
                             "note": {
-                                "en": "This set should only be considered if [[character:lauma]] is on-field and teammates can hold both **[[set:deepwood-memories]] (4)** and **[[set:silken-moons-serenade]] (4)**",
+                                "en": "This set should only be considered if [[character:lauma]] is on-field and teammates can hold both **[[set:deepwood-memories]] (4)** and **[[set:silken-moons-serenade]] (4)**.",
                                 "fr": "Ce set ne devrait être envisagé que si [[character:lauma]] est on-field et que ses coéquipiers peuvent porter à la fois **[[set:deepwood-memories]] (4)** et **[[set:silken-moons-serenade]] (4)**.",
+                                "it": "Questo set dovrebbe essere preso in considerazione solo se [[character:lauma]] è giocata sul campo e altri membri del team possono utilizzare sia **[[set:deepwood-memories]] (4)** che **[[set:silken-moons-serenade]] (4)**.",
                                 "ru": "Стоит рассматривать, только если [[character:lauma]] находится на поле и другие члены отряда используют и **[[set:deepwood-memories]] (4)**, и **[[set:silken-moons-serenade|Серенаду шёлковой луны]] (4)**."
                             }
                         }

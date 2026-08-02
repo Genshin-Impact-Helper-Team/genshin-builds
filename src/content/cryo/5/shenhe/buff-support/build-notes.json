@@ -24,6 +24,12 @@
             "fr": "Le Hold [[ability:skill]] de [[character:shenhe]] donne à toute l'équipe un bonus de DGT de 15 % aux DGT d'[[ability:na]], d'[[ability:ca]] et d'attaque plongeante. Il dure 15 secondes.",
             "it": "L'[[ability:skill]] premuta a lungo di [[character:shenhe]] fornisce 15% DAN ai danni da [[ability:na]], [[ability:ca]] ed Attacco in picchiata di tutto il team, con una durata di 15 secondi.",
             "ru": "Долгое нажатие [[ability:skill|Элементального навыка]] увеличивает урон [[ability:na|Обычных]], [[ability:ca|Заряженных атак]] и атак в падении на 15% в течение 15 секунд."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:sacrificers-staff]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

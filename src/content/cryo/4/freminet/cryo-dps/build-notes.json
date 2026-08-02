@@ -15,6 +15,12 @@
             "en": "Rotation: {rot:E E Q 4[E E (N1 or N2)]}",
             "fr": "Rotation : {rot:E E A 4[E E (N1 or N2)]}",
             "it": "Rotation : {rot:EEQ 4[EE(N1 o N2)]}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

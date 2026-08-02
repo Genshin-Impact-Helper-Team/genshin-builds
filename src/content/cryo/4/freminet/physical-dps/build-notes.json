@@ -20,6 +20,12 @@
             "en": "You can perform a [[ability:na]] instead of using [[ability:skill]] at Pressure Level 4, because this also ends the Pers Timer state.",
             "fr": "Vous pouvez effectuer une [[ability:na]] au lieu d'utiliser le [[ability:skill]] au niveau de pression 4, parce que cela met aussi fin à l'état Indicateur de Pers.",
             "it": "Puoi eseguire un [[ability:na]] al posto dell'[[ability:skill]] di livello Pressione 4, poiché entrambi terminano lo stato Manometro di Pers."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n- [[set:disenchantment-in-deep-shadow]]\n"
         }
     ]
 }

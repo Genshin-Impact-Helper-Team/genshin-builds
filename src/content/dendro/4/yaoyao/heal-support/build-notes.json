@@ -24,6 +24,12 @@
             "fr": "Si vous utilisez **[[weapon:favonius-lance]]**, vous pouvez utiliser le [[ability:skill]] suivi de deux [[ability:na|attaques normales]] afin de déclencher le passif.",
             "it": "Se si utilizza la **[[weapon:favonius-lance]]**, puoi attivare la sua [[ability:skill]] seguita da due [[ability:na|Attacchi Normali]] in sequenza per attivare la passiva.",
             "ru": "При использовании **[[weapon:favonius-lance|Копья Фавония]]** для активации эффекта оружия можно выполнять две [[ability:na|Обычные атаки]]."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:symphonist-of-scents]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:scroll-of-the-hero-of-cinder-city]]\n- [[set:silken-moons-serenade]]\n"
         }
     ]
 }

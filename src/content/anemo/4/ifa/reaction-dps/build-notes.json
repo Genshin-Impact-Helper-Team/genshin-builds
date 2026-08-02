@@ -11,6 +11,9 @@
             "fr": "[[character:ifa]] utilise ses scalings en [[stat:em]] pour fournir du soin à toute l'équipe tout en drivant des réactions on-field. Il peut aider à tranquilliser ses ennemis de façon permanente en buffant les réactions de [[element:swirl]] et d'[[element:electrocharged]], en fonction du nombre total de [[ability:nightsoul-point|points de noctâme]] partagés dans toute l'équipe, jusqu'à un maximum de 150 points (200 si [[character:ifa]] est [C2]). Pour cette raison, il est fortement recommandé de jouer [[character:ifa]] avec [[character:ororon]].",
             "it": "[[character:ifa]] utilizza la [[stat:em]] per fornire cure a tutto il team e provocare reazioni sul campo. Inoltre, potenzia le reazioni [[element:swirl]] ed [[element:electrocharged]] in base al numero totale di [[ability:nightsoul-point|Punti Anima della Notte]] dell'intero team, fino ad un massimo di 150 punti (200 se Ifa è **[C2]**). Per questa ragione, è fortemente consigliato utilizzare [[character:ororon]] nei suoi team.",
             "ru": "[[stat:em]] используется [[character:ifa|Ифой]] для лечения отряда и одновременно усиления собственных реакций. Рекомендуется играть с [[character:ororon|Оророном]], так как Ифа способен повышать урон реакций [[element:swirl]] и [[element:electrocharged]] (усиление зависит от суммарного количества [[ability:nightsoul-point|очков Ночного духа]] членов отряда, максимум 150 (200 на [C2] [[character:ifa|Ифы]]))."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:blackmarrow-lantern]]\n- [[weapon:etherlight-spindlelute]]\n- [[weapon:nightweavers-looking-glass]]\n- [[weapon:dawning-frost]]\n"
         }
     ]
 }

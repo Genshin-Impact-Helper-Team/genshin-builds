@@ -18,6 +18,9 @@
             "fr": "Le meilleur combo de [[character:kaveh]] est {rot:N3D}.",
             "it": "La migliore combo di [[character:kaveh]] è {rot:N3D}. ",
             "ru": "Оптимальное комбо [[character:kaveh]]а - {rot:N3D}."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:master-key]]\n"
         }
     ]
 }

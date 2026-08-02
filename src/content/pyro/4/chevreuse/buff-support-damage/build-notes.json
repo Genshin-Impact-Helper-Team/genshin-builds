@@ -17,6 +17,12 @@
             "fr": "Ce style de jeu est rendu viable **après sa [C4] grâce à sa capacité à utiliser plusieurs [[ability:skill]] par rotation**.",
             "it": "Questo stile di gioco è realisticamente praticabile solo **dopo la [C4], grazie alla possibilità di utilizzare la sua [[ability:skill]] più volte in una rotazione**.",
             "ru": "Билд жизнеспособен на [C4+] благодаря возможности использовать несколько Элементальных навыков за ротацию."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:fractured-halo]]\n- [[weapon:bloodsoaked-ruins]]\n- [[weapon:sacrificers-staff]]\n- [[weapon:disaster-and-remorse]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }

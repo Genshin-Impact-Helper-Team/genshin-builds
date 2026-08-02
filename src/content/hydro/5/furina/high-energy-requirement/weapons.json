@@ -1,0 +1,108 @@
+{
+    "notes": [
+        {
+            "en": "It can be hard to reach [[stat:er]] Requirements when using non-[[stat:er]] Weapons.",
+            "fr": "Les armes qui ne sont pas [[stat:er]] ont de meilleures performances lorsque **[character:furina]] est jouée dans une équipe avec des besoins en [[stat:er]] plus faibles**.",
+            "ru": "При использовании оружия, не дающего энергию или ВЭ, может быть сложно достичь необходимого уровня ВЭ."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "splendor-of-tranquil-waters"
+            ]
+        },
+        {
+            "items": [
+                "favonius-sword"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-cutter",
+                {
+                    "name": "serenitys-call",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the pasive. Performs similarly to **[[weapon:splendor-of-tranquil-waters]]** in Ascendant Gleam teams.",
+                        "fr": "Ce classement suppose que [[character:furina]] **peut déclencher des réactions** pour activer le passif. Ses performances sont similaires à celles de **[[weapon:splendor-of-tranquil-waters]]** dans les équipes Lueur Ascendante.",
+                        "ru": "Предполагается, что [[character:furina]] **может закрывать реакции** для активации Пассивной способности. В командах с Высшим сиянием соответствует **[[weapon:splendor-of-tranquil-waters|Блеску тихих вод]]**."
+                    }
+                },
+                {
+                    "name": "uraku-misugiri",
+                    "note": {
+                        "en": "This ranking assumes [[character:furina]] is **not paired with a [[element:geo]]** unit. If [[character:furina]] is **paired with a [[element:geo]] unit**, this weapon is better than **[[weapon:primordial-jade-cutter]]**.",
+                        "fr": "Ce classement suppose que [[character:furina]] n'est **pas jouée avec un personnage [[element:geo]]. Dans le cas contraire**, cette arme est meilleure que **[[weapon:primordial-jade-cutter]]**.",
+                        "ru": "Предполагается, что в отряде [[character:furina|Фурины]] **нет Гео персонажей**. **Если таковые имеются**, этот вариант превосходит **[[weapon:primordial-jade-cutter]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "festering-desire",
+                    "refinement": 5
+                },
+                {
+                    "name": "key-of-khaj-nisut",
+                    "note": {
+                        "en": "Three stacks of this weapon is extremely reliable as long as [[character:furina]]'s [[ability:skill]] hits opponents. It can help elevate the team's damage with its teamwide [[stat:em]] buff which can lead to it performing better than weapons listed above.",
+                        "fr": "Obtenir 3 stacks avec cette arme se fait facilement tant que le [[ability:skill]] de [[character:furina]] touche des ennemis. Cela peut aider à augmenter les dégâts de l'équipe avec son buff de [[stat:em]], ce qui peut permettre à cette arme de performer mieux que les autres options classées au dessus.",
+                        "ru": "Пока навык [[character:furina|Фурины]] атакует противников, три уровня Пассивной способности набираются достаточно стабильно. Может усилить отряд за счёт бонуса МС, благодаря чему может превосходить варианты, расположенные выше в рейтинге."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "lightbearing-moonshard"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu",
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "At **[R5]**, performs better than **[[weapon:light-of-foliar-incision]]**",
+                        "fr": "Une fois **[R5]**, devient meilleure que **[[weapon:light-of-foliar-incision]]**",
+                        "ru": "На **[R5]** превосходит **[[[weapon:light-of-foliar-incision]]**"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-blade"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:light-of-foliar-incision]]**",
+                        "fr": "Si **vous pouvez garder les PV de [[character:furina]] au dessus de 90% pendant la majorité de la rotation**, les performances de cette arme se rapprochent de celles de **[[weapon:light-of-foliar-incision]]**",
+                        "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**"
+                    }
+                }
+            ]
+        }
+    ]
+}

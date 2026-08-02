@@ -1,0 +1,26 @@
+{
+    "best": true,
+    "name": {
+        "en": "High Energy Requirement (Off-Field DPS & Buff Support)",
+        "fr": "Besoins en Énergie élevés (DPS Off-Field & Support Buff)",
+        "ru": "Карманный ДД и саппорт (высокая потребность в энергии)"
+    },
+    "notes": [
+        {
+            "en": "[[character:furina]] buffs team members with her [[ability:burst]], and deals off-field damage with her [[ability:skill]].",
+            "fr": "[[character:furina]] buff son équipe grâce à son [[ability:burst]], et inflige des dégâts en étant off-field grâce à son [[ability:skill]].",
+            "ru": "Фурина усиливает членов отряда за счёт Взрыва стихии и наносит урон из кармана навыком."
+        },
+        {
+            "en": "Because of her HP drain and [[ability:burst]] mechanics, [[character:furina]] encourages the use of teamwide healers.",
+            "fr": "A cause du drain de PV et de la mécanique de son [[ability:burst]], [[character:furina]] encourage l'utilisation de soins sur l'ensemble de l'équipe.",
+            "ru": "Механика истощения HP и фанфары побуждают использовать хилеров, способных исцелять весь отряд."
+        }
+    ],
+    "weapons": [
+        {
+            "author": "Finnyke",
+            "link": "https://drive.google.com/drive/folders/17_GSLjbwCe7JAYB1UOj96-FIdYeObRe4?usp=sharing"
+        }
+    ]
+}

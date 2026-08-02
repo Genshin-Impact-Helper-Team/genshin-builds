@@ -16,8 +16,9 @@
             {
                 "name": "cr",
                 "note": {
-                    "en": "Can be considered on the circlet if running [[weapon:favonius-greatsword]]",
-                    "fr": "Peut être considéré sur le diadèmes si jouée avec [[weapon:favonius-greatsword]]",
+                    "en": "Can be considered on the circlet if running [[weapon:favonius-greatsword]].",
+                    "fr": "Peut être considéré sur le diadèmes si jouée avec [[weapon:favonius-greatsword]].",
+                    "it": "Da considerarsi solo se utilizzi [[weapon:favonius-greatsword]].",
                     "ru": "*При использовании Двуручного меча Фавония можно использовать корону на Шанс крит. попадания"
                 }
             }

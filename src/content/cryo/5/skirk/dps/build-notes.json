@@ -29,6 +29,12 @@
             "fr": "- Rotations sans le gros [[ability:burst]] : {rot:E N5 A 2N5 C N5}",
             "it": "- Rotazione senza [[ability:burst]] carico: {rot:E N5 Q 2N5 CA N5}",
             "ru": "- Ротация без заряженного [[ability:burst|Взрыва стихии]]: {rot:E N5 Q 2N5 CA N5}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:moonweavers-dawn]]\n- [[weapon:athame-artis]]\n- [[weapon:lightbearing-moonshard]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ]
 }
