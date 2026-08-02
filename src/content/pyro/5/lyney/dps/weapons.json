@@ -64,7 +64,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking assumes one of [[character:lyney]]'s Aimed Shots hits a weak point.",
-                        "fr": "Le classement suppose qu'une des attaques chargées de [[character:lyney]] touchent un point faible."
+                        "fr": "Le classement suppose qu'une des attaques chargées de [[character:lyney]] touchent un point faible.",
+                        "ru": "Предполагается, что одна из Заряженных атак [[character:lyney]] попадает в слабое место противника."
                     }
                 }
             ]
@@ -75,14 +76,16 @@
                     "name": "range-gauge",
                     "note": {
                         "en": "Ranking assumes three stacks of the passive. At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
-                        "fr": "Le classement suppose 3 cumuls du passif. Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**."
+                        "fr": "Le classement suppose 3 cumuls du passif. Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**.",
+                        "ru": "Предполагается, нваличие 3 Меток единства. На **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
                     }
                 },
                 {
                     "name": "flower-wreathed-feathers",
                     "note": {
                         "en": "At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**."
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
                     }
                 }
             ]
