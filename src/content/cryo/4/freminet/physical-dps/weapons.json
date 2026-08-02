@@ -1,4 +1,10 @@
 {
+    "notes": [
+        {
+            "en": "Ranking assumes that Freminet is not played with significant ATK buffs such as [[character:nicole]] or [[character:bennett]]. With such buffs weapons which provide a lot of ATK% will have less value."
+            "ru": "Предполагается, что в отряде нет значительных бонусов к Силе атаки (как, например, Николь или Беннет). С подобными бонусами оружие на Силу атаки становится менее ценным."
+        }
+    ],
     "weapons": [
         {
             "items": [
