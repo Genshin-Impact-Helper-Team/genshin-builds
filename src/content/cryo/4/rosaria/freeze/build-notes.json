@@ -1,19 +1,22 @@
 {
     "name": {
         "en": "[[element:freeze]]",
-        "fr": "[[element:freeze]]"
+        "fr": "[[element:freeze]]",
+        "ru": "Заморозка"
     },
     "best": true,
     "notes": [
         {
             "en": "This build can be used on both a quickswap/sub-dps and perma-[[element:freeze]] dps [[character:rosaria]]. Generally played as a secondary DPS to an onfield [[element:freeze]] carry like [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]].",
             "fr": "Ce build peut être utilisé à la fois pour une [[character:rosaria]] quickswap/sub-DPS et une DPS perma-[[element:freeze]]. Elle est généralement jouée comme DPS secondaire auprès d'un carry [[element:freeze]] on-field comme [[character:kamisato-ayaka]], [[character:ganyu]] ou [[character:wriothesley]].",
-            "it": "Questa build può essere utilizzata sia per una Rosaria DPS a scambio rapido ('quickswap') che DPS sul campo. Generalmente viene utilizzata com DPS secondario insieme ad un DPS [[element:freeze]] sul campo come [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]]."
+            "it": "Questa build può essere utilizzata sia per una Rosaria DPS a scambio rapido ('quickswap') che DPS sul campo. Generalmente viene utilizzata com DPS secondario insieme ad un DPS [[element:freeze]] sul campo come [[character:kamisato-ayaka]], [[character:ganyu]], [[character:wriothesley]].",
+            "ru": "Эта сборка используется как у револьверной/саб ДД Розарии, так и у Розарии-ДД в отрядах Заморозки. Как правило, она играет как второй крио в отрядах с Аякой, Гань Юй или Ризли"
         },
         {
             "en": "If [[character:rosaria]] is being used with [[character:chongyun]] to infuse her [[ability:na]]s with [[element:cryo]], her [[ability:na]] talent will have higher priority than [[ability:skill]].",
             "fr": "Si [[character:rosaria]] est utilisée avec [[character:chongyun]] pour infuser ses [[ability:na]]s en [[element:cryo]], son talent d'[[ability:na]] aura une priorité plus élevée que le [[ability:skill]].",
-            "it": "Se [[character:rosaria]] viene utilizzata con [[character:chongyun]] per infondere i suoi [[ability:na|Attacchi Normali]] con [[element:cryo]], il suo talento [[ability:na]] avrà la priorità rispetto all'[[ability:skill]]."
+            "it": "Se [[character:rosaria]] viene utilizzata con [[character:chongyun]] per infondere i suoi [[ability:na|Attacchi Normali]] con [[element:cryo]], il suo talento [[ability:na]] avrà la priorità rispetto all'[[ability:skill]].",
+            "ru": "Если Розария используется вместе с Чун Юнем для Крио инфузии ее Обычных атак, они имеют больший приоритет, чем Элементальный навык"
         },
         {
             "en": "## [[note:wip-weapon]]\n- [[weapon:symphonist-of-scents]]\n- [[weapon:fractured-halo]]\n- [[weapon:disaster-and-remorse]]\n"

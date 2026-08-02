@@ -1,6 +1,10 @@
 import path from 'path';
 import translationAliases from '../data/translation-aliases.json';
-import { getBestBuildUsage, type BuildUsage } from './build-usage';
+import {
+  getBestBuildUsage,
+  getWipNoteItems,
+  type BuildUsage,
+} from './build-usage';
 import { loadJSON, readJSONFile } from './content';
 import { getLocale, t } from './i18n';
 import { resolveArtifactAssetUrl } from './item-assets';
@@ -88,7 +92,7 @@ function getArtifactSetItems(group: any) {
  * @returns Artifact set IDs mapped to characters that mention them as 4-piece.
  */
 function getArtifactSetFourPieceUsage(locale: any, lang: string) {
-  return getBestBuildUsage(locale, lang, (buildPath) => {
+  return getBestBuildUsage(locale, lang, (buildPath, buildNotes) => {
     const data = loadJSON(buildPath, 'artifacts-sets.json');
     const groups = [
       ...(data?.artifact_sets?.flatMap((entry: any, index: number) =>
@@ -102,11 +106,16 @@ function getArtifactSetFourPieceUsage(locale: any, lang: string) {
       ) ?? []),
     ];
 
-    return groups.flatMap(({ group, rank }) =>
-      getArtifactSetItems(group)
-        .filter((item) => Number(item?.pieces) === 4)
-        .map((item) => ({ id: normalizeArtifactSetItemId(item), rank })),
-    );
+    return [
+      ...groups.flatMap(({ group, rank }) =>
+        getArtifactSetItems(group)
+          .filter((item) => Number(item?.pieces) === 4)
+          .map((item) => ({ id: normalizeArtifactSetItemId(item), rank })),
+      ),
+      ...getWipNoteItems(buildNotes, 'artifact', 'set', (id) =>
+        aliases.set?.[id] ?? id,
+      ),
+    ];
   });
 }
 

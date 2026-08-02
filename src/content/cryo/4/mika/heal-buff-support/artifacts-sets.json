@@ -22,7 +22,8 @@
                             "note": {
                                 "en": "A good option if another party member is using **[[set:noblesse-oblige]] (4)**.",
                                 "fr": "Une bonne option si un autre membre de l'équipe utilise **[[set:noblesse-oblige]] (4)**.",
-                                "it": "Questo set è una buona opzione se un altro personaggio nel team sta già utilizzando **[[set:noblesse-oblige]] (4)**."
+                                "it": "Questo set è una buona opzione se un altro personaggio nel team sta già utilizzando **[[set:noblesse-oblige]] (4)**.",
+                                "ru": "Неплохой вариант, если в отряде уже есть носитель **[[set:noblesse-oblige|Церемонии древней знати]] (4)**."
                             }
                         }
                     ]
@@ -63,7 +64,8 @@
                             "note": {
                                 "en": "Not very helpful for teams that focus on [[stat:physical-dmg]].",
                                 "fr": "Pas très utile pour les équipes centrées sur les [[stat:physical-dmg]].",
-                                "it": "Questo set non è utile in team che si concentrano sui danni Fisici."
+                                "it": "Questo set non è utile in team che si concentrano sui danni Fisici.",
+                                "ru": "Малополезен в командах с фокусом на Физический урон."
                             }
                         }
                     ]
