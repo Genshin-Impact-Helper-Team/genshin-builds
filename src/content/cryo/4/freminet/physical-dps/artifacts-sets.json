@@ -17,6 +17,22 @@
                 {
                     "items": [
                         {
+                            "name": "disenchantment-in-deep-shadow",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "This ranking assumes that the team can reliably trigger suprconduct. Otherwise, this set is not worth considering.",
+                                "ru": "Предполагается, что отряд способен надёжно вызывать Сверхпроводник. В противном случае этот сет не стоит использовать."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "physical-set",
                             "pieces": 2
                         }
