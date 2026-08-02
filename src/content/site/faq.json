@@ -23,11 +23,13 @@
         {
             "question": {
                 "en": "Why a new website instead of a Google Sheet?",
+                "fr": "Pourquoi un nouveau site au lieu du Google Sheet?",
                 "it": "Perché un nuovo sito web al posto del Foglio Google?",
                 "ru": "Почему вы переехали на новый сайт, а не остались на табличной версии?"
             },
             "answer": {
                 "en": "The Doc Team has decided that it was time to modernize the guide and allow for easy guide translations. We also decided that Google Sheets is just... just terrible.",
+                "fr": "L'équipe a décidé qu'il était temps de moderniser le guide et de le rendre plus simple à traduire. Nous avons aussi décidé que Google Sheets est juste... nul.",
                 "it": "Il team ha deciso che era giunto il momento di modernizzare la guida e di facilitarne la traduzione. Abbiamo anche deciso che Google Sheets è semplicemente... semplicemente terribile.",
                 "ru": "Команда решила, что пришла пора обновить руководство и упростить доступ к переводу. Помимо этого, мы считаем что Google Таблицы попросту ужасны."
             }
@@ -35,31 +37,37 @@
         {
             "question": {
                 "en": "Will you go back to the old sheet?",
+                "fr": "Est-ce que vous reviendrez sur l'ancien gsheet?",
                 "it": "Tornerete al vecchio sito?",
                 "ru": "Вы вернетесь к старой таблице?"
             },
             "answer": {
-                "en": "Very very unlikely. We understand that changing to a brand new location and adapting to a whole new layout can be difficult. However, we are constantly improving the site as we go. The old sheet will still be available to the public, however it will no longer be maintained."
+                "en": "Very very unlikely. We understand that changing to a brand new location and adapting to a whole new layout can be difficult. However, we are constantly improving the site as we go. The old sheet will still be available to the public, however it will no longer be maintained.",
+                "fr": "Il y a très peu de chances. Nous comprenons que s'adapter au nouveau site peut être compliqué, cependant nous améliorons le site constamment. L'ancien gsheet restera accessible mais ne sera plus mis à jour."
             }
         },
         {
             "question": {
                 "en": "How many supported translation languages are there?",
+                "fr": "En combien de langues avez-vous traduit le site?",
                 "it": "Quante lingue sono supportate?",
                 "ru": "Сколько в проекте поддерживаемых языков?"
             },
             "answer": {
-                "en": "The current supported languages are found in the dropdown menu at the top of the page. Not all languages are fully translated, but we are working on it."
+                "en": "The current supported languages are found in the dropdown menu at the top of the page. Not all languages are fully translated, but we are working on it.",
+                "fr": "Les langues supportées se trouvent dans le menu déroulant en haut à droite de la page. Toutes les notes ne sont actuellement pas traduites dans toutes les langues, mais nous y travaillons."
             }
         },
         {
             "question": {
                 "en": "Can you add Baseline Stats and Statgoals?",
+                "fr": "Est-ce que vous pouvez ajouter les stats idéales à atteindre?",
                 "it": "Potete includere obiettivi di stat ideali da raggiungere?",
                 "ru": "Можно ли добавить базовые и целевые характеристики для каждого персонажа?"
             },
             "answer": {
-                "en": "No. Because gearing weapons and artifacts will vary from account to account, alongside endgame modes' mechanics shifting and enemies' HP values fluctuating, it's very difficult to ascertain baseline stats and statgoals for every character in every scenario."
+                "en": "No. Because gearing weapons and artifacts will vary from account to account, alongside endgame modes' mechanics shifting and enemies' HP values fluctuating, it's very difficult to ascertain baseline stats and statgoals for every character in every scenario.",
+                "fr": "Non. Les armes et artéfacts équipés varient d'un compte à l'autre, les mécaniques des différents modes endgame et les PV des ennemis varient énormément aussi, ce qui rend très difficile le fait de donner une stat exacte à atteindre pour chaque personnage dans chaque scénario."
             }
         },
         {
@@ -70,7 +78,8 @@
                 "ru": "Персонаж А только что вышел, но его нет на сайте, где его найти?"
             },
             "answer": {
-                "en": "Please understand that it does take about a week, potentially more, for testing on live servers to happen. The guide contributors are actively working hard to gather relevant information for said character. We can add characters as WIP, however their sections won't be available until the content is ready. Please do not use the feedback form as a method of demanding a character to be added."
+                "en": "Please understand that it does take about a week, potentially more, for testing on live servers to happen. The guide contributors are actively working hard to gather relevant information for said character. We can add characters as WIP, however their sections won't be available until the content is ready. Please do not use the feedback form as a method of demanding a character to be added.",
+                "fr": "Gardez en tête que les tests en jeu peuvent prendre une semaine (voire plus). Les contributeurs du guide travaillent dur pour récolter les informations nécessaires à l'élaboration de chaque guide. Nous pouvons ajouter les personnages en tant que WIP, mais leur section ne sera disponible que lorsque le contenu sera prêt. S'il vous plaît, n'utilisez pas le formulaire de Feedback pour demander l'ajout d'un nouveau personnage."
             }
         },
         {
@@ -81,8 +90,8 @@
                 "ru": "Когда вы обновите персонажа А? Раздел устарел!"
             },
             "answer": {
-                "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours.",
-                "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre.",
+                "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours. You can browse our [Update Priority List](https://github.com/orgs/Genshin-Impact-Helper-Team/projects/1) to see if a build is due for an update soon.",
+                "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre. Vous pouvez consulter notre [Liste de Priorité des MàJ](https://github.com/orgs/Genshin-Impact-Helper-Team/projects/1) pour voir si un build est prévu d'être mis à jour bientôt.",
                 "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro.",
                 "ru": "Некоторых персонажей довольно сложно обновить из-за их неучастия в эндгейм-контенте, но команда старается со временем обновлять всех. В игре более сотни персонажей, и нашей довольно небольшой команде может быть непросто поддерживать всех в актуальном состоянии."
             }
@@ -95,7 +104,8 @@
                 "ru": "Где достать оружие и артефакты, перечисленные в гайде?"
             },
             "answer": {
-                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom. (For example: Craft, Wish, Event, Fishing, etc.). For a more in-depth guide on acquisition methods, check out the Genshin Fandom Wiki."
+                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom (For example: Craft, Wish, Event, Fishing, etc.). For a more in-depth guide on acquisition methods, check out the [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki).",
+                "fr": "Si vous survolez une arme sur un des guides, vous pourrez voir son détail ainsi qu'une catégorie d'obtention (par exemple: Forge, Voeux, Event, Pêche etc.). Pour plus de détails sur la méthode d'obtention, vous pouvez consulter le [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)."
             }
         },
         {
@@ -121,9 +131,10 @@
             },
             "answer": {
                 "en": "The build guide focuses on optimizing character builds that best suit their desired playstyle and scalings. In other words, builds that the character functions best with. It wouldn't be in best interest to bloat the guide with meme builds such as Physical Zhongli or Machine Gun Gorou.",
+                "fr": "Les guides se concentrent sur optimiser le build des personnages qui conviennent le mieux à leur style de jeu et leurs ratios. En d'autres termes, les meilleurs builds pour chaque personnage. Il ne serait pas judicieux de remplir les guides de builds troll comme Zhongli Physique ou MachineGun Gorou.",
                 "it": "La guida alle build si concentra sull'ottimizzazione delle build dei personaggi che meglio si adattano al loro kit e stile di gioco e che dunque offrono le migliori prestazioni. Non sarebbe opportuno appesantire la guida con build “meme” come Zhongli fisico o Gorou mitragliatore.",
                 "ru": "Руководство предназначено для оптимальных билдов, наиболее подходящих под роль персонажа и его скейлы. Иными словами, это наиболее эффективные сборки для конкретного персонажа. Добавлять мемные сборки вроде физ Чжун Ли или machine gun Горо (пулемёт) нецелесообразно."
-        }
+            }
         },
         {
             "question": {
@@ -161,9 +172,9 @@
                 "ru": "Можете ли вы создать раздел для невышедших/анонсированных персонажей?"
             },
             "answer": {
-                "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters. Please see the Legal FAQ for more information.",
-                "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles.",
-                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**. Per ulteriori informazioni, consulta Domande legali frequenti.",
+                "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters. Please see the [Genshin Terms of Service](https://genshin.hoyoverse.com/en/company/terms) for more information.",
+                "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles. Veuillez lire les [Conditions Générales d'Utilisation de Genshin](https://genshin.hoyoverse.com/fr/company/terms) pour plus d'informations.",
+                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**. Per ulteriori informazioni, consulta [Domande legali frequenti](https://genshin.hoyoverse.com/it/company/terms).",
                 "ru": "Руководство НЕ СОДЕРЖИТ утечки или материалы с бета-тестирования. Только релизный контент. Мы не можем и не будем создавать раздел для невышедших персонажей."
             }
         },
@@ -189,10 +200,10 @@
                 "ru": "Что за странные буквы/цифры в описании комбо и ротаций?"
             },
             "answer": {
-                "en": "When referring to something such as N3E (as an example), the doc is talking about using 3 Normal Attacks, and then Elemental Skill. For simplification reasons, the doc roughly uses the default keybinds on PC to represent abilities. Below you can find a legend of commonly used keys and their meaning:\n\nN(x) = Normal Attack; x = number of times to attack within a character's attack string\nC = Charged Attack\nE = Elemental Skill\ntE = Tap Skill\nhE = Hold Skill\nQ = Elemental Burst\nJ = Jump\nD = Dash/Dodge (This is just a quick tap of the sprint button)\nP = Plunge\nx[combo]; x = number of times to repeat said combo",
-                "fr": "Lorsque l'on utilise des combinaisons comme N3E (par exemple), cela veut dire d'utiliser 3 Attaques normales puis le skill. Pour simplifier l'écriture, ce guide utilisera les touches utilisées sur PC pour représenter les aptitudes. Vous trouverez ci-dessous une légende de ces termes:\n\nN = Attaque normale\n\nC = Attaque chargée\n\nE = Skil\n\ntE = Tap Skill\n\nhE = Skill appuyé\n\nA = Ulti\n\nJ = Saut\n\nD = Sprint/Esquive (Juste un appui rapide sur le bouton pour sprint)\n\nP = Attaque plongeante\n\nx[combo]; x = nombre de fois où l'on répète le combo",
-                "it": "Le lettere corrispondono alle scorciatoie da tastiera di default per le diverse abilità dei personaggi. Elenchiamo quelle più utilizzate:\n\n**N** o **NA** = Attacco Normale\n**N(x)** = Attacco Normale ripetuto x volte\n**C** o **CA** = Attacco Caricato\n**E** = Abilità Elementale\n**tE** = premere l'Abilità\n**hE** = tenere premuta l'Abilità\n**Q** = Tripudio Elementale\n**J** = Salto\n**D** = Scatto (Dash/Dodge)\n**P** = Attacco in picchiata\n**x[combo]** = = combo ripetuta x volte; ad esempio, 3N2Q indica una combo di 3 Attacchi Normali seguiti da un Tripudio Elementale, ripetuta 3 volte.",
-                "ru": "Для примера: N3E в описании ротации означает, что используется последовательность из 3 Обычных атак и Элементального навыка. Для удобства все навыки обозначены стандартными клавишами ПК для соответствующих действий. Полный список ниже: \n\nN(x) = Обычная атака; x = количество последовательных атак из цепочки\nC = Заряженная атака\nE = Элементальный навык\ntE = короткое нажатие Элементального навыка\nhE = долгое нажатие Элементального навыка\nQ = Взрыв стихии\nJ = Прыжок\nD = Рывок/Уклонение (короткое нажатие на кнопку спринта)\nP = Атака в падении\nx[комбо]; x = количество повторений комбо"
+                "en": "For simplification reasons, the doc roughly uses the default keybinds on PC to represent abilities. Below you can find a legend of commonly used keys and their meaning:\n\n**N/NA** = Normal Attack\n**E** = Elemental Skill (tE = Tap; hE = Hold)\n**Q/Ult/A** = Elemental Burst\n**C/CA** = Charged Attack\n**P** = Plunge Attack (HP = High Plunge; LP = Low Plunge)\n**D** = Dash\n**J** = Jump\n**W** = Walk\n**(text)** = Parenthesis/brackets may be used to specify when actions are performed less frequently, such as on the first rotation only, when available, or when optional.\n\nNumbers are sometimes used to specify the number of times an action is performed.\n\n**N#** = Normal Attack # times\n**#[combo]** = repeat combo # times\n\nFor example, 5N2CJP should be understood as performing two Normal Attacks into a Charged Attack followed by a Jump and Plunge Attack, five times.",
+                "fr": "Pour simplifier, le document utilise les touches PC par défaut pour représenter les aptitudes. Vous trouverez ci-dessous une légende des touches courantes et de leur signification :\n\n**N/NA** = Attaque normale\n**E** = Skill (tE = appui court ; hE = appui long)\n**Q/Ult/A** = Ulti\n**C/CA** = Attaque chargée\n**P** = Attaque plongeante (HP = plunge haute ; LP = plunge basse)\n**D** = Sprint\n**J** = Saut\n**W** = Marche\n**(text)** = Les parenthèses/crochets peuvent être utilisés pour préciser quand des actions sont effectuées moins fréquemment, par exemple uniquement lors de la première rotation, quand disponible, ou quand optionnel.\n\nLes nombres sont parfois utilisés pour préciser le nombre de fois qu'une action est effectuée.\n\n**N#** = Attaque normale # fois\n**#[combo]** = répéter le combo # fois\n\nPar exemple, 5N2CJP doit être compris comme deux Attaques normales suivies d'une Attaque chargée, puis d'un Saut et d'une Attaque plongeante, le tout cinq fois.",
+                "it": "Le lettere corrispondono alle scorciatoie da tastiera di default per le diverse abilità dei personaggi. Elenchiamo quelle più utilizzate:\n\n**N/NA** = Attacco Normale\n**E** = Abilità Elementale (tE = Cliccare; hE = Tenere premuta)\n**Q/Ult/A** = Tripudio Elementale\n**C/CA** = Attacco Caricato\n**P** = Attacco in picchiata (HP = Picchiata alta; LP = Picchiata bassa)\n**D** = Scatto\n**J** = Salto\n**W** = Camminare\n**(text)** = Le parentesi sono utilizzate per indicare azioni da compiere meno frequentemente, ad esempio solo durante la prima rotazione, quando disponibili, od opzionali.\n\nI numeri sono utilizzati per specificare quante volte deve essere compiuta un'azione.\n\n**N#** = Attacco Normale ripetuto # volte\n**#[combo]** = Ripeti combo # volte\n\nAd esempio, 5N2CJP indica una **combo** composta da due Attacchi Normali ed un Attacco Caricato seguiti da un Salto ed un Attacco in picchiata, **ripetuta cinque volte**.",
+                "ru": "Для удобства все навыки обозначены стандартными клавишами ПК для соответствующих действий. Полный список ниже:\n\n**N/NA** = Обычная атака\n**E** = Элементальный навык (tE = короткое нажатие; hE = долгое нажатие)\n**Q/Ult/A** = Взрыв стихии\n**C/CA** = Заряженная атака\n**P** = Атака в падении (HP = высокая; LP = низкая)\n**D** = Рывок\n**J** = Прыжок\n**W** = Ходьба\n**(text)** = Круглые/квадратные скобки могут использоваться для обозначения действий, выполняемых реже обычного: только в первой ротации, при наличии возмжности или по желанию.\n\nЦифры могут использоваться для указания того, сколько раз нужно выполнить действие.\n\n**N#** = Повторить атаку # раз\n**#[combo]** = Повторить комбо # раз\n\nНапример, 5N2CJP - это последовательное выполнение 2-х обычных атак, заряженной атаки, прыжка и атаки в падении,  весь цикл нужно повторить 5 раз."
             }
         },
         {
@@ -203,7 +214,8 @@
                 "ru": "Есть ли F2P варианты оружия для персонажей?"
             },
             "answer": {
-                "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, Fishing,  or the easily obtainable 3* Gacha Weapons. F2P options for characters are highlighted within their sections."
+                "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, Fishing, or the easily obtainable 3* Gacha Weapons. F2P options for characters are highlighted within their sections.",
+                "fr": "Oui. L'équipe s'assure de toujours lister au moins 1 option F2P accessible de façon permanente pour chaque personnage, même si cette option n'est pas la meilleure pour eux. Les armes accessibles de façon permanentes comprennent les armes de la forge, des coffres à Mondstadt/Liyue, celles obtenues pendantes les qauêtes, la pêche, ou les armes 3* des voeux. Les options F2P sont surlignées dans la section Armes de chaque build."
             }
         },
         {
