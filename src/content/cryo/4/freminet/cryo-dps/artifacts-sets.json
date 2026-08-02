@@ -28,6 +28,10 @@
                         {
                             "name": "golden-troupe",
                             "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
                         }
                     ]
                 },
@@ -35,6 +39,14 @@
                     "items": [
                         {
                             "name": "golden-troupe",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
                             "pieces": 4
                         }
                     ]
@@ -49,9 +61,32 @@
                     "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set.",
-                        "fr": "S'il est utilisé avec [[character:furina]], c'est le meilleur set d'artéfacts de [[character:freminet]].",
-                        "it": "Se utilizzato con [[character:furina]], questo è il set migliore per [[character:freminet]]."
+                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "ru": "Лучший выбор при игре с Фуриной. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "night-of-skys-unveiling",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "ru": "Лучший выбор при игре в отрядах с Высшим сиянием. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "gilded-dreams",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Can be used in teams where [[character:freminet]] either frequantly triggers [[reaction:shatter]] or can trigger [[reaction:melt]], in which cases it's equal to **[[artifact:golden-troupe]]**.",
+                        "ru": "Можно использовать в командах, где Фреминет часто закрывает реакцию \"Разбит\" или может закрывать Таяние. При этом соответствует **[[artifact:golden-troupe|Золотой труппе]]**."
                     }
                 }
             ]
