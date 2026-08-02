@@ -127,11 +127,11 @@
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes inactive passive",
-                        "ru": "Предполагается, что Пассивная способность не активирована"
+                        "en": "Assumes inactive passive. With half of the passive active can perform similarly to **[[weapon:prototype-archaic]]**.",
+                        "ru": "Предполагается, что Пассивная способность не активирована. С наполовину активной Пассивной способностью соответствует **[[weapon:prototype-archaic|Прототипу: архаичный]]**."
                     }
                 },
-                "blackcliff-slasher",
+                "blackcliff-slasher"
             ]
         }
     ]
