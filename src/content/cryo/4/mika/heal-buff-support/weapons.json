@@ -7,7 +7,8 @@
                     "note": {
                         "en": "Keep in mind that without his C4, it can be very difficult to meet his [[stat:er]] needs to [[ability:burst]] every rotation and make full use of this weapon.",
                         "fr": "Gardez en tête que sans sa C4, il peut être très difficile d'atteindre ses besoins en [[stat:er]] pour utiliser son [[ability:burst]] à chaque rotation et exploiter pleinement cette arme.",
-                        "it": "Tieni presente che senza la [C4] di Mika può essere molto difficile accumulare [[stat:er]] sufficiente ad utilizzare il [[ability:burst]] ad ogni rotazione per sfruttare appieno quest'arma."
+                        "it": "Tieni presente che senza la [C4] di Mika può essere molto difficile accumulare [[stat:er]] sufficiente ad utilizzare il [[ability:burst]] ad ogni rotazione per sfruttare appieno quest'arma.",
+                        "ru": "Стоит принимать во внимание, что до [C4] может быть сложно достичь потребностей в энергии для использования Взрыва стихий каждую ротацию, чтобы в полной мере использовать это оружие"
                     }
                 },
                 {
@@ -15,7 +16,8 @@
                     "note": {
                         "en": "This is often [[character:mika]]'s best in slot option, as both an [[stat:er]] weapon and one with a useful passive which generates particles on Crit. Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
                         "fr": "C'est souvent la meilleure option de [[character:mika]], à la fois comme arme de [[stat:er]] et comme arme au passif utile qui génère des particules sur coup CRIT. Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
-                        "it": "Questa è spesso l'opzione migliore per [[character:mika]], grazie alla [[stat:er]] fornita ed alla passiva utile per il team. Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
+                        "it": "Questa è spesso l'opzione migliore per [[character:mika]], grazie alla [[stat:er]] fornita ed alla passiva utile per il team. Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]].",
+                        "ru": "Зачастую лучший вариант - дает [[stat:er]] Мике и обладает полезной пассивной способностью, генерирующей энергию для отряда. Оружие с ВЭ-статами в приоритете для использования Взрыва стихии по откату."
                     }
                 }
             ]
@@ -32,7 +34,8 @@
                     "note": {
                         "en": "Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
                         "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
-                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
+                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]].",
+                        "ru": "Оружие с ВЭ-статами в приоритете для использования Взрыва стихии по откату."
                     }
                 }
             ]
@@ -44,7 +47,8 @@
                     "note": {
                         "en": "Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
                         "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
-                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
+                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]].",
+                        "ru": "Оружие с ВЭ-статами в приоритете для использования Взрыва стихии по откату."
                     }
                 },
                 {
@@ -52,7 +56,8 @@
                     "note": {
                         "en": "Weapons which provide [[stat:er]] are prioritized to ensure good [[ability:burst]] uptime.",
                         "fr": "Les armes qui fournissent de la [[stat:er]] sont priorisées pour assurer un bon uptime de l'[[ability:burst]].",
-                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]]."
+                        "it": "Le armi che forniscono [[stat:er]] vengono priorizzate per garantire un buon tempo di funzionamento del [[ability:burst]].",
+                        "ru": "Оружие с ВЭ-статами в приоритете для использования Взрыва стихии по откату."
                     }
                 },
                 "rightful-reward"
