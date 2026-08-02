@@ -2096,6 +2096,10 @@
             "base_attack": 0,
             "substat_value": "-"
         },
+        "level_max": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
         "r1": [],
         "r2": [],
         "r3": [],
@@ -2120,6 +2124,10 @@
             "base_attack": 0,
             "substat_value": "-"
         },
+        "level_max": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
         "r1": [],
         "r2": [],
         "r3": [],
@@ -2140,6 +2148,10 @@
         },
         "substat": "-",
         "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
             "base_attack": 0,
             "substat_value": "-"
         },
