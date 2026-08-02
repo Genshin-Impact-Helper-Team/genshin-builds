@@ -92,7 +92,7 @@
                         },
                         {
                             "name": "blizzard-strayer",
-                            "pieces" 4,
+                            "pieces": 4,
                             "note": {
                                 "en": "In teams which can consistently freeze enemies can perform better than 2pc combinations.",
                                 "ru": "В командах, способных поддерживать заморозу на противниках, может превосходить 2х комбинации."
@@ -100,7 +100,7 @@
                         },
                         {
                             "name": "gilded-dreams",
-                            "pieces" 4,
+                            "pieces": 4,
                             "note": {
                                 "en": "If [[character:freminet]] can frequently trigger [[reaction:shatter]], this set can perform better than 2pc combinations. If [[character:freminet]] can't reliably trigger [[reaction:shatter]], this set is not worth considering.",
                                 "ru": "Если Фремине может часто закрывать реакцию \"Разбит\", может превосходить 2х комбинации. При невозможности стабильно закрывать \"Разбит\" этот сет не стоит использовать."
