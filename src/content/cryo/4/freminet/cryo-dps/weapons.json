@@ -59,15 +59,15 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "With [[stat::er]] requirements of ~120% can perform similarly to **[[weapon:wolf-gravestone]]**. With high [[stat::er]] requirements can perform similarly to **[[weapon:verdict]]**.",
-                        "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:wolf-gravestone|Волчьей погибели]]**. При высоких потребностях в энергии соответствует **[[weapon:verdict|Вердикту]]**."
+                        "en": "With [[stat::er]] requirements of ~120% can perform similarly to **[[weapon:wolfs-gravestone]]**. With high [[stat::er]] requirements can perform similarly to **[[weapon:verdict]]**.",
+                        "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. При высоких потребностях в энергии соответствует **[[weapon:verdict|Вердикту]]**."
                     }
                 },
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "Assumes 3 stacks. With 5 stacks performs similarly to **[[weapon:wolf-gravestone]]**. With 5 stacks at **[R5]** this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
-                        "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolf-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
+                        "en": "Assumes 3 stacks. With 5 stacks performs similarly to **[[weapon:wolfs-gravestone]]**. With 5 stacks at **[R5]** this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
                     }
                 },
                 {
@@ -93,7 +93,7 @@
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
                     "note": {
-                        "en": "With high [[stat::er]] requirements can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "en": "With high [[stat:er]] requirements can perform similarly to **[[weapon:serpent-spine]]**.",
                         "ru": "При высоких потребностях в энергии соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }
