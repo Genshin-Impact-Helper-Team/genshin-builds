@@ -2,14 +2,16 @@
     "name": {
         "en": "Reverse [[element:melt]]",
         "fr": "[[element:melt]] inversée",
-        "it": "[[element:melt]] Inversa"
+        "it": "[[element:melt]] Inversa",
+        "ru": "Обратное таяние"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:kaeya]] is both a good DPS and battery in Reverse [[element:melt]] teams. His Damage contribution comes from both [[ability:burst]] hits as well as occasional melted [[ability:skill]]s.",
             "fr": "[[character:kaeya]] est à la fois un bon DPS et une bonne batterie dans les équipes [[element:melt|Fonte inversée]]. Sa contribution aux dégâts vient à la fois des coups de son [[ability:burst]] ainsi que de [[ability:skill|Skills]] déclenchant occasionnellement [[element:melt]].",
-            "it": "[[character:kaeya]] è sia un **buon DPS** che una **buona batteria** in team [[element:melt]] Inversa. Il suo contributo di danni deriva sia dai colpi del [[ability:burst]] che dalle [[ability:skill]] che occasionalmente provocano [[element:melt]]."
+            "it": "[[character:kaeya]] è sia un **buon DPS** che una **buona batteria** in team [[element:melt]] Inversa. Il suo contributo di danni deriva sia dai colpi del [[ability:burst]] che dalle [[ability:skill]] che occasionalmente provocano [[element:melt]].",
+            "ru": "Кэйа является отличным источником урона и одновременно батарейкой в командах Обратного таяния. Его урон в них зависит как от Взрыва стихии, так Элементального навыка."
         },
         {
             "en": "## [[note:wip-weapon]]\n- [[weapon:azurelight]]\n- [[weapon:moonweavers-dawn]]\n- [[weapon:athame-artis]]\n"

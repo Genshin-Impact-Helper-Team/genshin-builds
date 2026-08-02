@@ -18,7 +18,8 @@
                     "note": {
                         "en": "Due to [[character:charlotte]]'s high [[stat:er]] needs, this weapon may not be suitable to run in some teams.",
                         "fr": "En raison des besoins élevés de [[character:charlotte]] en [[stat:er]], cette arme peut ne pas convenir dans certaines équipes.",
-                        "it": "A causa degli elevati requisiti di [[stat:er]] di [[character:charlotte]], quest’arma potrebbe non essere utilizzabile in alcuni team."
+                        "it": "A causa degli elevati requisiti di [[stat:er]] di [[character:charlotte]], quest’arma potrebbe non essere utilizzabile in alcuni team.",
+                        "ru": "Из-за высокой потребности [[character:charlotte|Шарлотты]] в энергии может не подойти ей в некоторых отрядах."
                     }
                 }
             ]
@@ -34,7 +35,8 @@
                     "note": {
                         "en": "It is very important to sprint before casting [[character:charlotte]]'s [[ability:burst]] so that she gains the extra [[stat:atk%]] for her [[ability:burst]].",
                         "fr": "Il est très important de sprinter avant de lancer l'[[ability:burst]] de [[character:charlotte]] afin qu'elle obtienne l'[[stat:atk%]] supplémentaire pour son [[ability:burst]].",
-                        "it": "È molto importante utilizzare uno **scatto** (dash/sprint) prima di usare il [[ability:burst]] di [[character:charlotte]], così da ottenere il bonus all'[[stat:atk%]]."
+                        "it": "È molto importante utilizzare uno **scatto** (dash/sprint) prima di usare il [[ability:burst]] di [[character:charlotte]], così da ottenere il bonus all'[[stat:atk%]].",
+                        "ru": "Важно использовать спринт перед [[ability:burst|Взрывом стихии]] [[character:charlotte|Шарлотты]] для увеличения [[stat:atk%|Силы атаки]]."
                     }
                 }
             ]

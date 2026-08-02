@@ -1,6 +1,10 @@
 import path from 'path';
 import translationAliases from '../data/translation-aliases.json';
-import { getBestBuildUsage, type BuildUsage } from './build-usage';
+import {
+  getBestBuildUsage,
+  getWipNoteItems,
+  type BuildUsage,
+} from './build-usage';
 import { loadJSON, readJSONFile } from './content';
 import { getLocale, t } from './i18n';
 import { resolveWeaponAssetUrl } from './item-assets';
@@ -117,15 +121,18 @@ function normalizeWeaponItemId(item: any) {
  * @returns Weapon IDs mapped to the characters that rank them.
  */
 function getWeaponRankingUsage(locale: any, lang: string) {
-  return getBestBuildUsage(locale, lang, (buildPath) =>
-    (loadJSON(buildPath, 'weapons.json')?.weapons ?? []).flatMap(
+  return getBestBuildUsage(locale, lang, (buildPath, buildNotes) => [
+    ...(loadJSON(buildPath, 'weapons.json')?.weapons ?? []).flatMap(
       (group: any, index: number) =>
         (group.items ?? []).map((item: any) => ({
           id: normalizeWeaponItemId(item),
           rank: index + 1,
         })),
     ),
-  );
+    ...getWipNoteItems(buildNotes, 'weapon', 'weapon', (id) =>
+      aliases.weapon?.[id] ?? id,
+    ),
+  ]);
 }
 
 /**
