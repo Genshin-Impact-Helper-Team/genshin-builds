@@ -19,7 +19,8 @@
                 {
                     "name": "thrilling-tales-of-dragon-slayers",
                     "note": {
-                        "en": "Great weapon for support build."
+                        "en": "Great weapon for support build.",
+                        "fr": "Très bonne arme pour un build support."
                     }
                 }
             ]
@@ -29,7 +30,8 @@
                 {
                     "name": "hakushin-ring",
                     "note": {
-                        "en": "Use only if the team has Electro-based elemental reactions."
+                        "en": "Use only if the team has [[element:electro]]-based elemental reactions.",
+                        "fr": "A n'utiliser que si l'équipe se joue avec des réactions tournant autour de l'[[element:electro]]."
                     }
                 }
             ]

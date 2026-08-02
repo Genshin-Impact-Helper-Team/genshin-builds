@@ -16,7 +16,8 @@
             {
                 "name": "em",
                 "note": {
-                    "en": "[[character:ifa]] prefers to go [[stat:em]] if team is reaction-based."
+                    "en": "Prioritize [[stat:em]] if team is reaction-based.",
+                    "fr": "Priorisez la [[stat:em]] si l'équipe est basée sur les réactions."
                 }
             }
         ]
