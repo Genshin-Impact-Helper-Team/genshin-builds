@@ -59,7 +59,7 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "With [[stat::er]] requirements of ~120% can perform similarly to **[[weapon:wolfs-gravestone]]**. With high [[stat::er]] requirements can perform similarly to **[[weapon:verdict]]**.",
+                        "en": "With [[stat:er]] requirements of ~120% can perform similarly to **[[weapon:wolfs-gravestone]]**. With high [[stat::er]] requirements can perform similarly to **[[weapon:verdict]]**.",
                         "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. При высоких потребностях в энергии соответствует **[[weapon:verdict|Вердикту]]**."
                     }
                 },
