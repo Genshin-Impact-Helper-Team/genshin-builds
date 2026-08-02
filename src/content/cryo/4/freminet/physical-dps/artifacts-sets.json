@@ -74,8 +74,8 @@
                             "name": "a-day-carved-from-rising-winds",
                             "pieces": 4,
                             "note": {
-                                "en": "Can perform better than **[[artifact:golden-troupe]]** when [[character:freminet]] lacks ATK",
-                                "ru": "Может превосходить **[[artifact:golden-troupe|Золотую труппу]]** при недостатке Силы атаки"
+                                "en": "Can perform better than **[[artifact:golden-troupe]]** when [[character:freminet]] lacks ATK.",
+                                "ru": "Может превосходить **[[artifact:golden-troupe|Золотую труппу]]** при недостатке Силы атаки."
                             }
                         }
                     ]
@@ -94,16 +94,16 @@
                             "name": "blizzard-strayer",
                             "pieces" 4,
                             "note": {
-                                "en": "In teams which can consistently freeze enemies can perform better than",
-                                "ru": "В командах, способных поддерживать заморозу на противниках, может превосходить 2х комбинации"
+                                "en": "In teams which can consistently freeze enemies can perform better than 2pc combinations.",
+                                "ru": "В командах, способных поддерживать заморозу на противниках, может превосходить 2х комбинации."
                             }
                         },
                         {
                             "name": "gilded-dreams",
                             "pieces" 4,
                             "note": {
-                                "en": "If [[character:freminet]] can frequently trigger [[reaction:shatter]], this set can perform better than . If [[character:freminet]] can't reliably trigger [[reaction:shatter]] and [[reaction:superconduct]], this set is not worth considering",
-                                "ru": "Если Фремине может часто закрывать реакцию \"Разбит\", может превосходить 2х комбинации. При невозможности стабильно закрывать \"Разбит\" или Сверхпроводник этот сет не стоит использовать"
+                                "en": "If [[character:freminet]] can frequently trigger [[reaction:shatter]], this set can perform better than 2pc combinations. If [[character:freminet]] can't reliably trigger [[reaction:shatter]], this set is not worth considering.",
+                                "ru": "Если Фремине может часто закрывать реакцию \"Разбит\", может превосходить 2х комбинации. При невозможности стабильно закрывать \"Разбит\" этот сет не стоит использовать."
                             }
                         }
                     ]
@@ -118,10 +118,22 @@
                     "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat",
+                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
                         "fr": "S'il est utilisé avec [[character:furina]], c'est le meilleur set d'artéfacts de [[character:freminet]].",
                         "it": "Se utilizzato con [[character:furina]], questo è il set migliore per [[character:freminet]].",
                         "ru": "Лучший выбор при игре с Фуриной. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "ru": "Лучший выбор при игре в отрядах с Высшим сиянием. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
                     }
                 }
             ]
