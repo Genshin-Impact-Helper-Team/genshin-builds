@@ -51,7 +51,7 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "With [[stat::er]] requirements of ~120% can perform similarly to **[[weapon:redhorn-stonethresher]]**. With high [[stat::er]] requirements can perform similarly to **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "en": "With [[stat:er]] requirements of ~120% can perform similarly to **[[weapon:redhorn-stonethresher]]**. With high [[stat:er]] requirements can perform similarly to **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**. При высоких потребностях в энергии соответствует **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 },
@@ -70,8 +70,8 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "Assumes 3 stacks. With 5 stacks performs similarly to **[[weapon:wolf-gravestone]]**. With 5 stacks at **[R5]** this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
-                        "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolf-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
+                        "en": "Assumes 3 stacks. With 5 stacks performs similarly to **[[weapon:wolfs-gravestone]]**. With 5 stacks at **[R5]** this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
                     }
                 },
                 {
@@ -90,7 +90,7 @@
                     "name": "mailed-flower",
                     "refinement": 5,
                     "note": {
-                        "en": "If [[character:freminet]] cannot frequently trigger [[reaction:shatter]], this weapon is not worth considering.",
+                        "en": "If [[character:freminet]] cannot frequently trigger [[element:shatter]], this weapon is not worth considering.",
                         "ru": "Если Фремине не может часто закрывать реакцию \"Разбит\", это оружие не стоит использовать."
                     }
                 },
@@ -116,7 +116,7 @@
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
                     "note": {
-                        "en": "With [[stat::er]] requirements of ~120% can perform similarly to **[[weapon:prototype-archaic]**. With high [[stat::er]] requirements can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "en": "With [[stat:er]] requirements of ~120% can perform similarly to **[[weapon:prototype-archaic]**. With high [[stat:er]] requirements can perform similarly to **[[weapon:serpent-spine]]**.",
                         "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:prototype-archaic|Прототипу: архаичный]]**. При высоких потребностях в энергии соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }
