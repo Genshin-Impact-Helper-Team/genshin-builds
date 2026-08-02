@@ -74,8 +74,8 @@
                             "name": "a-day-carved-from-rising-winds",
                             "pieces": 4,
                             "note": {
-                                "en": "Can perform better than **[[artifact:golden-troupe]]** when [[character:freminet]] lacks ATK.",
-                                "ru": "Может превосходить **[[artifact:golden-troupe|Золотую труппу]]** при недостатке Силы атаки."
+                                "en": "Can perform better than **[[set:golden-troupe]]** when [[character:freminet]] lacks ATK.",
+                                "ru": "Может превосходить **[[set:golden-troupe|Золотую труппу]]** при недостатке Силы атаки."
                             }
                         }
                     ]
@@ -102,7 +102,7 @@
                             "name": "gilded-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "If [[character:freminet]] can frequently trigger [[reaction:shatter]], this set can perform better than 2pc combinations. If [[character:freminet]] can't reliably trigger [[reaction:shatter]], this set is not worth considering.",
+                                "en": "If [[character:freminet]] can frequently trigger [[element:shatter]], this set can perform better than 2pc combinations. If [[character:freminet]] can't reliably trigger [[element:shatter]], this set is not worth considering.",
                                 "ru": "Если Фремине может часто закрывать реакцию \"Разбит\", может превосходить 2х комбинации. При невозможности стабильно закрывать \"Разбит\" этот сет не стоит использовать."
                             }
                         }
