@@ -1715,5 +1715,53 @@
             56,
             32
         ]
+    },
+    "blade-of-atonement": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "-",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
+    },
+    "forged-by-the-golden-melody": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "-",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
     }
 }

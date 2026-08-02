@@ -1304,5 +1304,49 @@
             "ru": "Повышает урон реакции Сверхпроводник на 80%, реакции Звёздный проводник - на 40%. Когда экипированный персонаж атакует врага со статусом Сверхпроводник или Звёздный проводник, шанс крит. попадания данной атаки повышается на 16%.",
             "pt": "Aumenta o Dano de Reação de Supercondutor em 80%. Aumenta o Dano de Supercondutor Estelar em 40%. Quando o portador ataca inimigos afetados por Supercondutor ou Supercondutor Estelar, aumenta a Taxa CRIT desse ataque em 16%."
         }
+    },
+    "scarlet-proof": {
+        "rarity": 5,
+        "version_released": "7.0",
+        "2p": {
+            "en": "ATK +18%.",
+            "fr": "Augmente l'ATQ de 18 %.",
+            "de": "Erhöht den ANG um 18 %.",
+            "es": "ATQ +18%.",
+            "it": "ATT +18%.",
+            "ru": "Увеличивает силу атаки на 18%.",
+            "pt": "ATQ +18%"
+        },
+        "4p": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        }
+    },
+    "heart-of-the-furnace": {
+        "rarity": 5,
+        "version_released": "7.0",
+        "2p": {
+            "en": "ATK +18%.",
+            "fr": "Augmente l'ATQ de 18 %.",
+            "de": "Erhöht den ANG um 18 %.",
+            "es": "ATQ +18%.",
+            "it": "ATT +18%.",
+            "ru": "Увеличивает силу атаки на 18%.",
+            "pt": "ATQ +18%"
+        },
+        "4p": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        }
     }
 }
