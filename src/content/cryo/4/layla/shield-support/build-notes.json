@@ -2,14 +2,16 @@
     "name": {
         "en": "Shield Support",
         "fr": "Support Bouclier",
-        "it": "Supporto Scudo"
+        "it": "Supporto Scudo",
+        "ru": "Саппорт"
     },
     "best": true,
     "notes": [
         {
             "en": "The goal of this build is to prioritize [[character:layla]]'s shield without building for personal damage.",
             "fr": "L'objectif de ce build est de prioriser le bouclier de [[character:layla]] sans la build pour ses dégâts personnels.",
-            "it": "L'obiettivo di questa build è dare priorità allo scudo di [[character:layla]] senza concentrarsi sui suoi danni personali."
+            "it": "L'obiettivo di questa build è dare priorità allo scudo di [[character:layla]] senza concentrarsi sui suoi danni personali.",
+            "ru": "Билд нацелен на создание максимально крепкого щита Лайлы без сборки в урон."
         },
         {
             "en": "## [[note:wip-weapon]]\n- [[weapon:peak-patrol-song]]\n- [[weapon:serenitys-call]]\n"
