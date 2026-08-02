@@ -31,12 +31,6 @@
         {
             "groups": [
                 {
-                    "items": [
-                        {
-                            "name": "physical-set",
-                            "pieces": 2
-                        }
-                    ],
                     "choices": [
                         {
                             "items": [
