@@ -8,7 +8,7 @@
     "items": [
         {
             "question": {
-                "en": "What is featured on this build doc?",
+                "en": "What is featured on this build guide?",
                 "fr": "Que vais-je trouver dans ce guide?",
                 "it": "Cosa include questa guida?",
                 "ru": "Что можно найти в этом руководстве?"
@@ -39,9 +39,7 @@
                 "ru": "Вы вернетесь к старой таблице?"
             },
             "answer": {
-                "en": "Very very unlikely. We understand that many of you are not satisfied with the new change, however we now have many Quality of Life features on the new website that we weren't able to have on the original sheet. As such, the old Google Sheet is no longer being maintained. Sorry.",
-                "it": "È davvero molto improbabile. Comprendiamo che molti di voi non siano soddisfatti di questa modifica, tuttavia il nuovo sito web offre ora numerose funzionalità che migliorano l'esperienza d'uso che non erano possibili nel foglio di lavoro originale. Per questo motivo, il vecchio Foglio Google non verrà più aggiornato. Ci dispiace.",
-                "ru": "Крайне маловероятно. Мы понимаем, что многие не слишком рады изменениям, но веб-сайт включает в себя множество улучшений, которых не было в изначальной версии. Старая Google Таблица больше не поддерживается. Увы-увы."
+                "en": "Very very unlikely. We understand that changing to a brand new location and adapting to a whole new layout can be difficult. However, we are constantly improving the site as we go. The old sheet will still be available to the public, however it will no longer be maintained."
             }
         },
         {
@@ -51,9 +49,7 @@
                 "ru": "Сколько в проекте поддерживаемых языков?"
             },
             "answer": {
-                "en": "English, French, German, Russian, Italian, Spanish and Portuguese are the supported languages. Not everything is translated in all listed languages, but we are working on it.",
-                "it": "Inglese, francese, tedesco, russo, italiano, spagnolo e portoghese sono le lingue supportate. Non tutti i contenuti sono tradotti in tutte le lingue elencate, ma ci stiamo lavorando.",
-                "ru": "На данный момент поддерживается английская, французская, русская, итальянская, испанская и португальская версии. Некоторые примечания доступны не на всех языках. Мы работаем над этим."
+                "en": "The current supported languages are found in the dropdown menu at the top of the page. Not all languages are fully translated, but we are working on it."
             }
         },
         {
@@ -63,9 +59,7 @@
                 "ru": "Можно ли добавить базовые и целевые характеристики для каждого персонажа?"
             },
             "answer": {
-                "en": "No. Because the endgame modes are consistently shifting around, as well as the fluctuating HP values of the many enemies, it's very difficult to ascertain baseline stats and statgoals for every character. If a character talent mentions a specific stat that has a cap, (Prune's ATK cap, for example), the doc will mention those, but will not list the values of stats needed for every character.",
-                "it": "No. Poiché le modalità endgame cambiano continuamente, così come i valori di HP dei numerosi nemici, è molto difficile stabilire degli obiettivi per le statistiche di ogni personaggio. Se il talento di un personaggio fa riferimento a una statistica specifica che ha un limite massimo (ad esempio, il limite massimo di ATK di Prune), la guida ne parlerà, ma non elencherà i valori delle statistiche necessari per ogni personaggio.",
-                "ru": "Нет. Поскольку эндгейм режимы постоянно менются, как и уровень HP врагов, определить базовые и целевые характеристики для каждого персонажа крайне сложно. Если в таланте персонажа упоминается ограничение для конкретного стата (например, сила атаки Прюн), это будет указано в примечании. Полный список целевых значений характеристик для каждого персонажа приводиться не будет."
+                "en": "No. Because gearing weapons and artifacts will vary from account to account, alongside endgame modes' mechanics shifting and enemies' HP values fluctuating, it's very difficult to ascertain baseline stats and statgoals for every character in every scenario."
             }
         },
         {
@@ -76,10 +70,7 @@
                 "ru": "Персонаж А только что вышел, но его нет на сайте, где его найти?"
             },
             "answer": {
-                "en": "Please understand that it does take about a week, potentially more, for testing on live servers to happen. The doc contributors are actively working hard to gather relevant information for said character. The feedback form is also not a place to demand a character to be added.",
-                "fr": "Veuillez garder en tête que tester les personnages peut prendre environ une semaine, parfois même plus. Les contributeurs de ce guide travaillent dur pour regrouper toutes les informations nécessaires pour ledit personnage. Le feedback form n'est pas l'endroit pour demander l'ajout d'un personnage.",
-                "it": "Tieni in considerazione che c'è bisogno di circa una settimana per testare i personaggi sul server, se non di più. Gli autori della guida stanno lavorando per ottenere informazioni accurate. Il form per i commenti non è il posto adatto per richiedere l'aggiunta di un personaggio.",
-                "ru": "Обратите внимание, что тестирование сборок на игровых серверах занимает примерно неделю. Авторы документа активно работают над сбором и обработкой информации о новом персонаже. Форма для обратной связи не предназначена для запросов на добавление персонажа."
+                "en": "Please understand that it does take about a week, potentially more, for testing on live servers to happen. The guide contributors are actively working hard to gather relevant information for said character. We can add characters as WIP, however their sections won't be available until the content is ready. Please do not use the feedback form as a method of demanding a character to be added."
             }
         },
         {
@@ -98,15 +89,13 @@
         },
         {
             "question": {
-                "en": "Where can I find such weapons and artifacts mentioned on the build doc?",
+                "en": "Where can I find such weapons and artifacts mentioned on the build guide?",
                 "fr": "Où puis-je trouver les armes et artéfacts mentionnés dans ce guide?",
                 "it": "Dove trovo le armi ed i manufatti menzionati nella guida?",
                 "ru": "Где достать оружие и артефакты, перечисленные в гайде?"
             },
             "answer": {
-                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom. (For example: Craft, Wish, Event, etc.). For a more in-depth guide on acquisition methods, check out the Genshin Fandom Wiki.",
-                "it": "Se passi il mouse su un'arma (o con un tap da cellulare), in fondo alla pagina verrà visualizzata una fonte di acquisizione generica (ad esempio: Creazione, Desiderio, Evento, ecc.). Per una guida più approfondita sui metodi di acquisizione, consulta la Genshin Fandom Wiki.",
-                "ru": "Если навести курсор на оружие, в нижней части всплывающего окна отображается способ получения (кузня,  молитвы, временное событие и др.). С подробностями можно ознакомиться на вики."
+                "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom. (For example: Craft, Wish, Event, Fishing, etc.). For a more in-depth guide on acquisition methods, check out the Genshin Fandom Wiki."
             }
         },
         {
@@ -125,7 +114,7 @@
         },
         {
             "question": {
-                "en": "There is a niche build setup for X character, can it be added to the build doc?",
+                "en": "There is a niche build setup for X character, can it be added to the build guide?",
                 "fr": "Il y a un build niche pour X personnage, est-ce qu'il peut être ajouté au guide?",
                 "it": "C'è una build di nicchia per X personaggio, la potete aggiungere?",
                 "ru": "Для персонажа А есть нишевая сборка, можно ли добавить её в документ?"
@@ -214,10 +203,7 @@
                 "ru": "Есть ли F2P варианты оружия для персонажей?"
             },
             "answer": {
-                "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, or the easily obtainable 3* Gacha Weapons.",
-                "fr": "Oui. Ce document garantie qu'il y a au moins 1 option F2P obtenable de façon permanente pour chaque personnage, même si cette option n'est pas forcément la meilleure pour lui. Les armes F2P obtenables de façon permanente incluent les armes qui peuvent être forgées, qui peuvent être obtenues dans les coffres de Mondstadt et Liyue, ou les armes 3✩ facilement obtenables grâces aux voeux.",
-                "it": "Sì, la guida si assicura che sia presente **almeno 1 opzione F2P accessibile in maniera permanente** per ogni personaggio, anche nel caso in cui non sia una delle opzioni migliori. Opzioni accessibili in maniera permanente includono armi che possono essere forgiate, ottenute tramite la pesca, ottenute da Missioni o come ricompense da bauli a Mondstadt e Liyue, o armi a 3 stelle facilmente ottenibili dai banner.",
-                "ru": "Да. Документ содержит как минимум 1 постоянно доступный бесплатный вариант, даже если он не является лучшим. В бесплатные варианты включено оружие из кузницы, сундуков Мондштадта/Ли Юэ и трёхзвёздочные опции из Молитв."
+                "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, Fishing,  or the easily obtainable 3* Gacha Weapons. F2P options for characters are highlighted within their sections."
             }
         },
         {
