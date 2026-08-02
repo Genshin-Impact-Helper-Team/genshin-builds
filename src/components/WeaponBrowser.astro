@@ -29,7 +29,8 @@ type WeaponBrowserData = {
       characterName: string;
       characterRarity: string;
       href: string;
-      rank: number;
+      isWip?: boolean;
+      rank?: number;
     }[];
     passivePanels: {
       refinement: number;
@@ -232,10 +233,12 @@ const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
               <div class="weapon-ranking-list">
                 {weapon.rankingUsage.map((usage) => (
                   <a
-                    class={`weapon-ranking-chip character-rarity-${usage.characterRarity}`}
+                    class={`weapon-ranking-chip character-rarity-${usage.characterRarity}${usage.isWip ? ' is-wip' : ''}`}
                     href={usage.href}
                   >
-                    <strong class="usage-rank-number">{usage.rank}</strong>
+                    <strong class="usage-rank-number">
+                      {usage.isWip ? 'WIP' : usage.rank}
+                    </strong>
                     <span class="weapon-ranking-character">
                       {usage.characterName}
                     </span>

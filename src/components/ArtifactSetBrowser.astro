@@ -17,6 +17,7 @@ type ArtifactSetBrowserData = {
       characterName: string;
       characterRarity: string;
       href: string;
+      isWip?: boolean;
       rank?: number;
     }[];
   }[];
@@ -164,11 +165,13 @@ const noMentionsLabel = t(
               <div class="artifact-set-usage-list">
                 {artifactSet.fourPieceUsage.map((usage) => (
                   <a
-                    class={`artifact-set-usage-chip character-rarity-${usage.characterRarity}`}
+                    class={`artifact-set-usage-chip character-rarity-${usage.characterRarity}${usage.isWip ? ' is-wip' : ''}`}
                     href={usage.href}
                   >
-                    {usage.rank && (
-                      <strong class="usage-rank-number">{usage.rank}</strong>
+                    {(usage.rank || usage.isWip) && (
+                      <strong class="usage-rank-number">
+                        {usage.isWip ? 'WIP' : usage.rank}
+                      </strong>
                     )}
                     <span class="artifact-set-usage-character">
                       {usage.characterName}
