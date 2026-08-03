@@ -21,6 +21,11 @@
                 },
                 {
                     "date": "August 1, 2026",
+                    "changes": "Updated Lyney section.",
+                    "appliedBy": "Quincy"
+                },
+                {
+                    "date": "August 1, 2026",
                     "changes": "Split Furina section into low and high energy requirements. Updated Furina sections.",
                     "appliedBy": "Finnyke"
                 },
