@@ -1,7 +1,7 @@
 {
     "main_stats": {
         "sands": [
-            "er%"
+            "er"
         ],
         "goblet": [
             {
@@ -12,7 +12,7 @@
             }
         ],
         "circlet": [
-            "crit-rate"
+            "cr"
         ]
     }
 }
