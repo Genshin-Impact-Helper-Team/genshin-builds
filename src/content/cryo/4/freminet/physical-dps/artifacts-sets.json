@@ -17,22 +17,20 @@
                 {
                     "items": [
                         {
-                            "name": "pale-flame",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "er-set",
-                            "pieces": 2
+                            "name": "disenchantment-in-deep-shadow",
+                            "pieces": 4,
+                            "notes": {
+                                "en": "This ranking assumes that the team can reliably trigger suprconduct. Otherwise, this set is not worth considering.",
+                                "ru": "Предполагается, что отряд способен надёжно вызывать Сверхпроводник. В противном случае этот сет не стоит использовать."
+                            }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
-                    "items": [
-                        {
-                            "name": "physical-set",
-                            "pieces": 2
-                        }
-                    ],
                     "choices": [
                         {
                             "items": [
@@ -46,6 +44,10 @@
                                 },
                                 {
                                     "name": "atk-set",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "er-set",
                                     "pieces": 2
                                 }
                             ]
@@ -61,6 +63,14 @@
                         {
                             "name": "golden-troupe",
                             "pieces": 4
+                        },
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Can perform better than **[[set:golden-troupe]]** when [[character:freminet]] lacks ATK.",
+                                "ru": "Может превосходить **[[set:golden-troupe|Золотую труппу]]** при недостатке Силы атаки."
+                            }
                         }
                     ]
                 }
@@ -73,6 +83,22 @@
                         {
                             "name": "gladiators-finale",
                             "pieces": 4
+                        },
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "In teams which can consistently freeze enemies can perform better than 2pc combinations.",
+                                "ru": "В командах, способных поддерживать заморозу на противниках, может превосходить 2х комбинации."
+                            }
+                        },
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "If [[character:freminet]] can frequently trigger [[element:shatter]], this set can perform better than 2pc combinations. If [[character:freminet]] can't reliably trigger [[element:shatter]], this set is not worth considering.",
+                                "ru": "Если Фремине может часто закрывать реакцию \"Разбит\", может превосходить 2х комбинации. При невозможности стабильно закрывать \"Разбит\" этот сет не стоит использовать."
+                            }
                         }
                     ]
                 }
@@ -86,9 +112,20 @@
                     "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set.",
-                        "fr": "S'il est utilisé avec [[character:furina]], c'est le meilleur set d'artéfacts de [[character:freminet]].",
-                        "it": "Se utilizzato con [[character:furina]], questo è il set migliore per [[character:freminet]]."
+                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "ru": "Лучший выбор при игре с Фуриной. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "night-of-the-skys-unveiling",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "ru": "Лучший выбор при игре в отрядах с Высшим сиянием. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
                     }
                 }
             ]

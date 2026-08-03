@@ -1,4 +1,10 @@
 {
+    "notes": [
+        {
+            "en": "Ranking assumes that Freminet is not played with significant ATK buffs such as [[character:nicole]] or [[character:bennett]]. With such buffs weapons which provide a lot of ATK% will have less value.\n[[character:freminet]]'s weapon rankings can be incredibly team and artifact dependent. Please refer to the calculations if you need more information.",
+            "ru": "Предполагается, что в отряде нет значительных бонусов к Силе атаки (как, например, Николь или Беннет). С подобными бонусами оружие на Силу атаки становится менее ценным.\nРейтинг оружия может значительно меняться в зависимости от отряда и артефактов. Для получения дополнительной информации обращайтесь к расчетам."
+        }
+    ],
     "weapons": [
         {
             "items": [
@@ -8,50 +14,76 @@
         },
         {
             "items": [
-                "verdict"
+                {
+                    "name": "gest-of-the-mighty-wolf",
+                    "note": {
+                        "en": "Best in slot option in teams with Hexerei: Sercet Rite.",
+                        "ru": "Лучший выбор в командах с активным эффектом Ведьмовства."
+                    }
+                }
             ]
         },
         {
             "items": [
+                "a-teaspoon-of-transcendence"
+            ]
+        },
+        {
+            "items": [
+                "verdict",
+                {
+                    "name": "beacon-of-the-reed-sea",
+                    "note": {
+                        "en": "If [[character:freminet]] frequently suffers damage duting his fieldtime, can perform similarly to **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "ru": "При частом получении урона может соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "song-of-broken-pines",
+                "redhorn-stonethresher",
                 "wolfs-gravestone",
+                {
+                    "name": "the-unforged",
+                    "note": {
+                        "en": "Assumes that [[character:freminet]] is not shielded. With a shield performs similarly to **[[weapon:verdict]]**.",
+                        "ru": "Предполагается игра без щита. С щитом соответствует **[[weapon:song-of-broken-pines|Песни разбитых сосен]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "If [[character:freminet]] is **[C2]** or has low [[stat:er]] Requirements this weapon is less potent due to the [[stat:er]] stat being less useful.",
-                        "fr": "Si [[character:freminet]] est **[C2]** ou a de faibles besoins en [[stat:er]], cette arme perd en puissance puisque la stat de [[stat:er]] devient moins utile.",
-                        "it": "Se [[character:freminet]] è **[C2]** o ha requisiti di [[stat:er]] bassi quest'arma è meno potente."
+                        "en": "With [[stat:er]] requirements of ~120% can perform similarly to **[[weapon:wolfs-gravestone]]**. With high [[stat:er]] requirements can perform similarly to **[[weapon:verdict]]**.",
+                        "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. При высоких потребностях в энергии соответствует **[[weapon:verdict|Вердикту]]**."
                     }
-                }
-            ]
-        },
-        {
-            "items": [
-                "beacon-of-the-reed-sea",
-                "the-unforged"
-            ]
-        },
-        {
-            "items": [
+                },
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "At **[R5]** this weapon can equal or surpass **[[weapon:wolfs-gravestone]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut égaler ou dépasser **[[weapon:wolfs-gravestone]]**.",
-                        "it": "A **[R5]**, quest'arma può essere pari o superiore a **[[weapon:wolfs-gravestone]]**."
+                        "en": "Assumes 3 stacks. With 5 stacks performs similarly to **[[weapon:wolfs-gravestone]]**. With 5 stacks at **[R5]** this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
                     }
                 },
-                "redhorn-stonethresher",
-                "song-of-broken-pines"
-            ]
-        },
-        {
-            "items": [
                 {
                     "name": "tidal-shadow",
+                    "refinement": 5,
                     "note": {
-                        "en": "The performance of this weapon depends on the healing abilities of your team. If your team has healing capabilities, this weapon can be equal to **[[weapon:redhorn-stonethresher]]** or better depending on refinement.",
-                        "fr": "Les performances de cette arme dépendent des capacités de soin de votre équipe. Si votre équipe peut soigner, cette arme peut être au niveau de **[[weapon:redhorn-stonethresher]]**, voire meilleure selon le raffinement.",
-                        "it": "Le prestazioni di quest'arma dipendono dalle capacità curative del tuo team. Se il tuo team ha capacità di cura, quest'arma può essere pari o superiore a **[[weapon:redhorn-stonethresher]]** a seconda dei miglioramenti."
+                        "en": "Assumes the passive can be reliably activated.",
+                        "ru": "Предполагается, что Пассивная способность активируется стабильно."
+                    }
+                },
+                {
+                    "name": "mailed-flower",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If [[character:freminet]] cannot frequently trigger reactions, this weapon is not worth considering.",
+                        "ru": "Если Фремине не может часто закрывать реакции, это оружие не стоит использовать."
                     }
                 }
             ]
@@ -59,10 +91,50 @@
         {
             "items": [
                 {
-                    "name": "mailed-flower",
+                    "name": "ultimate-overlords-mega-magic-sword",
+                    "note": {
+                        "en": "With high [[stat:er]] requirements can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "ru": "При высоких потребностях в энергии соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "prototype-archaic",
                     "refinement": 5
                 },
-                "prototype-archaic"
+                {
+                    "name": "lithic-blade",
+                    "note": {
+                        "en": "Assumes 1 Liyue teammate. At **[R5]** can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "ru": "Предполагается 1 персонаж из Ли Юэ. На **[R5]** соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "talking-stick",
+                    "note": {
+                        "en": "Assumes inactive passive. With half of the passive active can perform similarly to **[[weapon:tidal-shadow]]**.",
+                        "ru": "Предполагается, что Пассивная способность не активирована. С наполовину активной Пассивной способностью соответствует **[[weapon:tidal-shadow|Тени волны]]**."
+                    }
+                },
+                "blackcliff-slasher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "earth-shaker",
+                    "note": {
+                        "en": "Assumes inactive passive. With passive active can perform similarly to **[[weapon:tidal-shadow]]**.",
+                        "ru": "Предполагается, что Пассивная способность не активирована. С активной Пассивной способностью соответствует **[[weapon:tidal-shadow|Тени волны]]**."
+                    }
+                }
             ]
         }
     ]

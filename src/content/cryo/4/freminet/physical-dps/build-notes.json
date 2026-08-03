@@ -2,30 +2,34 @@
     "name": {
         "en": "Physical DPS",
         "fr": "DPS Physique",
-        "it": "DPS Fisico"
+        "it": "DPS Fisico",
+        "ru": "Физ ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "Physical DPS [[character:freminet]] stacks his Pers Timer to max using [[ability:na]]s and unleashes a powerful Physical Shattering Pressure. Rankings assume he is in a team that can reliably trigger Shatter and [[element:superconduct]].",
             "fr": "[[character:freminet]] DPS Physique remplit son Indicateur de Pers avec ses [[ability:na]]s et libère un Concassage Pressurisé physique (niveau 4). Les classements supposent qu'il est dans une équipe capable de déclencher Brise-Glace et [[element:superconduct]] de manière fiable.",
-            "it": "[[character:freminet]] DPS Fisico accumula il suo Manometro Pers al massimo usando gli [[ability:na|Attacchi Normali]] e scatena una potente Pressione Frantumante Fisica. Le classifiche presuppongono che sia in un team in grado di provocare in maniera affidabile Rompigelo (Shatter) e [[element:superconduct]]."
+            "it": "[[character:freminet]] DPS Fisico accumula il suo Manometro Pers al massimo usando gli [[ability:na|Attacchi Normali]] e scatena una potente Pressione Frantumante Fisica. Le classifiche presuppongono che sia in un team in grado di provocare in maniera affidabile Rompigelo (Shatter) e [[element:superconduct]].",
+            "ru": "Физ ДД Фремине играет от накопления уровней Таймера Пера и нанесения урона Дробящим давлением. Предполагается, что его отряд позволяет ему стабильно вызывать реакции Разбит и Сверхпроводник."
         },
         {
-            "en": "Rotation: {rot:E Q N2 E 3[N1 E N2 (E or NA)]}",
-            "fr": "Rotation : {rot:E A N2 E 3[N1 E N2 (E or NA)]}",
-            "it": "Rotazione: {rot:EQ N2E 3[N1EN2(E o NA)]}"
+            "en": "Rotation: {rot: E Q N2 E E N2 E 2[N1 E N2 (E or NA)]}",
+            "fr": "Rotation: {rot: E A N2 E E N2 E 2[N1 E N2 (E or NA)]}",
+            "it": "Rotazione: {rot: E Q N2 E E N2 E 2[N1 E N2 (E o NA)]}",
+            "ru": "Ротация: {rot: E Q N2 E E N2 E 2[N1 E N2 (E or NA)]}"
         },
         {
             "en": "You can perform a [[ability:na]] instead of using [[ability:skill]] at Pressure Level 4, because this also ends the Pers Timer state.",
             "fr": "Vous pouvez effectuer une [[ability:na]] au lieu d'utiliser le [[ability:skill]] au niveau de pression 4, parce que cela met aussi fin à l'état Indicateur de Pers.",
-            "it": "Puoi eseguire un [[ability:na]] al posto dell'[[ability:skill]] di livello Pressione 4, poiché entrambi terminano lo stato Manometro di Pers."
-        },
+            "it": "Puoi eseguire un [[ability:na]] al posto dell'[[ability:skill]] di livello Pressione 4, poiché entrambi terminano lo stato Manometro di Pers.",
+            "ru": "На 4 уровне давления можно выполнять Обычную атаку вместо Элементального навыка, что также завершит Таймер Пера."
+        }
+    ],
+    "weapons": [
         {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n- [[set:disenchantment-in-deep-shadow]]\n"
+            "author": "Finnyke",
+            "link": "https://drive.google.com/drive/folders/1h4yQfwWEUU1ytLOWEmdTvtbKXaJnXI8P?usp=sharing"
         }
     ]
 }
