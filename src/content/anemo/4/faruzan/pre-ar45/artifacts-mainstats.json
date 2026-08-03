@@ -1,18 +1,18 @@
 {
     "main_stats": {
         "sands": [
-            "er"
-          
+            "er%"
         ],
         "goblet": [
-            "atk%"
-             "note": {
+            {
+                "name": "atk%",
+                "note": {
                     "en": "Due to [[character:faruzan]]'s high [[stat:er]] requirements pre-C6, it is acceptable to disregard running an [[element:anemo]] goblet in favor of a goblet which provides more [[stat:er]]. A [[stat:cr]] circlet should still be taken to ensure Favonius procs."
                 }
+            }
         ],
         "circlet": [
-            "cr"
-      
+            "crit-rate"
         ]
     }
 }
