@@ -1,0 +1,21 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "chain-breaker"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "song-of-stillness",
+                    "note": {
+                        "en": "Needs to be paired with a healer to activate its passive."
+                    }
+                }
+            ]
+        }
+    ]
+}
