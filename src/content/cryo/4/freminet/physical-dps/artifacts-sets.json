@@ -32,6 +32,12 @@
         {
             "groups": [
                 {
+                    "items": [
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        }
+                    ],
                     "choices": [
                         {
                             "items": [
@@ -64,7 +70,11 @@
                         {
                             "name": "golden-troupe",
                             "pieces": 4
-                        },
+                        }
+                    ]
+                },
+                {
+                    "items": [
                         {
                             "name": "a-day-carved-from-rising-winds",
                             "pieces": 4,
@@ -85,7 +95,11 @@
                         {
                             "name": "gladiators-finale",
                             "pieces": 4
-                        },
+                        }
+                    ]
+                },
+                {
+                    "items": [
                         {
                             "name": "blizzard-strayer",
                             "pieces": 4,
@@ -94,7 +108,11 @@
                                 "fr": "Dans les équipes qui peuvent régulièrement geler les ennemis, ce set peut être meilleur que les différentes combinaisons de 2P2P.",
                                 "ru": "В командах, способных поддерживать заморозу на противниках, может превосходить 2х комбинации."
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "items": [
                         {
                             "name": "gilded-dreams",
                             "pieces": 4,
