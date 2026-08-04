@@ -61,7 +61,8 @@
                     "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with [[stat:cr]] weapons.",
+                        "fr" : "Si joué avec [[character:furina]], il s'agit du meilleur set pour [[character:freminet]]. Il y a un risque d'avoir trop de [[stat:cr]] lorsque ce set est utilisé avec une arme [[stat:cr]].",
                         "ru": "Лучший выбор при игре с Фуриной. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
                     }
                 }
@@ -73,7 +74,8 @@
                     "name": "night-of-the-skys-unveiling",
                     "pieces": 4,
                     "note": {
-                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with weapons with [[stat:cr]] secondary stat.",
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]]  when used with [[stat:cr]] weapons.",
+                        "fr" : "Si joué dans une équipe en Lueur Ascendante, il s'agit du meilleur set pour [[character:freminet]]. Il y a un risque d'avoir trop de [[stat:cr]] lorsque ce set est utilisé avec une arme [[stat:cr]].",
                         "ru": "Лучший выбор при игре в отрядах с Высшим сиянием. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
                     }
                 }
@@ -85,7 +87,8 @@
                     "name": "gilded-dreams",
                     "pieces": 4,
                     "note": {
-                        "en": "Can be used in teams where [[character:freminet]] either frequantly triggers [[element:shatter]] or can trigger [[element:melt]], in which cases it's equal to **[[set:golden-troupe]]**.",
+                        "en": "Can be used in teams where [[character:freminet]] either frequently triggers [[element:shatter]] or can trigger [[element:melt]], in which cases it's equal to **[[set:golden-troupe]]**.",
+                        "fr": "Peut être utilisé dans les équipes où [[character:freminet]] déclenche fréquemment [[element:shatter]] ou [[element:melt]], auquel cas il devient équivalent à **[[set:golden-troupe]]**.",
                         "ru": "Можно использовать в командах, где Фреминет часто закрывает реакцию \"Разбит\" или может закрывать Таяние. При этом соответствует **[[set:golden-troupe|Золотой труппе]]**."
                     }
                 }

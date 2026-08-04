@@ -1,7 +1,8 @@
 {
     "notes": [
         {
-            "en": "Ranking assumes that Freminet is not played with significant ATK buffs such as [[character:nicole]] or [[character:bennett]]. With such buffs weapons which provide a lot of ATK% will have less value.\n[[character:freminet]]'s weapon rankings can be incredibly team and artifact dependent. Please refer to the calculations if you need more information.",
+            "en": "Ranking assumes that [[character:freminet]] is not played with significant [[stat:atk%]] buffs such as [[character:nicole]] or [[character:bennett]]. With such buffs, weapons which provide a lot of [[stat:atk%]] will have less value.\n[[character:freminet]]'s weapon rankings can be incredibly team and artifact dependent. Please refer to the calculations if you need more information.",
+            "fr": "Le classement suppose que [[character:freminet]] n'est pas joué avec d'importants buffs d'[[stat:atk%]] comme [[character:nicole]] ou [[character:bennett]]. Avec ces buffs, les armes avec beaucoup d'[[stat:atk%]] perdent en valeur.\nLe classement d'armes de [[character:freminet]] peut énormément varier selon les équipes et artéfacts. Veuillez vous réferer aux calcs si vous avez besoin de plus d'informations.",
             "ru": "Предполагается, что в отряде нет значительных бонусов к Силе атаки (как, например, Николь или Беннет). С подобными бонусами оружие на Силу атаки становится менее ценным.\nРейтинг оружия может значительно меняться в зависимости от отряда и артефактов. Для получения дополнительной информации обращайтесь к расчетам."
         }
     ],
@@ -11,7 +12,8 @@
                 {
                     "name": "gest-of-the-mighty-wolf",
                     "note": {
-                        "en": "Assumes one additional NA per rotation. Performance even better in teams with Hexerei: Secret Rite.",
+                        "en": "Assumes one additional [[ability:na]] per rotation. Performs even better in teams with [[ability:hexerei]].",
+                        "fr": "Supposes une [[ability:na]] supplémentaire par rotation. Performe encore mieux dans les équipes [[ability:hexerei]].",
                         "ru": "Предполагается одна дополнительная Обычная атака. Становится еще лучше в командах с активным эффектом Ведьмовства."
                     }
                 }
@@ -29,7 +31,8 @@
                 {
                     "name": "beacon-of-the-reed-sea",
                     "note": {
-                        "en": "If [[character:freminet]] frequently suffers damage duting his fieldtime, can perform similarly to **[[weapon:fang-of-the-mountain-king]]**.",
+                        "en": "If [[character:freminet]] frequently suffers damage duting his fieldtime, it can perform similarly to **[[weapon:fang-of-the-mountain-king]]**.",
+                        "fr": "Si [[character:freminet]] prend souvent des dégâts pendant son temps de terrain, cette arme peut être équivalente à **[[weapon:fang-of-the-mountain-king]]**.",
                         "ru": "При частом получении урона может соответствовать **[[weapon:fang-of-the-mountain-king|Клыку горного короля]]**."
                     }
                 }
@@ -51,7 +54,8 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "With [[stat:er]] requirements of ~120% can perform similarly to **[[weapon:redhorn-stonethresher]]**. With high [[stat:er]] requirements can perform similarly to **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "en": "With [[stat:er]] requirements of ~120%, it can perform similarly to **[[weapon:redhorn-stonethresher]]**. With high [[stat:er]] requirements, it can perform similarly to **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "fr": "Avec des besoins en [[stat:er]] autour de 120%, cette arme performe de manière similaire à **[[weapon:redhorn-stonethresher]]**. Avec des besoins en [[stat:er]] élevés, elle performe de manière équivalente à **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**. При высоких потребностях в энергии соответствует **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 },
@@ -59,7 +63,8 @@
                 {
                     "name": "the-unforged",
                     "note": {
-                        "en": "Assumes that [[character:freminet]] is not shielded. With a shield performs similarly to **[[weapon:song-of-broken-pines]]**.",
+                        "en": "Assumes that [[character:freminet]] is not shielded. With a shield, it performs similarly to **[[weapon:song-of-broken-pines]]**.",
+                        "fr": "Suppose que [[character:freminet]] n'a pas de bouclier. Dans le cas contraire, c'est une option équivalente à **[[weapon:song-of-broken-pines]]**.",
                         "ru": "Предполагается игра без щита. С щитом соответствует **[[weapon:song-of-broken-pines|Песни разбитых сосен]]**."
                     }
                 }
@@ -70,7 +75,8 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "Assumes 3 stacks. With 5 stacks performs similarly to **[[weapon:wolfs-gravestone]]**. With 5 stacks at **[R5]** this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "en": "Assumes 3 stacks. With 5 stacks, it performs similarly to **[[weapon:wolfs-gravestone]]**. With 5 stacks at **[R5]**, this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "fr": "Suppose 3 cumuls du passif. Avec 5 cumuls, elle équivaut à **[[weapon:wolfs-gravestone]]**. Avec 5 cumuls et **[R5]**, cette arme devient équivalente voire meilleure que **[[weapon:a-teaspoon-of-transcendence]]**.",
                         "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
                     }
                 },
@@ -79,6 +85,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "Assumes the passive can be reliably activated.",
+                        "fr": "Suppose que le passif peut être déclenché de façon fiable",
                         "ru": "Предполагается, что Пассивная способность активируется стабильно."
                     }
                 }
@@ -91,6 +98,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "If [[character:freminet]] cannot frequently trigger [[element:shatter]], this weapon is not worth considering.",
+                        "fr": "Si [[character:freminet]] ne peut pas fréquemment déclencher [[element:shatter]], il ne faut pas considérer cette arme.",
                         "ru": "Если Фремине не может часто закрывать реакцию \"Разбит\", это оружие не стоит использовать."
                     }
                 },
@@ -105,7 +113,8 @@
                 {
                     "name": "lithic-blade",
                     "note": {
-                        "en": "Assumes 1 Liyue teammate. With 2 Liyue teammates can perform better than **[[weapon:serpent-spine]]**. With 2 Liyue teammates at **[R5]** can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
+                        "en": "Assumes 1 Liyue teammate. With 2 Liyue teammates, it can perform better than **[[weapon:serpent-spine]]**. With 2 Liyue teammates at **[R5]**, it can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
+                        "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. Avec 2 personnages de Liyue, cette arme peut être meilleure que **[[weapon:serpent-spine]]**. Avec 2 personnages de Liyue une fois **[R5]**, cette arme devient similaire à **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "Предполагается 1 персонаж из Ли Юэ. С двумя персонажами из Ли Юэ может превосходить **[[weapon:serpent-spine]]**. С двумя персонажами из Ли Юэ на **[R5]** соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
                     }
                 }
@@ -116,7 +125,8 @@
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
                     "note": {
-                        "en": "With [[stat:er]] requirements of ~120% can perform similarly to **[[weapon:prototype-archaic]**. With high [[stat:er]] requirements can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "en": "With [[stat:er]] requirements of ~120%, it can perform similarly to **[[weapon:prototype-archaic]]**. With high [[stat:er]] requirements, it can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "fr": "Avec des besoins en [[stat:er]] autour de 120%, cette arme performe de manière similaire à **[[weapon:prototype-archaic]]**. Avec des besoins en [[stat:er]] élevés, elle performe de manière équivalente à **[[weapon:serpent-spine]]**.",
                         "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:prototype-archaic|Прототипу: архаичный]]**. При высоких потребностях в энергии соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }
@@ -127,7 +137,8 @@
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes inactive passive. With half of the passive active can perform similarly to **[[weapon:prototype-archaic]]**.",
+                        "en": "Assumes inactive passive. With half of the passive active, it can perform similarly to **[[weapon:prototype-archaic]]**.",
+                        "fr": "Suppose que le passif n'est pas actif. Avec la moitié du passif, cette arme peut être équivalente à **[[weapon:prototype-archaic]]**.",
                         "ru": "Предполагается, что Пассивная способность не активирована. С наполовину активной Пассивной способностью соответствует **[[weapon:prototype-archaic|Прототипу: архаичный]]**."
                     }
                 },
