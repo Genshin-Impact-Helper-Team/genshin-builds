@@ -4,14 +4,11 @@
             "atk%"
         ],
         "goblet": [
-            {
-                "name": "atk%",
-               
-            }
+            "atk%"
         ],
         "circlet": [
             "cr/cd",
-          "atk%"
+            "atk%"
         ]
     }
 }
