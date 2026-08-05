@@ -1970,14 +1970,14 @@
             "ru": "",
             "pt": ""
         },
-        "substat": "-",
+        "substat": "def%",
         "level_1": {
             "base_attack": 0,
             "substat_value": "-"
         },
         "level_max": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 510,
+            "substat_value": "51.7%"
         },
         "r1": [],
         "r2": [],
@@ -1998,14 +1998,14 @@
             "ru": "",
             "pt": ""
         },
-        "substat": "-",
+        "substat": "cr",
         "level_1": {
             "base_attack": 0,
             "substat_value": "-"
         },
         "level_max": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 510,
+            "substat_value": "27.6%"
         },
         "r1": [],
         "r2": [],
