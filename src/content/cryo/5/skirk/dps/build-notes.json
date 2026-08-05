@@ -1,7 +1,6 @@
 {
     "name": {
         "en": "DPS",
-        "fr": "DPS",
         "ru": "ДД"
     },
     "best": true,
@@ -36,5 +35,9 @@
         {
             "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
-    ]
+    ],
+    "weapons": {
+        "author": "Chiston",
+        "link": "https://docs.google.com/spreadsheets/d/1hQ2EzkwBk-GAmV8NgZi3dpFMEr03IPUapAZZDh5FyBc/edit"
+    }
 }
