@@ -38,6 +38,7 @@ jobs:
         env:
           PUBLIC_DEPLOY_VERSION: ${{ github.run_number }}
           PUBLIC_FEEDBACK_ENDPOINT: ${{ vars.PUBLIC_FEEDBACK_ENDPOINT }}
+          PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.PUBLIC_TURNSTILE_SITE_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

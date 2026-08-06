@@ -107,8 +107,13 @@
 
 .feedback-faq-note {
   margin: 16px 0 0;
-  color: color-mix(in srgb, var(--text) 74%, transparent);
-  font-size: 0.9rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: color-mix(in srgb, var(--accent) 11%, transparent);
+  color: color-mix(in srgb, var(--text) 88%, transparent);
+  font-size: 0.92rem;
+  font-weight: 760;
   line-height: 1.45;
 }
 
@@ -127,8 +132,32 @@
   font-weight: 750;
 }
 
+.feedback-form .feedback-faq-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.feedback-form .feedback-faq-check input {
+  width: 16px;
+  height: 16px;
+  margin-top: 0.15em;
+  accent-color: var(--accent);
+  flex: 0 0 auto;
+}
+
+.feedback-form .feedback-faq-check a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .feedback-form textarea,
-.feedback-form select {
+.feedback-native-select {
   width: 100%;
   border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
   border-radius: 8px;
@@ -143,8 +172,21 @@
   resize: vertical;
 }
 
-.feedback-form select {
-  color-scheme: dark;
+.feedback-contact-input {
+  height: 42px;
+  min-height: 42px;
+  resize: none;
+}
+
+.feedback-native-select {
+  display: block;
+  appearance: auto;
+  cursor: pointer;
+}
+
+.feedback-native-select option {
+  background: white;
+  color: #111;
 }
 
 .feedback-form textarea::placeholder {
@@ -152,10 +194,14 @@
 }
 
 .feedback-form textarea:focus,
-.feedback-form select:focus {
+.feedback-native-select:focus {
   border-color: color-mix(in srgb, var(--accent) 70%, #fff 10%);
   outline: 2px solid color-mix(in srgb, var(--accent) 28%, transparent);
   outline-offset: 2px;
+}
+
+.feedback-captcha {
+  min-height: 65px;
 }
 
 .feedback-status {

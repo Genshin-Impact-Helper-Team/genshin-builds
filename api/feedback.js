@@ -5,6 +5,11 @@ const DEFAULT_REPOSITORY = 'Genshin-Impact-Helper-Team/genshin-builds';
 const DEFAULT_PROJECT_OWNER = 'Genshin-Impact-Helper-Team';
 const DEFAULT_PROJECT_NUMBER = 2;
 const DEFAULT_LABEL = 'Feedback Form';
+const DEFAULT_ALLOWED_ORIGINS = [
+  'https://genshin-impact-helper-team.github.io',
+];
+const TURNSTILE_VERIFY_URL =
+  'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
 class GitHubApiError extends Error {
   status;
@@ -42,32 +47,40 @@ function normalizeOrigin(value) {
 
 function allowedOrigins() {
   return [
-    ...(process.env.FEEDBACK_ALLOWED_ORIGIN ?? '')
-      .split(',')
-      .map((origin) => normalizeOrigin(origin.trim())),
+    ...DEFAULT_ALLOWED_ORIGINS,
+    ...(process.env.FEEDBACK_ALLOWED_ORIGIN ?? '').split(','),
     process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : '',
-  ].filter(Boolean);
+  ].filter((origin) => origin.trim());
 }
 
 function requestOrigin(request) {
   return normalizeOrigin(String(request.headers.origin ?? ''));
 }
 
+function headerValue(value) {
+  return Array.isArray(value) ? value[0] : String(value ?? '');
+}
+
+function requestIp(request) {
+  return headerValue(request.headers['x-forwarded-for']).split(',')[0].trim();
+}
+
 function isAllowedOrigin(request) {
   const origin = requestOrigin(request);
-  return Boolean(origin && allowedOrigins().includes(origin));
+  return Boolean(
+    origin && allowedOrigins().map(normalizeOrigin).includes(origin),
+  );
 }
 
 function setCorsHeaders(request, response) {
   const origin = requestOrigin(request);
-  if (origin && allowedOrigins().includes(origin)) {
+  if (origin && allowedOrigins().map(normalizeOrigin).includes(origin)) {
     response.setHeader('Access-Control-Allow-Origin', origin);
   }
   response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   response.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   response.setHeader('Vary', 'Origin');
 }
-
 
 async function readRequestBody(request) {
   if (typeof request.body === 'string') return request.body;
@@ -115,6 +128,44 @@ function validatePayload(payload) {
     language: clean(payload.language, 20) || 'unknown',
     feedback,
   };
+}
+
+async function verifyCaptcha(rawPayload, request) {
+  const secret = process.env.TURNSTILE_SECRET_KEY;
+  if (!secret) {
+    throw new ClientError(500, 'Captcha is not configured.');
+  }
+
+  const responseToken = clean(rawPayload['cf-turnstile-response'], 2_048);
+  if (!responseToken) {
+    throw new ClientError(400, 'Captcha is required.');
+  }
+
+  const body = {
+    secret,
+    response: responseToken,
+  };
+  const remoteip = requestIp(request);
+  if (remoteip) body.remoteip = remoteip;
+  const response = await fetch(TURNSTILE_VERIFY_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  const result = await response.json().catch(() => ({}));
+  const origin = requestOrigin(request);
+  const expectedHostname = origin ? new URL(origin).hostname : '';
+
+  if (
+    !response.ok ||
+    !result.success ||
+    result.action !== 'feedback' ||
+    (result.hostname &&
+      expectedHostname &&
+      result.hostname !== expectedHostname)
+  ) {
+    throw new ClientError(400, 'Captcha validation failed.');
+  }
 }
 
 function truncate(value, maxLength) {
@@ -550,14 +601,18 @@ export default async function handler(request, response) {
   if (!isAllowedOrigin(request)) {
     return json(response, 403, { error: 'Origin is not allowed.' });
   }
-  const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
-  if (!token) {
-    return json(response, 500, {
-      error: 'Feedback endpoint is not configured.',
-    });
-  }
   try {
-    const payload = validatePayload(await readPayload(request));
+    const rawPayload = await readPayload(request);
+    await verifyCaptcha(rawPayload, request);
+
+    const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
+    if (!token) {
+      return json(response, 500, {
+        error: 'Feedback endpoint is not configured.',
+      });
+    }
+
+    const payload = validatePayload(rawPayload);
     const client = createClient(token);
     const repository = env('FEEDBACK_REPOSITORY', DEFAULT_REPOSITORY);
     const label = env('FEEDBACK_LABEL', DEFAULT_LABEL);
@@ -570,7 +625,7 @@ export default async function handler(request, response) {
       issueUrl: issue.html_url,
     });
   } catch (error) {
-    console.error(error);
+    if (!(error instanceof ClientError)) console.error(error);
     const message =
       error instanceof Error ? error.message : 'Could not send feedback.';
     if (error instanceof ClientError) {

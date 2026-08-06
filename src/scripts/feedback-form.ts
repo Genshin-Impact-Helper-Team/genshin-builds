@@ -1,10 +1,33 @@
-import { closeModal, modal } from 'webcoreui';
+import { closeModal, modal, toast } from 'webcoreui';
+
+declare global {
+  interface Window {
+    turnstile?: {
+      render: (
+        container: HTMLElement,
+        options: {
+          sitekey: string;
+          action: string;
+          theme: 'auto';
+          size: 'flexible';
+        },
+      ) => string;
+      reset: (widgetId?: string) => void;
+    };
+  }
+}
 
 const FORM_SELECTOR = '[data-feedback-form]';
 const MODAL_SELECTOR = '#feedback-modal';
 const PAGE_SELECTOR = '[data-feedback-page]';
 const LANGUAGE_SELECTOR = '[data-feedback-language]';
 const STATUS_SELECTOR = '[data-feedback-status]';
+const CAPTCHA_SELECTOR = '[data-feedback-captcha]';
+const SUCCESS_TOAST_SELECTOR = '#feedback-success-toast';
+const TURNSTILE_SCRIPT_URL =
+  'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+
+let turnstileLoad: Promise<void> | null = null;
 
 function currentPage() {
   return window.location.href;
@@ -26,6 +49,49 @@ function setStatus(
   if (!status) return;
   status.textContent = message;
   status.dataset.state = state;
+}
+
+function loadTurnstile() {
+  if (window.turnstile) return Promise.resolve();
+  turnstileLoad ??= new Promise<void>((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = TURNSTILE_SCRIPT_URL;
+    script.async = true;
+    script.defer = true;
+    script.dataset.turnstileScript = 'true';
+    script.addEventListener('load', () => resolve(), { once: true });
+    script.addEventListener(
+      'error',
+      () => reject(new Error('Captcha failed to load.')),
+      {
+        once: true,
+      },
+    );
+    document.head.append(script);
+  });
+  return turnstileLoad;
+}
+
+async function renderCaptcha(widget: HTMLElement) {
+  const container = widget.querySelector<HTMLElement>(CAPTCHA_SELECTOR);
+  const sitekey = container?.dataset.sitekey;
+  if (!container || !sitekey || container.dataset.turnstileWidget) return;
+
+  await loadTurnstile();
+  const widgetId = window.turnstile?.render(container, {
+    sitekey,
+    action: 'feedback',
+    theme: 'auto',
+    size: 'flexible',
+  });
+  if (widgetId) container.dataset.turnstileWidget = widgetId;
+}
+
+function resetCaptcha(widget: HTMLElement) {
+  const widgetId =
+    widget.querySelector<HTMLElement>(CAPTCHA_SELECTOR)?.dataset
+      .turnstileWidget;
+  window.turnstile?.reset?.(widgetId);
 }
 
 function bindFeedbackWidget(widget: HTMLElement) {
@@ -54,11 +120,18 @@ function bindFeedbackWidget(widget: HTMLElement) {
     target.dataset.feedbackOpenBound = 'true';
     target.setAttribute('aria-label', 'Open feedback form');
     target.setAttribute('title', 'Feedback');
-    target.addEventListener('click', (event) => {
+    target.addEventListener('click', async (event) => {
       event.preventDefault();
       if (pageInput && !pageInput.value.trim()) pageInput.value = currentPage();
       if (languageInput) languageInput.value = currentLanguage(widget);
       modalInstance?.open();
+      try {
+        await renderCaptcha(widget);
+      } catch (error) {
+        const message =
+          error instanceof Error ? error.message : 'Captcha failed to load.';
+        setStatus(status, message, 'error');
+      }
     });
   }
 
@@ -91,12 +164,20 @@ function bindFeedbackWidget(widget: HTMLElement) {
       }
 
       form.reset();
-      setStatus(status, 'Feedback sent. Thank you!', 'success');
+      setStatus(status, '');
+      closeModal(MODAL_SELECTOR);
+      toast({
+        element: SUCCESS_TOAST_SELECTOR,
+        title: 'Feedback sent',
+        content: 'Your feedback has been sent properly.',
+        position: 'bottom-left',
+      });
     } catch (error) {
       const message =
         error instanceof Error ? error.message : 'Could not send feedback.';
       setStatus(status, message, 'error');
     } finally {
+      resetCaptcha(widget);
       delete form.dataset.busy;
     }
   });
