@@ -61,20 +61,33 @@ function headerValue(value) {
   return Array.isArray(value) ? value[0] : String(value ?? '');
 }
 
+function requestHostOrigin(request) {
+  const host = headerValue(request.headers.host).trim();
+  if (!host) return '';
+  const proto =
+    headerValue(request.headers['x-forwarded-proto']).split(',')[0].trim() ||
+    'https';
+  return normalizeOrigin(`${proto}://${host}`);
+}
+
+function allowedOriginsForRequest(request) {
+  return [...allowedOrigins(), requestHostOrigin(request)]
+    .map((origin) => normalizeOrigin(origin.trim()))
+    .filter(Boolean);
+}
+
 function requestIp(request) {
   return headerValue(request.headers['x-forwarded-for']).split(',')[0].trim();
 }
 
 function isAllowedOrigin(request) {
   const origin = requestOrigin(request);
-  return Boolean(
-    origin && allowedOrigins().map(normalizeOrigin).includes(origin),
-  );
+  return Boolean(origin && allowedOriginsForRequest(request).includes(origin));
 }
 
 function setCorsHeaders(request, response) {
   const origin = requestOrigin(request);
-  if (origin && allowedOrigins().map(normalizeOrigin).includes(origin)) {
+  if (origin && allowedOriginsForRequest(request).includes(origin)) {
     response.setHeader('Access-Control-Allow-Origin', origin);
   }
   response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
