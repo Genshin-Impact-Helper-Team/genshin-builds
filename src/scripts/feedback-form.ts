@@ -161,8 +161,11 @@ function bindFeedbackWidget(widget: HTMLElement) {
 
       if (!response.ok) {
         const message = result.error || 'Could not send feedback.';
+        const details = result.details ? ` ${result.details}` : '';
         throw new Error(
-          result.issueUrl ? `${message} Issue: ${result.issueUrl}` : message,
+          result.issueUrl
+            ? `${message}${details} Issue: ${result.issueUrl}`
+            : `${message}${details}`,
         );
       }
 

@@ -38,6 +38,13 @@ function envInteger(name, fallback) {
   return Number.isInteger(parsed) && parsed >= 0 ? parsed : fallback;
 }
 
+function exposeDebugErrors() {
+  return (
+    process.env.FEEDBACK_DEBUG_ERRORS === 'true' ||
+    process.env.VERCEL_ENV === 'preview'
+  );
+}
+
 function sleep(milliseconds) {
   return new Promise((resolve) => {
     setTimeout(resolve, milliseconds);
@@ -391,6 +398,8 @@ function repositoryParts(repository) {
 }
 
 async function loadIssueContentId(client, repository, issue) {
+  if (issue.node_id) return issue.node_id;
+
   const { owner, name } = repositoryParts(repository);
   const data = await client.graphql(
     `
@@ -599,6 +608,10 @@ async function addIssueToProject(client, repository, issue, feedback) {
     10,
   );
   const project = await loadProject(client, projectOwner, projectNumber);
+  const issueContentId = await loadIssueContentId(client, repository, issue);
+  const item = await retryProjectMutation(() =>
+    addProjectItem(client, project.id, issueContentId),
+  );
   const fields = project.fields.nodes;
   const names = {
     date: env('FEEDBACK_DATE_FIELD_NAME', 'Date'),
@@ -614,7 +627,6 @@ async function addIssueToProject(client, repository, issue, feedback) {
   const pageField = requireField(fields, names.page, 'TEXT');
   const languageField = requireField(fields, names.language, 'TEXT');
   const feedbackField = requireField(fields, names.feedback, 'TEXT');
-  requireField(fields, names.notes, 'TEXT');
   const typeField = requireTypeField(fields, names.type);
   const typeOption = typeField.options?.find(
     (option) => option.name === feedback.type,
@@ -624,10 +636,6 @@ async function addIssueToProject(client, repository, issue, feedback) {
       `Project field "${names.type}" is missing option "${feedback.type}".`,
     );
   }
-  const issueContentId = await loadIssueContentId(client, repository, issue);
-  const item = await retryProjectMutation(() =>
-    addProjectItem(client, project.id, issueContentId),
-  );
   await retryProjectMutation(() =>
     updateDateField(
       client,
@@ -716,15 +724,21 @@ export default async function handler(request, response) {
       await addIssueToProject(client, repository, issue, payload);
     } catch (projectError) {
       console.error(
-        `Could not add feedback issue #${issue.number} to project.`,
+        `Could not sync feedback issue #${issue.number} to project.`,
         projectError,
       );
-      return json(response, 500, {
-        error:
-          'Feedback issue was created, but it could not be linked to the project.',
+      const body = {
+        error: 'Feedback issue was created, but project sync failed.',
         issueNumber: issue.number,
         issueUrl: issue.html_url,
-      });
+      };
+      if (exposeDebugErrors()) {
+        body.details =
+          projectError instanceof Error
+            ? projectError.message
+            : String(projectError);
+      }
+      return json(response, 500, body);
     }
     return json(response, 201, {
       ok: true,
