@@ -1,10 +1,12 @@
 ---
+import { Image } from 'astro:assets';
+import type { AssetImage } from '../utils/item-assets';
 import { t } from '../utils/i18n';
 
 type ArtifactSetBrowserData = {
   artifactSets: {
     id: string;
-    imageUrl: string;
+    image: AssetImage | '';
     name: string;
     rarity: number;
     bonuses: {
@@ -123,14 +125,17 @@ const noMentionsLabel = t(
           <header class="artifact-set-entry-header">
             <div class="artifact-set-entry-title">
               <div
-                class={`artifact-set-entry-image${artifactSet.imageUrl ? '' : ' is-empty'}`}
+                class={`artifact-set-entry-image${artifactSet.image ? '' : ' is-empty'}`}
               >
-                {artifactSet.imageUrl && (
-                  <img
-                    src={artifactSet.imageUrl}
+                {artifactSet.image && (
+                  <Image
+                    src={artifactSet.image}
                     alt=""
                     loading="lazy"
                     decoding="async"
+                    width={72}
+                    height={72}
+                    densities={[1, 2]}
                   />
                 )}
               </div>

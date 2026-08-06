@@ -1075,7 +1075,7 @@
   touch-action: manipulation;
 }
 
-.weapon-popover-refinement-button[aria-selected='true'] {
+.weapon-popover-refinement-button[aria-pressed='true'] {
   background: var(--element);
   color: #05080c;
 }
