@@ -160,7 +160,10 @@ function bindFeedbackWidget(widget: HTMLElement) {
       const result = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(result.error || 'Could not send feedback.');
+        const message = result.error || 'Could not send feedback.';
+        throw new Error(
+          result.issueUrl ? `${message} Issue: ${result.issueUrl}` : message,
+        );
       }
 
       form.reset();

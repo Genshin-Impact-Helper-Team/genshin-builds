@@ -712,18 +712,24 @@ export default async function handler(request, response) {
     const label = env('FEEDBACK_LABEL', DEFAULT_LABEL);
     await ensureLabel(client, repository, label);
     const issue = await createIssue(client, repository, label, payload);
-    let projectSynced = true;
     try {
       await addIssueToProject(client, repository, issue, payload);
     } catch (projectError) {
-      projectSynced = false;
-      console.error('Could not add feedback issue to project.', projectError);
+      console.error(
+        `Could not add feedback issue #${issue.number} to project.`,
+        projectError,
+      );
+      return json(response, 500, {
+        error:
+          'Feedback issue was created, but it could not be linked to the project.',
+        issueNumber: issue.number,
+        issueUrl: issue.html_url,
+      });
     }
     return json(response, 201, {
       ok: true,
       issueNumber: issue.number,
       issueUrl: issue.html_url,
-      projectSynced,
     });
   } catch (error) {
     if (!(error instanceof ClientError)) console.error(error);
