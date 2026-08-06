@@ -5,6 +5,8 @@ const DEFAULT_REPOSITORY = 'Genshin-Impact-Helper-Team/genshin-builds';
 const DEFAULT_PROJECT_OWNER = 'Genshin-Impact-Helper-Team';
 const DEFAULT_PROJECT_NUMBER = 2;
 const DEFAULT_LABEL = 'Feedback Form';
+const DEFAULT_MUTATION_DELAY_MS = 500;
+const DEFAULT_MAX_RATE_LIMIT_RETRIES = 2;
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://genshin-impact-helper-team.github.io',
 ];
@@ -29,6 +31,30 @@ class ClientError extends Error {
 
 function env(name, fallback) {
   return process.env[name] || fallback;
+}
+
+function envInteger(name, fallback) {
+  const parsed = Number.parseInt(process.env[name] ?? '', 10);
+  return Number.isInteger(parsed) && parsed >= 0 ? parsed : fallback;
+}
+
+function sleep(milliseconds) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, milliseconds);
+  });
+}
+
+async function retryProjectMutation(operation) {
+  let lastError;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      return await operation();
+    } catch (error) {
+      lastError = error;
+      if (attempt < 2) await sleep(500 * (attempt + 1));
+    }
+  }
+  throw lastError;
 }
 
 function json(response, statusCode, body) {
@@ -203,37 +229,112 @@ function renderIssueBody(feedback) {
 }
 
 function createClient(token) {
-  async function request(endpoint, options = {}) {
-    const response = await fetch(`${GITHUB_API}${endpoint}`, {
-      method: options.method ?? 'GET',
-      headers: {
-        Accept: 'application/vnd.github+json',
-        Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
-        'User-Agent': 'genshin-builds-feedback-form',
-        'X-GitHub-Api-Version': GITHUB_API_VERSION,
-      },
-      body: options.body ? JSON.stringify(options.body) : undefined,
-    });
-    const text = await response.text();
-    const payload = text ? JSON.parse(text) : null;
-    if (!response.ok) {
-      const message = payload?.message || text || 'Unknown GitHub API error';
-      throw new GitHubApiError(
-        `${options.method ?? 'GET'} ${endpoint} failed: ${message}`,
-        response.status,
-      );
-    }
-    return payload;
+  const mutationDelayMs = envInteger(
+    'MUTATION_DELAY_MS',
+    DEFAULT_MUTATION_DELAY_MS,
+  );
+  const maxRateLimitRetries = envInteger(
+    'MAX_RATE_LIMIT_RETRIES',
+    DEFAULT_MAX_RATE_LIMIT_RETRIES,
+  );
+  let lastMutationStartedAt = 0;
+
+  async function paceMutation() {
+    const elapsed = Date.now() - lastMutationStartedAt;
+    const remainingDelay = mutationDelayMs - elapsed;
+    if (remainingDelay > 0) await sleep(remainingDelay);
+    lastMutationStartedAt = Date.now();
   }
 
-  async function graphql(query, variables = {}) {
+  function rateLimitDelay(response, attempt) {
+    const retryAfter = Number.parseInt(
+      response.headers.get('retry-after') ?? '',
+      10,
+    );
+    if (Number.isInteger(retryAfter)) return retryAfter * 1_000;
+
+    if (response.headers.get('x-ratelimit-remaining') === '0') {
+      const resetAt = Number.parseInt(
+        response.headers.get('x-ratelimit-reset') ?? '',
+        10,
+      );
+      if (Number.isInteger(resetAt)) {
+        return Math.max(resetAt * 1_000 - Date.now() + 1_000, 1_000);
+      }
+    }
+
+    return 1_000 * 2 ** attempt;
+  }
+
+  async function request(endpoint, options = {}) {
+    const method = options.method ?? 'GET';
+
+    for (let attempt = 0; ; attempt += 1) {
+      if (options.mutation) await paceMutation();
+
+      const response = await fetch(`${GITHUB_API}${endpoint}`, {
+        method,
+        headers: {
+          Accept: 'application/vnd.github+json',
+          Authorization: `Bearer ${token}`,
+          'Content-Type': 'application/json',
+          'User-Agent': 'genshin-builds-feedback-form',
+          'X-GitHub-Api-Version': GITHUB_API_VERSION,
+        },
+        body:
+          options.body === undefined ? undefined : JSON.stringify(options.body),
+      });
+      const text = await response.text();
+      let payload = null;
+
+      if (text) {
+        try {
+          payload = JSON.parse(text);
+        } catch {
+          payload = text;
+        }
+      }
+
+      const errorText =
+        typeof payload === 'string'
+          ? payload
+          : [
+              payload?.message,
+              ...(payload?.errors ?? []).map((error) => error.message),
+            ]
+              .filter(Boolean)
+              .join(' ');
+      const isRateLimited =
+        response.status === 429 ||
+        ((response.status === 403 || endpoint === '/graphql') &&
+          /rate limit|abuse/i.test(errorText));
+
+      if (isRateLimited && attempt < maxRateLimitRetries) {
+        await sleep(rateLimitDelay(response, attempt));
+        continue;
+      }
+
+      if (!response.ok) {
+        throw new GitHubApiError(
+          `${method} ${endpoint} failed (${response.status}): ${
+            errorText || 'Unknown GitHub API error'
+          }`,
+          response.status,
+        );
+      }
+      return payload;
+    }
+  }
+
+  async function graphql(query, variables = {}, options = {}) {
     const payload = await request('/graphql', {
       method: 'POST',
       body: { query, variables },
+      mutation: options.mutation,
     });
     if (payload.errors?.length) {
-      throw new Error(payload.errors.map((error) => error.message).join('; '));
+      const errorText = payload.errors.map((error) => error.message).join('; ');
+      throw new Error(`GitHub GraphQL error: ${errorText}`);
     }
     return payload.data;
   }
@@ -250,6 +351,7 @@ async function ensureLabel(client, repository, label) {
     try {
       await client.request(`/repos/${repository}/labels`, {
         method: 'POST',
+        mutation: true,
         body: {
           name: label,
           color: 'bfd4f2',
@@ -271,12 +373,42 @@ async function createIssue(client, repository, label, feedback) {
   const title = `[${feedback.type}] ${truncate(feedback.page, 90)}`;
   return client.request(`/repos/${repository}/issues`, {
     method: 'POST',
+    mutation: true,
     body: {
       title,
       body: renderIssueBody(feedback),
       labels: [label],
     },
   });
+}
+
+function repositoryParts(repository) {
+  const [owner, name] = repository.split('/');
+  if (!owner || !name) {
+    throw new Error(`Invalid repository "${repository}".`);
+  }
+  return { owner, name };
+}
+
+async function loadIssueContentId(client, repository, issue) {
+  const { owner, name } = repositoryParts(repository);
+  const data = await client.graphql(
+    `
+      query FeedbackIssueId($owner: String!, $name: String!, $number: Int!) {
+        repository(owner: $owner, name: $name) {
+          issue(number: $number) {
+            id
+          }
+        }
+      }
+    `,
+    { owner, name, number: issue.number },
+  );
+  const id = data.repository?.issue?.id || issue.node_id;
+  if (!id) {
+    throw new Error(`Could not find GraphQL id for issue #${issue.number}.`);
+  }
+  return id;
 }
 
 async function loadProject(client, owner, number) {
@@ -322,72 +454,6 @@ async function loadProject(client, owner, number) {
   return project;
 }
 
-async function createProjectField(client, projectId, name, dataType) {
-  const data = await client.graphql(
-    `
-      mutation CreateFeedbackField(
-        $projectId: ID!
-        $name: String!
-        $dataType: ProjectV2CustomFieldType!
-      ) {
-        createProjectV2Field(
-          input: { projectId: $projectId, dataType: $dataType, name: $name }
-        ) {
-          projectV2Field {
-            ... on ProjectV2Field {
-              id
-              name
-              dataType
-            }
-          }
-        }
-      }
-    `,
-    { projectId, name, dataType },
-  );
-  return data.createProjectV2Field.projectV2Field;
-}
-
-async function createTypeField(client, projectId, name) {
-  const options = FEEDBACK_TYPES.map((option, index) => {
-    const colors = ['RED', 'BLUE', 'YELLOW', 'GRAY'];
-    return `{
-      name: ${JSON.stringify(option)}
-      color: ${colors[index]}
-      description: ${JSON.stringify(`${option} feedback`)}
-    }`;
-  }).join('\n');
-  const data = await client.graphql(
-    `
-      mutation CreateFeedbackTypeField($projectId: ID!, $name: String!) {
-        createProjectV2Field(
-          input: {
-            projectId: $projectId
-            dataType: SINGLE_SELECT
-            name: $name
-            singleSelectOptions: [
-              ${options}
-            ]
-          }
-        ) {
-          projectV2Field {
-            ... on ProjectV2SingleSelectField {
-              id
-              name
-              options {
-                id
-                name
-              }
-            }
-          }
-        }
-      }
-    `,
-    { projectId, name },
-  );
-  return data.createProjectV2Field.projectV2Field;
-}
-
 function findField(fields, name) {
   return fields.find(
     (field) =>
@@ -395,20 +461,26 @@ function findField(fields, name) {
   );
 }
 
-async function ensureField(client, fields, projectId, name, dataType) {
+function requireField(fields, name, dataType) {
   const field = findField(fields, name);
-  if (field) return field;
-  const created = await createProjectField(client, projectId, name, dataType);
-  fields.push(created);
-  return created;
+  if (!field) {
+    throw new Error(`Project field "${name}" was not found.`);
+  }
+  if (field.dataType !== dataType) {
+    throw new Error(`Project field "${name}" must be a ${dataType} field.`);
+  }
+  return field;
 }
 
-async function ensureTypeField(client, fields, projectId, name) {
+function requireTypeField(fields, name) {
   const field = findField(fields, name);
-  if (field) return field;
-  const created = await createTypeField(client, projectId, name);
-  fields.push(created);
-  return created;
+  if (!field) {
+    throw new Error(`Project field "${name}" was not found.`);
+  }
+  if (!Array.isArray(field.options)) {
+    throw new Error(`Project field "${name}" must be a single-select field.`);
+  }
+  return field;
 }
 
 async function addProjectItem(client, projectId, contentId) {
@@ -425,6 +497,7 @@ async function addProjectItem(client, projectId, contentId) {
       }
     `,
     { projectId, contentId },
+    { mutation: true },
   );
   return data.addProjectV2ItemById.item;
 }
@@ -453,6 +526,7 @@ async function updateTextField(client, projectId, itemId, fieldId, value) {
       }
     `,
     { projectId, itemId, fieldId, value },
+    { mutation: true },
   );
 }
 
@@ -480,6 +554,7 @@ async function updateDateField(client, projectId, itemId, fieldId, value) {
       }
     `,
     { projectId, itemId, fieldId, value },
+    { mutation: true },
   );
 }
 
@@ -513,10 +588,11 @@ async function updateSingleSelectField(
       }
     `,
     { projectId, itemId, fieldId, optionId },
+    { mutation: true },
   );
 }
 
-async function addIssueToProject(client, issue, feedback) {
+async function addIssueToProject(client, repository, issue, feedback) {
   const projectOwner = env('FEEDBACK_PROJECT_OWNER', DEFAULT_PROJECT_OWNER);
   const projectNumber = Number.parseInt(
     env('FEEDBACK_PROJECT_NUMBER', String(DEFAULT_PROJECT_NUMBER)),
@@ -533,21 +609,13 @@ async function addIssueToProject(client, issue, feedback) {
     feedback: env('FEEDBACK_TEXT_FIELD_NAME', 'Feedback'),
     notes: env('FEEDBACK_NOTES_FIELD_NAME', 'Notes'),
   };
-  const [dateField, personField, pageField, languageField, feedbackField] =
-    await Promise.all([
-      ensureField(client, fields, project.id, names.date, 'DATE'),
-      ensureField(client, fields, project.id, names.person, 'TEXT'),
-      ensureField(client, fields, project.id, names.page, 'TEXT'),
-      ensureField(client, fields, project.id, names.language, 'TEXT'),
-      ensureField(client, fields, project.id, names.feedback, 'TEXT'),
-      ensureField(client, fields, project.id, names.notes, 'TEXT'),
-    ]);
-  const typeField = await ensureTypeField(
-    client,
-    fields,
-    project.id,
-    names.type,
-  );
+  const dateField = requireField(fields, names.date, 'DATE');
+  const personField = requireField(fields, names.person, 'TEXT');
+  const pageField = requireField(fields, names.page, 'TEXT');
+  const languageField = requireField(fields, names.language, 'TEXT');
+  const feedbackField = requireField(fields, names.feedback, 'TEXT');
+  requireField(fields, names.notes, 'TEXT');
+  const typeField = requireTypeField(fields, names.type);
   const typeOption = typeField.options?.find(
     (option) => option.name === feedback.type,
   );
@@ -556,8 +624,11 @@ async function addIssueToProject(client, issue, feedback) {
       `Project field "${names.type}" is missing option "${feedback.type}".`,
     );
   }
-  const item = await addProjectItem(client, project.id, issue.node_id);
-  await Promise.all([
+  const issueContentId = await loadIssueContentId(client, repository, issue);
+  const item = await retryProjectMutation(() =>
+    addProjectItem(client, project.id, issueContentId),
+  );
+  await retryProjectMutation(() =>
     updateDateField(
       client,
       project.id,
@@ -565,15 +636,19 @@ async function addIssueToProject(client, issue, feedback) {
       dateField.id,
       issue.created_at.slice(0, 10),
     ),
-    feedback.contact
-      ? updateTextField(
-          client,
-          project.id,
-          item.id,
-          personField.id,
-          feedback.contact,
-        )
-      : Promise.resolve(),
+  );
+  if (feedback.contact) {
+    await retryProjectMutation(() =>
+      updateTextField(
+        client,
+        project.id,
+        item.id,
+        personField.id,
+        feedback.contact,
+      ),
+    );
+  }
+  await retryProjectMutation(() =>
     updateSingleSelectField(
       client,
       project.id,
@@ -581,7 +656,11 @@ async function addIssueToProject(client, issue, feedback) {
       typeField.id,
       typeOption.id,
     ),
+  );
+  await retryProjectMutation(() =>
     updateTextField(client, project.id, item.id, pageField.id, feedback.page),
+  );
+  await retryProjectMutation(() =>
     updateTextField(
       client,
       project.id,
@@ -589,6 +668,8 @@ async function addIssueToProject(client, issue, feedback) {
       languageField.id,
       feedback.language,
     ),
+  );
+  await retryProjectMutation(() =>
     updateTextField(
       client,
       project.id,
@@ -596,7 +677,7 @@ async function addIssueToProject(client, issue, feedback) {
       feedbackField.id,
       feedback.feedback,
     ),
-  ]);
+  );
 }
 
 export default async function handler(request, response) {
@@ -631,11 +712,18 @@ export default async function handler(request, response) {
     const label = env('FEEDBACK_LABEL', DEFAULT_LABEL);
     await ensureLabel(client, repository, label);
     const issue = await createIssue(client, repository, label, payload);
-    await addIssueToProject(client, issue, payload);
+    let projectSynced = true;
+    try {
+      await addIssueToProject(client, repository, issue, payload);
+    } catch (projectError) {
+      projectSynced = false;
+      console.error('Could not add feedback issue to project.', projectError);
+    }
     return json(response, 201, {
       ok: true,
       issueNumber: issue.number,
       issueUrl: issue.html_url,
+      projectSynced,
     });
   } catch (error) {
     if (!(error instanceof ClientError)) console.error(error);
@@ -647,6 +735,8 @@ export default async function handler(request, response) {
     const isClientError =
       message.includes('Feedback is required') ||
       message.includes('Choose what the feedback');
-    return json(response, isClientError ? 400 : 500, { error: message });
+    return json(response, isClientError ? 400 : 500, {
+      error: isClientError ? message : 'Could not send feedback.',
+    });
   }
 }
