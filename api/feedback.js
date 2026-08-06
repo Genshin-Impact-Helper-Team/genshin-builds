@@ -1,5 +1,3 @@
-import type { IncomingMessage, ServerResponse } from 'node:http';
-
 const GITHUB_API = 'https://api.github.com';
 const GITHUB_API_VERSION = '2026-03-10';
 const FEEDBACK_TYPES = ['Bug', 'Suggestion', 'Translation Issue', 'Other'];
@@ -8,68 +6,33 @@ const DEFAULT_PROJECT_OWNER = 'Genshin-Impact-Helper-Team';
 const DEFAULT_PROJECT_NUMBER = 2;
 const DEFAULT_LABEL = 'Feedback Form';
 
-type FeedbackPayload = {
-  contact: string;
-  type: string;
-  page: string;
-  language: string;
-  feedback: string;
-};
-
-type GitHubIssue = {
-  node_id: string;
-  number: number;
-  html_url: string;
-  created_at: string;
-};
-
-type GitHubClient = {
-  request: <T>(
-    endpoint: string,
-    options?: { method?: string; body?: unknown },
-  ) => Promise<T>;
-  graphql: <T>(
-    query: string,
-    variables?: Record<string, unknown>,
-  ) => Promise<T>;
-};
-
-type ProjectField = {
-  id: string;
-  name: string;
-  dataType?: string;
-  options?: { id: string; name: string }[];
-};
-
 class GitHubApiError extends Error {
-  constructor(
-    message: string,
-    readonly status: number,
-  ) {
+  status;
+  constructor(message, status) {
     super(message);
+    this.status = status;
   }
 }
 
 class ClientError extends Error {
-  constructor(
-    readonly status: number,
-    message: string,
-  ) {
+  status;
+  constructor(status, message) {
     super(message);
+    this.status = status;
   }
 }
 
-function env(name: string, fallback: string) {
+function env(name, fallback) {
   return process.env[name] || fallback;
 }
 
-function json(response: ServerResponse, statusCode: number, body: unknown) {
+function json(response, statusCode, body) {
   response.statusCode = statusCode;
   response.setHeader('Content-Type', 'application/json; charset=utf-8');
   response.end(JSON.stringify(body));
 }
 
-function normalizeOrigin(value: string) {
+function normalizeOrigin(value) {
   try {
     return new URL(value).origin;
   } catch {
@@ -86,47 +49,42 @@ function allowedOrigins() {
   ].filter(Boolean);
 }
 
-function requestOrigin(request: IncomingMessage) {
+function requestOrigin(request) {
   return normalizeOrigin(String(request.headers.origin ?? ''));
 }
 
-function isAllowedOrigin(request: IncomingMessage) {
+function isAllowedOrigin(request) {
   const origin = requestOrigin(request);
-
   return Boolean(origin && allowedOrigins().includes(origin));
 }
 
-function setCorsHeaders(request: IncomingMessage, response: ServerResponse) {
+function setCorsHeaders(request, response) {
   const origin = requestOrigin(request);
-
   if (origin && allowedOrigins().includes(origin)) {
     response.setHeader('Access-Control-Allow-Origin', origin);
   }
-
   response.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   response.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   response.setHeader('Vary', 'Origin');
 }
 
-async function readRequestBody(request: IncomingMessage & { body?: unknown }) {
+
+async function readRequestBody(request) {
   if (typeof request.body === 'string') return request.body;
   if (request.body && typeof request.body === 'object') {
     return JSON.stringify(request.body);
   }
-
   let body = '';
   for await (const chunk of request) body += chunk.toString();
   return body;
 }
 
-async function readPayload(request: IncomingMessage & { body?: unknown }) {
+async function readPayload(request) {
   const body = await readRequestBody(request);
   const contentType = String(request.headers['content-type'] ?? '');
-
   if (!contentType.includes('application/json')) {
     throw new ClientError(415, 'Feedback must be sent as JSON.');
   }
-
   try {
     return body ? JSON.parse(body) : {};
   } catch {
@@ -134,25 +92,22 @@ async function readPayload(request: IncomingMessage & { body?: unknown }) {
   }
 }
 
-function clean(value: unknown, maxLength: number) {
+function clean(value, maxLength) {
   return String(value ?? '')
     .replaceAll('\r\n', '\n')
     .trim()
     .slice(0, maxLength);
 }
 
-function validatePayload(payload: Record<string, unknown>): FeedbackPayload {
+function validatePayload(payload) {
   const feedback = clean(payload.feedback, 5_000);
   const type = clean(payload.type, 80);
-
   if (!FEEDBACK_TYPES.includes(type)) {
     throw new Error('Choose what the feedback is about.');
   }
-
   if (!feedback) {
     throw new Error('Feedback is required.');
   }
-
   return {
     contact: clean(payload.contact, 140),
     type,
@@ -162,13 +117,13 @@ function validatePayload(payload: Record<string, unknown>): FeedbackPayload {
   };
 }
 
-function truncate(value: string, maxLength: number) {
+function truncate(value, maxLength) {
   return value.length <= maxLength
     ? value
     : `${value.slice(0, maxLength - 3)}...`;
 }
 
-function renderIssueBody(feedback: FeedbackPayload) {
+function renderIssueBody(feedback) {
   return [
     '## Feedback',
     '',
@@ -183,11 +138,8 @@ function renderIssueBody(feedback: FeedbackPayload) {
   ].join('\n');
 }
 
-function createClient(token: string): GitHubClient {
-  async function request<T>(
-    endpoint: string,
-    options: { method?: string; body?: unknown } = {},
-  ) {
+function createClient(token) {
+  async function request(endpoint, options = {}) {
     const response = await fetch(`${GITHUB_API}${endpoint}`, {
       method: options.method ?? 'GET',
       headers: {
@@ -201,7 +153,6 @@ function createClient(token: string): GitHubClient {
     });
     const text = await response.text();
     const payload = text ? JSON.parse(text) : null;
-
     if (!response.ok) {
       const message = payload?.message || text || 'Unknown GitHub API error';
       throw new GitHubApiError(
@@ -209,41 +160,29 @@ function createClient(token: string): GitHubClient {
         response.status,
       );
     }
-
-    return payload as T;
+    return payload;
   }
 
-  async function graphql<T>(
-    query: string,
-    variables: Record<string, unknown> = {},
-  ) {
-    const payload = await request<{ data?: T; errors?: { message: string }[] }>(
-      '/graphql',
-      { method: 'POST', body: { query, variables } },
-    );
-
+  async function graphql(query, variables = {}) {
+    const payload = await request('/graphql', {
+      method: 'POST',
+      body: { query, variables },
+    });
     if (payload.errors?.length) {
       throw new Error(payload.errors.map((error) => error.message).join('; '));
     }
-
-    return payload.data as T;
+    return payload.data;
   }
-
   return { request, graphql };
 }
 
-async function ensureLabel(
-  client: GitHubClient,
-  repository: string,
-  label: string,
-) {
+async function ensureLabel(client, repository, label) {
   try {
     await client.request(
       `/repos/${repository}/labels/${encodeURIComponent(label)}`,
     );
   } catch (error) {
     if (!(error instanceof GitHubApiError) || error.status !== 404) throw error;
-
     try {
       await client.request(`/repos/${repository}/labels`, {
         method: 'POST',
@@ -264,15 +203,9 @@ async function ensureLabel(
   }
 }
 
-async function createIssue(
-  client: GitHubClient,
-  repository: string,
-  label: string,
-  feedback: FeedbackPayload,
-) {
+async function createIssue(client, repository, label, feedback) {
   const title = `[${feedback.type}] ${truncate(feedback.page, 90)}`;
-
-  return client.request<GitHubIssue>(`/repos/${repository}/issues`, {
+  return client.request(`/repos/${repository}/issues`, {
     method: 'POST',
     body: {
       title,
@@ -282,19 +215,8 @@ async function createIssue(
   });
 }
 
-async function loadProject(
-  client: GitHubClient,
-  owner: string,
-  number: number,
-) {
-  const data = await client.graphql<{
-    organization?: {
-      projectV2?: {
-        id: string;
-        fields: { nodes: ProjectField[]; pageInfo: { hasNextPage: boolean } };
-      };
-    };
-  }>(
+async function loadProject(client, owner, number) {
+  const data = await client.graphql(
     `
       query FeedbackProject($owner: String!, $number: Int!) {
         organization(login: $owner) {
@@ -326,26 +248,18 @@ async function loadProject(
     `,
     { owner, number },
   );
-  const project = data.organization?.projectV2;
 
+  const project = data.organization?.projectV2;
   if (!project)
     throw new Error(`GitHub project ${owner}/${number} was not found.`);
   if (project.fields.pageInfo.hasNextPage) {
     throw new Error('Feedback project has more than 100 fields.');
   }
-
   return project;
 }
 
-async function createProjectField(
-  client: GitHubClient,
-  projectId: string,
-  name: string,
-  dataType: 'TEXT' | 'DATE',
-) {
-  const data = await client.graphql<{
-    createProjectV2Field: { projectV2Field: ProjectField };
-  }>(
+async function createProjectField(client, projectId, name, dataType) {
+  const data = await client.graphql(
     `
       mutation CreateFeedbackField(
         $projectId: ID!
@@ -367,27 +281,19 @@ async function createProjectField(
     `,
     { projectId, name, dataType },
   );
-
   return data.createProjectV2Field.projectV2Field;
 }
 
-async function createTypeField(
-  client: GitHubClient,
-  projectId: string,
-  name: string,
-) {
+async function createTypeField(client, projectId, name) {
   const options = FEEDBACK_TYPES.map((option, index) => {
     const colors = ['RED', 'BLUE', 'YELLOW', 'GRAY'];
-
     return `{
       name: ${JSON.stringify(option)}
       color: ${colors[index]}
       description: ${JSON.stringify(`${option} feedback`)}
     }`;
   }).join('\n');
-  const data = await client.graphql<{
-    createProjectV2Field: { projectV2Field: ProjectField };
-  }>(
+  const data = await client.graphql(
     `
       mutation CreateFeedbackTypeField($projectId: ID!, $name: String!) {
         createProjectV2Field(
@@ -415,54 +321,34 @@ async function createTypeField(
     `,
     { projectId, name },
   );
-
   return data.createProjectV2Field.projectV2Field;
 }
 
-function findField(fields: ProjectField[], name: string) {
+function findField(fields, name) {
   return fields.find(
     (field) =>
       field.name.toLocaleLowerCase('en-US') === name.toLocaleLowerCase('en-US'),
   );
 }
 
-async function ensureField(
-  client: GitHubClient,
-  fields: ProjectField[],
-  projectId: string,
-  name: string,
-  dataType: 'TEXT' | 'DATE',
-) {
+async function ensureField(client, fields, projectId, name, dataType) {
   const field = findField(fields, name);
   if (field) return field;
-
   const created = await createProjectField(client, projectId, name, dataType);
   fields.push(created);
   return created;
 }
 
-async function ensureTypeField(
-  client: GitHubClient,
-  fields: ProjectField[],
-  projectId: string,
-  name: string,
-) {
+async function ensureTypeField(client, fields, projectId, name) {
   const field = findField(fields, name);
   if (field) return field;
-
   const created = await createTypeField(client, projectId, name);
   fields.push(created);
   return created;
 }
 
-async function addProjectItem(
-  client: GitHubClient,
-  projectId: string,
-  contentId: string,
-) {
-  const data = await client.graphql<{
-    addProjectV2ItemById: { item: { id: string } };
-  }>(
+async function addProjectItem(client, projectId, contentId) {
+  const data = await client.graphql(
     `
       mutation AddFeedbackItem($projectId: ID!, $contentId: ID!) {
         addProjectV2ItemById(
@@ -476,17 +362,10 @@ async function addProjectItem(
     `,
     { projectId, contentId },
   );
-
   return data.addProjectV2ItemById.item;
 }
 
-async function updateTextField(
-  client: GitHubClient,
-  projectId: string,
-  itemId: string,
-  fieldId: string,
-  value: string,
-) {
+async function updateTextField(client, projectId, itemId, fieldId, value) {
   await client.graphql(
     `
       mutation UpdateFeedbackTextField(
@@ -513,13 +392,7 @@ async function updateTextField(
   );
 }
 
-async function updateDateField(
-  client: GitHubClient,
-  projectId: string,
-  itemId: string,
-  fieldId: string,
-  value: string,
-) {
+async function updateDateField(client, projectId, itemId, fieldId, value) {
   await client.graphql(
     `
       mutation UpdateFeedbackDateField(
@@ -547,11 +420,11 @@ async function updateDateField(
 }
 
 async function updateSingleSelectField(
-  client: GitHubClient,
-  projectId: string,
-  itemId: string,
-  fieldId: string,
-  optionId: string,
+  client,
+  projectId,
+  itemId,
+  fieldId,
+  optionId,
 ) {
   await client.graphql(
     `
@@ -579,11 +452,7 @@ async function updateSingleSelectField(
   );
 }
 
-async function addIssueToProject(
-  client: GitHubClient,
-  issue: GitHubIssue,
-  feedback: FeedbackPayload,
-) {
+async function addIssueToProject(client, issue, feedback) {
   const projectOwner = env('FEEDBACK_PROJECT_OWNER', DEFAULT_PROJECT_OWNER);
   const projectNumber = Number.parseInt(
     env('FEEDBACK_PROJECT_NUMBER', String(DEFAULT_PROJECT_NUMBER)),
@@ -618,13 +487,11 @@ async function addIssueToProject(
   const typeOption = typeField.options?.find(
     (option) => option.name === feedback.type,
   );
-
   if (!typeOption) {
     throw new Error(
       `Project field "${names.type}" is missing option "${feedback.type}".`,
     );
   }
-
   const item = await addProjectItem(client, project.id, issue.node_id);
   await Promise.all([
     updateDateField(
@@ -668,47 +535,35 @@ async function addIssueToProject(
   ]);
 }
 
-export default async function handler(
-  request: IncomingMessage & { body?: unknown },
-  response: ServerResponse,
-) {
+export default async function handler(request, response) {
   setCorsHeaders(request, response);
-
   if (request.method === 'OPTIONS') {
     if (!isAllowedOrigin(request)) {
       return json(response, 403, { error: 'Origin is not allowed.' });
     }
-
     response.statusCode = 204;
     return response.end();
   }
-
   if (request.method !== 'POST') {
     return json(response, 405, { error: 'Method not allowed.' });
   }
-
   if (!isAllowedOrigin(request)) {
     return json(response, 403, { error: 'Origin is not allowed.' });
   }
-
   const token = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN;
-
   if (!token) {
     return json(response, 500, {
       error: 'Feedback endpoint is not configured.',
     });
   }
-
   try {
     const payload = validatePayload(await readPayload(request));
     const client = createClient(token);
     const repository = env('FEEDBACK_REPOSITORY', DEFAULT_REPOSITORY);
     const label = env('FEEDBACK_LABEL', DEFAULT_LABEL);
-
     await ensureLabel(client, repository, label);
     const issue = await createIssue(client, repository, label, payload);
     await addIssueToProject(client, issue, payload);
-
     return json(response, 201, {
       ok: true,
       issueNumber: issue.number,
@@ -721,11 +576,9 @@ export default async function handler(
     if (error instanceof ClientError) {
       return json(response, error.status, { error: message });
     }
-
     const isClientError =
       message.includes('Feedback is required') ||
       message.includes('Choose what the feedback');
-
     return json(response, isClientError ? 400 : 500, { error: message });
   }
 }
