@@ -14,6 +14,10 @@
   padding: 32px 16px 48px;
 }
 
+.simple-page-wide {
+  max-width: 1280px;
+}
+
 .home-page h1 {
   margin: 0 0 8px;
   color: var(--accent);
@@ -597,6 +601,23 @@
   overflow-wrap: anywhere;
 }
 
+.credits-feedback-button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+
+.credits-feedback-button:hover,
+.credits-feedback-button:focus-visible {
+  opacity: 0.85;
+  outline: none;
+  text-decoration: underline;
+}
+
 .credits-legal-card {
   border-color: color-mix(
     in srgb,
@@ -621,11 +642,34 @@
 }
 
 .changelog-list {
-  gap: 24px;
+  --w-color-primary-70: color-mix(in srgb, var(--bg) 88%, #fff 12%);
+}
+
+.changelog-list .changelog-timeline.changelog-timeline {
+  gap: 22px;
+  padding-left: 40px;
+}
+
+.changelog-list .changelog-timeline.changelog-timeline::before {
+  left: calc(((25px + 4px) / 2) - 1px);
+}
+
+.changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n) {
+  width: auto;
+  align-self: stretch;
+  padding: 0;
+  text-align: left;
+}
+
+.changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n)::before {
+  right: auto;
+  left: auto;
+  margin-left: -40px;
 }
 
 .credits-card h2,
 .changelog-version h2 {
+  font-family: inherit;
   margin: 0 0 14px;
   color: var(--accent);
   font-size: 1.2rem;
@@ -633,13 +677,10 @@
   text-align: left;
 }
 
-.changelog-list,
 .changelog-version-entries {
   display: grid;
-}
-
-.changelog-version-entries {
   gap: 12px;
+  text-align: left;
 }
 
 .changelog-card {
@@ -662,23 +703,45 @@
   font-weight: 600;
 }
 
-.faq-list {
-  display: grid;
-  gap: 10px;
-}
+@media (min-width: 780px) {
+  .changelog-list .changelog-timeline.changelog-timeline {
+    padding: 0;
+  }
 
-.faq-card h2 {
-  margin-bottom: 8px;
-}
+  .changelog-list .changelog-timeline.changelog-timeline::before {
+    left: calc(50% - 1px);
+  }
 
-.faq-item summary {
-  color: var(--accent);
-  cursor: pointer;
-  font-weight: 600;
-}
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
+    align-items: start;
+  }
 
-.faq-item p {
-  margin: 12px 0 0;
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n)::before {
+    left: 50%;
+    margin-left: 0;
+    transform: translateX(-50%);
+  }
+
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version > h2,
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version > .changelog-version-entries {
+    grid-row: 1;
+  }
+
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(odd) > h2,
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(even) > .changelog-version-entries {
+    grid-column: 1;
+  }
+
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(even) > h2,
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(odd) > .changelog-version-entries {
+    grid-column: 3;
+  }
+
+  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(odd) > h2 {
+    text-align: right;
+  }
 }
 
 .not-found-page {

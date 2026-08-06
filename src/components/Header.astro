@@ -1,5 +1,8 @@
 ---
 import '../styles/header.css';
+import '../styles/feedback-widget.scss';
+import FeedbackModal from './FeedbackModal.astro';
+import SpeedDial from './SpeedDial.astro';
 import { t } from '../utils/i18n';
 import { languages } from '../utils/languages';
 import { localizedPath } from '../utils/paths';
@@ -142,6 +145,16 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
   </div>
 </header>
 
+<div
+  class="feedback-widget"
+  data-feedback-widget
+  data-feedback-lang={currentLang}
+>
+  <SpeedDial />
+  <FeedbackModal lang={currentLang} />
+</div>
+
 <script>
   import '../scripts/header';
+  import '../scripts/feedback-form';
 </script>

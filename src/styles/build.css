@@ -741,7 +741,7 @@
 
 .inline-note-label-emphasized {
   color: color-mix(in srgb, #fff 82%, var(--accent) 18%);
-  font-weight: 850;
+  font-weight: 750;
 }
 
 .note-tail {
@@ -864,7 +864,7 @@
   color: color-mix(in srgb, #fff 82%, var(--accent) 18%);
   cursor: pointer;
   font: inherit;
-  font-weight: 850;
+  font-weight: 750;
   overflow-wrap: anywhere;
   text-align: left;
 }

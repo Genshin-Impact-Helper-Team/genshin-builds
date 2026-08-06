@@ -1,0 +1,82 @@
+---
+import { Modal } from 'webcoreui/astro';
+import { localizedPath } from '../utils/paths';
+
+type Props = {
+  lang?: string;
+};
+
+const { lang = 'en' } = Astro.props as Props;
+const feedbackEndpoint =
+  import.meta.env.PUBLIC_FEEDBACK_ENDPOINT || '/api/feedback';
+const faqPath = localizedPath(lang, 'faq');
+---
+
+<Modal
+  id="feedback-modal"
+  className="feedback-modal"
+  title="Feedback"
+  subTitle="Send feedback directly to the team."
+>
+  <p class="feedback-faq-note">
+    Before sending feedback, please check the <a href={faqPath}>FAQ</a> in case it
+    already answers your question.
+  </p>
+
+  <form
+    class="feedback-form"
+    action={feedbackEndpoint}
+    method="post"
+    data-feedback-form
+  >
+    <label>
+      <span>Discord username</span>
+      <textarea
+        name="contact"
+        rows="2"
+        autocomplete="username"
+        placeholder="Only if you want to be contacted"></textarea>
+    </label>
+
+    <label>
+      <span>What is the feedback about?</span>
+      <select name="type" required>
+        <option value="">Choose one</option>
+        <option value="Bug">Bug</option>
+        <option value="Suggestion">Suggestion</option>
+        <option value="Translation Issue">Translation Issue</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+
+    <label>
+      <span>Page</span>
+      <textarea
+        name="page"
+        rows="2"
+        data-feedback-page
+        placeholder="Defaults to the current page"></textarea>
+    </label>
+
+    <label>
+      <span>Feedback</span>
+      <textarea
+        name="feedback"
+        rows="7"
+        required
+        placeholder="Tell us what happened or what you would like changed"
+      ></textarea>
+    </label>
+
+    <input type="hidden" name="language" value={lang} data-feedback-language />
+
+    <p class="feedback-status" data-feedback-status aria-live="polite"></p>
+
+    <div class="feedback-actions">
+      <button class="feedback-submit" type="submit">Send feedback</button>
+      <button class="feedback-cancel" type="button" data-feedback-close>
+        Cancel
+      </button>
+    </div>
+  </form>
+</Modal>

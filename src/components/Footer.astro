@@ -18,9 +18,9 @@ const deployVersion = import.meta.env.PUBLIC_DEPLOY_VERSION;
     <a href={localizedPath(lang, 'changelog')}>
       {t(locale, 'ui', 'Changelog', undefined, false)}
     </a>
-    <a href="https://tinyurl.com/GIHelperTeamCBSurvey">
+    <button class="footer-feedback-button" type="button" data-feedback-open>
       {t(locale, 'ui', 'Feedback', undefined, false)}
-    </a>
+    </button>
   </nav>
 
   <p>

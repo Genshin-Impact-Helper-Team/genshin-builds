@@ -6,7 +6,7 @@ import '../styles/home.css';
 import '../styles/theme.css';
 import { sitePath } from '../utils/paths';
 
-const { title, lang = 'en', locale, page } = Astro.props;
+const { title, lang = 'en', locale, page, showTitle = true } = Astro.props;
 ---
 
 <html lang={lang}>
@@ -20,8 +20,8 @@ const { title, lang = 'en', locale, page } = Astro.props;
   <body data-element="base">
     <!-- Simple pages share the same localized header/footer shell. -->
     <Header locale={locale} lang={lang} page={page} />
-    <main class="simple-page">
-      <h1>{title}</h1>
+    <main class:list={['simple-page', page === 'faq' && 'simple-page-wide']}>
+      {showTitle && <h1>{title}</h1>}
       <slot />
     </main>
     <Footer lang={lang} />
