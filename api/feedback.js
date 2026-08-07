@@ -9,7 +9,6 @@ const PROJECT_FIELD_NAMES = {
   person: 'Discord Username',
   type: 'Feedback Type',
   page: 'Page',
-  feedback: 'Feedback',
 };
 const DEFAULT_MUTATION_DELAY_MS = 500;
 const DEFAULT_MAX_RATE_LIMIT_RETRIES = 2;
@@ -232,8 +231,16 @@ function renderIssueBody(feedback) {
   ].join('\n');
 }
 
-function createClient(token) {
+function projectPageValue(feedback) {
+  const value = feedback.page.trim();
+  const language = feedback.language.trim().toLocaleLowerCase('en-US');
+  const start = language
+    ? value.toLocaleLowerCase('en-US').indexOf(`/${language}`)
+    : -1;
+  return start >= 0 ? value.slice(start + 1) : value;
+}
 
+function createClient(token) {
   let lastMutationStartedAt = 0;
 
   async function paceMutation() {
@@ -601,11 +608,6 @@ async function addIssueToProject(client, repository, issue, feedback) {
   const dateField = requireField(fields, PROJECT_FIELD_NAMES.date, 'DATE');
   const personField = requireField(fields, PROJECT_FIELD_NAMES.person, 'TEXT');
   const pageField = requireField(fields, PROJECT_FIELD_NAMES.page, 'TEXT');
-  const feedbackField = requireField(
-    fields,
-    PROJECT_FIELD_NAMES.feedback,
-    'TEXT',
-  );
   const typeField = requireTypeField(fields, PROJECT_FIELD_NAMES.type);
   const typeOption = typeField.options?.find(
     (option) => option.name === feedback.type,
@@ -645,15 +647,12 @@ async function addIssueToProject(client, repository, issue, feedback) {
     ),
   );
   await retryProjectMutation(() =>
-    updateTextField(client, project.id, item.id, pageField.id, feedback.page),
-  );
-  await retryProjectMutation(() =>
     updateTextField(
       client,
       project.id,
       item.id,
-      feedbackField.id,
-      feedback.feedback,
+      pageField.id,
+      projectPageValue(feedback),
     ),
   );
 }
@@ -687,7 +686,12 @@ export default async function handler(request, response) {
     const payload = validatePayload(rawPayload);
     const client = createClient(token);
     await ensureLabel(client, DEFAULT_REPOSITORY, DEFAULT_LABEL);
-    const issue = await createIssue(client, DEFAULT_REPOSITORY, DEFAULT_LABEL, payload);
+    const issue = await createIssue(
+      client,
+      DEFAULT_REPOSITORY,
+      DEFAULT_LABEL,
+      payload,
+    );
     try {
       await addIssueToProject(client, DEFAULT_REPOSITORY, issue, payload);
     } catch (projectError) {
