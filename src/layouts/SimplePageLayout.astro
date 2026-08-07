@@ -20,7 +20,12 @@ const { title, lang = 'en', locale, page, showTitle = true } = Astro.props;
   <body data-element="base">
     <!-- Simple pages share the same localized header/footer shell. -->
     <Header locale={locale} lang={lang} page={page} />
-    <main class:list={['simple-page', page === 'faq' && 'simple-page-wide']}>
+    <main
+      class:list={[
+        'simple-page',
+        (page === 'faq' || page === 'changelog') && 'simple-page-wide',
+      ]}
+    >
       {showTitle && <h1>{title}</h1>}
       <slot />
     </main>
