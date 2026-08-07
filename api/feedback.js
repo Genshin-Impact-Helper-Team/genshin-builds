@@ -382,6 +382,7 @@ async function createIssue(client, repository, label, feedback) {
       title,
       body: renderIssueBody(feedback),
       labels: [label],
+      assignees: ['AkhalaPlo'],
     },
   });
 }
