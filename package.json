@@ -18,6 +18,7 @@
     },
     "dependencies": {
         "astro": "^7.2.0",
+        "astro-pagefind": "^2.0.1",
         "marked": "^18.0.3",
         "sass": "^1.102.0",
         "typescript": "^7.0.2",

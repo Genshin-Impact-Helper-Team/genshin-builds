@@ -1,7 +1,10 @@
 ---
 import '../styles/header.css';
 import '../styles/feedback-widget.scss';
+import '../styles/search-modal.scss';
+import { Banner } from 'webcoreui/astro';
 import FeedbackModal from './FeedbackModal.astro';
+import SearchModal from './SearchModal.astro';
 import SpeedDial from './SpeedDial.astro';
 import { t } from '../utils/i18n';
 import { languages } from '../utils/languages';
@@ -17,6 +20,17 @@ type Props = {
 const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
+const searchShortcutBannerDismissedStorageKey =
+  'genshin-builds:search-shortcut-banner-dismissed';
+const searchShortcutBannerDisabledStorageKey =
+  'genshin-builds:search-shortcut-banner-disabled';
+const searchShortcutBanner = t(
+  locale,
+  'ui',
+  'Search shortcut banner',
+  undefined,
+  false,
+);
 const primaryLinks = [
   {
     href: localizedPath(currentLang),
@@ -145,16 +159,46 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
   </div>
 </header>
 
+<script
+  define:vars={{
+    searchShortcutBannerDisabledStorageKey,
+    searchShortcutBannerDismissedStorageKey,
+  }}
+>
+  try {
+    if (
+      sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
+        'true' ||
+      localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true'
+    ) {
+      document.documentElement.dataset.searchShortcutBannerDismissed = 'true';
+    }
+  } catch {
+    // TODO: storage can be unavailable idk why but it shouldnt break
+  }
+</script>
+
+<Banner
+  top={65}
+  closeable={true}
+  sticky={true}
+  className="search-shortcut-banner"
+>
+  {searchShortcutBanner}
+</Banner>
+
 <div
   class="feedback-widget"
   data-feedback-widget
   data-feedback-lang={currentLang}
 >
   <SpeedDial />
+  <SearchModal locale={locale} lang={currentLang} />
   <FeedbackModal lang={currentLang} />
 </div>
 
 <script>
   import '../scripts/header';
   import '../scripts/feedback-form';
+  import '../scripts/site-search';
 </script>
