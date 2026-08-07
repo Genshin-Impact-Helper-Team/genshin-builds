@@ -3,8 +3,14 @@ const GITHUB_API_VERSION = '2026-03-10';
 const FEEDBACK_TYPES = ['Bug', 'Suggestion', 'Translation Issue', 'Other'];
 const DEFAULT_REPOSITORY = 'Genshin-Impact-Helper-Team/genshin-builds';
 const DEFAULT_PROJECT_OWNER = 'Genshin-Impact-Helper-Team';
-const DEFAULT_PROJECT_NUMBER = 2;
 const DEFAULT_LABEL = 'Feedback Form';
+const PROJECT_FIELD_NAMES = {
+  date: 'Date',
+  person: 'Person',
+  type: 'Feedback Type',
+  page: 'Page',
+  feedback: 'Feedback',
+};
 const DEFAULT_MUTATION_DELAY_MS = 500;
 const DEFAULT_MAX_RATE_LIMIT_RETRIES = 2;
 const DEFAULT_ALLOWED_ORIGINS = [
@@ -27,15 +33,6 @@ class ClientError extends Error {
     super(message);
     this.status = status;
   }
-}
-
-function env(name, fallback) {
-  return process.env[name] || fallback;
-}
-
-function envInteger(name, fallback) {
-  const parsed = Number.parseInt(process.env[name] ?? '', 10);
-  return Number.isInteger(parsed) && parsed >= 0 ? parsed : fallback;
 }
 
 function exposeDebugErrors() {
@@ -236,19 +233,12 @@ function renderIssueBody(feedback) {
 }
 
 function createClient(token) {
-  const mutationDelayMs = envInteger(
-    'MUTATION_DELAY_MS',
-    DEFAULT_MUTATION_DELAY_MS,
-  );
-  const maxRateLimitRetries = envInteger(
-    'MAX_RATE_LIMIT_RETRIES',
-    DEFAULT_MAX_RATE_LIMIT_RETRIES,
-  );
+
   let lastMutationStartedAt = 0;
 
   async function paceMutation() {
     const elapsed = Date.now() - lastMutationStartedAt;
-    const remainingDelay = mutationDelayMs - elapsed;
+    const remainingDelay = DEFAULT_MUTATION_DELAY_MS - elapsed;
     if (remainingDelay > 0) await sleep(remainingDelay);
     lastMutationStartedAt = Date.now();
   }
@@ -316,7 +306,7 @@ function createClient(token) {
         ((response.status === 403 || endpoint === '/graphql') &&
           /rate limit|abuse/i.test(errorText));
 
-      if (isRateLimited && attempt < maxRateLimitRetries) {
+      if (isRateLimited && attempt < DEFAULT_MAX_RATE_LIMIT_RETRIES) {
         await sleep(rateLimitDelay(response, attempt));
         continue;
       }
@@ -602,38 +592,27 @@ async function updateSingleSelectField(
 }
 
 async function addIssueToProject(client, repository, issue, feedback) {
-  const projectOwner = env('FEEDBACK_PROJECT_OWNER', DEFAULT_PROJECT_OWNER);
-  const projectNumber = Number.parseInt(
-    env('FEEDBACK_PROJECT_NUMBER', String(DEFAULT_PROJECT_NUMBER)),
-    10,
-  );
-  const project = await loadProject(client, projectOwner, projectNumber);
+  const project = await loadProject(client, DEFAULT_PROJECT_OWNER, 2);
   const issueContentId = await loadIssueContentId(client, repository, issue);
   const item = await retryProjectMutation(() =>
     addProjectItem(client, project.id, issueContentId),
   );
   const fields = project.fields.nodes;
-  const names = {
-    date: env('FEEDBACK_DATE_FIELD_NAME', 'Date'),
-    person: env('FEEDBACK_PERSON_FIELD_NAME', 'Person'),
-    type: env('FEEDBACK_TYPE_FIELD_NAME', 'Feedback Type'),
-    page: env('FEEDBACK_PAGE_FIELD_NAME', 'Page'),
-    language: env('FEEDBACK_LANGUAGE_FIELD_NAME', 'Language'),
-    feedback: env('FEEDBACK_TEXT_FIELD_NAME', 'Feedback'),
-    notes: env('FEEDBACK_NOTES_FIELD_NAME', 'Notes'),
-  };
-  const dateField = requireField(fields, names.date, 'DATE');
-  const personField = requireField(fields, names.person, 'TEXT');
-  const pageField = requireField(fields, names.page, 'TEXT');
-  const languageField = requireField(fields, names.language, 'TEXT');
-  const feedbackField = requireField(fields, names.feedback, 'TEXT');
-  const typeField = requireTypeField(fields, names.type);
+  const dateField = requireField(fields, PROJECT_FIELD_NAMES.date, 'DATE');
+  const personField = requireField(fields, PROJECT_FIELD_NAMES.person, 'TEXT');
+  const pageField = requireField(fields, PROJECT_FIELD_NAMES.page, 'TEXT');
+  const feedbackField = requireField(
+    fields,
+    PROJECT_FIELD_NAMES.feedback,
+    'TEXT',
+  );
+  const typeField = requireTypeField(fields, PROJECT_FIELD_NAMES.type);
   const typeOption = typeField.options?.find(
     (option) => option.name === feedback.type,
   );
   if (!typeOption) {
     throw new Error(
-      `Project field "${names.type}" is missing option "${feedback.type}".`,
+      `Project field "${PROJECT_FIELD_NAMES.type}" is missing option "${feedback.type}".`,
     );
   }
   await retryProjectMutation(() =>
@@ -667,15 +646,6 @@ async function addIssueToProject(client, repository, issue, feedback) {
   );
   await retryProjectMutation(() =>
     updateTextField(client, project.id, item.id, pageField.id, feedback.page),
-  );
-  await retryProjectMutation(() =>
-    updateTextField(
-      client,
-      project.id,
-      item.id,
-      languageField.id,
-      feedback.language,
-    ),
   );
   await retryProjectMutation(() =>
     updateTextField(
@@ -716,12 +686,10 @@ export default async function handler(request, response) {
 
     const payload = validatePayload(rawPayload);
     const client = createClient(token);
-    const repository = env('FEEDBACK_REPOSITORY', DEFAULT_REPOSITORY);
-    const label = env('FEEDBACK_LABEL', DEFAULT_LABEL);
-    await ensureLabel(client, repository, label);
-    const issue = await createIssue(client, repository, label, payload);
+    await ensureLabel(client, DEFAULT_REPOSITORY, DEFAULT_LABEL);
+    const issue = await createIssue(client, DEFAULT_REPOSITORY, DEFAULT_LABEL, payload);
     try {
-      await addIssueToProject(client, repository, issue, payload);
+      await addIssueToProject(client, DEFAULT_REPOSITORY, issue, payload);
     } catch (projectError) {
       console.error(
         `Could not sync feedback issue #${issue.number} to project.`,
