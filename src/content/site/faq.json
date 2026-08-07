@@ -16,7 +16,7 @@
             "answer": {
                 "en": "This build doc features optimal weapons, artifacts, and stats for each individual character. This build doc assumes you are at least Adventure Rank 45, and are able to farm 5★ artifacts at the highest level domain.",
                 "fr": "Ce guide de build présente les armes, artéfacts et stats optimaux pour chaque personnage. Les conseils de ce document sont écrits en partant du principe que vous êtes au moins au Niveau d'Aventure 45, et que vous pouvez farm les artéfacts 5✩ du plus haut niveau de chaque donjon.",
-                "it": "La guida alle build include le armi, le stat, ed i set di manufatti migliori per ogni personaggio. La guida alle build presuppone che tu sia almeno **Livello d'Avventura 45**, e sia in grado di farmare manufatti 5✩ nei **domini di massimo livello**.",
+                "it": "La guida alle build include armi, stat, e set di manufatti migliori per ogni personaggio. La guida alle build presuppone che tu sia almeno **Livello d'Avventura 45**, e sia in grado di farmare manufatti 5✩ nei **domini di massimo livello**.",
                 "ru": "В нём содержится информация об оптимальном оружии, артефактах и их характеристиках для каждого персонажа. Предполагается, что вы достигли как минимум 45 Ранга приключений и можете получать 5✩ артефакты в подземельях последнего уровня."
             }
         },
@@ -24,7 +24,7 @@
             "question": {
                 "en": "Why a new website instead of a Google Sheet?",
                 "fr": "Pourquoi un nouveau site au lieu du Google Sheet?",
-                "it": "Perché un nuovo sito web al posto del Foglio Google?",
+                "it": "Perché un nuovo sito web al posto del Google Sheet?",
                 "ru": "Почему вы переехали на новый сайт, а не остались на табличной версии?"
             },
             "answer": {
@@ -43,7 +43,8 @@
             },
             "answer": {
                 "en": "Very very unlikely. We understand that changing to a brand new location and adapting to a whole new layout can be difficult. However, we are constantly improving the site as we go. The old sheet will still be available to the public, however it will no longer be maintained.",
-                "fr": "Il y a très peu de chances. Nous comprenons que s'adapter au nouveau site peut être compliqué, cependant nous améliorons le site constamment. L'ancien gsheet restera accessible mais ne sera plus mis à jour."
+                "fr": "Il y a très peu de chances. Nous comprenons que s'adapter au nouveau site peut être compliqué, cependant nous améliorons le site constamment. L'ancien gsheet restera accessible mais ne sera plus mis à jour.",
+                "it": "Molto improbabile. Ci rendiamo conto che adattarsi ad un layout diverso possa risultare difficile. Tuttavia, stiamo migliorando costantemente il sito man mano che procediamo. Il vecchio sheet rimarrà comunque disponibile al pubblico, ma non verrà più aggiornato."
             }
         },
         {
@@ -55,7 +56,8 @@
             },
             "answer": {
                 "en": "The current supported languages are found in the dropdown menu at the top of the page. Not all languages are fully translated, but we are working on it.",
-                "fr": "Les langues supportées se trouvent dans le menu déroulant en haut à droite de la page. Toutes les notes ne sont actuellement pas traduites dans toutes les langues, mais nous y travaillons."
+                "fr": "Les langues supportées se trouvent dans le menu déroulant en haut à droite de la page. Toutes les notes ne sont actuellement pas traduites dans toutes les langues, mais nous y travaillons.",
+                "it": "Le lingue attualmente supportate sono elencate nel menu a tendina nella parte superiore della pagina. Non tutte le lingue sono state tradotte nella loro interezza, ma ci stiamo lavorando."
             }
         },
         {
@@ -67,7 +69,8 @@
             },
             "answer": {
                 "en": "No. Because gearing weapons and artifacts will vary from account to account, alongside endgame modes' mechanics shifting and enemies' HP values fluctuating, it's very difficult to ascertain baseline stats and statgoals for every character in every scenario.",
-                "fr": "Non. Les armes et artéfacts équipés varient d'un compte à l'autre, les mécaniques des différents modes endgame et les PV des ennemis varient énormément aussi, ce qui rend très difficile le fait de donner une stat exacte à atteindre pour chaque personnage dans chaque scénario."
+                "fr": "Non. Les armes et artéfacts équipés varient d'un compte à l'autre, les mécaniques des différents modes endgame et les PV des ennemis varient énormément aussi, ce qui rend très difficile le fait de donner une stat exacte à atteindre pour chaque personnage dans chaque scénario.",
+                "it": "No. Poiché l'equipaggiamento delle armi e dei manufatti varia da account a account, e poiché le meccaniche delle modalità di fine gioco ed i valori dei PS dei nemici cambiano continuamente, è molto difficile stabilire statistiche di riferimento ed obiettivi statistici per ogni personaggio in ogni scenario."
             }
         },
         {
@@ -79,7 +82,8 @@
             },
             "answer": {
                 "en": "Please understand that it does take about a week, potentially more, for testing on live servers to happen. The guide contributors are actively working hard to gather relevant information for said character. We can add characters as WIP, however their sections won't be available until the content is ready. Please do not use the feedback form as a method of demanding a character to be added.",
-                "fr": "Gardez en tête que les tests en jeu peuvent prendre une semaine (voire plus). Les contributeurs du guide travaillent dur pour récolter les informations nécessaires à l'élaboration de chaque guide. Nous pouvons ajouter les personnages en tant que WIP, mais leur section ne sera disponible que lorsque le contenu sera prêt. S'il vous plaît, n'utilisez pas le formulaire de Feedback pour demander l'ajout d'un nouveau personnage."
+                "fr": "Gardez en tête que les tests en jeu peuvent prendre une semaine (voire plus). Les contributeurs du guide travaillent dur pour récolter les informations nécessaires à l'élaboration de chaque guide. Nous pouvons ajouter les personnages en tant que WIP, mais leur section ne sera disponible que lorsque le contenu sera prêt. S'il vous plaît, n'utilisez pas le formulaire de Feedback pour demander l'ajout d'un nouveau personnage.",
+                "it": "Ti preghiamo di tenere presente che i test sui server live richiedono circa una settimana, o forse anche di più. I collaboratori della guida stanno lavorando attivamente per raccogliere le informazioni rilevanti su quel personaggio. Possiamo aggiungere i personaggi come “in lavorazione” (WIP), ma le relative sezioni non saranno disponibili finché i contenuti non saranno pronti. Ti preghiamo di **non** utilizzare il modulo di feedback per richiedere l'aggiunta di un personaggio."
             }
         },
         {
@@ -92,7 +96,7 @@
             "answer": {
                 "en": "It is difficult to update some characters due to their lacking presence in current endgame content, however, the Doc Team will aim to bring all characters up to speed eventually. There are over 100+ playable characters now, and managing each one can be very difficult for a team as small as ours. You can browse our [Update Priority List](https://github.com/orgs/Genshin-Impact-Helper-Team/projects/1) to see if a build is due for an update soon.",
                 "fr": "Il est compliqué de mettre à jour certains personnages à cause de leur faible présence dans le contenu endgame actuel. Cependant, l'objectif de l'équipe est de mettre à jour tous les personnages. Il y a cependant plus de 100 personnages jouables actuellement, et il est compliqué de s'occuper de tous pour une équipe aussi petite que la nôtre. Vous pouvez consulter notre [Liste de Priorité des MàJ](https://github.com/orgs/Genshin-Impact-Helper-Team/projects/1) pour voir si un build est prévu d'être mis à jour bientôt.",
-                "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro.",
+                "it": "Ci impegnamo ad aggiornare tutti i personaggi, ma con oltre 100 personaggi giocabili, può essere difficile mantenere tutto aggiornato con un team piccolo come il nostro. Puoi consultare la nostra [Lista priorità di aggiornamento](https://github.com/orgs/Genshin-Impact-Helper-Team/projects/1) per verificare se un build è in linea per un aggiornamento a breve.",
                 "ru": "Некоторых персонажей довольно сложно обновить из-за их неучастия в эндгейм-контенте, но команда старается со временем обновлять всех. В игре более сотни персонажей, и нашей довольно небольшой команде может быть непросто поддерживать всех в актуальном состоянии."
             }
         },
@@ -105,7 +109,8 @@
             },
             "answer": {
                 "en": "If you hover over a weapon, it will list a broad acquisition source at the very bottom (For example: Craft, Wish, Event, Fishing, etc.). For a more in-depth guide on acquisition methods, check out the [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki).",
-                "fr": "Si vous survolez une arme sur un des guides, vous pourrez voir son détail ainsi qu'une catégorie d'obtention (par exemple: Forge, Voeux, Event, Pêche etc.). Pour plus de détails sur la méthode d'obtention, vous pouvez consulter le [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)."
+                "fr": "Si vous survolez une arme sur un des guides, vous pourrez voir son détail ainsi qu'une catégorie d'obtention (par exemple: Forge, Voeux, Event, Pêche etc.). Pour plus de détails sur la méthode d'obtention, vous pouvez consulter le [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki).",
+                "it": "Se passi il mouse su un'arma, in fondo alla pagina verrà visualizzata una fonte di acquisizione generica (ad esempio: Forgiatura, Desiderio, Evento, Pesca, ecc.). Per una guida più approfondita sui metodi di acquisizione, consulta la [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)."
             }
         },
         {
@@ -118,7 +123,7 @@
             "answer": {
                 "en": "The rankings for each weapon and artifact are meticulously tested and calculated to where they are placed on the build doc. Do keep in mind that as new weapons and artifacts come out, certain rankings may be subject to change. What you see may not always be a permanent ranking.",
                 "fr": "Les classements pour chaque arme et artéfact sont méticuleusement testés et calculés pour être placés où ils le sont dans ce guide. Veuillez garder en tête que lorsque de nouvelles armes et artéfacts sortent, certains classements peuvent être amenés à changer. Ce que vous voyez n'est peut-être pas toujours un classement définitif.",
-                "it": "Le classifiche per ogni arma e manufatto sono calcolate e testate meticolosamente. A mano a mano che nuove armi e manufatti diventano disponibili, alcune classifiche potrebbero essere soggette a modifiche - quelle che vedi non sono necessariamente permanenti. Controlla in cima alla sezione di ogni personaggio per vedere quando è stata aggiornata per l'ultima volta.",
+                "it": "Le classifiche per ogni arma e manufatto sono calcolate e testate meticolosamente. A mano a mano che nuove armi e manufatti diventano disponibili, alcune classifiche potrebbero essere soggette a modifiche - quelle che vedi non sono necessariamente permanenti. Controlla la sezione di ogni personaggio per vedere quando è stata aggiornata per l'ultima volta.",
                 "ru": "Место каждого оружия/артефактов в рейтинге тщательно проверяется и рассчитывается в ходе формирования. Обратите внимание, что содержимое может меняться при выпуске нового оружия/артефактов."
             }
         },
@@ -174,7 +179,7 @@
             "answer": {
                 "en": "The build doc DOES NOT run on leaks or beta content. Only content that is officially released onto global servers. As such we cannot and will not make sections for unreleased characters. Please see the [Genshin Terms of Service](https://genshin.hoyoverse.com/en/company/terms) for more information.",
                 "fr": "Ce guide NE S'APPUIE PAS sur les leaks ou le contenu de la bêta, uniquement sur le contenu qui est officiellement disponible sur les serveurs globaux. Ainsi, nous ne feront pas de sections pour les personnages qui ne sont pas encore disponibles. Veuillez lire les [Conditions Générales d'Utilisation de Genshin](https://genshin.hoyoverse.com/fr/company/terms) pour plus d'informations.",
-                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**. Per ulteriori informazioni, consulta [Domande legali frequenti](https://genshin.hoyoverse.com/it/company/terms).",
+                "it": "No, questa guida tratta esclusivamente di **contenuti pubblicati ufficialmente**. Per ulteriori informazioni, consulta i [Termini di Servizio](https://genshin.hoyoverse.com/en/company/terms) di Genshin Impact.",
                 "ru": "Руководство НЕ СОДЕРЖИТ утечки или материалы с бета-тестирования. Только релизный контент. Мы не можем и не будем создавать раздел для невышедших персонажей."
             }
         },
@@ -215,7 +220,8 @@
             },
             "answer": {
                 "en": "Yes. The Build Doc ensures there is at least 1 permanently accessible F2P option for each character, even if said option isn't the absolute best for them. Permanently accessible options includes weapons that are free from crafting, overworld chests in Mondstadt and Liyue, weapons acquired from Quests, Fishing, or the easily obtainable 3★ Gacha Weapons. F2P options for characters are highlighted within their sections.",
-                "fr": "Oui. L'équipe s'assure de toujours lister au moins 1 option F2P accessible de façon permanente pour chaque personnage, même si cette option n'est pas la meilleure pour eux. Les armes accessibles de façon permanentes comprennent les armes de la forge, des coffres à Mondstadt/Liyue, celles obtenues pendantes les qauêtes, la pêche, ou les armes 3★ des voeux. Les options F2P sont surlignées dans la section Armes de chaque build."
+                "fr": "Oui. L'équipe s'assure de toujours lister au moins 1 option F2P accessible de façon permanente pour chaque personnage, même si cette option n'est pas la meilleure pour eux. Les armes accessibles de façon permanentes comprennent les armes de la forge, des coffres à Mondstadt/Liyue, celles obtenues pendantes les qauêtes, la pêche, ou les armes 3★ des voeux. Les options F2P sont surlignées dans la section Armes de chaque build.",
+                "it": "Sì. Il nostro team si impegna ad includere almeno 1 opzione F2P accessibile in maniera permanente, anche nel caso in cui tale opzione non sia la migliore in assoluto per quel personaggio. Le opzioni accessibili in modo permanente includono armi forgiabili, ottenute da bauli a Mondstadt e Liyue, ottenute tramite missioni o pesca, oppure armi gacha a 3★ facilmente ottenibili. Le opzioni F2P per i personaggi sono evidenziate nelle rispettive sezioni."
             }
         },
         {
