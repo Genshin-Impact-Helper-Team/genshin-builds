@@ -65,6 +65,7 @@
                     "note": {
                         "en": "Ranking assumes one of [[character:lyney]]'s Aimed Shots hits a weak point.",
                         "fr": "Le classement suppose qu'une des attaques chargées de [[character:lyney]] touchent un point faible.",
+                        "it": "La posizione in classifica presuppone che un Colpo Mirato di [[character:lyney]] colpisca un Punto Debole.",
                         "ru": "Предполагается, что одна из Заряженных атак [[character:lyney]] попадает в слабое место противника."
                     }
                 }
@@ -77,6 +78,7 @@
                     "note": {
                         "en": "Ranking assumes three stacks of the passive. At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
                         "fr": "Le classement suppose 3 cumuls du passif. Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**.",
+                        "it": "La posizione in classifica presuppone 3 accumuli della passiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:polar-star]]**.",
                         "ru": "Предполагается, нваличие 3 Меток единства. На **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
                     }
                 },
@@ -85,6 +87,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
                         "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:polar-star]]**.",
                         "ru": "На **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
                     }
                 }
