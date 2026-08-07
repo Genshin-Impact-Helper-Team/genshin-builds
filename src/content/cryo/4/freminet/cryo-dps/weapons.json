@@ -3,6 +3,7 @@
         {
             "en": "Ranking assumes that [[character:freminet]] is not played with significant [[stat:atk%]] buffs such as [[character:nicole]] or [[character:bennett]]. With such buffs, weapons which provide a lot of [[stat:atk%]] will have less value.\n[[character:freminet]]'s weapon rankings can be incredibly team and artifact dependent. Please refer to the calculations if you need more information.",
             "fr": "Le classement suppose que [[character:freminet]] n'est pas joué avec d'importants buffs d'[[stat:atk%]] comme [[character:nicole]] ou [[character:bennett]]. Avec ces buffs, les armes avec beaucoup d'[[stat:atk%]] perdent en valeur.\nLe classement d'armes de [[character:freminet]] peut énormément varier selon les équipes et artéfacts. Veuillez vous réferer aux calcs si vous avez besoin de plus d'informations.",
+            "it": "La classifica presuppone che [[character:freminet]] non venga utilizzato con potenziamenti significativi di [[stat:atk%]], come quelli forniti da [[character:nicole]] o [[character:bennett]]. Con tali potenziamenti, le armi che forniscono [[stat:atk%]] elevato avranno un valore minore.\nLa classifica delle armi di [[character:freminet]] può dipendere in modo significativo dal team e dai manufatti. Per ulteriori informazioni, si prega di fare riferimento ai calcoli.",
             "ru": "Предполагается, что в отряде нет значительных бонусов к Силе атаки (как, например, Николь или Беннет). С подобными бонусами оружие на Силу атаки становится менее ценным.\nРейтинг оружия может значительно меняться в зависимости от отряда и артефактов. Для получения дополнительной информации обращайтесь к расчетам."
         }
     ],
@@ -20,6 +21,7 @@
                     "note": {
                         "en": "Best in slot option in teams with [[ability:hexerei]].",
                         "fr": "Meilleire option possible dans les équipes [[ability:hexerei]]",
+                        "it": "L'opzione migliore in team [[ability:hexerei]].",
                         "ru": "Лучший выбор в командах с активным эффектом Ведьмовства."
                     }
                 }
@@ -38,6 +40,7 @@
                     "note": {
                         "en": "If [[character:freminet]] frequently suffers damage during his fieldtime, it can perform similarly to **[[weapon:a-teaspoon-of-transcendence]]**.",
                         "fr": "Si [[character:freminet]] prend souvent des dégâts pendant son temps de terrain, cette arme peut être équivalente à **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "it": "Se [[character:freminet]] subisce spesso danni mentre è sul campo, quest'arma può avere prestazioni simili a **[[weapon:a-teaspoon-of-transcendence]]**.",
                         "ru": "При частом получении урона может соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]]**."
                     }
                 }
@@ -53,6 +56,7 @@
                     "note": {
                         "en": "Assumes that [[character:freminet]] is not shielded. With a shield, it performs similarly to **[[weapon:verdict]]**.",
                         "fr": "Suppose que [[character:freminet]] n'a pas de bouclier. Dans le cas contraire, c'est une option équivalente à **[[weapon:verdict]]**.",
+                        "it": "La classifica presuppone che [[character:freminet]] **non** sia protetto da uno scudo. In caso contrario, quest'arma ha prestazioni simili a **[[weapon:verdict]]**",
                         "ru": "Предполагается игра без щита. С щитом соответствует **[[weapon:song-of-broken-pines|Песни разбитых сосен]]**."
                     }
                 }
@@ -65,6 +69,7 @@
                     "note": {
                         "en": "With [[stat:er]] requirements of ~120%, it can perform similarly to **[[weapon:wolfs-gravestone]]**. With high [[stat:er]] requirements, it can perform similarly to **[[weapon:verdict]]**.",
                         "fr": "Avec des besoins en [[stat:er]] autour de 120%, cette arme performe de manière similaire à **[[weapon:wolfs-gravestone]]**. Avec des besoins en [[stat:er]] élevés, elle performe de manière équivalente à **[[weapon:verdict]]**.",
+                        "it": "Con requisiti di [[stat:er]] pari a circa 120%, quest'arma ha prestazioni simili a **[[weapon:wolfs-gravestone]]**. Con requisiti elevati di [[stat:er]], offre prestazioni simili a **[[weapon:verdict]]**.",
                         "ru": "При потребностях в энергии ~120% ВЭ соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. При высоких потребностях в энергии соответствует **[[weapon:verdict|Вердикту]]**."
                     }
                 },
@@ -73,6 +78,7 @@
                     "note": {
                         "en": "Assumes 3 stacks. With 5 stacks, it performs similarly to **[[weapon:wolfs-gravestone]]**. With 5 stacks at **[R5]**, this weapon can equal or beat **[[weapon:a-teaspoon-of-transcendence]]**.",
                         "fr": "Suppose 3 cumuls du passif. Avec 5 cumuls, elle équivaut à **[[weapon:wolfs-gravestone]]**. Avec 5 cumuls et **[R5]**, cette arme devient équivalente voire meilleure que **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "it": "Presuppone 3 accumuli. Con 5 accumuli, ha prestazioni simili a **[[weapon:wolfs-gravestone]]**. Con 5 accumuli a **[R5]**, quest'arma può eguagliare o superare **[[weapon:a-teaspoon-of-transcendence]]**.",
                         "ru": "Предполагаются 3 уровня Пассивной способности. С 5 уровнями соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**. С 5 уровнями на **[R5]** можжет соответствовать или превосходить **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]].**"
                     }
                 },
@@ -82,6 +88,7 @@
                     "note": {
                         "en": "Assumes the passive can be reliably activated.",
                         "fr": "Suppose que le passif peut être déclenché de façon fiable",
+                        "it": "La classifica presuppone che la passiva possa essere attivata in maniera affidabile.",
                         "ru": "Предполагается, что Пассивная способность активируется стабильно."
                     }
                 },
@@ -91,6 +98,7 @@
                     "note": {
                         "en": "If [[character:freminet]] cannot frequently trigger reactions, this weapon is not worth considering.",
                         "fr": "Si [[character:freminet]] ne peut pas fréquemment déclencher des réactions, il ne faut pas considérer cette arme.",
+                        "it": "Se [[character:freminet]] non innesca reazioni con frequenza, non vale la pena predere in considerazione quest'arma.",
                         "ru": "Если Фремине не может часто закрывать реакции, это оружие не стоит использовать."
                     }
                 }
@@ -103,6 +111,7 @@
                     "note": {
                         "en": "With high [[stat:er]] requirements, can perform similarly to **[[weapon:serpent-spine]]**.",
                         "fr": "Avec des besoins en [[stat:er]] élevés, elle performe de manière équivalente à **[[weapon:serpent-spine]]**.",
+                        "it": "Con requisiti di [[stat:er]] elevati, quest'arma può avere prestazioni simili a **[[weapon:serpent-spine]]**.",
                         "ru": "При высоких потребностях в энергии соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }
@@ -119,6 +128,7 @@
                     "note": {
                         "en": "Assumes 1 Liyue teammate. At **[R5]**, it can perform similarly to **[[weapon:serpent-spine]]**.",
                         "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. Une fois **[R5]**, cette arme devient similaire à **[[weapon:serpent-spine]]**.",
+                        "it": "La classifica presuppone un personaggio di Liyue nel team. A **[R5]**, può avere prestazioni simili a **[[weapon:serpent-spine]]**.",
                         "ru": "Предполагается 1 персонаж из Ли Юэ. На **[R5]** соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }
@@ -131,6 +141,7 @@
                     "note": {
                         "en": "Assumes inactive passive. With half of the passive active, it can perform similarly to **[[weapon:tidal-shadow]]**.",
                         "fr": "Suppose que le passif n'est pas actif. Avec la moitié du passif, cette arme peut être équivalente à **[[weapon:tidal-shadow]]**.",
+                        "it": "La classifica presuppone che la passiva **non** sia attiva. Con metà della passiva attiva, può avere prestazioni simili a **[[weapon:tidal-shadow]]**.",
                         "ru": "Предполагается, что Пассивная способность не активирована. С наполовину активной Пассивной способностью соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 },
@@ -144,6 +155,7 @@
                     "note": {
                         "en": "Assumes inactive passive. With passive active can perform similarly to **[[weapon:tidal-shadow]]**.",
                         "fr": "Suppose que le passif n'est pas actif. Avec le passif, cette arme peut être équivalente à **[[weapon:tidal-shadow]]**.",
+                        "it": "La classifica presuppone che la passiva **non** sia attiva. Con la passiva attiva, può avere prestazioni simili a **[[weapon:tidal-shadow]]**.",
                         "ru": "Предполагается, что Пассивная способность не активирована. С активной Пассивной способностью соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 }
