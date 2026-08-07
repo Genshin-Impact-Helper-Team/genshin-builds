@@ -374,7 +374,7 @@ async function ensureLabel(client, repository, label) {
 }
 
 async function createIssue(client, repository, label, feedback) {
-  const title = `[${feedback.type}] ${truncate(feedback.page, 90)}`;
+  const title = `[${feedback.type}] ${truncate(projectPageValue(feedback), 90)}`;
   return client.request(`/repos/${repository}/issues`, {
     method: 'POST',
     mutation: true,
