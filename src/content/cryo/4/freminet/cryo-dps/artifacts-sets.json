@@ -63,6 +63,7 @@
                     "note": {
                         "en": "If used with [[character:furina]], this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with [[stat:cr]] weapons.",
                         "fr" : "Si joué avec [[character:furina]], il s'agit du meilleur set pour [[character:freminet]]. Il y a un risque d'avoir trop de [[stat:cr]] lorsque ce set est utilisé avec une arme [[stat:cr]].",
+                        "it": "Se utilizzato insieme a [[character:furina]], questo è il miglior set di manufatti di [[character:freminet]]. Se utilizzi armi con [[stat:cr]], può causare un superamento del limite massimo di [[stat:cr]].",
                         "ru": "Лучший выбор при игре с Фуриной. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
                     }
                 }
@@ -76,6 +77,7 @@
                     "note": {
                         "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]]  when used with [[stat:cr]] weapons.",
                         "fr" : "Si joué dans une équipe en Lueur Ascendante, il s'agit du meilleur set pour [[character:freminet]]. Il y a un risque d'avoir trop de [[stat:cr]] lorsque ce set est utilisé avec une arme [[stat:cr]].",
+                        "it": "Se utilizzato in team con Presagio Lunare: Barlume Ascendente, questo è il miglior set di manufatti di [[character:freminet]]. Può portare a un superamento del limite massimo di [[stat:cr]] se utilizzato con armi [[stat:cr]].",
                         "ru": "Лучший выбор при игре в отрядах с Высшим сиянием. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
                     }
                 }
@@ -89,6 +91,7 @@
                     "note": {
                         "en": "Can be used in teams where [[character:freminet]] either frequently triggers [[element:shatter]] or can trigger [[element:melt]], in which cases it's equal to **[[set:golden-troupe]]**.",
                         "fr": "Peut être utilisé dans les équipes où [[character:freminet]] déclenche fréquemment [[element:shatter]] ou [[element:melt]], auquel cas il devient équivalent à **[[set:golden-troupe]]**.",
+                        "it": "Può essere utilizzato in team in cui [[character:freminet]] attiva frequentemente [[element:shatter]] o può attivare [[element:melt]], casi in cui equivale a **[[set:golden-troupe]]**.",
                         "ru": "Можно использовать в командах, где Фреминет часто закрывает реакцию \"Разбит\" или может закрывать Таяние. При этом соответствует **[[set:golden-troupe|Золотой труппе]]**."
                     }
                 }
