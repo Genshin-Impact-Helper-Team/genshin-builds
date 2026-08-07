@@ -16,7 +16,7 @@
         {
             "en": "Rotation: {rot:E Q E 4[E E (N1 or N2)]}",
             "fr": "Rotation : {rot:E A E 4[E E (N1 or N2)]}",
-            "it": "Rotation : {rot:EQE 4[EE(N1 o N2)]}",
+            "it": "Rotazione : {rot:E Q E 4[E E (N1 o N2)]}",
             "ru": "Ротация: {rot:E Q E 4[E E (N1 or N2)]}"
         }
     ],
