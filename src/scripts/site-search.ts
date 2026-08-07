@@ -3,6 +3,7 @@ import { modal, type ModalInstance } from 'webcoreui';
 const MODAL_SELECTOR = '#site-search-modal';
 const OPEN_SELECTOR = `.speed-dial a[href="${MODAL_SELECTOR}"]`;
 const BANNER_TOGGLE_SELECTOR = '[data-search-banner-toggle]';
+const searchShortcutMedia = window.matchMedia('(min-width: 981px)');
 const searchShortcutBannerDismissedStorageKey =
   'genshin-builds:search-shortcut-banner-dismissed';
 const searchShortcutBannerDisabledStorageKey =
@@ -17,7 +18,7 @@ function getSearchModal() {
 
   if (modalElement !== boundModal) {
     searchModal?.remove();
-    searchModal = modal(MODAL_SELECTOR);
+    searchModal = modal({ modal: MODAL_SELECTOR, onClose: blurSearch });
     boundModal = modalElement;
   }
 
@@ -31,6 +32,12 @@ function focusSearch() {
     );
     input?.focus();
   });
+}
+
+function blurSearch() {
+  document
+    .querySelector<HTMLInputElement>(`${MODAL_SELECTOR} .pf-searchbox-input`)
+    ?.blur();
 }
 
 function isTypingTarget(target: EventTarget | null) {
@@ -74,7 +81,7 @@ function setSearchShortcutBannerDisabled(disabled: boolean) {
       sessionStorage.removeItem(searchShortcutBannerDismissedStorageKey);
     }
   } catch {
-    // Ignore storage faliure
+    // Ignore storage failures; the setting still applies on this page.
   }
 
   if (disabled) {
@@ -115,7 +122,13 @@ function bindSiteSearch() {
 }
 
 document.addEventListener('keydown', (event) => {
-  if (event.key !== '/' || isTypingTarget(event.target)) return;
+  if (
+    !searchShortcutMedia.matches ||
+    !['/', '\\'].includes(event.key) ||
+    isTypingTarget(event.target)
+  ) {
+    return;
+  }
   event.preventDefault();
   openSearch();
 });

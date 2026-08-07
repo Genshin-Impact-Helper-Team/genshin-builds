@@ -10,10 +10,7 @@ type CreditsData = {
   }[];
 };
 
-const {
-  lang = 'en',
-  locale,
-} = Astro.props as {
+const { lang = 'en', locale } = Astro.props as {
   lang?: string;
   locale: any;
 };
@@ -58,7 +55,7 @@ const translators = creditsData.translators[lang] ?? [];
 
 <section class="card credits-card">
   <p>
-    {t(locale, 'ui', 'Credits feedback')}
+    {t(locale, 'ui', 'Credits feedback')}{' '}
     <button class="credits-feedback-button" type="button" data-feedback-open>
       {t(locale, 'ui', 'Feedback', undefined, false)}
     </button>
