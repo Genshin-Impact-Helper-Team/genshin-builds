@@ -612,7 +612,7 @@
         "source": "Fishing",
         "passive": {
             "en": "Increases Elemental Skill CRIT Rate by {{value}}%. Additionally, increases Energy Recharge by {{value}}% for 5s after using an Elemental Skill.",
-            "de": "Erhöht die KT der Elementarfähigkeit um {{value}}%. Erhöht außerdem die Aufladerate nach dem Auslösen der Elementarfähigkeit 5 s lang um {{value}}",
+            "de": "Erhöht die KT der Elementarfähigkeit um {{value}}%. Erhöht außerdem die Aufladerate nach dem Auslösen der Elementarfähigkeit 5 s lang um {{value}}%",
             "es": "La Prob. CRIT de la Habilidad Elemental aumenta en un {{value}}%. Además, tras usar dicha habilidad, la Recarga de Energía aumenta en un {{value}}% durante 5 s.",
             "fr": "Le taux CRIT des compétences élémentaires augmente de {{value}}%. De plus, utiliser une compétence élémentaire augmente la recharge d'énergie de {{value}}% pendant 5 s.",
             "it": "Aumenta il tasso di CRIT dell'abilità elementale di un {{value}}%. In più, aumenta la ricarica d'energia di un {{value}}% per 5 s dopo l'utilizzo dell'abilità elementale.",
@@ -2076,6 +2076,167 @@
         ],
         "r5": [
             0.072
+        ]
+    },
+    "emberwell": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "165"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
+    },
+    "heretics-molten-blade": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
+    },
+    "whitelake-frostfeather": {
+        "rarity": 5,
+        "version_released": "7.0",
+        "passive": {
+            "en": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by {{value}}% for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent.<br>At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by {{value}}%, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore {{value}} Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s.<br>This effect can be triggered even when the equipping character is off-field.",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "22.1%"
+        },
+        "r1": [
+            8,
+            50,
+            4
+        ],
+        "r2": [
+            "-",
+            "-",
+            "-"
+        ],
+        "r3": [
+            "-",
+            "-",
+            "-"
+        ],
+        "r4": [
+            "-",
+            "-",
+            "-"
+        ],
+        "r5": [
+            "-",
+            "-",
+            "-"
+        ]
+    },
+    "exaiphanes-blade": {
+        "rarity": 5,
+        "version_released": "7.0",
+        "source": "Exploration",
+        "passive": {
+            "en": "When the Traveler equips this, their CRIT DMG increases by {{value}}% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by {{value}}% for {{value}}s, and regenerate {{value}} Elemental Energy, after they attack and hit an opponent. This effect can trigger once every {{value}}s. This can be triggered even when the character is not on the field.",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 608,
+            "substat_value": "33.1%"
+        },
+        "r1": [
+            6,
+            24,
+            8,
+            5,
+            5
+        ],
+        "r2": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+        ],
+        "r3": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+        ],
+        "r4": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+        ],
+        "r5": [
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
         ]
     }
 }

@@ -1956,5 +1956,61 @@
         "r5": [
             32
         ]
+    },
+    "covenant-of-frost-and-snow": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "def%",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "51.7%"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
+    },
+    "jade-vista": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
     }
 }

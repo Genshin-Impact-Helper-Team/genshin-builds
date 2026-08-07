@@ -55,6 +55,10 @@ function titleKey(value) {
   return value.trim().toLocaleLowerCase('en-US');
 }
 
+function isWipLastUpdated(value) {
+  return titleKey(String(value ?? '')) === 'wip';
+}
+
 function issueNodeId(issue) {
   return issue.node_id ?? issue.id;
 }
@@ -143,11 +147,23 @@ function gameVersionIndex(value, context) {
 }
 
 export function rankBuilds(builds, currentVersion) {
+  const wipBuilds = builds
+    .filter((build) => isWipLastUpdated(build.lastUpdated))
+    .sort((left, right) => left.title.localeCompare(right.title))
+    .map((build) => ({ ...build, updatePriority: 1 }));
+  const rankableBuilds = builds.filter(
+    (build) => !isWipLastUpdated(build.lastUpdated),
+  );
+
+  if (rankableBuilds.length === 0) {
+    return wipBuilds;
+  }
+
   const currentVersionIndex = gameVersionIndex(
     currentVersion,
     'Current game version',
   );
-  const scored = builds.map((build) => {
+  const scored = rankableBuilds.map((build) => {
     const characterPriority = titleKey(build.characterPriority ?? 'normal');
     const characterScore = CHARACTER_PRIORITY_SCORES.get(characterPriority);
 
@@ -175,7 +191,7 @@ export function rankBuilds(builds, currentVersion) {
   const maxWeapons = maximum('weaponCount');
   const maxArtifactSets = maximum('artifactSetCount');
 
-  return scored
+  const rankedBuilds = scored
     .map((build) => ({
       ...build,
       score:
@@ -191,7 +207,12 @@ export function rankBuilds(builds, currentVersion) {
         right.score - left.score ||
         left.title.localeCompare(right.title),
     )
-    .map((build, index) => ({ ...build, updatePriority: index + 1 }));
+    .map((build, index) => ({
+      ...build,
+      updatePriority: index + (wipBuilds.length > 0 ? 2 : 1),
+    }));
+
+  return [...wipBuilds, ...rankedBuilds];
 }
 
 export function shouldCreateCharacterUpdateIssue(
@@ -200,6 +221,7 @@ export function shouldCreateCharacterUpdateIssue(
   buildCounts,
 ) {
   return (
+    !isWipLastUpdated(character.lastUpdated) &&
     compareGameVersions(character.lastUpdated, currentVersion) < 0 &&
     buildCounts.length > 0 &&
     buildCounts.every(
@@ -427,10 +449,15 @@ export function addReleaseAudits(inventory, catalog) {
       );
     }
 
-    parseGameVersion(
-      character.lastUpdated,
-      `${character.sourcePath}/metadata.json last_updated`,
-    );
+    const isWip = isWipLastUpdated(character.lastUpdated);
+
+    if (!isWip) {
+      parseGameVersion(
+        character.lastUpdated,
+        `${character.sourcePath}/metadata.json last_updated`,
+      );
+    }
+
     const weaponIds = new Set(weaponCatalog.map((item) => item.id));
     const characterPath = path.resolve(character.sourcePath);
 
@@ -457,18 +484,22 @@ export function addReleaseAudits(inventory, catalog) {
         weaponType: character.weaponType,
         wipNotes: build.wipNotes,
         weapons: sortReleaseItems(
-          weaponCatalog.filter(
-            (item) =>
-              compareGameVersions(item.version, character.lastUpdated) > 0 &&
-              !mentionedWeapons.has(item.id),
-          ),
+          isWip
+            ? []
+            : weaponCatalog.filter(
+                (item) =>
+                  compareGameVersions(item.version, character.lastUpdated) >
+                    0 && !mentionedWeapons.has(item.id),
+              ),
         ),
         artifactSets: sortReleaseItems(
-          catalog.artifactSets.filter(
-            (item) =>
-              compareGameVersions(item.version, character.lastUpdated) > 0 &&
-              !mentionedArtifactSets.has(item.id),
-          ),
+          isWip
+            ? []
+            : catalog.artifactSets.filter(
+                (item) =>
+                  compareGameVersions(item.version, character.lastUpdated) >
+                    0 && !mentionedArtifactSets.has(item.id),
+              ),
         ),
       };
     }
@@ -1063,16 +1094,16 @@ async function createBestRoleField(client, projectId, fieldName) {
 
 async function createWipNotesField(client, projectId, fieldName) {
   const options = WIP_NOTES_FIELD_OPTIONS.map(
-  (name) => `{
-    name: ${JSON.stringify(name)}
-    color: ${name === 'OK' ? 'GREEN' : 'GRAY'}
+    (name) => `{
+      name: ${JSON.stringify(name)}
+      color: ${name === 'OK' ? 'GREEN' : 'GRAY'}
     description: ${JSON.stringify(
       name === 'OK'
         ? 'No weapon or artifact issues detected'
         : `WIP status: ${name}`,
     )}
-  }`,
-).join('\n');
+    }`,
+  ).join('\n');
   const { data } = await client.graphql(
     `
       mutation CreateWipNotesField($projectId: ID!, $name: String!) {

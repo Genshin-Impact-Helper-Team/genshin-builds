@@ -1656,5 +1656,61 @@
             80,
             80
         ]
+    },
+    "song-of-the-vigil": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "110"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
+    },
+    "frostbreath": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": "",
+            "pt": ""
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 0,
+            "substat_value": "-"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "45.9%"
+        },
+        "r1": [],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
     }
 }
