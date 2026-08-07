@@ -13,12 +13,13 @@ let searchModal: ModalInstance | undefined;
 let boundModal: Element | null = null;
 
 function getSearchModal() {
-  const modalElement = document.querySelector(MODAL_SELECTOR);
+  const modalElement = document.querySelector<HTMLElement>(MODAL_SELECTOR);
   if (!modalElement) return undefined;
 
   if (modalElement !== boundModal) {
     searchModal?.remove();
-    searchModal = modal({ modal: MODAL_SELECTOR, onClose: blurSearch });
+    modalElement.setAttribute('inert', '');
+    searchModal = modal({ modal: MODAL_SELECTOR, onClose: closeSearch });
     boundModal = modalElement;
   }
 
@@ -40,6 +41,11 @@ function blurSearch() {
     ?.blur();
 }
 
+function closeSearch() {
+  blurSearch();
+  document.querySelector(MODAL_SELECTOR)?.setAttribute('inert', '');
+}
+
 function isTypingTarget(target: EventTarget | null) {
   const searchModalElement = document.querySelector(MODAL_SELECTOR);
   if (
@@ -58,7 +64,9 @@ function isTypingTarget(target: EventTarget | null) {
 }
 
 function openSearch() {
-  getSearchModal()?.open();
+  const modalInstance = getSearchModal();
+  document.querySelector(MODAL_SELECTOR)?.removeAttribute('inert');
+  modalInstance?.open();
   focusSearch();
 }
 
