@@ -10,6 +10,13 @@ export type ContentCharacter = {
   metadataPath: string;
 };
 
+export const PRE_AR_45_ROUTE_SEGMENT = 'pre-ar45';
+type BuildMode = 'default' | typeof PRE_AR_45_ROUTE_SEGMENT;
+
+export function isPreAr45BuildSlug(slug: string) {
+  return slug === PRE_AR_45_ROUTE_SEGMENT;
+}
+
 export function getContentCharacters(
   contentPath = path.resolve('src/content'),
   includeWip = false,
@@ -63,10 +70,18 @@ export function getContentCharacters(
     );
 }
 
-export function getCharacterBuilds(characterPath: string) {
+export function getCharacterBuilds(
+  characterPath: string,
+  mode: BuildMode = 'default',
+) {
   return fs
     .readdirSync(characterPath, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
+    .filter((entry) =>
+      mode === 'default'
+        ? !isPreAr45BuildSlug(entry.name)
+        : isPreAr45BuildSlug(entry.name),
+    )
     .map((entry) => ({
       name: entry.name,
       path: path.join(characterPath, entry.name),

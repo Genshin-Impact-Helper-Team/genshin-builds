@@ -5,17 +5,22 @@ import '../styles/theme.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CalculationLinks from '../components/CalculationLinks.astro';
+import BuildModeSelector from '../components/BuildModeSelector.astro';
+import { PRE_AR_45_ROUTE_SEGMENT } from '../utils/content-tree';
 import { t } from '../utils/i18n';
-import { sitePath } from '../utils/paths';
+import { localizedPath, sitePath } from '../utils/paths';
 
 const {
   character,
   characterSlug,
+  characterRouteSlug,
   metadata,
   lang,
   locale,
   builds = [],
   defaultBuildSlug,
+  isPreAr45 = false,
+  hasPreAr45Build = false,
 } = Astro.props;
 const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
   '{name}',
@@ -24,6 +29,11 @@ const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
 const characterHeaderImage = metadata?.portrait ?? metadata?.image;
 const buildLabel = t(locale, 'ui', 'Builds', undefined, false);
 const bestRoleLabel = t(locale, 'ui', 'Best Role');
+const normalModeHref = localizedPath(lang, characterSlug);
+const preAr45ModeHref = localizedPath(
+  lang,
+  `${characterSlug}/${PRE_AR_45_ROUTE_SEGMENT}`,
+);
 ---
 
 <html lang={lang}>
@@ -39,7 +49,11 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
 
   <body data-element={Astro.props.element}>
     <!-- The header needs the URL slug, not the localized display name. -->
-    <Header locale={locale} lang={lang} character={characterSlug} />
+    <Header
+      locale={locale}
+      lang={lang}
+      character={characterRouteSlug ?? characterSlug}
+    />
     <div class="page character-page">
       <div class="character-page-layout">
         <aside class="character-header" aria-labelledby="character-title">
@@ -50,6 +64,8 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
                   class="character-image"
                   src={characterHeaderImage}
                   alt={characterArtAlt}
+                  width="132"
+                  height="132"
                   loading="eager"
                   decoding="async"
                   fetchpriority="high"
@@ -74,6 +90,17 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
               }
             </div>
           </div>
+
+          {
+            hasPreAr45Build && (
+              <BuildModeSelector
+                locale={locale}
+                normalHref={normalModeHref}
+                preAr45Href={preAr45ModeHref}
+                isPreAr45={isPreAr45}
+              />
+            )
+          }
 
           {
             builds.length > 0 && (

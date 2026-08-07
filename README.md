@@ -58,6 +58,7 @@ genshin-builds/
 |   |   |   |   |   |   |-- artifacts-substats.json
 |   |   |   |   |   |   |-- talents.json
 |   |   |   |   |   |   |-- build-notes.json
+|   |   |   |   |   |-- pre-ar45/         Optional simplified guide for pre-AR45 players
 |   |   |-- site/            FAQ, credits, and changelog content
 |   |-- data/                Shared gameplay data for weapons and artifact sets
 |   |-- i18n/                Translation dictionaries for each language
@@ -192,11 +193,17 @@ The website is built on our folder structure: adding a new folder will automatic
    - `talents.json`: see [`content-guides/talents.md`](./content-guides/talents.md)
    - `build-notes.json`: see [`content-guides/build-notes.md`](./content-guides/build-notes.md)
 
+   Pre-AR45 guides use the reserved `pre-ar45` build folder. Do not add
+   `artifacts-substats.json` there; pre-AR45 pages do not show substats.
+
 5. Use character-level shared defaults when useful.
 
    Some files can live directly in the character folder. If a build does not
    have its own copy of a file, the site falls back to the character-level
    version.
+
+   `pre-ar45` is the exception: keep every displayed file inside that folder.
+   It does not use character-level shared defaults.
 
    Examples:
 
@@ -218,6 +225,9 @@ The website is built on our folder structure: adding a new folder will automatic
 
    Do not translate folder names, character slugs, build slugs, element folders,
    or rarity folders.
+
+   Use `pre-ar45` exactly for simplified pre-AR45 guides. The public page is
+   `/.../<character>/pre-ar45`.
 
 ### Recently Updated Filter
 
