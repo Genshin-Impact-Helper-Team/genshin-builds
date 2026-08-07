@@ -6,7 +6,7 @@ const DEFAULT_PROJECT_OWNER = 'Genshin-Impact-Helper-Team';
 const DEFAULT_LABEL = 'Feedback Form';
 const PROJECT_FIELD_NAMES = {
   date: 'Date',
-  person: 'Person',
+  person: 'Discord Username',
   type: 'Feedback Type',
   page: 'Page',
   feedback: 'Feedback',
