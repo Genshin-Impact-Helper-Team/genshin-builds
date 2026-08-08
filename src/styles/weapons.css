@@ -276,7 +276,7 @@
   outline: none;
 }
 
-.weapon-refinement-button[aria-selected='true'] {
+.weapon-refinement-button[aria-pressed='true'] {
   background: var(--weapon-rarity);
   color: #05080c;
 }

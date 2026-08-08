@@ -16,8 +16,7 @@ src/content/<element>/<rarity>/<character>/metadata.json
 {
   "weapon": "bow",
   "last_updated": "5.7",
-  "version_released": "3.3",
-  "portrait": "https://example.com/character-icon.webp"
+  "version_released": "3.3"
 }
 ```
 
@@ -33,10 +32,6 @@ src/content/<element>/<rarity>/<character>/metadata.json
 - `version_released`: Character release version from the official HoYoWiki,
   used by the home page `Release date - Newest` sort. Use the changelog format
   for Luna versions, such as `6.6 / Luna VII`.
-- `image`: Official fallback URL for the character splash art.
-- `portrait`: Official fallback URL for the small character icon used on the
-  home page character list. Should come from the Hoyolab Battle Chronicles
-  Character list.
 
 ## Recently Updated Filter
 
@@ -61,26 +56,17 @@ filter is checked.
 ## Images
 
 Hosted image files mirror the character content path under
-`public/character-assets`:
+`src/assets/character-assets`:
 
 ```txt
-public/character-assets/<element>/<rarity>/<character>/splash_art.webp
-public/character-assets/<element>/<rarity>/<character>/portrait.webp
+src/assets/character-assets/<element>/<rarity>/<character>/splash_art.webp
+src/assets/character-assets/<element>/<rarity>/<character>/portrait.webp
 ```
 
-If those files exist, the site uses them before the URLs in `metadata.json`.
-The metadata URLs still need to stay filled in because they are the fallback
-when a local file is missing.
+The site renders character images only from these local files. Metadata image
+URLs are ignored by the runtime.
 
-The hosted files must be real WebP images and must use this exact names:
-
-- `portrait.webp`: local file for the `portrait` field.
-
-Fallback URL must come from official sources:
-
-```txt
-https://act.hoyolab.com/app/community-game-records-sea/index.html
-```
+The hosted files must be real WebP images and must use `portrait.webp`as the exact n,ame.
 
 - Use the small character icon from the hoyolab battle chronicles for `portrait`.
 - Do not use fan wiki, cropped screenshots, or unofficial image links.

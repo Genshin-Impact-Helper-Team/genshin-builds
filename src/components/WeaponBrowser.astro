@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import type { AssetImage } from '../utils/item-assets';
 import { t } from '../utils/i18n';
 
 type WeaponBrowserData = {
@@ -13,7 +15,7 @@ type WeaponBrowserData = {
   }[];
   weapons: {
     id: string;
-    imageUrl: string;
+    image: AssetImage | '';
     name: string;
     rarity: number;
     type: string;
@@ -145,14 +147,17 @@ const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
           <header class="weapon-entry-header">
             <div class="weapon-entry-title">
               <div
-                class={`weapon-entry-image${weapon.imageUrl ? '' : ' is-empty'}`}
+                class={`weapon-entry-image${weapon.image ? '' : ' is-empty'}`}
               >
-                {weapon.imageUrl && (
-                  <img
-                    src={weapon.imageUrl}
+                {weapon.image && (
+                  <Image
+                    src={weapon.image}
                     alt=""
                     loading="lazy"
                     decoding="async"
+                    width={72}
+                    height={72}
+                    densities={[1, 2]}
                   />
                 )}
               </div>
@@ -204,7 +209,7 @@ const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
                       class="weapon-refinement-button"
                       type="button"
                       data-weapon-refinement={`r${panel.refinement}`}
-                      aria-selected={panel.refinement === 1 ? 'true' : 'false'}
+                      aria-pressed={panel.refinement === 1 ? 'true' : 'false'}
                     >
                       R{panel.refinement}
                     </button>

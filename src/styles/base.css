@@ -101,6 +101,23 @@ a:hover {
   font-weight: 600;
 }
 
+.footer-feedback-button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  font-weight: inherit;
+}
+
+.footer-feedback-button:hover,
+.footer-feedback-button:focus-visible {
+  opacity: 0.85;
+  outline: none;
+  text-decoration: underline;
+}
+
 .site-footer p {
   margin: 4px 0;
 }
@@ -113,6 +130,12 @@ a:hover {
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
+  }
+}
+
+@media (max-width: 760px), (prefers-reduced-motion: reduce) {
+  .site-stars {
+    display: none;
   }
 }
 

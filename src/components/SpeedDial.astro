@@ -1,0 +1,35 @@
+---
+import { SpeedDial } from 'webcoreui/astro';
+import type { SpeedDialProps } from 'webcoreui/astro';
+import { alert, github, search } from 'webcoreui/icons';
+
+const iconWithTitle = (svg: string, title: string) =>
+  svg
+    .replace('<svg ', '<svg role="img" ')
+    .replace('>', `><title>${title}</title>`);
+const speedDialItems: SpeedDialProps['items'] = [
+  {
+    icon: iconWithTitle(search, 'Search'),
+    href: '#site-search-modal',
+    tooltip: 'Search',
+  },
+  {
+    icon: iconWithTitle(github, 'Open build project'),
+    href: 'https://github.com/orgs/Genshin-Impact-Helper-Team/projects/1',
+    tooltip: 'See Update Priority List',
+    target: '_blank',
+  },
+  {
+    icon: iconWithTitle(alert, 'Open feedback form'),
+    href: '#feedback-modal',
+    tooltip: 'Send Feedback',
+  },
+];
+---
+
+<SpeedDial
+  items={speedDialItems}
+  circular={true}
+  triggerOnClick={true}
+  className="speed-dial"
+/>

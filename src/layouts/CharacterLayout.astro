@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import '../styles/base.css';
 import '../styles/build.css';
 import '../styles/theme.css';
@@ -32,9 +33,6 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
     <meta name="viewport" content="width=device-width" />
     <title>Genshin Builds - {character}</title>
     <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
-    <link rel="preconnect" href="https://wiki.hoyolab.com" />
-    <link rel="preconnect" href="https://upload-static.hoyoverse.com" />
-    <link rel="preconnect" href="https://act-webstatic.hoyoverse.com" />
   </head>
 
   <body data-element={Astro.props.element}>
@@ -46,20 +44,25 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
           {
             characterHeaderImage && (
               <div class="character-art-stage">
-                <img
+                <Image
                   class="character-image"
                   src={characterHeaderImage}
                   alt={characterArtAlt}
                   loading="eager"
                   decoding="async"
                   fetchpriority="high"
+                  width={132}
+                  height={132}
+                  densities={[1, 2]}
                 />
               </div>
             )
           }
 
           <div class="character-header-copy">
-            <h1 id="character-title" class="page-title">{character}</h1>
+            <h1 id="character-title" class="page-title" data-pagefind-body>
+              {character}
+            </h1>
 
             <div class="character-header-meta">
               {
@@ -77,11 +80,7 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
 
           {
             builds.length > 0 && (
-              <nav
-                class="build-switcher"
-                role="tablist"
-                aria-label={buildLabel}
-              >
+              <nav class="build-switcher" aria-label={buildLabel}>
                 {builds.map((build: any, index: number) => {
                   const isDefaultBuild =
                     build.slug === defaultBuildSlug ||
@@ -92,12 +91,10 @@ const bestRoleLabel = t(locale, 'ui', 'Best Role');
                       id={`build-tab-${build.slug}`}
                       class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
                       type="button"
-                      role="tab"
                       data-build-tab
                       data-id={build.slug}
                       aria-controls={`build-content-${build.slug}`}
-                      aria-selected={isDefaultBuild ? 'true' : 'false'}
-                      tabindex={isDefaultBuild ? '0' : '-1'}
+                      aria-pressed={isDefaultBuild ? 'true' : 'false'}
                     >
                       <span class="build-switcher-name">{build.name}</span>
                       {build.isBest && (
