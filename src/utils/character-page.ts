@@ -5,7 +5,7 @@ import {
   getPublicCharacterName,
   parsePublicCharacterSlug,
 } from './character-slugs';
-import { resolveCharacterAssetUrl } from './character-assets';
+import { resolveCharacterAssetImage } from './character-assets';
 import {
   findCharacterPath,
   loadJSON,
@@ -827,12 +827,8 @@ export function getCharacterPageData({
   };
   const metadataWithAssets = {
     ...metadata,
-    image: resolveCharacterAssetUrl(assetContext, metadata.image, 'image'),
-    portrait: resolveCharacterAssetUrl(
-      assetContext,
-      metadata.portrait,
-      'portrait',
-    ),
+    image: resolveCharacterAssetImage(assetContext, 'image'),
+    portrait: resolveCharacterAssetImage(assetContext, 'portrait'),
   };
 
   return {

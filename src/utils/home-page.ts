@@ -4,7 +4,7 @@ import {
   getPublicCharacterName,
   getPublicCharacterSlug,
 } from './character-slugs';
-import { resolveCharacterAssetUrl } from './character-assets';
+import { resolveCharacterAssetImage } from './character-assets';
 import { readJSONFile, toTitleCase } from './content';
 import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale } from './i18n';
@@ -59,7 +59,8 @@ function getBuildSummaries(
  * Builds the localized character list used by the home page.
  *
  * The content directory is the source of truth: element, rarity, and slug come
- * from folder names, while weapon and portrait come from metadata.json.
+ * from folder names, weapon comes from metadata.json, and images come from
+ * src/assets/character-assets.
  *
  * @param lang Requested language code.
  * @returns Characters plus the matching locale bundle.
@@ -99,12 +100,7 @@ export function getHomePageData(lang = 'en') {
         versionReleased,
         isWip: lastUpdated.toUpperCase() === 'WIP',
         isRecentlyUpdated: recentVersions.includes(lastUpdated),
-        image: resolveCharacterAssetUrl(assetContext, metadata.image, 'image'),
-        portrait: resolveCharacterAssetUrl(
-          assetContext,
-          metadata.portrait,
-          'portrait',
-        ),
+        portrait: resolveCharacterAssetImage(assetContext, 'portrait'),
         builds: getBuildSummaries(characterPath, lang, translator),
       };
     })

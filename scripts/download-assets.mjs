@@ -29,7 +29,8 @@ const configs = {
     },
     output(entry) {
       return path.join(
-        'public',
+        'src',
+        'assets',
         'item-assets',
         'weapons',
         entry.type,
@@ -57,7 +58,8 @@ const configs = {
     },
     output(entry) {
       return path.join(
-        'public',
+        'src',
+        'assets',
         'item-assets',
         'artifacts',
         `${entry.key}.webp`,

@@ -1,6 +1,28 @@
 const header = document.querySelector<HTMLElement>('.site-header');
 const navToggle = header?.querySelector<HTMLButtonElement>('[data-nav-toggle]');
 const navDropdown = header?.querySelector<HTMLDetailsElement>('.nav-dropdown');
+const searchShortcutBannerDismissedStorageKey =
+  'genshin-builds:search-shortcut-banner-dismissed';
+const searchShortcutBannerDisabledStorageKey =
+  'genshin-builds:search-shortcut-banner-disabled';
+
+function searchShortcutBannerDismissed() {
+  try {
+    return (
+      sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
+        'true' ||
+      localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true'
+    );
+  } catch {
+    return false;
+  }
+}
+
+function hideDismissedSearchShortcutBanner() {
+  if (!searchShortcutBannerDismissed()) return;
+
+  document.documentElement.dataset.searchShortcutBannerDismissed = 'true';
+}
 
 /** Keeps the compact navigation and its ARIA state synchronized. */
 const setNavOpen = (isOpen: boolean) => {
@@ -34,6 +56,30 @@ document.addEventListener('keydown', (event) => {
     navToggle?.focus();
   }
 });
+
+document.addEventListener(
+  'click',
+  (event) => {
+    if (
+      !(event.target instanceof Element) ||
+      !event.target.closest(
+        '.search-shortcut-banner [data-id="w-banner-close"]',
+      )
+    ) {
+      return;
+    }
+
+    try {
+      sessionStorage.setItem(searchShortcutBannerDismissedStorageKey, 'true');
+    } catch {
+      // ignore storage failure
+    }
+    document.documentElement.dataset.searchShortcutBannerDismissed = 'true';
+  },
+  true,
+);
+
+hideDismissedSearchShortcutBanner();
 
 window.matchMedia('(min-width: 981px)').addEventListener('change', (event) => {
   if (event.matches) setNavOpen(false);
