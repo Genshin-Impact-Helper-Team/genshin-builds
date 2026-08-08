@@ -8,6 +8,13 @@
   backdrop-filter: blur(16px);
 }
 
+@supports (-moz-appearance: none) {
+  .site-header {
+    background: rgba(10, 10, 10, 0.96);
+    backdrop-filter: none;
+  }
+}
+
 body .search-shortcut-banner.search-shortcut-banner {
   padding: 0.52rem 3rem 0.52rem 1rem;
   background: color-mix(in srgb, var(--accent) 84%, #05080c 16%);
