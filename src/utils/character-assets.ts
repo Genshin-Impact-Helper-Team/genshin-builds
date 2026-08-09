@@ -1,8 +1,7 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { sitePath } from './paths';
+import type { ImageMetadata } from 'astro';
 
 type CharacterAssetKind = 'image' | 'portrait';
+type CharacterAssetImage = Promise<{ default: ImageMetadata }>;
 
 type CharacterAssetContext = {
   element: string;
@@ -15,20 +14,21 @@ const assetFileNames: Record<CharacterAssetKind, string> = {
   portrait: 'portrait.webp',
 };
 
-export function resolveCharacterAssetUrl(
+const characterImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/character-assets/**/*.webp',
+);
+
+export function resolveCharacterAssetImage(
   context: CharacterAssetContext,
-  fallbackUrl: string | undefined,
   kind: CharacterAssetKind,
-) {
-  const parts = [
-    'character-assets',
+): CharacterAssetImage | undefined {
+  const assetPath = [
+    '/src/assets/character-assets',
     context.element,
     context.rarity,
     context.character,
     assetFileNames[kind],
-  ];
+  ].join('/');
 
-  return fs.existsSync(path.resolve('public', ...parts))
-    ? sitePath(parts.join('/'))
-    : fallbackUrl?.trim();
+  return characterImages[assetPath]?.();
 }

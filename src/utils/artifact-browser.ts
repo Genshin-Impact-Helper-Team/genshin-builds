@@ -7,7 +7,7 @@ import {
 } from './build-usage';
 import { loadJSON, readJSONFile } from './content';
 import { getLocale, t } from './i18n';
-import { resolveArtifactAssetUrl } from './item-assets';
+import { resolveArtifactAssetImage } from './item-assets';
 
 /**
  * Artifact set bonus keys supported by the source data.
@@ -112,8 +112,11 @@ function getArtifactSetFourPieceUsage(locale: any, lang: string) {
           .filter((item) => Number(item?.pieces) === 4)
           .map((item) => ({ id: normalizeArtifactSetItemId(item), rank })),
       ),
-      ...getWipNoteItems(buildNotes, 'artifact', 'set', (id) =>
-        aliases.set?.[id] ?? id,
+      ...getWipNoteItems(
+        buildNotes,
+        'artifact',
+        'set',
+        (id) => aliases.set?.[id] ?? id,
       ),
     ];
   });
@@ -151,7 +154,7 @@ function getArtifactSetEntries(
 
     return {
       id,
-      imageUrl: resolveArtifactAssetUrl(id),
+      image: resolveArtifactAssetImage(id),
       name: t(locale, 'artifact', id, undefined, false),
       rarity: info.rarity,
       bonuses,

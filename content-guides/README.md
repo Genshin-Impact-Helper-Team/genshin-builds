@@ -19,17 +19,17 @@ src/content/pyro/4/amber/melt-DPS/
 ```
 
 Character metadata lives inside the character folder. Matching local images
-mirror that path under `public/character-assets`:
+mirror that path under `src/assets/character-assets`:
 
 ```txt
 src/content/pyro/4/amber/metadata.json
-public/character-assets/pyro/4/amber/splash_art.webp
-public/character-assets/pyro/4/amber/portrait.webp
+src/assets/character-assets/pyro/4/amber/splash_art.webp
+src/assets/character-assets/pyro/4/amber/portrait.webp
 ```
 
 `metadata.json` is used for character display data and the home page character
-filters. The public WebPs are preferred when present; the `image` and `portrait`
-URLs in `metadata.json` stay as official fallback sources.
+filters. Character images render only from the matching local WebP files under
+`src/assets/character-assets`.
 
 Build-level files live inside each build folder:
 

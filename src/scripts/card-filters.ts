@@ -2,6 +2,7 @@ import { compareCharacterCards } from './character-sort.mjs';
 
 type FilterKind = 'character' | 'weapon' | 'artifact';
 const characterSortStorageKey = 'genshin-builds:character-sort';
+const highPriorityImageCount = 4;
 
 const selectors = {
   character: {
@@ -38,6 +39,43 @@ if (kind) {
   const empty = document.querySelector<HTMLElement>(selector.empty);
   const sortSelect =
     kind === 'character' ? form?.elements.namedItem('sort') : null;
+
+  const getElementYPosition = (element: HTMLElement) => {
+    let currentElement: HTMLElement | null = element;
+    let elementYPosition = 0;
+
+    while (currentElement) {
+      elementYPosition += currentElement.offsetTop;
+      currentElement = currentElement.offsetParent as HTMLElement | null;
+    }
+
+    return elementYPosition;
+  };
+
+  const updateVisibleImageLoading = () => {
+    const orderedCards = cards[0]?.parentElement
+      ? Array.from(
+          cards[0].parentElement.querySelectorAll<HTMLElement>(selector.card),
+        )
+      : cards;
+    let highPriorityCount = 0;
+
+    orderedCards.forEach((card) => {
+      const image = card.querySelector<HTMLImageElement>('img');
+      if (!image) return;
+
+      const isAboveFold =
+        !card.hidden && getElementYPosition(image) <= window.innerHeight;
+
+      image.setAttribute('loading', isAboveFold ? 'eager' : 'lazy');
+      if (isAboveFold && highPriorityCount < highPriorityImageCount) {
+        image.setAttribute('fetchpriority', 'high');
+        highPriorityCount += 1;
+      } else {
+        image.removeAttribute('fetchpriority');
+      }
+    });
+  };
 
   if (sortSelect instanceof HTMLSelectElement) {
     try {
@@ -106,6 +144,7 @@ if (kind) {
       count.textContent = `${visibleCount} ${count.dataset.resultsLabel ?? ''}`;
     }
     if (empty) empty.hidden = visibleCount > 0;
+    updateVisibleImageLoading();
   };
 
   form?.addEventListener('change', applyFilters);
@@ -114,6 +153,7 @@ if (kind) {
   if (sortSelect instanceof HTMLSelectElement) {
     sortSelect.addEventListener('change', applyFilters);
   }
+  window.addEventListener('resize', updateVisibleImageLoading);
   applyFilters();
 }
 
@@ -132,7 +172,7 @@ document
       .querySelectorAll<HTMLElement>('[data-weapon-refinement]')
       .forEach((item) =>
         item.setAttribute(
-          'aria-selected',
+          'aria-pressed',
           String(item.dataset.weaponRefinement === refinement),
         ),
       );

@@ -1,0 +1,70 @@
+---
+import '@pagefind/component-ui/css/pagefind-component-ui.css';
+import { Modal } from 'webcoreui/astro';
+import { t } from '../utils/i18n';
+import { sitePath } from '../utils/paths';
+
+type Props = {
+  lang?: string;
+  locale: any;
+};
+
+const { lang = 'en', locale } = Astro.props as Props;
+const searchLabel = t(locale, 'ui', 'Search', undefined, false);
+const searchByNameLabel = t(locale, 'ui', 'Search by name', undefined, false);
+const hideShortcutBannerLabel = t(
+  locale,
+  'ui',
+  'Hide shortcut banner',
+  undefined,
+  false,
+);
+const bundlePath = import.meta.env.DEV ? '/pagefind/' : sitePath('pagefind/');
+const baseUrl = sitePath();
+const resultTemplate = `
+<a
+  class="pf-searchbox-result"
+  id="{{ aria.result_id }}"
+  href="{{ meta.url | default(url) | safeUrl }}"
+  role="option"
+  aria-selected="false"
+  aria-labelledby="{{ aria.title_id }}"
+>
+  <p class="pf-searchbox-result-title" id="{{ aria.title_id }}">
+    {{ meta.title | default("Untitled") }}
+  </p>
+</a>`;
+---
+
+<Modal id="site-search-modal" className="site-search-modal" title={searchLabel}>
+  <div class="site-search-shell">
+    <pagefind-config
+      instance="character-search"
+      bundle-path={bundlePath}
+      base-url={baseUrl}
+      lang={lang}
+    >
+    </pagefind-config>
+    <pagefind-searchbox
+      instance="character-search"
+      class="site-character-search"
+      placeholder={searchByNameLabel}
+      debounce="100"
+      max-results="8"
+      show-keyboard-hints="false"
+      show-sub-results="false"
+      hide-shortcut="true"
+      shortcut="__disabled__"
+    >
+      <script type="text/pagefind-template" set:html={resultTemplate} />
+    </pagefind-searchbox>
+    <label class="site-search-banner-toggle">
+      <input type="checkbox" data-search-banner-toggle />
+      <span>{hideShortcutBannerLabel}</span>
+    </label>
+  </div>
+</Modal>
+
+<script>
+  import '@pagefind/component-ui';
+</script>

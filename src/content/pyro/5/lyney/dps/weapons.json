@@ -34,7 +34,13 @@
         },
         {
             "items": [
+                "golden-frostbound-oath",
                 "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                "the-daybreak-chronicles"
             ]
         },
         {
@@ -44,18 +50,56 @@
         },
         {
             "items": [
-                "polar-star",
-                "song-of-stillness",
-                "prototype-crescent"
+                "polar-star"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "song-of-stillness",
+                    "refinement": 5
+                },
+                {
+                    "name": "prototype-crescent",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes one of [[character:lyney]]'s Aimed Shots hits a weak point.",
+                        "fr": "Le classement suppose qu'une des attaques chargées de [[character:lyney]] touchent un point faible.",
+                        "it": "La posizione in classifica presuppone che un Colpo Mirato di [[character:lyney]] colpisca un Punto Debole.",
+                        "ru": "Предполагается, что одна из Заряженных атак [[character:lyney]] попадает в слабое место противника."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "range-gauge",
+                    "note": {
+                        "en": "Ranking assumes three stacks of the passive. At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
+                        "fr": "Le classement suppose 3 cumuls du passif. Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**.",
+                        "it": "La posizione in classifica presuppone 3 accumuli della passiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:polar-star]]**.",
+                        "ru": "Предполагается, нваличие 3 Меток единства. На **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
+                    }
+                },
+                {
+                    "name": "flower-wreathed-feathers",
+                    "note": {
+                        "en": "At **[R5]**, this weapon ranks equal to **[[weapon:polar-star]]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:polar-star]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:polar-star]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:polar-star|Полярной звезде]]**."
+                    }
+                }
             ]
         }
     ],
     "notes": [
         {
-            "en": "Weapon rankings assume [[character:lyney]] is **used with [[character:bennett]]** and using **[[set:marechaussee-hunter]] (4)**.",
-            "fr": "Le classement suppose que [[character:lyney]] est **joué avec [[character:bennett]]** et **[[set:marechaussee-hunter]] (4)**.",
+            "en": "Weapon rankings assume [[character:lyney]] is **used with [[character:bennett]] or [[character:nicole]]** and using **[[set:marechaussee-hunter]] (4)**.",
+            "fr": "Le classement suppose que [[character:lyney]] est **joué avec [[character:bennett]] ou [[character:nicole]]** et **[[set:marechaussee-hunter]] (4)**.",
             "it": "La classifica delle armi presuppone che [[character:lyney]] sia giocato con **[[character:bennett]]** e che utilizzi **[[set:marechaussee-hunter]] (4)**.",
-            "ru": "Предполагается, что [[character:lyney]] играет с [[character:bennett]]ом и использует **[[set:marechaussee-hunter]] (4)**."
+            "ru": "Предполагается, что [[character:lyney]] **играет с [[character:bennett]]ом или [[character:nicole]]** и использует сет **[[set:marechaussee-hunter]] (4)**."
         }
     ]
 }

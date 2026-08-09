@@ -638,7 +638,7 @@
 
 .inline-note-label-emphasized {
   color: color-mix(in srgb, #fff 82%, var(--accent) 18%);
-  font-weight: 850;
+  font-weight: 750;
 }
 
 .note-tail {
@@ -761,7 +761,7 @@
   color: color-mix(in srgb, #fff 82%, var(--accent) 18%);
   cursor: pointer;
   font: inherit;
-  font-weight: 850;
+  font-weight: 750;
   overflow-wrap: anywhere;
   text-align: left;
 }
@@ -972,7 +972,7 @@
   touch-action: manipulation;
 }
 
-.weapon-popover-refinement-button[aria-selected='true'] {
+.weapon-popover-refinement-button[aria-pressed='true'] {
   background: var(--element);
   color: #05080c;
 }

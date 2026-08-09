@@ -8,6 +8,46 @@
   backdrop-filter: blur(16px);
 }
 
+@supports (-moz-appearance: none) {
+  .site-header {
+    background: rgba(10, 10, 10, 0.96);
+    backdrop-filter: none;
+  }
+}
+
+body .search-shortcut-banner.search-shortcut-banner {
+  padding: 0.52rem 3rem 0.52rem 1rem;
+  background: color-mix(in srgb, var(--accent) 84%, #05080c 16%);
+  color: color-mix(in srgb, #05080c 88%, transparent);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+body
+  .search-shortcut-banner.search-shortcut-banner
+  [data-id='w-banner-close']
+  svg
+  path {
+  stroke-width: 4.5;
+}
+
+body
+  .search-shortcut-banner.search-shortcut-banner
+  [data-id='w-banner-close']:hover,
+body
+  .search-shortcut-banner.search-shortcut-banner
+  [data-id='w-banner-close']:focus-visible {
+  border-color: rgba(5, 8, 12, 0.65);
+  background: rgba(5, 8, 12, 0.22);
+}
+
+html[data-search-shortcut-banner-dismissed='true']
+  body
+  .search-shortcut-banner.search-shortcut-banner {
+  display: none;
+}
+
 .navbar {
   display: flex;
   max-width: 1200px;
@@ -274,6 +314,10 @@ a.nav-link:focus-visible,
 }
 
 @media (max-width: 980px) {
+  body .search-shortcut-banner.search-shortcut-banner {
+    display: none;
+  }
+
   .navbar {
     position: relative;
     min-height: 58px;
