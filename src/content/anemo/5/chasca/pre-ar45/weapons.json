@@ -12,7 +12,8 @@
                 {
                     "name": "song-of-stillness",
                     "note": {
-                        "en": "Needs to be paired with a healer to activate its passive."
+                        "en": "Needs to be paired with a healer to activate its passive.",
+                        "fr": "Nécessite d'être jouée avec un soigneur pour activer le passif."
                     }
                 }
             ]

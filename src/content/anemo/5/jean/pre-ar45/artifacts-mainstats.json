@@ -2,13 +2,12 @@
     "main_stats": {
         "sands": [
             "atk%",
-          "er"
+            "er"
         ],
         "goblet": [
             "atk%"
         ],
         "circlet": [
-            
             "atk%"
         ]
     }
