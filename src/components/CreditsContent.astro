@@ -1,0 +1,90 @@
+---
+import credits from '../content/site/credits.json';
+import { t } from '../utils/i18n';
+
+type CreditsData = {
+  translators: Record<string, string[]>;
+  sections: {
+    title: string;
+    names: string[];
+  }[];
+};
+
+const { lang = 'en', locale } = Astro.props as {
+  lang?: string;
+  locale: any;
+};
+
+const creditsData = credits as CreditsData;
+const translators = creditsData.translators[lang] ?? [];
+---
+
+<section class="card credits-card credits-legal-card">
+  <h2>{t(locale, 'ui', 'Legal Notice', undefined, false)}</h2>
+  <p>{t(locale, 'ui', 'Legal notice unofficial', undefined, false)}</p>
+  <p>
+    Original source code, build recommendations, rankings, notes, page layouts,
+    and other editorial content are copyright Genshin Impact Helper Team
+    contributors. No license is granted to copy, mirror, rehost, or deploy this
+    website or its original content without written permission. See the{' '}
+    <a
+      href="https://github.com/genshin-impact-helper-team/genshin-builds/blob/main/LICENSE.md"
+      target="_blank"
+    >
+      repository license notice
+    </a>
+    .
+  </p>
+  <p>{t(locale, 'ui', 'Legal notice ownership', undefined, false)}</p>
+  <p class="credits-legal-declaration">
+    &copy; All rights reserved by COGNOSPHERE. Other properties belong to their
+    respective owners.
+  </p>
+  <p>
+    {t(locale, 'ui', 'Legal notice unpublished', undefined, false)}{' '}
+    <a
+      href="https://www.hoyolab.com/article/143107"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {t(locale, 'ui', 'Legal FAQ', undefined, false)}
+    </a>
+    .
+  </p>
+</section>
+
+<section class="card credits-card">
+  <p>
+    {t(locale, 'ui', 'Credits feedback')}{' '}
+    <button class="credits-feedback-button" type="button" data-feedback-open>
+      {t(locale, 'ui', 'Feedback', undefined, false)}
+    </button>
+    .
+  </p>
+</section>
+
+{
+  translators.length > 0 && (
+    <section class="card credits-card">
+      <h2>{t(locale, 'ui', 'Translator')}</h2>
+      <ul class="credits-list">
+        {translators.map((name) => (
+          <li>{name}</li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+{
+  creditsData.sections.map((section) => (
+    <section class="card credits-card">
+      <h2>{t(locale, 'ui', section.title)}</h2>
+      <ul class="credits-list">
+        {section.names.map((name) => (
+          <li>{name}</li>
+        ))}
+      </ul>
+    </section>
+  ))
+}

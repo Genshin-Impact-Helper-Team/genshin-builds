@@ -78,16 +78,5 @@ export function t(
 
   if (translation !== undefined) return translation;
 
-  if (warn) {
-    console.warn(
-      formatMissingTranslationWarning(
-        getLocaleCode(locale),
-        id,
-        category,
-        sourceFile,
-      ),
-    );
-  }
-
   return locales.en[category as keyof LocaleBundle]?.[id] ?? id;
 }

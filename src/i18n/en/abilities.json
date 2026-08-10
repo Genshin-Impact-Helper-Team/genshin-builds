@@ -1,8 +1,10 @@
 {
     "na": "Normal Attack",
     "ca": "Charged Attack",
+    "plunge": "Plunging Attack",
     "skill": "Skill",
     "burst": "Burst",
+    "shield": "Shield",
     "bol": "Bond of Life",
     "nightsoul-blessing": "Nightsoul Blessing",
     "nightsoul-burst": "Nightsoul Burst",

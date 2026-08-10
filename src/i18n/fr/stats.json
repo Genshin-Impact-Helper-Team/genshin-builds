@@ -11,6 +11,7 @@
     "cr": "Taux CRIT",
     "cr/cd": "Taux CRIT / Dégâts CRIT",
     "healing-bonus": "Bonus de Soins",
+    "elemental-res": "RES Elémentaire",
     "em-set": "Set +80 ME",
     "def-set": "Set +30% DEF",
     "atk-set": "Set +18% ATQ",

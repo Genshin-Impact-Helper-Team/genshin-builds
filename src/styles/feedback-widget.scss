@@ -1,0 +1,297 @@
+.feedback-widget {
+  --w-color-primary: var(--accent);
+  --w-color-primary-10: color-mix(in srgb, #fff 86%, var(--accent) 14%);
+  --w-color-primary-20: color-mix(in srgb, #fff 72%, var(--accent) 28%);
+  --w-color-primary-30: color-mix(in srgb, var(--text) 62%, transparent);
+  --w-color-primary-40: color-mix(in srgb, var(--accent) 46%, transparent);
+  --w-color-primary-50: color-mix(in srgb, var(--accent) 30%, transparent);
+  --w-color-primary-60: color-mix(in srgb, var(--bg) 82%, #05080c 18%);
+  --w-color-primary-70: color-mix(in srgb, var(--bg) 92%, #05080c 8%);
+  --w-color-overlay: rgba(0, 0, 0, 0.64);
+  --w-speed-dial-size: 46px;
+  --w-xs-radius: 8px;
+  --w-sm-radius: 8px;
+  --w-md-radius: 8px;
+  color: var(--text);
+}
+
+.speed-dial.speed-dial {
+  z-index: 80;
+}
+
+.speed-dial.speed-dial a,
+.speed-dial.speed-dial button {
+  border: 1px solid color-mix(in srgb, var(--accent) 48%, transparent);
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.28),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  color: #05080c;
+}
+
+.speed-dial [data-tooltip] {
+  position: relative;
+}
+
+.speed-dial [data-tooltip]::before,
+.speed-dial [data-tooltip]::after {
+  position: absolute;
+  top: 50%;
+  z-index: 90;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+  visibility: hidden;
+}
+
+.speed-dial [data-tooltip]::before {
+  right: calc(100% + 10px);
+  max-width: 220px;
+  border-radius: 8px;
+  padding: 6px 9px;
+  background: var(--accent);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.26);
+  color: #05080c;
+  content: attr(data-tooltip);
+  font-size: 0.78rem;
+  font-weight: 850;
+  line-height: 1.2;
+  text-align: center;
+  transform: translate(4px, -50%);
+  white-space: nowrap;
+}
+
+.speed-dial [data-tooltip]::after {
+  right: calc(100% + 4px);
+  border: 5px solid transparent;
+  border-left-color: var(--accent);
+  content: '';
+  transform: translate(4px, -50%);
+}
+
+.speed-dial [data-tooltip]:is(:hover, :focus-visible)::before,
+.speed-dial [data-tooltip]:is(:hover, :focus-visible)::after {
+  opacity: 1;
+  transform: translate(0, -50%);
+  visibility: visible;
+}
+
+.feedback-modal.feedback-modal {
+  width: min(94vw, 560px);
+  max-height: min(760px, calc(100vh - 32px));
+  overflow-y: auto;
+  border-color: color-mix(in srgb, var(--accent) 34%, transparent);
+  border-radius: 8px;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--accent) 10%, transparent),
+      transparent 42%
+    ),
+    color-mix(in srgb, var(--bg) 90%, #05080c 10%);
+  color: var(--text);
+  font-family: inherit;
+}
+
+.feedback-modal.feedback-modal strong {
+  color: var(--accent);
+  font-family: inherit;
+}
+
+.feedback-form {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.feedback-faq-note {
+  margin: 16px 0 0;
+  border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: color-mix(in srgb, var(--accent) 11%, transparent);
+  color: color-mix(in srgb, var(--text) 88%, transparent);
+  font-size: 0.92rem;
+  font-weight: 760;
+  line-height: 1.45;
+}
+
+.feedback-faq-note a {
+  color: var(--accent);
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.feedback-form label {
+  display: grid;
+  gap: 6px;
+  color: color-mix(in srgb, var(--text) 82%, transparent);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.feedback-form .feedback-faq-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.feedback-form .feedback-faq-check input {
+  width: 16px;
+  height: 16px;
+  margin-top: 0.15em;
+  accent-color: var(--accent);
+  flex: 0 0 auto;
+}
+
+.feedback-form .feedback-faq-check a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.feedback-form textarea,
+.feedback-native-select {
+  width: 100%;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 8px;
+  padding: 10px 11px;
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--text);
+  font: inherit;
+  line-height: 1.35;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-contact-input {
+  height: 42px;
+  min-height: 42px;
+  resize: none;
+}
+
+.feedback-native-select {
+  display: block;
+  appearance: auto;
+  cursor: pointer;
+}
+
+.feedback-native-select option {
+  background: white;
+  color: #111;
+}
+
+.feedback-form textarea::placeholder {
+  color: color-mix(in srgb, var(--text) 45%, transparent);
+}
+
+.feedback-form textarea:focus,
+.feedback-native-select:focus {
+  border-color: color-mix(in srgb, var(--accent) 70%, #fff 10%);
+  outline: 2px solid color-mix(in srgb, var(--accent) 28%, transparent);
+  outline-offset: 2px;
+}
+
+.feedback-captcha {
+  min-height: 65px;
+}
+
+.feedback-status {
+  min-height: 1.2em;
+  margin: 0;
+  color: color-mix(in srgb, var(--text) 72%, transparent);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.feedback-status[data-state='success'] {
+  color: #9ef0c2;
+}
+
+.feedback-status[data-state='error'] {
+  color: #ffaaa5;
+}
+
+.feedback-toast.feedback-toast {
+  border-color: #38c879;
+  background: #c8f7d7;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.28);
+  color: #05331f;
+}
+
+.feedback-toast.feedback-toast [data-id='title'],
+.feedback-toast.feedback-toast [data-id='body'] {
+  color: #05331f;
+}
+
+.feedback-toast.feedback-toast svg {
+  color: #05331f;
+}
+
+.feedback-toast.feedback-toast a {
+  color: #05331f;
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.feedback-toast.feedback-toast a:hover,
+.feedback-toast.feedback-toast a:focus-visible {
+  color: #031f13;
+}
+
+.feedback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.feedback-actions button {
+  min-height: 38px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 850;
+}
+
+.feedback-submit {
+  background: var(--accent);
+  color: #05080c;
+}
+
+.feedback-cancel {
+  background: transparent;
+  color: var(--text);
+}
+
+.feedback-form[data-busy='true'] button {
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+@media (max-width: 720px) {
+  .feedback-widget {
+    --w-speed-dial-size: 42px;
+  }
+
+  .feedback-modal.feedback-modal {
+    width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+    padding: 16px;
+  }
+
+  .feedback-actions {
+    display: grid;
+  }
+}

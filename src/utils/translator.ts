@@ -174,24 +174,15 @@ export class TranslationHelper {
      *
      * If the locale-specific translation is missing, a warning is stored while
      * the shared i18n helper falls back to English when available.
-     *
+     * TODO: remove cuz i dont use the warnings anymore
      * @param category Translation category.
      * @param id Translation ID.
      * @param sourceFile Optional source file path for debugging.
      * @returns Localized string, English fallback, or original ID if unresolved.
      */
     translate(category: TranslationCategory, id: string, sourceFile?: string) {
-        // Check the requested locale directly so fallback translations still warn.
-        const hasLocalizedTranslation = this.locale?.[category]?.[id] !== undefined;
-        const translation = t(this.locale, category, id, sourceFile);
 
-        if (!hasLocalizedTranslation) {
-            this.addWarning(
-                formatMissingTranslationWarning(this.lang, id, category, sourceFile),
-            );
-        }
-
-        return translation;
+        return t(this.locale, category, id, sourceFile);
     }
 
     /**
@@ -351,11 +342,7 @@ export class TranslationHelper {
         if (category) {
             const translationCategory = this.toTranslationCategory(category);
             const canonicalId = this.resolveAlias(translationCategory, id);
-            const translation = this.translate(
-                translationCategory,
-                canonicalId,
-                sourceFile,
-            );
+            const translation = t(this.locale, translationCategory, canonicalId, sourceFile);
 
             if (translation === canonicalId) {
                 return null;
@@ -606,24 +593,10 @@ export class TranslationHelper {
             );
 
             if (translation !== canonicalId) {
-                if (!hasLocalizedTranslation) {
-                    this.addWarning(
-                        formatMissingTranslationWarning(
-                            this.lang,
-                            canonicalId,
-                            category,
-                            sourceFile,
-                        ),
-                    );
-                }
-
                 return label ? escapeHtml(label) : translation;
             }
         }
 
-        this.addWarning(
-            formatMissingTranslationWarning(this.lang, id, undefined, sourceFile),
-        );
 
         return null;
     }

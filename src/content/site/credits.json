@@ -1,8 +1,7 @@
 {
-    "surveyUrl": "https://tinyurl.com/GIHelperTeamCBSurvey",
     "translators": {
         "fr": [
-            "Akhala_"
+            "akhala_"
         ],
         "de": [
             "zhenzhu"
@@ -20,23 +19,22 @@
         {
             "title": "Active Contributors",
             "names": [
-                "folie",
-                "Akalight",
-                "strawbery_steel",
+                "akalight_",
+                "chiston",
+                "finnyke",
                 "hyperactivesugar",
                 "nicenekreed",
-                "wakanai",
                 "quinslay",
-                "george.h_",
+                "speify",
                 "thegreenster",
-                "chiston",
-                "speify"
+                "voidrev",
+                "wakanai"
             ]
         },
         {
             "title": "Website Development",
             "names": [
-                "Akhala_"
+                "akhala_"
             ]
         },
         {
@@ -81,16 +79,11 @@
             ]
         },
         {
-            "title": "Special Thanks",
-            "names": [
-                "Jinjinx",
-                "mr.doug"
-            ]
-        },
-        {
             "title": "Other Contributors",
             "names": [
-                "Dreamslayer Ahri #9122",
+                "george.h_",
+                "strawbery_steel",
+                "folie",
                 "Enku#8746",
                 "Dandi#2113",
                 "Gianity#1311",
@@ -104,7 +97,15 @@
                 "larrythecableguy",
                 "2riheart",
                 "Adeptus#5461",
-                "shiroqei"
+                "shiroqei",
+                "Dreamslayer Ahri #9122"
+            ]
+        },
+        {
+            "title": "Special Thanks",
+            "names": [
+                "Jinjinx",
+                "mr.doug"
             ]
         }
     ]

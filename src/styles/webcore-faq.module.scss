@@ -1,0 +1,42 @@
+@use 'webcoreui/config' as *;
+
+.faq {
+  --w-color-primary: var(--accent);
+  --w-color-primary-10: color-mix(in srgb, #fff 88%, var(--accent) 12%);
+  --w-color-primary-20: color-mix(in srgb, var(--text) 74%, transparent);
+  --w-color-primary-50: rgba(255, 255, 255, 0.1);
+
+  @include layout(flex, default, column);
+
+  font-family: inherit;
+
+  :global(button) {
+    font: inherit;
+  }
+
+  :global(p) {
+    margin: 0;
+  }
+
+  .col {
+    flex: 3;
+  }
+
+  .title {
+    @include typography('2xl', primary-10, bold);
+    @include spacing(mb-sm);
+    @include visibility(block);
+
+    font-family: inherit;
+  }
+
+  .accordion {
+    flex: 4;
+  }
+}
+
+@include media(sm) {
+  .faq {
+    @include layout(row);
+  }
+}

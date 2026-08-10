@@ -42,10 +42,8 @@ Most content contributors will work in these folders:
 ```txt
 genshin-builds/
 |-- content-guides/          Guides that explain how content JSON files work
-|-- public/
-|   |-- character-assets/    Character portraits
-|   |-- item-assets/         Weapon and artifact set images
 |-- src/
+|   |-- assets/              Optimized character, weapon, and artifact images
 |   |-- content/             Character builds and shared site content
 |   |   |-- <element>/
 |   |   |   |-- <rarity>/
@@ -71,7 +69,7 @@ Developers may also work in these folders:
 ```txt
 genshin-builds/
 |-- .github/workflows/       GitHub automation, including website deployment
-|-- public/                  Static images and the site favicon
+|-- public/                  Static favicon and other direct public files
 |-- src/
 |   |-- components/          Reusable parts of the website
 |   |-- layouts/             Page layouts
@@ -125,6 +123,7 @@ docs/root-readme
 5. Make sure GitHub now shows your new branch name instead of `main`.
 
 **Goal:** Your changes should happen on your own branch, NEVER directly on `main`.
+
 > This is to prevent any unvoluntarily changes to be made to the website, as the website always displays the content on `main`. If a mistake is made on `main` for example, the website will be broken and thus unavailable until the mistake is fixed, whereas if it was made on a different branch, nothing happens to the website.
 
 ### Step 2: Edit Files
@@ -178,13 +177,12 @@ The website is built on our folder structure: adding a new folder will automatic
 
 3. Make sure the character folder has `metadata.json`; see
    [`content-guides/metadata.md`](./content-guides/metadata.md). Character images
-   live in `public/character-assets/<element>/<rarity>/<character>/` as `portrait.webp`; the URLs in `metadata.json` stay as
-   official fallbacks.
+   render only from `src/assets/character-assets/<element>/<rarity>/<character>/`,
+   using `portrait.webp` for the roster and `splash_art.webp` for character pages.
 
 4. Add or update the character and build JSON files.
 
    The character folder contains `metadata.json`. A build folder can contain:
-
    - `weapons.json`: see [`content-guides/weapons.md`](./content-guides/weapons.md)
    - `artifacts-sets.json`: see [`content-guides/artifacts-sets.md`](./content-guides/artifacts-sets.md)
    - `artifacts-mainstats.json`: see [`content-guides/artifacts-mainstats.md`](./content-guides/artifacts-mainstats.md)
@@ -199,7 +197,6 @@ The website is built on our folder structure: adding a new folder will automatic
    version.
 
    Examples:
-
    - [`src/content/pyro/4/xiangling/artifacts-mainstats.json`](./src/content/pyro/4/xiangling/artifacts-mainstats.json)
    - [`src/content/pyro/4/xiangling/off-field-dps/weapons.json`](./src/content/pyro/4/xiangling/off-field-dps/weapons.json)
 

@@ -20,7 +20,9 @@
 
 .artifact-set-browser-header {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
   margin: 0 0 10px;
 }
 

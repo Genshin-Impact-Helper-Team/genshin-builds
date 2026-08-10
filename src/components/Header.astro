@@ -1,5 +1,11 @@
 ---
 import '../styles/header.css';
+import '../styles/feedback-widget.scss';
+import '../styles/search-modal.scss';
+import { Banner } from 'webcoreui/astro';
+import FeedbackModal from './FeedbackModal.astro';
+import SearchModal from './SearchModal.astro';
+import SpeedDial from './SpeedDial.astro';
 import { t } from '../utils/i18n';
 import { languages } from '../utils/languages';
 import { localizedPath } from '../utils/paths';
@@ -14,37 +20,49 @@ type Props = {
 const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
+const searchShortcutBannerDismissedStorageKey =
+  'genshin-builds:search-shortcut-banner-dismissed';
+const searchShortcutBannerDisabledStorageKey =
+  'genshin-builds:search-shortcut-banner-disabled';
+const searchShortcutBanner = t(
+  locale,
+  'ui',
+  'Search shortcut banner',
+  undefined,
+  false,
+);
 const primaryLinks = [
   {
     href: localizedPath(currentLang),
-    label: t(locale, 'ui', 'Characters', undefined, false),
+    label: t(locale, 'ui', 'Characters', undefined, false) || 'Characters',
     isCurrent: !page,
   },
   {
     href: localizedPath(currentLang, 'weapons'),
-    label: t(locale, 'ui', 'Weapons', undefined, false),
+    label: t(locale, 'ui', 'Weapons', undefined, false) || 'Weapons',
     isCurrent: page === 'weapons',
   },
   {
     href: localizedPath(currentLang, 'artifacts'),
-    label: t(locale, 'ui', 'Artifacts Sets', undefined, false),
+    label:
+      t(locale, 'ui', 'Artifacts Sets', undefined, false) || 'Artifact Sets',
     isCurrent: page === 'artifacts',
   },
 ];
 const infoLinks = [
   {
     href: localizedPath(currentLang, 'faq'),
-    label: t(locale, 'ui', 'FAQ', undefined, false),
+    label: t(locale, 'ui', 'FAQ', undefined, false) || 'FAQ',
     isCurrent: page === 'faq',
   },
   {
     href: localizedPath(currentLang, 'credits'),
-    label: t(locale, 'ui', 'Credits', undefined, false),
+    label: t(locale, 'ui', 'Credits', undefined, false) || 'Credits',
     isCurrent: page === 'credits',
   },
   {
     href: localizedPath(currentLang, 'changelog'),
-    label: t(locale, 'ui', 'Changelog', undefined, false),
+    label: t(locale, 'ui', 'Changelog', undefined, false) || 'Changelog',
     isCurrent: page === 'changelog',
   },
 ];
@@ -68,6 +86,7 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
             <a
               class="nav-link"
               href={link.href}
+              aria-label={link.label}
               aria-current={link.isCurrent ? 'page' : undefined}
             >
               {link.label}
@@ -86,6 +105,7 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
                 <a
                   class="dropdown-link"
                   href={link.href}
+                  aria-label={link.label}
                   aria-current={link.isCurrent ? 'page' : undefined}
                 >
                   {link.label}
@@ -139,6 +159,46 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
   </div>
 </header>
 
+<script
+  define:vars={{
+    searchShortcutBannerDisabledStorageKey,
+    searchShortcutBannerDismissedStorageKey,
+  }}
+>
+  try {
+    if (
+      sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
+        'true' ||
+      localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true'
+    ) {
+      document.documentElement.dataset.searchShortcutBannerDismissed = 'true';
+    }
+  } catch {
+    // TODO: storage can be unavailable idk why but it shouldnt break
+  }
+</script>
+
+<Banner
+  top={65}
+  closeable={true}
+  sticky={true}
+  className="search-shortcut-banner"
+>
+  {searchShortcutBanner}
+</Banner>
+
+<div
+  class="feedback-widget"
+  data-feedback-widget
+  data-feedback-lang={currentLang}
+>
+  <SpeedDial />
+  <SearchModal locale={locale} lang={currentLang} />
+  <FeedbackModal lang={currentLang} />
+</div>
+
 <script>
   import '../scripts/header';
+  import '../scripts/feedback-form';
+  import '../scripts/site-search';
 </script>
