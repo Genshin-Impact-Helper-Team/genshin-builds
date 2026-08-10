@@ -1550,6 +1550,11 @@
     "scarlet-proof": {
         "rarity": 5,
         "version_released": "7.0",
+        "tags": [
+            "atk-set",
+            "stellar",
+            "cr"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1572,6 +1577,10 @@
     "heart-of-the-furnace": {
         "rarity": 5,
         "version_released": "7.0",
+        "tags": [
+            "atk-set",
+            "stellar"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
