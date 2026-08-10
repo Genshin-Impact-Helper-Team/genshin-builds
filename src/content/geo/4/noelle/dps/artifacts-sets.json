@@ -45,8 +45,7 @@
                     "name": "MH",
                     "pieces": 4,
                     "note": {
-                        "en": "Optimal for personal damage by a few percentage points when paired with [[character:furina]].",
-                        "fr": "Optimal pour ses dégâts personnels (de peu) lorsqu'elle est jouée avec [[character:furina]].",
+                        "en": "Optimal for personal damage when paired with [[character:furina]].",
                         "ru": "В отрядах с [[character:furina|Фуриной]] этот набор - лучший по личному урону."
                     }
                 }
