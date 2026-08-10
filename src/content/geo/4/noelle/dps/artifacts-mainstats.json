@@ -8,6 +8,11 @@
                     "en": "[[stat:atk%]] sands can be better when below [C6] depending on [[ability:burst]] Talent Level and weapon base ATK. For Talent level 9 and below [[stat:atk%]] is betetr for most options. Check the calculations for exact breakpoints.",
                     "ru": "[[stat:atk%]] в часах может быть предпочтительнее до **[C6]** в зависимости от уровня [[ability:burst|Взрыва стихии]] и базовой Силы атаки оружия. На 9-ом уровне и ниже [[stat:atk%]] будет лучше в большинстве случаев. Точные значения можно найти в расчетах."
                 }
+            },
+            {
+                "name": "er",
+                "note": {
+                    "en": "[[note:er-req]]."
             }
         ],
         "goblet": [
