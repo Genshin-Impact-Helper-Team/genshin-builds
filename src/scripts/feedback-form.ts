@@ -118,7 +118,7 @@ function successToastContent(issueUrl: unknown) {
   const message = 'Your feedback has been sent properly.';
   if (!url) return message;
 
-  return `${message} <a href="${url}" target="_blank" rel="noopener noreferrer">You can follow its progress on GitHub.</a>`;
+  return `${message}<br><a href="${url}" target="_blank" rel="noopener noreferrer">You can follow its progress on GitHub.</a>`;
 }
 
 function bindFeedbackWidget(widget: HTMLElement) {
