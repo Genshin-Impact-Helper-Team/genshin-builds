@@ -34,7 +34,19 @@
                             "pieces": 4
                         }
                     ]
-                }
+                },
+                {
+                    "items": [
+                        {
+                            "name": "nighttime-whispers-in-the-echoing-woods",
+                            "pieces": 4,
+                            "note": {
+                                "en": "You need to pick up [[element:crystallize]] shards or to trigger [[element:lunar-crystallize]] to fully utilise this set. Even then, Noelle doesn't have full uptime on the 4pc effect.",
+                                "ru": "Для полного использования этого набора нужно подобрать осколок от реакции [[element:crystallize]] или активировать [[element:lunar-crystallize]]. Но даже в этих случаях Ноэлль не может постоянно поддерживать понлый эффект активированным"
+                            }
+                        }
+                    ]
+                },
             ]
         }
     ],
