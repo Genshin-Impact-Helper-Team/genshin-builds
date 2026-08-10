@@ -2,6 +2,10 @@
     "resolution-of-sojourner": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "atk-set",
+            "ca"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -24,6 +28,9 @@
     "brave-heart": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -46,6 +53,10 @@
     "defenders-will": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "def-set",
+            "elemental-res"
+        ],
         "2p": {
             "en": "DEF +30%",
             "fr": "Augmente la DÉF de 30 %.",
@@ -68,6 +79,9 @@
     "tiny-miracle": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "elemental-res"
+        ],
         "2p": {
             "en": "All Elemental RES increased by 20%.",
             "fr": "Augmente toutes les RÉS élémentaires de 20 %.",
@@ -90,6 +104,9 @@
     "berserker": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "cr"
+        ],
         "2p": {
             "en": "CRIT Rate +12%",
             "fr": "Augmente le taux CRIT de 12 %.",
@@ -112,6 +129,10 @@
     "martial-artist": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "ca",
+            "na"
+        ],
         "2p": {
             "en": "Normal and Charged Attack DMG +15%",
             "fr": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
@@ -134,6 +155,9 @@
     "instructor": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "em-set"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -156,6 +180,9 @@
     "gambler": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "skill"
+        ],
         "2p": {
             "en": "Increases Elemental Skill DMG by 20%.",
             "fr": "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
@@ -178,6 +205,9 @@
     "the-exile": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "er-set"
+        ],
         "2p": {
             "en": "Energy Recharge +20%",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -200,6 +230,9 @@
     "adventurer": {
         "rarity": 3,
         "version_released": "1.0",
+        "tags": [
+            "hp"
+        ],
         "2p": {
             "en": "Max HP increased by 1,000.",
             "fr": "Augmente les PV max de 1 000 pts.",
@@ -222,6 +255,10 @@
     "lucky-dog": {
         "rarity": 3,
         "version_released": "1.0",
+        "tags": [
+            "def",
+            "hp"
+        ],
         "2p": {
             "en": "DEF increased by 100.",
             "fr": "Augmente la DÉF de 100 pts.",
@@ -244,6 +281,9 @@
     "scholar": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "er-set"
+        ],
         "2p": {
             "en": "Energy Recharge +20%",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -266,6 +306,10 @@
     "traveling-doctor": {
         "rarity": 3,
         "version_released": "1.0",
+        "tags": [
+            "healing",
+            "burst"
+        ],
         "2p": {
             "en": "Increases incoming healing by 20%.",
             "fr": "Augmente les soins reçus par le personnage de 20 %.",
@@ -288,6 +332,10 @@
     "blizzard-strayer": {
         "rarity": 5,
         "version_released": "1.2",
+        "tags": [
+            "cryo-set",
+            "cr"
+        ],
         "2p": {
             "en": "Cryo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Cryo de 15 %.",
@@ -310,6 +358,10 @@
     "thundersoother": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "elemental-res",
+            "electro"
+        ],
         "2p": {
             "en": "Electro RES increased by 40%.",
             "fr": "Augmente la RÉS Électro de 40 %.",
@@ -332,6 +384,10 @@
     "lavawalker": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "elemental-res",
+            "pyro"
+        ],
         "2p": {
             "en": "Pyro RES increased by 40%.",
             "fr": "Augmente la RÉS Pyro de 40 %.",
@@ -354,6 +410,9 @@
     "maiden-beloved": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "healing-set"
+        ],
         "2p": {
             "en": "Character Healing Effectiveness +15%",
             "fr": "Augmente les soins effectués par le personnage de 15 %.",
@@ -376,6 +435,10 @@
     "gladiators-finale": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "atk-set",
+            "na"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -398,6 +461,10 @@
     "viridescent-venerer": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "anemo-set",
+            "elemental-res"
+        ],
         "2p": {
             "en": "Anemo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Anémo de 15 %.",
@@ -420,6 +487,10 @@
     "wanderers-troupe": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "em-set",
+            "ca"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -442,6 +513,11 @@
     "thundering-fury": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "electro-set",
+            "lunar",
+            "stellar"
+        ],
         "2p": {
             "en": "Electro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Électro de 15 %.",
@@ -464,6 +540,10 @@
     "crimson-witch-of-flames": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "pyro-set",
+            "skill"
+        ],
         "2p": {
             "en": "Pyro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Pyro de 15 %.",
@@ -486,6 +566,10 @@
     "noblesse-oblige": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "burst",
+            "atk"
+        ],
         "2p": {
             "en": "Elemental Burst DMG +20%",
             "fr": "Augmente les DGT infligés par le déchaînement élémentaire de 20 %.",
@@ -508,6 +592,10 @@
     "bloodstained-chivalry": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "physical-set",
+            "ca"
+        ],
         "2p": {
             "en": "Physical DMG +25%",
             "fr": "Augmente les DGT physiques de 25 %.",
@@ -530,6 +618,9 @@
     "prayers-for-illumination": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "pyro"
+        ],
         "1p": {
             "en": "Affected by Pyro for 40% less time.",
             "fr": "Diminue la durée des effets Pyro subis de 40 %.",
@@ -543,6 +634,9 @@
     "prayers-for-destiny": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "hydro"
+        ],
         "1p": {
             "en": "Affected by Hydro for 40% less time.",
             "fr": "Diminue la durée des effets Hydro subis de 40 %.",
@@ -556,6 +650,9 @@
     "prayers-for-wisdom": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "electro"
+        ],
         "1p": {
             "en": "Affected by Electro for 40% less time.",
             "fr": "Diminue la durée des effets Électro subis de 40 %.",
@@ -569,6 +666,9 @@
     "prayers-to-springtime": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "cryo"
+        ],
         "1p": {
             "en": "Affected by Cryo for 40% less time.",
             "fr": "Diminue la durée des effets Cryo subis de 40 %.",
@@ -582,6 +682,10 @@
     "archaic-petra": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "geo-set",
+            "lunar"
+        ],
         "2p": {
             "en": "Gain a 15% Geo DMG Bonus.",
             "fr": "Confère un bonus de DGT Géo de 15 %.",
@@ -604,6 +708,11 @@
     "retracing-bolide": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "shield",
+            "na",
+            "ca"
+        ],
         "2p": {
             "en": "Increases Shield Strength by 35%.",
             "fr": "Augmente la force du bouclier de 35 %.",
@@ -626,6 +735,11 @@
     "heart-of-depth": {
         "rarity": 5,
         "version_released": "1.2",
+        "tags": [
+            "hydro-set",
+            "na",
+            "ca"
+        ],
         "2p": {
             "en": "Hydro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Hydro de 15 %.",
@@ -648,6 +762,11 @@
     "tenacity-of-the-millelith": {
         "rarity": 5,
         "version_released": "1.5",
+        "tags": [
+            "hp-set",
+            "shield",
+            "atk"
+        ],
         "2p": {
             "en": "HP +20%",
             "fr": "Les PV sont augmentés de 20 %.",
@@ -670,6 +789,10 @@
     "pale-flame": {
         "rarity": 5,
         "version_released": "1.5",
+        "tags": [
+            "physical-set",
+            "atk"
+        ],
         "2p": {
             "en": "Physical DMG is increased by 25%.",
             "fr": "Augmente les DGT physiques de 25 %.",
@@ -692,6 +815,12 @@
     "shimenawas-reminiscence": {
         "rarity": 5,
         "version_released": "2.0",
+        "tags": [
+            "atk-set",
+            "na",
+            "ca",
+            "plunge"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -714,6 +843,10 @@
     "emblem-of-severed-fate": {
         "rarity": 5,
         "version_released": "2.0",
+        "tags": [
+            "er-set",
+            "burst"
+        ],
         "2p": {
             "en": "Energy Recharge +20%",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -736,6 +869,10 @@
     "husk-of-opulent-dreams": {
         "rarity": 5,
         "version_released": "2.3",
+        "tags": [
+            "def-set",
+            "geo"
+        ],
         "2p": {
             "en": "DEF +30%",
             "fr": "Augmente la DÉF de 30 %.",
@@ -758,6 +895,9 @@
     "ocean-hued-clam": {
         "rarity": 5,
         "version_released": "2.3",
+        "tags": [
+            "healing-set"
+        ],
         "2p": {
             "en": "Healing Bonus +15%.",
             "fr": "Augmente le bonus de soins de 15 %.",
@@ -780,6 +920,9 @@
     "vermillion-hereafter": {
         "rarity": 5,
         "version_released": "2.6",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -802,6 +945,10 @@
     "echoes-of-an-offering": {
         "rarity": 5,
         "version_released": "2.6",
+        "tags": [
+            "atk-set",
+            "na"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -824,6 +971,10 @@
     "deepwood-memories": {
         "rarity": 5,
         "version_released": "3.0",
+        "tags": [
+            "dendro-set",
+            "elemental-res"
+        ],
         "2p": {
             "en": "Dendro DMG Bonus +15%.",
             "fr": "Confère un bonus de DGT Dendro de 15 %.",
@@ -846,6 +997,9 @@
     "gilded-dreams": {
         "rarity": 5,
         "version_released": "3.0",
+        "tags": [
+            "em-set"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -868,6 +1022,12 @@
     "desert-pavilion-chronicle": {
         "rarity": 5,
         "version_released": "3.3",
+        "tags": [
+            "anemo-set",
+            "na",
+            "ca",
+            "plunge"
+        ],
         "2p": {
             "en": "Anemo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Anémo de 15 %.",
@@ -890,6 +1050,10 @@
     "flower-of-paradise-lost": {
         "rarity": 5,
         "version_released": "3.3",
+        "tags": [
+            "em-set",
+            "lunar"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -912,6 +1076,10 @@
     "nymphs-dream": {
         "rarity": 5,
         "version_released": "3.6",
+        "tags": [
+            "hydro-set",
+            "atk"
+        ],
         "2p": {
             "en": "Hydro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Hydro de 15 %.",
@@ -934,6 +1102,11 @@
     "vourukashas-glow": {
         "rarity": 5,
         "version_released": "3.6",
+        "tags": [
+            "hp-set",
+            "skill",
+            "burst"
+        ],
         "2p": {
             "en": "HP +20%",
             "fr": "Les PV sont augmentés de 20 %.",
@@ -956,6 +1129,11 @@
     "marechaussee-hunter": {
         "rarity": 5,
         "version_released": "4.0",
+        "tags": [
+            "na",
+            "ca",
+            "cr"
+        ],
         "2p": {
             "en": "Normal and Charged Attack DMG +15%",
             "fr": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
@@ -978,6 +1156,9 @@
     "golden-troupe": {
         "rarity": 5,
         "version_released": "4.0",
+        "tags": [
+            "skill"
+        ],
         "2p": {
             "en": "Increases Elemental Skill DMG by 20%.",
             "fr": "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
@@ -1000,6 +1181,13 @@
     "song-of-days-past": {
         "rarity": 5,
         "version_released": "4.3",
+        "tags": [
+            "healing-set",
+            "na",
+            "ca",
+            "skill",
+            "burst"
+        ],
         "2p": {
             "en": "Healing Bonus +15%.",
             "fr": "Augmente le bonus de soins de 15 %.",
@@ -1022,6 +1210,11 @@
     "nighttime-whispers-in-the-echoing-woods": {
         "rarity": 5,
         "version_released": "4.3",
+        "tags": [
+            "atk-set",
+            "geo",
+            "lunar"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1044,6 +1237,9 @@
     "fragment-of-harmonic-whimsy": {
         "rarity": 5,
         "version_released": "4.6",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1066,6 +1262,9 @@
     "unfinished-reverie": {
         "rarity": 5,
         "version_released": "4.6",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1088,6 +1287,9 @@
     "scroll-of-the-hero-of-cinder-city": {
         "rarity": 5,
         "version_released": "5.0",
+        "tags": [
+            "nightsoul"
+        ],
         "2p": {
             "en": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
             "fr": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, le personnage équipé de l'artéfact récupère 6 pts d'énergie élémentaire.",
@@ -1110,6 +1312,10 @@
     "obsidian-codex": {
         "rarity": 5,
         "version_released": "5.0",
+        "tags": [
+            "nightsoul",
+            "cr"
+        ],
         "2p": {
             "en": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
             "fr": "Lorsque le personnage équipé de l'artéfact bénéficie d'une bénédiction noctâme et est sur le terrain, les DGT qu'il inflige augmentent de 15 %.",
@@ -1132,6 +1338,9 @@
     "long-nights-oath": {
         "rarity": 5,
         "version_released": "5.5",
+        "tags": [
+            "plunge"
+        ],
         "2p": {
             "en": "Plunging Attack DMG increased by 25%.",
             "fr": "Les DGT infligés par les attaques plongeantes augmentent de 25 %.",
@@ -1154,6 +1363,11 @@
     "finale-of-the-deep-galleries": {
         "rarity": 5,
         "version_released": "5.5",
+        "tags": [
+            "cryo-set",
+            "na",
+            "burst"
+        ],
         "2p": {
             "en": "Cryo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Cryo de 15 %.",
@@ -1176,6 +1390,11 @@
     "night-of-the-skys-unveiling": {
         "rarity": 5,
         "version_released": "6.0 / Luna I",
+        "tags": [
+            "em-set",
+            "lunar",
+            "cr"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -1198,6 +1417,11 @@
     "silken-moons-serenade": {
         "rarity": 5,
         "version_released": "6.0 / Luna I",
+        "tags": [
+            "er-set",
+            "em",
+            "lunar"
+        ],
         "2p": {
             "en": "Energy Recharge +20%.",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -1220,6 +1444,10 @@
     "aubade-of-morningstar-and-moon": {
         "rarity": 5,
         "version_released": "6.3 / Luna IV",
+        "tags": [
+            "em-set",
+            "lunar"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -1242,6 +1470,11 @@
     "a-day-carved-from-rising-winds": {
         "rarity": 5,
         "version_released": "6.3 / Luna IV",
+        "tags": [
+            "atk-set",
+            "cr",
+            "hexerei"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1264,6 +1497,10 @@
     "celestial-gift": {
         "rarity": 5,
         "version_released": "6.6 / Luna VII",
+        "tags": [
+            "er-set",
+            "hexerei"
+        ],
         "2p": {
             "en": "Energy Recharge +20%.",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -1286,6 +1523,11 @@
     "disenchantment-in-deep-shadow": {
         "rarity": 5,
         "version_released": "6.6 / Luna VII",
+        "tags": [
+            "atk-set",
+            "stellar",
+            "cr"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",

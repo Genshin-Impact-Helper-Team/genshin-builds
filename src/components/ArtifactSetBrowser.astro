@@ -9,12 +9,14 @@ type ArtifactSetBrowserData = {
     image: AssetImage | '';
     name: string;
     rarity: number;
+    versionReleased: string;
     bonuses: {
       id: string;
       label: string;
       html: string;
     }[];
-    bonusTypes: string[];
+    tags: string[];
+    tagGroups: string[];
     fourPieceUsage: {
       characterName: string;
       characterRarity: string;
@@ -23,11 +25,14 @@ type ArtifactSetBrowserData = {
       rank?: number;
     }[];
   }[];
-  bonusTypes: {
-    id: string;
-    label: string;
-  }[];
   rarities: number[];
+  tagOptionGroups: {
+    label: string;
+    options: {
+      id: string;
+      label: string;
+    }[];
+  }[];
 };
 
 const { data, locale } = Astro.props as {
@@ -47,8 +52,15 @@ const noResultsLabel = t(
 const searchByNameLabel = t(locale, 'ui', 'Search by name');
 const rarityLabel = t(locale, 'ui', 'Rarity');
 const searchLabel = t(locale, 'ui', 'Search');
-const bonusLabel = t(locale, 'ui', 'Set Bonus', undefined, false);
-const artifactSetLabel = `${t(locale, 'ui', 'Artifacts')} ${t(locale, 'ui', 'Sets')}`;
+const tagLabel = t(locale, 'ui', 'Set Effect', undefined, false);
+const artifactSetsLabel = t(locale, 'ui', 'Artifacts Sets', undefined, false);
+const sortByLabel = t(locale, 'ui', 'Sort by', undefined, false);
+const releaseDateLabel = t(locale, 'ui', 'Release date', undefined, false);
+const newestLabel = t(locale, 'ui', 'Newest', undefined, false);
+const sortOptions = [
+  { value: 'name', label: `${artifactSetsLabel} - A-Z` },
+  { value: 'release', label: `${releaseDateLabel} - ${newestLabel}` },
+];
 const mentionedOnLabel = t(
   locale,
   'ui',
@@ -66,7 +78,11 @@ const noMentionsLabel = t(
 ---
 
 <section class="artifact-set-browser" data-artifact-browser>
-  <form class="home-filters artifact-set-filters" data-artifact-filters>
+  <form
+    class="home-filters artifact-set-filters"
+    id="artifact-set-filters"
+    data-artifact-filters
+  >
     <label class="home-search">
       {searchLabel}
       <input
@@ -93,12 +109,16 @@ const noMentionsLabel = t(
     </div>
 
     <div class="home-select-filter">
-      {bonusLabel}
-      <select class="home-native-select" name="bonus" aria-label={bonusLabel}>
+      {tagLabel}
+      <select class="home-native-select" name="tagGroups" aria-label={tagLabel}>
         <option value="">{allLabel}</option>
         {
-          data.bonusTypes.map((bonus) => (
-            <option value={bonus.id}>{bonus.label}</option>
+          data.tagOptionGroups.map((group) => (
+            <optgroup label={group.label}>
+              {group.options.map((tag) => (
+                <option value={tag.id}>{tag.label}</option>
+              ))}
+            </optgroup>
           ))
         }
       </select>
@@ -110,6 +130,23 @@ const noMentionsLabel = t(
       {data.artifactSets.length}
       {resultsLabel}
     </p>
+    <label class="roster-sort">
+      {sortByLabel}
+      <select
+        class="home-native-select"
+        name="sort"
+        form="artifact-set-filters"
+        aria-label={sortByLabel}
+      >
+        {
+          sortOptions.map((option) => (
+            <option value={option.value} selected={option.value === 'name'}>
+              {option.label}
+            </option>
+          ))
+        }
+      </select>
+    </label>
   </div>
 
   <div class="artifact-set-grid">
@@ -120,7 +157,9 @@ const noMentionsLabel = t(
           data-artifact-card
           data-name={artifactSet.name}
           data-rarity={artifactSet.rarity}
-          data-bonuses={artifactSet.bonusTypes.join(' ')}
+          data-tags={artifactSet.tags.join(' ')}
+          data-tag-groups={artifactSet.tagGroups.join(' ')}
+          data-version-released={artifactSet.versionReleased}
         >
           <header class="artifact-set-entry-header">
             <div class="artifact-set-entry-title">

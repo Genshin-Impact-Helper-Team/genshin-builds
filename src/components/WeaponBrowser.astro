@@ -20,6 +20,7 @@ type WeaponBrowserData = {
     rarity: number;
     type: string;
     typeLabel: string;
+    versionReleased: string;
     sourceName: string;
     substat: string;
     substatName: string;
@@ -68,10 +69,21 @@ const level1Label = t(locale, 'ui', 'Level 1', undefined, false);
 const maxLevelLabel = t(locale, 'ui', 'Max Level', undefined, false);
 const statLabel = t(locale, 'ui', 'Stat', undefined, false);
 const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
+const sortByLabel = t(locale, 'ui', 'Sort by', undefined, false);
+const releaseDateLabel = t(locale, 'ui', 'Release date', undefined, false);
+const newestLabel = t(locale, 'ui', 'Newest', undefined, false);
+const sortOptions = [
+  { value: 'name', label: `${weaponLabel} - A-Z` },
+  { value: 'release', label: `${releaseDateLabel} - ${newestLabel}` },
+];
 ---
 
 <section class="weapon-browser" data-weapon-browser>
-  <form class="home-filters weapon-filters" data-weapon-filters>
+  <form
+    class="home-filters weapon-filters"
+    id="weapon-filters"
+    data-weapon-filters
+  >
     <label class="home-search">
       {searchLabel}
       <input
@@ -131,6 +143,23 @@ const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
       {data.weapons.length}
       {resultsLabel}
     </p>
+    <label class="roster-sort">
+      {sortByLabel}
+      <select
+        class="home-native-select"
+        name="sort"
+        form="weapon-filters"
+        aria-label={sortByLabel}
+      >
+        {
+          sortOptions.map((option) => (
+            <option value={option.value} selected={option.value === 'name'}>
+              {option.label}
+            </option>
+          ))
+        }
+      </select>
+    </label>
   </div>
 
   <div class="weapon-grid">
@@ -143,6 +172,7 @@ const baseAttackLabel = t(locale, 'ui', 'Base ATK', undefined, false);
           data-rarity={weapon.rarity}
           data-substat={weapon.substat}
           data-type={weapon.type}
+          data-version-released={weapon.versionReleased}
         >
           <header class="weapon-entry-header">
             <div class="weapon-entry-title">

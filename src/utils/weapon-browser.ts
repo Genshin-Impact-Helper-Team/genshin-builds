@@ -49,6 +49,7 @@ const aliases = translationAliases as TranslationAliasCategory;
 type SharedWeaponData = {
   rarity: number;
   source?: string;
+  version_released?: string;
   passive?: WeaponPassiveText;
   r1?: WeaponPassiveValue[];
   r2?: WeaponPassiveValue[];
@@ -173,6 +174,7 @@ function getWeaponEntries(
         rarity: info.rarity,
         type,
         typeLabel,
+        versionReleased: info.version_released ?? '',
         sourceName: translateWeaponSource(locale, info.source),
         rankingUsage: rankingUsageByWeapon.get(id) ?? [],
         substat: info.substat ?? '',

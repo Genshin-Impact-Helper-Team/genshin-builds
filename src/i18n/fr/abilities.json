@@ -1,8 +1,10 @@
 {
     "na": "Attaque normale",
     "ca": "Attaque chargée",
+    "plunge": "Attaque plongeante",
     "skill": "Skill",
     "burst": "Ulti",
+    "shield": "Bouclier",
     "bol": "Engagement vital",
     "nightsoul-blessing": "Bénédiction noctâme",
     "nightsoul-burst": "Éruption noctâme",
