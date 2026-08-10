@@ -20,7 +20,8 @@
 
 .weapon-browser-header {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 0 10px;
 }
 
