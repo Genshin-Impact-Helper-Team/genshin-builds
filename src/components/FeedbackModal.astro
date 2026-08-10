@@ -15,11 +15,7 @@ const faqPath = localizedPath(lang, 'faq');
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 ---
 
-<Modal
-  id="feedback-modal"
-  className="feedback-modal"
-  title="Feedback"
->
+<Modal id="feedback-modal" className="feedback-modal" title="Feedback">
   <p class="feedback-faq-note">
     Check the <a href={faqPath}>FAQ</a> before sending feedback. It already answers
     the most common questions.
@@ -105,6 +101,4 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
   theme="success"
   title="Feedback sent"
   position="bottom-left"
->
-  Your feedback has been sent properly.
-</Toast>
+/>

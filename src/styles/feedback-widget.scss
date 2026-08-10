@@ -236,6 +236,18 @@
   color: #05331f;
 }
 
+.feedback-toast.feedback-toast a {
+  color: #05331f;
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.feedback-toast.feedback-toast a:hover,
+.feedback-toast.feedback-toast a:focus-visible {
+  color: #031f13;
+}
+
 .feedback-actions {
   display: flex;
   flex-wrap: wrap;
