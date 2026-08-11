@@ -5,7 +5,8 @@
             {
                 "name": "atk%",
                 "note": {
-                    "en": "[[stat:atk%]] sands can be better when below [C6], gaining value ot lower [[ability:burst]] Talent Level and higher weapon base ATK. For Talent level 9 and below [[stat:atk%]] is better for most options.",
+                    "en": "[[stat:atk%]] sands can be better when below **[C6]**, gaining value at lower [[ability:burst]] Talent Level and higher weapon base ATK. For Talent level 9 and below, [[stat:atk%]] is better for most options.",
+                    "fr": "Un sablier [[stat:atk%]] peut être meilleur avant la **[C6]**, gagnant de la valeur avec un niveau d'[[ability:burst]] plus bas et des armes à haute ATQ de base. Avec un niveau de talent en dessous de 9, un sablier [[stat:atk%]] est meilleur dans la plupart des cas.",
                     "ru": "[[stat:atk%]] в часах может быть предпочтительнее до **[C6]**, становясь лучше с понижением уровня [[ability:burst|Взрыва стихии]] и повышением базовой Силы атаки оружия. На 9-ом уровне и ниже [[stat:atk%]] будет лучше в большинстве случаев."
                 }
             },

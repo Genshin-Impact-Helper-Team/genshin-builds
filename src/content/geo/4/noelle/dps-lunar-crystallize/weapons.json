@@ -6,6 +6,7 @@
                     "name": "redhorn-stonethresher",
                     "note": {
                         "en": "With this weapon, using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
+                        "fr": "Avec cette arme, il peut être plus pertinent d'utiliser les [[ability:ca|Attaques Chargées]]. Ouvrir puis fermer la carte ou le guide de l'aventurier lorsque vous tournez vous permet de bypass la restriction de 5 secondes.",
                         "ru": "С этим оружием использование [[ability:ca|Заряженных атак]] может быть эффективнее указанных ротаций. Во время вращения можно открыть-закрыть карту или справочник, что позволит проигнорировать пятисекундный лимит."
                     }
                 }
@@ -42,8 +43,9 @@
                     "name": "whiteblind",
                     "refinement": 5,
                     "note": {
-                      "en": "In teams with higher reliance on [[element:lunar-crystallize]] damage, performs worse than **[[weapon:blackcliff-slasher]]**.",
-                      "ru": "В командах, где более высокая доля урона приходится на реакцию [[element:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
+                        "en": "In teams with higher reliance on [[element:lunar-crystallize]] damage, performs worse than **[[weapon:blackcliff-slasher]]**.",
+                        "fr": "Dans les équipes qui reposent plus sur les dégâts de [[element:lunar-crystallize]], cette arme est moins bonne que **[[weapon:blackcliff-slasher]]**.",
+                        "ru": "В командах, где более высокая доля урона приходится на реакцию [[element:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
                     }
                 }
             ]
@@ -54,6 +56,7 @@
                     "name": "skyward-pride",
                     "note": {
                         "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
+                        "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut mieux performer que **[[weapon:whiteblind]] [R5]**.",
                         "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
                     }
                 }
@@ -65,10 +68,11 @@
                     "name": "flame-forged-insight",
                     "note": {
                         "en": "In teams with very high [[stat:er]] requirements, can perform as good as **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut performer aussi bien que **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "В командах с очень высокими требованиями к энергии может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 },
-              "blackcliff-slasher"
+                "blackcliff-slasher"
             ]
         },
         {
@@ -76,8 +80,9 @@
                 {
                     "name": "master-key",
                     "note": {
-                        "en": "Ranking assumes Moonsign: Ascendant Gleam. In teams with very high [[stat:er]] requirements, can perform as good as **[[skyward-pride]]**.",
-                        "ru": "Предполагается наличие двух персонажей Нод-Края в отряде. В командах с очень высокими требованиями к энергии может соответствовать **[[skyward-pride|Небесному величию]]**."
+                        "en": "Ranking assumes Moonsign: Ascendant Gleam. In teams with very high [[stat:er]] requirements, can perform as good as **[[weapon:skyward-pride]]**.",
+                        "fr": "Le classement suppose le Signelune: Lueur Ascendante. Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut être aussi bonne que **[[weapon:skyward-pride]]**.",
+                        "ru": "Предполагается наличие двух персонажей Нод-Края в отряде. В командах с очень высокими требованиями к энергии может соответствовать **[[weapon:skyward-pride|Небесному величию]]**."
                     }
                 }
             ]
@@ -88,6 +93,7 @@
                     "name": "favonius-greatsword",
                     "note": {
                         "en": "While bad for [[character:noelle]]'s personal damage, it can be considered if the team can get advantage of the additional energy.",
+                        "fr": "Bien que mauvaise pour les dégâts personnels de [[character:noelle]], cette arme est une option envisageable si l'équipe peut tirer parti de l'énergie supplémentaire.",
                         "ru": "Слабый вариант для личного урона [[character:noelle]], но может стоить использования в отрядаХ, которым полезна дополнительная энергия."
                     }
                 }

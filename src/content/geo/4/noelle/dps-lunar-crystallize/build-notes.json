@@ -1,17 +1,19 @@
 {
     "name": {
         "en": "[[element:lunar-crystallize]] DPS",
+        "fr": "DPS [[element:lunar-crystallize]]",
         "ru": "ДД от [[element:lunar-crystallize|Лунной кристаллизации]]"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:noelle]]'s high [[element:geo]] application allows her to effectively take advantage of [[element:lunar-crystallize]] reaction, which requires at least one of [[character:columbina]] and [[character:linnea]] to be present in the team. Inherent shield and heals make her a comfortable on-fielder for such teams.",
+            "fr": "La haute application [[element:geo]] de [[character:noelle]] lui permet de tirer parti de la réaction [[element:lunar-crystallize]], ce qui nécessite au moins [[character:columbina]] ou [[character:linnea]] dans l'équipe. Son kit possédant un bouclier et du soin permettent d'en faire un on-fielder confortable dans ces équipes.",
             "ru": "[[character:noelle]] часто накладывает [[element:geo]] своими атаками, что позволяет ей эффективно реализовывать реакцию [[element:lunar-crystallize]]. Для этого необходимо, чтобы в отряде присутствовала [[character:columbina]] или [[character:linnea]]. Врождённые щит и лечение делают её комфортным ДД в таких отрядах."
         },
         {
-            "en": "**Combos: {rot:N3 D/J}**.",
-            "ru": "**Комбо: {rot:N3 D/J}**."
+            "en": "**Combo:** {rot:N3 D/J}.",
+            "ru": "**Комбо:** {rot:N3 D/J}."
         }
     ],
     "weapons": {

@@ -54,6 +54,7 @@
                     "pieces": 4,
                     "note": {
                         "en": "Optimal for team damage with Moonsign: Ascendant Gleam.",
+                        "fr": "Optimal pour les dégâts de l'équipe en Signelune: Lueur Ascendante.",
                         "ru": "Лучший выбор для урона отряда при наличии двух персонажей Нод-Края."
                     }
                 }
@@ -66,6 +67,7 @@
                     "pieces": 4,
                     "note": {
                         "en": "Optimal for personal damage when paired with [[character:furina]]. With both [[character:furina]] and Moonsign: Ascendant Gleam, this set is similar or worse for team damage compared to **[[set:night-of-the-skys-unveiling]] (4)**.",
+                        "fr": "Optimal pour les dégâts personnels lorsque jouée avec [[character:furina]]. Avec [[character:furina]] & le Signelune: Lueur Ascendante, ce set est équivalent ou légèrement moins bon que **[[set:night-of-the-skys-unveiling]] (4)** pour les dégâts de l'équipe.",
                         "ru": "В отрядах с [[character:furina|Фуриной]] этот набор - лучший по личному урону. C [[character:furina|Фуриной]] и двумя персонажами Нод-Края примерно соответствует или уступает **[[set:night-of-the-skys-unveiling|Ночи открытия неба]] (4)** по урону отряда."
                     }
                 }
