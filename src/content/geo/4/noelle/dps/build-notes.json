@@ -3,7 +3,6 @@
         "en": "DPS",
         "ru": "ДД"
     },
-    "best": true,
     "notes": [
         {
             "en": "**This build is only recommended for [C6] [[character:noelle]].** [[character:noelle]] DPS is best optimized at **[C6]** where converts an additional 50% [[stat:def|DEF]] into [stat:atk|ATK]]. Her ability to sustain her team with shields, heals and AoE damage makes for a reliable DPS when your team is built around her.",
