@@ -5,8 +5,8 @@
             {
                 "name": "em",
                 "note": {
-                    "en": "[[stat:em]] sands can be better when below [C6] depending on [[ability:burst]] Talent Level and external [[stat:em]] buffs.",
-                    "ru": "[[stat:em]] в часах может быть предпочтительнее до **[C6]** в зависимости от уровня [[ability:burst|Взрыва стихии]] и объема бонусов к [[stat:em|Мастерству стихий]]."
+                    "en": "[[stat:em]] sands can be better when below [C6], gaining higher value with lower [[ability:burst]] Talent Level and external [[stat:em]] buffs.",
+                    "ru": "[[stat:em]] в часах может быть предпочтительнее до **[C6]**. Ценность варианта растет с понижением уровня [[ability:burst|Взрыва стихии]] и объема бонусов к [[stat:em|Мастерству стихий]]."
                 }
             },
             {
