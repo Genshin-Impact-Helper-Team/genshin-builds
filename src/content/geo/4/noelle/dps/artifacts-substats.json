@@ -1,10 +1,9 @@
 {
     "substats_priority": [
         {
-                "name": "er",
-                "note": {
-                    "en": "[[note:er-req]]."
-                }
+            "name": "er",
+            "note": {
+                "en": "[[note:er-req]]."
             }
         },
         "cr/cd",
