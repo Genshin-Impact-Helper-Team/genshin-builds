@@ -16,7 +16,7 @@
                 {
                     "name": "gest-of-the-mighty-wolf",
                     "note": {
-                        "en": "In teams with Hexerei: Secret Rite it can perform better than **[[weapon:redhorn-stonethresher]]**.",
+                        "en": "In teams with Hexerei: Secret Rite, can perform better than **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "С активным эффектом Ведьмовств может превосходить **[[weapon:redhorn-stonethresher]]**."
                     }
                 }
@@ -46,7 +46,7 @@
                     "name": "whiteblind",
                     "refinement": 5,
                     "note": {
-                        "en": "If it is possible to maintain full stacks of the passive before bursting, this weapon can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs loses some value sompared to option that provide CRIT or DMG%.",
+                        "en": "If it is possible to maintain full stacks of the passive before bursting, can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs loses some value sompared to option that provide CRIT or DMG%.",
                         "ru": "При возможности поддерживания максимального уровня Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
                     }
                 },
@@ -59,7 +59,7 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "In teams with high [[stat:er]] requirements it can perform better than **[[weapon:whiteblind]] [R5]**.",
+                        "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
                         "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
                     }
                 }
