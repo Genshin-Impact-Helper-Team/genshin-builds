@@ -1,1 +1,91 @@
-
+{
+    "weapons": [
+        {
+            "items": [
+                "redhorn-stonethresher"
+            ]
+        },
+        {
+            "items": [
+                "gest-of-the-mighty-wolf"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "When using **[[set:husk-of-opulent-dreams]] (4)**, **[[weapon:serpent-spine]]** stacks are prioritized over **[[set:husk-of-opulent-dreams]]** stacks due to their conflicting nature in gaining stacks (On-Field vs Off-Field).",
+                        "fr": "En jouant **[[set:husk-of-opulent-dreams]] (4)**, les stacks de **[[weapon:serpent-spine]]** sont à prioriser par rapport à ceux de **[[set:husk-of-opulent-dreams]]** puisqu'ils s'obtiennent de façon opposée (On-Field vs Off-Field).",
+                        "ru": "При использовании набора **[[set:husk-of-opulent-dreams]]** уровни **[[weapon:serpent-spine|Меча драконьей кости]]** важнее, чем уровни **[[set:husk-of-opulent-dreams|Кокона]]** из-за конфликтующих способов их получения (на поле/вне поля)."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "beacon-of-the-reed-sea",
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                "a-teaspoon-of-transcendence",
+                "verdict",
+                {
+                    "name": "whiteblind",
+                    "refinement": 5,
+                    "note": {
+                      "en": "In teams with higher reliance on [[reaction:lunar-crystallize]] damage performs worse than **[[weapon:blackcliff-slasher]]**.",
+                      "ru": "В командах, где более высокая доля урона приходится на реакцию [[reaction:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "In teams with high [[stat:er]] requirements can perform better than **[[weapon:whiteblind]] [R5]**.",
+                        "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flame-forged-insight",
+                    "note": {
+                        "en": "In teams with very high [[stat:er]] requirements can perform as good as **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "В командах с очень высокими требованиями к энергии может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
+                    }
+                },
+              "blackcliff-slasher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "master-key",
+                    "note": {
+                        "en": "Ranking assumes Moonsign: Ascendant Gleam. In teams with very high [[stat:er]] requirements can perform as good as **[[skyward-pride]]**.",
+                        "ru": "Предполагается наличие двух персонажей Нод-Края в отряде. В командах с очень высокими требованиями к энергии может соответствовать **[[skyward-pride|Небесному величию]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-greatsword",
+                    "note": {
+                        "en": "While bad for [[character:noelle]]'s personal damage, it can be considered if the team can get advantage of the additional energy.",
+                        "ru": "Слабый вариант для личного урона [[character:noelle]], но может стоить использования в отрядаХ, которым полезна дополнительная энергия."
+                    }
+                }
+            ]
+        }
+    ]
+}
