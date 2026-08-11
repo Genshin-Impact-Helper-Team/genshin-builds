@@ -14,14 +14,7 @@
         },
         {
             "items": [
-                {
-                    "name": "gest-of-the-mighty-wolf",
-                    "note": {
-                        "en": "In teams with [[ability:hexerei]], can perform better than **[[weapon:redhorn-stonethresher]]**.",
-                        "fr": "Dans les équipes [[ability:hexerei]], peut être meilleure que **[[weapon:redhorn-stonethresher]]**.",
-                        "ru": "С активным эффектом Ведьмовств может превосходить **[[weapon:redhorn-stonethresher]]**."
-                    }
-                }
+                "gest-of-the-mighty-wolf"
             ]
         },
         {
@@ -44,17 +37,17 @@
         },
         {
             "items": [
+                "a-teaspoon-of-transcendence",
+                "verdict",
                 {
                     "name": "whiteblind",
                     "refinement": 5,
                     "note": {
-                        "en": "If it is possible to maintain full stacks of the passive before bursting, can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs, loses some value sompared to option that provide CRIT or DMG%.",
-                        "fr": "S'il est possible de maintenir tous les cumuls du passif avant d'utiliser l'[[ability:burst]], cette arme peut être meilleure que **[[weapon:beacon-of-the-reed-sea]]**. Avec beaucoup de buffs ATQ/DEF, elle pert de la valeur comparé aux autres options qui donnent du CRIT ou des DGT%.",
-                        "ru": "При возможности поддерживания максимального уровня Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
+                        "en": "In teams with higher reliance on [[element:lunar-crystallize]] damage, performs worse than **[[weapon:blackcliff-slasher]]**.",
+                        "fr": "Dans les équipes qui reposent plus sur les dégâts de [[element:lunar-crystallize]], cette arme est moins bonne que **[[weapon:blackcliff-slasher]]**.",
+                        "ru": "В командах, где более высокая доля урона приходится на реакцию [[element:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
                     }
-                },
-                "a-teaspoon-of-transcendence",
-                "verdict"
+                }
             ]
         },
         {
@@ -65,6 +58,31 @@
                         "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
                         "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut mieux performer que **[[weapon:whiteblind]] [R5]**.",
                         "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flame-forged-insight",
+                    "note": {
+                        "en": "In teams with very high [[stat:er]] requirements, can perform as good as **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut performer aussi bien que **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "В командах с очень высокими требованиями к энергии может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
+                    }
+                },
+                "blackcliff-slasher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "master-key",
+                    "note": {
+                        "en": "Ranking assumes Moonsign: Ascendant Gleam. In teams with very high [[stat:er]] requirements, can perform as good as **[[weapon:skyward-pride]]**.",
+                        "fr": "Le classement suppose le Signelune: Lueur Ascendante. Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut être aussi bonne que **[[weapon:skyward-pride]]**.",
+                        "ru": "Предполагается наличие двух персонажей Нод-Края в отряде. В командах с очень высокими требованиями к энергии может соответствовать **[[weapon:skyward-pride|Небесному величию]]**."
                     }
                 }
             ]

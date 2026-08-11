@@ -1,7 +1,13 @@
 {
     "main_stats": {
         "sands": [
-            "def%"
+            "def%",
+            {
+                "name": "er",
+                "note": {
+                    "en": "[[note:er-req]]."
+                }
+            }
         ],
         "goblet": [
             "geo-dmg",
