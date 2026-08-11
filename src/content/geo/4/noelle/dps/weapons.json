@@ -8,6 +8,17 @@
         {
             "items": [
                 {
+                    "name": "gest-of-the-mighty-wolf",
+                    "note": {
+                        "en": "Iteams with Hexerei: Secret Rite can perform better than **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "С активным эффектом Ведьмовств может превосходить **[[weapon:redhorn-stonethresher]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "serpent-spine",
                     "note": {
                         "en": "When using **[[set:husk-of-opulent-dreams]] (4)**, **[[weapon:serpent-spine]]** stacks are prioritized over **[[set:husk-of-opulent-dreams]]** stacks due to their conflicting nature in gaining stacks (On-Field vs Off-Field).",
@@ -19,19 +30,43 @@
         },
         {
             "items": [
+                "beacon-of-the-reed-sea",
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "whiteblind",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If it is possible to maintain full stacks of the passive before bursting, this weapon can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs loses some value sompared to option that provide CRIT or DMG%.",
+                        "ru": "При возможности поддерживания максимального уровня Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
+                },
+                "name": "a-teaspoon-of-transcendence",
+                "name": "verdict"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "Useful if you are unable to get [[stat:er]] from your substats. Does really well while passive is active, but falls of in sustained fights. Comfort option that can lose to a high refined [[weapon:whiteblind]] with stacks.",
-                        "fr": "Utile si vous n'arrivez pas à avoir de la [[stat:er]] avec vos sous-stats. Fonctionne très bien quand le passif est actif, mais moins bien quand le combat est long. C'est une option confortable qui peut cependant être moins bien que **[[weapon:whiteblind]]** à haut raffinement avec ses stacks.",
-                        "ru": "Может оказаться полезным при недостатке [[stat:er|Восстановления энергии]] в сабстатах. Хорошо себя показывает при работающей Пассивной способности, но не очень силён в затяжных сражениях. Комфортный вариант, но менее сильный, чем **[[weapon:whiteblind]]** на пробуждениях с работающей Пассивной способностью."
+                        "en": "In teams with high [[stat:er]] requirements can perform better than **[[weapon:whiteblind]] [R5]**.",
+                        "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
                     }
                 }
             ]
         },
         {
             "items": [
-                "whiteblind"
+                {
+                    "name": "favonius-greatsword",
+                    "note": {
+                        "en": "While bad for [[character:noelle]]'s personal damage, it can be considered if the team can get advantage of the additional energy.",
+                        "ru": "Слабый вариант для личного урона [[character:noelle]], но может стоить использования в отрядаХ, которым полезна дополнительная энергия."
+                    }
+                }
             ]
         }
     ]
