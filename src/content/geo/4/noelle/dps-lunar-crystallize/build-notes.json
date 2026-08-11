@@ -1,1 +1,24 @@
-
+{
+    "name": {
+        "en": "[[element:lunar-crystallize]] DPS",
+        "ru": "ДД от [[element:lunar-crystallize|Лунной кристаллизации]]"
+    },
+    "notes": [
+        {
+            "en": "[[character:noelle]]'s high [[element:geo]] application allows her to effectively take advantage of [[element:lunar-crystallize]] reaction, which requires at least on of [[character:columbina]] and [[character:linnea]] to be present in the team. Inherent shield and heals make her a comfortable on-fielder for such teams.",
+            "ru": "[[character:noelle]] часто накладывает [[element:geo]] своими атаками, что позволяет ей эффективно реализовывать реакцию [[element:lunar-crystallize]]. Для этого необходимо, чтобы в отряде присутствовала [[character:columbina]] или [[character:linnea]]. Врождённые щит и лечение делают её комфортным ДД в таких отрядах."
+        },
+        {
+            "en": "**Combos: **{rot:N3 D/J}**.",
+            "ru": "**Комбо: **{rot:N3 D/J}**."
+        },
+        {
+            "en": "With **[[weapon:redhorn-stonethresher]]**, using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
+            "ru": "С **[[weapon:redhorn-stonethresher|Камнерубом]]** использование [[ability:ca|Заряженных атак]] может быть эффективнее указанных ротаций. Во время вращения можно открыть-закрыть карту или справочник, что позволит проигнорировать пятисекундный лимит."
+        }
+    ],
+    "weapons": {
+        "author": "Finnyke",
+        "link": "https://drive.google.com/drive/folders/1mdWC0I3P-LrAt1Rln6BN6qvRTuuwUVNE"
+    }
+}
