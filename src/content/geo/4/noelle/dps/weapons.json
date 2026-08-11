@@ -36,18 +36,14 @@
         },
         {
             "items": [
+                "a-teaspoon-of-transcendence",
+                "verdict",
                 {
                     "name": "whiteblind",
                     "refinement": 5,
                     "note": {
                         "en": "If it is possible to maintain full stacks of the passive before bursting, this weapon can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs loses some value sompared to option that provide CRIT or DMG%.",
                         "ru": "При возможности поддерживания максимального уровня Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
-                },
-                {
-                    "name": "a-teaspoon-of-transcendence"
-                },
-                {
-                    "name": "verdict"
                 }
             ]
         },
