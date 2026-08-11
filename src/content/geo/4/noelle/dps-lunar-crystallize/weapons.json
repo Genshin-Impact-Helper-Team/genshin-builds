@@ -36,8 +36,8 @@
                     "name": "whiteblind",
                     "refinement": 5,
                     "note": {
-                      "en": "In teams with higher reliance on [[reaction:lunar-crystallize]] damage performs worse than **[[weapon:blackcliff-slasher]]**.",
-                      "ru": "В командах, где более высокая доля урона приходится на реакцию [[reaction:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
+                      "en": "In teams with higher reliance on [[element:lunar-crystallize]] damage performs worse than **[[weapon:blackcliff-slasher]]**.",
+                      "ru": "В командах, где более высокая доля урона приходится на реакцию [[element:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
                     }
                 }
             ]
