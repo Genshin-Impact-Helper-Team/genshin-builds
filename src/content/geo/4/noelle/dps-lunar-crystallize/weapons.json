@@ -42,7 +42,7 @@
                     "name": "whiteblind",
                     "refinement": 5,
                     "note": {
-                      "en": "In teams with higher reliance on [[element:lunar-crystallize]] damage it performs worse than **[[weapon:blackcliff-slasher]]**.",
+                      "en": "In teams with higher reliance on [[element:lunar-crystallize]] damage, performs worse than **[[weapon:blackcliff-slasher]]**.",
                       "ru": "В командах, где более высокая доля урона приходится на реакцию [[element:lunar-crystallize]], уступает **[[weapon:blackcliff-slasher|Черногорской бритве]]**"
                     }
                 }
@@ -53,7 +53,7 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "In teams with high [[stat:er]] requirements it can perform better than **[[weapon:whiteblind]] [R5]**.",
+                        "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
                         "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
                     }
                 }
@@ -64,7 +64,7 @@
                 {
                     "name": "flame-forged-insight",
                     "note": {
-                        "en": "In teams with very high [[stat:er]] requirements it can perform as good as **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "en": "In teams with very high [[stat:er]] requirements, can perform as good as **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "В командах с очень высокими требованиями к энергии может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 },
@@ -76,7 +76,7 @@
                 {
                     "name": "master-key",
                     "note": {
-                        "en": "Ranking assumes Moonsign: Ascendant Gleam. In teams with very high [[stat:er]] requirements it can perform as good as **[[skyward-pride]]**.",
+                        "en": "Ranking assumes Moonsign: Ascendant Gleam. In teams with very high [[stat:er]] requirements, can perform as good as **[[skyward-pride]]**.",
                         "ru": "Предполагается наличие двух персонажей Нод-Края в отряде. В командах с очень высокими требованиями к энергии может соответствовать **[[skyward-pride|Небесному величию]]**."
                     }
                 }
