@@ -2,7 +2,14 @@
     "weapons": [
         {
             "items": [
-                "redhorn-stonethresher"
+                {
+                    "name": "redhorn-stonethresher",
+                    "note": {
+                        "en": "With **[[weapon:redhorn-stonethresher]]**, using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
+                        "fr": "Avec **[[weapon:redhorn-stonethresher]]**, utiliser des [[ability:ca|attaques chargées]] peut être plus efficace. En tournant, ouvrir et fermer la carte ou le Guide de l'Aventurier vous permettra d'ignorer la limite de 5 secondes de la CA.",
+                        "ru": "С **[[weapon:redhorn-stonethresher|Камнерубом]]** использование [[ability:ca|Заряженных атак]] может быть эффективнее указанных ротаций. Во время вращения можно открыть-закрыть карту или справочник, что позволит проигнорировать пятисекундный лимит."
+                    }
+                }
             ]
         },
         {
