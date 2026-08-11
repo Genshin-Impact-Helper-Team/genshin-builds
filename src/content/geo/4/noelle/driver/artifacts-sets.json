@@ -47,6 +47,32 @@
                             "pieces": 4
                         }
                     ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "nighttime-whispers-in-the-echoing-woods",
+                            "pieces": 4,
+                            "note": {
+                                "en": "You need to pick up [[element:crystallize]] shards or to trigger [[element:lunar-crystallize]] to fully utilise this set. Even then, Noelle doesn't have full uptime on the 4pc effect.",
+                                "ru": "Для полного использования этого набора нужно подобрать осколок от реакции [[element:crystallize]] или активировать [[element:lunar-crystallize]]. Но даже в этих случаях Ноэлль не может постоянно поддерживать понлый эффект активированным"
+                            }
+                        }
+                    ]
+                },
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "MH",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Optimal for personal damage when paired with [[character:furina]], but **[[set:archaic-petra]] (4)** is still prefered for team damage when playing [[character:noelle]] as a driver.",
+                        "ru": "В отрядах с [[character:furina|Фуриной]] этот набор - лучший по личному урону, но **[[set:archaic-petra]] (4)** все ещё предпочтительнее для урона отряда при игре [[character:noelle]]-драйвером"
+                    }
                 }
             ]
         }
