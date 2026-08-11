@@ -5,6 +5,11 @@
             "version": "6.7 / Luna VIII",
             "entries": [
                 {
+                    "date": "August 12, 2026",
+                    "changes": "Added Lunar-crystallize DPS section for Noelle. Updated Noelle sections.",
+                    "appliedBy": "Finnyke"
+                },
+                {
                     "date": "August 3, 2026",
                     "changes": "Updated Freminet sections.",
                     "appliedBy": "Finnyke"
