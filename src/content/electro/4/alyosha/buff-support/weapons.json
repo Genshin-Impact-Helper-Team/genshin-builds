@@ -1,0 +1,61 @@
+{
+    "notes": [
+        {
+            "en": "At [C0], if [[character:alyosha]] is the only [[element:electro]] character in the team, his [[stat:er]] needs may become unrealistically high. As such, [[stat:er]] weapons are highly encouraged. (Current weapon selection borrowed from Iansan. Not finalized.)"
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "engulfing-lightning",
+                {
+                    "name": "symphonist-of-scents",
+                    "note": {
+                        "en": "placeholder note"
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "calamity-queller",
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "[[note:favo]]."
+                    }
+                },
+                {
+                    "name": "tamayuratei-no-ohanashi",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-spine"
+            ]
+        },
+        {
+            "items": [
+                "vortex-vanquisher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "missive-windspear",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "kitain-cross-spear",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

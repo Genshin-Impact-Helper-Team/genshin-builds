@@ -1,0 +1,25 @@
+{
+    "best": true,
+    "name": {
+        "en": "Buff Support",
+        "fr": "Support Buff",
+        "it": "Supporto Potenziamento"
+    },
+    "notes": [
+        {
+            "en": "[[character:alyosha]] is a [[element:stellar-conduct]] support who is also capable of providing healing to the active character with his companion, Tugarin, whom is summoned by his [[ability:burst]]. Using his [[ability:skill]], or the end of a [[ability:na]] string will apply the Hunter's Mark, which, when consumed by [[character:alyosha]] using those aformentioned abilities, or if the target with a mark is struck by Tugarin, will grant the team the Hunter's Precision effect, which boosts their ATK when on the field. [[character:alyosha]]'s [[ability:burst]] is also capable of taunting enemies."
+        },
+        {
+            "en": "[[character:alyosha]]'s [C1] gives him 15 Energy when a teammate triggers an [[element:electro]]-related reaction, effectively changing his [[ability:burst]] cost from 70 to 55. This has a cooldown of 18 seconds."
+        },
+        {
+            "en": "[[character:alyosha]]'s [C2] increases his [[ability:burst]] duration by 6 seconds, and also lets Tugarin apply Hunter's Mark to opponents. This does not active previously existing Hunter's Marks."
+        },
+        {
+            "en": "[[character:alyosha]]'s [C4] allows Tugarin to also heal a teammate with the lowest HP at half of the effectiveness."
+        },
+        {
+            "en": "[[character:alyosha]]'s [C6] allows Hunter's Precision to stack up to 2 times. Characters affected by both stacks of Hunter's Precision also get a 100 [[stat:em]] increase."
+        }
+    ]
+}
