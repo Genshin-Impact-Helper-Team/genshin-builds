@@ -77,6 +77,19 @@
                 },
                 "the-widsith"
             ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "If teammates can benefit from the [[stat:atk]] bonus this weapon gives, its performance increases. At **[R5]**, it performs close to **[[weapon:the-widsith]]**.",
+                        "fr": "Si l'équipe peut bénéficier du buff d'[[stat:atk]] de cette arme, ses performances augmentent. Une fois **[R5]**, elle se rapproche de **[[weapon:the-widsith]]**.",
+                        "it": "Se il team trae beneficio dall'[[stat:atk]] fornito da quest'arma, le sue prestazioni migliorano. A **[R5]**, ha prestazioni simili ad **[[weapon:the-widsith]]**.",
+                        "ru": "Эффективность данного оружия растёт, если членам отряда полезен бонус [[stat:atk|Силы атаки]]. На **[R5]** соответствует **[[weapon:the-widsith|Песни странника]]**."
+                    }
+                }
+            ]
         }
     ],
     "notes": [
