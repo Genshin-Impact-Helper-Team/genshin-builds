@@ -75,7 +75,7 @@ function selectRefinement(button: HTMLElement) {
   card
     .querySelectorAll<HTMLElement>('[data-refinement]')
     .forEach((item) =>
-      item.setAttribute('aria-selected', String(item === button)),
+      item.setAttribute('aria-pressed', String(item === button)),
     );
   card
     .querySelectorAll<HTMLElement>('[data-refinement-panel]')

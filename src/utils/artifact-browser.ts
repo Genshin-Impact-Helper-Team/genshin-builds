@@ -7,15 +7,122 @@ import {
 } from './build-usage';
 import { loadJSON, readJSONFile } from './content';
 import { getLocale, t } from './i18n';
-import { resolveArtifactAssetUrl } from './item-assets';
+import { resolveArtifactAssetImage } from './item-assets';
 
-/**
- * Artifact set bonus keys supported by the source data.
- *
- * Most sets provide 2-piece and 4-piece bonuses, while a few older
- * circlet-only sets provide a 1-piece bonus.
- */
 const bonusKeys = ['1p', '2p', '4p'] as const;
+
+type LabelRef = readonly [string, string];
+
+const tagOptionGroups = [
+  {
+    label: ['ui', 'Stat'],
+    options: [
+      { id: 'atk', label: ['stat', 'atk%'], tags: ['atk', 'atk-set'] },
+      { id: 'hp', label: ['stat', 'hp%'], tags: ['hp', 'hp-set'] },
+      { id: 'def', label: ['stat', 'def%'], tags: ['def', 'def-set'] },
+      { id: 'er', label: ['stat', 'er'], tags: ['er-set'] },
+      { id: 'em', label: ['stat', 'em'], tags: ['em', 'em-set'] },
+      { id: 'crit-rate', label: ['stat', 'cr'], tags: ['cr'] },
+    ],
+  },
+  {
+    label: ['ui', 'Damage Type'],
+    options: [
+      {
+        id: 'physical',
+        label: ['stat', 'physical-dmg'],
+        tags: ['physical-set'],
+      },
+      {
+        id: 'anemo',
+        label: ['stat', 'anemo-dmg'],
+        tags: ['anemo', 'anemo-set'],
+      },
+      {
+        id: 'geo',
+        label: ['stat', 'geo-dmg'],
+        tags: ['geo', 'geo-set'],
+      },
+      {
+        id: 'electro',
+        label: ['stat', 'electro-dmg'],
+        tags: ['electro', 'electro-set'],
+      },
+      {
+        id: 'dendro',
+        label: ['stat', 'dendro-dmg'],
+        tags: ['dendro', 'dendro-set'],
+      },
+      {
+        id: 'hydro',
+        label: ['stat', 'hydro-dmg'],
+        tags: ['hydro', 'hydro-set'],
+      },
+      {
+        id: 'pyro',
+        label: ['stat', 'pyro-dmg'],
+        tags: ['pyro', 'pyro-set'],
+      },
+      {
+        id: 'cryo',
+        label: ['stat', 'cryo-dmg'],
+        tags: ['cryo', 'cryo-set'],
+      },
+    ],
+  },
+  {
+    label: ['ui', 'Talents'],
+    options: [
+      { id: 'normal-attack', label: ['ability', 'na'], tags: ['na'] },
+      { id: 'charged-attack', label: ['ability', 'ca'], tags: ['ca'] },
+      { id: 'plunging-attack', label: ['ability', 'plunge'], tags: ['plunge'] },
+      { id: 'skill', label: ['ability', 'skill'], tags: ['skill'] },
+      { id: 'burst', label: ['ability', 'burst'], tags: ['burst'] },
+    ],
+  },
+  {
+    label: ['ui', 'Utility'],
+    options: [
+      {
+        id: 'healing',
+        label: ['stat', 'healing-bonus'],
+        tags: ['healing', 'healing-set'],
+      },
+      { id: 'shield', label: ['ability', 'shield'], tags: ['shield'] },
+      {
+        id: 'elemental-res',
+        label: ['stat', 'elemental-res'],
+        tags: ['elemental-res'],
+      },
+    ],
+  },
+  {
+    label: ['ui', 'Special Mechanics'],
+    options: [
+      { id: 'lunar', label: ['element', 'lunar'], tags: ['lunar'] },
+      {
+        id: 'stellar',
+        label: ['element', 'stellar-glimmer'],
+        tags: ['stellar'],
+      },
+      {
+        id: 'nightsoul',
+        label: ['ability', 'nightsoul-blessing'],
+        tags: ['nightsoul'],
+      },
+      { id: 'hexerei', label: ['ability', 'hexerei'], tags: ['hexerei'] },
+    ],
+  },
+] as const satisfies readonly {
+  label: LabelRef;
+  options: readonly {
+    id: string;
+    label: LabelRef;
+    tags: readonly string[];
+  }[];
+}[];
+
+const tagGroups = tagOptionGroups.flatMap((group) => group.options);
 
 /**
  * Translation aliases relevant to canonicalizing artifact set recommendation IDs.
@@ -40,6 +147,8 @@ type LocalizedArtifactEffect = {
  */
 type ArtifactSetData = {
   rarity: number;
+  version_released?: string;
+  tags?: string[];
   '1p'?: LocalizedArtifactEffect;
   '2p'?: LocalizedArtifactEffect;
   '4p'?: LocalizedArtifactEffect;
@@ -80,6 +189,14 @@ function getArtifactSetItems(group: any) {
   return [...items, ...choiceItems];
 }
 
+function getArtifactSetTagGroups(tags: string[]) {
+  const tagSet = new Set(tags);
+
+  return tagGroups
+    .filter((group) => group.tags.some((tag) => tagSet.has(tag)))
+    .map((group) => group.id);
+}
+
 /**
  * Builds a reverse index of artifact sets mentioned as 4-piece options.
  *
@@ -112,8 +229,11 @@ function getArtifactSetFourPieceUsage(locale: any, lang: string) {
           .filter((item) => Number(item?.pieces) === 4)
           .map((item) => ({ id: normalizeArtifactSetItemId(item), rank })),
       ),
-      ...getWipNoteItems(buildNotes, 'artifact', 'set', (id) =>
-        aliases.set?.[id] ?? id,
+      ...getWipNoteItems(
+        buildNotes,
+        'artifact',
+        'set',
+        (id) => aliases.set?.[id] ?? id,
       ),
     ];
   });
@@ -151,11 +271,13 @@ function getArtifactSetEntries(
 
     return {
       id,
-      imageUrl: resolveArtifactAssetUrl(id),
+      image: resolveArtifactAssetImage(id),
       name: t(locale, 'artifact', id, undefined, false),
       rarity: info.rarity,
+      versionReleased: info.version_released ?? '',
       bonuses,
-      bonusTypes: bonuses.map((bonus) => bonus.id),
+      tags: info.tags ?? [],
+      tagGroups: getArtifactSetTagGroups(info.tags ?? []),
       fourPieceUsage: fourPieceUsageBySet.get(id) ?? [],
     };
   });
@@ -178,20 +300,27 @@ export function getArtifactSetBrowserData(lang = 'en') {
   const rarities = [
     ...new Set(artifactSets.map((artifactSet) => artifactSet.rarity)),
   ].sort((a, b) => a - b);
-  const bonusTypes = bonusKeys
-    .filter((key) =>
-      artifactSets.some((artifactSet) => artifactSet.bonusTypes.includes(key)),
-    )
-    .map((key) => ({
-      id: key,
-      label: key.toUpperCase(),
-    }));
+  const visibleTagOptionGroups = tagOptionGroups
+    .map((group) => ({
+      label: t(locale, group.label[0], group.label[1], undefined, false),
+      options: group.options
+        .filter((option) =>
+          artifactSets.some((artifactSet) =>
+            artifactSet.tagGroups.includes(option.id),
+          ),
+        )
+        .map((option) => ({
+          id: option.id,
+          label: t(locale, option.label[0], option.label[1], undefined, false),
+        })),
+    }))
+    .filter((group) => group.options.length > 0);
 
   return {
     artifactSets,
-    bonusTypes,
     lang,
     locale,
     rarities,
+    tagOptionGroups: visibleTagOptionGroups,
   };
 }

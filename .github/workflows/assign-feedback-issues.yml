@@ -1,0 +1,19 @@
+name: Assign Feedback Issues
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  issues: write
+
+jobs:
+  assign:
+    if: contains(github.event.issue.labels.*.name, 'Feedback Form')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign feedback issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: gh issue edit "$ISSUE_NUMBER" --add-assignee AkhalaPlo --repo "$GITHUB_REPOSITORY"

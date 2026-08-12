@@ -49,5 +49,19 @@
                 }
             ]
         }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "heart-of-the-furnace",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Without a second [[element:electro]] or another off-field [[element:stellar-conduct]] DPS, this set can be favored for its team buffing abilities, at the cost of [[character:yae-miko]]’s personal damage.",
+                        "fr": "Sans deuxième [[element:electro]] dans l'équipe ou un autre DPS [[element:stellar-conduct]] off-field, ce set peut être préféré pour ses capacités à buff l'équipe en échange des dégâts personnels de [[character:yae-miko]]."
+                    }
+                }
+            ]
+        }
     ]
 }

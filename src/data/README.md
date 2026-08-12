@@ -26,8 +26,8 @@ src/data/
 Matching static item images live separately under:
 
 ```txt
-public/item-assets/artifacts/<artifact-set-id>.webp
-public/item-assets/weapons/<weapon-type>/<weapon-id>.webp
+src/assets/item-assets/artifacts/<artifact-set-id>.webp
+src/assets/item-assets/weapons/<weapon-type>/<weapon-id>.webp
 ```
 
 ## How It Connects To Content
@@ -48,7 +48,7 @@ The site then uses:
 - `src/i18n/<lang>/weapons.json` to display the localized weapon name.
 - `src/data/weapons/<weapon-type>.json` to display weapon rarity, stats, and
   passive information in the weapon popover.
-- `public/item-assets/weapons/<weapon-type>/<weapon-id>.webp` to display its
+- `src/assets/item-assets/weapons/<weapon-type>/<weapon-id>.webp` to display its
   image.
 
 Artifact sets work the same way:
@@ -57,7 +57,7 @@ Artifact sets work the same way:
 - `src/i18n/<lang>/artifact-sets.json` displays localized artifact set names.
 - `src/data/artifacts/artifact_sets.json` displays rarity and set effects in
   the artifact popover.
-- `public/item-assets/artifacts/<artifact-set-id>.webp` displays its image.
+- `src/assets/item-assets/artifacts/<artifact-set-id>.webp` displays its image.
 
 ## Weapon Data
 
@@ -123,7 +123,7 @@ npm run download:artifact-assets -- <artifact-set-id>
 ```
 
 Both commands also accept `--all`, `--file <path>`, `--force`, and `--dry-run`.
-The downloaded files are written to the matching `public/item-assets` folder.
+The downloaded files are written to the matching `src/assets/item-assets` folder.
 
 ## Localization Rules
 

@@ -1,0 +1,104 @@
+---
+import { Modal, Toast } from 'webcoreui/astro';
+import { localizedPath } from '../utils/paths';
+
+type Props = {
+  lang?: string;
+};
+
+const { lang = 'en' } = Astro.props as Props;
+const feedbackEndpoint =
+  import.meta.env.VERCEL === '1'
+    ? '/api/feedback'
+    : import.meta.env.PUBLIC_FEEDBACK_ENDPOINT || '/api/feedback';
+const faqPath = localizedPath(lang, 'faq');
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
+---
+
+<Modal id="feedback-modal" className="feedback-modal" title="Feedback">
+  <p class="feedback-faq-note">
+    Check the <a href={faqPath}>FAQ</a> before sending feedback. It already answers
+    the most common questions.
+  </p>
+
+  <form
+    class="feedback-form"
+    action={feedbackEndpoint}
+    method="post"
+    data-feedback-form
+  >
+    <label>
+      <span>Discord username</span>
+      <textarea
+        class="feedback-contact-input"
+        name="contact"
+        rows="1"
+        autocomplete="username"
+        placeholder="Only if you want to be contacted"></textarea>
+    </label>
+
+    <label>
+      <span>What is the feedback about?</span>
+      <select class="feedback-native-select" name="type" required>
+        <option value="">Choose one</option>
+        <option value="Bug">Bug</option>
+        <option value="Suggestion">Suggestion</option>
+        <option value="Translation Issue">Translation Issue</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+
+    <label>
+      <span>Page</span>
+      <textarea
+        name="page"
+        rows="2"
+        data-feedback-page
+        placeholder="Defaults to the current page"></textarea>
+    </label>
+
+    <label>
+      <span>Feedback</span>
+      <textarea
+        name="feedback"
+        rows="7"
+        required
+        placeholder="Tell us what happened or what you would like changed"
+      ></textarea>
+    </label>
+
+    <input type="hidden" name="language" value={lang} data-feedback-language />
+
+    {
+      turnstileSiteKey && (
+        <div
+          class="feedback-captcha"
+          data-sitekey={turnstileSiteKey}
+          data-feedback-captcha
+        />
+      )
+    }
+
+    <label class="feedback-faq-check">
+      <input type="checkbox" name="faq_checked" required />
+      <span>I checked the <a href={faqPath}>FAQ</a> first.</span>
+    </label>
+
+    <p class="feedback-status" data-feedback-status aria-live="polite"></p>
+
+    <div class="feedback-actions">
+      <button class="feedback-submit" type="submit">Send feedback</button>
+      <button class="feedback-cancel" type="button" data-feedback-close>
+        Cancel
+      </button>
+    </div>
+  </form>
+</Modal>
+
+<Toast
+  id="feedback-success-toast"
+  className="feedback-toast"
+  theme="success"
+  title="Feedback sent"
+  position="bottom-left"
+/>

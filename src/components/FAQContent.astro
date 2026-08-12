@@ -1,0 +1,42 @@
+---
+import { marked } from 'marked';
+import { Accordion } from 'webcoreui/astro';
+import faq from '../content/site/faq.json';
+import styles from '../styles/webcore-faq.module.scss';
+import { t } from '../utils/i18n';
+
+type LocalizedText = {
+  en: string;
+  [lang: string]: string;
+};
+type FaqData = {
+  intro: LocalizedText;
+  items: {
+    question: LocalizedText;
+    answer: LocalizedText;
+  }[];
+};
+
+const { lang = 'en', locale } = Astro.props as {
+  lang?: string;
+  locale: any;
+};
+
+const faqData = faq as FaqData;
+const localized = (value: LocalizedText) => value[lang] ?? value.en;
+const renderText = (value: string) =>
+  marked.parse(value, { breaks: true }) as string;
+const faqItems = faqData.items.map((item) => ({
+  title: localized(item.question),
+  content: renderText(localized(item.answer)),
+}));
+---
+
+<section class={styles.faq}>
+  <div class={styles.col}>
+    <h1 class={styles.title}>{t(locale, 'ui', 'FAQ')}</h1>
+    <div set:html={renderText(localized(faqData.intro))} />
+  </div>
+
+  <Accordion items={faqItems} icon="plus" className={styles.accordion} />
+</section>

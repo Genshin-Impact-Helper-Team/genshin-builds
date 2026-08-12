@@ -2,7 +2,26 @@
     "weapons": [
         {
             "items": [
-                "redhorn-stonethresher"
+                {
+                    "name": "redhorn-stonethresher",
+                    "note": {
+                        "en": "With this weapon, using [[ability:ca]] can become more effective. While spinning, opening and closing either the map, or Adventurer's Handbook once will allow you to bypass the 5 second restriction.",
+                        "fr": "Avec cette arme, il peut être plus pertinent d'utiliser les [[ability:ca|Attaques Chargées]]. Ouvrir puis fermer la carte ou le guide de l'aventurier lorsque vous tournez vous permet de bypass la restriction de 5 secondes.",
+                        "ru": "С этим оружием использование [[ability:ca|Заряженных атак]] может быть эффективнее указанных ротаций. Во время вращения можно открыть-закрыть карту или справочник, что позволит проигнорировать пятисекундный лимит."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "gest-of-the-mighty-wolf",
+                    "note": {
+                        "en": "In teams with [[ability:hexerei]], can perform better than **[[weapon:redhorn-stonethresher]]**.",
+                        "fr": "Dans les équipes [[ability:hexerei]], peut être meilleure que **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "С активным эффектом Ведьмовств может превосходить **[[weapon:redhorn-stonethresher]]**."
+                    }
+                }
             ]
         },
         {
@@ -19,19 +38,47 @@
         },
         {
             "items": [
+                "beacon-of-the-reed-sea",
+                "a-thousand-blazing-suns"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "whiteblind",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If it is possible to maintain full stacks of the passive before bursting, can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs, loses some value sompared to option that provide CRIT or DMG%.",
+                        "fr": "S'il est possible de maintenir tous les cumuls du passif avant d'utiliser l'[[ability:burst]], cette arme peut être meilleure que **[[weapon:beacon-of-the-reed-sea]]**. Avec beaucoup de buffs ATQ/DEF, elle pert de la valeur comparé aux autres options qui donnent du CRIT ou des DGT%.",
+                        "ru": "При возможности поддерживания максимального уровня Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
+                    }
+                },
+                "a-teaspoon-of-transcendence",
+                "verdict"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "Useful if you are unable to get [[stat:er]] from your substats. Does really well while passive is active, but falls of in sustained fights. Comfort option that can lose to a high refined [[weapon:whiteblind]] with stacks.",
-                        "fr": "Utile si vous n'arrivez pas à avoir de la [[stat:er]] avec vos sous-stats. Fonctionne très bien quand le passif est actif, mais moins bien quand le combat est long. C'est une option confortable qui peut cependant être moins bien que **[[weapon:whiteblind]]** à haut raffinement avec ses stacks.",
-                        "ru": "Может оказаться полезным при недостатке [[stat:er|Восстановления энергии]] в сабстатах. Хорошо себя показывает при работающей Пассивной способности, но не очень силён в затяжных сражениях. Комфортный вариант, но менее сильный, чем **[[weapon:whiteblind]]** на пробуждениях с работающей Пассивной способностью."
+                        "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
+                        "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut mieux performer que **[[weapon:whiteblind]] [R5]**.",
+                        "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
                     }
                 }
             ]
         },
         {
             "items": [
-                "whiteblind"
+                {
+                    "name": "favonius-greatsword",
+                    "note": {
+                        "en": "While bad for [[character:noelle]]'s personal damage, it can be considered if the team can get advantage of the additional energy.",
+                        "fr": "Bien que mauvaise pour les dégâts personnels de [[character:noelle]], cette arme est une option envisageable si l'équipe peut tirer parti de l'énergie supplémentaire.",
+                        "ru": "Слабый вариант для личного урона [[character:noelle]], но может стоить использования в отрядаХ, которым полезна дополнительная энергия."
+                    }
+                }
             ]
         }
     ]

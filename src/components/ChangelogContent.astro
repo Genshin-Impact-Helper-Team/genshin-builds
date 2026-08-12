@@ -1,0 +1,51 @@
+---
+import { Timeline, TimelineItem } from 'webcoreui/astro';
+
+import changelog from '../content/site/changelog.json';
+
+type ChangelogData = {
+  groups: {
+    version: string;
+    entries: {
+      date: string;
+      changes: string;
+      appliedBy?: string;
+    }[];
+  }[];
+};
+
+const changelogData = changelog as ChangelogData;
+---
+
+<section class="changelog-list" aria-label="Document changelog">
+  <Timeline
+    theme="stroke fill"
+    alternate={true}
+    centered={true}
+    className="changelog-timeline"
+    color="color-mix(in srgb, var(--accent) 68%, transparent)"
+    textColor="var(--bg)"
+  >
+    {
+      changelogData.groups.map((group) => (
+        <TimelineItem
+          title={group.version}
+          titleTag="h2"
+          className="changelog-version"
+        >
+          <div class="changelog-version-entries">
+            {group.entries.map((entry) => (
+              <article class="card changelog-card">
+                <time>{entry.date}</time>
+                <p>{entry.changes}</p>
+                {entry.appliedBy && (
+                  <p class="changelog-author">Applied by {entry.appliedBy}</p>
+                )}
+              </article>
+            ))}
+          </div>
+        </TimelineItem>
+      ))
+    }
+  </Timeline>
+</section>

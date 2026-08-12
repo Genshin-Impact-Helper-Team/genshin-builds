@@ -1,7 +1,7 @@
 const panels = Array.from(
   document.querySelectorAll<HTMLElement>('[data-build-panel]'),
 );
-const tabs = Array.from(
+const buildButtons = Array.from(
   document.querySelectorAll<HTMLButtonElement>('[data-build-tab]'),
 );
 const calculationPanels = Array.from(
@@ -59,12 +59,11 @@ function selectBuild(targetId: string | null, updateUrl = true) {
     panel.setAttribute('aria-hidden', String(!isActive));
   });
 
-  tabs.forEach((tab) => {
-    const isActive = tab.dataset.id === activeId;
+  buildButtons.forEach((button) => {
+    const isActive = button.dataset.id === activeId;
 
-    tab.classList.toggle('is-active', isActive);
-    tab.setAttribute('aria-selected', String(isActive));
-    tab.tabIndex = isActive ? 0 : -1;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
   });
 
   calculationPanels.forEach((panel) => {
@@ -80,39 +79,9 @@ function selectBuild(targetId: string | null, updateUrl = true) {
   }
 }
 
-tabs.forEach((tab) => {
-  tab.addEventListener('click', () => {
-    selectBuild(tab.dataset.id ?? null);
-  });
-
-  tab.addEventListener('keydown', (event) => {
-    const currentIndex = tabs.indexOf(tab);
-    const lastIndex = tabs.length - 1;
-    let nextIndex: number | null = null;
-
-    if (event.key === 'ArrowDown' || event.key === 'ArrowRight') {
-      nextIndex = currentIndex === lastIndex ? 0 : currentIndex + 1;
-    }
-
-    if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') {
-      nextIndex = currentIndex === 0 ? lastIndex : currentIndex - 1;
-    }
-
-    if (event.key === 'Home') {
-      nextIndex = 0;
-    }
-
-    if (event.key === 'End') {
-      nextIndex = lastIndex;
-    }
-
-    if (nextIndex === null) {
-      return;
-    }
-
-    event.preventDefault();
-    tabs[nextIndex]?.focus();
-    selectBuild(tabs[nextIndex]?.dataset.id ?? null);
+buildButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    selectBuild(button.dataset.id ?? null);
   });
 });
 

@@ -7,7 +7,7 @@ import {
 } from './build-usage';
 import { loadJSON, readJSONFile } from './content';
 import { getLocale, t } from './i18n';
-import { resolveWeaponAssetUrl } from './item-assets';
+import { resolveWeaponAssetImage } from './item-assets';
 import {
   formatWeaponPassive,
   type WeaponPassiveText,
@@ -49,6 +49,7 @@ const aliases = translationAliases as TranslationAliasCategory;
 type SharedWeaponData = {
   rarity: number;
   source?: string;
+  version_released?: string;
   passive?: WeaponPassiveText;
   r1?: WeaponPassiveValue[];
   r2?: WeaponPassiveValue[];
@@ -129,8 +130,11 @@ function getWeaponRankingUsage(locale: any, lang: string) {
           rank: index + 1,
         })),
     ),
-    ...getWipNoteItems(buildNotes, 'weapon', 'weapon', (id) =>
-      aliases.weapon?.[id] ?? id,
+    ...getWipNoteItems(
+      buildNotes,
+      'weapon',
+      'weapon',
+      (id) => aliases.weapon?.[id] ?? id,
     ),
   ]);
 }
@@ -165,11 +169,12 @@ function getWeaponEntries(
 
       return {
         id,
-        imageUrl: resolveWeaponAssetUrl(type, id),
+        image: resolveWeaponAssetImage(type, id),
         name: t(locale, 'weapon', id, undefined, false),
         rarity: info.rarity,
         type,
         typeLabel,
+        versionReleased: info.version_released ?? '',
         sourceName: translateWeaponSource(locale, info.source),
         rankingUsage: rankingUsageByWeapon.get(id) ?? [],
         substat: info.substat ?? '',

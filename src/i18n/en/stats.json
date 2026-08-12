@@ -11,6 +11,7 @@
     "cr": "CRIT Rate",
     "cr/cd": "CRIT Rate / CRIT DMG",
     "healing-bonus": "Healing Bonus",
+    "elemental-res": "Elemental RES",
     "em-set": "+80 EM set",
     "def-set": "+30% DEF set",
     "atk-set": "+18% ATK set",

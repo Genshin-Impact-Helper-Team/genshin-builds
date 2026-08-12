@@ -24,6 +24,12 @@ const {
   recentlyUpdatedCharacters,
 } = getHomePageData(requestedLang ?? 'en');
 const latestChangelogEntry = changelog.groups[0]?.entries?.[0];
+const lastUpdatedLabel =
+  t(locale, 'ui', 'Last Updated', undefined, false) || 'Last Updated';
+const changelogLabel = t(locale, 'ui', 'Changelog', undefined, false);
+const latestChangelogLabel = latestChangelogEntry
+  ? `${lastUpdatedLabel}: ${latestChangelogEntry.changes}`
+  : changelogLabel;
 ---
 
 <html lang={lang}>
@@ -46,10 +52,9 @@ const latestChangelogEntry = changelog.groups[0]?.entries?.[0];
           <a
             class="home-last-update"
             href={localizedPath(lang, 'changelog')}
+            aria-label={latestChangelogLabel}
           >
-            <h2>
-              {t(locale, 'ui', 'Last Updated', undefined, false)}
-            </h2>
+            <h2>{lastUpdatedLabel}</h2>
             <p class="home-last-update-change">
               {latestChangelogEntry.changes}
             </p>

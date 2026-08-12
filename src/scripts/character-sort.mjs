@@ -1,4 +1,10 @@
 const compareText = (left, right) => left.localeCompare(right);
+const versionNumber = (version) => {
+  const number = Number.parseFloat(version);
+  return Number.isFinite(number) ? number : Number.NEGATIVE_INFINITY;
+};
+const compareVersionNewest = (left, right) =>
+  versionNumber(right) - versionNumber(left);
 const value = (card, name) => card.dataset[name] ?? '';
 
 export function compareCharacterCards(left, right, sort) {
@@ -12,8 +18,18 @@ export function compareCharacterCards(left, right, sort) {
   }
   if (sort === 'release') {
     return (
-      Number.parseFloat(value(right, 'versionReleased')) -
-        Number.parseFloat(value(left, 'versionReleased')) || byName
+      compareVersionNewest(
+        value(left, 'versionReleased'),
+        value(right, 'versionReleased'),
+      ) || byName
+    );
+  }
+  if (sort === 'updated') {
+    return (
+      compareVersionNewest(
+        value(left, 'lastUpdated'),
+        value(right, 'lastUpdated'),
+      ) || byName
     );
   }
 

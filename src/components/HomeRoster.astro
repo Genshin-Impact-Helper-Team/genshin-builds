@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { t } from '../utils/i18n';
 import { localizedPath } from '../utils/paths';
 
@@ -8,18 +9,18 @@ const characterCountLabel = t(locale, 'ui', 'Characters');
 const noResultsLabel = t(locale, 'ui', 'No characters found');
 const openBuildsLabel = t(locale, 'ui', 'Open builds');
 const resultsLabel = t(locale, 'ui', 'Results');
-const releaseDateLabel = t(locale, 'ui', 'Release date', undefined, false);
-const newestLabel = t(locale, 'ui', 'Newest', undefined, false);
+const releaseDateLabel = t(locale, 'ui', 'Release date');
+const newestLabel = t(locale, 'ui', 'Newest');
+const latestUpdateLabel = t(locale, 'ui', 'Last Updated');
 const characterPortraitAltTemplate = t(locale, 'ui', 'Character portrait alt');
-const sortByLabel = t(locale, 'ui', 'Sort by', undefined, false);
+const sortByLabel = t(locale, 'ui', 'Sort by');
 const sortOptions = [
   { value: 'release', label: `${releaseDateLabel} - ${newestLabel}` },
+  { value: 'updated', label: `${latestUpdateLabel} - ${newestLabel}` },
   { value: 'name', label: `${characterCountLabel} - A-Z` },
   { value: 'element', label: `${t(locale, 'ui', 'Element')} - A-Z` },
   { value: 'rarity', label: `${t(locale, 'ui', 'Rarity')} - A-Z` },
 ];
-const eagerPortraitCount = 9;
-const highPriorityPortraitCount = 4;
 
 function formatUiTemplate(template: string, name: string) {
   return template.replace('{name}', name);
@@ -77,16 +78,18 @@ const rosterCharacters = characters.map(getCharacterViewModel);
       </label>
     </div>
 
-    <div class="roster-list" role="list" data-roster-list>
+    <div class="roster-list" data-roster-list>
       {
-        rosterCharacters.map((character, index) => {
-          const loadPortraitImmediately = index < eagerPortraitCount;
+        rosterCharacters.map((character) => {
+          const portraitAlt = formatUiTemplate(
+            characterPortraitAltTemplate,
+            character.name,
+          );
 
           return (
             <a
               class={`roster-character ${character.element}${character.isWip ? ' is-wip' : ''}`}
               href={character.isWip ? undefined : character.href}
-              role="listitem"
               aria-label={
                 character.isWip
                   ? `${character.name}, WIP`
@@ -106,20 +109,17 @@ const rosterCharacters = characters.map(getCharacterViewModel);
               data-weapon={character.weapon}
             >
               <span class="roster-character-art">
-                <img
-                  src={character.portrait}
-                  alt={formatUiTemplate(
-                    characterPortraitAltTemplate,
-                    character.name,
-                  )}
-                  loading={loadPortraitImmediately ? 'eager' : 'lazy'}
-                  decoding="async"
-                  fetchpriority={
-                    index < highPriorityPortraitCount ? 'high' : 'low'
-                  }
-                  width="160"
-                  height="180"
-                />
+                {character.portrait && (
+                  <Image
+                    src={character.portrait}
+                    alt={portraitAlt}
+                    loading="lazy"
+                    decoding="async"
+                    width={160}
+                    height={160}
+                    densities={[1, 2]}
+                  />
+                )}
               </span>
 
               <span class="roster-character-copy" aria-hidden="true">

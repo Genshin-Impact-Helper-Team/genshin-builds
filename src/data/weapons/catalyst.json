@@ -1606,13 +1606,13 @@
         "rarity": 5,
         "version_released": "5.4",
         "passive": {
-            "en": "Elemental Mastery increases by {{value}} for 6s after triggering Swirl. Elemental Mastery increases by {{value}} for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by {{value}} for 30s after the wielder's Elemental Burst hits an opponent.",
-            "de": "Erhöht die Elementarkunde nach Auslösen der Reaktion Verwirbelung 6 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Elementarfähigkeiten 9 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Spezialfähigkeiten 30 s lang um {{value}} Punkte.",
-            "es": "La Maestría Elemental aumenta en {{value}} pts. durante 6 s tras causar una reacción de Torbellino. La Maestría Elemental aumenta en {{value}} pts. durante 9 s tras golpear a un enemigo con la Habilidad Elemental, y aumenta en {{value}} pts. durante 30 s tras golpear a un enemigo con la Habilidad Definitiva.",
-            "fr": "Après avoir déclenché une réaction de Dispersion, la maîtrise élémentaire augmente de {{value}} pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de {{value}} pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de {{value}} pts pendant 30 s.",
-            "it": "La maestria elementale del personaggio aumenta di {{value}} per 6 s dopo aver innescato Turbinio; di {{value}} per 9 s dopo aver colpito un avversario con l'abilità elementale; e di {{value}} per 30 s dopo aver colpito un avversario con il Tripudio elementale.",
-            "ru": "На 6 сек. после активации Рассеивания повышает мастерство стихий на {{value}} ед. На 9 сек. после попадания элементального навыка по противнику повышает мастерство стихий на {{value}} ед. На 30 сек. после попадания взрыва стихии по противнику повышает мастерство стихий на {{value}} ед.",
-            "pt": "Aumenta a Proficiência Elemental em {{value}} por 6s após desencadear um Redemoinho. A Proficiência Elemental aumenta em {{value}} por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em {{value}} por 30s após o Supremo do portador atingir um oponente."
+            "en": "Elemental Mastery increases by {{value}} for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by {{value}} for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by {{value}} for 30s after the wielder's Elemental Burst hits an opponent.",
+            "de": "Erhöht die Elementarkunde nach dem Auslösen der Reaktionen Verwirbelung oder Stellar-Verwirbelung 6 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Elementarfähigkeiten 9 s lang um {{value}} Punkte. Erhöht die Elementarkunde nach Treffen von Gegnern mit Spezialfähigkeiten 30 s lang um {{value}} Punkte.",
+            "es": "La Maestría Elemental aumenta en {{value}} pts. durante 6 s tras causar una reacción de Torbellino o Torbellino Estelar. La Maestría Elemental aumenta en {{value}} pts. durante 9 s tras golpear a un enemigo con la Habilidad Elemental, y aumenta en {{value}} pts. durante 30 s tras golpear a un enemigo con la Habilidad Definitiva.",
+            "fr": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, la maîtrise élémentaire augmente de {{value}} pts pendant 6 s. Après avoir touché un ennemi avec une compétence élémentaire, la maîtrise élémentaire augmente de {{value}} pts pendant 9 s. Après avoir touché un ennemi avec un déchaînement élémentaire, la maîtrise élémentaire augmente de {{value}} pts pendant 30 s.",
+            "it": "La maestria elementale del personaggio aumenta di {{value}} per 6 s dopo aver innescato Turbinio o Turbinio astrale; di {{value}} per 9 s dopo aver colpito un avversario con l'abilità elementale; e di {{value}} per 30 s dopo aver colpito un avversario con il Tripudio elementale.",
+            "ru": "На 6 сек. после активации Рассеивания или Звёздного рассеивания повышает мастерство стихий на {{value}} ед. На 9 сек. после попадания элементального навыка по противнику повышает мастерство стихий на {{value}} ед. На 30 сек. после попадания взрыва стихии по противнику повышает мастерство стихий на {{value}} ед.",
+            "pt": "Aumenta a Proficiência Elemental em {{value}} por 6s após desencadear Redemoinho e Redemoinho Estelar. A Proficiência Elemental aumenta em {{value}} por 9s após a Habilidade Elemental atingir um oponente. A Proficiência Elemental aumenta em {{value}} por 30s após o Supremo do portador atingir um oponente."
         },
         "substat": "em",
         "level_1": {
@@ -2135,6 +2135,92 @@
             22,
             58,
             18
+        ]
+    },
+    "echoes-of-the-heart": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by {{value}} for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by {{value}}% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "fr": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire du personnage équipé de l'arme de {{value}} pts pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de {{value}}% pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht innerhalb von 12 s nach dem Auslösen einer Elementarreaktion die Elementarkunde des Trägers um {{value}} Punkte. Erhöht innerhalb von 12 s nach dem Auslösen einer Stellarfunkeln-Reaktion den durch den Träger mithilfe der Stellarfunkeln-Reaktion verursachten Schaden um {{value}}%. Die oben genannten Effekte können auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
+            "es": "Tras causar una Reacción Elemental, la Maestría Elemental del portador de esta arma aumenta en {{value}} pts. durante 12 s. Tras causar una reacción de Destello Estelar, el daño de Destello Estelar del portador aumenta en un {{value}}% durante 12 s. Estos efectos se pueden activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "it": "Innescare una reazione elementale aumenta la maestria elementale del personaggio che equipaggia l'arma di {{value}} per 12 s. Innescare una reazione di Barlume astrale aumenta i DAN inflitti dalle reazioni di Barlume astrale del personaggio di un {{value}}% per 12 s. Gli effetti sopracitati possono attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "На 12 сек. после активации элементальной реакции мастерство стихий экипированного персонажа повышается на {{value}} ед. Активация реакций Звёздного блеска на 12 сек. повышает их урон, наносимый экипированным персонажем, на {{value}}%. Эффект срабатывает, даже если экипированный персонаж не на поле боя.",
+            "pt": "Nos 12s após desencadear uma reação Elemental, aumenta a Proficiência Elemental do portador em {{value}}. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em {{value}}%. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "27.6%"
+        },
+        "r1": [
+            60,
+            16
+        ],
+        "r2": [
+            75,
+            20
+        ],
+        "r3": [
+            90,
+            24
+        ],
+        "r4": [
+            105,
+            28
+        ],
+        "r5": [
+            120,
+            32
+        ]
+    },
+    "clash-of-kings": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "Using an Elemental Skill grants the equipping character \"Laws of the Board\", which increases their ATK by {{value}}% and their Elemental Mastery by {{value}}. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way.",
+            "fr": "Utiliser une compétence élémentaire accorde l'effet Lois du plateau pendant 6 s au personnage équipé de l'arme : augmente l'ATQ de {{value}}% et la maîtrise élémentaire de {{value}} pts. Cet effet peut être déclenché une fois toutes les 12 s et ne peut pas se cumuler. Pendant l'effet, le personnage équipé de l'arme peut prolonger la durée de 6 s en touchant un ennemi avec une attaque chargée, la durée pouvant être prolongée une seule fois de cette manière.",
+            "de": "Verleiht dem Träger, nachdem er eine Elementarfähigkeit angewendet hat, 6 s lang den Effekt „Gesetz des Brettspiels“: Erhöht den ANG um {{value}}% sowie die Elementarkunde um {{value}} Punkte, 12 s Abklingzeit und nicht stapelbar. Verlängert, wenn der Träger während der Wirkungsdauer einen Gegner mit einem heftigen Schlag trifft, obige Effekte um weitere 6 s. Die Dauer kann auf diese Weise um maximal 6 s verlängert werden.",
+            "es": "Tras usar su Habilidad Elemental, el portador de esta arma obtiene durante 6 s el efecto de “leyes del tablero”, el cual aumenta el ATQ en un {{value}}% y la Maestría Elemental en {{value}} pts. Este efecto solo puede activarse una vez cada 12 s y no se puede acumular. Cuando el portador de esta arma golpee a un enemigo con un Ataque Cargado mientras “leyes del tablero” esté activo, la duración de dicho efecto se prolongará 6 s. Como máximo, la duración puede prolongarse 6 s de esta forma.",
+            "it": "Usare un'abilità elementale conferisce al personaggio che equipaggia l'arma l'effetto \"Leggi del Consiglio\" che, per 6 s, aumenta l'ATT di un {{value}}% e la maestria elementale di {{value}}. Quest'effetto può attivarsi una volta ogni 12 s e non è cumulabile. Quando il personaggio colpisce un avversario con un attacco caricato mentre il suddetto effetto è attivo, quest'ultimo viene prolungato di 6 s. L'effetto può essere esteso in questo modo per un massimo di 6 s.",
+            "ru": "Применение элементального навыка на 6 сек. наделяет экипированного персонажа Законом доски: его сила атаки повышается на {{value}}%, а мастерство стихий - на {{value}} ед. Эффект может возникнуть один раз в 12 сек. и не складывается. Если во время действия этого эффекта экипированный персонаж поражает врага заряженной атакой, то он продлевается на 6 сек. Продлить его таким способом можно максимум на 6 сек.",
+            "pt": "Depois que o portador lançar a Habilidade Elemental, obtém o efeito Regras do Tabuleiro por 6s: aumenta o ATQ em {{value}}% e a Proficiência Elemental em {{value}}. Esse efeito pode ser desencadeado uma vez a cada 12s, e não é acumulável. Na duração, quando o Ataque Carregado do portador atingir o inimigo, prolonga a duração desse efeito em 6s. É possível prolongar a duração do efeito dessa forma em até 6s."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
+        "r1": [
+            20,
+            100
+        ],
+        "r2": [
+            25,
+            125
+        ],
+        "r3": [
+            30,
+            150
+        ],
+        "r4": [
+            35,
+            175
+        ],
+        "r5": [
+            40,
+            200
         ]
     }
 }

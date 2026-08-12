@@ -18,15 +18,15 @@ const deployVersion = import.meta.env.PUBLIC_DEPLOY_VERSION;
     <a href={localizedPath(lang, 'changelog')}>
       {t(locale, 'ui', 'Changelog', undefined, false)}
     </a>
-    <a href="https://tinyurl.com/GIHelperTeamCBSurvey">
+    <button class="footer-feedback-button" type="button" data-feedback-open>
       {t(locale, 'ui', 'Feedback', undefined, false)}
-    </a>
+    </button>
   </nav>
 
   <p>
     Original code and guide content <a href={localizedPath(lang, 'credits')}
-      >&copy; Genshin Impact Helper Team contributors.</a
-    > This website is not affiliated with HoYoverse.
+      >&copy; Genshin Impact Helper Team contributors</a
+    >. This website is not affiliated with HoYoverse.
   </p>
   <p>
     Genshin Impact, game content, and materials are trademarks and copyrights of

@@ -34,6 +34,19 @@
                             "pieces": 4
                         }
                     ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "nighttime-whispers-in-the-echoing-woods",
+                            "pieces": 4,
+                            "note": {
+                                "en": "You need to pick up [[element:crystallize]] shards or to trigger [[element:lunar-crystallize]] to fully utilise this set. Even then, [[character:noelle]] doesn't have full uptime on the 4pc effect.",
+                                "fr": "Il est nécessaire de ramasser un cristal de [[element:crystallize]] ou de déclencher [[element:lunar-crystallize]] pour utiliser l'effet du set entièrement. Même avec ça, [[character:noelle]] ne peux pas garder le 4P actif pendant tout son temps de terrain.",
+                                "ru": "Для полного использования этого набора нужно подобрать осколок от реакции [[element:crystallize]] или активировать [[element:lunar-crystallize]]. Но даже в этих случаях Ноэлль не может постоянно поддерживать понлый эффект активированным"
+                            }
+                        }
+                    ]
                 }
             ]
         }
@@ -42,11 +55,11 @@
         {
             "items": [
                 {
-                    "name": "MH",
+                    "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "Optimal for personal damage by a few percentage points when paired with [[character:furina]].",
-                        "fr": "Optimal pour ses dégâts personnels (de peu) lorsqu'elle est jouée avec [[character:furina]].",
+                        "en": "Optimal for personal damage when paired with [[character:furina]].",
+                        "fr": "Optimal pour les dégâts personnels lorsque jouée avec [[character:furina]].",
                         "ru": "В отрядах с [[character:furina|Фуриной]] этот набор - лучший по личному урону."
                     }
                 }

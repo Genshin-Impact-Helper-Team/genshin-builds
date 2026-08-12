@@ -2,6 +2,10 @@
     "resolution-of-sojourner": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "atk-set",
+            "ca"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -24,6 +28,9 @@
     "brave-heart": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -46,6 +53,10 @@
     "defenders-will": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "def-set",
+            "elemental-res"
+        ],
         "2p": {
             "en": "DEF +30%",
             "fr": "Augmente la DÉF de 30 %.",
@@ -68,6 +79,9 @@
     "tiny-miracle": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "elemental-res"
+        ],
         "2p": {
             "en": "All Elemental RES increased by 20%.",
             "fr": "Augmente toutes les RÉS élémentaires de 20 %.",
@@ -90,6 +104,9 @@
     "berserker": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "cr"
+        ],
         "2p": {
             "en": "CRIT Rate +12%",
             "fr": "Augmente le taux CRIT de 12 %.",
@@ -112,6 +129,10 @@
     "martial-artist": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "ca",
+            "na"
+        ],
         "2p": {
             "en": "Normal and Charged Attack DMG +15%",
             "fr": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
@@ -134,6 +155,9 @@
     "instructor": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "em-set"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -156,6 +180,9 @@
     "gambler": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "skill"
+        ],
         "2p": {
             "en": "Increases Elemental Skill DMG by 20%.",
             "fr": "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
@@ -178,6 +205,9 @@
     "the-exile": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "er-set"
+        ],
         "2p": {
             "en": "Energy Recharge +20%",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -200,6 +230,9 @@
     "adventurer": {
         "rarity": 3,
         "version_released": "1.0",
+        "tags": [
+            "hp"
+        ],
         "2p": {
             "en": "Max HP increased by 1,000.",
             "fr": "Augmente les PV max de 1 000 pts.",
@@ -222,6 +255,10 @@
     "lucky-dog": {
         "rarity": 3,
         "version_released": "1.0",
+        "tags": [
+            "def",
+            "hp"
+        ],
         "2p": {
             "en": "DEF increased by 100.",
             "fr": "Augmente la DÉF de 100 pts.",
@@ -244,6 +281,9 @@
     "scholar": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "er-set"
+        ],
         "2p": {
             "en": "Energy Recharge +20%",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -266,6 +306,10 @@
     "traveling-doctor": {
         "rarity": 3,
         "version_released": "1.0",
+        "tags": [
+            "healing",
+            "burst"
+        ],
         "2p": {
             "en": "Increases incoming healing by 20%.",
             "fr": "Augmente les soins reçus par le personnage de 20 %.",
@@ -288,6 +332,10 @@
     "blizzard-strayer": {
         "rarity": 5,
         "version_released": "1.2",
+        "tags": [
+            "cryo-set",
+            "cr"
+        ],
         "2p": {
             "en": "Cryo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Cryo de 15 %.",
@@ -310,6 +358,10 @@
     "thundersoother": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "elemental-res",
+            "electro"
+        ],
         "2p": {
             "en": "Electro RES increased by 40%.",
             "fr": "Augmente la RÉS Électro de 40 %.",
@@ -332,6 +384,10 @@
     "lavawalker": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "elemental-res",
+            "pyro"
+        ],
         "2p": {
             "en": "Pyro RES increased by 40%.",
             "fr": "Augmente la RÉS Pyro de 40 %.",
@@ -354,6 +410,9 @@
     "maiden-beloved": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "healing-set"
+        ],
         "2p": {
             "en": "Character Healing Effectiveness +15%",
             "fr": "Augmente les soins effectués par le personnage de 15 %.",
@@ -376,6 +435,10 @@
     "gladiators-finale": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "atk-set",
+            "na"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -398,6 +461,10 @@
     "viridescent-venerer": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "anemo-set",
+            "elemental-res"
+        ],
         "2p": {
             "en": "Anemo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Anémo de 15 %.",
@@ -408,18 +475,22 @@
             "pt": "Bônus de Dano Anemo +15%"
         },
         "4p": {
-            "en": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
-            "fr": "Augmente les DGT infligés par Dispersion de 60 % ; la RÉS élémentaire des ennemis diminue de 40 % pendant 10 s selon le type élémentaire de Dispersion.",
-            "de": "Erhöht den mit Verwirbelungen verursachten Schaden um 60 %. Verringert den dem jeweiligen Element in der Verwirbelung entsprechenden WDS des betroffenen Gegners 10 s lang um 40 %.",
-            "es": "Aumenta el daño de Torbellino en un 60%. Dependiendo del tipo elemental que tenga, disminuye la RES Elemental correspondiente del enemigo en un 40% durante 10 s.",
-            "it": "Aumenta di un 60% i DAN da Turbinio. Riduce di un 40% la RES dell'avversario all'elemento infuso dal Turbinio per 10 s.",
-            "ru": "Увеличивает урон Рассеивания на 60%. При взаимодействии Рассеивания с другим элементом, также понижает сопротивление противника к соответствующему элементу на 40% в течение 10 сек.",
-            "pt": "Aumenta o Dano do Redemoinho em 60%. Dependendo do tipo elemento infundido, diminui a RES Elemental correspondente do oponente em 40% por 10s."
+            "en": "Increases Swirl reaction DMG dealt by 60%, and Stellar Swirl reaction DMG dealt by 20%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s. Upon triggering a Stellar Swirl in the opponent, will also decrease their Cryo RES by 40%. RES debuffs of the same elemental type do not stack.",
+            "fr": "Augmente les DGT infligés par les réactions de Dispersion de 60 % et ceux des réactions d'Astrodispersion de 20 %, et diminue la RÉS de l'élément dispersé correspondant des ennemis de 40 % pendant 10 s. De plus, déclencher une réaction d'Astrodispersion sur un ennemi diminue également sa RÉS Cryo de 40 %, les diminutions de RÉS du même type élémentaire ne se cumulant pas.",
+            "de": "Erhöht den durch die Reaktion Verwirbelung verursachten Schaden um 60 % sowie den durch die Reaktion Stellar-Verwirbelung verursachten Schaden um 20 %. Verringert den dem jeweiligen Elementartyp der Verwirbelung entsprechenden WDS des betroffenen Gegners 10 s lang um 40 %. Verringert, wenn eine Stellar-Verwirbelung auf einen Gegner ausgelöst wird, dessen Kryo-WDS um 40 %. WDS-Verringerungen desselben Elementartyps können nicht gestapelt werden.",
+            "es": "El daño de la reacción de Torbellino aumenta en un 60%, y el de Torbellino Estelar aumenta en un 20%. Dependiendo del tipo elemental del Torbellino, la RES Elemental correspondiente del enemigo se reduce en un 40% durante 10 s. Al causar una reacción de Torbellino Estelar contra un enemigo, su RES Cryo también se reduce en un 40%. Las reducciones del mismo tipo de RES Elemental no se pueden acumular.",
+            "it": "Aumenta i DAN da reazione di Turbinio di un 60%, e quelli da Turbinio astrale di un 20%. Riduce di un 40% la RES dell'avversario all'elemento infuso dal Turbinio per 10 s. Dopo aver innescato Turbinio astrale su un avversario, diminuisce anche la RES a Cryo di un 40%. Le riduzioni alla RES dello stesso tipo elementale non si accumulano.",
+            "ru": "Повышает урон Рассеивания на 60%, Звёздного рассеивания - на 20%. В зависимости от элемента Рассеивания снижает соответствующее элементальное сопротивление поражённого врага на 40% на 10 сек. Активация Звёздного рассеивания на враге также понижает его Крио сопротивление на 40%. Снижение сопротивления одним и тем же элементам не суммируется.",
+            "pt": "Aumenta o Dano causado por Redemoinho em 60% e aumenta o Dano causado por Redemoinho Estelar em 20%. De acordo com o Tipo Elemental do Redemoinho, reduz a RES Elemental correspondente do inimigo afetado em 40% por 10s. Ao desencadear Redemoinho Estelar, também reduz sua RES Cryo em 40%. Efeitos de redução de RES de mesmo Tipo Elemental não acumulam."
         }
     },
     "wanderers-troupe": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "em-set",
+            "ca"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -442,6 +513,11 @@
     "thundering-fury": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "electro-set",
+            "lunar",
+            "stellar"
+        ],
         "2p": {
             "en": "Electro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Électro de 15 %.",
@@ -464,6 +540,10 @@
     "crimson-witch-of-flames": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "pyro-set",
+            "skill"
+        ],
         "2p": {
             "en": "Pyro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Pyro de 15 %.",
@@ -486,6 +566,10 @@
     "noblesse-oblige": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "burst",
+            "atk"
+        ],
         "2p": {
             "en": "Elemental Burst DMG +20%",
             "fr": "Augmente les DGT infligés par le déchaînement élémentaire de 20 %.",
@@ -508,6 +592,10 @@
     "bloodstained-chivalry": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "physical-set",
+            "ca"
+        ],
         "2p": {
             "en": "Physical DMG +25%",
             "fr": "Augmente les DGT physiques de 25 %.",
@@ -530,6 +618,9 @@
     "prayers-for-illumination": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "pyro"
+        ],
         "1p": {
             "en": "Affected by Pyro for 40% less time.",
             "fr": "Diminue la durée des effets Pyro subis de 40 %.",
@@ -543,6 +634,9 @@
     "prayers-for-destiny": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "hydro"
+        ],
         "1p": {
             "en": "Affected by Hydro for 40% less time.",
             "fr": "Diminue la durée des effets Hydro subis de 40 %.",
@@ -556,6 +650,9 @@
     "prayers-for-wisdom": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "electro"
+        ],
         "1p": {
             "en": "Affected by Electro for 40% less time.",
             "fr": "Diminue la durée des effets Électro subis de 40 %.",
@@ -569,6 +666,9 @@
     "prayers-to-springtime": {
         "rarity": 4,
         "version_released": "1.0",
+        "tags": [
+            "cryo"
+        ],
         "1p": {
             "en": "Affected by Cryo for 40% less time.",
             "fr": "Diminue la durée des effets Cryo subis de 40 %.",
@@ -582,6 +682,10 @@
     "archaic-petra": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "geo-set",
+            "lunar"
+        ],
         "2p": {
             "en": "Gain a 15% Geo DMG Bonus.",
             "fr": "Confère un bonus de DGT Géo de 15 %.",
@@ -604,6 +708,11 @@
     "retracing-bolide": {
         "rarity": 5,
         "version_released": "1.0",
+        "tags": [
+            "shield",
+            "na",
+            "ca"
+        ],
         "2p": {
             "en": "Increases Shield Strength by 35%.",
             "fr": "Augmente la force du bouclier de 35 %.",
@@ -626,6 +735,11 @@
     "heart-of-depth": {
         "rarity": 5,
         "version_released": "1.2",
+        "tags": [
+            "hydro-set",
+            "na",
+            "ca"
+        ],
         "2p": {
             "en": "Hydro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Hydro de 15 %.",
@@ -648,6 +762,11 @@
     "tenacity-of-the-millelith": {
         "rarity": 5,
         "version_released": "1.5",
+        "tags": [
+            "hp-set",
+            "shield",
+            "atk"
+        ],
         "2p": {
             "en": "HP +20%",
             "fr": "Les PV sont augmentés de 20 %.",
@@ -670,6 +789,10 @@
     "pale-flame": {
         "rarity": 5,
         "version_released": "1.5",
+        "tags": [
+            "physical-set",
+            "atk"
+        ],
         "2p": {
             "en": "Physical DMG is increased by 25%.",
             "fr": "Augmente les DGT physiques de 25 %.",
@@ -692,6 +815,12 @@
     "shimenawas-reminiscence": {
         "rarity": 5,
         "version_released": "2.0",
+        "tags": [
+            "atk-set",
+            "na",
+            "ca",
+            "plunge"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -714,6 +843,10 @@
     "emblem-of-severed-fate": {
         "rarity": 5,
         "version_released": "2.0",
+        "tags": [
+            "er-set",
+            "burst"
+        ],
         "2p": {
             "en": "Energy Recharge +20%",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -736,6 +869,10 @@
     "husk-of-opulent-dreams": {
         "rarity": 5,
         "version_released": "2.3",
+        "tags": [
+            "def-set",
+            "geo"
+        ],
         "2p": {
             "en": "DEF +30%",
             "fr": "Augmente la DÉF de 30 %.",
@@ -758,6 +895,9 @@
     "ocean-hued-clam": {
         "rarity": 5,
         "version_released": "2.3",
+        "tags": [
+            "healing-set"
+        ],
         "2p": {
             "en": "Healing Bonus +15%.",
             "fr": "Augmente le bonus de soins de 15 %.",
@@ -780,6 +920,9 @@
     "vermillion-hereafter": {
         "rarity": 5,
         "version_released": "2.6",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -802,6 +945,10 @@
     "echoes-of-an-offering": {
         "rarity": 5,
         "version_released": "2.6",
+        "tags": [
+            "atk-set",
+            "na"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -824,6 +971,10 @@
     "deepwood-memories": {
         "rarity": 5,
         "version_released": "3.0",
+        "tags": [
+            "dendro-set",
+            "elemental-res"
+        ],
         "2p": {
             "en": "Dendro DMG Bonus +15%.",
             "fr": "Confère un bonus de DGT Dendro de 15 %.",
@@ -846,6 +997,9 @@
     "gilded-dreams": {
         "rarity": 5,
         "version_released": "3.0",
+        "tags": [
+            "em-set"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -868,6 +1022,12 @@
     "desert-pavilion-chronicle": {
         "rarity": 5,
         "version_released": "3.3",
+        "tags": [
+            "anemo-set",
+            "na",
+            "ca",
+            "plunge"
+        ],
         "2p": {
             "en": "Anemo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Anémo de 15 %.",
@@ -890,6 +1050,10 @@
     "flower-of-paradise-lost": {
         "rarity": 5,
         "version_released": "3.3",
+        "tags": [
+            "em-set",
+            "lunar"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -912,6 +1076,10 @@
     "nymphs-dream": {
         "rarity": 5,
         "version_released": "3.6",
+        "tags": [
+            "hydro-set",
+            "atk"
+        ],
         "2p": {
             "en": "Hydro DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Hydro de 15 %.",
@@ -934,6 +1102,11 @@
     "vourukashas-glow": {
         "rarity": 5,
         "version_released": "3.6",
+        "tags": [
+            "hp-set",
+            "skill",
+            "burst"
+        ],
         "2p": {
             "en": "HP +20%",
             "fr": "Les PV sont augmentés de 20 %.",
@@ -956,6 +1129,11 @@
     "marechaussee-hunter": {
         "rarity": 5,
         "version_released": "4.0",
+        "tags": [
+            "na",
+            "ca",
+            "cr"
+        ],
         "2p": {
             "en": "Normal and Charged Attack DMG +15%",
             "fr": "Augmente les DGT infligés par les attaques normales et chargées de 15 %.",
@@ -978,6 +1156,9 @@
     "golden-troupe": {
         "rarity": 5,
         "version_released": "4.0",
+        "tags": [
+            "skill"
+        ],
         "2p": {
             "en": "Increases Elemental Skill DMG by 20%.",
             "fr": "Augmente les DGT infligés par la compétence élémentaire de 20 %.",
@@ -1000,6 +1181,13 @@
     "song-of-days-past": {
         "rarity": 5,
         "version_released": "4.3",
+        "tags": [
+            "healing-set",
+            "na",
+            "ca",
+            "skill",
+            "burst"
+        ],
         "2p": {
             "en": "Healing Bonus +15%.",
             "fr": "Augmente le bonus de soins de 15 %.",
@@ -1022,6 +1210,11 @@
     "nighttime-whispers-in-the-echoing-woods": {
         "rarity": 5,
         "version_released": "4.3",
+        "tags": [
+            "atk-set",
+            "geo",
+            "lunar"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1044,6 +1237,9 @@
     "fragment-of-harmonic-whimsy": {
         "rarity": 5,
         "version_released": "4.6",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1066,6 +1262,9 @@
     "unfinished-reverie": {
         "rarity": 5,
         "version_released": "4.6",
+        "tags": [
+            "atk-set"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1088,6 +1287,9 @@
     "scroll-of-the-hero-of-cinder-city": {
         "rarity": 5,
         "version_released": "5.0",
+        "tags": [
+            "nightsoul"
+        ],
         "2p": {
             "en": "When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy.",
             "fr": "Lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme, le personnage équipé de l'artéfact récupère 6 pts d'énergie élémentaire.",
@@ -1110,6 +1312,10 @@
     "obsidian-codex": {
         "rarity": 5,
         "version_released": "5.0",
+        "tags": [
+            "nightsoul",
+            "cr"
+        ],
         "2p": {
             "en": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
             "fr": "Lorsque le personnage équipé de l'artéfact bénéficie d'une bénédiction noctâme et est sur le terrain, les DGT qu'il inflige augmentent de 15 %.",
@@ -1132,6 +1338,9 @@
     "long-nights-oath": {
         "rarity": 5,
         "version_released": "5.5",
+        "tags": [
+            "plunge"
+        ],
         "2p": {
             "en": "Plunging Attack DMG increased by 25%.",
             "fr": "Les DGT infligés par les attaques plongeantes augmentent de 25 %.",
@@ -1154,6 +1363,11 @@
     "finale-of-the-deep-galleries": {
         "rarity": 5,
         "version_released": "5.5",
+        "tags": [
+            "cryo-set",
+            "na",
+            "burst"
+        ],
         "2p": {
             "en": "Cryo DMG Bonus +15%",
             "fr": "Confère un bonus de DGT Cryo de 15 %.",
@@ -1176,6 +1390,11 @@
     "night-of-the-skys-unveiling": {
         "rarity": 5,
         "version_released": "6.0 / Luna I",
+        "tags": [
+            "em-set",
+            "lunar",
+            "cr"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -1198,6 +1417,11 @@
     "silken-moons-serenade": {
         "rarity": 5,
         "version_released": "6.0 / Luna I",
+        "tags": [
+            "er-set",
+            "em",
+            "lunar"
+        ],
         "2p": {
             "en": "Energy Recharge +20%.",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -1220,6 +1444,10 @@
     "aubade-of-morningstar-and-moon": {
         "rarity": 5,
         "version_released": "6.3 / Luna IV",
+        "tags": [
+            "em-set",
+            "lunar"
+        ],
         "2p": {
             "en": "Increases Elemental Mastery by 80.",
             "fr": "Augmente la maîtrise élémentaire de 80 pts.",
@@ -1242,6 +1470,11 @@
     "a-day-carved-from-rising-winds": {
         "rarity": 5,
         "version_released": "6.3 / Luna IV",
+        "tags": [
+            "atk-set",
+            "cr",
+            "hexerei"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1264,6 +1497,10 @@
     "celestial-gift": {
         "rarity": 5,
         "version_released": "6.6 / Luna VII",
+        "tags": [
+            "er-set",
+            "hexerei"
+        ],
         "2p": {
             "en": "Energy Recharge +20%.",
             "fr": "Augmente la recharge d'énergie de 20 %.",
@@ -1286,6 +1523,11 @@
     "disenchantment-in-deep-shadow": {
         "rarity": 5,
         "version_released": "6.6 / Luna VII",
+        "tags": [
+            "atk-set",
+            "stellar",
+            "cr"
+        ],
         "2p": {
             "en": "ATK +18%.",
             "fr": "Augmente l'ATQ de 18 %.",
@@ -1303,6 +1545,59 @@
             "it": "I DAN da reazione di Superconduzione e Astroconduzione aumentano rispettivamente di un 80% e di un 40%. Quando il personaggio che equipaggia il set sferra un attacco a un avversario affetto da Superconduzione o Astroconduzione, il tasso di CRIT di tale attacco aumenta di un 16%.",
             "ru": "Повышает урон реакции Сверхпроводник на 80%, реакции Звёздный проводник - на 40%. Когда экипированный персонаж атакует врага со статусом Сверхпроводник или Звёздный проводник, шанс крит. попадания данной атаки повышается на 16%.",
             "pt": "Aumenta o Dano de Reação de Supercondutor em 80%. Aumenta o Dano de Supercondutor Estelar em 40%. Quando o portador ataca inimigos afetados por Supercondutor ou Supercondutor Estelar, aumenta a Taxa CRIT desse ataque em 16%."
+        }
+    },
+    "scarlet-proof": {
+        "rarity": 5,
+        "version_released": "7.0",
+        "tags": [
+            "atk-set",
+            "stellar",
+            "cr"
+        ],
+        "2p": {
+            "en": "ATK +18%.",
+            "fr": "Augmente l'ATQ de 18 %.",
+            "de": "Erhöht den ANG um 18 %.",
+            "es": "ATQ +18%.",
+            "it": "ATT +18%.",
+            "ru": "Увеличивает силу атаки на 18%.",
+            "pt": "ATQ +18%"
+        },
+        "4p": {
+            "en": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
+            "fr": "Augmente le taux CRIT du personnage équipé de l'artéfact de 16 % et ses DGT de réaction d'Astrodispersion de 40 % pendant 10 s lorsqu'il a déclenché une réaction d'Astrodispersion.",
+            "de": "Erhöht, wenn der Träger die Reaktion Stellar-Verwirbelung auslöst, seine KT 10 s lang um 16 % und den Schaden durch die Reaktion Stellar-Verwirbelung um 40 %.",
+            "es": "Durante 10 s después de que el portador de este conjunto de artefactos cause una reacción de Torbellino Estelar, su Prob. CRIT aumentará en un 16% y su daño de Torbellino Estelar aumentará en un 40%.",
+            "it": "Per 10 s dopo aver innescato una reazione di Turbinio astrale, il tasso di CRIT e i DAN da reazione di Turbinio astrale inflitti dal personaggio aumentano rispettivamente di u",
+            "ru": "На 10 сек. после того как экипированный персонаж вызывает Звёздное рассеивание, его шанс крит. попадания повышается на 16%, а урон Звёздного рассеивания увеличивается на 40%.",
+            "pt": "Ao desencadear uma Reação de Redemoinho Estelar, aumenta a Taxa CRIT do portador em 16% e o Dano da Reação de Redemoinho Estelar causada por ele em 40% por 10s."
+        }
+    },
+    "heart-of-the-furnace": {
+        "rarity": 5,
+        "version_released": "7.0",
+        "tags": [
+            "atk-set",
+            "stellar"
+        ],
+        "2p": {
+            "en": "ATK +18%.",
+            "fr": "Augmente l'ATQ de 18 %.",
+            "de": "Erhöht den ANG um 18 %.",
+            "es": "ATQ +18%.",
+            "it": "ATT +18%.",
+            "ru": "Увеличивает силу атаки на 18%.",
+            "pt": "ATQ +18%"
+        },
+        "4p": {
+            "en": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack.",
+            "fr": "Pendant 12 s après que le personnage équipé de l'artéfact a déclenché une réaction astrale ou infligé des DGT de réaction astrale, son ATQ augmente de 12 % et les DGT de réaction astrale infligés par tous les personnages de l'équipe à proximité augmentent de 50 %. L'effet ci-dessus peut être déclenché même si le personnage n'est pas déployé, et les effets d'augmentation des DGT accordés par les sets d'artéfacts du même nom ne se cumulent pas.",
+            "de": "Erhöht innerhalb von 12 s, nachdem der Träger eine Stellarfunkeln-Reaktion ausgelöst oder Schaden mit einer solchen verursacht hat, den ANG des Trägers um 12 % und den durch alle Truppenmitglieder in der Nähe mithilfe von Stellarfunkeln-Reaktionen verursachten Schaden um 50 %. Dieser Effekt kann auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet. Die SCH-Bonus-Effekte mehrerer gleicher Artefaktsets sind nicht stapelbar.",
+            "es": "Durante 12 s después de que el portador de este conjunto de artefactos cause una reacción de Destello Estelar o inflija daño de Destello Estelar, su ATQ aumentará en un 12% y el daño de Destello Estelar de todos los personajes cercanos del equipo aumentará en un 50%. Este efecto se puede activar incluso cuando el portador está en tu equipo pero no en uso. Los bonos de daño otorgados por este conjunto de artefactos no se pueden acumular con los de otro conjunto del mismo tipo.",
+            "it": "Quando il personaggio innesca una reazione di Barlume astrale o quando infligge DAN da reazione di Barlume astrale, il suo ATT aumenta di un 12% per 12 s. Inoltre, i DAN da reazione di Barlume astrale inflitti dai membri vicini del gruppo aumentano di un 50%. Gli effetti sopracitati possono attivarsi anche quando il personaggio non è in campo, e i bonus DAN forniti da set di manufatti con lo stesso nome non si accumulano.",
+            "ru": "На 12 сек. после того как экипированный персонаж активирует реакции Звёздного блеска или наносит ими урон, его сила атаки повышается на 12%, а урон реакций Звёздного блеска всех персонажей отряда поблизости увеличивается на 50%. Перечисленные эффекты могут возникнуть, даже если экипированный персонаж не находится на поле боя. Бонусы урона одноимённых наборов артефактов не суммируются.",
+            "pt": "Nos 12s após o portador desencadear Brilho Estelar ou causar Dano de Brilho Estelar, aumenta o ATQ em 12% e o Dano de Brilho Estelar de todos os membros próximos da equipe em 50%. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo. O efeito de bônus de Dano de conjuntos de Artefatos iguais não acumula."
         }
     }
 }

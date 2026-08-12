@@ -20,7 +20,8 @@
 
 .weapon-browser-header {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 0 10px;
 }
 
@@ -28,7 +29,7 @@
   display: inline-flex;
   min-height: 28px;
   align-items: center;
-  margin: 0;
+  margin: 0 0 6px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 3px 8px;
@@ -276,7 +277,7 @@
   outline: none;
 }
 
-.weapon-refinement-button[aria-selected='true'] {
+.weapon-refinement-button[aria-pressed='true'] {
   background: var(--weapon-rarity);
   color: #05080c;
 }
