@@ -1678,13 +1678,13 @@
         "rarity": 5,
         "version_released": "6.7 / Luna VIII",
         "passive": {
-            "en": "ATK increased by {{value}}%.<br>Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct DMG is increased by {{value}}% for 5s. This effect can stack once every 0.2s, max 3 stacks.",
-            "de": "Erhöht den ANG um {{value}}%.<br>Der Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktion Stellar-Supraleiter verursachten Schaden des Trägers 5 s lang um {{value}}%. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2 s.",
-            "es": "El ATQ aumenta en un {{value}}%.<br>Además, cada vez que el portador de esta arma golpee a un enemigo con un Ataque Cargado, obtendrá brevemente el efecto de “trascendencia”, el cual aumenta en un {{value}}% su daño de Superconductor Estelar durante 5 s. Este efecto puede acumularse hasta 3 veces y solo se puede obtener 1 carga cada 0.2 s.",
-            "fr": "Augmente l'ATQ du personnage équipé de l'arme de {{value}}%.<br>De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction de {{value}}% pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
-            "it": "L'ATT aumenta di un {{value}}%.<br>Inoltre, ogni volta che il personaggio che equipaggia l'arma colpisce un avversario con il suo attacco caricato, ottiene per un breve periodo l'effetto Trascendenza, che aumenta i suoi DAN da Astroconduzione di un {{value}}% per 5 s. L'effetto può accumularsi una volta ogni 0,2 s, per un massimo di 3 accumuli.",
-            "ru": "Увеличивает силу атаки на {{value}}%.<br>Также каждый раз после того, как заряженная атака экипированного персонажа поражает противника, персонаж на короткое время получает Превосходство: урон его реакции Звёздный проводник повышается на {{value}}% на 5 сек. Эффект складывается до 3 раз не чаще одного раза в 0,2 сек.",
-            "pt": "Aumenta o ATQ em {{value}}%.<br>Além disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar causado pelo portador em {{value}}% por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s."
+            "en": "ATK is increased by {{value}}%.<br>Additionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by {{value}}% for 5s. This effect can stack once every 0.2s, max 3 stacks.",
+            "de": "Erhöht den ANG um {{value}}%.<br>Der Träger erreicht jedes Mal, wenn er mit seinem heftigen Schlag Gegner trifft, kurzzeitig „Übertreffen“: Erhöht den durch die Reaktionen Stellar-Supraleiter und Stellar-Verwirbelung verursachten Schaden des Trägers 5 s lang um {{value}}%. Dieser Effekt ist 3-fach stapelbar, max. 1-fach alle 0,2 s.",
+            "es": "El ATQ aumenta en un {{value}}%.<br>Además, cada vez que el portador de esta arma golpee a un enemigo con un Ataque Cargado, obtendrá brevemente el efecto de “trascendencia”, el cual aumenta en un {{value}}% su daño de Superconductor Estelar y Torbellino Estelar durante 5 s. Este efecto puede acumularse hasta 3 veces y solo se puede obtener 1 carga cada 0.2 s.",
+            "fr": "Augmente l'ATQ du personnage équipé de l'arme de {{value}}%.<br>De plus, chaque fois que le personnage équipé de l'arme a touché un ennemi avec une attaque chargée, il obtient une transcendance temporaire : augmente ses DGT de réaction d'Astroconduction et de réaction d'Astrodispersion de {{value}}% pendant 5 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,2 s.",
+            "it": "L'ATT aumenta di un {{value}}%.<br>Inoltre, ogni volta che il personaggio che equipaggia l'arma colpisce un avversario con il suo attacco caricato, ottiene per un breve periodo l'effetto Trascendenza, che aumenta i suoi DAN da reazioni di Astroconduzione e Turbinio astrale di un {{value}}% per 5 s. L'effetto può accumularsi una volta ogni 0,2 s, per un massimo di 3 accumuli.",
+            "ru": "Увеличивает силу атаки на {{value}}%.<br>Также каждый раз после того, как заряженная атака экипированного персонажа поражает противника, персонаж на короткое время получает Превосходство: урон его реакций Звёздный проводник и Звёздное рассеивание повышается на {{value}}% на 5 сек. Эффект складывается до 3 раз не чаще одного раза в 0,2 сек.",
+            "pt": "Aumenta o ATQ em {{value}}%.<br>Além disso, toda vez que o Ataque Carregado do portador atingir o inimigo, alcançará temporariamente Transcendência: aumenta o Dano de Supercondutor Estelar e Redemoinho Estelar causado pelo portador em {{value}}% por 5s. Esse efeito pode ser acumulado até 3 vezes, e pode ser acumulado uma vez a cada 0.2s."
         },
         "substat": "cd",
         "level_1": {
@@ -1721,55 +1721,90 @@
         "version_released": "7.0",
         "source": "Craft",
         "passive": {
-            "en": "",
-            "fr": "",
-            "de": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "pt": ""
+            "en": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by {{value}} for 12s, while triggering a Stellar Glimmer reaction increases their ATK by {{value}}% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "fr": "Déclencher une réaction élémentaire augmente la maîtrise élémentaire du personnage équipé de l'arme de {{value}} pts pendant 12 s, et déclencher une réaction astrale augmente son ATQ de {{value}}% pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht innerhalb von 12 s nach dem Auslösen einer Elementarreaktion die Elementarkunde des Trägers um {{value}} Punkte. Erhöht innerhalb von 12 s nach dem Auslösen einer Stellarfunkeln-Reaktion den ANG des Trägers um {{value}}%. Die oben genannten Effekte können auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
+            "es": "Tras causar una Reacción Elemental, la Maestría Elemental del portador de esta arma aumenta en {{value}} pts. durante 12 s. Tras causar una reacción de Destello Estelar, el ATQ del portador aumenta en un {{value}}% durante 12 s. Estos efectos se pueden activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "it": "Innescare una reazione elementale aumenta la maestria elementale del personaggio che equipaggia l'arma di {{value}} per 12 s, mentre innescare una reazione di Barlume astrale ne aumenta l'ATT di un {{value}}% per la medesima durata. Gli effetti sopracitati possono innescarsi anche quando il personaggio non è in campo.",
+            "ru": "На 12 сек. после активации элементальной реакции мастерство стихий экипированного персонажа повышается на {{value}} ед. Активация реакций Звёздного блеска на 12 сек. повышает его силу атаки на {{value}}%. Эффект срабатывает, даже если экипированный персонаж не на поле боя.",
+            "pt": "Nos 12s após desencadear uma Reação Elemental, aumenta a Proficiência Elemental do portador em {{value}}. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em {{value}}%. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
         },
         "substat": "atk%",
         "level_1": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 44,
+            "substat_value": "6.0%"
         },
         "level_max": {
             "base_attack": 565,
             "substat_value": "27.6%"
         },
-        "r1": [],
-        "r2": [],
-        "r3": [],
-        "r4": [],
-        "r5": []
+        "r1": [
+            64,
+            16
+        ],
+        "r2": [
+            80,
+            20
+        ],
+        "r3": [
+            96,
+            24
+        ],
+        "r4": [
+            112,
+            28
+        ],
+        "r5": [
+            128,
+            32
+        ]
     },
     "forged-by-the-golden-melody": {
         "rarity": 4,
         "version_released": "7.0",
         "source": "Battle Pass",
         "passive": {
-            "en": "",
-            "fr": "",
-            "de": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "pt": ""
+            "en": "Every 10s, the equipping character plays a \"Harmonic Movement\" of the corresponding type for a boost in the following order: +{{value}}% ATK > +{{value}} Elemental Mastery > +{{value}}% Stellar Glimmer reaction DMG. Each instance of Harmonic Movement lasts 10s. This effect can trigger even when the equipping character is not on the field.<br>Triggering a Stellar Glimmer reaction will also grant an additional 12-second instance of \"Harmonic Movement: Contrapuntal\" with the same effects as the Harmonic Movement active when Stellar Glimmer is triggered. This effect stacks with the original Harmonic Movement effect, and can trigger once every 12s.",
+            "fr": "Toutes les 10 s, le personnage équipé de l'arme joue un mouvement harmonique correspondant, accordant un bonus dans l'ordre suivant : ATQ +{{value}}%, maîtrise élémentaire +{{value}} pts, puis DGT de réaction astrale +{{value}}%. Chaque mouvement harmonique dure 10 s et peut être déclenché même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.<br>Déclencher une réaction astrale accorde également un mouvement harmonique « Contrapuntique » pendant 12 s, dont l'effet est identique au mouvement harmonique en cours lors du déclenchement de la réaction astrale. Cet effet peut se cumuler avec l'effet du mouvement harmonique d'origine et peut être déclenché une fois toutes les 12 s.",
+            "de": "Alle 10 s spielt der Träger der Reihe nach folgende „Harmonie-Sinfonien“ mit den entsprechenden Effekten: Erhöht den ANG um {{value}}%/Erhöht die Elementarkunde um {{value}} Punkte/Erhöht den durch Stellarfunkeln-Reaktionen verursachten Schaden um {{value}}%. Jeder Sinfonie-Effekt hält 10 s an. Dieser Effekt kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.<br>Verleiht nach dem Auslösen einer Stellarfunkeln-Reaktion zusätzlich eine 12 s andauernde „Harmonie-Sinfonie &ndash; Polyphonie“, die denselben Sinfonie-Effekt hat, der beim Auslösen der Stellarfunkeln-Reaktion gespielt wurde. Dieser Effekt kann mit dem ursprünglichen Sinfonie-Effekt gestapelt werden. 12 s Abklingzeit.",
+            "es": "Cada 10 s, el portador de esta arma interpreta una “serenata armoniosa” que otorga el efecto correspondiente en el siguiente orden: ATQ +{{value}}%/Maestría Elemental +{{value}} pts./daño de reacciones de Destello Estelar +{{value}}%. Cada efecto de la serenata dura 10 s y se puede activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.<br>Tras causar una reacción de Destello Estelar, también otorgará una “serenata armoniosa: polifonía” durante 12 s con el mismo efecto que la serenata que se estaba interpretando al momento de causar la reacción de Destello Estelar. Este efecto se puede acumular con el efecto original de la serenata, y solo se puede activar una vez cada 12 s.",
+            "it": "Ogni 10 s, il personaggio che equipaggia l'arma suona un \"Movimento armonico\" del tipo corrispondente ricevendo un effetto positivo in base al seguente ordine: ATT +{{value}}% > maestria elementale +{{value}} > DAN da Barlume astrale +{{value}}%. Ogni iterazione di Movimento armonico dura 10 s. Quest'effetto può attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.<br>Innescare una reazione di Barlume astrale conferisce anche un'iterazione aggiuntiva di \"Movimento armonico: Contrappuntistico\" della durata di 12 s, con gli stessi effetti del Movimento armonico attivato quando viene innescato Barlume astrale. Quest'effetto si accumula con quello originale, e può attivarsi una volta ogni 12 s.",
+            "ru": "Каждые 10 сек. экипированный персонаж поочерёдно исполняет Гармонический фрагмент, активируя следующие эффекты в таком порядке: повышение силы атаки на {{value}}% > повышение мастерства стихий на {{value}} ед. > повышение урона реакций Звёздного блеска на {{value}}%. Каждый эффект Гармонического фрагмента длится 10 сек. и срабатывает, даже когда экипированный персонаж не на поле боя.<br>Активация реакций Звёздного блеска также дополнительно на 12 сек. наделяет эффектом Гармонический фрагмент: Полифония, аналогичным эффекту Гармонический фрагмент, который действует при активации реакций Звёздного блеска. Этот эффект складывается с исходным Гармоническим фрагментом и может возникнуть один раз в 12 сек.",
+            "pt": "A cada 10s, o portador toca um Movimento Harmônico correspondente na seguinte ordem: aumenta o ATQ em {{value}}%/aumenta a Proficiência Elemental em {{value}}/aumenta o Dano de Brilho Estelar em {{value}}%. Cada efeito de Movimento Harmônico dura 10s, e pode ser desencadeado mesmo quando o portador não for o personagem ativo.<br>Depois de desencadear Brilho Estelar, obtém por 12s \"Movimento Harmônico: Oposto\" com os mesmos efeitos do Movimento Harmônico ativo no momento em que a reação Brilho Estelar foi desencadeada. Esse efeito pode acumular sobre o efeito Movimento Harmônico original, e pode ser desencadeado uma vez a cada 12s."
         },
         "substat": "cr",
         "level_1": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 42,
+            "substat_value": "6.0%"
         },
         "level_max": {
             "base_attack": 510,
             "substat_value": "27.6%"
         },
-        "r1": [],
-        "r2": [],
-        "r3": [],
-        "r4": [],
-        "r5": []
+        "r1": [
+            18,
+            120,
+            28
+        ],
+        "r2": [
+            22.5,
+            150,
+            35
+        ],
+        "r3": [
+            27,
+            180,
+            42
+        ],
+        "r4": [
+            31.5,
+            210,
+            49
+        ],
+        "r5": [
+            36,
+            240,
+            56
+        ]
     }
 }

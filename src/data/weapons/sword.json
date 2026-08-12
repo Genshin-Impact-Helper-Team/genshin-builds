@@ -2083,73 +2083,103 @@
         "version_released": "7.0",
         "source": "Craft",
         "passive": {
-            "en": "",
-            "fr": "",
-            "de": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "pt": ""
+            "en": "Triggering an Elemental Reaction increases the equipping character's ATK by {{value}}% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by {{value}}% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "fr": "Déclencher une réaction élémentaire augmente l'ATQ du personnage équipé de l'arme de {{value}}% pendant 12 s, et déclencher une réaction astrale augmente ses DGT de réaction astrale de {{value}}% pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht innerhalb von 12 s nach dem Auslösen einer Elementarreaktion den ANG des Trägers um {{value}}%. Erhöht innerhalb von 12 s nach dem Auslösen einer Stellarfunkeln-Reaktion den durch den Träger mithilfe der Stellarfunkeln-Reaktion verursachten Schaden um {{value}}%. Die oben genannten Effekte können auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
+            "es": "Tras causar una Reacción Elemental, el ATQ del portador de esta arma aumenta en un {{value}}% durante 12 s. Tras causar una reacción de Destello Estelar, el daño de Destello Estelar del portador aumenta en un {{value}}% durante 12 s. Estos efectos se pueden activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "it": "Innescare una reazione elementale aumenta l'ATT del personaggio che equipaggia l'arma di un {{value}}% per 12 s. Innescare una reazione di Barlume astrale aumenta i DAN inflitti dalle reazioni di Barlume astrale del personaggio di un {{value}}% per 12 s. Gli effetti sopracitati possono attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "На 12 сек. после активации элементальной реакции сила атаки экипированного персонажа повышается на {{value}}%. Активация реакций Звёздного блеска на 12 сек. повышает урон этих реакций, наносимый экипированным персонажем, на {{value}}%. Эффект срабатывает, даже если экипированный персонаж не на поле боя.",
+            "pt": "Nos 12s após desencadear uma reação Elemental, aumenta o ATQ do portador em {{value}}%. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o Dano de reações de Brilho Estelar do portador em {{value}}%. Esse efeito pode ser desencadeado mesmo que o portador não seja o personagem ativo."
         },
         "substat": "em",
         "level_1": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 42,
+            "substat_value": "36"
         },
         "level_max": {
             "base_attack": 510,
             "substat_value": "165"
         },
-        "r1": [],
-        "r2": [],
-        "r3": [],
-        "r4": [],
-        "r5": []
+        "r1": [
+            16,
+            16
+        ],
+        "r2": [
+            20,
+            20
+        ],
+        "r3": [
+            24,
+            24
+        ],
+        "r4": [
+            28,
+            28
+        ],
+        "r5": [
+            32,
+            32
+        ]
     },
     "heretics-molten-blade": {
         "rarity": 4,
         "version_released": "7.0",
         "source": "Battle Pass",
         "passive": {
-            "en": "",
-            "fr": "",
-            "de": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "pt": ""
+            "en": "After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from {{value}}% to {{value}}% based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field.",
+            "fr": "Déclencher une compétence élémentaire accorde l'effet Première Lueur au personnage équipé de l'arme : augmente chaque seconde son ATQ d'une valeur comprise entre {{value}}% et {{value}}% selon la distance qu'il a parcourue pendant la seconde qui vient de s'écouler. Cet effet dure 14 s, peut être déclenché une fois toutes les 14 s et s'annule lorsque le personnage équipé de l'arme quitte le champ de bataille.",
+            "de": "Verleiht dem Träger, nachdem er die Elementarfähigkeit angewendet hat, „Sich im Auge spiegelndes Licht“: Zeichnet während der Wirkungsdauer die zurückgelegte Bewegungsdistanz des Trägers auf und verleiht ihm jede Sekunde basierend auf der in der vorherigen Sekunde aufgezeichneten Bewegungsdistanz einen ANG-Bonus von mindestens {{value}}% bis max. {{value}}%. Dieser Effekt hält 14 s an, hat eine Abklingzeit von 14 s und wird beim Auswechseln der Figur entfernt.",
+            "es": "Cuando el portador de esta arma usa su Habilidad Elemental, obtiene el efecto de “destello de la primera luz”. Mientras este efecto esté activo, cada segundo se registrará la distancia recorrida por el portador y se le otorgará entre un {{value}}% y un {{value}}% de Bono de ATQ en función de la distancia que haya recorrido en el segundo anterior. Este efecto dura 14 s, puede activarse una vez cada 14 s y se eliminará cuando el portador de esta arma se retire de combate.",
+            "it": "Quando il personaggio che equipaggia l'arma utilizza la propria abilità elementale, ottiene l'effetto \"Visione dell'alba\". Mentre è attivo, l'effetto monitora la distanza percorsa. Ogni secondo, il personaggio che equipaggia l'arma ottiene un bonus ATT compreso tra un {{value}}% e un {{value}}% in base alla distanza percorsa nell'ultimo secondo. L'effetto dura 14 s, può essere attivato una volta ogni 14 s e viene rimosso quando il personaggio lascia il campo.",
+            "ru": "Экипированный персонаж после применения элементального навыка получает Луч первого света: каждую секунду, согласно расстоянию, пройденному экипированным персонажем за последнюю секунду во время действия эффекта, он получает бонус атаки от {{value}}% до {{value}}%. Эффект длится 14 сек., может возникнуть один раз в 14 сек. и исчезает, когда экипированный персонаж покидает поле боя.",
+            "pt": "Depois que o portador lança a Habilidade Elemental, obtém Brilho da Primeira Luz: registra a distância percorrida pelo portador. A cada segundo, com base na distância percorrida no último segundo, o portador ganha um Bônus de ATQ mínimo de {{value}}% e máximo de {{value}}%. Esse efeito dura 14s, pode ser desencadeado uma vez a cada 14s e será removido quando o portador deixar de ser o personagem ativo."
         },
         "substat": "cr",
         "level_1": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 42,
+            "substat_value": "6.0%"
         },
         "level_max": {
             "base_attack": 510,
             "substat_value": "27.6%"
         },
-        "r1": [],
-        "r2": [],
-        "r3": [],
-        "r4": [],
-        "r5": []
+        "r1": [
+            18,
+            36
+        ],
+        "r2": [
+            22.5,
+            45
+        ],
+        "r3": [
+            27,
+            54
+        ],
+        "r4": [
+            31.5,
+            63
+        ],
+        "r5": [
+            36,
+            72
+        ]
     },
     "whitelake-frostfeather": {
         "rarity": 5,
         "version_released": "7.0",
         "passive": {
-            "en": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by {{value}}% for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent.<br>At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by {{value}}%, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore {{value}} Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s.<br>This effect can be triggered even when the equipping character is off-field.",
-            "fr": "",
-            "de": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "pt": ""
+            "en": "When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by {{value}}% for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by {{value}}%, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore {{value}} Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field.",
+            "fr": "Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire, il obtient l'effet Lamentation lacustre : augmente l'ATQ de {{value}}% pendant 8 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,1 s, la durée de chaque cumul étant calculée de façon indépendante. Avec 3 cumuls, les DGT CRIT des réactions astrales déclenchées par le personnage équipé de l'arme augmentent de {{value}}% et il récupère {{value}} pts d'énergie élémentaire lorsqu'il déclenche une réaction astrale ou inflige des DGT avec une réaction astrale, cette récupération d'énergie élémentaire pouvant être déclenchée une fois toutes les 3,5 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Verleiht dem Träger, wenn dieser einen Gegner mit der Elementarfähigkeit trifft, „Klage der Seefarbe“: Erhöht den ANG 8 s lang um {{value}}%, bis zu 3-fach stapelbar, 0,1 s Abklingzeit. Die Wirkungsdauer jeder Stapelung ist unabhängig. Erhöht bei 3 vorhandenen Stapelungen den Kritischen Schaden durch die Stellarfunkeln-Reaktion des Trägers um {{value}}%. Stellt beim Auslösen der Stellarfunkeln-Reaktion oder Verursachen von Schaden damit dem Träger zudem {{value}} Punkte Elementarenergie wieder her. Der oben genannte Wiederherstellungseffekt hat eine Abklingzeit von 3,5 s und kann auch ausgelöst werden, wenn der Träger inaktiv ist.",
+            "es": "Cuando el portador de esta arma golpea a un enemigo con su Habilidad Elemental, obtiene el efecto de “súplica lacustre”, el cual aumenta el ATQ en un {{value}}% durante 8 s. Este efecto puede acumularse hasta 3 veces, solo puede activarse una vez cada 0.1 s y la duración de cada acumulación se calcula de forma independiente. Al tener 3 acumulaciones, el Daño CRIT de la reacción de Destello Estelar del portador de esta arma aumenta en un {{value}}%, y al causar una reacción de Destello Estelar o infligir daño de Destello Estelar, el portador recupera {{value}} pts. de Energía Elemental. La recuperación de Energía Elemental solo podrá ocurrir una vez cada 3.5 s. Los efectos anteriores se pueden activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "it": "Quando il personaggio che equipaggia l'arma colpisce un avversario con l'abilità elementale, ottiene l'effetto \"Lamento color lago\", che aumenta l'ATT di un {{value}}% per 8 s. Questo effetto può innescarsi una volta ogni 0,1 s e accumularsi fino a 3 volte, con ciascun accumulo conteggiato in modo indipendente. Quando il numero di accumuli raggiunge 3, i DAN da CRIT inflitti da qualsiasi reazione di Barlume astrale del personaggio che equipaggia l'arma aumentano di un {{value}}%. Inoltre, il suddetto personaggio ripristina {{value}} di energia elementale quando innesca reazioni di Barlume astrale o infligge DAN da Barlume astrale. Quest'ultimo effetto può attivarsi una volta ogni 3,5 s, anche se il personaggio non è in campo.",
+            "ru": "Когда элементальный навык экипированного персонажа поражает врага, активируется эффект Скорбь цвета озёрной воды: сила атаки увеличивается на {{value}}% на 8 сек. Эффект складывается до 3 раз и возникает не чаще одного раза в 0,1 сек. Длительность каждого уровня рассчитывается отдельно. Когда количество уровней достигает 3, крит. урон реакций Звёздного блеска, наносимый экипированным персонажем, повышается на {{value}}%, а активация реакций Звёздного блеска или нанесение их урона также восстанавливает экипированному персонажу {{value}} ед. энергии. Такой эффект восстановления энергии может возникнуть один раз в 3,5 сек. Эффекты выше срабатывают, даже если экипированный персонаж не на поле боя.",
+            "pt": "Quando a Habilidade Elemental do portador atinge um inimigo, obtém Lamento da Cor do Lago: aumenta o ATQ em {{value}}% por 8s. Acumula até 3 vezes. Pode ser desencadeado uma vez a cada 0.1s. A duração de cada acúmulo é contada separadamente. Ao possuir 3 acúmulos, aumenta o Dano CRIT da reação de Brilho Estelar do portador em {{value}}%, e ao desencadear Brilho Estelar ou causar Dano de Brilho Estelar, regenera {{value}} de Energia Elemental para o portador. Esse efeito de regeneração pode ser desencadeado uma vez a cada 3.5s. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
         },
         "substat": "cr",
         "level_1": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 48,
+            "substat_value": "4.8%"
         },
         "level_max": {
             "base_attack": 674,
@@ -2161,24 +2191,24 @@
             4
         ],
         "r2": [
-            "-",
-            "-",
-            "-"
+            10,
+            65,
+            4.5
         ],
         "r3": [
-            "-",
-            "-",
-            "-"
+            12,
+            80,
+            5
         ],
         "r4": [
-            "-",
-            "-",
-            "-"
+            14,
+            95,
+            5.5
         ],
         "r5": [
-            "-",
-            "-",
-            "-"
+            16,
+            110,
+            6
         ]
     },
     "exaiphanes-blade": {
@@ -2186,43 +2216,37 @@
         "version_released": "7.0",
         "source": "Exploration",
         "passive": {
-            "en": "When the Traveler equips this, their CRIT DMG increases by {{value}}% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by {{value}}% for {{value}}s, and regenerate {{value}} Elemental Energy, after they attack and hit an opponent. This effect can trigger once every {{value}}s. This can be triggered even when the character is not on the field.",
-            "fr": "",
-            "de": "",
-            "es": "",
-            "it": "",
-            "ru": "",
-            "pt": ""
+            "en": "When the Traveler equips this, their CRIT DMG increases by {{value}}% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by {{value}}% for 8s, and regenerate {{value}} Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field.",
+            "fr": "Lorsque le voyageur équipe ceci, ses DGT CRIT augmentent de {{value}}% pour chaque élément avec lequel il est entré en résonance. De plus, son ATQ augmente de {{value}}% pendant 8 s et il récupère {{value}} pts d'énergie élémentaire lorsque son attaque a touché un ennemi. Cet effet peut être déclenché une fois toutes les 5 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht nach dem Ausrüsten durch den Reisenden den Kritischen Schaden für jedes Element, für das elementarer Einklang bestand, um {{value}}%. Erhöht zudem, nachdem der Reisende einen Gegner mit einem Angriff getroffen hat, den ANG 8 s lang um {{value}}% und stellt dem Reisenden {{value}} Punkte Elementarenergie wieder her, 5 s Abklingzeit. Der Effekt kann auch noch ausgelöst werden, wenn die Figur inaktiv in der Truppe ist.",
+            "es": "Cuando el Viajero lleva esta arma equipada, su Daño CRIT aumenta en un {{value}}% por cada elemento con el que haya resonado. Además, cuando el Viajero golpea a un enemigo con un ataque, su ATQ aumenta en un {{value}}% durante 8 s y recupera {{value}} pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 5 s y se puede activar incluso cuando el personaje está en tu equipo pero no en uso.",
+            "it": "Quando il viaggiatore equipaggia quest'arma, i DAN da CRIT aumentano di un {{value}}% per ogni elemento con cui ha risuonato. In più, il suo ATT aumenta di un {{value}}% per 8 s dopo che ha colpito un avversario; allo stesso tempo, la sua energia elementale si ripristina di {{value}}. Quest'effetto può attivarsi una volta ogni 5 s, anche quando il personaggio non si trova in campo.",
+            "ru": "За каждый элемент, с которым экипированный путешественник вступает в резонанс, его крит. урон повышается на {{value}}%. Кроме того,экипированный путешественник, поражая противника своей атакой, повышает свою силу атаки на {{value}}% на 8 сек. и восстанавливает себе {{value}} ед. энергии. Эффект может возникнуть один раз в 5 сек. и срабатывает, даже когда персонаж не на поле боя.",
+            "pt": "Quando o Viajante equipar, seu Dano CRIT aumenta em {{value}}% para cada Elemento com o qual ele ressoou. Além disso, quando o ataque do Viajante atinge um inimigo, aumenta seu ATQ em {{value}}% por 8s, e regenera {{value}} de Energia Elemental para o Viajante. Esse efeito pode ser desencadeado uma vez a cada 5s. Pode ser ativado mesmo quando o personagem não está em campo."
         },
         "substat": "cr",
         "level_1": {
-            "base_attack": 0,
-            "substat_value": "-"
+            "base_attack": 46,
+            "substat_value": "7.2%"
         },
         "level_max": {
             "base_attack": 608,
             "substat_value": "33.1%"
         },
         "r1": [
-            6,
-            24,
-            8,
-            5,
-            5
+            0,
+            16,
+            3
         ],
         "r2": [
-            "-",
-            "-",
-            "-",
-            "-",
-            "-"
+            6,
+            20,
+            3
         ],
         "r3": [
-            "-",
-            "-",
-            "-",
-            "-",
-            "-"
+            6,
+            24,
+            5
         ],
         "r4": [
             "-",
