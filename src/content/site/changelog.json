@@ -8,6 +8,11 @@
                     "date": "August 12, 2026",
                     "changes": "Updated Yae Miko's Stellar-Conduct Off-Field DPS section with Odette in the team and new weapons.",
                     "appliedBy": "Plo"
+                },
+                {
+                    "date": "August 12, 2026",
+                    "changes": "Removed some older builds that werent relevant anymore:\nXinyan Physical DPS / Xinyan Pyro DPS / Heizou Reaction DPS / Kuki Aggravate DPS / Bennett DPS / Lan Yan Driver.",
+                    "appliedBy": "Plo"
                 }
             ]
         },
