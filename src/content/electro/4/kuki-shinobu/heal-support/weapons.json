@@ -7,6 +7,7 @@
                     "note": {
                         "en": "The passive lets her provide energy to the rest of the team. **A [[stat:cr]] circlet or substats should be considered to reliably trigger the passive**.",
                         "fr": "Le passif lui permet d'offrir de l'énergie au reste de l'équipe. **Un diadème [[stat:cr]] ou des substats doivent être considérées pour permettre de déclencher le passif à coup sûr**.",
+                        "it": "La passiva fornisce energia al team. Una **corona e/o stat secondarie [[stat:cr]]dovrebbero essere considerate per attivare la passiva in maniera affidabile**.",
                         "ru": "Пассивная способность позволяет обеспечивать отряд энергией, но для стабильной ее работы может потребоваться корона на Шанс крит. попадания или его большое количество в сабстатах."
                     }
                 }
@@ -19,6 +20,7 @@
                     "note": {
                         "en": "In teams where [[character:kuki-shinobu]] **can reliably trigger reactions**, the teamwide buff from this weapon can make it preferable over **[[weapon:favonius-sword]]**.",
                         "fr": "Dans les équipes où [[character:kuki-shinobu]] **va forcément déclencher des réactions**, le buff pour toute l'équipe de cette arme peut la rendre préférable à **[[weapon:favonius-sword]]**.",
+                        "it": "In team in cui [[character:kuki-shinobu]] **provoca reazioni in maniera affidabile**, il potenziamento al team fornito da quest'arma può renderla preferibile a **[[weapon:favonius-sword]]**.",
                         "ru": "В отрядах, где Куки может постоянно вызывать реакции, Клятва за счет своей Пассивной способности может быть полезнее Меча Фавония."
                     }
                 },
@@ -27,6 +29,7 @@
                     "note": {
                         "en": "**Highest possible healing** in exchange for **weaker utility**. Worth considering in teams that **can't reliably trigger reactions for [[weapon:freedom-sworn]]** or **don't need extra energy particles from [[weapon:favonius-sword]]**.",
                         "fr": "**Le plus haut montant possible de soin** en échange de **commodités plus faibles**. Cette option vaut le coup d'être considérée dans les équipes qui **ne peuvent pas déclencher de réactions pour [[weapon:freedom-sworn]]** ou **ne nécéssitent pas de particules supplémentaires avec [[weapon:favonius-sword]]**.",
+                        "it": "Fornisce la **massima cura ma ha minore utilità**. Vale la pena considerarla in team in cui Kuki non riesce a provocare reazioni in maniera affidabile per attivare **[[weapon:freedom-sworn]]** o non necessitano dell'Energia dalla **[[weapon:favonius-sword]]**.",
                         "ru": "Значительно увеличивает лечение Куки, но не слишком полезен в целом. Рекомендуется в командах, где невозможно стабильно вызывать реакции для Клятвы свободы или при отсутствии нужды в частицах от Меча Фавония."
                     }
                 }
@@ -39,6 +42,7 @@
                     "note": {
                         "en": "Similarly to **[[weapon:key-of-khaj-nisut]]**, this weapon trades utility for stronger healing.",
                         "fr": "De la même façon que **[[weapon:key-of-khaj-nisut]]**, cette arme échange les commodités pour un soin plus important.",
+                        "it": "Analogamente a **[[weapon:key-of-khaj-nisut]]**, quest'arma sacrifica utilità in cambio di cure più potenti.",
                         "ru": "Так же, как и Ключ Хадж-нисут, увеличивает лечение в ущерб иным возможным бонусам."
                     }
                 }

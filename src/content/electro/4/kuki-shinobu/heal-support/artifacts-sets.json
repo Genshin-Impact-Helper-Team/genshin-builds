@@ -22,6 +22,7 @@
                             "note": {
                                 "en": "When using this set, make sure to build enough [[stat:er]] to cast [[ability:burst]] off cooldown and keep good uptime on this set's passive.",
                                 "fr": "Lorsque vous jouez ce set, faites attention à bien avoir assez de [[stat:er]] pour pouvoir relancer l'[[ability:burst]] dès la fin du TdR et garder un bon uptime sur l'effet du 4P.",
+                                "it": "Quando usi questo set, fai in modo di avere abbastanza [[stat:er]] per utilizzare il [[ability:burst]] di Kuki alla fine del tempo di ricarica per mantenere un buon tempo di funzionamento dell'effetto di questo set.",
                                 "ru": "Используя этот набор, убедитесь, что имеете достаточный уровень ВЭ для использования Взрыва стихии по откату."
                             }
                         }
@@ -39,6 +40,7 @@
                             "note": {
                                 "en": "Can be a cheap alternative on teams where the extra [[stat:atk%]] buff from **[[set:tenacity-of-the-millelith]] (4) or [[set:noblesse-oblige]] (4)** is not as useful.",
                                 "fr": "Peut être une alternative a faible coût dans les équipes où le buff d'[[stat:atk%]] de **[[set:tenacity-of-the-millelith]] (4) ou [[set:noblesse-oblige]] (4)** n'est pas si utile que ça.",
+                                "it": "Può essere un'alternativa economica in situazioni in cui il potenziamento di [[stat:atk%]] di **[[set:tenacity-of-the-millelith]] (4) o [[set:noblesse-oblige]] (4)** non è altrettanto utile.",
                                 "ru": "Недорогой вариант в случаях, когда бонус Стойкости Миллелита или Церемонии древней знати не слишком полезен."
                             }
                         },
@@ -48,6 +50,7 @@
                             "note": {
                                 "en": "Can be a cheap alternative on teams where the extra [[stat:atk%]] buff from **[[set:tenacity-of-the-millelith]] (4) or [[set:noblesse-oblige]] (4)** is not as useful.",
                                 "fr": "Peut être une alternative a faible coût dans les équipes où le buff d'[[stat:atk%]] de **[[set:tenacity-of-the-millelith]] (4) ou [[set:noblesse-oblige]] (4)** n'est pas si utile que ça.",
+                                "it": "Può essere un'alternativa economica in situazioni in cui il potenziamento di [[stat:atk%]] di **[[set:tenacity-of-the-millelith]] (4) o [[set:noblesse-oblige]] (4)** non è altrettanto utile.",
                                 "ru": "Недорогой вариант в случаях, когда бонус Стойкости Миллелита или Церемонии древней знати не слишком полезен."
                             }
                         }
@@ -65,6 +68,7 @@
                             "note": {
                                 "en": "Provides a decent amount of extra damage on a full healing build.",
                                 "fr": "Offre un montant de dégâts correct sur un build entièrement centré autour du soin.",
+                                "it": "Fornisce una buona quantità di danni in una build concentrata esclusivamente sulla cura.",
                                 "ru": "В сборке с упором на лечение Пузырь может наносить приличный дополнительный урон."
                             }
                         }

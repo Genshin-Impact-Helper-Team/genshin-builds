@@ -3,9 +3,7 @@
         {
             "name": "er",
             "note": {
-                "en": "Prioritize first until you can [[ability:burst]] off cooldown",
-                "fr": "A prioriser jusqu'à pouvoir [[ability:burst]] dès la fin du TdR",
-                "ru": "[[note:er-req]]."
+                "en": "[[note:er-req]]."
             }
         },
         "cr/cd",

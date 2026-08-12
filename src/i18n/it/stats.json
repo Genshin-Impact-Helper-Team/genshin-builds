@@ -11,6 +11,7 @@
     "cr": "Tasso di CRIT",
     "cr/cd": "Tasso di CRIT / DAN da CRIT",
     "healing-bonus": "Bonus di Guarigione",
+    "elemental-res": "RES elementale",
     "em-set": "Set +80 Maestria Elementale",
     "def-set": "Set +30% DIF",
     "atk-set": "Set +18% ATT",
