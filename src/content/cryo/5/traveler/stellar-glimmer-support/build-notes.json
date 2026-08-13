@@ -2,7 +2,9 @@
     "name": {
         "en": "Steller-Glimmer DPS",
     }
+    "notes": [
         {
             "en": "[[character:traveler]] can enable and support other Stellar-Glimmer teams and deal a respectable amount of damage with their [[ability:burst]]."
         }
+    ]
 }
