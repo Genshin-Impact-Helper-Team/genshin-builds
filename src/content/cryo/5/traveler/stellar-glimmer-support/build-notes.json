@@ -1,10 +1,12 @@
 {
     "name": {
-        "en": "[[element:stellar-glimmer]] Support"
+        "en": "[[element:stellar-glimmer]] Support",
+        "fr": "Support [[element:stellar-glimmer]]"
     },
     "notes": [
         {
-            "en": "[[character:traveler]] can enable and support other [[element:stellar-glimmer]] teams and deal a respectable amount of damage with their [[ability:burst]]."
+            "en": "[[character:traveler]] can enable and support other [[element:stellar-glimmer]] teams and deal a respectable amount of damage with their [[ability:burst]].",
+            "fr": "Le [[character:traveler]] permet de déclencher les [[element:stellar-glimmer]] dans différentes équipes et d'infliger des dégâts convenables grâce à son [[ability:burst]]."
         }
     ]
 }

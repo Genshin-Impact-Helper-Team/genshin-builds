@@ -1,11 +1,12 @@
 {
     "name": {
         "en": "[[element:stellar-glimmer]] DPS"
+        ,"fr": "DPS [[element:stellar-glimmer]]"
     },
     "best": true,
     "notes": [
         {
-            "en": "[[character:traveler]] is a DPS character that deals damage by using their enhanced [[ability:ca]], and [[ability:burst]] do the majority of their damage. Because of the [[ability:burst]]'s stacking mechanic, make sure you fill up the snowflake icon from their [[ability:skill]] before using their [[ability:burst]]."
+            "en": "[[character:traveler]] is a DPS who deals most of their damage through their enhanced [[ability:ca]] and [[ability:burst]]. Because of the [[ability:burst]]'s stacking mechanic, make sure you fill up the snowflake icon from their [[ability:skill]] before using their [[ability:burst]]."
         }
     ],
     "global": [
