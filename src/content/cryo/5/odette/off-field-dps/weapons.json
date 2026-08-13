@@ -9,7 +9,6 @@
             "items": [
                 {
                     "name": "whitelake-frostfeather",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes max stacks."
                     }
@@ -20,21 +19,18 @@
             "items": [
                 {
                     "name": "azurelight",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes 80% uptime on the ATK% buff."
                     }
                 },
                 {
                     "name": "primordial-jade-cutter",
-                    "refinement": 1,
                     "note": {
                         "en": "Easily overcapped on crit rate."
                     }
                 },
                 {
                     "name": "absolution",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes no Bond of Life."
                     }
@@ -45,14 +41,12 @@
             "items": [
                 {
                     "name": "uraku-misugiri",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes no Geo DMG."
                     }
                 },
                 {
                     "name": "light-of-foliar-incision",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes no infusion."
                     }
@@ -64,12 +58,10 @@
                     }
                 },
                 {
-                    "name": "haran-geppaku-futsu",
-                    "refinement": 1
+                    "name": "haran-geppaku-futsu"
                 },
                 {
-                    "name": "lightbearing-moonshard",
-                    "refinement": 1
+                    "name": "lightbearing-moonshard"
                 },
                 {
                     "name": "splendor-of-tranquil-waters",
@@ -79,7 +71,6 @@
                 },
                 {
                     "name": "athame-artis",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes the passive is not active."
                     }
@@ -90,7 +81,6 @@
             "items": [
                 {
                     "name": "summit-shaper",
-                    "refinement": 1,
                     "note": {
                         "en": "Assumes unshielded."
                     }
@@ -115,8 +105,7 @@
             "items": [
                 "aquila-favonia",
                 {
-                    "name": "freedom-sworn",
-                    "refinement": 1
+                    "name": "freedom-sworn"
                 }
             ]
         },
@@ -124,7 +113,6 @@
             "items": [
                 {
                     "name": "wolf-fang",
-                    "refinement": 1,
                     "note": {
                         "en": "Easily overcapped on crit rate."
                     }
