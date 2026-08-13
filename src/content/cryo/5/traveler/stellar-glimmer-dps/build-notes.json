@@ -1,13 +1,13 @@
 {
     "name": {
-        "en": "Stellar-Glimmer DPS",
-    }
+        "en": "Stellar-Glimmer DPS"
+    },
     "best": true,
     "notes": [
         {
             "en": "[[character:traveler]] is a DPS character that deals damage by entering using their [[ability:skill]], then their enhanced [[ability:ca]], and [[ability:burst]] do the majority of the damage. Because of the [[ability:burst]]'s stacking mechanic, make sure you fill up the snowflake icon before using [[character:traveler]]'s [[ability:burst]]."
-        },
-            ],
+        }
+    ],
     "global": [
         {
             "author": "Quincy",
