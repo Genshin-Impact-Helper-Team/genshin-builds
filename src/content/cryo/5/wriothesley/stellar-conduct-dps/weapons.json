@@ -22,23 +22,23 @@
         },
         {
             "items": [
-                "vivid-notions",
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "The ranking assumes [[character:wriothesley]] is being shielded."
+                        "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**."
                     }
-                }
+                },
+                "vivid-notions"
             ]
         },
         {
             "items": [
                 "lost-prayer-to-the-sacred-winds",
-                "angelos-heptades",
                 {
                     "name": "echoes-of-the-heart",
                     "refinement": 5
                 },
+                "angelos-heptades",
                 "tulaytullahs-remembrance",
                 "kaguras-verity"
             ]
@@ -46,17 +46,13 @@
         {
             "items": [
                 "tome-of-the-eternal-flow",
-                "surfs-up"
+                "surfs-up",
+                "skyward-atlas"
             ]
         },
         {
             "items": [
-                "skyward-atlas",
-                "cranes-echoing-call"
-            ]
-        },
-        {
-            "items": [
+                "cranes-echoing-call",
                 "starcallers-watch"
             ]
         },
@@ -68,9 +64,15 @@
         {
             "items": [
                 {
+                    "name": "sacrificial-jade",
+                    "note": {
+                        "en": "**At [R5]**, this option performs closer to [[weapon:starcallers-watch]]."
+                    }
+                },
+                {
                     "name": "the-widsith",
                     "note": {
-                        "en": "**At [R5]**, this option is closer to [[weapon:starcallers-watch]]."
+                        "en": "**At [R5]**, this option performs closer to [[weapon:starcallers-watch]]."
                     }
                 }
             ]

@@ -17,8 +17,11 @@
                 {
                     "items": [
                         {
-                            "name": "MH",
-                            "pieces": 4
+                            "name": "blizzard-strayer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This ranking assumes the [[element:freeze]] passive is inactive."
+                            }
                         }
                     ]
                 }
@@ -29,11 +32,8 @@
                 {
                     "items": [
                         {
-                            "name": "blizzard-strayer",
-                            "pieces": 4,
-                            "note": {
-                                "en": "This ranking assumes the [[element:freeze]] passive is inactive."
-                            }
+                            "name": "MH",
+                            "pieces": 4
                         }
                     ]
                 }
