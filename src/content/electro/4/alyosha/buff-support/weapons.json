@@ -18,10 +18,14 @@
             ]
         },
         {
-            "name": "favonius-lance",
-            "note": {
-                "en": "[[note:favo]]."
-            }
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "[[note:favo]]."
+                    }
+                }
+            ]
         },
         {
             "items": [
