@@ -1,0 +1,106 @@
+{
+  "artifact_sets": [
+    {
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "heart-of-the-furnace",
+              "pieces": 4,
+              "note": {
+                "en": "Use if the [[stat:er]] requirement is high."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "nymphs-dream",
+              "pieces": 4
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "name": "a-day-carved-from-rising-winds",
+              "pieces": 4
+            }
+          ]
+        },
+        {
+          "choose": true,
+          "items": [
+            {
+              "name": "noblesse-oblige",
+              "pieces": 2
+            },
+            {
+              "name": "hydro-dmg-set",
+              "pieces": 2
+            },
+            {
+              "name": "atk-set",
+              "pieces": 2
+            },
+            {
+              "name": "emblem-of-severed-fate",
+              "pieces": 2
+            }
+          ]
+        },
+        {
+          "choices": [
+            {
+              "items": [
+                {
+                  "name": "noblesse-oblige",
+                  "pieces": 2
+                },
+                {
+                  "name": "cryo-set",
+                  "pieces": 2
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "name": "atk-set",
+                  "pieces": 2
+                },
+                {
+                  "name": "em-set",
+                  "pieces": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditional": [
+    {
+      "items": [
+        {
+          "name": "blizzard-strayer",
+          "pieces": 4,
+          "note": {
+            "en": "Only useful when the enemy can stay Frozen."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "en": "This ranking assumes the team can maintain the required aura."
+    }
+  ]
+}
