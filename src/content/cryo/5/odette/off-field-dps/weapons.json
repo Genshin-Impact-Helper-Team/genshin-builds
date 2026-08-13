@@ -1,9 +1,4 @@
 {
-    "notes": [
-        {
-            "en": "Lvl 90 T9/9/9 - 4 Plume procs & 3 Wings procs in 15s rotation, Assumed 7 Stellar Conduct stacks."
-        }
-    ],
     "weapons": [
         {
             "items": [
@@ -17,16 +12,11 @@
         },
         {
             "items": [
-                {
-                    "name": "azurelight",
-                    "note": {
-                        "en": "Assumes 80% uptime on the ATK% buff."
-                    }
-                },
+                "azurelight",
                 {
                     "name": "primordial-jade-cutter",
                     "note": {
-                        "en": "Ranking assumes you can manage to not overcapped on crit rate, which is extremely unlikely."
+                        "en": "Ranking assumes you can manage to not overcap on [[stat:cr]], which is extremely unlikely."
                     }
                 },
                 "absolution"
@@ -47,7 +37,7 @@
                 {
                     "name": "exaiphanes-blade",
                     "note": {
-                        "en": "You would generally rather use this on the Traveller, would only be a consideration if it is not being occupied."
+                        "en": "You would generally rather use this on the [[character:traveler]], would only be a consideration if it is not being occupied."
                     }
                 },
                 "athame-artis"
@@ -58,21 +48,21 @@
                 {
                     "name": "summit-shaper",
                     "note": {
-                        "en": "Ranking unshielded."
+                        "en": "Ranking assumes [[character:odette]] is unshielded."
                     }
                 },
                 {
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes the [[ability:bol]] has been cleared, if [[ability:bol]] is not cleared, this weapon performs as good as [[weapon:wolf-fang]] R1."
+                        "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs as good as **[[weapon:wolf-fang]] [R1]**."
                     }
                 },
                 {
                     "name": "emberwell",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes both halves of the passive are active, if you can not trigger reactions with odette, this weapon is majorly worse than most other options."
+                        "en": "Ranking assumes both halves of the passive are active. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options."
                     }
                 }
             ]
@@ -88,7 +78,7 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "Easily overcapped on crit rate."
+                        "en": "Easily overcapped on [[stat:cr]]."
                     }
                 }
             ]

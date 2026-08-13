@@ -1,73 +1,91 @@
 {
-  "artifact_sets": [
-    {
-      "groups": [
+    "artifact_sets": [
         {
-          "items": [
-            {
-              "name": "heart-of-the-furnace",
-              "pieces": 4,
-              "note": {
-                "en": "Generally one of her best option if the team does not have other suitable holders."
-              }
-            }
-          ]
-        }
-      ]
-    },
-      {
-      "groups": [
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "heart-of-the-furnace",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Generally one of her best option if the team does not have other suitable holders."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "items": [
-            {
-              "name": "disenchantment-in-deep-shadow",
-              "pieces": 4,
-              "note": {
-                "en": "A more damage oriented set, usually optimal if the team already have a good HotF user"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-  "groups": [
-    {
-      "items": [{ "name": "blizzard-strayer", "pieces": 4, "note": {
-                "en": "A good option if you already have a set on standby, usually only providing only half of the passive. Do note that you can run into crit rate overcap problems with this set"
-              }}]
-    },
-    {
-      "items": [{ "name": "millelith", "pieces": 4, "note": {
-                "en": "Can be an option if her DPS share is low"
-              } }]
-    }
-  ]
-},
-    {
-      "groups": [
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "disenchantment-in-deep-shadow",
+                            "pieces": 4,
+                            "note": {
+                                "en": "A more damage oriented set, usually optimal if the team already have a good [[set:hotf]] user."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "items": [
-            {
-              "name": "rising-winds",
-              "pieces": 4,
-              "note": {
-                "en": "A generalist ATK% set that is reliably buffing herself due to its ability to work off-field"
-              }
-            }
-          ]
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "A good option if you already have a set on standby, usually only providing only half of the passive. Do note that you can run into [[stat:cr]] overcap problems with this set."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Can be an option if her DPS share is low"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "rising-winds",
+                            "pieces": 4,
+                            "note": {
+                                "en": "A generalist [[stat:atk%]] set that is reliably buffing herself due to its ability to work off-field"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-{
-  "groups": [
-    {
-      "items": [
-        { "name": "atk-set", "pieces": 2 },
-        { "name": "atk-set", "pieces": 2 }
-      ]
-    }
-  ]
+    ]
 }
-  ]
-    }

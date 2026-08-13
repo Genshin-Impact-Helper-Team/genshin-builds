@@ -1,13 +1,7 @@
 {
-  "substats_priority": [
-    {
-      "name": "cr/cd",
-      "note": {
-        "en": "Prioritize until your ratio is stable.",
-        "fr": "Priorisez jusqu'a ce que votre ratio soit stable."
-      }
-    },
-   "atk%",
-   "em"
-  ]
+    "substats_priority": [
+        "cr/cd",
+        "atk%",
+        "em"
+    ]
 }

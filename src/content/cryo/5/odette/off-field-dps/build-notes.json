@@ -5,10 +5,19 @@
     "best": true,
     "notes": [
         {
-            "en": "Odette is primarily played as an off-field support in Stellar-Glimmer teams. She casts her Elemental Skill, follows up with its second cast to activate her Solo Dance Double's Stellar Glimmer attacks, and then swaps off-field. While off-field, her Solo Dance Double continuously deals Cryo and Stellar Glimmer damage every 2s, maintains consistent Cryo application, and enables Stellar-Conduct or Stellar-Swirl for the on-field character. Odette requires very little field time outside of refreshing her Skill, making her an excellent enabler for teammates that demand extended on-field presence. Her Elemental Burst is generally used when available for its additional damage and utility but is secondary to maintaining Skill uptime and the Solo Dance Double. "
+            "en": "Odette is primarily played as an off-field support in [[element:stellar-glimmer]] teams. She casts her [[ability:skill]], follows up with its second cast to activate her Solo Dance Double's [[element:stellar-glimmer]] attacks, and then swaps off-field. While off-field, her Solo Dance Double continuously deals [[element:cryo]] and [[element:stellar-glimmer]] damage every 2s, maintains consistent [[element:cryo]] application, and enables [[element:stellar-conduct]] or [[element:stellar-swirl]] for the on-field character. [[character:odette]] requires very little field time outside of refreshing her [[ability:skill]], making her an excellent enabler for teammates that demand extended on-field presence. Her [[ability:burst]] is generally used when available for its additional damage and utility but is secondary to maintaining [[ability:skill]] uptime and the Solo Dance Double."
         }
     ],
-    "weapons": [{"author": "Speify", "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920" }],
-    "artifacts": [{"author": "Speify", "link":"https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=1546043032#gid=1546043032"}]
-
+    "weapons": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920"
+        }
+    ],
+    "artifacts": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=1546043032#gid=1546043032"
+        }
+    ]
 }
