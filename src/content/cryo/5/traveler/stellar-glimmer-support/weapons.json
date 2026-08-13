@@ -7,74 +7,28 @@
         },
         {
             "items": [
-                "whitelake-frostfeather"
+                "freedom-sworn",
+                "xiphos-moonlight"
             ]
         },
         {
             "items": [
-                "azurelight",
-                "absolution"
-            ]
-        },
-        {
-            "items": [
-                "mistsplitter-reforged",
-                "light-of-foliar-incision"
-            ]
-        },
-        {
-            "items": [
-                "athame-artis"
-            ]
-        },
-        {
-            "items": [
-                "uraku-misugiri",
-                "primordial-jade-cutter",
-                "haran-geppaku-futsu",
-                "song-of-tranquil-waters",
-                "lightbearing-moonshard"
+                "favonius-sword"
             ]
         },
         {
             "items": [
                 {
-                    "name": "summit-shaper",
-                    "note": {
-                        "en": "Ranked assuming the Traveler is unshielded. If shielded, this weapon ranks similarly to **[[weapon:lightbearing-moonshard]]**."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
-                "aquila-favonia",
-                "freedom-sworn"
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "heretics-molten-blade",
-                    "refinement": 5,
-                    "note": {
-                        "en": "At [R5], this weapon ranks above **[[weapon:aquila-favonia]]**."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "emberwell",
+                    "name": "fleuve-cendre-ferryman",
                     "refinement": 5
-                },
+                }
+            ]
+        },
+        {
+            "items": [
                 {
-                    "name": "finale-of-the-deep",
-                    "refinement": 5,
-                    "note": {
-                        "en": "If you can reliably clear the [[ability:bol]], this weapon ranks above **[[weapon:aquila-favonia]]**."
-                    }
+                    "name": "skyrider-sword",
+                    "refinement": 5
                 }
             ]
         }
