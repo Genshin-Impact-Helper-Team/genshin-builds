@@ -6,7 +6,10 @@
                     "items": [
                         {
                             "name": "disenchantment-in-deep-shadow",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note": {
+                                "en": "If [[character:traveler]] cannot trigger Stellar-Conduct, they should not use this set."
+                            }
                         }
                     ]
                 }
