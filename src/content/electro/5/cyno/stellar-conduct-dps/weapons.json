@@ -5,7 +5,8 @@
                 {
                     "name": "staff-of-the-scarlet-sands",
                     "note": {
-                        "en": "If using this weapon, use **[[stat:em]] artifact main stats** and prioritize [[stat:em]] substats over [[stat:atk%]] substats."
+                        "en": "If using this weapon, use **[[stat:em]] artifact main stats** and prioritize [[stat:em]] substats over [[stat:atk%]] substats.",
+                        "fr": "Si vous jouez cette arme, utilisez **des stats principales [[stat:em]] sur vos artéfacts** et priorisez les substats [[stat:em]] aux substats [[stat:atk%]]."
                     }
                 }
             ]
@@ -44,7 +45,8 @@
                 {
                     "name": "vortex-vanquisher",
                     "note": {
-                        "en": "If Cyno is shielded, this weapon ranks similarly to **[[weapon:disaster-and-remorse]]**."
+                        "en": "If [[character:cyno]] is shielded, this weapon ranks similarly to **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Si [[character:cyno]] est sous bouclier, cette arme se classe au même niveau que **[[weapon:disaster-and-remorse]]**."
                     }
                 }
             ]
@@ -54,7 +56,8 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At [R5], this weapon ranks similarly to **[[weapon:symphonist-of-scents]]**."
+                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:symphonist-of-scents]]**.",
+                        "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:symphonist-of-scents]]**."
                     }
                 }
             ]
@@ -64,7 +67,8 @@
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "At [R5], this weapon ranks similarly to **[[weapon:calamity-queller]]**."
+                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
+                        "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**."
                     }
                 }
             ]
@@ -75,7 +79,8 @@
                 {
                     "name": "sacrificers-staff",
                     "note": {
-                        "en": "At [R5], this weapon ranks similarly to **[[weapon:calamity-queller]]**."
+                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
+                        "fr": "**une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**."
                     }
                 }
             ]
