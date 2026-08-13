@@ -20,10 +20,10 @@
                             "name": "disenchantment-in-deep-shadow",
                             "pieces": 4,
                             "notes": {
-                                "en": "This ranking assumes that the team can reliably trigger [[element:superconduct]]. Otherwise, this set is not worth considering.",
+                                "en": "This ranking assumes that the team can reliably trigger [[element:superconduct]] or [[element:stellar-conduct]]. Otherwise, this set is not worth considering.",
                                 "fr": "Ce classement suppose que l'équipe peut déclencher [[element:superconduct]] de façon fiable. Sinon, il ne faut pas utiliser ce set.",
                                 "it": "La classifica presuppone che il team inneschi in modo affidabile [[element:superconduct]]. In caso contrario, non vale la pena predere questo set in considerazione.",
-                                "ru": "Предполагается, что отряд способен надёжно вызывать Сверхпроводник. В противном случае этот сет не стоит использовать."
+                                "ru": "Предполагается, что отряд способен надёжно вызывать [[element:superconduct]] или [[element:stellar-conduct]]. В противном случае этот сет не стоит использовать."
                             }
                         }
                     ]
