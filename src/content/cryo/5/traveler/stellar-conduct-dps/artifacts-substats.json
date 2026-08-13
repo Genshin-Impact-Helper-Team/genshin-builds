@@ -6,8 +6,12 @@
                 "en": "[[note:er-req]]."
             }
         },
-        "em",
         "cr/cd",
-        "atk%"
+        {
+            "items": [
+                "atk%",
+                "em"
+            ]
+        }
     ]
 }
