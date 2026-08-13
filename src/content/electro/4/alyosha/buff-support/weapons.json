@@ -1,13 +1,13 @@
 {
     "notes": [
         {
-            "en": "At [C0], if [[character:alyosha]] is the only [[element:electro]] character in the team, his [[stat:er]] needs may become unrealistically high. As such, [[stat:er]] weapons are highly encouraged. (Current weapon selection borrowed from Iansan. Not finalized.)"
+            "en": "At **[C0]**, if [[character:alyosha]] is the only [[element:electro]] character in the team, his [[stat:er]] needs may become unrealistically high. As such, [[stat:er]] weapons are highly encouraged."
         }
     ],
     "weapons": [
         {
             "items": [
-                "engulfing-lightning"
+                "symphonist-of-scents"
             ]
         },
         {
@@ -29,7 +29,7 @@
         },
         {
             "items": [
-                "symphonist-of-scents"
+                "engulfing-lightning"
             ]
         },
         {
