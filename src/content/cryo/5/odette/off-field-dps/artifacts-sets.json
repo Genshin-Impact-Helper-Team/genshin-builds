@@ -8,7 +8,22 @@
               "name": "heart-of-the-furnace",
               "pieces": 4,
               "note": {
-                "en": "Use if the [[stat:er]] requirement is high."
+                "en": "Generally one of her best option if the team does not have other suitable holders."
+              }
+            }
+          ]
+        }
+      ]
+    },
+      {
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "disenchantment-in-deep-shadow",
+              "pieces": 4,
+              "note": {
+                "en": "A more damage oriented set, usually optimal if the team already have a good HotF user"
               }
             }
           ]
@@ -16,91 +31,41 @@
       ]
     },
     {
+  "groups": [
+    {
+      "items": [{ "name": "blizzard-strayer", "pieces": 4, "note": {
+                "en": "A good option if you already have a set on standby, usually only providing only half of the passive. Do note that you can run into crit rate overcap problems with this set"
+              }}]
+    },
+    {
+      "items": [{ "name": "millelith", "pieces": 4, "note": {
+                "en": "Can be an option if her DPS share is low"
+              } }]
+    }
+  ]
+},
+    {
       "groups": [
         {
           "items": [
             {
-              "name": "nymphs-dream",
-              "pieces": 4
-            }
-          ]
-        },
-        {
-          "items": [
-            {
-              "name": "a-day-carved-from-rising-winds",
-              "pieces": 4
-            }
-          ]
-        },
-        {
-          "choose": true,
-          "items": [
-            {
-              "name": "noblesse-oblige",
-              "pieces": 2
-            },
-            {
-              "name": "hydro-dmg-set",
-              "pieces": 2
-            },
-            {
-              "name": "atk-set",
-              "pieces": 2
-            },
-            {
-              "name": "emblem-of-severed-fate",
-              "pieces": 2
-            }
-          ]
-        },
-        {
-          "choices": [
-            {
-              "items": [
-                {
-                  "name": "noblesse-oblige",
-                  "pieces": 2
-                },
-                {
-                  "name": "cryo-set",
-                  "pieces": 2
-                }
-              ]
-            },
-            {
-              "items": [
-                {
-                  "name": "atk-set",
-                  "pieces": 2
-                },
-                {
-                  "name": "em-set",
-                  "pieces": 2
-                }
-              ]
+              "name": "rising-winds",
+              "pieces": 4,
+              "note": {
+                "en": "A generalist ATK% set that is reliably buffing herself due to its ability to work off-field"
+              }
             }
           ]
         }
       ]
-    }
-  ],
-  "conditional": [
+    },
+{
+  "groups": [
     {
       "items": [
-        {
-          "name": "blizzard-strayer",
-          "pieces": 4,
-          "note": {
-            "en": "Only useful when the enemy can stay Frozen."
-          }
-        }
+        { "name": "atk-set", "pieces": 2 },
+        { "name": "atk-set", "pieces": 2 },
       ]
-    }
-  ],
-  "notes": [
-    {
-      "en": "This ranking assumes the team can maintain the required aura."
     }
   ]
 }
