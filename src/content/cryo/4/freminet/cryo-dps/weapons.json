@@ -120,6 +120,15 @@
         {
             "items": [
                 {
+                    "name": "blade-of-atonement",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If [[character:freminet]] can consistently trigger [[element:stellar-conduct]], it performs better than **[[weapon:tidal-shadow]]**. If [[character:freminet]] cannot frequently trigger [[element:shatter]] or [[element:stellar-conduct]], this weapon is not worth considering.",
+                        "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], превосходит **[[weapon:tidal-shadow]]**. Если [[character:freminet]] не может часто закрывать реакцию [[element:shatter]] или [[element:stellar-conduct]], это оружие не стоит использовать."
+                    }
+                },
+                "forged-by-the-golden-melody",
+                {
                     "name": "prototype-archaic",
                     "refinement": 5
                 },
