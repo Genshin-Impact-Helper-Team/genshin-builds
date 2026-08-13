@@ -102,7 +102,7 @@
                 {
                     "name": "disenchantment-in-deep-shadow",
                     "pieces": 4,
-                    "notes": {
+                    "note": {
                         "en": "In teams that can reliably trigger [[element:superconduct]] or [[element:stellar-conduct]], performs better than 2pc2pc combinations.",
                         "ru": "Если отряд способен надёжно вызывать [[element:superconduct]] или [[element:stellar-conduct]], превосходит 2х комбинации."
                     }
