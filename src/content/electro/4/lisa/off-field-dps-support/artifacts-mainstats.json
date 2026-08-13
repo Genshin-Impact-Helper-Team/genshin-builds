@@ -6,8 +6,9 @@
             {
                 "name": "em",
                 "note": {
-                    "en": "Only used in **[[element:quicken]]** teams",
+                    "en": "Only used in **[[element:quicken]]** teams.",
                     "fr": "Utilisé uniquement dans les équipes **[[element:quicken]]**.",
+                    "it": "Utilizzata esclusivamente in team **[[element:quicken]]**.",
                     "ru": "Только при игре через Стимуляцию"
                 }
             }

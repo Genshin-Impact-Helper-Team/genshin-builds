@@ -22,6 +22,7 @@
                             "note": {
                                 "en": "Although [[character:lisa]] is unable to fully trigger this set's buff, its teamwide DMG% buff can be of great value if no one else is equipping this set, like in a [[element:quicken]] team.",
                                 "fr": "Bien que [[character:lisa]] ne puisse pas déclencher le passif du set entièrement, le buff de DGT% sur toute l'équipe peut avoir une grande valeur si personne d'autre dans l'équipe ne peux porter ce set, comme dans les équipes [[element:quicken]].",
+                                "it": "Nonostante [[character:lisa]] non possa massimizzare il potenziamento fornito dal set, il suo potenziamento di DAN% all'intero team può essere molto utile se nessun'altro nel team utilizza questo set, ad esempio in team [[element:quicken]].",
                                 "ru": "Хотя Лиза не может активировать максимальный бонус этого сета, частичный бонус все еще имеет большую ценность в командах от Стимуляции."
                             }
                         }
@@ -39,6 +40,7 @@
                             "note": {
                                 "en": "This set's teamwide [[stat:atk%]] buff can be more preferable than to maximize [[character:lisa]]'s personal damage, though less common.",
                                 "fr": "Le buff d'[[stat:atk%]] que ce set offre à toute l'équipe peut être préférable aux dégâts personnels de [[character:lisa]], bien que moins commun.",
+                                "it": "Il potenziamento di [[stat:atk%]] al team di questo set può essere preferibile ad opzioni che aumentino i danni personali di [[character:lisa]], anche se meno comune.",
                                 "ru": "Бонус к Силе атаке от этого сета иногда может предоставлять большую ценность, чем оптимизация личного урона Лизы."
                             }
                         }
@@ -54,8 +56,9 @@
                             "name": "gilded-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "Only used in **[[element:quicken]]** teams",
+                                "en": "Only used in **[[element:quicken]]** teams.",
                                 "fr": "Utilisé uniquement dans les équipes **[[element:quicken]]**.",
+                                "it": "Utilizzato esclusivamente in team **[[element:quicken]]**.",
                                 "ru": "Только при игре через Стимуляцию"
                             }
                         }

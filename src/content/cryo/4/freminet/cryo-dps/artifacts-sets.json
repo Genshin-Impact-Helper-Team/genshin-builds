@@ -75,7 +75,7 @@
                     "name": "night-of-the-skys-unveiling",
                     "pieces": 4,
                     "note": {
-                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]]  when used with [[stat:cr]] weapons.",
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:freminet]]'s best artifact set. Can lead to overcapping on [[stat:cr]] when used with [[stat:cr]] weapons.",
                         "fr" : "Si joué dans une équipe en Lueur Ascendante, il s'agit du meilleur set pour [[character:freminet]]. Il y a un risque d'avoir trop de [[stat:cr]] lorsque ce set est utilisé avec une arme [[stat:cr]].",
                         "it": "Se utilizzato in team con Presagio Lunare: Barlume Ascendente, questo è il miglior set di manufatti di [[character:freminet]]. Può portare a un superamento del limite massimo di [[stat:cr]] se utilizzato con armi [[stat:cr]].",
                         "ru": "Лучший выбор при игре в отрядах с Высшим сиянием. При использовании с оружием, дающим Шанс крит. попадания, может привести к избытку этого стата."
@@ -93,6 +93,19 @@
                         "fr": "Peut être utilisé dans les équipes où [[character:freminet]] déclenche fréquemment [[element:shatter]] ou [[element:melt]], auquel cas il devient équivalent à **[[set:golden-troupe]]**.",
                         "it": "Può essere utilizzato in team in cui [[character:freminet]] attiva frequentemente [[element:shatter]] o può attivare [[element:melt]], casi in cui equivale a **[[set:golden-troupe]]**.",
                         "ru": "Можно использовать в командах, где Фреминет часто закрывает реакцию \"Разбит\" или может закрывать Таяние. При этом соответствует **[[set:golden-troupe|Золотой труппе]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "disenchantment-in-deep-shadow",
+                    "pieces": 4,
+                    "note": {
+                        "en": "In teams that can reliably trigger [[element:superconduct]] or [[element:stellar-conduct]], performs better than 2pc2pc combinations.",
+                        "fr": "Dans les équipes qui peuvent déclencher [[element:superconduct]] ou [[element:stellar-conduct]] de façon fiable, cette option a de meilleures performances que les combinaisons de 2P2P.",
+                        "ru": "Если отряд способен надёжно вызывать [[element:superconduct]] или [[element:stellar-conduct]], превосходит 2х комбинации."
                     }
                 }
             ]
