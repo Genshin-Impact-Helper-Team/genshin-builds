@@ -7,24 +7,29 @@
     "weapons": [
         {
             "items": [
-                "engulfing-lightning",
-                {
-                    "name": "symphonist-of-scents",
-                    "note": {
-                        "en": "placeholder note"
-                    }
-                }
+                "engulfing-lightning"
             ]
         },
         {
             "items": [
-                "calamity-queller",
                 {
-                    "name": "favonius-lance",
-                    "note": {
-                        "en": "[[note:favo]]."
-                    }
-                },
+                    "name": "frostbreath"
+                }
+            ]
+        },
+        {
+            "name": "favonius-lance",
+            "note": {
+                "en": "[[note:favo]]."
+            }
+        },
+        {
+            "items": [
+                "symphonist-of-scents"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "tamayuratei-no-ohanashi",
                     "refinement": 5
@@ -38,21 +43,8 @@
         },
         {
             "items": [
-                "vortex-vanquisher"
-            ]
-        },
-        {
-            "items": [
                 {
-                    "name": "missive-windspear",
-                    "refinement": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "kitain-cross-spear",
+                    "name": "song-of-the-vigil",
                     "refinement": 5
                 }
             ]

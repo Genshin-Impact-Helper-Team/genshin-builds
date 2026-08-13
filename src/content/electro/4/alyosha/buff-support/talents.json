@@ -10,7 +10,8 @@
         {
             "items": [
                 {
-                    "name": "burst"
+                    "name": "burst",
+                    "note": "Burst talent levels are optional. Only raise them if you wish to get more out of [[character:alyosha]]'s personal damage."
                 }
             ]
         }

@@ -6,7 +6,10 @@
                     "items": [
                         {
                             "name": "heart-of-the-furnace",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note": {
+                                "en": "Prioritize this set if no one else holds it."
+                            }
                         }
                     ]
                 }
