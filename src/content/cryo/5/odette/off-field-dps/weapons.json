@@ -111,15 +111,6 @@
         }
       ]
     },
-    {
-      "items": [
-        {
-          "name": "wolf-fang",
-          "refinement": 5,
-          "note": {
-            "en": "Easily overcapped on crit rate."
-          }
-        },
         "aquila-favonia",
         {
           "name": "freedom-sworn",
@@ -136,107 +127,5 @@
             "en": "Easily overcapped on crit rate."
           }
         },
-        {
-          "name": "finale-of-the-deep",
-          "refinement": 5,
-          "note": {
-            "en": "Value shown assumes the Bond of Life has not been cleared."
-          }
-        },
-        {
-          "name": "harbinger-of-dawn",
-          "refinement": 5,
-          "note": {
-            "en": "Passive is always active."
-          }
-        },
-        {
-          "name": "heretics-molten-blade",
-          "refinement": 5,
-          "note": {
-            "en": "Assumes minimum stacks for Coda hits."
-          }
-        },
-        {
-          "name": "blackcliff-longsword",
-          "note": {
-            "en": "Assumes no enemy killed."
-          }
-        },
-        {
-          "name": "heretics-molten-blade",
-          "refinement": 1,
-          "note": {
-            "en": "Assumes minimum stacks for Coda hits."
-          }
-        }
-      ]
-    },
-    {
-      "items": [
-        {
-          "name": "the-black-sword"
-        },
-        {
-          "name": "alleyflash",
-          "refinement": 5,
-          "note": {
-            "en": "Assumes no damage taken."
-          }
-        },
-        {
-          "name": "alleyflash",
-          "refinement": 1,
-          "note": {
-            "en": "Assumes no damage taken."
-          }
-        },
-        {
-          "name": "moonweavers-dawn"
-        },
-        {
-          "name": "calamity-of-eshu",
-          "note": {
-            "en": "Assumes unshielded."
-          }
-        },
-        {
-          "name": "sturdy-bone"
-        }
-      ]
-    },
-    {
-      "items": [
-        {
-          "name": "sword-of-narzissenkreuz"
-        },
-        {
-          "name": "kagotsurube-isshin"
-        },
-        {
-          "name": "toukabou-shigure",
-          "note": {
-            "en": "Assumes 66.7% uptime."
-          }
-        },
-        {
-          "name": "amenoma-kageuchi"
-        },
-        {
-          "name": "iron-string",
-          "refinement": 5,
-          "note": {
-            "en": "Only reaches this value at minimum stacks (5s at 2 stacks, 1s at 1 stack)."
-          }
-        },
-        {
-          "name": "emberwell",
-          "refinement": 1,
-          "note": {
-            "en": "Value shown assumes the passive is not active."
-          }
-        }
-      ]
-    }
-  ]
+    ]
 }
