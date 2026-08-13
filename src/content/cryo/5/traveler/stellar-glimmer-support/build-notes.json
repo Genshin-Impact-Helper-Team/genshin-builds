@@ -1,10 +1,10 @@
 {
     "name": {
-        "en": "Steller-Glimmer Support"
+        "en": "[[element:steller-glimmer]] Support"
     },
     "notes": [
         {
-            "en": "[[character:traveler]] can enable and support other Stellar-Glimmer teams and deal a respectable amount of damage with their [[ability:burst]]."
+            "en": "[[character:traveler]] can enable and support other [[element:stellar-glimmer]] teams and deal a respectable amount of damage with their [[ability:burst]]."
         }
     ]
 }

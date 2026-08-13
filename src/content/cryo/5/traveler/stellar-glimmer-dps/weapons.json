@@ -41,7 +41,7 @@
                 {
                     "name": "summit-shaper",
                     "note": {
-                        "en": "Ranked assuming the Traveler is unshielded. If shielded, this weapon ranks similarly to **[[weapon:lightbearing-moonshard]]**."
+                        "en": "Ranked assuming the [[character:traveler]] is unshielded. If shielded, this weapon ranks similarly to **[[weapon:lightbearing-moonshard]]**."
                     }
                 }
             ]
@@ -58,7 +58,7 @@
                     "name": "heretics-molten-blade",
                     "refinement": 5,
                     "note": {
-                        "en": "At [R5], this weapon ranks above **[[weapon:aquila-favonia]]**."
+                        "en": "**At [R5]**, this weapon ranks above **[[weapon:aquila-favonia]]**."
                     }
                 }
             ]
