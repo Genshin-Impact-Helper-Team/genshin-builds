@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en": "Off-field DPS"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "{rot: "
+        }
+    ],
+    "weapons": [{"author": "Speify", "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920" }],
+    "artifacts": [{"author": "Speify", "link":"https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=1546043032#gid=1546043032"}]
+
+}
