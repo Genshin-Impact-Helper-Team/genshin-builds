@@ -57,12 +57,8 @@
                         "en": "Assumes no stacks."
                     }
                 },
-                {
-                    "name": "haran-geppaku-futsu"
-                },
-                {
-                    "name": "lightbearing-moonshard"
-                },
+                "haran-geppaku-futsu",
+                "lightbearing-moonshard",
                 {
                     "name": "splendor-of-tranquil-waters",
                     "note": {
@@ -104,9 +100,7 @@
         {
             "items": [
                 "aquila-favonia",
-                {
-                    "name": "freedom-sworn"
-                }
+                "freedom-sworn"
             ]
         },
         {
