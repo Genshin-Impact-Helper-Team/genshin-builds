@@ -12,15 +12,21 @@
         },
         {
             "items": [
-                "vivid-notions"
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon overranks **[[weapon:reliquary-of-truth]]**."
+                    }
+                }
             ]
         },
         {
             "items": [
+                "vivid-notions",
                 {
-                    "name": "clash-of-kings",
+                    "name": "memory-of-dust",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs closer to **[[weapon:reliquary-of-truth]]**."
+                        "en": "The ranking assumes [[character:wriothesley]] is being shielded."
                     }
                 }
             ]
@@ -29,11 +35,47 @@
             "items": [
                 "lost-prayer-to-the-sacred-winds",
                 "angelos-heptades",
-                "tulaytullahs-remembrance",
-                "kaguras-verity",
                 {
                     "name": "echoes-of-the-heart",
                     "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "tulaytullahs-remembrance",
+                "kaguras-verity",
+                "tome-of-the-eternal-flow",
+                "surfs-up"
+            ]
+        },
+        {
+            "items": [
+                "skyward-atlas"
+            ]
+        },
+        {
+            "items": [
+                "cranes-echoing-call"
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "a-thousand-floating-dreams"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "**At [R5]**, this option is closer to [[weapon:starcallers-watch]]."
+                    }
                 }
             ]
         }
