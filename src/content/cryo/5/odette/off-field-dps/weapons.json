@@ -3,7 +3,7 @@
     {
       "en": "Weapon rankings assume Fav Sword / 4pc Tenacity of the Millelith, and that Odette cannot trigger any elemental reaction in this team."
     }
-  ],
+  ,
   "weapons": [
     {
       "items": [
@@ -126,6 +126,8 @@
           "note": {
             "en": "Easily overcapped on crit rate."
           }
-        },
+        }
     ]
 }
+  ]
+    }
