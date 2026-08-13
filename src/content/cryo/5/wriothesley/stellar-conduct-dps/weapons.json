@@ -15,7 +15,7 @@
                 {
                     "name": "clash-of-kings",
                     "note": {
-                        "en": "At **[R5]**, this weapon overranks **[[weapon:reliquary-of-truth]]**."
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -38,24 +38,20 @@
                 {
                     "name": "echoes-of-the-heart",
                     "refinement": 5
-                }
+                },
+                "tulaytullahs-remembrance",
+                "kaguras-verity"
             ]
         },
         {
             "items": [
-                "tulaytullahs-remembrance",
-                "kaguras-verity",
                 "tome-of-the-eternal-flow",
                 "surfs-up"
             ]
         },
         {
             "items": [
-                "skyward-atlas"
-            ]
-        },
-        {
-            "items": [
+                "skyward-atlas",
                 "cranes-echoing-call"
             ]
         },

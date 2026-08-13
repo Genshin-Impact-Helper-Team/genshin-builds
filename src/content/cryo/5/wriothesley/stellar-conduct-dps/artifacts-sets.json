@@ -17,18 +17,6 @@
                 {
                     "items": [
                         {
-                            "name": "a-day-carved-from-rising-winds",
-                            "pieces": 4
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
                             "name": "MH",
                             "pieces": 4
                         }
@@ -46,6 +34,43 @@
                             "note": {
                                 "en": "This ranking assumes the [[element:freeze]] passive is inactive."
                             }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
                         }
                     ]
                 }
