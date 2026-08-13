@@ -1,7 +1,7 @@
 {
     "notes": [
         {
-            "en": "Weapon rankings assume Fav Sword / 4pc Tenacity of the Millelith, and that Odette cannot trigger any elemental reaction in this team."
+            "en": "Lvl 90 T9/9/9 - 4 Plume procs & 3 Wings procs in 15s rotation, Assumed 7 Stellar Conduct stacks."
         }
     ],
     "weapons": [
@@ -44,7 +44,12 @@
                 "haran-geppaku-futsu",
                 "lightbearing-moonshard",
                 "splendor-of-tranquil-waters",
-                "exaiphanes-blade",
+                {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "You would generally rather use this on the Traveller, would only be a consideration if it is not being occupied."
+                    }
+                },
                 "athame-artis"
             ]
         },
