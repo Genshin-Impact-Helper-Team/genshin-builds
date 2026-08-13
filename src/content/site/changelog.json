@@ -5,6 +5,11 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "August 13, 2026",
+                    "changes": "Added Stellar-Conduct DPS section to Wriothesley. Melt and Mono-Cryo builds are not up to date yet, we're working on it.",
+                    "appliedBy": "Plo"
+                },
+                {
                     "date": "August 12, 2026",
                     "changes": "Updated Yae Miko's Stellar-Conduct Off-Field DPS section with Odette in the team and new weapons.",
                     "appliedBy": "Plo"
