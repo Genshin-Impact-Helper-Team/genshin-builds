@@ -23,7 +23,7 @@
                             "name": "disenchantment-in-deep-shadow",
                             "pieces": 4,
                             "note": {
-                                "en": "Her best damage oriented set, only work in Stellar-Conduct teams"
+                                "en": "Her best damage oriented set, only work in [[element:stellar-conduct]] teams."
                             }
                         }
                     ]
@@ -38,7 +38,7 @@
                             "name": "blizzard-strayer",
                             "pieces": 4,
                             "note": {
-                                "en": "A good option if you already have a set on standby, usually only providing only half of the passive. Do note that you can run into [[stat:cr]] overcap problems with this set."
+                                "en": "A good option if you already have a set on standby, usually providing only half of the passive. Do note that you can run into [[stat:cr]] overcap problems with this set."
                             }
                         }
                     ]
@@ -49,7 +49,7 @@
                             "name": "millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "Can be an option if her DPS share is low"
+                                "en": "Can be an option if her DPS share is low."
                             }
                         }
                     ]
