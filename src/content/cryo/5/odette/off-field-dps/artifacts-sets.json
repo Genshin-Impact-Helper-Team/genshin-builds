@@ -8,7 +8,7 @@
                             "name": "heart-of-the-furnace",
                             "pieces": 4,
                             "note": {
-                                "en": "Generally one of her best option if the team does not have other suitable holders."
+                                "en": "Generally her best option if the team does not have other suitable holders."
                             }
                         }
                     ]
@@ -23,7 +23,7 @@
                             "name": "disenchantment-in-deep-shadow",
                             "pieces": 4,
                             "note": {
-                                "en": "A more damage oriented set, usually optimal if the team already have a good [[set:hotf]] user."
+                                "en": "Her best damage oriented set, only work in Stellar-Conduct teams"
                             }
                         }
                     ]
@@ -62,10 +62,7 @@
                     "items": [
                         {
                             "name": "rising-winds",
-                            "pieces": 4,
-                            "note": {
-                                "en": "A generalist [[stat:atk%]] set that is reliably buffing herself due to its ability to work off-field"
-                            }
+                            "pieces": 4
                         }
                     ]
                 }
