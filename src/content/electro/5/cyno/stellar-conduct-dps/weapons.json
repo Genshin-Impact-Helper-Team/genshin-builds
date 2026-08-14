@@ -1,0 +1,105 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "staff-of-the-scarlet-sands",
+                    "note": {
+                        "en": "If using this weapon, use **[[stat:em]] artifact main stats** and prioritize [[stat:em]] substats over [[stat:atk%]] substats.",
+                        "fr": "Si vous jouez cette arme, utilisez **des stats principales [[stat:em]] sur vos artéfacts** et priorisez les substats [[stat:em]] aux substats [[stat:atk%]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "fractured-halo"
+            ]
+        },
+        {
+            "items": [
+                "primordial-jade-winged-spear",
+                "lumidouce-elegy",
+                "staff-of-homa"
+            ]
+        },
+        {
+            "items": [
+                "symphonist-of-scents",
+                "disaster-and-remorse"
+            ]
+        },
+        {
+            "items": [
+                "calamity-queller"
+            ]
+        },
+        {
+            "items": [
+                "crimson-moons-semblance",
+                "bloodsoaked-ruins"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "vortex-vanquisher",
+                    "note": {
+                        "en": "If [[character:cyno]] is shielded, this weapon ranks similarly to **[[weapon:disaster-and-remorse]]**.",
+                        "fr": "Si [[character:cyno]] est sous bouclier, cette arme se classe au même niveau que **[[weapon:disaster-and-remorse]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "deathmatch",
+                    "note": {
+                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:symphonist-of-scents]]**.",
+                        "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:symphonist-of-scents]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ballad-of-the-fjords",
+                    "note": {
+                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
+                        "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-spine",
+                {
+                    "name": "sacrificers-staff",
+                    "note": {
+                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
+                        "fr": "**une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "missive-windspear",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "song-of-the-vigil",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

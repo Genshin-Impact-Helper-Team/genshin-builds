@@ -1,0 +1,29 @@
+{
+    "name": {
+        "en": "[[element:stellar-conduct]] DPS",
+        "fr": "DPS [[element:stellar-conduct]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "**[In-depth guide](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) from Cyno Mains**",
+            "fr": "**[Guide détaillé](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) des Cyno Mains (en anglais)**",
+            "ru": "**[Подробное руководство](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) от Cyno Mains**"
+        },
+        {
+            "en": "[[character:cyno]] is a DPS character that uses his [[ability:burst]] to change stance and deal [[element:electro]] damage. The vast majority of his damage in [[element:stellar-conduct]] teams is from his Duststalker Bolts, so it is very important to time his [[ability:skill]] uses.",
+            "fr": "[[character:cyno]] est un DPS qui utilise son [[ability:burst]] pour changer de posture et infliger des dégâts [[element:electro]]. La grande majorité de ses dégâts dans les équipes [[element:stellar-conduct]] provient de ses éclairs de sable, il est donc très important d'utiliser son [[ability:skill]] au bon moment."
+        },
+        {
+            "en": "Non-[[set:thundering-fury]]: {rot:E N1 Q N2E 3(N5 N2E)}",
+            "fr": "Non-[[set:thundering-fury]]: {rot:E N1 A N2E 3(N5 N2E)}",
+            "ru": "Не-[[set:thundering-fury]]: {rot:E N1 Q N2E 3(N5 N2E)}"
+        }
+    ],
+    "global": [
+        {
+            "author": "Quincy",
+            "link": "https://docs.google.com/spreadsheets/d/1bHuwQl8sSap_8ErccKPJL07slVgemENRrNtU1N6Wy1w/edit?usp=sharing"
+        }
+    ]
+}

@@ -1,11 +1,10 @@
 {
     "name": {
-        "en": "[[element:aggravate]] DPS",
-        "fr": "DPS [[element:aggravate]]",
-        "it": "DPS [[element:aggravate]]",
-        "ru": "ДД через [[element:aggravate]]"
+        "en": "[[element:electro]] DPS",
+        "fr": "DPS [[element:electro]]",
+        "it": "DPS [[element:electro]]",
+        "ru": "ДД через [[element:electro]]"
     },
-    "best": true,
     "notes": [
         {
             "en": "**[In-depth guide](https://docs.google.com/spreadsheets/d/1YMPD8Cv0pMOiGENcAG5EzHJt4uQxRxJG0q6LLgv0FiA/edit?gid=0#gid=0) from Cyno Mains**",
