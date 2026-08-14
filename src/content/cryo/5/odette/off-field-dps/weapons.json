@@ -5,7 +5,7 @@
                 {
                     "name": "whitelake-frostfeather",
                     "note": {
-                        "en": "Assumes max stacks, energy part of passive is generally wasted."
+                        "en": "Assumes max stacks, energy refund part of passive is generally wasted."
                     }
                 }
             ]
@@ -16,7 +16,7 @@
                 {
                     "name": "primordial-jade-cutter",
                     "note": {
-                        "en": "Ranking assumes you can manage to not overcap on [[stat:cr]], which is extremely unlikely."
+                        "en": "Ranking assumes you can manage to not overcap on [[stat:cr]] when being used with artifact sets that provide additional  [[stat:cr]], this weapon can perform better when no exterior  [[stat:cr]] buff is provided."
                     }
                 },
                 "absolution"
@@ -78,7 +78,7 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "Easily overcapped on [[stat:cr]]."
+                        "en": "Can be uncomfortable to build around with artifact sets that provide additional [[stat:cr]]."
                     }
                 }
             ]
