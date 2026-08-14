@@ -5,10 +5,22 @@
     "best": true,
     "notes": [
         {
-            "en": "Odette is primarily played as an off-field support in Stellar-Glimmer teams. She casts her Elemental Skill, follows up with its second cast to activate her Solo Dance Double's Stellar Glimmer attacks, and then swaps off-field. While off-field, her Solo Dance Double continuously deals Cryo and Stellar Glimmer damage every 2s, maintains consistent Cryo application, and enables Stellar-Conduct or Stellar-Swirl for the on-field character. Odette requires very little field time outside of refreshing her Skill, making her an excellent enabler for teammates that demand extended on-field presence. Her Elemental Burst is generally used when available for its additional damage and utility but is secondary to maintaining Skill uptime and the Solo Dance Double. "
+            "en": "Odette is an off-field damage support in Stellar-Glimmer teams. {rot:E E} activates her Solo Dance Double, which continues attacking off-field, dealing continuous Cryo and Stellar Glimmer every 2s."
+        },
+        {
+            "en": "It is generally recommended to skip her [[ability:burst]] entirely due to rotation length cost."
         }
     ],
-    "weapons": [{"author": "Speify", "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920" }],
-    "artifacts": [{"author": "Speify", "link":"https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=1546043032#gid=1546043032"}]
-
+    "weapons": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920"
+        }
+    ],
+    "artifacts": [
+        {
+            "author": "Speify",
+            "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=1546043032#gid=1546043032"
+        }
+    ]
 }
