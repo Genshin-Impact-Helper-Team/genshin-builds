@@ -5,7 +5,7 @@
     "best": true,
     "notes": [
         {
-            "en": "Odette is an off-field damage support in Stellar-Glimmer teams. {rot:E E} activates her Solo Dance Double, which continues attacking off-field, dealing continuous Cryo and Stellar Glimmer every 2s."
+            "en": "Odette is an off-field damage support in [[element:stellar-glimmer]] teams. {rot:E E} activates her Solo Dance Double, which continues attacking off-field, dealing continuous [[element:cryo]] and [[element:stellar-glimmer]] DMG every 2s."
         },
         {
             "en": "It is generally recommended to skip her [[ability:burst]] entirely due to rotation length cost."
