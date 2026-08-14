@@ -8,7 +8,8 @@
                             "name": "heart-of-the-furnace",
                             "pieces": 4,
                             "note": {
-                                "en": "Generally her best option if the team does not have other suitable holders."
+                                "en": "Generally her best option if the team does not have other suitable holders.",
+                                "fr": "Géneralement sa meilleure option si l'équipe n'a pas de meilleur porteur possible."
                             }
                         }
                     ]
@@ -23,7 +24,8 @@
                             "name": "disenchantment-in-deep-shadow",
                             "pieces": 4,
                             "note": {
-                                "en": "Her best damage oriented set, only work in [[element:stellar-conduct]] teams."
+                                "en": "Her best damage oriented set, only works in [[element:stellar-conduct]] teams.",
+                                "fr": "Le meilleur set pour un build orienté dégâts, mais ne fonctionne que pour les équipes [[element:stellar-conduct]]."
                             }
                         }
                     ]
@@ -38,7 +40,8 @@
                             "name": "blizzard-strayer",
                             "pieces": 4,
                             "note": {
-                                "en": "A good option if you already have a set on standby, usually providing only half of the passive. Do note that you can run into [[stat:cr]] overcap problems with this set."
+                                "en": "A good option if you already have a set on standby, usually providing only half of the passive. Do note that you can run into [[stat:cr]] overcap problems with this set.",
+                                "fr": "Une bonne option si vous avez déjà un set de côté, n'a cependant généralement d'actif que la moitié du passif. Notez que vous pouvez facilement vous retrouver avec trop de [[stat:cr]] en utilisant ce set."
                             }
                         }
                     ]
@@ -49,7 +52,8 @@
                             "name": "millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "Can be an option if her DPS share is low."
+                                "en": "Can be an option if her DPS share is low.",
+                                "fr": "Peut être une option à considérer si sa part de DPS est faible."
                             }
                         }
                     ]
