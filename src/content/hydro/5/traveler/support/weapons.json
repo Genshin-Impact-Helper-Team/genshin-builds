@@ -10,7 +10,8 @@
                 {
                     "name": "key-of-khaj-nisut",
                     "note": {
-                        "en": "[[element:hydro]] [[character:traveler]] must use their Hold [[ability:skill]] to activate this weapon's passive. Use [[stat:hp%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential."
+                        "en": "[[element:hydro]] [[character:traveler]] must use their Hold [[ability:skill]] to activate this weapon's passive. Use [[stat:hp%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential.",
+                        "ru": "[[element:hydro]] [[character:traveler]] должен использовать долгое нажатие [[ability:skill|Элементального навыка]] для запуска Пассивной способности. Используйте артефакты на [[stat:hp%]] для усиления эффекта Пассивной способности оружия, что повышает потенциал [[character:traveler]]а как баффера."
                     }
                 }
             ]
@@ -25,7 +26,8 @@
                 {
                     "name": "key-of-khaj-nisut",
                     "note": {
-                        "en": "Use [[stat:em]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential."
+                        "en": "Use [[stat:em]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential.",
+                        "ru": "Используйте артефакты на [[stat:em]] для усиления эффекта Пассивной способности оружия, что повышает потенциал [[character:traveler]]а как баффера."
                     }
                 }
             ]
