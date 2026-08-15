@@ -8,6 +8,7 @@
                     "note": {
                         "en": "Ranking assumes 2 stacks. At 1 stack, it performs similarly to **[[weapon:hunters-path]]**.",
                         "fr": "Le classement suppose 2 stacks. Avec 1 seul stack, cette arme performe de manière similaire à **[[weapon:hunters-path]]**.",
+                        "it": "La classifica presuppone che nel team siano presente 2 personaggi Electro. Se Ororon è l'unico Electro nel team, ha prestazioni simili a **[[weapon:hunters-path]]**.",
                         "ru": "Предполагается, что набраны 2 уровня Пассивной способности. С 1 уровнем соответствует Охотничей тропе."
                     }
                 }
@@ -39,6 +40,7 @@
                     "note": {
                         "en": "Ranking assumes 3 stacks.",
                         "fr": "Le classement suppose 3 stacks.",
+                        "it": "La classifica presuppone 2 accumuli.",
                         "ru": "Предполагается наличие 3 уровней Пассивной способности."
                     }
                 },
@@ -56,6 +58,7 @@
                     "note": {
                         "en": "This weapon will perform significantly worse if you do not have a proper healer to maintain 3 stacks. At **[R5]**, this weapon performs similarly to **[[weapon:thundering-pulse]]**.",
                         "fr": "Cette arme devient bien moins bonne si vous ne recevez pas assez de soins pour maintenir les 3 stacks. Une fois **[R5]**, cette arme devient similaire à **[[weapon:thundering-pulse]]**.",
+                        "it": "Quest'arma avrà prestazioni significativamente peggiori in mancanza delle cure necessarie per mantenere 3 accumuli. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:thundering-pulse]]**.",
                         "ru": "Без стабильного лечения для поддержания 3 уровней Пассивной способности показывает себя гораздо хуже. На [R5] данное оружие сопоставимо с Громовым пульсом."
                     }
                 },
@@ -65,6 +68,7 @@
                     "note": {
                         "en": "Ranking assumes [[character:ororon]] is being played with a healer and that the passive is active. Overheal counts for the passive.",
                         "fr": "Le classement suppose que [[character:ororon]] est joué avec un soigneur et que le passif est actif. Le surplus de soin compte également pour le passif.",
+                        "it": "La classifica presuppone che [[character:ororon]] venga giocato con un curatore e che la passiva sia attiva. Le cure contano per la passiva anche quando effettuate a vita massima.",
                         "ru": "Предполагается, что Оророн получает достаточное лечение для работы Пассивной способности."
                     }
                 }
@@ -77,6 +81,7 @@
                     "note": {
                         "en": "This weapon provide more team utility in exchange for [[character:ororon]]'s personal damage.",
                         "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]].",
+                        "it": "Quest'arma fornisce più utilità al team, ma penalizza i danni personali di [[character:ororon]].",
                         "ru": "Предоставляет полезные для команды эффекты в обмен на меньший личный урон Оророна."
                     }
                 },
@@ -93,6 +98,7 @@
                     "note": {
                         "en": "This weapon provide more team utility in exchange for [[character:ororon]]'s personal damage.",
                         "fr": "Offre plus de commodités pour l'équipe en échange des dégâts personnels d'[[character:ororon]].",
+                        "it": "Quest'arma fornisce più utilità al team, ma penalizza i danni personali di [[character:ororon]].",
                         "ru": "Предоставляет полезные для команды эффекты в обмен на меньший личный урон Оророна."
                     }
                 }

@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:burst]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks.",
                                 "fr": "[[character:noelle]] snapshot sa [[stat:def]] sur son [[ability:burst]]. Pour obtenir le buff de [[stat:def%]] sur les 4 stacks pendant votre premier [[ability:burst]], vous devez attendre 12 secondes avant de switch sur Noeëlle. En abysses, le temps passé avant que le combat ne commence génère aussi des stacks.",
+                                "it": "[[character:noelle]] 'snapshotta' la sua [[stat:def]] quando attiva il [[ability:burst]]. Per ottenere il potenziamento completo alla [[stat:def%]] derivante dai 4 accumuli durante il tuo primo [[ability:burst]], devi attendere 12 secondi prima di entrare in campo. In Abisso, il tempo trascorso prima dell'inizio della stanza genera comunque accumuli.",
                                 "ru": "[[ability:burst]] [[character:noelle]] учитывает характеристики [[stat:def|Защиты]] только на момент его активации. Для максимального набора бонуса (4 уровня) необходимо 12 секунд продержать [[character:noelle]] вне поля перед переключением на неё. В Витой Бездне время до начала испытания также учитывается при наборе бонуса."
                             }
                         }
@@ -34,6 +35,20 @@
                             "pieces": 4
                         }
                     ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "nighttime-whispers-in-the-echoing-woods",
+                            "pieces": 4,
+                            "note": {
+                                "en": "You need to pick up [[element:crystallize]] shards or to trigger [[element:lunar-crystallize]] to fully utilise this set. Even then, [[character:noelle]] doesn't have full uptime on the 4pc effect.",
+                                "fr": "Il est nécessaire de ramasser un cristal de [[element:crystallize]] ou de déclencher [[element:lunar-crystallize]] pour utiliser l'effet du set entièrement. Même avec ça, [[character:noelle]] ne peux pas garder le 4P actif pendant tout son temps de terrain.",
+                                "it": "Per sfruttare appieno questo set, devi raccogliere frammenti di [[element:crystallize]] oppure attivare [[element:lunar-crystallize]]. Nonostante ciò, [[character:noelle]] non riesce a mantenere attivo l'effetto del set 4 pezzi per tutto il tempo.",
+                                "ru": "Для полного использования этого набора нужно подобрать осколок от реакции [[element:crystallize]] или активировать [[element:lunar-crystallize]]. Но даже в этих случаях Ноэлль не может постоянно поддерживать понлый эффект активированным"
+                            }
+                        }
+                    ]
                 }
             ]
         }
@@ -42,11 +57,12 @@
         {
             "items": [
                 {
-                    "name": "MH",
+                    "name": "marechaussee-hunter",
                     "pieces": 4,
                     "note": {
-                        "en": "Optimal for personal damage by a few percentage points when paired with [[character:furina]].",
-                        "fr": "Optimal pour ses dégâts personnels (de peu) lorsqu'elle est jouée avec [[character:furina]].",
+                        "en": "Optimal for personal damage when paired with [[character:furina]].",
+                        "fr": "Optimal pour les dégâts personnels lorsque jouée avec [[character:furina]].",
+                        "it": "Ottimale per i danni personali in team con [[character:furina]].",
                         "ru": "В отрядах с [[character:furina|Фуриной]] этот набор - лучший по личному урону."
                     }
                 }

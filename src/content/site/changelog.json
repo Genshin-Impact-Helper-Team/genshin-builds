@@ -2,8 +2,53 @@
     "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pub?gid=172546500&single=true&output=csv",
     "groups": [
         {
+            "version": "7.0",
+            "entries": [
+                {
+                    "date": "August 15, 2026",
+                    "changes": "Added Blade of Atonement and Forged by the Golden Melody to Sandrone's section.",
+                    "appliedBy": "Voidrev"
+                },
+                {
+                    "date": "August 14, 2026",
+                    "changes": "Merged both previous Cyno sections, added Stellar-Conduct DPS Cyno section. Added Cryo Traveler.",
+                    "appliedBy": "Quincy"
+                },
+                {
+                    "date": "August 14, 2026",
+                    "changes": "Added Odette section",
+                    "appliedBy": "Speify"
+                },
+                {
+                    "date": "August 14, 2026",
+                    "changes": "Added Alyosha section",
+                    "appliedBy": "Greenster"
+                },
+                {
+                    "date": "August 13, 2026",
+                    "changes": "Updated Freminet, Noelle and Furina sections with new weapons.",
+                    "appliedBy": "Finnyke"
+                },
+                {
+                    "date": "August 12, 2026",
+                    "changes": "Updated Yae Miko's Stellar-Conduct Off-Field DPS section with Odette in the team and new weapons.",
+                    "appliedBy": "Plo"
+                },
+                {
+                    "date": "August 12, 2026",
+                    "changes": "Removed some older builds that werent relevant anymore:\nXinyan Physical DPS / Xinyan Pyro DPS / Heizou Reaction DPS / Kuki Aggravate DPS / Bennett DPS / Lan Yan Driver.",
+                    "appliedBy": "Plo"
+                }
+            ]
+        },
+        {
             "version": "6.7 / Luna VIII",
             "entries": [
+                {
+                    "date": "August 12, 2026",
+                    "changes": "Added Lunar-crystallize DPS section for Noelle. Updated Noelle sections.",
+                    "appliedBy": "Finnyke"
+                },
                 {
                     "date": "August 3, 2026",
                     "changes": "Updated Freminet sections.",

@@ -114,6 +114,7 @@
                     "name": "prototype-archaic",
                     "refinement": 5
                 },
+                "forged-by-the-golden-melody",
                 {
                     "name": "snow-tombed-starsilver",
                     "refinement": 5
@@ -125,6 +126,15 @@
                         "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. Avec 2 personnages de Liyue, cette arme peut être meilleure que **[[weapon:serpent-spine]]**. Avec 2 personnages de Liyue une fois **[R5]**, cette arme devient similaire à **[[weapon:redhorn-stonethresher]]**.",
                         "it": "La classifica presuppone un personaggio di Liyue nel team. Con due personaggi di Liyue, quest'arma può superare **[[weapon:serpent-spine]]**. Con due personaggi di Liyue a **[R5]**, può avere prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "Предполагается 1 персонаж из Ли Юэ. С двумя персонажами из Ли Юэ может превосходить **[[weapon:serpent-spine]]**. С двумя персонажами из Ли Юэ на **[R5]** соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
+                    }
+                },
+                {
+                    "name": "blade-of-atonement",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If [[character:freminet]] can consistently trigger [[element:stellar-conduct]], it performs better than **[[weapon:tidal-shadow]]**. If [[character:freminet]] cannot frequently trigger [[element:shatter]] or [[element:stellar-conduct]], this weapon is not worth considering.",
+                        "fr": "Si [[character:freminet]] peut déclencher [[element:stellar-conduct]] fréquemment, cette arme performe mieux que **[[weapon:tidal-shadow]]**. Dans le cas contraire, cette arme n'est pas à considerer.",
+                        "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], превосходит **[[weapon:tidal-shadow]]**. Если [[character:freminet]] не может часто закрывать реакцию [[element:shatter]] или [[element:stellar-conduct]], это оружие не стоит использовать."
                     }
                 }
             ]

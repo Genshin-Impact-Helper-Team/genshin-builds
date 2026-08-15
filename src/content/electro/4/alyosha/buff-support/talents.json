@@ -1,0 +1,22 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst",
+                    "note": {
+                        "en": "[[ability:burst]] talent levels are optional. Only raise them if you wish to get more out of [[character:alyosha]]'s personal damage.",
+                        "fr": "Les niveaux de talent de l'[[ability:burst]] sont optionnels. Ne l'améliorer que si vous souhaiter avoir plus de dégâts personnels pour [[character:alyosha]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

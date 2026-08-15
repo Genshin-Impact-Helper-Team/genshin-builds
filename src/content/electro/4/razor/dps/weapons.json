@@ -35,6 +35,7 @@
                     "note": {
                         "en": "Ranking assumes [[character:razor]] is being used with **[[character:bennett]]**. If [[character:razor]] is not used with [[character:bennett]], this weapon is much worse.",
                         "fr": "Le classement suppose que [[character:razor]] est joué avec **[[character:bennett]]**. Dans le cas contraire, cette arme se classe beaucoup plus bas.",
+                        "it": "La posizione in classifica presuppone che [[character:razor]] sia utilizzato con **[[character:bennett]]**. In assenza di [[character:bennett]], quest'arma ha prestazioni molto peggiori.",
                         "ru": "редполагается, что Рэйзор играет в отряде с Беннетом. В противном случае данное оружие значительно хуже."
                     }
                 },
@@ -48,6 +49,7 @@
                     "note": {
                         "en": "Gains significant value in teams where [[character:razor]]'s [[stat:er]] requirements are higher.",
                         "fr": "Gagne de la valeur dans les équipes où les besoins en [[stat:er]] de [[character:razor]] sont élevés.",
+                        "it": "Quest'arma guadagna valore significativo in team dove i requisiti di [[stat:er]] di [[character:razor]] sono più alti.",
                         "ru": "Становится заметно лучше в отрядах с высокими требованиями к Восстановлению энергии."
                     }
                 },
@@ -67,6 +69,7 @@
                     "note": {
                         "en": "If [[character:razor]] cannot be **healed**, this weapon ranks lower than **[[weapon:earth-shaker]]**.",
                         "fr": "Si [[character:razor]] ne peux pas **recevoir de soins**, cette arme se classe en dessous de **[[weapon:earth-shaker]]**.",
+                        "it": "Se [[character:razor]] non riesce a **ricevere cure**, quest'arma ha prestazioni peggiori di **[[weapon:earth-shaker]]**.",
                         "ru": "В отрядах без гарантированного лечения уступает Сотрясающему землю."
                     }
                 },
@@ -82,6 +85,7 @@
                     "note": {
                         "en": "Assumes a teammate can trigger a [[element:pyro]] reaction, otherwise, use other weapons.",
                         "fr": "Suppose qu'un membre de l'équipe peut déclencher des réactions [[element:pyro]]. Sinon, choisissez une autre arme.",
+                        "it": "La posizione in classifica presuppone che un personaggio del team provochi una reazione [[element:pyro]]; in caso contrario, utilizza una delle altre opzioni.",
                         "ru": "Предполагается, что в отряде есть возможность закрыть реакцию Пиро. В противном случае используйте другие варианты."
                     }
                 }

@@ -2,7 +2,8 @@
     "weapon": {
         "pjws": "primordial-jade-winged-spear",
         "homa": "staff-of-homa",
-        "ttds": "thrilling-tales-of-dragon-slayers"
+        "ttds": "thrilling-tales-of-dragon-slayers",
+        "lost-prayer": "lost-prayer-to-the-sacred-winds"
     },
     "set": {
         "vv": "viridescent-venerer",
@@ -18,6 +19,7 @@
         "notsu": "night-of-the-skys-unveiling",
         "deep-shadow": "disenchantment in deep shadow",
         "aubade": "aubade-of-morningstar-and-moon",
-        "rising-winds": "a-day-carved-from-rising-winds"
+        "rising-winds": "a-day-carved-from-rising-winds",
+        "hotf": "heart-of-the-furnace"
     }
 }

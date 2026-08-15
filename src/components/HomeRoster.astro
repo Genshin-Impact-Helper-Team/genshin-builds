@@ -9,12 +9,14 @@ const characterCountLabel = t(locale, 'ui', 'Characters');
 const noResultsLabel = t(locale, 'ui', 'No characters found');
 const openBuildsLabel = t(locale, 'ui', 'Open builds');
 const resultsLabel = t(locale, 'ui', 'Results');
-const releaseDateLabel = t(locale, 'ui', 'Release date', undefined, false);
-const newestLabel = t(locale, 'ui', 'Newest', undefined, false);
+const releaseDateLabel = t(locale, 'ui', 'Release date');
+const newestLabel = t(locale, 'ui', 'Newest');
+const latestUpdateLabel = t(locale, 'ui', 'Last Updated');
 const characterPortraitAltTemplate = t(locale, 'ui', 'Character portrait alt');
-const sortByLabel = t(locale, 'ui', 'Sort by', undefined, false);
+const sortByLabel = t(locale, 'ui', 'Sort by');
 const sortOptions = [
   { value: 'release', label: `${releaseDateLabel} - ${newestLabel}` },
+  { value: 'updated', label: `${latestUpdateLabel} - ${newestLabel}` },
   { value: 'name', label: `${characterCountLabel} - A-Z` },
   { value: 'element', label: `${t(locale, 'ui', 'Element')} - A-Z` },
   { value: 'rarity', label: `${t(locale, 'ui', 'Rarity')} - A-Z` },

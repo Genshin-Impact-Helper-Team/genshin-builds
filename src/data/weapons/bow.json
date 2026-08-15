@@ -134,13 +134,13 @@
         "rarity": 5,
         "version_released": "5.2",
         "passive": {
-            "en": "For 12s after triggering a Swirl reaction, ATK increases by {{value}}%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by {{value}}% / {{value}}% and Elemental Burst DMG dealt is increased by {{value}}% / {{value}}%.",
-            "de": "Erhöht den ANG nach Auslösen der Reaktion Verwirbelung 12 s lang um {{value}}%. Erhöht, wenn sich mindestens 1/2 Figur(en) in der Truppe befinden, deren Elementartypen sich von dem des Trägers unterscheiden, den mit heftigen Schlägen des Trägers verursachten Schaden um {{value}}% / {{value}}% und den mit Spezialfähigkeiten des Trägers verursachten Schaden um {{value}}% / {{value}}%.",
-            "es": "Tras causar una reacción de Torbellino, el ATQ aumenta en un {{value}}% durante 12 s. Además, por cada 1/2 personajes del equipo de tipo elemental distinto al del portador de esta arma, el daño que dicho portador inflige con su Ataque Cargado aumenta en un {{value}}% / {{value}}%, y el daño de su Habilidad Definitiva aumenta en un {{value}}% / {{value}}%.",
-            "fr": "Après avoir déclenché une réaction de Dispersion, l'ATQ augmente de {{value}}% pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de {{value}}% / {{value}}% et les ceux infligés par ses déchaînements élémentaires de {{value}}% / {{value}}%.",
-            "it": "Dopo aver innescato una reazione di Turbinio, l'ATT aumenta di un {{value}}% per 12 s. Inoltre, se nel gruppo ci sono 1/2 o più personaggi con un tipo elementale diverso rispetto al personaggio che equipaggia l'arma, i DAN da attacco caricato e da Tripudio elementale di quest'ultimo aumentano rispettivamente di un {{value}}% / {{value}}% e di un {{value}}% / {{value}}%.",
-            "ru": "Повышает силу атаки на {{value}}% на 12 сек. после активации реакции Рассеивание. Кроме того, если в отряде 1/2 и более персонажей с элементом, отличным от элемента экипированного персонажа, то урон заряженной атаки экипированного персонажа увеличивается на {{value}}% / {{value}}%, а урон взрыва стихии - на {{value}}% / {{value}}%.",
-            "pt": "Após desencadear uma reação de Redemoinho, o ATQ aumenta em {{value}}% por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em {{value}}%/{{value}}%, e o Dano causado pelo Supremo aumenta em {{value}}%/{{value}}%."
+            "en": "For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by {{value}}%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by {{value}}% / {{value}}%, and Elemental Burst DMG dealt is increased by {{value}}% / {{value}}%.",
+            "de": "Erhöht den ANG nach Auslösen der Reaktion Verwirbelung oder Stellar-Verwirbelung 12 s lang um {{value}}%. Erhöht, wenn sich mindestens 1/2 Figur(en) in der Truppe befinden, deren Elementartypen sich von dem des Trägers unterscheiden, den mit heftigen Schlägen des Trägers verursachten Schaden um {{value}}% / {{value}}% und den mit Spezialfähigkeiten des Trägers verursachten Schaden um {{value}}% / {{value}}%.",
+            "es": "Tras causar una reacción de Torbellino o Torbellino Estelar, el ATQ aumenta en un {{value}}% durante 12 s. Además, si en el equipo hay al menos 1/2 personajes de tipo elemental distinto al del portador de esta arma, el daño que dicho portador inflige con su Ataque Cargado aumenta en un {{value}}% / {{value}}%, y el daño de su Habilidad Definitiva aumenta en un {{value}}% / {{value}}%.",
+            "fr": "Après avoir déclenché une réaction de Dispersion ou d'Astrodispersion, l'ATQ augmente de {{value}}% pendant 12 s. De plus, lorsque l'équipe contient 1/2+ personnages d'un type élémentaire différent de celui du personnage équipé de l'arme, les DGT infligés par les attaques chargées de ce dernier augmentent de {{value}}% / {{value}}% et ceux infligés par ses déchaînements élémentaires de {{value}}% / {{value}}%.",
+            "it": "Dopo aver innescato una reazione di Turbinio o di Turbinio astrale, l'ATT aumenta di un {{value}}% per 12 s. Inoltre, se nel gruppo ci sono 1/2 o più personaggi con un tipo elementale diverso rispetto al personaggio che equipaggia l'arma, i DAN da attacco caricato e da Tripudio elementale di quest'ultimo aumentano rispettivamente di un {{value}}% / {{value}}% e di un {{value}}% / {{value}}%.",
+            "ru": "Повышает силу атаки на {{value}}% на 12 сек. после активации Рассеивания или Звёздного рассеивания. Кроме того, если в отряде 1/2 или более персонажей с элементом, отличным от элемента экипированного персонажа, то урон заряженной атаки экипированного персонажа увеличивается на {{value}}% / {{value}}%, а урон взрыва стихии - на {{value}}% / {{value}}%.",
+            "pt": "Após desencadear uma reação de Redemoinho ou Redemoinho Estelar, o ATQ aumenta em {{value}}% por 12s. Além disso, se houver pelo menos 1/2 personagens na equipe com um Tipo Elemental diferente do personagem que está com essa arma equipada, o Dano causado por Ataques Carregados do personagem que está com essa arma equipada aumenta em {{value}}% / {{value}}%, e o Dano causado pelo Supremo aumenta em {{value}}% / {{value}}%."
         },
         "substat": "cd",
         "level_1": {
@@ -1955,6 +1955,87 @@
         ],
         "r5": [
             32
+        ]
+    },
+    "covenant-of-frost-and-snow": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by {{value}}.",
+            "fr": "Lorsque le personnage équipé de l'arme a utilisé une compétence élémentaire, sa maîtrise élémentaire augmente de {{value}} pts pendant 12 s.",
+            "de": "Erhöht nach Anwenden der Elementarfähigkeit die Elementarkunde des Trägers 12 s lang um {{value}} Punkte.",
+            "es": "Tras usar su Habilidad Elemental, la Maestría Elemental del portador de esta arma aumenta en {{value}} pts. durante 12 s.",
+            "it": "Per 12 s dopo che il personaggio che equipaggia l'arma ha usato l'abilità elementale, la sua maestria elementale aumenta di {{value}}.",
+            "ru": "После использования экипированным персонажем элементального навыка его мастерство стихий повышается на {{value}} ед. на 12 сек.",
+            "pt": "Nos 12s após o portador lançar a Habilidade Elemental, aumenta a Proficiência Elemental em {{value}}."
+        },
+        "substat": "def%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "11.3%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "51.7%"
+        },
+        "r1": [
+            120
+        ],
+        "r2": [
+            150
+        ],
+        "r3": [
+            180
+        ],
+        "r4": [
+            210
+        ],
+        "r5": [
+            240
+        ]
+    },
+    "jade-vista": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "For every party member other than the equipping character:<br>· Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by {{value}};<br>· Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by {{value}}%.<br>The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first.",
+            "fr": "Pour chaque membre de l'équipe (hormis le personnage équipé de l'arme) : si un membre est du même type élémentaire que le personnage équipé de l'arme, la maîtrise élémentaire de ce dernier augmente de {{value}} pts ; si un membre est d'un type élémentaire différent de celui du personnage équipé de l'arme, l'ATQ de ce dernier augmente de {{value}}%. Ces deux effets peuvent être cumulés un total de 3 fois en tout, les bonus de maîtrise élémentaire ayant la priorité.",
+            "de": "Für jede Figur in der Truppe außer dem Träger gilt: Stimmt der Elementartyp mit dem des Trägers überein: Erhöht die Elementarkunde des Trägers um {{value}} Punkte. Stimmt der Elementartyp nicht mit dem des Trägers überein: Erhöht den ANG des Trägers um {{value}}%. Diese beiden Effekte können insgesamt bis zu 3-fach gestapelt werden. Der Effekt bei gleichem Elementartyp wird dabei bevorzugt aktiviert.",
+            "es": "A excepción del portador de esta arma, por cada personaje que haya en el equipo: con el mismo tipo elemental que el portador, la Maestría Elemental de dicho portador aumenta en {{value}} pts.; con distinto tipo elemental al del portador, el ATQ de dicho portador aumenta en un {{value}}%. Estos dos efectos pueden acumularse hasta 3 veces en total, y el efecto del mismo tipo elemental tendrá prioridad.",
+            "it": "Ogni membro del gruppo diverso dal personaggio che equipaggia l'arma fornisce a quest'ultimo un potenziamento in base al suo tipo elementale.<br>· Se condivide lo stesso tipo elementale del personaggio che equipaggia l'arma, la maestria elementale di quest'ultimo aumenta di {{value}}.<br>· Se non condivide lo stesso tipo elementale del personaggio che equipaggia l'arma, l'ATT di quest'ultimo aumenta di un {{value}}%.<br>I due effetti sopracitati possono accumularsi fino a 3 volte in totale, con priorità all'effetto relativo alla maestria elementale.",
+            "ru": "За каждого персонажа в отряде, кроме экипированного: · Если тип элемента совпадает с элементом экипированного персонажа: мастерство стихий экипированного персонажа повышается на {{value}} ед. · Если тип элемента отличается от элемента экипированного персонажа: сила атаки экипированного персонажа повышается на {{value}}%. Вышеописанные эффекты складываются суммарно до 3 раз. В первую очередь активируется эффект при совпадении элементов.",
+            "pt": "Para cada membro da equipe que não seja o portador: se possuir o mesmo Tipo Elemental que o portador: a Proficiência Elemental do portador aumenta em {{value}}; se não possuir o mesmo Tipo Elemental que o portador: o ATQ do portador aumenta em {{value}}%. Os dois efeitos descritos acima podem acumular até 3 vezes no total, com os bônus de Proficiência Elemental sendo aplicados primeiro."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
+        "r1": [
+            64,
+            12
+        ],
+        "r2": [
+            80,
+            15
+        ],
+        "r3": [
+            96,
+            18
+        ],
+        "r4": [
+            112,
+            21
+        ],
+        "r5": [
+            128,
+            24
         ]
     }
 }

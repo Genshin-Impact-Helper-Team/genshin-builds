@@ -1,0 +1,80 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "husk-of-opulent-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:noelle]] snapshots her [[stat:def|DEF]] on [[ability:burst]] cast. To get the full 4 stacks' [[stat:def%]] boost during your first [[ability:burst]], you need to wait 12 seconds before swapping in. In abyss, time spent before the chamber starts still generates stacks.",
+                                "fr": "[[character:noelle]] snapshot sa [[stat:def]] sur son [[ability:burst]]. Pour obtenir le buff de [[stat:def%]] sur les 4 stacks pendant votre premier [[ability:burst]], vous devez attendre 12 secondes avant de switch sur Noeëlle. En abysses, le temps passé avant que le combat ne commence génère aussi des stacks.",
+                                "it": "[[character:noelle]] 'snapshotta' la sua [[stat:def]] quando attiva il [[ability:burst]]. Per ottenere il potenziamento completo alla [[stat:def%]] derivante dai 4 accumuli durante il tuo primo [[ability:burst]], devi attendere 12 secondi prima di entrare in campo. In Abisso, il tempo trascorso prima dell'inizio della stanza genera comunque accumuli.",
+                                "ru": "[[ability:burst]] [[character:noelle]] учитывает характеристики [[stat:def|Защиты]] только на момент его активации. Для максимального набора бонуса (4 уровня) необходимо 12 секунд продержать [[character:noelle]] вне поля перед переключением на неё. В Витой Бездне время до начала испытания также учитывается при наборе бонуса."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "nighttime-whispers-in-the-echoing-woods",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "retracing-bolide",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "night-of-the-skys-unveiling",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Optimal for team damage with Moonsign: Ascendant Gleam.",
+                        "fr": "Optimal pour les dégâts de l'équipe en Signelune: Lueur Ascendante.",
+                        "it": "Ottimale per i danni del team con Presagio Lunare: Barlume Ascendente.",
+                        "ru": "Лучший выбор для урона отряда при наличии двух персонажей Нод-Края."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Optimal for personal damage when paired with [[character:furina]]. With both [[character:furina]] and Moonsign: Ascendant Gleam, this set is similar or worse for team damage compared to **[[set:night-of-the-skys-unveiling]] (4)**.",
+                        "fr": "Optimal pour les dégâts personnels lorsque jouée avec [[character:furina]]. Avec [[character:furina]] & le Signelune: Lueur Ascendante, ce set est équivalent ou légèrement moins bon que **[[set:night-of-the-skys-unveiling]] (4)** pour les dégâts de l'équipe.",
+                        "it": "Ottimale per i danni personali in team con [[character:furina]]. Con sia [[character:furina]] che Presagio Lunare: Barlume Ascendente, questo set offre prestazioni simili o inferiori in termini di danno del team rispetto a **[[set:night-of-the-skys-unveiling]] (4)**.",
+                        "ru": "В отрядах с [[character:furina|Фуриной]] этот набор - лучший по личному урону. C [[character:furina|Фуриной]] и двумя персонажами Нод-Края примерно соответствует или уступает **[[set:night-of-the-skys-unveiling|Ночи открытия неба]] (4)** по урону отряда."
+                    }
+                }
+            ]
+        }
+    ]
+}

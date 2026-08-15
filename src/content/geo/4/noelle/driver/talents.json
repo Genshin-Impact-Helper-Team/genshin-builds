@@ -5,9 +5,10 @@
                 {
                     "name": "skill",
                     "note": {
-                        "en": "Dependence on [[ability:skill]]'s talent level depends on your total [[stat:def|DEF]] and whether [[character:furina]] is in the team or not.",
-                        "fr": "L'importance du niveau du [[ability:skill]] dépend de votre [[stat:def]] totale et de si [[character:furina]] est dans l'équipe.",
-                        "ru": "Целесообразность повышения уровня [[ability:skill|Элементального навыка]] зависит от значения Защиты и наличия [[character:furina|Фурины]] в отряде."
+                        "en": "[[ability:skill]]'s talent level are more valuable with lower total [[stat:def|DEF]] and [[character:furina]] present in the team.",
+                        "fr": "Les niveaux de talent du [[ability:skill]] sont plus importants lorsque la [[stat:def|DEF]] totale est basse et que [[character:furina]] est dans l'équipe.",
+                        "it": "La necessità dei livelli dell'[[ability:skill]] dipendono dalla tua [[stat:def]] totale e dalla presenza di [[character:furina]] nel team.",
+                        "ru": "Целесообразность повышения уровня [[ability:skill|Элементального навыка]] повышается с уменьшением Защиты, а также при наличии [[character:furina|Фурины]] в отряде."
                     }
                 }
             ]

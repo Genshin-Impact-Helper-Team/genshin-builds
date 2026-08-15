@@ -1656,5 +1656,91 @@
             80,
             80
         ]
+    },
+    "song-of-the-vigil": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Craft",
+        "passive": {
+            "en": "Triggering an Elemental Reaction regenerates {{value}} Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by {{value}}% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+            "fr": "Déclencher une réaction élémentaire restaure {{value}} pts d'énergie élémentaire au personnage équipé de l'arme, cet effet pouvant être déclenché une fois toutes les 9 s. De plus, déclencher une réaction astrale augmente l'ATQ du personnage équipé de l'arme de {{value}}% pendant 12 s. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Stellt dem Träger nach dem Auslösen einer Elementarreaktion {{value}} Punkte Elementarenergie wieder her, 9 s Abklingzeit. Erhöht innerhalb von 12 s nach dem Auslösen einer Stellarfunkeln-Reaktion den ANG des Trägers um {{value}}%. Dieser Effekt kann auch ausgelöst werden, wenn die damit ausgerüstete Figur inaktiv ist.",
+            "es": "Tras causar una Reacción Elemental, el portador de esta arma recupera {{value}} pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 9 s. Tras causar una reacción de Destello Estelar, el ATQ del portador aumenta en un {{value}}% durante 12 s. Estos efectos se pueden activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "it": "Innescare una reazione elementale ripristina di {{value}} l'energia elementale del personaggio che equipaggia l'arma. Quest'effetto può attivarsi una volta ogni 9 s. Quando si innesca una reazione di Barlume astrale, invece, l'ATT aumenta di un {{value}}% per 12 s. Gli effetti sopracitati possono attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "Активация элементальной реакции восстанавливает экипированному персонажу {{value}} ед. энергии. Эффект может возникнуть один раз в 9 сек. Активация реакций Звёздного блеска на 12 сек. повышает его силу атаки на {{value}}%. Перечисленные эффекты срабатывают, даже если экипированный персонаж не на поле боя.",
+            "pt": "Depois de desencadear uma reação Elemental, regenera {{value}} de Energia Elemental para o portador. Esse efeito pode ser desencadeado uma vez a cada 9s. Nos 12s após desencadear uma reação de Brilho Estelar, aumenta o ATQ do portador em {{value}}%. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        "substat": "em",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "24"
+        },
+        "level_max": {
+            "base_attack": 565,
+            "substat_value": "110"
+        },
+        "r1": [
+            4,
+            20
+        ],
+        "r2": [
+            5,
+            25
+        ],
+        "r3": [
+            6,
+            30
+        ],
+        "r4": [
+            7,
+            35
+        ],
+        "r5": [
+            8,
+            40
+        ]
+    },
+    "frostbreath": {
+        "rarity": 4,
+        "version_released": "7.0",
+        "source": "Battle Pass",
+        "passive": {
+            "en": "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by {{value}}% for the next 15s, as well as regenerates {{value}} Elemental Energy for other members of their party. This effect can trigger once every 16s.",
+            "fr": "Pendant 15 s après avoir déclenché une réaction élémentaire liée à l'élément Cryo ou à l'élément Hydro, l'ATQ du personnage équipé de l'arme augmente de {{value}}% et les autres personnages de votre équipe récupèrent {{value}} pts d'énergie élémentaire. Cet effet peut être déclenché une fois toutes les 16 s.",
+            "de": "Erhöht innerhalb von 15 s nach dem Auslösen einer mit Kryo oder Hydro in Zusammenhang stehenden Reaktion den ANG des Trägers um {{value}}% und stellt den eigenen Truppenmitgliedern {{value}} Punkte Elementarenergie wieder her. 16 s Abklingzeit.",
+            "es": "Tras causar una Reacción Elemental Cryo o Hydro, el ATQ del portador de esta arma aumenta en un {{value}}% durante 15 s y tus demás personajes del equipo regeneran {{value}} pts. de Energía Elemental. Este efecto solo se puede activar una vez cada 16 s.",
+            "it": "Innescare una reazione elementale di Cryo o di Hydro aumenta l'ATT del personaggio che equipaggia l'arma di un {{value}}% per 15 s e ripristina di {{value}} l'energia elementale degli altri membri del gruppo. Questo effetto può attivarsi una volta ogni 16 s.",
+            "ru": "Активация Крио или Гидро реакций повышает силу атаки экипированного персонажа на 15 сек. на {{value}}%, а также восстанавливает другим персонажам вашего отряда {{value}} ед. энергии. Эффект может возникнуть один раз в 16 сек.",
+            "pt": "Nos 15s após desencadear uma reação Cryo ou Hydro, aumenta o ATQ do portador em {{value}}%, e regenera {{value}} de Energia Elemental para os outros personagens da equipe. Esse efeito pode ser desencadeado uma vez a cada 16s."
+        },
+        "substat": "er",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "10.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "45.9%"
+        },
+        "r1": [
+            20,
+            6
+        ],
+        "r2": [
+            25,
+            7.5
+        ],
+        "r3": [
+            30,
+            9
+        ],
+        "r4": [
+            35,
+            10.5
+        ],
+        "r5": [
+            40,
+            12
+        ]
     }
 }

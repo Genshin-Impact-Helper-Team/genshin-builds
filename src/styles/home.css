@@ -192,6 +192,14 @@
   color: #111;
 }
 
+.home-native-select optgroup {
+  color: #afafaf;
+}
+
+.home-native-select optgroup option {
+  color: #111;
+}
+
 .home-filters input::placeholder {
   color: color-mix(in srgb, var(--text) 48%, transparent);
 }
@@ -996,9 +1004,5 @@
 
   .roster-character-meta {
     font-size: 0.56rem;
-  }
-
-  .roster-character-updated {
-    display: none;
   }
 }

@@ -1,4 +1,6 @@
 {
+    "Search shortcut banner": "Нажмите / или \\ для быстрого доступа к странице персонажа",
+    "Hide shortcut banner": "Скрыть панель быстрого доступа",
     "Artifacts": "Артефакты",
     "Weapons": "Оружие",
     "Talents": "Приоритет талантов",
@@ -61,7 +63,10 @@
     "No weapon ranking mentions": "Нет упоминаний",
     "Artifact set mentioned on": "Полный набор может подойти",
     "No artifact set mentions": "Нет упоминаний о наборе",
-    "Set Bonus": "Бонус набора",
+    "Set Effect": "Эффект набора",
+    "Damage Type": "Тип урона",
+    "Utility": "Назначение",
+    "Special Mechanics": "Особые механики",
     "Characters": "Персонажи",
     "Recently updated": "Свежее",
     "No weapons found": "Оружие не найдено",

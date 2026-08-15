@@ -1,0 +1,29 @@
+{
+    "main_stats": {
+        "sands": [
+            "def%",
+            {
+                "name": "em",
+                "note": {
+                    "en": "[[stat:em]] sands can be better when below [C6], gaining higher value with lower [[ability:burst]] Talent Level and external [[stat:em]] buffs.",
+                    "fr": "Un sablier [[stat:atk%]] peut être meilleur avant la **[C6]**, gagnant de la valeur avec un niveau d'[[ability:burst]] plus bas et des armes à haute ATQ de base.",
+                    "it": "Sabbie con [[stat:em]] possono essere migliori al di sotto della [C6], acquisendo un valore maggiore con talento del [[ability:burst]] di livello più basso e con potenziamenti esterni a [[stat:em]].",
+                    "ru": "[[stat:em]] в часах может быть предпочтительнее до **[C6]**. Ценность варианта растет с понижением уровня [[ability:burst|Взрыва стихии]] и объема бонусов к [[stat:em|Мастерству стихий]]."
+                }
+            },
+            {
+                "name": "er",
+                "note": {
+                    "en": "[[note:er-req]]."
+                }
+            }
+        ],
+        "goblet": [
+            "geo-dmg"
+        ],
+        "circlet": [
+            "cr",
+            "cd"
+        ]
+    }
+}
