@@ -72,18 +72,14 @@
         }
     ],
     "conditional": [
-        {
-            "items": [
-                "primordial-jade-cutter",
-                "mistsplitter-reforged",
-                "haran-geppaku-futsu",
-                "azurelight",
-                "light-of-foliar-incision",
-                "uraku-misugiri",
-                "absolution",
-                "splendor-of-tranquil-waters",
-                "lightbearing-moonshard"
-            ]
-        }
+        "primordial-jade-cutter",
+        "mistsplitter-reforged",
+        "haran-geppaku-futsu",
+        "azurelight",
+        "light-of-foliar-incision",
+        "uraku-misugiri",
+        "absolution",
+        "splendor-of-tranquil-waters",
+        "lightbearing-moonshard"
     ]
 }
