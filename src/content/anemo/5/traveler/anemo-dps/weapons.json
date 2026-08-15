@@ -1,10 +1,7 @@
 {
     "notes": [
         {
-            "en": "[[element:anemo]] [[character:traveler]] can either go for a full [[stat:em]] build or a full ATK/Crit build without much difference in damage. The weapon rankings listed here will not change much between the two builds.",
-            "fr": "Le [[character:traveler]] [[element:anemo]] peut jouer un build full [[stat:em]] ou full ATQ/Crit sans grande différence de dégâts. Le classement des armes listé ici ne change pas beaucoup entre les deux builds.",
-            "it": "Il [[character:traveler]] [[element:anemo]] può optare per una build a tutta [[stat:em]] oppure una build ATT/CRIT senza una grande differenza in termini di danni. La classifica delle armi non cambia granché a seconda della build.",
-            "ru": "[[element:anemo]] [[character:traveler]] может быть собран либо в [[stat:em|МС]]-билд, либо в АТК/крит-билд - эти варианты не сильно отличаются по урону. Рейтинг оружия сходен в обоих вариантах."
+            "en": "This ranking assumes you **value the personal damage of [[element:anemo]] [[character:traveler]]**. If you do not care about [[element:anemo]] [[character:traveler]]'s damage, ignore weapons without team buffing capabilities."
         }
     ],
     "weapons": [
