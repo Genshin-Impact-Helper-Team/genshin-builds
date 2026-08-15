@@ -2,11 +2,22 @@
     "weapons": [
         {
             "items": [
+                "exaiphanes-blade"
+            ]
+        },
+        {
+            "items": [
                 "uraku-misugiri"
             ]
         },
         {
             "items": [
+                {
+                    "name": "athame-artis",
+                    "note": {
+                        "en": "Ranking assumes the short-duration [[stat:atk%]] buff to teammates is useful to the team. Otherwise this weapon ranks below **[[weapon:mistsplitter-reforged]]**"
+                    }
+                },
                 "primordial-jade-cutter",
                 "mistsplitter-reforged"
             ]
@@ -14,7 +25,8 @@
         {
             "items": [
                 "haran-geppaku-futsu",
-                "absolution"
+                "absolution",
+                "azurelight"
             ]
         },
         {
@@ -25,6 +37,7 @@
         {
             "items": [
                 "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
                 {
                     "name": "summit-shaper",
                     "note": {
