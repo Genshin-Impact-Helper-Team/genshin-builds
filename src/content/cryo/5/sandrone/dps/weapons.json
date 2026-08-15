@@ -10,7 +10,7 @@
                 "a-thousand-blazing-suns",
                 {
                     "name": "forged-by-the-golden-melody",
-                    "refinement": 5
+                    "refinement": 5,
                     "note": {
                          "en": "Ranking assumes 33.3% uptime between the 3 buffs."
                     }
@@ -23,12 +23,12 @@
                     "name": "blade-of-atonement",
                     "refinement": 5,
                     "note": {
-                    "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic in some teams.",
+                    "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic in some teams."i 
                     }
              }
                  
             ]
-        }
+        },
         {
             "items": [
                 "verdict"
@@ -73,7 +73,7 @@
                 },
                 {
                     "name": "forged-by-the-golden-melody",
-                    "refinement": 1
+                    "refinement": 1,
                     "note": {
                         "en": "Ranking assumes 33.3% uptime between the 3 buffs."
                 }
