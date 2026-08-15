@@ -19,18 +19,6 @@
         },
         {
             "items": [
-             {
-                    "name": "blade-of-atonement",
-                    "refinement": 5,
-                    "note": {
-                    "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic in some teams."
-                    }
-             }
-                 
-            ]
-        },
-        {
-            "items": [
                 "verdict"
             ]
         },
@@ -73,7 +61,10 @@
                 },
                 {
                     "name": "forged-by-the-golden-melody",
-                    "refinement": 1
+                    "refinement": 1,
+                    "note": {
+                        "en": "At R5, this weapon will rank similarly to **[[weapon:a-thousand-blazing-suns]]**"
+                    }
                 },
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
