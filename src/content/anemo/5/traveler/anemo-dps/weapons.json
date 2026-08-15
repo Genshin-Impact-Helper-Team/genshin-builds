@@ -1,13 +1,18 @@
 {
     "notes": [
         {
-            "en": "Despite their lack of team buffs or [[stat:er]], the conditional weapons in this section rank higher than **[[weapon:amenoma-kageuchi]]**. However, they have such steep [[stat:er]] requirements that building them is very difficult and not typically recommended."
+            "en": "The ranked weapons have meaningful team buffs and/or help with [[element:anemo]] [[character:traveler]]'s [[stat:er]] requirements. The conditional weapons can rank higher than **[[weapon:amenoma-kageuchi]]** but have such steep [[stat:er]] requirements that building them is very difficult and not typically recommended."
         }
     ],
     "weapons": [
         {
             "items": [
-                "exaiphanes-blade"
+                {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "If you do not care about [[element:anemo]] [[character:traveler]]'s personal damage, do not use this weapon."
+                    }
+                }
             ]
         },
         {
