@@ -8,6 +8,31 @@
         {
             "items": [
                 {
+                    "name": "key-of-khaj-nisut",
+                    "note": {
+                        "en": "[[element:hydro]] [[character:traveler]] must use their Hold [[ability:skill]] to activate this weapon's passive. Use [[stat:hp%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "exaiphanes-blade"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "key-of-khaj-nisut",
+                    "note": {
+                        "en": "Use [[stat:em]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "fleuve-cendre-ferryman",
                     "refinement": 5
                 }
