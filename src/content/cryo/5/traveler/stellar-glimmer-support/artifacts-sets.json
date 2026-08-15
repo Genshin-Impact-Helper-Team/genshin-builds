@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set can have lower-than-usual uptime on [[element:stellar-swirl]] teams and teams with low [[element:electro]] application.",
-                                "fr": "Ce set peut avoir un uptime plus faible que d'habitude dans les équipes [[element:stellar-swirl]] et celles avec une faible application [[element:electro]]."
+                                "fr": "Ce set peut avoir un uptime plus faible que d'habitude dans les équipes [[element:stellar-swirl]] et celles avec une faible application [[element:electro]].",
+                                "ru": "Может иметь аптайм ниже обычного в отрядах через [[element:stellar-swirl]] и отрядах со скудным наложением [[element:electro]]."
                             }
                         }
                     ]

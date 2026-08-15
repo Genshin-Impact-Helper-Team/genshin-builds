@@ -21,7 +21,7 @@
                         "en": "In teams with [[ability:hexerei]], can perform better than **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Dans les équipes [[ability:hexerei]], peut être meilleure que **[[weapon:redhorn-stonethresher]]**.",
                         "it": "In team con [[ability:hexerei]], quest'arma può avere prestazioni migliori di **[[weapon:redhorn-stonethresher]]**.",
-                        "ru": "С активным эффектом Ведьмовств может превосходить **[[weapon:redhorn-stonethresher]]**."
+                        "ru": "С активным эффектом [[ability:hexerei|Ведьмовства]] может превосходить **[[weapon:redhorn-stonethresher]]**."
                     }
                 }
             ]
@@ -54,7 +54,7 @@
                         "en": "If it is possible to maintain full stacks of the passive before bursting, can perform better than **[[weapon:beacon-of-the-reed-sea]]**. With heavy ATK/DEF buffs, loses some value sompared to option that provide CRIT or DMG%.",
                         "fr": "S'il est possible de maintenir tous les cumuls du passif avant d'utiliser l'[[ability:burst]], cette arme peut être meilleure que **[[weapon:beacon-of-the-reed-sea]]**. Avec beaucoup de buffs ATQ/DEF, elle pert de la valeur comparé aux autres options qui donnent du CRIT ou des DGT%.",
                         "it": "Se si riesce a mantenere il numero massimo di accumuli della passiva prima di sferrare l'attacco, può offrire prestazioni migliori di **[[weapon:beacon-of-the-reed-sea]]**. Con potenziamenti significativi di ATK/DEF, perde un po' di valore rispetto alle opzioni che forniscono CRIT o DMG%.",
-                        "ru": "При возможности поддерживания максимального уровня Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
+                        "ru": "При возможности поддерживать максимальный уровень Пассивной способности превосходит **[[weapon:beacon-of-the-reed-sea]]**. С большим объемом бонусов Защиты/Силы атаки несколько теряет в полезности в сравнении с вариантами, дающими Крит или бонусы урона."
                     }
                 },
                 "a-teaspoon-of-transcendence",
@@ -69,7 +69,7 @@
                         "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
                         "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut mieux performer que **[[weapon:whiteblind]] [R5]**.",
                         "it": "In team con requisiti di [[stat:er]] alti, quest'arma può avere prestazioni migliori di **[[weapon:whiteblind]] [R5]**.",
-                        "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
+                        "ru": "В командах с высокой потребностью в энергии к энергии может превосходить **[[weapon:whiteblind|Белую тень]] [R5]**."
                     }
                 }
             ]
@@ -82,7 +82,7 @@
                         "en": "While bad for [[character:noelle]]'s personal damage, it can be considered if the team can get advantage of the additional energy.",
                         "fr": "Bien que mauvaise pour les dégâts personnels de [[character:noelle]], cette arme est une option envisageable si l'équipe peut tirer parti de l'énergie supplémentaire.",
                         "it": "Sebbene sia svantaggiosa in termini di danni personali per [[character:noelle]], quest'arma può essere presa in considerazione se il team trae vantaggio dall'energia aggiuntiva.",
-                        "ru": "Слабый вариант для личного урона [[character:noelle]], но может стоить использования в отрядаХ, которым полезна дополнительная энергия."
+                        "ru": "Слабый вариант для личного урона [[character:noelle]], но может оказаться полезным в отрядаХ, которым нужна дополнительная энергия."
                     }
                 }
             ]
