@@ -33,6 +33,18 @@
         {
             "groups": [
                 {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
                     "choose": true,
                     "items": [
                         {
