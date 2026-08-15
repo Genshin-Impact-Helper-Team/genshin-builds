@@ -5,6 +5,11 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "August 15, 2026",
+                    "changes": "Updated all Traveler sections. Removed DPS Hydro Traveler section.",
+                    "appliedBy": "Quincy"
+                },
+                {
                     "date": "August 14, 2026",
                     "changes": "Merged both previous Cyno sections, added Stellar-Conduct DPS Cyno section. Added Cryo Traveler.",
                     "appliedBy": "Quincy"
