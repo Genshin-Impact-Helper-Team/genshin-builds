@@ -15,22 +15,38 @@
         {
             "groups": [
                 {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
                     "choose": true,
                     "items": [
                         {
-                            "name": "anemo-set",
+                            "name": "er-set",
                             "pieces": 2
                         },
                         {
-                            "name": "em-set",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "noblesse-oblige",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "atk-set",
+                            "name": "er-set",
                             "pieces": 2
                         }
                     ]
