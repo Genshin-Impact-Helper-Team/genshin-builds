@@ -1,16 +1,13 @@
 {
     "main_stats": {
         "sands": [
-            "em",
-            "atk%",
-            "er"
+            "er",
+            "atk%"
         ],
         "goblet": [
-            "em",
             "anemo-dmg"
         ],
         "circlet": [
-            "em",
             "cr/cd"
         ]
     }
