@@ -28,16 +28,41 @@
         },
         {
             "items": [
-                "uraku-misugiri",
+                "mistsplitter-reforged",
                 "light-of-foliar-incision",
-                "mistsplitter-reforged"
+                "uraku-misugiri",
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs similarly to **[[weapon:aquila-favonia]]**.",
+                        "fr": "Le classement suppose que l'[ability:bol]] est retiré. Si ce n'est pas le cas, cette arme équivaut à **[[weapon:aquila-favonia]]**.",
+                        "ru": "Предполагается, что [[ability:bol]] снят. Если [[ability:bol]] не снимается, данное оружие соответствует **[[weapon:aquila-favonia]]**."
+                    }
+                },
+                "haran-geppaku-futsu",
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "The ranking assumes the passive is active every other rotation. If it is not, generally outside of 2 [[element:electro]] teams, this weapon ranks under **[[weapon:aquila-favonia]]**.",
+                        "fr": "Le classement suppose que le passif est actif une rotation sur deux. Si ce n'est pas le cas, généralement dans les équipes qui n'ont pas 2 personnages [[element:electro]], cette arme se classe en dessous de **[[weapon:aquila-favonia]]**.",
+                        "ru": "Предполагается, что эффект Пассивной способности действует каждую вторую ротацию. Если это условие не выполняется (обычно в отрядах без 2 [[element:electro]] персонажей), уступает **[[weapon:aquila-favonia|Мечу Сокола]]**."
+                    }
+                }
             ]
         },
         {
             "items": [
-                "haran-geppaku-futsu",
                 "lightbearing-moonshard",
                 "splendor-of-tranquil-waters",
+                {
+                    "name": "summit-shaper",
+                    "note": {
+                        "en": "Ranking assumes [[character:odette]] is unshielded.",
+                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier.",
+                        "ru": "Предполагается отсутствие щита."
+                    }
+                },
                 {
                     "name": "exaiphanes-blade",
                     "note": {
@@ -49,23 +74,6 @@
         },
         {
             "items": [
-                {
-                    "name": "summit-shaper",
-                    "note": {
-                        "en": "Ranking assumes [[character:odette]] is unshielded.",
-                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier.",
-                        "ru": "Предполагается отсутствие щита."
-                    }
-                },
-                {
-                    "name": "finale-of-the-deep",
-                    "refinement": 5,
-                    "note": {
-                        "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs as good as **[[weapon:wolf-fang]]**.",
-                        "fr": "Le classement suppose que l'[ability:bol]] est retiré. Si ce n'est pas le cas, cette arme équivaut à **[[weapon:wolf-fang]]**.",
-                        "ru": "Предполагается, что [[ability:bol]] снят. Если [[ability:bol]] не снимается, данное оружие соответствует **[[weapon:wolf-fang|Волчьему клыку]]**."
-                    }
-                },
                 {
                     "name": "emberwell",
                     "refinement": 5,
@@ -79,8 +87,7 @@
         },
         {
             "items": [
-                "aquila-favonia",
-                "freedom-sworn"
+                "aquila-favonia"
             ]
         },
         {
@@ -88,9 +95,9 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "Can be uncomfortable to build around with artifact sets that provide additional [[stat:cr]].",
-                        "fr": "Il peut être difficile de faire un build équilibré avec cette arme et un set qui offre du [[stat:cr]] supplémentaire.",
-                        "ru": "Сборка при использовании сетов артефактов, увеличивающих [[stat:cr]], может оказаться затруднительной."
+                        "en": "Do note that the [[stat:cr]] from the passive does not apply to [[element:stellar-glimmer]] DMG.",
+                        "fr": "A noter que le [[stat:cr]] offert par le passif de l'arme ne fonctionne pas pour les dégâts de [[element:stellar-glimmer]].",
+                        "ru": "Следует отметить, что [[stat:cr]] от Пассивной способности не распространяется на урон [[element:stellar-glimmer|реакций Звёздного блеска]]."
                     }
                 }
             ]

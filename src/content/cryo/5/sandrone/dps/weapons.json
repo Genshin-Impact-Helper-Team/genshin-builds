@@ -16,9 +16,9 @@
                     "name": "blade-of-atonement",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic in some teams.",
-                        "fr": "Le classement suppose que **[[character:sandrone]]** déclenche le passif, ce qui peut être problématique dans certaines équipes.",
-                        "ru": "Предполагается, что **[[character:sandrone]]** активирует эффект Пассивной способности. В некоторых отрядах это может оказаться проблематичным."
+                        "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic when there is too much [[element:cryo]] application compared to the [[element:electro]] one. Overall, this weapon shouldn't be considered if there isn't at least 2 [[element:electro]] characters on the team.",
+                        "fr": "Le classement suppose que **[[character:sandrone]]** déclenche le passif, ce qui peut être problématique lorsqu'il y a trop d'application [[element:cryo]] comparé à l'application [[element:electro]]. De manière générale, il ne faut pas utiliser cette arme s'il n'y a pas au moins 2 personnages [[element:electro]] dans l'équipe.",
+                        "ru": "Предполагается, что **[[character:sandrone]]** активирует эффект Пассивной способности. Это может оказаться затруднительным в отрядах с избыточным наложением [[element:cryo]] в сравнении с [[element:electro]]. В целом, данное оружие не стоит рассматривать, если в отряде нет как минимум 2 [[element:electro]] персонажей."
                     }
                 }
             ]
