@@ -64,5 +64,22 @@
                 }
             ]
         }
+    ],
+    "conditional": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "silken-moons-serenade",
+                            "pieces": 4,
+                            "note": {
+                                "en": "A great option for [[element:electro]] [[character:traveler]] in teams that have two or more Nod Krai characters."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
