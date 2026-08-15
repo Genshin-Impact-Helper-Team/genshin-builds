@@ -6,6 +6,11 @@
         "it": "DPS [[element:anemo]]",
         "ru": "[[element:anemo]] ДД"
     },
+    "best": true,
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/d/1XjCi_VTDIk_Tqzu0nT9ObHymsKC9o4EYGhjzFrZNeuo/edit?usp=sharing",
+        "author": "Quincy"
+    },
     "notes": [
         {
             "en": "This section is dedicated to utilizing the [[element:anemo]] [[character:traveler]]'s [[ability:skill]], [[ability:burst]], and enhanced [[ability:ca]] to deal damage quickly and offer teamwide buffs."
