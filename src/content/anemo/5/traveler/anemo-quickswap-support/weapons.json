@@ -1,7 +1,8 @@
 {
     "notes": [
         {
-            "en": "The ranked weapons have meaningful team buffs and/or help with [[element:anemo]] [[character:traveler]]'s [[stat:er]] requirements. The conditional weapons can rank higher than **[[weapon:amenoma-kageuchi]]** but have such steep [[stat:er]] requirements that building them is very difficult and not typically recommended."
+            "en": "The ranked weapons have meaningful team buffs and/or help with [[element:anemo]] [[character:traveler]]'s [[stat:er]] requirements. The conditional weapons can rank higher than **[[weapon:amenoma-kageuchi]]** but have such steep [[stat:er]] requirements that building them is very difficult and not typically recommended.",
+            "ru": "Оружие, перечисленное в рейтинге, напрямую усиливает отряд/помогает закрыть потребность [[element:anemo]] [[character:traveler]]а в [[stat:er|энергии]]. Некоторые ситуативные варианты могут находиться в рейтинге выше, чем **[[weapon:amenoma-kageuchi]]**, но из-за сложностей с балансом статов (из-за высокой потребности в энергии) использовать его обычно не рекомендуется."
         }
     ],
     "weapons": [
@@ -10,7 +11,8 @@
                 {
                     "name": "exaiphanes-blade",
                     "note": {
-                        "en": "If you do not care about [[element:anemo]] [[character:traveler]]'s personal damage, do not use this weapon."
+                        "en": "If you do not care about [[element:anemo]] [[character:traveler]]'s personal damage, do not use this weapon.",
+                        "ru": "Не следует использовать, если вы не вкладываетесь в личный урон [[element:anemo]] [[character:traveler]]а."
                     }
                 }
             ]
@@ -35,7 +37,8 @@
                 {
                     "name": "peak-patrol-song",
                     "note": {
-                        "en": "[[element:anemo]] [[character:traveler]] can use [[stat:def%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential."
+                        "en": "[[element:anemo]] [[character:traveler]] can use [[stat:def%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential.",
+                        "ru": "[[element:anemo]] [[character:traveler]] может использовать артефакты на [[stat:def%|Защиту%]] для усиления эффекта Пассивной способности оружия, что повышает его потенциал как баффера."
                     }
                 }
             ]
