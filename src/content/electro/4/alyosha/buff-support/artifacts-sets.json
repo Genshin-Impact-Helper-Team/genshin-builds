@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Prioritize this set if no one else holds it.",
-                                "fr": "Priorisez ce set si personne d'autre dans l'équipe ne le porte."
+                                "fr": "Priorisez ce set si personne d'autre dans l'équipe ne le porte.",
+                                "ru": "Приоритетный сет, если в отрядее нет другого носителя."
                             }
                         }
                     ]
