@@ -46,7 +46,11 @@
                             "pieces": 2
                         },
                         {
-                            "name": "er-set",
+                            "name": "anemo-dmg-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk%-set",
                             "pieces": 2
                         }
                     ]
