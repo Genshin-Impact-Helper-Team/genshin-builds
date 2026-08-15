@@ -17,7 +17,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic in some teams.",
-                        "fr": "Le classement suppose que **[[character:sandrone]]** déclenche le passif, ce qui peut être problématique dans certaines équipes."
+                        "fr": "Le classement suppose que **[[character:sandrone]]** déclenche le passif, ce qui peut être problématique dans certaines équipes.",
+                        "ru": "Предполагается, что **[[character:sandrone]]** активирует эффект Пассивной способности. В некоторых отрядах это может оказаться проблематичным."
                     }
                 }
             ]
@@ -49,7 +50,7 @@
         },
         {
             "items": [
-                "gest-of-the-mighty-wolf",
+                "gest-of-the-mighty-wolf"
                 {
                     "name": "tidal-shadow",
                     "refinement": 5,
@@ -68,7 +69,8 @@
                     "name": "forged-by-the-golden-melody",
                     "note": {
                         "en": "**At [R5]**, this weapon will rank similarly to **[[weapon:a-thousand-blazing-suns]]**",
-                        "fr": "**Une fois [R5]**, cette arme se classe au même niveau que **[[weapon:a-thousand-blazing-suns]]**"
+                        "fr": "**Une fois [R5]**, cette arme se classe au même niveau que **[[weapon:a-thousand-blazing-suns]]**",
+                        "ru": "**На [R5]** соответствует **[[weapon:a-thousand-blazing-suns|Тысяче ослепительных солнц]]**."
                     }
                 },
                 {
