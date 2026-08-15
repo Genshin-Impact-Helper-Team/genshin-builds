@@ -2,13 +2,12 @@
     "main_stats": {
         "sands": [
             "er",
-            "atk%",
-                {
+            {
                 "name": "atk%",
                 "note": {
                     "en": "Typically only used with [[weapon:favonius-sword]]."
+                    }
                 }
-            }
         ],
         "goblet": [
             "anemo-dmg"
