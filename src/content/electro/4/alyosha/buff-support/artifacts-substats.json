@@ -6,8 +6,12 @@
                 "en": "[[note:er-req]]."
             }
         },
-        "em",
-        "cr/cd",
-        "atk%"
+        "atk%",
+        {
+            "name": "cr",
+            "note": {
+                "en": "[[note:cr-favo]]."
+            }
+        }
     ]
 }

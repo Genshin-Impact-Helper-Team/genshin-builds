@@ -1,0 +1,93 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "whitelake-frostfeather",
+                    "note": {
+                        "en": "Assumes max stacks. The energy refund part of passive is generally wasted.",
+                        "fr": "Suppose le nombre maximum de cumuls. La partie récupération d'énergie du passig est généralement inutile."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "azurelight",
+                {
+                    "name": "primordial-jade-cutter",
+                    "note": {
+                        "en": "Ranking assumes you can manage to not overcap on [[stat:cr]] when being used with artifact sets that provide additional [[stat:cr]]. This weapon can perform better when no exterior [[stat:cr]] buff is provided.",
+                        "fr": "Le classement suppose que vous arrivez à ne pas avoir trop de [[stat:cr]] lorsque cette arme est utilisée avec un set qui donne du [[stat:cr]] supplémentaire. Elle peut mieux performer lorsqu'aucun buff externe de [[stat:cr]] n'est présent."
+                    }
+                },
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "uraku-misugiri",
+                "light-of-foliar-incision",
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu",
+                "lightbearing-moonshard",
+                "splendor-of-tranquil-waters",
+                {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "[[note:exaiphanes]]."
+                    }
+                },
+                "athame-artis"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "summit-shaper",
+                    "note": {
+                        "en": "Ranking assumes [[character:odette]] is unshielded.",
+                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier."
+                    }
+                },
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs as good as **[[weapon:wolf-fang]]**.",
+                        "fr": "Le classement suppose que l'[ability:bol]] est retiré. Si ce n'est pas le cas, cette arme équivaut à **[[weapon:wolf-fang]]**."
+                    }
+                },
+                {
+                    "name": "emberwell",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes both halves of the passive are active. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
+                        "fr": "Le classement suppose que les deux parties du passif sont actives. Si vous ne pouvez pas déclencher de réaction avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "aquila-favonia",
+                "freedom-sworn"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "Can be uncomfortable to build around with artifact sets that provide additional [[stat:cr]].",
+                        "fr": "Il peut être difficile de faire un build équilibré avec cette arme et un set qui offre du [[stat:cr]] supplémentaire."
+                    }
+                }
+            ]
+        }
+    ]
+}
