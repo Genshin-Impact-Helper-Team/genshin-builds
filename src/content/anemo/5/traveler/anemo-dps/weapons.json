@@ -1,7 +1,7 @@
 {
     "notes": [
         {
-            "en": "This ranking assumes you **value the personal damage of [[element:anemo]] [[character:traveler]]**. If you do not care about [[element:anemo]] [[character:traveler]]'s damage, ignore weapons without team buffing capabilities."
+            "en": "Despite their lack of team buffs or [[stat:er]], the conditional weapons in this section rank higher than **[[weapon:amenoma-kageuchi]]**. However, they have such steep [[stat:er]] requirements that building them is very difficult and not typically recommended."
         }
     ],
     "weapons": [
@@ -32,24 +32,11 @@
                     "note": {
                         "en": "[[element:anemo]] [[character:traveler]] can use [[stat:def%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential."
                     }
-                },
-                "primordial-jade-cutter",
-                "mistsplitter-reforged"
+                }
             ]
         },
         {
             "items": [
-                "haran-geppaku-futsu",
-                "azurelight",
-                "light-of-foliar-incision",
-                "uraku-misugiri",
-                "absolution"
-            ]
-        },
-        {
-            "items": [
-                "splendor-of-tranquil-waters",
-                "lightbearing-moonshard",
                 "skyward-blade"
             ]
         },
@@ -68,6 +55,29 @@
                     "name": "fleuve-cendre-ferryman",
                     "refinement": 5
                 }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyrider-sword",
+                    "refinement": 5
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                "primordial-jade-cutter",
+                "mistsplitter-reforged",
+                "haran-geppaku-futsu",
+                "azurelight",
+                "light-of-foliar-incision",
+                "uraku-misugiri",
+                "absolution",
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard"
             ]
         }
     ]
