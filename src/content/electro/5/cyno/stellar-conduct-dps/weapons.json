@@ -7,6 +7,7 @@
                     "note": {
                         "en": "If using this weapon, use **[[stat:em]] artifact main stats** and prioritize [[stat:em]] substats over [[stat:atk%]] substats.",
                         "fr": "Si vous jouez cette arme, utilisez **des stats principales [[stat:em]] sur vos artéfacts** et priorisez les substats [[stat:em]] aux substats [[stat:atk%]].",
+                        "it": "Se usi quest'arma, utilizza **stat principali [[stat:em]]** e dai la priorità a statistiche secondarie [[stat:em]] rispetto a quelle [[stat:atk%]].",
                         "ru": "С данным оружием следует использовать **артефакты на [[stat:em]]**. МС-сабстаты также полезнее [[stat:atk%|силы атаки%]]."
                     }
                 }
@@ -48,6 +49,7 @@
                     "note": {
                         "en": "If [[character:cyno]] is shielded, this weapon ranks similarly to **[[weapon:disaster-and-remorse]]**.",
                         "fr": "Si [[character:cyno]] est sous bouclier, cette arme se classe au même niveau que **[[weapon:disaster-and-remorse]]**.",
+                        "it": "Se [[character:cyno]] è sotto la protezione di uno scudo, quest'arma ha prestazioni simili a **[[weapon:disaster-and-remorse]]**.",
                         "ru": "При наличии щита соответствует **[[weapon:disaster-and-remorse|Бедствие и раскаянию]]**."
                     }
                 }
@@ -60,6 +62,7 @@
                     "note": {
                         "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:symphonist-of-scents]]**.",
                         "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:symphonist-of-scents]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:symphonist-of-scents]]**.",
                         "ru": "**На [R5]** соответствует **[[weapon:symphonist-of-scents|Симфонисту ароматов]]**."
                     }
                 }
@@ -72,6 +75,7 @@
                     "note": {
                         "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
                         "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
                         "ru": "**На [R5]** соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 }
@@ -85,6 +89,7 @@
                     "note": {
                         "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
                         "fr": "**une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
                         "ru": "**На [R5]** соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 }

@@ -8,11 +8,13 @@
         {
             "en": "[[character:odette]] is an off-field damage support in [[element:stellar-glimmer]] teams. {rot:E E} activates her Solo Dance Double, which continues attacking off-field, dealing continuous [[element:cryo]] and [[element:stellar-glimmer]] DMG every 2s.",
             "fr": "[[character:odette]] est un support/DPS off-field dans les équipes [[element:stellar-glimmer]]. {rot:E E} active sa Doublure de Danse Solo, qui attaque en continue et inflige des dégâts [[element:cryo]] et [[element:stellar-glimmer]] toutes les 2s.",
+            "it": "[[character:odette]] è un personaggio di supporto che infligge danni da fuori campo nei team [[element:stellar-glimmer]]. {rot:E E} attiva la sua abilità “Controfigura danzante solista”, che continua ad attaccare da fuori campo, infliggendo danni continui di tipo [[element:cryo]] e [[element:stellar-glimmer]] ogni 2 secondi.",
             "ru": "[[character:odette]] - карманный ДД и саппорт в отрядах через реакции [[element:stellar-glimmer|Звёздного блеска]]. {rot:E E} призывает Отражение соло, которое продолжает атаковать, даже если [[character:odette]] вне поля, и периодически наносит [[element:cryo]] урон и урон реакции [[element:stellar-glimmer|Звёздного блеска]] каждые 2 секунды."
         },
         {
             "en": "It is generally recommended to skip her [[ability:burst]] entirely due to rotation length cost.",
             "fr": "Il est généralement recommandé de ne pas utiliser son [[ability:burst]] du tout à cause de la durée des rotations.",
+            "it": "In genere si consiglia di ignorare il suo [[ability:burst]] a causa del tempo di rotazione addizionale.",
             "ru": "В большинстве случаев рекомендуется не использовать её [[ability:burst]] - он затягивает ротацию."
         }
     ],
