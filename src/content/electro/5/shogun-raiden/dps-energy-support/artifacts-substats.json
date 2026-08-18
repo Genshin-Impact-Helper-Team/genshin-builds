@@ -6,8 +6,9 @@
         {
             "name": "em",
             "note": {
-                "en": "[[stat:em]] is only desirable in [[element:aggravate]]",
-                "fr": "La [[stat:em]] est seulement désirable en [[element:aggravate]]",
+                "en": "[[stat:em]] is only desirable in [[element:aggravate]].",
+                "fr": "La [[stat:em]] est seulement désirable en [[element:aggravate]].",
+                "it": "La [[stat:em]] è desiderabile solo in [[element:aggravate]].",
                 "ru": "[[stat:em]] полезно только при игре через [[element:aggravate]]."
             }
         }
