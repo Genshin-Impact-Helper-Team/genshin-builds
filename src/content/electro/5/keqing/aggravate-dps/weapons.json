@@ -29,7 +29,7 @@
                     "note": {
                         "en": "Assumes staying above 90% health all the time. Without this condition met, this weapon is not worth considering.",
                         "fr": "Suppose de rester au-dessus de 90% de vie en permanence. Sans remplir cette condition, cette arme ne vaut pas la peine d'être envisagée.",
-                        "it": "La classifica presuppone che Keqing abbia almeno 90% PS in ogni momento. Se questa condizione non è soddisfatta, non vale la pena utilizzare quest'arma.",
+                        "it": "La classifica presuppone che Keqing abbia almeno 90% PS in ogni momento. In caso contrario, non vale la pena utilizzare quest'arma.",
                         "ru": "Предполагается стабильное поддержание Пассивной способности (HP > 90%). При невозможности этого рассматривать данное оружие не следует."
                     }
                 },
