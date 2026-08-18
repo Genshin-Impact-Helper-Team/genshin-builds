@@ -15,6 +15,7 @@
                     "note": {
                         "en": "If using a [[element:geo]] unit, this weapon is as strong as **[[weapon:mistsplitter-reforged]]**.",
                         "fr": "Si vous utilisez un personnage [[element:geo]], cette arme est aussi puissante que **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "Con un personaggio [[element:geo]] nel team, quest'arma ha prestazioni simili a **[[weapon:mistsplitter-reforged]]**.",
                         "ru": "В отрядах с [[element:geo]] персонажами соответствует **[[weapon:mistsplitter-reforged|Рассекающему туман]]**."
                     }
                 }
@@ -28,6 +29,7 @@
                     "note": {
                         "en": "Assumes staying above 90% health all the time. Without this condition met, this weapon is not worth considering.",
                         "fr": "Suppose de rester au-dessus de 90% de vie en permanence. Sans remplir cette condition, cette arme ne vaut pas la peine d'être envisagée.",
+                        "it": "La classifica presuppone che Keqing abbia almeno 90% PS in ogni momento. Se questa condizione non è soddisfatta, non vale la pena utilizzare quest'arma.",
                         "ru": "Предполагается стабильное поддержание Пассивной способности (HP > 90%). При невозможности этого рассматривать данное оружие не следует."
                     }
                 },
@@ -44,6 +46,7 @@
                     "note": {
                         "en": "Scales well with refinements. At **[R5]**, this weapon performs similar to **[[weapon:light-of-foliar-incision]]**.",
                         "fr": "Profite bien des raffinements. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:light-of-foliar-incision]]**.",
+                        "it": "Quest'arma scala bene con i miglioramenti. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:light-of-foliar-incision]]**.",
                         "ru": "Значительно усиливается на пробуждениях. На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**."
                     }
                 }
@@ -56,6 +59,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:freedom-sworn]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:freedom-sworn]]**.",
                         "ru": "На **[R5]** соответствует **[[weapon:freedom-sworn|Клятве свободы]]**."
                     }
                 },
@@ -65,6 +69,7 @@
                     "note": {
                         "en": "This weapon falls off if facing more than one enemy.",
                         "fr": "Cette arme est bien moins bonne si vous faites face à plus d'un ennemi.",
+                        "it": "Quest'arma ha prestazioni peggiori se si fronteggia più di un nemico.",
                         "ru": "Становится гораздо слабее в бою с несколькими противниками."
                     }
                 },
@@ -74,6 +79,7 @@
                     "note": {
                         "en": "Assumes [[character:keqing]] is shielded.",
                         "fr": "Suppose que [[character:keqing]] est sous bouclier.",
+                        "it": "La classifica presuppone che [[character:keqing]] sia protetta da uno scudo.",
                         "ru": "Предполагается наличие щита."
                     }
                 }
@@ -91,6 +97,7 @@
                     "note": {
                         "en": "Assumes [[ability:bol]] is cleared shortly after casting [[ability:skill]].",
                         "fr": "Suppose que l'[[ability:bol]] est retiré peu après avoir lancé le [[ability:skill]].",
+                        "it": "La classifica presuppone che il **[[ability:bol]]** sia rimosso tramite cure in breve tempo dopo aver utilizzato l'[[ability:skill]].",
                         "ru": "Предполагается, что [[ability:bol]] снимается вскоре после применения [[ability:skill|Элементального навыка]]."
                     }
                 },
@@ -99,6 +106,7 @@
                     "note": {
                         "en": "Assumes no shield. If shielded, this weapon performs similar to **[[weapon:the-black-sword]]**.",
                         "fr": "Suppose aucun bouclier. Si sous bouclier, cette arme performe de manière similaire à **[[weapon:the-black-sword]]**.",
+                        "it": "La classifica presuppone l'**assenza di uno scudo**. Se Keqing è protetta da uno scudo, quest'arma ha prestazioni simili a **[[weapon:the-black-sword]]**.",
                         "ru": "Предполагается отсутствие щита. При его наличии это оружие соответствует **[[weapon:the-black-sword|Чёрному мечу]]**."
                     }
                 },
@@ -107,6 +115,7 @@
                     "note": {
                         "en": "[[element:aggravate]] [[character:keqing]] can usually have 100% uptime on this passive. If the [[element:dendro]] unit is [[character:nahida]], this weapon performs ever so slightly worse. At **[R5]**, this weapon performs similar to **[[weapon:freedom-sworn]]**.",
                         "fr": "[[character:keqing]] [[element:aggravate]] peut généralement maintenir 100% d'uptime sur ce passif. Si le personnage [[element:dendro]] est [[character:nahida]], cette arme performe un tout petit peu moins bien. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**.",
+                        "it": "In team [[element:aggravate]], [[character:keqing]] può solitamente avere il 100% di tempo di funzionamento della passiva. Se il personaggio [[element:dendro]] nel team è [[character:nahida]], quest'arma ha prestazioni leggermente peggiori. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:freedom-sworn]]**.",
                         "ru": "В отрядах с [[element:aggravate]]м Пассивная способность, как правило, постоянно поддерживается. Если в отряде есть [[character:nahida]], данное оружие показывает себя чуть хуже. На **[R5]** соответствует **[[weapon:freedom-sworn|Клятве свободы]]**."
                     }
                 }
