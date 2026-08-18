@@ -2,8 +2,8 @@
     "best": true,
     "name": {
         "en": "[[element:anemo]] Quickswap Support",
-        "fr": "DPS [[element:anemo]] Support Quickswap",
-        "it": "DPS [[element:anemo]]",
+        "fr": "[[element:anemo]] Support Quickswap",
+        "it": "Supporto [[element:anemo]] a scambio rapido",
         "ru": "[[element:anemo]] саппорт в револьверных отрядах"
     },
     "weapons": {
@@ -14,6 +14,7 @@
         {
             "en": "This section is dedicated to utilizing the [[element:anemo]] [[character:traveler]]'s [[ability:skill]], [[ability:burst]], and enhanced [[ability:ca]] to deal damage quickly and offer teamwide buffs.",
             "fr": "Cette section est dédiée à l'utilisation des [[ability:skill]], [[ability:burst]], et [[ability:ca]] améliorée du [[character:traveler]] [[element:anemo]] pour infliger des dégâts rapidement et buff le reste de l'équipe.",
+            "it": "Questa sezione è dedicata all'utilizzo dell'[[ability:skill]], del [[ability:burst]], e dell'[[ability:ca]] potenziato del [[character:traveler]] [[element:anemo]] per infliggere danni rapidamente e fornire potenziamenti a tutto il team.",
             "ru": "В данной сборке [[element:anemo]] [[character:traveler]] использует свой [[ability:skill]], [[ability:burst]] и усиленную [[ability:ca|Заряженную атаку]], чтобы быстро наносить урон и раздавать усиления для отряда."
         },
         {
