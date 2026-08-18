@@ -15,6 +15,7 @@
                     "note": {
                         "en": "If using a [[element:geo]] unit, this weapon is as strong as **[[weapon:light-of-foliar-incision]]** and similar options.",
                         "fr": "Si vous utilisez un personnage [[element:geo]], cette arme est aussi puissante que **[[weapon:light-of-foliar-incision]]** et les options similaires.",
+                        "it": "Con un personaggio [[element:geo]] nel team, quest'arma ha prestazioni simili a **[[weapon:light-of-foliar-incision]]** e le altre opzioni simili.",
                         "ru": "В отрядах с [[element:geo]] персонажами соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]** и равным ему позициям."
                     }
                 },
@@ -33,6 +34,7 @@
                     "note": {
                         "en": "Assumes staying above 90% health all the time. Without this condition met, this weapon is not worth considering.",
                         "fr": "Suppose de rester au-dessus de 90% de vie en permanence. Sans remplir cette condition, cette arme ne vaut pas la peine d'être envisagée.",
+                        "it": "La classifica presuppone che Keqing abbia almeno 90% PS in ogni momento. In caso contrario, non vale la pena utilizzare quest'arma.",
                         "ru": "Предполагается стабильное поддержание Пассивной способности (HP > 90%). При невозможности этого рассматривать данное оружие не следует."
                     }
                 },
@@ -56,6 +58,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:haran-geppaku-futsu]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]**.",
                         "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
@@ -68,6 +71,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs slightly better than **[[weapon:wolf-fang]]**.",
                         "fr": "Une fois **[R5]**, cette arme performe légèrement mieux que **[[weapon:wolf-fang]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni leggermente migliori di **[[weapon:wolf-fang]]**.",
                         "ru": "На **[R5]** превосходит **[[weapon:wolf-fang]]**."
                     }
                 }
@@ -80,6 +84,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:iron-sting]] [R5]**.",
                         "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:iron-sting]] [R5]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:iron-sting]] [R5]**.",
                         "ru": "На **[R5]** соответствует **[[weapon:iron-sting|Стальному жалу]] [R5]**."
                     }
                 },
@@ -89,6 +94,7 @@
                     "note": {
                         "en": "Assumes [[character:keqing]] is shielded.",
                         "fr": "Suppose que [[character:keqing]] est sous bouclier.",
+                        "it": "La classifica presuppone che [[character:keqing]] sia protetta da uno scudo.",
                         "ru": "Предполагается наличие щита."
                     }
                 },
@@ -98,6 +104,7 @@
                     "note": {
                         "en": "Assumes [[ability:bol]] being cleared.",
                         "fr": "Suppose que l'[[ability:bol]] est retiré.",
+                        "it": "La classifica presuppone che [[character:keqing]] riceva abbastanza cure affinché il **[[ability:bol]]** venga rimosso.",
                         "ru": "Предполагается, что [[ability:bol]] снимается."
                     }
                 },
