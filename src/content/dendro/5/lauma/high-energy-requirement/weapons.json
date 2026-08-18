@@ -48,7 +48,7 @@
                     "name": "blackmarrow-lantern",
                     "refinement": 5,
                     "note": {
-                        "en": "This weapon assume you are using hold [[ability:skill]] for damage, if you are not, this weapon should not be considered",
+                        "en": "This weapon assumes you are using hold [[ability:skill]] for damage, if you are not, this weapon should not be considered",
                         "fr": "Cette classement suppose que vous utilisez le [[ability:skill]] appui long pour les dégâts ; si ce n'est pas le cas, elle ne doit pas être considérée.",
                         "it": "La classifica presuppone che [[character:lauma]] utilizzi la sua [[ability:skill]] premuta a lungo per i suoi danni; in caso contrario, quest'arma non dovrebbe essere presa in considerazione.",
                         "ru": "Предполагается, что [[character:lauma]] использует долгое нажатие [[ability:skill|Элементального навыка]], чтобы наносить урон. В ином случае не рекомендуется использовать."

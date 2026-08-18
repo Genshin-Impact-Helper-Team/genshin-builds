@@ -39,7 +39,7 @@
                     "note": {
                         "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs similarly to **[[weapon:aquila-favonia]]**.",
                         "fr": "Le classement suppose que l'[[ability:bol]] est retiré. Si ce n'est pas le cas, cette arme équivaut à **[[weapon:aquila-favonia]]**.",
-                        "it": "La posizione in classifica presuppone che Odette riceva abbastanza cure da eliminare il [[ability:bol]]. In caso contratio, quest'arma ha prestazioni simili a **[[weapon:aquila-favonia]]**.",
+                        "it": "La posizione in classifica presuppone che Odette riceva abbastanza cure da eliminare il **[[ability:bol]]**. In caso contrario, quest'arma ha prestazioni simili a **[[weapon:aquila-favonia]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снят. Если [[ability:bol]] не снимается, данное оружие соответствует **[[weapon:aquila-favonia]]**."
                     }
                 },
@@ -103,7 +103,7 @@
                     "note": {
                         "en": "Do note that the [[stat:cr]] from the passive does not apply to [[element:stellar-glimmer]] DMG.",
                         "fr": "A noter que le [[stat:cr]] offert par le passif de l'arme ne fonctionne pas pour les dégâts de [[element:stellar-glimmer]].",
-                        "it": "Si noti che il [[stat:cr]] dalla passiva non è applicato a danni [[element:stellar-glimmer]].",
+                        "it": "Si noti che il [[stat:cr]] dalla passiva non è applicato ai danni da [[element:stellar-glimmer]].",
                         "ru": "Следует отметить, что [[stat:cr]] от Пассивной способности не распространяется на урон [[element:stellar-glimmer|реакций Звёздного блеска]]."
                     }
                 }
