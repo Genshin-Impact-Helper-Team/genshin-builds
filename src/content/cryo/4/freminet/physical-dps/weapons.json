@@ -114,7 +114,13 @@
                     "name": "prototype-archaic",
                     "refinement": 5
                 },
-                "forged-by-the-golden-melody",
+                {
+                    "name": "forged-by-the-golden-melody",
+                    "note": {
+                        "en": "If [[character:freminet]] can consistently trigger [[element:stellar-conduct]], it can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
+                    }
+                },
                 {
                     "name": "snow-tombed-starsilver",
                     "refinement": 5
