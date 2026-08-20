@@ -33,7 +33,11 @@
         },
         {
             "items": [
-                "lost-prayer-to-the-sacred-winds",
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "echoes-of-the-heart",
                     "refinement": 5

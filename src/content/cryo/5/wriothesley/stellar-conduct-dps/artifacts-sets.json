@@ -17,21 +17,6 @@
                 {
                     "items": [
                         {
-                            "name": "blizzard-strayer",
-                            "pieces": 4,
-                            "note": {
-                                "en": "This ranking assumes the [[element:freeze]] passive is inactive."
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
                             "name": "MH",
                             "pieces": 4
                         }
@@ -63,6 +48,21 @@
                         {
                             "name": "atk-set",
                             "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "blizzard-strayer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This ranking assumes the [[element:freeze]] passive is inactive."
+                            }
                         }
                     ]
                 }
