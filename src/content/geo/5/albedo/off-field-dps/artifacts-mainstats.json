@@ -10,6 +10,7 @@
                 "note": {
                     "en": "[[stat:def%]] is generally preferred for team damage unless [[character:albedo]] already has, or is close to 3,000 [[stat:def|DEF]] in combat.",
                     "fr": "La [[stat:def%]] est généralement préférée pour les dégâts de l'équipe, sauf si [[character:albedo]] a déjà, ou est proche de 3 000 [[stat:def|DÉF]] en combat.",
+                    "it": "[[stat:def%]] è solitamente la statistica principale preferibile per quanto riguarda i danni del team, a meno che [[character:albedo]] non raggiunga comunque 3000 [[stat:def]] (o quasi) durante il combattimento.",
                     "ru": "Чаще всего рекомендуется [[stat:def%]] для наращивания командного урона (кроме случаев, когда Защита [[character:albedo]] без кубка уже достигает 3000)."
                 }
             }
