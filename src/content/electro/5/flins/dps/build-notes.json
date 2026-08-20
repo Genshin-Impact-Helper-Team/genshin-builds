@@ -15,11 +15,13 @@
         {
             "en": "[[character:flins]] is an on-field DPS unit who utilizes a short field time to generate energy for himself and use the lower Energy cost [[ability:burst]] when possible. Because most of his damage is [[element:lunar-charged]], [[element:electro]] DMG% and other DMG% buffs are not particularly useful for him.",
             "fr": "[[character:flins]] est un personnage DPS on-field qui utilise son court temps de terrain pour se générer de l'énergie et utiliser son petit [[ability:burst]] dès que possible. Comme la plupart de ses dégâts sont de la [[element:lunar-charged]], les DGT% [[element:electro]] et autres buffs de DGT% ne sont pas particulièrement utiles pour lui.",
+            "it": "[[character:flins]] è un DPS che utilizza il suo breve tempo sul campo per generare Energia per sé stesso ed attivare quando possibile il suo [[ability:burst]] speciale a più basso costo di Energia. Poiché la maggioranza dei suoi danni sono di [[element:lunar-charged]], DAN [[element:electro]]% ed altri eventuali potenziamenti a DAN% non sono particolarmente utili.",
             "ru": "[[character:flins]] - ДД с коротким временем нахождения на поле, во время которого он активно генерирует энергию для себя же и тратит её на усиленный [[ability:burst]] (недорогой по стоимости). Так как большая часть урона [[character:flins]]а считается уроном [[element:lunar-charged|Лунного заряда]], бонус [[element:electro]] урона и подобные ему усиления для него не особо полезны."
         },
         {
             "en": "[[character:flins]] requires another Moonsign character in his team to unlock a large portion of his damage potential.",
             "fr": "[[character:flins]] nécessite un autre personnage Signelune dans son équipe pour débloquer une grande partie de son potentiel de dégâts.",
+            "it": "[[character:flins]] ha bisogno di un altro personaggio con Presagio lunare nel team per sbloccare gran parte del suo potenziale di danno.",
             "ru": "Для полного раскрытия своего потенциала [[character:flins]]у требуется еще один персонаж с Лунным знамением в отряде."
         }
     ]

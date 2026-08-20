@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "Assumes being shielded by [[element:crystallize]] shards.",
                                 "fr": "Suppose que le personnage est protégé par des fragments de [[element:crystallize]].",
+                                "it": "La classifica presuppone che il [[character:traveler]] sia protetto da uno scudo [[element:crystallize]].",
                                 "ru": "Предполагается наличие щитов от [[element:crystallize]]."
                             }
                         }
@@ -23,8 +24,21 @@
                             "note": {
                                 "en": "Assumes [[ability:skill]]s are performed within 2 seconds after taking the field.",
                                 "fr": "Suppose que les [[ability:skill]] sont utilisés dans les 2 secondes après l'arrivée sur le terrain.",
+                                "it": "La classifica presuppone che le [[ability:skill]] siano attivate entro 2 secondi dall'entrata sul campo.",
                                 "ru": "Предполагается, что [[ability:skill]] активируется в течение 2-х секунд после выхода на поле."
                             }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
                         }
                     ]
                 }
@@ -69,6 +83,7 @@
                             "note": {
                                 "en": "This set becomes better than 2 piece combinations in teams with high [[stat:er]] requirements.",
                                 "fr": "Ce set devient meilleur que les combinaisons de 2 pièces dans les équipes avec des besoins élevés en [[stat:er]].",
+                                "it": "Questo set supera le combinazioni da 2 pezzi in team con alti requisiti di [[stat:er]].",
                                 "ru": "Превосходит варианты 2/2 в отрядах с высокой потребностью в [[stat:er|энергии]]."
                             }
                         }
@@ -86,6 +101,7 @@
                             "note": {
                                 "en": "Subpar for the [[element:geo]] [[character:traveler]]'s damage, but provides a good buff to the team.",
                                 "fr": "Moins bons pour les dégâts du [[character:traveler]] [[element:geo]], mais fournit un bon buff à l'équipe.",
+                                "it": "Mediocre per i danni personali del [[character:traveler]], ma fornisce un buon potenziamento al team.",
                                 "ru": "В большей степени полезен отряду, нежели самому [[element:geo]] [[character:traveler]]у."
                             }
                         }
@@ -103,6 +119,7 @@
                             "note": {
                                 "en": "Subpar for the [[element:geo]] [[character:traveler]]'s damage, but provides a good buff to the team.",
                                 "fr": "Moins bons pour les dégâts du [[character:traveler]] [[element:geo]], mais fournit un bon buff à l'équipe.",
+                                "it": "Mediocre per i danni personali del [[character:traveler]], ma fornisce un buon potenziamento al team.",
                                 "ru": "В большей степени полезен отряду, нежели самому [[element:geo]] [[character:traveler]]у."
                             }
                         }
@@ -116,7 +133,28 @@
                             "note": {
                                 "en": "Subpar for the [[element:geo]] [[character:traveler]]'s damage, but provides a good buff to the team.",
                                 "fr": "Moins bons pour les dégâts du [[character:traveler]] [[element:geo]], mais fournit un bon buff à l'équipe.",
+                                "it": "Mediocre per i danni personali del [[character:traveler]], ma fornisce un buon potenziamento al team.",
                                 "ru": "В большей степени полезен отряду, нежели самому [[element:geo]] [[character:traveler]]у."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "silken-moons-serenade",
+                            "pieces": 4,
+                            "note": {
+                                "en": "A great option for [[element:geo]] [[character:traveler]] in teams that have two or more Nod Krai characters.",
+                                "fr": "Une très bonne option pour le [[character:traveler]] [[element:electro]] dans les équipes qui ont 2 personnages de Nod Krai ou plus.",
+                                "it": "Un'ottima opzione per il [[character:traveler]] in team con due o più personaggi di Nod-Krai.",
+                                "ru": "Отличный вариант для [[element:geo]] [[character:traveler]]а в отрядах с двумя или более персонажами из Нод-Края."
                             }
                         }
                     ]

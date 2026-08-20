@@ -20,7 +20,9 @@
                     "note": {
                         "en": "Ranking assumes 100% uptime on the passive.",
                         "fr": "Le classement suppose que le passif est actif en permanence.",
-                        "it": "La posizione in classifica presuppone che la passiva sia sempre attiva."
+                        "it": "La posizione in classifica presuppone che la passiva sia sempre attiva.",
+                        "ru": "Предполагается, что эффект Пассивной способности оружия поддерживается постоянно."
+                        
                     }
                 }
             ]
@@ -31,11 +33,7 @@
                 "skyward-atlas",
                 "nocturnes-curtain-call",
                 "surfs-up",
-                "tome-of-the-eternal-flow"
-            ]
-        },
-        {
-            "items": [
+                "tome-of-the-eternal-flow",
                 "starcallers-watch",
                 "sunny-morning-sleep-in",
                 "tulaytullahs-remembrance"
@@ -74,7 +72,8 @@
                     "note": {
                         "en": "**At [R5]**, this weapon performs better than **[[weapon:dawning-frost]]**.",
                         "fr": "**Une fois [R5]**, cette arme devient meilleure que **[[weapon:dawning-frost]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:dawning-frost]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:dawning-frost]]**.",
+                        "ru": "**На [R5]** превосходит **[[weapon:dawning-frost]]**."
                     }
                 }
             ]
@@ -84,7 +83,8 @@
         {
             "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**.",
             "fr": "**Les armes [[stat:em]]** deviennent plus intéressantes lorsque l'équipe a **moins de buffs de DGT [[element:stellar-glimmer]] / [[stat:em]]**.",
-            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]."
+            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]].",
+            "ru": "**Оружие на [[stat:em|МС]]** становится более ценным, если у отряда **не слишком много бонусов к урону реакций [[element:stellar-glimmer|Звёздного блеска]]**."
         }
     ]
 }

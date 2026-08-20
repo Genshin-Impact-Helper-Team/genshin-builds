@@ -22,7 +22,7 @@
                     "note": {
                         "en": "Ranking assumes the [[ability:skill]] [[stat:em]] buff and part of the [[ability:burst]] [[stat:em]] buff.",
                         "fr": "Le classement suppose le buff de [[stat:em]] de la partie [[ability:skill]] et une partie du buff de [[stat:em]] de la partie [[ability:burst]].",
-                        "it": "La posizione in classifica presuppone il potenziamento di [[stat:em]] attivato dall'[[ability:skill]] e parte di quello attivato dal [[ability:burst]].",
+                        "it": "La classifica presuppone che siano attivi il potenziamento di [[stat:em]] attivato dall'[[ability:skill]] e parte di quello attivato dal [[ability:burst]].",
                         "ru": "Предполагается, что бонус [[stat:em|МС]] от [[ability:skill|Элементального навыка]] активен постоянно, а бонус от [[ability:burst|Взрыва стихии]] активен только часть ротаций."
                     }
                 },

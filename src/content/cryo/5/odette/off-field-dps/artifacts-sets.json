@@ -9,7 +9,9 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Generally her best option if the team does not have other suitable holders.",
-                                "fr": "Géneralement sa meilleure option si l'équipe n'a pas de meilleur porteur possible."
+                                "fr": "Géneralement sa meilleure option si l'équipe n'a pas de meilleur porteur possible.",
+                                "it": "Solitamente il miglior set di Odette se nessuno nel team può utilizzarlo in maniera più efficiente.",
+                                "ru": "Лучший вариант, если в отряде нет другого носителя."
                             }
                         }
                     ]
@@ -25,7 +27,9 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Her best damage oriented set, only works in [[element:stellar-conduct]] teams.",
-                                "fr": "Le meilleur set pour un build orienté dégâts, mais ne fonctionne que pour les équipes [[element:stellar-conduct]]."
+                                "fr": "Le meilleur set pour un build orienté dégâts, mais ne fonctionne que pour les équipes [[element:stellar-conduct]].",
+                                "it": "Il miglior set per i danni personali di Odette, funziona solo in team [[element:stellar-conduct]].",
+                                "ru": "Лучший по урону вариант, работает только в отрядах через [[element:stellar-conduct]]."
                             }
                         }
                     ]
@@ -41,7 +45,9 @@
                             "pieces": 4,
                             "note": {
                                 "en": "A good option if you already have a set on standby, usually providing only half of the passive. Do note that you can run into [[stat:cr]] overcap problems with this set.",
-                                "fr": "Une bonne option si vous avez déjà un set de côté, n'a cependant généralement d'actif que la moitié du passif. Notez que vous pouvez facilement vous retrouver avec trop de [[stat:cr]] en utilisant ce set."
+                                "fr": "Une bonne option si vous avez déjà un set de côté, n'a cependant généralement d'actif que la moitié du passif. Notez que vous pouvez facilement vous retrouver avec trop de [[stat:cr]] en utilisant ce set.",
+                                "it": "Una buona opzione se hai già un set pronto, che di solito fornisce solo metà della passiva. Tieni presente che con questo set potresti incorrere in problemi di eccesso di [[stat:cr]].",
+                                "ru": "Неплохой сет при его наличии, работает только половина эффекта. Следует отметить, что с ним можно уйти в избыток [[stat:cr|Шанса крит. попадания]]."
                             }
                         }
                     ]
@@ -53,7 +59,9 @@
                             "pieces": 4,
                             "note": {
                                 "en": "Can be an option if her DPS share is low.",
-                                "fr": "Peut être une option à considérer si sa part de DPS est faible."
+                                "fr": "Peut être une option à considérer si sa part de DPS est faible.",
+                                "it": "Può essere una buona opzione se la quota di danni di Odette è bassa.",
+                                "ru": "Можно рассматривать, если её вклад в ДПС отряда невелик."
                             }
                         }
                     ]
