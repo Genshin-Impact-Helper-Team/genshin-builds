@@ -15,7 +15,8 @@
                 {
                     "name": "clash-of-kings",
                     "note": {
-                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**."
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**.",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -25,7 +26,8 @@
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**."
+                        "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**.",
+                        "fr": "Ce classement suppose que [[character:wriothesley]] est sous bouclier. Si ce n'est pas le cas, cette arme se classe sous **[[weapon:lost-prayer]]**."
                     }
                 },
                 "vivid-notions"
@@ -70,13 +72,15 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "**At [R5]**, this option performs closer to [[weapon:starcallers-watch]]."
+                        "en": "**At [R5]**, this option performs closer to [[weapon:starcallers-watch]].",
+                        "fr": "**Une fois [R5]**, cette arme se rapproche de [[weapon:starcallers-watch]]."
                     }
                 },
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "**At [R5]**, this option performs closer to [[weapon:starcallers-watch]]."
+                        "en": "**At [R5]**, this option performs closer to [[weapon:starcallers-watch]].",
+                        "fr": "**Une fois [R5]**, cette arme se rapproche de [[weapon:starcallers-watch]]."
                     }
                 }
             ]

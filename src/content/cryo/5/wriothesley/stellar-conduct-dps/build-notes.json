@@ -6,10 +6,12 @@
     },
     "notes": [
         {
-            "en": "[[character:wriothesley]] as a [[element:stellar-conduct]] DPS uses his enhanced [[ability:na]] and [[ability:ca]] to deal [[element:stellar-conduct]] DMG. In this role, he is played with a character that can **enable the [[element:stellar-glimmer]] reactions** (i.e. [[character:odette]], [[element:cryo]] [[character:traveler]]) so he can fully take advantage of his **Witch's Revelation Passive**. "
+            "en": "[[character:wriothesley]] as a [[element:stellar-conduct]] DPS uses his enhanced [[ability:na]] and [[ability:ca]] to deal [[element:stellar-conduct]] DMG. In this role, he is played with a character that can **enable the [[element:stellar-glimmer]] reactions** (i.e. [[character:odette]], [[element:cryo]] [[character:traveler]]) so he can fully take advantage of his **Witch's Revelation Passive**.",
+            "fr": "[[character:wriothesley]] en tant que DPS [[element:stellar-conduct]] utilise ses attaques normales et chargées améliorées pour infliger des dégâts [[element:stellar-conduct]] DMG. Dans ce rôle, il est joué avec un personnage qui permet d'**activer les [[element:stellar-glimmer]]** (par exemple [[character:odette]], [[element:cryo]] [[character:traveler]]) pour pouvoir tirer parti de son **passif de Révélations de la sorcière**."
         },
         {
-            "en": "As he only gets his enhanced [[ability:ca]] when he is under 60% [[stat:hp|HP]], it is strongly discouraged to play [[character:wriothesley]] with a healer."
+            "en": "As he only gets his enhanced [[ability:ca]] when he is under 60% [[stat:hp|HP]], it is strongly discouraged to play [[character:wriothesley]] with a healer.",
+            "fr": "Comme il n'obtient son [[ability:ca]] améliorée que lorsqu'il est en dessous de 60% de [[stat:hp]], il est fortement déconseillé de jouer [[character:wriothesley]] avec un personnage offrant des soins."
         }
     ],
     "weapons": {
