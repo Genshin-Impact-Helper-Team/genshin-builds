@@ -7,7 +7,12 @@
             "atk%"
         ],
         "circlet": [
-            "cr/cd"
+            {
+                "name": "cr/cd",
+                "note": {
+                    "en": "A [[stat:cd]] circlet is usually preferred to a [[stat:cr]] one due to the external [[stat:cr]] buffs that [[character:wriothesley]] can receive (+16% with **[[set:disenchantment-in-deep-shadow]] (4)**, +15% with **[[element:cryo]] resonance**). However, when using a weapon with a second attribute other than [[stat:cr]], a [[stat:cr]] circlet can be considered as long as the crit ratio stays close to 1:2."
+                }
+            }
         ]
     }
 }
