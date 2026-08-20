@@ -12,6 +12,7 @@
                     "note": {
                         "en": "This weapon scales great with refines on [[character:arataki-itto]],  making it way better than similar ranking options at **[R5]**. When using **[[set:husk-of-opulent-dreams]]**, **[[weapon:serpent-spine]]** stacks are prioritized over **[[set:husk-of-opulent-dreams]]** stacks due to their conflicting nature in gaining stacks (On-Field vs Off-Field).",
                         "fr": "Cette arme scale très bien avec les raffinements sur [[character:arataki-itto]], la rendant bien meilleure que les options classées de manière similaire une fois **[R5]**. Lorsque vous utilisez **[[set:husk-of-opulent-dreams]]**, les stacks de **[[weapon:serpent-spine]]** sont priorisés par rapport aux stacks de **[[set:husk-of-opulent-dreams]]** en raison de leur nature conflictuelle pour gagner des stacks (on-field vs off-field).",
+                        "it": "Quest'arma scala molto bene con i miglioramenti, rendendola decisamente migliore rispetto ad altre opzioni alla stessa posizione in classifica a **[R5]**. Quando si utilizza **[[set:husk-of-opulent-dreams]]**, gli accumuli di **[[weapon:serpent-spine]]** hanno la priorità rispetto agli accumuli di **[[set:husk-of-opulent-dreams]]** a causa della loro natura conflittuale (ottenuti in campo vs ottenuti fuori campo).",
                         "ru": "Значительно усиливается при пробуждении. На **[R5]** намного превосходит варианты под тем же номером в рейтинге. При использовании набора **[[set:husk-of-opulent-dreams]]** уровни **[[weapon:serpent-spine|Меча драконьей кости]]** важнее, чем уровни **[[set:husk-of-opulent-dreams|Кокона]]** из-за конфликтующих способов их получения (на поле/вне поля)."
                     }
                 },
@@ -28,6 +29,7 @@
                     "note": {
                         "en": "Your rotations often start with 1 stack of this weapon, and due to [[character:arataki-itto]]'s [[ability:burst]] snapshotting [[stat:def|DEF]] on cast, you're unable to take advantage of further [[stat:def%]] from the stacks.",
                         "fr": "Vos rotations commencent souvent avec 1 stack de cette arme, et comme l'[[ability:burst]] de [[character:arataki-itto]] snapshot la [[stat:def]] au lancement, vous ne pouvez pas profiter de la [[stat:def%]] supplémentaire des stacks suivants.",
+                        "it": "Le tue rotazioni spesso iniziano con 1 accumulo di quest'arma e, dato che il [[ability:burst]] di [[character:arataki-itto]] 'snapshotta' la [[stat:def]] al momento dell'attivazione, non puoi sfruttare l'ulteriore [[stat:def%]] degli accumuli.",
                         "ru": "Ротация обычно начинается с 1 уровнем Тени; из-за того, что [[ability:burst]] [[character:arataki-itto|Итто]] берёт характеристики Защиты при активации, Итто не в состоянии использовать Защиту, набранную от **[[weapon:whiteblind|Тени]]** после начала [[ability:burst|Взрыва стихии]]."
                     }
                 },
@@ -36,6 +38,7 @@
                     "note": {
                         "en": "Can be a great or bad weapon for [[character:arataki-itto]] depending on your [[stat:er|ER]] needs. The less [[stat:er]] you need (due to particle generation from your party members or [[stat:er|ER]] from subs), the less useful this weapon becomes.",
                         "fr": "Peut être une excellente ou une mauvaise arme pour [[character:arataki-itto]] selon vos besoins en [[stat:er|RE]]. Moins vous avez besoin de [[stat:er]] (grâce à la génération de particules des membres de votre équipe ou à la [[stat:er|RE]] des substats), moins cette arme devient utile.",
+                        "it": "Può essere un'arma ottima o pessima per [[character:arataki-itto]] a seconda dei suoi requisiti di [[stat:er]]. Meno [[stat:er]] ti serve, meno quest'arma è utile.",
                         "ru": "Может быть как хорошим, так и плохим оружием для [[character:arataki-itto|Итто]] - это зависит от его потребности в [[stat:er|ВЭ]]. Чем меньшее количество [[stat:er|ВЭ]] нужно (из-за генерации частиц членами отряда/[[stat:er|ВЭ]] в сабстатах), тем менее оно полезно."
                     }
                 }
