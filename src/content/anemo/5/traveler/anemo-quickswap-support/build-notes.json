@@ -1,0 +1,27 @@
+{
+    "best": true,
+    "name": {
+        "en": "[[element:anemo]] Quickswap Support",
+        "fr": "[[element:anemo]] Support Quickswap",
+        "it": "Supporto [[element:anemo]] a scambio rapido",
+        "ru": "[[element:anemo]] саппорт в револьверных отрядах"
+    },
+    "weapons": {
+        "link": "https://docs.google.com/spreadsheets/d/1XjCi_VTDIk_Tqzu0nT9ObHymsKC9o4EYGhjzFrZNeuo/edit?usp=sharing",
+        "author": "Quincy"
+    },
+    "notes": [
+        {
+            "en": "This section is dedicated to utilizing the [[element:anemo]] [[character:traveler]]'s [[ability:skill]], [[ability:burst]], and enhanced [[ability:ca]] to deal damage quickly and offer teamwide buffs.",
+            "fr": "Cette section est dédiée à l'utilisation des [[ability:skill]], [[ability:burst]], et [[ability:ca]] améliorée du [[character:traveler]] [[element:anemo]] pour infliger des dégâts rapidement et buff le reste de l'équipe.",
+            "it": "Questa sezione è dedicata all'utilizzo dell'[[ability:skill]], del [[ability:burst]], e dell'[[ability:ca]] potenziato del [[character:traveler]] [[element:anemo]] per infliggere danni rapidamente e fornire potenziamenti a tutto il team.",
+            "ru": "В данной сборке [[element:anemo]] [[character:traveler]] использует свой [[ability:skill]], [[ability:burst]] и усиленную [[ability:ca|Заряженную атаку]], чтобы быстро наносить урон и раздавать усиления для отряда."
+        },
+        {
+            "en": "[[element:anemo]] [[character:traveler]] can require a significant amount of [[stat:er]].",
+            "fr": "Le [[character:traveler]] [[element:anemo]] peut demander une quantité importante de [[stat:er]].",
+            "it": "Il [[character:traveler]] [[element:anemo]] può aver bisogno di una quantità significativa di [[stat:er]].",
+            "ru": "[[element:anemo]] [[character:traveler|Путешественник]] может нуждаться в достаточно высоком уровне [[stat:er|Восстановления энергии]]."
+        }
+    ]
+}
