@@ -3,7 +3,7 @@
         {
             "en": "Ranking assumes that [[character:freminet]] is not played with significant [[stat:atk%]] buffs such as [[character:nicole]] or [[character:bennett]]. With such buffs, weapons which provide a lot of [[stat:atk%]] will have less value.\n[[character:freminet]]'s weapon rankings can be incredibly team and artifact dependent. Please refer to the calculations if you need more information.",
             "fr": "Le classement suppose que [[character:freminet]] n'est pas joué avec d'importants buffs d'[[stat:atk%]] comme [[character:nicole]] ou [[character:bennett]]. Avec ces buffs, les armes avec beaucoup d'[[stat:atk%]] perdent en valeur.\nLe classement d'armes de [[character:freminet]] peut énormément varier selon les équipes et artéfacts. Veuillez vous réferer aux calcs si vous avez besoin de plus d'informations.",
-            "it": "La classifica presuppone che [[character:freminet]] non venga utilizzato con potenziamenti significativi di [[stat:atk%]], come quelli forniti da [[character:nicole]] o [[character:bennett]]. Con tali potenziamenti, le armi che forniscono [[stat:atk%]] elevato avranno un valore minore.\nLa classifica delle armi di [[character:freminet]] può dipendere in modo significativo dal team e dai manufatti. Per ulteriori informazioni, si prega di fare riferimento ai calcoli.",
+            "it": "La classifica presuppone che [[character:freminet]] **non** venga utilizzato con potenziamenti significativi di [[stat:atk%]], come quelli forniti da [[character:nicole]] o [[character:bennett]]. Con tali potenziamenti, le armi che forniscono [[stat:atk%]] elevato avranno un valore minore.\nLa classifica delle armi di [[character:freminet]] può **dipendere in modo significativo dal team e dai manufatti**. Per ulteriori informazioni, si prega di fare riferimento ai calcoli.",
             "ru": "Предполагается, что в отряде нет значительных бонусов к Силе атаки (как, например, [[character:nicole]] или [[character:bennett]]). С подобными бонусами оружие на Силу атаки становится менее ценным.\nРейтинг оружия может меняться в зависимости от отряда и артефактов. Для получения дополнительной информации обращайтесь к расчётам."
         }
     ],
@@ -125,10 +125,17 @@
                     "note": {
                         "en": "If [[character:freminet]] can consistently trigger [[element:stellar-conduct]], it performs better than **[[weapon:tidal-shadow]]**. If [[character:freminet]] cannot frequently trigger [[element:shatter]] or [[element:stellar-conduct]], this weapon is not worth considering.",
                         "fr": "Si [[character:freminet]] peut déclencher [[element:stellar-conduct]] fréquemment, cette arme performe mieux que **[[weapon:tidal-shadow]]**. Dans le cas contraire, cette arme n'est pas à considerer.",
+                        "it": "Se [[character:freminet]] riesce ad innescare [[element:stellar-conduct]] spesso, quest'arma ha prestazioni migliori di **[[weapon:tidal-shadow]]**. Se [[character:freminet]] non riesce ad innescare [[element:shatter]] o [[element:stellar-conduct]] spesso, non vale la pena prendere in considerazione quest'arma.",
                         "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], превосходит **[[weapon:tidal-shadow]]**. Если [[character:freminet]] не может часто закрывать реакцию [[element:shatter]] или [[element:stellar-conduct]], это оружие не стоит использовать."
                     }
                 },
-                "forged-by-the-golden-melody",
+                {
+                    "name": "forged-by-the-golden-melody",
+                    "note": {
+                        "en": "If [[character:freminet]] can consistently trigger [[element:stellar-conduct]], it can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
+                    }
+                },
                 {
                     "name": "prototype-archaic",
                     "refinement": 5
@@ -138,7 +145,7 @@
                     "note": {
                         "en": "Assumes 1 Liyue teammate. At **[R5]**, it can perform similarly to **[[weapon:serpent-spine]]**.",
                         "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. Une fois **[R5]**, cette arme devient similaire à **[[weapon:serpent-spine]]**.",
-                        "it": "La classifica presuppone un personaggio di Liyue nel team. A **[R5]**, può avere prestazioni simili a **[[weapon:serpent-spine]]**.",
+                        "it": "La classifica presuppone che nel team sia presente un personaggio di Liyue. A **[R5]**, può avere prestazioni simili a **[[weapon:serpent-spine]]**.",
                         "ru": "Предполагается 1 персонаж из Ли Юэ. На **[R5]** соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }

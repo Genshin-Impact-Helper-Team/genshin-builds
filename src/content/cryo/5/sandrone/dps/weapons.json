@@ -18,6 +18,7 @@
                     "note": {
                         "en": "Ranking assumes **[[character:sandrone]]** is triggering the passive. This may prove problematic when there is too much [[element:cryo]] application compared to [[element:electro]]. Overall, this weapon shouldn't be considered if there aren't at least 2 [[element:electro]] characters on the team.",
                         "fr": "Le classement suppose que **[[character:sandrone]]** déclenche le passif, ce qui peut être problématique lorsqu'il y a trop d'application [[element:cryo]] comparé à l'application [[element:electro]]. De manière générale, il ne faut pas utiliser cette arme s'il n'y a pas au moins 2 personnages [[element:electro]] dans l'équipe.",
+                        "it": "La posizione in classifica presuppone che **[[character:sandrone]]** riesca ad attivare la passiva. Ciò potrebbe rivelarsi problematico quando l'applicazione [[element:cryo]] è superiore a quella [[element:electro]]. Nel complesso, questa arma non dovrebbe essere presa in considerazione se nel team non ci sono almeno 2 personaggi [[element:electro]].",
                         "ru": "Предполагается, что **[[character:sandrone]]** активирует эффект Пассивной способности. Это может оказаться затруднительным в отрядах с избыточным наложением [[element:cryo]] в сравнении с [[element:electro]]. В целом, данное оружие не стоит рассматривать, если в отряде нет как минимум 2 [[element:electro]] персонажей."
                     }
                 }
@@ -68,8 +69,9 @@
                 {
                     "name": "forged-by-the-golden-melody",
                     "note": {
-                        "en": "**At [R5]**, this weapon will rank similarly to **[[weapon:a-thousand-blazing-suns]]**",
-                        "fr": "**Une fois [R5]**, cette arme se classe au même niveau que **[[weapon:a-thousand-blazing-suns]]**",
+                        "en": "**At [R5]**, this weapon will rank similarly to **[[weapon:a-thousand-blazing-suns]]**.",
+                        "fr": "**Une fois [R5]**, cette arme se classe au même niveau que **[[weapon:a-thousand-blazing-suns]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:a-thousand-blazing-suns]]**.",
                         "ru": "**На [R5]** соответствует **[[weapon:a-thousand-blazing-suns|Тысяче ослепительных солнц]]**."
                     }
                 },
