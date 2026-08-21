@@ -10,6 +10,7 @@
                             "note": {
                                 "en": "This ranking assumes **[[character:ningguang]] consistently has a [[element:crystallize]] shield**.",
                                 "fr": "Ce classement suppose que **[[character:ningguang]] a constamment un bouclier de [[element:crystallize]]**.",
+                                "it": "La classifica presuppone che **[[character:ningguang]] abbia uno scudo [[element:crystallize]] in maniera costante**.",
                                 "ru": "Предполагается **постоянное наличие щита [[element:crystallize|Кристаллизации]] на [[character:ningguang]]**."
                             }
                         }
@@ -43,6 +44,7 @@
                                     "note": {
                                         "en": "This set performs worse than other options when [[character:ningguang]] does not need to build [[stat:er]].",
                                         "fr": "Ce set est moins bon que les autres options quand [[character:ningguang]] n'a pas besoin de [[stat:er]].",
+                                        "it": "Questo set ha prestazioni peggiori delle altre opzioni se [[character:ningguang]] non ha bisogno di [[stat:er]].",
                                         "ru": "Уступает остальным вариантам, если [[character:ningguang]] не нуждается в [[stat:er|Восстановлении энергии]]."
                                     }
                                 }
@@ -58,6 +60,7 @@
                             "note": {
                                 "en": "This set performs on par with **[[set:archaic-petra]] (2) / [[stat:atk-set]] (2)**. With its inclusion in the strongbox, it has become a strong generalist option.",
                                 "fr": "Ce set est aussi bon que **[[set:archaic-petra]] (2) / [[stat:atk-set]] (2)**. Avec son ajout à la synthèse, il est devenu une option généraliste solide.",
+                                "it": "Questo set ha prestazioni pari a **[[set:archaic-petra]] (2) / [[stat:atk-set]] (2)** ed è una buona opzione generica.",
                                 "ru": "Соответствует по силе сборке **[[set:archaic-petra]] (2) / [[stat:atk-set]] (2)**, неплохой достаточно универсальный сет с учётом возможности получения в Реликварии."
                             }
                         }
@@ -99,6 +102,7 @@
                     "note": {
                         "en": "This set is one of [[character:ningguang]]'s best options in teams where **[[element:electro]] Auras remain on enemies for the entire rotation**.",
                         "fr": "Ce set est l'une des meilleures options de [[character:ningguang]] dans les équipes où les **auras [[element:electro]] restent sur les ennemis pendant toute la rotation**.",
+                        "it": "Questo set è una delle migliori opzioni in team dove i nemici hanno aura **[[element:electro]]** per l'intera rotazione.",
                         "ru": "Второй по силе набор в том случае, если на врагах **постоянно поддерживается [[element:electro]] статус**."
                     }
                 }
@@ -112,6 +116,7 @@
                     "note": {
                         "en": "This set is one of [[character:ningguang]]'s best options in teams where **[[element:pyro]] Auras remain on enemies for the entire rotation**.",
                         "fr": "Ce set est l'une des meilleures options de [[character:ningguang]] dans les équipes où les **auras [[element:pyro]] restent sur les ennemis pendant toute la rotation**.",
+                        "it": "Questo set è una delle migliori opzioni in team dove i nemici hanno aura **[[element:pyro]]** per l'intera rotazione.",
                         "ru": "Второй по силе набор в том случае, если на врагах **постоянно поддерживается [[element:pyro]] статус**."
                     }
                 }
