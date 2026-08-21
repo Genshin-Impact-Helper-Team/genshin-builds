@@ -7,24 +7,35 @@
         },
         {
             "items": [
-                "wolfs-gravestone",
+                "a-teaspoon-of-transcendence",
+                "beacon-of-the-reed-sea",
+                "gest-of-the-mighty-wolf"
+            ]
+        },
+        {
+            "items": [
+                "verdict",
+            ]
+        },
+        {
+            "items": [
                 "fang-of-the-mountain-king",
+                "wolfs-gravestone",
+                "the-unforged",
                 "redhorn-stonethresher"
             ]
         },
         {
             "items": [
-                "the-unforged"
-            ]
-        },
-        {
-            "items": [
-                "beacon-of-the-reed-sea",
-                "verdict"
-            ]
-        },
-        {
-            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:verdict]]**.",
+                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**.",
+                        "it": "La classifica presuppone che l'effetto dell'arma venga accumulato precedentemente fino a 5 accumuli in modo che il [[ability:burst]] di [[character:beidou]] possa 'snapshottarlo'. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
+                        "ru": "Предполагается, что [[character:beidou]] заранее получает 5 уровней Пассивной способности. На [R5] соответствует **[[weapon:verdict|Вердикту]]**."
+                    }
+                },
                 {
                     "name": "tidal-shadow",
                     "refinement": 5,
@@ -32,18 +43,14 @@
                         "en": "Assumes [[character:beidou]] being healed before casting her [[ability:burst]].",
                         "fr": "Suppose que [[character:beidou]] reçoit des soins avant d'utiliser son [[ability:burst]].",
                         "it": "La classifica presuppone che [[character:beidou]] riceva cure prima di utilizzare il suo [[ability:burst]].",
-                        "ru": "Предполагается, что Бэй Доу получает лечение до использования Взрыва стихии."
-                    }
-                },
-                {
-                    "name": "serpent-spine",
-                    "note": {
-                        "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "it": "La classifica presuppone che l'effetto dell'arma venga accumulato precedentemente fino a 5 accumuli in modo che il [[ability:burst]] di [[character:beidou]] possa 'snapshottarlo'. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "ru": "Меч драконьей кости: Предполагается, что Бэй Доу заранее получает 5 уровней Пассивной способности. На [R5] соответствует Маяку тростникового моря."
+                        "ru": "Предполагается, что [[character:beidou]] получает лечение до использования [[ability:burst|Взрыва стихии]]."
                     }
                 }
+            ]
+        },
+        {
+            "items": [
+                "song-of-broken-pines"
             ]
         },
         {
@@ -51,40 +58,58 @@
                 {
                     "name": "akuoumaru",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:verdict]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
-                        "ru": "На [R5] соответствует Вердикту."
+                        "en": "At **[R5]** this weapon performs better than **[[weapon:fang-of-the-mountain-king]]**.",
+                        "ru": "На **[R5]** это оружие превосходит **[[weapon:fang-of-the-mountain-king]]**."
+                    }
+                },
+                {
+                    "name": "talking-stick",
+                    "note": {
+                        "en": "Assumes that [[element:pyro]]-related passive is incative. At **[R5]** it performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]** with full passive active it performs better than **[[weapon:fang-of-the-mountain-king]]**.",
+                        "ru": "Предполагается, что часть Пассивной способности, активируемая [[element:pyro]], неактивна. На **[R5]** соответствует **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**. На **[R5]** с полностью активной Пассивной способностью превосходит **[[weapon:fang-of-the-mountain-king]]**."
+                    }
+                },
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "When [[stat:er]] from this weapon is useful, it can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "Если [[stat:er]] полезно, то данное оружие может соответствовать **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**"
                     }
                 },
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
-                    "refinement": 5
+                    "refinement": 5,
+                    "note": {
+                        "en": "When [[stat:er]] from this weapon is useful, it can perform better than **[[weapon:tidal-shadow]]**",
+                        "ru": "Если [[stat:er]] полезно, то данное оружие может превосходить **[[weapon:tidal-shadow]]**"
+                    }
                 }
             ]
         },
         {
             "items": [
-                {
-                    "name": "lithic-blade",
-                    "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:tidal-shadow]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:tidal-shadow]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:tidal-shadow]]**.",
-                        "ru": "Каменный меч: На [R5] соответствует Тени волны."
-                    }
-                },
+                "forged-by-the-golden-melody",
                 {
                     "name": "luxurious-sea-lord",
                     "refinement": 5
                 },
+            ]
+        },
+        {
+            "items": [
+                "blackcliff-slasher",
                 {
-                    "name": "skyward-pride",
+                    "name": "lithic-blade",
                     "note": {
-                        "en": "This weapon becomes significantly better with higher [[stat:er]] requirements.",
-                        "fr": "Cette arme devient bien meilleure lorsque les besoins en [[stat:er]] augmentent.",
-                        "it": "Quest'arma ha prestazioni significativamente migliori a requisiti di [[stat:er]] più alti.",
-                        "ru": "Небесное величие: Становится намного лучше при повышении требований к Восстановлению энергии."
+                        "en": "Assumes 1 stack. At **[R5]** performs similarly to **[[weapon:talking-stick]]**. At **[R5]** with 2 stacks performs similarly to **[[weapon:tidal-shadow]]**.",
+                        "ru": "Предполагается 1 уровень Пассивной способности. На **[R5]** соответствует **[[weapon:talking-stick|Говорящей палице]]**. На **[R5]** с двумя уровнями соответствует **[[weapon:tidal-shadow|Тени волны]]**."
+                    }
+                },
+                {
+                    "name": "blade-of-atonement",
+                    "note": {
+                        "en": "If [[character:beidou]] can trigger [[element:stellar-conduct]], this weapon performs similarly to **[[weapon:song-of-broken-pines]]**.",
+                        "ru": "Если [[character:beidou]] может закрывать реакцию [[element:stellar-conduct]], соответствует **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**."
                     }
                 }
             ]
