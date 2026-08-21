@@ -15,7 +15,12 @@
         {
             "groups": [
                 {
-                    "items": [
+                   "items": [
+                        {
+                            "name": "scarlet-proof",
+                            "pieces": 4
+                       },
+                   "items": [
                         {
                             "name": "em-set",
                             "pieces": 2
@@ -25,16 +30,8 @@
                             "pieces": 2
                         }
                     ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "scarlet-proof",
-                            "pieces": 4
-                        }
+                }
                     ]
                 }
             ]
         }
-    ]
-}
