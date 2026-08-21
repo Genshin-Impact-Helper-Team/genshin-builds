@@ -15,9 +15,21 @@
                 {
          {
                     "items": [
-            { "name": "em-set", "pieces": 2 },
-            { "name": "em-set", "pieces": 2 }
-          ]
+                        { 
+                            "name": "em-set", 
+                            "pieces": 2 
+                        },
+                        
+                        { "name": "em-set", 
+                          "pieces": 2 
+                        }
+          ], 
+                          "items": [
+                        {
+                            "name": "scarlet-proof",
+                            "pieces": 4
+                        }
+                          ]
         }
             
                 }
