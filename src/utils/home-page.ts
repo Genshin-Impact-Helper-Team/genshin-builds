@@ -19,19 +19,16 @@ function normalizeVersion(version: unknown) {
     : '';
 }
 
-function getRecentChangelogVersions(contentPath: string) {
+function getLatestChangelogVersion(contentPath: string) {
   const changelogPath = path.join(contentPath, 'site', 'changelog.json');
 
   if (!fs.existsSync(changelogPath)) {
-    return [];
+    return '';
   }
 
   const changelog = readJSONFile(changelogPath);
 
-  return (changelog?.groups ?? [])
-    .slice(0, 2)
-    .map((group: any) => normalizeVersion(group.version))
-    .filter(Boolean);
+  return normalizeVersion(changelog?.groups?.[0]?.version);
 }
 
 function getBuildSummaries(
@@ -69,7 +66,7 @@ export function getHomePageData(lang = 'en') {
   const locale = getLocale(lang);
   const contentPath = path.join(process.cwd(), 'src', 'content');
   const translator = new TranslationHelper(locale, {}, lang);
-  const recentVersions = getRecentChangelogVersions(contentPath);
+  const latestVersion = getLatestChangelogVersion(contentPath);
 
   const characters = getContentCharacters(contentPath, true)
     .map(({ character, characterPath, element, metadataPath, rarity }) => {
@@ -99,7 +96,9 @@ export function getHomePageData(lang = 'en') {
         lastUpdated,
         versionReleased,
         isWip: lastUpdated.toUpperCase() === 'WIP',
-        isRecentlyUpdated: recentVersions.includes(lastUpdated),
+        isRecentlyUpdated: latestVersion
+          ? lastUpdated === latestVersion
+          : false,
         portrait: resolveCharacterAssetImage(assetContext, 'portrait'),
         builds: getBuildSummaries(characterPath, lang, translator),
       };
@@ -109,13 +108,13 @@ export function getHomePageData(lang = 'en') {
         a.element.localeCompare(b.element) || a.name.localeCompare(b.name),
     );
 
-  const recentlyUpdatedCharacters = characters.filter(
-    (character) => character.isRecentlyUpdated,
-  );
+  const recentlyUpdatedCharacters = latestVersion
+    ? characters.filter((character) => character.lastUpdated === latestVersion)
+    : [];
 
   return {
     characters,
-    recentVersions,
+    latestVersion,
     recentlyUpdatedCharacters,
     lang,
     locale,
