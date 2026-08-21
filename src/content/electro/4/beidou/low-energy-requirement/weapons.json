@@ -65,7 +65,7 @@
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes that [[element:pyro]]-related passive is incative. At **[R5]** it performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]** with full passive active it performs better than **[[weapon:fang-of-the-mountain-king]]**.",
+                        "en": "Assumes that [[element:pyro]]-related passive is incative. At **[R5]**, it performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]** with full passive active, it performs better than **[[weapon:fang-of-the-mountain-king]]**.",
                         "ru": "Предполагается, что часть Пассивной способности, активируемая [[element:pyro]], неактивна. На **[R5]** соответствует **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**. На **[R5]** с полностью активной Пассивной способностью превосходит **[[weapon:fang-of-the-mountain-king]]**."
                     }
                 },
@@ -101,7 +101,7 @@
                 {
                     "name": "lithic-blade",
                     "note": {
-                        "en": "Assumes 1 stack. At **[R5]** performs similarly to **[[weapon:talking-stick]]**. At **[R5]** with 2 stacks performs similarly to **[[weapon:tidal-shadow]]**.",
+                        "en": "Assumes 1 stack. At **[R5]**, it performs similarly to **[[weapon:talking-stick]]**. At **[R5]** with 2 stacks, it performs similarly to **[[weapon:tidal-shadow]]**.",
                         "ru": "Предполагается 1 уровень Пассивной способности. На **[R5]** соответствует **[[weapon:talking-stick|Говорящей палице]]**. На **[R5]** с двумя уровнями соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 },
