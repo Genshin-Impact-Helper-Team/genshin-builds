@@ -52,13 +52,13 @@
                 "kaguras-verity",
                 "lost-prayer-to-the-sacred-winds",
                 "nightweavers-looking-glass",
-                   {
+                {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:dawning-frost] at **[R1]**"
+                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:dawning-frost]].",
+                        "fr": "Une fois **[R5]**, cette arme peut devenir équivalente à [[weapon:dawning-frost]]."
                     }
                 }
-                
             ]
         },
         {
