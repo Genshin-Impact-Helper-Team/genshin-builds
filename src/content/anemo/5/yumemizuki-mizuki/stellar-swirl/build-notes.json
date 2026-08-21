@@ -1,1 +1,10 @@
-
+{
+"best": true,
+    "name": {
+        "en": "Stellar Swirl DPS"
+    },
+    "notes": [
+        {
+            "en": "[[character:yumemizuki-mizuki]] is an on-field DPS that focuses on **triggering the [[element:stellar-swirl]] reaction, and doing her own damage of the same type**. After her Witch's Revelation buffs, Yumemizuki Mizuki's role in a team has now shifted from driving reactions, to being generally the main damage contributor"
+        }
+      }
