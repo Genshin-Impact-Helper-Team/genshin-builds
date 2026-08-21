@@ -2,6 +2,10 @@
 "best": true,
     "name": {
         "en": "[[element:stellar-swirl]] DPS"
+    }, 
+    "global": {
+        "link": "https://docs.google.com/spreadsheets/d/1BVxTc6m7-1HTSvHPl_oNEtpjdg2xQ794tq0MYAJ_-Jo/edit?usp=sharing",
+        "author": "Voidrev"
     },
     "notes": [
         {
