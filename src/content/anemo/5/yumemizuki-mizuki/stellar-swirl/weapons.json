@@ -17,7 +17,10 @@
         }, 
          {
             "items": [
-                "sacrificial-jade";  
+                "name": "sacrificial-jade",
+                "note": {
+                    "en": "at r5, this weapon can perform better than"
+                }
             ]
         }
             ]
