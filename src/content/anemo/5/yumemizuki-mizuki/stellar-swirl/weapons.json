@@ -20,13 +20,15 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]]."
+                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]].",
+                        "fr": "Une fois **[R5]**, cette arme peut devenir meilleure que [[weapon:starcallers-watch]], mais reste moins bonne que [[weapon:reliquary-of-truth]]."
                     }
                 },
                 {
                     "name": "dawning-frost",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:reliquary-of-truth]]."
+                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:reliquary-of-truth]].",
+                        "fr": "Une fois **[R5]**, cette arme peut être au même niveau que [[weapon:reliquary-of-truth]]."
                     }
                 },
                 "the-widsith"
@@ -40,7 +42,8 @@
                 {
                     "name": "clash-of-kings",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]]."
+                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]].",
+                        "fr": "Une fois **[R5]**, cette arme peut devenir meilleure que [[weapon:starcallers-watch]], mais reste moins bonne que [[weapon:reliquary-of-truth]]."
                     }
                 }
             ]
@@ -67,7 +70,8 @@
                 {
                     "name": "wandering-evenstar",
                     "note": {
-                        "en": "This weapon can perform better if the team buff it provides can outweigh the lost personal damage"
+                        "en": "This weapon can perform better if the team buff it provides can outweigh the loss in personal damage.",
+                        "fr": "Cette arme peut mieux performer si le buff apporté à l'équipe compense la perte de dégâts personnels."
                     }
                 }
             ]

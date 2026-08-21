@@ -1,15 +1,17 @@
 {
-"best": true,
+    "best": true,
     "name": {
-        "en": "[[element:stellar-swirl]] DPS"
-    }, 
+        "en": "[[element:stellar-swirl]] DPS",
+        "fr": "DPS [[element:stellar-swirl]]"
+    },
     "global": {
         "link": "https://docs.google.com/spreadsheets/d/1BVxTc6m7-1HTSvHPl_oNEtpjdg2xQ794tq0MYAJ_-Jo/edit?usp=sharing",
         "author": "Voidrev"
     },
     "notes": [
         {
-            "en": "[[character:yumemizuki-mizuki]] is an on-field DPS that focuses on **triggering the [[element:stellar-swirl]] reaction, and doing her own damage of the same type**. After her Witch's Revelation buffs, [[character:yumemizuki-mizuki]]'s role in a team has now shifted from driving reactions, to being generally the main damage contributor"
+            "en": "[[character:yumemizuki-mizuki]] is an on-field DPS that focuses on **triggering the [[element:stellar-swirl]] reaction, and doing her own damage of the same type**. After her Witch's Revelation buffs, [[character:yumemizuki-mizuki]]'s role in a team has now shifted from driving reactions, to being generally the main damage contributor",
+            "fr": "[[character:yumemizuki-mizuki]] est un DPS on-field qui se concentre sur **déclencher la réaction [[element:stellar-swirl]], et infliger ses propres dégâts du même type**. Avec ses buffs des Révélations de la sorcière, le rôle de [[character:yumemizuki-mizuki]] dans ses équipes a changé d'un build Driver de réactions à un celui de DPS de l'équipe."
         }
     ]
-      }
+}
