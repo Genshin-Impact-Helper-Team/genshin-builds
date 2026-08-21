@@ -35,6 +35,18 @@
                 {
                     "items": [
                         {
+                            "name": "scroll",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "instructor",
                             "pieces": 4
                         }

@@ -1,0 +1,19 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%"
+        ],
+        "goblet": [
+            "atk%"
+        ],
+        "circlet": [
+            {
+                "name": "cr/cd",
+                "note": {
+                    "en": "A [[stat:cd]] circlet is usually preferred to a [[stat:cr]] one due to the external [[stat:cr]] buffs that [[character:wriothesley]] can receive (+16% with **[[set:disenchantment-in-deep-shadow]] (4)**, +15% with **[[element:cryo]] resonance**). However, when using a weapon with a second attribute other than [[stat:cr]], a [[stat:cr]] circlet can be considered as long as the crit ratio stays close to 1:2.",
+                    "fr": "Un casque [[stat:cd]] est généralement préféré à un casque [[stat:cr]] à cause des différents buffs de [[stat:cr]] que [[character:wriothesley]] peut recevoir (+16% avec **[[set:disenchantment-in-deep-shadow]] (4)**, +15% avec la **résonance [[element:cryo]]**). Cependant, si vous le jouez avec une arme autre que [[stat:cr]], un casque [[stat:cr]] peut être envisagé tant que votre crit ratio reste proche de 1:2."
+                }
+            }
+        ]
+    }
+}

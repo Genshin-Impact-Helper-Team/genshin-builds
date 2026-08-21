@@ -1,0 +1,94 @@
+{
+    "notes": [
+        {
+            "en": "The ranked weapons have meaningful team buffs and/or help with [[element:anemo]] [[character:traveler]]'s [[stat:er]] requirements. The conditional weapons can rank higher than **[[weapon:amenoma-kageuchi]]** but have such steep [[stat:er]] requirements that building them is very difficult and not typically recommended.",
+            "fr": "Les armes avec un classement offre des buffs à l'équipe et/ou aident pour les beosins en [[stat:er]] du [[character:traveler]] [[element:anemo]]. Celles sous condition peuvent se classer au dessus de **[[weapon:amenoma-kageuchi]]** mais entraînent des besoins en [[stat:er]] si important que build avec ces arme devient très difficile et souvent peu recommandé.",
+            "it": "Le armi in classifica offrono potenziamenti significativi al team e/o aiutano a soddisfare i requisiti di [[stat:er]] del [[character:traveler]] [[element:anemo]]. Le armi condizionali possono superare **[[weapon:amenoma-kageuchi]]**, ma risultano in requisiti di [[stat:er]] talmente elevati da rendere la build molto difficoltosa e, in genere, sconsigliata.",
+            "ru": "Оружие, перечисленное в рейтинге, напрямую усиливает отряд/помогает закрыть потребность [[element:anemo]] [[character:traveler]]а в [[stat:er|энергии]]. Некоторые ситуативные варианты могут находиться в рейтинге выше, чем **[[weapon:amenoma-kageuchi]]**, но из-за сложностей с балансом статов (из-за высокой потребности в энергии) использовать его обычно не рекомендуется."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "If you do not care about [[element:anemo]] [[character:traveler]]'s personal damage, do not use this weapon.",
+                        "fr": "Si vous ne vous intéressez pas aux dégâts personnels du [[character:traveler]] [[element:anemo]], n'utilisez pas cette arme.",
+                        "it": "Se non ti interessano i danni personali del [[character:traveler]] [[element:anemo]], non utilizzare quest'arma.",
+                        "ru": "Не следует использовать, если вы не вкладываетесь в личный урон [[element:anemo]] [[character:traveler]]а."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "freedom-sworn"
+            ]
+        },
+        {
+            "items": [
+                "favonius-sword"
+            ]
+        },
+        {
+            "items": [
+                "athame-artis"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "peak-patrol-song",
+                    "note": {
+                        "en": "[[element:anemo]] [[character:traveler]] can use [[stat:def%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential.",
+                        "fr": "Le [[character:traveler]] [[element:anemo]] peut utiliser des mainstat [[stat:def%]] pour augmenter les effets du passif de cette arme, augmentant les buffs donnés à l'équipe.",
+                        "it": "Il [[character:traveler]] [[element:anemo]] può utilizzare statistiche principali [[stat:def%]]  al fine di rafforzare l'effetto della passiva di quest'arma, aumentando ulteriormente il suo potenziamento al team.",
+                        "ru": "[[element:anemo]] [[character:traveler]] может использовать артефакты на [[stat:def%|Защиту%]] для усиления эффекта Пассивной способности оружия, что повышает его потенциал как баффера."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-blade"
+            ]
+        },
+        {
+            "items": [
+                "xiphos-moonlight",
+                {
+                    "name": "amenoma-kageuchi",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyrider-sword",
+                    "refinement": 5
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        "primordial-jade-cutter",
+        "mistsplitter-reforged",
+        "haran-geppaku-futsu",
+        "azurelight",
+        "light-of-foliar-incision",
+        "uraku-misugiri",
+        "absolution",
+        "splendor-of-tranquil-waters",
+        "lightbearing-moonshard"
+    ]
+}

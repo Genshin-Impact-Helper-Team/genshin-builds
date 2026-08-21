@@ -5,7 +5,7 @@
                 {
                     "items": [
                         {
-                            "name": "marechaussee-hunter",
+                            "name": "viridescent-venerer",
                             "pieces": 4
                         }
                     ]
@@ -17,7 +17,7 @@
                 {
                     "items": [
                         {
-                            "name": "emblem-of-severed-fate",
+                            "name": "noblesse-oblige",
                             "pieces": 4
                         }
                     ]
@@ -29,24 +29,36 @@
                 {
                     "items": [
                         {
-                            "name": "golden-troupe",
+                            "name": "scroll-of-the-hero-of-cinder-city",
                             "pieces": 4
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
                     "choose": true,
                     "items": [
                         {
-                            "name": "hydro-set",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "golden-troupe",
-                            "pieces": 2
-                        },
-                        {
                             "name": "er-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "anemo-set",
                             "pieces": 2
                         },
                         {

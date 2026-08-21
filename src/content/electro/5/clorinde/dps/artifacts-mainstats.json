@@ -7,6 +7,7 @@
                 "note": {
                     "en": "In Quickbloom, [[stat:em]] sands performs similarly to [[stat:atk%]] sands, and has a lower priority in [[element:aggravate]].",
                     "fr": "En Quickbloom, un sablier [[stat:em]] est comparable à un sablier [[stat:atk%]], et a une priorité plus faible en [[element:aggravate]].",
+                    "it": "In [[element:aggravate]] + [[element:hyperbloom]] (Quickbloom), la [[stat:em]] ha priorità simile all'[[stat:atk%]], ed ha priorità minore in [[element:aggravate]].",
                     "ru": "[[stat:em]] в часах соответствует [[stat:atk%|Силе атаки%]] при игре через Обострение с бутонами, в чистом [[element:aggravate|Обострении]] приоритет МС ниже."
                 }
             }
