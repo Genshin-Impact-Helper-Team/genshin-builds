@@ -7,14 +7,12 @@
     },
     "notes": [
         {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n- [[set:a-day-carved-from-rising-winds]]\n"
+            "en": "[[character:beidou]]'s [[skill:burst]] hits require more than one enemy to bounce and can bounce onto the same target several times provided. Due to this, [[character:beidou]]'s damage is highest when facing 2 enemies.",
+            "ru": "Молнии [[skill:burst|Взрыва стихии]] [[character:beidou]] могут прыгать с одного противника на другого при наличии нескольких целей, и в этом случае могут попадать в одну цель несколько раз. В связи с этим урон [[character:beidou]] наиболее высок при сражении с 2 противниками."
         }
     ],
     "global": {
-        "author": "Chiston",
-        "link": "https://drive.google.com/drive/folders/1eLRPofab9fJeAupIm5CbB9HjvESEE4c9"
+        "author": "Finnyke",
+        "link": "https://drive.google.com/drive/folders/10k3FDWM6qdyRlbLyciCWg-ch8395aMQx?usp=sharing"
     }
 }
