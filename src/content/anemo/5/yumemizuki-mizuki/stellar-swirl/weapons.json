@@ -1,1 +1,21 @@
-
+{
+    "weapons": [
+        {
+            "items": [
+                "sunny-morning-sleep-in"
+            ]
+        },
+      {
+            "items": [
+                "reliquary-of-truth"
+            ]
+      }
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        }
+            ]
+        }
+    ]
+}
