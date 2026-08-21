@@ -1,4 +1,10 @@
 {
+    "notes": [
+        {
+            "en": "Weapons are ranked based on [[character:beidou]]'s personal damage. Weapons that help with energy should be prioritized if you can't build sufficient [[stats::er]] otherwise.",
+            "ru": "Рейтинг составлен на основе личного урона [[character:beidou]]. Оружие, помогающее удовлетворить потребность в энергии, приоритетно при невозможности достичь достаточного уровня Восстановления энергии."
+        }
+    ],
     "weapons": [
         {
             "items": [
@@ -7,24 +13,24 @@
         },
         {
             "items": [
+                "a-teaspoon-of-transcendence",
+                "beacon-of-the-reed-sea"
+            ]
+        },
+        {
+            "items": [
+                "verdict",
+                "gest-of-the-mighty-wolf",
                 "wolfs-gravestone",
-                "fang-of-the-mountain-king",
-                "redhorn-stonethresher"
+                {
+                    "name": "ultimate-overlords-mega-magic-sword",
+                    "refinement": 5
+                }
             ]
         },
         {
             "items": [
-                "the-unforged"
-            ]
-        },
-        {
-            "items": [
-                "beacon-of-the-reed-sea",
-                "verdict"
-            ]
-        },
-        {
-            "items": [
+                "the-unforged",
                 {
                     "name": "tidal-shadow",
                     "refinement": 5,
@@ -32,16 +38,50 @@
                         "en": "Assumes [[character:beidou]] being healed before casting her [[ability:burst]].",
                         "fr": "Suppose que [[character:beidou]] reçoit des soins avant d'utiliser son [[ability:burst]].",
                         "it": "La classifica presuppone che [[character:beidou]] riceva cure prima di utilizzare il suo [[ability:burst]].",
-                        "ru": "Предполагается, что Бэй Доу получает лечение до использования Взрыва стихии."
+                        "ru": "Предполагается, что [[character:beidou]] получает лечение до использования [[ability:burst|Взрыва стихии]]."
                     }
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-pride"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "katsuragikiri-nagamasa",
+                    "refinement": 5
                 },
+                "redhorn-stonethresher",
+                "fang-of-the-mountain-king",
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "it": "La classifica presuppone che l'effetto dell'arma venga accumulato precedentemente fino a 5 accumuli in modo che il [[ability:burst]] di [[character:beidou]] possa 'snapshottarlo'. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:beacon-of-the-reed-sea]]**.",
-                        "ru": "Меч драконьей кости: Предполагается, что Бэй Доу заранее получает 5 уровней Пассивной способности. На [R5] соответствует Маяку тростникового моря."
+                        "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:verdict]]**.",
+                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**.",
+                        "it": "La classifica presuppone che l'effetto dell'arma venga accumulato precedentemente fino a 5 accumuli in modo che il [[ability:burst]] di [[character:beidou]] possa 'snapshottarlo'. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
+                        "ru": "Предполагается, что [[character:beidou]] заранее получает 5 уровней Пассивной способности. На [R5] соответствует **[[weapon:verdict|Вердикту]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-greatsword",
+                    "note": {
+                        "en": "If the team can take advantage of additional energy, this weapon can perform better than higher ranked options for team damage.",
+                        "ru": "Если отряду полезна дополнительная энергия, может превосходить варианты выше в рейтинге для урона отряда."
+                    }
+                },
+                {
+                    "name": "blade-of-atonement",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If [[character:beidou]] can't trigger [[element:stellar-conduct]], this weapon is not worth considering.",
+                        "ru": "Если [[character:beidou]] не может закрывать реакцию [[element:stellar-conduct]], это оружие не стоит использовать"
                     }
                 }
             ]
@@ -51,40 +91,8 @@
                 {
                     "name": "akuoumaru",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:verdict]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
-                        "ru": "На [R5] соответствует Вердикту."
-                    }
-                },
-                {
-                    "name": "ultimate-overlords-mega-magic-sword",
-                    "refinement": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "lithic-blade",
-                    "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:tidal-shadow]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est similaire à **[[weapon:tidal-shadow]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:tidal-shadow]]**.",
-                        "ru": "Каменный меч: На [R5] соответствует Тени волны."
-                    }
-                },
-                {
-                    "name": "luxurious-sea-lord",
-                    "refinement": 5
-                },
-                {
-                    "name": "skyward-pride",
-                    "note": {
-                        "en": "This weapon becomes significantly better with higher [[stat:er]] requirements.",
-                        "fr": "Cette arme devient bien meilleure lorsque les besoins en [[stat:er]] augmentent.",
-                        "it": "Quest'arma ha prestazioni significativamente migliori a requisiti di [[stat:er]] più alti.",
-                        "ru": "Небесное величие: Становится намного лучше при повышении требований к Восстановлению энергии."
+                        "en": "At **[R5]** this weapon performs close to **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "ru": "На **[R5]** это оружие близко к **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 }
             ]
