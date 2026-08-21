@@ -20,9 +20,16 @@
                 {
                 "name": "sacrificial-jade",
                 "note": {
-                    "en": "at r5, this weapon can perform better than [[weapon:starcallers-watch]]."
+                    "en": "at r5, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]]."
                 }
+                },
+                {
+                "name": "dawning-frost",
+                "note": {
+                    "en": "at r5, this weapon can perform as well as [[weapon:reliquary-of-truth]]."
                 }
+                },
+                "widsith"
             ]
         }
             ]
