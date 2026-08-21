@@ -33,8 +33,6 @@ jobs:
           test -n "$VERCEL_ORG_ID" || { echo "VERCEL_ORG_ID is missing. Add it under GitHub Actions Variables."; exit 1; }
           test -n "$VERCEL_PROJECT_ID" || { echo "VERCEL_PROJECT_ID is missing. Add it under GitHub Actions Variables."; exit 1; }
           test -n "$VERCEL_TOKEN" || { echo "VERCEL_TOKEN is missing. Add it under GitHub Actions Secrets."; exit 1; }
-          vercel whoami --token="$VERCEL_TOKEN" >/dev/null
-          vercel project inspect --non-interactive --token="$VERCEL_TOKEN" >/dev/null
 
       - name: Pull Vercel environment
         run: vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
