@@ -2,16 +2,19 @@
     "best": true,
     "name": {
         "en": "[[element:stellar-conduct]] DPS",
-        "fr": "DPS [[element:stellar-conduct]]"
+        "fr": "DPS [[element:stellar-conduct]]",
+        "it": "DPS [[element:stellar-conduct]]"
     },
     "notes": [
         {
             "en": "[[character:wriothesley]] as a [[element:stellar-conduct]] DPS uses his enhanced [[ability:na]] and [[ability:ca]] to deal [[element:stellar-conduct]] DMG. In this role, he is played with a character that can **enable the [[element:stellar-glimmer]] reactions** (i.e. [[character:odette]], [[element:cryo]] [[character:traveler]]) so he can fully take advantage of his **Witch's Revelation Passive**.",
-            "fr": "[[character:wriothesley]] en tant que DPS [[element:stellar-conduct]] utilise ses attaques normales et chargées améliorées pour infliger des dégâts d'[[element:stellar-conduct]]. Dans ce rôle, il est joué avec un personnage qui permet d'**activer les [[element:stellar-glimmer]]** (par exemple [[character:odette]], [[character:traveler]] [[element:cryo]]) pour pouvoir tirer parti de son **passif de Révélations de la sorcière**."
+            "fr": "[[character:wriothesley]] en tant que DPS [[element:stellar-conduct]] utilise ses attaques normales et chargées améliorées pour infliger des dégâts d'[[element:stellar-conduct]]. Dans ce rôle, il est joué avec un personnage qui permet d'**activer les [[element:stellar-glimmer]]** (par exemple [[character:odette]], [[character:traveler]] [[element:cryo]]) pour pouvoir tirer parti de son **passif de Révélations de la sorcière**.",
+            "it": "[[character:wriothesley]] DPS [[element:stellar-conduct]] utilizza i suoi [[ability:na|Attacchi Normali]] e [[ability:ca|Caricati]] potenziati per infliggere danni di tipo [[element:stellar-conduct]]. In questo ruolo, viene abbinato a un personaggio in grado di **attivare le reazioni [[element:stellar-glimmer]]** (es. [[character:odette]] o il [[character:traveler]] [[element:cryo]]) per poter sfruttare il suo **Talento Rivelazioni della strega**."
         },
         {
             "en": "As he only gets his enhanced [[ability:ca]] when he is under 60% [[stat:hp|HP]], it is strongly discouraged to play [[character:wriothesley]] with a healer.",
-            "fr": "Comme il n'obtient son [[ability:ca]] améliorée que lorsqu'il est en dessous de 60% de [[stat:hp]], il est fortement déconseillé de jouer [[character:wriothesley]] avec un personnage offrant des soins."
+            "fr": "Comme il n'obtient son [[ability:ca]] améliorée que lorsqu'il est en dessous de 60% de [[stat:hp]], il est fortement déconseillé de jouer [[character:wriothesley]] avec un personnage offrant des soins.",
+            "it": "Dato che ottiene il suo [[ability:ca]] potenziato solo quando i suoi [[stat:hp]] scendono al di sotto del 60%, è fortemente sconsigliato giocare con [[character:wriothesley]] insieme a un guaritore."
         }
     ],
     "weapons": {
