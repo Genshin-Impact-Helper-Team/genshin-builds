@@ -3,7 +3,12 @@
         {
         "cr/cd",
         "em",
-        "er"
+        {
+            "name": "er",
+            "note": {
+               "en": "er can be skipped, and you can burst every other rot"
+            }
+        }
   }
-    ]
+]
 }
