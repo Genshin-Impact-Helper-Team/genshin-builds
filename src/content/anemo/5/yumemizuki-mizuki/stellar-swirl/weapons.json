@@ -31,6 +31,43 @@
                 },
                 "the-widsith"
             ]
-        }
+        }, {
+            "items": [
+                "a-thousand-floating-dreams",
+                "nocturnes-curtain-call",
+                "tome-of-the-eternal-flow",
+                {
+                "name": "clash-of-kings",
+                "note": {
+                    "en": "at r5, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]]."
+                }
+                
             ]
-       }
+        }, {
+            "items": [
+                "kaguras-verity",
+                "lost-prayer-to-the-sacred-winds", 
+                "nightweavers-looking-glass"
+            ]
+        }, {
+            "items": [
+                "sacrificial-fragments"
+            ]
+        }, {
+            "items": [
+                "magic-guide",
+                {
+                "name": "echoes-of-the-heart",
+                "refine": 5
+                }, 
+                {
+                "name": "wandering-evenstar",
+                "note": {
+                    "en": "this weapon can perform better if the team buff it provides can outweigh the lost personal damage"
+                }
+                }
+                
+            ]
+        },
+    ]
+}
