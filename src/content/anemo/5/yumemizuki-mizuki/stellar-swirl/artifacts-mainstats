@@ -1,1 +1,14 @@
-
+{
+    "main_stats": {
+        "sands": [
+            "em"
+        ],
+        "goblet": [
+            "em"
+        ],
+        "circlet": [
+            "crit rate",
+            "crit dmg"
+        ]
+    }
+}
