@@ -35,6 +35,10 @@ function escapeHtml(value: unknown) {
     .replace(/'/g, '&#39;');
 }
 
+function formatEffectHtml(value: unknown) {
+  return escapeHtml(value).replace(/&lt;br\s*\/?&gt;/gi, '<br>');
+}
+
 /**
  * Selects the localized set effect with English fallback.
  */
@@ -74,7 +78,7 @@ const popoverCardHtml = info
             '<span class="info-popover-stat artifact-popover-effect"><span>',
             escapeHtml(effect.label),
             '</span><strong>',
-            escapeHtml(effect.value),
+            formatEffectHtml(effect.value),
             '</strong></span>',
           ].join(''),
         )
