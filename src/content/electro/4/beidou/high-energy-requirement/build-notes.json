@@ -7,6 +7,10 @@
     },
     "notes": [
         {
+            "en": "[[character:beidou]] combines off-field damage with defensive utility in form of interruption resistance, damage reduction and a small shield at **[C1]**. At **[C6]** she additionally reduces [[element:electro]] RES of nearby targets.\nIn **[[element:stellar-glimmer]]** teams at **[C6]** she additionally reduces [[element:cryo]] RES and buffs active character's [[stat:em]].",
+            "ru": "[[character:beidou]] наносит урон из кармана и повышает выживаемость отряда за счёт сопротивления к прерыванию, сопротивления урону и небольшого щита на **[C1]**. На **[C6]** она также уменьшает [[element:electro]] сопротивление противников.\nВ отрядах через **[[element:stellar-glimmer|реакции Звёздного блеска]]** на **[C6]** она дополнительно снижает [[element:cryo]] сопротивление и дает активному персонажу бонус к [[stat:em]]."
+        },
+        {
             "en": "[[character:beidou]]'s [[ability:burst]] hits require more than one enemy to bounce and can bounce onto the same target several times provided. Due to this, [[character:beidou]]'s damage is highest when facing 2 enemies.",
             "ru": "Молнии [[ability:burst|Взрыва стихии]] [[character:beidou]] могут прыгать с одного противника на другого при наличии нескольких целей, и в этом случае могут попадать в одну цель несколько раз. В связи с этим урон [[character:beidou]] наиболее высок при сражении с 2 противниками."
         }
