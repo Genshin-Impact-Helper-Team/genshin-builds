@@ -1,10 +1,9 @@
 {
     "best": true,
     "name": {
-        "en": "Off-Field DPS",
-        "fr": "DPS Off-Field",
-        "it": "DPS Fuori Campo",
-        "ru": "Карманный ДД"
+        "en": "Low Energy Requirement (Off-Field DPS)",
+        "fr": "Faibles Besoins en Energie (DPS Off-Field)",
+        "ru": "Карманный ДД (низкая потребность в энергии)"
     },
     "notes": [
         {
