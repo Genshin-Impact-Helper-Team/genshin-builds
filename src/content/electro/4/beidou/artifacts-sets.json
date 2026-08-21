@@ -18,6 +18,10 @@
                     "choose": true,
                     "items": [
                         {
+                            "name": "er-set",
+                            "pieces": 2
+                        },
+                        {
                             "name": "noblesse-oblige",
                             "pieces": 2
                         },
@@ -28,10 +32,14 @@
                         {
                             "name": "atk-set",
                             "pieces": 2
-                        },
+                        }
+                    ]
+                },
+                {
+                    "items": [
                         {
-                            "name": "er-set",
-                            "pieces": 2
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
                         }
                     ]
                 }
@@ -42,13 +50,13 @@
                 {
                     "items": [
                         {
-                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "name": "noblesse-oblige",
                             "pieces": 4,
                             "note": {
                                 "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team.",
                                 "fr": "Ce set a moins d'intérêt pour les dégâts personnels de [[character:beidou]], mais apporte des buffs utiles pour l'équipe.",
                                 "it": "Questo set penalizza i danni personali di [[character:beidou]], ma fornisce potenziamenti utili al team.",
-                                "ru": "Менее эффективен для личного урона Бэй Доу, но дает бонусы для отряда."
+                                "ru": "Менее эффективен для личного урона [[character:beidou]], но дает бонусы для отряда."
                             }
                         }
                     ]
@@ -56,16 +64,31 @@
                 {
                     "items": [
                         {
-                            "name": "noblesse-oblige",
+                            "name": "scroll-of-the-hero-of-cinder-city",
                             "pieces": 4,
                             "note": {
                                 "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team.",
                                 "fr": "Ce set a moins d'intérêt pour les dégâts personnels de [[character:beidou]], mais apporte des buffs utiles pour l'équipe.",
                                 "it": "Questo set penalizza i danni personali di [[character:beidou]], ma fornisce potenziamenti utili al team.",
-                                "ru": "Менее эффективен для личного урона Бэй Доу, но дает бонусы для отряда."
+                                "ru": "Менее эффективен для личного урона [[character:beidou]], но дает бонусы для отряда."
                             }
                         }
                     ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "heart-of-the-furnace",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team. Only useful if there are sources of [[element:stellar-glimmer]] damage.",
+                        "fr": "Ce set donne moins de dégâts personnels à [[character:beidou]], mais offre des buffs utiles pour l'équipe. N'est utile que s'il y a une source de dégâts de [[element:stellar-glimmer]] dans l'équipe.",
+                        "ru": "Менее эффективен для личного урона [[character:beidou]], но дает бонусы для отряда. Полезен только при наличии источников Звёздного урона."
+                    }
                 }
             ]
         }
