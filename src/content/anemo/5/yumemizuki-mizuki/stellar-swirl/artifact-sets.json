@@ -7,11 +7,21 @@
                         {
                             "name": "gilded-dreams",
                             "pieces": 4
-                        },
+                        }
+                    ]
+                ]
                         {
+            "groups": [
+                {
+                    "items": [
                             "name": "scarlet-proof",
                             "pieces": 4
                         },
+                    "items": [
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                
                     ]
                 }
             ]
