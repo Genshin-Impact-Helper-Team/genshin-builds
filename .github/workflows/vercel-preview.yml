@@ -36,10 +36,18 @@ jobs:
           test -n "$VERCEL_TOKEN" || { echo "VERCEL_TOKEN is missing. Add it under GitHub Actions Secrets."; exit 1; }
 
       - name: Pull Vercel environment
-        run: vercel pull --yes --environment=preview --token="$VERCEL_TOKEN"
+        run: vercel pull --yes --environment=preview --git-branch="$GITHUB_HEAD_REF" --token="$VERCEL_TOKEN"
 
       - name: Build
         run: vercel build --token="$VERCEL_TOKEN"
 
       - name: Deploy preview
-        run: vercel deploy --prebuilt --token="$VERCEL_TOKEN"
+        run: |
+          vercel deploy --prebuilt --token="$VERCEL_TOKEN" \
+            --meta githubDeployment=1 \
+            --meta "githubCommitOrg=$GITHUB_REPOSITORY_OWNER" \
+            --meta "githubCommitRepo=${GITHUB_REPOSITORY#*/}" \
+            --meta "githubCommitRef=$GITHUB_HEAD_REF" \
+            --meta "githubCommitSha=$GITHUB_SHA" \
+            --meta "githubOrg=$GITHUB_REPOSITORY_OWNER" \
+            --meta "githubRepo=${GITHUB_REPOSITORY#*/}"
