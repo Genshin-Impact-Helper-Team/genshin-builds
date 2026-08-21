@@ -2,6 +2,7 @@
     "notes": [
         {
             "en": "Weapons are ranked based on [[character:beidou]]'s personal damage. Weapons that help with energy should be prioritized if you can't build sufficient [[stat:er]] otherwise.",
+            "fr": "Les armes sont classées selon les dégâts personnels de [[character:beidou]]. Les armes qui aident avec l'énergie doivent être priorisées si vous ne pouvez pas avoir assez de [[stat:er]] sans.",
             "ru": "Рейтинг составлен на основе личного урона [[character:beidou]]. Оружие, помогающее удовлетворить потребность в энергии, приоритетно при невозможности достичь достаточного уровня Восстановления энергии."
         }
     ],
@@ -73,6 +74,7 @@
                     "name": "favonius-greatsword",
                     "note": {
                         "en": "If the team can take advantage of additional energy, this weapon can perform better than higher ranked options for team damage.",
+                        "fr": "Si l'équipe peut tirer profit de l'énergie supplémentaire, cette arme peut devenir meilleure que les autres armes mieux classées pour les dégâts de l'équipe.",
                         "ru": "Если отряду полезна дополнительная энергия, может превосходить варианты выше в рейтинге для урона отряда."
                     }
                 },
@@ -81,6 +83,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "If [[character:beidou]] can't trigger [[element:stellar-conduct]], this weapon is not worth considering.",
+                        "fr": "Si [[character:beidou]] ne peut pas déclencher [[element:stellar-conduct]], cette arme ne doit pas être considérée.",
                         "ru": "Если [[character:beidou]] не может закрывать реакцию [[element:stellar-conduct]], это оружие не стоит использовать"
                     }
                 }
@@ -91,7 +94,8 @@
                 {
                     "name": "akuoumaru",
                     "note": {
-                        "en": "At **[R5]** this weapon performs close to **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "en": "At **[R5]**, this weapon performs close to **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "fr": "Une fois **[R5]**, cette arme devient similaire à **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "На **[R5]** это оружие близко к **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]**."
                     }
                 }
