@@ -30,8 +30,10 @@
                         "en": "At **[R5]**, this weapon can perform as well as [[weapon:reliquary-of-truth]].",
                         "fr": "Une fois **[R5]**, cette arme peut être au même niveau que [[weapon:reliquary-of-truth]]."
                     }
-                },
-                "the-widsith"
+                }, {
+                    "name": "the-widsith",
+                    "refinement": 5
+                }
             ]
         },
         {
@@ -65,7 +67,7 @@
                 "magic-guide",
                 {
                     "name": "echoes-of-the-heart",
-                    "refine": 5
+                    "refinement": 5
                 },
                 {
                     "name": "wandering-evenstar",
