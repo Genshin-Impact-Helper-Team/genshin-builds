@@ -5,6 +5,11 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "August 22, 2026",
+                    "changes": "Restructured and updated Beidou sections.",
+                    "appliedBy": "Finnyke"
+                },
+                {
                     "date": "August 20, 2026",
                     "changes": "Added Stellar-Conduct DPS section to Wriothesley. Melt and Mono-Cryo builds are not up to date yet, we're working on it.",
                     "appliedBy": "Plo"
