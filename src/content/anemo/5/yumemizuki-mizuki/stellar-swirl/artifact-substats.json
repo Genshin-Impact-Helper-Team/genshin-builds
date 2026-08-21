@@ -1,6 +1,5 @@
 {
     "substats_priority": [
-        {
         "cr/cd",
         "em",
         {
@@ -9,6 +8,5 @@
                "en": "er can be skipped, and you can burst every other rot"
             }
         }
-  }
-]
+    ]
 }
