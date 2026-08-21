@@ -7,8 +7,8 @@
     },
     "notes": [
         {
-            "en": "[[character:beidou]]'s [[skill:burst]] hits require more than one enemy to bounce and can bounce onto the same target several times provided. Due to this, [[character:beidou]]'s damage is highest when facing 2 enemies.",
-            "ru": "Молнии [[skill:burst|Взрыва стихии]] [[character:beidou]] могут прыгать с одного противника на другого при наличии нескольких целей, и в этом случае могут попадать в одну цель несколько раз. В связи с этим урон [[character:beidou]] наиболее высок при сражении с 2 противниками."
+            "en": "[[character:beidou]]'s [[ability:burst]] hits require more than one enemy to bounce and can bounce onto the same target several times provided. Due to this, [[character:beidou]]'s damage is highest when facing 2 enemies.",
+            "ru": "Молнии [[ability:burst|Взрыва стихии]] [[character:beidou]] могут прыгать с одного противника на другого при наличии нескольких целей, и в этом случае могут попадать в одну цель несколько раз. В связи с этим урон [[character:beidou]] наиболее высок при сражении с 2 противниками."
         }
     ],
     "global": {
