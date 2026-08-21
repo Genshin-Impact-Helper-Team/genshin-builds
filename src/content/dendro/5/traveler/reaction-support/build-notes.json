@@ -5,13 +5,5 @@
         "it": "Supporto Reazioni",
         "ru": "Саппорт"
     },
-    "best": true,
-    "notes": [
-        {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:peak-patrol-song]]\n- [[weapon:athame-artis]]\n"
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:scroll-of-the-hero-of-cinder-city]]\n- [[set:silken-moons-serenade]]\n"
-        }
-    ]
+    "best": true
 }

@@ -129,7 +129,13 @@
                         "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], превосходит **[[weapon:tidal-shadow]]**. Если [[character:freminet]] не может часто закрывать реакцию [[element:shatter]] или [[element:stellar-conduct]], это оружие не стоит использовать."
                     }
                 },
-                "forged-by-the-golden-melody",
+                {
+                    "name": "forged-by-the-golden-melody",
+                    "note": {
+                        "en": "If [[character:freminet]] can consistently trigger [[element:stellar-conduct]], it can perform similarly to **[[weapon:serpent-spine]]**.",
+                        "ru": "Если [[character:freminet]] может закрывать реакцию [[element:stellar-conduct]], соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
+                    }
+                },
                 {
                     "name": "prototype-archaic",
                     "refinement": 5

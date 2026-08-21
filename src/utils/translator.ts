@@ -108,6 +108,10 @@ function escapeHtml(value: unknown) {
         .replace(/'/g, '&#39;');
 }
 
+function formatLineBreakHtml(value: unknown) {
+    return escapeHtml(value).replace(/&lt;br\s*\/?&gt;/gi, '<br>');
+}
+
 /**
  * Formats weapon stat values as level 1 / max when both are available.
  */
@@ -545,7 +549,7 @@ export class TranslationHelper {
                         '<span class="info-popover-stat artifact-popover-effect"><span>',
                         escapeHtml(row.label),
                         '</span><strong>',
-                        escapeHtml(row.value),
+                        formatLineBreakHtml(row.value),
                         '</strong></span>',
                     ].join(''),
                 )

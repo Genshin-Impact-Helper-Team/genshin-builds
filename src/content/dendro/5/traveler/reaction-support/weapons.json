@@ -12,6 +12,11 @@
         },
         {
             "items": [
+                "exaiphanes-blade"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "sacrificial-sword",
                     "note": {
@@ -20,6 +25,14 @@
                         "it": "Questa opzione è preferibile rispetto a **[[weapon:sapwood-blade]]** per via dei requisiti eccessivamente alti di [[stat:er]] del [[character:traveler]] [[element:dendro]], così da garantire un tempo di funzionamento costante del [[ability:burst]].",
                         "ru": "Предпочтительнее **[[weapon:sapwood-blade|Деревянного клинка]]** из-за чрезвычайно высоких требований к [[stat:er|Восстановлению энергии]] для использования [[ability:burst|Взрыва стихии]] по откату."
                     }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
                 }
             ]
         },

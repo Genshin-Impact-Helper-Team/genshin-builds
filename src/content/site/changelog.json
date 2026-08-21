@@ -5,6 +5,16 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "August 20, 2026",
+                    "changes": "Added Stellar-Conduct DPS section to Wriothesley. Melt and Mono-Cryo builds are not up to date yet, we're working on it.",
+                    "appliedBy": "Plo"
+                },
+                {
+                    "date": "August 20, 2026",
+                    "changes": "Updated all Traveler sections. Removed DPS Hydro Traveler section.",
+                    "appliedBy": "Quincy"
+                },
+                {
                     "date": "August 17, 2026",
                     "changes": "Updated Yae Miko's Stellar-Conduct Off-Field DPS Weapon Rankings to better match Qiqi's buffs uptime.",
                     "appliedBy": "Yoren"
