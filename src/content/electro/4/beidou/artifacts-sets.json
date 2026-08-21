@@ -50,19 +50,6 @@
                 {
                     "items": [
                         {
-                            "name": "heart-of-the-furnace",
-                            "pieces": 4,
-                            "note": {
-                                "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team. Only useful if there are sources of [[element:stellar-glimmer]] damage.",
-                                "fr": "Ce set donne moins de dégâts personnels à [[character:beidou]], mais offre des buffs utiles pour l'équipe. N'est utile que s'il y a une source de dégâts de [[element:stellar-glimmer]] dans l'équipe.",
-                                "ru": "Менее эффективен для личного урона [[character:beidou]], но дает бонусы для отряда. Полезен только при наличии источников Звёздного урона."
-                            }
-                        }
-                    ]
-                },
-                {
-                    "items": [
-                        {
                             "name": "noblesse-oblige",
                             "pieces": 4,
                             "note": {
@@ -90,5 +77,20 @@
                 }
             ]
         }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "heart-of-the-furnace",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team. Only useful if there are sources of [[element:stellar-glimmer]] damage.",
+                        "fr": "Ce set donne moins de dégâts personnels à [[character:beidou]], mais offre des buffs utiles pour l'équipe. N'est utile que s'il y a une source de dégâts de [[element:stellar-glimmer]] dans l'équipe.",
+                        "ru": "Менее эффективен для личного урона [[character:beidou]], но дает бонусы для отряда. Полезен только при наличии источников Звёздного урона."
+                    }
+                }
+            ]
+        },
     ]
 }
