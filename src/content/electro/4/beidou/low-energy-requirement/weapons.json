@@ -14,7 +14,7 @@
         },
         {
             "items": [
-                "verdict",
+                "verdict"
             ]
         },
         {
@@ -92,7 +92,7 @@
                 {
                     "name": "luxurious-sea-lord",
                     "refinement": 5
-                },
+                }
             ]
         },
         {
