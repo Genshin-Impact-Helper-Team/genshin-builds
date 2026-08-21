@@ -5,7 +5,7 @@
                 {
                     "name": "skill",
                     "note": {
-                        "en": "elemental skill levels are the only thing that affect Mizuki's damage, but even these can be ignored if you lack resources"
+                        "en": "**[[ability:skill]]** levels are the only thing that affect Mizuki's damage, but even these can be ignored if you lack resources"
                     }
                 }
             ]
