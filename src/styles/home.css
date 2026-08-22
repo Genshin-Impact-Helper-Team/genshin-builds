@@ -717,14 +717,18 @@
   left: calc(((25px + 4px) / 2) - 1px);
 }
 
-.changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n) {
+.changelog-list
+  .changelog-timeline.changelog-timeline
+  > .changelog-version:nth-child(n) {
   width: auto;
   align-self: stretch;
   padding: 0;
   text-align: left;
 }
 
-.changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n)::before {
+.changelog-list
+  .changelog-timeline.changelog-timeline
+  > .changelog-version:nth-child(n)::before {
   right: auto;
   left: auto;
   margin-left: -40px;
@@ -775,34 +779,59 @@
     left: calc(50% - 1px);
   }
 
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n) {
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(n) {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr);
     align-items: start;
   }
 
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(n)::before {
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(n)::before {
     left: 50%;
     margin-left: 0;
     transform: translateX(-50%);
   }
 
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version > h2,
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version > .changelog-version-entries {
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version
+    > h2,
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version
+    > .changelog-version-entries {
     grid-row: 1;
   }
 
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(odd) > h2,
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(even) > .changelog-version-entries {
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(odd)
+    > h2,
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(even)
+    > .changelog-version-entries {
     grid-column: 1;
   }
 
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(even) > h2,
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(odd) > .changelog-version-entries {
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(even)
+    > h2,
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(odd)
+    > .changelog-version-entries {
     grid-column: 3;
   }
 
-  .changelog-list .changelog-timeline.changelog-timeline > .changelog-version:nth-child(odd) > h2 {
+  .changelog-list
+    .changelog-timeline.changelog-timeline
+    > .changelog-version:nth-child(odd)
+    > h2 {
     text-align: right;
   }
 }

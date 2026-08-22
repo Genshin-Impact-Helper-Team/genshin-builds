@@ -185,7 +185,8 @@
   align-items: start;
 }
 
-.build-badge {
+.build-badge,
+.build-version-badge {
   display: inline-flex;
   width: fit-content;
   min-height: 24px;
@@ -203,6 +204,12 @@
   white-space: normal;
 }
 
+.build-version-badge {
+  border-color: color-mix(in srgb, var(--element) 42%, transparent);
+  background: color-mix(in srgb, var(--element) 12%, rgba(255, 255, 255, 0.05));
+  color: color-mix(in srgb, #fff 84%, var(--element) 16%);
+}
+
 .build-switcher {
   position: relative;
   z-index: 2;
@@ -216,9 +223,9 @@
   display: grid;
   width: 100%;
   min-height: 42px;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 5px;
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 5px 8px;
+  align-items: start;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -268,7 +275,29 @@
   opacity: 1;
 }
 
+.build-switcher-button.is-wip,
+.build-switcher-button:disabled {
+  border-color: rgba(148, 163, 184, 0.1);
+  background: rgba(7, 9, 12, 0.38);
+  box-shadow: none;
+  color: rgba(148, 163, 184, 0.52);
+  cursor: not-allowed;
+}
+
+.build-switcher-button.is-wip::before,
+.build-switcher-button:disabled::before {
+  opacity: 0;
+}
+
+.build-switcher-button.is-wip .build-switcher-name,
+.build-switcher-button:disabled .build-switcher-name {
+  color: rgba(148, 163, 184, 0.64);
+}
+
 .build-switcher-name {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: center;
   min-width: 0;
   color: #fff;
   font-size: 0.84rem;
@@ -277,10 +306,29 @@
   overflow-wrap: anywhere;
 }
 
-.build-switcher-button .build-badge {
+.build-switcher-tags {
+  display: contents;
+}
+
+.build-switcher-button .build-badge,
+.build-switcher-button .build-version-badge {
   min-height: 20px;
   padding: 3px 6px;
   font-size: 0.62rem;
+}
+
+.build-switcher-button .build-badge {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  justify-self: start;
+}
+
+.build-switcher-button .build-version-badge {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  justify-self: end;
+  white-space: nowrap;
 }
 
 .build-calculation-panels {
@@ -1273,8 +1321,8 @@
     min-height: 34px;
     grid-template-columns: minmax(0, 1fr) auto;
     justify-items: start;
-    gap: 6px;
-    align-items: center;
+    gap: 6px 8px;
+    align-items: start;
     padding: 6px 8px;
     text-align: left;
   }
@@ -1301,6 +1349,13 @@
 
   .build-switcher-button .build-badge {
     justify-self: start;
+    min-height: 18px;
+    padding: 2px 5px;
+    font-size: 0.58rem;
+  }
+
+  .build-switcher-button .build-version-badge {
+    justify-self: end;
     min-height: 18px;
     padding: 2px 5px;
     font-size: 0.58rem;

@@ -16,6 +16,7 @@ src/content/<element>/<rarity>/<character>/<build>/build-notes.json
     "en": "[[element:melt]] DPS",
     "fr": "DPS [[element:melt]]"
   },
+  "last_updated": "6.6 / Luna VII",
   "artifact": {
     "link": "https://example.com/artifact-calculation",
     "author": "AuthorName",
@@ -58,6 +59,11 @@ src/content/<element>/<rarity>/<character>/<build>/build-notes.json
   - If `name` is missing, the site falls back to the build folder name.
 - `best`: Optional boolean. Use `true` for the role/build the character best
   excels at. This shows a badge on the closed build card header.
+- `last_updated`: Optional Genshin version string for this build, or `WIP`.
+  If omitted, the build uses the character-level `metadata.json`
+  `last_updated` value. If set to `WIP`, the build stays visible in the build
+  selector but cannot be selected when another build is available. If every
+  build resolves to `WIP`, the character page is unavailable.
 - `artifact` or `artifacts`: Optional detailed artifact calculation credit.
 - `weapons`: Optional detailed weapon calculation credit.
 - `talent` or `talents`: Optional detailed talent calculation credit.

@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 env:
   VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
@@ -42,12 +43,56 @@ jobs:
         run: vercel build --token="$VERCEL_TOKEN"
 
       - name: Deploy preview
+        id: deploy
         run: |
-          vercel deploy --prebuilt --token="$VERCEL_TOKEN" \
+          deployment_url="$(vercel deploy --prebuilt --token="$VERCEL_TOKEN" \
             --meta githubDeployment=1 \
             --meta "githubCommitOrg=$GITHUB_REPOSITORY_OWNER" \
             --meta "githubCommitRepo=${GITHUB_REPOSITORY#*/}" \
             --meta "githubCommitRef=$GITHUB_HEAD_REF" \
             --meta "githubCommitSha=$GITHUB_SHA" \
             --meta "githubOrg=$GITHUB_REPOSITORY_OWNER" \
-            --meta "githubRepo=${GITHUB_REPOSITORY#*/}"
+            --meta "githubRepo=${GITHUB_REPOSITORY#*/}")"
+          echo "url=$deployment_url" >> "$GITHUB_OUTPUT"
+          echo "$deployment_url"
+
+      - name: Comment preview URL
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ steps.deploy.outputs.url }}
+        with:
+          script: |
+            const marker = '<!-- vercel-preview-url -->';
+            const body = [
+              marker,
+              '### Vercel Preview',
+              '',
+              `[Open preview](${process.env.PREVIEW_URL})`,
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const { data: comments } = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number,
+              per_page: 100,
+            });
+            const existing = comments.find((comment) =>
+              comment.user?.type === 'Bot' && comment.body?.includes(marker),
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body,
+              });
+            }
