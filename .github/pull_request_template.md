@@ -7,7 +7,8 @@
 - [ ] The PR title follows the naming convention
 - [ ] I have linked the PR to the corresponding Issue if any
 - [ ] I have updated the changelog if needed
-- [ ] I have updated the "Last updated" metadata if needed
+- [ ] I have updated the "last_updated" metadata if needed (in metadata.json if all builds are up to date, in build-notes.json if only one is)
+- [ ] I have removed the "last_updated" from build-notes.json if all builds are up to date
 - [ ] I have removed the WIP notes from the build-notes.json files if I just updated a character
 - [ ] The "Last Updated" metadata is "WIP" if the character's guide isn't ready yet
 
