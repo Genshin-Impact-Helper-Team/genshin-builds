@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { readJSONFile } from './content';
+import { normalizeVersion, readJSONFile } from './content';
 
 export type ContentCharacter = {
   element: string;
@@ -42,10 +42,33 @@ export function getContentCharacters(
 
               if (!fs.existsSync(metadataPath)) return [];
 
-              const isWip =
-                String(readJSONFile(metadataPath)?.last_updated ?? '')
-                  .trim()
-                  .toUpperCase() === 'WIP';
+              const metadata = readJSONFile(metadataPath);
+              const defaultLastUpdated = normalizeVersion(
+                metadata?.last_updated,
+              );
+              const buildLastUpdatedValues = getCharacterBuilds(
+                characterPath,
+              ).map((build) => {
+                const buildNotesPath = path.join(
+                  build.path,
+                  'build-notes.json',
+                );
+                const buildNotes = fs.existsSync(buildNotesPath)
+                  ? readJSONFile(buildNotesPath)
+                  : null;
+
+                return (
+                  normalizeVersion(buildNotes?.last_updated) ||
+                  defaultLastUpdated
+                );
+              });
+              const lastUpdatedValues =
+                buildLastUpdatedValues.length > 0
+                  ? buildLastUpdatedValues
+                  : [defaultLastUpdated];
+              const isWip = lastUpdatedValues.every(
+                (lastUpdated) => lastUpdated.toUpperCase() === 'WIP',
+              );
 
               return isWip && !includeWip
                 ? []

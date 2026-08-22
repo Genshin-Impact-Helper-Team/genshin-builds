@@ -3,5 +3,6 @@
         "prettier-plugin-astro"
     ],
     "singleQuote": true,
-    "semi": true
+    "semi": true,
+    "printWidth": 120
 }

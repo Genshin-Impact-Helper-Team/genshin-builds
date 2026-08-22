@@ -18,6 +18,15 @@ export function readJSONFile(filePath: string) {
   }
 }
 
+export function normalizeVersion(version: unknown) {
+  return typeof version === 'string'
+    ? version
+        .trim()
+        .replace(/\s*\/\s*/g, ' / ')
+        .replace(/\s+/g, ' ')
+    : '';
+}
+
 /**
  * Returns the localized note for a content item.
  *

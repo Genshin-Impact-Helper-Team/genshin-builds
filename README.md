@@ -223,14 +223,16 @@ updated for the latest changelog version.
 
 The site reads [`src/content/site/changelog.json`](./src/content/site/changelog.json)
 and treats the first item in `groups` as the latest version. It compares that
-`version` value with each character folder's `metadata.json` `last_updated`
-value:
+`version` value with each build's effective `last_updated` value:
 
 ```txt
 src/content/<element>/<rarity>/<character>/metadata.json
+src/content/<element>/<rarity>/<character>/<build>/build-notes.json
 ```
 
-To make a character appear when this filter is checked, set `last_updated` to
+Builds use the character `metadata.json` value by default. To update one build
+separately, add `last_updated` to that build's `build-notes.json`. To make a
+character appear when this filter is checked, at least one build must resolve to
 the same version as the first changelog group, for example:
 
 ```json
@@ -240,8 +242,11 @@ the same version as the first changelog group, for example:
 ```
 
 The comparison trims extra spaces and normalizes spacing around `/`, but keep
-the written version consistent with the changelog. If no character matches the
-latest changelog version, the filter is hidden.
+the written version consistent with the changelog. A build-level `WIP` keeps the
+build visible but unavailable when the character has another available build; if
+every build resolves to `WIP`, the character page is unavailable. `WIP` builds
+do not match the recently updated filter. If no character matches the latest
+changelog version, the filter is hidden.
 
 ---
 
