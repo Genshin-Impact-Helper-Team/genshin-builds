@@ -1,0 +1,25 @@
+{
+    "main_stats": {
+        "sands": [
+            "atk%",
+            "em"
+        ],
+        "goblet": [
+            "atk%",
+            "em"
+        ],
+        "circlet": [
+            {
+                "name": "cr/cd"
+            },
+            "atk%",
+            {
+                "name": "em",
+                "note": {
+                    "en": "Prioritize [[stat:em]] if team is reaction-based.",
+                    "fr": "Priorisez la [[stat:em]] si l'équipe est basée sur les réactions."
+                }
+            }
+        ]
+    }
+}

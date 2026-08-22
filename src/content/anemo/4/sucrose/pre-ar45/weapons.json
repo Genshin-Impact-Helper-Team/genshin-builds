@@ -1,0 +1,29 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "magic-guide"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Mainly used if the team has [[element:electro]]-based elemental reactions.",
+                        "fr": "Principalement utilisé dans une équipe qui se joue avec des réactions tournant autour de l'[[element:electro]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

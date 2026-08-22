@@ -1,19 +1,3 @@
-.character-page {
-  max-width: 1280px;
-  padding: 14px 18px 44px;
-}
-
-.character-page-layout {
-  display: grid;
-  grid-template-columns: minmax(190px, 235px) minmax(0, 1fr);
-  gap: 12px;
-  align-items: start;
-}
-
-.character-main {
-  min-width: 0;
-}
-
 .character-header {
   position: sticky;
   top: 74px;
@@ -110,6 +94,21 @@
   gap: 7px;
 }
 
+.character-header .build-mode-selector {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.character-header .build-mode-selector-label {
+  grid-column: 1 / -1;
+}
+
+.character-header .build-mode-option {
+  white-space: normal;
+}
+
 .last-updated strong {
   color: color-mix(in srgb, #fff 88%, var(--element) 12%);
 }
@@ -159,14 +158,6 @@
 }
 
 .character-image {
-  display: block;
-  width: min(100%, 132px);
-  max-width: none;
-  height: auto;
-  max-height: 132px;
-  aspect-ratio: 1;
-  object-fit: contain;
-  object-position: center;
   border: 1px solid color-mix(in srgb, var(--element) 36%, transparent);
   border-radius: 8px;
   padding: 8px;
@@ -406,80 +397,8 @@
   padding: 10px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.18fr) minmax(0, 1.06fr) minmax(0, 1fr);
-  gap: 9px;
-  align-items: stretch;
-  margin-top: 0;
-  overflow: visible;
-}
-
 .card {
   border-radius: 8px;
-}
-
-.recommendation-card,
-.notes-card {
-  position: relative;
-  min-width: 0;
-  overflow: hidden;
-  margin-bottom: 9px;
-  border: 0;
-  padding: 0;
-  background: rgba(7, 10, 15, 0.18);
-  box-shadow:
-    inset 0 0 0 1px rgba(255, 255, 255, 0.09),
-    0 8px 20px rgba(0, 0, 0, 0.08);
-  backdrop-filter: none;
-}
-
-.recommendation-card h2,
-.notes-card h2 {
-  margin: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 8px 10px 7px;
-  color: var(--accent);
-  font-size: 0.82rem;
-  font-weight: 850;
-  letter-spacing: 0.06em;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.recommendation-card-body {
-  display: grid;
-  gap: 7px;
-  padding: 8px;
-}
-
-.notes-content {
-  display: grid;
-  gap: 9px;
-  padding: 10px;
-}
-
-.grid > .recommendation-card {
-  display: grid;
-  height: 100%;
-  grid-template-rows: auto minmax(0, 1fr);
-  margin-bottom: 0;
-}
-
-.grid > .recommendation-card > .recommendation-card-body {
-  align-content: start;
-}
-
-.talent-card {
-  grid-column: 1 / -1;
-}
-
-.grid > .talent-card {
-  height: auto;
-}
-
-.talent-card .recommendation-card-body {
-  padding: 7px 8px 8px;
 }
 
 .talent-card .rank-list {
@@ -495,28 +414,6 @@
   min-height: 28px;
   align-items: center;
   padding: 4px 6px;
-}
-
-.recommendation-section {
-  display: grid;
-  gap: 5px;
-  padding: 0;
-}
-
-.recommendation-section + .recommendation-section {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 7px;
-}
-
-.recommendation-section h3,
-.notes-section h3 {
-  margin: 0;
-  color: var(--accent);
-  font-size: 0.72rem;
-  font-weight: 850;
-  letter-spacing: 0.06em;
-  text-align: left;
-  text-transform: uppercase;
 }
 
 .rank-list {
@@ -1120,28 +1017,9 @@
   }
 }
 
-@media (max-width: 1180px) {
-  .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
 @media (max-width: 1040px) {
-  .character-page-layout {
-    grid-template-columns: minmax(160px, 205px) minmax(0, 1fr);
-  }
-
   .page-title {
     font-size: 1.58rem;
-  }
-
-  .character-image {
-    width: min(100%, 116px);
-    max-height: 116px;
-  }
-
-  .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1172,15 +1050,6 @@
 }
 
 @media (max-width: 720px) {
-  .character-page {
-    padding: 12px 10px 36px;
-  }
-
-  .character-page-layout {
-    grid-template-columns: 1fr;
-    gap: 8px;
-  }
-
   .character-header {
     position: relative;
     top: auto;
@@ -1189,6 +1058,7 @@
     grid-template-columns: 68px minmax(0, 1fr);
     grid-template-areas:
       'art copy'
+      'mode mode'
       'builds builds'
       'calculations calculations';
     gap: 9px 10px;
@@ -1236,11 +1106,6 @@
   }
 
   .character-image {
-    width: 64px;
-    max-width: none;
-    height: auto;
-    max-height: 64px;
-    margin-inline: auto;
     padding: 5px;
   }
 
@@ -1252,6 +1117,10 @@
     margin-top: 0;
     overflow: visible;
     padding: 0;
+  }
+
+  .character-header .build-mode-selector {
+    grid-area: mode;
   }
 
   .build-calculation-panel {
@@ -1304,10 +1173,6 @@
     min-height: 18px;
     padding: 2px 5px;
     font-size: 0.58rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
   }
 
   .talent-card .rank-list {
@@ -1363,8 +1228,6 @@
   }
 
   .character-image {
-    width: 56px;
-    max-height: 56px;
     padding: 4px;
   }
 

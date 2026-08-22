@@ -1,0 +1,40 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "mappa-mare"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "emerald-orb"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers",
+                    "note": {
+                        "en": "Great weapon for support build.",
+                        "fr": "Très bonne arme pour un build support."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Use only if the team has [[element:electro]]-based elemental reactions.",
+                        "fr": "A n'utiliser que si l'équipe se joue avec des réactions tournant autour de l'[[element:electro]]."
+                    }
+                }
+            ]
+        }
+    ]
+}
