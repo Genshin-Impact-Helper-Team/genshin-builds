@@ -17,7 +17,7 @@
             "ru": "Вместо сборки в личный урон (хотя и его не стоит игнорировать) [[character:noelle]] усиливает отряд за счёт [[set:archaic-petra|Архаичного камня]], одновременно извлекая пользу от атак по площади и защитных способностей."
         }
     ],
-    "weapons": {
+    "global": {
         "author": "Finnyke",
         "link": "https://drive.google.com/drive/folders/1mdWC0I3P-LrAt1Rln6BN6qvRTuuwUVNE"
     }
