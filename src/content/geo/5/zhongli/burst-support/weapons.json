@@ -46,7 +46,8 @@
                     "name": "lithic-spear",
                     "note": {
                         "en": "Assumes 3 stacks.",
-                        "fr": "Suppose 3 stacks."
+                        "fr": "Suppose 3 stacks.",
+                        "it": "La classifica presuppone 3 personaggi di Liyue nel team."
                     }
                 }
             ]
@@ -57,7 +58,8 @@
                     "name": "blackcliff-pole",
                     "note": {
                         "en": "Assumes 0 stacks.",
-                        "fr": "Suppose 0 stack."
+                        "fr": "Suppose 0 stack.",
+                        "it": "La classifica presuppone 0 accumuli.",
                     }
                 }
             ]
@@ -74,6 +76,7 @@
                     "note": {
                         "en": "If the team values the particles from this weapon, then it can be better than all the other options mentioned for overall team damage (Note that you need to build some amount of [[stat:cr]] if you are running **[[weapon:favonius-lance]]** to trigger the passive)",
                         "fr": "Si l'équipe valorise les particules de cette arme, elle peut être meilleure que toutes les autres options mentionnées pour les dégâts globaux de l'équipe (notez que vous devez build une certaine quantité de [[stat:cr]] si vous jouez **[[weapon:favonius-lance]]** pour déclencher le passif).",
+                        "it": "Se il team apprezza le particelle di Energia fornite da quest'arma, può essere migliore di tutte le altre opzioni menzionate per i danni complessivi del team.",
                         "ru": "Если отряду нужна энергия, этот вариант может превзойти остальные за счёт увеличения урона отряда (но стоит помнить, что для стабильной работы Пассивной способности оружия требуется определённое количество [[stat:cr|Шанса крит. попадания]])."
                     }
                 }
