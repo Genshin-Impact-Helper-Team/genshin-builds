@@ -5,6 +5,7 @@
         "it": "DPS da Reazione",
         "ru": "ДД от реакций"
     },
+    "last_updated": "6.7 / Luna VIII",
     "notes": [
         {
             "en": "Reaction DPS [[character:jean]] relies on her unique interaction regarding her [[ability:burst]]. If the active character if afflicted by [[element:hydro]] / [[element:pyro]] / [[element:electro]] / [[element:cryo]], [[character:jean]]'s [[ability:burst]] will infuse them with [[element:anemo]] and create a [[element:swirl]] trigger around the character. This interaction can be abused by using [[character:bennett]] to consistently infuse the active character with [[element:pyro]]. This allows for an extremely high amount of [[element:pyro]] [[element:swirl]] triggers. These [[element:swirl]]'s damage scales off of [[character:jean]]'s [[stat:em]].",
