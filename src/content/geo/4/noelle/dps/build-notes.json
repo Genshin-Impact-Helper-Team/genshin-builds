@@ -23,7 +23,7 @@
             "ru": "- Несколько целей: **{rot:N3 D/J}**."
         }
     ],
-    "weapons": {
+    "global": {
         "author": "Finnyke",
         "link": "https://drive.google.com/drive/folders/1mdWC0I3P-LrAt1Rln6BN6qvRTuuwUVNE"
     }
