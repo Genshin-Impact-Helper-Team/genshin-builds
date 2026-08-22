@@ -26,7 +26,7 @@
             "ru": "На 4 уровне давления можно выполнять Обычную атаку вместо Элементального навыка, что также завершит Таймер Пера."
         }
     ],
-    "weapons": [
+    "global": [
         {
             "author": "Finnyke",
             "link": "https://drive.google.com/drive/folders/1h4yQfwWEUU1ytLOWEmdTvtbKXaJnXI8P?usp=sharing"
