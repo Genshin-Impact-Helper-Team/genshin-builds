@@ -127,14 +127,9 @@ const rosterCharacters = characters.map(getCharacterViewModel);
               </span>
 
               {character.lastUpdated && (
-                <span class="roster-character-tags" aria-hidden="true">
-                  <span class="roster-character-updated">
+                <span class="roster-character-updated" aria-hidden="true">
                     {character.lastUpdated}
                   </span>
-                  {character.hasMultipleLastUpdated && (
-                    <span class="roster-character-update-warning">⚠️</span>
-                  )}
-                </span>
               )}
             </a>
           );
