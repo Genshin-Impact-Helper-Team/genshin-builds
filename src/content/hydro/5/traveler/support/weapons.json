@@ -8,6 +8,37 @@
         {
             "items": [
                 {
+                    "name": "key-of-khaj-nisut",
+                    "note": {
+                        "en": "[[element:hydro]] [[character:traveler]] must use their Hold [[ability:skill]] to activate this weapon's passive. Use [[stat:hp%]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential.",
+                        "fr": "Le [[character:traveler]] [[element:hydro]] doit utiliser son [[ability:skill]] appuyé pour activer le passif de cette arme. Utilisez des mainstats [[stat:hp%]] pour augmenter les effets du passif et donc augmenter le buff donné à l'équipe.",
+                        "it": "Il [[character:traveler]] [[element:hydro]] deve usare la propria [[ability:skill]] premuta a lungo al fine di attivare la passiva di quest'arma. Utilizza statistiche principali [[stat:hp%]] per potenziare la passiva di quest'arma ed aumentarne il potenziamento al team.",
+                        "ru": "[[element:hydro]] [[character:traveler]] должен использовать долгое нажатие [[ability:skill|Элементального навыка]] для запуска Пассивной способности. Используйте артефакты на [[stat:hp%]] для усиления эффекта Пассивной способности оружия, что повышает потенциал [[character:traveler]]а как баффера."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "exaiphanes-blade"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "xiphos-moonlight",
+                    "note": {
+                        "en": "Use [[stat:em]] main stats to help boost the effect of this weapon's passive, further boosting its team buffing potential.",
+                        "fr": "Utilisez des mainstats [[stat:em]] pour augmenter les effets du passif et donc augmenter le buff donné à l'équipe.",
+                        "it": "Utilizza statistiche principali [[stat:em]] per potenziare la passiva di quest'arma ed aumentarne il potenziamento al team.",
+                        "ru": "Используйте артефакты на [[stat:em]] для усиления эффекта Пассивной способности оружия, что повышает потенциал [[character:traveler]]а как баффера."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "fleuve-cendre-ferryman",
                     "refinement": 5
                 }

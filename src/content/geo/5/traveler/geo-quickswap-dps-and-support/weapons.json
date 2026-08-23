@@ -1,0 +1,152 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "exaiphanes-blade"
+            ]
+        },
+        {
+            "items": [
+                "uraku-misugiri"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "athame-artis",
+                    "note": {
+                        "en": "Ranking assumes the short-duration [[stat:atk%]] buff to teammates is useful to the team. Otherwise this weapon ranks below **[[weapon:mistsplitter-reforged]]**.",
+                        "fr": "Le classement suppose que le court buff d'[[stat:atk%]] est utile à l'équipe. Sinon, cette arme se classe en dessous de **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "La classifica presuppone che il breve potenziamento di [[stat:atk%]] fornito al team sia utile. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:mistsplitter-reforged]]**.",
+                        "ru": "Предполагается, что краткосрочный бафф [[stat:atk%|силы атаки%]] полезен для членов отряда. В противном случае данное оружие уступает **[[weapon:mistsplitter-reforged|Рассекающему туман]]**."
+                    }
+                },
+                "primordial-jade-cutter",
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu",
+                "absolution",
+                "azurelight"
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision"
+            ]
+        },
+        {
+            "items": [
+                "splendor-of-tranquil-waters",
+                "lightbearing-moonshard",
+                {
+                    "name": "summit-shaper",
+                    "note": {
+                        "en": "Assumes the [[element:geo]] [[character:traveler]] is shielded. Without reliable shield uptime, this weapon performs worse than **[[weapon:wolf-fang]]**.",
+                        "fr": "Suppose que le [[character:traveler]] [[element:geo]] est protégé par un bouclier. Sans uptime fiable de bouclier, cette arme passe derrière **[[weapon:wolf-fang]]**.",
+                        "it": "La classifica presuppone che il [[character:traveler]] sia **protetto da uno scudo**. Senza buon tempo di funzionamento di uno scudo, quest'arma ha prestazioni peggiori di **[[weapon:wolf-fang]]**.",
+                        "ru": "Предполагается наличие щита. При его отсутствии показывает себя хуже, чем **[[weapon:wolf-fang]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wolf-fang",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:haran-geppaku-futsu]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "note": {
+                        "en": "Assumes [[ability:bol]] is being cleared.",
+                        "fr": "Suppose que l'[[ability:bol]] est retiré.",
+                        "it": "La classifica presuppone che il Viaggiatore riceva cure sufficienti a rimuovere il **[[ability:bol]]**.",
+                        "ru": "Предполагается, что [[ability:bol]] стабильно снимается."
+                    }
+                },
+                {
+                    "name": "festering-desire",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma aumenta di valore se il [[character:traveler]] ha alti requisiti di [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
+                    }
+                },
+                {
+                    "name": "amenoma-kageuchi",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma aumenta di valore se il [[character:traveler]] ha alti requisiti di [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
+                    }
+                },
+                {
+                    "name": "skyward-blade",
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma aumenta di valore se il [[character:traveler]] ha alti requisiti di [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
+                    }
+                },
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon increases in value if the [[element:geo]] [[character:traveler]] has high [[stat:er]] requirements.",
+                        "fr": "Cette arme gagne en valeur si le [[character:traveler]] [[element:geo]] a des besoins élevés en [[stat:er]].",
+                        "it": "Quest'arma aumenta di valore se il [[character:traveler]] ha alti requisiti di [[stat:er]].",
+                        "ru": "Стоит рассмотреть при большой потребности в энергии."
+                    }
+                },
+                {
+                    "name": "peak-patrol-song",
+                    "note": {
+                        "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe.",
+                        "it": "Anche se non è particolarmente utile ai danni personali del [[character:traveler]], quest'arma può essere desiderabile per l'utilità fornita al team.",
+                        "ru": "Не слишком силён по личному урону, но может быть полезен за счёт бонусов для отряда."
+                    }
+                },
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe.",
+                        "it": "Anche se non è particolarmente utile ai danni personali del [[character:traveler]], quest'arma può essere desiderabile per l'utilità fornita al team.",
+                        "ru": "Не слишком силён по личному урону, но может быть полезен за счёт бонусов для отряда."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-sword",
+                    "note": {
+                        "en": "While not that good for the [[element:geo]] [[character:traveler]]'s personal damage, this weapon can be appealing due to the utility it provides to the team.",
+                        "fr": "Bien qu'elle ne soit pas très bonne pour les dégâts personnels du [[character:traveler]] [[element:geo]], cette arme peut être intéressantes grâce aux commodités qu'elle apporte à l'équipe.",
+                        "it": "Anche se non è particolarmente utile ai danni personali del [[character:traveler]], quest'arma può essere desiderabile per l'utilità fornita al team.",
+                        "ru": "Не слишком силён по личному урону, но может быть полезен за счёт бонусов для отряда."
+                    }
+                }
+            ]
+        }
+    ]
+}

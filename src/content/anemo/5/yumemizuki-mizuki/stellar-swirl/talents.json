@@ -1,0 +1,22 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note": {
+                        "en": "These levels are the only thing that affect [[character:yumemizuki-mizuki]]'s damage, but even these can be ignored if you lack resources.",
+                        "fr": "Ces niveaux sont les seuls qui affectent réellement les dégâts de [[character:yumemizuki-mizuki]], mais même ceux-ci peuvent être ignorés si vous manquez de ressources."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        }
+    ]
+}

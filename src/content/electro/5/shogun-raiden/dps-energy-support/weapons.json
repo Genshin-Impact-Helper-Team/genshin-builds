@@ -3,6 +3,7 @@
         {
             "en": "The ranking is based on [[character:shogun-raiden|Raiden]]'s personal damage.",
             "fr": "Le classement est basé sur les dégâts personnels de [[character:shogun-raiden]].",
+            "it": "La classifica si basa sui danni personali di [[character:shogun-raiden|Raiden]].",
             "ru": "Рейтинг сформирован на основе личного [[character:shogun-raiden|Райдэн]]."
         }
     ],
@@ -20,6 +21,7 @@
                     "note": {
                         "en": "It is not recommended to build [[stat:em]] for this weapon as her other offensive stats still outclass it.",
                         "fr": "Il n'est pas recommandé de build [[stat:em]] pour cette arme puisque les autres stats offensives de Raiden sont toujours meilleures.",
+                        "it": "Non è consigliato accumulare [[stat:em]] per quest'arma poiché le altre stat offensive sono comunque più efficaci.",
                         "ru": "[[stat:em|МС]]-сборка не рекомендуется, классический вариант её превосходит  даже с этим оружием."
                     }
                 },
@@ -34,8 +36,9 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "Ranking assumes single target. At **[R5]**, this weapon can perform better than **[[weapon:staff-of-homa]]**",
-                        "fr": "Le classement suppose du monocible. Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:staff-of-homa]]**",
+                        "en": "Ranking assumes single target. At **[R5]**, this weapon can perform better than **[[weapon:staff-of-homa]]**.",
+                        "fr": "Le classement suppose du monocible. Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:staff-of-homa]]**.",
+                        "it": "La classifica presuppone un singolo nemico. A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:staff-of-homa]]**.",
                         "ru": "Предполагается бой против одной цели. На **[R5]** может превосходить **[[weapon:staff-of-homa]]**."
                     }
                 }
@@ -57,6 +60,7 @@
                     "note": {
                         "en": "If using the improved combo thanks to the ATK Speed this weapon provides, it pulls slightly ahead of **[[weapon:the-catch]] [R5]**.",
                         "fr": "En utilisant le combo amélioré grâce à l'Attack Speed que cette arme donne, elle passe légèrement devant **[[weapon:the-catch]] [R5]**.",
+                        "it": "Se utilizzi la combo migliorata grazie alla VEL d'ATT fornita da quest'arma, ha prestazioni leggermente migliori di **[[weapon:the-catch]] [R5]**.",
                         "ru": "При использовании комбо с бонусом скорости атаки немного превосходит **[[weapon:the-catch]] [R5]**."
                     }
                 }
@@ -69,6 +73,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to **[[weapon:deathmatch]]**.",
                         "fr": "Une fois **[R5]**, cette arme est équivalente à **[[weapon:deathmatch]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**.",
                         "ru": "На **[R5]** соответствует **[[weapon:deathmatch|Смертельному бою]]**."
                     }
                 },
@@ -77,6 +82,7 @@
                     "note": {
                         "en": "Ranking assumes 2 stacks. At **[R5]**, this weapon performs similar to **[[weapon:deathmatch]]**. With less than 2 stacks, this weapon falls off in value.",
                         "fr": "Le classement suppose 2 stacks. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:deathmatch]]**. Avec moins de 2 stacks, cette arme perd de la valeur.",
+                        "it": "La classifica presuppone che nel team siano presenti 2 personaggi di Liyue. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**. Con meno di 2 personaggi di Liyue nel team, quest'arma ha prestazioni peggiori.",
                         "ru": "Предполагается наличие 2 уровней Пассивной способности оружия. На **[R5]** соответствует **[[weapon:deathmatch|Смертельному бою]]**. При 1 уровне Пассивной способности становится значительно хуже."
                     }
                 }
@@ -89,6 +95,7 @@
                     "note": {
                         "en": "While very subpar for [[character:shogun-raiden|Raiden]]'s personal damage, this weapon can outperform most 4-star options if it helps team members with high damage share (i.e. [[character:xiangling]]).",
                         "fr": "Bien que très médiocre pour les dégâts personnels de [[character:shogun-raiden]], cette arme peut dépasser la plupart des options 4 étoiles si elle aide les membres de l'équipe qui ont une part élevée de dégâts (par exemple [[character:xiangling]]).",
+                        "it": "Nonostante sia mediocre per i danni personali di [[character:shogun-raiden|Raiden]], quest'arma può avere prestazioni migliori della maggior parte delle opzioni a 4 stelle se aiuta i requisiti di Ricarica di energia di altri personaggi del team che provocano molti danni (es. [[character:xiangling]]).",
                         "ru": "Несмотря на минимальное влияние на личный урон [[character:shogun-raiden|Райдэн]], копье может превосходить другие (4✩) варианты, если дополнительная энергия помогает членам отряда, которые наносят большую часть урона (например, [[character:xiangling]])."
                     }
                 }

@@ -5,39 +5,53 @@ import {
   getPublicCharacterSlug,
 } from './character-slugs';
 import { resolveCharacterAssetImage } from './character-assets';
-import { readJSONFile, toTitleCase } from './content';
+import { normalizeVersion, readJSONFile, toTitleCase } from './content';
 import { getCharacterBuilds, getContentCharacters } from './content-tree';
 import { getLocale } from './i18n';
 import { TranslationHelper } from './translator';
 
-function normalizeVersion(version: unknown) {
-  return typeof version === 'string'
-    ? version
-        .trim()
-        .replace(/\s*\/\s*/g, ' / ')
-        .replace(/\s+/g, ' ')
-    : '';
+function parseVersionParts(version: string) {
+  const match = version.match(/^\s*(\d+)\.(\d+)/);
+
+  return match ? [Number(match[1]), Number(match[2])] : null;
 }
 
-function getRecentChangelogVersions(contentPath: string) {
+function compareVersions(left: string, right: string) {
+  const leftParts = parseVersionParts(left);
+  const rightParts = parseVersionParts(right);
+
+  if (!leftParts && !rightParts) return 0;
+  if (!leftParts) return -1;
+  if (!rightParts) return 1;
+
+  return leftParts[0] - rightParts[0] || leftParts[1] - rightParts[1];
+}
+
+function newestVersion(versions: string[]) {
+  return (
+    versions
+      .filter(Boolean)
+      .sort((left, right) => compareVersions(right, left))[0] ?? ''
+  );
+}
+
+function getLatestChangelogVersion(contentPath: string) {
   const changelogPath = path.join(contentPath, 'site', 'changelog.json');
 
   if (!fs.existsSync(changelogPath)) {
-    return [];
+    return '';
   }
 
   const changelog = readJSONFile(changelogPath);
 
-  return (changelog?.groups ?? [])
-    .slice(0, 2)
-    .map((group: any) => normalizeVersion(group.version))
-    .filter(Boolean);
+  return normalizeVersion(changelog?.groups?.[0]?.version);
 }
 
 function getBuildSummaries(
   characterPath: string,
   lang: string,
   translator: TranslationHelper,
+  defaultLastUpdated: string,
 ) {
   return getCharacterBuilds(characterPath).map((build) => {
     const buildNotesPath = path.join(build.path, 'build-notes.json');
@@ -51,6 +65,8 @@ function getBuildSummaries(
 
     return {
       name: translator.translateNoteText(rawBuildName, buildNotesPath),
+      lastUpdated:
+        normalizeVersion(buildNoteData?.last_updated) || defaultLastUpdated,
     };
   });
 }
@@ -69,7 +85,7 @@ export function getHomePageData(lang = 'en') {
   const locale = getLocale(lang);
   const contentPath = path.join(process.cwd(), 'src', 'content');
   const translator = new TranslationHelper(locale, {}, lang);
-  const recentVersions = getRecentChangelogVersions(contentPath);
+  const latestVersion = getLatestChangelogVersion(contentPath);
 
   const characters = getContentCharacters(contentPath, true)
     .map(({ character, characterPath, element, metadataPath, rarity }) => {
@@ -86,6 +102,23 @@ export function getHomePageData(lang = 'en') {
       });
       const lastUpdated = normalizeVersion(metadata.last_updated);
       const versionReleased = normalizeVersion(metadata.version_released);
+      const builds = getBuildSummaries(
+        characterPath,
+        lang,
+        translator,
+        lastUpdated,
+      );
+      const buildLastUpdatedValues = builds
+        .map((build) => build.lastUpdated)
+        .filter(Boolean);
+      const effectiveLastUpdatedValues =
+        buildLastUpdatedValues.length > 0
+          ? buildLastUpdatedValues
+          : [lastUpdated].filter(Boolean);
+      const distinctBuildLastUpdatedValues = new Set(
+        effectiveLastUpdatedValues,
+      );
+      const newestLastUpdated = newestVersion(effectiveLastUpdatedValues);
 
       return {
         name,
@@ -96,12 +129,15 @@ export function getHomePageData(lang = 'en') {
         element,
         rarity,
         weapon: metadata.weapon,
-        lastUpdated,
+        lastUpdated: newestLastUpdated,
         versionReleased,
-        isWip: lastUpdated.toUpperCase() === 'WIP',
-        isRecentlyUpdated: recentVersions.includes(lastUpdated),
+        hasMultipleLastUpdated: distinctBuildLastUpdatedValues.size > 1,
+        isWip: newestLastUpdated.toUpperCase() === 'WIP',
+        isRecentlyUpdated: latestVersion
+          ? effectiveLastUpdatedValues.includes(latestVersion)
+          : false,
         portrait: resolveCharacterAssetImage(assetContext, 'portrait'),
-        builds: getBuildSummaries(characterPath, lang, translator),
+        builds,
       };
     })
     .sort(
@@ -115,7 +151,7 @@ export function getHomePageData(lang = 'en') {
 
   return {
     characters,
-    recentVersions,
+    latestVersion,
     recentlyUpdatedCharacters,
     lang,
     locale,

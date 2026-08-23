@@ -1,0 +1,24 @@
+{
+    "best": true,
+    "name": {
+        "en": "Buff Support",
+        "fr": "Support Buff",
+        "it": "Supporto Potenziamento",
+        "ru": "Саппорт"
+        
+    },
+    "notes": [
+        {
+            "en": "[[character:alyosha]] is a [[element:stellar-conduct]] support who can heal the active character with Tugarin, who is summoned by his [[ability:burst]]. His [[ability:skill]] or the end of his [[ability:na]] string applies the Hunter's Mark. Consuming the mark with these abilities (or having Tugarin hit a marked target) grants the team Hunter's Precision, boosting the ATK of on-field characters. While in a [[ability:polestar-field]], [[character:alyosha]] also grants a 20% [[element:stellar-conduct]] DMG buff. His [[ability:burst]] can additionally taunt enemies.",
+            "fr": "[[character:alyosha]] est un support [[element:stellar-conduct]] qui peut soigner le personnage actif avec Tugarin, que l'on invoque avec son [[ability:burst]]. Son [[ability:skill]] ou sa dernière [[ability:na]] appliquent la Marque du Broussailleur. Consommer cette marque avec les capacités mentionnées (ou lorsque Tugarin attaque un ennemi marqué) accorde l'effet Précision de Broussailleur, buffant l'ATQ du personnage on-field. Lorsqu'il se trouve dans un [[ability:polestar-field]], [[character:alyosha]] offre aussi un buff de 20% de DGT d'[[element:stellar-conduct]]. Son [[ability:burst]] permet aussi de provoquer les ennemis.",
+            "it": "[[character:alyosha]] è un personaggio di supporto di tipo [[element:stellar-conduct]] in grado di curare il personaggio attivo grazie a Tugarin, evocato dalla suo [[ability:burst]]. La sua [[ability:skill]] o la fine della sua sequenza [[ability:na]] applica il “Marchio del Cacciatore”. Consumando il marchio con queste abilità (o facendo sì che Tugarin colpisca un bersaglio contrassegnato) si conferisce alla squadra “Precisione del Cacciatore”, aumentando l’ATK dei personaggi in campo. Quando si trova in un [[ability:polestar-field]], [[character:alyosha]] conferisce anche un potenziamento del 20% a DAN [[element:stellar-conduct]]. Il suo [[abilità:burst]] può inoltre provocare i nemici tramite un 'taunt'.",
+            "ru": "[[character:alyosha]] - саппорт под [[element:stellar-conduct]], который может исцелять активного персонажа, призывая [[ability:burst|Взрывом стихии]] Тугарина. Его [[ability:skill]] или последняя [[ability:na]] из серии накладывают Метку охотника. Снятие Метки теми же способностями (либо укусом Тугарина) активирует Меткость охотника, которая повышает силу атаки активного персонажа. Находясь в [[ability:polestar-field|Пределе путеводной звезды]], [[character:alyosha]] также повышает урон [[element:stellar-conduct|Звёздного проводника]] на 20%. Его  [[ability:burst]] может провоцировать врагов."
+        },
+        {
+            "en": "[[character:alyosha]]'s **[C1]** gives him 15 Energy when a teammate triggers an [[element:electro]]-related reaction, effectively changing his [[ability:burst]] cost from 70 to 55. This has a cooldown of 18 seconds.",
+            "fr": "La **[C1]** d'[[character:alyosha]] lui permet de récupérer 15 pts d'énergie lorsqu'un membre de l'équipe déclenche une réaction liée à [[element:electro]], abaissant le coût de son [[ability:burst]] de 70 à 55, avec un TdR de 18 secondes.",
+            "it": "La **[C1]** di [[personaggio:alyosha]] gli conferisce 15 Energie quando un altro personaggio del team innesca una reazione [[elemento:elettro]], riducendo di fatto il costo del suo [[abilità:burst]] da 70 a 55. Questo effetto ha un tempo di ricarica di 18 secondi.",
+            "ru": "**[C1]** [[character:alyosha|Алёши]] восстанавливает ему 15 единиц энергии, если персонажи отряда поблизости активируют на противнике [[element:electro]] реакции. Это позволяет фактически снизить стоимость его [[ability:burst|Взрыва стихии]] с 70 до 55 единиц энергии. Эффект может возникнуть один раз в 18 секунд."
+        }
+    ]
+}

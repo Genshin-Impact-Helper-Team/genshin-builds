@@ -1,0 +1,60 @@
+{
+    "notes": [
+        {
+            "en": "At **[C0]**, if [[character:alyosha]] is the only [[element:electro]] character in the team, his [[stat:er]] needs may become unrealistically high. As such, [[stat:er]] weapons are highly encouraged.",
+            "fr": "En **[C0]**, si [[character:alyosha]] est le seul [[element:electro]] de l'équipe, ses besoins en [[stat:er]] peuvent être beaucoup trop élevés. Ainsi, les armes [[stat:er]] sont très recommandées.",
+            "it": "A **[C0]**, se [[character:alyosha]] è l'unico personaggio [[element:electro]] del team, i suoi requisiti di [[stat:er]] potrebbero diventare irrealisticamente elevati. Pertanto, si consiglia vivamente di utilizzare armi [[stat:er]].",
+            "ru": "В случае, если **[C0]** [[character:alyosha]] является единственным [[element:electro]] персонажем отряде, его потребность в [[stat:er|ВЭ]] попросту огромна. Настоятельно рекомендуется использовать оружие на [[stat:er]]."
+        }
+    ],
+    "weapons": [
+        {
+            "items": [
+                "symphonist-of-scents"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "frostbreath"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-lance",
+                    "note": {
+                        "en": "[[note:favo]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "engulfing-lightning"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "tamayuratei-no-ohanashi",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "skyward-spine"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "song-of-the-vigil",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

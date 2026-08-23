@@ -5,6 +5,46 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "August 21, 2026",
+                    "changes": "Added Stellar-Swirl DPS section to Yumemizuki Mizuki. Updated Reaction DPS section for Yumemizuki Mizuki. Restructured and updated Beidou sections.",
+                    "appliedBy": "Voidrev, Finnyke"
+                }, 
+                {
+                    "date": "August 20, 2026",
+                    "changes": "Added Stellar-Conduct DPS section to Wriothesley. Melt and Mono-Cryo builds are not up to date yet, we're working on it.",
+                    "appliedBy": "Plo"
+                },
+                {
+                    "date": "August 20, 2026",
+                    "changes": "Updated all Traveler sections. Removed DPS Hydro Traveler section.",
+                    "appliedBy": "Quincy"
+                },
+                {
+                    "date": "August 17, 2026",
+                    "changes": "Updated Yae Miko's Stellar-Conduct Off-Field DPS Weapon Rankings to better match Qiqi's buffs uptime.",
+                    "appliedBy": "Yoren"
+                },
+                {
+                    "date": "August 15, 2026",
+                    "changes": "Added Blade of Atonement and Forged by the Golden Melody to Sandrone's section.",
+                    "appliedBy": "Voidrev"
+                },
+                {
+                    "date": "August 14, 2026",
+                    "changes": "Merged both previous Cyno sections, added Stellar-Conduct DPS Cyno section. Added Cryo Traveler.",
+                    "appliedBy": "Quincy"
+                },
+                {
+                    "date": "August 14, 2026",
+                    "changes": "Added Odette section",
+                    "appliedBy": "Speify"
+                },
+                {
+                    "date": "August 14, 2026",
+                    "changes": "Added Alyosha section",
+                    "appliedBy": "Greenster"
+                },
+                {
                     "date": "August 13, 2026",
                     "changes": "Updated Freminet, Noelle and Furina sections with new weapons.",
                     "appliedBy": "Finnyke"

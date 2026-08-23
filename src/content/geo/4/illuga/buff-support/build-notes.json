@@ -9,26 +9,31 @@
         {
             "en": "[[character:illuga]] buffs [[stat:geo-dmg]] and [[element:lunar-crystallize]] DMG after using his [[ability:burst]], which grants the Nightingale's Song effect. This buff scales on [[character:illuga]]'s [[stat:em]], and with his A4 talent, is further amplified depending on how many [[element:geo]] and [[element:hydro]] characters are in the party.",
             "fr": "[[character:illuga]] buff les [[stat:geo-dmg]] et les dégâts [[element:lunar-crystallize]] après avoir utilisé son [[ability:burst]], ce qui donne l'effet Chant nocturne d'oriole. Ce buff scale sur la [[stat:em]] d'[[character:illuga]], et est amplifié avec son passif A4 talent selon combien de personnages [[element:geo]] et [[element:hydro]] sont dans l'équipe.",
+            "it": "[[character:illuga]] potenzia i **danni [[element:geo]]** e i **danni da [[element:lunar-crystallize]]** con l'utilizzo del suo **[[ability:burst]]**, che fornisce l'effetto Canzone dell'usignolo. Questo **potenziamento è basato sulla [[stat:em]] di [[character:illuga]]**, e con il suo Talento A4 è ulteriormente amplificato a seconda di quanti personaggi **[[element:geo]] e [[element:hydro]]** sono presenti nel team (fino ad un massimo di 3).",
             "ru": "[[character:illuga]] увеличивает [[element:geo]] урон и урон [[element:lunar-crystallize|Лунного кристалла]] при помощи [[ability:burst|Взрыва стихии]], который активирует Соловьиную трель. Бонус зависит от [[stat:em|Мастерства стихий]] [[character:illuga]] и дополнительно усиливается вторым Пассивным талантом в зависимости от количества [[element:geo]] и [[element:hydro]] персонажей в отряде."
         },
         {
             "en": "With his A1 talent, using either his [[ability:skill]] or [[ability:burst]] will grant other team members the Lightkeeper's Oath effect, which boosts the [[stat:cr]] and [[stat:cd]] of [[stat:geo-dmg]], and if Ascendant Gleam is active, boost the character's [[stat:em]] as well.",
             "fr": "Avec son passif A1, utiliser son [[ability:skill]] ou son [[ability:burst]] offrira aux membres de l'équipe l'effet Alouette de l'aube naissante, qui booste le [[stat:cr]] et [[stat:cd]] des [[stat:geo-dmg]], et si Signelune: Lueur Ascendante est actif, booste aussi la [[stat:em]] du personnage.",
+            "it": "Inoltre, con il suo Talento A1, utilizzare l'[[ability:skill]] o il [[ability:burst]] fornisce agli altri personaggi del team l'effetto Giuramento del Guardaluce, che aumenta il **[[stat:cr]]** e **[[stat:cd]]** dei danni [[element:geo]], e se è attivo **Presagio lunare: Barlume ascendente**, aumenta anche la **[[stat:em]]**.",
             "ru": "После активации [[ability:skill|Элементального навыка]] или [[ability:burst|Взрыва стихии]] первый Пассивный талант накладывает эффект Клятвы светоносца: повышает [[stat:cr]] и [[stat:cd]] наносимого [[element:geo]] урона и [[stat:em]] при достижении Лунного знамения - Высшее сияние."
         },
         {
             "en": "Lightkeeper's Oath does not apply to [[character:illuga]] himself.",
             "fr": "Alouette de l'aube naissante ne s'applique pas à [[character:illuga]].",
+            "it": "Il buff a CRIT e a Maestria Elementale Giuramento del Guardaluce non è applicato ad [[character:illuga]] stesso.",
             "ru": "Эффект Клятвы светоносца не распространяется на самого [[character:illuga]]."
         },
         {
             "en": "Nightingale's Song starts with 21 stacks, and for every [[element:geo]] Construct that is on the field when his [[ability:burst]] is used, or if [[element:geo]] Constructs are created during his [[ability:burst]], Nightingale's Song gains 5 stacks, up to a maximum of 15 additional stacks.",
             "fr": "Chant de rossignol commence avec 21 cumuls, et pour chaque construction [[element:geo]] sur le terrain lorsque son [[ability:burst]] est utilisé, ou si des constructions [[element:geo]] sont créées pendant son [[ability:burst]], le Chant de Rossignol gagne 5 cumuls, jusqu'à 15 cumuls additionnels maximum.",
+            "it": "Il buff ai DAN Geo Canzone dell'usignolo inizia con 21 accumuli e, per ogni Costrutto [[element:geo]] presente sul campo quando viene attivato il [[ability:burst]], o se vengono creati Costrutti [[element:geo]] durante il [[ability:burst]], Canzone dell'usignolo guadagna 5 accumuli, fino a un massimo di 15 accumuli aggiuntivi.",
             "ru": "Соловьиная трель имеет 21 уровень. За каждую [[element:geo]] конструкцию, находившуюся на поле во время применения его [[ability:burst|Взрыва стихии]] или созданную при активном его эффекте, число уровней увеличивается на 5 (таким образом можно получить до 15 дополнительных уровней)."
         },
         {
             "en": "The Moondrifts that are created by the [[element:lunar-crystallize]] reaction count as [[element:geo]] Constructs.",
             "fr": "Les voiles lunaires qui sont créées par la réaction [[element:lunar-crystallize]] comptent comme construction [[element:geo]].",
+            "it": "Le gabbie lunari (Moondrifts) create da [[element:lunar-crystallize]] sono considerate Costrutti [[element:geo]].",
             "ru": "Лунная пелена, создаваемая в результате реакции [[element:lunar-crystallize]], считается [[element:geo]] конструкцией."
         },
         {

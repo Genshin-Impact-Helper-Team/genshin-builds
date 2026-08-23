@@ -1,0 +1,36 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "exaiphanes-blade"
+            ]
+        },
+        {
+            "items": [
+                "freedom-sworn",
+                "xiphos-moonlight"
+            ]
+        },
+        {
+            "items": [
+                "favonius-sword"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyrider-sword",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

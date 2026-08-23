@@ -1,0 +1,93 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "cashflow-supervision"
+            ]
+        },
+        {
+            "items": [
+                "reliquary-of-truth"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**.",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "memory-of-dust",
+                    "note": {
+                        "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**.",
+                        "fr": "Ce classement suppose que [[character:wriothesley]] est sous bouclier. Si ce n'est pas le cas, cette arme se classe sous **[[weapon:lost-prayer]]**.",
+                        "it": "La classifica presuppone che [[character:wriothesley]] si trovi **sotto la protezione di uno scudo**. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:lost-prayer]]**."
+                    }
+                },
+                "vivid-notions"
+            ]
+        },
+        {
+            "items": [
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "echoes-of-the-heart",
+                    "refinement": 5
+                },
+                "angelos-heptades",
+                "tulaytullahs-remembrance",
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                "tome-of-the-eternal-flow",
+                "surfs-up",
+                "skyward-atlas"
+            ]
+        },
+        {
+            "items": [
+                "cranes-echoing-call",
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                "a-thousand-floating-dreams"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-jade",
+                    "note": {
+                        "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
+                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**."
+                    }
+                },
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
+                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}

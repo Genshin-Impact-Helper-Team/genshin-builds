@@ -1,0 +1,59 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "disenchantment-in-deep-shadow",
+                            "pieces": 4,
+                            "note": {
+                                "en": "If [[character:traveler]] cannot trigger [[element:stellar-conduct]], they should not use this set.",
+                                "fr": "Si le [[character:traveler]] ne peux pas déclencher [[element:stellar-conduct]], il ne faut pas utiliser ce set.",
+                                "it": "Se il [[character:traveler]] non innesca [[element:stellar-conduct]], questo set non dovrebbe essere utilizzato.",
+                                "ru": "Не следует использовать, если [[character:traveler]] не активирует [[element:stellar-conduct]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

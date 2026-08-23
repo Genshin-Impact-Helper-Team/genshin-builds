@@ -1,7 +1,7 @@
 ---
 import { t } from '../utils/i18n';
 
-const { locale, recentlyUpdatedCount = 0 } = Astro.props;
+const { latestVersion = '', locale, recentlyUpdatedCount = 0 } = Astro.props;
 const hasRecentUpdates = recentlyUpdatedCount > 0;
 const recentlyUpdatedLabel = t(
   locale,
@@ -10,7 +10,8 @@ const recentlyUpdatedLabel = t(
   undefined,
   false,
 );
-const versionText = t(locale, 'ui', 'Last 2 versions', undefined, false);
+const versionLabel = t(locale, 'ui', 'Version', undefined, false);
+const versionText = latestVersion ? `${versionLabel} ${latestVersion}` : '';
 
 // Filter options mirror metadata values written onto each character card.
 const elements = ['anemo', 'cryo', 'dendro', 'electro', 'geo', 'hydro', 'pyro'];

@@ -1,7 +1,12 @@
 const compareText = (left, right) => left.localeCompare(right);
 const versionNumber = (version) => {
-  const number = Number.parseFloat(version);
-  return Number.isFinite(number) ? number : Number.NEGATIVE_INFINITY;
+  const match = String(version ?? '').match(/^\s*(\d+)\.(\d+)/);
+
+  if (!match) {
+    return Number.NEGATIVE_INFINITY;
+  }
+
+  return Number(match[1]) * 100 + Number(match[2]);
 };
 const compareVersionNewest = (left, right) =>
   versionNumber(right) - versionNumber(left);

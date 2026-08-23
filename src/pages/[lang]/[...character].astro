@@ -12,7 +12,18 @@ import { getCharacterStaticPaths } from '../../utils/routes';
 export const getStaticPaths = getCharacterStaticPaths;
 
 const { lang, character: characterPath } = Astro.params;
-// Server-side loader resolves content JSON into translated, display-ready data.
+
+let pageData;
+try {
+  pageData = getCharacterPageData({ lang, characterPath });
+} catch (error) {
+  if (error instanceof Error && error.message === 'Character not found') {
+    return new Response(null, { status: 404 });
+  }
+
+  throw error;
+}
+
 const {
   characterSlug,
   characterName,
@@ -22,10 +33,11 @@ const {
   locale,
   builds,
   warnings,
-} = getCharacterPageData({ lang, characterPath });
+} = pageData;
 
 const defaultBuildSlug =
-  builds.find((build) => build.isBest)?.slug ?? builds[0]?.slug;
+  builds.find((build) => build.isBest && !build.isWip)?.slug ??
+  builds.find((build) => !build.isWip)?.slug;
 
 const calculationKeys = [
   'artifact',
@@ -75,6 +87,8 @@ const noteMarkerExplanation = t(
     slug: build.slug,
     name: build.name,
     isBest: build.isBest,
+    isWip: build.isWip,
+    lastUpdated: build.lastUpdated,
     buildNote: build.buildNote,
     hasCalculations: hasBuildCalculations(build.buildNote),
   }))}
@@ -85,7 +99,8 @@ const noteMarkerExplanation = t(
         builds.map((build) => {
           const buildContentId = `build-content-${build.slug}`;
           const hasNoteMarkerHint = buildHasItemNotes(build.notes);
-          const isDefaultBuild = build.slug === defaultBuildSlug;
+          const isDefaultBuild =
+            build.slug === defaultBuildSlug && !build.isWip;
 
           return (
             <section
@@ -145,15 +160,6 @@ const noteMarkerExplanation = t(
   </div>
 </CharacterPageLayout>
 
-{
-  /* Forward missing translation warnings to the browser console for authors. */
-  import.meta.env.DEV && warnings.length > 0 ? (
-    <script
-      is:inline
-      set:html={`const warnings = ${JSON.stringify(warnings)}; warnings.forEach((warning) => console.warn(warning));`}
-    />
-  ) : null
-}
 
 <script>
   import '../../scripts/build-selector';

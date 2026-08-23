@@ -1,0 +1,54 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "heart-of-the-furnace",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set can have lower-than-usual uptime on [[element:stellar-swirl]] teams and teams with low [[element:electro]] application.",
+                                "fr": "Ce set peut avoir un uptime plus faible que d'habitude dans les équipes [[element:stellar-swirl]] et celles avec une faible application [[element:electro]].",
+                                "it": "Questo set può avere un tempo di funzionamento inferiore al solito in team [[element:stellar-swirl]] ed in team con scarsa applicazione [[element:electro]].",
+                                "ru": "Может иметь аптайм ниже обычного в отрядах через [[element:stellar-swirl]] и отрядах со скудным наложением [[element:electro]]."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

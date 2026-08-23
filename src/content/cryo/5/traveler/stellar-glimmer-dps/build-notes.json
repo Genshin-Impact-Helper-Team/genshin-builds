@@ -1,0 +1,23 @@
+{
+    "name": {
+        "en": "[[element:stellar-glimmer]] DPS",
+        "fr": "DPS [[element:stellar-glimmer]]",
+        "it": "DPS [[element:stellar-glimmer]]",
+        "ru": "ДД через [[element:stellar-glimmer|реакции Звёздного блеска]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:traveler]] is a DPS character that sets up to deal large amounts of [[element:stellar-conduct]] and/or [[element:stellar-swirl]] damage through their enhanced [[ability:ca]] and [[ability:burst]]. The majority of [[character:traveler]]'s damage comes from their [[ability:burst]]. Because of the [[ability:burst]]'s stacking mechanic, make sure you fill up the snowflake icon from their [[ability:skill]] before using their [[ability:burst]].",
+            "fr": "Le [[character:traveler]] est un DPS qui inflige de gros dégâts d'[[element:stellar-conduct]] et/ou [[element:stellar-swirl]] grâce à son [[ability:ca]] améliorée et son [[ability:burst]]. La majorité de ses dégâts provient de son [[ability:burst]]. A cause de la mécanique de cumuls de son [[ability:burst]], faites attention à bien remplir l'icône de flocon de son [[ability:skill]] avant d'utiliser son [[ability:burst]].",
+            "it": "[[character:traveler]] è un DPS in grado di infliggere ingenti danni di tipo **[[element:stellar-conduct]]** e/o **[[element:stellar-swirl]]** grazie all'**[[ability:ca]] potenziato** ed al **[[ability:burst]]**. La maggior parte dei danni inflitti da [[character:traveler]] proviene dal suo **[[ability:burst]]**. A causa della meccanica di accumulo del [[ability:burst]], assicurati di riempire l'icona a forma di fiocco di neve della sua [[ability:skill]] prima di utilizzarlo.",
+            "ru": "[[character:traveler]] - ДД, который наносит значительный урон реакциями [[element:stellar-conduct]] и/или [[element:stellar-swirl]] с помощью усиленной [[ability:ca|Заряженной атаки]] и [[ability:burst|Взрыва стихии]]. Большая часть его урона заключена именно во [[ability:burst|Взрыве стихии]]. Обратите внимание, что из-за механики накопления уровней [[ability:burst|Взрыва]] следует заполнить Леденящую звезду [[ability:skill|навыка]] до активации [[ability:burst|Взрыва стихии]]."
+        }
+    ],
+    "global": [
+        {
+            "author": "Quincy",
+            "link": "https://docs.google.com/spreadsheets/d/1CDHLit5dvjuMXusqxBh8HSWoS5rgngSNwDHsJgCt61A/edit?usp=sharing"
+        }
+    ]
+}

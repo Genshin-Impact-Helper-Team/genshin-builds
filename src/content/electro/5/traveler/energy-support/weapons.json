@@ -2,13 +2,15 @@
     "weapons": [
         {
             "items": [
-                "favonius-sword",
-                "freedom-sworn"
+                "favonius-sword"
             ]
         },
         {
             "items": [
-                "sacrificial-sword"
+                {
+                    "name": "sacrificial-sword",
+                    "refinement": 5
+                }
             ]
         },
         {
@@ -18,7 +20,10 @@
         },
         {
             "items": [
-                "festering-desire"
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
+                }
             ]
         },
         {

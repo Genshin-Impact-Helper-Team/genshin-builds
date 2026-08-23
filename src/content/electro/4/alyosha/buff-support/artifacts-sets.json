@@ -1,0 +1,50 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "heart-of-the-furnace",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Prioritize this set if no one else holds it.",
+                                "fr": "Priorisez ce set si personne d'autre dans l'équipe ne le porte.",
+                                "it": "Prioritizza questo set se nessun altro nel team lo ste utilizzando.",
+                                "ru": "Приоритетный сет, если в отрядее нет другого носителя."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "noblesse-oblige",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "er-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

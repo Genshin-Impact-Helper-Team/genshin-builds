@@ -1,0 +1,16 @@
+{
+    "name": {
+        "en": "[[element:stellar-glimmer]] Support",
+        "fr": "Support [[element:stellar-glimmer]]",
+        "it": "Supporto [[element:stellar-glimmer]]",
+        "ru": "Саппорт под [[element:stellar-glimmer|реакции Звёздного блеска]]"
+    },
+    "notes": [
+        {
+            "en": "[[character:traveler]] can enable and support other [[element:stellar-glimmer]] teams and deal a respectable amount of damage with their [[ability:burst]].",
+            "fr": "Le [[character:traveler]] permet de déclencher les [[element:stellar-glimmer]] dans différentes équipes et d'infliger des dégâts convenables grâce à son [[ability:burst]].",
+            "it": "Il [[character:traveler]] abilita e supporta altri team **[[element:stellar-glimmer]]** ed infligge una quantità rispettabile di danni tramite il suo **[[ability:burst]]**.",
+            "ru": "[[character:traveler]] может открывать доступ к [[element:stellar-glimmer|реакциям Звёздного блеска]] и выступать в роли поддержки в отрядах через данные реакции, а также наносить неплохой урон своим [[ability:burst|Взрывом стихии]]."
+        }
+    ]
+}

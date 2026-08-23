@@ -1,0 +1,24 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst",
+                    "note": {
+                        "en": "[[ability:burst]] talent levels are optional. Only raise them if you wish to get more out of [[character:alyosha]]'s personal damage.",
+                        "fr": "Les niveaux de talent de l'[[ability:burst]] sont optionnels. Ne l'améliorer que si vous souhaiter avoir plus de dégâts personnels pour [[character:alyosha]].",
+                        "it": "Alzare il livello del [[ability:burst]] è opzionale. Alzalo soltanto se desideri ottenere migliori danni personali da parte di [[character:alyosha]].",
+                        "ru": "Повышение уровня [[ability:burst|Взрыва стихии]] не является обязательным и зависит от того, волнует ли вас личный урон [[character:alyosha|Алёши]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

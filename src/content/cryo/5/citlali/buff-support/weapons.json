@@ -26,7 +26,7 @@
                     "note": {
                         "en": "Only use this weapon if a teammate, who does significant damage, benefits from **[[stat:atk%]]**.",
                         "fr": "N'utilisez cette arme que si un membre de l'équipe infligeant beaucoup de dégâts peut bénéficier de l'**[[stat:atk%]]**.",
-                        "it": "Utilizza quest'arma solo se un compagno di squadra, in grado di infliggere danni significativi, beneficia di **[[stat:atk%]]**.",
+                        "it": "Utilizza quest'arma solo se un altro personaggio del team, in grado di infliggere danni significativi, beneficia di **[[stat:atk%]]**.",
                         "ru": "Следует использовать только в том случае, если основному ДД полезна **[[stat:atk%]]**."
                     }
                 },
