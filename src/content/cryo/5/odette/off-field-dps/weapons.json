@@ -10,7 +10,10 @@
                 {
                     "name": "whitelake-frostfeather",
                     "note": {
-                        "en": "Assumes max stacks. The energy refund part of passive is generally wasted."
+                        "en": "Assumes max stacks. The energy refund part of passive is generally wasted.",
+                        "fr": "Suppose le nombre maximum de cumuls. La partie récupération d'énergie du passig est généralement inutile.",
+                        "it": "La posizione in classifica presuppone accumuli massimi. La parte relativa al rimborso di Energia della passiva è generalmente sprecata.",
+                        "ru": "Предполагается максимальный уровень Пассивной способнеости. Возврат энергии обычно уходит впустую."
                     }
                 }
             ]
@@ -37,14 +40,20 @@
                 {
                     "name": "summit-shaper",
                     "note": {
-                        "en": "Ranking assumes [[character:odette]] is unshielded."
+                        "en": "Ranking assumes [[character:odette]] is unshielded.",
+                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier.",
+                        "it": "La posizione in classifica presuppone che [[character:odette]] **non** sia sotto la protezione di uno scudo.",
+                        "ru": "Предполагается отсутствие щита."
                     }
                 },
                 "haran-geppaku-futsu",
                 {
                     "name": "freedom-sworn",
                     "note": {
-                        "en": "The ranking assumes the passive is active every other rotation. If it is not, generally outside of 2 [[element:electro]] teams, this weapon ranks under **[[weapon:aquila-favonia]]**."
+                        "en": "The ranking assumes the passive is active every other rotation. If it is not, generally outside of 2 [[element:electro]] teams, this weapon ranks under **[[weapon:aquila-favonia]]**.",
+                        "fr": "Le classement suppose que le passif est actif une rotation sur deux. Si ce n'est pas le cas, généralement dans les équipes qui n'ont pas 2 personnages [[element:electro]], cette arme se classe en dessous de **[[weapon:aquila-favonia]]**.",
+                        "it": "La posizione in classifica presuppone che la passiva sia attiva ogni due rotazioni. In caso contrario (solitamente se il team non ha 2 personaggi [[element:electro]]), quest'arma ha prestazioni peggiori di **[[weapon:aquila-favonia]]**.",
+                        "ru": "Предполагается, что эффект Пассивной способности действует каждую вторую ротацию. Если это условие не выполняется (обычно в отрядах без 2 [[element:electro]] персонажей), уступает **[[weapon:aquila-favonia|Мечу Сокола]]**."
                     }
                 },
                 "light-of-foliar-incision",
@@ -81,7 +90,10 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "Do note that the [[stat:cr]] from the passive does not apply to [[element:stellar-glimmer]] DMG."
+                        "en": "Do note that the [[stat:cr]] from the passive does not apply to [[element:stellar-glimmer]] DMG.",
+                        "fr": "A noter que le [[stat:cr]] offert par le passif de l'arme ne fonctionne pas pour les dégâts de [[element:stellar-glimmer]].",
+                        "it": "Si noti che il [[stat:cr]] dalla passiva non è applicato ai danni da [[element:stellar-glimmer]].",
+                        "ru": "Следует отметить, что [[stat:cr]] от Пассивной способности не распространяется на урон [[element:stellar-glimmer|реакций Звёздного блеска]]."
                     }
                 }
             ]
