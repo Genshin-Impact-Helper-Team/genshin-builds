@@ -107,8 +107,8 @@
                     "name": "emberwell",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes both halves of the passive are active, in which case this weapon performs equivalently to **[[weapon:finale-of-the-deep]]** with the [[ability:bol]] not cleared. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
-                        "fr": "Le classement suppose que les deux moitiés du passif sont actives, auquel cas cette arme équivaut à **[[weapon:finale-of-the-deep]]** avec un [[ability:bol]] qui n'est pas retiré. Si vous ne pouvez pas déclencher de réactions avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options."
+                        "en": "With its passive active, this weapon performs equivalently to **[[weapon:finale-of-the-deep]]** with the [[ability:bol]] not cleared. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
+                        "fr": "Si le passif est actif, cette arme équivaut à **[[weapon:finale-of-the-deep]]** avec un [[ability:bol]] qui n'est pas retiré. Si vous ne pouvez pas déclencher de réactions avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options."
                     }
                 }
             ]
