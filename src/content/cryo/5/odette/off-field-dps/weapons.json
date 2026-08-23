@@ -5,7 +5,20 @@
                 {
                     "name": "whitelake-frostfeather",
                     "note": {
-                        "en": "Assumes max stacks, energy refund part of passive is generally wasted."
+                        "en": "Assumes max stacks. The energy refund part of passive is generally wasted.",
+                        "fr": "Suppose le nombre maximum de cumuls. La partie récupération d'énergie du passig est généralement inutile.",
+                        "it": "La posizione in classifica presuppone accumuli massimi. La parte relativa al rimborso di Energia della passiva è generalmente sprecata.",
+                        "ru": "Предполагается максимальный уровень Пассивной способнеости. Возврат энергии обычно уходит впустую."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "primordial-jade-cutter",
+                    "note": {
+                        "en": "Ranking assumes weapon is not overcapped on [[stat:cr]]. This weapon can perform worse if used with a [[stat:cr]] providing artifact set."
                     }
                 }
             ]
@@ -13,64 +26,58 @@
         {
             "items": [
                 "azurelight",
-                {
-                    "name": "primordial-jade-cutter",
-                    "note": {
-                        "en": "Ranking assumes you can manage to not overcap on [[stat:cr]] when being used with artifact sets that provide additional  [[stat:cr]], this weapon can perform better when no exterior  [[stat:cr]] buff is provided."
-                    }
-                },
                 "absolution"
             ]
         },
         {
             "items": [
-                "uraku-misugiri",
-                "light-of-foliar-incision",
-                "mistsplitter-reforged"
-            ]
-        },
-        {
-            "items": [
-                "haran-geppaku-futsu",
-                "lightbearing-moonshard",
-                "splendor-of-tranquil-waters",
-                {
-                    "name": "exaiphanes-blade",
-                    "note": {
-                        "en": "You would generally rather use this on the [[character:traveler]], would only be a consideration if it is not being occupied."
-                    }
-                },
-                "athame-artis"
-            ]
-        },
-        {
-            "items": [
+                "mistsplitter-reforged",
                 {
                     "name": "summit-shaper",
                     "note": {
-                        "en": "Ranking assumes [[character:odette]] is unshielded."
+                        "en": "Ranking assumes [[character:odette]] is unshielded.",
+                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier.",
+                        "it": "La posizione in classifica presuppone che [[character:odette]] **non** sia sotto la protezione di uno scudo.",
+                        "ru": "Предполагается отсутствие щита."
                     }
                 },
+                "haran-geppaku-futsu",
                 {
-                    "name": "finale-of-the-deep",
-                    "refinement": 5,
+                    "name": "freedom-sworn",
                     "note": {
-                        "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs as good as **[[weapon:wolf-fang]] [R1]**."
+                        "en": "The ranking assumes the passive is active every other rotation. If it is not, generally outside of 2 [[element:electro]] teams, this weapon ranks under **[[weapon:aquila-favonia]]**.",
+                        "fr": "Le classement suppose que le passif est actif une rotation sur deux. Si ce n'est pas le cas, généralement dans les équipes qui n'ont pas 2 personnages [[element:electro]], cette arme se classe en dessous de **[[weapon:aquila-favonia]]**.",
+                        "it": "La posizione in classifica presuppone che la passiva sia attiva ogni due rotazioni. In caso contrario (solitamente se il team non ha 2 personaggi [[element:electro]]), quest'arma ha prestazioni peggiori di **[[weapon:aquila-favonia]]**.",
+                        "ru": "Предполагается, что эффект Пассивной способности действует каждую вторую ротацию. Если это условие не выполняется (обычно в отрядах без 2 [[element:electro]] персонажей), уступает **[[weapon:aquila-favonia|Мечу Сокола]]**."
                     }
                 },
+                "light-of-foliar-incision",
+                "athame-artis",
                 {
-                    "name": "emberwell",
-                    "refinement": 5,
+                    "name": "exaiphanes-blade",
                     "note": {
-                        "en": "Ranking assumes both halves of the passive are active. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options."
+                        "en": "[[note:exaiphanes]]."
                     }
                 }
             ]
         },
         {
             "items": [
+                "uraku-misugiri",
+                "lightbearing-moonshard",
+                "splendor-of-tranquil-waters"
+            ]
+        },
+        {
+            "items": [
                 "aquila-favonia",
-                "freedom-sworn"
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes the [[ability:bol]] is not cleared. If the [[ability:bol]] is cleared, this weapon performs notably better, similar to **[[weapon:mistsplitter-reforged]]**."
+                    }
+                }
             ]
         },
         {
@@ -78,7 +85,21 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "Can be uncomfortable to build around with artifact sets that provide additional [[stat:cr]]."
+                        "en": "Do note that the [[stat:cr]] from the passive does not apply to [[element:stellar-glimmer]] DMG.",
+                        "fr": "A noter que le [[stat:cr]] offert par le passif de l'arme ne fonctionne pas pour les dégâts de [[element:stellar-glimmer]].",
+                        "it": "Si noti che il [[stat:cr]] dalla passiva non è applicato ai danni da [[element:stellar-glimmer]].",
+                        "ru": "Следует отметить, что [[stat:cr]] от Пассивной способности не распространяется на урон [[element:stellar-glimmer|реакций Звёздного блеска]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "emberwell",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes both halves of the passive are active, in which case this weapon performs equivalently to **[[weapon:finale-of-the-deep]]** with the [[ability:bol]] not cleared. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options."
                     }
                 }
             ]
