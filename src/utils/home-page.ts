@@ -6,7 +6,11 @@ import {
 } from './character-slugs';
 import { resolveCharacterAssetImage } from './character-assets';
 import { normalizeVersion, readJSONFile, toTitleCase } from './content';
-import { getCharacterBuilds, getContentCharacters } from './content-tree';
+import {
+  getCharacterBuilds,
+  getContentCharacters,
+  PRE_AR_45_ROUTE_SEGMENT,
+} from './content-tree';
 import { getLocale } from './i18n';
 import { TranslationHelper } from './translator';
 
@@ -108,12 +112,16 @@ export function getHomePageData(lang = 'en') {
         translator,
         lastUpdated,
       );
+      const hasPreAr45Build =
+        getCharacterBuilds(characterPath, PRE_AR_45_ROUTE_SEGMENT).length > 0;
       const buildLastUpdatedValues = builds
         .map((build) => build.lastUpdated)
         .filter(Boolean);
       const effectiveLastUpdatedValues =
         buildLastUpdatedValues.length > 0
           ? buildLastUpdatedValues
+          : hasPreAr45Build
+            ? []
           : [lastUpdated].filter(Boolean);
       const distinctBuildLastUpdatedValues = new Set(
         effectiveLastUpdatedValues,
