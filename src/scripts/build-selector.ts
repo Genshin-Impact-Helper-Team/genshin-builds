@@ -10,18 +10,23 @@ const calculationPanels = Array.from(
 const buildsLayout = document.querySelector<HTMLElement>(
   '.character-builds-layout',
 );
+const lastUpdatedValue = document.querySelector<HTMLElement>(
+  '[data-last-updated-value]',
+);
 
 const availableBuildIds = new Set(
-  panels
-    .map((panel) => panel.dataset.id)
+  buildButtons
+    .filter((button) => !button.disabled)
+    .map((button) => button.dataset.id)
     .filter((id): id is string => Boolean(id)),
 );
 
 const layoutDefaultBuild = buildsLayout?.dataset.defaultBuild;
+const firstAvailableBuild = availableBuildIds.values().next().value ?? null;
 const defaultBuild =
   layoutDefaultBuild && availableBuildIds.has(layoutDefaultBuild)
     ? layoutDefaultBuild
-    : panels[0]?.dataset.id;
+    : firstAvailableBuild;
 
 function getBuildUrl(targetId: string) {
   const url = new URL(window.location.href);
@@ -73,6 +78,18 @@ function selectBuild(targetId: string | null, updateUrl = true) {
     panel.hidden = !isActive;
     panel.setAttribute('aria-hidden', String(!isActive));
   });
+
+  if (lastUpdatedValue) {
+    const activeButton = buildButtons.find(
+      (button) => button.dataset.id === activeId,
+    );
+    const versionLabel = lastUpdatedValue.dataset.versionLabel ?? '';
+    const lastUpdated = activeButton?.dataset.lastUpdated ?? '';
+
+    lastUpdatedValue.textContent = [versionLabel, lastUpdated]
+      .filter(Boolean)
+      .join(' ');
+  }
 
   if (updateUrl) {
     window.history.pushState({}, '', getBuildUrl(activeId));

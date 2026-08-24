@@ -167,6 +167,10 @@ export function rankBuilds(builds, currentVersion) {
   const scored = rankableBuilds.map((build) => {
     const characterPriority = titleKey(build.characterPriority ?? 'normal');
     const characterScore = CHARACTER_PRIORITY_SCORES.get(characterPriority);
+    const versionCompare = compareGameVersions(
+      build.lastUpdated,
+      currentVersion,
+    );
 
     if (characterScore === undefined) {
       throw new Error(
@@ -177,8 +181,11 @@ export function rankBuilds(builds, currentVersion) {
     return {
       ...build,
       characterScore,
-      isCurrentVersion:
-        compareGameVersions(build.lastUpdated, currentVersion) === 0,
+      needsLastUpdatedOnlyUpdate:
+        versionCompare < 0 &&
+        build.weaponCount === 0 &&
+        build.artifactSetCount === 0,
+      isCurrentVersion: versionCompare === 0,
       age: Math.max(
         0,
         currentVersionIndex -
@@ -186,13 +193,20 @@ export function rankBuilds(builds, currentVersion) {
       ),
     };
   });
+  const lastUpdatedOnlyBuilds = scored
+    .filter((build) => build.needsLastUpdatedOnlyUpdate)
+    .sort((left, right) => left.title.localeCompare(right.title))
+    .map((build) => ({ ...build, updatePriority: 0 }));
+  const buildsNeedingReview = scored.filter(
+    (build) => !build.needsLastUpdatedOnlyUpdate,
+  );
   const maximum = (property) =>
-    Math.max(1, ...scored.map((build) => build[property]));
+    Math.max(1, ...buildsNeedingReview.map((build) => build[property]));
   const maxAge = maximum('age');
   const maxWeapons = maximum('weaponCount');
   const maxArtifactSets = maximum('artifactSetCount');
 
-  const rankedBuilds = scored
+  const rankedBuilds = buildsNeedingReview
     .map((build) => ({
       ...build,
       score:
@@ -213,22 +227,7 @@ export function rankBuilds(builds, currentVersion) {
       updatePriority: index + (wipBuilds.length > 0 ? 2 : 1),
     }));
 
-  return [...wipBuilds, ...rankedBuilds];
-}
-
-export function shouldCreateCharacterUpdateIssue(
-  character,
-  currentVersion,
-  buildCounts,
-) {
-  return (
-    !isWipLastUpdated(character.lastUpdated) &&
-    compareGameVersions(character.lastUpdated, currentVersion) < 0 &&
-    buildCounts.length > 0 &&
-    buildCounts.every(
-      (count) => count.weaponCount === 0 && count.artifactSetCount === 0,
-    )
-  );
+  return [...lastUpdatedOnlyBuilds, ...wipBuilds, ...rankedBuilds];
 }
 
 function collectKnownIds(value, knownIds, result = new Set()) {
@@ -463,6 +462,15 @@ export function addReleaseAudits(inventory, catalog) {
     const characterPath = path.resolve(character.sourcePath);
 
     for (const build of character.builds) {
+      const isBuildWip = isWipLastUpdated(build.lastUpdated);
+
+      if (!isBuildWip) {
+        parseGameVersion(
+          build.lastUpdated,
+          `${build.lastUpdatedSourcePath} last_updated`,
+        );
+      }
+
       const buildPath = path.resolve(build.sourcePath);
       const weaponDocument = loadEffectiveBuildDocument(
         characterPath,
@@ -481,25 +489,25 @@ export function addReleaseAudits(inventory, catalog) {
       );
 
       build.releaseAudit = {
-        lastUpdated: character.lastUpdated,
+        lastUpdated: build.lastUpdated,
         weaponType: character.weaponType,
         wipNotes: build.wipNotes,
         weapons: sortReleaseItems(
-          isWip
+          isBuildWip
             ? []
             : weaponCatalog.filter(
                 (item) =>
-                  compareGameVersions(item.version, character.lastUpdated) >
-                    0 && !mentionedWeapons.has(item.id),
+                  compareGameVersions(item.version, build.lastUpdated) > 0 &&
+                  !mentionedWeapons.has(item.id),
               ),
         ),
         artifactSets: sortReleaseItems(
-          isWip
+          isBuildWip
             ? []
             : catalog.artifactSets.filter(
                 (item) =>
-                  compareGameVersions(item.version, character.lastUpdated) >
-                    0 && !mentionedArtifactSets.has(item.id),
+                  compareGameVersions(item.version, build.lastUpdated) > 0 &&
+                  !mentionedArtifactSets.has(item.id),
               ),
         ),
       };
@@ -637,15 +645,6 @@ export function renderReleaseAudit(audit) {
   ].join('\n');
 }
 
-function characterUpdateIssueBody(marker, character, currentVersion) {
-  return [
-    marker,
-    `All builds for \`${character.name}\` have 0 unchecked weapons and artifact sets.`,
-    '',
-    `Update \`${character.sourcePath}/metadata.json\` from \`${character.lastUpdated}\` to \`${currentVersion}\`.`,
-  ].join('\n');
-}
-
 export function buildIssueBody(currentBody, buildMarker, audit) {
   let body = String(currentBody ?? '')
     .replaceAll('\r\n', '\n')
@@ -744,10 +743,20 @@ export function loadBuildInventory(contentDirectory) {
             const buildNotes = fs.existsSync(buildNotesPath)
               ? readJsonFile(buildNotesPath)
               : {};
+            const hasBuildLastUpdated =
+              typeof buildNotes.last_updated === 'string' &&
+              buildNotes.last_updated.trim().length > 0;
+            const buildLastUpdated = hasBuildLastUpdated
+              ? buildNotes.last_updated
+              : metadata.last_updated;
 
             return {
               name: entry.name,
               sourcePath: `${sourcePath}/${entry.name}`,
+              lastUpdated: buildLastUpdated,
+              lastUpdatedSourcePath: hasBuildLastUpdated
+                ? `${sourcePath}/${entry.name}/build-notes.json`
+                : `${sourcePath}/metadata.json`,
               bestRole: buildNotes.best === true,
               wipNotes: extractWipNotes(buildNotes),
             };
@@ -1975,7 +1984,6 @@ export async function synchronize({
       : [];
     const subIssuesByTitle = groupIssuesByTitle(subIssues);
     const parentSubIssueIds = new Set(subIssues.map((issue) => issue.id));
-    const characterBuildCounts = [];
 
     for (const build of character.builds) {
       const desiredTitle = `${character.name} - ${build.name}`;
@@ -2057,7 +2065,7 @@ export async function synchronize({
         item,
         lastUpdatedField,
         'lastUpdatedValue',
-        character.lastUpdated,
+        build.lastUpdated,
       );
       await ensureWipNotesValue(buildIssue, item, wipNotesStatus(releaseAudit));
       await ensureNumberFieldValue(
@@ -2076,10 +2084,6 @@ export async function synchronize({
       );
       await ensureBestRoleValue(buildIssue, item, build.bestRole);
       const characterPriority = item.characterPriorityValue?.name ?? 'normal';
-      characterBuildCounts.push({
-        weaponCount: releaseAudit.weapons.length,
-        artifactSetCount: releaseAudit.artifactSets.length,
-      });
 
       if (!item.characterPriorityValue?.name) {
         console.warn(
@@ -2093,7 +2097,7 @@ export async function synchronize({
         title: desiredTitle,
         characterPriority,
         bestRole: build.bestRole,
-        lastUpdated: character.lastUpdated,
+        lastUpdated: build.lastUpdated,
         weaponCount: releaseAudit.weapons.length,
         artifactSetCount: releaseAudit.artifactSets.length,
       });
@@ -2101,107 +2105,18 @@ export async function synchronize({
 
     const characterUpdateMarkerIssue =
       issuesByMarker.get(characterUpdateMarker) ?? null;
-    const characterUpdateTitleIssue = chooseIssue(
-      (issuesByTitle.get(titleKey(characterUpdateTitle)) ?? []).filter(
+    const characterUpdateIssues = [
+      characterUpdateMarkerIssue,
+      ...(issuesByTitle.get(titleKey(characterUpdateTitle)) ?? []).filter(
         (issue) => hasIssueLabel(issue, labelName),
       ),
-      `managed character update title "${characterUpdateTitle}"`,
-    );
-    let characterUpdateIssue =
-      characterUpdateMarkerIssue ?? characterUpdateTitleIssue;
+    ];
 
-    for (const duplicate of uniqueOtherIssues(characterUpdateIssue, [
-      characterUpdateMarkerIssue,
-      characterUpdateTitleIssue,
-    ])) {
-      await deleteManagedIssue(duplicate);
-    }
-
-    if (
-      shouldCreateCharacterUpdateIssue(
-        character,
-        currentVersion,
-        characterBuildCounts,
-      )
-    ) {
-      const desiredBody = characterUpdateIssueBody(
-        characterUpdateMarker,
-        character,
-        currentVersion,
-      );
-
-      if (!characterUpdateIssue) {
-        if (dryRun) {
-          console.log(
-            `[dry-run] Create character update issue "${characterUpdateTitle}" with label "${labelName}" and rank 0.`,
-          );
-          stats.plannedChanges += 1;
-          characterUpdateIssue = {
-            id: `dry-run:${character.sourcePath}:character-update`,
-            node_id: `dry-run:${character.sourcePath}:character-update`,
-            number: 'new',
-            title: characterUpdateTitle,
-            body: desiredBody,
-            labels: [{ name: labelName }],
-          };
-        } else {
-          characterUpdateIssue = await createIssue(
-            client,
-            repository,
-            characterUpdateTitle,
-            desiredBody,
-            labelName,
-          );
-          repositoryIssues.push(characterUpdateIssue);
-          issuesByTitle.set(titleKey(characterUpdateTitle), [
-            characterUpdateIssue,
-          ]);
-          issuesByMarker.set(characterUpdateMarker, characterUpdateIssue);
-          stats.issuesCreated += 1;
-          stats.labelsAdded += 1;
-          console.log(
-            `Created character update issue ${issueLabel(characterUpdateIssue)}.`,
-          );
-        }
-      }
-
-      await ensureIssueDetails(
-        characterUpdateIssue,
-        characterUpdateTitle,
-        desiredBody,
-        ' body',
-      );
-      await ensureIssueLabel(characterUpdateIssue);
-      const item = await ensureProjectItem(characterUpdateIssue);
-      await ensureTextFieldValue(
-        characterUpdateIssue,
-        item,
-        lastUpdatedField,
-        'lastUpdatedValue',
-        character.lastUpdated,
-      );
-      await ensureNumberFieldValue(
-        characterUpdateIssue,
-        item,
-        weaponCountField,
-        'weaponCountValue',
-        0,
-      );
-      await ensureNumberFieldValue(
-        characterUpdateIssue,
-        item,
-        artifactSetCountField,
-        'artifactSetCountValue',
-        0,
-      );
-      await ensureNumberFieldValue(
-        characterUpdateIssue,
-        item,
-        updatePriorityField,
-        'updatePriorityValue',
-        0,
-      );
-    } else if (characterUpdateIssue) {
+    for (const characterUpdateIssue of new Map(
+      characterUpdateIssues
+        .filter(Boolean)
+        .map((issue) => [issueNodeId(issue), issue]),
+    ).values()) {
       await deleteManagedIssue(characterUpdateIssue);
     }
 

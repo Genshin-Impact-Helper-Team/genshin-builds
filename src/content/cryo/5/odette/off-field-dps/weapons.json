@@ -1,4 +1,10 @@
 {
+    "notes": [
+        {
+            "en": "Ranking assumes a balance between a damage oriented scenario and a more supportive one.",
+            "fr": "Le classement a été rédigé en faisant la moyenne entre un scénario orienté dégâts, et un scénario orienté support."
+        }
+    ],
     "weapons": [
         {
             "items": [
@@ -15,32 +21,31 @@
         },
         {
             "items": [
-                "azurelight",
                 {
                     "name": "primordial-jade-cutter",
                     "note": {
-                        "en": "Ranking assumes you can manage to not overcap on [[stat:cr]] when being used with artifact sets that provide additional [[stat:cr]]. This weapon can perform better when no exterior [[stat:cr]] buff is provided.",
-                        "fr": "Le classement suppose que vous arrivez à ne pas avoir trop de [[stat:cr]] lorsque cette arme est utilisée avec un set qui donne du [[stat:cr]] supplémentaire. Elle peut mieux performer lorsqu'aucun buff externe de [[stat:cr]] n'est présent.",
-                        "it": "La posizione in classifica presuppone che la tua build non incorra in eccesso di [[stat:cr]] quando è utilizzata con set che forniscono [[stat:cr]] addizionale. Quest'arma può avere prestazioni migliori quando non sono presenti potenziamenti esterni di [[stat:cr]].",
-                        "ru": "Предполагается, что вы можете избежать оверкапа [[stat:cr|Шанса крит. попадания]], особенно с наборами артефактов, которые тоже повышают [[stat:cr]]. Без внешних бонусов [[stat:cr|Шанса крит. попадания]] работает эффективнее."
+                        "en": "Ranking assumes weapon is not overcapped on [[stat:cr]]. This weapon can perform worse if used with a [[stat:cr]] providing artifact set.",
+                        "fr": "Suppose que vous n'avez pas trop de [[stat:cr]]. Cette arme peut devenir moins bonne si jouée avec un set d'artéfact offrant du [[stat:cr]]."
                     }
-                },
+                }
+            ]
+        },
+        {
+            "items": [
+                "azurelight",
                 "absolution"
             ]
         },
         {
             "items": [
                 "mistsplitter-reforged",
-                "light-of-foliar-incision",
-                "uraku-misugiri",
                 {
-                    "name": "finale-of-the-deep",
-                    "refinement": 5,
+                    "name": "summit-shaper",
                     "note": {
-                        "en": "Ranking assumes the [[ability:bol]] has been cleared. If the [[ability:bol]] is not cleared, this weapon performs similarly to **[[weapon:aquila-favonia]]**.",
-                        "fr": "Le classement suppose que l'[[ability:bol]] est retiré. Si ce n'est pas le cas, cette arme équivaut à **[[weapon:aquila-favonia]]**.",
-                        "it": "La posizione in classifica presuppone che Odette riceva abbastanza cure da eliminare il **[[ability:bol]]**. In caso contrario, quest'arma ha prestazioni simili a **[[weapon:aquila-favonia]]**.",
-                        "ru": "Предполагается, что [[ability:bol]] снят. Если [[ability:bol]] не снимается, данное оружие соответствует **[[weapon:aquila-favonia]]**."
+                        "en": "Ranking assumes [[character:odette]] is unshielded.",
+                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier.",
+                        "it": "La posizione in classifica presuppone che [[character:odette]] **non** sia sotto la protezione di uno scudo.",
+                        "ru": "Предполагается отсутствие щита."
                     }
                 },
                 "haran-geppaku-futsu",
@@ -52,48 +57,35 @@
                         "it": "La posizione in classifica presuppone che la passiva sia attiva ogni due rotazioni. In caso contrario (solitamente se il team non ha 2 personaggi [[element:electro]]), quest'arma ha prestazioni peggiori di **[[weapon:aquila-favonia]]**.",
                         "ru": "Предполагается, что эффект Пассивной способности действует каждую вторую ротацию. Если это условие не выполняется (обычно в отрядах без 2 [[element:electro]] персонажей), уступает **[[weapon:aquila-favonia|Мечу Сокола]]**."
                     }
-                }
-            ]
-        },
-        {
-            "items": [
-                "lightbearing-moonshard",
-                "splendor-of-tranquil-waters",
-                {
-                    "name": "summit-shaper",
-                    "note": {
-                        "en": "Ranking assumes [[character:odette]] is unshielded.",
-                        "fr": "Le classement suppose qu'[[character:odette]] n'a pas de bouclier.",
-                        "it": "La posizione in classifica presuppone che [[character:odette]] **non** sia sotto la protezione di uno scudo.",
-                        "ru": "Предполагается отсутствие щита."
-                    }
                 },
+                "light-of-foliar-incision",
+                "athame-artis",
                 {
                     "name": "exaiphanes-blade",
                     "note": {
                         "en": "[[note:exaiphanes]]."
                     }
-                },
-                "athame-artis"
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "emberwell",
-                    "refinement": 5,
-                    "note": {
-                        "en": "Ranking assumes both halves of the passive are active. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
-                        "fr": "Le classement suppose que les deux parties du passif sont actives. Si vous ne pouvez pas déclencher de réaction avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options.",
-                        "it": "La posizione in classifica presuppone che entrambe le metà della passiva siano attive. Se [[character:odette]] non innesca reazioni, quest'arma è considerevolmente peggiore della maggior parte delle altre opzioni.",
-                        "ru": "Предполагается, что обе части эффекта Пассивной способности активны. Если [[character:odette]] не закрывает реакции, данный вариант значительно уступает остальным."
-                    }
                 }
             ]
         },
         {
             "items": [
-                "aquila-favonia"
+                "uraku-misugiri",
+                "lightbearing-moonshard",
+                "splendor-of-tranquil-waters"
+            ]
+        },
+        {
+            "items": [
+                "aquila-favonia",
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes the [[ability:bol]] is **not** cleared. If the [[ability:bol]] is cleared, this weapon performs notably better, similar to **[[weapon:mistsplitter-reforged]]**.",
+                        "fr": "Le classement suppose que l'[[ability:bol]] n'est **pas** retiré. Dans le cas contraire, cette arme performe beaucoup mieux, de façon similaire à **[[weapon:mistsplitter-reforged]]**."
+                    }
+                }
             ]
         },
         {
@@ -105,6 +97,18 @@
                         "fr": "A noter que le [[stat:cr]] offert par le passif de l'arme ne fonctionne pas pour les dégâts de [[element:stellar-glimmer]].",
                         "it": "Si noti che il [[stat:cr]] dalla passiva non è applicato ai danni da [[element:stellar-glimmer]].",
                         "ru": "Следует отметить, что [[stat:cr]] от Пассивной способности не распространяется на урон [[element:stellar-glimmer|реакций Звёздного блеска]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "emberwell",
+                    "refinement": 5,
+                    "note": {
+                        "en": "With its passive active, this weapon performs equivalently to **[[weapon:finale-of-the-deep]]** with the [[ability:bol]] not cleared. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
+                        "fr": "Si le passif est actif, cette arme équivaut à **[[weapon:finale-of-the-deep]]** avec un [[ability:bol]] qui n'est pas retiré. Si vous ne pouvez pas déclencher de réactions avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options."
                     }
                 }
             ]

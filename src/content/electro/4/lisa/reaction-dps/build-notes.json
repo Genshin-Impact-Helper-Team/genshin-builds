@@ -5,6 +5,7 @@
         "it": "DPS da Reazione",
         "ru": "МС-билд"
     },
+    "last_updated": "6.7 / Luna VIII",
     "notes": [
         {
             "en": "This build aims to be the **consistent trigger for reactions**, most notably **[[element:hyperbloom]]** or **[[element:overload]]**. These reactions are **primarily triggered by her [[ability:burst]]**, which is why it's important to **make sure its uptime is as high as possible**. Avoid having a second [[element:electro]] in the [[element:overload]] team for this build since this could mess up the [[element:pyro]] aura [[character:lisa]] wants for this playstyle.",

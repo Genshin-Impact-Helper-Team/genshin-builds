@@ -17,12 +17,8 @@ export const getStaticPaths = getLanguageStaticPaths;
 const requestedLang = Array.isArray(Astro.params.lang)
   ? Astro.params.lang[0]
   : Astro.params.lang;
-const {
-  characters,
-  lang,
-  locale,
-  recentlyUpdatedCharacters,
-} = getHomePageData(requestedLang ?? 'en');
+const { characters, lang, latestVersion, locale, recentlyUpdatedCharacters } =
+  getHomePageData(requestedLang ?? 'en');
 const latestChangelogEntry = changelog.groups[0]?.entries?.[0];
 const lastUpdatedLabel =
   t(locale, 'ui', 'Last Updated', undefined, false) || 'Last Updated';
@@ -68,6 +64,7 @@ const latestChangelogLabel = latestChangelogEntry
         )
       }
       <HomeFilters
+        latestVersion={latestVersion}
         locale={locale}
         recentlyUpdatedCount={recentlyUpdatedCharacters.length}
       />

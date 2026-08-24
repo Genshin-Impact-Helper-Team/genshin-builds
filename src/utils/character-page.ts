@@ -9,6 +9,7 @@ import { resolveCharacterAssetImage } from './character-assets';
 import {
   findCharacterPath,
   loadJSON,
+  normalizeVersion,
   readJSONFile,
   toTitleCase,
 } from './content';
@@ -33,6 +34,7 @@ type CharacterPageDataOptions = {
 type BuildContext = {
   buildPath: string;
   buildName: string;
+  defaultLastUpdated: string;
   weaponType: string;
   lang: string;
   locale: any;
@@ -607,6 +609,7 @@ function buildLocalizedNotes(
 function loadBuildData({
   buildPath,
   buildName,
+  defaultLastUpdated,
   weaponType,
   lang,
   locale,
@@ -762,14 +765,22 @@ function loadBuildData({
     },
   };
 
-  const buildNoteData = loadBuildJSON('build-notes.json');
+  const buildNoteDataInBuild = fs.existsSync(buildNotesFile)
+    ? readJSONFile(buildNotesFile)
+    : null;
+  const buildNoteData =
+    buildNoteDataInBuild ?? loadBuildJSON('build-notes.json');
   const rawBuildName =
     buildNoteData?.name?.[lang] ?? buildNoteData?.name?.en ?? buildName;
+  const lastUpdated =
+    normalizeVersion(buildNoteDataInBuild?.last_updated) || defaultLastUpdated;
 
   // Build cards only deal with display-ready data and pre-rendered note HTML.
   return {
     name: translator.translateNoteText(rawBuildName, buildNotesFile),
     isBest: buildNoteData?.best === true,
+    isWip: lastUpdated.toUpperCase() === 'WIP',
+    lastUpdated,
     slug: buildName,
     weapons,
     artifacts,
@@ -837,6 +848,7 @@ export function getCharacterPageData({
   );
 
   const metadata = loadJSON(foundPath.path, 'metadata.json');
+  const defaultLastUpdated = normalizeVersion(metadata.last_updated);
   const assetContext = {
     element: foundPath.element,
     rarity: foundPath.rarity,
@@ -848,6 +860,26 @@ export function getCharacterPageData({
     image: resolveCharacterAssetImage(assetContext, 'image'),
     portrait: resolveCharacterAssetImage(assetContext, 'portrait'),
   };
+  const builds = buildFolders.map((build) =>
+    loadBuildData({
+      buildPath: build.path,
+      buildName: build.name,
+      defaultLastUpdated,
+      weaponType: metadata.weapon,
+      lang: currentLang,
+      locale,
+      translator,
+      artifactSetData,
+    }),
+  );
+
+  if (
+    builds.length > 0
+      ? builds.every((build) => build.isWip)
+      : defaultLastUpdated.toUpperCase() === 'WIP'
+  ) {
+    throw new Error('Character not found');
+  }
 
   return {
     characterSlug,
@@ -865,17 +897,7 @@ export function getCharacterPageData({
     element: foundPath.element,
     lang: currentLang,
     locale,
-    builds: buildFolders.map((build) =>
-      loadBuildData({
-        buildPath: build.path,
-        buildName: build.name,
-        weaponType: metadata.weapon,
-        lang: currentLang,
-        locale,
-        translator,
-        artifactSetData,
-      }),
-    ),
+    builds,
     warnings: translator.getWarnings(),
   };
 }

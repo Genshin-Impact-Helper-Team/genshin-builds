@@ -30,6 +30,12 @@ const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
 const characterHeaderImage = metadata?.portrait ?? metadata?.image;
 const buildLabel = t(locale, 'ui', 'Builds', undefined, false);
 const bestRoleLabel = t(locale, 'ui', 'Best Role');
+const versionLabel = t(locale, 'ui', 'Version');
+const defaultBuild =
+  builds.find(
+    (build: any) => build.slug === defaultBuildSlug && !build.isWip,
+  ) ?? builds.find((build: any) => !build.isWip);
+const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
 const normalModeHref = localizedPath(lang, characterSlug);
 const preAr45ModeHref = localizedPath(
   lang,
@@ -82,11 +88,14 @@ const preAr45ModeHref = localizedPath(
 
             <div class="character-header-meta">
               {
-                metadata?.last_updated && (
+                activeLastUpdated && (
                   <div class="last-updated">
                     <span>{t(locale, 'ui', 'Last Updated')}</span>
-                    <strong>
-                      {t(locale, 'ui', 'Version')} {metadata.last_updated}
+                    <strong
+                      data-last-updated-value
+                      data-version-label={versionLabel}
+                    >
+                      {versionLabel} {activeLastUpdated}
                     </strong>
                   </div>
                 )
@@ -108,25 +117,34 @@ const preAr45ModeHref = localizedPath(
           {
             builds.length > 0 && (
               <nav class="build-switcher" aria-label={buildLabel}>
-                {builds.map((build: any, index: number) => {
+                {builds.map((build: any) => {
                   const isDefaultBuild =
-                    build.slug === defaultBuildSlug ||
-                    (!defaultBuildSlug && index === 0);
+                    build.slug === defaultBuildSlug && !build.isWip;
 
                   return (
                     <button
                       id={`build-tab-${build.slug}`}
-                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
+                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}${build.isWip ? ' is-wip' : ''}`}
                       type="button"
                       data-build-tab
                       data-id={build.slug}
+                      data-last-updated={build.lastUpdated}
+                      disabled={build.isWip}
+                      aria-disabled={build.isWip ? 'true' : undefined}
                       aria-controls={`build-content-${build.slug}`}
                       aria-pressed={isDefaultBuild ? 'true' : 'false'}
                     >
                       <span class="build-switcher-name">{build.name}</span>
-                      {build.isBest && (
-                        <span class="build-badge">{bestRoleLabel}</span>
-                      )}
+                      <span class="build-switcher-tags">
+                        {build.lastUpdated && (
+                          <span class="build-version-badge">
+                            {build.lastUpdated}
+                          </span>
+                        )}
+                        {build.isBest && (
+                          <span class="build-badge">{bestRoleLabel}</span>
+                        )}
+                      </span>
                     </button>
                   );
                 })}
@@ -140,7 +158,8 @@ const preAr45ModeHref = localizedPath(
                 {builds
                   .filter((build: any) => build.hasCalculations)
                   .map((build: any) => {
-                    const isDefaultBuild = build.slug === defaultBuildSlug;
+                    const isDefaultBuild =
+                      build.slug === defaultBuildSlug && !build.isWip;
 
                     return (
                       <div

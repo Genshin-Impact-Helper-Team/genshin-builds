@@ -2,7 +2,12 @@
     "main_stats": {
         "sands": [
             "atk%",
-            "er"
+            {
+                "name": "er",
+                "note": {
+                    "en": "[[note:er-req]]."
+                }
+            }
         ],
         "goblet": [
             "electro-dmg"

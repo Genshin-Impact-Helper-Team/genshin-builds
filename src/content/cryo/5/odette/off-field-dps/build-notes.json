@@ -1,6 +1,7 @@
 {
     "name": {
         "en": "Off-field DPS",
+        "fr": "DPS Off-field",
         "ru": "Карманный ДД"
     },
     "best": true,
@@ -21,7 +22,13 @@
     "weapons": [
         {
             "author": "Speify",
-            "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920"
+            "link": "https://docs.google.com/spreadsheets/d/1y3gOcZIyvJqt1iculdoLRvWZxwOZFZ76oAsPUvsSkSY/edit?gid=848665920#gid=848665920",
+            "detail": "Damage Scenario"
+        },
+        {
+            "author": "not.logic",
+            "link": "https://docs.google.com/spreadsheets/d/1rrBrFDRaFqnTv1--NhDWxwvF_Op0HzC-fblLCmGSiwo/edit?usp=sharing",
+            "detail": "Support Scenario"
         }
     ],
     "artifacts": [

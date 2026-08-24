@@ -1,0 +1,13 @@
+{
+    "substats_priority": [
+        "cr/cd",
+        "em",
+        {
+            "name": "er",
+            "note": {
+                "en": "Can be ignored, and you can choose to [[ability:burst]] every other rotation",
+                "fr": "Peut être ignorée, et vous pouvez choisir de n'[[ability:burst]] qu'une rotation sur deux."
+            }
+        }
+    ]
+}

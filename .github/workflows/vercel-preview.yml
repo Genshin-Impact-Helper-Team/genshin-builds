@@ -7,10 +7,12 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 env:
-  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
 
 jobs:
   deploy-preview:
@@ -28,11 +30,69 @@ jobs:
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
 
+      - name: Check Vercel configuration
+        run: |
+          test -n "$VERCEL_ORG_ID" || { echo "VERCEL_ORG_ID is missing. Add it under GitHub Actions Variables."; exit 1; }
+          test -n "$VERCEL_PROJECT_ID" || { echo "VERCEL_PROJECT_ID is missing. Add it under GitHub Actions Variables."; exit 1; }
+          test -n "$VERCEL_TOKEN" || { echo "VERCEL_TOKEN is missing. Add it under GitHub Actions Secrets."; exit 1; }
+
       - name: Pull Vercel environment
-        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel pull --yes --environment=preview --git-branch="$GITHUB_HEAD_REF" --token="$VERCEL_TOKEN"
 
       - name: Build
-        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel build --token="$VERCEL_TOKEN"
 
       - name: Deploy preview
-        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+        id: deploy
+        run: |
+          deployment_url="$(vercel deploy --prebuilt --token="$VERCEL_TOKEN" \
+            --meta githubDeployment=1 \
+            --meta "githubCommitOrg=$GITHUB_REPOSITORY_OWNER" \
+            --meta "githubCommitRepo=${GITHUB_REPOSITORY#*/}" \
+            --meta "githubCommitRef=$GITHUB_HEAD_REF" \
+            --meta "githubCommitSha=$GITHUB_SHA" \
+            --meta "githubOrg=$GITHUB_REPOSITORY_OWNER" \
+            --meta "githubRepo=${GITHUB_REPOSITORY#*/}")"
+          echo "url=$deployment_url" >> "$GITHUB_OUTPUT"
+          echo "$deployment_url"
+
+      - name: Comment preview URL
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ steps.deploy.outputs.url }}
+        with:
+          script: |
+            const marker = '<!-- vercel-preview-url -->';
+            const body = [
+              marker,
+              '### Vercel Preview',
+              '',
+              `[Open preview](${process.env.PREVIEW_URL})`,
+            ].join('\n');
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const { data: comments } = await github.rest.issues.listComments({
+              owner,
+              repo,
+              issue_number,
+              per_page: 100,
+            });
+            const existing = comments.find((comment) =>
+              comment.user?.type === 'Bot' && comment.body?.includes(marker),
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body,
+              });
+            }

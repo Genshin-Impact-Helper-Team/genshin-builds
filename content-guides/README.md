@@ -115,20 +115,29 @@ put every displayed file inside the `pre-ar45` folder. Do not add
 ## Recently Updated Home Filter
 
 The home page `Recently updated` filter is generated automatically from content
-data. The site reads `src/content/site/changelog.json`, uses the first two items
-in `groups` as the recent changelog versions, then compares those versions with
-each character metadata file:
+data. The site reads `src/content/site/changelog.json`, uses the first item in
+`groups` as the latest changelog version, then compares that version with each
+build's effective `last_updated` value.
 
 ```txt
 src/content/<element>/<rarity>/<character>/metadata.json
+src/content/<element>/<rarity>/<character>/<build>/build-notes.json
 ```
 
-A character appears in the filter when its `last_updated` value matches either
-of the two latest changelog versions. Extra spaces and spacing around `/` are
-normalized, so `6.6/Luna VII` and `6.6 / Luna VII` match, but contributors
-should still copy the version format from the changelog to avoid mistakes.
+A build uses `metadata.json` `last_updated` by default. If that build's
+`build-notes.json` contains `last_updated`, the build uses the build-level value
+instead. A character appears in the filter when any build matches the latest
+changelog `version`. Extra spaces and spacing around `/` are normalized, so
+`6.6/Luna VII` and `6.6 / Luna VII` match, but contributors should still copy the
+version format from the changelog to avoid mistakes.
 
-If no character matches either recent version, the filter is not shown.
+If a build's effective `last_updated` value is `WIP`, the build stays visible in
+the character page build selector but cannot be selected, as long as the
+character has another available build. If every build resolves to `WIP`, the
+character page is unavailable. `WIP` builds do not match the recently updated
+filter.
+
+If no character matches the latest changelog version, the filter is not shown.
 
 ## Section-Level Notes
 

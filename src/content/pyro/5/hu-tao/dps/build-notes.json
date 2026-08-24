@@ -30,7 +30,7 @@
             "ru": "**{rot:N2CJ}** для **[C0]** и **{rot:N2CD}** для **[C1]**. **{rot:N3CJ/N3CD}** может использоваться для экономии стамины за счёт урона."
         }
     ],
-    "weapons": {
+    "global": {
         "author": "Finnyke",
         "link": "https://drive.google.com/drive/folders/1bF6W20lZm-GxeC9QrAPnygd9oyqFrBra"
     }
