@@ -412,7 +412,7 @@ export class TranslationHelper {
                 [
                     '<button class="weapon-popover-refinement-button" type="button" data-refinement="r',
                     refinement,
-                    '" aria-selected="',
+                    '" aria-pressed="',
                     refinement === 1 ? 'true' : 'false',
                     '">R',
                     refinement,

@@ -673,7 +673,11 @@
 
 .element-bold {
   color: color-mix(in srgb, #fff 30%, var(--element) 70%);
-  font-weight: 850;
+  font-weight: 700;
+}
+
+.element-bold .info-popover-trigger {
+  color: inherit;
 }
 
 .accent-text {

@@ -524,6 +524,33 @@ function collectMainStatNotes(
   );
 }
 
+function formatWeaponNoteName(
+  weapon: { id?: string; info?: any; name: string },
+  sourceFile: string,
+  translator: TranslationHelper,
+) {
+  return weapon.id && weapon.info
+    ? translator.translateNoteText(`[[weapon:${weapon.id}]]`, sourceFile, {
+        weaponPopovers: true,
+      })
+    : weapon.name;
+}
+
+function formatArtifactSetNoteName(
+  artifact: { id?: string; info?: any; name: string; pieces: number },
+  sourceFile: string,
+  translator: TranslationHelper,
+) {
+  const name =
+    artifact.id && artifact.info
+      ? translator.translateNoteText(`[[set:${artifact.id}]]`, sourceFile, {
+          artifactPopovers: true,
+        })
+      : artifact.name;
+
+  return `${name} (${artifact.pieces})`;
+}
+
 /**
  * Localizes and renders build-level editorial notes.
  *
@@ -700,7 +727,8 @@ function loadBuildData({
               ...(weapons.conditional ? [{ items: weapons.conditional }] : []),
             ]
           : [],
-        (weapon: { name: any }) => weapon.name,
+        (weapon: { id?: string; info?: any; name: string }) =>
+          formatWeaponNoteName(weapon, weaponsFile, translator),
         weaponsFile,
         lang,
         translator,
@@ -729,8 +757,8 @@ function loadBuildData({
       ],
       sets: collectNotes(
         artifacts.sets ? getArtifactSetNoteGroups(artifacts.sets) : [],
-        (artifact: { name: any; pieces: any }) =>
-          `${artifact.name} (${artifact.pieces})`,
+        (artifact: { id?: string; info?: any; name: string; pieces: number }) =>
+          formatArtifactSetNoteName(artifact, artifactSetsFile, translator),
         artifactSetsFile,
         lang,
         translator,

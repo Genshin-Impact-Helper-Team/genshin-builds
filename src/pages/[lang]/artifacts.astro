@@ -18,7 +18,7 @@ const lang = Array.isArray(Astro.params.lang)
   : Astro.params.lang;
 const data = getArtifactSetBrowserData(lang ?? 'en');
 const { locale } = data;
-const title = `${t(locale, 'ui', 'Artifacts')} ${t(locale, 'ui', 'Sets')}`;
+const title = t(locale, 'ui', 'Artifacts Sets');
 ---
 
 <html lang={data.lang}>
