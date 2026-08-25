@@ -96,7 +96,8 @@
                 {
                     "name": "heretics-molten-blade",
                     "note": {
-                        "en": "This weapon's performance varies depending on distance traveled. Generally, [[character:odette]]'s [[ability:skill]] will move you enough for the passive to provide a solid effect. The [[stat:atk%]] buffing effect of this weapon will only apply to [[character:odette]]'s enhanced [[ability:skill]]."
+                        "en": "This weapon's performance varies depending on distance traveled. Generally, [[character:odette]]'s [[ability:skill]] will move you enough for the passive to provide a solid effect. The [[stat:atk%]] buffing effect of this weapon will only apply to [[character:odette]]'s enhanced [[ability:skill]].",
+                        "it": "Le prestazioni di quest'arma variano a seconda della distanza percorsa. In genere, l'[[ability:skill]] di [[character:odette]] ti muove abbastanza da consentire all'effetto passivo di avere un impatto significativo. L'effetto del potenziamento all'[[stat:atk%]] di quest'arma si applica solo all'[[ability:skill]] potenziata di [[character:odette]]."
                     }
                 }
             ]
