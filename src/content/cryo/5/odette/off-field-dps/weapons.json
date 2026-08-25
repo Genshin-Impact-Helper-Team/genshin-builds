@@ -91,12 +91,9 @@
         {
             "items": [
                 {
-                    "name": "wolf-fang",
+                    "name": "heretics-molten-blade",
                     "note": {
-                        "en": "Do note that the [[stat:cr]] from the passive does not apply to [[element:stellar-glimmer]] DMG.",
-                        "fr": "A noter que le [[stat:cr]] offert par le passif de l'arme ne fonctionne pas pour les dégâts de [[element:stellar-glimmer]].",
-                        "it": "Si noti che il [[stat:cr]] dalla passiva non è applicato ai danni da [[element:stellar-glimmer]].",
-                        "ru": "Следует отметить, что [[stat:cr]] от Пассивной способности не распространяется на урон [[element:stellar-glimmer|реакций Звёздного блеска]]."
+                        "en": "This weapon's passive varies depending on your position relative to the enemy."
                     }
                 }
             ]
