@@ -9,16 +9,19 @@
         {
             "en": "[[character:aino]] can offer Off-Field [[element:hydro]] application with her [[ability:burst]]. She does not possess a Moon Wheel, and cannot contribute to Lunar-Reactions as the sole member in the team from Nod-Krai. [[character:aino]]'s scalings are pitifully low, thus, her damage investment is not a priority.",
             "fr": "[[character:aino]] offre une application [[element:hydro]] off-field grâce à son [[ability:burst]]. Elle ne possède pas de Disque Lunaire, et ne peux permet donc pas de déclencher des réactions sélène à elle seule. Les scalings d'[[character:aino]] étant particulièrement bas, investir pour ses dégâts personnels n'est pas une priorité.",
+            "it": "[[character:aino]] fornisce **applicazione [[element:hydro]] da fuori campo tramite il suo [[ability:burst]]**. [[character:aino]] non ha un Disco Lunare e dunque non abilita Reazioni Lunari per il team. Inoltre, predilige team in cui sono presenti altri personaggi di Nod-Krai- Le statistiche di Aino sono tristemente scarse, e di conseguenza, investire nei suoi danni personali non è una priorità.",
             "ru": "Айно может накладывать Гилро из кармана своим Взрывом стихии. Важно помнить, что она не может активировать Лунные реакции без других персонажей из Нод-края. За счёт этого и её Пассивного таланта предпочтительно использовать с другими персонажами из Нод-края. Личный урон Айно весьма низок и не является приоритетом."
         },
         {
             "en": "[[character:aino]]'s [C4] gives her 10 Energy upon landing her [[ability:skill]] on an enemy, effectively changing her [[ability:burst]] cost from 50 to 40. This has a cooldown of 10 seconds.",
             "fr": "La [C4] d'[[character:aino]] lui donne 10 énergie lorsque son [[ability:skill]] touche un ennemie, abaissant le coût de son [[ability:burst]] de 50 à 40, avant un TdR de 10 secondes.",
+            "it": "La [C4] di [[character:aino]] le fornisce 10 Energie quando la sua [[ability:skill]] colpisce un nemico, con un Tempo di Ricarica di 10 secondi, concretamente modificando il costo del suo Tripudio da 50 a 40.",
             "ru": "На [C4] Айно дополнительно восстанавливает 10 энергии при попадании Элементального навыка (время отката эффекта - 10 секунд)."
         },
         {
             "en": "[[character:aino]]'s A1 talent allows her [[ability:burst]] to attack more frequently and have a larger AoE DMG if Moonsign: Ascendant Gleam is active. This requires 2 or more Nod-Krai characters in the party. [[character:aino]] herself counts towards this.",
             "fr": "Le passif A1 d'[[character:aino]] permet à son [[ability:burst]] d'attaquer plus fréquemment sur une plus large zone si le Signelune: Lueur Ascendante est actif, ce qui nécessite un deuxième personnage de Nod-Krai dans l'équipe en plus d'[[character:aino]].",
+            "it": "Il talento A1 di [[character:aino]] le permette di utilizzare il [[ability:burst]] per attaccare più frequentemente ed avere un Area d'Effetto (AoE) più grande se è attivo Presagio lunare: Barlume ascendente. Ciò richiede che 2 o più personaggi di Nod Krai siano presenti nel team.",
             "ru": "Первый Пассивный талант Айно увеличивает частоту атак и область поражения её Взрыва стихии, когда активно Лунное знамение - Высшее сияние отряда. Для этого необходимо иметь в отряде двух или более персонажей из Нод-Края, включая Айно."
         }
     ]
