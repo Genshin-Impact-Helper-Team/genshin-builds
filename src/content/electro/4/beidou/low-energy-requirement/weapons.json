@@ -60,6 +60,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs better than **[[weapon:fang-of-the-mountain-king]]**.",
                         "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:fang-of-the-mountain-king]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:fang-of-the-mountain-king]]**.",
                         "ru": "На **[R5]** это оружие превосходит **[[weapon:fang-of-the-mountain-king]]**."
                     }
                 },
@@ -68,6 +69,7 @@
                     "note": {
                         "en": "Assumes that [[element:pyro]]-related passive is inactive. At **[R5]**, it performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]** with full passive active, it performs better than **[[weapon:fang-of-the-mountain-king]]**.",
                         "fr": "Suppose que le passif lié aux réactions [[element:pyro]] est inactif. Une fois **[R5]**, elle performe de manière similaire à **[[weapon:song-of-broken-pines]]**. Une fois **[R5]** avec le passif complet, elle devient meilleure que **[[weapon:fang-of-the-mountain-king]]**.",
+                        "it": "La classifica presuppone che la passiva relativa a [[element:pyro]] **non** sia attiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:song-of-broken-pines]]**. A **[R5]**, con la passiva completamente attiva, ha prestazioni migliori di **[[weapon:fang-of-the-mountain-king]]**.",
                         "ru": "Предполагается, что часть Пассивной способности, активируемая [[element:pyro]], неактивна. На **[R5]** соответствует **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**. На **[R5]** с полностью активной Пассивной способностью превосходит **[[weapon:fang-of-the-mountain-king]]**."
                     }
                 },
@@ -76,6 +78,7 @@
                     "note": {
                         "en": "When [[stat:er]] from this weapon is useful, it can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Quand la [[stat:er]] de cette arme est utile, elle peut devenir similaire à **[[weapon:redhorn-stonethresher]]**.",
+                        "it": "Quando la [[stat:er]] di quest'arma è utile, può avere prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "Если [[stat:er]] полезно, то данное оружие может соответствовать **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**"
                     }
                 },
@@ -83,9 +86,10 @@
                     "name": "ultimate-overlords-mega-magic-sword",
                     "refinement": 5,
                     "note": {
-                        "en": "When [[stat:er]] from this weapon is useful, it can perform better than **[[weapon:tidal-shadow]]**",
-                        "fr": "Quand la [[stat:er]] de cette arme est utile, elle peut devenir meilleure que **[[weapon:tidal-shadow]]**",
-                        "ru": "Если [[stat:er]] полезно, то данное оружие может превосходить **[[weapon:tidal-shadow]]**"
+                        "en": "When [[stat:er]] from this weapon is useful, it can perform better than **[[weapon:tidal-shadow]]**.",
+                        "fr": "Quand la [[stat:er]] de cette arme est utile, elle peut devenir meilleure que **[[weapon:tidal-shadow]]**.",
+                        "it": "Quando la [[stat:er]] di quest'arma è utile, può avere prestazioni simili a **[[weapon:tidal-shadow]]**.",
+                        "ru": "Если [[stat:er]] полезно, то данное оружие может превосходить **[[weapon:tidal-shadow]]**."
                     }
                 }
             ]
@@ -107,6 +111,7 @@
                     "note": {
                         "en": "Assumes 1 stack. At **[R5]**, it performs similarly to **[[weapon:talking-stick]]**. At **[R5]** with 2 stacks, it performs similarly to **[[weapon:tidal-shadow]]**.",
                         "fr": "Suppose 1 cumul du passif. Une fois **[R5]**, elle devient similaire à **[[weapon:talking-stick]]**. Une fois **[R5]** avec 2 cumuls du passif, elle devient similaire à **[[weapon:tidal-shadow]]**.",
+                        "it": "La classifica presuppone 1 accumulo. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:talking-stick]]**. A **[R5]** con 2 accumuli, ha prestazioni simili a **[[weapon:tidal-shadow]]**.",
                         "ru": "Предполагается 1 уровень Пассивной способности. На **[R5]** соответствует **[[weapon:talking-stick|Говорящей палице]]**. На **[R5]** с двумя уровнями соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 },
@@ -115,6 +120,7 @@
                     "note": {
                         "en": "If [[character:beidou]] can trigger [[element:stellar-conduct]], this weapon performs similarly to **[[weapon:song-of-broken-pines]]**.",
                         "fr": "Si [[character:beidou]] peut déclencher [[element:stellar-conduct]], cette arme devient équivalente à **[[weapon:song-of-broken-pines]]**.",
+                        "it": "Se [[character:beidou]] riesce ad innescare [[element:stellar-conduct]], quest'arma ha prestazioni simili a **[[weapon:song-of-broken-pines]]**.",
                         "ru": "Если [[character:beidou]] может закрывать реакцию [[element:stellar-conduct]], соответствует **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**."
                     }
                 }

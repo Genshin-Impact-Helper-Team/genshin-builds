@@ -5,8 +5,9 @@
         {
             "name": "er",
             "note": {
-                "en": "Can be ignored, and you can choose to [[ability:burst]] every other rotation",
-                "fr": "Peut être ignorée, et vous pouvez choisir de n'[[ability:burst]] qu'une rotation sur deux."
+                "en": "Can be ignored, and you can choose to [[ability:burst]] every other rotation.",
+                "fr": "Peut être ignorée, et vous pouvez choisir de n'[[ability:burst]] qu'une rotation sur deux.",
+                "it": "La [[stat:er]] può essere ignorata, e puoi scegliere di utilizzare il [[ability:burst]] ogni due rotazioni."
             }
         }
     ]

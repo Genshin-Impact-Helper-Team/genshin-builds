@@ -17,6 +17,7 @@
                     "note": {
                         "en": "If the team does not benefit from the [[stat:atk%]] buff, this weapon is not worth using.",
                         "fr": "Si l'équipe ne bénéficie pas du buff d'[[stat:atk%]], il n'y a pas d'intérêt à utiliser cette arme.",
+                        "it": "Se il team non trae vantaggio dal potenziamento all'[[stat:atk%]], non vale la pena utilizzare quest'arma.",
                         "ru": "Не стоит рассматривать этот вариант, если отряд не нуждается в Силе атаки."
                     }
                 }
@@ -30,6 +31,7 @@
                     "note": {
                         "en": "If [[character:aino]] cannot trigger the specified Elemental Reactions, this weapon is not worth using. This weapon does not need to be leveled if you do not care about [[character:aino]]'s personal damage.",
                         "fr": "Si [[character:aino]] ne peut pas déclencher les réactions spécifiées, il n'y a pas d'intérêt à utiliser cette arme. Il n'est pas nécessaire d'augmenter son niveau si vous ne vous intéressez pas aux dégâts personnels d'[[character:aino]].",
+                        "it": "Se [[character:aino]] non riesce a provocare le Reazioni Elementali specificate, non vale la pena utilizzare quest'arma. Non c'è bisogno di alzare il livello di quest'arma se non ti interessano i (molto bassi) danni personali di [[character:aino]].",
                         "ru": "Не стоит рассматривать этот вариант, если Айно не может закрывать реакции Заряжен, Лунный заряд или Бутонизация. Если вас не интересует личный урон Айно, уровень данного оружия можно не повышать."
                     }
                 },
@@ -38,6 +40,7 @@
                     "note": {
                         "en": "Refinements for this weapon are not needed if you do not care about [[character:aino]]'s personal damage.",
                         "fr": "Il n'y a pas besoin de rafiner cette arme si si vous ne vous intéressez pas aux dégâts personnels d'[[character:aino]].",
+                        "it": "I miglioramenti di quest'arma non sono necessari se non ti interessano i (molto bassi) danni personali di [[character:aino]].",
                         "ru": "Если вас не интересует личный урон Айно, пробуждать данное оружие нет смысла."
                     }
                 }
