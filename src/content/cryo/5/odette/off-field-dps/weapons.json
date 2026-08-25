@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "Ranking assumes a balance between a damage oriented scenario and a more supportive one.",
-            "fr": "Le classement a été rédigé en faisant la moyenne entre un scénario orienté dégâts, et un scénario orienté support."
+            "fr": "Le classement a été rédigé en faisant la moyenne entre un scénario orienté dégâts, et un scénario orienté support.",
+            "it": "La classifica presuppone un equilibrio tra scenario incentrato sui danni ed uno più orientato al supporto."
         }
     ],
     "weapons": [
@@ -24,8 +25,9 @@
                 {
                     "name": "primordial-jade-cutter",
                     "note": {
-                        "en": "Ranking assumes weapon is not overcapped on [[stat:cr]]. This weapon can perform worse if used with a [[stat:cr]] providing artifact set.",
-                        "fr": "Suppose que vous n'avez pas trop de [[stat:cr]]. Cette arme peut devenir moins bonne si jouée avec un set d'artéfact offrant du [[stat:cr]]."
+                        "en": "Ranking assumes that your build is not overcapped on [[stat:cr]]. This weapon can perform worse if used with a [[stat:cr]] providing artifact set.",
+                        "fr": "Suppose que vous n'avez pas trop de [[stat:cr]]. Cette arme peut devenir moins bonne si jouée avec un set d'artéfact offrant du [[stat:cr]].",
+                        "it": "La classifica presuppone che la tua build non ecceda il massimo di [[stat:cr]]. Quest'arma potrebbe avere prestazioni peggiori se utilizzata con un set di manufatti che fornisce [[stat:cr]]."
                     }
                 }
             ]
@@ -54,7 +56,7 @@
                     "note": {
                         "en": "The ranking assumes the passive is active every other rotation. If it is not, generally outside of 2 [[element:electro]] teams, this weapon ranks under **[[weapon:aquila-favonia]]**.",
                         "fr": "Le classement suppose que le passif est actif une rotation sur deux. Si ce n'est pas le cas, généralement dans les équipes qui n'ont pas 2 personnages [[element:electro]], cette arme se classe en dessous de **[[weapon:aquila-favonia]]**.",
-                        "it": "La posizione in classifica presuppone che la passiva sia attiva ogni due rotazioni. In caso contrario (solitamente se il team non ha 2 personaggi [[element:electro]]), quest'arma ha prestazioni peggiori di **[[weapon:aquila-favonia]]**.",
+                        "it": "La classifica presuppone che la passiva sia attiva ogni due rotazioni. In caso contrario (solitamente se il team non ha 2 personaggi [[element:electro]]), quest'arma ha prestazioni peggiori di **[[weapon:aquila-favonia]]**.",
                         "ru": "Предполагается, что эффект Пассивной способности действует каждую вторую ротацию. Если это условие не выполняется (обычно в отрядах без 2 [[element:electro]] персонажей), уступает **[[weapon:aquila-favonia|Мечу Сокола]]**."
                     }
                 },
@@ -83,7 +85,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Ranking assumes the [[ability:bol]] is **not** cleared. If the [[ability:bol]] is cleared, this weapon performs notably better, similar to **[[weapon:mistsplitter-reforged]]**.",
-                        "fr": "Le classement suppose que l'[[ability:bol]] n'est **pas** retiré. Dans le cas contraire, cette arme performe beaucoup mieux, de façon similaire à **[[weapon:mistsplitter-reforged]]**."
+                        "fr": "Le classement suppose que l'[[ability:bol]] n'est **pas** retiré. Dans le cas contraire, cette arme performe beaucoup mieux, de façon similaire à **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "La classifica presuppone che il **[[ability:bol]] non** sia rimosso. In caso contrario, quest'arma ha prestazioni notevolmente migliori, simili a **[[weapon:mistsplitter-reforged]]**."
                     }
                 }
             ]
@@ -105,7 +108,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "With its passive active, this weapon performs equivalently to **[[weapon:finale-of-the-deep]]** with the [[ability:bol]] not cleared. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
-                        "fr": "Si le passif est actif, cette arme équivaut à **[[weapon:finale-of-the-deep]]** avec un [[ability:bol]] qui n'est pas retiré. Si vous ne pouvez pas déclencher de réactions avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options."
+                        "fr": "Si le passif est actif, cette arme équivaut à **[[weapon:finale-of-the-deep]]** avec un [[ability:bol]] qui n'est pas retiré. Si vous ne pouvez pas déclencher de réactions avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options.",
+                        "it": "Se la passiva è attiva, quest'arma ha prestazioni simili a **[[weapon:finale-of-the-deep]]** senza rimozione del [[ability:bol]]. Se [[character:odette]] non riesce ad innescare reazioni, quest'arma è decisamente peggiore rispetto alla maggior parte delle altre opzioni."
                     }
                 }
             ]
