@@ -93,7 +93,7 @@
                 {
                     "name": "heretics-molten-blade",
                     "note": {
-                        "en": "This weapon's passive varies depending on your position relative to the enemy."
+                        "en": "This weapon's performance varies depending on distance traveled. Generally, [[character:odette]]'s [[ability:skill]] will move you enough for the passive to provide a solid effect. The [[stat:atk%]] buffing effect of this weapon will only apply to [[character:odette]]'s enhanced [[ability:skill]]."
                     }
                 }
             ]
