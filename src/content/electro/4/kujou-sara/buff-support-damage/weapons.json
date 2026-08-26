@@ -28,7 +28,7 @@
                     "note": {
                         "en": "This weapon **trades some buff strength for more personal damage**. Can pull ahead of **[[weapon:skyward-harp]]** if a quick {rot:E CA N1 Q} rotation is performed to maximize its passive.",
                         "fr": "Cette arme **échange une partie de la puissance du buff contre plus de dégâts personnels**. Elle peut devenir meilleure que **[[weapon:skyward-harp]]** en effetuant une rapide rotation {rot:E CA N1 Q} pour maximiser son passif.",
-                        "it": "Quest'arma **sacrifica parte della potenza del potenziamento per più danni personali**. Può avere prestazioni migliori di **[[weapon:skyward-harp]]** se viene utilizzata una veloce combo {rot:E CA N1 Q} per massimizzare la passiva.",
+                        "it": "Quest'arma **sacrifica parte della potenza del potenziamento per più danni personali**. Può avere prestazioni migliori di **[[weapon:skyward-harp]]** se viene utilizzata una veloce combo {rot:E CA N1 Q} per massimizzarne la passiva.",
                         "ru": "Базовая атака чуть ниже, но личный урон больше. Может превосходить Небесное крыло, если быстро выполнять ротацию E CA N1 Q для максимальной реализации Пассивной способности оружия."
                     }
                 },
@@ -37,7 +37,7 @@
                     "note": {
                         "en": "While providing a strong buff for the team and a large amount of [[stat:er]], [[character:kujou-sara]] can have issues **with reliably activating the passive in Single Target scenarios against small or mobile enemies**.",
                         "fr": "Bien qu'offrant un buff puissant pour l'équipe et beaucoup de [[stat:er]], [[character:kujou-sara]] peut avoir des problèmes pour **déclencher de manière fiable le passif dans des scénarios à cible unique contre des petits ennemis, ou des ennemis qui bougent beaucoup**.",
-                        "it": "Fornisce un potente potenziamento ed una grande quantità di [[stat:er]], ma [[character:kujou-sara]] può avere problemi ad attivare la passiva maniera affidabile contro nemici singoli piccoli o mobili.",
+                        "it": "Fornisce un forte potenziamento ed una grande quantità di [[stat:er]], ma [[character:kujou-sara]] può avere problemi ad attivarne la passiva maniera affidabile contro nemici singoli piccoli o mobili.",
                         "ru": "Имеет определённые достоинства (значительные бонусы для отряда и количество Восстановления энергии), но у Сары при его использовании могут возникать проблемы с поддержанием Пассивной способности оружия в бою с мелким или подвижным одиночным противником."
                     }
                 }
@@ -72,7 +72,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon performs similar to or better than **[[weapon:thundering-pulse]]**, depending on your team's total [[ability:burst]] cost.",
                         "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:thundering-pulse]]**, selon le coût total des [[ability:burst]] de l'équipe.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili o migliori di **[[weapon:thundering-pulse]]** a seconda del costo totale dei Tripudi del team.",
+                        "it": "A **[R5]**, quest'arma può avere prestazioni simili o migliori di **[[weapon:thundering-pulse]]** a seconda del costo totale dei Tripudi del team.",
                         "ru": "На [R5] может соответствовать Громовому пульсу или превосходить его (зависит от общей стоимости Взрывов стихии отряда)."
                     }
                 },

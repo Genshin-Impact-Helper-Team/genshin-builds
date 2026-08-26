@@ -46,7 +46,7 @@
                     "note": {
                         "en": "Scales well with refinements. At **[R5]**, this weapon performs similar to **[[weapon:light-of-foliar-incision]]**.",
                         "fr": "Profite bien des raffinements. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:light-of-foliar-incision]]**.",
-                        "it": "Quest'arma scala bene con i miglioramenti. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:light-of-foliar-incision]]**.",
+                        "it": "Quest'arma scala bene con i miglioramenti. A **[R5]**, ha prestazioni simili a **[[weapon:light-of-foliar-incision]]**.",
                         "ru": "Значительно усиливается на пробуждениях. На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**."
                     }
                 }
@@ -97,7 +97,7 @@
                     "note": {
                         "en": "Assumes [[ability:bol]] is cleared shortly after casting [[ability:skill]].",
                         "fr": "Suppose que l'[[ability:bol]] est retiré peu après avoir lancé le [[ability:skill]].",
-                        "it": "La classifica presuppone che il **[[ability:bol]]** sia rimosso tramite cure in breve tempo dopo aver utilizzato l'[[ability:skill]].",
+                        "it": "La classifica presuppone che Keqing **riceva cure sufficienti a rimuvere il [[ability:bol]]** poco dopo aver utilizzato l'[[ability:skill]].",
                         "ru": "Предполагается, что [[ability:bol]] снимается вскоре после применения [[ability:skill|Элементального навыка]]."
                     }
                 },
@@ -115,7 +115,7 @@
                     "note": {
                         "en": "[[element:aggravate]] [[character:keqing]] can usually have 100% uptime on this passive. If the [[element:dendro]] unit is [[character:nahida]], this weapon performs ever so slightly worse. At **[R5]**, this weapon performs similar to **[[weapon:freedom-sworn]]**.",
                         "fr": "[[character:keqing]] [[element:aggravate]] peut généralement maintenir 100% d'uptime sur ce passif. Si le personnage [[element:dendro]] est [[character:nahida]], cette arme performe un tout petit peu moins bien. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:freedom-sworn]]**.",
-                        "it": "In team [[element:aggravate]], [[character:keqing]] può solitamente avere il 100% di tempo di funzionamento della passiva. Se il personaggio [[element:dendro]] nel team è [[character:nahida]], quest'arma ha prestazioni leggermente peggiori. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:freedom-sworn]]**.",
+                        "it": "In team [[element:aggravate]], [[character:keqing]] può solitamente avere il 100% di tempo di funzionamento della passiva. Se il personaggio [[element:dendro]] nel team è [[character:nahida]], quest'arma ha prestazioni leggermente peggiori. A **[R5]**, ha prestazioni simili a **[[weapon:freedom-sworn]]**.",
                         "ru": "В отрядах с [[element:aggravate]]м Пассивная способность, как правило, постоянно поддерживается. Если в отряде есть [[character:nahida]], данное оружие показывает себя чуть хуже. На **[R5]** соответствует **[[weapon:freedom-sworn|Клятве свободы]]**."
                     }
                 }
