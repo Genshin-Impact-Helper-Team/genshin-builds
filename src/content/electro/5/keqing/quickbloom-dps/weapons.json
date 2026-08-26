@@ -104,7 +104,7 @@
                     "note": {
                         "en": "Assumes [[ability:bol]] being cleared.",
                         "fr": "Suppose que l'[[ability:bol]] est retiré.",
-                        "it": "La classifica presuppone che [[character:keqing]] riceva abbastanza cure affinché il **[[ability:bol]]** venga rimosso.",
+                        "it": "La classifica presuppone che [[character:keqing]] **riceva cure sufficienti a rimuovere il **[[ability:bol]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается."
                     }
                 },
