@@ -20,7 +20,7 @@
                     "note": {
                         "en": "Can sometimes utilize [[stat:em]] Main Stats.",
                         "fr": "Peut parfois permettre d'utiliser des stats principales [[stat:em]].",
-                        "it": "Può favorire stat principali [[stat:em]].",
+                        "it": "Quest'arma può favorire stat principali [[stat:em]].",
                         "ru": "С этим оружием сборка [[stat:em|МС]] в основных статах может оказаться полезной."
                     }
                 }
@@ -67,7 +67,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon will perform closer to **[[weapon:primordial-jade-winged-spear]]**.",
                         "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:primordial-jade-winged-spear]]**.",
-                        "it": "At **[R5]**, quest'arma ha prestazioni simili a **[[weapon:primordial-jade-winged-spear]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:primordial-jade-winged-spear]]**.",
                         "ru": "На **[R5]** данное оружие близко к **[[weapon:primordial-jade-winged-spear|Нефритовому коршуну]]**."
                     }
                 }
@@ -82,7 +82,7 @@
                     "note": {
                         "en": "Performs slightly worse than **[[weapon:skyward-spine]]** outside of Ascendant Gleam teams.",
                         "fr": "Légèrement moins bonne que **[[weapon:skyward-spine]]** dans les équipes dans Lueur Ascendante.",
-                        "it": "In team senza Presagio lunare: Barlume ascendente, ha prestazioni leggermente peggiori di **[[weapon:skyward-spine]]**.",
+                        "it": "In team senza Presagio lunare: Barlume ascendente, quest'arma ha prestazioni leggermente peggiori di **[[weapon:skyward-spine]]**.",
                         "ru": "Немного уступает **[[weapon:skyward-spine|Небесной оси]]** в отрядах без Высшего сияния."
                     }
                 },
