@@ -22,7 +22,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]].",
                         "fr": "Une fois **[R5]**, cette arme peut devenir meilleure que [[weapon:starcallers-watch]], mais reste moins bonne que [[weapon:reliquary-of-truth]].",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di [[weapon:starcallers-watch]], ma peggiori di [[weapon:reliquary-of-truth]]."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di [[weapon:starcallers-watch]], ma peggiori di [[weapon:reliquary-of-truth]].",
+                        "ru": "На **[R5]** превосходит [[weapon:starcallers-watch]], но уступает [[weapon:reliquary-of-truth|Шкатулке истин]]."
                     }
                 },
                 {
@@ -30,7 +31,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon can perform as well as [[weapon:reliquary-of-truth]].",
                         "fr": "Une fois **[R5]**, cette arme peut être au même niveau que [[weapon:reliquary-of-truth]].",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:reliquary-of-truth]]."
+                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:reliquary-of-truth]].",
+                        "ru": "На **[R5]** соответствует [[weapon:reliquary-of-truth|Шкатулке истин]]."
                     }
                 }
             ]
@@ -45,7 +47,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]].",
                         "fr": "Une fois **[R5]**, cette arme peut devenir meilleure que [[weapon:starcallers-watch]], mais reste moins bonne que [[weapon:reliquary-of-truth]].",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di [[weapon:starcallers-watch]] ma peggiori di [[weapon:reliquary-of-truth]]."
+                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di [[weapon:starcallers-watch]] ma peggiori di [[weapon:reliquary-of-truth]].",
+                        "ru": "На **[R5]** превосходит [[weapon:starcallers-watch]], но уступает [[weapon:reliquary-of-truth|Шкатулке истин]]."
                     }
                 }
             ]
@@ -60,7 +63,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon can perform as well as [[weapon:dawning-frost]].",
                         "fr": "Une fois **[R5]**, cette arme peut devenir équivalente à [[weapon:dawning-frost]].",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:dawning-frost]]."
+                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:dawning-frost]].",
+                        "ru": "На **[R5]** соответствует [[weapon:dawning-frost|Рассветному инею]]."
                     }
                 }
             ]
@@ -82,7 +86,8 @@
                     "note": {
                         "en": "This weapon can perform better if the team buff it provides can outweigh the loss in personal damage.",
                         "fr": "Cette arme peut mieux performer si le buff apporté à l'équipe compense la perte de dégâts personnels.",
-                        "it": "Quest'arma può dare risultati migliori se il potenziamento che offre al team riesce a compensare la perdita di danni personali."
+                        "it": "Quest'arma può dare risultati migliori se il potenziamento che offre al team riesce a compensare la perdita di danni personali.",
+                        "ru": "Может показывать себя лучше, если бонус отряду от Пассивной способности перевешивает потерю в личном уроне."
                     }
                 }
             ]
