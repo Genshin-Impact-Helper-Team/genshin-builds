@@ -3,7 +3,8 @@
         {
             "en": "Ranking assumes a balance between a damage oriented scenario and a more supportive one.",
             "fr": "Le classement a été rédigé en faisant la moyenne entre un scénario orienté dégâts, et un scénario orienté support.",
-            "it": "La classifica presuppone un equilibrio tra scenario incentrato sui danni ed uno più orientato al supporto."
+            "it": "La classifica presuppone un equilibrio tra scenario incentrato sui danni ed uno più orientato al supporto.",
+            "ru": "Рейтинг составлен с учётом баланса между личным уроном и бонусами для отряда"
         }
     ],
     "weapons": [
@@ -27,7 +28,8 @@
                     "note": {
                         "en": "Ranking assumes that your build is not overcapped on [[stat:cr]]. This weapon can perform worse if used with a [[stat:cr]] providing artifact set.",
                         "fr": "Suppose que vous n'avez pas trop de [[stat:cr]]. Cette arme peut devenir moins bonne si jouée avec un set d'artéfact offrant du [[stat:cr]].",
-                        "it": "La classifica presuppone che la tua build non ecceda il massimo di [[stat:cr]]. Quest'arma potrebbe avere prestazioni peggiori se utilizzata con un set di manufatti che fornisce [[stat:cr]]."
+                        "it": "La classifica presuppone che la tua build non ecceda il massimo di [[stat:cr]]. Quest'arma potrebbe avere prestazioni peggiori se utilizzata con un set di manufatti che fornisce [[stat:cr]].",
+                        "ru": "Предполагается отсутствие избытка [[stat:cr|Шанса крит. попадания]]. Показывает себя хуже с наборами артефактов, дающими [[stat:cr]]."
                     }
                 }
             ]
@@ -86,7 +88,8 @@
                     "note": {
                         "en": "Ranking assumes the [[ability:bol]] is **not** cleared. If the [[ability:bol]] is cleared, this weapon performs notably better, similar to **[[weapon:mistsplitter-reforged]]**.",
                         "fr": "Le classement suppose que l'[[ability:bol]] n'est **pas** retiré. Dans le cas contraire, cette arme performe beaucoup mieux, de façon similaire à **[[weapon:mistsplitter-reforged]]**.",
-                        "it": "La classifica presuppone che il **[[ability:bol]] non** sia rimosso. In caso contrario, quest'arma ha prestazioni notevolmente migliori, simili a **[[weapon:mistsplitter-reforged]]**."
+                        "it": "La classifica presuppone che il **[[ability:bol]] non** sia rimosso. In caso contrario, quest'arma ha prestazioni notevolmente migliori, simili a **[[weapon:mistsplitter-reforged]]**.",
+                        "ru": "Предполагается, что [[ability:bol]] не снимается. При снятии [[ability:bol|Долга жизни]] соответствует **[[weapon:mistsplitter-reforged|Рассекающему туман]]**."
                     }
                 }
             ]
@@ -98,7 +101,8 @@
                     "note": {
                         "en": "This weapon's performance varies depending on distance traveled. Generally, [[character:odette]]'s [[ability:skill]] will move you enough for the passive to provide a solid effect. The [[stat:atk%]] buffing effect of this weapon will only apply to [[character:odette]]'s enhanced [[ability:skill]].",
                         "fr": "Les performances de cette arme varient selon la distance parcourue. Généralement, le [[ability:skill]] d'[[character:odette]] vous déplace suffisamment pour que le passif offre un buff convenable. Le buff d'[[stat:atk%]] de l'arme ne s'applique qu'au [[ability:skill]] amélioré d'[[character:odette]].",
-                        "it": "Le prestazioni di quest'arma variano a seconda della distanza percorsa. In genere, l'[[ability:skill]] di [[character:odette]] ti muove abbastanza da consentire all'effetto passivo di avere un impatto significativo. L'effetto del potenziamento all'[[stat:atk%]] di quest'arma si applica solo all'[[ability:skill]] potenziata di [[character:odette]]."
+                        "it": "Le prestazioni di quest'arma variano a seconda della distanza percorsa. In genere, l'[[ability:skill]] di [[character:odette]] ti muove abbastanza da consentire all'effetto passivo di avere un impatto significativo. L'effetto del potenziamento all'[[stat:atk%]] di quest'arma si applica solo all'[[ability:skill]] potenziata di [[character:odette]].",
+                        "ru": "Эффективность варианта зависит от проденной персонажем дистанции. Обычно при использовании [[ability:skill|Элементального навыка]] [[character:odette]] перемещается достаточно, чтобы получить приемлемый бонус. Бонус к [[stat:atk%|Силе атаки]] применяется только к усиленной версии [[ability:skill|Элементального навыка]]."
                     }
                 }
             ]
@@ -111,7 +115,8 @@
                     "note": {
                         "en": "With its passive active, this weapon performs equivalently to **[[weapon:finale-of-the-deep]]** with the [[ability:bol]] not cleared. If you can not trigger reactions with [[character:odette]], this weapon is majorly worse than most other options.",
                         "fr": "Si le passif est actif, cette arme équivaut à **[[weapon:finale-of-the-deep]]** avec un [[ability:bol]] qui n'est pas retiré. Si vous ne pouvez pas déclencher de réactions avec [[character:odette]], cette arme devient moins bonne que la plupart des autres options.",
-                        "it": "Se la passiva è attiva, quest'arma ha prestazioni simili a **[[weapon:finale-of-the-deep]]** senza rimozione del [[ability:bol]]. Se [[character:odette]] non riesce ad innescare reazioni, quest'arma è decisamente peggiore rispetto alla maggior parte delle altre opzioni."
+                        "it": "Se la passiva è attiva, quest'arma ha prestazioni simili a **[[weapon:finale-of-the-deep]]** senza rimozione del [[ability:bol]]. Se [[character:odette]] non riesce ad innescare reazioni, quest'arma è decisamente peggiore rispetto alla maggior parte delle altre opzioni.",
+                        "ru": "При активации Пассивной способности соответствует **[[weapon:finale-of-the-deep|Грандиозному финалу глубин]]** с неснятым [[ability:bol|Долгом жизни]]. При невозможности закрытия реакций за [[character:odette|Одетту]] значительно уступает другим вариантам."
                     }
                 }
             ]
