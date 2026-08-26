@@ -68,7 +68,7 @@
                     "note": {
                         "en": "Ranking assumes [[character:ororon]] is being played with a healer and that the passive is active. Overheal counts for the passive.",
                         "fr": "Le classement suppose que [[character:ororon]] est joué avec un soigneur et que le passif est actif. Le surplus de soin compte également pour le passif.",
-                        "it": "La classifica presuppone che [[character:ororon]] venga giocato con un curatore e che la passiva sia attiva. Le cure contano per la passiva anche quando effettuate a vita massima.",
+                        "it": "La classifica presuppone che [[character:ororon]] riceva cure. Le cure contano anche quando effettuate a vita massima.",
                         "ru": "Предполагается, что Оророн получает достаточное лечение для работы Пассивной способности."
                     }
                 }
