@@ -3,7 +3,8 @@
     "name": {
         "en": "[[element:stellar-swirl]] DPS",
         "fr": "DPS [[element:stellar-swirl]]",
-        "it": "DPS [[element:stellar-swirl]]"
+        "it": "DPS [[element:stellar-swirl]]",
+        "ru": "ДД от [[element:stellar-swirl|Звёздного рассеивания]]"
     },
     "global": {
         "link": "https://docs.google.com/spreadsheets/d/1BVxTc6m7-1HTSvHPl_oNEtpjdg2xQ794tq0MYAJ_-Jo/edit?usp=sharing",
@@ -13,7 +14,8 @@
         {
             "en": "[[character:yumemizuki-mizuki]] is an on-field DPS that focuses on **triggering the [[element:stellar-swirl]] reaction, and doing her own damage of the same type**. After her Witch's Revelation buffs, [[character:yumemizuki-mizuki]]'s role in a team has now shifted from driving reactions, to being generally the main damage contributor.",
             "fr": "[[character:yumemizuki-mizuki]] est un DPS on-field qui se concentre sur **déclencher la réaction [[element:stellar-swirl]], et infliger ses propres dégâts du même type**. Avec ses buffs des Révélations de la sorcière, le rôle de [[character:yumemizuki-mizuki]] dans ses équipes a changé d'un build Driver de réactions à un celui de DPS de l'équipe.",
-            "it": "[[character:yumemizuki-mizuki]] è una DPS sul campo che si concentra sull'**attivazione della reazione [[element:stellar-swirl]] e sull'infliggere danni dello stesso tipo**. Con i potenziamenti Rivelazione della Strega, il ruolo di [[character:yumemizuki-mizuki]] nel team è ora passato da quello di una 'driver' di reazioni a quello di principale fonte di danno."
+            "it": "[[character:yumemizuki-mizuki]] è una DPS sul campo che si concentra sull'**attivazione della reazione [[element:stellar-swirl]] e sull'infliggere danni dello stesso tipo**. Con i potenziamenti Rivelazione della Strega, il ruolo di [[character:yumemizuki-mizuki]] nel team è ora passato da quello di una 'driver' di reazioni a quello di principale fonte di danno.",
+            "ru": "[[character:yumemizuki-mizuki]] наносит урон [[element:stellar-swirl|Звёздного рассеивания]] на поле за счёт талантов и соответствующей реакции. С усилениями Пророчества ведьмы [[character:yumemizuki-mizuki]] обычно становится главным источников урона в отряде, а не просто драйвером реакций."
         }
     ]
 }
