@@ -17,7 +17,8 @@
                     "note": {
                         "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**.",
                         "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**.",
+                        "de": "Auf **[R5]** ist diese Waffe besser als **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -29,7 +30,8 @@
                     "note": {
                         "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**.",
                         "fr": "Ce classement suppose que [[character:wriothesley]] est sous bouclier. Si ce n'est pas le cas, cette arme se classe sous **[[weapon:lost-prayer]]**.",
-                        "it": "La classifica presuppone che [[character:wriothesley]] si trovi **sotto la protezione di uno scudo**. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:lost-prayer]]**."
+                        "it": "La classifica presuppone che [[character:wriothesley]] si trovi **sotto la protezione di uno scudo**. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:lost-prayer]]**.",
+                        "de": "Es wird davon ausgegangen, dass [[character:wriothesley]] von einem Schild geschützt wird. Ohne einen Schild, ist diese Waffe schlechter als **[[weapon:lost-prayer]]**."
                     }
                 },
                 "vivid-notions"
@@ -76,7 +78,9 @@
                     "note": {
                         "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
                         "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**.",
+                        "de": "Auf [R5] ist diese Waffe ähnlich gut wie **[[weapon:starcallers-watch]]**."
+
                     }
                 },
                 {
@@ -84,7 +88,8 @@
                     "note": {
                         "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
                         "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**."
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**.",
+                        "de": "Auf [R5] ist diese Waffe ähnlich gut wie **[[weapon:starcallers-watch]]**."
                     }
                 }
             ]

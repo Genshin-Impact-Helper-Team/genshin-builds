@@ -63,7 +63,8 @@
                             "note": {
                                 "en": "This ranking assumes the [[element:freeze]] passive is inactive.",
                                 "fr": "Le classemement suppose que le passif [[element:freeze]] n'est pas actif.",
-                                "it": "La classifica presuppone che l'effetto passivo riguardante [[element:freeze]] **non** sia attivo."
+                                "it": "La classifica presuppone che l'effetto passivo riguardante [[element:freeze]] **non** sia attivo.",
+                                "de": "Es wird davon ausgegangen, dass der [[element:freeze]] Teil der Passive inaktiv ist"
                             }
                         }
                     ]
