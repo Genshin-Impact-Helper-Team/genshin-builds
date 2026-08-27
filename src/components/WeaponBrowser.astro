@@ -9,6 +9,10 @@ type WeaponBrowserData = {
     id: string;
     label: string;
   }[];
+  sources: {
+    id: string;
+    label: string;
+  }[];
   weaponTypes: {
     id: string;
     label: string;
@@ -18,6 +22,7 @@ type WeaponBrowserData = {
     image: AssetImage | '';
     name: string;
     rarity: number;
+    source: string;
     type: string;
     typeLabel: string;
     versionReleased: string;
@@ -122,6 +127,18 @@ const sortOptions = [
     </div>
 
     <div class="home-select-filter">
+      {sourceLabel}
+      <select class="home-native-select" name="source" aria-label={sourceLabel}>
+        <option value="">{allLabel}</option>
+        {
+          data.sources.map((source) => (
+            <option value={source.id}>{source.label}</option>
+          ))
+        }
+      </select>
+    </div>
+
+    <div class="home-select-filter">
       {substatsLabel}
       <select
         class="home-native-select"
@@ -170,6 +187,7 @@ const sortOptions = [
           data-weapon-card
           data-name={weapon.name}
           data-rarity={weapon.rarity}
+          data-source={weapon.source}
           data-substat={weapon.substat}
           data-type={weapon.type}
           data-version-released={weapon.versionReleased}

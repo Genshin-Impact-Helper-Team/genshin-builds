@@ -172,6 +172,7 @@ function getWeaponEntries(
         image: resolveWeaponAssetImage(type, id),
         name: t(locale, 'weapon', id, undefined, false),
         rarity: info.rarity,
+        source: getWeaponSource(info.source),
         type,
         typeLabel,
         versionReleased: info.version_released ?? '',
@@ -213,6 +214,9 @@ export function getWeaponBrowserData(lang = 'en') {
       label: t(locale, 'stat', id, undefined, false),
     }))
     .sort((a, b) => a.label.localeCompare(b.label));
+  const sources = [...new Set(weapons.map((weapon) => weapon.source))]
+    .map((id) => ({ id, label: translateWeaponSource(locale, id) }))
+    .sort((a, b) => a.label.localeCompare(b.label));
   const rarities = [...new Set(weapons.map((weapon) => weapon.rarity))].sort(
     (a, b) => a - b,
   );
@@ -221,6 +225,7 @@ export function getWeaponBrowserData(lang = 'en') {
     lang,
     locale,
     rarities,
+    sources,
     substats,
     weapons,
     weaponTypes: weaponTypes.map((type) => ({
