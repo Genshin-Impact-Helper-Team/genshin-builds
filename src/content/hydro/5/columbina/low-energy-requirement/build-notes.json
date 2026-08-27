@@ -4,5 +4,10 @@
         "en": "Low Energy Requirement Off-Field DPS & Buff Support",
         "fr": "DPS Off-Field avec de Faibles Besoins en Energie & Support Buff",
         "ru": "Карманный ДД и саппорт (Высокая потребность в энергии)"
-    }
+    },
+    "notes": [
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:clash-of-kings]]\n"
+        }
+    ]
 }

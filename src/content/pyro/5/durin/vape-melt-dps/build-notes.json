@@ -24,6 +24,9 @@
             "fr": "L'[[ability:burst]] de [[character:durin]] en forme Déni de ténèbre touche une fois toutes les 1.25s, et peut déclencher [[element:vaporize]]/[[element:melt]] une fois sur deux.",
             "it": "Il [[ability:burst]] di [[character:durin]] in modalità Negazione colpisce una volta ogni 1.25s, e può provocare [[element:vaporize]]/[[element:melt]] ogni due colpi.",
             "ru": "[[ability:burst]] [[character:durin]]а в форме Отрицания тьмы наносит урон раз в 1.25 секунды и может закрывать реакции [[element:vaporize]]/[[element:melt]] каждый второй удар."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:emberwell]]\n- [[weapon:exaiphanes-blade]]\n- [[weapon:heretics-molten-blade]]\n- [[weapon:whitelake-frostfeather]]\n"
         }
     ],
     "weapons": {

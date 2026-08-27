@@ -24,6 +24,9 @@
             "fr": "L'[[ability:burst]] de [[character:durin]] en forme Pureté touche une fois par seconde, et peut appliquer [[element:pyro]] en zone une fois sur deux.",
             "it": "Il [[ability:burst]] di [[character:durin]] in modalità Purezza colpisce una volta al secondo, e può applicare Pyro in AoE ogni due colpi.",
             "ru": "[[ability:burst]] [[character:durin]]а в форме Утверждения чистоты наносит урон раз в 1 секунду и накладывает [[element:pyro]] по площади раз в два удара."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:emberwell]]\n- [[weapon:exaiphanes-blade]]\n- [[weapon:heretics-molten-blade]]\n- [[weapon:whitelake-frostfeather]]\n"
         }
     ],
     "weapons": {

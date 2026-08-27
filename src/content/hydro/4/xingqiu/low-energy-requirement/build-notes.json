@@ -30,6 +30,9 @@
             "en": "*One can use the **Book trick method** instead of the final {rot:N2} which involves pausing the game by opening a menu for a second to allow him to collect the particles.",
             "fr": "*On peut utiliser le **trick du livre** au lieu du {rot:N2} final, ce qui consiste à mettre en pause le jeu en ouvrant un menu pendant une seconde pour lui permettre de collecter les particules.",
             "ru": "Вместо N2 можно воспользоваться уловкой (открыть на секунду меню, приостановив игру), позволяющей быстро собрать частицы"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:exaiphanes-blade]]\n- [[weapon:whitelake-frostfeather]]\n"
         }
     ],
     "weapons": {

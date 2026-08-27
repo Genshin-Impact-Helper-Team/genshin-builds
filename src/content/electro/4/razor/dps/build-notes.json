@@ -22,6 +22,9 @@
             "fr": "L'[[ability:burst]] de [[character:razor]] réinitialise le TdR de son [[ability:skill]], ce qui fait de {rot:tE > Q > tE} un bon début pour ses combos.",
             "it": "Il [[ability:burst]] di [[character:razor]] azzera il tempo di ricarica della sua [[ability:skill]]; pertanto, la sequenza {rot:tE > Q > tE} è l'inizio standard delle sue combo.",
             "ru": "[[ability:burst]] [[character:razor]]а сбрасывает откат [[ability:skill|Элементального навыка]], поэтому стандартное комбо [[character:razor]]а начинается с {rot:tE > Q > tE}."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:blade-of-atonement]]\n- [[weapon:forged-by-the-golden-melody]]\n"
         }
     ],
     "global": [
