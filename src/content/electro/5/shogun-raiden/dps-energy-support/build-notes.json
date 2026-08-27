@@ -18,9 +18,8 @@
             "fr": "Commencez votre rotation avec le [[ability:skill]] de [[character:shogun-raiden]].\n\nCombo pour l'[[ability:burst]] :\n- {rot:A > 4N4D} (Recommandé pour l'usage général)\n- {rot:A > 3N3C + N1C} (Recommandé avec de la vitesse d'Attaque)",
             "it": "Inizia la rotazione con l'[[ability:skill]] di [[character:shogun-raiden|Raiden]].\n\nCombo:\n- {rot:Q > 4N4D} (consigliata per uso generale)\n- {rot:Q > 3N3C + N1C} (consigliata con potenziamenti a VEL d'ATT)",
             "ru": "Начните ротацию с [[ability:skill|Элементального навыка]] [[character:shogun-raiden|Райдэн]]'.\n\nКомбо для [[ability:burst|Взрыва стихии]]:\n- {rot:Q > 4N4D} (рекомендуется в целом)\n- {rot:Q > 3N3C + N1C} (рекомендуется при наличии бонусов скорости атаки)"
-        },
-        {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:fractured-halo]]\n- [[weapon:bloodsoaked-ruins]]\n- [[weapon:sacrificers-staff]]\n- [[weapon:disaster-and-remorse]]\n"
+        },        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:fractured-halo]]\n- [[weapon:bloodsoaked-ruins]]\n- [[weapon:sacrificers-staff]]\n"
         },
         {
             "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"

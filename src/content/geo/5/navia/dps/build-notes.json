@@ -27,9 +27,8 @@
             "fr": "Le {rot:N2} final est omis si des personnages comme [[character:fischl]] ou [[character:xiangling]] sont utilisés pendant le [[ability:burst]] de [[character:bennett]] avant [[character:navia]].",
             "it": "L'ultimo {rot:N2} viene omesso se personaggi come [[character:fischl]] o [[character:xiangling]] vengono utilizzati durante il [[ability:burst]] di [[character:bennett]] prima di [[character:navia]].",
             "ru": "Последнее {rot:N2} не прожимается, если в период действия [[ability:burst|Взрыва стихии]] [[character:bennett]]а нужно использовать навыки других персонажей перед [[character:navia|Навией]] ([[character:fischl]], [[character:xiangling]])."
-        },
-        {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n"
+        },        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:gest-of-the-mighty-wolf]]\n- [[weapon:a-teaspoon-of-transcendence]]\n- [[weapon:blade-of-atonement]]\n- [[weapon:forged-by-the-golden-melody]]\n"
         },
         {
             "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"

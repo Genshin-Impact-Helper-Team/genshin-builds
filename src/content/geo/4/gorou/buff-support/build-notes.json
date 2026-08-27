@@ -29,6 +29,9 @@
             "fr": "La **[C2]** augmente la durée de l'[[ability:burst]] de [[character:gorou]] de 9 à 12 secondes si vous pouvez obtenir le bouclier [[element:crystallize]] nécessaire. Cela permet à l'équipe de gagner les 15% de bonus de [[stat:geo-dmg]] pour une plus longue durée, donc il est préférable d'utiliser votre [[ability:burst]] en dernier avant de changer de personnage sur votre DPS.",
             "it": "La **[C2]** estende la durata del [[ability:burst]] di [[character:gorou]] da 9 a 12 secondi se il personaggio attivo riesce ad ottenere gli scudi [[element:crystallize]] necessari o ad innescare [[element:crystallize]] lunare. Questo consente al team di ottenere i bonus dell'[[ability:skill]] per una durata maggiore, quindi è preferibile utilizzare il [[ability:burst]] come ultima abilità prima di portare in campo il tuo DPS.",
             "ru": "[C2] увеличивает длительность [[ability:burst|Взрыва стихии]] [[character:gorou]] с 9 до 12 секунд при ловле осколков [[element:crystallize|Кристаллизации]] активным персонажем. Это позволяет продлить бонус [[element:geo]] урона на больший срок, поэтому рекомендуется применять [[ability:burst]] последним непосредственно перед переключением на ДД."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:covenant-of-frost-and-snow]]\n"
         }
     ]
 }

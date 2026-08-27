@@ -17,6 +17,9 @@
             "fr": "En termes de gameplay, [[character:shogun-raiden|Raiden]] [[element:hyperbloom]] utilise seulement son [[ability:skill]] puis change de personnage. Assurez vous qu'il soit toujours actif pour déclencher [[element:hyperbloom]].",
             "it": "Solitamente [[character:shogun-raiden|Raiden]] utilizza solo la sua [[ability:skill]] nei team [[element:hyperbloom]] - assicurati che sia sempre attiva.",
             "ru": "Обычно [[character:shogun-raiden|Райдэн]] использует [[ability:skill]] и переключается на другого персонажа. Поддерживайте его активным для стабильной активации [[element:hyperbloom|Вегетации]]."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:song-of-the-vigil]]\n"
         }
     ]
 }

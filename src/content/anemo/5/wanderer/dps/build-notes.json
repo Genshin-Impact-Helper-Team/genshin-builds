@@ -44,6 +44,12 @@
             "fr": "- **Rotation [[set:shimenawas-reminiscence]]** : {rot:E (N2C/N2D repeat) (A)}",
             "it": "- **Combo con [[set:shimenawas-reminiscence]]**: {rot:E > ripeti N2C/N2D > (Q)}",
             "ru": "- **Ротация с [[set:shimenawas-reminiscence|Воспоминаниями Симэнавы]]**: {rot:E (повтор N2C/N2D) (Q)}"
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:clash-of-kings]]\n- [[weapon:echoes-of-the-heart]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:scarlet-proof]]\n"
         }
     ]
 }

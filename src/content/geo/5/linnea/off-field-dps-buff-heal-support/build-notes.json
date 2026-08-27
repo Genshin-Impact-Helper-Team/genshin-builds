@@ -25,6 +25,9 @@
             "en": "Both modes yield pretty similar damage, however using {rot:[1E]} is generally more advisable in most teams.",
             "fr": "Les deux modes génèrent des dégats similaires, mais il est généralement plus recommandé d'utiliser {rot:[1E]} dans la plupart des équipes.",
             "ru": "Общий урон обоих вариантов приблизительно равен, но в большинстве случаев рекомендуется {rot:[1E]}."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:covenant-of-frost-and-snow]]\n"
         }
     ],
     "weapons": {

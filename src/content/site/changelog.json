@@ -5,10 +5,20 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "August 27, 2026",
+                    "changes": "Updated the WIP Notes with the 7.0 Weapons and Artifact Sets.\n\nCalculations are still pending so it is still subject to changes, but these options could be viable for the builds they’re listed on.",
+                    "appliedBy": "Plo, Voidrev, Quincy"
+                },
+                {
+                    "date": "August 22, 2026",
+                    "changes": "Builds now track their Last Updated Version individually. You can see this version in the character's build selector, so be sure to check it when viewing a build: it may differ from the version shown on the homepage. The homepage only displays the most recently updated version for that character, since different builds for the same character may have been updated in different versions.",
+                    "appliedBy": "Plo"
+                },
+                {
                     "date": "August 21, 2026",
                     "changes": "Added Stellar-Swirl DPS section to Yumemizuki Mizuki. Updated Reaction DPS section for Yumemizuki Mizuki. Restructured and updated Beidou sections.",
                     "appliedBy": "Voidrev, Finnyke"
-                }, 
+                },
                 {
                     "date": "August 20, 2026",
                     "changes": "Added Stellar-Conduct DPS section to Wriothesley. Melt and Mono-Cryo builds are not up to date yet, we're working on it.",
