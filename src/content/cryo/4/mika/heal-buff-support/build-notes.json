@@ -18,6 +18,12 @@
             "fr": "Notez que les buffs de [[character:mika]] s'appliquent à votre personnage on-field et ne persistent pas ; c'est un point à garder en tête surtout lorsque vous le jouez avec [[character:eula]], puisque vous perdrez ses buffs si vous faites exploser son Épée de lumière descendante plus tôt.",
             "it": "Tieni presente che i potenziamenti di [[character:mika]] si applicano al personaggio attivo e non persistono; questo è da tenere a mente soprattutto quando lo giochi con [[character:eula]], poiché perderai i suoi potenziamenti se detoni la sua Spada di Luce Cadente troppo presto.",
             "ru": "Следует отметить, что эти бонусы применяются к активному персонажу (и сразу же переносятся при переключении), что стоит иметь в виду при игре с Эолой - при попытке взорвать Меч света раньше эти бонусы не будут учитываться."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:frostbreath]]\n- [[weapon:song-of-the-vigil]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

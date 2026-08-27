@@ -13,7 +13,10 @@
             "ru": "[[stat:em]] используется [[character:ifa|Ифой]] для лечения отряда и одновременно усиления собственных реакций. Рекомендуется играть с [[character:ororon|Оророном]], так как Ифа способен повышать урон реакций [[element:swirl]] и [[element:electrocharged]] (усиление зависит от суммарного количества [[ability:nightsoul-point|очков Ночного духа]] членов отряда, максимум 150 (200 на [C2] [[character:ifa|Ифы]]))."
         },
         {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:blackmarrow-lantern]]\n- [[weapon:etherlight-spindlelute]]\n- [[weapon:nightweavers-looking-glass]]\n- [[weapon:dawning-frost]]\n"
+            "en": "## [[note:wip-weapon]]\n- [[weapon:blackmarrow-lantern]]\n- [[weapon:etherlight-spindlelute]]\n- [[weapon:nightweavers-looking-glass]]\n- [[weapon:dawning-frost]]\n- [[weapon:clash-of-kings]]\n- [[weapon:echoes-of-the-heart]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n- [[set:scarlet-proof]]\n"
         }
     ]
 }

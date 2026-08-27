@@ -26,10 +26,7 @@
             "ru": "- [[ability:burst]] можно активировать = {rot:Q > E > N2D + 2N3D + N1C + 2N2C}\n- Без [[ability:burst|Взрыва стихии]] = {rot:E > N1C + 5N2C + N1}"
         },
         {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n- [[weapon:lightbearing-moonshard]]\n"
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n"
+            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n- [[weapon:lightbearing-moonshard]]\n- [[weapon:emberwell]]\n- [[weapon:exaiphanes-blade]]\n- [[weapon:heretics-molten-blade]]\n- [[weapon:whitelake-frostfeather]]\n"
         }
     ],
     "weapons": [
