@@ -3,6 +3,7 @@
         {
             "en": "Weapon rankings assume you use [[character:bennett]].",
             "fr": "Le classement des armes suppose que vous utilisez [[character:bennett]].",
+            "it": "Le classifiche delle armi presuppongono che venga usato con [[character:bennett]].",
             "ru": "Предполагается, что в команде есть [[character:bennett]]."
         }
     ],
@@ -42,6 +43,7 @@
                     "note": {
                         "en": "This weapon is more potent if you can reliably clear the [[ability:bol]]. If you can, this weapon is equal or better than **[[weapon:ballad-of-the-boundless-blue]]** **[R5]**.",
                         "fr": "Cette arme est plus puissante si vous pouvez retirer l'[[ability:bol]] de façon fiable. Si vous le pouvez, cette arme équivaut à **[[weapon:ballad-of-the-boundless-blue]]** une fois **[R5]**, voire la dépasse.",
+                        "it": "Se Wriothesley riceve **cure sufficienti a rimuovere il [[ability:bol]]**, quest'arma è pari o superiore a **[[weapon:ballad-of-the-boundless-blue]]** **[R5]**.",
                         "ru": "Работает лучше всего, если [[ability:bol]] стабильно снимается. При выполнении этого условия может соответствовать **[[weapon:ballad-of-the-boundless-blue|Песни необъятной лазури]] [R5]** или превосходить её."
                     }
                 }

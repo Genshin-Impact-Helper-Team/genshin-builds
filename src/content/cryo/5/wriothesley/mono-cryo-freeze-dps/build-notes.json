@@ -2,12 +2,14 @@
     "name": {
         "en": "Mono [[element:cryo]] / [[element:freeze]] DPS",
         "fr": "DPS Mono [[element:cryo]] / [[element:freeze]]",
+        "it": "DPS Mono [[element:cryo]] / [[element:freeze]]",
         "ru": "ДД в моно-[[element:cryo]] / [[element:freeze|Заморозке]]"
     },
     "notes": [
         {
             "en": "[[character:wriothesley]] can use the Mono [[element:cryo]] and [[element:freeze]] teams to benefit from [[element:cryo]] resonance. However, as [[character:wriothesley]]'s [[ability:ca]] shatters, [[element:freeze]] is not extremely consistent. Mono [[element:cryo]] removes the [[element:freeze]] aspect in order to slot another [[element:cryo]] support.",
             "fr": "[[character:wriothesley]] peut utiliser les équipes Mono [[element:cryo]] et [[element:freeze]] pour bénéficier de la résonance [[element:cryo]]. Cependant, comme les [[ability:ca]] de [[character:wriothesley]] brisent le [[element:freeze]], le [[element:freeze]] n'est pas extrêmement constant. Mono [[element:cryo]] retire l'aspect [[element:freeze]] afin d'ajouter un autre support [[element:cryo]].",
+            "it": "[[character:wriothesley]] può essere utilizzato in team Mono [[element:cryo]] e [[element:freeze]] per sfruttare la Risonanza Cryo. Tuttavia, poiché i suoi [[ability:ca|Attacchi Caricati]] provocano Rompigelo (Shatter), lo stato di [[element:freeze]] non è sempre costante. I team Mono [[element:cryo]] non includono [[element:freeze]] ed inseriscono invece un altro supporto Cryo.",
             "ru": "[[character:wriothesley]] может играть в моно-[[element:cryo]] / [[element:freeze|Заморозке]] и извлекать пользу из [[element:cryo]] резонанса. Однако [[ability:ca|Заряженные атаки]] [[character:wriothesley]] вызывают реакцию Разбит, что делает этот вариант очень нестабильным. Моно-[[element:cryo]] же исключает [[element:freeze|Заморозку]], заменяя Гидро персонажа на еще одного Крио саппорта."
         },        {
             "en": "## [[note:wip-weapon]]\n- [[weapon:cranes-echoing-call]]\n- [[weapon:surfs-up]]\n- [[weapon:vivid-notions]]\n- [[weapon:dawning-frost]]\n- [[weapon:reliquary-of-truth]]\n- [[weapon:nocturnes-curtain-call]]\n- [[weapon:angelos-heptades]]\n- [[weapon:clash-of-kings]]\n- [[weapon:echoes-of-the-heart]]\n"
