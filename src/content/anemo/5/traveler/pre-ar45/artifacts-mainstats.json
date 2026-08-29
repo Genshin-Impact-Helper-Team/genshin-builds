@@ -3,14 +3,16 @@
         "sands": [
             "er"
             
-            }
+            
         ],
         "goblet": [
-            "atk%"
+            "atk%",
+            "em"
         ],
         "circlet": [
             "cr/cd",
-          "atk%"
+          "atk%",
+            "em"
         ]
     }
 }
