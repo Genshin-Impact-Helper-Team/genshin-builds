@@ -1,17 +1,15 @@
 {
     "main_stats": {
         "sands": [
-            "er"
-            
-            
+            "er%"
         ],
         "goblet": [
             "atk%",
             "em"
         ],
         "circlet": [
-            "cr/cd",
-          "atk%",
+            "crit-rate / crit-dmg",
+            "atk%",
             "em"
         ]
     }
