@@ -40,11 +40,11 @@
                 {
                     "items": [
                         {
-                            "name": "atk%-set",
+                            "name": "atk-set",
                             "pieces": 2
                         },
                         {
-                            "name": "atk%-set",
+                            "name": "atk-set",
                             "pieces": 2
                         }
                     ],
