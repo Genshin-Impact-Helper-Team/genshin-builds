@@ -1,0 +1,28 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "xaiphanes-blade"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "dark-iron-sword"
+                },
+                {
+                    "name": "iron-sting"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyrider-sword"
+                }
+            ]
+        }
+    ]
+}
