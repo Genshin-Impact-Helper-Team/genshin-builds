@@ -2,6 +2,7 @@
     "name": {
         "en": "Plunge DPS",
         "fr": "DPS Attaque Plongeante",
+        "it": "DPS Attacchi in Picchiata",
         "ru": "ДД через атаки в падении"
     },
     "best": true,
