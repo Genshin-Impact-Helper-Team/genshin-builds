@@ -1,0 +1,28 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "na",
+                    "note": {
+                        "en": "Only level this if you are playing him as an On-field DPS."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        }
+    ]
+}
