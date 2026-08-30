@@ -47,10 +47,10 @@
                             "name": "atk-set",
                             "pieces": 2
                         },
-                      {
-                         "name": "em-set",
+                        {
+                            "name": "em-set",
                             "pieces": 2
-                        
+                        }
                     ],
                     "choose": 2
                 }
