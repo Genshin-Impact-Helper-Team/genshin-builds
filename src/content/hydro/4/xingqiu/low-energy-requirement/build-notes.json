@@ -2,7 +2,7 @@
     "name": {
         "en": "Low Energy Requirement (Off-Field DPS)",
         "fr": "Besoins en Énergie faibles (DPS Off-Field)",
-        "it": "DPS Fuori Campo (requisiti di energia bassi)"
+        "it": "DPS Fuori Campo (requisiti di energia bassi)",
         "ru": "Карманный ДД (Низкая потребность в энергии)"
     },
     "best": true,
