@@ -5,8 +5,9 @@
                 {
                     "name": "athame-artis",
                     "note": {
-                        "en": " If using [[character:xingqiu]] with an on-field unit that **benefits from [[stat:atk%]]** this weapon is definitively **[[character:xingqiu]]'s best option**.",
-                        "fr": " Si vous utilisez [[character:xingqiu]] avec un personnage on-field qui **bénéficie de [[stat:atk%]]** cete arme est définitivement **la meilleure option pour [[character:xingqiu]]**.",
+                        "en": "If using [[character:xingqiu]] with an on-field unit that **benefits from [[stat:atk%]]** this weapon is definitively **[[character:xingqiu]]'s best option**.",
+                        "fr": "Si vous utilisez [[character:xingqiu]] avec un personnage on-field qui **bénéficie de [[stat:atk%]]** cete arme est définitivement **la meilleure option pour [[character:xingqiu]]**.",
+                        "it": "Se utilizzi [[character:xingqiu]] con un **personaggio sul campo che trae beneficio da [[stat:atk%]]**, quest'arma è la scelta migliore.",
                         "ru": "При игре в отрядах, где активному персонажу полезен бонус к Силе атаки, является однозначным лучшим выбором."
                     }
                 },
@@ -60,6 +61,7 @@
                     "note": {
                         "en": "With a healer that can **reliably clear the [[ability:bol]]**, this weapon ranks **equal to or above [[weapon:skyward-blade]]**.",
                         "fr": "Avec un healer qui peut **retirer l'[[ability:bol]] de manière fiable**, cette arme est **équivalente ou meilleure que [[weapon:skyward-blade]]**.",
+                        "it": "Se Xingqiu riceve cure sufficienti a rimuovere il Legame Vitale, quest'arma ha prestazioni simili o leggermente migliori di Lama celeste.",
                         "ru": "При снятии Долга жизни соответствует Небесному мечу или даже превосходит его."
                     }
                 },
@@ -73,6 +75,7 @@
             "note": {
                 "en": "In a team where [[character:xingqiu]] consistently triggers reactions (most commonly [[element:bloom]] or [[element:electrocharged]]) and the team benefits from [[weapon:freedom-sworn]]'s buff, this ranks above [[weapon:summit-shaper]].",
                 "fr": "Dans une équipe où [[character:xingqiu]] déclenche régulièrement des réactions (le plus souvent [[element:bloom]] ou [[element:electrocharged]]) et l'équipe bénéficie du buff de [[weapon:freedom-sworn]], cette arme est meilleure que [[weapon:summit-shaper]].",
+                "it": "In team in cui [[character:xingqiu]] provoca reazioni regolarmente (solitamente [[element:bloom]] o [[element:electrocharged]]) ed il team trae vantaggio dal potenziamento fornito di quest'arma, essa ha prestazioni migliori di [[weapon:summit-shaper]].",
                 "ru": "В отрядах, где Син Цю может стабильно вызывать реакции (чаще всего Заряжен или Бутонизация), и другие члены отряда используют бонус Пассивной способности, соответствует Кромсателю пиков."
             }
         }
