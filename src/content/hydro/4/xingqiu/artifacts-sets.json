@@ -9,7 +9,7 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This set falls off in terms of damage if [[character:xingqiu]] has less than 130% [[stat:er]].",
-                                "it": "Questo set peggiora come opzione offensiva se [[character:xingqiu]] ha meno del **~130%** di [[stat:er]]."
+                                "it": "Questo set peggiora come opzione offensiva se [[character:xingqiu]] ha meno del **~130%** di [[stat:er]].",
                                 "ru": "Не дает значительного бонуса урона, если Син Цю имеет менее 130% ВЭ."
                             }
                         }
