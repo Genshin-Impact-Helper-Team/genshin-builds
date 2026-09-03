@@ -6,6 +6,11 @@
             "entries": [
                 {
                     "date": "September 3, 2026",
+                    "changes": "Updated Varka",
+                    "appliedBy": "Chiston, Plo"
+                },
+                {
+                    "date": "September 3, 2026",
                     "changes": "Updated Wriothesley's Stellar Conduct weapon ranking to better reflect the mechanics of the weapon Clash of Kings when used on him.",
                     "appliedBy": "Voidrev"
                 },
