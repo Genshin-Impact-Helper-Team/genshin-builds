@@ -7,14 +7,7 @@
         },
         {
             "items": [
-                {
-                    "name": "reliquary-of-truth",
-                    "note": {
-                        "en": "If [[character:columbina]] can consistently trigger [[element:lunar-bloom]] for the full passive, this weapon performs close to **[[weapon:nocturnes-curtain-call]]**.",
-                        "fr": "Si [[character:columbina]] peut déclencher [[element:lunar-bloom]] à coup sûr pour le passif complet, cette arme est presque égale à **[[weapon:nocturnes-curtain-call]]**.",
-                        "ru": "Если Коломбина может стабильно закрывать Лунную бутонизацию для поддерживания Пассивной способности, приблизительно соответствует Вызову Ноктюрна."
-                    }
-                }
+                "reliquary-of-truth"
             ]
         },
         {
@@ -25,13 +18,33 @@
         },
         {
             "items": [
+                "nightweavers-looking-glass"
+            ]
+        },
+        {
+            "items": [
+                "dawning-frost"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "blackmarrow-lantern",
                     "refinement": 5,
                     "note": {
-                        "en": "This weapon should only be used if the team is centered around [[element:lunar-bloom]].",
-                        "fr": "A n'utiliser que si l'équipe est centrée sur les [[element:lunar-bloom]]s.",
-                        "ru": "Используется только в командах от Лунной бутонизации."
+                        "en": "The ranking assumes **Moonsign: Ascendant Gleam** is active.",
+                        "fr": "Le classement suppose que le **Signelune: Lueur Ascendante** est actif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs closer to [[weapon:dawning-frost]].",
+                        "fr": "Une fois **[R5]**, les performances de cette arme se rapprochent de [[weapon:dawning-frost]]."
                     }
                 }
             ]
@@ -41,8 +54,7 @@
                 {
                     "name": "ash-graven-drinking-horn",
                     "refinement": 5
-                },
-                "dawning-frost"
+                }
             ]
         },
         {
@@ -50,10 +62,15 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs on par with [[weapon:surfs-up]] and [[weapon:tome-of-the-eternal-flow]].",
-                        "ru": "На **[R5]** соответствует Обряду вечного течения."
+                        "en": "At **[R5]**, this weapon becomes better than [[weapon:nightweavers-looking-glass]].",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que [[weapon:nightweavers-looking-glass]]."
                     }
                 }
+            ]
+        },
+        {
+            "items": [
+                "pamber"
             ]
         }
     ]
