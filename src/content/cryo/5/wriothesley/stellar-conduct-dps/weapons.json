@@ -13,18 +13,6 @@
         {
             "items": [
                 {
-                    "name": "clash-of-kings",
-                    "note": {
-                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**.",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
-                {
                     "name": "memory-of-dust",
                     "note": {
                         "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**.",
@@ -33,6 +21,18 @@
                     }
                 },
                 "vivid-notions"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**.",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
+                    }
+                }
             ]
         },
         {
