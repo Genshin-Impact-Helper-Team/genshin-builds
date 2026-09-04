@@ -5,6 +5,11 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "September 4, 2026",
+                    "changes": "Updated Mizuki's Stellar Swirl weapon ranking after revising calcs.",
+                    "appliedBy": "Voidrev"
+                },
+                {
                     "date": "September 3, 2026",
                     "changes": "Updated Varka and Columbina On-Field DPS build.",
                     "appliedBy": "Chiston, Plo"
