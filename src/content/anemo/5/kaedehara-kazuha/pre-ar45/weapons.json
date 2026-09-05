@@ -1,0 +1,25 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "iron-sting"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "dark-iron-sword"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyrider-sword"
+                }
+            ]
+        }
+    ]
+}

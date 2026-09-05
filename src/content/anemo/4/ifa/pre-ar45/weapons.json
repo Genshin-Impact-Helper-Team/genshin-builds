@@ -1,0 +1,44 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "flowing-purity",
+                    "note": {
+                        "en": "Requires healing to get the buff from its passive.",
+                        "fr": "Nécessite du soin pour obtenir le buff du passif."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Mainly used if the team has [[element:electro]]-based elemental reactions.",
+                        "fr": "Principalement utilisé si l'équipe se joue avec des réactions tournant autour de l'[[element:electro]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "thrilling-tales-of-dragon-slayers",
+                    "note": {
+                        "en": "Only use this if [[character:ifa]] is being used as a pure support.",
+                        "fr": "N'utilisez cette arme que si [[character:ifa]] est joué uniquement comme support."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "magic-guide"
+                }
+            ]
+        }
+    ]
+}

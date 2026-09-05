@@ -13,6 +13,11 @@ import {
   readJSONFile,
   toTitleCase,
 } from './content';
+import {
+  getCharacterBuilds,
+  isPreAr45BuildSlug,
+  PRE_AR_45_ROUTE_SEGMENT,
+} from './content-tree';
 import { getLocale, t } from './i18n';
 import { collectNotes, collectSectionNotes, collectStatNotes } from './notes';
 import { TranslationHelper } from './translator';
@@ -226,14 +231,18 @@ function translateWeaponRecommendations(
   };
 }
 
-/**
- * Converts Astro's catch-all character param into the stable character slug.
- *
- * Astro may provide `[...character]` as an array, so nested path segments are
- * joined before content lookup.
- */
-function normalizeCharacterParam(characterPath: CharacterPathParam) {
-  return Array.isArray(characterPath) ? characterPath.join('/') : characterPath;
+function parseCharacterRoute(characterPath: CharacterPathParam) {
+  const parts = (
+    Array.isArray(characterPath)
+      ? characterPath
+      : String(characterPath ?? '').split('/')
+  ).filter(Boolean);
+  const isPreAr45 = isPreAr45BuildSlug(parts.at(-1) ?? '');
+
+  return {
+    character: (isPreAr45 ? parts.slice(0, -1) : parts).join('/'),
+    isPreAr45,
+  };
 }
 
 /**
@@ -634,6 +643,13 @@ function loadBuildData({
   translator,
   artifactSetData,
 }: BuildContext) {
+  const isPreAr45Build = isPreAr45BuildSlug(buildName);
+  const loadBuildJSON = (fileName: string) => {
+    if (!isPreAr45Build) return loadJSON(buildPath, fileName);
+
+    const filePath = fileInBuild(buildPath, fileName);
+    return fs.existsSync(filePath) ? readJSONFile(filePath) : null;
+  };
   const weaponsFile = fileInBuild(buildPath, 'weapons.json');
   const artifactSetsFile = fileInBuild(buildPath, 'artifacts-sets.json');
   const artifactMainstatsFile = fileInBuild(
@@ -647,7 +663,7 @@ function loadBuildData({
   const talentsFile = fileInBuild(buildPath, 'talents.json');
   const buildNotesFile = fileInBuild(buildPath, 'build-notes.json');
 
-  const rawWeapons = loadJSON(buildPath, 'weapons.json');
+  const rawWeapons = loadBuildJSON('weapons.json');
   const weapons = rawWeapons
     ? translateWeaponRecommendations(rawWeapons, {
         weaponData: loadWeaponData(weaponType),
@@ -657,9 +673,9 @@ function loadBuildData({
       })
     : null;
 
-  const rawArtifactSets = loadJSON(buildPath, 'artifacts-sets.json');
-  const rawArtifactMainstats = loadJSON(buildPath, 'artifacts-mainstats.json');
-  const rawArtifactSubstats = loadJSON(buildPath, 'artifacts-substats.json');
+  const rawArtifactSets = loadBuildJSON('artifacts-sets.json');
+  const rawArtifactMainstats = loadBuildJSON('artifacts-mainstats.json');
+  const rawArtifactSubstats = loadBuildJSON('artifacts-substats.json');
 
   const artifacts = {
     sets: rawArtifactSets
@@ -696,7 +712,7 @@ function loadBuildData({
       );
   }
 
-  const rawTalents = loadJSON(buildPath, 'talents.json');
+  const rawTalents = loadBuildJSON('talents.json');
   const talents = rawTalents
     ? translateTalentPriorities(rawTalents, translator, talentsFile)
     : null;
@@ -781,7 +797,7 @@ function loadBuildData({
     ? readJSONFile(buildNotesFile)
     : null;
   const buildNoteData =
-    buildNoteDataInBuild ?? loadJSON(buildPath, 'build-notes.json');
+    buildNoteDataInBuild ?? loadBuildJSON('build-notes.json');
   const rawBuildName =
     buildNoteData?.name?.[lang] ?? buildNoteData?.name?.en ?? buildName;
   const lastUpdated =
@@ -819,7 +835,7 @@ export function getCharacterPageData({
   characterPath,
   contentBase = path.resolve('src/content'),
 }: CharacterPageDataOptions) {
-  const character = normalizeCharacterParam(characterPath);
+  const { character, isPreAr45 } = parseCharacterRoute(characterPath);
 
   if (!character) {
     throw new Error('Character parameter is required');
@@ -844,12 +860,14 @@ export function getCharacterPageData({
     throw new Error('Character not found');
   }
 
-  // Each child directory is treated as one playable build/role.
-  const buildNames = fs
-    .readdirSync(foundPath.path)
-    .filter((fileName) =>
-      fs.statSync(path.join(foundPath.path, fileName)).isDirectory(),
-    );
+  const hasPreAr45Build =
+    getCharacterBuilds(foundPath.path, PRE_AR_45_ROUTE_SEGMENT).length > 0;
+
+  // The URL decides which build set is rendered; the other mode is not shipped.
+  const buildFolders = getCharacterBuilds(
+    foundPath.path,
+    isPreAr45 ? PRE_AR_45_ROUTE_SEGMENT : 'default',
+  );
 
   const translatedCharacterName = translator.translate(
     'character',
@@ -870,10 +888,10 @@ export function getCharacterPageData({
     image: resolveCharacterAssetImage(assetContext, 'image'),
     portrait: resolveCharacterAssetImage(assetContext, 'portrait'),
   };
-  const builds = buildNames.map((buildName) =>
+  const builds = buildFolders.map((build) =>
     loadBuildData({
-      buildPath: path.join(foundPath.path, buildName),
-      buildName,
+      buildPath: build.path,
+      buildName: build.name,
       defaultLastUpdated,
       weaponType: metadata.weapon,
       lang: currentLang,
@@ -893,11 +911,16 @@ export function getCharacterPageData({
 
   return {
     characterSlug,
+    characterRouteSlug: isPreAr45
+      ? `${characterSlug}/${PRE_AR_45_ROUTE_SEGMENT}`
+      : characterSlug,
     characterName: slugParts.element
       ? getPublicCharacterName(locale, slugParts)
       : translatedCharacterName !== contentSlug
         ? translatedCharacterName
         : toTitleCase(contentSlug),
+    isPreAr45,
+    hasPreAr45Build,
     metadata: metadataWithAssets,
     element: foundPath.element,
     lang: currentLang,

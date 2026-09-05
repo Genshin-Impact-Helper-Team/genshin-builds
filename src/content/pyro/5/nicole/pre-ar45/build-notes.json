@@ -1,0 +1,14 @@
+{
+    "name": {
+        "en": "[[note:pre-ar45]]"
+    },
+    "notes": [
+        {
+            "en": "[[note:investment-value]]: [[note:high-iv]]"
+        },
+        {
+            "en": "Teamwide [[stat:atk%|ATK]] buffer (buff scales off her total [[stat:atk%|ATK]], capping at 4 000).",
+            "fr": "Buff l'[[stat:atk]] de l'équipe (son buff augmente en fonction de son [[stat:atk]], max 4 000)."
+        }
+    ]
+}
