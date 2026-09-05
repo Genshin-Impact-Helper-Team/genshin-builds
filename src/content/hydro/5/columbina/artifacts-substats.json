@@ -3,9 +3,10 @@
         {
             "name": "er",
             "note": {
-                "en": "Small amounts of [[stat:er]] might be needed for consistent [[ability:burst]] every other rotation",
-                "fr": "Un peu de [[stat:er]] peut être nécessaire pour pouvoir [[ability:burst]] une rotation sur deux",
-                "ru": "Немного Восстановления энергии может быть необходимо, чтобы стабильно использовать Взрыв стихии раз в две ротации"
+                "en": "Small amounts of [[stat:er]] might be needed for consistent [[ability:burst]] every other rotation.",
+                "fr": "Un peu de [[stat:er]] peut être nécessaire pour pouvoir [[ability:burst]] une rotation sur deux.",
+                "it": "Potrebbero essere necessarie piccole quantità di Ricarica di Energia al fine di utilizzare il Tripudio in modo costante ogni due rotazioni.",
+                "ru": "Немного Восстановления энергии может быть необходимо, чтобы стабильно использовать Взрыв стихии раз в две ротации."
             }
         },
         "cr/cd",

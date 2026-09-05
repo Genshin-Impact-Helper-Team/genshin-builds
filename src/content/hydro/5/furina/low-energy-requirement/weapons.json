@@ -1,8 +1,9 @@
 {
     "notes": [
         {
-            "en": "This ranking assumes 150% [[stat:er]] Requirements. [[stat:er]] Weapons will gradually drop in value with lower [[stat:er]] Requirements.",
+            "en": "This ranking assumes 150% [[stat:er]] requirements. [[stat:er]] Weapons will gradually drop in value with lower [[stat:er]] requirements.",
             "fr": "Ce classement suppose un besoin en [[stat:er]] de 150%. Les armes [[stat:er]] perdent progressivement de la valeur lorsque les besoins en [[stat:er]] baissent.",
+            "it": "Questa classifica presuppone requisiti di [[stat:er]] del 150%. Il valore delle armi con [[stat:er]] diminuisce se i requisiti di [[stat:er]] sono più bassi.",
             "ru": "Предполагается, что Фурине необходимо 150% ВЭ. Оружие, дающее ВЭ, будет показывать себя хуже с уменьшением потребности в энергии."
         }
     ],
@@ -20,6 +21,7 @@
                     "note": {
                         "en": "This ranking assumes [[character:furina]] is **not paired with a [[element:geo]]** unit. If [[character:furina]] is **paired with a [[element:geo]] unit**, this weapon is better than **[[weapon:primordial-jade-cutter]]**.",
                         "fr": "Ce classement suppose que [[character:furina]] n'est **pas jouée avec un personnage [[element:geo]]. Dans le cas contraire**, cette arme est meilleure que **[[weapon:primordial-jade-cutter]]**.",
+                        "it": "Questa classifica presuppone che [[character:furina]] **non sia utilizzata con un personaggio [[element:geo]]** nel team. **Se nel team è presente un personaggio [[element:geo]]**, quest'arma ha prestazioni migliori di **[[weapon:primordial-jade-cutter]]**.",
                         "ru": "Предполагается, что в отряде [[character:furina|Фурины]] **нет Гео персонажей**. **Если таковые имеются**, этот вариант превосходит **[[weapon:primordial-jade-cutter]]**."
                     }
                 }
@@ -46,6 +48,7 @@
                     "note": {
                         "en": "Three stacks of this weapon is extremely reliable as long as [[character:furina]]'s [[ability:skill]] hits opponents. It can help elevate the team's damage with its teamwide [[stat:em]] buff which can lead to it performing better than weapons listed above.",
                         "fr": "Obtenir 3 stacks avec cette arme se fait facilement tant que le [[ability:skill]] de [[character:furina]] touche des ennemis. Cela peut aider à augmenter les dégâts de l'équipe avec son buff de [[stat:em]], ce qui peut permettre à cette arme de performer mieux que les autres options classées au dessus.",
+                        "it": "Tre accumuli di quest'arma sono estremamente facili da ottenere fintanto che l'[[ability:skill]] di [[character:furina]] colpisce gli avversari. Può aiutare ad aumentare i danni del team con il suo potenziamento alla [[stat:em]] di tutto il team, che può portarla ad avere prestazioni migliori rispetto alle armi sopra elencate.",
                         "ru": "Пока навык [[character:furina|Фурины]] атакует противников, три уровня Пассивной способности набираются достаточно стабильно. Может усилить отряд за счёт бонуса МС, благодаря чему может превосходить варианты, расположенные выше в рейтинге."
                     }
                 }
@@ -65,9 +68,10 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]**, performs close to **[[weapon:light-of-foliar-incision]]**",
-                        "fr": "Une fois **[R5]**, ses performances sont proche de celles de **[[weapon:light-of-foliar-incision]]**",
-                        "ru": "На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**"
+                        "en": "At **[R5]**, performs close to **[[weapon:light-of-foliar-incision]]**.",
+                        "fr": "Une fois **[R5]**, ses performances sont proche de celles de **[[weapon:light-of-foliar-incision]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:light-of-foliar-incision]]**.",
+                        "ru": "На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**."
                     }
                 },
                 {
@@ -76,6 +80,7 @@
                     "note": {
                         "en": "This ranking assumes [[character:furina]] **can trigger reactions** to activate the passive. Performs similarly to **[[weapon:festering-desire]]** in Ascendant Gleam teams.",
                         "fr": "Ce classement suppose que [[character:furina]] **peut déclencher des réactions** pour activer le passif. Ses performances sont similaires à celles de **[[weapon:festering-desire]]** dans les équipes Lueur Ascendante.",
+                        "it": "La classifica presuppone che [[personaggio:furina]] **riesca ad innescare reazioni** per attivare la passiva. Quest'arma ha prestazioni simili a **[[weapon:festering-desire]]** in team con Presagio Lunare: Barlume Ascendente.",
                         "ru": "Предполагается, что [[character:furina]] **может закрывать реакции** для активации Пассивной способности. В командах с Высшим сиянием превосходит **[[weapon:festering-desire]]**."
                     }
                 }
@@ -97,6 +102,7 @@
                     "note": {
                         "en": "While suboptimal for [[character:furina]]'s personal damage, it can still be a good choice if other characters in the team struggle with energy.",
                         "fr": "Bien que moins efficace pour les dégâts personnels de [[character:furina]], cela reste cependant une bonne option si d'autres personnages de l'équipes ont des problèmes d'énergie.",
+                        "it": "Sebbene non sia la scelta migliore per i danni personali di [[character:furina]], può comunque essere una buona opzione se il team ha problemi di Energia.",
                         "ru": "Слабый выбор для личного урона [[character:furina|Фурины]], но может быть полезен, если отряду нужна дополнительная энергия."
                     }
                 }
@@ -108,9 +114,10 @@
                     "name": "harbinger-of-dawn",
                     "refinement": 5,
                     "note": {
-                        "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:festering-desire]]**",
-                        "fr": "Si **vous pouvez garder les PV de [[character:furina]] au dessus de 90% pendant la majorité de la rotation**, les performances de cette arme se rapprochent de celles de **[[weapon:festering-desire]]**",
-                        "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:festering-desire|Осквернённому желанию]]**"
+                        "en": "If **you can keep [[character:furina]]'s HP above 90% most of the rotation**, this weapon performs close to **[[weapon:festering-desire]]**.",
+                        "fr": "Si **vous pouvez garder les PV de [[character:furina]] au dessus de 90% pendant la majorité de la rotation**, les performances de cette arme se rapprochent de celles de **[[weapon:festering-desire]]**.",
+                        "it": "Se **riesci a mantenere i PS di [[character:furina]] sopra al 90% per gran parte della rotazione**, quest'arma ha prestazioni simili a **[[weapon:festering-desire]]**.",
+                        "ru": "Если **HP [[character:furina|Фурины]] почти не падает ниже 90%**, соответствует **[[weapon:festering-desire|Осквернённому желанию]]**."
                     }
                 },
                 "the-dockhands-assistant"
