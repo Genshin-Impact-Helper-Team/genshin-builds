@@ -24,7 +24,8 @@
                     "name": "sacrificial-jade",
                     "note": {
                         "en": "At **[R5]**, this weapon can perform as well as [[weapon:starcallers-watch]].",
-                        "fr": "Une fois **[R5]**, cette arme offre des performances similaires à **[[weapon:starcallers-watch]]**."
+                        "fr": "Une fois **[R5]**, cette arme offre des performances similaires à **[[weapon:starcallers-watch]]**.",
+                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:starcallers-watch]]."
                     }
                 }
             ]
@@ -73,7 +74,8 @@
                     "name": "sacrificial-fragments",
                     "note": {
                         "en": "At **[R5]**, this weapon can perform almost as well as [[weapon:sunny-morning-sleep-in]] in teams with teammates that have 20s Cooldowns on their [[ability:burst]], if used correctly.",
-                        "fr": "Une fois **[R5]**, cette arme peut devenir similaire à [[weapon:sunny-morning-sleep-in]] dans les équipes dont les membres ont un TdR de 20s sur leur [[ability:burst]], si utilisée correctement."
+                        "fr": "Une fois **[R5]**, cette arme peut devenir similaire à [[weapon:sunny-morning-sleep-in]] dans les équipes dont les membres ont un TdR de 20s sur leur [[ability:burst]], si utilisée correctement.",
+                        "it": "A **[R5]**, se utilizzata correttamente, quest'arma può avere prestazioni simili a [[weapon:sunny-morning-sleep-in]] in team con personaggi che hanno Tempi di Ricarica del [[ability:burst]] di 20s."
                     }
                 }
             ]
