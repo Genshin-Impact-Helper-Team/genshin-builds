@@ -5,6 +5,11 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "September 5, 2026",
+                    "changes": "Changed the notes indicator (ⓘ) to make it more visible, and you can now see a specific note by hovering/clicking on that icon.",
+                    "appliedBy": "Plo"
+                },
+                {
                     "date": "September 4, 2026",
                     "changes": "Updated Mizuki's Stellar Swirl weapon ranking after revising calcs.\nUpdated Ifa Anemo DPS build.",
                     "appliedBy": "Voidrev, Plo"

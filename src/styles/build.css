@@ -804,32 +804,27 @@
   font-weight: 750;
 }
 
-.note-link {
+.note-button {
   display: inline-grid;
   min-width: 20px;
   min-height: 20px;
   place-items: center;
   margin: -3px -3px -3px 0;
+  border: 0;
   padding: 3px;
+  background: none;
   color: var(--element);
+  cursor: pointer;
+  font: inherit;
   font-weight: 900;
   line-height: 1;
   text-decoration: none;
+  touch-action: manipulation;
 }
 
 .note-marker-text {
   color: var(--element);
   font-weight: 900;
-}
-
-.rank-content .note-link,
-.stat-row .note-link {
-  display: inline;
-  min-width: 0;
-  min-height: 0;
-  margin: 0 0 0 1px;
-  padding: 0 1px;
-  vertical-align: baseline;
 }
 
 .row-note-action {
@@ -875,17 +870,17 @@
   height: 100%;
 }
 
-.note-link:hover,
-.note-link:focus-visible {
+.note-button:hover,
+.note-button:focus-visible {
   color: var(--accent);
   outline: none;
   text-decoration: none;
 }
 
-.row-note-action.note-link:hover,
-.row-note-action.note-link:focus-visible,
-.row-note-action .note-link:hover,
-.row-note-action .note-link:focus-visible {
+.row-note-action.note-button:hover,
+.row-note-action.note-button:focus-visible,
+.row-note-action .note-button:hover,
+.row-note-action .note-button:focus-visible {
   border-color: var(--accent);
   background: color-mix(in srgb, var(--accent) 16%, transparent);
 }
@@ -893,11 +888,6 @@
 .note-target {
   border-radius: 8px;
   padding: 6px 8px;
-  scroll-margin-top: 96px;
-}
-
-.note-target:target {
-  animation: note-highlight 1.4s ease-out;
 }
 
 .notes-card {
@@ -1214,19 +1204,6 @@
   text-align: right;
 }
 
-@keyframes note-highlight {
-  0%,
-  55% {
-    background: color-mix(in srgb, var(--element) 18%, transparent);
-    box-shadow: 0 0 0 4px color-mix(in srgb, var(--element) 14%, transparent);
-  }
-
-  100% {
-    background: transparent;
-    box-shadow: 0 0 0 0 transparent;
-  }
-}
-
 @media (max-width: 1180px) {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1433,20 +1410,15 @@
     padding: 6px;
   }
 
-  .note-link {
+  .note-button {
     position: relative;
     z-index: 1;
   }
 
-  .note-link::before {
+  .note-button::before {
     position: absolute;
     inset: -10px;
     content: '';
-  }
-
-  .rank-content .note-link::before,
-  .stat-row .note-link::before {
-    inset: -12px -10px;
   }
 }
 

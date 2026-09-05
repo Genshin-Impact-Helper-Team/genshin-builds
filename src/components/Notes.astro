@@ -88,7 +88,7 @@ const hasNotes = noteSections.length > 0;
                   )}
                   {group.items.map((note) => (
                     <div
-                      id={note.id}
+                      data-note-id={note.id}
                       class="note-target"
                       set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
                     />

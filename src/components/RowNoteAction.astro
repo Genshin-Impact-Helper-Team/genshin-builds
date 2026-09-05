@@ -1,7 +1,6 @@
 ---
 type NoteItem = {
   name: string;
-  note?: string;
   noteId?: string;
 };
 
@@ -12,7 +11,7 @@ type Props = {
 const { items: noteItems } = Astro.props as Props;
 const firstItem = noteItems[0];
 const getAriaLabel = (item: NoteItem) =>
-  item.name ? `Jump to note for ${item.name}` : 'Jump to note';
+  item.name ? `Show note for ${item.name}` : 'Show note';
 const getMarkerLabel = (item: NoteItem) =>
   item.name ? `Has note for ${item.name}` : 'Has note';
 ---
@@ -20,13 +19,15 @@ const getMarkerLabel = (item: NoteItem) =>
 {
   noteItems.length === 1 && firstItem ? (
     firstItem.noteId ? (
-      <a
-        class="note-link row-note-action row-note-button"
-        href={`#${firstItem.noteId}`}
+      <button
+        class="note-button row-note-action row-note-button"
+        type="button"
+        data-note-id={firstItem.noteId}
         aria-label={getAriaLabel(firstItem)}
+        aria-expanded="false"
       >
         ⓘ
-      </a>
+      </button>
     ) : (
       <span
         class="note-marker-text row-note-action row-note-button"
@@ -39,13 +40,15 @@ const getMarkerLabel = (item: NoteItem) =>
     <span class="row-note-action">
       {noteItems.map((item) =>
         item.noteId ? (
-          <a
-            class="note-link row-note-button"
-            href={`#${item.noteId}`}
+          <button
+            class="note-button row-note-button"
+            type="button"
+            data-note-id={item.noteId}
             aria-label={getAriaLabel(item)}
+            aria-expanded="false"
           >
             ⓘ
-          </a>
+          </button>
         ) : (
           <span
             class="note-marker-text row-note-button"
