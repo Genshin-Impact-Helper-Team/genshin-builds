@@ -582,6 +582,7 @@
 }
 
 .rank-row {
+  position: relative;
   display: grid;
   min-width: 0;
   min-height: 28px;
@@ -589,6 +590,12 @@
   gap: 6px;
   align-items: start;
   padding: 5px 6px;
+}
+
+.rank-row.has-row-note,
+.stat-row.has-row-note {
+  grid-template-columns: auto minmax(0, 1fr) minmax(34px, max-content);
+  padding-right: 0;
 }
 
 .rank-group .rank-row + .rank-row {
@@ -750,6 +757,7 @@
 }
 
 .stat-row {
+  position: relative;
   display: grid;
   min-width: 0;
   grid-template-columns: 76px minmax(0, 1fr);
@@ -758,6 +766,10 @@
   border-radius: 8px;
   padding: 5px 6px;
   background: rgba(255, 255, 255, 0.045);
+}
+
+.stat-row.has-row-note {
+  grid-template-columns: 76px minmax(0, 1fr) minmax(34px, max-content);
 }
 
 .stat-row strong {
@@ -787,17 +799,9 @@
   color: var(--accent);
 }
 
-.inline-note-label {
-  display: inline;
-}
-
-.inline-note-label-emphasized {
+.recommendation-label-emphasized {
   color: color-mix(in srgb, #fff 82%, var(--accent) 18%);
   font-weight: 750;
-}
-
-.note-tail {
-  white-space: nowrap;
 }
 
 .note-link {
@@ -828,11 +832,62 @@
   vertical-align: baseline;
 }
 
+.row-note-action {
+  grid-column: 3;
+  justify-self: end;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.row-note-action.row-note-button,
+.row-note-action .row-note-button {
+  display: grid;
+  box-sizing: border-box;
+  width: 34px;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--element) 20%, transparent);
+  border-radius: 0 8px 8px 0;
+  padding: 0;
+  background: color-mix(in srgb, var(--element) 5%, transparent);
+  line-height: 1;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.row-note-action.row-note-button {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+}
+
+.row-note-action:not(.row-note-button) {
+  align-self: stretch;
+  min-width: 34px;
+  margin: -6px -1px -6px 0;
+}
+
+.row-note-action:not(.row-note-button) .row-note-button {
+  height: 100%;
+}
+
 .note-link:hover,
 .note-link:focus-visible {
   color: var(--accent);
   outline: none;
   text-decoration: none;
+}
+
+.row-note-action.note-link:hover,
+.row-note-action.note-link:focus-visible,
+.row-note-action .note-link:hover,
+.row-note-action .note-link:focus-visible {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
 }
 
 .note-target {

@@ -1,5 +1,4 @@
 ---
-import InlineNoteLabel from './InlineNoteLabel.astro';
 import { resolveArtifactAssetUrl } from '../utils/item-assets';
 
 type LocalizedArtifactEffect = {
@@ -100,13 +99,10 @@ const popoverCardHtml = info
         tabindex="0"
         aria-expanded="false"
       >
-        <InlineNoteLabel
-          label={artifact.name}
-          emphasized
-        />
+        <span class="recommendation-label-emphasized">{artifact.name}</span>
       </span>
     </span>
   ) : (
-    <InlineNoteLabel label={artifact.name} emphasized />
+    <span class="recommendation-label-emphasized">{artifact.name}</span>
   )
 }

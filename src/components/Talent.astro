@@ -1,6 +1,6 @@
 ---
 import { t } from '../utils/i18n';
-import InlineNoteLabel from './InlineNoteLabel.astro';
+import RowNoteAction from './RowNoteAction.astro';
 
 type TalentItem = {
   name: string;
@@ -22,7 +22,7 @@ const { talents, locale } = Astro.props as {
   locale: any;
 };
 
-const hasNoteMarker = (item: TalentItem) => item.noteId || item.note;
+const hasNoteMarker = (item: TalentItem) => Boolean(item.noteId || item.note);
 const talentRows = talents.talents.map(
   (talent: TalentPriority, index: number) => ({
     rank: index + 1,
@@ -38,40 +38,40 @@ const talentRows = talents.talents.map(
   <div class="recommendation-card-body">
     <div class="rank-list">
       {
-        talentRows.map((talent) => (
-          <div class="rank-group">
-            <div class="rank-row">
-              <strong class="rank-number">{talent.rank}</strong>
-              <span class="rank-content">
-                {talent.mainItems.map((item, itemIndex) => (
-                  <>
-                    {itemIndex > 0 && ' = '}
-                    <InlineNoteLabel
-                      label={item.name}
-                      noteId={item.noteId}
-                      hasNote={Boolean(hasNoteMarker(item))}
-                      emphasized
-                    />
-                  </>
-                ))}
-              </span>
-            </div>
+        talentRows.map((talent) => {
+          const noteItems = talent.mainItems.filter(hasNoteMarker);
 
-            {talent.alternativeItems.map((item) => (
-              <div class="rank-row alt">
-                <span class="rank-approx">&asymp;</span>
+          return (
+            <div class="rank-group">
+              <div
+                class={`rank-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
+              >
+                <strong class="rank-number">{talent.rank}</strong>
                 <span class="rank-content">
-                  <InlineNoteLabel
-                    label={item.name}
-                    noteId={item.noteId}
-                    hasNote={Boolean(hasNoteMarker(item))}
-                    emphasized
-                  />
+                  {talent.mainItems.map((item, itemIndex) => (
+                    <>
+                      {itemIndex > 0 && ' = '}
+                      <span class="recommendation-label-emphasized">{item.name}</span>
+                    </>
+                  ))}
                 </span>
+                {noteItems.length > 0 && <RowNoteAction items={noteItems} />}
               </div>
-            ))}
-          </div>
-        ))
+
+              {talent.alternativeItems.map((item) => (
+                <div
+                  class={`rank-row alt${hasNoteMarker(item) ? ' has-row-note' : ''}`}
+                >
+                  <span class="rank-approx">&asymp;</span>
+                  <span class="rank-content">
+                    <span class="recommendation-label-emphasized">{item.name}</span>
+                  </span>
+                  {hasNoteMarker(item) && <RowNoteAction items={[item]} />}
+                </div>
+              ))}
+            </div>
+          );
+        })
       }
     </div>
   </div>
