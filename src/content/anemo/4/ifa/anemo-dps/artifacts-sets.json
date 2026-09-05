@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "If [[character:ifa]] is used in a team with potent [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] off-field damage dealers (except [[character:columbina]] & [[character:ineffa]]), this set may become better than **[[set:codex]] (4)** depending on the team. It should be prioritized over **[[set:vv]] (4)** if [[character:ifa]]'s damage share is high.",
-                                "fr": "Si [[character:ifa]] est joué dans une équipe avec de puissants DPS Off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] (sauf [[character:columbina]] & [[character:ineffa]]), ce set peut devenir meilleur que **[[set:codex]] (4)** selon l'équipe. A prioriser par rapport à **[[set:vv]] (4)** si la part de dégâts d'[[character:ifa]] est élevée."
+                                "fr": "Si [[character:ifa]] est joué dans une équipe avec de puissants DPS Off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] (sauf [[character:columbina]] & [[character:ineffa]]), ce set peut devenir meilleur que **[[set:codex]] (4)** selon l'équipe. A prioriser par rapport à **[[set:vv]] (4)** si la part de dégâts d'[[character:ifa]] est élevée.",
+                                "it": "Se [[character:ifa]] è utilizzato in team con potenti personaggi [[element:pyro]]/ [[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] che infliggono danni da fuori campo (ad eccezione di [[character:columbina]] e [[character:ineffa]]), questo set potrebbe rivelarsi migliore di **[[set:codex]] (4)**. Dovrebbe essere preferito a **[[set:vv]] (4)** se la quota di danni di [[character:ifa]] è elevata."
                             }
                         }
                     ]
@@ -33,7 +34,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "If [[character:ifa]] is used in a team with potent [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] off-field damage dealers, this set may become better than **[[set:codex]] (4)** depending on the team. It should be prioritized over **[[set:scroll]] (4)** if [[character:ifa]]'s damage share isn't high or the off-field DPS don't benefit from DMG%.",
-                                "fr": "Si [[character:ifa]] est joué dans une équipe avec de puissants DPS Off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]], ce set peut devenir meilleur que **[[set:codex]] (4)** selon l'équipe. A prioriser par rapport à **[[set:scroll]] (4)** si la part de dégâts d'[[character:ifa]] est faible ou que les DPS off-field ne bénéficient pas des DGT%."
+                                "fr": "Si [[character:ifa]] est joué dans une équipe avec de puissants DPS Off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]], ce set peut devenir meilleur que **[[set:codex]] (4)** selon l'équipe. A prioriser par rapport à **[[set:scroll]] (4)** si la part de dégâts d'[[character:ifa]] est faible ou que les DPS off-field ne bénéficient pas des DGT%.",
+                                "it": "Se [[character:ifa]] utilizzato in team con potenti personaggi [[element:pyro]]/ [[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] che infliggono danni da fuori campo, questo set potrebbe rivelarsi migliore di **[[set:codex]] (4)**. Dovrebbe essere preferito a **[[set:scroll]] (4)** se la quota di danni di [[character:ifa]] non è elevata o se i DPS fuori campo non traggono vantaggio da DAN%."
                             }
                         }
                     ]
@@ -82,7 +84,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "If [[character:ifa]] can trigger [[element:stellar-swirl]], this set becomes the best for this role.",
-                        "fr": "Si [[character:ifa]] peut déclencher [[element:stellar-swirl]], il s'agit de son meilleur set dans ce rôle."
+                        "fr": "Si [[character:ifa]] peut déclencher [[element:stellar-swirl]], il s'agit de son meilleur set dans ce rôle.",
+                        "it": "Se [[character:ifa]] è in grado di attivare [[element:stellar-swirl]], questo set diventa la migliore scelta per questo ruolo."
                     }
                 }
             ]
@@ -94,7 +97,8 @@
                     "pieces": 4,
                     "note": {
                         "en": "If played with [[character:furina]], this set becomes his second best for this role.",
-                        "fr": "Si joué avec [[character:furina]], ce set devient le deuxième meilleur set pour ce rôle."
+                        "fr": "Si joué avec [[character:furina]], ce set devient le deuxième meilleur set pour ce rôle.",
+                        "it": "Se utilizzato con [[personaggio:furina]], questo set diventa il suo secondo migliore per questo ruolo."
                     }
                 }
             ]
