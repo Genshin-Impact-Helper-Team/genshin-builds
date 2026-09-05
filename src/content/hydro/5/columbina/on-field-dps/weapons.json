@@ -33,7 +33,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "The ranking assumes **Moonsign: Ascendant Gleam** is active.",
-                        "fr": "Le classement suppose que le **Signelune: Lueur Ascendante** est actif."
+                        "fr": "Le classement suppose que le **Signelune: Lueur Ascendante** est actif.",
+                        "it": "La classifica presuppone che **Presagio Lunare: Barlume Ascendente** sia attivo."
                     }
                 }
             ]
@@ -44,7 +45,8 @@
                     "name": "the-widsith",
                     "note": {
                         "en": "At **[R5]**, this weapon performs closer to [[weapon:dawning-frost]].",
-                        "fr": "Une fois **[R5]**, les performances de cette arme se rapprochent de [[weapon:dawning-frost]]."
+                        "fr": "Une fois **[R5]**, les performances de cette arme se rapprochent de [[weapon:dawning-frost]].",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a [[weapon:dawning-frost]]."
                     }
                 }
             ]
@@ -63,7 +65,8 @@
                     "name": "sacrificial-jade",
                     "note": {
                         "en": "At **[R5]**, this weapon becomes better than [[weapon:nightweavers-looking-glass]].",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que [[weapon:nightweavers-looking-glass]]."
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que [[weapon:nightweavers-looking-glass]].",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di [[weapon:nightweavers-looking-glass]]."
                     }
                 }
             ]
