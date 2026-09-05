@@ -7,21 +7,22 @@
         },
         {
             "items": [
-                "vivid-notions"
+                "lost-prayer-to-the-sacred-winds"
             ]
         },
         {
             "items": [
-                "skyward-atlas",
                 "surfs-up"
             ]
         },
         {
             "items": [
-                "tome-of-the-eternal-flow",
-                "a-thousand-floating-dreams",
-                "kaguras-verity",
-                "lost-prayer-to-the-sacred-winds",
+                "reliquary-of-truth",
+                "vivid-notions"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "cashflow-supervision",
                     "note": {
@@ -30,27 +31,45 @@
                         "it": "Se è presente una perdita di PS (ad esempio se **[[character:furina]]** è nel team), questa è la migliore arma di [[character:ifa]].",
                         "ru": "Лучший вариант при игре с **[[character:furina|Фуриной]]** или другим постоянным источником снижения HP."
                     }
+                },
+                "tome-of-the-eternal-flow",
+                "nocturnes-curtain-call"
+            ]
+        },
+        {
+            "items": [
+                "skyward-atlas",
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                "angelos-heptades",
+                {
+                    "name": "memory-of-dust",
+                    "note": {
+                        "en": "The ranking assumes [[character:ifa]] is unshielded. With a shield, this performs closer to [[weapon:kaguras-verity]].",
+                        "fr": "Le classement suppose qu'[[character:ifa]] n'a pas de bouclier. Avec un bouclier, cette arme se rapproche de [[weapon:kaguras-verity]]."
+                    }
                 }
             ]
         },
         {
             "items": [
-                "flowing-purity",
-                "sunny-morning-sleep-in",
                 {
-                    "name": "mappa-mare",
+                    "name": "flowing-purity",
                     "refinement": 5
                 },
+                "cranes-echoing-call",
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform roughly equal to **[[weapon:surfs-up]]** and its similar ranking options.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à peu près à **[[weapon:surfs-up]]** et aux options au classement similaire.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:surfs-up]]** ed alle altre opzioni alla stessa posizione in classifica.",
-                        "ru": "На **[R5]** примерно соответствует **[[weapon:surfs-up]]** и другим вариантам этого уровня."
+                        "en": "At **[R5]**, this weapon will perform roughly equal to **[[weapon:angelos-heptades]]**.",
+                        "fr": "Une fois **[R5]**, cette arme équivaut à peu près à **[[weapon:angelos-heptades]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:angelos-heptades]]** .",
+                        "ru": "На **[R5]** примерно соответствует **[[weapon:angelos-heptades]]**."
                     }
-                },
-                "memory-of-dust"
+                }
             ]
         }
     ]

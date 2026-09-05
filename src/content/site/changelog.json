@@ -5,6 +5,21 @@
             "version": "7.0",
             "entries": [
                 {
+                    "date": "September 4, 2026",
+                    "changes": "Updated Mizuki's Stellar Swirl weapon ranking after revising calcs.\nUpdated Ifa Anemo DPS build.",
+                    "appliedBy": "Voidrev, Plo"
+                },
+                {
+                    "date": "September 3, 2026",
+                    "changes": "Updated Varka and Columbina On-Field DPS build.",
+                    "appliedBy": "Chiston, Plo"
+                },
+                {
+                    "date": "September 3, 2026",
+                    "changes": "Updated Wriothesley's Stellar Conduct weapon ranking to better reflect the mechanics of the weapon Clash of Kings when used on him.",
+                    "appliedBy": "Voidrev"
+                },
+                {
                     "date": "August 27, 2026",
                     "changes": "Updated the WIP Notes with the 7.0 Weapons and Artifact Sets.\n\nCalculations are still pending so it is still subject to changes, but these options could be viable for the builds they’re listed on.",
                     "appliedBy": "Plo, Voidrev, Quincy"

@@ -17,13 +17,23 @@
                 {
                     "items": [
                         {
-                            "name": "viridescent-venerer",
+                            "name": "scroll",
                             "pieces": 4,
                             "note": {
-                                "en": "Prioritize this set if no one else holds it.",
-                                "fr": "Priorisez ce set si personne d'autre ne le porte.",
-                                "it": "Prioritizza questo set se nessun altro nel team lo sta utilizzando.",
-                                "ru": "В приоритете, если в отряде нет другого носителя."
+                                "en": "If [[character:ifa]] is used in a team with potent [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] off-field damage dealers (except [[character:columbina]] & [[character:ineffa]]), this set may become better than **[[set:codex]] (4)** depending on the team. It should be prioritized over **[[set:vv]] (4)** if [[character:ifa]]'s damage share is high.",
+                                "fr": "Si [[character:ifa]] est joué dans une équipe avec de puissants DPS Off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]/[[element:anemo]] (sauf [[character:columbina]] & [[character:ineffa]]), ce set peut devenir meilleur que **[[set:codex]] (4)** selon l'équipe. A prioriser par rapport à **[[set:vv]] (4)** si la part de dégâts d'[[character:ifa]] est élevée."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "vv",
+                            "pieces": 4,
+                            "note": {
+                                "en": "If [[character:ifa]] is used in a team with potent [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] off-field damage dealers, this set may become better than **[[set:codex]] (4)** depending on the team. It should be prioritized over **[[set:scroll]] (4)** if [[character:ifa]]'s damage share isn't high or the off-field DPS don't benefit from DMG%.",
+                                "fr": "Si [[character:ifa]] est joué dans une équipe avec de puissants DPS Off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]], ce set peut devenir meilleur que **[[set:codex]] (4)** selon l'équipe. A prioriser par rapport à **[[set:scroll]] (4)** si la part de dégâts d'[[character:ifa]] est faible ou que les DPS off-field ne bénéficient pas des DGT%."
                             }
                         }
                     ]
@@ -35,10 +45,57 @@
                 {
                     "items": [
                         {
-                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "name": "rising-winds",
                             "pieces": 4
                         }
                     ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "anemo-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "codex",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "MH",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "scarlet-proof",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If [[character:ifa]] can trigger [[element:stellar-swirl]], this set becomes the best for this role.",
+                        "fr": "Si [[character:ifa]] peut déclencher [[element:stellar-swirl]], il s'agit de son meilleur set dans ce rôle."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "MH",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If played with [[character:furina]], this set becomes his second best for this role.",
+                        "fr": "Si joué avec [[character:furina]], ce set devient le deuxième meilleur set pour ce rôle."
+                    }
                 }
             ]
         }

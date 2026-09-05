@@ -17,38 +17,27 @@
         },
         {
             "items": [
+                "a-thousand-floating-dreams",
+                "nocturnes-curtain-call",
+                "tome-of-the-eternal-flow",
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]].",
-                        "fr": "Une fois **[R5]**, cette arme peut devenir meilleure que [[weapon:starcallers-watch]], mais reste moins bonne que [[weapon:reliquary-of-truth]].",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di [[weapon:starcallers-watch]], ma peggiori di [[weapon:reliquary-of-truth]].",
-                        "ru": "На **[R5]** превосходит [[weapon:starcallers-watch]], но уступает [[weapon:reliquary-of-truth|Шкатулке истин]]."
-                    }
-                },
-                {
-                    "name": "dawning-frost",
-                    "note": {
-                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:reliquary-of-truth]].",
-                        "fr": "Une fois **[R5]**, cette arme peut être au même niveau que [[weapon:reliquary-of-truth]].",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:reliquary-of-truth]].",
-                        "ru": "На **[R5]** соответствует [[weapon:reliquary-of-truth|Шкатулке истин]]."
+                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:starcallers-watch]].",
+                        "fr": "Une fois **[R5]**, cette arme offre des performances similaires à **[[weapon:starcallers-watch]]**."
                     }
                 }
             ]
         },
         {
             "items": [
-                "a-thousand-floating-dreams",
-                "nocturnes-curtain-call",
-                "tome-of-the-eternal-flow",
                 {
-                    "name": "clash-of-kings",
+                    "name": "dawning-frost",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]], but worse than [[weapon:reliquary-of-truth]].",
-                        "fr": "Une fois **[R5]**, cette arme peut devenir meilleure que [[weapon:starcallers-watch]], mais reste moins bonne que [[weapon:reliquary-of-truth]].",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di [[weapon:starcallers-watch]] ma peggiori di [[weapon:reliquary-of-truth]].",
-                        "ru": "На **[R5]** превосходит [[weapon:starcallers-watch]], но уступает [[weapon:reliquary-of-truth|Шкатулке истин]]."
+                        "en": "At **[R5]**, this weapon can perform better than [[weapon:starcallers-watch]].",
+                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:starcallers-watch]]**.",
+                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:starcallers-watch]]**.",
+                        "ru": "На **[R5]** может превосходить **[[weapon:starcallers-watch]]**."
                     }
                 }
             ]
@@ -61,17 +50,32 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform as well as [[weapon:dawning-frost]].",
-                        "fr": "Une fois **[R5]**, cette arme peut devenir équivalente à [[weapon:dawning-frost]].",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a [[weapon:dawning-frost]].",
-                        "ru": "На **[R5]** соответствует [[weapon:dawning-frost|Рассветному инею]]."
+                        "en": "At **[R5]**, this weapon can perform better than [[weapon:dawning-frost]].",
+                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:dawning-frost]]**.",
+                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:dawning-frost]]**.",
+                        "ru": "На **[R5]** может превосходить **[[weapon:dawning-frost]]**."
+                    }
+                },
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon can perform better than [[weapon:a-thousand-floating-dreams]].",
+                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:a-thousand-floating-dreams]]**.",
+                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:a-thousand-floating-dreams]]**.",
+                        "ru": "На **[R5]** может превосходить **[[weapon:a-thousand-floating-dreams]]**."
                     }
                 }
             ]
         },
         {
             "items": [
-                "sacrificial-fragments"
+                {
+                    "name": "sacrificial-fragments",
+                    "note": {
+                        "en": "At **[R5]**, this weapon can perform almost as well as [[weapon:sunny-morning-sleep-in]] in teams with teammates that have 20s Cooldowns on their [[ability:burst]], if used correctly.",
+                        "fr": "Une fois **[R5]**, cette arme peut devenir similaire à [[weapon:sunny-morning-sleep-in]] dans les équipes dont les membres ont un TdR de 20s sur leur [[ability:burst]], si utilisée correctement."
+                    }
+                }
             ]
         },
         {
