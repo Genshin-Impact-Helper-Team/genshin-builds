@@ -25,18 +25,6 @@
         },
         {
             "items": [
-                {
-                    "name": "clash-of-kings",
-                    "note": {
-                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**.",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
                 "lost-prayer-to-the-sacred-winds"
             ]
         },
@@ -45,27 +33,27 @@
                 {
                     "name": "echoes-of-the-heart",
                     "refinement": 5
-                },
+                }
+            ]
+        },
+        {
+            "items": [
                 "angelos-heptades",
-                "tulaytullahs-remembrance",
-                "kaguras-verity"
-            ]
-        },
-        {
-            "items": [
-                "tome-of-the-eternal-flow",
                 "surfs-up",
-                "skyward-atlas"
+                "tulaytullahs-remembrance"
             ]
         },
         {
             "items": [
+                "kaguras-verity",
+                "skyward-atlas",
+                "tome-of-the-eternal-flow"
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch",
                 "cranes-echoing-call",
-                "starcallers-watch"
-            ]
-        },
-        {
-            "items": [
                 "a-thousand-floating-dreams"
             ]
         },
@@ -79,12 +67,21 @@
                         "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**."
                     }
                 },
+                "nightweavers-looking-glass",
                 {
                     "name": "the-widsith",
                     "note": {
                         "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
                         "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
                         "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**."
+                    }
+                },
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:memory-of-dust]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:memory-of-dust]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:memory-of-dust]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva."
                     }
                 }
             ]
