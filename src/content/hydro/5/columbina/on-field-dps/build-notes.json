@@ -1,21 +1,25 @@
 {
     "name": {
         "en": "On-Field [[element:lunar-bloom]] DPS",
-        "fr": "DPS [[element:lunar-bloom]] On-Field"
+        "fr": "DPS [[element:lunar-bloom]] On-Field",
+        "it": "DPS [[element:lunar-bloom]] Sul Campo",
     },
     "last_updated": "7.0",
     "notes": [
         {
             "en": "[[character:columbina]] has potential as an On-Field DPS in [[element:lunar-bloom]] teams thanks to her special [[ability:ca]], which consumes [[ability:verdant-dew]] to deal [[element:lunar-bloom]] damage.",
-            "fr": "[[character:columbina]] a du potentiel en tant que DPS On-Field dans les équipes [[element:lunar-bloom]] grâce à son [[ability:ca]] spéciale qui consomme la [[ability:verdant-dew]] pour infliger des dégâts de [[element:lunar-bloom]]."
+            "fr": "[[character:columbina]] a du potentiel en tant que DPS On-Field dans les équipes [[element:lunar-bloom]] grâce à son [[ability:ca]] spéciale qui consomme la [[ability:verdant-dew]] pour infliger des dégâts de [[element:lunar-bloom]].",
+            "it": "[[character:columbina]] ha potenziale come DPS sul campo in team [[element:lunar-bloom]] grazie al suo [[ability:ca]] speciale, che consuma [[ability:verdant-dew]] per infliggere danni [[element:lunar-bloom]]."
         },
         {
             "en": "Her [[ability:skill]] provides off-field [[element:hydro]] application while also accumulating Gravity, allowing her to deal additional Lunar DMG matching the team's primary Lunar reaction. Her [[ability:burst]] buffs Lunar reactions and provides 3 special [[ability:verdant-dew]], allowing her to perform additional [[ability:ca]]s.",
-            "fr": "Son [[ability:skill]] apporte de l'application [[element:hydro]] off-field tout en accumulant de la froce gravitationnelle, lui permettant d'infliger des dégâts élémentaires selon le type de réaction sélène principal de l'équipe. Son [[ability:burst]] buff les réactions Sélènes et offre 3 [[ability:verdant-dew]] spéciales, lui permettant de faire des [[ability:ca|attaques chargées]] supplémentaires."
+            "fr": "Son [[ability:skill]] apporte de l'application [[element:hydro]] off-field tout en accumulant de la froce gravitationnelle, lui permettant d'infliger des dégâts élémentaires selon le type de réaction sélène principal de l'équipe. Son [[ability:burst]] buff les réactions Sélènes et offre 3 [[ability:verdant-dew]] spéciales, lui permettant de faire des [[ability:ca|attaques chargées]] supplémentaires.",
+            "it": "La sua [[ability:skill]] applica [[element:hydro]] da fuori campo ed accumula Gravità, che le permette di infliggere DAN Lunari aggiuntivi corrispondenti alla reazione Lunare primaria del team. Il [[ability:burst]] potenzia le reazioni Lunari e fornisce 3 [[ability:verdant-dew]] addizionali, consentendole di eseguire ulteriori [[ability:ca|Attacchi Caricati]]."
         },
         {
             "en": "Do note that **[[character:lauma]] is heavily recommended** to support [[character:columbina]] in this playstyle.",
-            "fr": "Il est important de noter que **[[character:lauma]] est particulièrement recommandée** comme support pour jouer [[character:columbina]] avec ce build."
+            "fr": "Il est important de noter que **[[character:lauma]] est particulièrement recommandée** comme support pour jouer [[character:columbina]] avec ce build.",
+            "it": "Si noti che **è vivamente consigliato utilizzare [[character:lauma]]** con [[character:columbina]] in questi team."
         }
     ],
     "weapons": [
