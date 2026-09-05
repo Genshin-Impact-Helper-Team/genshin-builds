@@ -14,6 +14,7 @@
                 "note": {
                     "en": "HP circlet is primarily an option for [[stat:cd]] weapons as well.",
                     "fr": "Un diadème PV est principalement une option pour les armes [[stat:cd]].",
+                    "it": "Una corona [[stat:hp]] può essere un'opzione valida con armi con [[stat:cd]].",
                     "ru": "Корона на HP% может оказаться полезной с оружием на Крит. урон."
                 }
             },
@@ -22,6 +23,7 @@
                 "note": {
                     "en": "Strong [[stat:em]] buffs, or an EM weapon, can devalue EM Main Stats.",
                     "fr": "Les buffs de [[stat:em]] importants ou une arme ME peuvent faire perdre de la valeur aux stats principale ME.",
+                    "it": "Potenziamenti o armi che forniscono [[stat:em]] possono sminuire il valore di statistiche principali [[stat:em]].",
                     "ru": "Артефакты на МС могут оказаться малополезными при обилии МС-бонусов или с МС-оружием."
                 }
             }
