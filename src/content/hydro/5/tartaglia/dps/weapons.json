@@ -1,8 +1,9 @@
 {
     "notes": [
         {
-            "en": "[[character:tartaglia]] is calculated with [[character:bennett]], along with shorter rotation for a controlled setting",
+            "en": "[[character:tartaglia]] is calculated with [[character:bennett]], along with shorter rotation for a controlled setting.",
             "fr": "[[character:tartaglia]] a été calculé avec [[character:bennett]] ainsi qu'une rotation plus courte pour un contexte contrôlé.",
+            "it": "I calcoli presuppongono la presenza [[character:bennett]] nel team, ed una rotazione più breve per un'ambientazione controllata.",
             "ru": "Рейтинг оружия основан на том, что Тарталья используется с Беннеттом. Предполагается укороченная ротация в контролируемой обстановке."
         }
     ],
@@ -12,8 +13,8 @@
                 {
                     "name": "polar-star",
                     "note": {
-                        "en": "Dynamic Stacking, will be done alongside of stacking **[[set:nymphs-dream]] (4)**",
-                        "fr": "Stacking dynamique en parallèle du stacking de **[[set:nymphs-dream]] (4)**",
+                        "en": "Dynamic Stacking, will be done alongside of stacking **[[set:nymphs-dream]] (4)**.",
+                        "fr": "Stacking dynamique en parallèle du stacking de **[[set:nymphs-dream]] (4)**.",
                         "ru": "Урон зависит от количества полученных уровней. Ротация для получения уровней соответствует таковой для Сна нимфы (4)."
                     }
                 }
@@ -24,9 +25,10 @@
                 {
                     "name": "hunters-path",
                     "note": {
-                        "en": "Makes [[stat:em]] highly valuable, especially in rotations like **N2C or N1C**.",
-                        "fr": "Rends la [[stat:em]] très précieuse, surtout dans les rotations comme **N2C ou N1C**.",
-                        "ru": "Повышает ценность Мастерства стихий, особенно при использовании комбо N2C или N1C."
+                        "en": "Makes [[stat:em]] highly valuable, especially in rotations like **{rot:N2C} or {rot:N1C}**.",
+                        "fr": "Rends la [[stat:em]] très précieuse, surtout dans les rotations comme **{rot:N2C} ou {rot:N1C}**.",
+                        "it": "Quest'arma rende la [[stat:em]] molto desiderabile, specialmente in rotazioni che utilizzano {rot:N2C} o {rot:N1C}.",
+                        "ru": "Повышает ценность Мастерства стихий, особенно при использовании комбо {rot:N2C} или {rot:N1C}."
                     }
                 },
                 "aqua-simulacra",
@@ -47,6 +49,7 @@
                     "note": {
                         "en": "Offers a valuable passive that helps a lot in **grouping enemies**, which can offer a ton of damage from Riptide. At **[R5]** this weapon performs almost as well as **[[weapon:the-first-great-magic]]**.",
                         "fr": "Offre un passif précieux qui aide beaucoup à **regrouper les ennemis**, ce qui peut offrir énormément de dégâts de Contre-courant. Une fois **[R5]** cette arme est presque aussi bien que **[[weapon:the-first-great-magic]]**.",
+                        "it": "La passiva di quest'arma è molto efficace nel raggruppare i nemici, il che può aiutare a massimizzare i danni da Risacca (Riptide). A **[R5]** ha prestazioni simili a **[[weapon:the-first-great-magic]]**.",
                         "ru": "Имеет ценную Пассивную способность, помогающую стягивать противников, позволяя наносить высокий урон при помощи Отлива. На **[R5]** почти соответствует Первому великому фокусу."
                     }
                 }
@@ -58,8 +61,9 @@
                     "name": "kings-squire",
                     "refinement": 5,
                     "note": {
-                        "en": "Have to change double [[element:swirl]] setup to use a [[ability:ca]] instead of a [[ability:skill]]",
-                        "fr": "Nécéssite de changer le setup de Double [[element:swirl]] en utilisant une [[ability:ca]] au lieu d'un [[ability:skill]]",
+                        "en": "Have to change double [[element:swirl]] setup to use a [[ability:ca]] instead of a [[ability:skill]].",
+                        "fr": "Nécéssite de changer le setup de Double [[element:swirl]] en utilisant une [[ability:ca]] au lieu d'un [[ability:skill]].",
+                        "it": "È necessario cambiare la rotazione per attivare un doppio [[element:swirl]], usando un [[ability:ca]] al posto dell'[[ability:skill]].",
                         "ru": "Для подготовки двойного рассеивания в ротации следует использовать Заряженную атаку вместо Элементального навыка."
                     }
                 },
@@ -77,6 +81,7 @@
                     "note": {
                         "en": "Assumed first [[ability:ca]] does not get the passive. At **[R5]** this weapon performs as well as **[[weapon:the-viridescent-hunt]] [R1]** - due to this reason, it is better to get **[[weapon:the-viridescent-hunt]]** from the Battle Pass.",
                         "fr": "Suppose que la première [[ability:ca]] n'obtient pas le passif. Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:the-viridescent-hunt]] [R1]** - pour cetet raison, il vaut mieux choisir **[[weapon:the-viridescent-hunt]]** dans le Pass de Bataille.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:the-viridescent-hunt]] [R1]**.",
                         "ru": "Предполагается, что первая Заряженная атака не активирует Пассивную способность. На **[R5]** соответствует **[R1]** Зелёному луку, поэтому из боевого пропуска для Тартальи лучше брать Зелёный лук."
                     }
                 },
@@ -85,6 +90,7 @@
                     "note": {
                         "en": "Assumed 1 stack. At **[R5]** this weapon perform as well as **[[weapon:amos-bow]]**.",
                         "fr": "Suppose 1 stack. Une fois **[R5]** cette arme est aussi bien que **[[weapon:amos-bow]]**.",
+                        "it": "La classifica presuppone un accumulo. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:amos-bow]]**.",
                         "ru": "Предполагается 1 уровень Пассивной способности. На **[R5]** соответствует Луку Амоса."
                     }
                 },
@@ -114,6 +120,7 @@
                     "note": {
                         "en": "Assumed 260 Burst Cost in total. At **[R5]** this weapon performs as well as **[[weapon:scion-of-the-blazing-sun]]**.",
                         "fr": "Suppose un coût total d'ulti de 260. Une fois **[R5]** cette arme est aussi bien que **[[weapon:scion-of-the-blazing-sun]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:scion-of-the-blazing-sun]]**.",
                         "ru": "Предполагается, что суммарное потребление энергии отряда составляет 260. На **[R5]** соответствует Наследнику слепящего солнца."
                     }
                 },
