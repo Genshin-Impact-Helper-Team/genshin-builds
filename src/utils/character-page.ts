@@ -504,14 +504,12 @@ function collectMainStatNotes(
   lang: string,
   translator: TranslationHelper,
 ) {
-  return ['sands', 'goblet', 'circlet'].flatMap((slot) =>
-    collectStatNotes(
-      mainStats[slot],
-      (stat: { name: any }) => stat.name,
-      sourceFile,
-      lang,
-      translator,
-    ),
+  return collectStatNotes(
+    ['sands', 'goblet', 'circlet'].flatMap((slot) => mainStats[slot]),
+    (stat: { name: string }) => stat.name,
+    sourceFile,
+    lang,
+    translator,
   );
 }
 
