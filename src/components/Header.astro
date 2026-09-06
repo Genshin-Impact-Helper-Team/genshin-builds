@@ -65,8 +65,13 @@ const infoLinks = [
     label: t(locale, 'ui', 'Changelog', undefined, false) || 'Changelog',
     isCurrent: page === 'changelog',
   },
+  {
+    href: localizedPath(currentLang, 'privacy'),
+    label: t(locale, 'ui', 'Privacy Policy', undefined, false),
+    isCurrent: page === 'privacy',
+  },
 ];
-const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
+const isInfoCurrent = infoLinks.some((link) => link.isCurrent) || page === 'your-feedback';
 ---
 
 <header class="site-header">
@@ -100,6 +105,15 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
             <span class="dropdown-chevron" aria-hidden="true"></span>
           </summary>
           <div class="dropdown-menu">
+            <a
+              class="dropdown-link"
+              href={localizedPath(currentLang, 'your-feedback')}
+              aria-current={page === 'your-feedback' ? 'page' : undefined}
+              data-feedback-history-link
+              hidden
+            >
+              {t(locale, 'ui', 'Your feedback')}
+            </a>
             {
               infoLinks.map((link) => (
                 <a
@@ -200,5 +214,6 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent);
 <script>
   import '../scripts/header';
   import '../scripts/feedback-form';
+  import '../scripts/your-feedback';
   import '../scripts/site-search';
 </script>

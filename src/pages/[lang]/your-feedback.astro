@@ -1,0 +1,21 @@
+---
+import SimplePageLayout from '../../layouts/SimplePageLayout.astro';
+import { getLocale, t } from '../../utils/i18n';
+import { getLanguageStaticPaths } from '../../utils/routes';
+import { localizedPath } from '../../utils/paths';
+
+export const getStaticPaths = getLanguageStaticPaths;
+const lang = Astro.params.lang ?? 'en';
+const locale = getLocale(lang);
+const title = t(locale, 'ui', 'Your feedback');
+---
+
+<SimplePageLayout title={title} lang={lang} locale={locale} page="your-feedback" showTitle={false}>
+  <div data-feedback-history-page data-empty-redirect={localizedPath(lang, '404')} hidden>
+    <h1>{title}</h1>
+    <section class="card">
+      <p>{t(locale, 'ui', 'Feedback history description')}</p>
+      <ul data-feedback-history-list data-issue-label={t(locale, 'ui', 'GitHub issue')}></ul>
+    </section>
+  </div>
+</SimplePageLayout>

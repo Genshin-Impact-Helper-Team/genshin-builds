@@ -1,4 +1,5 @@
 import { closeModal, modal, toast } from 'webcoreui';
+import { feedbackIssueUrl, saveFeedbackIssue } from './feedback-history.mjs';
 
 declare global {
   interface Window {
@@ -24,8 +25,6 @@ const LANGUAGE_SELECTOR = '[data-feedback-language]';
 const STATUS_SELECTOR = '[data-feedback-status]';
 const CAPTCHA_SELECTOR = '[data-feedback-captcha]';
 const SUCCESS_TOAST_SELECTOR = '#feedback-success-toast';
-const FEEDBACK_ISSUE_PATH_PATTERN =
-  /^\/Genshin-Impact-Helper-Team\/genshin-builds\/issues\/\d+$/i;
 const TURNSTILE_SCRIPT_URL =
   'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
 
@@ -94,23 +93,6 @@ function resetCaptcha(widget: HTMLElement) {
     widget.querySelector<HTMLElement>(CAPTCHA_SELECTOR)?.dataset
       .turnstileWidget;
   window.turnstile?.reset?.(widgetId);
-}
-
-function feedbackIssueUrl(value: unknown) {
-  if (typeof value !== 'string') return '';
-
-  try {
-    const url = new URL(value);
-    if (
-      url.origin !== 'https://github.com' ||
-      !FEEDBACK_ISSUE_PATH_PATTERN.test(url.pathname)
-    ) {
-      return '';
-    }
-    return `${url.origin}${url.pathname}`;
-  } catch {
-    return '';
-  }
 }
 
 function successToastContent(issueUrl: unknown) {
@@ -185,6 +167,8 @@ function bindFeedbackWidget(widget: HTMLElement) {
         body: JSON.stringify(Object.fromEntries(new FormData(form))),
       });
       const result = await response.json().catch(() => ({}));
+
+      saveFeedbackIssue(result.issueUrl);
 
       if (!response.ok) {
         const message = result.error || 'Could not send feedback.';
