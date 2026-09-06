@@ -3,12 +3,14 @@
     "name": {
         "en": "[[element:bloom]] Support",
         "fr": "Support [[element:bloom]]",
+        "it": "Supporto [[element:bloom]]",
         "ru": "Саппорт под бутоны"
     },
     "notes": [
         {
             "en": "As a [[element:bloom]] Support, [[character:nilou]]'s role is to maximize a team's [[element:bloom]] Damage in teams of strictly [[element:hydro]] and [[element:dendro]] characters. Level 90 is highly recommended to maximize [[character:nilou]]'s HP and [[element:bloom]] Damage",
             "fr": "En tant que support [[element:bloom]], le rôle de [[character:nilou]] est de maximiser les dégâts de [[element:bloom]] dans les équipes composées uniquement d'[[element:hydro]] et [[element:dendro]]. Il est très recommandé de la monter Niveau 90 pour maximiser ses PV et dégâts de [[element:bloom]]",
+            "it": "Il ruolo di [[character:nilou]] è quello di massimizzare il danno da [[element:bloom]] in team composti esclusivamente da personaggi [[element:hydro]] e [[element:dendro]]. È altamente consigliato portare [[character:nilou]] a livello 90 per massimizzare i suoi PS e i suoi danni da [[element:bloom]].",
             "ru": "Нилу увеличивает урон от Дендро ядер в командах, состоящих исключительно из Гидро и Дендро персонажей. Крайне рекомендуется иметь 90 уровень, чтобы максимально увеличить HP Нилу и урон от Бутонизации."
         },
         {
