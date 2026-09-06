@@ -3,6 +3,7 @@
         {
             "en": "Weapon options similar to **[[weapon:prototype-amber]]** can be used better by other characters, so it's not recommended to pull or upgrade these weapons just for [[character:neuvillette]].",
             "fr": "Les options d'armes similaires à **[[weapon:prototype-amber]]** peuvent être meilleures pour d'autres personnages, donc il n'est pas recommandé de les pull ou les améliorer juste pour [[character:neuvillette]].",
+            "it": "Le armi con prestazioni simili a **[[weapon:prototype-amber]]** possono essere utilizzate meglio da altri personaggi, quindi non è consigliabile ottenere o potenziare queste armi solo per [[character:neuvillette]].",
             "ru": "Варианты из общего с Прототипом: Янтарь блока (Великолепие, Истина кагура, МСВ) зачастую лучше использовать на других персонажах. Не рекомендуется специально выбивать или прокачивать их для Нёвиллета."
         }
     ],
@@ -36,6 +37,7 @@
                     "note": {
                         "en": "With low [[stat:er]] requirements, this weapon can slightly edge out [[weapon:prototype-amber]], though it lacks [[weapon:prototype-amber]]'s teamwide healing utility.",
                         "fr": "Dans les cas avec de faibles besoins en [[stat:er]], cette arme bat de justesse **[[weapon:prototype-amber]]**, bien qu'elle n'ai pas la commodité de soin sur toute l'équipe de **[[weapon:prototype-amber]]**.",
+                        "it": "Con requisiti di [[stat:er]] bassi, quest'arma può superare di poco [[weapon:prototype-amber]], anche se non ha la stessa utilità di cura per tutto il team.",
                         "ru": "При низких требованиях к ВЭ, может несколько превосходить Прототип: Янтарь, если не принимать во внимание лечение для отряда."
                     }
                 }
