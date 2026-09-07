@@ -84,7 +84,7 @@
                     "note": {
                         "en": "At **[R5]**, this weapon outperforms **[[weapon:memory-of-dust]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
                         "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:memory-of-dust]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:memory-of-dust]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:memory-of-dust]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttarne la passiva.",
                         "ru": "**На [R5]** превосходит **[[weapon:memory-of-dust]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия."
                     }
                 }
