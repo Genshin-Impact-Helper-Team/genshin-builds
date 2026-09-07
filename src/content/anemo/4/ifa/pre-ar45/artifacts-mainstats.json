@@ -17,7 +17,8 @@
                 "name": "em",
                 "note": {
                     "en": "Prioritize [[stat:em]] if team is reaction-based.",
-                    "fr": "Priorisez la [[stat:em]] si l'équipe est basée sur les réactions."
+                    "fr": "Priorisez la [[stat:em]] si l'équipe est basée sur les réactions.",
+                    "it": "Prioritizza la [[stat:em]] se il team è basato sulle reazioni."
                 }
             }
         ]
