@@ -7,7 +7,8 @@
         },
         {
             "items": [
-                "reliquary-of-truth"
+                "reliquary-of-truth",
+                "surfs-up"
             ]
         },
         {
@@ -15,10 +16,10 @@
                 {
                     "name": "memory-of-dust",
                     "note": {
-                        "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:lost-prayer]]**.",
-                        "fr": "Ce classement suppose que [[character:wriothesley]] est sous bouclier. Si ce n'est pas le cas, cette arme se classe sous **[[weapon:lost-prayer]]**.",
-                        "it": "La classifica presuppone che [[character:wriothesley]] si trovi **sotto la protezione di uno scudo**. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:lost-prayer]]**.",
-                        "ru": "Предполаается наличие щита. Без него данное оружие уступает **[[weapon:lost-prayer|Молитве святым ветрам]]**."
+                        "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:vivid-notions]]**.",
+                        "fr": "Ce classement suppose que [[character:wriothesley]] est sous bouclier. Si ce n'est pas le cas, cette arme se classe sous **[[weapon:vivid-notions]]**.",
+                        "it": "La classifica presuppone che [[character:wriothesley]] si trovi **sotto la protezione di uno scudo**. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:vivid-notions]]**.",
+                        "ru": "Предполаается наличие щита. Без него данное оружие уступает **[[weapon:vivid-notions]]**."
                     }
                 },
                 "vivid-notions"
@@ -26,11 +27,21 @@
         },
         {
             "items": [
-                "lost-prayer-to-the-sacred-winds"
+                "lost-prayer-to-the-sacred-winds",
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva.",
+                        "ru": "**На [R5]** превосходит **[[weapon:reliquary-of-truth]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия."
+                    }
+                }
             ]
         },
         {
             "items": [
+                "tulaytullahs-remembrance",
                 {
                     "name": "echoes-of-the-heart",
                     "refinement": 5
@@ -39,53 +50,32 @@
         },
         {
             "items": [
-                "angelos-heptades",
-                "surfs-up",
-                "tulaytullahs-remembrance"
+                "angelos-heptades"
             ]
         },
         {
             "items": [
                 "kaguras-verity",
+                "tome-of-the-eternal-flow",
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
                 "skyward-atlas",
-                "tome-of-the-eternal-flow"
+                "cranes-echoing-call"
             ]
         },
         {
             "items": [
-                "starcallers-watch",
-                "cranes-echoing-call",
-                "a-thousand-floating-dreams"
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "sacrificial-jade",
-                    "note": {
-                        "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
-                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**.",
-                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:starcallers-watch|Бдению взывающего к звёздам]]**."
-                    }
-                },
-                "nightweavers-looking-glass",
+                "a-thousand-floating-dreams",
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "**At [R5]**, this option performs closer to **[[weapon:starcallers-watch]]**.",
-                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:starcallers-watch]]**.",
-                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:starcallers-watch|Бдению взывающего к звёздам]]**."
-                    }
-                },
-                {
-                    "name": "clash-of-kings",
-                    "note": {
-                        "en": "At **[R5]**, this weapon outperforms **[[weapon:memory-of-dust]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:memory-of-dust]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:memory-of-dust]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva.",
-                        "ru": "**На [R5]** превосходит **[[weapon:memory-of-dust]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия."
+                        "en": "**At [R5]**, this option performs closer to **[[weapon:vivid-notions]]**.",
+                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:vivid-notions]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:vivid-notions]]**.",
+                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:vivid-notions]]**."
                     }
                 }
             ]
