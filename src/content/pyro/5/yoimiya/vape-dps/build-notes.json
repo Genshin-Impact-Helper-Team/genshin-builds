@@ -1,8 +1,10 @@
 {
     "best": true,
     "name": {
-        "en": "DPS",
-        "ru": "ДД"
+        "en": "[[element:vaporize]] DPS",
+        "fr": "DPS [[element:vaporize]]",
+        "it": "DPS [[element:vaporize]]",
+        "ru": "ДД через [[element:vaporize]]"
     },
     "notes": [
         {
