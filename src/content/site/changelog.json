@@ -5,9 +5,14 @@
             "version": "7.0",
             "entries": [
                 {
-                    "date": "September 11, 2026",
+                    "date": "September 12, 2026",
                     "changes": "Updated Yoimiya and split her section in Vape and Overload builds.",
                     "appliedBy": "Plo"
+                },
+                {
+                    "date": "September 11, 2026",
+                    "changes": "Updated Navia section.",
+                    "appliedBy": "Finnyke"
                 },
                 {
                     "date": "September 5, 2026",
