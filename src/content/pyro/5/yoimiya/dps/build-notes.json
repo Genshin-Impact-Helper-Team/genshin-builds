@@ -22,6 +22,9 @@
             "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa {rot:N5}, et dans les équipes [[element:vaporize]] vous devriez chercher à évaporer sa {rot:N1}, {rot:N3} et {rot:N5}.",
             "it": "Il colpo più forte della stringa di [[ability:na|Attacchi Normali]] di [[character:yoimiya]] è il suo {rot:N5}, ed in un team [[element:vaporize]] dovresti [[element:vaporize|Vaporizzare]] l'{rot:N1}, l'{rot:N3} e l'{rot:N5}.",
             "ru": "Сильнейшая [[ability:na]] из серии - {rot:N5}. В отрядах, где она играет через [[element:vaporize]], реакция должна вызываться на {rot:N1}, {rot:N3} и {rot:N5}."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:jade-vista]]\n"
         }
     ],
     "weapons": {

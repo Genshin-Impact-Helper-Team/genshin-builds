@@ -30,6 +30,12 @@
             "fr": "**Certaines équipes ne gagnent que très peu - si ce n'est rien - avec l'[[ability:burst]] de [[character:nicole]]**, auquel  cas il n'est pas utile d'aller chercher de la [[stat:er]].",
             "it": "**Alcuni team non traggono grandi benefici — se non addirittura nessuno — dal [[ability:burst]] di [[character:nicole]]**; in tal caso, non è necessario accumulare [[stat:er]].",
             "ru": "Для некоторых отрядов [[ability:burst]] [[character:nicole]] не слишком нужен или вовсе бесполезен - в этом случае сборка в [[stat:er|ВЭ]] не требуется."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:clash-of-kings]]\n- [[weapon:echoes-of-the-heart]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

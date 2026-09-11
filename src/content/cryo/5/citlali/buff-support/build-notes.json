@@ -12,6 +12,9 @@
             "fr": "Bien que [[character:citlali]] offre principalement du support grâce à son bouclier, son passif **Pluie frigide de Mamaloaco** qui baisse la RES [[element:hydro]] et [[element:pyro]] ainsi que sa capacité à utiliser pleinement **[[set:scroll]]** lui permettent d'offrir de très bonnes commodités offensives pour l'équipe.",
             "it": "Oltre a fornire utilità difensiva al team attraverso il suo scudo, il Talento passivo di [[character:citlali]] 'Pioggia gelida di Mamaloaco' **riduce la RES [[element:hydro]] e [[element:pyro]] dei nemici**. Questo, insieme alla capacità di sfruttare appieno il set **[[set:scroll]]**, le consente di offrire anche una grande utilità offensiva al team.",
             "ru": "Хоть и основная сила [[character:citlali]] заключается в возможности создавать щит, она также может заметно повышать урон отряда за счёт своей Пассивной способности **Холодный дождь Мамалоако** (снижает [[element:hydro]] и [[element:pyro]] сопротивление противников) и возможности полностью раскрывать сет **[[set:scroll]]**."
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

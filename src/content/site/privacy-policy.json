@@ -1,0 +1,34 @@
+{
+    "sections": [
+        {
+            "title": {
+                "en": "No analytics or advertisements",
+                "fr": "Aucun outil d’analyse ni publicité"
+            },
+            "content": {
+                "en": "Genshin Builds does not use analytics, visitor tracking, or third-party advertisements. We have no plans to introduce any of them. We do not collect browsing activity or build visitor profiles.",
+                "fr": "Genshin Builds n’utilise aucun outil d’analyse d’audience, aucun suivi des visiteurs et aucune publicité tierce. Nous ne prévoyons pas d’en ajouter. Nous ne collectons pas de données sur votre activité de navigation et ne créons pas de profils de visiteurs."
+            }
+        },
+        {
+            "title": {
+                "en": "What stays in your browser",
+                "fr": "Ce qui reste dans votre navigateur"
+            },
+            "content": {
+                "en": "The preferences we save stay on your device and are not sent to us. They use your browser's local storage and session storage, rather than cookies or its file cache:\n\n- **Sorting preferences:** your selected sort order for the character, weapon, and artifact lists is saved separately in local storage so it can be restored on your next visit.\n\n- **Search shortcut banner setting:** if you disable the banner in the search settings, local storage remembers that choice across visits.\n\n- **Temporary banner dismissal:** closing the search shortcut banner saves a session storage setting for the current tab's session.\n\n- **Your feedback:** GitHub issue links returned when you submit feedback are saved in local storage so you can find them on the Your feedback page. Only the issue links are saved in this history; it stays in this browser and is not synced between devices. Clearing it does not delete the GitHub issues.\n\nYou can reset these preferences by clearing this site's storage in your browser settings. Clearing only cached files may not remove them.",
+                "fr": "Les préférences que nous enregistrons restent sur votre appareil et ne nous sont pas transmises. Elles utilisent le stockage local et le stockage de session de votre navigateur, plutôt que des cookies ou son cache de fichiers :\n\n- **Préférences de tri :** l’ordre de tri que vous choisissez pour les listes de personnages, d’armes et d’artéfacts est enregistré séparément dans le stockage local afin d’être rétabli lors de votre prochaine visite.\n\n- **Paramètre de la bannière du raccourci de recherche :** si vous désactivez la bannière dans les paramètres de recherche, le stockage local mémorise ce choix d’une visite à l’autre.\n\n- **Fermeture temporaire de la bannière :** lorsque vous fermez la bannière du raccourci de recherche, ce choix est enregistré dans le stockage de session pour la session de l’onglet actuel.\n\n- **Vos commentaires :** les liens des tickets GitHub renvoyés lors de l’envoi de vos commentaires sont enregistrés dans le stockage local afin de les retrouver sur la page Vos commentaires. Cet historique contient uniquement les liens des tickets ; il reste dans ce navigateur et n’est pas synchronisé entre vos appareils. Sa suppression ne supprime pas les tickets GitHub.\n\nVous pouvez réinitialiser ces préférences en effaçant les données stockées par ce site dans les paramètres de votre navigateur. Effacer uniquement les fichiers en cache ne suffit pas nécessairement à les supprimer."
+            }
+        },
+        {
+            "title": {
+                "en": "If you send feedback",
+                "fr": "Si vous envoyez un commentaire"
+            },
+            "content": {
+                "en": "Feedback is optional and is an exception to browser-only storage. When you submit the form, it sends your message, feedback category, page URL (the current page by default), language, and any Discord username you choose to provide to our feedback endpoint. The feedback is used to create a GitHub issue, including those details.\n\nThe feedback form uses Cloudflare Turnstile for spam protection when configured. It loads when you open the form. During submission, the server sends the verification token and your IP address, when available, to Cloudflare for verification. This is spam protection, not analytics or advertising.",
+                "fr": "L’envoi d’un commentaire est facultatif et constitue une exception au stockage uniquement dans le navigateur. Lorsque vous envoyez le formulaire, votre message, sa catégorie, l’URL de la page (la page actuelle par défaut), la langue et le nom d’utilisateur Discord que vous choisissez éventuellement de fournir sont transmis à notre service de réception des commentaires. Ces informations sont ensuite utilisées pour créer un ticket GitHub dans lequel elles sont incluses.\n\nLe formulaire utilise Cloudflare Turnstile comme protection contre le spam lorsque ce service est configuré. Il se charge à l’ouverture du formulaire. Lors de l’envoi, le serveur transmet le jeton de vérification ainsi que votre adresse IP, lorsqu’elle est disponible, à Cloudflare pour vérification. Il s’agit d’une protection contre le spam, et non d’un outil d’analyse d’audience ou de publicité."
+            }
+        }
+    ]
+}

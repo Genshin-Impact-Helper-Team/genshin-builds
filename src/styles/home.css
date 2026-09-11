@@ -170,7 +170,7 @@
   color: color-mix(in srgb, var(--text) 94%, white 6%);
   font: inherit;
   font-size: 0.94rem;
-  font-weight: 720;
+  font-weight: 650;
   letter-spacing: 0;
   text-transform: none;
 }

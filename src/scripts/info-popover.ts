@@ -5,16 +5,47 @@ card.setAttribute('popover', 'auto');
 card.setAttribute('role', 'dialog');
 document.body.append(card);
 
+const NOTE_TRIGGER_SELECTOR = '.note-button[data-note-id]';
+const POPOVER_SELECTOR = `.info-popover, ${NOTE_TRIGGER_SELECTOR}`;
+const TRIGGER_SELECTOR = `.info-popover-trigger, ${NOTE_TRIGGER_SELECTOR}`;
+
 let activePopover: HTMLElement | null = null;
 let pinned = false;
 
 const getPopover = (target: EventTarget | null) =>
   target instanceof Element
-    ? target.closest<HTMLElement>('.info-popover')
+    ? target.closest<HTMLElement>(POPOVER_SELECTOR)
     : null;
 
+const getTrigger = (popover: HTMLElement) =>
+  popover.matches(TRIGGER_SELECTOR)
+    ? popover
+    : popover.querySelector<HTMLElement>(TRIGGER_SELECTOR);
+
+function getNotePopoverHtml(noteId: string) {
+  const note = Array.from(
+    document.querySelectorAll<HTMLElement>('.note-target[data-note-id]'),
+  ).find((item) => item.dataset.noteId === noteId);
+  if (!note) return '';
+
+  const clone = note.cloneNode(true) as HTMLElement;
+  clone.querySelectorAll<HTMLElement>('.info-popover').forEach((popover) => {
+    const trigger = getTrigger(popover);
+    popover.replaceWith(
+      document.createTextNode(trigger?.textContent ?? popover.textContent ?? ''),
+    );
+  });
+
+  return clone.innerHTML;
+}
+
+const getPopoverHtml = (popover: HTMLElement) =>
+  popover.dataset.noteId
+    ? getNotePopoverHtml(popover.dataset.noteId)
+    : popover.dataset.infoPopoverHtml;
+
 function positionCard(popover: HTMLElement) {
-  const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
+  const trigger = getTrigger(popover);
   if (!trigger) return;
 
   const triggerRect = trigger.getBoundingClientRect();
@@ -36,12 +67,12 @@ function positionCard(popover: HTMLElement) {
 }
 
 function showPopover(popover: HTMLElement, pin = false) {
-  const html = popover.dataset.infoPopoverHtml;
+  const html = getPopoverHtml(popover);
   if (!html) return;
 
-  activePopover
-    ?.querySelector<HTMLElement>('.info-popover-trigger')
-    ?.setAttribute('aria-expanded', 'false');
+  if (activePopover) {
+    getTrigger(activePopover)?.setAttribute('aria-expanded', 'false');
+  }
   activePopover = popover;
   pinned = pin;
   card.className = [
@@ -51,7 +82,7 @@ function showPopover(popover: HTMLElement, pin = false) {
     .filter(Boolean)
     .join(' ');
   card.innerHTML = html;
-  const trigger = popover.querySelector<HTMLElement>('.info-popover-trigger');
+  const trigger = getTrigger(popover);
   trigger?.setAttribute('aria-controls', card.id);
   trigger?.setAttribute('aria-expanded', 'true');
 
@@ -60,9 +91,9 @@ function showPopover(popover: HTMLElement, pin = false) {
 }
 
 function hidePopover() {
-  activePopover
-    ?.querySelector<HTMLElement>('.info-popover-trigger')
-    ?.setAttribute('aria-expanded', 'false');
+  if (activePopover) {
+    getTrigger(activePopover)?.setAttribute('aria-expanded', 'false');
+  }
   activePopover = null;
   pinned = false;
   if (card.matches(':popover-open')) card.hidePopover();
@@ -97,12 +128,7 @@ document.addEventListener('click', (event) => {
     return;
   }
 
-  if (target.closest('.note-link')) {
-    hidePopover();
-    return;
-  }
-
-  const popover = getPopover(target.closest('.info-popover-trigger'));
+  const popover = getPopover(target.closest(TRIGGER_SELECTOR));
   if (!popover) return;
 
   event.preventDefault();
@@ -128,10 +154,12 @@ document.addEventListener('pointerover', (event) => {
   if ((event as PointerEvent).pointerType === 'touch') return;
   const popover = getPopover(
     event.target instanceof Element
-      ? event.target.closest('.info-popover-trigger')
+      ? event.target.closest(TRIGGER_SELECTOR)
       : null,
   );
-  if (popover && popover !== activePopover && !pinned) showPopover(popover);
+  if (popover && popover !== activePopover && !pinned) {
+    showPopover(popover);
+  }
 });
 
 document.addEventListener('pointerout', (event) => {
@@ -149,7 +177,7 @@ document.addEventListener('pointerout', (event) => {
 document.addEventListener('focusin', (event) => {
   const popover = getPopover(
     event.target instanceof Element
-      ? event.target.closest('.info-popover-trigger')
+      ? event.target.closest(TRIGGER_SELECTOR)
       : null,
   );
   if (popover && !pinned) showPopover(popover);
@@ -172,7 +200,7 @@ document.addEventListener('keydown', (event) => {
 
   const popover = getPopover(
     event.target instanceof Element
-      ? event.target.closest('.info-popover-trigger')
+      ? event.target.closest(TRIGGER_SELECTOR)
       : null,
   );
   if (!popover) return;
@@ -184,9 +212,9 @@ document.addEventListener('keydown', (event) => {
 
 card.addEventListener('toggle', () => {
   if (!card.matches(':popover-open')) {
-    activePopover
-      ?.querySelector<HTMLElement>('.info-popover-trigger')
-      ?.setAttribute('aria-expanded', 'false');
+    if (activePopover) {
+      getTrigger(activePopover)?.setAttribute('aria-expanded', 'false');
+    }
     activePopover = null;
     pinned = false;
   }

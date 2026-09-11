@@ -424,3 +424,7 @@ a:hover {
   min-width: 32px;
   padding: 0 4px;
 }
+[data-feedback-history-link][hidden],
+[data-feedback-history-page][hidden] {
+  display: none !important;
+}

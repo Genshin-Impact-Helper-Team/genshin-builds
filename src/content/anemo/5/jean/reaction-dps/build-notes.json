@@ -12,6 +12,12 @@
             "fr": "[[character:jean]] DPS Réaction repose sur son interaction unique avec son [[ability:burst]]. Si le personnage actif est affecté par [[element:hydro]] / [[element:pyro]] / [[element:electro]] / [[element:cryo]], l'[[ability:burst]] de [[character:jean]] l'infusera avec [[element:anemo]] et créera un déclenchement de [[element:swirl]] autour du personnage. Cette interaction peut être exploitée en utilisant [[character:bennett]] pour infuser constamment le personnage actif avec [[element:pyro]]. Cela permet d'obtenir une quantité extrêmement élevée de déclenchements de [[element:swirl]] [[element:pyro]]. Les dégâts de ces [[element:swirl]] dépendent de la [[stat:em]] de [[character:jean]].",
             "it": "[[character:jean]] DPS da Reazione si basa sulla particolare interazione del suo [[ability:burst]]: se il il personaggio attivo è afflitto da [[element:hydro]] / [[element:pyro]] / [[element:electro]] / [[element:cryo]], il [[ability:burst]] di [[character:jean]] li infonderà con [[element:anemo]] e provocherà [[element:swirl]] attorno al personaggio. Questa interazione può essere sfruttata utilizzando il [[ability:burst]] di [[character:bennett]] per infondere costantemente il personaggio attivo con [[element:pyro]], il che consente di provocare un numero elevato di [[element:swirl|Turbinii]] [[element:pyro]]. Questi [[element:swirl|Turbinii]] infliggono danni che scalano sulla [[stat:em]] di [[character:jean]].",
             "ru": "Сборка полагается на уникальное взаимодействие статусов с [[ability:burst|Взрывом стихии]] [[character:jean]]. Если активный персонаж имеет [[element:hydro]]/[[element:pyro]]/[[element:electro]]/[[element:cryo]] статус, [[ability:burst]] [[character:jean]] наложит [[element:anemo]] и вызовет [[element:swirl]] вокруг этого персонажа. Злоупотребляя этим за счёт [[ability:burst|Взрыва стихии]] [[character:bennett|Беннета]], можно добиться огромного количества срабатываний [[element:pyro]] [[element:swirl|Рассеивания]]. Урон этих реакций зависит от значения [[stat:em|Мастерства стихий]] [[character:jean]]."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:emberwell]]\n- [[weapon:exaiphanes-blade]]\n- [[weapon:heretics-molten-blade]]\n- [[weapon:whitelake-frostfeather]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n- [[set:scarlet-proof]]\n"
         }
     ]
 }

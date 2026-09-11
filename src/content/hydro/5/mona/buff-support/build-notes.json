@@ -25,6 +25,12 @@
             "en": "Frozen enemies can have their bubbles preserved as long as enemies stay in a frozen state. This technique makes [[character:mona]] a priority Support for [[element:cryo]] DPS teams.",
             "fr": "Les ennemis gelés peuvent conserver leur bulle tant qu'ils restent dans cet état de gel. Cette technique fait de [[character:mona]] un support à prioriser pour les équipes de DPS [[element:cryo]].",
             "ru": "Пузырь на Замороженных врагах сохраняется до тех пор, пока они находятся в данном состоянии. За счет этого Мона является приоритетным саппортом в командах, играющих от Заморозки."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:clash-of-kings]]\n- [[weapon:echoes-of-the-heart]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

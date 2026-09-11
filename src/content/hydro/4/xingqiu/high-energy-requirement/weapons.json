@@ -30,6 +30,7 @@
                     "note": {
                         "en": "Despite this weapon providing the most energy for [[character:xingqiu]] himself, it is a selfish weapon that extends rotation times which is a loss in team DPS. However, if you aren't worried about damage, its comfort is unparalleled as long as it is **[R4+]**.",
                         "fr": "Bien que cette arme donne le plus d'énergie à [[character:xingqiu]], c'est un choix d'arme égoïste qui allonge la durée de la rotation ce qui est une perte de DPS pour l'équipe. Cependant, si vous ne vous inquiétez pas dé dégâts, son confort est inégalé tant que l'arme est **[R4+]**.",
+                        "it": "Nonostante quest'arma offra la maggior quantità di energia per [[character:xingqiu]] stesso, è un'arma che allunga i tempi di rotazione, il che risulta in una perdita di DPS per il team. Tuttavia, se non ti interessano i danni del team, la comodità offerta da quest'arma a **[R4+]** è impareggiabile.",
                         "ru": "Несмотря на то, что данное оружие дает наибольшее количество энергии для самого Син Цю, его использование приводит к удлинению ротаций, тем самым понижая общий показатель урона в секунду. Если вы готовы принять потерю в уроне, данное оружие является комфортным выбором на [R4+]."
                     }
                 }
@@ -42,6 +43,7 @@
             "note": {
                 "en": "If you are able to meet [[stat:er]] requirements, this weapon outperforms [[weapon:favonius-sword]] by a large enough margin to mention here.",
                 "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné.",
+                "it": "Se riesci a soddisfare i requisiti di [[stat:er]] di Xingqiu, quest'arma ha prestazioni migliori di [[weapon:favonius-sword]] con un margine abbastanza rilevante.",
                 "ru": "Если Вам удаётся достигнуть требований к Восстановлению энергии, превосходит Меч Фавония достаточно сильно, чтобы заслуживать упоминания."
             }
         },
@@ -49,7 +51,8 @@
             "name": "primordial-jade-cutter",
             "note": {
                 "en": "If you are able to meet [[stat:er]] requirements, this weapon outperforms [[weapon:favonius-sword]] by a large enough margin to mention here.",
-                "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné.",
+                "fr": "Si vous arrivez à atteindre les besoins en [[stat:er]], cette arme est meilleure que [[weapon:favonius-sword]] de suffisamment loin pour que ça soit mentionné.",                
+                "it": "Se riesci a soddisfare i requisiti di [[stat:er]] di Xingqiu, quest'arma ha prestazioni migliori di [[weapon:favonius-sword]] con un margine abbastanza rilevante.",
                 "ru": "Если Вам удаётся достигнуть требований к Восстановлению энергии, превосходит Меч Фавония достаточно сильно, чтобы заслуживать упоминания."
             }
         },
@@ -58,6 +61,7 @@
             "note": {
                 "en": "In a team where [[character:xingqiu]] consistently triggers reactions (most commonly [[element:bloom]] or [[element:electrocharged]]) and the team benefits from [[weapon:freedom-sworn]]'s buff, this becomes competitive with [[weapon:primordial-jade-cutter]] for [[character:xingqiu]]'s best weapon assuming you are able to meet [[stat:er]] requirements.",
                 "fr": "Dans les équipes où [[character:xingqiu]] déclenche régulièrement des réactions ([[element:bloom]] ou [[element:electrocharged]] la plupart du temps) et que l'équipe bénéficie du buff de [[weapon:freedom-sworn]], cette arme devient équivalente à [[weapon:primordial-jade-cutter]] pour la meilleure arme de [[character:xingqiu]] en partant du principe que les besoins en [[stat:er]] sont atteints.",
+                "it": "In team in cui [[character:xingqiu]] provoca reazioni regolarmente (solitamente [[element:bloom]] o [[element:electrocharged]]) ed il team trae vantaggio dal potenziamento fornito di quest'arma, essa diventa competitiva con [[weapon:primordial-jade-cutter]] come migliore arma di [[character:xingqiu]], presumendo che tu riesca a soddisfare i suoi requisiti di [[stat:er]].",
                 "ru": "В отрядах, где Син Цю может стабильно вызывать реакции (чаще всего Заряжен или Бутонизация), и другие члены отряда используют бонус Пассивной способности, соответствует Драгоценному омуту при условии достижения требований к Восстановлению энергии."
             }
         }

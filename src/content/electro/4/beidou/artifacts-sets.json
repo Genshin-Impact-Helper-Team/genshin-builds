@@ -87,7 +87,7 @@
                     "note": {
                         "en": "This set does less for [[character:beidou]]'s personal damage, but provides useful buffs for the team. Only useful if there are sources of [[element:stellar-glimmer]] damage.",
                         "fr": "Ce set donne moins de dégâts personnels à [[character:beidou]], mais offre des buffs utiles pour l'équipe. N'est utile que s'il y a une source de dégâts de [[element:stellar-glimmer]] dans l'équipe.",
-                        "it": "Questo set penalizza i danni personali di [[character:beidou]], ma fornisce potenziamenti utili al team. Utile solo se sono presenti fonti di danno [[element:stellar-glimmer]].",
+                        "it": "Questo set penalizza i danni personali di [[character:beidou]], ma fornisce potenziamenti utili al team. Utile solo se sono presenti fonti di danno **[[element:stellar-glimmer]]**.",
                         "ru": "Менее эффективен для личного урона [[character:beidou]], но дает бонусы для отряда. Полезен только при наличии источников Звёздного урона."
                     }
                 }

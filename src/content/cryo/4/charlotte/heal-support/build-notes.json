@@ -18,6 +18,9 @@
             "fr": "Le [[ability:skill]] maintenu de [[character:charlotte]] passera en mode photo si le gadget Zomm d'Analyse Spéciale est activé. Pensez à le désactiver dans l'inventaire si vous voulez utiliser correctement son [[ability:skill]] maintenu en combat.",
             "it": "L'[[ability:skill]] premuta a lungo di [[character:charlotte]] avvia la Modalità Foto se il gadget 'Teleobiettivo per analisi speciali' è attivo. Assicurati di disattivarlo se desideri utilizzare la sua [[ability:skill]] premuta a lungo durante il combattimento.",
             "ru": "При использовании гаджета Зум-объектив особого анализа долгое нажатие [[ability:skill|Элементального навыка]] [[character:charlotte|Шарлотты]] активирует фоторежим. При необходимости использовать долгое нажатие в обычном режиме заранее снимите гаджет."
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

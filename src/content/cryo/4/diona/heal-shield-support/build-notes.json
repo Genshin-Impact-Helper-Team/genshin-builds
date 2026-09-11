@@ -18,6 +18,9 @@
             "fr": "Le [[ability:skill]] de [[character:diona]] octroie un bouclier [[element:cryo]] qui permet de cleanse. Chaque fois que vous changez de personnage avec le bouclier actif, il applique [[element:cryo]]. Cela agit comme un cleanse.",
             "it": "L'[[ability:skill]] di [[character:diona]] fornisce uno scudo [[element:cryo]] che permette di rimuovere eventuali aure dal personaggio attivo: ogni volta che passi ad un nuovo personaggio nel team, lo scudo applica [[element:cryo]].",
             "ru": "Элементальный навык Дионы создает щит, накладывающий статус Крио на активного персонажа при переключении. Это позволяет использовать его для очищения персонажа от различных эффектов."
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

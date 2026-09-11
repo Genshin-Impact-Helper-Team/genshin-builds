@@ -18,6 +18,9 @@
             "fr": "Le Hold [[ability:skill]] de [[character:escoffier]] peut vous fournir jusqu'à 10 plats délicieux spéciaux par semaine, mais il ne vous aide pas à cuisiner vos ennemis, donc évitez de l'utiliser en combat.",
             "it": "L’[[ability:skill]] premuta a lungo di [[character:escoffier]] può fornire fino a 10 Piatti Deliziosi Speciali a settimana, ma non aiuta a 'cucinare' i nemici, dunque evita di usarla durante i combattimenti.",
             "ru": "Долгое нажатие [[ability:skill|Элементального навыка]] [[character:escoffier]] даёт до 10 особых вкусных блюд за неделю, но никак не помогает против врагов, поэтому не используйте его во время битвы."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:frostbreath]]\n"
         }
     ],
     "weapons": [

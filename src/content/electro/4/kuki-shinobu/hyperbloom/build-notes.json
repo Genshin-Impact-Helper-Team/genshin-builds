@@ -16,6 +16,12 @@
             "fr": "Visez autour des 850-950+ de [[stat:em]], selon si vous utilisez une arme [[stat:em]] ou pas.",
             "it": "Punta a circa 850-950+ [[stat:em]], a seconda se tu stia utilizzando un arma con [[stat:em]] oppure no.",
             "ru": "Стремитесь к МС на уровне 850-950+ в зависимости от выбранного оружия."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:emberwell]]\n- [[weapon:exaiphanes-blade]]\n- [[weapon:heretics-molten-blade]]\n- [[weapon:whitelake-frostfeather]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

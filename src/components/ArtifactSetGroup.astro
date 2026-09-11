@@ -1,7 +1,6 @@
 ---
 import { t } from '../utils/i18n';
 import ArtifactSetInfoPopover from './ArtifactSetInfoPopover.astro';
-import InlineNoteLabel from './InlineNoteLabel.astro';
 
 type ArtifactSetItem = {
   name: string;
@@ -70,7 +69,6 @@ const rows: ArtifactSetRow[] = group.choose
           chooseOne: true,
         }))
       : [{ items: groupItems }];
-const hasNoteMarker = (item: ArtifactSetItem) => item.noteId || item.note;
 ---
 
 {
@@ -91,13 +89,6 @@ const hasNoteMarker = (item: ArtifactSetItem) => item.noteId || item.note;
                 artifact={item}
                 lang={lang}
               />
-              {hasNoteMarker(item) && (
-                <InlineNoteLabel
-                  label=""
-                  noteId={item.noteId}
-                  hasNote={Boolean(hasNoteMarker(item))}
-                />
-              )}
               <span class="artifact-piece-suffix">
                 {'\u00a0'}({item.pieces})
               </span>
@@ -118,13 +109,6 @@ const hasNoteMarker = (item: ArtifactSetItem) => item.noteId || item.note;
                     artifact={item}
                     lang={lang}
                   />
-                  {hasNoteMarker(item) && (
-                    <InlineNoteLabel
-                      label=""
-                      noteId={item.noteId}
-                      hasNote={Boolean(hasNoteMarker(item))}
-                    />
-                  )}
                   <span class="artifact-piece-suffix">
                     {'\u00a0'}({item.pieces})
                   </span>

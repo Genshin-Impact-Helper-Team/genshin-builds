@@ -1,0 +1,31 @@
+---
+import { marked } from 'marked';
+import SimplePageLayout from '../../layouts/SimplePageLayout.astro';
+import privacyPolicy from '../../content/site/privacy-policy.json';
+import { getLocale, t } from '../../utils/i18n';
+import { getLanguageStaticPaths } from '../../utils/routes';
+
+export const getStaticPaths = getLanguageStaticPaths;
+
+const lang = Astro.params.lang ?? 'en';
+const locale = getLocale(lang);
+type LocalizedText = { en: string; [lang: string]: string };
+const localized = (value: LocalizedText) => value[lang]?.trim() || value.en;
+const contentLanguage = (value: LocalizedText) => (value[lang]?.trim() ? lang : 'en');
+---
+
+<SimplePageLayout title={t(locale, 'ui', 'Privacy Policy')} lang={lang} locale={locale} page="privacy">
+  <div>
+    {
+      privacyPolicy.sections.map((section) => (
+        <section class="card">
+          <h2 lang={contentLanguage(section.title)}>{localized(section.title)}</h2>
+          <div
+            lang={contentLanguage(section.content)}
+            set:html={marked.parse(localized(section.content), { breaks: true })}
+          />
+        </section>
+      ))
+    }
+  </div>
+</SimplePageLayout>

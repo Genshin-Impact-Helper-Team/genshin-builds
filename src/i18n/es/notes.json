@@ -1,1 +1,8 @@
-{}
+{
+    "favo": "Trata de conseguir prob. crítica si estás utilizando este arma para activar la pasiva de manera constante",
+    "cr-favo": "Solo se recomienda si estás utilizando un arma de la línea **Favonius**",
+    "er-req": "alta prioridad hasta que cumplas los requerimientos",
+    "exaiphanes": "Generalmente debería utilizarlo el Viajero. Sólo tenlo como opción si no estás utilizando al Viajero",
+    "wip-weapon": "Armas viables con los cálculos del WIP:",
+    "wip-artifact": "Conjunto de artefactos viable con los cálculos WIP:"
+}

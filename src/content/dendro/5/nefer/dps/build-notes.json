@@ -17,6 +17,9 @@
             "fr": "Les Graines de Tromperie n'infligent pas de dégâts et ne peuvent pas permettre de déclencher [[element:hyperbloom]] ou [[element:burgeon]]. Elles servent uniquement à renforcer l'[[ability:burst]] de [[character:nefer]] et à ajouter des buffs Lunar% à son [[ability:skill]].",
             "it": "I Semi dell'inganno non infliggono danni e non possono attivare [[element:hyperbloom]] o [[element:burgeon]]. La loro unica funzione è quella di potenziare il [[ability:burst]] e l'[[ability:skill]] di [[character:nefer]].",
             "ru": "Семена лжи не наносят урон и с ними нельзя закрыть реакции [[element:hyperbloom]] и [[element:burgeon]]. Они используются только для усиления талантов [[character:nefer]]."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:clash-of-kings]]\n- [[weapon:echoes-of-the-heart]]\n"
         }
     ],
     "weapons": [

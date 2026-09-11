@@ -53,8 +53,9 @@
                             "name": "tenacity-of-the-millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "Although this set offers the lowest personal damage for [[character:sangonomiya-kokomi]], the 20% [[stat:atk%]] team buff can sometimes be better for overall team DPS."
-                                ,"fr": "Bien que ce set offre les plus bas dégâts personnels pour [[character:sangonomiya-kokomi]], le buff de 20% d'[[stat:atk%]] pour l'équipe peut être meilleur pour le DPS global de l'équipe.",
+                                "en": "Although this set offers the lowest personal damage for [[character:sangonomiya-kokomi]], the 20% [[stat:atk%|ATK]] team buff can sometimes be better for overall team DPS.",
+                                "fr": "Bien que ce set offre les plus bas dégâts personnels pour [[character:sangonomiya-kokomi]], le buff de 20% d'[[stat:atk%|ATQ]] pour l'équipe peut être meilleur pour le DPS global de l'équipe.",
+                                "it": "Sebbene questo set offra danni personali più bassi per [[character:sangonomiya-kokomi]], il potenziamento del 20% all'[[stat:atk%|ATT]] del team può essere migliore per il DPS del team.",
                                 "ru": "Дает минимальный прирост к личному урону Кокоми, но бонус 20% Силы атаки может быть полезен членам отряда."
                             }
                         }

@@ -1,6 +1,5 @@
 ---
 import { t } from '../utils/i18n';
-import InlineNoteLabel from './InlineNoteLabel.astro';
 import {
   formatWeaponPassive,
   type WeaponPassiveText,
@@ -189,6 +188,6 @@ const popoverCardHtml = info
     tabindex="0"
     aria-expanded="false"
   >
-    <InlineNoteLabel label={weapon.name} />
+    {weapon.name}
   </span>
 </span>

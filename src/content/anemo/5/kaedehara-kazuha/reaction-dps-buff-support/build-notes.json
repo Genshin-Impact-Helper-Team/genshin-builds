@@ -20,7 +20,10 @@
             "ru": "Приоритет поглощения [[ability:burst|Взрывом стихии]] [[character:kaedehara-kazuha|Кадзухи]]: [[element:pyro]] > [[element:hydro]] > [[element:electro]] > [[element:cryo]], элемент может быть захвачен как от активного персонажа, так и от противника (т.е. нахождение персонажа в зоне [[ability:burst|Взрыва стихии]] [[character:bennett|Беннета]] приведет к захвату [[element:pyro]] [[ability:burst|Взрывом стихии]] [[character:kaedehara-kazuha|Кадзухи]], так как первый накладывает [[element:pyro]] статус на активного персонажа)."
         },
         {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n"
+            "en": "## [[note:wip-weapon]]\n- [[weapon:athame-artis]]\n- [[weapon:emberwell]]\n- [[weapon:whitelake-frostfeather]]\n"
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:heart-of-the-furnace]]\n"
         }
     ]
 }

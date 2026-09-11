@@ -18,9 +18,15 @@ const deployVersion = import.meta.env.PUBLIC_DEPLOY_VERSION;
     <a href={localizedPath(lang, 'changelog')}>
       {t(locale, 'ui', 'Changelog', undefined, false)}
     </a>
+    <a href={localizedPath(lang, 'privacy')}>
+      {t(locale, 'ui', 'Privacy Policy', undefined, false)}
+    </a>
     <button class="footer-feedback-button" type="button" data-feedback-open>
       {t(locale, 'ui', 'Feedback', undefined, false)}
     </button>
+    <a href={localizedPath(lang, 'your-feedback')} data-feedback-history-link hidden>
+      {t(locale, 'ui', 'Your feedback')}
+    </a>
   </nav>
 
   <p>
@@ -29,8 +35,8 @@ const deployVersion = import.meta.env.PUBLIC_DEPLOY_VERSION;
     >. This website is not affiliated with HoYoverse.
   </p>
   <p>
-    Genshin Impact, game content, and materials are trademarks and copyrights of
-    COGNOSPHERE, HoYoverse, and their respective owners.
+    Genshin Impact, game content, and materials are trademarks and copyrights of COGNOSPHERE, HoYoverse, and their
+    respective owners.
   </p>
   {deployVersion && <p class="footer-version">Deploy #{deployVersion}</p>}
 </footer>

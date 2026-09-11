@@ -1,5 +1,5 @@
 ---
-import InlineNoteLabel from './InlineNoteLabel.astro';
+import RowNoteAction from './RowNoteAction.astro';
 import WeaponInfoPopover from './WeaponInfoPopover.astro';
 import { t } from '../utils/i18n';
 import type {
@@ -64,7 +64,7 @@ const {
 const formatRefinement = (refinement?: number | string) =>
   refinement ? ` [R${refinement}]` : '';
 
-const hasNoteMarker = (item: WeaponItem) => item.noteId || item.note;
+const hasNoteMarker = (item: WeaponItem) => Boolean(item.noteId || item.note);
 const isFreeWeapon = (item: WeaponItem) =>
   isFreeWeaponSource(item.info?.source) || item.rarity <= 3;
 const conditionalWeapons = weapons.conditional ?? [];
@@ -103,12 +103,13 @@ const hasFreeWeapon =
         rankedWeaponGroups.map((position) => {
           const mainItem = position.mainItem;
           const mainItemIsFree = mainItem && isFreeWeapon(mainItem);
+          const mainItemHasNote = mainItem && hasNoteMarker(mainItem);
 
           return (
             <div class="rank-group">
               {mainItem && (
                 <div
-                  class={`rank-row${mainItemIsFree ? ' is-free-weapon' : ''}`}
+                  class={`rank-row${mainItemIsFree ? ' is-free-weapon' : ''}${mainItemHasNote ? ' has-row-note' : ''}`}
                 >
                   <strong class="rank-number">{position.rank}</strong>
                   <span class="rank-content">
@@ -118,27 +119,24 @@ const hasFreeWeapon =
                         locale={locale}
                         lang={lang}
                       />
-                      {hasNoteMarker(mainItem) && (
-                        <InlineNoteLabel
-                          label=""
-                          noteId={mainItem.noteId}
-                          hasNote={Boolean(hasNoteMarker(mainItem))}
-                        />
-                      )}
                       <span class="bold">
                         ({mainItem.rarity}
                         {'\u2605'}){formatRefinement(mainItem.refinement)}
                       </span>
                     </span>
                   </span>
+                  {mainItemHasNote && <RowNoteAction items={[mainItem]} />}
                 </div>
               )}
 
               {position.alternativeItems.map((weapon) => {
                 const isFree = isFreeWeapon(weapon);
+                const hasNote = hasNoteMarker(weapon);
 
                 return (
-                  <div class={`rank-row alt${isFree ? ' is-free-weapon' : ''}`}>
+                  <div
+                    class={`rank-row alt${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
+                  >
                     <span class="rank-approx">&asymp;</span>
                     <span class="rank-content">
                       <span class="inline-info-label">
@@ -147,19 +145,13 @@ const hasFreeWeapon =
                           locale={locale}
                           lang={lang}
                         />
-                        {hasNoteMarker(weapon) && (
-                          <InlineNoteLabel
-                            label=""
-                            noteId={weapon.noteId}
-                            hasNote={Boolean(hasNoteMarker(weapon))}
-                          />
-                        )}
                         <span class="bold">
                           ({weapon.rarity}
                           {'\u2605'}){formatRefinement(weapon.refinement)}
                         </span>
                       </span>
                     </span>
+                    {hasNote && <RowNoteAction items={[weapon]} />}
                   </div>
                 );
               })}
@@ -180,10 +172,11 @@ const hasFreeWeapon =
           <div class="rank-list">
             {conditionalWeapons.map((weapon: WeaponItem) => {
               const isFree = isFreeWeapon(weapon);
+              const hasNote = hasNoteMarker(weapon);
 
               return (
                 <div
-                  class={`rank-row conditional-row${isFree ? ' is-free-weapon' : ''}`}
+                  class={`rank-row conditional-row${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
                 >
                   <span class="rank-marker" aria-hidden="true" />
                   <span class="rank-content">
@@ -193,19 +186,13 @@ const hasFreeWeapon =
                         locale={locale}
                         lang={lang}
                       />
-                      {hasNoteMarker(weapon) && (
-                        <InlineNoteLabel
-                          label=""
-                          noteId={weapon.noteId}
-                          hasNote={Boolean(hasNoteMarker(weapon))}
-                        />
-                      )}
                       <span class="bold">
                         ({weapon.rarity}
                         {'\u2605'}){formatRefinement(weapon.refinement)}
                       </span>
                     </span>
                   </span>
+                  {hasNote && <RowNoteAction items={[weapon]} />}
                 </div>
               );
             })}
