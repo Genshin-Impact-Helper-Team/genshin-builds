@@ -72,7 +72,9 @@
                         "ru": "Используется только в отрядах с [[character:furina|Фуриной]], где  соответствует **[[set:nighttime-whispers-in-the-echoing-woods|Ночному шёпоту в Лесу откликающегося эха]] (4)** или превосходит его."
                     }
                 }
-            ],
+            ]
+        },
+        {
             "items": [
                 {
                     "name": "night-of-the-skys-unveiling",
