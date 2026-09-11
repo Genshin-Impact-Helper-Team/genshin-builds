@@ -11,8 +11,9 @@
                 {
                     "name": "gest-of-the-mighty-wolf",
                     "note": {
-                        "en": "Best option in teams with Hexerei.",
-                        "ru": "Лучший выбор в командах с активным эффектом Ведьмовства."
+                        "en": "Best option in teams with [[ability:hexerei]].",
+                        "fr": "La meilleure option dans les équipes [[ability:hexerei]].",
+                        "ru": "Лучший выбор в командах с активным эффектом [[ability:hexerei|Ведьмовства]]."
                     }
                 }
             ]
@@ -29,6 +30,7 @@
                     "name": "redhorn-stonethresher",
                     "note": {
                         "en": "With [[stat:cr]] buffs, it can perform similar to or better than **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "fr": "Avec des buffs de [[stat:cr]], cette arme peut être similaire voire meilleure que **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "При наличии бонусов к [[stat:cr|Шансу крит. попадания]] может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]** или превосходить его."
                     }
                 }
@@ -39,7 +41,8 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "Assumes full stacks. At **[R5]** with full stacks it can perform as well as **[[weapon:gest-of-the-mighty-wolf]]**.",
+                        "en": "Assumes full stacks. At **[R5]** with full stacks, it can perform as well as **[[weapon:gest-of-the-mighty-wolf]]**.",
+                        "fr": "Supposes le maximum de cumuls. Une fois **[R5]** avec le maximum de cumuls, cette arme performe aussi bien que **[[weapon:gest-of-the-mighty-wolf]]**.",
                         "ru": "Предполгается максимальный уровень Пассивной способности. На **[R5]** и максимальном уровне Пассивной способности соответствует **[[weapon:gest-of-the-mighty-wolf|Подвигу могучего волка]]**."
                     }
                 }
@@ -52,6 +55,7 @@
                     "name": "the-unforged",
                     "note": {
                         "en": "Peforms slightly worse than similarly ranked options in [[element:lunar-crystallize]] teams unless a shielder is present.",
+                        "fr": "Peforme légèrement moins bien que les autres options du même rang dans les équipes [[element:lunar-crystallize]], à moins qu'un bouclier soit présent.",
                         "ru": "Немного уступает оружию с таким же рейтингом в отрядах от [[element:lunar-crystallize|Лунного кристалла]], еслив  отряде нет персонажа сс щитом."
                     }
                 },
@@ -85,6 +89,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "If the [[stat:er]] provided by this weapon is useful, it can perform better than **[[weapon:tidal-shadow]]**.",
+                        "fr": "Si la [[stat:er]] offerte par cette arme est utile, elle peut devenir meilleure que **[[weapon:tidal-shadow]]**.",
                         "ru": "Если [[stat:er]] на этом оружии полезно, оно превосходит **[[weapon:tidal-shadow]]**."
                     }
                 }
@@ -97,6 +102,7 @@
                     "refinement": 5,
                     "note": {
                         "en": "If the [[stat:er]] provided by this weapon is useful, it can perform similarly to **[[weapon:tidal-shadow]]**.",
+                        "fr": "Si la [[stat:er]] offerte par cette arme est utile, elle peut devenir meilleure que **[[weapon:tidal-shadow]]**.",
                         "ru": "Если [[stat:er]] на этом оружии полезно, оно соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 },
@@ -104,7 +110,8 @@
                     "name": "talking-stick",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes passive is inactive. With [[element:pyro]] passive active, it can perform equal to **[[weapon:tidal-shadow]]** at **[R1]** and equal to **[[weapon:wolfs-gravestone]]** at **[R5]**.",
+                        "en": "Assumes the passive is inactive. With the [[element:pyro]] passive active, **[[weapon:talking-stick]] [R1]** can perform on par with **[[weapon:tidal-shadow]]**, and **[[weapon:talking-stick]] [R5]** with **[[weapon:wolfs-gravestone]]**.",
+                        "fr": "Suppose que le passif est inactif. Avec le passif [[element:pyro]] actif, **[[weapon:talking-stick]] [R1]** peut être équivalent à **[[weapon:tidal-shadow]]**, et **[[weapon:talking-stick]] [R5]** à **[[weapon:wolfs-gravestone]]**.",
                         "ru": "Предполагается, что Пассивная способность неактивна. При активной [[element:pyro]] Пассивной способности соответствует **[[weapon:tidal-shadow|Тени волны]]** на **[R1]** и **[[weapon:wolfs-gravestone|Волчьей погибели]]** на **[R5]**."
                     }
                 },

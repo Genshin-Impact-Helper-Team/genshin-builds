@@ -67,7 +67,7 @@
                     "pieces": 4,
                     "note": {
                         "en": "Only used in teams with [[character:furina]]. Performs as well or better than **[[set:nighttime-whispers-in-the-echoing-woods]]**",
-                        "fr": "Équipes avec [[character:furina]] uniquement, ce set équivaut à **[[set:nighttime-whispers-in-the-echoing-woods]]**, voire fait mieux.",
+                        "fr": "Dans les équipes avec [[character:furina]] uniquement, ce set équivaut à **[[set:nighttime-whispers-in-the-echoing-woods]]**, voire fait mieux.",
                         "it": "Da usare solo in team con [[character:furina]], ha prestazioni simili o migliori di **[[set:nighttime-whispers-in-the-echoing-woods]]**.",
                         "ru": "Используется только в отрядах с [[character:furina|Фуриной]], где  соответствует **[[set:nighttime-whispers-in-the-echoing-woods|Ночному шёпоту в Лесу откликающегося эха]] (4)** или превосходит его."
                     }
@@ -80,7 +80,8 @@
                     "name": "night-of-the-skys-unveiling",
                     "pieces": 4,
                     "note": {
-                        "en": "Should only be used in teams with Ascendant Gleam, in which case is slightly worse than **[[set:nighttime-whispers-in-the-echoing-woods]] (4)** for personal damage, but provides a small buff to the team.",
+                        "en": "Should only be used in teams with Moonsign: Ascendant Gleam, in which case it is slightly worse than **[[set:nighttime-whispers-in-the-echoing-woods]] (4)** for personal damage, but provides a small buff to the team.",
+                        "fr": "Ne doit être utilisé que dans les équipes avec le Signelune: Lueur Ascendante, auquel cas il performe légèrement moins bien que **[[set:nighttime-whispers-in-the-echoing-woods]] (4)** pour ses dégâts personnels, mais offre un petit buff à l'équipe.",
                         "ru": "Рекомендуется использовать только в командах с Высшим сиянием. При этом немного уступает **[[set:nighttime-whispers-in-the-echoing-woods|Ночному шёпоту в Лесу откликающегося эха]] (4)**, но дает небольшой бонус для команды."
                     }
                 }
