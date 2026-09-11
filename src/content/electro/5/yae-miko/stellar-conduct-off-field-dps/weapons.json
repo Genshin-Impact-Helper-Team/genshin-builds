@@ -20,7 +20,7 @@
                     "note": {
                         "en": "Ranking assumes 100% uptime on the passive.",
                         "fr": "Le classement suppose que le passif est actif en permanence.",
-                        "it": "La posizione in classifica presuppone che la passiva sia sempre attiva.",
+                        "it": "La classifica presuppone che la passiva sia sempre attiva.",
                         "ru": "Предполагается, что эффект Пассивной способности оружия поддерживается постоянно."
                         
                     }
@@ -46,7 +46,7 @@
                     "note": {
                         "en": "If teammates can benefit from the [[stat:em]] bonus this weapon gives, its performance increases.",
                         "fr": "Si l'équipe bénéficie du bonus de [[stat:em]] de cette arme, ses performances augmentent.",
-                        "it": "Se il team trae beneficio dalla [[stat:em]] fornita da quest'arma, le sue prestazioni migliorano.",
+                        "it": "Se il team trae beneficio dalla **[[stat:em]]** fornita da quest'arma, le sue prestazioni migliorano.",
                         "ru": "Эффективность данного оружия растёт, если членам отряда полезен бонус [[stat:em|Мастерства стихий]]."
                     }
                 }
@@ -83,7 +83,7 @@
         {
             "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**.",
             "fr": "**Les armes [[stat:em]]** deviennent plus intéressantes lorsque l'équipe a **moins de buffs de DGT [[element:stellar-glimmer]] / [[stat:em]]**.",
-            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]].",
+            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]**.",
             "ru": "**Оружие на [[stat:em|МС]]** становится более ценным, если у отряда **не слишком много бонусов к урону реакций [[element:stellar-glimmer|Звёздного блеска]]**."
         }
     ]

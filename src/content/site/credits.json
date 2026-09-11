@@ -18,7 +18,15 @@
     },
     "sections": [
         {
-            "title": "Active Contributors",
+            "title": {
+                "en": "Active Contributors",
+                "fr": "Contributeurs actifs",
+                "de": "",
+                "es": "contribuidores activos",
+                "it": "Contribuenti Attivi",
+                "ru": "Активные участники",
+                "pt": ""
+            },
             "names": [
                 "akalight_",
                 "chiston",
@@ -34,13 +42,29 @@
             ]
         },
         {
-            "title": "Website Development",
+            "title": {
+                "en": "Website Development",
+                "fr": "Développement du site",
+                "de": "",
+                "es": "Desarrollo de la página web",
+                "it": "Developer del sito",
+                "ru": "Разработка сайта",
+                "pt": ""
+            },
             "names": [
                 "akhala_"
             ]
         },
         {
-            "title": "Extensive References",
+            "title": {
+                "en": "Extensive References",
+                "fr": "Références approfondies",
+                "de": "",
+                "es": "Referencias extensas",
+                "it": "Riferimenti Estesi",
+                "ru": "Ссылаясь на расчёты",
+                "pt": ""
+            },
             "names": [
                 "zvnto",
                 "paraszczak#0148",
@@ -81,7 +105,15 @@
             ]
         },
         {
-            "title": "Other Contributors",
+            "title": {
+                "en": "Other Contributors",
+                "fr": "Autres contributeurs",
+                "de": "",
+                "es": "Otros contribuidores",
+                "it": "Altri Contribuenti",
+                "ru": "Другие участники",
+                "pt": ""
+            },
             "names": [
                 "george.h_",
                 "strawbery_steel",
@@ -104,11 +136,74 @@
             ]
         },
         {
-            "title": "Special Thanks",
+            "title": {
+                "en": "Special Thanks",
+                "fr": "Remerciements spéciaux",
+                "es": "Muchas gracias a",
+                "it": "Ringraziamenti Speciali",
+                "ru": "Особая благодарность"
+            },
             "names": [
                 "Jinjinx",
                 "mr.doug"
             ]
         }
-    ]
+    ],
+    "text": {
+        "legalTitle": {
+            "en": "Legal Notice",
+            "fr": "Notice légale",
+            "es": "Nota legal",
+            "it": "Note legali",
+            "ru": "Юридическая информация"
+        },
+        "unofficial": {
+            "en": "This is an unofficial, non-commercial fan-made project and is not affiliated with, endorsed, sponsored, or approved by COGNOSPHERE, HoYoverse, or miHoYo.",
+            "fr": "Ce projet est un projet de fan non officiel et non commercial. Il n'est pas affilié, approuvé, sponsorisé ou validé par COGNOSPHERE, HoYoverse ou miHoYo.",
+            "es": "Este es un proyecto hecho por fans dedicados, este proyecto no es official y es sin ánimos de lucro. Tampoco esta respaldado, patrocinado ni aprobado por COGNOSPHERE, HoYoverse, o miHoYo.",
+            "it": "Questo è un progetto non ufficiale e non commerciale realizzato da fan e non è affiliato, sostenuto, sponsorizzato o approvato da COGNOSPHERE, HoYoverse o miHoYo.",
+            "ru": "Этот проект является неофициальным, некоммерческим фанатским продуктом и не связан с COGNOSPHERE, HoYoverse или miHoYo, а также не поддерживается, не спонсируется и не одобряется ими."
+        },
+        "ownership": {
+            "en": "Genshin Impact materials used on this site, including character names, artwork, images, icons, weapon and artifact assets, text, audio, audiovisual materials, trademarks, and related intellectual property, remain the property of COGNOSPHERE and its related rights holders. No ownership is claimed over those materials.",
+            "fr": "Les contenus de Genshin Impact utilisés sur ce site, y compris les noms de personnages, illustrations, images, icônes, assets d'armes et d'artéfacts, textes, contenus audio ou audiovisuels, marques et propriétés intellectuelles associées, restent la propriété de COGNOSPHERE et de ses ayants droit. Aucune propriété n'est revendiquée sur ces contenus.",
+            "es": "Los materiales utilizados en este sitio web, incluyendo los nombres de los personajes, arte, imágenes, íconos, Armas y Conjuntos de artefactos, Textos, Audios, Material audiovisual, Marca, trademarks, y cualquien propiedad intelectual seguirá siendo propiedad de COGNOSPHERE y sus derechos legales. No tomamos ninguna posesión sobre ninguno de los materiales comunicados anteriormente.",
+            "it": "I materiali di Genshin Impact utilizzati su questo sito, inclusi nomi dei personaggi, illustrazioni, immagini, icone, risorse relative ad armi e manufatti, testi, audio, materiali audiovisivi, marchi registrati ed alcuna proprietà intellettuale ad essi correlata, rimangono di proprietà di COGNOSPHERE e dei relativi titolari dei diritti. Non viene rivendicata alcuna proprietà su tali materiali.",
+            "ru": "Материалы Genshin Impact, используемые на этом сайте, включая имена персонажей, изображения, иконки, ассеты оружия и артефактов, тексты, аудио, аудиовизуальные материалы, товарные знаки и связанную с ними интеллектуальную собственность, остаются собственностью компании COGNOSPHERE и её законных правообладателей. Создатели сайта не претендуют на право собственности на эти материалы."
+        },
+        "unpublished": {
+            "en": "This site is intended to use only officially published Genshin Impact materials and does not permit leaked or unpublished materials. See the official",
+            "fr": "Ce site est destiné à utiliser uniquement des contenus de Genshin Impact officiellement publiés et n'autorise pas les contenus fuités ou non publiés. Voir la",
+            "es": "Este sitio web esta pensado en utilizar solo materiales que salieran de forma oficial y no se permite ningún tipo de filtración o contenido sin ser publicado oficialmente. Mira el oficial",
+            "it": "Questo sito intende utilizzare esclusivamente materiali di Genshin Impact pubblicati ufficialmente e non ammette materiali diffusi in modo non autorizzato o non ancora pubblicati. Per le normative ufficiali, consulta",
+            "ru": "Этот сайт предназначен для использования только официально опубликованных материалов Genshin Impact. Публикация утечек строго запрещена. Ознакомьтесь с официальной статьёй"
+        },
+        "legalFaq": {
+            "en": "Legal FAQ",
+            "fr": "FAQ légale",
+            "es": "FAQ Legal",
+            "it": "FAQ legali",
+            "ru": "Вопросы и ответы о правовых положениях"
+        },
+        "feedback": {
+            "en": "If you have any feedback, questions or comments please use",
+            "fr": "Si vous avez un commentaire, une question ou suggestion, merci d'utiliser",
+            "es": "Si tienes alguna sugerencia, preguntas o quieres hacer un comentario utiliza",
+            "it": "Per qualunque feedback, domanda o commento si prega utilizzare",
+            "ru": "Если у вас есть отзывы, вопросы или комментарии, пожалуйста, заполните"
+        },
+        "translatorTitle": {
+            "en": "Translator",
+            "fr": "Traducteur",
+            "es": "Tranductor",
+            "it": "Traduttore",
+            "ru": "Переводчики"
+        },
+        "feedbackButton": {
+            "en": "Feedback",
+            "es": "Feedback",
+            "it": "Suggerimenti",
+            "ru": "Обратная связь"
+        }
+    }
 }

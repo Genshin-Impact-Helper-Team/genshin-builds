@@ -1,27 +1,29 @@
 ---
 import credits from '../content/site/credits.json';
-import { t } from '../utils/i18n';
+type LocalizedText = { en: string; [lang: string]: string };
 
 type CreditsData = {
+  text: Record<string, LocalizedText>;
   translators: Record<string, string[]>;
   sections: {
-    title: string;
+    title: LocalizedText;
     names: string[];
   }[];
 };
 
-const { lang = 'en', locale } = Astro.props as {
+const { lang = 'en' } = Astro.props as {
   lang?: string;
-  locale: any;
 };
 
 const creditsData = credits as CreditsData;
+const localized = (value: LocalizedText) => value[lang]?.trim() || value.en;
+const text = creditsData.text;
 const translators = creditsData.translators[lang] ?? [];
 ---
 
 <section class="card credits-card credits-legal-card">
-  <h2>{t(locale, 'ui', 'Legal Notice', undefined, false)}</h2>
-  <p>{t(locale, 'ui', 'Legal notice unofficial', undefined, false)}</p>
+  <h2>{localized(text.legalTitle)}</h2>
+  <p>{localized(text.unofficial)}</p>
   <p>
     Original source code, build recommendations, rankings, notes, page layouts,
     and other editorial content are copyright Genshin Impact Helper Team
@@ -35,19 +37,19 @@ const translators = creditsData.translators[lang] ?? [];
     </a>
     .
   </p>
-  <p>{t(locale, 'ui', 'Legal notice ownership', undefined, false)}</p>
+  <p>{localized(text.ownership)}</p>
   <p class="credits-legal-declaration">
     &copy; All rights reserved by COGNOSPHERE. Other properties belong to their
     respective owners.
   </p>
   <p>
-    {t(locale, 'ui', 'Legal notice unpublished', undefined, false)}{' '}
+    {localized(text.unpublished)}{' '}
     <a
       href="https://www.hoyolab.com/article/143107"
       target="_blank"
       rel="noopener noreferrer"
     >
-      {t(locale, 'ui', 'Legal FAQ', undefined, false)}
+      {localized(text.legalFaq)}
     </a>
     .
   </p>
@@ -55,9 +57,9 @@ const translators = creditsData.translators[lang] ?? [];
 
 <section class="card credits-card">
   <p>
-    {t(locale, 'ui', 'Credits feedback')}{' '}
+    {localized(text.feedback)}{' '}
     <button class="credits-feedback-button" type="button" data-feedback-open>
-      {t(locale, 'ui', 'Feedback', undefined, false)}
+      {localized(text.feedbackButton)}
     </button>
     .
   </p>
@@ -66,7 +68,7 @@ const translators = creditsData.translators[lang] ?? [];
 {
   translators.length > 0 && (
     <section class="card credits-card">
-      <h2>{t(locale, 'ui', 'Translator')}</h2>
+      <h2>{localized(text.translatorTitle)}</h2>
       <ul class="credits-list">
         {translators.map((name) => (
           <li>{name}</li>
@@ -79,7 +81,7 @@ const translators = creditsData.translators[lang] ?? [];
 {
   creditsData.sections.map((section) => (
     <section class="card credits-card">
-      <h2>{t(locale, 'ui', section.title)}</h2>
+      <h2>{localized(section.title)}</h2>
       <ul class="credits-list">
         {section.names.map((name) => (
           <li>{name}</li>

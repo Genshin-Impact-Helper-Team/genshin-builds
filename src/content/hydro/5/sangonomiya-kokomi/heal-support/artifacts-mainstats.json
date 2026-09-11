@@ -6,6 +6,7 @@
                 "note": {
                     "en": "Prioritise first to ensure you can always use [[ability:burst]] before the [[ability:skill]] expires in order to maintain [[element:hydro]] application.",
                     "fr": "A prioriser pour s'assurer de toujours pouvoir [[ability:burst]] avant que le [[ability:skill]] ne se termine, afin de maintenir l'application [[element:hydro]] application.",
+                    "it": "Dai la priorità a [[stat:er]] per assicurarti di poter sempre usare il [[ability:burst]] prima che l'[[ability:skill]] scada, al fine di mantenere l'applicazione [[element:hydro]].",
                     "ru": "ВЭ приоритетно при невозможности использования Взрыва стихии до окончания времени действия Навыка (для его продления)."
                 }
             },
@@ -23,6 +24,7 @@
         {
             "en": "Main Stats are not important for **[[set:tenacity-of-the-millelith]] (4)** if you do not need the extra healing. **Focus on [[stat:er]] substats instead**.",
             "fr": "Les stats principales n'ont pas d'importance avec **[[set:tenacity-of-the-millelith]] (4)** si vous n'avez pas beson du soin supplémentaire. **Concentrez vous plutôt sur les substats [[stat:er]]**.",
+            "it": "Le statistiche principali non sono importanti per **[[set:tenacity-of-the-millelith]] (4)** se non hai bisogno di cure aggiuntive. **Concentrati invece sulle statistiche secondarie [[stat:er]]**.",
             "ru": "Основные статы при использовании Стойкости Миллелита (4) не важны, если вам не нужно лечение. Требуется только ВЭ в сабстатах."
         }
     ]

@@ -23,6 +23,7 @@
                     "note": {
                         "en": "This ranking assumes [[character:kamisato-ayato]] needs **135%** [[stat:er]] to use his [[ability:burst]] every rotation. Its ranking changes based on his **[[stat:er]] Requirements**.",
                         "fr": "Ce classement suppose que [[character:kamisato-ayato]] a besoin de **135%** de [[stat:er]] pour [[ability:burst]] à chaque rotation. Il change donc selon ses **besoins en [[stat:er]]**.",
+                        "it": "La classifica presuppone che [[character:kamisato-ayato]] abbia bisogno di **135% di [[stat:er]]** per utilizzare il [[ability:burst]] in ogni rotazione. La posizione di quest'arma varia in base ai suoi requisiti di [[stat:er]].",
                         "ru": "Может оказаться весьма полезным вариантом, если Аято требуется более чем 135% Восстановления энергии для регулярного использования Взрыва стихии. Позиция в рейтинге зависит от потребности в ВЭ."
                     }
                 },
@@ -35,8 +36,9 @@
                 {
                     "name": "summit-shaper",
                     "note": {
-                        "en": "In teams where **[[stat:atk%]] buffs are scarce**, this weapon has the potential to rival **[[weapon:the-black-sword]]**.",
-                        "fr": "Dans les équipes où les **buffs d'[[stat:atk%]] se font rare**, cette arme peut rivaliser **[[weapon:the-black-sword]]**.",
+                        "en": "In teams where **[[stat:atk]] buffs are scarce**, this weapon has the potential to rival **[[weapon:the-black-sword]]**.",
+                        "fr": "Dans les équipes où les **buffs d'[[stat:atk]] se font rare**, cette arme peut rivaliser **[[weapon:the-black-sword]]**.",
+                        "it": "In team in cui i potenziamenti all'[[stat:atk]] sono scarsi, quest'arma ha il potenziale di rivaleggiare **[[weapon:the-black-sword]]**.",
                         "ru": "В отрядах, где нет внешних источников Силы атаки может соответствовать Черному мечу."
                     }
                 }
@@ -49,6 +51,7 @@
                     "note": {
                         "en": "If you can reliably clear the [[ability:bol]], this weapon is **better than the weapons ranked equal to it**.",
                         "fr": "Si vous pouvez retirer l'[[ability:bol]] à coup sûr, cette arme **est meilleure que les autres du même rang**.",
+                        "it": "Se **Ayato riceve cure sufficienti a rimuovere il [[ability:bol]]**, quest'arma è migliore delle armi classificate alla pari.",
                         "ru": "Если вы стабильно накладываете и снимаете Долг жизни, может соответствовать Кромсателю пиков."
                     }
                 },
@@ -57,6 +60,7 @@
                     "note": {
                         "en": "At **[R5]** this weapon is roughly equal to **[[weapon:summit-shaper]]**.",
                         "fr": "Une fois **[R5]** cette arme équivaut à **[[weapon:summit-shaper]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:summit-shaper]]**.",
                         "ru": "На **[R5]** примерно соответствует Кромсателю пиков."
                     }
                 },
@@ -70,6 +74,7 @@
                     "note": {
                         "en": "In **[[element:electrocharged]] teams**, this weapon performs about equal to **[[weapon:summit-shaper]]**.",
                         "fr": "Dans les **équipes [[element:electrocharged]]**, cette arme équivaut à **[[weapon:summit-shaper]]**.",
+                        "it": "In team **[[element:electrocharged]]**, quest'arma ha prestazioni simili a **[[weapon:summit-shaper]]**..",
                         "ru": "В командах, играющих через реакцию Заряжен, соответствует Кромсателю пиков."
                     }
                 }
@@ -81,8 +86,9 @@
                     "name": "harbinger-of-dawn",
                     "refinement": 5,
                     "note": {
-                        "en": "**Only recommended with a shielder**. If shielded, this weapon is better than **[[weapon:finale-of-the-deep]]** and can rival **[[weapon:splendor-of-tranquil-waters]]** in teams with **high amounts of [[stat:atk%]] buffs**.",
-                        "fr": "**Uniquement recommandée avec un bouclier**. Le cas échéant, cette arme est meilleure que **[[weapon:finale-of-the-deep]]** et peut rivaliser **[[weapon:splendor-of-tranquil-waters]]** dans les équipes avec **des buffs [[stat:atk%]] importants**.",
+                        "en": "**Only recommended with a shielder**. If shielded, this weapon is better than **[[weapon:finale-of-the-deep]]** and can rival **[[weapon:splendor-of-tranquil-waters]]** in teams with **high amounts of [[stat:atk]] buffs**.",
+                        "fr": "**Uniquement recommandée avec un bouclier**. Le cas échéant, cette arme est meilleure que **[[weapon:finale-of-the-deep]]** et peut rivaliser **[[weapon:splendor-of-tranquil-waters]]** dans les équipes avec **des buffs [[stat:atk]] importants**.",
+                        "it": "**Consigliata solo in presenza di uno scudo.** Con uno scudo, quest'arma è migliore di **[[weapon:finale-of-the-deep]]** e può rivaleggiare **[[weapon:splendor-of-tranquil-waters]]** in team con molti potenziamenti all'[[stat:atk]].",
                         "ru": "Рекомендуется только при наличии щита. В этом случае может превосходить Грандиозный финал глубин и соответствовать Блеску чистых вод в отрядах с большим количеством бонусов Силы атаки."
                     }
                 },

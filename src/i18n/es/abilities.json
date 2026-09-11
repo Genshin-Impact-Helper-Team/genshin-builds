@@ -1,1 +1,19 @@
-{}
+{
+    "na": "Ataque Normal",
+    "ca": "Ataque Cargado",
+    "plunge": "Ataque Descendente",
+    "skill": "Habilidad Elemental",
+    "burst": "Habilidad definitiva",
+    "shield": "Escudo",
+    "bol": "Pacto vital",
+    "nightsoul-blessing": "Bendición noctámbula",
+    "nightsoul-burst": "Explosión noctámbula",
+    "nightsoul-point": "Pts. noctambulismo",
+    "nightsoul-transmission": "Tranmisión noctambular",
+    "arkhe": "Arjé",
+    "pneuma": "Pneuma",
+    "ousia": "Ousia",
+    "hexerei": "Hexerei",
+    "verdant-dew": "Rocío de la espesura",
+    "polestar-field": "Campo estrellapolar"
+}

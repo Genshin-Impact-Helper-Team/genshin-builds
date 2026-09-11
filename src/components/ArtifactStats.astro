@@ -1,6 +1,6 @@
 ---
 import { t } from '../utils/i18n';
-import InlineNoteLabel from './InlineNoteLabel.astro';
+import RowNoteAction from './RowNoteAction.astro';
 
 type StatItem = {
   name: string;
@@ -28,7 +28,7 @@ const { artifacts, locale } = Astro.props as {
   locale: any;
 };
 
-const hasNoteMarker = (item: StatItem) => item.noteId || item.note;
+const hasNoteMarker = (item: StatItem) => Boolean(item.noteId || item.note);
 
 const mainStatSlots = [
   { label: 'Sands', items: artifacts.mainstats.main_stats.sands },
@@ -54,24 +54,26 @@ const substatRows = artifacts.substats.substats_priority.map(
 
       <div class="stat-grid">
         {
-          mainStatSlots.map((slot) => (
-            <div class="stat-row">
-              <strong>{t(locale, 'ui', slot.label)}</strong>
-              <span>
-                {slot.items.map((stat: StatItem, statIndex: number) => (
-                  <>
-                    {statIndex > 0 && ' / '}
-                    <InlineNoteLabel
-                      label={stat.name}
-                      noteId={stat.noteId}
-                      hasNote={Boolean(hasNoteMarker(stat))}
-                      emphasized
-                    />
-                  </>
-                ))}
-              </span>
-            </div>
-          ))
+          mainStatSlots.map((slot) => {
+            const noteItems = slot.items.filter(hasNoteMarker);
+
+            return (
+              <div
+                class={`stat-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
+              >
+                <strong>{t(locale, 'ui', slot.label)}</strong>
+                <span>
+                  {slot.items.map((stat: StatItem, statIndex: number) => (
+                    <>
+                      {statIndex > 0 && ' / '}
+                      <span class="recommendation-label-emphasized">{stat.name}</span>
+                    </>
+                  ))}
+                </span>
+                {noteItems.length > 0 && <RowNoteAction items={noteItems} />}
+              </div>
+            );
+          })
         }
       </div>
     </div>
@@ -84,31 +86,29 @@ const substatRows = artifacts.substats.substats_priority.map(
           substatRows.map((row) => (
             <div class="rank-group">
               {row.items[0] && (
-                <div class="rank-row">
+                <div
+                  class={`rank-row${hasNoteMarker(row.items[0]) ? ' has-row-note' : ''}`}
+                >
                   <strong class="rank-number">{row.rank}</strong>
                   <span class="rank-content">
-                    <InlineNoteLabel
-                      label={row.items[0].name}
-                      noteId={row.items[0].noteId}
-                      hasNote={Boolean(hasNoteMarker(row.items[0]))}
-                      emphasized
-                    />
+                    <span class="recommendation-label-emphasized">{row.items[0].name}</span>
                   </span>
+                  {hasNoteMarker(row.items[0]) && (
+                    <RowNoteAction items={[row.items[0]]} />
+                  )}
                 </div>
               )}
 
               {row.hasAlternatives &&
                 row.items.slice(1).map((item) => (
-                  <div class="rank-row alt">
+                  <div
+                    class={`rank-row alt${hasNoteMarker(item) ? ' has-row-note' : ''}`}
+                  >
                     <span class="rank-approx">&asymp;</span>
                     <span class="rank-content">
-                      <InlineNoteLabel
-                        label={item.name}
-                        noteId={item.noteId}
-                        hasNote={Boolean(hasNoteMarker(item))}
-                        emphasized
-                      />
+                      <span class="recommendation-label-emphasized">{item.name}</span>
                     </span>
+                    {hasNoteMarker(item) && <RowNoteAction items={[item]} />}
                   </div>
                 ))}
             </div>

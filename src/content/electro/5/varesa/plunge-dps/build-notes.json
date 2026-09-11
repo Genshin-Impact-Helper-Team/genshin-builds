@@ -2,6 +2,7 @@
     "name": {
         "en": "Plunge DPS",
         "fr": "DPS Attaque Plongeante",
+        "it": "DPS Attacchi in Picchiata",
         "ru": "ДД через атаки в падении"
     },
     "best": true,
@@ -33,7 +34,7 @@
         {
             "en": "Short Hold [[ability:skill]] when starting the rotation with **[[set:obsidian-codex]] (4)** will result in the highest DMG on average.",
             "fr": "Un [[ability:skill]] appui court en commençant la rotation avec **[[set:obsidian-codex]] (4)** donnera les meilleurs dégâts en moyenne.",
-            "it": "Nel caso tu utilizzi **[[set:obsidian-codex]] (4)**, tenere premuta l'[[ability:skill]] per breve tempo all'inizio della rotazione produce i danni massimi in media.",
+            "it": "Nel caso tu utilizzi **[[set:obsidian-codex]] (4)**, tenere l'[[ability:skill]] premuta per breve tempo all'inizio della rotazione produce i danni massimi in media.",
             "ru": "Короткое долгое нажатие [[ability:skill|Элементального навыка]] в начале ротации оптимально при использовании **[[set:obsidian-codex|Обсидианового фолианта]] (4)**."
         },
         {

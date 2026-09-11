@@ -2,12 +2,14 @@
     "name": {
         "en": "[[element:bloom]] DPS",
         "fr": "DPS [[element:bloom]]",
+        "it": "DPS [[element:bloom]]",
         "ru": "Бутонизация"
     },
     "notes": [
         {
             "en": "This build is specifically for [[element:bloom]] teams where [[character:sangonomiya-kokomi]] is the character intended to trigger the majority of [[element:bloom]]s.",
             "fr": "Ce build est specifiquement pour les équipes [[element:bloom]] où [[character:sangonomiya-kokomi]] est le personnage qui déclenchera la majorité des [[element:bloom]]s.",
+            "it": "Questa build è pensata specificamente per i team [[element:bloom]] in cui [[character:sangonomiya-kokomi]] è il personaggio che innesca la maggior parte delle reazioni [[element:bloom]].",
             "ru": "Сборка предназначена для играющих через Бутонизацию команд, в которых именно Кокоми создает большую часть бутонов."
         }
     ]

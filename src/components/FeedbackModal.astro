@@ -8,25 +8,22 @@ type Props = {
 
 const { lang = 'en' } = Astro.props as Props;
 const feedbackEndpoint =
-  import.meta.env.VERCEL === '1'
-    ? '/api/feedback'
-    : import.meta.env.PUBLIC_FEEDBACK_ENDPOINT || '/api/feedback';
+  import.meta.env.VERCEL === '1' ? '/api/feedback' : import.meta.env.PUBLIC_FEEDBACK_ENDPOINT || '/api/feedback';
 const faqPath = localizedPath(lang, 'faq');
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 ---
 
 <Modal id="feedback-modal" className="feedback-modal" title="Feedback">
   <p class="feedback-faq-note">
-    Check the <a href={faqPath}>FAQ</a> before sending feedback. It already answers
-    the most common questions.
+    Check the <a href={faqPath}>FAQ</a> before sending feedback. It already answers the most common questions.
   </p>
 
-  <form
-    class="feedback-form"
-    action={feedbackEndpoint}
-    method="post"
-    data-feedback-form
-  >
+  <p class="feedback-faq-note" data-feedback-history-link hidden>
+    <a href={localizedPath(lang, 'your-feedback')}>View your previously submitted feedback </a>
+    and follow its progress on GitHub.
+  </p>
+
+  <form class="feedback-form" action={feedbackEndpoint} method="post" data-feedback-form>
     <label>
       <span>Discord username</span>
       <textarea
@@ -50,34 +47,18 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 
     <label>
       <span>Page</span>
-      <textarea
-        name="page"
-        rows="2"
-        data-feedback-page
-        placeholder="Defaults to the current page"></textarea>
+      <textarea name="page" rows="2" data-feedback-page placeholder="Defaults to the current page"></textarea>
     </label>
 
     <label>
       <span>Feedback</span>
-      <textarea
-        name="feedback"
-        rows="7"
-        required
-        placeholder="Tell us what happened or what you would like changed"
+      <textarea name="feedback" rows="7" required placeholder="Tell us what happened or what you would like changed"
       ></textarea>
     </label>
 
     <input type="hidden" name="language" value={lang} data-feedback-language />
 
-    {
-      turnstileSiteKey && (
-        <div
-          class="feedback-captcha"
-          data-sitekey={turnstileSiteKey}
-          data-feedback-captcha
-        />
-      )
-    }
+    {turnstileSiteKey && <div class="feedback-captcha" data-sitekey={turnstileSiteKey} data-feedback-captcha />}
 
     <label class="feedback-faq-check">
       <input type="checkbox" name="faq_checked" required />
@@ -88,9 +69,7 @@ const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 
     <div class="feedback-actions">
       <button class="feedback-submit" type="submit">Send feedback</button>
-      <button class="feedback-cancel" type="button" data-feedback-close>
-        Cancel
-      </button>
+      <button class="feedback-cancel" type="button" data-feedback-close> Cancel </button>
     </div>
   </form>
 </Modal>

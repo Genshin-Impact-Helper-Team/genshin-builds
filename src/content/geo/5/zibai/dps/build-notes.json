@@ -31,7 +31,7 @@
         {
             "en": "- {rot:E n4 n4 E n1E n1E QE} - Condensed rotation, does not offer more damage and tends to put you in teammate's [[ability:skill]] cooldown time, only used when needing front-loaded damage",
             "fr": "- {rot:E n4 n4 E n1E n1E AE} - Rotation condensée, n'offre pas plus de dégâts et tend à vous placer dans le temps de recharge des [[ability:skill]] de vos coéquipiers, utilisée uniquement lorsqu'il faut des dégâts dès le début de la rotation.",
-            "it": "- Combo più veloce: {rot:E n4 n4 E n1E n1E AE} - Combo per rotazioni più veloce che spesso lascia troppo poco tempo per ricaricare le [[ability:skill]] degli altri personaggi del team, solitamente utilizzata solo nel caso in cui sia necessario infliggere danni elevati in un breve lasso di tempo.",
+            "it": "- Combo più veloce: {rot:E n4 n4 E n1E n1E QE} - Combo per rotazioni più veloce che spesso lascia troppo poco tempo per ricaricare le [[ability:skill]] degli altri personaggi del team, solitamente utilizzata solo nel caso in cui sia necessario infliggere danni elevati in un breve lasso di tempo.",
             "ru": "- {rot:E n4 n4 E n1E n1E QE} - Укороченный вариант, не опережает стандартное комбо по урону. Возможно, что придется ждать отката способностей других персонажей в отряде. Стоит применять, если требуется нанести больше урона за короткое время."
         },
         {
