@@ -7,6 +7,13 @@
             }
         },
         "cr/cd",
-        "atk%"
+        "atk%",
+        {
+            "name": "em",
+            "note": {
+                "en": "Only useful in teams where [[character:navia]] can trigger [[element:lunar-crystallize]].",
+                "ru": "Полезно только в тех командах, где [[character:navia]] может закрывать [[element:lunar-crystallize|Лунную кристаллизацию]]."
+            }
+        }
     ]
 }
