@@ -28,19 +28,6 @@
         {
             "items": [
                 "lost-prayer-to-the-sacred-winds",
-                {
-                    "name": "clash-of-kings",
-                    "note": {
-                        "en": "At **[R5]**, this weapon outperforms **[[weapon:reliquary-of-truth]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:reliquary-of-truth]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva.",
-                        "ru": "**На [R5]** превосходит **[[weapon:reliquary-of-truth]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
                 "tulaytullahs-remembrance",
                 {
                     "name": "echoes-of-the-heart",
@@ -57,7 +44,16 @@
             "items": [
                 "kaguras-verity",
                 "tome-of-the-eternal-flow",
-                "starcallers-watch"
+                "starcallers-watch",
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon outperforms **[[weapon:memory-of-dust]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
+                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:memory-of-dust]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:memory-of-dust]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva.",
+                        "ru": "**На [R5]** превосходит **[[weapon:memory-of-dust]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия."
+                    }
+                }
             ]
         },
         {
@@ -72,10 +68,10 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "**At [R5]**, this option performs closer to **[[weapon:vivid-notions]]**.",
-                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:vivid-notions]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:vivid-notions]]**.",
-                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:vivid-notions]]**."
+                        "en": "**At [R5]**, this option performs closer to **[[weapon:lost-prayer]]**.",
+                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:lost-prayer]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:lost-prayer]]**.",
+                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:lost-prayer]]**."
                     }
                 }
             ]
