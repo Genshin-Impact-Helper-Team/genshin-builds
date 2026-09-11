@@ -104,8 +104,8 @@
                     "name": "talking-stick",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes passive is inactive. With [[element:pyro]] passive active, it can perform equal to **[[weapon:tidal-shadow]]** at **[R1]** and equal to **[[weapon:wolf-gravestone]]** at **[R5]**.",
-                        "ru": "Предполагается, что Пассивная способность неактивна. При активной [[element:pyro]] Пассивной способности соответствует **[[weapon:tidal-shadow|Тени волны]]** на **[R1]** и **[[weapon:wolf-gravestone|Волчьей погибели]]** на **[R5]**."
+                        "en": "Assumes passive is inactive. With [[element:pyro]] passive active, it can perform equal to **[[weapon:tidal-shadow]]** at **[R1]** and equal to **[[weapon:wolfs-gravestone]]** at **[R5]**.",
+                        "ru": "Предполагается, что Пассивная способность неактивна. При активной [[element:pyro]] Пассивной способности соответствует **[[weapon:tidal-shadow|Тени волны]]** на **[R1]** и **[[weapon:wolfs-gravestone|Волчьей погибели]]** на **[R5]**."
                     }
                 },
                 "blackcliff-slasher"
