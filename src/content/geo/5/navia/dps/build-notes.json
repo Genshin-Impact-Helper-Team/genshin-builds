@@ -6,15 +6,17 @@
     },
     "best": true,
     "weapons": {
-        "link": "https://docs.google.com/spreadsheets/u/0/d/1uRUSxBmZpFPXi1ByHM08MQ0Xr8aA5rJ_4rzB1QZ280o/edit",
-        "author": "Speify"
+        "link": "https://drive.google.com/drive/folders/1cn6YvTQ4AWdJYY_H49MeLTrUkI2rml9K?usp=sharing",
+        "author": "Finnyke"
     },
     "notes": [
         {
-            "en": "[[character:navia]] is a DPS that utilizes stacks gained from absorbing [[element:crystallize]] shard o [[element:lunar-crystallize]] reaction to doesn't demand much field time. While most of her DPS is frontloaded into her [[ability:skill]], she should stay on-field to take advantage of her 4s [[element:geo]] conversion window. Her [[ability:burst]] lets her generate Crystal Shrapnel stacks and is important to use every rotation.",
-            "fr": "[[character:navia]] est un DPS qui ne demande pas beaucoup de temps de terrain. Même si la majorité de son DPS est concentrée dans son [[ability:skill]], elle devrait rester on-field pour profiter de sa fenêtre de conversion [[element:geo]] de 4 s. Son [[ability:burst]] lui permet de générer des stacks de Shrapnel cristallin et il est important de l'utiliser à chaque rotation.",
-            "it": "[[character:navia]] è una DPS che non richiede molto tempo sul campo. Sebbene la maggior parte dei suoi DPS sia concentrato nelle sue [[ability:skill]], dovrebbe rimanere sul campo per sfruttare il lasso di tempo di 4 secondi di conversione [[element:geo]] dei suoi Attacchi Normali e Caricati. Il suo [[ability:burst]] le permette di generare accumuli di Bossolo di cristallo ed è importante utilizzarlo in ogni rotazione.",
-            "ru": "[[character:navia]] не требует большого количества времени на поле. Значительная часть её урона приходится на [[ability:skill]], но [[character:navia]] остаётся активной и после него из-за четырехсекундной [[element:geo]] инфузии. [[ability:burst]] [[character:navia|Навии]] позволяет генерировать Кристальную шрапнель, поэтому рекомендуется использовать его каждую ротацию. "
+            "en": "[[character:navia]] is a DPS that can frontload a significant portion of her damage with [[ability:skill]]. To maximize her [[ability:skill]] damage, she utilizes Crystal Shrapnel stacks gained from picking up [[element:crystallize]] shards or triggering [[element:lunar-crystallize]] reaction. While her [[ability:burst]] is active, it grants additional stacks. Because of this, it is important to be able to use [[ability:burst]] every rotation and to have off-field [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]] application to increase amount of [[elemenet:cystallize]] shards.",
+            "ru": "[[character:navia]] наносит значительную часть своего урона за короткое время, применяя [[ability:skill]]. Чтобы получить максимум урона, она использует Кристальную шрапнель, для накопления которой необходимо подбирать осколки от реакции [[element:crystallize]] или закрывать [[element:lunar-crystallize|Лунный кристалл]]. Когда её [[ability:burst]] активен, [[character:navia]] получает дополнительныую шрапнель. В связи с этим, важно использовать [[ability:burst]] каждую ротацию и брать в отряд персонажей, накладывающих [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo] из кармана."
+        },
+        {
+            "en": "After using her [[ability:skill]], [[character:navia]] gains 4 seconds of [[element:geo]] infusion, allowing her to deal additional damage and build up Crystal Shrapnel stacks for the next [[ability:skill]]. The [[ability:burst]] should be used before her field-time to maximize the stack generation.",
+            "ru": "После использования [[ability:skill|Элементального навыка]], [[character:navia]] получает [[element:geo]] инфузию на 4 секунды, что позволяет ей наносить дополнительный урон и получать дополнительную шрапнель для следующего [[ability:skill|Элементального навыка]]. [[ability:burst]] должен использовать до выхода [[character:navia|Навии]] на поле для получения дополнительной шрапнели."
         },
         {
             "en": "Full Combo: {rot:E N3D N2 E N3D (N2)}",
