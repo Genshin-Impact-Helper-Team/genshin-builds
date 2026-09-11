@@ -38,6 +38,7 @@
         },
         {
             "items": [
+                "jade-vista",
                 "astral-vultures-crimson-plumage"
             ]
         },
@@ -47,9 +48,9 @@
                     "name": "hamayumi",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes [[character:yoimiya]] is **not** at 100% of her max energy because of **[[set:shimenawa]] (4)**. If you get ~50% uptime with the passive, this weapon ranks above **[[weapon:amos-bow]]**. If the passive is always active, this weapon ranks equal to **[[weapon:slingshot]] [R5]**.",
-                        "fr": "Suppose que [[character:yoimiya]] **n'est pas** a 100% de son énegrie max à cause de **[[set:shimenawa]] (4). Avec le passif actif ~50% du temps, cette arme se classe au dessus de **[[weapon:amos-bow]]**. S'il est actif en permanence, elle équivaut à **[[weapon:slingshot]] [R5]**.",
-                        "ru": "Предполагается, что [[character:yoimiya]] теряет энергию из-за **[[set:shimenawa|Симэнавы]] (4)**. Если Пассивная способность работает половину времени, то данный лук превосходит **[[weapon:amos-bow]]**. При постоянной работе Пассивной способности соответствует **[[weapon:slingshot|Рогатке]] [R5]**."
+                        "en": "Assumes [[character:yoimiya]] is **not** at 100% of her max energy because of **[[set:shimenawa]] (4)**. If the passive is always active, this weapon ranks equal to **[[weapon:golden-frostbound-oath]]**.",
+                        "fr": "Suppose que [[character:yoimiya]] **n'est pas** a 100% de son énegrie max à cause de **[[set:shimenawa]] (4). Si le passif est actif en permanence, cette arme équivaut à **[[weapon:golden-frostbound-oath]]**.",
+                        "ru": "Предполагается, что [[character:yoimiya]] теряет энергию из-за **[[set:shimenawa|Симэнавы]] (4)**. При постоянной работе Пассивной способности соответствует **[[weapon:golden-frostbound-oath]]**."
                     }
                 },
                 "amos-bow"
