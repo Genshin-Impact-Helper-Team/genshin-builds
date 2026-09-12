@@ -19,5 +19,31 @@
             "it": "Il [[ability:burst]] di [[character:sangonomiya-kokomi]] altera dinamicamente il danno della sua [[ability:skill]], non è dunque possibile usare il [[ability:burst]] per 'snapshottare' tale potenzimento sull'[[ability:skill]] e poi uscire dal campo.",
             "ru": "Взрыв стихии Кокоми влияет на урон Элементального навыка динамически, что означает, что при использовании Взрыва стихии и переключении персонажа бонус сбросится."
         }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "Lorem ipsum dolor sit amet"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        }
     ]
 }
