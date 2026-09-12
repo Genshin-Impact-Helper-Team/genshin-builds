@@ -19,7 +19,8 @@
                         "en": "The ranking assumes [[character:wriothesley]] is being shielded. Without shield, this ranks below **[[weapon:vivid-notions]]**.",
                         "fr": "Ce classement suppose que [[character:wriothesley]] est sous bouclier. Si ce n'est pas le cas, cette arme se classe sous **[[weapon:vivid-notions]]**.",
                         "it": "La classifica presuppone che [[character:wriothesley]] si trovi **sotto la protezione di uno scudo**. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:vivid-notions]]**.",
-                        "ru": "Предполаается наличие щита. Без него данное оружие уступает **[[weapon:vivid-notions]]**."
+                        "ru": "Предполаается наличие щита. Без него данное оружие уступает **[[weapon:vivid-notions]]**.",
+                        "de": "Es wird davon ausgegangen, dass [[character:wriothesley]] von einem Schild geschützt wird. Ohne einen Schild, ist diese Waffe schlechter als **[[weapon:vivid-notions]]**."
                     }
                 },
                 "vivid-notions"
@@ -51,7 +52,8 @@
                         "en": "At **[R5]**, this weapon outperforms **[[weapon:memory-of-dust]]**. Use {rot:N5CD N2CD 2[N5CD]} to benefit from the passive.",
                         "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:memory-of-dust]]**. Utilisez {rot:N5CD N2CD 2[N5CD]} pour bénéficier du passif.",
                         "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:memory-of-dust]]**. Usa {rot:N5CD N2CD 2[N5CD]} per sfruttare la passiva.",
-                        "ru": "**На [R5]** превосходит **[[weapon:memory-of-dust]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия."
+                        "ru": "**На [R5]** превосходит **[[weapon:memory-of-dust]]**. Следуйте ротации {rot:N5CD N2CD 2[N5CD]} для поддержания Пассивной способности оружия.",
+                        "de": "Auf **[R5]** ist diese Waffe besser als **[[weapon:memory-of-dust]]**. Spiel die Combo {rot:N5CD N2CD 2[N5CD]} um mehr von der Passive zu profitieren."
                     }
                 }
             ]
@@ -71,7 +73,8 @@
                         "en": "**At [R5]**, this option performs closer to **[[weapon:lost-prayer]]**.",
                         "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:lost-prayer]]**.",
                         "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:lost-prayer]]**.",
-                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:lost-prayer]]**."
+                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:lost-prayer]]**.",
+                        "de": "Auf **[R5]** ist diese Waffe ähnlich gut wie **[[weapon:lost-prayer]]**."
                     }
                 }
             ]
