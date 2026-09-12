@@ -1,0 +1,75 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "the-daybreak-chronicles",
+                "thundering-pulse"
+            ]
+        },
+        {
+            "items": [
+                "the-first-great-magic"
+            ]
+        },
+        {
+            "items": [
+                "aqua-simulacra"
+            ]
+        },
+        {
+            "items": [
+                "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                "hunters-path",
+                "polar-star"
+            ]
+        },
+        {
+            "items": [
+                "golden-frostbound-oath",
+                "astral-vultures-crimson-plumage"
+            ]
+        },
+        {
+            "items": [
+                "jade-vista"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "slingshot",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "amos-bow"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hamayumi",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "rust",
+                    "note": {
+                        "en": "At [R5], this weapon ranks above **[[weapon:slingshot]]**.",
+                        "fr": "Une fois [R5], cette arme dépasse **[[weapon:slingshot]]**.",
+                        "ru": "На [R5] превосходит **[[weapon:slingshot]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}
