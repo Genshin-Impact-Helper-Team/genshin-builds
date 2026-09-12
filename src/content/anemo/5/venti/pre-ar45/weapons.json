@@ -1,0 +1,31 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "song-of-stillness",
+                    "note": {
+                        "en": "Ranked under the assumption that Venti is healed, thus activating its passive. Otherwise, do not use this weapon."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "slingshot"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-warbow",
+                    "note": {
+                        "en": "Use this if Venti is being used more as a support."
+                    }
+                }
+            ]
+        }
+    ]
+}

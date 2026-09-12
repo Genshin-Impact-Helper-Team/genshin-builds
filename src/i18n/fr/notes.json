@@ -4,5 +4,15 @@
     "er-req": "A prioriser jusqu'à atteindre les besoins nécéssaires",
     "exaiphanes": "On préfère généralement utiliser cette arme sur le Voyageur. Ce n'est une option a considérer que si elle n'est pas déjà utilisée",
     "wip-weapon": "Armes viables dont les calculs sont en cours:",
-    "wip-artifact": "Sets d'artéfacts viables dont les calculs sont en cours:"
+    "wip-artifact": "Sets d'artéfacts viables dont les calculs sont en cours:",
+    "pre-ar45": "Avant l'AR 45",
+    "investment-value": "**Valeur d'Investissement**",
+    "high-iv": "Haute",
+    "med-high-iv": "Bonne",
+    "medium-iv": "Moyenne",
+    "low-medium-iv": "Limitée",
+    "low-iv": "Faible",
+    "4vv-p45": "Les personnages Anémo peuvent être de très bons buffer pour les éléments **Pyro/Électro/Cryo/Hydro** avec ce set. Il est recommandé de donner un 4P de ce set à vos supports Anémo (en utilisant le moins de résine possible, donc peu importe les stats) si cela aide pour votre équipe.",
+    "4scroll-p45": "Les supports de Natlan peuvent facilement buff les éléments qui réagissent avec le leur grâce à ce set. Obtenir un 4P de ce set peu importe les stats peut être bénéfique si cela aide pour votre équipe.",
+    "4dm-p45": "Il est recommandé d'avoir ce set sur un personnage de votre équipe dans les équipes qui tournent principalement autour des DGT Dendro. De la même façon que **Ombre de la Verte Chasseuse (4)** pour les personnages Anémo, il est recommandé de donner un 4P de ce set à un de vos personnages (en utilisant le moins de résine possible, donc peu importe les stats) si cela aide pour votre équipe. N'importe qui peut porter ce set (à condition de pouvoir déclencher l'effet du 4P), y compris les personnages qui ne sont pas Dendro."
 }

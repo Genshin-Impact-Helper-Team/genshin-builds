@@ -1,0 +1,32 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "resolution-of-sojourner",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Use this set if someone else has **[[set:instructor]] (4)**.",
+                                "fr": "Utilisez ce set si quelqu'un d'autre dans l'équipe porte déjà **[[set:instructor]] (4)**."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

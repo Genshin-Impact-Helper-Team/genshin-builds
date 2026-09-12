@@ -11,14 +11,14 @@ type StatItem = {
 type SubstatPriority = StatItem | { items: StatItem[] };
 
 type ArtifactRecommendations = {
-  mainstats: {
+  mainstats?: {
     main_stats: {
       sands: StatItem[];
       goblet: StatItem[];
       circlet: StatItem[];
     };
   };
-  substats: {
+  substats?: {
     substats_priority: SubstatPriority[];
   };
 };
@@ -31,12 +31,12 @@ const { artifacts, locale } = Astro.props as {
 const hasNoteMarker = (item: StatItem) => Boolean(item.noteId || item.note);
 
 const mainStatSlots = [
-  { label: 'Sands', items: artifacts.mainstats.main_stats.sands },
-  { label: 'Goblet', items: artifacts.mainstats.main_stats.goblet },
-  { label: 'Circlet', items: artifacts.mainstats.main_stats.circlet },
-];
+  { label: 'Sands', items: artifacts.mainstats?.main_stats.sands ?? [] },
+  { label: 'Goblet', items: artifacts.mainstats?.main_stats.goblet ?? [] },
+  { label: 'Circlet', items: artifacts.mainstats?.main_stats.circlet ?? [] },
+].filter((slot) => slot.items.length > 0);
 
-const substatRows = artifacts.substats.substats_priority.map(
+const substatRows = (artifacts.substats?.substats_priority ?? []).map(
   (priority: SubstatPriority, index: number) => ({
     rank: index + 1,
     items: 'items' in priority ? priority.items : [priority],
@@ -49,72 +49,81 @@ const substatRows = artifacts.substats.substats_priority.map(
   <h2>{t(locale, 'ui', 'Artifact Stats', undefined, false)}</h2>
 
   <div class="recommendation-card-body">
-    <div class="section recommendation-section">
-      <h3>{t(locale, 'ui', 'Main Stats')}</h3>
+    {
+      mainStatSlots.length > 0 && (
+        <div class="section recommendation-section">
+          <h3>{t(locale, 'ui', 'Main Stats')}</h3>
 
-      <div class="stat-grid">
-        {
-          mainStatSlots.map((slot) => {
-            const noteItems = slot.items.filter(hasNoteMarker);
+          <div class="stat-grid">
+            {mainStatSlots.map((slot) => {
+              const noteItems = slot.items.filter(hasNoteMarker);
 
-            return (
-              <div
-                class={`stat-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
-              >
-                <strong>{t(locale, 'ui', slot.label)}</strong>
-                <span>
-                  {slot.items.map((stat: StatItem, statIndex: number) => (
-                    <>
-                      {statIndex > 0 && ' / '}
-                      <span class="recommendation-label-emphasized">{stat.name}</span>
-                    </>
-                  ))}
-                </span>
-                {noteItems.length > 0 && <RowNoteAction items={noteItems} />}
-              </div>
-            );
-          })
-        }
-      </div>
-    </div>
-
-    <div class="section recommendation-section">
-      <h3>{t(locale, 'ui', 'Substats')}</h3>
-
-      <div class="rank-list">
-        {
-          substatRows.map((row) => (
-            <div class="rank-group">
-              {row.items[0] && (
+              return (
                 <div
-                  class={`rank-row${hasNoteMarker(row.items[0]) ? ' has-row-note' : ''}`}
+                  class={`stat-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
                 >
-                  <strong class="rank-number">{row.rank}</strong>
-                  <span class="rank-content">
-                    <span class="recommendation-label-emphasized">{row.items[0].name}</span>
+                  <strong>{t(locale, 'ui', slot.label)}</strong>
+                  <span>
+                    {slot.items.map((stat: StatItem, statIndex: number) => (
+                      <>
+                        {statIndex > 0 && ' / '}
+                        <span class="recommendation-label-emphasized">
+                          {stat.name}
+                        </span>
+                      </>
+                    ))}
                   </span>
-                  {hasNoteMarker(row.items[0]) && (
-                    <RowNoteAction items={[row.items[0]]} />
-                  )}
+                  {noteItems.length > 0 && <RowNoteAction items={noteItems} />}
                 </div>
-              )}
+              );
+            })}
+          </div>
+        </div>
+      )
+    }
+    {
+      substatRows.length > 0 && (
+        <div class="section recommendation-section">
+          <h3>{t(locale, 'ui', 'Substats')}</h3>
 
-              {row.hasAlternatives &&
-                row.items.slice(1).map((item) => (
+          <div class="rank-list">
+            {substatRows.map((row) => (
+              <div class="rank-group">
+                {row.items[0] && (
                   <div
-                    class={`rank-row alt${hasNoteMarker(item) ? ' has-row-note' : ''}`}
+                    class={`rank-row${hasNoteMarker(row.items[0]) ? ' has-row-note' : ''}`}
                   >
-                    <span class="rank-approx">&asymp;</span>
+                    <strong class="rank-number">{row.rank}</strong>
                     <span class="rank-content">
-                      <span class="recommendation-label-emphasized">{item.name}</span>
+                      <span class="recommendation-label-emphasized">
+                        {row.items[0].name}
+                      </span>
                     </span>
-                    {hasNoteMarker(item) && <RowNoteAction items={[item]} />}
+                    {hasNoteMarker(row.items[0]) && (
+                      <RowNoteAction items={[row.items[0]]} />
+                    )}
                   </div>
-                ))}
-            </div>
-          ))
-        }
-      </div>
-    </div>
+                )}
+
+                {row.hasAlternatives &&
+                  row.items.slice(1).map((item) => (
+                    <div
+                      class={`rank-row alt${hasNoteMarker(item) ? ' has-row-note' : ''}`}
+                    >
+                      <span class="rank-approx">&asymp;</span>
+                      <span class="rank-content">
+                        <span class="recommendation-label-emphasized">
+                          {item.name}
+                        </span>
+                      </span>
+                      {hasNoteMarker(item) && <RowNoteAction items={[item]} />}
+                    </div>
+                  ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      )
+    }
   </div>
 </div>

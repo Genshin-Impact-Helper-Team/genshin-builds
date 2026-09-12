@@ -6,17 +6,22 @@ import '../styles/theme.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CalculationLinks from '../components/CalculationLinks.astro';
+import BuildModeSelector from '../components/BuildModeSelector.astro';
+import { PRE_AR_45_ROUTE_SEGMENT } from '../utils/content-tree';
 import { t } from '../utils/i18n';
-import { sitePath } from '../utils/paths';
+import { localizedPath, sitePath } from '../utils/paths';
 
 const {
   character,
   characterSlug,
+  characterRouteSlug,
   metadata,
   lang,
   locale,
   builds = [],
   defaultBuildSlug,
+  isPreAr45 = false,
+  hasPreAr45Build = false,
 } = Astro.props;
 const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
   '{name}',
@@ -31,6 +36,11 @@ const defaultBuild =
     (build: any) => build.slug === defaultBuildSlug && !build.isWip,
   ) ?? builds.find((build: any) => !build.isWip);
 const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
+const normalModeHref = localizedPath(lang, characterSlug);
+const preAr45ModeHref = localizedPath(
+  lang,
+  `${characterSlug}/${PRE_AR_45_ROUTE_SEGMENT}`,
+);
 ---
 
 <html lang={lang}>
@@ -43,7 +53,11 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
 
   <body data-element={Astro.props.element}>
     <!-- The header needs the URL slug, not the localized display name. -->
-    <Header locale={locale} lang={lang} character={characterSlug} />
+    <Header
+      locale={locale}
+      lang={lang}
+      character={characterRouteSlug ?? characterSlug}
+    />
     <div class="page character-page">
       <div class="character-page-layout">
         <aside class="character-header" aria-labelledby="character-title">
@@ -54,6 +68,8 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
                   class="character-image"
                   src={characterHeaderImage}
                   alt={characterArtAlt}
+                  width="132"
+                  height="132"
                   loading="eager"
                   decoding="async"
                   fetchpriority="high"
@@ -86,6 +102,17 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
               }
             </div>
           </div>
+
+          {
+            hasPreAr45Build && (
+              <BuildModeSelector
+                locale={locale}
+                normalHref={normalModeHref}
+                preAr45Href={preAr45ModeHref}
+                isPreAr45={isPreAr45}
+              />
+            )
+          }
 
           {
             builds.length > 0 && (
