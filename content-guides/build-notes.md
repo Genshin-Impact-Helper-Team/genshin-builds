@@ -77,6 +77,26 @@ src/content/<element>/<rarity>/<character>/<build>/build-notes.json
   - Build-level notes do not add a `*` marker because they are not attached to
     one specific item.
 
+## Good to know tips
+
+Keep important advice in `notes` and put optional details in `tips`.
+The section is hidden when the selected build's `tips` is missing or empty. Tips belong to the selected build.
+
+```json
+"tips": [
+  {
+    "title": {
+      "en": "A short, descriptive question",
+      "fr": "Une question courte et descriptive"
+    },
+    "content": {
+      "en": "The optional explanation, with **Markdown**.",
+      "fr": "L’explication facultative, avec du **Markdown**."
+    }
+  }
+]
+```
+
 ## Detailed Calculation Credits
 
 Use these optional objects to show detailed calculation links at the top of the

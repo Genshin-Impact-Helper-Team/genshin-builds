@@ -6,31 +6,21 @@ import '../styles/theme.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CalculationLinks from '../components/CalculationLinks.astro';
+import BuildTips from '../components/BuildTips.astro';
 import { t } from '../utils/i18n';
 import { sitePath } from '../utils/paths';
 
-const {
-  character,
-  characterSlug,
-  metadata,
-  lang,
-  locale,
-  builds = [],
-  defaultBuildSlug,
-} = Astro.props;
-const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
-  '{name}',
-  character,
-);
+const { character, characterSlug, metadata, lang, locale, builds = [], defaultBuildSlug } = Astro.props;
+const characterArtAlt = t(locale, 'ui', 'Character art alt').replace('{name}', character);
 const characterHeaderImage = metadata?.portrait ?? metadata?.image;
 const buildLabel = t(locale, 'ui', 'Builds', undefined, false);
 const bestRoleLabel = t(locale, 'ui', 'Best Role');
 const versionLabel = t(locale, 'ui', 'Version');
 const defaultBuild =
-  builds.find(
-    (build: any) => build.slug === defaultBuildSlug && !build.isWip,
-  ) ?? builds.find((build: any) => !build.isWip);
+  builds.find((build: any) => build.slug === defaultBuildSlug && !build.isWip) ??
+  builds.find((build: any) => !build.isWip);
 const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
+const buildsWithTips = builds.filter((build: any) => !build.isWip && build.buildNote?.tips?.length > 0);
 ---
 
 <html lang={lang}>
@@ -75,10 +65,7 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
                 activeLastUpdated && (
                   <div class="last-updated">
                     <span>{t(locale, 'ui', 'Last Updated')}</span>
-                    <strong
-                      data-last-updated-value
-                      data-version-label={versionLabel}
-                    >
+                    <strong data-last-updated-value data-version-label={versionLabel}>
                       {versionLabel} {activeLastUpdated}
                     </strong>
                   </div>
@@ -91,8 +78,7 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
             builds.length > 0 && (
               <nav class="build-switcher" aria-label={buildLabel}>
                 {builds.map((build: any) => {
-                  const isDefaultBuild =
-                    build.slug === defaultBuildSlug && !build.isWip;
+                  const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
 
                   return (
                     <button
@@ -109,14 +95,8 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
                     >
                       <span class="build-switcher-name">{build.name}</span>
                       <span class="build-switcher-tags">
-                        {build.lastUpdated && (
-                          <span class="build-version-badge">
-                            {build.lastUpdated}
-                          </span>
-                        )}
-                        {build.isBest && (
-                          <span class="build-badge">{bestRoleLabel}</span>
-                        )}
+                        {build.lastUpdated && <span class="build-version-badge">{build.lastUpdated}</span>}
+                        {build.isBest && <span class="build-badge">{bestRoleLabel}</span>}
                       </span>
                     </button>
                   );
@@ -126,13 +106,29 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
           }
 
           {
+            buildsWithTips.length > 0 && (
+              <section
+                class="build-tips-section"
+                data-build-tips-section
+                hidden={!defaultBuild?.buildNote?.tips?.length}
+              >
+                <h2>{t(locale, 'ui', 'Good to know')}</h2>
+                {buildsWithTips.map((build: any) => (
+                  <div data-build-tips-panel data-id={build.slug} hidden={build.slug !== defaultBuildSlug}>
+                    <BuildTips tips={build.buildNote.tips} />
+                  </div>
+                ))}
+              </section>
+            )
+          }
+
+          {
             builds.length > 0 && (
               <div class="build-calculation-panels">
                 {builds
                   .filter((build: any) => build.hasCalculations)
                   .map((build: any) => {
-                    const isDefaultBuild =
-                      build.slug === defaultBuildSlug && !build.isWip;
+                    const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
 
                     return (
                       <div
@@ -142,10 +138,7 @@ const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
                         hidden={!isDefaultBuild}
                         aria-hidden={isDefaultBuild ? 'false' : 'true'}
                       >
-                        <CalculationLinks
-                          buildNote={build.buildNote}
-                          locale={locale}
-                        />
+                        <CalculationLinks buildNote={build.buildNote} locale={locale} />
                       </div>
                     );
                   })}
