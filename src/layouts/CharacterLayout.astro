@@ -112,7 +112,7 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
                 data-build-tips-section
                 hidden={!defaultBuild?.buildNote?.tips?.length}
               >
-                <h2>{t(locale, 'ui', 'Good to know')}</h2>
+                <h2>{t(locale, 'ui', 'Gameplay Tips')}</h2>
                 {buildsWithTips.map((build: any) => (
                   <div data-build-tips-panel data-id={build.slug} hidden={build.slug !== defaultBuildSlug}>
                     <BuildTips tips={build.buildNote.tips} />

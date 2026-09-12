@@ -77,7 +77,7 @@ src/content/<element>/<rarity>/<character>/<build>/build-notes.json
   - Build-level notes do not add a `*` marker because they are not attached to
     one specific item.
 
-## Good to know tips
+## Gameplay Tips
 
 Keep important advice in `notes` and put optional details in `tips`.
 The section is hidden when the selected build's `tips` is missing or empty. Tips belong to the selected build.

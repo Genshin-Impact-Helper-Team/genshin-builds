@@ -107,7 +107,7 @@ const noteMarkerExplanation = t(locale, 'ui', 'Note marker explanation', undefin
                 <Notes notes={build.notes} buildNote={build.buildNote} locale={locale} />
                 {build.buildNote?.tips?.length > 0 && (
                   <section class="build-tips-section build-tips-mobile">
-                    <h2>{t(locale, 'ui', 'Good to know')}</h2>
+                    <h2>{t(locale, 'ui', 'Gameplay Tips')}</h2>
                     <BuildTips tips={build.buildNote.tips} />
                   </section>
                 )}

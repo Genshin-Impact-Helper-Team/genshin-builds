@@ -1516,7 +1516,7 @@
   --w-color-primary-50: rgba(255, 255, 255, 0.1);
   position: relative;
   min-width: 0;
-  margin-top: 4px;
+  margin-top: 14px;
   overflow: hidden;
   border-radius: 8px;
   padding: 0 4px;
@@ -1576,7 +1576,7 @@
   gap: 6px;
   font-size: 0.78rem;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .build-tips [data-id='w-accordion'] > li {
