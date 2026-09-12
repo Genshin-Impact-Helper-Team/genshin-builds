@@ -21,5 +21,47 @@
             "it": "I team di [[character:varka]] richiedono un secondo personaggio [[ability:hexerei]], un secondo personaggio [[element:anemo]] e due personaggi dello stesso elemento PHEC ([[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]). Il mancato rispetto di queste condizioni farà crollare i danni di [[character:varka]].",
             "ru": "В отряде [[character:varka|Варки]] всегда стоит иметь второго [[element:anemo]] персонажа, второго [[ability:hexerei|Ведьминского]] персонажа и двух персонажей одного элемента из [[element:pyro]]/[[element:hydro]]/[[element:electro]]/[[element:cryo]]. В противном случае его урон значительно снижается."
         }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "Lorem ipsum dolor sit amet"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        }
     ]
 }

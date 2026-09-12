@@ -558,7 +558,7 @@
 
 .recommendation-section h3,
 .notes-section h3 {
-  margin: 0;
+  margin: 20px 0 0 0;
   color: var(--accent);
   font-size: 0.72rem;
   font-weight: 850;
@@ -906,11 +906,6 @@
   gap: 7px;
 }
 
-.notes-section {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 10px;
-}
-
 .notes-content > .notes-section:first-child,
 .notes-block + .notes-section {
   border-top: 0;
@@ -926,6 +921,25 @@
   color: var(--accent);
   font-size: 0.82rem;
   font-weight: 850;
+}
+
+.note-accordion {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.note-accordion > summary {
+  min-height: 32px;
+  box-sizing: border-box;
+  padding: 7px 4px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.note-accordion > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .build-note-list,
@@ -1475,11 +1489,6 @@
     padding: 10px;
   }
 
-  .stat-row {
-    grid-template-columns: 1fr;
-    gap: 3px;
-  }
-
   .info-popover-header.has-image {
     grid-template-columns: 52px minmax(0, 1fr);
     gap: 8px 10px;
@@ -1500,3 +1509,91 @@
     height: 52px;
   }
 }
+
+.build-tips {
+  --w-color-primary: var(--accent);
+  --w-color-primary-20: var(--text);
+  --w-color-primary-50: rgba(255, 255, 255, 0.1);
+  position: relative;
+  min-width: 0;
+  margin-top: 4px;
+  overflow: hidden;
+  border-radius: 8px;
+  padding: 0 4px;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+[data-build-tips-panel] {
+  min-width: 0;
+}
+
+[data-build-tips-panel][hidden],
+.build-tips-section[hidden] {
+  display: none;
+}
+
+.build-tips-section {
+  min-width: 0;
+  border-top: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  padding: 12px 0;
+}
+
+.build-tips-mobile {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .character-header > .build-tips-section {
+    display: none;
+  }
+
+  .build-tips-mobile {
+    display: block;
+    margin: 20px 0;
+  }
+}
+
+.build-tips-section > h2 {
+  text-align: center;
+  margin: 0 4px;
+  padding: 0 4px;
+  color: var(--accent);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.build-tips button {
+  font: inherit;
+}
+
+.build-tips [data-id='w-accordion'] button[data-toggle] {
+  min-height: 32px;
+  gap: 6px;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.build-tips [data-id='w-accordion'] > li {
+  padding-block: 2px;
+}
+
+.build-tips [data-id='w-accordion'] button[data-toggle] > svg {
+  width: 11px;
+  height: 11px;
+  min-width: 11px;
+  flex-shrink: 0;
+}
+
+.build-tips button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.build-tips p:first-child { margin-top: 0; }
+.build-tips p:last-child { margin-bottom: 0; }

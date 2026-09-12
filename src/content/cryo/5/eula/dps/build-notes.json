@@ -36,5 +36,23 @@
         {
             "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+        },
+        {
+            "title": {
+                "en": "Lorem ipsum"
+            },
+            "content": {
+                "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        }
     ]
 }

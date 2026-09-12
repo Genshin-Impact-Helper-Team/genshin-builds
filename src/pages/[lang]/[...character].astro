@@ -4,6 +4,7 @@ import Artifact from '../../components/Artifact.astro';
 import ArtifactStats from '../../components/ArtifactStats.astro';
 import Talent from '../../components/Talent.astro';
 import Notes from '../../components/Notes.astro';
+import BuildTips from '../../components/BuildTips.astro';
 import CharacterPageLayout from '../../layouts/CharacterLayout.astro';
 import { getCharacterPageData } from '../../utils/character-page';
 import { t } from '../../utils/i18n';
@@ -24,35 +25,16 @@ try {
   throw error;
 }
 
-const {
-  characterSlug,
-  characterName,
-  metadata,
-  element,
-  lang: currentLang,
-  locale,
-  builds,
-  warnings,
-} = pageData;
+const { characterSlug, characterName, metadata, element, lang: currentLang, locale, builds, warnings } = pageData;
 
 const defaultBuildSlug =
-  builds.find((build) => build.isBest && !build.isWip)?.slug ??
-  builds.find((build) => !build.isWip)?.slug;
+  builds.find((build) => build.isBest && !build.isWip)?.slug ?? builds.find((build) => !build.isWip)?.slug;
 
-const calculationKeys = [
-  'artifact',
-  'artifacts',
-  'weapons',
-  'talent',
-  'talents',
-  'global',
-];
+const calculationKeys = ['artifact', 'artifacts', 'weapons', 'talent', 'talents', 'global'];
 
 const hasBuildCalculations = (buildNote: any) =>
   calculationKeys.some((key) => {
-    const credits = Array.isArray(buildNote?.[key])
-      ? buildNote[key]
-      : [buildNote?.[key]];
+    const credits = Array.isArray(buildNote?.[key]) ? buildNote[key] : [buildNote?.[key]];
 
     return credits.some((credit) => credit?.author && credit?.link);
   });
@@ -66,13 +48,7 @@ const buildHasItemNotes = (notes: any) =>
     notes?.talents?.items,
   ].some((items) => Array.isArray(items) && items.length > 0);
 
-const noteMarkerExplanation = t(
-  locale,
-  'ui',
-  'Note marker explanation',
-  undefined,
-  false,
-);
+const noteMarkerExplanation = t(locale, 'ui', 'Note marker explanation', undefined, false);
 ---
 
 <CharacterPageLayout
@@ -99,8 +75,7 @@ const noteMarkerExplanation = t(
         builds.map((build) => {
           const buildContentId = `build-content-${build.slug}`;
           const hasNoteMarkerHint = buildHasItemNotes(build.notes);
-          const isDefaultBuild =
-            build.slug === defaultBuildSlug && !build.isWip;
+          const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
 
           return (
             <section
@@ -122,35 +97,20 @@ const noteMarkerExplanation = t(
                 )}
 
                 <div class="grid">
-                  {build.weapons && (
-                    <Weapon
-                      weapons={build.weapons}
-                      locale={locale}
-                      lang={currentLang}
-                    />
-                  )}
-                  {build.artifacts.sets && (
-                    <Artifact
-                      artifacts={build.artifacts}
-                      locale={locale}
-                      lang={currentLang}
-                    />
-                  )}
+                  {build.weapons && <Weapon weapons={build.weapons} locale={locale} lang={currentLang} />}
+                  {build.artifacts.sets && <Artifact artifacts={build.artifacts} locale={locale} lang={currentLang} />}
                   {build.artifacts.mainstats && build.artifacts.substats && (
-                    <ArtifactStats
-                      artifacts={build.artifacts}
-                      locale={locale}
-                    />
+                    <ArtifactStats artifacts={build.artifacts} locale={locale} />
                   )}
-                  {build.talents && (
-                    <Talent talents={build.talents} locale={locale} />
-                  )}
+                  {build.talents && <Talent talents={build.talents} locale={locale} />}
                 </div>
-                <Notes
-                  notes={build.notes}
-                  buildNote={build.buildNote}
-                  locale={locale}
-                />
+                <Notes notes={build.notes} buildNote={build.buildNote} locale={locale} />
+                {build.buildNote?.tips?.length > 0 && (
+                  <section class="build-tips-section build-tips-mobile">
+                    <h2>{t(locale, 'ui', 'Good to know')}</h2>
+                    <BuildTips tips={build.buildNote.tips} />
+                  </section>
+                )}
               </div>
             </section>
           );
@@ -159,7 +119,6 @@ const noteMarkerExplanation = t(
     </div>
   </div>
 </CharacterPageLayout>
-
 
 <script>
   import '../../scripts/build-selector';
