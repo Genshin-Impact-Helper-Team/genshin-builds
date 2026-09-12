@@ -9,7 +9,7 @@ type RenderedNote = {
 };
 
 type NoteGroup = {
-  headingId?: string;
+  headingId: string;
   items: RenderedNote[];
 };
 
@@ -31,21 +31,21 @@ const noteSections: NoteSection[] = [
   {
     headingId: 'Regarding Weapons Choices:',
     global: notes.weapons.global,
-    groups: [{ items: notes.weapons.items }],
+    groups: [{ headingId: 'Weapons notes', items: notes.weapons.items }],
   },
   {
     headingId: 'Regarding Artifacts Choices:',
     global: notes.artifacts.global,
     groups: [
-      { headingId: 'Sets', items: notes.artifacts.sets },
-      { headingId: 'Main Stats', items: notes.artifacts.mainstats },
-      { headingId: 'Substats', items: notes.artifacts.substats },
+      { headingId: 'Artifact sets notes', items: notes.artifacts.sets },
+      { headingId: 'Main stats notes', items: notes.artifacts.mainstats },
+      { headingId: 'Substats notes', items: notes.artifacts.substats },
     ],
   },
   {
     headingId: 'Regarding Talents Choices:',
     global: notes.talents.global,
-    groups: [{ items: notes.talents.items }],
+    groups: [{ headingId: 'Talents notes', items: notes.talents.items }],
   },
 ].filter(hasNoteContent);
 
@@ -58,45 +58,34 @@ const hasNotes = noteSections.length > 0;
       <h2>{t(locale, 'ui', 'Notes')}</h2>
 
       <div class="notes-content">
-        {buildNote && (
-          <div class="notes-block">
-            {buildNote.notes?.length > 0 && (
-              <div class="build-note-list">
-                {/* Build-level editorial notes are already localized and rendered. */}
-                {buildNote.notes.map((note: string) => (
-                  <div set:html={note} />
-                ))}
-              </div>
-            )}
+        {(buildNote?.notes?.length > 0 || noteSections.some((section) => section.global.length > 0)) && (
+          <div class="build-note-list">
+            {buildNote?.notes?.map((note: string) => <div set:html={note} />)}
+            {noteSections.filter((section) => section.global.length > 0).map((section) => (
+              <section class="notes-section">
+                <h3>{t(locale, 'ui', section.headingId)}</h3>
+                {section.global.map((note) => <p set:html={note} />)}
+              </section>
+            ))}
           </div>
         )}
 
-        {noteSections.map((section) => (
-          <section class="notes-section">
-            <h3>{t(locale, 'ui', section.headingId)}</h3>
-
-            {section.global.map((note) => (
-              <p set:html={note} />
-            ))}
-
-            {section.groups
-              .filter((group) => group.items.length > 0)
-              .map((group) => (
-                <div class="note-group">
-                  {group.headingId && (
-                    <h4>{t(locale, 'ui', group.headingId)}</h4>
-                  )}
-                  {group.items.map((note) => (
-                    <div
-                      data-note-id={note.id}
-                      class="note-target"
-                      set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
-                    />
-                  ))}
-                </div>
-              ))}
-          </section>
-        ))}
+        {noteSections.flatMap((section) => section.groups)
+          .filter((group) => group.items.length > 0)
+          .map((group) => (
+            <details class="note-accordion" name="note-groups">
+              <summary>{t(locale, 'ui', group.headingId)}</summary>
+              <div class="note-group">
+                {group.items.map((note) => (
+                  <div
+                    data-note-id={note.id}
+                    class="note-target"
+                    set:html={`<span class="element-bold">${note.name}:</span> ${note.note}`}
+                  />
+                ))}
+              </div>
+            </details>
+          ))}
       </div>
     </div>
   )

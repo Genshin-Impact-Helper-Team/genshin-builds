@@ -1,0 +1,17 @@
+---
+import { Accordion } from 'webcoreui/astro';
+
+const { tips } = Astro.props;
+---
+
+{
+  tips?.length > 0 && (
+    <div class="build-tips" data-build-tips>
+      <Accordion items={tips} icon="plus" />
+    </div>
+  )
+}
+
+<script>
+  import '../scripts/build-tips';
+</script>
