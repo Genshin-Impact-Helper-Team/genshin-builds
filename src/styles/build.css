@@ -1489,11 +1489,6 @@
     padding: 10px;
   }
 
-  .stat-row {
-    grid-template-columns: 1fr;
-    gap: 3px;
-  }
-
   .info-popover-header.has-image {
     grid-template-columns: 52px minmax(0, 1fr);
     gap: 8px 10px;
