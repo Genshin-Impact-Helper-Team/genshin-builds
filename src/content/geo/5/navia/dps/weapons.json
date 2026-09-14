@@ -13,6 +13,7 @@
                     "note": {
                         "en": "Best option in teams with [[ability:hexerei]].",
                         "fr": "La meilleure option dans les équipes [[ability:hexerei]].",
+                        "it": "La migliore opzione in team [[ability:hexerei]].",
                         "ru": "Лучший выбор в командах с активным эффектом [[ability:hexerei|Ведьмовства]]."
                     }
                 }
@@ -31,6 +32,7 @@
                     "note": {
                         "en": "With [[stat:cr]] buffs, it can perform similar to or better than **[[weapon:beacon-of-the-reed-sea]]**.",
                         "fr": "Avec des buffs de [[stat:cr]], cette arme peut être similaire voire meilleure que **[[weapon:beacon-of-the-reed-sea]]**.",
+                        "it": "Con potenziamenti a [[stat:cr]], quest'arma può avere prestazioni simili o migliori di **[[weapon:beacon-of-the-reed-sea]]**.",
                         "ru": "При наличии бонусов к [[stat:cr|Шансу крит. попадания]] может соответствовать **[[weapon:beacon-of-the-reed-sea|Маяку тростникового моря]]** или превосходить его."
                     }
                 }
@@ -43,6 +45,7 @@
                     "note": {
                         "en": "Assumes full stacks. At **[R5]** with full stacks, it can perform as well as **[[weapon:gest-of-the-mighty-wolf]]**.",
                         "fr": "Supposes le maximum de cumuls. Une fois **[R5]** avec le maximum de cumuls, cette arme performe aussi bien que **[[weapon:gest-of-the-mighty-wolf]]**.",
+                        "it": "La classifica presuppone accumuli massimi. A **[R5]** con i massimi accumuli, quest'arma può avere prestazioni simili a **[[weapon:gest-of-the-mighty-wolf]]**.",
                         "ru": "Предполгается максимальный уровень Пассивной способности. На **[R5]** и максимальном уровне Пассивной способности соответствует **[[weapon:gest-of-the-mighty-wolf|Подвигу могучего волка]]**."
                     }
                 }
@@ -56,6 +59,7 @@
                     "note": {
                         "en": "Peforms slightly worse than similarly ranked options in [[element:lunar-crystallize]] teams unless a shielder is present.",
                         "fr": "Peforme légèrement moins bien que les autres options du même rang dans les équipes [[element:lunar-crystallize]], à moins qu'un bouclier soit présent.",
+                        "it": "Quest'arma ha prestazioni peggiori rispetto alle opzioni simili in classifica in team [[element:lunar-crystallize]], a meno che non sia presente uno scudo.",
                         "ru": "Немного уступает оружию с таким же рейтингом в отрядах от [[element:lunar-crystallize|Лунного кристалла]], еслив  отряде нет персонажа сс щитом."
                     }
                 },
@@ -90,6 +94,7 @@
                     "note": {
                         "en": "If the [[stat:er]] provided by this weapon is useful, it can perform better than **[[weapon:tidal-shadow]]**.",
                         "fr": "Si la [[stat:er]] offerte par cette arme est utile, elle peut devenir meilleure que **[[weapon:tidal-shadow]]**.",
+                        "it": "Se la [[stat:er]] fornita da quest'arma è utile, può avere prestazioni migliori di **[[weapon:tidal-shadow]]**.",
                         "ru": "Если [[stat:er]] на этом оружии полезно, оно превосходит **[[weapon:tidal-shadow]]**."
                     }
                 }
@@ -102,7 +107,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If the [[stat:er]] provided by this weapon is useful, it can perform similarly to **[[weapon:tidal-shadow]]**.",
-                        "fr": "Si la [[stat:er]] offerte par cette arme est utile, elle peut devenir meilleure que **[[weapon:tidal-shadow]]**.",
+                        "fr": "Si la [[stat:er]] offerte par cette arme est utile, elle peut peut devenir similaire à **[[weapon:tidal-shadow]]**.",
+                        "it": "Se la [[stat:er]] fornita da quest'arma è utile, può avere prestazioni simili a **[[weapon:tidal-shadow]]**.",
                         "ru": "Если [[stat:er]] на этом оружии полезно, оно соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 },
@@ -112,6 +118,7 @@
                     "note": {
                         "en": "Assumes the passive is inactive. With the [[element:pyro]] passive active, **[[weapon:talking-stick]] [R1]** can perform on par with **[[weapon:tidal-shadow]]**, and **[[weapon:talking-stick]] [R5]** with **[[weapon:wolfs-gravestone]]**.",
                         "fr": "Suppose que le passif est inactif. Avec le passif [[element:pyro]] actif, **[[weapon:talking-stick]] [R1]** peut être équivalent à **[[weapon:tidal-shadow]]**, et **[[weapon:talking-stick]] [R5]** à **[[weapon:wolfs-gravestone]]**.",
+                        "it": "La classifica presuppone che la passiva **non** sia attiva. **Se la passiva [[element:pyro]] è attiva**, **[[weapon:talking-stick]] [R1]** può avere prestazioni simili a **[[weapon:tidal-shadow]]**, e **[[weapon:talking-stick]] [R5]** a **[[weapon:wolfs-gravestone]]**.",
                         "ru": "Предполагается, что Пассивная способность неактивна. При активной [[element:pyro]] Пассивной способности соответствует **[[weapon:tidal-shadow|Тени волны]]** на **[R1]** и **[[weapon:wolfs-gravestone|Волчьей погибели]]** на **[R5]**."
                     }
                 },
