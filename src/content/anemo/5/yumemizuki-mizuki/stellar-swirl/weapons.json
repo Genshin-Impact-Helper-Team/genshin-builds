@@ -79,6 +79,13 @@
                         "it": "A **[R5]**, se utilizzata correttamente, quest'arma può avere prestazioni simili a [[weapon:sunny-morning-sleep-in]] in team con personaggi che hanno Tempi di Ricarica del [[ability:burst]] di 20s.",
                         "ru": "**На [R5]** и при грамотном использовании ненамного уступает [[weapon:sunny-morning-sleep-in|Сну солнечным утром]] в тех отрядапх, где откат [[ability:burst|Взрывов стихии]] у союзников составляет 20 секунд."
                     }
+                },
+                {
+                    "name": "blackmarrow-lantern",
+                    "note": {
+                        "en": "If you already have one on standby, this is a good weapon to use on [[character:yumemizuki-mizuki]]. However if you do not alreay have one, **it isn't worth crafting just for her**, and you should use another option instead.",
+                        "fr": "Si vous en avez déjà une de côté, c'est une bonne arme à utiliser pour [[character:yumemizuki-mizuki]]. Cependant, si ce n'est pas le cas, **ça ne vaut pas le coup d'en craft une juste pour elle**, et vous devriez plutôt utiliser une autre option."
+                    }
                 }
             ]
         },
@@ -87,7 +94,11 @@
                 "magic-guide",
                 {
                     "name": "echoes-of-the-heart",
-                    "refinement": 5
+                    "refinement": 5,
+                    "note": {
+                        "en": "If you already have one on standby, this is a good weapon to use on [[character:yumemizuki-mizuki]]. However if you do not alreay have one, **it isn't worth crafting just for her**, and you should use another option instead.",
+                        "fr": "Si vous en avez déjà une de côté, c'est une bonne arme à utiliser pour [[character:yumemizuki-mizuki]]. Cependant, si ce n'est pas le cas, **ça ne vaut pas le coup d'en craft une juste pour elle**, et vous devriez plutôt utiliser une autre option."
+                    }
                 },
                 {
                     "name": "wandering-evenstar",
