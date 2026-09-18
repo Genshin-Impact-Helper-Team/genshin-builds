@@ -664,6 +664,7 @@
     "hunters-bow": {
         "rarity": 1,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },
@@ -1358,6 +1359,7 @@
     "seasoned-hunters-bow": {
         "rarity": 2,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },

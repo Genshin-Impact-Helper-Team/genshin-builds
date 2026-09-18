@@ -417,6 +417,7 @@
     "dull-blade": {
         "rarity": 1,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },
@@ -1437,6 +1438,7 @@
     "silver-sword": {
         "rarity": 2,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },

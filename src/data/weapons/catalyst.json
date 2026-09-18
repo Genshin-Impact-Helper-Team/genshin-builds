@@ -2,6 +2,7 @@
     "apprentices-notes": {
         "rarity": 1,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },
@@ -12,6 +13,23 @@
         },
         "level_max": {
             "base_attack": 185,
+            "substat_value": "0.0%"
+        }
+    },
+    "pocket-grimoire": {
+        "rarity": 2,
+        "version_released": "1.0",
+        "source": "Exploration",
+        "passive": {
+            "en": ""
+        },
+        "substat": "",
+        "level_1": {
+            "base_attack": 33,
+            "substat_value": "0.0%"
+        },
+        "level_max": {
+            "base_attack": 243,
             "substat_value": "0.0%"
         }
     },

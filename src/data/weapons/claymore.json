@@ -820,6 +820,7 @@
     "old-mercs-pal": {
         "rarity": 2,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },
@@ -1543,6 +1544,7 @@
     "waster-greatsword": {
         "rarity": 1,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },
