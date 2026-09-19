@@ -83,8 +83,9 @@
                 {
                     "name": "blackmarrow-lantern",
                     "note": {
-                        "en": "If you already have one on standby, this is a good weapon to use on [[character:yumemizuki-mizuki]]. However if you do not alreay have one, **it isn't worth crafting just for her**, and you should use another option instead.",
-                        "fr": "Si vous en avez déjà une de côté, c'est une bonne arme à utiliser pour [[character:yumemizuki-mizuki]]. Cependant, si ce n'est pas le cas, **ça ne vaut pas le coup d'en craft une juste pour elle**, et vous devriez plutôt utiliser une autre option."
+                        "en": "If you already have one on standby, this is a good weapon to use on [[character:yumemizuki-mizuki]]. However if you do not already have one, **it isn't worth crafting just for her**, and you should use another option instead.",
+                        "fr": "Si vous en avez déjà une de côté, c'est une bonne arme à utiliser pour [[character:yumemizuki-mizuki]]. Cependant, si ce n'est pas le cas, **ça ne vaut pas le coup d'en craft une juste pour elle**, et vous devriez plutôt utiliser une autre option.",
+                        "it": "Se ne hai già una a disposizione, quest'arma è un'ottima opzione per [[character:yumemizuki-mizuki]]. Tuttavia, se non ne possiedi già una, **non vale la pena forgiarla appositamente per lei**."
                     }
                 }
             ]
@@ -96,8 +97,9 @@
                     "name": "echoes-of-the-heart",
                     "refinement": 5,
                     "note": {
-                        "en": "If you already have one on standby, this is a good weapon to use on [[character:yumemizuki-mizuki]]. However if you do not alreay have one, **it isn't worth crafting just for her**, and you should use another option instead.",
-                        "fr": "Si vous en avez déjà une de côté, c'est une bonne arme à utiliser pour [[character:yumemizuki-mizuki]]. Cependant, si ce n'est pas le cas, **ça ne vaut pas le coup d'en craft une juste pour elle**, et vous devriez plutôt utiliser une autre option."
+                        "en": "If you already have one on standby, this is a good weapon to use on [[character:yumemizuki-mizuki]]. However if you do not already have one, **it isn't worth crafting just for her**, and you should use another option instead.",
+                        "fr": "Si vous en avez déjà une de côté, c'est une bonne arme à utiliser pour [[character:yumemizuki-mizuki]]. Cependant, si ce n'est pas le cas, **ça ne vaut pas le coup d'en craft une juste pour elle**, et vous devriez plutôt utiliser une autre option.",
+                        "it": "Se ne hai già una a disposizione, quest'arma è un'ottima opzione per [[character:yumemizuki-mizuki]]. Tuttavia, se non ne possiedi già una, **non vale la pena forgiarla appositamente per lei**."
                     }
                 },
                 {
