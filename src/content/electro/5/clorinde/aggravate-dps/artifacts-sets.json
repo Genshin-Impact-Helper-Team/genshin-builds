@@ -17,6 +17,18 @@
                 {
                     "items": [
                         {
+                            "name": "notsu",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "gladiators-finale",
                             "pieces": 4
                         }

@@ -7,7 +7,11 @@
         },
         {
             "items": [
-                "light-of-foliar-incision",
+                "beyond-the-chrysalis"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "haran-geppaku-futsu",
                     "note": {
@@ -31,24 +35,16 @@
                     }
                 },
                 {
-                    "name": "primordial-jade-cutter",
+                    "name": "uraku-misugiri",
                     "note": {
-                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent giving her a free 20% [[stat:cr]].",
-                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du talent A4 de [[character:clorinde]] qui lui donne 20% de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]] a causa del talento A4 di [[character:clorinde]], che le fornisce 20% [[stat:cr]].",
-                        "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
-                    }
-                },
-                "uraku-misugiri",
-                {
-                    "name": "freedom-sworn",
-                    "note": {
-                        "en": "This weapon loses significant value outside of [[element:dendro]]-based teams.",
-                        "fr": "Cette arme perd beaucoup de valeur en dehors des équipes basées sur le [[element:dendro]].",
-                        "it": "Quest'arma perde molto valore al di fuori di team [[element:dendro]].",
-                        "ru": "Вне [[element:dendro]] отрядов гораздо менее полезен."
+                        "en": "This ranking assumes [[character:clorinde]] is played with a [[element:geo]] character. Otherwise, this weapon ranks below **[[weapon:light-of-foliar-incision]]**."
                     }
                 }
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision"
             ]
         },
         {
@@ -67,18 +63,72 @@
         },
         {
             "items": [
+                "azurelight"
+            ]
+        },
+        {
+            "items": [
                 {
-                    "name": "finale-of-the-deep",
+                    "name": "primordial-jade-cutter",
+                    "note": {
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent giving her a free 20% [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du talent A4 de [[character:clorinde]] qui lui donne 20% de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]] a causa del talento A4 di [[character:clorinde]], che le fornisce 20% [[stat:cr]].",
+                        "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "freedom-sworn",
+                "athame-artis"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "heretics-molten-blade",
+                    "note": {
+                        "en": "At **[R5]**, this weapon will perform close to **[[weapon:pjc]]**."
+                    }
+                },
+                {
+                    "name": "summit-shapper",
+                    "note": {
+                        "en": "Ranking assumes [[character:clorinde]] is being shielded by someone, most notably being [[character:kirara]]. Otherwise, this weapon ranks below **[[weapon:the-black-sword]]**."
+                    }
+                },
+                {
+                    "name": "new-bough",
+                    "note": {
+                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:freedom-sworn]]**.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:freedom-sworn]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:freedom-sworn]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:freedom-sworn]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "harbinger-of-dawn",
                     "refinement": 5
                 },
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:finale-of-the-deep]] [R5]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:finale-of-the-deep]] [R5]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:finale-of-the-deep]] [R5]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:finale-of-the-deep]] [R5]**."
+                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:athame-artis]]**.",
+                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:athame-artis]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:athame-artis]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:athame-artis]]**."
                     }
+                },
+                "lions-roar",
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5
                 }
             ]
         }
