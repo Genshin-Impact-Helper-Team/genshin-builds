@@ -2039,5 +2039,47 @@
             128,
             24
         ]
+    },
+    "breezeborne-refrain": {
+        "rarity": 4,
+        "version_released": "7.1",
+        "passive": {
+            "en": "Increases Energy Recharge by {{value}}%. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party members a {{value}}% Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
+            "fr": "La recharge d'énergie augmente de {{value}}%. Lorsque le personnage équipé de l'arme touche un ennemi avec une compétence élémentaire ou un déchaînement élémentaire, il obtient l'effet Hymne de pureté, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,03 s. Avec 3 cumuls, tout l'hymne de pureté est annulé pour accorder l'effet Mensonge de vipère : augmente les DGT de réaction astrale de tous les personnages de l'équipe à proximité de {{value}}% pendant 12 s, durée pendant laquelle il est impossible d'obtenir à nouveau de l'hymne de pureté. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht die Aufladerate um {{value}}%. Verleiht dem Träger, wenn er mit seiner Elementarfähigkeit oder Spezialfähigkeit einen Gegner trifft, eine Stapelung „Hymne der Reinheit“, bis zu 3-fach stapelbar, 0,03 s Abklingzeit. Entfernt bei 3 vorhandenen Stapelungen „Hymne der Reinheit“ alle Stapelungen und verleiht dem Träger „Todesgift der Schlange“: Erhöht den durch alle Truppenmitglieder in der Nähe mit der Reaktion Stellarfunkeln verursachten Schaden 12 s lang um {{value}}%. Währenddessen kann „Hymne der Reinheit“ nicht erneut erhalten werden. Obige Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.",
+            "es": "Aumenta la Recarga de Energía en un {{value}}%. Cuando el portador de esta arma golpea a un enemigo con su Habilidad Elemental o Definitiva, obtiene una carga de “salmo de la Inmaculada”. Este efecto puede acumularse hasta 3 veces y solo se puede obtener una carga cada 0.03 s. Al alcanzar 3 cargas, se eliminarán todas las de salmo de la Inmaculada y se obtendrá el efecto de “mentira viperina”, el cual aumenta el daño de las reacciones de Destello Estelar de todos los personajes cercanos del equipo en un {{value}}% durante 12 s. Durante este tiempo, no se podrán obtener más cargas de salmo de la Inmaculada. Estos efectos se pueden activar incluso cuando el portador está en tu equipo pero no en uso.",
+            "it": "Aumenta la ricarica d'energia di un {{value}}%. Quando il personaggio che equipaggia l'arma colpisce un avversario con la sua abilità elementale o il suo Tripudio elementale, ottiene un accumulo di \"Inno immacolato\". L'effetto può attivarsi una volta ogni 0,03 s, e può accumularsi per un massimo di 3 volte. Al raggiungimento dei 3 accumuli, tutte le iterazioni di \"Inno immacolato\" vengono rimosse e sostituite da \"Inganno viperino\", che conferisce ai membri vicini del gruppo un aumento dei DAN da reazione di Barlume astrale di un {{value}}% per 12 s, durante i quali non è possibile ottenere accumuli di \"Inno immacolato\". Gli effetti sopracitati possono attivarsi anche se il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "Восстановление энергии повышается на {{value}}%. Когда элементальный навык или взрыв стихии экипированного персонажа поражают врага, он получает 1 уровень Гимна непорочных. Эффект складывается до 3 раз и может возникнуть один раз в 0,03 сек. При получении 3 уровней эффекта все уровни Гимна непорочных исчезают, активируя Смертельный яд змеи: урон реакций Звёздного блеска всех персонажей отряда поблизости повышается на {{value}}% на 12 сек. Во время его действия нельзя получать Гимн непорочных. Эти эффекты срабатывают, даже когда экипированный персонаж не на поле боя.",
+            "pt": "Aumenta a Recarga de Energia em {{value}}%. Quando a Habilidade Elemental ou o Supremo do portador atingem um inimigo, obtém um acúmulo de Canto Sagrado do Purificador. Acumula até 3 vezes, e pode obter 1 acúmulo a cada 0.03s. Ao acumular 3 vezes, remove todos os acúmulos de Canto Sagrado do Purificador para obter Veneno Mortal da Serpente: aumenta o Dano de reações de Brilho Estelar de todos os membros da equipe em {{value}}% por 12s. Nesse período não é possível obter mais Canto Sagrado do Purificador. Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        "substat": "cr",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "6.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "27.6%"
+        },
+        "r1": [
+            20,
+            24
+        ],
+        "r2": [
+            25,
+            30
+        ],
+        "r3": [
+            30,
+            36
+        ],
+        "r4": [
+            35,
+            42
+        ],
+        "r5": [
+            40,
+            48
+        ]
     }
 }
