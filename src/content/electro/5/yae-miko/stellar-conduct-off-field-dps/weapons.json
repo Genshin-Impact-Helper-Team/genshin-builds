@@ -36,7 +36,13 @@
                 "tome-of-the-eternal-flow",
                 "starcallers-watch",
                 "sunny-morning-sleep-in",
-                "tulaytullahs-remembrance"
+                "tulaytullahs-remembrance",
+                {
+                    "name": "winters-heavy-heart",
+                    "note": {
+                        "en": "**At [R5]**, this weapon performs better than **[[weapon:reliquary-of-truth]]**."
+                    }
+                }
             ]
         },
         {
@@ -81,7 +87,7 @@
     ],
     "notes": [
         {
-            "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**.",
+            "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**. Thus, if Yae Miko is **[C1]** or **[C2]**, weapons that provide **[[element:stellar-glimmer]] DMG / [[stat:em]] buffs** perform worse when compared to **[C0]**.",
             "fr": "**Les armes [[stat:em]]** deviennent plus intéressantes lorsque l'équipe a **moins de buffs de DGT [[element:stellar-glimmer]] / [[stat:em]]**.",
             "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]**.",
             "ru": "**Оружие на [[stat:em|МС]]** становится более ценным, если у отряда **не слишком много бонусов к урону реакций [[element:stellar-glimmer|Звёздного блеска]]**."
