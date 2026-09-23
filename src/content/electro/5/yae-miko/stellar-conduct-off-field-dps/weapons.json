@@ -40,7 +40,8 @@
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "**At [R5]**, this weapon performs better than **[[weapon:reliquary-of-truth]]**."
+                        "en": "**At [R5]**, this weapon performs better than **[[weapon:reliquary-of-truth]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -89,7 +90,7 @@
         {
             "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**. Thus, if Yae Miko is **[C1]** or **[C2]**, weapons that provide **[[element:stellar-glimmer]] DMG / [[stat:em]] buffs** perform worse when compared to **[C0]**.",
             "fr": "**Les armes [[stat:em]]** deviennent plus intéressantes lorsque l'équipe a **moins de buffs de DGT [[element:stellar-glimmer]] / [[stat:em]]**.",
-            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]**.",
+            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]**. Di conseguenza, se Yae Miko è **[C1]** o **[C2]**, le armi che forniscono **DAN [[element:stellar-glimmer]] o [[stat:em]]** hanno prestazioni peggiori rispetto a quando è **[C0]**.",
             "ru": "**Оружие на [[stat:em|МС]]** становится более ценным, если у отряда **не слишком много бонусов к урону реакций [[element:stellar-glimmer|Звёздного блеска]]**."
         }
     ]
