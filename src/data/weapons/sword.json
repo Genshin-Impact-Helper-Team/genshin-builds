@@ -2260,5 +2260,147 @@
             "-",
             "-"
         ]
+    },
+    "new-bough": {
+        "rarity": 4,
+        "version_released": "7.1",
+        "passive": {
+            "en": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by {{value}}% and their Elemental Mastery by {{value}}. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.<br><br>Radiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by {{value}}% as well as Stellar Glimmer reaction DMG dealt by the equipping character by {{value}}%.",
+            "fr": "Lorsque le personnage équipé de l'arme touche un ennemi avec une attaque dans les 12 s suivant l'utilisation d'une compétence élémentaire, il obtient l'effet Verdoyant : augmente l'ATQ de {{value}}% et la maîtrise élémentaire de {{value}} pts pendant 6 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les secondes. Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.<br><br>Radiance astrale : l'effet Verdoyant est converti pour augmenter l'ATQ de {{value}}% et les DGT de réaction astrale infligés par le personnage équipé de l'arme de {{value}}%.",
+            "de": "Verleiht dem Träger innerhalb von 12 s nach dem Anwenden der Elementarfähigkeit, wenn er einen Gegner mit einem Angriff trifft, den Effekt „Üppigkeit“: Erhöht den ANG 6 s lang um {{value}}% und die Elementarkunde um {{value}}, bis zu 3-fach stapelbar, 1 s Abklingzeit. Dieser Effekt kann auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.<br><br>Leuchten &ndash; Stellarfunkeln: Erhöht beim Effekt „Üppigkeit“ stattdessen den ANG um {{value}}% sowie den durch den Träger mit der Reaktion Stellarfunkeln verursachten Schaden um {{value}}%.",
+            "es": "Durante 12 s tras usar la Habilidad Elemental, cuando el portador de esta arma golpee a un enemigo con un ataque, obtendrá el efecto de “frondosidad”, el cual aumenta el ATQ en un {{value}}% y la Maestría Elemental en {{value}} pts. Este efecto dura 6 s, puede acumularse hasta 3 veces, solo puede ocurrir una vez por segundo y se puede activar incluso cuando el portador está en tu equipo pero no en uso.<br><br>“Esplendor: Destello Estelar”: el efecto de frondosidad pasa a aumentar el ATQ en un {{value}}% y el daño de Destello Estelar infligido por el portador en un {{value}}%.",
+            "it": "Entro i 12 s successivi all'uso dell'abilità elementale, quando il personaggio che equipaggia l'arma colpisce un avversario con un attacco, ottiene l'effetto \"Rigoglio\", che aumenta l'ATT e la maestria elementale rispettivamente di un {{value}}% e {{value}}. L'effetto dura 6 s e può attivarsi una volta ogni secondo, anche quando il personaggio che equipaggia l'arma non è in campo, accumulandosi fino a 3 volte.<br><br>Nello stato di Splendore: Barlume astrale, l'effetto \"Rigoglio\" cambia, aumentando l'ATT e i DAN da reazione di Barlume astrale inflitti dal personaggio che equipaggia l'arma rispettivamente di un {{value}}% e di un {{value}}%.",
+            "ru": "Когда экипированный персонаж поражает врага атакой в течение 12 сек. после применения элементального навыка, он получает эффект Зарослей: сила атаки повышается на {{value}}%, а мастерство стихий - на {{value}} ед. Эффект длится 6 сек., складывается до 3 раз, активируется не чаще 1 раза в 1 сек. и срабатывает, даже когда экипированный персонаж не на поле боя.<br><br>Сияние - Звёздный блеск: эффект Зарослей вместо этого повышает силу атаки на {{value}}% и урон реакций Звёздного блеска экипированного персонажа на {{value}}%.",
+            "pt": "Nos 12s após lançar a Habilidade Elemental, quando o portador atinge um inimigo com um ataque, obtém o efeito Vegetação Exuberante: aumenta o ATQ em {{value}}%, aumenta a Proficiência Elemental em {{value}} por 6s. Acumula até 3 vezes. É possível desencadear uma vez por segundo. Esse efeito pode ser ativado mesmo quando o portador não for o personagem ativo.<br><br>Brilho Reluzente: Brilho Estelar: o efeito de Vegetação Exuberante é alterado para aumentar o ATQ em {{value}}%, e aumenta o Dano de reações de Brilho Estelar do portador em {{value}}%."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "12.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "55.1%"
+        },
+        "r1": [
+            4,
+            20,
+            6,
+            8
+        ],
+        "r2": [
+            5,
+            25,
+            7.5,
+            10
+        ],
+        "r3": [
+            6,
+            30,
+            9,
+            13
+        ],
+        "r4": [
+            7,
+            35,
+            10.5,
+            14
+        ],
+        "r5": [
+            8,
+            40,
+            12,
+            16
+        ]
+    },
+    "silver-light": {
+        "rarity": 4,
+        "version_released": "7.1",
+        "source": "Event",
+        "passive": {
+            "en": "Increases Elemental Mastery by {{value}} for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+            "fr": "Utiliser une compétence élémentaire augmente la maîtrise élémentaire de {{value}} pts pendant 12 s. Cet effet peut être cumulé 2 fois, la durée de chaque cumul étant calculée de façon indépendante.",
+            "de": "Erhöht nach dem Anwenden der Elementarfähigkeit innerhalb von 12 s die Elementarkunde um {{value}} Punkte. Dieser Effekt ist bis zu 2-fach stapelbar, die Wirkungsdauer jeder Stapelung ist unabhängig.",
+            "es": "Tras usar la Habilidad Elemental, la Maestría Elemental aumenta en {{value}} pts. durante 12 s. Este efecto puede acumularse hasta 2 veces y la duración de cada acumulación es independiente.",
+            "it": "Aumenta la maestria elementale di {{value}} per 12 s dopo l'utilizzo dell'abilità elementale. Massimo 2 accumuli, la durata di ciascun accumulo è indipendente.",
+            "ru": "На 12 сек. после применения элементального навыка мастерство стихий повышается на {{value}} ед. Эффект складывается до 2 раз. Отсчёт времени каждого уровня происходит отдельно.",
+            "pt": "Nos 12s após lançar a Habilidade Elemental, aumenta a Proficiência Elemental em {{value}}. Esse efeito pode ser acumulado até 2 vezes, e a duração de cada acúmulo é contada separadamente."
+        },
+        "substat": "atk%",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "9.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "41.3%"
+        },
+        "r1": [
+            52
+        ],
+        "r2": [
+            65
+        ],
+        "r3": [
+            78
+        ],
+        "r4": [
+            91
+        ],
+        "r5": [
+            104
+        ]
+    },
+    "beyond-the-chrysalis": {
+        "rarity": 5,
+        "version_released": "7.1",
+        "passive": {
+            "en": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:<br><br>Winds of Devotion: Increases the equipping character's CRIT DMG by {{value}}% for 10s;<br>Winds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by {{value}}% for 10s; and<br>Winds of Plenty: Regenerates {{value}} Elemental Energy for the equipping character. Up to {{value}} Elemental Energy can be regenerated in this way every 4s.<br><br>The aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+            "fr": "Chaque fois que le personnage équipé de l'arme utilise une compétence élémentaire ou un déchaînement élémentaire, il obtient l'un des effets suivants dans l'ordre :<br><br>Vent de dévotion : augmente ses DGT CRIT de {{value}}% pendant 10 s.<br>Vent de défiance : augmente ses DGT de réaction d'Astrodispersion de {{value}}% pendant 10 s.<br>Vent d'abondance : restaure son énergie élémentaire pour {{value}} pts, un maximum de {{value}} pts d'énergie élémentaire pouvant être restauré toutes les 4 s de cette manière.<br><br>Ces effets sont annulés et l'ordre réinitialisé lorsque le personnage équipé de l'arme quitte le terrain.",
+            "de": "Verleiht dem Träger nach jeder Anwendung einer Elementarfähigkeit oder Spezialfähigkeit der Reihe nach einen der folgenden drei Effekte:<br><br>Wind der Treue: Erhöht den kritischen Schaden des Trägers 10 s lang um {{value}}%.<br>Wind des Verrats: Erhöht den durch die Reaktion Stellar-Verwirbelung des Trägers verursachten Schaden 10 s lang um {{value}}%.<br>Wind der Ernte: Stellt dem Träger {{value}} Punkte Elementarenergie wieder her. Auf diese Weise können alle 4 s bis zu {{value}} Punkte Elementarenergie wiederhergestellt werden.<br><br>Entfernt obige Effekte beim Auswechseln der Figur und setzt die Reihenfolge wieder zurück.",
+            "es": "Cada vez que el portador de esta arma use su Habilidad Elemental o Definitiva, obtendrá uno de los siguientes tres efectos en este orden:<br><br>Viento de la lealtad: el Daño CRIT del portador aumenta en un {{value}}% durante 10 s.<br>Viento de la rebeldía: el daño de Torbellino Estelar del portador aumenta en un {{value}}% durante 10 s.<br>Viento de la abundancia: el portador recupera {{value}} pts. de Energía Elemental. Como máximo, se pueden recuperar {{value}} pts. de Energía Elemental de esta forma cada 4 s.<br><br>Cuando el portador se retire de combate, se eliminarán los anteriores efectos y su orden se reiniciará.",
+            "it": "Ogni volta che il personaggio che equipaggia l'arma usa la sua abilità elementale o il suo Tripudio elementale, ottiene uno tra i tre effetti seguenti in sequenza.<br><br>Venti devoti: aumenta di un {{value}}% per 10 s i DAN da CRIT del personaggio che equipaggia l'arma.<br>Venti sprezzanti: aumenta di un {{value}}% per 10 s i DAN da reazione di Turbinio astrale del personaggio che equipaggia l'arma.<br>Venti abbondanti: ripristina di {{value}} l'energia elementale del personaggio che equipaggia l'arma. È possibile ripristinare in questo modo un massimo di {{value}} di energia elementale ogni 4 s.<br><br>Quando il personaggio che equipaggia l'arma lascia il campo, i sopracitati effetti vengono rimossi e la sequenza si ripristina.",
+            "ru": "Каждый раз, когда экипированный персонаж применяет элементальный навык или взрыв стихии, он получает один из следующих эффектов в данном порядке:<br><br>Ветер искренности: повышает крит. урон экипированного персонажа на {{value}}% на 10 сек.<br>Ветер мятежа: повышает урон реакции Звёздного рассеивания экипированного персонажа на {{value}}% на 10 сек.<br>Ветер изобилия: восстанавливает экипированному персонажу {{value}} ед. энергии. Таким способом можно восстанавливать до {{value}} ед. энергии каждые 4 сек.<br><br>Когда экипированный персонаж покидает поле боя, вышеописанные эффекты снимаются, а порядок сбрасывается.",
+            "pt": "Cada vez que o portador lançar sua Habilidade Elemental ou o Supremo, obtém um desses efeitos na seguinte ordem:<br><br>Lealdade do Vento: aumenta o Dano CRIT do portador em {{value}}% por 10s.<br>Traição do Vento: aumenta o Dano de Redemoinho Estelar do portador em {{value}}% por 10s.<br>Riqueza do Vento: regenera {{value}} de Energia Elemental para o portador. É possível regenerar até {{value}} de Energia Elemental a cada 4s dessa forma.<br><br>Esse efeito será removido e sua ordem será redefinida quando o portador sair de campo."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 48,
+            "substat_value": "9.6%"
+        },
+        "level_max": {
+            "base_attack": 674,
+            "substat_value": "44.1%"
+        },
+        "r1": [
+            56,
+            36,
+            5,
+            5
+        ],
+        "r2": [
+            72,
+            45,
+            5.5,
+            5.5
+        ],
+        "r3": [
+            88,
+            54,
+            6,
+            6
+        ],
+        "r4": [
+            104,
+            63,
+            6.5,
+            6.5
+        ],
+        "r5": [
+            120,
+            72,
+            7,
+            7
+        ]
     }
 }

@@ -2240,5 +2240,109 @@
             40,
             200
         ]
+    },
+    "winters-heavy-heart": {
+        "rarity": 4,
+        "version_released": "7.1",
+        "passive": {
+            "en": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by {{value}} for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by {{value}}%. Up to 4 Cryo or Electro characters can provide the above buffs.<br><br>Radiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a {{value}}-point Elemental Mastery boost and deals {{value}}% increased Stellar Glimmer reaction DMG.",
+            "fr": "Accorde l'effet Pacte de sang argenté au personnage équipé de l'arme : chaque personnage Cryo dans l'équipe augmente sa maîtrise élémentaire de {{value}} pts et chaque personnage Électro dans l'équipe augmente son ATQ de {{value}}%, un maximum de 4 personnages Cryo ou Électro pouvant être pris en compte.<br><br>Radiance astrale : l'effet Pacte de sang argenté est converti : chaque personnage Cryo ou Électro dans l'équipe augmente la maîtrise élémentaire du personnage équipé de l'arme de {{value}} pts et ses DGT de réaction astrale de {{value}}%.",
+            "de": "Verleiht dem Träger „Silbergetränkter Blutpakt“: Erhöht für jedes Kryo-Truppenmitglied die Elementarkunde des Trägers um {{value}} Punkte. Erhöht für jedes Elektro-Truppenmitglied den ANG des Trägers um {{value}}%. Dieser Effekt kann von bis zu 4 Kryo- oder Elektro-Figuren verliehen werden.<br><br>Leuchten &ndash; Stellarfunkeln: Ändert den Effekt von „Silbergetränkter Blutpakt“ zu Folgendem: Erhöht für jedes Kryo- oder Elektro-Truppenmitglied die Elementarkunde des Trägers um {{value}} Punkte sowie den durch die Reaktion Stellarfunkeln verursachten Schaden um {{value}}%.",
+            "es": "El portador de esta arma obtiene el efecto de “pacto de sangre argénteo”, de manera que, por cada personaje Cryo que haya en el equipo, la Maestría Elemental del portador aumenta en {{value}} pts., y por cada personaje Electro que haya en el equipo, su ATQ aumenta en un {{value}}%. Estos efectos pueden ser proporcionados por un máximo de 4 personajes Cryo o Electro.<br><br>“Esplendor: Destello Estelar”: cambia el efecto de pacto de sangre argénteo, de manera que, por cada personaje Cryo o Electro que haya en el equipo, la Maestría Elemental del portador aumenta en {{value}} pts., y su daño de Destello Estelar aumenta en un {{value}}%.",
+            "it": "Il personaggio che equipaggia l'arma ottiene l'effetto \"Patto di sangue argenteo\", che aumenta la sua maestria elementale di {{value}} per ogni personaggio di Cryo presente nel gruppo, e il suo ATT di un {{value}}% per ogni personaggio di Electro presente nel gruppo. Fino a 4 personaggi di Cryo o di Electro possono fornire i potenziamenti sopracitati.<br><br>Nello stato di Splendore: Barlume astrale, l'effetto di \"Patto di sangue argenteo\" viene modificato, aumentando la maestria elementale e i DAN da reazione di Barlume astrale del personaggio che equipaggia l'arma rispettivamente di {{value}} e di un {{value}}% per ogni personaggio di Cryo o di Electro presente nel gruppo.",
+            "ru": "Экипированный персонаж получает Серебряный договор крови: за каждого Крио персонажа в отряде мастерство стихий экипированного персонажа повышается на {{value}} ед., а за каждого Электро персонажа в отряде сила атаки экипированного персонажа увеличивается на {{value}}%. Эффект предоставляется максимум за 4 персонажей Крио или Электро.<br><br>Сияние - Звёздный блеск: вместо этого Серебряный договор крови за каждого Крио или Электро персонажа в отряде повышает мастерство стихий экипированного персонажа на {{value}} ед., а урон реакций Звёздного блеска - на {{value}}%.",
+            "pt": "O portador obtém Acordo de Sangue Prateado Contaminado: aumenta a Proficiência Elemental do portador em {{value}} para cada personagem Cryo da equipe. Aumenta o ATQ do portador em {{value}}% para cada personagem Electro da equipe. É possível que até 4 personagens Cryo ou Electro forneçam esse efeito.<br><br>Brilho Reluzente: Brilho Estelar: o efeito Acordo de Sangue Prateado Contaminado é alterado para: aumenta a Proficiência Elemental do portador em {{value}} para cada personagem Cryo ou Electro da equipe, e aumenta o Dano de reações de Brilho Estelar em {{value}}%."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 42,
+            "substat_value": "12.0%"
+        },
+        "level_max": {
+            "base_attack": 510,
+            "substat_value": "55.1%"
+        },
+        "r1": [
+            24,
+            4.8,
+            20,
+            6
+        ],
+        "r2": [
+            30,
+            6,
+            25,
+            7.5
+        ],
+        "r3": [
+            36,
+            7.2,
+            30,
+            9
+        ],
+        "r4": [
+            42,
+            8.4,
+            35,
+            10.5
+        ],
+        "r5": [
+            48,
+            9.6,
+            40,
+            12
+        ]
+    },
+    "hymn-of-the-maelstrom": {
+        "rarity": 5,
+        "version_released": "7.1",
+        "passive": {
+            "en": "Increases Healing Bonus by {{value}}%.<br><br>When performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by {{value}}% as well as increases the currently active party member's ATK by {{value}}% for every 1,000 Max HP the equipping character has over 40,000. A maximum of {{value}}% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.<br><br>When a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.<br><br>The aforementioned effects can still trigger even when the equipping character is not on the field.",
+            "fr": "Le bonus de soins augmente de {{value}}%.<br><br>En effectuant des soins, le personnage équipé de l'arme obtient l'effet Vintage vatique de Vatsamonga : les PV max augmentent de {{value}}% et chaque tranche de 1 000 PV max du personnage équipé de l'arme au-dessus de 40 000 augmente l'ATQ de votre personnage déployé de l'équipe de {{value}}%, l'ATQ pouvant être augmentée d'un maximum de {{value}}% de cette manière. Cet effet dure 10 s et peut être cumulé 3 fois maximum.<br><br>Lorsqu'un personnage de l'équipe à proximité déclenche une réaction de Gel ou d'Astrodispersion, les bonus de PV max et d'ATQ de cet effet augmentent de 75 % supplémentaires pendant 5 s.<br><br>Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht den Heilungsbonus um {{value}}%.<br><br>Verleiht dem Träger, wenn er eine Heilung durchführt, den Effekt „Vatsamongas Prophetischer Wein“: Erhöht die max. LP um {{value}}%. Erhöht zudem den ANG des eigenen aktiven Truppenmitglieds für den Teil der max. LP des Trägers, der über 40.000 Punkte liegt, um {{value}}% pro 1.000 Punkte, maximal um {{value}}%. Dieser Effekt hält 10 s an und ist 3-fach stapelbar.<br><br>Erhöht innerhalb von 5 s, nachdem ein Truppenmitglied in der Nähe die Reaktion Gefroren oder Stellar-Verwirbelung ausgelöst hat, die oben genannten Effekte zur Erhöhung der max. LP und des ANG zusätzlich um 75 %.<br><br>Diese Effekte können auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.",
+            "es": "El Bono de Curación aumenta en un {{value}}%.<br><br>Al realizar una curación, el portador de esta arma obtiene el efecto de “vino oracular del Vatsamonga”, el cual aumenta su Vida Máx. en un {{value}}%, y hace que el ATQ de tu personaje en uso del equipo aumente en un {{value}}% por cada 1000 pts. de Vida Máx. que el portador tenga por encima de los 40 000 pts., hasta un máximo de un {{value}}%. Este efecto dura 10 s y puede acumularse hasta 3 veces.<br><br>Después de que un personaje cercano del equipo cause una reacción de Congelado o Torbellino Estelar, el aumento de Vida Máx. y de ATQ del efecto anterior se incrementará en un 75% adicional durante 5 s.<br><br>Estos efectos se pueden activar incluso cuando el portador está en tu equipo pero no en uso.",
+            "it": "Aumenta il bonus di guarigione di un {{value}}%.<br><br>Quando apporta effetti di guarigione, il personaggio che equipaggia l'arma ottiene l'effetto \"Vino del Vatsamonga\", che aumenta i suoi PS max di un {{value}}% e l'ATT del membro attivo del gruppo di uno {{value}}% per ogni 1.000 PS max del personaggio che equipaggia l'arma al di sopra di 40.000. In questo modo, l'ATT può aumentare fino a un {{value}}% massimo. L'effetto dura 10 s, e può accumularsi per un massimo di 3 volte.<br><br>Quando un membro vicino del gruppo innesca una reazione di Congelamento o di Turbinio astrale, i suddetti bonus ai PS max e all'ATT aumentano di un ulteriore 75% per i 5 s successivi.<br><br>I suddetti effetti possono attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "Бонус лечения повышается на {{value}}%.<br><br>Экипированный персонаж, исцеляя персонажей, получает эффект Вещий мёд Уацамонги: макс. HP повышается на {{value}}%, а сила атаки активного персонажа увеличивается на {{value}}% (максимум до {{value}}%) за каждые 1000 ед. свыше 40 000 ед. макс. HP экипированного персонажа. Эффект длится 10 сек. и может складываться до 3 раз.<br><br>В течение 5 сек. после того как персонажи отряда поблизости активируют реакции Заморозка или Звёздное рассеивание, вышеописанный эффект повышения макс. HP и силы атаки дополнительно увеличивается на 75%.<br><br>Эти эффекты срабатывают, даже если экипированный персонаж не на поле боя.",
+            "pt": "Aumenta o Bônus de Cura em {{value}}%.<br><br>Ao curar, o portador obtém o efeito Relíquia Profética de Vatsamonga: aumenta a Vida Máxima em {{value}}%, e para cada 1.000 de Vida Máxima acima de 40.000 da Vida Máxima do portador, aumenta o ATQ do personagem ativo em {{value}}%. É possível elevar até {{value}}% dessa forma por 10s. Esse efeito acumula até 3 vezes.<br><br>Nos 5s após um personagem próximo da equipe causar Congelamento ou Redemoinho Estelar, esse efeito de aumento de Vida Máxima e ATQ pode aumentar em mais 75%.<br><br>Esse efeito pode ser desencadeado mesmo quando o portador não for o personagem ativo."
+        },
+        "substat": "hp%",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "14.4%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "66.2%"
+        },
+        "r1": [
+            4,
+            4,
+            0.4,
+            8
+        ],
+        "r2": [
+            5,
+            5,
+            0.5,
+            10
+        ],
+        "r3": [
+            6,
+            6,
+            0.6,
+            12
+        ],
+        "r4": [
+            7,
+            7,
+            0.7,
+            14
+        ],
+        "r5": [
+            8,
+            8,
+            0.8,
+            16
+        ]
     }
 }
