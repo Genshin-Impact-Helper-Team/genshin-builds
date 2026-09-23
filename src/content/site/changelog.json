@@ -5,9 +5,19 @@
             "version": "7.1",
             "entries": [
                 {
-                    "date": "September 23, 2026",
+                    "date": "September 24, 2026",
                     "changes": "Updated Clorinde section.",
                     "appliedBy": "Chiston, Greenster, Plo"
+                },
+                {
+                    "date": "September 23, 2026",
+                    "changes": "Added Winter's Heavy Heart to Mizuki's Stellar-Swirl DPS section, and updated Odette with the 3 new swords.",
+                    "appliedBy": "Plo"
+                },
+                {
+                    "date": "September 22, 2026",
+                    "changes": "Added Winter's Heavy Heart to Yae Miko's Stellar-Conduct Off-Field DPS section. Updated notes regarding weapon choices and linked [C1] weapon calculations.",
+                    "appliedBy": "Yoren"
                 }
             ]
         },
