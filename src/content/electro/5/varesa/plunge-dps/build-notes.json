@@ -21,38 +21,34 @@
     "notes": [
         {
             "en": "Donning her favorite mask, [[character:varesa]] is a Plunge [[element:electro]] DPS who does a majority of her damage via enhanced Plunge attacks and mini-[[ability:burst]]s. After using her [[ability:skill]], [[character:varesa]] can use a [[ability:na]] to iniate an enhanced plunge. Doing this a second time will allow her to use a mini-[[ability:burst]], doing even more damage. She can also perform an enhanced plunge via a [[ability:ca]] without needing her [[ability:skill]], but this is slightly longer to do.",
-            "fr": "Revêtant son masque préféré, [[character:varesa]] est un DPS hypercarry [[element:electro]] qui se concentre sur les dégâts via des combos d'attaques plongeantes.",
-            "it": "[[character:varesa]] è una DPS [[element:electro]] che si concentra sul provocare danni tramite le sue combo di Attacchi in Picchiata.",
-            "ru": "[[character:varesa]] - [[element:electro]] ДД, который наносит урон с помощью атак в падении."
+            "fr": "Revêtant son masque préféré, [[character:varesa]] est un DPS [[element:electro]] Attaques Plongeantes qui inflige la majorité de ses dégâts via des Attaques Plongeantes améliorées et des mini-[[ability:burst]]s. Après avoir utilisé son [[ability:skill]], [[character:varesa]] peut faire une [[ability:na]] pour commencer une attaque plongeante améliorée. En le refaisant une seconde fois, cela lui permet d'utiliser un mini-[[ability:burst]] qui infligera encore plus de dégâts. Elle peut aussi réaliser une attaque plongeante améliorée en faisant une [[ability:ca]] sans avoir besoin de son [[ability:skill]], mais cela prendra un peu plus de temps."
         },
         {
             "en": "Generally combos for [[character:varesa]] are very flexible, most of which consist of {rot:[EN1P EN1P (Q)]} chunks that can be used at any time. Before **[C2]** you will not be able to fill your field time with just using all of your [[ability:skill]] due to her fast animations, this makes a secondary DPS a viable option, or can opt for doing {rot:CP CP} to set up for your next rotation.",
             "fr": "Les combos de [[character:varesa]] sont généralement très flexibles, la plupart consistant à utiliser {rot:[EN1P EN1P (A)]} à tout moment. Avant la **[C2]**, il n'est pas possible d'occuper tout le temps de terrain en utilisant juste vos [[ability:skill]] à cause de ses animations rapides; cela rend possible la présence d'un second DPS, ou bien vous pouvez opter pour {rot:CP CP} afin de préparer votre prochaine rotation.",
             "it": "Le combo di [[character:varesa]] sono molto flessibili, e solitamente consistono di segmenti {rot:[EN1P EN1P (Q)]} che possono essere utilizzati in ogni momento. Prima della **[C2]** non è possibile riempire completamente il tempo sul campo utilizzando solo l'[[ability:skill]], il che rende possibile utilizzare un DPS secondario, oppure utilizzare {rot:CP CP} per preparare la rotazione seguente.",
             "ru": "Как правило, ротации [[character:varesa|Варесы]] достаточно гибки и состоят из повторяющихся блоков {rot:[EN1P EN1P (Q)]}. Без [C2] вы не сможете потратить её время на поле, играя только за счёт [[ability:skill|Элементального навыка]], поэтому второй ДД в отряде может быть разумным вариантом (или же вы можете использовать {rot:CP CP} в конце ротации)."
-        },
-        {
-            "en": "Short Hold [[ability:skill]] when starting the rotation with **[[set:obsidian-codex]] (4)** will result in the highest DMG on average.",
-            "fr": "Un [[ability:skill]] appui court en commençant la rotation avec **[[set:obsidian-codex]] (4)** donnera les meilleurs dégâts en moyenne.",
-            "it": "Nel caso tu utilizzi **[[set:obsidian-codex]] (4)**, tenere l'[[ability:skill]] premuta per breve tempo all'inizio della rotazione produce i danni massimi in media.",
-            "ru": "Короткое долгое нажатие [[ability:skill|Элементального навыка]] в начале ротации оптимально при использовании **[[set:obsidian-codex|Обсидианового фолианта]] (4)**."
         }
     ],
     "tips": [
         {
             "title": {
-                "en": "Moving Around"
+                "en": "Consequences of Moving Around",
+                "fr": "Les conséquences de beaucoup se déplacer"
             },
             "content": {
-                "en": "[[character:varesa]] moves around very frequently during her combos. While this is good when using **[[character:iansan]]**, it also makes it very difficult for her to stay inside AoE circles, such as **[[character:bennett]]'s [[ability:burst]]**."
+                "en": "[[character:varesa]] moves around very frequently during her combos. While this allows her to benefit from **[[character:iansan]]**'s buff, it also makes it difficult for her to stay inside other characters' AoE abilities, such as **[[character:bennett]]'s [[ability:burst]]**.",
+                "fr": "[[character:varesa]] se déplace très fréquemment durant ses combos. C'est très utile pour béneficier du buff de **[[character:iansan]]**, mais cela rend aussi très compliqué le fait de rester dans les zones des talents des autres personnages, telle que celle de **l'[[ability:burst]] de [[character:bennett]]** par exemple."
             }
         },
         {
             "title": {
-                "en": "[[character:varesa]]'s [C2]"
+                "en": "[[character:varesa]]'s [C2]",
+                "fr": "La [C2] de [[character:varesa]]"
             },
             "content": {
-                "en": "Her [C2] allows her to perform a mini-[[ability:burst]] **after every enhanced plunge**, effectively changing her combo from {rot:[EN1P EN1P (Q)]} to {rot:[EN1PQ]}. This is one of her best constellations."
+                "en": "Her [C2] allows her to perform a mini-[[ability:burst]] **after every enhanced plunge**, effectively changing her combo to {rot:[EN1PQ]}. This is one of her best constellations.",
+                "fr": "Sa [C2] lui permet de faire un mini-[[ability:burst]] **après chaque attaque plongeate améliorée**, changeant son combo en {rot:[EN1PQ]}. Il s'agit d'une de ses meilleurs constellations."
             }
         }
     ]
