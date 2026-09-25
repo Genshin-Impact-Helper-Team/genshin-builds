@@ -44,7 +44,7 @@
     "Weapon source Battle Pass": "Pase de batalla",
     "Weapon source Wish": "Gachapón",
     "Highlighted weapons are free options.": "Las armas que estén marcadas indicará que son opciones gratuitas.",
-    "Note marker explanation": "Indica notas importantes al fondo de la página.",
+    "Note marker explanation": "Indica notas importantes que debes leer.",
     "Home": "Inicio",
     "Browse": "Navegar",
     "Information": "Información",
@@ -105,4 +105,3 @@
     "Not found message": "Esta página no existe, pero la página principal sabe el camino de vuelta",
     "Go back home": "Volver al inicio"
 }
-
