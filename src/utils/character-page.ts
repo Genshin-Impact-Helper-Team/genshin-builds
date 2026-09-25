@@ -600,7 +600,7 @@ function buildLocalizedNotes(
             }
 
             return {
-                title: tip.title[lang] ?? tip.title.en,
+                title: translator.translateNoteText(tip.title[lang] ?? tip.title.en, sourceFile),
                 content: renderMarkdown(
                     translator.translateNoteText(tip.content[lang] ?? tip.content.en, sourceFile, {
                         weaponPopovers: true,

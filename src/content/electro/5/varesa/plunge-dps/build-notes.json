@@ -36,9 +36,6 @@
             "fr": "Un [[ability:skill]] appui court en commençant la rotation avec **[[set:obsidian-codex]] (4)** donnera les meilleurs dégâts en moyenne.",
             "it": "Nel caso tu utilizzi **[[set:obsidian-codex]] (4)**, tenere l'[[ability:skill]] premuta per breve tempo all'inizio della rotazione produce i danni massimi in media.",
             "ru": "Короткое долгое нажатие [[ability:skill|Элементального навыка]] в начале ротации оптимально при использовании **[[set:obsidian-codex|Обсидианового фолианта]] (4)**."
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
     "tips": [
@@ -47,7 +44,7 @@
                 "en": "Moving Around"
             },
             "content": {
-                "en": "[[character:varesa]] moves around very frequently during her combos. While this is good when using [[character:iansan]], it also makes it very difficult for her to stay inside AoE circles, such as [[character:bennett]]'s [[ability:burst]]."
+                "en": "[[character:varesa]] moves around very frequently during her combos. While this is good when using **[[character:iansan]]**, it also makes it very difficult for her to stay inside AoE circles, such as **[[character:bennett]]'s [[ability:burst]]**."
             }
         },
         {
@@ -55,7 +52,7 @@
                 "en": "[[character:varesa]]'s [C2]"
             },
             "content": {
-                "en": "Her [C2] allows her to perform a mini-[[ability:burst]] after every enhanced plunge, effectively changing her combo from {rot:[EN1P EN1P (Q)]} to {rot:[EN1PQ]}. This is one of her best constellations."
+                "en": "Her [C2] allows her to perform a mini-[[ability:burst]] **after every enhanced plunge**, effectively changing her combo from {rot:[EN1P EN1P (Q)]} to {rot:[EN1PQ]}. This is one of her best constellations."
             }
         }
     ]
