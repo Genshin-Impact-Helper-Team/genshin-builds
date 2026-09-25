@@ -5,6 +5,11 @@
             "version": "7.1",
             "entries": [
                 {
+                    "date": "September 25, 2026",
+                    "changes": "Updated Varesa's weapons ranking and notes.\n\nWe are also slowly rolling out a gameplay tips section when looking at a build, which will contain useful but not vital information. Varesa is the first to have one, and other characters will follow!",
+                    "appliedBy": "Speify, Plo, Greenster"
+                },
+                {
                     "date": "September 23, 2026",
                     "changes": "Added Winter's Heavy Heart to Mizuki's Stellar-Swirl DPS section, and updated Odette with the 3 new swords.",
                     "appliedBy": "Plo"
@@ -15,7 +20,7 @@
                     "appliedBy": "Yoren"
                 }
             ]
-        },    
+        },
         {
             "version": "7.0",
             "entries": [
