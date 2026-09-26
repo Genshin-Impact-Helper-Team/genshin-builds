@@ -101,8 +101,8 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "This weapon assumed [[ability:bol]] is cleared.",
-                        "fr": "Cette arme suppose que l'[[ability:bol]] est retiré.",
+                        "en": "[[note:bol-rank-clear]], do not use that weapon.",
+                        "fr": "[[note:bol-rank-clear]], n'utilisez pas cette arme.",
                         "it": "La classifica presuppone che Varesa riceva cure sufficienti a rimuovere il **[[ability:bol]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается."
                     }

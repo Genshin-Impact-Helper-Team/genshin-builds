@@ -95,7 +95,7 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "Calculated with [[ability:bol]] cleared. If paired with **[[set:fragment-of-harmonic-whimsy]] (4)** at max stacks, this weapon can perform as well as **[[weapon:tulaytullahs-remembrance]]**.",
+                        "en": "Ranking assumes you have enough healing to clear the [[ability:bol]]. If paired with **[[set:fragment-of-harmonic-whimsy]] (4)** at max stacks, this weapon can perform as well as **[[weapon:tulaytullahs-remembrance]]**.",
                         "fr": "Calculée avec un [[ability:bol]] retiré. Si joué avec **[[set:fragment-of-harmonic-whimsy]] (4)** avec les stacks maximums, cette arme offre des performances similaires à **[[weapon:tulaytullahs-remembrance]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается. При использовании с **[[set:fragment-of-harmonic-whimsy|Фрагментом гармонической фантазии]] (4)** с максимальным бонусом может соответствовать **[[weapon:tulaytullahs-remembrance|Воспоминаниям Тулайтуллы]]**."
                     }

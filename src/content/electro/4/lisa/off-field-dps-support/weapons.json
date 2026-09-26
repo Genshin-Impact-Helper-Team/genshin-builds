@@ -47,8 +47,8 @@
                 {
                     "name": "flowing-purity",
                     "note": {
-                        "en": "This weapon is more potent if you can **reliably clear the [[ability:bol]]**.",
-                        "fr": "Cette arme est meilleure si vous pouvez **retirer à coup sûr l'[[ability:bol]]**.",
+                        "en": "[[note:bol-rank-nclear]], this weapon becomes more potent.",
+                        "fr": "[[note:bol-rank-nclear]], cette arme offre de meilleures performances.",
                         "it": "Quest'arma è più efficace se Lisa **riceve cure sufficienti a rimuovere il [[ability:bol]]**.",
                         "ru": "Показывает себя лучше, если стабильно снимать Долг жизни."
                     }

@@ -81,8 +81,8 @@
                 {
                     "name": "finale-of-the-deep",
                     "note": {
-                        "en": "If you can reliably trigger this weapon's passive, it ranks similarly to **[[weapon:summit-shaper]]**.",
-                        "fr": "Si vous pouvez déclencher à coup sûr le passif de l'arme, elle devient similaire à **[[weapon:summit-shaper]]**.",
+                        "en": "[[note:bol-rank-nclear]], this weapon ranks similarly to **[[weapon:summit-shaper]]**.",
+                        "fr": "[[note:bol-rank-nclear]], cette arme devient similaire à **[[weapon:summit-shaper]]**.",
                         "it": "Se [[character:durin]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**.",
                         "ru": "Если эффект Пассивной способности постоянно поддерживается, это оружие соответствует **[[weapon:summit-shaper|Кромсателю пиков]]**."
                     }

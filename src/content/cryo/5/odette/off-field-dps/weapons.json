@@ -104,8 +104,8 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes the [[ability:bol]] is **not** cleared. If the [[ability:bol]] is cleared, this weapon performs notably better, similar to **[[weapon:mistsplitter-reforged]]**.",
-                        "fr": "Le classement suppose que l'[[ability:bol]] n'est **pas** retiré. Dans le cas contraire, cette arme performe beaucoup mieux, de façon similaire à **[[weapon:mistsplitter-reforged]]**.",
+                        "en": "[[note:bol-rank-nclear]], this weapon performs notably better, similar to **[[weapon:mistsplitter-reforged]]**.",
+                        "fr": "[[note:bol-rank-nclear]], cette arme performe beaucoup mieux, de façon similaire à **[[weapon:mistsplitter-reforged]]**.",
                         "it": "La classifica presuppone che il **[[ability:bol]] non** sia rimosso. In caso contrario, quest'arma ha prestazioni notevolmente migliori, simili a **[[weapon:mistsplitter-reforged]]**.",
                         "ru": "Предполагается, что [[ability:bol]] не снимается. При снятии [[ability:bol|Долга жизни]] соответствует **[[weapon:mistsplitter-reforged|Рассекающему туман]]**."
                     }

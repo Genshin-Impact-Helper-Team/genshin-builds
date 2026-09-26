@@ -95,7 +95,7 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes [[ability:bol]] is cleared shortly after casting [[ability:skill]].",
+                        "en": "Ranking assumes you have enough healing to clear the [[ability:bol]] shortly after casting [[ability:skill]].",
                         "fr": "Suppose que l'[[ability:bol]] est retiré peu après avoir lancé le [[ability:skill]].",
                         "it": "La classifica presuppone che Keqing **riceva cure sufficienti a rimuvere il [[ability:bol]]** poco dopo aver utilizzato l'[[ability:skill]].",
                         "ru": "Предполагается, что [[ability:bol]] снимается вскоре после применения [[ability:skill|Элементального навыка]]."

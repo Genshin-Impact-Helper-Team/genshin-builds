@@ -70,8 +70,8 @@
                 {
                     "name": "finale-of-the-deep",
                     "note": {
-                        "en": "Assumes [[ability:bol]] is being cleared.",
-                        "fr": "Suppose que l'[[ability:bol]] est retiré.",
+                        "en": "[[note:bol-rank-clear]], do not use that weapon.",
+                        "fr": "[[note:bol-rank-clear]], n'utilisez pas cette arme.",
                         "it": "La classifica presuppone che il Viaggiatore riceva cure sufficienti a rimuovere il **[[ability:bol]]**.",
                         "ru": "Предполагается, что [[ability:bol]] стабильно снимается."
                     }

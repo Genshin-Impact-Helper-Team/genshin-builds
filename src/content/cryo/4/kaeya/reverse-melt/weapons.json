@@ -65,8 +65,8 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "If you can reliably clear [[ability:bol]] before casting [[ability:burst]], this weapon performs better than **[[weapon:summit-shaper]]**.",
-                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:summit-shaper]]**.",
+                        "en": "[[note:bol-rank-nclear]] before casting [[ability:burst]], this weapon performs better than **[[weapon:summit-shaper]]**.",
+                        "fr": "[[note:bol-rank-nclear]] avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:summit-shaper]]**.",
                         "it": "Se [[character:kaeya]] riceve **cure sufficienti a rimuovere il [[ability:bol]]** in modo affidabile prima di attivare il [[ability:burst]], quest'arma offre prestazioni migliori rispetto ad **[[weapon:summit-shaper]]**.",
                         "ru": "Если [[ability:bol]] спадает до использования Взрыва стихии, превосходит **[[weapon:summit-shaper]]**."
                     }

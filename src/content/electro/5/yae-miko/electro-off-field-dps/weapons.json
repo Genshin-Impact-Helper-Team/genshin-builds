@@ -101,8 +101,8 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "If you can reliably clear the **[[ability:bol]]**, this weapon ranks above **[[weapon:the-widsith]]**.",
-                        "fr": "Si vous pouvez efficacement retirer **l'[[ability:bol]]**, cette arme devient meilleure que **[[weapon:the-widsith]]**.",
+                        "en": "[[note:bol-rank-nclear]], this weapon ranks above **[[weapon:the-widsith]]**.",
+                        "fr": "[[note:bol-rank-nclear]], cette arme devient meilleure que **[[weapon:the-widsith]]**.",
                         "it": "Se [[character:yae-miko]] riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni migliori di **[[weapon:the-widsith]]**.",
                         "ru": "При возможности стабильно снимать **[[ability:bol]]** превосходит **[[weapon:the-widsith]]**."
                     }

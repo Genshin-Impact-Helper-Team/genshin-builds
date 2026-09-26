@@ -65,8 +65,8 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "Calculated with [[ability:bol]] cleared. Loses significant value if run **without a consistent healer**.",
-                        "fr": "Calculé avec un [[ability:bol]] retiré. Perd significativement en valeur si utilisé **sans un soin constant**.",
+                        "en": "[[note:bol-rank-clear]], it loses significant value.",
+                        "fr": "[[note:bol-rank-clear]], cette arme perd significativement en valeur.",
                         "it": "La posizione in classifica presuppone che Yanfei riceva cure sufficienti a rimuovere il **[[ability:bol]]**. **Perde significativamente valore se utilizzata senza buone cure**.",
                         "ru": "Предполагается, что Долг жизни снят. Эффективность значительно снижается без лечения в отряде."
                     }

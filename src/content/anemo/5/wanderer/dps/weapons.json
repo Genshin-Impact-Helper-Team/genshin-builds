@@ -116,8 +116,8 @@
                     "name": "flowing-purity",
                     "refinement": 5,
                     "note": {
-                        "en": "If the **[[ability:bol]] is cleared**, this weapon ranks similarly to **[[weapon:the-widsith]]**.",
-                        "fr": "Si l'**[[ability:bol]] est retiré**, cette arme devient similaire à **[[weapon:the-widsith]]**.",
+                        "en": "[[note:bol-rank-nclear]], this weapon ranks similarly to **[[weapon:the-widsith]]**.",
+                        "fr": "[[note:bol-rank-nclear]], cette arme devient similaire à **[[weapon:the-widsith]]**.",
                         "it": "Con cure sufficienti ad eliminare il **[[ability:bol]]**, quest'arma ha prestazioni simili a **[[weapon:the-widsith]]**.",
                         "ru": "Если [[ability:bol]] стабильно снимается, соответствует **[[weapon:the-widsith|Песни странника]]**."
                     }

@@ -66,8 +66,8 @@
                 {
                     "name": "crimson-moons-semblance",
                     "note": {
-                        "en": "If [[character:hu-tao]] is **not** healed, thus preserving the [[ability:bol]], this weapon can rank above **[[weapon:fractured-halo]]**.",
-                        "fr": "Si [[character:hu-tao]] n'est **pas** soignée, et conserve donc son [[ability:bol]], cette arme peut dépasser **[[weapon:fractured-halo]]**.",
+                        "en": "[[note:bol-rank-clear]], this weapon can rank above **[[weapon:fractured-halo]]**.",
+                        "fr": "[[note:bol-rank-clear]], cette arme peut dépasser **[[weapon:fractured-halo]]**.",
                         "it": "Se [[character:hu-tao]] **non** riceve cure, e conserva dunque il **[[ability:bol]]**, quest'arma può avere prestazioni migliori di **[[weapon:fractured-halo]]**.",
                         "ru": "Если [[character:hu-tao]] **не получает лечения** и поддерживает [[ability:bol]], данное оружия превосходит **[[weapon:fractured-halo]]**."
                     }

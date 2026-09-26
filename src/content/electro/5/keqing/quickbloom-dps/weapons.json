@@ -102,8 +102,8 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes [[ability:bol]] being cleared.",
-                        "fr": "Suppose que l'[[ability:bol]] est retiré.",
+                        "en": "[[note:bol-rank-clear]], do not use that weapon.",
+                        "fr": "[[note:bol-rank-clear]], n'utilisez pas cette arme.",
                         "it": "La classifica presuppone che [[character:keqing]] **riceva cure sufficienti a rimuovere il **[[ability:bol]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается."
                     }
