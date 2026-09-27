@@ -17,18 +17,6 @@
                 {
                     "items": [
                         {
-                            "name": "notsu",
-                            "pieces": 4
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
                             "name": "gladiators-finale",
                             "pieces": 4
                         }
@@ -45,6 +33,20 @@
                             "pieces": 4
                         }
                     ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "notsu",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This set should only be used in [[element:lunar-charged]] teams, and ranks under **[[set:fragment-of-harmonic-whimsy]] (4)**. Be careful not to overcap on [[stat:cr]].",
+                        "fr": "Ce set ne doit être utilisé que dans une équipe [[element:lunar-charged]], et reste moins bon que **[[set:fragment-of-harmonic-whimsy]] (4)**. Attention à ne pas dépasser les 100% de [[stat:cr]]."
+                    }
                 }
             ]
         }

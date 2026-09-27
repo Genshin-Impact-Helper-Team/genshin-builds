@@ -12,16 +12,11 @@
         },
         {
             "items": [
-                "uraku-misugiri"
-            ]
-        },
-        {
-            "items": [
                 {
                     "name": "mistsplitter-reforged",
                     "note": {
-                        "en": "Maximizing Stacks requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
-                        "fr": "Maximiser les stacks demande à [[character:clorinde]] d'utiliser son [[ability:burst]] avant son [[ability:skill]].",
+                        "en": "Maximizing this weapon's passive stacks requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
+                        "fr": "Maximiser les stacks du passif de l'arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]].",
                         "it": "Per massimizzare gli accumuli di quest'arma, utilizza il [[ability:burst]] di [[character:clorinde]] prima della sua [[ability:skill]].",
                         "ru": "Для набора уровней Пассивной способности оружия требуется использовать [[ability:burst|Взрыв стихии]] перед [[ability:skill|Элементальным навыком]]."
                     }
@@ -29,29 +24,37 @@
                 {
                     "name": "haran-geppaku-futsu",
                     "note": {
-                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent giving her a free 20% [[stat:cr]].",
-                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du talent A4 de [[character:clorinde]] qui lui donne 20% de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]] a causa del talento A4 di [[character:clorinde]], che le fornisce 20% [[stat:cr]].",
-                        "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
                     }
                 }
             ]
         },
         {
             "items": [
-                "light-of-foliar-incision"
+                "light-of-foliar-incision",
+                {
+                    "name": "uraku-misugiri",
+                    "note": {
+                        "en": "If [[character:clorinde]] is played with a [[element:geo]] character on the team, this weapon performs better than **[[weapon:mistsplitter-reforged]]**.",
+                        "fr": "Si [[character:clorinde]] est jouée avec un personnage [[element:geo]] dans l'équipe, cette arme performe mieux que **[[weapon:mistsplitter-reforged]]**."
+                    }
+                }
             ]
         },
         {
             "items": [
+                "lightbearing-moonshard",
+                "splendor-of-tranquil-waters",
                 {
                     "name": "calamity-of-eshu",
                     "refinement": 5,
                     "note": {
-                        "en": "Ranking assumes [[character:clorinde]] is being shielded by someone, most notably being [[character:kirara]].",
-                        "fr": "Le classement suppose que [[character:clorinde]] est protégée par un bouclier, notamment par [[character:kirara]].",
-                        "it": "La classifica presuppone che [[character:clorinde]] sia protetta da uno scudo (es. [[character:kirara]]).",
-                        "ru": "Предполагается наличие щита, например, от [[character:kirara|Кирары]]."
+                        "en": "Ranking assumes [[character:clorinde]] is being shielded.",
+                        "fr": "Le classement suppose que [[character:clorinde]] est protégée par un bouclier.",
+                        "it": "La classifica presuppone che [[character:clorinde]] sia protetta da uno scudo.",
+                        "ru": "Предполагается наличие щита."
                     }
                 },
                 "azurelight"
@@ -62,9 +65,9 @@
                 {
                     "name": "primordial-jade-cutter",
                     "note": {
-                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent giving her a free 20% [[stat:cr]].",
-                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du talent A4 de [[character:clorinde]] qui lui donne 20% de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]] a causa del talento A4 di [[character:clorinde]], che le fornisce 20% [[stat:cr]].",
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]].",
                         "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
                     }
                 }
@@ -72,22 +75,36 @@
         },
         {
             "items": [
-                "athame-artis"
+                {
+                    "name": "athame-artis",
+                    "note": {
+                        "en": "This weapon's passive requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
+                        "fr": "Le passif de cette arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]]."
+                    }
+                },
+                "whitelake-frostfeather"
             ]
         },
         {
             "items": [
                 {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "[[note:exaiphanes]]."
+                    }
+                },
+                {
                     "name": "heretics-molten-blade",
                     "note": {
-                        "en": "**At [R5]**, this weapon ranks above **[[weapon:primordial-jade-cutter]]**."
+                        "en": "At **[R5]**, this weapon ranks above **[[weapon:primordial-jade-cutter]]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:primordial-jade-cutter]]**."
                     }
                 },
                 {
                     "name": "the-black-sword",
                     "note": {
                         "en": "At **[R5]**, this weapon will perform better than **[[weapon:athame-artis]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:athame-artis]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:athame-artis]**.",
                         "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:athame-artis]**.",
                         "ru": "На **[R5]** превосходит **[[weapon:athame-artis]**."
                     }
@@ -95,7 +112,8 @@
                 {
                     "name": "new-bough",
                     "note": {
-                        "en": "**At [R5]**, this weapon ranks similar to **[[weapon:athame-artis]]**."
+                        "en": "At **[R5]**, this weapon performs similarly to **[[weapon:whitelake-frostfeather]]**.",
+                        "fr": "Une fois **[R5]**, cette arme a des performances similaires à celles de **[[weapon:whitelake-frostfeather]]**."
                     }
                 }
             ]

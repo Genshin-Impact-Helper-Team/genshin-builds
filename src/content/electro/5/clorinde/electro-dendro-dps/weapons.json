@@ -15,10 +15,9 @@
                 {
                     "name": "haran-geppaku-futsu",
                     "note": {
-                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent.",
-                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du passif A4 de [[character:clorinde]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]] a causa del talento A4 di [[character:clorinde]].",
-                        "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
                     }
                 }
             ]
@@ -74,9 +73,9 @@
                 {
                     "name": "primordial-jade-cutter",
                     "note": {
-                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]] due to [[character:clorinde]]'s A4 talent.",
-                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]] à cause du passif A4 de [[character:clorinde]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]] a causa del talento A4 di [[character:clorinde]].",
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]].",
                         "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
                     }
                 }

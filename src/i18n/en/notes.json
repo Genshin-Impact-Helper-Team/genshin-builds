@@ -4,5 +4,6 @@
     "er-req": "Prioritize until requirements are met",
     "exaiphanes": "You would generally rather use this on the Traveler. Would only be a consideration if it is not being occupied",
     "wip-weapon": "Viable Weapons with WIP Calculations:",
-    "wip-artifact": "Viable Artifact Set with WIP Calculations:"
+    "wip-artifact": "Viable Artifact Set with WIP Calculations:",
+    "tips-bol": "The Bond of Life is a mechanic that **absorbs healing** a character receives. It appears as a **red outline around their HP bar**, and its maximum value is 200% of the character's HP (shown by an outline around the entire HP bar). To clear a Bond of Life, the character must **receive healing equal to its value**."
 }
