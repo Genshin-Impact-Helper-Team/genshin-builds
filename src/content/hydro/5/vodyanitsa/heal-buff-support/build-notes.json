@@ -1,33 +1,41 @@
 {
     "name": {
-        "en": "Heal and Buff Support"
+        "en": "Heal and Buff Support",
+        "it": "Supporto Potenziamento & Cure"
     },
     "notes": [
         {
-            "en": "[[character:vodyanitsa]] is a support unit that uses her [[ability:skill]] to provide multiple benefits to **[[element:freeze]] and [[element:stellar-swirl]] teams.** **In [[element:freeze]] teams,** her [[ability:skill]] heals the active character, provides them with interruption resistance, and also reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill|Skill]]. In addition, [[character:vodyanitsa]]'s A4 talent also increases the [[element:hydro]] and [[element:cryo]] DMG dealt by teammates, which scales based on her Max [[stat:hp|HP]]." 
+            "en": "[[character:vodyanitsa]] is a support unit that uses her [[ability:skill]] to provide multiple benefits to **[[element:freeze]] and [[element:stellar-swirl]] teams.** **In [[element:freeze]] teams,** her [[ability:skill]] heals the active character, provides them with interruption resistance, and also reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill|Skill]]. In addition, [[character:vodyanitsa]]'s A4 talent also increases the [[element:hydro]] and [[element:cryo]] DMG dealt by teammates, which scales based on her Max [[stat:hp|HP]].",
+            "it": "[[character:vodyanitsa]] è un personaggio di supporto che utilizza la sua [[ability:skill]] per fornire numerosi vantaggi ai team **[[element:freeze]] e [[element:stellar-swirl]]**. Nei team **[[element:freeze]]**, la sua [[ability:skill]] **cura** il personaggio attivo, fornisce **resistenza all'interruzione**, e **riduce le RES [[element:hydro]] e [[element:cryo]]** degli avversari colpiti. Inoltre, il suo Talento A4 aumenta i danni [[element:hydro]] e [[element:cryo]] inflitti dal team in base ai suoi [[stat:hp]] massimi."
         },
         {
-            "en": "**In [[element:stellar-swirl]] teams**, [[character:vodyanitsa]]'s [[ability:skill]] also enhances any [[ability:stellar-vortex]]es created by the [[element:stellar-swirl]] reaction. These enhanced Vortexes, when generated or exploded, also reduce enemies' [[element:anemo]] resistance. Her A4 talent will increase the [[element:stellar-swirl]] damage dealt by teammates, which scales with herwhich scales based on her Max [[stat:hp|HP]]." 
+            "en": "**In [[element:stellar-swirl]] teams**, [[character:vodyanitsa]]'s [[ability:skill]] also enhances any [[ability:stellar-vortex]]es created by the [[element:stellar-swirl]] reaction. These enhanced Vortexes, when generated or exploded, also reduce enemies' [[element:anemo]] resistance. Her A4 talent will increase the [[element:stellar-swirl]] damage dealt by teammates, which scales with herwhich scales based on her Max [[stat:hp|HP]].",
+            "it": "Nei team **[[element:stellar-swirl]]**, l'[[ability:skill]] di [[character:vodyanitsa]] potenzia anche tutti i [[ability:stellar-vortex]] generati dalla reazione [[element:stellar-swirl]]. Tali Vortici, quando vengono generati o esplodono, riducono anche la RES [[element:anemo]] dei nemici. Il suo Talento A4 aumenta i danni [[element:stellar-swirl]] inflitti dal team in base ai suoi [[stat:hp]] massimi."
         },
         {
-            "en": "[[character:vodyanitsa]]'s A4 talent caps out at 65,000 [[stat:hp|HP]]. This may be unreasonable to achieve without **[[weapon:hymn-of-the-maelstrom]]** or an **[R5] [[weapon:sacrificial-jade]]**. Any more beyond this is to increase her healing capabilities and some of her damage."
+            "en": "[[character:vodyanitsa]]'s A4 talent caps out at 65,000 [[stat:hp|HP]]. This may be unreasonable to achieve without **[[weapon:hymn-of-the-maelstrom]]** or an **[R5] [[weapon:sacrificial-jade]]**. Any more beyond this is to increase her healing capabilities and some of her damage.",
+            "it": "Il Talento A4 di [[character:vodyanitsa]] raggiunge il suo limite massimo a 65.000 [[stat:hp]]. Potrebbe essere irrealistico raggiungere questo valore senza **[[weapon:hymn-of-the-maelstrom]]** o una **[[weapon:sacrificial-jade]] [R5]**. Qualsiasi ulteriore aumento oltre questo limite serve solo ad accrescere le sue cure e parte dei suoi danni."
         }
     ],
     "tips": [
         {
             "title": {
-                "en": "[[element:stellar-swirl]] and [[ability:stellar-vortex]]es"
+                "en": "[[element:stellar-swirl]] and [[ability:stellar-vortex]]es",
+                "it": "[[element:stellar-swirl]] e i [[ability:stellar-vortex|Vortici stellari]]"
             },
             "content": {
-                "en": "When [[element:stellar-swirl]] is triggered, a [[ability:stellar-vortex]] is created. These vortexes explode after a short time. The more times [[element:stellar-swirl]] is triggered, the higher the explosion DMG of the vortex."
+                "en": "When [[element:stellar-swirl]] is triggered, a [[ability:stellar-vortex]] is created. These vortexes explode after a short time. The more times [[element:stellar-swirl]] is triggered, the higher the explosion DMG of the vortex.",
+                "it": "Quando viene provocato [[element:stellar-swirl]], viene generato un [[ability:stellar-vortex]]. Questi Vortici esplodono dopo poco tempo. Più volte viene attivato [[element:stellar-swirl]], maggiore è il danno inflitto dall'esplosione del Vortice."
             }
         },
         {
             "title": {
-                "en": "Ascension 4 Talent: Stacks"
+                "en": "Ascension 4 Talent: Stacks",
+                "it": "Talento Ascensione 4: Accumuli"
             },
             "content": {
-                "en": "The DMG buffs provided by [[character:vodyanitsa]]'s A4 come in the form of stacks. 25 of these stacks go to the active character, and 10 go to off-field characters. The [[element:hydro]] and [[element:cryo]] DMG buffs and the [[element:stellar-swirl]] DMG buff cannot co-exist at the same time."
+                "en": "The DMG buffs provided by [[character:vodyanitsa]]'s A4 come in the form of stacks. 25 of these stacks go to the active character, and 10 go to off-field characters. The [[element:hydro]] and [[element:cryo]] DMG buffs and the [[element:stellar-swirl]] DMG buff cannot co-exist at the same time.",
+                "it": "I potenziamenti DAN forniti dal Talento A4 di [[character:vodyanitsa]] vengono forniti sotto forma di accumuli. 25 accumuli vanno al personaggio attivo, mentre 10 vanno ai personaggi fuori campo. I potenziamenti DAN [[element:hydro]] e [[element:cryo]] ed il potenziamento DAN [[element:stellar-swirl]] non possono coesistere contemporaneamente."
             }
         }
     ]
