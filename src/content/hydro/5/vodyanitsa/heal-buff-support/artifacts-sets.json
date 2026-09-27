@@ -6,7 +6,10 @@
                     "items": [
                         {
                             "name": "tenacity-of-the-millelith",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note": {
+                                "en": "Not every team will benefit from the [[stat:atk%]] boost of the 4pc effect. If such is the case, it is better to use other suggested options."
+                            }
                         }
                     ]
                 }
@@ -23,6 +26,33 @@
                         {
                             "name": "hp-set",
                             "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note":{
+                                "en": "If the team does not benefit from the DMG% bonus provided by this set, it is better to use other listed options."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "song-of-days-past",
+                            "pieces": 4
                         }
                     ]
                 }
