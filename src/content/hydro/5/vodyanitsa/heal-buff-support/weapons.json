@@ -4,7 +4,9 @@
             "items": [
                 {
                     "name": "hymn-of-the-maelstrom",
-                    "note": "The passive for this weapon caps out once [[character:vodyanitsa]] reaches 60,000 [[stat:hp|HP]]."
+                    "note": {
+                        "en": "The passive of this weapon caps out once [[character:vodyanitsa]] reaches 60,000 [[stat:hp|HP]].",
+                        "it": "La passiva di quest'arma raggiunge il limite massimo quando [[character:vodyanitsa]] raggiunge 60.000 [[stat:hp]]."
                 }
             ]
         },
@@ -20,7 +22,8 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "[[stat:cr]] isn't beneficial to [[character:vodyanitsa]], so this weapon can remain at Level 1. At **[R5]**, this weapon can give almost as much [[stat:HP%]] as **[[weapon:hymn-of-the-malestrom]]** at base, which is very good for her passives."
+                        "en": "[[stat:cr]] isn't beneficial to [[character:vodyanitsa]], so this weapon can remain at Level 1. At **[R5]**, this weapon can give almost as much [[stat:HP%]] as **[[weapon:hymn-of-the-malestrom]]** at base, which is very good for her passives.",
+                        "it": "Il [[stat:cr]] non è utile a [[character:vodyanitsa]], dunque quest'arma può rimanere a livello 1. A **[R5]**, quest'arma può fornire quasi la stessa quantità di [[stat:HP%]] di **[[weapon:hymn-of-the-malestrom]]**, il che è ottimo per il suo Talento A4."
                     }
                 }
             ]
@@ -30,7 +33,8 @@
                 {
                     "name": "waveriding-whirl",
                     "note": {
-                        "en": "If you are not using [[character:vodyanitsa]]'s [[ability:burst]], this weapon can be left at Level 1."
+                        "en": "If you are not using [[character:vodyanitsa]]'s [[ability:burst]], this weapon can be left at Level 1.",
+                        "it": "Se non hai intenzione di utilizzare il [[ability:burst]] di [[character:vodyanitsa]], quest'arma può rimanere a livello 1."
                     }
                 }
             ]
