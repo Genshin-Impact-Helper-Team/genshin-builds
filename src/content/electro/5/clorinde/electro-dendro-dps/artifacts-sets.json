@@ -31,6 +31,18 @@
                 {
                     "items": [
                         {
+                            "name": "echoes-of-an-offering",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "gladiators-finale",
                             "pieces": 4
                         }
