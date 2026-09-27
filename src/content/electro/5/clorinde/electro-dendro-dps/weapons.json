@@ -75,8 +75,7 @@
                     "note": {
                         "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
                         "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]].",
-                        "ru": "Следует отметить, что при использовании данного оружия с учётом второго Пассивного таланта [[character:clorinde|Клоринды]] с +20% [[stat:cr|Шанса крит. попадания]] можно уйти в его избыток."
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
                     }
                 }
             ]
