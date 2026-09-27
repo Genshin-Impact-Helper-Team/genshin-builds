@@ -38,7 +38,8 @@
                     "name": "uraku-misugiri",
                     "note": {
                         "en": "If [[character:clorinde]] is played with a [[element:geo]] character on the team, this weapon performs better than **[[weapon:mistsplitter-reforged]]**.",
-                        "fr": "Si [[character:clorinde]] est jouée avec un personnage [[element:geo]] dans l'équipe, cette arme performe mieux que **[[weapon:mistsplitter-reforged]]**."
+                        "fr": "Si [[character:clorinde]] est jouée avec un personnage [[element:geo]] dans l'équipe, cette arme performe mieux que **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "Se [[character:clorinde]] è giocata in team con un personaggio [[element:geo]], quest'arma ha prestazioni migliori di **[[weapon:mistsplitter-reforged]]**."
                     }
                 }
             ]
@@ -78,7 +79,8 @@
                     "name": "athame-artis",
                     "note": {
                         "en": "This weapon's passive requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
-                        "fr": "Le passif de cette arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]]."
+                        "fr": "Le passif de cette arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]].",
+                        "it": "La passiva di quest'arma rende necessario che [[character:clorinde]] utilizzi il [[ability:burst]] prima dell'[[ability:skill]]."
                     }
                 },
                 "whitelake-frostfeather"
