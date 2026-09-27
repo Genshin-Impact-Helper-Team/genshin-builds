@@ -36,10 +36,10 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "Ranking assumes single target. At **[R5]**, this weapon can perform better than **[[weapon:staff-of-homa]]**.",
-                        "fr": "Le classement suppose du monocible. Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:staff-of-homa]]**.",
-                        "it": "La classifica presuppone un singolo nemico. A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:staff-of-homa]]**.",
-                        "ru": "Предполагается бой против одной цели. На **[R5]** может превосходить **[[weapon:staff-of-homa]]**."
+                        "en": "Ranking assumes single target. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "fr": "Le classement suppose du monocible. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "it": "La classifica presuppone un singolo nemico. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "ru": "Предполагается бой против одной цели. [[note:r5-better]] **[[weapon:staff-of-homa]]**."
                     }
                 }
             ]

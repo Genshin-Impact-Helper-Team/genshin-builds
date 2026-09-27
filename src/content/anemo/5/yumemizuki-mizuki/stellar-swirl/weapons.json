@@ -38,29 +38,23 @@
                 {
                     "name": "dawning-frost",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:starcallers-watch]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:starcallers-watch]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:starcallers-watch]]**."
+                        "en": "[[note:r5-better]] **[[weapon:starcallers-watch]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:starcallers-watch]]**."
                     }
                 },
                 "nightweavers-looking-glass",
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:nocturnes-curtain-call]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:nocturnes-curtain-call]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:nocturnes-curtain-call]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:nocturnes-curtain-call]]**."
+                        "en": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**."
                     }
                 },
                 {
                     "name": "clash-of-kings",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:nocturnes-curtain-call]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:nocturnes-curtain-call]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:nocturnes-curtain-call]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:nocturnes-curtain-call]]**."
+                        "en": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**."
                     }
                 }
             ]
@@ -72,10 +66,8 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:dawning-frost]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:dawning-frost]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:dawning-frost]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:dawning-frost]]**."
+                        "en": "[[note:r5-better]] **[[weapon:dawning-frost]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:dawning-frost]]**."
                     }
                 }
             ]

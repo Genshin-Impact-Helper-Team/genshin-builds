@@ -40,8 +40,7 @@
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "**At [R5]**, this weapon performs better than **[[weapon:reliquary-of-truth]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:reliquary-of-truth]]**."
+                        "en": "[[note:r5-better]] **[[weapon:reliquary-of-truth]]**."
                     }
                 }
             ]
@@ -77,10 +76,7 @@
                 {
                     "name": "clash-of-kings",
                     "note": {
-                        "en": "**At [R5]**, this weapon performs better than **[[weapon:dawning-frost]]**.",
-                        "fr": "**Une fois [R5]**, cette arme devient meilleure que **[[weapon:dawning-frost]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:dawning-frost]]**.",
-                        "ru": "**На [R5]** превосходит **[[weapon:dawning-frost]]**."
+                        "en": "[[note:r5-better]] **[[weapon:dawning-frost]]**."
                     }
                 }
             ]

@@ -79,10 +79,10 @@
                 {
                     "name": "alley-hunter",
                     "note": {
-                        "en": "[[character:kujou-sara]]'s quickswap playstyle lets her take advantage of this weapon's passive well. Performs similar to **[[weapon:amos-bow]]** at **[R5]**.",
-                        "fr": "Le style de jeu quickswap de [[character:kujou-sara]] lui permet de tirer avantage du passif de cette arme. A des performances similaires à **[[weapon:amos-bow]]** une fois **[R5]**.",
-                        "it": "Lo stile di gioco di [[character:kujou-sara]], che prevede poco tempo sul campo, fa' sì che possa utilizzare bene la passiva di quest'arma. A **[R5]**, ha prestazioni simili ad **[[weapon:amos-bow]]**.",
-                        "ru": "Обычный стиль игры Сарой с коротким активным периодом и большим временем в кармане позволяет отлично реализовать Пассивную способность этого оружия. На [R5] соответствует Луку Амоса."
+                        "en": "[[character:kujou-sara]]'s quickswap playstyle lets her take advantage of this weapon's passive well. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
+                        "fr": "Le style de jeu quickswap de [[character:kujou-sara]] lui permet de tirer avantage du passif de cette arme. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
+                        "it": "Lo stile di gioco di [[character:kujou-sara]], che prevede poco tempo sul campo, fa' sì che possa utilizzare bene la passiva di quest'arma. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
+                        "ru": "Обычный стиль игры Сарой с коротким активным периодом и большим временем в кармане позволяет отлично реализовать Пассивную способность этого оружия. [[note:r5-similar]] **[[weapon:amos-bow|Луку Амоса]]**."
                     }
                 },
                 "the-viridescent-hunt",

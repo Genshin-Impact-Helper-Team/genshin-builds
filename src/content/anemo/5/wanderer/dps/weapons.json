@@ -77,10 +77,8 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon ranks above **[[weapon:skyward-atlas]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se classe au dessus de **[[weapon:skyward-atlas]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:skyward-atlas]]**.",
-                        "ru": "На **[R5]** превосходит  **[[weapon:skyward-atlas]]**."
+                        "en": "[[note:r5-better]] **[[weapon:skyward-atlas]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:skyward-atlas]]**."
                     }
                 },
                 "solar-pearl"

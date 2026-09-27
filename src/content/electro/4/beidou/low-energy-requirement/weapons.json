@@ -58,10 +58,7 @@
                 {
                     "name": "akuoumaru",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:fang-of-the-mountain-king]]**.",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:fang-of-the-mountain-king]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:fang-of-the-mountain-king]]**.",
-                        "ru": "На **[R5]** это оружие превосходит **[[weapon:fang-of-the-mountain-king]]**."
+                        "en": "[[note:r5-better]] **[[weapon:fang-of-the-mountain-king]]**."
                     }
                 },
                 {

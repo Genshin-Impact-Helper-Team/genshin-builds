@@ -58,19 +58,19 @@
                 {
                     "name": "prospectors-drill",
                     "note": {
-                        "en": "[[character:escoffier]] can reliably get high stacks starting from second rotation onward. Performs better than **[[weapon:staff-of-the-scarlet-sands]]** at **[R5]**.",
-                        "fr": "[[character:escoffier]] peut obtenir des stacks élevés de façon fiable à partir de la deuxième rotation. Une fois **[R5]**, elle dépasse **[[weapon:staff-of-the-scarlet-sands]]**.",
-                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. A **[R5]**, le prestazioni di quest'arma superano quelle di **[[weapon:staff-of-the-scarlet-sands]]**.",
-                        "ru": "[[character:escoffier]] может стабильно набирать уровни Пассивной способности, начиная со второй ротации. На **[R5]** соответствует **[[weapon:staff-of-the-scarlet-sands|Посоху алых песков]]**."
+                        "en": "[[character:escoffier]] can reliably get high stacks starting from second rotation onward. [[note:r5-better]] **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "fr": "[[character:escoffier]] peut obtenir des stacks élevés de façon fiable à partir de la deuxième rotation. [[note:r5-better]] **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. [[note:r5-better]] **[[weapon:staff-of-the-scarlet-sands]]**.",
+                        "ru": "[[character:escoffier]] может стабильно набирать уровни Пассивной способности, начиная со второй ротации. [[note:r5-better]] **[[weapon:staff-of-the-scarlet-sands|Посоху алых песков]]**."
                     }
                 },
                 {
                     "name": "mountain-bracing-bolt",
                     "note": {
-                        "en": "At **[R5]** this weapon performs slightly better than similar ranking options.",
-                        "fr": "Une fois **[R5]**, cette arme fait légèrement mieux que les options classées de façon similaire.",
-                        "it": "A **[R5]**, quest’arma offre prestazioni leggermente migliori rispetto ad altre opzioni di pari livello.",
-                        "ru": " На **[R5]** несколько превосходит варианты на той же позиции в рейтинге."
+                        "en": "[[note:r5-better]] similar ranking options.",
+                        "fr": "[[note:r5-better]] les options classées de façon similaire.",
+                        "it": "[[note:r5-better]] altre opzioni di pari livello.",
+                        "ru": "[[note:r5-better]] варианты на той же позиции в рейтинге."
                     }
                 },
                 "wavebreakers-fin",

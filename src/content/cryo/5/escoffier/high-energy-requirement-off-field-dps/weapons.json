@@ -37,10 +37,10 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "Ranking assumes one enemy. At **[R5]**, this weapon performs better than **[[weapon:staff-of-homa]]**.",
-                        "fr": "Le classement suppose 1 ennemi. Une fois **[R5]**, cette arme dépasse **[[weapon:staff-of-homa]]**.",
-                        "it": "La classifica presuppone un solo nemico. A **[R5]**, quest’arma offre prestazioni migliori di **[[weapon:staff-of-homa]]**.",
-                        "ru": "Предполагается бой против одиночного противника. На **[R5]** превосходит **[[weapon:staff-of-homa]]**."
+                        "en": "Ranking assumes one enemy. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "fr": "Le classement suppose 1 ennemi. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "it": "La classifica presuppone un solo nemico. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "ru": "Предполагается бой против одиночного противника. [[note:r5-better]] **[[weapon:staff-of-homa]]**."
                     }
                 },
                 {
@@ -88,10 +88,10 @@
                 {
                     "name": "mountain-bracing-bolt",
                     "note": {
-                        "en": "At **[R5]** this weapon performs slightly better than similar ranking options.",
-                        "fr": "Une fois **[R5]**, cette arme fait légèrement mieux que les options classées de façon similaire.",
-                        "it": "A **[R5]**, quest’arma offre prestazioni leggermente migliori rispetto ad altre opzioni di pari livello.",
-                        "ru": "На **[R5]** несколько превосходит варианты на той же позиции в рейтинге."
+                        "en": "[[note:r5-better]] similar ranking options.",
+                        "fr": "[[note:r5-better]] les options classées de façon similaire.",
+                        "it": "[[note:r5-better]] ad altre opzioni di pari livello.",
+                        "ru": "[[note:r5-better]] варианты на той же позиции в рейтинге."
                     }
                 },
                 "wavebreakers-fin"

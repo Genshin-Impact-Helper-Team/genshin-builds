@@ -56,10 +56,8 @@
                 {
                     "name": "alley-hunter",
                     "note": {
-                        "en": "At **[R5]** this weapon performs better than **[[weapon:astral-vultures-crimson-plumage]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:astral-vultures-crimson-plumage]]**.",
-                        "it": "A **[R5]** quest'arma ha prestazioni migliori di **[[weapon:astral-vultures-crimson-plumage]]**.",
-                        "ru": "На [R5] превосходит Алое перо звёздного грифа."
+                        "en": "[[note:r5-better]] **[[weapon:astral-vultures-crimson-plumage]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:astral-vultures-crimson-plumage|Алое перо звёздного грифа]]**."
                     }
                 }
             ]

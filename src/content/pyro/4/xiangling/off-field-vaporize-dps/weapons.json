@@ -24,19 +24,19 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this becomes a very strong weapon, **outperforming [[weapon:lumidouce-elegy]] for reactionless teams**.",
-                        "fr": "Une fois **[R5]**, cette arme devient une très bonne option, **dépassant [[weapon:lumidouce-elegy]] pour les équipes sans réactions**.",
-                        "it": "A **[R5]** quest'arma diventa particolarmente potente, **superando [[weapon:lumidouce-elegy]] in team privi di reazioni**.",
-                        "ru": "На **[R5]** становится сильным вариантом, превосходя Элегию Люмидус в отрядах без закрытия реакций."
+                        "en": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] for reactionless teams**.",
+                        "fr": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] pour les équipes sans réactions**.",
+                        "it": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] in team privi di reazioni**.",
+                        "ru": "[[note:r5-better]] **[[weapon:lumidouce-elegy|Элегию Люмидус]] в отрядах без закрытия реакций**."
                     }
                 },
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "At **[R5]**, this becomes a very strong weapon, **outperforming [[weapon:lumidouce-elegy]] for [[element:vaporize]] teams**.",
-                        "fr": "Une fois **[R5]**, cette arme devient une très bonne option, **dépassant [[weapon:lumidouce-elegy]] pour les équipes [[element:vaporize]]**.",
-                        "it": "A **[R5]** quest'arma diventa particolarmente potente, **superando [[weapon:lumidouce-elegy]] in team [[element:vaporize]]**.",
-                        "ru": "На **[R5]** становится сильным вариантом, превосходя Элегию Люмидус в отрядах через [[element:vaporize]]."
+                        "en": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] for [[element:vaporize]] teams**.",
+                        "fr": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] pour les équipes [[element:vaporize]]**.",
+                        "it": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] in team [[element:vaporize]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:lumidouce-elegy|Элегию Люмидус]] в отрядах через [[element:vaporize]]**."
                     }
                 }
             ]

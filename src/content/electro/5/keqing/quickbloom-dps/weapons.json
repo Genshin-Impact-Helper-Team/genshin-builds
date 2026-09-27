@@ -67,10 +67,7 @@
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs slightly better than **[[weapon:wolf-fang]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe légèrement mieux que **[[weapon:wolf-fang]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni leggermente migliori di **[[weapon:wolf-fang]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:wolf-fang]]**."
+                        "en": "[[note:r5-better]] **[[weapon:wolf-fang]]**."
                     }
                 }
             ]

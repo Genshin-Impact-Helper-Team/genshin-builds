@@ -64,10 +64,7 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon becomes better than [[weapon:nightweavers-looking-glass]].",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que [[weapon:nightweavers-looking-glass]].",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di [[weapon:nightweavers-looking-glass]].",
-                        "ru": "На **[R5]** превосходит [[weapon:nightweavers-looking-glass]]."
+                        "en": "[[note:r5-better]] **[[weapon:nightweavers-looking-glass]]**."
                     }
                 }
             ]

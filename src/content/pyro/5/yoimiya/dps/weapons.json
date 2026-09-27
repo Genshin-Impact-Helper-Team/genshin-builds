@@ -57,8 +57,8 @@
                 {
                     "name": "rust",
                     "note": {
-                        "en": "At [R5], this weapon ranks above **[[weapon:hunters-path]]**.",
-                        "ru": "На [R5] превосходит **[[weapon:hunters-path|Охотничью тропу]]**."
+                        "en": "[[note:r5-better]] **[[weapon:hunters-path]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:hunters-path|Охотничью тропу]]**."
                     }
                 }
             ]

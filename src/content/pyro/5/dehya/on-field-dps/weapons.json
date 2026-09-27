@@ -18,10 +18,10 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "[[character:dehya]] has a hard time keeping up this weapon's stacks. At **[R5]**, this weapon can perform better than **[[weapon:wolfs-gravestone]]**.",
-                        "fr": "[[character:dehya]] a du mal à garder les stacks de cette arme. Une fois **[R5]**, cette arme peut être meileure que **[[weapon:wolfs-gravestone]]**.",
-                        "it": "[[character:dehya]] ha difficoltà a mantenere gli accumuli di quest'arma. A **[R5]**, può avere prestazioni migliori di **[[weapon:wolfs-gravestone]]**.",
-                        "ru": "Поддержание Пассивной способности может оказаться затруднительным для [[character:dehya|Дэхъи]]. На **[R5]** данное оружие превосходит **[[weapon:wolfs-gravestone|Волчью погибель]]**."
+                        "en": "[[character:dehya]] has a hard time keeping up this weapon's stacks. [[note:r5-better]] **[[weapon:wolfs-gravestone]]**.",
+                        "fr": "[[character:dehya]] a du mal à garder les stacks de cette arme. [[note:r5-better]] **[[weapon:wolfs-gravestone]]**.",
+                        "it": "[[character:dehya]] ha difficoltà a mantenere gli accumuli di quest'arma. [[note:r5-better]] **[[weapon:wolfs-gravestone]]**.",
+                        "ru": "Поддержание Пассивной способности может оказаться затруднительным для [[character:dehya|Дэхъи]]. [[note:r5-better]] **[[weapon:wolfs-gravestone|Волчью погибель]]**."
                     }
                 },
                 {
@@ -65,10 +65,10 @@
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes [[character:dehya]] is affected by [[element:pyro]]. At **[R5]**, this weapon performs better than **[[weapon:tidal-shadow]] [R5]**.",
-                        "fr": "Suppose que [[character:dehya]] est affectée par [[element:pyro]]. Une fois **[R5]**, cette arme performe mieux que **[[weapon:tidal-shadow]] [R5]**.",
-                        "it": "La classifica presuppone che [[character:dehya]] sia affetta da [[element:pyro]]. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:tidal-shadow]] [R5]**.",
-                        "ru": "Предполагается, что на [[character:dehya|Дэхъю]] накладывается [[element:pyro]]. На **[R5]** превосходит **[R5] [[weapon:tidal-shadow]]**."
+                        "en": "Assumes [[character:dehya]] is affected by [[element:pyro]]. [[note:r5-better]] **[[weapon:tidal-shadow]] [R5]**.",
+                        "fr": "Suppose que [[character:dehya]] est affectée par [[element:pyro]]. [[note:r5-better]] **[[weapon:tidal-shadow]] [R5]**.",
+                        "it": "La classifica presuppone che [[character:dehya]] sia affetta da [[element:pyro]]. [[note:r5-better]] **[[weapon:tidal-shadow]] [R5]**.",
+                        "ru": "Предполагается, что на [[character:dehya|Дэхъю]] накладывается [[element:pyro]]. [[note:r5-better]] **[R5] [[weapon:tidal-shadow]]**."
                     }
                 },
                 "the-unforged",

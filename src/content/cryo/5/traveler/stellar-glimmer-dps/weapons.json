@@ -61,10 +61,7 @@
                     "name": "heretics-molten-blade",
                     "refinement": 5,
                     "note": {
-                        "en": "**At [R5]**, this weapon ranks above **[[weapon:aquila-favonia]]**.",
-                        "fr": "**Une fois [R5]**, cette arme dépasse **[[weapon:aquila-favonia]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:aquila-favonia]]**.",
-                        "ru": "**На [R5]** превосходит **[[weapon:aquila-favonia]]**."
+                        "en": "[[note:r5-better]] **[[weapon:aquila-favonia]]**."
                     }
                 }
             ]

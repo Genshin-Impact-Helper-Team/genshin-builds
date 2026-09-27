@@ -44,19 +44,17 @@
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "Assumes the passive is active. At **[R5]**, this weapon ranks higher than **[[weapon:fractured-halo]]**.",
-                        "fr": "Suppose que le passif est actif. Une fois **[R5]**, cette arme dépasse **[[weapon:fractured-halo]]**.",
-                        "it": "La posizione in classifica presuppone che la passiva sia attiva. A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:fractured-halo]]**.",
-                        "ru": "Предполагается, что эффект Пассивной способности поддерживается. На **[R5]** превосходит **[[weapon:fractured-halo]]**."
+                        "en": "Assumes the passive is active. [[note:r5-better]] **[[weapon:fractured-halo]]**.",
+                        "fr": "Suppose que le passif est actif. [[note:r5-better]] **[[weapon:fractured-halo]]**.",
+                        "it": "La posizione in classifica presuppone che la passiva sia attiva. [[note:r5-better]] **[[weapon:fractured-halo]]**.",
+                        "ru": "Предполагается, что эффект Пассивной способности поддерживается. [[note:r5-better]] **[[weapon:fractured-halo]]**."
                     }
                 },
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this weapon ranks higher than **[[weapon:lumidouce-elegy]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:lumidouce-elegy]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:lumidouce-elegy]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:lumidouce-elegy|Элегию Люмидус]]**."
+                        "en": "[[note:r5-better]] **[[weapon:lumidouce-elegy]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:lumidouce-elegy|Элегию Люмидус]]**."
                     }
                 }
             ]
@@ -81,10 +79,7 @@
                 {
                     "name": "dragons-bane",
                     "note": {
-                        "en": "At **[R5]**, this weapon ranks above **[[weapon:crimson-moons-semblance]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:crimson-moons-semblance]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:crimson-moons-semblance]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:crimson-moons-semblance]]**."
+                        "en": "[[note:r5-better]] **[[weapon:crimson-moons-semblance]]**."
                     }
                 }
             ]

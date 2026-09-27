@@ -118,10 +118,10 @@
                 {
                     "name": "prototype-crescent",
                     "note": {
-                        "en": "At **[R5]**, this weapon is better than **[[weapon:slingshot]]**. Notably, this weapon is heavily reliant on enemies having weakspots.",
-                        "fr": "Une fois **[R5]**, cette arme est meilleure que **[[weapon:slingshot]]**. A noter, cette arme dépend fortement du fait que les ennemis aient des points faibles.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:slingshot]]**. Quest'arma dipende fortemente dalla presenza di punti deboli nei nemici.",
-                        "ru": "Превосходит **[[weapon:slingshot|Рогатку]]** на **[R5]**. Эффективность зависит от наличия слабых мест у противников."
+                        "en": "[[note:r5-better]] **[[weapon:slingshot]]**. Notably, this weapon is heavily reliant on enemies having weakspots.",
+                        "fr": "[[note:r5-better]] **[[weapon:slingshot]]**. A noter, cette arme dépend fortement du fait que les ennemis aient des points faibles.",
+                        "it": "[[note:r5-better]] **[[weapon:slingshot]]**. Quest'arma dipende fortemente dalla presenza di punti deboli nei nemici.",
+                        "ru": "[[note:r5-better]] **[[weapon:slingshot|Рогатку]]**. Эффективность зависит от наличия слабых мест у противников."
                     }
                 }
             ]

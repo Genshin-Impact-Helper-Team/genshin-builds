@@ -40,10 +40,7 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]** this weapon ranks above **[[weapon:haran-geppaku-futsu]]**.",
-                        "fr": "Une fois **[R5]** cette arme se classe au dessus de **[[weapon:haran-geppaku-futsu]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:haran-geppaku-futsu]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:haran-geppaku-futsu]]**."
+                        "en": "[[note:r5-better]] **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]
