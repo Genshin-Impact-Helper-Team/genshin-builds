@@ -25,21 +25,22 @@
                         }
                     ]
                 },
-        {
-            "groups": [
                 {
-                    "items": [
+                    "groups": [
                         {
-                            "name": "atk-set",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "atk-set",
-                            "pieces": 2
+                            "items": [
+                                {
+                                    "name": "atk-set",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "atk-set",
+                                    "pieces": 2
+                                }
+                            ],
+                            "choose": 2
                         }
-                        
-                    ],
-                    "choose": 2
+                    ]
                 }
             ]
         }
