@@ -1,0 +1,16 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "em"
+        ],
+        "goblet": [
+            "em",
+            "atk%"
+        ],
+        "circlet": [
+            "healing-bonus",
+            "em"
+        ]
+    }
+}

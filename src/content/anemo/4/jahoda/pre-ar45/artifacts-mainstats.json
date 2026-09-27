@@ -1,0 +1,21 @@
+{
+    "main_stats": {
+        "sands": [
+            "er",
+            "atk%"
+        ],
+        "goblet": [
+            "atk%"
+        ],
+        "circlet": [
+            "healing-bonus",
+            "atk%",
+            {
+                "name": "cr",
+                "note": {
+                    "en": "[[note:cr-favo]]."
+                }
+            }
+        ]
+    }
+}
