@@ -65,10 +65,8 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform roughly equal to **[[weapon:angelos-heptades]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à peu près à **[[weapon:angelos-heptades]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:angelos-heptades]]** .",
-                        "ru": "На **[R5]** примерно соответствует **[[weapon:angelos-heptades|Гептаде ангела]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:angelos-heptades]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:angelos-heptades|Гептаде ангела]]**."
                     }
                 }
             ]

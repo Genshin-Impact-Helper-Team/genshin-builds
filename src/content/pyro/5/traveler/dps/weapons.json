@@ -78,8 +78,8 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "If the [[ability:bol]] can be cleared reliably, this weapon is roughly equal to **[[weapon:summit-shaper]]**.",
-                        "fr": "Si l'[[ability:bol]] peut être retiré de manière fiable, cette arme est presque équivalente à **[[weapon:summit-shaper]]**.",
+                        "en": "[[note:bol-rank-nclear]], this weapon is roughly equal to **[[weapon:summit-shaper]]**.",
+                        "fr": "[[note:bol-rank-nclear]], cette arme est presque équivalente à **[[weapon:summit-shaper]]**.",
                         "it": "Se il [[character:traveler]] riceve cure sufficienti da rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni simili ad **[[weapon:summit-shaper]]**.",
                         "ru": "В командах, где удаётся стабильно снимать Долг жизни, соответствует **[[weapon:summit-shaper|Кромсателю пиков]]**."
                     }
@@ -88,10 +88,8 @@
                 {
                     "name": "lions-roar",
                     "note": {
-                        "en": "At **[R5]** this weapon performs roughly equal to **[[weapon:harbinger-of-dawn]]**.",
-                        "fr": "Une fois **[R5]** cette arme performe de façon équivalente à **[[weapon:harbinger-of-dawn]]**.",
-                        "it": "A **[R5]** quest'arma ha prestazioni simili a **[[weapon:harbinger-of-dawn]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:harbinger-of-dawn|Предвестнику зари]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:harbinger-of-dawn]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:harbinger-of-dawn|Предвестнику зари]]**."
                     }
                 }
             ]

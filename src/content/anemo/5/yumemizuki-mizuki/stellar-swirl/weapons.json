@@ -27,10 +27,8 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform as well as **[[weapon:starcallers-watch]]**.",
-                        "fr": "Une fois **[R5]**, cette arme offre des performances similaires à **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni simili a **[[weapon:starcallers-watch]]**.",
-                        "ru": "**На [R5]** может соответствовать **[[weapon:starcallers-watch|Бдению взывающего к звёздам]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:starcallers-watch]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:starcallers-watch|Бдению взывающего к звёздам]]**."
                     }
                 }
             ]
@@ -40,29 +38,23 @@
                 {
                     "name": "dawning-frost",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:starcallers-watch]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:starcallers-watch]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:starcallers-watch]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:starcallers-watch]]**."
+                        "en": "[[note:r5-better]] **[[weapon:starcallers-watch]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:starcallers-watch]]**."
                     }
                 },
                 "nightweavers-looking-glass",
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:nocturnes-curtain-call]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:nocturnes-curtain-call]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:nocturnes-curtain-call]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:nocturnes-curtain-call]]**."
+                        "en": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**."
                     }
                 },
                 {
                     "name": "clash-of-kings",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:nocturnes-curtain-call]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:nocturnes-curtain-call]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:nocturnes-curtain-call]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:nocturnes-curtain-call]]**."
+                        "en": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:nocturnes-curtain-call]]**."
                     }
                 }
             ]
@@ -74,10 +66,8 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform better than **[[weapon:dawning-frost]]**.",
-                        "fr": "Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:dawning-frost]]**.",
-                        "it": "A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:dawning-frost]]**.",
-                        "ru": "На **[R5]** может превосходить **[[weapon:dawning-frost]]**."
+                        "en": "[[note:r5-better]] **[[weapon:dawning-frost]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:dawning-frost]]**."
                     }
                 }
             ]
@@ -87,10 +77,10 @@
                 {
                     "name": "sacrificial-fragments",
                     "note": {
-                        "en": "At **[R5]**, this weapon can perform almost as well as **[[weapon:sunny-morning-sleep-in]]** in teams with teammates that have 20s Cooldowns on their [[ability:burst]], if used correctly.",
-                        "fr": "Une fois **[R5]**, cette arme peut devenir similaire à **[[weapon:sunny-morning-sleep-in]]** dans les équipes dont les membres ont un TdR de 20s sur leur [[ability:burst]], si utilisée correctement.",
-                        "it": "A **[R5]**, se utilizzata correttamente, quest'arma può avere prestazioni simili a **[[weapon:sunny-morning-sleep-in]]** in team con personaggi che hanno Tempi di Ricarica del [[ability:burst]] di 20s.",
-                        "ru": "**На [R5]** и при грамотном использовании ненамного уступает **[[weapon:sunny-morning-sleep-in|Сну солнечным утром]]** в тех отрядапх, где откат [[ability:burst|Взрывов стихии]] у союзников составляет 20 секунд."
+                        "en": "[[note:r5-similar]] **[[weapon:sunny-morning-sleep-in]]** in teams with teammates that have 20s Cooldowns on their [[ability:burst]], if used correctly.",
+                        "fr": "[[note:r5-similar]] **[[weapon:sunny-morning-sleep-in]]** dans les équipes dont les membres ont un TdR de 20s sur leur [[ability:burst]], si utilisée correctement.",
+                        "it": "[[note:r5-similar]] **[[weapon:sunny-morning-sleep-in]]** in team con personaggi che hanno Tempi di Ricarica del [[ability:burst]] di 20s.",
+                        "ru": "[[note:r5-similar]] **[[weapon:sunny-morning-sleep-in|Сну солнечным утром]]** в тех отрядапх, где откат [[ability:burst|Взрывов стихии]] у союзников составляет 20 секунд."
                     }
                 }
             ]

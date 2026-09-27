@@ -108,8 +108,7 @@
                 {
                     "name": "heretics-molten-blade",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform close to **[[weapon:pjc]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:pjc]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:pjc]]**."
                     }
                 },
                 {
@@ -122,10 +121,7 @@
                 {
                     "name": "new-bough",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:freedom-sworn]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:freedom-sworn]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:freedom-sworn]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:freedom-sworn]]**."
+                        "en": "[[note:r5-better]] **[[weapon:freedom-sworn]]**."
                     }
                 }
             ]
@@ -143,10 +139,7 @@
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:athame-artis]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:athame-artis]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:athame-artis]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:athame-artis]]**."
+                        "en": "[[note:r5-better]] **[[weapon:athame-artis]]**."
                     }
                 },
                 "lions-roar"
