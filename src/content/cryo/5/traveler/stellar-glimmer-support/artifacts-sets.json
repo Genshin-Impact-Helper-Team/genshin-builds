@@ -44,7 +44,11 @@
                     "items": [
                         {
                             "name": "instructor",
-                            "pieces": 4
+                            "pieces": 4,
+                            "note": {
+                                "en": "It is important to note that [[element:cryo]] [[character:traveler]] can't trigger this set's 4p effect in [[element:stellar-swirl]] teams.",
+                                "fr": "Il est important de noter que le [[character:traveler]] [[element:cryo]] ne peux pas déclencher l'effet du 4P de ce set dans les équipes [[element:stellar-swirl]]."
+                            }
                         }
                     ]
                 }
