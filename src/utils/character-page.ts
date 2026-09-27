@@ -82,7 +82,7 @@ const artifactSetDataPath = path.resolve(
  * @param value Markdown source text.
  * @returns Rendered HTML string.
  */
-const renderMarkdown = (value: string) => marked.parse(value) as string;
+const renderMarkdown = (value: string) => marked.parse(value, { breaks: true }) as string;
 
 /**
  * Loads the shared artifact set database used by popovers and validation.
@@ -600,7 +600,7 @@ function buildLocalizedNotes(
             }
 
             return {
-                title: tip.title[lang] ?? tip.title.en,
+                title: translator.translateNoteText(tip.title[lang] ?? tip.title.en, sourceFile),
                 content: renderMarkdown(
                     translator.translateNoteText(tip.content[lang] ?? tip.content.en, sourceFile, {
                         weaponPopovers: true,
