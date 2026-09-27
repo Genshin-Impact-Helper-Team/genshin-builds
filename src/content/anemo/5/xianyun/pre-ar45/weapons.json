@@ -1,0 +1,28 @@
+{
+  "weapons": [
+    {
+      "items": [
+        {
+          "name": "thrilling-tales-of-dragon-slayers"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "name": "hakushin-ring",
+          "note": {
+            "en": "Better if used in a team with [[elemet:electro]] damage dealers, but is good for ER% regardless."
+          }
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "name": "flowing-purity"
+        }
+      ]
+    }
+  ]
+}
