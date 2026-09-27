@@ -5,7 +5,8 @@
                 {
                     "name": "song-of-stillness",
                     "note": {
-                        "en": "Ranked under the assumption that Venti is healed, thus activating its passive. Otherwise, do not use this weapon."
+                        "en": "Ranked under the assumption that [[character:venti]] is healed, thus activating its passive. Otherwise, do not use this weapon.",
+                        "fr": "Le classement suppose que [[character:venti]] reçoit des soins et que le passif est donc actif. Si ce n'est pas le cas, n'utilisez pas cette arme."
                     }
                 }
             ]
@@ -22,7 +23,8 @@
                 {
                     "name": "favonius-warbow",
                     "note": {
-                        "en": "Use this if Venti is being used more as a support."
+                        "en": "Use this if [[character:venti]] is being used more as a support.",
+                        "fr": "Utilisez cette arme si [[character:venti]] est joué comme support."
                     }
                 }
             ]

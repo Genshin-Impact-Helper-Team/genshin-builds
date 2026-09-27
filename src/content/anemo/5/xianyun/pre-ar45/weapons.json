@@ -1,28 +1,29 @@
 {
-  "weapons": [
-    {
-      "items": [
+    "weapons": [
         {
-          "name": "thrilling-tales-of-dragon-slayers"
-        }
-      ]
-    },
-    {
-      "items": [
+            "items": [
+                {
+                    "name": "ttds"
+                }
+            ]
+        },
         {
-          "name": "hakushin-ring",
-          "note": {
-            "en": "Better if used in a team with [[elemet:electro]] damage dealers, but is good for ER% regardless."
-          }
-        }
-      ]
-    },
-    {
-      "items": [
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Better if used in a team with [[element:electro]] damage dealers, but is good for [[stat:er]] regardless.",
+                        "fr": "Devient une meilleure option dans les équipes avec des personnages infligeant des dégâts [[element:electro]], mais même sans, cela reste tout de même une bonne option pour la [[stat:er]]."
+                    }
+                }
+            ]
+        },
         {
-          "name": "flowing-purity"
+            "items": [
+                {
+                    "name": "flowing-purity"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
