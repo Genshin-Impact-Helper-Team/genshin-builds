@@ -4,7 +4,7 @@
             "items": [
                 {
                     "name": "hymn-of-the-maelstrom",
-                    "note": "The passive for this weapon caps out once [[character:vodyanitsa]] reaches 60,000 [stat:HP|HP]]."
+                    "note": "The passive for this weapon caps out once [[character:vodyanitsa]] reaches 60,000 [[stat:HP|HP]]."
                 }
             ]
         },
