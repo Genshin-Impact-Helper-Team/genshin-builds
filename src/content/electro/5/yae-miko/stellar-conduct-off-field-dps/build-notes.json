@@ -6,6 +6,7 @@
         "ru": "Карманный ДД через [[element:stellar-conduct]]"
     },
     "best": true,
+    "last_updated": "7.1",
     "notes": [
         {
             "en": "Take note that none of [[character:yae-miko]]'s abilities snapshot.",
@@ -17,7 +18,13 @@
     "weapons": [
         {
             "author": "Yoren",
-            "link": "https://docs.google.com/spreadsheets/d/1P8Wz6VtMpY5AIc8KtF_GiU82IOJTdcX1aRov8sUHmUk/edit"
+            "link": "https://docs.google.com/spreadsheets/d/1P8Wz6VtMpY5AIc8KtF_GiU82IOJTdcX1aRov8sUHmUk/edit",
+            "detail": "[C0]"
+        },
+        {
+            "author": "Yoren",
+            "link": "https://docs.google.com/spreadsheets/d/1Ngea84vx4kd9uVrUQ0rAeBYjGgff5WVOCg7IEspDZig/edit",
+            "detail": "[C1]"
         }
     ],
     "artifacts": [

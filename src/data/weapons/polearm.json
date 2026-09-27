@@ -40,6 +40,7 @@
     "beginners-protector": {
         "rarity": 1,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },
@@ -678,6 +679,7 @@
     "iron-point": {
         "rarity": 2,
         "version_released": "1.0",
+        "source": "Exploration",
         "passive": {
             "en": ""
         },

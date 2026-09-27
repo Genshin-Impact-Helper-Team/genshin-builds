@@ -600,6 +600,25 @@ function buildLocalizedNotes(
 
   return {
     ...buildNoteData,
+    tips: (buildNoteData.tips ?? []).map((tip: {
+        title: LocalizedBuildNote;
+        content: LocalizedBuildNote;
+    }) => {
+        if (typeof tip?.title?.en !== 'string' || typeof tip?.content?.en !== 'string') {
+            throw new Error(`Build tip requires English title and content (source: ${sourceFile})`);
+        }
+
+        return {
+            title: translator.translateNoteText(tip.title[lang] ?? tip.title.en, sourceFile),
+            content: renderMarkdown(
+                translator.translateNoteText(tip.content[lang] ?? tip.content.en, sourceFile, {
+                    weaponPopovers: true,
+                    artifactPopovers: true,
+                    rotationPopovers: true,
+                }),
+            ),
+        };
+    }),
     artifact: localizeCreditDetails(buildNoteData.artifact),
     artifacts: localizeCreditDetails(buildNoteData.artifacts),
     weapons: localizeCreditDetails(buildNoteData.weapons),

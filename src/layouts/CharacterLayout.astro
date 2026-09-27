@@ -8,6 +8,7 @@ import Footer from '../components/Footer.astro';
 import CalculationLinks from '../components/CalculationLinks.astro';
 import BuildModeSelector from '../components/BuildModeSelector.astro';
 import { PRE_AR_45_ROUTE_SEGMENT } from '../utils/content-tree';
+import BuildTips from '../components/BuildTips.astro';
 import { t } from '../utils/i18n';
 import { localizedPath, sitePath } from '../utils/paths';
 
@@ -32,15 +33,15 @@ const buildLabel = t(locale, 'ui', 'Builds', undefined, false);
 const bestRoleLabel = t(locale, 'ui', 'Best Role');
 const versionLabel = t(locale, 'ui', 'Version');
 const defaultBuild =
-  builds.find(
-    (build: any) => build.slug === defaultBuildSlug && !build.isWip,
-  ) ?? builds.find((build: any) => !build.isWip);
+  builds.find((build: any) => build.slug === defaultBuildSlug && !build.isWip) ??
+  builds.find((build: any) => !build.isWip);
 const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
 const normalModeHref = localizedPath(lang, characterSlug);
 const preAr45ModeHref = localizedPath(
   lang,
   `${characterSlug}/${PRE_AR_45_ROUTE_SEGMENT}`,
 );
+const buildsWithTips = builds.filter((build: any) => !build.isWip && build.buildNote?.tips?.length > 0);
 ---
 
 <html lang={lang}>
@@ -91,10 +92,7 @@ const preAr45ModeHref = localizedPath(
                 activeLastUpdated && (
                   <div class="last-updated">
                     <span>{t(locale, 'ui', 'Last Updated')}</span>
-                    <strong
-                      data-last-updated-value
-                      data-version-label={versionLabel}
-                    >
+                    <strong data-last-updated-value data-version-label={versionLabel}>
                       {versionLabel} {activeLastUpdated}
                     </strong>
                   </div>
@@ -118,8 +116,7 @@ const preAr45ModeHref = localizedPath(
             builds.length > 0 && (
               <nav class="build-switcher" aria-label={buildLabel}>
                 {builds.map((build: any) => {
-                  const isDefaultBuild =
-                    build.slug === defaultBuildSlug && !build.isWip;
+                  const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
 
                   return (
                     <button
@@ -136,14 +133,8 @@ const preAr45ModeHref = localizedPath(
                     >
                       <span class="build-switcher-name">{build.name}</span>
                       <span class="build-switcher-tags">
-                        {build.lastUpdated && (
-                          <span class="build-version-badge">
-                            {build.lastUpdated}
-                          </span>
-                        )}
-                        {build.isBest && (
-                          <span class="build-badge">{bestRoleLabel}</span>
-                        )}
+                        {build.lastUpdated && <span class="build-version-badge">{build.lastUpdated}</span>}
+                        {build.isBest && <span class="build-badge">{bestRoleLabel}</span>}
                       </span>
                     </button>
                   );
@@ -153,13 +144,29 @@ const preAr45ModeHref = localizedPath(
           }
 
           {
+            buildsWithTips.length > 0 && (
+              <section
+                class="build-tips-section"
+                data-build-tips-section
+                hidden={!defaultBuild?.buildNote?.tips?.length}
+              >
+                <h2>{t(locale, 'ui', 'Gameplay Tips')}</h2>
+                {buildsWithTips.map((build: any) => (
+                  <div data-build-tips-panel data-id={build.slug} hidden={build.slug !== defaultBuildSlug}>
+                    <BuildTips tips={build.buildNote.tips} />
+                  </div>
+                ))}
+              </section>
+            )
+          }
+
+          {
             builds.length > 0 && (
               <div class="build-calculation-panels">
                 {builds
                   .filter((build: any) => build.hasCalculations)
                   .map((build: any) => {
-                    const isDefaultBuild =
-                      build.slug === defaultBuildSlug && !build.isWip;
+                    const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
 
                     return (
                       <div
@@ -169,10 +176,7 @@ const preAr45ModeHref = localizedPath(
                         hidden={!isDefaultBuild}
                         aria-hidden={isDefaultBuild ? 'false' : 'true'}
                       >
-                        <CalculationLinks
-                          buildNote={build.buildNote}
-                          locale={locale}
-                        />
+                        <CalculationLinks buildNote={build.buildNote} locale={locale} />
                       </div>
                     );
                   })}
