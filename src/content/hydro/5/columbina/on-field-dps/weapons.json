@@ -45,10 +45,8 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs closer to [[weapon:dawning-frost]].",
-                        "fr": "Une fois **[R5]**, les performances de cette arme se rapprochent de [[weapon:dawning-frost]].",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a [[weapon:dawning-frost]].",
-                        "ru": "На **[R5]** данное оружие близко по эффективности к  [[weapon:dawning-frost|Рассветному инею]]."
+                        "en": "[[note:r5-similar]] **[[weapon:dawning-frost]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:dawning-frost|Рассветному инею]]**."
                     }
                 }
             ]
@@ -66,10 +64,7 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon becomes better than [[weapon:nightweavers-looking-glass]].",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que [[weapon:nightweavers-looking-glass]].",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di [[weapon:nightweavers-looking-glass]].",
-                        "ru": "На **[R5]** превосходит [[weapon:nightweavers-looking-glass]]."
+                        "en": "[[note:r5-better]] **[[weapon:nightweavers-looking-glass]]**."
                     }
                 }
             ]

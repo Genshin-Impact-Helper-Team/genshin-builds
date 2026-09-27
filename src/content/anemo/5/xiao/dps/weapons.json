@@ -79,10 +79,10 @@
                 {
                     "name": "lithic-spear",
                     "note": {
-                        "en": "This Ranking assumes 1 Stack. This weapon's performance varies greatly with refines and stacks. At **[R5]**, this weapon performs similar to **[[weapon:blackcliff-pole]]** with one stack and **[[weapon:calamity-queller]]** with two stacks.",
-                        "fr": "Ce classement suppose 1 cumul. Les performances de cette arme varient beaucoup selon les raffinements et les cumuls. Une fois **[R5]**, cette arme équivaut à **[[weapon:blackcliff-pole]]** avec un cumul et à **[[weapon:calamity-queller]]** avec deux cumuls.",
-                        "it": "La posizione in classifica presuppone 1 accumulo. Le prestazioni di quest'arma variano notevolmente a seconda dei miglioramenti e degli accumuli. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:blackcliff-pole]]** con 1 accumulo ed a **[[weapon:calamity-queller]]** con 2 accumuli.",
-                        "ru": "Предполагается игра с 1 уровнем Пассивной способности оружия. Эффективность может разниться в зависимости от Пробуждения и уровня Пассивной способности. На **[R5]** соответствует **[[weapon:blackcliff-pole|Черногорской пике]]** (1 уровень) и **[[weapon:calamity-queller|Усмирителю бед]]** (2 уровня)."
+                        "en": "This Ranking assumes 1 Stack. This weapon's performance varies greatly with refines and stacks. [[note:r5-similar]] **[[weapon:blackcliff-pole]]** with one stack and **[[weapon:calamity-queller]]** with two stacks.",
+                        "fr": "Ce classement suppose 1 cumul. Les performances de cette arme varient beaucoup selon les raffinements et les cumuls. [[note:r5-similar]] **[[weapon:blackcliff-pole]]** avec un cumul et à **[[weapon:calamity-queller]]** avec deux cumuls.",
+                        "it": "La posizione in classifica presuppone 1 accumulo. Le prestazioni di quest'arma variano notevolmente a seconda dei miglioramenti e degli accumuli. [[note:r5-similar]] **[[weapon:blackcliff-pole]]** con 1 accumulo ed a **[[weapon:calamity-queller]]** con 2 accumuli.",
+                        "ru": "Предполагается игра с 1 уровнем Пассивной способности оружия. Эффективность может разниться в зависимости от Пробуждения и уровня Пассивной способности. [[note:r5-similar]] **[[weapon:blackcliff-pole|Черногорской пике]]** (1 уровень) и **[[weapon:calamity-queller|Усмирителю бед]]** (2 уровня)."
                     }
                 }
             ]
@@ -102,10 +102,10 @@
                 {
                     "name": "prospectors-drill",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:skyward-spine]]** given a reliable healer is present.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:skyward-spine]]** à condition d'avoir un soigneur fiable.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:skyward-spine]]** se sono presenti cure affidabili.",
-                        "ru": "На **[R5]** соответствует **[[weapon:skyward-spine|Небесной оси]]** (при стабильном лечении)."
+                        "en": "[[note:r5-similar]]**[[weapon:skyward-spine]]** given a reliable healer is present.",
+                        "fr": "[[note:r5-similar]] **[[weapon:skyward-spine]]** à condition d'avoir un soigneur fiable.",
+                        "it": "[[note:r5-similar]] **[[weapon:skyward-spine]]** se sono presenti cure affidabili.",
+                        "ru": "[[note:r5-similar]] **[[weapon:skyward-spine|Небесной оси]]** (при стабильном лечении)."
                     }
                 },
                 "wavebreakers-fin"

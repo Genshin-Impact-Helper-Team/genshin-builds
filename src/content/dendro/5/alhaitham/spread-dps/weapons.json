@@ -43,10 +43,10 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similarly to **[[weapon:haran-geppaku-futsu]]** and **[[weapon:mistsplitter-reforged]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:haran-geppaku-futsu]]** et **[[weapon:mistsplitter-reforged]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]** e **[[weapon:mistsplitter-reforged]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]** и **[[weapon:mistsplitter-reforged|Рассекающему туману]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]** and **[[weapon:mistsplitter-reforged]]**.",
+                        "fr": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]** et **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]** e **[[weapon:mistsplitter-reforged]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]** и **[[weapon:mistsplitter-reforged|Рассекающему туману]]**."
                     }
                 }
             ]

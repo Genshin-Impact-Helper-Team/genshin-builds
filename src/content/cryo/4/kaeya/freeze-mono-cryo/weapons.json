@@ -46,8 +46,8 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "If you can reliably clear [[ability:bol]] before casting [[ability:burst]], this weapon performs better than **[[weapon:splendor-of-tranquil-waters]]**.",
-                        "fr": "Si vous pouvez retirer l'[[ability:bol]] de manière fiable avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:splendor-of-tranquil-waters]]**.",
+                        "en": "[[note:bol-rank-nclear]] before casting [[ability:burst]], this weapon performs better than **[[weapon:splendor-of-tranquil-waters]]**.",
+                        "fr": "[[note:bol-rank-nclear]] avant de lancer l'[[ability:burst]], cette arme dépasse **[[weapon:splendor-of-tranquil-waters]]**.",
                         "it": "Se Kaeya riceve cure sufficienti a rimuovere il **[[ability:bol]]**, quest'arma ha prestazioni migliori di **[[weapon:splendor-of-tranquil-waters]]**.",
                         "ru": "Если Долг жизни спадает до использования Взрыва стихии, превосходит **[[weapon:splendor-of-tranquil-waters]]**."
                     }
