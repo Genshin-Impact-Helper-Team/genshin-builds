@@ -7,7 +7,8 @@
             "hp%"
         ],
         "circlet": [
-            "hp%"
+            "hp%",
+            "healing-bonus"
         ]
     }
 }

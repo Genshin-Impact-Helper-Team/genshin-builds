@@ -3,14 +3,17 @@
         {
             "items": [
                 {
-                    "name": ""
+                    "name": "skill"
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": ""
+                    "name": "burst",
+                    "note": {
+                        "en": "[[ability:burst]] talent levels are not a necessity unless you wish to see more out of [[character:vodyanitsa]]'s personal damage."
+                    }
                 }
             ]
         }

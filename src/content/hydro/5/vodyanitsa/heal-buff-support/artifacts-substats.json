@@ -1,3 +1,12 @@
 {
-    "substats_priority": []
+    "substats_priority": [
+        "hp%",
+        "hp",
+        {
+            "name": "er",
+            "note": {
+                "en": "Only necessary if you plan to use [[character:vodyanitsa]]'s [[ability:burst]]. Can ignore otherwise."
+            }
+        }
+    ]
 }

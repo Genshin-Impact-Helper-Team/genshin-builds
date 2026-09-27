@@ -1,10 +1,16 @@
 {
     "name": {
-        "en": ""
+        "en": "Heal and Buff Support"
     },
     "notes": [
         {
-            "en": ""
+            "en": "[[character:vodyanitsa]] uses her [[ability:skill]] to provide multiple benefits to the team. Her [[ability: skill]] heals the active character and provides them with interruption resistance. It also reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill|Skill]], making her a solid option for [[element:freeze]] teams."
+        },
+        {
+            "en": "[[character:vodyanitsa]]'s [[ability:skill]] also transforms any [[ability:stellar-vortex]]es created by the [[element:stellar-swirl]] reaction into Wandering Vortexes. These enhanced Vortexes, when generated or exploded, also reduce enemies' [[element:anemo]] resistance."
+        },
+        {
+            "en": "[[character:vodyanitsa]]'s A4 talent caps out at 65,000 [[stat:hp|HP]]. Any more beyond this is to increase her healing capabilities and some of her damage."
         }
     ],
     "tips": [

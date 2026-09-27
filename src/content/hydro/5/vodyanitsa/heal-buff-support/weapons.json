@@ -1,14 +1,30 @@
 {
     "weapons": [
         {
-            "items": []
+            "items": [
+                {
+                    "name": "hymn-of-the-maelstrom",
+                    "note": "The passive for this weapon caps out once [[character:vodyanitsa]] reaches 60,000 [stat:HP|HP]]."
+                }
+            ]
+        },
+        {
+            "items": [
+                "thrilling-tales-of-dragon-slayers"
+            ]
+        },
+        {
+            "items": [
+                "prototype-amber",
+                "ash-graven-drinking-horn"
+            ]
         },
         {
             "items": [
                 {
-                    "name": "",
+                    "name": "waveriding-whirl",
                     "note": {
-                        "en": ""
+                        "en": "If you are not using [[character:vodyanitsa]]'s [[ability:burst]], this weapon can be left at Level 1."
                     }
                 }
             ]

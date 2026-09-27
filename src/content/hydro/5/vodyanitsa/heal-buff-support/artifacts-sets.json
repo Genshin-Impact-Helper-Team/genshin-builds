@@ -5,7 +5,7 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "tenacity-of-the-millelith",
                             "pieces": 4
                         }
                     ]
@@ -17,8 +17,25 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "ocean-hued-clam",
                             "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "healing-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
                         }
                     ]
                 }
