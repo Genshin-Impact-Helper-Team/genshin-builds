@@ -82,7 +82,7 @@ const artifactSetDataPath = path.resolve(
  * @param value Markdown source text.
  * @returns Rendered HTML string.
  */
-const renderMarkdown = (value: string) => marked.parse(value) as string;
+const renderMarkdown = (value: string) => marked.parse(value, { breaks: true }) as string;
 
 /**
  * Loads the shared artifact set database used by popovers and validation.
