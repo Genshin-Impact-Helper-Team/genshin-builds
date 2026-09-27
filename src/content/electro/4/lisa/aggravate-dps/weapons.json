@@ -77,10 +77,8 @@
                 {
                     "name": "mappa-mare",
                     "note": {
-                        "en": "At high refinement **[R5]** this weapon is **equal to or better than [[weapon:solar-pearl]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est **équivalente ou meilleure que [[weapon:solar-pearl]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili o migliori di **[[weapon:solar-pearl]]**.",
-                        "ru": "На [R5] соотвествует Солнечной жемчужине или превосходит её."
+                        "en": "[[note:r5-similar]] **[[weapon:solar-pearl]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:solar-pearl|Солнечной жемчужине]]**."
                     }
                 }
             ]

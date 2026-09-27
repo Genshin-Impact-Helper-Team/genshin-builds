@@ -70,10 +70,10 @@
                 {
                     "name": "the-stringless",
                     "note": {
-                        "en": "Becomes better if [[character:fischl]] frequently triggers reactions. At **[R5]** it can perform similarly to **[[weapon:amos-bow]]**.",
-                        "fr": "Devient meilleure si [[character:fischl]] déclenche souvent des réactions. Une fois **[R5]**, elle peut performer de manière similaire à **[[weapon:amos-bow]]**.",
-                        "it": "Ha prestazioni migliori se [[character:fischl]] provoca spesso reazioni. A **[R5]** ha prestazioni simili a **[[weapon:amos-bow]]**.",
-                        "ru": "Показывает себя лучше в отрядах, где Фишль закрывает реакции. На [R5] соответствует Луку Амоса."
+                        "en": "Becomes better if [[character:fischl]] frequently triggers reactions. [[note:r5-similar]]**[[weapon:amos-bow]]**.",
+                        "fr": "Devient meilleure si [[character:fischl]] déclenche souvent des réactions. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
+                        "it": "Ha prestazioni migliori se [[character:fischl]] provoca spesso reazioni. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
+                        "ru": "Показывает себя лучше в отрядах, где Фишль закрывает реакции. [[note:r5-similar]] **[[weapon:amos-bow|Луку Амоса]]**."
                     }
                 },
                 {

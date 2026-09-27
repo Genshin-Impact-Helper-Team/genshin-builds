@@ -70,11 +70,9 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "**At [R5]**, this option performs closer to **[[weapon:lost-prayer]]**.",
-                        "fr": "**Une fois [R5]**, cette arme se rapproche de **[[weapon:lost-prayer]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:lost-prayer]]**.",
-                        "ru": "**На [R5]** данное оружие по эффективности близко к **[[weapon:lost-prayer]]**.",
-                        "de": "Auf **[R5]** ist diese Waffe ähnlich gut wie **[[weapon:lost-prayer]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:lost-prayer]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:lost-prayer]]**.",
+                        "de": "[[note:r5-similar]] **[[weapon:lost-prayer]]**."
                     }
                 }
             ]

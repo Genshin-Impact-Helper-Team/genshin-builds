@@ -52,10 +52,8 @@
                 {
                     "name": "mouuns-moon",
                     "note": {
-                        "en": "At **[R5]**, this weapon ranks similarly to **[[weapon:hunters-path]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se classe de façon similaire à **[[weapon:hunters-path]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:hunters-path]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:hunters-path|Охотничьей тропе]]**. "
+                        "en": "[[note:r5-similar]] **[[weapon:hunters-path]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:hunters-path|Охотничьей тропе]]**. "
                     }
                 },
                 {

@@ -56,10 +56,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:haran-geppaku-futsu]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]
@@ -82,10 +80,8 @@
                 {
                     "name": "lions-roar",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:iron-sting]] [R5]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:iron-sting]] [R5]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:iron-sting]] [R5]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:iron-sting|Стальному жалу]] [R5]**."
+                        "en": "[[note:r5-similar]] **[[weapon:iron-sting]] [R5]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:iron-sting|Стальному жалу]] [R5]**."
                     }
                 },
                 {

@@ -22,10 +22,10 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "Ranking assumes one enemy. At **[R5]**, this weapon performs the same as **[[weapon:lumidouce-elegy]]**.",
-                        "fr": "Le classement suppose 1 ennemi. Une fois **[R5]**, cette arme équivaut à **[[weapon:lumidouce-elegy]]**.",
-                        "it": "La classifica presuppone un solo nemico. A **[R5]**, quest’arma offre prestazioni migliori di **[[weapon:lumidouce-elegy]]**.",
-                        "ru": "Предполагается бой против одного противника. На **[R5]** соответствует **[[weapon:lumidouce-elegy|Элегию Люмидус]]**."
+                        "en": "Ranking assumes one enemy. [[note:r5-similar]] **[[weapon:lumidouce-elegy]]**.",
+                        "fr": "Le classement suppose 1 ennemi. [[note:r5-similar]] **[[weapon:lumidouce-elegy]]**.",
+                        "it": "La classifica presuppone un solo nemico. [[note:r5-similar]] **[[weapon:lumidouce-elegy]]**.",
+                        "ru": "Предполагается бой против одного противника. [[note:r5-similar]] **[[weapon:lumidouce-elegy|Элегию Люмидус]]**."
                     }
                 },
                 "staff-of-the-scarlet-sands",
@@ -38,10 +38,8 @@
                 {
                     "name": "sacrificers-staff",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs close to **[[weapon:calamity-queller]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:calamity-queller]]**.",
-                        "it": "A **[R5]**, quest’arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
-                        "ru": "На **[R5]** примерно соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:calamity-queller]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 }
             ]

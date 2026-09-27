@@ -65,10 +65,8 @@
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:finale-of-the-deep]] [R5]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:finale-of-the-deep]] [R5]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a quelle di **[[weapon:finale-of-the-deep]] [R5]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:finale-of-the-deep|Грандиозному финалу глубин]] [R5]**."
+                        "en": "[[note:r5-similar]] **[[weapon:finale-of-the-deep]] [R5]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:finale-of-the-deep|Грандиозному финалу глубин]] [R5]**."
                     }
                 }
             ]

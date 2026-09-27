@@ -74,19 +74,17 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs as well as **[[weapon:cashflow-supervision]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:cashflow-supervision]]**.",
-                        "it": "A **[R5]** quest'arma ha prestazioni simili a **[[weapon:cashflow-supervision]]**.",
-                        "ru": "На **[R5]** соответствует Казначейскому надзору."
+                        "en": "[[note:r5-similar]] **[[weapon:cashflow-supervision]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:cashflow-supervision|Казначейскому надзору]]**."
                     }
                 },
                 {
                     "name": "dawning-frost",
                     "note": {
-                        "en": "Calculated with the weapon passive always active. At **[R5]**, this weapon performs as well as **[[weapon:tome-of-the-eternal-flow]]**.",
-                        "fr": "Calculé avec le passif de l'arme toujours actif. Une fois **[R5]**, cette arme performe aussi bien que **[[weapon:tome-of-the-eternal-flow]]**.",
-                        "it": "Presupponendo che la passiva sia sempre attiva, a **[R5]** quest'arma ha prestazioni simili a **[[weapon:tome-of-the-eternal-flow]]**.",
-                        "ru": "Предполагается, что пассивная способность всегда активна. На **[R5]** соответствует Обряду вечного течения"
+                        "en": "Calculated with the weapon passive always active. [[note:r5-similar]]**[[weapon:tome-of-the-eternal-flow]]**.",
+                        "fr": "Calculé avec le passif de l'arme toujours actif. [[note:r5-similar]] **[[weapon:tome-of-the-eternal-flow]]**.",
+                        "it": "Presupponendo che la passiva sia sempre attiva. [[note:r5-similar]] **[[weapon:tome-of-the-eternal-flow]]**.",
+                        "ru": "Предполагается, что пассивная способность всегда активна. [[note:r5-similar]] **[[weapon:tome-of-the-eternal-flow|Обряду вечного течения]]**."
                     }
                 }
             ]

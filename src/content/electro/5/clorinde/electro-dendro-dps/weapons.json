@@ -108,8 +108,7 @@
                 {
                     "name": "heretics-molten-blade",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform close to **[[weapon:pjc]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:pjc]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:pjc]]**."
                     }
                 },
                 {

@@ -68,10 +68,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]**, performs close to **[[weapon:light-of-foliar-incision]]**.",
-                        "fr": "Une fois **[R5]**, ses performances sont proche de celles de **[[weapon:light-of-foliar-incision]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:light-of-foliar-incision]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:light-of-foliar-incision]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:light-of-foliar-incision|Свету лиственного разреза]]**."
                     }
                 },
                 {

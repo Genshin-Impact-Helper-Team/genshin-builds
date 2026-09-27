@@ -71,10 +71,8 @@
                 {
                     "name": "scion-of-the-blazing-sun",
                     "note": {
-                        "en": "At **[R5]** this weapon is slightly worse than **[[weapon:thundering-pulse]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est légèrement moins bonne que **[[weapon:thundering-pulse]]**.",
-                        "it": "A **[R5]**, quest'arma è leggermente peggiore di **[[weapon:thundering-pulse]]**.",
-                        "ru": "На **[R5]** немного уступает **[[weapon:thundering-pulse|Громовому пульсу]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:thundering-pulse]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 }
             ]
@@ -107,10 +105,10 @@
                 {
                     "name": "song-of-stillness",
                     "note": {
-                        "en": "Weapon ranking assumes passive is active. At **[R5]**, it performs similarly to **[[weapon:range-gauge]]**.",
-                        "fr": "Le classement de l'arme suppose que le passif est actif. Une fois **[R5]**, elle équivaut à **[[weapon:range-gauge]]**.",
-                        "it": "La classifica presuppone che [[character:tighnari]] riceva cure per mantenere attiva la passiva. A **[R5]**, ha prestazioni simili a **[[weapon:range-gauge]]**.",
-                        "ru": "Мелодия покоя: Предполагается, что поддерживается бонус Пассивной способности оружия. На **[R5]** соответствует **[[weapon:range-gauge|Дальномеру]]**."
+                        "en": "Weapon ranking assumes passive is active.[[note:r5-similar]] **[[weapon:range-gauge]]**.",
+                        "fr": "Le classement de l'arme suppose que le passif est actif. [[note:r5-similar]] **[[weapon:range-gauge]]**.",
+                        "it": "La classifica presuppone che [[character:tighnari]] riceva cure per mantenere attiva la passiva. [[note:r5-similar]] **[[weapon:range-gauge]]**.",
+                        "ru": "Мелодия покоя: Предполагается, что поддерживается бонус Пассивной способности оружия. [[note:r5-similar]] **[[weapon:range-gauge|Дальномеру]]**."
                     }
                 }
             ]

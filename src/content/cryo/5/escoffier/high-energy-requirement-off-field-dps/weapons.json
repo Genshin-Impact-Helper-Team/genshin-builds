@@ -56,10 +56,8 @@
                 {
                     "name": "sacrificers-staff",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:engulfing-lightning]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:engulfing-lightning]]**.",
-                        "it": "A **[R5]**, quest’arma ha prestazioni simili a **[[weapon:engulfing-lightning]]**.",
-                        "ru": "На **[R5]** примерно соответствует **[[weapon:engulfing-lightning|Сияющей жатве]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:engulfing-lightning]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:engulfing-lightning|Сияющей жатве]]**."
                     }
                 }
             ]
@@ -73,10 +71,10 @@
                 {
                     "name": "prospectors-drill",
                     "note": {
-                        "en": "[[character:escoffier]] can reliably get high stacks starting from second rotation onward. Performs close to **[[weapon:lumidouce-elegy]]** at **[R5]**.",
-                        "fr": "[[character:escoffier]] peut obtenir des stacks élevés de façon fiable à partir de la deuxième rotation. Une fois **[R5]**, elle se rapproche de **[[weapon:lumidouce-elegy]]**.",
-                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. A **[R5]**, le prestazioni di quest'arma si avvicinano a quelle di **[[weapon:lumidouce-elegy]]**.",
-                        "ru": "[[character:escoffier]] может стабильно набирать уровни Пассивной способности, начиная со второй ротации. На **[R5]** соответствует **[[weapon:lumidouce-elegy|Элегии Люмидус]]**."
+                        "en": "[[character:escoffier]] can reliably get high stacks starting from second rotation onward. [[note:r5-similar]] **[[weapon:lumidouce-elegy]]**.",
+                        "fr": "[[character:escoffier]] peut obtenir des stacks élevés de façon fiable à partir de la deuxième rotation. [[note:r5-similar]] **[[weapon:lumidouce-elegy]]**.",
+                        "it": "[[character:escoffier]] può ottenere accumuli alti in maniera affidabile a partire dalla seconda rotazione. [[note:r5-similar]] **[[weapon:lumidouce-elegy]]**.",
+                        "ru": "[[character:escoffier]] может стабильно набирать уровни Пассивной способности, начиная со второй ротации. [[note:r5-similar]] **[[weapon:lumidouce-elegy|Элегии Люмидус]]**."
                     }
                 }
             ]

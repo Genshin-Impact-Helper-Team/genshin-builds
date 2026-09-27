@@ -58,10 +58,8 @@
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]** this weapon is roughly equal to **[[weapon:summit-shaper]]**.",
-                        "fr": "Une fois **[R5]** cette arme équivaut à **[[weapon:summit-shaper]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:summit-shaper]]**.",
-                        "ru": "На **[R5]** примерно соответствует Кромсателю пиков."
+                        "en": "[[note:r5-similar]] **[[weapon:summit-shaper]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:summit-shaper|Кромсателю пиков]]**."
                     }
                 },
                 "kagotsurube-isshin"

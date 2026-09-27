@@ -59,10 +59,10 @@
                 {
                     "name": "dragons-bane",
                     "note": {
-                        "en": "At **[R5]**, this weapon is equal to **[[weapon:vortex-vanquisher]]**. It gains value in teams where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] (i.e. Raiden National).",
-                        "fr": "Une fois **[R5]**, cette arme est équivalente à **[[weapon:vortex-vanquisher]]**. Elle gagne de la valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]] (Raiden National par exemple).",
-                        "it": "A **[R5]**, quest'arma è pari a **[[weapon:vortex-vanquisher]]**. In team in cui vengono provocate sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National, la [[stat:em]] guadagna valore, rendendo quest'arma più efficace.",
-                        "ru": "На **[R5]** соответствует Покорителю вихря. Становится лучше в отрядах, где Сян Лин одновременно вызывает реакции Пар и Перегрузка (к примеру, Националка с Райдэн)"
+                        "en": "[[note:r5-similar]] **[[weapon:vortex-vanquisher]]**. It gains value in teams where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] (i.e. Raiden National).",
+                        "fr": "[[note:r5-similar]] **[[weapon:vortex-vanquisher]]**. Elle gagne de la valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]] (Raiden National par exemple).",
+                        "it": "[[note:r5-similar]] **[[weapon:vortex-vanquisher]]**. In team in cui vengono provocate sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National, la [[stat:em]] guadagna valore, rendendo quest'arma più efficace.",
+                        "ru": "[[note:r5-similar]] **[[weapon:vortex-vanquisher|Покорителю вихря]]**. Становится лучше в отрядах, где Сян Лин одновременно вызывает реакции Пар и Перегрузка (к примеру, Националка с Райдэн)"
                     }
                 }
             ]

@@ -37,10 +37,10 @@
                 {
                     "name": "rainslasher",
                     "note": {
-                        "en": "Only useful in [[element:vaporize]] teams. At **[R5]**, this weapon performs similar to **[[weapon:redhorn-stonethresher]]**.",
-                        "fr": "Utile uniquement pour les équipes [[element:vaporize]]. Une fois **[R5]**, cette arme a des performances similaires à **[[weapon:redhorn-stonethresher]]**.",
-                        "it": "Utile esclusivamente in team **[[element:vaporize]]**. A **[R5]** ha prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
-                        "ru": "Используется только в отрядах через [[element:vaporize]]. На **[R5]** соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
+                        "en": "Only useful in [[element:vaporize]] teams. [[note:r5-similar]] **[[weapon:redhorn-stonethresher]]**.",
+                        "fr": "Utile uniquement pour les équipes [[element:vaporize]]. [[note:r5-similar]] **[[weapon:redhorn-stonethresher]]**.",
+                        "it": "Utile esclusivamente in team **[[element:vaporize]]**. [[note:r5-similar]] **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "Используется только в отрядах через [[element:vaporize]]. [[note:r5-similar]] **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
                     }
                 }
             ]

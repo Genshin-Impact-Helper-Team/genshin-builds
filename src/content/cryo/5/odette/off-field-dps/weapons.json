@@ -94,10 +94,7 @@
                 {
                     "name": "new-bough",
                     "note": {
-                        "en": "**At [R5]**, this weapon performs close to **[[weapon:exaiphanes-blade]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:exaiphanes-blade]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:exaiphanes-blade]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:exaiphanes-blade]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:exaiphanes-blade]]**."
                     }
                 },
                 {

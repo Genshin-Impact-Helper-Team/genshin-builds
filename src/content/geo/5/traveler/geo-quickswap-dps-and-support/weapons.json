@@ -57,10 +57,7 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:haran-geppaku-futsu]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]

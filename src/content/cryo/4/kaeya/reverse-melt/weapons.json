@@ -51,10 +51,8 @@
                 {
                     "name": "lions-roar",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:absolution]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut à **[[weapon:absolution]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:absolution]]**.",
-                        "ru": "На **[R5]** соответстует **[[weapon:absolution|Отпущению грехов]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:absolution]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:absolution|Отпущению грехов]]**."
                     }
                 }
             ]

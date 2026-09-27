@@ -67,7 +67,8 @@
                     "note": {
                         "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
                         "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."                    }
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
+                    }
                 }
             ]
         },
@@ -110,8 +111,7 @@
                 {
                     "name": "new-bough",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similarly to **[[weapon:whitelake-frostfeather]]**.",
-                        "fr": "Une fois **[R5]**, cette arme a des performances similaires à celles de **[[weapon:whitelake-frostfeather]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:whitelake-frostfeather]]**."
                     }
                 }
             ]

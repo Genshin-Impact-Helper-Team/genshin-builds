@@ -88,10 +88,8 @@
                 {
                     "name": "lions-roar",
                     "note": {
-                        "en": "At **[R5]** this weapon performs roughly equal to **[[weapon:harbinger-of-dawn]]**.",
-                        "fr": "Une fois **[R5]** cette arme performe de façon équivalente à **[[weapon:harbinger-of-dawn]]**.",
-                        "it": "A **[R5]** quest'arma ha prestazioni simili a **[[weapon:harbinger-of-dawn]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:harbinger-of-dawn|Предвестнику зари]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:harbinger-of-dawn]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:harbinger-of-dawn|Предвестнику зари]]**."
                     }
                 }
             ]
