@@ -17,8 +17,12 @@
                 {
                     "items": [
                         {
-                            "name": "ocean-hued-clam",
-                            "pieces": 4
+                            "name": "hp-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
                         }
                     ]
                 }
@@ -27,15 +31,10 @@
         {
             "groups": [
                 {
-                    "choose": true,
                     "items": [
                         {
-                            "name": "healing-set",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "hp-set",
-                            "pieces": 2
+                            "name": "ocean-hued-clam",
+                            "pieces": 4
                         }
                     ]
                 }

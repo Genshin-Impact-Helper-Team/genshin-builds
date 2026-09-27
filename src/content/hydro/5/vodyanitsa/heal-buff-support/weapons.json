@@ -17,6 +17,12 @@
             "items": [
                 "prototype-amber",
                 "ash-graven-drinking-horn"
+                {
+                    "name": "sacrificial-jade",
+                    "note": {
+                        "en": "[[stat:cr]] isn't beneficial to [[character:vodyanitsa]], so this weapon can remain at Level 1. At **[R5]**, this weapon can give almost as much [[stat:HP%]] as **[[weapon:hymn-of-the-malestrom]]** at base, which is very good for her passives."
+                    }
+                }
             ]
         },
         {

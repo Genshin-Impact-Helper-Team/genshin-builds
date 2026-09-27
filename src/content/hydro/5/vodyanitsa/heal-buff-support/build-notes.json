@@ -4,22 +4,30 @@
     },
     "notes": [
         {
-            "en": "[[character:vodyanitsa]] uses her [[ability:skill]] to provide multiple benefits to the team. Her [[ability:skill]] heals the active character and provides them with interruption resistance. It also reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill|Skill]], making her a solid option for [[element:freeze]] teams."
+            "en": "[[character:vodyanitsa]] is a support unit that uses her [[ability:skill]] to provide multiple benefits to **[[element:freeze]] and [[element:stellar-swirl]] teams.** **In [[element:freeze]] teams,** her [[ability:skill]] heals the active character, provides them with interruption resistance, and also reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill|Skill]]. In addition, [[character:vodyanitsa]]'s A4 talent also increases the [[element:hydro]] and [[element:cryo]] DMG dealt by teammates, which scales based on her Max [[stat:hp|HP]]." 
         },
         {
-            "en": "[[character:vodyanitsa]]'s [[ability:skill]] also transforms any [[ability:stellar-vortex]]es created by the [[element:stellar-swirl]] reaction into Wandering Vortexes. These enhanced Vortexes, when generated or exploded, also reduce enemies' [[element:anemo]] resistance."
+            "en": "**In [[element:stellar-swirl]] teams**, [[character:vodyanitsa]]'s [[ability:skill]] also enhances any [[ability:stellar-vortex]]es created by the [[element:stellar-swirl]] reaction. These enhanced Vortexes, when generated or exploded, also reduce enemies' [[element:anemo]] resistance. Her A4 talent will increase the [[element:stellar-swirl]] damage dealt by teammates, which scales with herwhich scales based on her Max [[stat:hp|HP]]." 
         },
         {
-            "en": "[[character:vodyanitsa]]'s A4 talent caps out at 65,000 [[stat:hp|HP]]. Any more beyond this is to increase her healing capabilities and some of her damage."
+            "en": "[[character:vodyanitsa]]'s A4 talent caps out at 65,000 [[stat:hp|HP]]. This may be unreasonable to achieve without **[[weapon:hymn-of-the-maelstrom]]** or an **[R5] [[weapon:sacrificial-jade]]**. Any more beyond this is to increase her healing capabilities and some of her damage."
         }
     ],
     "tips": [
         {
             "title": {
-                "en": ""
+                "en": "[[element:stellar-swirl]] and [[ability:stellar-vortex]]es"
             },
             "content": {
-                "en": ""
+                "en": "When [[element:stellar-swirl]] is triggered, a [[ability:stellar-vortex]] is created. These vortexes explode after a short time. The more times [[element:stellar-swirl]] is triggered, the higher the explosion DMG of the vortex."
+            }
+        },
+        {
+            "title": {
+                "en": "Ascenion 4 Talent: Quills"
+            },
+            "content": {
+                "en": "The DMG buffs provided by [[character:vodyanitsa]]'s A4 come in the form of Quills. 25 of these quills go to the active character, and 10 go to off-field characters. The [[element:hydro]] and [[element:cryo]] DMG buffs and the [[element:stellar-swirl] DMG buff cannot co-exist at the same time."
             }
         }
     ]
