@@ -103,10 +103,10 @@
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:athame-artis]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:athame-artis]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:athame-artis]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:athame-artis]**."
+                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:athame-artis]]**.",
+                        "fr": "Une fois **[R5]**, cette arme performe mieux que **[[weapon:athame-artis]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:athame-artis]]**.",
+                        "ru": "На **[R5]** превосходит **[[weapon:athame-artis]]**."
                     }
                 },
                 {
