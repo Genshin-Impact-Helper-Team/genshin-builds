@@ -1,8 +1,7 @@
 {
     "name": {
-        "en": "DPS",
-        "fr": "DPS",
-        "ru": "ДД"
+        "en": "[[element:aggravate]] DPS",
+        "fr": "DPS [[element:aggravate]]"
     },
     "best": true,
     "notes": [
@@ -40,6 +39,14 @@
             },
             "content": {
                 "en": "[[character:clorinde]]'s A4 talent gives her a free 20% [[stat:cr]] that does not show out of combat."
+            }
+        },
+        {
+            "title": {
+                "en": "[[element:aggravate]] and Quickbloom"
+            },
+            "content": {
+                "en": "Applying [[element:electro]] and [[element:dendro]] on a same enemy creates a **[[element:quicken]] aura**.<br>Applying [[element:electro]] on a [[element:quicken]] aura triggers the **[[element:aggravate]] reaction**.<br><br>Applying [[element:hydro]] and [[element:dendro]] on a same enemy triggers a **[[element:bloom]] reaction** and creates a **[[element:dendro]] core**.<br>Applying [[element:electro]] on a [[element:dendro]] core triggers the **[[element:hyperbloom]] reaction**.<br><br>Having both [[element:aggravate]] and [[element:hyperbloom]] reactions on a team is called **Quickbloom**."
             }
         }
     ],
