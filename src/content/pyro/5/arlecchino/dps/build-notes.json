@@ -21,5 +21,15 @@
             "it": "Combo: **{rot:E > resto del team > CA > 3(N5D) o 6(N3D)}**. In team [[element:vaporize]] o [[element:melt]], è preferibile utilizzare la combo {rot:6(N3D)}.",
             "ru": "Комбо: **{rot:E > Саппорты > CA > 3(N5D) или 6(N3D)}**. {rot:6(N3D)} - рекомендуемый вариант в отрядах через [[element:vaporize]]/[[element:melt]]."
         }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "[[ability:bol]]"
+            },
+            "content": {
+                "en": "[[note:tips-bol]]"
+            }
+        }
     ]
 }
