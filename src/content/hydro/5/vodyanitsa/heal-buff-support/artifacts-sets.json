@@ -8,7 +8,8 @@
                             "name": "tenacity-of-the-millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "The performance of this set will depend on whether or not the team can reliably benefit from the [[stat:atk%]] buff."
+                                "en": "The performance of this set will depend on whether or not the team can reliably benefit from the [[stat:atk%]] buff.",
+                                "it": "Le prestazioni di questo set dipendono dalla capacità del team di beneficiare del potenziamento di [[stat:atk%]]."
                             }
                         }
                     ]
@@ -39,7 +40,8 @@
                             "name": "scroll-of-the-hero-of-cinder-city",
                             "pieces": 4,
                             "note":{
-                                "en": "If the team does not benefit from the DMG% bonus provided by this set, it is better to use other listed options."
+                                "en": "If the team does not benefit from the DMG% bonus provided by this set, it is better to use other listed options.",
+                                "it": "Se il team non trae beneficio dal Bonus DAN% fornito da questo set, è preferibile utilizzare un'altra opzione tra quelle elencate."
                             }
                         }
                     ]
