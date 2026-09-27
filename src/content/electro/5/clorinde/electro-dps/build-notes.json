@@ -2,17 +2,20 @@
     "name": {
         "en": "[[element:electro]] DPS",
         "fr": "DPS [[element:electro]]",
+        "it": "DPS [[element:electro]]",
         "ru": "[[element:electro]] ДД"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:clorinde]] is a DPS who primarily deals damage with her [[ability:skill]], which puts her into a special state that **infuses her [[ability:na]]s with [[element:electro]]**, and grants her a [[ability:bol]] for each [[ability:na]] performed. She can then **use her [[ability:skill]] again** to consume that [[ability:bol]], **increasing that attack's damage** depending on its amount, and **heal herself**. While in that state, healing from sources other than her [[ability:skill]] **increases [[character:clorinde]]'s [[ability:bol]] instead of restoring her HP**. [[character:clorinde]]'s [[ability:burst]] also grants her a [[ability:bol]], with the amount increasing based on her talent level.",
-            "fr": "[[character:clorinde]] est un DPS qui inflige ses dégâts principalement avec son [[ability:skill]], la plaçant dans un état spécial qui **infuse ses [[ability:na|Attaques Normales]] d'[[element:electro]]**, et lui donne un [[ability:bol]] pour chaque [[ability:na]] effectuée. Elle peut ensuite **utiliser son [[ability:skill]] à nouveau** pour consommer l'[[ability:bol]], **augmentant les dégâts de cette attaque** selon son montant, et **la soignant**. Dans cet état spécial, le soin provenant de sources autres que son [[ability:skill]] **augmente l'[[ability:bol]] de [[character:clorinde]] au lieu de restorer ses PV**. L'[[ability:burst]] de [[character:clorinde]] lui offre aussi de l'[[ability:bol]], avec un montant augmentant selon le niveau de son talent."
+            "fr": "[[character:clorinde]] est un DPS qui inflige ses dégâts principalement avec son [[ability:skill]], la plaçant dans un état spécial qui **infuse ses [[ability:na|Attaques Normales]] d'[[element:electro]]**, et lui donne un [[ability:bol]] pour chaque [[ability:na]] effectuée. Elle peut ensuite **utiliser son [[ability:skill]] à nouveau** pour consommer l'[[ability:bol]], **augmentant les dégâts de cette attaque** selon son montant, et **la soignant**. Dans cet état spécial, le soin provenant de sources autres que son [[ability:skill]] **augmente l'[[ability:bol]] de [[character:clorinde]] au lieu de restorer ses PV**. L'[[ability:burst]] de [[character:clorinde]] lui offre aussi de l'[[ability:bol]], avec un montant augmentant selon le niveau de son talent.",
+            "it": "[[character:clorinde]] è una DPS che infligge danni principalmente grazie alla sua [[ability:skill]], che la pone in uno stato speciale che **infonde i suoi [[ability:na|Attacchi Normali]] con [[element:electro]]** e le conferisce del [[ability:bol]] per ogni [[ability:na]] eseguito. Può poi **utilizzare nuovamente la sua [[ability:skill]]**, che consuma quel [[ability:bol]] ed infligge danni più alti in base alla quantità consumata, e le permette di curarsi. Mentre [[character:clorinde]] si trova in tale stato, le cure provenienti da fonti diverse dalla sua [[ability:skill]] **aumentano il suo [[ability:bol]] invece di ristorare i suoi PS**. Anche il [[ability:burst]] le conferisce del [[ability:bol]], la cui quantità aumenta in base al livello del Talento."
         },
         {
             "en": "Without a [[element:dendro]] on the team, we assume that [[character:clorinde]] is played in a **[[ability:hexerei]] [[element:overload]]** team (with [[character:durin]]/[[character:nicole]] or [[character:durin]]/[[character:fischl]] for example), or in a **[[element:lunar-charged]] team** [[character:ineffa]] and/or [[character:columbina]] to enable the reaction (do note that [[character:clorinde]] will not perform any direct [[element:lunar-charged]] hits).",
-            "fr": "Sans personnage [[element:dendro]] dans l'équipe, on suppose que [[character:clorinde]] est jouée dans une équipe **[[ability:hexerei]] [[element:overload]]** (avec [[character:durin]]/[[character:nicole]] ou [[character:durin]]/[[character:fischl]] par exemple), ou dans une **équipe [[element:lunar-charged]]** avec [[character:ineffa]] et/ou [[character:columbina]] pour lui permettre de déclencher la réaction (à noter que [[character:clorinde]] n'infligera pas de dégâts directs de [[element:lunar-charged]])."
+            "fr": "Sans personnage [[element:dendro]] dans l'équipe, on suppose que [[character:clorinde]] est jouée dans une équipe **[[ability:hexerei]] [[element:overload]]** (avec [[character:durin]]/[[character:nicole]] ou [[character:durin]]/[[character:fischl]] par exemple), ou dans une **équipe [[element:lunar-charged]]** avec [[character:ineffa]] et/ou [[character:columbina]] pour lui permettre de déclencher la réaction (à noter que [[character:clorinde]] n'infligera pas de dégâts directs de [[element:lunar-charged]]).",
+            "it": "In assenza di [[element:dendro]] nel team, la guida presuppone che [[character:clorinde]] venga giocata in un team **[[element:overload]] [[ability:hexerei]]** (ad esempio con [[character:durin]]/[[character:nicole]] o [[character:durin]]/[[character:fischl]]), oppure in un team **[[elemento:lunar-charged]]** con [[character:ineffa]] e/o [[character:columbina]] (si noti che [[character:clorinde]] non infliggerà alcun danno da [[element:lunar-charged]] **diretto**)."
         },
         {
             "en": "## Combos:",
@@ -37,21 +40,25 @@
         {
             "title": {
                 "en": "[[ability:skill]] hits",
-                "fr": "Toucher un ennemi avec un [[ability:skill]]"
+                "fr": "Toucher un ennemi avec un [[ability:skill]]",
+                "it": "I colpi dell'[[ability:skill]]"
             },
             "content": {
                 "en": "[[character:clorinde]]'s [[ability:skill]] is considered [[ability:na]] damage, meaning she cannot trigger any effect worded as \"when the character hits an opponent with their [[ability:skill]]\".",
-                "fr": "Le [[ability:skill]] de [[character:clorinde]] est considéré comme des dégâts d'[[ability:na]], ce qui signifie qu'elle ne peut pas déclencher les effets formulés comme \"Lorsque le personnage touche un ennemi avec un [[ability:skill]]\"."
+                "fr": "Le [[ability:skill]] de [[character:clorinde]] est considéré comme des dégâts d'[[ability:na]], ce qui signifie qu'elle ne peut pas déclencher les effets formulés comme \"Lorsque le personnage touche un ennemi avec un [[ability:skill]]\".",
+                "it": "I danni inflitti dall'[[ability:skill]] di [[character:clorinde]] sono considerati danni da [[ability:na]], il che significa che la sua [[ability:skill]] non può attivare alcun effetto formulato come \"quando il personaggio colpisce un avversario con la propria [[ability:skill]]\"."
             }
         },
         {
             "title": {
                 "en": "Overcapping on [[stat:cr]]",
-                "fr": "Dépasser les 100% de [[stat:cr]]"
+                "fr": "Dépasser les 100% de [[stat:cr]]",
+                "it": "Superare il limite massimo di [[stat:cr]]"
             },
             "content": {
                 "en": "[[character:clorinde]]'s A4 talent gives her a free 20% [[stat:cr]] that does not show in her stat page while out of combat.",
-                "fr": "Le passif A4 de [[character:clorinde]] lui donne 20% de [[stat:cr]] qui n'apparaissent pas dans ses stats si vous n'êtes pas en combat."
+                "fr": "Le passif A4 de [[character:clorinde]] lui donne 20% de [[stat:cr]] qui n'apparaissent pas dans ses stats si vous n'êtes pas en combat.",
+                "it": "Il Talento A4 di [[character:clorinde]] le garantisce un bonus del 20% di [[stat:cr]], che non compare nelle sue statistiche quando non è in combattimento."
             }
         }
     ],
