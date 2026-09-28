@@ -57,11 +57,7 @@
                             "pieces": 4
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "groups": [
+                },
                 {
                     "items": [
                         {
@@ -82,7 +78,7 @@
                             "name": "sms",
                             "pieces": 4,
                             "note": {
-                                "en": "this is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit."
+                                "en": "This is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit."
                             }
                         }
                     ]
