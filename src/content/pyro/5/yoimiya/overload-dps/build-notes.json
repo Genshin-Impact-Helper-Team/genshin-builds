@@ -5,6 +5,7 @@
         "it": "DPS [[element:overload]]",
         "ru": "ДД через [[element:overload]]"
     },
+    "best": true,
     "notes": [
         {
             "en": "[[character:yoimiya]] is an on-field [[element:pyro]] DPS who specializes in dealing damage through her [[ability:na]]s. It is recommended to play [[character:yoimiya]] with some source of resistance to interruption, as breaking her [[ability:na]] string is a significant damage loss.",

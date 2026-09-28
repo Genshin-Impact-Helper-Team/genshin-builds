@@ -24,7 +24,13 @@
         {
             "items": [
                 "hunters-path",
-                "polar-star"
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "Performing a [[ability:ca]] before her [[ability:skill]] improves this weapon's performance, making it a stronger option than **[[weapon:hunters-path]]**.",
+                        "fr": "Utiliser une [[ability:ca]] avant son [[ability:skill]] augmente les performances de cette arme, la rendant meilleure que **[[weapon:hunters-path]]**."
+                    }
+                }
             ]
         },
         {

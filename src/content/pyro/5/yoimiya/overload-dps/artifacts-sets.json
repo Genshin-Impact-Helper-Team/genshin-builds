@@ -17,36 +17,6 @@
                 {
                     "items": [
                         {
-                            "name": "crimson-witch-of-flames",
-                            "pieces": 4
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "gilded-dreams",
-                            "pieces": 4,
-                            "note": {
-                                "en": "This artifact set should only be used in teams where [[character:yoimiya]] frequently triggers elemental reactions.",
-                                "fr": "Ce set ne doit être utilisé que dans les équipes où [[character:yoimiya]] déclenche fréquemment des réactions élémentaires.",
-                                "it": "Questo set di manufatti dovrebbe essere utilizzato solamente in team dove [[character:yoimiya]] provoca spesso reazioni elementali.",
-                                "ru": "Используется только в том случае, если [[character:yoimiya]] закрывает реакции."
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
                             "name": "echoes-of-an-offering",
                             "pieces": 4,
                             "note": {

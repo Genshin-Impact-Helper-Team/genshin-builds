@@ -32,7 +32,13 @@
         },
         {
             "items": [
-                "polar-star",
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "Performing a [[ability:ca]] before her [[ability:skill]] improves this weapon's performance, making it similar to **[[weapon:hunters-path]]**.",
+                        "fr": "Utiliser une [[ability:ca]] avant son [[ability:skill]] augmente les performances de cette arme, la rendant similaire à **[[weapon:hunters-path]]**."
+                    }
+                },
                 "golden-frostbound-oath"
             ]
         },
