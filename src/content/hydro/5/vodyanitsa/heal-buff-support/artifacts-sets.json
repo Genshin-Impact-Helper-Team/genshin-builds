@@ -72,5 +72,37 @@
                 }
             ]
         }
+    ],
+    "conditional": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "sms",
+                            "pieces": 4,
+                            "note": {
+                                "en": "this is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:vodyanitsa]] can use this set as an alternative option in [[element:dendro]] teams."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
