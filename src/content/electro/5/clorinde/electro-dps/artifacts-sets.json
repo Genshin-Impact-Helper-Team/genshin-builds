@@ -1,0 +1,67 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "fragment-of-harmonic-whimsy",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "echoes-of-an-offering",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "notsu",
+                    "pieces": 4,
+                    "note": {
+                        "en": "This set should only be used in [[element:lunar-charged]] teams, and ranks under **[[set:fragment-of-harmonic-whimsy]] (4)**. Be careful not to overcap on [[stat:cr]].",
+                        "fr": "Ce set ne doit être utilisé que dans une équipe [[element:lunar-charged]], et reste moins bon que **[[set:fragment-of-harmonic-whimsy]] (4)**. Attention à ne pas dépasser les 100% de [[stat:cr]].",
+                        "it": "Questo set dovrebbe essere utilizzato solo in team [[element:lunar-charged]] e ha prestazioni peggiori di **[[set:fragment-of-harmonic-whimsy]] (4)**. Fai attenzione a non superare il limite massimo di [[stat:cr]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

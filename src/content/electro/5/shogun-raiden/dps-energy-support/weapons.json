@@ -36,10 +36,10 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "Ranking assumes single target. At **[R5]**, this weapon can perform better than **[[weapon:staff-of-homa]]**.",
-                        "fr": "Le classement suppose du monocible. Une fois **[R5]**, cette arme peut être meilleure que **[[weapon:staff-of-homa]]**.",
-                        "it": "La classifica presuppone un singolo nemico. A **[R5]**, quest'arma può avere prestazioni migliori di **[[weapon:staff-of-homa]]**.",
-                        "ru": "Предполагается бой против одной цели. На **[R5]** может превосходить **[[weapon:staff-of-homa]]**."
+                        "en": "Ranking assumes single target. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "fr": "Le classement suppose du monocible. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "it": "La classifica presuppone un singolo nemico. [[note:r5-better]] **[[weapon:staff-of-homa]]**.",
+                        "ru": "Предполагается бой против одной цели. [[note:r5-better]] **[[weapon:staff-of-homa]]**."
                     }
                 }
             ]
@@ -71,19 +71,17 @@
                 {
                     "name": "wavebreakers-fin",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:deathmatch]]**.",
-                        "fr": "Une fois **[R5]**, cette arme est équivalente à **[[weapon:deathmatch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:deathmatch|Смертельному бою]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:deathmatch]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:deathmatch|Смертельному бою]]**."
                     }
                 },
                 {
                     "name": "lithic-spear",
                     "note": {
-                        "en": "Ranking assumes 2 stacks. At **[R5]**, this weapon performs similar to **[[weapon:deathmatch]]**. With less than 2 stacks, this weapon falls off in value.",
-                        "fr": "Le classement suppose 2 stacks. Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:deathmatch]]**. Avec moins de 2 stacks, cette arme perd de la valeur.",
-                        "it": "La classifica presuppone che nel team siano presenti 2 personaggi di Liyue. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**. Con meno di 2 personaggi di Liyue nel team, quest'arma ha prestazioni peggiori.",
-                        "ru": "Предполагается наличие 2 уровней Пассивной способности оружия. На **[R5]** соответствует **[[weapon:deathmatch|Смертельному бою]]**. При 1 уровне Пассивной способности становится значительно хуже."
+                        "en": "Ranking assumes 2 stacks. [[note:r5-similar]] **[[weapon:deathmatch]]**. With less than 2 stacks, this weapon falls off in value.",
+                        "fr": "Le classement suppose 2 stacks. [[note:r5-similar]] **[[weapon:deathmatch]]**. Avec moins de 2 stacks, cette arme perd de la valeur.",
+                        "it": "La classifica presuppone che nel team siano presenti 2 personaggi di Liyue. [[note:r5-similar]] **[[weapon:deathmatch]]**. Con meno di 2 personaggi di Liyue nel team, quest'arma ha prestazioni peggiori.",
+                        "ru": "Предполагается наличие 2 уровней Пассивной способности оружия. [[note:r5-similar]] **[[weapon:deathmatch|Смертельному бою]]**. При 1 уровне Пассивной способности становится значительно хуже."
                     }
                 }
             ]

@@ -69,10 +69,8 @@
                 {
                     "name": "forged-by-the-golden-melody",
                     "note": {
-                        "en": "**At [R5]**, this weapon will rank similarly to **[[weapon:a-thousand-blazing-suns]]**.",
-                        "fr": "**Une fois [R5]**, cette arme se classe au même niveau que **[[weapon:a-thousand-blazing-suns]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:a-thousand-blazing-suns]]**.",
-                        "ru": "**На [R5]** соответствует **[[weapon:a-thousand-blazing-suns|Тысяче ослепительных солнц]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:a-thousand-blazing-suns]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:a-thousand-blazing-suns|Тысяче ослепительных солнц]]**."
                     }
                 },
                 {

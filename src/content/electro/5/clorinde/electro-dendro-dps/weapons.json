@@ -1,0 +1,152 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "beyond-the-chrysalis"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "haran-geppaku-futsu",
+                    "note": {
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "mistsplitter-reforged",
+                    "note": {
+                        "en": "Maximizing this weapon's passive stacks requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
+                        "fr": "Maximiser les stacks du passif de l'arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]].",
+                        "it": "Per massimizzare gli accumuli di quest'arma, utilizza il [[ability:burst]] di [[character:clorinde]] prima della sua [[ability:skill]].",
+                        "ru": "Для набора уровней Пассивной способности оружия требуется использовать [[ability:burst|Взрыв стихии]] перед [[ability:skill|Элементальным навыком]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "uraku-misugiri",
+                    "note": {
+                        "en": "If [[character:clorinde]] is played with a [[element:geo]] character on the team, this weapon performs similarly to **[[weapon:mistsplitter-reforged]]**.",
+                        "fr": "Si [[character:clorinde]] est jouée avec un personnage [[element:geo]] dans l'équipe, cette arme performe de manière similaire à **[[weapon:mistsplitter-reforged]]**.",
+                        "it": "Se [[character:clorinde]] è giocata in team con un personaggio [[element:geo]], quest'arma ha prestazioni simili a quelle di **[[weapon:mistsplitter-reforged]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "calamity-of-eshu",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking assumes [[character:clorinde]] is being shielded by someone, most notably being [[character:kirara]].",
+                        "fr": "Le classement suppose que [[character:clorinde]] est protégée par un bouclier, notamment par [[character:kirara]].",
+                        "it": "La classifica presuppone che [[character:clorinde]] sia protetta da uno scudo (es. [[character:kirara]]).",
+                        "ru": "Предполагается наличие щита, например, от [[character:kirara|Кирары]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "azurelight",
+                "lightbearing-moonshard",
+                "splendor-of-tranquil-waters",
+                {
+                    "name": "primordial-jade-cutter",
+                    "note": {
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "freedom-sworn",
+                {
+                    "name": "athame-artis",
+                    "note": {
+                        "en": "This weapon's passive requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
+                        "fr": "Le passif de cette arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]].",
+                        "it": "La passiva di quest'arma rende necessario che [[character:clorinde]] utilizzi il [[ability:burst]] prima dell'[[ability:skill]]."
+                    }
+                },
+                "whitelake-frostfeather"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "[[note:exaiphanes]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "heretics-molten-blade",
+                    "note": {
+                        "en": "[[note:r5-similar]] **[[weapon:pjc]]**."
+                    }
+                },
+                {
+                    "name": "summit-shaper",
+                    "note": {
+                        "en": "Ranking assumes [[character:clorinde]] is being shielded by someone, most notably being [[character:kirara]]. Otherwise, this weapon ranks below **[[weapon:the-black-sword]]**.",
+                        "fr": "Le classement suppose que [[character:clorinde]] est protégée par un bouclier, notamment par [[character:kirara]]. Sinon, cette arme performe moins bien que **[[weapon:the-black-sword]]**.",
+                        "it": "La classifica presuppone che [[character:clorinde]] sia protetta da uno scudo, ad esempio quello di [[character:kirara]]. In caso contrario, quest'arma ha prestazioni peggiori di **[[weapon:the-black-sword]]**."
+                    }
+                },
+                {
+                    "name": "new-bough",
+                    "note": {
+                        "en": "[[note:r5-better]] **[[weapon:freedom-sworn]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "harbinger-of-dawn",
+                    "refinement": 5
+                },
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5
+                },
+                {
+                    "name": "the-black-sword",
+                    "note": {
+                        "en": "[[note:r5-better]] **[[weapon:athame-artis]]**."
+                    }
+                },
+                "lions-roar"
+            ]
+        }
+    ]
+}

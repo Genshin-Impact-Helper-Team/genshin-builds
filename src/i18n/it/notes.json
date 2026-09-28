@@ -2,7 +2,12 @@
     "favo": "Se utilizzi quest'arma, cerca di accumulare del Tasso di CRIT per attivarne la passiva in maniera affidabile",
     "cr-favo": "Consigliato solo se utilizzi un'arma **Favonius**",
     "er-req": "Dare la priorità finché non vengono soddisfatti i requisiti",
+    "bol-rank-nclear": "Se riesci a rimuovere il Legame vitale in maniera affidabile",
+    "bol-rank-clear": "La classifica presuppone che siano presenti cure sufficienti a rimuovere il **Legame vitale**. In caso contrario,",
+    "r5-better": "A **[R5]**, quest'arma ha prestazioni migliori di quelle di",
+    "r5-similar": "A **[R5]**, quest'arma ha prestazioni simili a quelle di",
     "exaiphanes": "In genere è preferibile utilizzare quest'arma sul Viaggiatore. Da prendere in considerazione solo se è disponibile",
     "wip-weapon": "Armi praticabili con calcoli in corso:",
-    "wip-artifact": "Manufatti praticabili con calcoli in corso:"
+    "wip-artifact": "Manufatti praticabili con calcoli in corso:",
+    "tips-bol": "Il **Legame vitale** è una meccanica che **assorbe qualunque cura** ricevuta da un personaggio. È rappresentato da un **contorno rosso attorno alla barra dei PS** ed il suo valore massimo è pari al 200% dei PS del personaggio (rappresentato da un contorno che circonda l’intera barra dei PS). Per azzerare il **Legame vitale**, il personaggio deve **ricevere cure corrispondenti al suo valore**."
 }

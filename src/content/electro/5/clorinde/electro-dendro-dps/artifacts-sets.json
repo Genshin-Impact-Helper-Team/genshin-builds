@@ -1,0 +1,54 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "fragment-of-harmonic-whimsy",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "thundering-fury",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set pulls ahead of **[[set:fragment-of-harmonic-whimsy]] (4)** if [[character:clorinde]] is played in Quickbloom with [[character:furina]].",
+                                "fr": "Ce set devient meilleur que **[[set:fragment-of-harmonic-whimsy]] (4)** si [[character:clorinde]] est jouée dans une équipe Quickbloom avec [[character:furina]].",
+                                "it": "Questo set supera **[[set:fragment-of-harmonic-whimsy]] (4)** se [[character:clorinde]] è utilizzata in team [[element:aggravate]] + [[element:hyperbloom]] (Quickbloom) con [[character:furina]].",
+                                "ru": "Превосходит **[[set:fragment-of-harmonic-whimsy]] (4)** при игре через Обострение с бутонами с [[character:furina|Фуриной]] в отряде."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "echoes-of-an-offering",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "gladiators-finale",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

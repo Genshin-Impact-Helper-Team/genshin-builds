@@ -24,19 +24,19 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this becomes a very strong weapon, **outperforming [[weapon:lumidouce-elegy]] for reactionless teams**.",
-                        "fr": "Une fois **[R5]**, cette arme devient une très bonne option, **dépassant [[weapon:lumidouce-elegy]] pour les équipes sans réactions**.",
-                        "it": "A **[R5]** quest'arma diventa particolarmente potente, **superando [[weapon:lumidouce-elegy]] in team privi di reazioni**.",
-                        "ru": "На **[R5]** становится сильным вариантом, превосходя Элегию Люмидус в отрядах без закрытия реакций."
+                        "en": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] for reactionless teams**.",
+                        "fr": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] pour les équipes sans réactions**.",
+                        "it": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] in team privi di reazioni**.",
+                        "ru": "[[note:r5-better]] **[[weapon:lumidouce-elegy|Элегию Люмидус]] в отрядах без закрытия реакций**."
                     }
                 },
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "At **[R5]**, this becomes a very strong weapon, **outperforming [[weapon:lumidouce-elegy]] for [[element:vaporize]] teams**.",
-                        "fr": "Une fois **[R5]**, cette arme devient une très bonne option, **dépassant [[weapon:lumidouce-elegy]] pour les équipes [[element:vaporize]]**.",
-                        "it": "A **[R5]** quest'arma diventa particolarmente potente, **superando [[weapon:lumidouce-elegy]] in team [[element:vaporize]]**.",
-                        "ru": "На **[R5]** становится сильным вариантом, превосходя Элегию Люмидус в отрядах через [[element:vaporize]]."
+                        "en": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] for [[element:vaporize]] teams**.",
+                        "fr": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] pour les équipes [[element:vaporize]]**.",
+                        "it": "[[note:r5-better]] **[[weapon:lumidouce-elegy]] in team [[element:vaporize]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:lumidouce-elegy|Элегию Люмидус]] в отрядах через [[element:vaporize]]**."
                     }
                 }
             ]
@@ -50,19 +50,19 @@
                 {
                     "name": "wavebreakers-fin",
                     "note": {
-                        "en": "At **[R5]**, this weapon is equal to or outperforms **[[weapon:lumidouce-elegy]]**, depending on total team [[ability:burst]] cost.",
-                        "fr": "Une fois **[R5]**, cette arme est équivalente ou meilleure que **[[weapon:lumidouce-elegy]]**, selon le coût total d'[[ability:burst]] de l'équipe.",
-                        "it": "A **[R5]**, quest'arma è pari o migliore di **[[weapon:lumidouce-elegy]]**, a seconda del costo totale dei Tripudi del tuo team.",
-                        "ru": "На **[R5]**, в зависимости от суммарной стоимости Взрывов стихии команды, соответствует Элегии Люмидус или превосходит ее."
+                        "en": "[[note:r5-similar]] **[[weapon:lumidouce-elegy]]**, depending on total team [[ability:burst]] cost.",
+                        "fr": "[[note:r5-similar]] **[[weapon:lumidouce-elegy]]**, selon le coût total d'[[ability:burst]] de l'équipe.",
+                        "it": "[[note:r5-similar]] **[[weapon:lumidouce-elegy]]**, a seconda del costo totale dei Tripudi del tuo team.",
+                        "ru": "[[note:r5-similar]]**[[weapon:lumidouce-elegy|Элегии Люмидус]]**, в зависимости от суммарной стоимости Взрывов стихии команды."
                     }
                 },
                 {
                     "name": "dragons-bane",
                     "note": {
-                        "en": "At **[R5]**, this weapon is equal to **[[weapon:vortex-vanquisher]]**. It gains value in teams where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] (i.e. Raiden National).",
-                        "fr": "Une fois **[R5]**, cette arme est équivalente à **[[weapon:vortex-vanquisher]]**. Elle gagne de la valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]] (Raiden National par exemple).",
-                        "it": "A **[R5]**, quest'arma è pari a **[[weapon:vortex-vanquisher]]**. In team in cui vengono provocate sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National, la [[stat:em]] guadagna valore, rendendo quest'arma più efficace.",
-                        "ru": "На **[R5]** соответствует Покорителю вихря. Становится лучше в отрядах, где Сян Лин одновременно вызывает реакции Пар и Перегрузка (к примеру, Националка с Райдэн)"
+                        "en": "[[note:r5-similar]] **[[weapon:vortex-vanquisher]]**. It gains value in teams where [[character:xiangling]] can trigger both [[element:vaporize]] and [[element:overload]] (i.e. Raiden National).",
+                        "fr": "[[note:r5-similar]] **[[weapon:vortex-vanquisher]]**. Elle gagne de la valeur dans les équipes où [[character:xiangling]] peut déclencher à la fois [[element:vaporize]] et [[element:overload]] (Raiden National par exemple).",
+                        "it": "[[note:r5-similar]] **[[weapon:vortex-vanquisher]]**. In team in cui vengono provocate sia [[element:vaporize]] che [[element:overload]], ad esempio Raiden National, la [[stat:em]] guadagna valore, rendendo quest'arma più efficace.",
+                        "ru": "[[note:r5-similar]] **[[weapon:vortex-vanquisher|Покорителю вихря]]**. Становится лучше в отрядах, где Сян Лин одновременно вызывает реакции Пар и Перегрузка (к примеру, Националка с Райдэн)"
                     }
                 }
             ]

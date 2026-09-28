@@ -56,10 +56,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:haran-geppaku-futsu]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:haran-geppaku-futsu]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:haran-geppaku-futsu]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:haran-geppaku-futsu]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:haran-geppaku-futsu]]**."
                     }
                 }
             ]
@@ -69,10 +67,7 @@
                 {
                     "name": "the-black-sword",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs slightly better than **[[weapon:wolf-fang]]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe légèrement mieux que **[[weapon:wolf-fang]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni leggermente migliori di **[[weapon:wolf-fang]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:wolf-fang]]**."
+                        "en": "[[note:r5-better]] **[[weapon:wolf-fang]]**."
                     }
                 }
             ]
@@ -82,10 +77,8 @@
                 {
                     "name": "lions-roar",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:iron-sting]] [R5]**.",
-                        "fr": "Une fois **[R5]**, cette arme performe de manière similaire à **[[weapon:iron-sting]] [R5]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:iron-sting]] [R5]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:iron-sting|Стальному жалу]] [R5]**."
+                        "en": "[[note:r5-similar]] **[[weapon:iron-sting]] [R5]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:iron-sting|Стальному жалу]] [R5]**."
                     }
                 },
                 {
@@ -102,8 +95,8 @@
                     "name": "finale-of-the-deep",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumes [[ability:bol]] being cleared.",
-                        "fr": "Suppose que l'[[ability:bol]] est retiré.",
+                        "en": "[[note:bol-rank-clear]], do not use that weapon.",
+                        "fr": "[[note:bol-rank-clear]], n'utilisez pas cette arme.",
                         "it": "La classifica presuppone che [[character:keqing]] **riceva cure sufficienti a rimuovere il **[[ability:bol]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается."
                     }

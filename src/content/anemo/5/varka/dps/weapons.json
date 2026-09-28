@@ -40,10 +40,8 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similar to **[[weapon:verdict]]**.",
-                        "fr": "Une fois **[R5]**, cette arme offre des performances proches de **[[weapon:verdict]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:verdict|Вердикту]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:verdict]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:verdict|Вердикту]]**."
                     }
                 },
                 "wolfs-gravestone"
@@ -77,10 +75,10 @@
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes the [[element:pyro]] passive being active. At **[R5]**, this weapon performs similarly to **[[weapon:fang-of-the-mountain-king]]**.",
-                        "fr": "Suppose que le passif [[element:pyro]] est actif. Une fois **[R5]**, cette arme se rapproche de **[[weapon:fang-of-the-mountain-king]]**.",
-                        "it": "Presuppone che la passiva [[element:pyro]] sia attiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:fang-of-the-mountain-king]]**.",
-                        "ru": "Предполагается, что эффект Пассивной способности после получения эффекта [[element:pyro]] всегда активен. На **[R5]** соответствует **[[weapon:fang-of-the-mountain-king|Клыку Горного короля]]**."
+                        "en": "Assumes the [[element:pyro]] passive being active. [[note:r5-similar]] **[[weapon:fang-of-the-mountain-king]]**.",
+                        "fr": "Suppose que le passif [[element:pyro]] est actif. [[note:r5-similar]] **[[weapon:fang-of-the-mountain-king]]**.",
+                        "it": "Presuppone che la passiva [[element:pyro]] sia attiva. [[note:r5-similar]] **[[weapon:fang-of-the-mountain-king]]**.",
+                        "ru": "Предполагается, что эффект Пассивной способности после получения эффекта [[element:pyro]] всегда активен. [[note:r5-similar]] **[[weapon:fang-of-the-mountain-king|Клыку Горного короля]]**."
                     }
                 },
                 "blackcliff-slasher"
