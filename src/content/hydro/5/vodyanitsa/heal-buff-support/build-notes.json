@@ -35,8 +35,7 @@
                 "it": "Talento Ascensione 4: Accumuli"
             },
             "content": {
-                "en": "The DMG buffs provided by [[character:vodyanitsa]]'s A4 come in the form of stacks. 25 of these stacks go to the active character, and 10 go to off-field characters. The [[element:hydro]] and [[element:cryo]] DMG buffs and the [[element:stellar-swirl]] DMG buff cannot co-exist at the same time.",
-                "it": "I potenziamenti DAN forniti dal Talento A4 di [[character:vodyanitsa]] vengono forniti sotto forma di accumuli. 25 accumuli vanno al personaggio attivo, mentre 10 vanno ai personaggi fuori campo. I potenziamenti DAN [[element:hydro]] e [[element:cryo]] ed il potenziamento DAN [[element:stellar-swirl]] non possono coesistere contemporaneamente."
+                "en": "The DMG buffs provided by [[character:vodyanitsa]]'s A4 come in the form of 35 stacks. 25 of these stacks go to the active character, and 10 go to off-field characters. A stack is consumed whenever a character does [[element:hydro]] DMG or [[element:cryo]] DMG, or [[element:stellar-swirl]] DMG. The [[element:hydro]] and [[element:cryo]] DMG buffs and the [[element:stellar-swirl]] DMG buff cannot co-exist at the same time, last 30 seconds, and are refreshed when [[character:vodyanitsa]] uses her [[ability:skill]] again."
             }
         }
     ]
