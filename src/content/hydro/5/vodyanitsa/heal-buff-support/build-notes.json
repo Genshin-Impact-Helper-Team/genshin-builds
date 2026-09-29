@@ -8,14 +8,14 @@
             "en": "[[character:vodyanitsa]] is a support unit that uses her [[ability:skill]] to buff **[[element:freeze]] and [[element:stellar-swirl]]** teams in various ways. She additionaly provides healing and interruption resistance to the active character."
         },
         {
-            "en": "**In [[element:freeze]] teams,** her [[ability:skill]] reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill|Skill]]. In addition, [[character:vodyanitsa]]'s A4 talent also increases the [[element:hydro]] and [[element:cryo]] DMG dealt by teammates, which scales based on her Max [[stat:hp|HP]]."
+            "en": "**In [[element:freeze]] teams,** her [[ability:skill]] reduces the [[element:hydro]] and [[element:cryo]] Resistances of opponents hit by her [[ability:skill]]. In addition, [[character:vodyanitsa]]'s A4 talent also increases the [[element:hydro]] and [[element:cryo]] DMG dealt by teammates, which scales based on her Max [[stat:hp|HP]]."
         },
         {
             "en": "**In [[element:stellar-swirl]] teams**, [[character:vodyanitsa]]'s [[ability:skill]] also enhances any [[ability:stellar-vortex]]es created by the [[element:stellar-swirl]] reaction. These enhanced Vortexes, when generated or exploded, also reduce enemies' [[element:anemo]] resistance. Her A4 talent will increase the [[element:stellar-swirl]] damage dealt by teammates, which scales based on her Max [[stat:hp|HP]].",
             "it": "Nei team **[[element:stellar-swirl]]**, l'[[ability:skill]] di [[character:vodyanitsa]] potenzia anche tutti i [[ability:stellar-vortex]] generati dalla reazione [[element:stellar-swirl]]. Tali Vortici, quando vengono generati o esplodono, riducono anche la RES [[element:anemo]] dei nemici. Il suo Talento A4 aumenta i danni [[element:stellar-swirl]] inflitti dal team in base ai suoi [[stat:hp]] massimi."
         },
         {
-            "en": "**Triggering [[element:stellar-swirl]] at least every 8s while [[character:vodyanitsa]]'s [[ability:skill]] is active will prevent her A4 buffs from being applied to [[element:hydro]] and [[element:cryo]] damage, and instead only applied to [[element:stellar-swirl]] damage.**"
+            "en": "Triggering [[element:stellar-swirl]] at least every 8s while [[character:vodyanitsa]]'s [[ability:skill]] is active will prevent her A4 buffs from being applied to [[element:hydro]] and [[element:cryo]] damage, and instead only applied to [[element:stellar-swirl]] damage."
         },
         {
             "en": "[[character:vodyanitsa]]'s A4 talent maximizes at 65,000 [[stat:hp|HP]]. This may be unreasonable to achieve without **[[weapon:hymn-of-the-maelstrom]]**, an **[R5] [[weapon:sacrificial-jade]]** or the assistance of [[element:hydro]] Resonance. Any more beyond this will only increase her healing capabilities and some of her damage."
