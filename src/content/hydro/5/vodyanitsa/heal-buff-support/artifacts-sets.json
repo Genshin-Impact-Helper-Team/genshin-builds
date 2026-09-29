@@ -5,8 +5,12 @@
                 {
                     "items": [
                         {
-                            "name": "",
-                            "pieces": 4
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "The performance of this set will depend on whether or not the team can reliably benefit from the [[stat:atk%]] buff.",
+                                "it": "Le prestazioni di questo set dipendono dalla capacità del team di beneficiare del potenziamento di [[stat:atk%]]."
+                            }
                         }
                     ]
                 }
@@ -17,8 +21,82 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "hp-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "hp-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "scroll-of-the-hero-of-cinder-city",
+                            "pieces": 4,
+                            "note":{
+                                "en": "If the team does not benefit from the DMG% bonus provided by this set, it is better to use other listed options.",
+                                "it": "Se il team non trae beneficio dal Bonus DAN% fornito da questo set, è preferibile utilizzare un'altra opzione tra quelle elencate."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "song-of-days-past",
                             "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "ocean-hued-clam",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "sms",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit.",
+                                "it": "Scelta di nicchia nei team con [[character:nefer]], in cui [[character:vodyanitsa]] assume il ruolo di applicatore [[element:hydro]] e di unità di supporto."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "deepwood-memories",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[character:vodyanitsa]] can use this set as an alternative option in [[element:dendro]] teams.",
+                                "it": "[[character:vodyanitsa]] può utilizzare questo set in team [[element:dendro]]."
+                            }
                         }
                     ]
                 }
