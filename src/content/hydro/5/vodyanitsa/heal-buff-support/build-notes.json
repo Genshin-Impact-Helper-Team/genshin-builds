@@ -35,7 +35,7 @@
                 "it": "Talento Ascensione 4: Accumuli"
             },
             "content": {
-                "en": "The DMG buffs provided by [[character:vodyanitsa]]'s A4 come in the form of 35 stacks. 25 of these stacks go to the active character, and 10 go to off-field characters. A stack is consumed whenever a character does [[element:hydro]] DMG or [[element:cryo]] DMG, or [[element:stellar-swirl]] DMG. The [[element:hydro]] and [[element:cryo]] DMG buffs and the [[element:stellar-swirl]] DMG buff cannot co-exist at the same time, last 30 seconds, and are refreshed when [[character:vodyanitsa]] uses her [[ability:skill]] again."
+                "en": "[[character:vodyanitsa]]'s DMG buff to both [[element:freeze]] and [[element:stellar-swirl]] are provided through 35 Stacks: 25 to the on-field character, and 10 to the off-field character. When a character deals [[element:hydro]], [[element:cryo]], or [[element:stellar-swirl]] DMG, a Stack will provide at most 3500 DMG to [[element:hydro]] and [[element:cryo]] DMG, and 6500 DMG to [[element:stellar-swirl]] DMG. These stacks are refreshed when [[character:vodyanitsa]] uses her [[ability:skill]] again."
             }
         }
     ]
