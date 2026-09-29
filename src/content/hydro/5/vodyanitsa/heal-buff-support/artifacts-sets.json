@@ -78,7 +78,8 @@
                             "name": "sms",
                             "pieces": 4,
                             "note": {
-                                "en": "This is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit."
+                                "en": "This is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit.",
+                                "it": "Scelta di nicchia nei team con [[character:nefer]], in cui [[character:vodyanitsa]] assume il ruolo di applicatore [[element:hydro]] e di unità di supporto."
                             }
                         }
                     ]
@@ -93,7 +94,8 @@
                             "name": "deepwood-memories",
                             "pieces": 4,
                             "note": {
-                                "en": "[[character:vodyanitsa]] can use this set as an alternative option in [[element:dendro]] teams."
+                                "en": "[[character:vodyanitsa]] can use this set as an alternative option in [[element:dendro]] teams.",
+                                "it": "[[character:vodyanitsa]] può utilizzare questo set in team [[element:dendro]]."
                             }
                         }
                     ]
