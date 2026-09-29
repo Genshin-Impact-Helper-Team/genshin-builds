@@ -43,7 +43,8 @@
             "title": {
                 "en": "[[ability:skill]] hits",
                 "fr": "Toucher un ennemi avec un [[ability:skill]]",
-                "it": "I colpi dell'[[ability:skill]]"
+                "it": "I colpi dell'[[ability:skill]]",
+                "ru": "Попадание по врагу [[ability:skill|Элементальным навыком]]"
             },
             "content": {
                 "en": "[[character:clorinde]]'s [[ability:skill]] is considered [[ability:na]] damage, meaning she cannot trigger any effect worded as \"when the character hits an opponent with their [[ability:skill]]\".",
