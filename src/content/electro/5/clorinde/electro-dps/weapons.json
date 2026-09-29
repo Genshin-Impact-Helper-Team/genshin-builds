@@ -26,7 +26,8 @@
                     "note": {
                         "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
                         "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]].",
+                        "ru": "Обратите внимание, что с данным оружием легко превысить порог [[stat:cr|Шанса крит попадания]]."
                     }
                 }
             ]
@@ -39,7 +40,8 @@
                     "note": {
                         "en": "If [[character:clorinde]] is played with a [[element:geo]] character on the team, this weapon performs better than **[[weapon:mistsplitter-reforged]]**.",
                         "fr": "Si [[character:clorinde]] est jouée avec un personnage [[element:geo]] dans l'équipe, cette arme performe mieux que **[[weapon:mistsplitter-reforged]]**.",
-                        "it": "Se [[character:clorinde]] è giocata in team con un personaggio [[element:geo]], quest'arma ha prestazioni migliori di **[[weapon:mistsplitter-reforged]]**."
+                        "it": "Se [[character:clorinde]] è giocata in team con un personaggio [[element:geo]], quest'arma ha prestazioni migliori di **[[weapon:mistsplitter-reforged]]**.",
+                        "ru": "В отряде с [[element:geo]] превосходит **[[weapon:mistsplitter-reforged]]**."
                     }
                 }
             ]
@@ -68,7 +70,8 @@
                     "note": {
                         "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
                         "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
-                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]]."
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]].",
+                        "ru": "Обратите внимание, что с данным оружием легко превысить порог [[stat:cr|Шанса крит попадания]]"
                     }
                 }
             ]
@@ -80,7 +83,8 @@
                     "note": {
                         "en": "This weapon's passive requires [[character:clorinde]] to use her [[ability:burst]] before her [[ability:skill]].",
                         "fr": "Le passif de cette arme nécessite que [[character:clorinde]] utilise son [[ability:burst]] avant son [[ability:skill]].",
-                        "it": "La passiva di quest'arma rende necessario che [[character:clorinde]] utilizzi il [[ability:burst]] prima dell'[[ability:skill]]."
+                        "it": "La passiva di quest'arma rende necessario che [[character:clorinde]] utilizzi il [[ability:burst]] prima dell'[[ability:skill]].",
+                        "ru": "Пассивная способность оружия требует, чтобы [[character:clorinde]] использовала [[ability:burst]] перед [[ability:skill|Элементальным навыком]]."
                     }
                 },
                 "whitelake-frostfeather"
@@ -109,7 +113,8 @@
                 {
                     "name": "new-bough",
                     "note": {
-                        "en": "[[note:r5-similar]] **[[weapon:whitelake-frostfeather]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:whitelake-frostfeather]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:whitelake-frostfeather|Морозному перу белого озера]]**."
                     }
                 }
             ]

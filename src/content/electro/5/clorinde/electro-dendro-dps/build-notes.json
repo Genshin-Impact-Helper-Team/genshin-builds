@@ -2,19 +2,22 @@
     "name": {
         "en": "[[element:electro]] DPS ([[element:dendro]] Teams)",
         "fr": "DPS [[element:electro]] (Équipes [[element:dendro]])",
-        "it": "DPS [[element:electro]] (in team [[element:dendro]])"
+        "it": "DPS [[element:electro]] (in team [[element:dendro]])",
+        "ru": "[[element:electro]] DPS в [[element:dendro]] отрядах"
     },
     "best": true,
     "notes": [
         {
             "en": "[[character:clorinde]] is a DPS who primarily deals damage with her [[ability:skill]], which puts her into a special state that **infuses her [[ability:na]]s with [[element:electro]]**, and grants her a [[ability:bol]] for each [[ability:na]] performed. She can then **use her [[ability:skill]] again** to consume that [[ability:bol]], **increasing that attack's damage** depending on its amount, and **heal herself**. While in that state, healing from sources other than her [[ability:skill]] **increases [[character:clorinde]]'s [[ability:bol]] instead of restoring her HP**. [[character:clorinde]]'s [[ability:burst]] also grants her a [[ability:bol]], with the amount increasing based on her talent level.",
             "fr": "[[character:clorinde]] est un DPS qui inflige ses dégâts principalement avec son [[ability:skill]], la plaçant dans un état spécial qui **infuse ses [[ability:na|Attaques Normales]] d'[[element:electro]]**, et lui donne un [[ability:bol]] pour chaque [[ability:na]] effectuée. Elle peut ensuite **utiliser son [[ability:skill]] à nouveau** pour consommer l'[[ability:bol]], **augmentant les dégâts de cette attaque** selon son montant, et **la soignant**. Dans cet état spécial, le soin provenant de sources autres que son [[ability:skill]] **augmente l'[[ability:bol]] de [[character:clorinde]] au lieu de restorer ses PV**. L'[[ability:burst]] de [[character:clorinde]] lui offre aussi de l'[[ability:bol]], avec un montant augmentant selon le niveau de son talent.",
-            "it": "[[character:clorinde]] è una DPS che infligge danni principalmente grazie alla sua [[ability:skill]], che la pone in uno stato speciale che **infonde i suoi [[ability:na|Attacchi Normali]] con [[element:electro]]** e le conferisce del [[ability:bol]] per ogni [[ability:na]] eseguito. Può poi **utilizzare nuovamente la sua [[ability:skill]]**, che consuma quel [[ability:bol]] ed infligge danni più alti in base alla quantità consumata, e le permette di curarsi. Mentre [[character:clorinde]] si trova in tale stato, le cure provenienti da fonti diverse dalla sua [[ability:skill]] **aumentano il suo [[ability:bol]] invece di ristorare i suoi PS**. Anche il [[ability:burst]] le conferisce del [[ability:bol]], la cui quantità aumenta in base al livello del Talento."
+            "it": "[[character:clorinde]] è una DPS che infligge danni principalmente grazie alla sua [[ability:skill]], che la pone in uno stato speciale che **infonde i suoi [[ability:na|Attacchi Normali]] con [[element:electro]]** e le conferisce del [[ability:bol]] per ogni [[ability:na]] eseguito. Può poi **utilizzare nuovamente la sua [[ability:skill]]**, che consuma quel [[ability:bol]] ed infligge danni più alti in base alla quantità consumata, e le permette di curarsi. Mentre [[character:clorinde]] si trova in tale stato, le cure provenienti da fonti diverse dalla sua [[ability:skill]] **aumentano il suo [[ability:bol]] invece di ristorare i suoi PS**. Anche il [[ability:burst]] le conferisce del [[ability:bol]], la cui quantità aumenta in base al livello del Talento.",
+            "ru": "[[character:clorinde]] - ДД, который наносит большую часть урона за счёт [[ability:skill|Элементального навыка]]. При его использовании [[character:clorinde]] входит в особое состояние, в котором её **[[ability:na|Обычные атаки]] наносят [[element:electro]] урон** и накапливают [[ability:bol]]. **Повторное использование [[ability:skill|навыка]]** снимает этот [[ability:bol]], что **увеличивает урон данного навыка** в зависимости от объема долга и **исцеляет её**. В этом состоянии любое полученное лечение из любых источников, кроме непосредственно навыка, **увеличивает [[ability:bol]] [[character:clorinde|Клоринды]] вместо восстановления HP**. Её [[ability:burst]] также увеличивает её [[ability:bol]] (объем зависит от уровня таланта)."
         },
         {
             "en": "[[character:clorinde]]'s fast and frequent [[element:electro]] attacks make her a great fit for teams with [[element:dendro]] characters (notably [[character:nahida]]), using the **[[element:aggravate]] and/or [[element:hyperbloom]] reaction** to deal extra damage.",
             "fr": "Les attaques [[element:electro]] rapides & fréquentes de [[character:clorinde]] en font une très bonne candidate pour les équipes avec des personnages [[element:dendro]] (notamment [[character:nahida]]), se servant des **réactions [[element:aggravate]] et/ou [[element:hyperbloom]]** pour infliger des dégâts supplémentaires.",
-            "it": "Gli attacchi [[element:electro]] rapidi e frequenti di [[character:clorinde]] la rendono particolarmente adatta a team con personaggi [[element:dendro]] (in particolare [[character:nahida]]), in cui può sfruttare le **reazioni [[element:aggravate]] e/o [[element:hyperbloom]]** per infliggere danni aggiuntivi."
+            "it": "Gli attacchi [[element:electro]] rapidi e frequenti di [[character:clorinde]] la rendono particolarmente adatta a team con personaggi [[element:dendro]] (in particolare [[character:nahida]]), in cui può sfruttare le **reazioni [[element:aggravate]] e/o [[element:hyperbloom]]** per infliggere danni aggiuntivi.",
+            "ru": "За счёт быстрых и частых [[element:electro]] атак [[character:clorinde]] отлично играет в отрядах с [[element:dendro]] персонажами (особенно [[character:nahida|Нахидой]]), где наносит повышенный урон за счёт [[element:aggravate|Обострения]] и/или [[element:hyperbloom|Вегетации]]."
         },
         {
             "en": "## Combos:",
@@ -40,34 +43,40 @@
             "title": {
                 "en": "[[ability:skill]] hits",
                 "fr": "Toucher un ennemi avec un [[ability:skill]]",
-                "it": "I colpi dell'[[ability:skill]]"
+                "it": "I colpi dell'[[ability:skill]]",
+                "ru": "Попадание по врагу [[ability:skill|Элементальным навыком]]"
             },
             "content": {
                 "en": "[[character:clorinde]]'s [[ability:skill]] is considered [[ability:na]] damage, meaning she cannot trigger any effect worded as \"when the character hits an opponent with their [[ability:skill]]\".",
                 "fr": "Le [[ability:skill]] de [[character:clorinde]] est considéré comme des dégâts d'[[ability:na]], ce qui signifie qu'elle ne peut pas déclencher les effets formulés comme \"Lorsque le personnage touche un ennemi avec un [[ability:skill]]\".",
-                "it": "I danni inflitti dall'[[ability:skill]] di [[character:clorinde]] sono considerati danni da [[ability:na]], il che significa che la sua [[ability:skill]] non può attivare alcun effetto formulato come \"quando il personaggio colpisce un avversario con la propria [[ability:skill]]\"."
+                "it": "I danni inflitti dall'[[ability:skill]] di [[character:clorinde]] sono considerati danni da [[ability:na]], il che significa che la sua [[ability:skill]] non può attivare alcun effetto formulato come \"quando il personaggio colpisce un avversario con la propria [[ability:skill]]\".",
+                "ru": "Урон [[ability:skill|Элементального навыка]] [[character:clorinde|Клоринды]] считается уроном [[ability:na|Обычных атак]], из-за чего она не может активировать эфффекты с условием \"Когда [[ability:skill]] попадает по врагу\"."
             }
         },
         {
             "title": {
                 "en": "Overcapping on [[stat:cr]]",
                 "fr": "Dépasser les 100% de [[stat:cr]]",
-                "it": "Superare il limite massimo di [[stat:cr]]"
+                "it": "Superare il limite massimo di [[stat:cr]]",
+                "ru": "Избыток [[stat:cr|Шанса крит. попадания]]"
             },
             "content": {
                 "en": "[[character:clorinde]]'s A4 talent gives her a free 20% [[stat:cr]] that does not show in her stat page while out of combat.",
                 "fr": "Le passif A4 de [[character:clorinde]] lui donne 20% de [[stat:cr]] qui n'apparaissent pas dans ses stats si vous n'êtes pas en combat.",
-                "it": "Il Talento A4 di [[character:clorinde]] le garantisce un bonus del 20% di [[stat:cr]], che non compare nelle sue statistiche quando non è in combattimento."
+                "it": "Il Talento A4 di [[character:clorinde]] le garantisce un bonus del 20% di [[stat:cr]], che non compare nelle sue statistiche quando non è in combattimento.",
+                "ru": "Второй Пассивный талант [[character:clorinde|Клоринды]] повышает её [[stat:cr]] на 20%, что не отображается в её характеристиках вне боя."
             }
         },
         {
             "title": {
-                "en": "[[element:aggravate]] & Quickbloom"
+                "en": "[[element:aggravate]] & Quickbloom",
+                "ru": "[[element:aggravate]] & Quickbloom"
             },
             "content": {
                 "en": "Applying [[element:electro]] & [[element:dendro]] on the same enemy creates a **[[element:quicken]] aura**.\nApplying [[element:electro]] on a [[element:quicken]] aura triggers the **[[element:aggravate]] reaction**.\n\nApplying [[element:hydro]] & [[element:dendro]] on the same enemy triggers a **[[element:bloom]] reaction** and creates a **[[element:dendro]] core**.\nApplying [[element:electro]] on a [[element:dendro]] core triggers the **[[element:hyperbloom]] reaction**.\n\nA team featuring both the [[element:aggravate]] & [[element:hyperbloom]] reactions is referred to as **Quickbloom**.",
                 "fr": "Appliquer [[element:electro]] & [[element:dendro]] sur un même ennemi créé une **aura [[element:quicken]]**.\nAppliquer [[element:electro]] sur une aura [[element:quicken]] déclenche une **réaction [[element:aggravate]]**.\n\nAppliquer [[element:hydro]] & [[element:dendro]] sur un même ennemi déclenche une **réaction [[element:bloom]]** et créé un **noyau [[element:dendro]]**.\nAppliquer [[element:electro]] sur un noyau [[element:dendro]] déclenche la **réaction [[element:hyperbloom]]**.\n\nOn appelle **Quickbloom** le fait d'avoir à la fois des réactions [[element:aggravate]] & [[element:hyperbloom]] dans l'équipe.",
-                "it": "Applicare [[element:electro]] e [[element:dendro]] allo stesso nemico genera un'aura **[[element:quicken]]**.\nApplicare [[element:electro]] ad un'aura [[element:quicken]] innesca una **reazione [[element:aggravate]]**.\n\nApplicare [[element:hydro]] e [[element:dendro]] allo stesso nemico innesca una **reazione [[element:bloom]]** e genera un **nucleo [[element:bloom]]**.\nApplicare [[element:electro]] su un nucleo [[element:bloom]] innesca la **reazione [[element:hyperbloom]]**.\n\nUn team che utilizza entrambe le reazioni [[element:aggravate]] e [[element:hyperbloom]] viene definito **Quickbloom**."
+                "it": "Applicare [[element:electro]] e [[element:dendro]] allo stesso nemico genera un'aura **[[element:quicken]]**.\nApplicare [[element:electro]] ad un'aura [[element:quicken]] innesca una **reazione [[element:aggravate]]**.\n\nApplicare [[element:hydro]] e [[element:dendro]] allo stesso nemico innesca una **reazione [[element:bloom]]** e genera un **nucleo [[element:bloom]]**.\nApplicare [[element:electro]] su un nucleo [[element:bloom]] innesca la **reazione [[element:hyperbloom]]**.\n\nUn team che utilizza entrambe le reazioni [[element:aggravate]] e [[element:hyperbloom]] viene definito **Quickbloom**.",
+                "ru": "Наложение [[element:electro]] & [[element:dendro]] на противника активирует на нём статус **[[element:quicken]]**.\nНаложение [[element:electro]] на [[element:quicken|Стимуляцию]] вызывает реакцию  **[[element:aggravate]]**.\n\nНаложение [[element:hydro]] & [[element:dendro]] на противника вызывает **[[element:bloom|Бутонизацию]]** и создаёт **[[element:dendro]] ядра**.\nНаложение [[element:electro]] на [[element:dendro]] ядра вызывает **[[element:hyperbloom]]**.\n\nОтряды, сочетающие [[element:aggravate]] и [[element:hyperbloom|Вегетацию]], обычно известны как **Quickbloom**."
             }
         }
     ],
