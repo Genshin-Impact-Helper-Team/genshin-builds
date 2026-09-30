@@ -9,6 +9,7 @@
                             "pieces": 4,
                             "note": {
                                 "en": "The performance of this set will depend on whether or not the team can reliably benefit from the [[stat:atk%]] buff.",
+                                "fr": "Les performances de ce set vont dépendre de si votre équipe bénéficie du buff d'[[stat:atk%]].",
                                 "it": "Le prestazioni di questo set dipendono dalla capacità del team di beneficiare del potenziamento di [[stat:atk%]]."
                             }
                         }
@@ -39,8 +40,9 @@
                         {
                             "name": "scroll-of-the-hero-of-cinder-city",
                             "pieces": 4,
-                            "note":{
+                            "note": {
                                 "en": "If the team does not benefit from the DMG% bonus provided by this set, it is better to use other listed options.",
+                                "fr": "Si l'équipe ne bénéficie pas du bonus de DGT% offert par ce set, il vaut mieux utiliser une autre option.",
                                 "it": "Se il team non trae beneficio dal Bonus DAN% fornito da questo set, è preferibile utilizzare un'altra opzione tra quelle elencate."
                             }
                         }
@@ -79,6 +81,7 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This is a niche pick for [[character:nefer]] teams where [[character:vodyanitsa]] acts as the [[element:hydro]] applier and the sustain unit.",
+                                "fr": "Il s'agit d'une option niche pour les équipes [[character:nefer]] où [[character:vodyanitsa]] sert d'applicateur [[element:hydro]] et de support.",
                                 "it": "Scelta di nicchia nei team con [[character:nefer]], in cui [[character:vodyanitsa]] assume il ruolo di applicatore [[element:hydro]] e di unità di supporto."
                             }
                         }
@@ -95,6 +98,7 @@
                             "pieces": 4,
                             "note": {
                                 "en": "[[character:vodyanitsa]] can use this set as an alternative option in [[element:dendro]] teams.",
+                                "fr": "[[character:vodyanitsa]] peut utiliser ce set dans les équipes [[element:dendro]] si personne d'autre ne le porte.",
                                 "it": "[[character:vodyanitsa]] può utilizzare questo set in team [[element:dendro]]."
                             }
                         }
