@@ -4,10 +4,11 @@
     "er-req": "Prioritize until requirements are met",
     "bol-rank-nclear": "If you can **reliably clear** the Bond of Life",
     "bol-rank-clear": "Ranking assumes you have enough healing to clear the Bond of Life. If you don't",
-    "r5-better":"**At [R5]**, this weapon performs better than",
+    "r5-better": "**At [R5]**, this weapon performs better than",
     "r5-similar": "**At [R5]**, this weapon performs similarly to",
     "exaiphanes": "You would generally rather use this on the Traveler. Would only be a consideration if it is not being occupied",
     "wip-weapon": "Viable Weapons with WIP Calculations:",
     "wip-artifact": "Viable Artifact Set with WIP Calculations:",
-    "tips-bol": "Bond of Life is a mechanic that **absorbs any healing** a character receives. It appears as a **red outline around their HP bar**, and its maximum value is 200% of the character's HP (represented by an outline around the entire HP bar). To clear a Bond of Life, the character must **receive healing equal to its value**."
+    "tips-bol": "Bond of Life is a mechanic that **absorbs any healing** a character receives. It appears as a **red outline around their HP bar**, and its maximum value is 200% of the character's HP (represented by an outline around the entire HP bar). To clear a Bond of Life, the character must **receive healing equal to its value**.",
+    "tips-ssw": "When Stellar Swirl is triggered, a Stellar Vortex is created. These vortexes explode after a short time. The **more times Stellar Swirl is triggered**, the **higher the explosion DMG** of the vortex."
 }

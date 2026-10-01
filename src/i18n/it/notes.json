@@ -9,5 +9,6 @@
     "exaiphanes": "In genere è preferibile utilizzare quest'arma sul Viaggiatore. Da prendere in considerazione solo se è disponibile",
     "wip-weapon": "Armi praticabili con calcoli in corso:",
     "wip-artifact": "Manufatti praticabili con calcoli in corso:",
-    "tips-bol": "Il **Legame vitale** è una meccanica che **assorbe qualunque cura** ricevuta da un personaggio. È rappresentato da un **contorno rosso attorno alla barra dei PS** ed il suo valore massimo è pari al 200% dei PS del personaggio (rappresentato da un contorno che circonda l’intera barra dei PS). Per azzerare il **Legame vitale**, il personaggio deve **ricevere cure corrispondenti al suo valore**."
+    "tips-bol": "Il **Legame vitale** è una meccanica che **assorbe qualunque cura** ricevuta da un personaggio. È rappresentato da un **contorno rosso attorno alla barra dei PS** ed il suo valore massimo è pari al 200% dei PS del personaggio (rappresentato da un contorno che circonda l’intera barra dei PS). Per azzerare il **Legame vitale**, il personaggio deve **ricevere cure corrispondenti al suo valore**.",
+    "tips-ssw": "Quando viene provocato Turbinio astrale, viene generato un Vortice astrale. Questi Vortici esplodono dopo poco tempo. Più volte viene attivato Turbinio astrale, maggiore è il danno inflitto dall'esplosione del Vortice."
 }

@@ -1,6 +1,7 @@
 {
     "name": {
-        "en": ""
+        "en": "[[element:stellar-swirl]] DPS",
+        "fr": "DPS [[element:stellar-swirl]]"
     },
     "notes": [
         {
@@ -10,10 +11,12 @@
     "tips": [
         {
             "title": {
-                "en": ""
+                "en": "[[element:stellar-swirl]] & [[ability:stellar-vortex]]es",
+                "fr": "[[element:stellar-swirl]] & [[ability:stellar-vortex]]",
+                "it": "[[element:stellar-swirl]] e i [[ability:stellar-vortex|Vortici stellari]]"
             },
             "content": {
-                "en": ""
+                "en": "[[note:tips-ssw]]"
             }
         }
     ]
