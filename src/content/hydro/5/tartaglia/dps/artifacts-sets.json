@@ -17,7 +17,7 @@
                 {
                     "items": [
                         {
-                            "name": "heart-of-depth",
+                            "name": "rising-winds",
                             "pieces": 4
                         }
                     ]
@@ -26,6 +26,14 @@
         },
         {
             "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "heart-of-depth",
+                            "pieces": 4
+                        }
+                    ]
+                },
                 {
                     "items": [
                         {
@@ -45,43 +53,28 @@
                     ]
                 }
             ]
-        },
+        }
+    ],
+    "conditional": [
         {
-            "groups": [
+            "items": [
                 {
-                    "choose": true,
-                    "items": [
-                        {
-                            "name": "noblesse-oblige",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "hydro-set",
-                            "pieces": 2
-                        },
-                        {
-                            "name": "atk-set",
-                            "pieces": 2
-                        }
-                    ]
+                    "name": "MH",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Only use this set if played with **[[character:furina]]**."
+                    }
                 }
             ]
         },
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "shimenawas-reminiscence",
-                            "pieces": 4,
-                            "note": {
-                                "en": "Due to this set requiring [[character:tartaglia]] to have around 150% [[stat:er]] to reliably [[ability:burst]] every rotation, it falls behind the other options. However, it outperforms **[[set:heart-of-depth]] (4)** if used in a single rotation setting **(ignoring [[stat:er]])**.",
-                                "fr": "Comme ce set nécéssite que [[character:tartaglia]] aie environ 150% de [[stat:er]] pour pouvoir [[ability:burst]] à chaque rotation, il se classe derrière les autres options. Cependant, il dépasse **[[set:heart-of-depth]] (4)** si utilisé dans le contexte d'une seule rotation **(en ignorant la [[stat:er]])**.",
-                                "it": "Poiché questo set richiede che [[character:tartaglia]] abbia circa 150% [[stat:er]] per poter eseguire un [[ability:burst]] in ogni rotazione, è inferiore alle altre opzioni. Tuttavia, supera **[[set:heart-of-depth]] (4)** se utilizzato in situazioni che richiedono una singola rotazione **(ignorando la [[stat:er]])**.",
-                                "ru": "Отстает от других вариантов из-за требуемого ВЭ для использования Взрыва стихии каждую ротацию. Превосходит Сердце глубин (4) в рамках одной ротации (без учета требований ВЭ)"
-                            }
-                        }
-                    ]
+                    "name": "notsu",
+                    "pieces": 4,
+                    "note": {
+                        "en": "Only use this set if your team can **trigger lunar reactions**."
+                    }
                 }
             ]
         }

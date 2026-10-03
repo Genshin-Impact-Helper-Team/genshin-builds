@@ -30,26 +30,20 @@
             "ru": "Взрыв стихии в ближней стойке: Используется только в случае, когда для зачистки противников нужна одна ротация, поскольку порог ВЭ для использования Взрыва стихии по откату очень велик (170-190%). Следует начинать ротацию со Взрыва стихии в дальней стойке, чтобы в бою было легче восстановить энергию для следующей ротации."
         },
         {
-            "en": "**[[ability:skill]] Combo:**\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommended)\n- {rot:5 NA + 1 CA} (Recommended combo if using [[weapon:rust]] or [[weapon:thundering-pulse]])",
-            "fr": "**Combo [[ability:skill]]:**\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommandé)\n- {rot:5 NA + 1 CA} (Combo recommandé en utilisant [[weapon:rust]] ou [[weapon:thundering-pulse]])",
-            "it": "**Combo:**\n- {rot:N2C} (Ottimale)\n- {rot:N3C} (Consigliata)\n- {rot:N5C}(Consigliata se si utilizza [[weapon:rust]] o [[weapon:thundering-pulse]])",
-            "ru": "Комбо для Элементального навыка:\n- 2 NA + 1 CA (Оптимально)\n- 3 NA + 1 CA (Рекомендуется)\n- 5 NA + 1 CA (Рекомендуется при использовании Ржавого лука или Громового пульса)"
+            "en": "## [[ability:skill]] Combo:\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommended)\n- {rot:5 NA + 1 CA} (Recommended combo if using [[weapon:rust]] or [[weapon:thundering-pulse]])",
+            "fr": "## Combo [[ability:skill]]:\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommandé)\n- {rot:5 NA + 1 CA} (Combo recommandé en utilisant [[weapon:rust]] ou [[weapon:thundering-pulse]])",
+            "it": "## Combo:\n- {rot:N2C} (Ottimale)\n- {rot:N3C} (Consigliata)\n- {rot:N5C}(Consigliata se si utilizza [[weapon:rust]] o [[weapon:thundering-pulse]])",
+            "ru": "## Комбо для Элементального навыка:\n- 2 NA + 1 CA (Оптимально)\n- 3 NA + 1 CA (Рекомендуется)\n- 5 NA + 1 CA (Рекомендуется при использовании Ржавого лука или Громового пульса)"
         },
         {
-            "en": "Le combo Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",
-            "fr": "Le combo Optimal offre plus de dégâts mais consomme plus d'endurance. Le combo Recommandé offre légèrement moins de dégâts mais ne consomme pas d'endurance et représente ce qui devrait être utilisé pour la plupart des armes.",
+            "en": "Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",
+            "fr": "Le combo optimal offre plus de dégâts mais consomme plus d'endurance. Le combo Recommandé offre légèrement moins de dégâts mais ne consomme pas d'endurance et représente ce qui devrait être utilisé pour la plupart des armes.",
             "it": "La combo ottimale provoca più danni ma consuma più stamina. La combo consigliata provoca danni leggermente inferiori ma il consumo di stamina è neutrale.",
             "ru": "Оптимальное комбо наносит больше урона, но потребляет больше выносливости. Рекомендуемое наносит немного меньше урона, но более эффективно в плане выносливости."
-        },
-        {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:jade-vista]]\n"
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
-    "weapons": {
-        "author": "Speify & Kaori",
-        "link": "https://docs.google.com/spreadsheets/u/0/d/1PhRQbQ83iPfxqXO2Cp4rpLp2PjvfDRG9kdR3RdLiXd4/htmlview"
+    "global": {
+        "author": "Quincy",
+        "link": "https://docs.google.com/spreadsheets/d/1bg13b5U26fMHB9MbzApDlwQSOmNx9nsJpvLkEU-Ktio/edit?usp=sharing"
     }
 }

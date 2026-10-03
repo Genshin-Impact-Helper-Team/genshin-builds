@@ -1,12 +1,4 @@
 {
-    "notes": [
-        {
-            "en": "[[character:tartaglia]] is calculated with [[character:bennett]], along with shorter rotation for a controlled setting.",
-            "fr": "[[character:tartaglia]] a été calculé avec [[character:bennett]] ainsi qu'une rotation plus courte pour un contexte contrôlé.",
-            "it": "I calcoli presuppongono la presenza [[character:bennett]] nel team, ed una rotazione più breve per un'ambientazione controllata.",
-            "ru": "Рейтинг оружия основан на том, что Тарталья используется с Беннеттом. Предполагается укороченная ротация в контролируемой обстановке."
-        }
-    ],
     "weapons": [
         {
             "items": [
@@ -22,6 +14,11 @@
         },
         {
             "items": [
+                "the-daybreak-chronicles"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "hunters-path",
                     "note": {
@@ -31,15 +28,31 @@
                         "ru": "Повышает ценность Мастерства стихий, особенно при использовании комбо {rot:N2C} или {rot:N1C}."
                     }
                 },
-                "aqua-simulacra",
                 "skyward-harp",
                 "thundering-pulse",
+                "aqua-simulacra",
                 "astral-vultures-crimson-plumage"
             ]
         },
         {
             "items": [
-                "the-first-great-magic"
+                {
+                    "name": "the-first-great-magic",
+                    "note": {
+                        "en": "In teams with 1 other [[element:hydro]] character, this weapon performs better than **[[weapon:the-daybreak-chronicles]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "golden-frostbound-oath",
+                {
+                    "name": "jade-vista",
+                    "note": {
+                        "en": "**At [R5]]** with another [[element:hydro]] character on the team, this weapon performs better than **[[weapon:aqua-simulacra]]**.\n**At [R5]** with no other [[element:hydro]] character on the team, this weapon performs better than **[[weapon:skyward-harp]]**."
+                    }
+                }
             ]
         },
         {
@@ -47,16 +60,27 @@
                 {
                     "name": "the-viridescent-hunt",
                     "note": {
-                        "en": "Offers a valuable passive that helps a lot in **grouping enemies**, which can offer a ton of damage from Riptide. [[note:r5-similar]] **[[weapon:the-first-great-magic]]**.",
-                        "fr": "Offre un passif précieux qui aide beaucoup à **regrouper les ennemis**, ce qui peut offrir énormément de dégâts de Contre-courant. [[note:r5-similar]] **[[weapon:the-first-great-magic]]**.",
-                        "it": "La passiva di quest'arma è molto efficace nel raggruppare i nemici, il che può aiutare a massimizzare i danni da Risacca (Riptide). [[note:r5-similar]] **[[weapon:the-first-great-magic]]**.",
-                        "ru": "Имеет ценную Пассивную способность, помогающую стягивать противников, позволяя наносить высокий урон при помощи Отлива. [[note:r5-similar]] [[weapon:the-first-great-magic|Первому великому фокусу]]**."
+                        "en": "Offers a valuable passive that helps a lot in **grouping enemies**, which can offer a ton of damage from Riptide.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**.",
+                        "fr": "Offre un passif précieux qui aide beaucoup à **regrouper les ennemis**, ce qui peut offrir énormément de dégâts de Contre-courant.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**.",
+                        "it": "La passiva di quest'arma è molto efficace nel raggruppare i nemici, il che può aiutare a massimizzare i danni da Risacca (Riptide).\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**.",
+                        "ru": "Имеет ценную Пассивную способность, помогающую стягивать противников, позволяя наносить высокий урон при помощи Отлива.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**."
                     }
                 }
             ]
         },
         {
             "items": [
+                "amos-bow"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "scion-of-the-blazing-sun",
+                    "note": {
+                        "en": "[[note:r5-better]] **[[weapon:amos-bow]]**."
+                    }
+                },
                 {
                     "name": "kings-squire",
                     "refinement": 5,
@@ -66,65 +90,22 @@
                         "it": "È necessario cambiare la rotazione per attivare un doppio [[element:swirl]], usando un [[ability:ca]] al posto dell'[[ability:skill]].",
                         "ru": "Для подготовки двойного рассеивания в ротации следует использовать Заряженную атаку вместо Элементального навыка."
                     }
-                },
-                "amos-bow",
-                {
-                    "name": "the-stringless",
-                    "refinement": 5
                 }
             ]
         },
         {
             "items": [
-                {
-                    "name": "scion-of-the-blazing-sun",
-                    "note": {
-                        "en": "Assumed first [[ability:ca]] does not get the passive. [[note:r5-similar]] **[[weapon:the-viridescent-hunt]] [R1]** - due to this reason, it is better to get **[[weapon:the-viridescent-hunt]]** from the Battle Pass.",
-                        "fr": "Suppose que la première [[ability:ca]] n'obtient pas le passif. [[note:r5-similar]] **[[weapon:the-viridescent-hunt]] [R1]** - pour cette raison, il vaut mieux choisir **[[weapon:the-viridescent-hunt]]** dans le Pass de Bataille.",
-                        "it": "[[note:r5-similar]] **[[weapon:the-viridescent-hunt]] [R1]**.",
-                        "ru": "Предполагается, что первая Заряженная атака не активирует Пассивную способность. [[note:r5-similar]] **[R1] [[weapon:the-viridescent-hunt|Зелёному луку]]**, поэтому из боевого пропуска для Тартальи лучше брать **[[weapon:the-viridescent-hunt|Зелёный лук]]**."
-                    }
-                },
-                {
-                    "name": "blackcliff-warbow",
-                    "note": {
-                        "en": "Assumed 1 stack. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
-                        "fr": "Suppose 1 stack. [[note:r5-similar]] **[[weapon:amos-bow]]**.",
-                        "it": "La classifica presuppone un accumulo. [[note:r5-similar]]**[[weapon:amos-bow]]**.",
-                        "ru": "Предполагается 1 уровень Пассивной способности. [[note:r5-similar]] **[[weapon:amos-bow|Луку Амоса]]**."
-                    }
-                },
+                "breezeborne-refrain"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "chain-breaker",
-                    "refinement": 5
-                }
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "windblume-ode",
-                    "refinement": 5
-                },
-                {
-                    "name": "hamayumi",
                     "refinement": 5,
                     "note": {
-                        "en": "Assumed weapon passive is not doubled.",
-                        "fr": "Suppose que le passif de l'arme n'est pas doublé.",
-                        "ru": "Предполагается, что бонус Пассивной способности не удвоен."
+                        "en": "This ranking assumes you are playing 2 Natlan or non-[[element:hydro]] characters on the team.\nWith 3 Natlan or non-[[element:hydro]] characters, this weapon performs better than **[[weapon:scion-of-the-blazing-sun]]**."
                     }
-                },
-                {
-                    "name": "mouuns-moon",
-                    "note": {
-                        "it": "[[note:r5-similar]] **[[weapon:scion-of-the-blazing-sun]]**.",
-                        "ru": "[[note:r5-similar]] **[[weapon:scion-of-the-blazing-sun|Наследнику слепящего солнца]]**."
-                    }
-                },
-                {
-                    "name": "rust",
-                    "refinement": 5
                 }
             ]
         }
