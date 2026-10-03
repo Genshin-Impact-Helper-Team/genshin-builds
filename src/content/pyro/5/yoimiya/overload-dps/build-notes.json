@@ -8,16 +8,12 @@
     "best": true,
     "notes": [
         {
-            "en": "[[character:yoimiya]] is an on-field [[element:pyro]] DPS who specializes in dealing damage through her [[ability:na]]s. It is recommended to play [[character:yoimiya]] with some source of resistance to interruption, as breaking her [[ability:na]] string is a significant damage loss.",
-            "fr": "[[character:yoimiya]] est un DPS [[element:pyro]] on-field spécialisée dans les dégâts d'[[ability:na|attaques normales]]. Il est recommandé de jouer [[character:yoimiya]] avec une source de résistance à l'interruption, car interrompre son combo d'[[ability:na]] représente une perte significative de dégâts.",
-            "it": "[[character:yoimiya]] è una DPS [[element:pyro]] specializzata nel provocare danni tramite i suoi [[ability:na|Attacchi Normali]]. È consigliato giocarla con qualche fonte di resistenza all'interruzione, poiché interrompere la sua stringa di [[ability:na|Attacchi Normali]] rappresenta una significativa perdita di danni.",
-            "ru": "[[character:yoimiya]] - [[element:pyro]] ДД, играющий от [[ability:na|Обычных атак]]. При игре за [[character:yoimiya|Ёимию]] рекомендуется использовать источники сопротивления прерыванию, т.к. прерывание серии её [[ability:na|Обычных атак]] приводит к заметной потере урона."
+            "en": "[[character:yoimiya]] is an On-Field DPS who uses her [[ability:skill]]-enhanced [[ability:na]]s to deal damage. In [[element:overload]] teams, [[character:yoimiya]] typically makes use of [[character:chevreuse]] and other [[element:pyro]]/[[element:electro]] supports to amplify her damage.",
+            "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans les équipes [[element:overload]], [[character:yoimiya]] profite typiquement de [[character:chevreuse]] et d'autres supports [[element:pyro]]/[[element:electro]] pour amplifier ses dégâts."
         },
         {
-            "en": "This ranking assumes a [[element:overload]] team with [[character:chevreuse]].",
-            "fr": "Ces classements supposent une équipe [[element:overload]] incluant [[character:chevreuse]].",
-            "it": "Questa classifica presuppone un team **[[element:overload]]** con **[[character:chevreuse]]**.",
-            "ru": "Предполагается, что играет с [[character:chevreuse]]ом через [[element:overload]]."
+            "en": "Unlike her [[element:vaporize]] and [[element:melt]] playstyle, interrupting her attack string does not cause a large damage loss, so there is not a need for interruption resistance; unless you want one for ease of use. ",
+            "fr": "Contrairement à son style de jeu [[element:vaporize]]/[[element:melt]], interrompre son combo d'[[ability:na]] ne représente pas forcément une perte de dégâts. Il n'est donc pas forcément nécessaire d'avoir une source de Résistance à l'Interruption, à moins que vous souhaitiez en avoir une pour vous simplifier la vie."
         }
     ],
     "tips": [
