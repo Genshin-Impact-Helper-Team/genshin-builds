@@ -2,14 +2,7 @@
     "weapons": [
         {
             "items": [
-                {
-                    "name": "polar-star",
-                    "note": {
-                        "en": "Dynamic Stacking, will be done alongside of stacking **[[set:nymphs-dream]] (4)**.",
-                        "fr": "Stacking dynamique en parallèle du stacking de **[[set:nymphs-dream]] (4)**.",
-                        "ru": "Урон зависит от количества полученных уровней. Ротация для получения уровней соответствует таковой для Сна нимфы (4)."
-                    }
-                }
+                "polar-star"
             ]
         },
         {
@@ -39,7 +32,8 @@
                 {
                     "name": "the-first-great-magic",
                     "note": {
-                        "en": "In teams with 1 other [[element:hydro]] character, this weapon performs better than **[[weapon:the-daybreak-chronicles]]**."
+                        "en": "In teams with 1 other [[element:hydro]] character, this weapon performs better than **[[weapon:the-daybreak-chronicles]]**.",
+                        "fr": "Dans les équipes avec 1 autre personnage [[element:hydro]], cette arme devient meilleure que **[[weapon:the-daybreak-chronicles]]**."
                     }
                 }
             ]
@@ -50,7 +44,8 @@
                 {
                     "name": "jade-vista",
                     "note": {
-                        "en": "**At [R5]]** with another [[element:hydro]] character on the team, this weapon performs better than **[[weapon:aqua-simulacra]]**.\n**At [R5]** with no other [[element:hydro]] character on the team, this weapon performs better than **[[weapon:skyward-harp]]**."
+                        "en": "**At [R5]]** with another [[element:hydro]] character on the team, this weapon performs better than **[[weapon:aqua-simulacra]]**.\n**At [R5]** with no other [[element:hydro]] character on the team, this weapon performs better than **[[weapon:skyward-harp]]**.",
+                        "fr": "**Une fois [R5]]** avec un autre personnage [[element:hydro]] dans l'équipe, cette arme devient meilleure que **[[weapon:aqua-simulacra]]**.\n**Une fois [R5]** sans aucun autre personnage [[element:hydro]] dans l'équpe, cette arme devient meilleure que **[[weapon:skyward-harp]]**."
                     }
                 }
             ]
@@ -75,6 +70,14 @@
         },
         {
             "items": [
+                {
+                    "name": "song-of-stillness",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Do not use that weapon if you do not have a healing source in your team.",
+                        "fr": "N'utilisez pas cette arme si vous n'avez aucune source de soin dans l'équipe."
+                    }
+                },
                 {
                     "name": "scion-of-the-blazing-sun",
                     "note": {
@@ -104,7 +107,8 @@
                     "name": "chain-breaker",
                     "refinement": 5,
                     "note": {
-                        "en": "This ranking assumes you are playing 2 Natlan or non-[[element:hydro]] characters on the team.\nWith 3 Natlan or non-[[element:hydro]] characters, this weapon performs better than **[[weapon:scion-of-the-blazing-sun]]**."
+                        "en": "This ranking assumes you are playing 2 Natlan or non-[[element:hydro]] characters on the team.\nWith 3 Natlan or non-[[element:hydro]] characters, this weapon performs better than **[[weapon:scion-of-the-blazing-sun]]**.",
+                        "fr": "Le classement suppose que vous jouez avec 2 personnages de Natlan ou autres que [[element:hydro]] dans l'équipe.\nAvec 3 personnages de Natlan ou autres que [[element:hydro]], cette arme devient meilleure que **[[weapon:scion-of-the-blazing-sun]]**."
                     }
                 }
             ]

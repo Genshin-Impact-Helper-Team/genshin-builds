@@ -62,7 +62,8 @@
                     "name": "MH",
                     "pieces": 4,
                     "note": {
-                        "en": "Only use this set if played with **[[character:furina]]**."
+                        "en": "Only use this set if played with **[[character:furina]]**.",
+                        "fr": "N'utilisez cette arme que si **[[character:furina]]** est dans l'équipe."
                     }
                 }
             ]
@@ -73,7 +74,8 @@
                     "name": "notsu",
                     "pieces": 4,
                     "note": {
-                        "en": "Only use this set if your team can **trigger lunar reactions**."
+                        "en": "Only use this set if your team can **trigger lunar reactions**.",
+                        "fr": "N'utilisez ce set que si votre équipe peut **déclencher des réactions Sélènes**."
                     }
                 }
             ]
