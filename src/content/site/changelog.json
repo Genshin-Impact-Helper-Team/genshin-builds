@@ -5,11 +5,17 @@
             "version": "7.1",
             "entries": [
                 {
+                    "date": "October 03, 2026",
+                    "changes": "Updated Yoimiya and split her section in Vape and Overload builds.",
+                    "appliedBy": "Plo"
+                },
+                {
                     "date": "September 29, 2026",
                     "changes": "Added Vodyanitsa (fih) section.",
                     "appliedBy": "Greenster"
                 },
-                {   "date": "September 27, 2026",
+                {
+                    "date": "September 27, 2026",
                     "changes": "Updated Clorinde section.",
                     "appliedBy": "Chiston, Plo"
                 },
@@ -33,11 +39,6 @@
         {
             "version": "7.0",
             "entries": [
-                {
-                    "date": "September 12, 2026",
-                    "changes": "Updated Yoimiya and split her section in Vape and Overload builds.",
-                    "appliedBy": "Plo"
-                },
                 {
                     "date": "September 11, 2026",
                     "changes": "Updated Navia section.",
