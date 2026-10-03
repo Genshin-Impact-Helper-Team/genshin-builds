@@ -18,12 +18,21 @@
             "fr": "Ces classements supposent une équipe [[element:overload]] incluant [[character:chevreuse]].",
             "it": "Questa classifica presuppone un team **[[element:overload]]** con **[[character:chevreuse]]**.",
             "ru": "Предполагается, что играет с [[character:chevreuse]]ом через [[element:overload]]."
-        },
+        }
+    ],
+    "tips": [
         {
-            "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}.",
-            "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa {rot:N5}.",
-            "it": "Il colpo più forte della stringa di [[ability:na|Attacchi Normali]] di [[character:yoimiya]] è il suo {rot:N5}.",
-            "ru": "Сильнейшая [[ability:na]] из серии - {rot:N5}."
+            "title": {
+                "en": "[[ability:na]] string",
+                "fr": "Combo d'[[ability:na]]",
+                "it": "Stringa di [[ability:na|Attacchi Normali]]"
+            },
+            "content": {
+                "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}.",
+                "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa {rot:N5}.",
+                "it": "Il colpo più forte della stringa di [[ability:na|Attacchi Normali]] di [[character:yoimiya]] è il suo {rot:N5}.",
+                "ru": "Сильнейшая [[ability:na]] из серии - {rot:N5}."
+            }
         }
     ],
     "weapons": {
