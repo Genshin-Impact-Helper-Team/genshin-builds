@@ -6,50 +6,48 @@
     },
     "notes": [
         {
-            "en": "[[character:tartaglia]] is an on-field [[element:hydro]] DPS and enabler. He works particularly well in a [[element:vaporize]] team with [[character:xiangling]], as this allows him to [[element:vaporize]] his [[ability:burst]] while also enabling [[element:vaporize]] consistently for [[character:xiangling]].",
-            "fr": "[[character:tartaglia]] est u DPS [[element:hydro]] On-field et enabler. Il fonctionne particulièrement bien dans les équipes [[element:vaporize]] avec [[character:xiangling]], puisque cela lui permet de déclencher [[element:vaporize]] sur son [[ability:burst]] tout en permettant à [[character:xiangling]] de déclencher [[element:vaporize]] à coup sûr.",
-            "it": "[[character:tartaglia]] funziona particolarmente bene in team [[element:vaporize]] con [[character:xiangling]], poiché [[character:xiangling]] gli permette di Vaporizzare il suo [[ability:burst]] ed allo stesso tempo [[character:tartaglia]] permette a [[character:xiangling]] di Vaporizzare a suo volta.",
-            "ru": "Тарталья наносит урон на поле, накладывая при этом Гидро статус для отряда. Особо внимания заслуживает отряд от Пара с Сян Лин, т.к. в нем Тарталья закрывает Пар своим Взрывом стихии, после чего предоставляет необходимый Гидро статус для Сян Лин."
+            "en": "[[character:tartaglia]] is an **On-Field DPS** who uses [[ability:na]]s and [[ability:ca]]s during his [[ability:skill]]-enhanced state to deal damage and apply [[element:hydro]]. [[character:tartaglia]] applies a very large amount of [[element:hydro]] during his [[ability:skill]] duration, which makes it infeasible to [[element:vaporize]] his [[ability:na]]s or [[ability:ca]]s. **Pairing him with off-field units who benefit from the high application** (e.g., [[character:xiangling]] or [[character:durin]]) is recommended.",
+            "fr": "[[character:tartaglia]] est un **DPS On-Field** qui utilise ses [[ability:na|Attaques normales]] et [[ability:ca|Attaques chargées]] lorsqu'il est dans l'état amélioré de son [[ability:skill]] pour infliger des dégâts et appliquer [[element:hydro]]. [[character:tartaglia]] applique une très grande quantité d'[[element:hydro]] pendant la durée de son [[ability:skill]], ce qui rend impossible de déclencher [[element:vaporize]] sur une [[ability:na]] ou [[ability:ca]]. Ainsi, il est recommandé de **le jouer avec des personnages off-field qui bénéficient de cette grande quantité d'application [[element:hydro]]** (comme [[character:xiangling]] ou [[character:durin]] par exemple)."
         },
         {
-            "en": "**Optimal [[ability:skill]] duration for [C0]:** 7s, 9s or 12s.",
-            "fr": "**Durée optimale du [[ability:skill]] en [C0]:** 7s, 9s or 12s.",
-            "it": "**Durata ottimale dell'[[ability:skill]] a [C0]**: 7s, 9s o 12s.",
-            "ru": "Оптимальное использование Элементального навыка [C0]: 7 сек, 9 сек или 12 сек."
+            "en": "[[character:tartaglia]]’s [[ability:skill]] cooldown is based on **how long you spend attacking** with him while on-field. It’s important to know your team rotation to avoid cooldown misalignments.",
+            "fr": "Le TdR du [[ability:skill]] de [[character:tartaglia]] dépend du **temps que vous avez passé à attaquer** avec lui en étant on-field. Il est important de connaître la rotation de votre équipe pour éviter un mauvais alignement des TdR."
         },
         {
-            "en": "**Optimal [[ability:skill]] duration for [C1]:** 9s, 11s or 14s.",
-            "fr": "**Durée optimale du [[ability:skill]] en [C1]:** 9s, 11s or 14s.",
-            "it": "**Durata ottimale dell'Abilità a [C1]**: 9s, 11s o 14s.",
-            "ru": "Оптимальное использование Элементального навыка [C1]: 9 сек, 11 сек или 14 сек."
+            "en": "[[character:tartaglia]] uses his [[ability:burst]] as a large instance of damage, which, unlike the rest of his attacks, is **often amplified by [[element:vaporize]]**. Depending on if [[character:tartaglia]] is in the [[ability:skill]]-enhanced state, his [[ability:burst]] will change, so it is usually recommended to **use his [[ability:burst]] outside his [[ability:skill]]-enhanced state** for the Energy refund. ",
+            "fr": "[[character:tartaglia]] utilise son [[ability:burst]] comme grande instance de dégât, qui, contrairement au reste de ses attaques, est **souvent amplifié par la réaction d'[[element:vaporize]]**. Son [[ability:burst]] change selon si [[character:tartaglia]] est dans l'état amélioré de son [[ability:skill]] ou pas. Il est habituellement recommendé d'utiliser son [[ability:burst]] **sans être dans l'état de son [[ability:skill]]** pour récupérer de l'énergie."
         },
         {
-            "en": "**Melee [[ability:burst]]:** Only to be used in situations where you need only 1 rotation to clear as the [[stat:er]] requirement to maintain [[ability:burst]] uptime is quite high (170-190%), you'll always want to start your rotations with Ranged [[ability:burst]] since it refunds energy to maintain your rotation well.",
-            "fr": "**[[ability:burst]] en état de mélée:** A n'utiliser que dans les situations où il n'y a besoin que d'une rotation pour clear, car les besoins en [[stat:er]] nécéssaires pour avoir l'[[ability:burst]] disponible en permanence sont très hauts (170-190%). Vous voudrez toujours commencer votre rotation avec l'[[ability:burst]] en état à distance puisqu'il rend de l'énergie et permet de maintenir une bonne rotation.",
-            "it": "**Tripudio da mischia:** Da usare solo in situazioni nelle quali è necessaria una sola rotazione, poiché i requisiti di [[stat:er]] per mantenere il tempo di funzionamento del [[ability:burst]] sono piuttosto elevati (170-190%). È sempre consigliabile iniziare le rotazioni con il **[[ability:burst]] a distanza**, poiché restituisce energia per mantenere bene la rotazione.",
-            "ru": "Взрыв стихии в ближней стойке: Используется только в случае, когда для зачистки противников нужна одна ротация, поскольку порог ВЭ для использования Взрыва стихии по откату очень велик (170-190%). Следует начинать ротацию со Взрыва стихии в дальней стойке, чтобы в бою было легче восстановить энергию для следующей ротации."
+            "en": "## [[ability:skill]] Combo:\n- {rot:N2C} (Optimal)\n- {rot:N3C} (Recommended)",
+            "fr": "## Combo [[ability:skill]]:\n- {rot:N2C} (Optimal)\n- {rot:N3C} (Recommandé)",
+            "it": "## Combo:\n- {rot:N2C} (Ottimale)\n- {rot:N3C} (Consigliata)",
+            "ru": "## Комбо для Элементального навыка:\n- {rot:N2C} (Оптимально)\n- {rot:N3C} (Рекомендуется)"
         },
         {
-            "en": "**[[ability:skill]] Combo:**\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommended)\n- {rot:5 NA + 1 CA} (Recommended combo if using [[weapon:rust]] or [[weapon:thundering-pulse]])",
-            "fr": "**Combo [[ability:skill]]:**\n- {rot:2 NA + 1 CA} (Optimal)\n- {rot:3 NA + 1 CA} (Recommandé)\n- {rot:5 NA + 1 CA} (Combo recommandé en utilisant [[weapon:rust]] ou [[weapon:thundering-pulse]])",
-            "it": "**Combo:**\n- {rot:N2C} (Ottimale)\n- {rot:N3C} (Consigliata)\n- {rot:N5C}(Consigliata se si utilizza [[weapon:rust]] o [[weapon:thundering-pulse]])",
-            "ru": "Комбо для Элементального навыка:\n- 2 NA + 1 CA (Оптимально)\n- 3 NA + 1 CA (Рекомендуется)\n- 5 NA + 1 CA (Рекомендуется при использовании Ржавого лука или Громового пульса)"
-        },
-        {
-            "en": "Le combo Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",
-            "fr": "Le combo Optimal offre plus de dégâts mais consomme plus d'endurance. Le combo Recommandé offre légèrement moins de dégâts mais ne consomme pas d'endurance et représente ce qui devrait être utilisé pour la plupart des armes.",
+            "en": "Optimal combo provides more damage but consumes more stamina. Recommended combo provides slightly less damage but is stamina neutral and what most weapons should use.",
+            "fr": "Le combo optimal offre plus de dégâts mais consomme plus d'endurance. Le combo Recommandé offre légèrement moins de dégâts mais ne consomme pas d'endurance et représente ce qui devrait être utilisé pour la plupart des armes.",
             "it": "La combo ottimale provoca più danni ma consuma più stamina. La combo consigliata provoca danni leggermente inferiori ma il consumo di stamina è neutrale.",
             "ru": "Оптимальное комбо наносит больше урона, но потребляет больше выносливости. Рекомендуемое наносит немного меньше урона, но более эффективно в плане выносливости."
-        },
-        {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:the-daybreak-chronicles]]\n- [[weapon:jade-vista]]\n"
-        },
-        {
-            "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
     ],
-    "weapons": {
-        "author": "Speify & Kaori",
-        "link": "https://docs.google.com/spreadsheets/u/0/d/1PhRQbQ83iPfxqXO2Cp4rpLp2PjvfDRG9kdR3RdLiXd4/htmlview"
+    "tips": [
+        {
+            "title": {
+                "en": "Optimal [[ability:skill]] duration",
+                "fr": "Durée optimale du [[ability:skill]]",
+                "it": "Durata ottimale dell'[[ability:skill]]",
+                "ru": "Оптимальное использование Элементального навыка"
+            },
+            "content": {
+                "en": "**At [C0]**:  7s, 9s or 12s.\n**At [C1]**:  9s, 11s or 14s.",
+                "fr": "**En [C0]**:  7s, 9s ou 12s.\n**En [C1]**:  9s, 11s ou 14s.",
+                "it": "**A [C0]**:  7s, 9s o 12s.\n**A [C1]**:  9s, 11s o 14s.",
+                "ru": "**[C0]**: 7 сек, 9 сек или 12 сек.\n**[C1]**:  9 сек, 11 сек или 14 сек."
+            }
+        }
+    ],
+    "global": {
+        "author": "Quincy",
+        "link": "https://docs.google.com/spreadsheets/d/1bg13b5U26fMHB9MbzApDlwQSOmNx9nsJpvLkEU-Ktio/edit?usp=sharing"
     }
 }

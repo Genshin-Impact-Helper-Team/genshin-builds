@@ -1101,7 +1101,12 @@
   justify-content: start;
 }
 
+.artifact-popover-effect > span {
+  font-weight: 700;
+}
+
 .artifact-popover-effect strong {
+  font-weight: 400;
   text-align: left;
 }
 
