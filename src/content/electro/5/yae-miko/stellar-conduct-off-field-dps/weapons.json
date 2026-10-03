@@ -22,7 +22,6 @@
                         "fr": "Le classement suppose que le passif est actif en permanence.",
                         "it": "La classifica presuppone che la passiva sia sempre attiva.",
                         "ru": "Предполагается, что эффект Пассивной способности оружия поддерживается постоянно."
-                        
                     }
                 }
             ]
@@ -40,7 +39,8 @@
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "[[note:r5-better]] **[[weapon:reliquary-of-truth]]**."
+                        "en": "[[note:r5-better]] **[[weapon:reliquary-of-truth]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:reliquary-of-truth|Шкатулку истин]]**."
                     }
                 }
             ]
@@ -84,10 +84,10 @@
     ],
     "notes": [
         {
-            "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**. Thus, if Yae Miko is **[C1]** or **[C2]**, weapons that provide **[[element:stellar-glimmer]] DMG / [[stat:em]] buffs** perform worse when compared to **[C0]**.",
-            "fr": "**Les armes [[stat:em]]** deviennent plus intéressantes lorsque l'équipe a **moins de buffs de DGT [[element:stellar-glimmer]] / [[stat:em]]**.",
-            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]**. Di conseguenza, se Yae Miko è **[C1]** o **[C2]**, le armi che forniscono **DAN [[element:stellar-glimmer]] o [[stat:em]]** hanno prestazioni peggiori rispetto a quando è **[C0]**.",
-            "ru": "**Оружие на [[stat:em|МС]]** становится более ценным, если у отряда **не слишком много бонусов к урону реакций [[element:stellar-glimmer|Звёздного блеска]]**."
+            "en": "**[[stat:em]] weapons** become more valuable when the team has **fewer [[element:stellar-glimmer]] DMG / [[stat:em]] buffs**. Thus, if [[character:yae-miko]] is **[C1] or [C2]**, weapons that provide **[[element:stellar-glimmer]] DMG / [[stat:em]] buffs** perform worse when compared to **[C0]**.",
+            "fr": "**Les armes [[stat:em]]** deviennent plus intéressantes lorsque l'équipe a **moins de buffs de DGT [[element:stellar-glimmer]] / [[stat:em]]**. Ainsi, si [[character:yae-miko]] est **[C1] ou [C2]**, les armes qui offrent des **buffs de [[stat:em]] / DGT de [[element:stellar-glimmer]]** performent moins bien qu'en **[C0]**.",
+            "it": "Le **armi con [[stat:em]]** acquistano maggiore valore quando il team ha **meno potenziamenti a DMG [[element:stellar-glimmer]] / [[stat:em]]**. Di conseguenza, se [[character:yae-miko]] è **[C1] o [C2]**, le armi che forniscono **DAN [[element:stellar-glimmer]] o [[stat:em]]** hanno prestazioni peggiori rispetto a quando è **[C0]**.",
+            "ru": "**Оружие на [[stat:em|МС]]** становится более ценным, если у отряда **не слишком много бонусов к урону реакций [[element:stellar-glimmer|Звёздного блеска]]**. Поэтому у **[C1] или [C2]** [[character:yae-miko]] варианты с бонусами **к урону [[element:stellar-glimmer|реакций Звёздного блеска]]/[[stat:em|МС]]** показывают себя хуже, чем у **[C0]**."
         }
     ]
 }

@@ -5,7 +5,11 @@
             "version": "7.1",
             "entries": [
                 {
-                    "date": "September 27, 2026",
+                    "date": "September 29, 2026",
+                    "changes": "Added Vodyanitsa (fih) section.",
+                    "appliedBy": "Greenster"
+                },
+                {   "date": "September 27, 2026",
                     "changes": "Updated Clorinde section.",
                     "appliedBy": "Chiston, Plo"
                 },
