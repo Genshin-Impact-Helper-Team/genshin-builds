@@ -10,7 +10,7 @@
         {
             "en": "[[character:barbara]]'s main role is to provide sustain via her [[ability:skill]]. Due to the lack of particle generation, building [[stat:er]] to [[ability:burst]] every rotation is not feasible. Her [[ability:burst]] should be treated as an emergency button.",
             "fr": "Le rôle principal de [[character:barbara]] est de soutenir l'équipe via son [[ability:skill]]. A cause de l'absence de génération de particules, build la [[stat:er]] pour [[ability:burst]] à chaque rotation demanderait des montants trop importants pour être utile. Son [[ability:burst]] sert surtout de solution d'urgence.",
-            "it": "Il ruolo principale di [[character:barbara]] è fornire utilità difensiva tramite la sua [[ability:skill]]. A causa della sua generazione di energia inesistente, accumulare abbastanza [[stat:er]] da utilizzare il [[ability:burst]] in ogni rotazione non è plausibile: di conseguenza, il [[ability:burst]] dovrebbe essere utilizzato come un pulsante d'emergenza.",
+            "it": "Il ruolo principale di [[character:barbara]] è quello di fornire utilità difensiva tramite la sua [[ability:skill]]. A causa della sua generazione di energia inesistente, accumulare abbastanza [[stat:er]] per utilizzare il [[ability:burst]] in ogni rotazione non è plausibile: di conseguenza, il [[ability:burst]] dovrebbe essere utilizzato come un pulsante d'emergenza.",
             "ru": "После применения Элементального навыка/Взрыва стихии необходимо сразу переключаться. Сборка в ВЭ не требуется, так как Взрыв стихии остается для крайних случаев и не используется каждую ротацию. Это также усугубляется отсутствием у Барбары генерации частиц."
         },
         {
@@ -22,7 +22,7 @@
         {
             "en": "Take note that [[element:hydro]] reacting with [[element:cryo]] status will freeze you in place, her [[ability:skill]] should be used in consideration of the environment.",
             "fr": "Gardez à l'esprit qu'une réaction entre les statuts [[element:hydro]] et [[element:cryo]] vous gèlera sur place: son status [[ability:skill]] doit donc être utilisé en tenant compte de l'environnement.",
-            "it": "Nota che se il tuo personaggio viene colpito con [[element:cryo]], verrai congelato.",
+            "it": "Nota che se il tuo personaggio viene colpito con [[element:cryo]] mentre ha un'aura [[element:hydro]], verrà congelato.",
             "ru": "Следует отметить, что одновременное присутствие Гидро и Крио статусов на персонаже заморозит его."
         }
     ]
