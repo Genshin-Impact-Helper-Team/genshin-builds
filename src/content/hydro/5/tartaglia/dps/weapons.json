@@ -33,7 +33,8 @@
                     "name": "the-first-great-magic",
                     "note": {
                         "en": "In teams with 1 other [[element:hydro]] character, this weapon performs better than **[[weapon:the-daybreak-chronicles]]**.",
-                        "fr": "Dans les équipes avec 1 autre personnage [[element:hydro]], cette arme devient meilleure que **[[weapon:the-daybreak-chronicles]]**."
+                        "fr": "Dans les équipes avec 1 autre personnage [[element:hydro]], cette arme devient meilleure que **[[weapon:the-daybreak-chronicles]]**.",
+                        "ru": "В отрядах со вторым [[element:hydro]] персонажем превосходит **[[weapon:the-daybreak-chronicles]]**."
                     }
                 }
             ]
@@ -45,7 +46,8 @@
                     "name": "jade-vista",
                     "note": {
                         "en": "**At [R5]]** with another [[element:hydro]] character on the team, this weapon performs better than **[[weapon:aqua-simulacra]]**.\n**At [R5]** with no other [[element:hydro]] character on the team, this weapon performs better than **[[weapon:skyward-harp]]**.",
-                        "fr": "**Une fois [R5]]** avec un autre personnage [[element:hydro]] dans l'équipe, cette arme devient meilleure que **[[weapon:aqua-simulacra]]**.\n**Une fois [R5]** sans aucun autre personnage [[element:hydro]] dans l'équpe, cette arme devient meilleure que **[[weapon:skyward-harp]]**."
+                        "fr": "**Une fois [R5]]** avec un autre personnage [[element:hydro]] dans l'équipe, cette arme devient meilleure que **[[weapon:aqua-simulacra]]**.\n**Une fois [R5]** sans aucun autre personnage [[element:hydro]] dans l'équpe, cette arme devient meilleure que **[[weapon:skyward-harp]]**.",
+                        "ru": "**На [R5]]** в отрядах со вторым [[element:hydro]] персонажем превосходит **[[weapon:aqua-simulacra]]**.\n**На [R5]]** без второго [[element:hydro]] превосходит **[[weapon:skyward-harp]]**."
                     }
                 }
             ]
@@ -58,7 +60,7 @@
                         "en": "Offers a valuable passive that helps a lot in **grouping enemies**, which can offer a ton of damage from Riptide.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**.",
                         "fr": "Offre un passif précieux qui aide beaucoup à **regrouper les ennemis**, ce qui peut offrir énormément de dégâts de Contre-courant.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**.",
                         "it": "La passiva di quest'arma è molto efficace nel raggruppare i nemici, il che può aiutare a massimizzare i danni da Risacca (Riptide).\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**.",
-                        "ru": "Имеет ценную Пассивную способность, помогающую стягивать противников, позволяя наносить высокий урон при помощи Отлива.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath]]**."
+                        "ru": "Имеет ценную Пассивную способность, помогающую стягивать противников, позволяя наносить высокий урон при помощи Отлива.\n[[note:r5-better]] **[[weapon:golden-frostbound-oath|Золотую клятву льда]]**."
                     }
                 }
             ]
@@ -75,7 +77,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "Do not use that weapon if you do not have a healing source in your team.",
-                        "fr": "N'utilisez pas cette arme si vous n'avez aucune source de soin dans l'équipe."
+                        "fr": "N'utilisez pas cette arme si vous n'avez aucune source de soin dans l'équipe.",
+                        "ru": "Не следует использовать, если в отряде нет хилера."
                     }
                 },
                 {
@@ -91,7 +94,7 @@
                         "en": "Have to change double [[element:swirl]] setup to use a [[ability:ca]] instead of a [[ability:skill]].",
                         "fr": "Nécéssite de changer le setup de Double [[element:swirl]] en utilisant une [[ability:ca]] au lieu d'un [[ability:skill]].",
                         "it": "È necessario cambiare la rotazione per attivare un doppio [[element:swirl]], usando un [[ability:ca]] al posto dell'[[ability:skill]].",
-                        "ru": "Для подготовки двойного рассеивания в ротации следует использовать Заряженную атаку вместо Элементального навыка."
+                        "ru": "Для подготовки двойного рассеивания в ротации следует использовать [[ability:ca|Заряженную атаку]] вместо [[ability:skill|Элементального навыка]]."
                     }
                 }
             ]
@@ -108,7 +111,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "This ranking assumes you are playing 2 Natlan or non-[[element:hydro]] characters on the team.\nWith 3 Natlan or non-[[element:hydro]] characters, this weapon performs better than **[[weapon:scion-of-the-blazing-sun]]**.",
-                        "fr": "Le classement suppose que vous jouez avec 2 personnages de Natlan ou autres que [[element:hydro]] dans l'équipe.\nAvec 3 personnages de Natlan ou autres que [[element:hydro]], cette arme devient meilleure que **[[weapon:scion-of-the-blazing-sun]]**."
+                        "fr": "Le classement suppose que vous jouez avec 2 personnages de Natlan ou autres que [[element:hydro]] dans l'équipe.\nAvec 3 personnages de Natlan ou autres que [[element:hydro]], cette arme devient meilleure que **[[weapon:scion-of-the-blazing-sun]]**.",
+                        "ru": "Предполагается, что в отряде есть 2 персонажа из Натлана или не-[[element:hydro]] персонажа в отряде.\nС тремя персонажами из Натлана/не-[[element:hydro]] данное оружие лучше, чем **[[weapon:scion-of-the-blazing-sun]]**."
                     }
                 }
             ]

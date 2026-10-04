@@ -7,7 +7,8 @@
             "note": {
                 "en": "Only necessary if you plan to use [[character:vodyanitsa]]'s [[ability:burst]]. Can ignore otherwise.",
                 "fr": "N'est nécessaire que si vous compter utiliser l'[[ability:burst]] de [[character:vodyanitsa]]. Dans le cas contraire, vous pouvez l'ignorer complètement.",
-                "it": "Necessaria solo se intendi utilizzare il [[ability:burst]] di [[character:vodyanitsa]]. In caso contrario, può essere ignorata."
+                "it": "Necessaria solo se intendi utilizzare il [[ability:burst]] di [[character:vodyanitsa]]. In caso contrario, può essere ignorata.",
+                "ru": "Требуется только в том случае, если планируется использовать [[ability:burst]] [[character:vodyanitsa|Водяницы]]. Если нет, стоит проигнорировать."
             }
         }
     ]

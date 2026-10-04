@@ -3,7 +3,8 @@
         {
             "en": "5★ Weapon options similar to **[[weapon:prototype-amber]]** are barely an increase to [[character:vodyanitsa]]'s performance as a support, and should not be pulled for the sake of improving [[character:vodyanitsa]].",
             "fr": "Les options d'armes 5★ similaire à **[[weapon:prototype-amber]]** n'améliorent qu'à peine les performances de [[character:vodyanitsa]] en tant que support, et ne doivent pas être pull juste pour elle.",
-            "it": "Le opzioni a 5★ simili a **[[weapon:prototype-amber]]** non migliorano quasi per niente le prestazioni di supporto di [[character:vodyanitsa]] e non è consigliato ottenerle al solo scopo di potenziare [[character:vodyanitsa]]."
+            "it": "Le opzioni a 5★ simili a **[[weapon:prototype-amber]]** non migliorano quasi per niente le prestazioni di supporto di [[character:vodyanitsa]] e non è consigliato ottenerle al solo scopo di potenziare [[character:vodyanitsa]].",
+            "ru": "5★ варианты, которые находятся на одном уровне с **[[weapon:prototype-amber|Прототипом: Янтарь]]**, практически не влияют на эффективность [[character:vodyanitsa|Водяницы]] как персонажа поддержки. Выбивать их исключительно для неё не стоит."
         }
     ],
     "weapons": [
@@ -14,7 +15,8 @@
                     "note": {
                         "en": "The passive of this weapon caps out once [[character:vodyanitsa]] reaches 60,000 [[stat:hp|HP]].",
                         "fr": "Le passif de l'arme atteint son maxium lorsque [[character:vodyanitsa]] atteint les 60 000 PV.",
-                        "it": "La passiva di quest'arma raggiunge il limite massimo quando [[character:vodyanitsa]] raggiunge 60.000 [[stat:hp]]."
+                        "it": "La passiva di quest'arma raggiunge il limite massimo quando [[character:vodyanitsa]] raggiunge 60.000 [[stat:hp]].",
+                        "ru": "Эффект Пассивной способности оружия досигает максимума при 60000 [[stat:hp|HP]]."
                     }
                 }
             ]
@@ -32,7 +34,8 @@
                     "note": {
                         "en": "[[stat:cr]] isn't beneficial to [[character:vodyanitsa]], so this weapon can remain at Level 1. **At [R5]**, this weapon can give almost as much [[stat:hp%]] as **[[weapon:hymn-of-the-maelstrom]]** at base, which is very good for her A4 passive.",
                         "fr": "Le [[stat:cr]] n'est pas utile pour [[character:vodyanitsa]], vous pouvez donc laisser l'arme au Niveau 1. **Une fois [R5]**, cette arme donne presque autant de [[stat:hp%]] que **[[weapon:hymn-of-the-maelstrom]]**, ce qui est une très bonne chose pour son passif A4.",
-                        "it": "Il [[stat:cr]] non è utile a [[character:vodyanitsa]], dunque quest'arma può rimanere a livello 1. **A [R5]**, quest'arma può fornire quasi la stessa quantità di [[stat:hp%]] di **[[weapon:hymn-of-the-maelstrom]]**, il che è ottimo per il Talento A4 di [[character:vodyanitsa]]."
+                        "it": "Il [[stat:cr]] non è utile a [[character:vodyanitsa]], dunque quest'arma può rimanere a livello 1. **A [R5]**, quest'arma può fornire quasi la stessa quantità di [[stat:hp%]] di **[[weapon:hymn-of-the-maelstrom]]**, il che è ottimo per il Talento A4 di [[character:vodyanitsa]].",
+                        "ru": "[[stat:cr]] бесполезен для [[character:vodyanitsa|Водяницы]], поэтому уровень оружия можно не повышать. **На [R5]** оно даёт почти столько же [[stat:hp%]], как **[[weapon:hymn-of-the-maelstrom]]** с базовых статов, что очень полезно для её второго Пассивного таланта. "
                     }
                 },
                 "ash-graven-drinking-horn",
@@ -47,7 +50,8 @@
                     "note": {
                         "en": "If you are not using [[character:vodyanitsa]]'s [[ability:burst]], this weapon can be left at Level 1.",
                         "fr": "Si vous n'utilisez pas l'[[ability:burst]] de [[character:vodyanitsa]], vous pouvez garder cette arme au Niveau 1.",
-                        "it": "Se non hai intenzione di utilizzare il [[ability:burst]] di [[character:vodyanitsa]], quest'arma può rimanere a livello 1."
+                        "it": "Se non hai intenzione di utilizzare il [[ability:burst]] di [[character:vodyanitsa]], quest'arma può rimanere a livello 1.",
+                        "ru": "Уровень оружия можно не повышать, если не планируется использовать [[ability:burst]] [[character:vodyanitsa|Водяницы]]."
                     }
                 }
             ]
