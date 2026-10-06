@@ -1,0 +1,38 @@
+{
+    "name": {
+        "en": "[[element:overload]] DPS",
+        "fr": "DPS [[element:overload]]",
+        "it": "DPS [[element:overload]]",
+        "ru": "ДД через [[element:overload]]"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:yoimiya]] is an On-Field DPS who uses her [[ability:skill]]-enhanced [[ability:na]]s to deal damage. In [[element:overload]] teams, [[character:yoimiya]] typically makes use of [[character:chevreuse]] and other [[element:pyro]]/[[element:electro]] supports to amplify her damage.",
+            "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans les équipes [[element:overload]], [[character:yoimiya]] profite typiquement de [[character:chevreuse]] et d'autres supports [[element:pyro]]/[[element:electro]] pour amplifier ses dégâts."
+        },
+        {
+            "en": "Unlike her [[element:vaporize]] and [[element:melt]] playstyle, interrupting her attack string does not cause a large damage loss, so there is not a need for interruption resistance; unless you want one for ease of use. ",
+            "fr": "Contrairement à son style de jeu [[element:vaporize]]/[[element:melt]], interrompre son combo d'[[ability:na]] ne représente pas forcément une perte de dégâts. Il n'est donc pas forcément nécessaire d'avoir une source de Résistance à l'Interruption, à moins que vous souhaitiez en avoir une pour vous simplifier la vie."
+        }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "[[ability:na]] string",
+                "fr": "Combo d'[[ability:na]]",
+                "it": "Stringa di [[ability:na|Attacchi Normali]]"
+            },
+            "content": {
+                "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}.",
+                "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa {rot:N5}.",
+                "it": "Il colpo più forte della stringa di [[ability:na|Attacchi Normali]] di [[character:yoimiya]] è il suo {rot:N5}.",
+                "ru": "Сильнейшая [[ability:na]] из серии - {rot:N5}."
+            }
+        }
+    ],
+    "weapons": {
+        "author": "bbytighnari",
+        "link": "https://docs.google.com/spreadsheets/d/1Rfqk8nxY5Be5dZVBLGPVpnvxCeWkrVGV6Ne2Wd3Pi4I/edit"
+    }
+}
