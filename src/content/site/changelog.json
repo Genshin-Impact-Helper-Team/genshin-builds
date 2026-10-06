@@ -5,11 +5,17 @@
             "version": "7.1",
             "entries": [
                 {
+                    "date": "October 6, 2026",
+                    "changes": "Added Vesna's section with calcs but without notes. It'll be added a bit later, sorry for the delay and happy Spooky Month!",
+                    "appliedBy": "Plo"
+                },
+                {
                     "date": "September 29, 2026",
                     "changes": "Added Vodyanitsa (fih) section.",
                     "appliedBy": "Greenster"
                 },
-                {   "date": "September 27, 2026",
+                {
+                    "date": "September 27, 2026",
                     "changes": "Updated Clorinde section.",
                     "appliedBy": "Chiston, Plo"
                 },
