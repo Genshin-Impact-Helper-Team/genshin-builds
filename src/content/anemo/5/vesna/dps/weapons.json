@@ -1,7 +1,104 @@
 {
     "weapons": [
         {
-            "items": []
+            "items": [
+                "beyond-the-chrysalis"
+            ]
+        },
+        {
+            "items": [
+                "whitelake-frostfeather"
+            ]
+        },
+        {
+            "items": [
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                "light-of-foliar-incision"
+            ]
+        },
+        {
+            "items": [
+                "mistsplitter-reforged"
+            ]
+        },
+        {
+            "items": [
+                "azurelight",
+                "splendor-of-tranquil-waters",
+                "uraku-misugiri",
+                "lightbearing-moonshard"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "new-bough",
+                    "note": {
+                        "en": "[[note:r5-better]] **[[weapon:absolution]]**."
+                    }
+                },
+                "freedom-sworn"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "emberwell",
+                    "refinement": "5"
+                },
+                {
+                    "name": "pjc",
+                    "note": {
+                        "en": "Be careful when using this weapon as it is easy to overcap on [[stat:cr]].",
+                        "fr": "Faites attention en utilisant cette arme, puisqu'il est facile de dépasser le maximum de [[stat:cr]].",
+                        "it": "Fai attenzione quando usi quest'arma, poiché è facile superare il limite massimo di [[stat:cr]].",
+                        "ru": "Обратите внимание, что с данным оружием легко превысить порог [[stat:cr|Шанса крит попадания]]."
+                    }
+                },
+                "summit-shaper"
+            ]
+        },
+        {
+            "items": [
+                "haran-geppaku-futsu",
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5,
+                    "note": {
+                        "en": "[[note:bol-rank-clear]], do not use this weapon.",
+                        "fr": "[[note:bol-rank-clear]], n'utilisez pas cette arme."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "silver-light",
+                    "refinement": 5
+                },
+                "athame-artis",
+                {
+                    "name": "exaiphanes-blade",
+                    "note": {
+                        "en": "[[note:exaiphanes]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "heretics-molten-blade",
+                    "note": {
+                        "en": "[[note:r5-similar]] **[[weapon:emberwell]]**."
+                    }
+                }
+            ]
         }
     ]
 }

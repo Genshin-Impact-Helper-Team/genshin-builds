@@ -5,6 +5,11 @@
             "version": "7.1",
             "entries": [
                 {
+                    "date": "October 6, 2026",
+                    "changes": "Added Vesna's section with calcs but without notes. It'll be added a bit later, sorry for the delay and happy Spooky Month!",
+                    "appliedBy": "Plo"
+                },
+                {
                     "date": "October 03, 2026",
                     "changes": "Updated Yoimiya and split her section in Vape/Melt and Overload builds. Thank you to bbytighnari for the calcs!\nUpdated Tartaglia section.",
                     "appliedBy": "Plo, Quincy"

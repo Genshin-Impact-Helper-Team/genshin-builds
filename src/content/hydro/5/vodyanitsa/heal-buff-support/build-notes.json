@@ -47,10 +47,7 @@
                 "ru": "[[element:stellar-swirl]] и [[ability:stellar-vortex|Звёздные вихри]]"
             },
             "content": {
-                "en": "When [[element:stellar-swirl]] is triggered, a [[ability:stellar-vortex]] is created. These vortexes explode after a short time. The **more times [[element:stellar-swirl]] is triggered**, the **higher the explosion DMG** of the vortex.",
-                "fr": "Lorsque [[element:stellar-swirl]] est déclenché, un [[ability:stellar-vortex]] est créé. Ces vortex explosent après un court laps de temps. **Au plus vous déclenchez [[element:stellar-swirl]], au plus les dégâts d'explosion** du vortex augmenteront.",
-                "it": "Quando viene provocato [[element:stellar-swirl]], viene generato un [[ability:stellar-vortex]]. Questi Vortici esplodono dopo poco tempo. Più volte viene attivato [[element:stellar-swirl]], maggiore è il danno inflitto dall'esplosione del Vortice.",
-                "ru": "При активации [[element:stellar-swirl|Звёздного рассеивания]] создаются [[ability:stellar-vortex|Звёздные вихри]], которые через некоторое время взрываются. **Чем чаще активируется [[element:stellar-swirl]], тем выше урон взрыва вихрей**."
+                "en": "[[note:tips-ssw]]"
             }
         },
         {

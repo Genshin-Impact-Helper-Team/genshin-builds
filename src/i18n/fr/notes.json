@@ -9,5 +9,6 @@
     "exaiphanes": "On préfère généralement utiliser cette arme sur le Voyageur. Ce n'est une option à considérer que si elle n'est pas déjà utilisée",
     "wip-weapon": "Armes viables dont les calculs sont en cours:",
     "wip-artifact": "Sets d'artéfacts viables dont les calculs sont en cours:",
-    "tips-bol": "L'Engagement Vital est une méchanique qui **absorbe n'importe quel soin** reçu par un personnage. Il se présente comme **un contour rouge autour de sa barre de PV**, et a une valeur maximale de 200% des PV du personnage (symbolisée par un contour rouge sur la totalité de la barre de PV). Pour retirer l'Engagemenet Vital, le personnage doit **recevoir autant de soin qu'il a d'Engagement Vital**."
+    "tips-bol": "L'Engagement Vital est une méchanique qui **absorbe n'importe quel soin** reçu par un personnage. Il se présente comme **un contour rouge autour de sa barre de PV**, et a une valeur maximale de 200% des PV du personnage (symbolisée par un contour rouge sur la totalité de la barre de PV). Pour retirer l'Engagemenet Vital, le personnage doit **recevoir autant de soin qu'il a d'Engagement Vital**.",
+    "tips-ssw": "Lorsque Astrodispersion  est déclenché, un Vortex Stellaire est créé. Ces vortex explosent après un court laps de temps. **Au plus vous déclenchez d'Astrodispersions, au plus les dégâts d'explosion** du vortex augmenteront."
 }

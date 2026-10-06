@@ -15,10 +15,19 @@
         {
             "groups": [
                 {
+                    "choose": true,
                     "items": [
                         {
-                            "name": "",
-                            "pieces": 4
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
                         }
                     ]
                 }

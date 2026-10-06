@@ -1,20 +1,25 @@
 {
     "name": {
-        "en": ""
+        "en": "[[element:stellar-swirl]] DPS",
+        "fr": "DPS [[element:stellar-swirl]]"
     },
-    "notes": [
-        {
-            "en": ""
-        }
-    ],
     "tips": [
         {
             "title": {
-                "en": ""
+                "en": "[[element:stellar-swirl]] & [[ability:stellar-vortex]]es",
+                "fr": "[[element:stellar-swirl]] & [[ability:stellar-vortex]]",
+                "it": "[[element:stellar-swirl]] e i [[ability:stellar-vortex|Vortici stellari]]",
+                "ru": "[[element:stellar-swirl]] и [[ability:stellar-vortex|Звёздные вихри]]"
             },
             "content": {
-                "en": ""
+                "en": "[[note:tips-ssw]]"
             }
+        }
+    ],
+    "global": [
+        {
+            "link": "https://docs.google.com/spreadsheets/d/1nRYs_BYiN-OdPCSCORU4nrLsovY3O4NMUVV9d1Nzaws/edit?usp=sharing",
+            "author": "Chiston"
         }
     ]
 }
