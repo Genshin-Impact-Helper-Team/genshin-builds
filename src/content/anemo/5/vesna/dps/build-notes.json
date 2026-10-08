@@ -3,6 +3,28 @@
         "en": "[[element:stellar-swirl]] DPS",
         "fr": "DPS [[element:stellar-swirl]]"
     },
+    "best": true,
+    "notes": [
+        {
+            "en": "[[character:vesna]] is an **On-Field DPS** who focuses on using her [[ability:skill]] to inflict **[[element:stellar-swirl]] damage**. While in her [[ability:skill]]-Enhanced state, she can use a **Special [[ability:skill]] consisting of 3 stages**, with each stage dealing more damage than the previous one. She can use this Special [[ability:skill]] **up to 5 times at [C0]**, or up to 6 times at [C1].",
+            "fr": "[[character:vesna]] est un DPS **DPS On-Field** qui se concentre sur l'utilisation de son [[ability:skill]] pour infliger des **dégâts d'[[element:stellar-swirl]]**. Lorsqu'elle est dans l'état amélioré de son [[ability:skill]], elle peut utiliser **un [[ability:skill]] spécial comportant 3 étapes**, où chaque étape inflige plus de dégâts que l'étape précédente. Ce [[ability:skill]] spécial peut être utilisé **jusqu'à 5 fois en [C0]**, ou jusqu'à 6 fois en [C1]."
+        },
+        {
+            "en": "Progressing through these stages requires **[[ability:skill]] Charges**, which can be obtained through the following methods:\n- **Upon entering her [[ability:skill]]-Enhanced state***: Immediately gains 2 Charges\n- **While in her [[ability:skill]]-Enhanced state**: Repeatedly using [[ability:na]], [[ability:ca]], her [[ability:burst]] or [[ability:plunge]]s replenishes [[ability:skill]] Charges",
+            "fr": "Pour passer d'une étape à une autre, il est nécessaire d'avoir des **Charges de [[ability:skill]]**, qui peuvent être obtenues des façons suivantes:\n- **En entrant dans l'état amélioré de son [[ability:skill]]**: Gagne immédiatement 2 Charges\n- **En étant dans l'état amélioré de son [[ability:skill]]**: Utiliser de manière répétée des [[ability:na|Attaques Normales]], [[ability:ca|Attaques Chargées]], son [[ability:burst]] ou des [[ability:plunge|Attaques Plongeantes]] donne des Charges de [[ability:skill]]"
+        },
+        {
+            "en": "A standard [[character:vesna]] combo looks like: {rot:E > N1CE N1CE (Q / N1C N1C) E N1CE N1CE}",
+            "fr": "Un combo classique de [[character:vesna]] donnerait: {rot:E > N1CE N1CE (A / N1C N1C) E N1CE N1CE}"
+        },
+        {
+            "en": "In order to deal [[element:stellar-swirl]] damage with [[character:vesna]], you must **trigger [[element:stellar-swirl]] at least once per 8 seconds**.",
+            "fr": "Afin d'infliger des dégâts d'[[element:stellar-swirl]] avec [[character:vesna]], vous devez **déclencher [[element:stellar-swirl]] au moins une fois toutes les 8 secondes**."
+        },
+        {
+            "en": "## [[note:wip-artifact]]\n- [[set:gilded-dreams]]\n"
+        }
+    ],
     "tips": [
         {
             "title": {

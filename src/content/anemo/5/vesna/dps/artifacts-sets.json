@@ -15,6 +15,18 @@
         {
             "groups": [
                 {
+                    "items": [
+                        {
+                            "name": "rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
                     "choose": true,
                     "items": [
                         {
