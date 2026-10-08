@@ -70,6 +70,13 @@
                 "light-of-foliar-incision",
                 "athame-artis",
                 {
+                    "name": "key-of-khaj-nisut",
+                    "note": {
+                        "en": "This weapon performs worse in teams with longer rotations (>20s) due to stack uptime. The buff provided by this weapon makes it worth considering for [[character:odette]]; however, it doesn't change they way you build her.",
+                        "fr": "Cette arme est moins bonne dans les équipes avec des rotations qui prennent plus de 20s. Le buff qu'elle apporte en fait une option à consider pour [[character:odette]], mais ne change pas la façon dont il faut la build."
+                    }
+                },
+                {
                     "name": "exaiphanes-blade",
                     "note": {
                         "en": "[[note:exaiphanes]]."
