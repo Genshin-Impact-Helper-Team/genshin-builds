@@ -40,10 +40,8 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se classe de manière similaire à **[[weapon:calamity-queller]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:calamity-queller]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 },
                 {
@@ -62,10 +60,8 @@
                 {
                     "name": "sacrificers-staff",
                     "note": {
-                        "en": "At **[R5]**, this weapon ranks similarly to **[[weapon:deathmatch]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se classe de manière similaire à **[[weapon:deathmatch]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:deathmatch]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:deathmatch|Смертельному бою]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:deathmatch]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:deathmatch|Смертельному бою]]**."
                     }
                 },
                 "blackcliff-pole"

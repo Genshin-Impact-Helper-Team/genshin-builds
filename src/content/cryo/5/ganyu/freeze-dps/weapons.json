@@ -54,19 +54,19 @@
                 {
                     "name": "prototype-crescent",
                     "note": {
-                        "en": "Requires a weak spot hit before casting [[character:ganyu]]'s [[ability:burst]] to utilize the passive fully. At **[R5]**, this weapon peforms close to **[[weapon:skyward-harp]]**.",
-                        "fr": "Nécessite de toucher un point faible avant de lancer l'[[ability:burst]] de [[character:ganyu]] afin d'exploiter pleinement le passif. Une fois **[R5]**, cette arme se rapproche de **[[weapon:skyward-harp]]**.",
-                        "it": "Necessita di un colpo ad un Punto Debole prima del [[ability:burst]] per sfruttare appieno la passiva. A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**.",
-                        "ru": "Требуется ударить по слабому месту до активации [[ability:burst|Взрыва стихий]], чтобы сработала Пассивная способность. На **[R5]** близок по силе к **[[weapon:skyward-harp|Небесному крылу]]**."
+                        "en": "Requires a weak spot hit before casting [[character:ganyu]]'s [[ability:burst]] to utilize the passive fully. [[note:r5-similar]]**[[weapon:skyward-harp]]**.",
+                        "fr": "Nécessite de toucher un point faible avant de lancer l'[[ability:burst]] de [[character:ganyu]] afin d'exploiter pleinement le passif. [[note:r5-similar]] **[[weapon:skyward-harp]]**.",
+                        "it": "Necessita di un colpo ad un Punto Debole prima del [[ability:burst]] per sfruttare appieno la passiva.[[note:r5-similar]] **[[weapon:skyward-harp]]**.",
+                        "ru": "Требуется ударить по слабому месту до активации [[ability:burst|Взрыва стихий]], чтобы сработала Пассивная способность. [[note:r5-similar]] **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 },
                 {
                     "name": "mouuns-moon",
                     "note": {
-                        "en": "This weapon's exact performance varies with the teams total [[ability:burst]] cost. At **[R5]**, this weapon performs similar to **[[weapon:thundering-pulse]]**.",
-                        "fr": "Les performances exactes de cette arme varient selon le coût total d'[[ability:burst]] de l'équipe. Une fois **[R5]**, cette arme équivaut à **[[weapon:thundering-pulse]]**.",
-                        "it": "Le prestazioni esatte di quest'arma variano in base al costo totale dei [[ability:burst|Tripudi]] del team. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:thundering-pulse]]**.",
-                        "ru": "Сила оружия зависит от стоимости [[ability:burst|Взрывов стихии]] отряда. На **[R5]** соответствует **[[weapon:thundering-pulse|Громовому пульсу]]**."
+                        "en": "This weapon's exact performance varies with the teams total [[ability:burst]] cost. [[note:r5-similar]] **[[weapon:thundering-pulse]]**.",
+                        "fr": "Les performances exactes de cette arme varient selon le coût total d'[[ability:burst]] de l'équipe. [[note:r5-similar]] **[[weapon:thundering-pulse]]**.",
+                        "it": "Le prestazioni esatte di quest'arma variano in base al costo totale dei [[ability:burst|Tripudi]] del team. [[note:r5-similar]] **[[weapon:thundering-pulse]]**.",
+                        "ru": "Сила оружия зависит от стоимости [[ability:burst|Взрывов стихии]] отряда. [[note:r5-similar]] **[[weapon:thundering-pulse|Громовому пульсу]]**."
                     }
                 }
             ]

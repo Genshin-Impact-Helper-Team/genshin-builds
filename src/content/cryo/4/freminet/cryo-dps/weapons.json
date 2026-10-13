@@ -145,10 +145,10 @@
                 {
                     "name": "lithic-blade",
                     "note": {
-                        "en": "Assumes 1 Liyue teammate. At **[R5]**, it can perform similarly to **[[weapon:serpent-spine]]**.",
-                        "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. Une fois **[R5]**, cette arme devient similaire à **[[weapon:serpent-spine]]**.",
-                        "it": "La classifica presuppone che nel team sia presente un personaggio di Liyue. A **[R5]**, può avere prestazioni simili a **[[weapon:serpent-spine]]**.",
-                        "ru": "Предполагается 1 персонаж из Ли Юэ. На **[R5]** соответствует **[[weapon:serpent-spine|Мечу драконьей кости]]**."
+                        "en": "Assumes 1 Liyue teammate. [[note:r5-similar]] **[[weapon:serpent-spine]]**.",
+                        "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. [[note:r5-similar]] **[[weapon:serpent-spine]]**.",
+                        "it": "La classifica presuppone che nel team sia presente un personaggio di Liyue. [[note:r5-similar]] **[[weapon:serpent-spine]]**.",
+                        "ru": "Предполагается 1 персонаж из Ли Юэ. [[note:r5-similar]] **[[weapon:serpent-spine|Мечу драконьей кости]]**."
                     }
                 }
             ]

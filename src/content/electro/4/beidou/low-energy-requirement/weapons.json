@@ -30,10 +30,10 @@
                 {
                     "name": "serpent-spine",
                     "note": {
-                        "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. At **[R5]**, this weapon performs similar **[[weapon:verdict]]**.",
-                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. Une fois **[R5]**, cette arme est similaire à **[[weapon:verdict]]**.",
-                        "it": "La classifica presuppone che l'effetto dell'arma venga accumulato precedentemente fino a 5 accumuli in modo che il [[ability:burst]] di [[character:beidou]] possa 'snapshottarlo'. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:verdict]]**.",
-                        "ru": "Предполагается, что [[character:beidou]] заранее получает 5 уровней Пассивной способности. На [R5] соответствует **[[weapon:verdict|Вердикту]]**."
+                        "en": "Assumes prestacking the weapon to 5 stacks so [[character:beidou]]'s [[ability:burst]] can snapshot them. [[note:r5-similar]] **[[weapon:verdict]]**.",
+                        "fr": "Suppose que l'arme a déjà accumulé 5 stacks pour que l'[[ability:burst]] de [[character:beidou]] puisse les snapshot. [[note:r5-similar]] **[[weapon:verdict]]**.",
+                        "it": "La classifica presuppone che l'effetto dell'arma venga accumulato precedentemente fino a 5 accumuli in modo che il [[ability:burst]] di [[character:beidou]] possa 'snapshottarlo'. [[note:r5-similar]] **[[weapon:verdict]]**.",
+                        "ru": "Предполагается, что [[character:beidou]] заранее получает 5 уровней Пассивной способности. [[note:r5-similar]] **[[weapon:verdict|Вердикту]]**."
                     }
                 },
                 {
@@ -58,19 +58,16 @@
                 {
                     "name": "akuoumaru",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:fang-of-the-mountain-king]]**.",
-                        "fr": "Une fois **[R5]**, cette arme devient meilleure que **[[weapon:fang-of-the-mountain-king]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:fang-of-the-mountain-king]]**.",
-                        "ru": "На **[R5]** это оружие превосходит **[[weapon:fang-of-the-mountain-king]]**."
+                        "en": "[[note:r5-better]] **[[weapon:fang-of-the-mountain-king]]**."
                     }
                 },
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes that [[element:pyro]]-related passive is inactive. At **[R5]**, it performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]** with full passive active, it performs better than **[[weapon:fang-of-the-mountain-king]]**.",
-                        "fr": "Suppose que le passif lié aux réactions [[element:pyro]] est inactif. Une fois **[R5]**, elle performe de manière similaire à **[[weapon:song-of-broken-pines]]**. Une fois **[R5]** avec le passif complet, elle devient meilleure que **[[weapon:fang-of-the-mountain-king]]**.",
-                        "it": "La classifica presuppone che la passiva relativa a [[element:pyro]] **non** sia attiva. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:song-of-broken-pines]]**. A **[R5]**, con la passiva completamente attiva, ha prestazioni migliori di **[[weapon:fang-of-the-mountain-king]]**.",
-                        "ru": "Предполагается, что часть Пассивной способности, активируемая [[element:pyro]], неактивна. На **[R5]** соответствует **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**. На **[R5]** с полностью активной Пассивной способностью превосходит **[[weapon:fang-of-the-mountain-king]]**."
+                        "en": "Assumes that [[element:pyro]]-related passive is inactive. [[note:r5-similar]] **[[weapon:song-of-broken-pines]]**. At **[R5]** with full passive active, it performs better than **[[weapon:fang-of-the-mountain-king]]**.",
+                        "fr": "Suppose que le passif lié aux réactions [[element:pyro]] est inactif. [[note:r5-similar]] **[[weapon:song-of-broken-pines]]**. Une fois **[R5]** avec le passif complet, elle devient meilleure que **[[weapon:fang-of-the-mountain-king]]**.",
+                        "it": "La classifica presuppone che la passiva relativa a [[element:pyro]] **non** sia attiva. [[note:r5-similar]] **[[weapon:song-of-broken-pines]]**. A **[R5]**, con la passiva completamente attiva, ha prestazioni migliori di **[[weapon:fang-of-the-mountain-king]]**.",
+                        "ru": "Предполагается, что часть Пассивной способности, активируемая [[element:pyro]], неактивна. [[note:r5-similar]] **[[weapon:song-of-broken-pines|Песне разбитых сосен]]**. На **[R5]** с полностью активной Пассивной способностью превосходит **[[weapon:fang-of-the-mountain-king]]**."
                     }
                 },
                 {
@@ -109,10 +106,10 @@
                 {
                     "name": "lithic-blade",
                     "note": {
-                        "en": "Assumes 1 stack. At **[R5]**, it performs similarly to **[[weapon:talking-stick]]**. At **[R5]** with 2 stacks, it performs similarly to **[[weapon:tidal-shadow]]**.",
-                        "fr": "Suppose 1 cumul du passif. Une fois **[R5]**, elle devient similaire à **[[weapon:talking-stick]]**. Une fois **[R5]** avec 2 cumuls du passif, elle devient similaire à **[[weapon:tidal-shadow]]**.",
-                        "it": "La classifica presuppone 1 accumulo. A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:talking-stick]]**. A **[R5]** con 2 accumuli, ha prestazioni simili a **[[weapon:tidal-shadow]]**.",
-                        "ru": "Предполагается 1 уровень Пассивной способности. На **[R5]** соответствует **[[weapon:talking-stick|Говорящей палице]]**. На **[R5]** с двумя уровнями соответствует **[[weapon:tidal-shadow|Тени волны]]**."
+                        "en": "Assumes 1 stack. [[note:r5-similar]] **[[weapon:talking-stick]]**. At **[R5]** with 2 stacks, it performs similarly to **[[weapon:tidal-shadow]]**.",
+                        "fr": "Suppose 1 cumul du passif. [[note:r5-similar]] **[[weapon:talking-stick]]**. Une fois **[R5]** avec 2 cumuls du passif, elle devient similaire à **[[weapon:tidal-shadow]]**.",
+                        "it": "La classifica presuppone 1 accumulo. [[note:r5-similar]] **[[weapon:talking-stick]]**. A **[R5]** con 2 accumuli, ha prestazioni simili a **[[weapon:tidal-shadow]]**.",
+                        "ru": "Предполагается 1 уровень Пассивной способности. [[note:r5-similar]] **[[weapon:talking-stick|Говорящей палице]]**. На **[R5]** с двумя уровнями соответствует **[[weapon:tidal-shadow|Тени волны]]**."
                     }
                 },
                 {

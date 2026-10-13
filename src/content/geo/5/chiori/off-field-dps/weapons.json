@@ -53,10 +53,8 @@
                 {
                     "name": "wolf-fang",
                     "note": {
-                        "en": "At **[R5]** this weapon performs close to **[[weapon:primordial-jade-cutter]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:primordial-jade-cutter]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:primordial-jade-cutter]]**.",
-                        "ru": "На **[R5]** примерно соответствует **[[weapon:primordial-jade-cutter|Драгоценному омуту]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:primordial-jade-cutter]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:primordial-jade-cutter|Драгоценному омуту]]**."
                     }
                 }
             ]

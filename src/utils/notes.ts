@@ -20,7 +20,9 @@ function renderNote(note: string, sourceFile: string, translator: any) {
     rotationPopovers: true,
   });
 
-  return (marked.parse(renderedNote) as string).replace(/<\/?p>/g, '');
+  return (marked.parse(renderedNote, { breaks: true }) as string)
+    .replace(/<\/p>\s*<p>/g, '<br><br>')
+    .replace(/<\/?p>/g, '');
 }
 
 /**

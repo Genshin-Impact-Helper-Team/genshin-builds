@@ -81,6 +81,9 @@ src/content/<element>/<rarity>/<character>/<build>/build-notes.json
 
 Keep important advice in `notes` and put optional details in `tips`.
 The section is hidden when the selected build's `tips` is missing or empty. Tips belong to the selected build.
+Both `title` and `content` support inline translation tokens, for example
+`Overcapping on [[stat:cr]]`. Titles display translated text; content also
+supports Markdown and weapon, artifact, and rotation popovers.
 
 ```json
 "tips": [

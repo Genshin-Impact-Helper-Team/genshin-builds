@@ -44,10 +44,10 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:engulfing-lightning]]**, and it will perform a little worse than **[[weapon:staff-of-homa]]** if she is played in single-target.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:engulfing-lightning]]**, et elle reste un peu en dessous de **[[weapon:staff-of-homa]]** si [[character:emilie]] est jouée en monocible.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:engulfing-lightning]]**, e prestazioni leggermente inferiori di **[[weapon:staff-of-homa]]** se contro un nemico singolo.",
-                        "ru": "На **[R5]** превосходит **[[weapon:engulfing-lightning|Сияющую жатву]]** и немного уступает **[[weapon:staff-of-homa|Посоху Хомы]]** в бою с одиночным противником."
+                        "en": "[[note:r5-better]] **[[weapon:engulfing-lightning]]**, and it will perform a little worse than **[[weapon:staff-of-homa]]** if she is played in single-target.",
+                        "fr": "[[note:r5-better]] **[[weapon:engulfing-lightning]]**, et elle reste un peu moins bonne que **[[weapon:staff-of-homa]]** si [[character:emilie]] est jouée en monocible.",
+                        "it": "[[note:r5-better]] **[[weapon:engulfing-lightning]]**, e prestazioni leggermente inferiori di **[[weapon:staff-of-homa]]** se contro un nemico singolo.",
+                        "ru": "[[note:r5-better]] **[[weapon:engulfing-lightning|Сияющую жатву]]** и немного уступает **[[weapon:staff-of-homa|Посоху Хомы]]** в бою с одиночным противником."
                     }
                 }
             ]

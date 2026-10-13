@@ -60,10 +60,8 @@
                 {
                     "name": "deathmatch",
                     "note": {
-                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:symphonist-of-scents]]**.",
-                        "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:symphonist-of-scents]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:symphonist-of-scents]]**.",
-                        "ru": "**На [R5]** соответствует **[[weapon:symphonist-of-scents|Симфонисту ароматов]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:symphonist-of-scents]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:symphonist-of-scents|Симфонисту ароматов]]**."
                     }
                 }
             ]
@@ -73,10 +71,8 @@
                 {
                     "name": "ballad-of-the-fjords",
                     "note": {
-                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
-                        "fr": "**Une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
-                        "ru": "**На [R5]** соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:calamity-queller]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 }
             ]
@@ -87,10 +83,8 @@
                 {
                     "name": "sacrificers-staff",
                     "note": {
-                        "en": "**At [R5]**, this weapon ranks similarly to **[[weapon:calamity-queller]]**.",
-                        "fr": "**une fois [R5]**, cette arme équivaut à **[[weapon:calamity-queller]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili a **[[weapon:calamity-queller]]**.",
-                        "ru": "**На [R5]** соответствует **[[weapon:calamity-queller|Усмирителю бед]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:calamity-queller]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:calamity-queller|Усмирителю бед]]**."
                     }
                 }
             ]

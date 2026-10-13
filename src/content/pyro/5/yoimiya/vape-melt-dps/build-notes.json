@@ -1,0 +1,52 @@
+{
+    "best": true,
+    "name": {
+        "en": "[[element:vaporize]]/[[element:melt]] DPS",
+        "fr": "DPS [[element:vaporize]]/[[element:melt]]",
+        "it": "DPS [[element:vaporize]]/[[element:melt]]",
+        "ru": "ДД через [[element:vaporize]]/[[element:melt]]"
+    },
+    "notes": [
+        {
+            "en": "[[character:yoimiya]] is an On-Field DPS who uses her [[ability:skill]]-enhanced [[ability:na]]s to deal damage. In [[element:vaporize]] and [[element:melt]] teams, [[character:yoimiya]]’s [[ability:na]] damage can be further amplified. ",
+            "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans des équipes [[element:vaporize]] & [[element:melt]], les dégâts d'[[ability:na]] de [[character:yoimiya]] sont amplifiés."
+        },
+        {
+            "en": "Because her optimal {rot:N5} attack string allows her to trigger the most [[element:vaporize]]/[[element:melt]] hits possible, interrupting the attack string in any way is a damage loss. As such, it is recommended to use a source of interruption resistance alongside [[character:yoimiya]].",
+            "fr": "Comme son combo optimal d'[[ability:na]] {rot:N5} lui permet de déclencher le plus de coups [[element:vaporize]]/[[element:melt]] possible, interrompre son combo d'[[ability:na]] d'une quelconque façon représente une perte de dégâts. Ainsi, il est recommandé de jouer une source de Résistance à l'Interruption avec [[character:yoimiya]]."
+        }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "[[ability:na]] string",
+                "fr": "Combo d'[[ability:na]]",
+                "it": "Stringa di [[ability:na|Attacchi Normali]]"
+            },
+            "content": {
+                "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}.\nIn [[element:vaporize]]/[[element:melt]] teams, you should be triggering the reaction on the {rot:N1}, {rot:N3} and {rot:N5}.",
+                "fr": "L'attaque la plus puissante du combo d'[[ability:na]] de [[character:yoimiya]] est sa {rot:N5}.\nDans les équipes [[element:vaporize]]/[[element:melt]], vous devriez chercher à déclencher la réaction sur sa {rot:N1}, {rot:N3} et {rot:N5}.",
+                "it": "Il colpo più forte della stringa di [[ability:na|Attacchi Normali]] di [[character:yoimiya]] è il suo {rot:N5}.\nIn [[element:vaporize]]/[[element:melt]] teams, you should be triggering the reaction on the {rot:N1}, {rot:N3} and {rot:N5}.",
+                "ru": "Сильнейшая [[ability:na]] из серии - {rot:N5}.\nВ отрядах, где она играет через [[element:vaporize]]/[[element:melt]], реакция должна вызываться на {rot:N1}, {rot:N3} и {rot:N5}."
+            }
+        },
+        {
+            "title": {
+                "en": "Interruption Resistance",
+                "fr": "Résistance à l'Interruption"
+            },
+            "content": {
+                "en": "Interruption Resistance can take different forms in a character’s kit. The most obvious is **through a shield**, but some characters **grant it directly without generating one**.\n\nExamples include, but are not limited to, **[[character:xingqiu]]**’s [[ability:burst]], **[[character:vodyanitsa]]**’s [[ability:skill]], and **[[character:xilonen]]**’s [C1].\n\nNot all forms grant **interruption immunity**: Interruption Resistance **reduces the frequency** of getting staggered when hit by attacks, but **does not prevent it**.",
+                "fr": "La résistance à l’interruption peut prendre différentes formes dans le kit d’un personnage. La plus évidente est **la création d’un bouclier**, mais certains personnages **l’accordent directement, sans en générer**.\n\nC’est notamment le cas avec l'[[ability:burst]] de **[[character:xingqiu]]**, le [[ability:skill]] de **[[character:vodyanitsa]]** ou la [C1] de **[[character:xilonen]]** par exemple. \n\nToutes les formes n'offrent pas d'**immunité à l'interruption**: la résistance à l'interruption **réduit la fréquence** à laquelle vous pouvez être interrompu, mais **ne l'empêche pas complètement**."
+            }
+        }
+    ],
+    "weapons": {
+        "author": "bbytighnari",
+        "link": "https://docs.google.com/spreadsheets/d/1ccciOn7mLVRP7PaB0U0iQfEkX-JJ0zL-fKn84iFjdeE/edit?usp=sharing"
+    },
+    "artifact": {
+        "author": "Chiston",
+        "link": "https://docs.google.com/spreadsheets/d/1pSioo_Zd9v8TlQjLD1ldQyj1LP4MDYmAA7rrWXWA4Ow/edit?gid=848665920#gid=848665920"
+    }
+}

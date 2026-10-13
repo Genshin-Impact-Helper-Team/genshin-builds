@@ -1,0 +1,82 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "the-daybreak-chronicles",
+                "thundering-pulse"
+            ]
+        },
+        {
+            "items": [
+                "the-first-great-magic"
+            ]
+        },
+        {
+            "items": [
+                "aqua-simulacra"
+            ]
+        },
+        {
+            "items": [
+                "skyward-harp"
+            ]
+        },
+        {
+            "items": [
+                "hunters-path",
+                {
+                    "name": "polar-star",
+                    "note": {
+                        "en": "Performing a [[ability:ca]] before her [[ability:skill]] improves this weapon's performance, making it a stronger option than **[[weapon:hunters-path]]**.",
+                        "fr": "Utiliser une [[ability:ca]] avant son [[ability:skill]] augmente les performances de cette arme, la rendant meilleure que **[[weapon:hunters-path]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "golden-frostbound-oath",
+                "astral-vultures-crimson-plumage"
+            ]
+        },
+        {
+            "items": [
+                "jade-vista"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "slingshot",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "amos-bow"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hamayumi",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "rust",
+                    "note": {
+                        "en": "At [R5], this weapon ranks above **[[weapon:slingshot]]**.",
+                        "fr": "Une fois [R5], cette arme dépasse **[[weapon:slingshot]]**.",
+                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:slingshot]]**.",
+                        "ru": "На [R5] превосходит **[[weapon:slingshot]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}

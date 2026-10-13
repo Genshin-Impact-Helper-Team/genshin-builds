@@ -17,8 +17,29 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "rising-winds",
                             "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
                         }
                     ]
                 }

@@ -70,10 +70,8 @@
                 {
                     "name": "rust",
                     "note": {
-                        "en": "At **[R5]** this weapon performs better than **[[weapon:song-of-stillness]] [R5]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:song-of-stillness]] [R5]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:song-of-stillness]] [R5]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:song-of-stillness]] [R5]**."
+                        "en": "[[note:r5-better]] **[[weapon:song-of-stillness]] [R5]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:song-of-stillness]] [R5]**."
                     }
                 },
                 "mouuns-moon"

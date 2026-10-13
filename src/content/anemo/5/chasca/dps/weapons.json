@@ -44,10 +44,8 @@
                 {
                     "name": "scion-of-the-blazing-sun",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs close to **[[weapon:skyward-harp]]**.",
-                        "fr": "Une fois **[R5]**, cette arme se rapproche de **[[weapon:skyward-harp]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:skyward-harp|Небесному крылу]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:skyward-harp]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 }
             ]
@@ -71,10 +69,8 @@
                 {
                     "name": "flower-wreathed-feathers",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs similarly to **[[weapon:skyward-harp]]**.",
-                        "fr": "Une fois **[R5]**, cette arme équivaut presque à **[[weapon:skyward-harp]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni simili ad **[[weapon:skyward-harp]]**.",
-                        "ru": "На **[R5]** соответствует **[[weapon:skyward-harp|Небесному крылу]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:skyward-harp]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:skyward-harp|Небесному крылу]]**."
                     }
                 },
                 {

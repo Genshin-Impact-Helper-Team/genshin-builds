@@ -28,5 +28,15 @@
         {
             "en": "## [[note:wip-artifact]]\n- [[set:silken-moons-serenade]]\n"
         }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "[[ability:bol]]"
+            },
+            "content": {
+                "en": "[[note:tips-bol]]"
+            }
+        }
     ]
 }

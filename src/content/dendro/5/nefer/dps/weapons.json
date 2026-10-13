@@ -41,10 +41,8 @@
                 {
                     "name": "dawning-frost",
                     "note": {
-                        "en": "At **[R5]**, this weapon will perform better than **[[weapon:sunny-morning-sleep-in]]**.",
-                        "fr": "Une fois **[R5]**, cette arme dépasse **[[weapon:sunny-morning-sleep-in]]**.",
-                        "it": "A **[R5]**, quest'arma ha prestazioni migliori di **[[weapon:sunny-morning-sleep-in]]**.",
-                        "ru": "На **[R5]** превосходит **[[weapon:sunny-morning-sleep-in]]**."
+                        "en": "[[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**.",
+                        "ru": "[[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**."
                     }
                 }
             ]

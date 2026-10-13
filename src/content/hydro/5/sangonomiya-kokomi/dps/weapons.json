@@ -20,7 +20,7 @@
                     "note": {
                         "en": "This weapon can provide Elemental DMG% for the team in [[element:electrocharged]] teams, and is the best choice in those situations.",
                         "fr": "Cette arme offre du DGT% élémentaire pour l'équipe dans les compositions [[element:electrocharged]], ce qui en fait le meilleur choix pour ces situations.",
-                        "it": "Quest'arma può fornire DAN% Elementale ai team [[element:electrocharged]], ed in tale caso è la scelta migliore.",
+                        "it": "Quest'arma può fornire DAN% Elementale ai team **[[element:electrocharged]]**, ed in tale caso è la scelta migliore.",
                         "ru": "Может быть источником бонуса Элементального урона в командах, играющих через реакцию Заряжен, а также лучшим оружием на Кокоми в таких отрядах."
                     }
                 }
