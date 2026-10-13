@@ -9,11 +9,13 @@
     "notes": [
         {
             "en": "[[character:yoimiya]] is an On-Field DPS who uses her [[ability:skill]]-enhanced [[ability:na]]s to deal damage. In [[element:overload]] teams, [[character:yoimiya]] typically makes use of [[character:chevreuse]] and other [[element:pyro]]/[[element:electro]] supports to amplify her damage.",
-            "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans les équipes [[element:overload]], [[character:yoimiya]] profite typiquement de [[character:chevreuse]] et d'autres supports [[element:pyro]]/[[element:electro]] pour amplifier ses dégâts."
+            "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans les équipes [[element:overload]], [[character:yoimiya]] profite typiquement de [[character:chevreuse]] et d'autres supports [[element:pyro]]/[[element:electro]] pour amplifier ses dégâts.",
+            "it": "[[character:yoimiya]] è una DPS sul campo che utilizza i suoi [[ability:na|Attacchi Normali]] potenziati dalla [[ability:skill]] per infliggere danni. In team [[element:overload]], [[character:yoimiya]] è giocata solitamente con [[character:chevreuse]] e ad altri supporti [[element:pyro]]/[[element:electro]] per potenziare i propri danni."
         },
         {
-            "en": "Unlike her [[element:vaporize]] and [[element:melt]] playstyle, interrupting her attack string does not cause a large damage loss, so there is not a need for interruption resistance; unless you want one for ease of use. ",
-            "fr": "Contrairement à son style de jeu [[element:vaporize]]/[[element:melt]], interrompre son combo d'[[ability:na]] ne représente pas forcément une perte de dégâts. Il n'est donc pas forcément nécessaire d'avoir une source de Résistance à l'Interruption, à moins que vous souhaitiez en avoir une pour vous simplifier la vie."
+            "en": "Unlike her [[element:vaporize]] and [[element:melt]] playstyle, interrupting her attack string does not cause a large damage loss, so there is not a need for interruption resistance; unless you want one for ease of use.",
+            "fr": "Contrairement à son style de jeu [[element:vaporize]]/[[element:melt]], interrompre son combo d'[[ability:na]] ne représente pas forcément une perte de dégâts. Il n'est donc pas forcément nécessaire d'avoir une source de Résistance à l'Interruption, à moins que vous souhaitiez en avoir une pour vous simplifier la vie.",
+            "it": "A differenza dello stile di gioco in [[element:vaporize]] o [[element:melt]], interrompere la sequenza di Attacchi Normali non comporta una perdita significativa di danni, quindi non è necessaria resistenza alle interruzioni, a meno che non la si desideri per praticità."
         }
     ],
     "tips": [

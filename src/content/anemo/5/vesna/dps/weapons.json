@@ -71,7 +71,8 @@
                     "note": {
                         "en": "[[note:bol-rank-clear]], do not use this weapon.",
                         "fr": "[[note:bol-rank-clear]], n'utilisez pas cette arme.",
-                        "ru": "[[note:bol-rank-clear]] не используйте данное оружие."
+                        "ru": "[[note:bol-rank-clear]] не используйте данное оружие.",
+                        "it": "[[note:bol-rank-clear]], non vale la pena utilizzare quest'arma."
                     }
                 }
             ]
@@ -97,7 +98,8 @@
                     "name": "heretics-molten-blade",
                     "note": {
                         "en": "[[note:r5-similar]] **[[weapon:emberwell]]**.",
-                        "ru": "[[note:r5-similar]] **[[weapon:emberwell|Источнику пламени]]**."
+                        "ru": "[[note:r5-similar]] **[[weapon:emberwell|Источнику пламени]]**.",
+                        "it": "[[note:r5-similar]] **[[weapon:emberwell]]**."
                     }
                 }
             ]
