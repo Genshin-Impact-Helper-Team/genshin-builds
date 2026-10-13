@@ -46,10 +46,10 @@
                 {
                     "name": "jade-vista",
                     "note": {
-                        "en": "**At [R5]]** with another [[element:hydro]] character on the team, this weapon performs better than **[[weapon:aqua-simulacra]]**.\n**At [R5]** with no other [[element:hydro]] character on the team, this weapon performs better than **[[weapon:skyward-harp]]**.",
-                        "fr": "**Une fois [R5]]** avec un autre personnage [[element:hydro]] dans l'équipe, cette arme devient meilleure que **[[weapon:aqua-simulacra]]**.\n**Une fois [R5]** sans aucun autre personnage [[element:hydro]] dans l'équpe, cette arme devient meilleure que **[[weapon:skyward-harp]]**.",
+                        "en": "**At [R5]** with another [[element:hydro]] character on the team, this weapon performs better than **[[weapon:aqua-simulacra]]**.\n**At [R5]** with no other [[element:hydro]] character on the team, this weapon performs better than **[[weapon:skyward-harp]]**.",
+                        "fr": "**Une fois [R5]** avec un autre personnage [[element:hydro]] dans l'équipe, cette arme devient meilleure que **[[weapon:aqua-simulacra]]**.\n**Une fois [R5]** sans aucun autre personnage [[element:hydro]] dans l'équpe, cette arme devient meilleure que **[[weapon:skyward-harp]]**.",
                         "it": "A **[R5]**, con un altro personaggio [[element:hydro]] nel team, quest'arma ha prestazioni migliori di **[[weapon:aqua-simulacra]]**.\nA **[R5]**, in assenza di altri personaggi [[element:hydro]] nel team, quest'arma ha prestazioni migliori di **[[weapon:skyward-harp]]**.",
-                        "ru": "**На [R5]]** в отрядах со вторым [[element:hydro]] персонажем превосходит **[[weapon:aqua-simulacra]]**.\n**На [R5]]** без второго [[element:hydro]] превосходит **[[weapon:skyward-harp]]**."
+                        "ru": "**На [R5]** в отрядах со вторым [[element:hydro]] персонажем превосходит **[[weapon:aqua-simulacra]]**.\n**На [R5]]** без второго [[element:hydro]] превосходит **[[weapon:skyward-harp]]**."
                     }
                 }
             ]
