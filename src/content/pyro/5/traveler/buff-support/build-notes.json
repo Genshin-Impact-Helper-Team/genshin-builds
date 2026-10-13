@@ -30,6 +30,9 @@
             "fr": "Le [[ability:skill]] du [[character:traveler]] a deux variantes. Le [[ability:skill]] simple forme un cercle autour du personnage actif et inflige des dégâts lorsqu'à proximité d'un ennemi. Le [[ability:skill]] appuyé inflige des dégâts en tant qu'attaque conjointe chaque fois que le personnage actif inflige des dégâts.",
             "it": "L'[[ability:skill]] del [[character:traveler]] ha 2 varianti. Quando **cliccata**, forma un anello intorno al personaggio attivo e provoca danni quando ci si avvicina ad un nemico. Quando **premuta a lungo**, provoca danni tramite un attacco coordinato ogni volta che il personaggio attivo provoca danni.",
             "ru": "[[ability:skill]] [[character:traveler]]а имеет две версии. Быстрое нажатие создает кольцо вокруг активного персонажа и наносит урон врагам поблизости. Долгое нажатие позволяет навыку совершать совместную атаку, когда активный персонаж наносит урон противникам."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:beyond-the-chrysalis]]\n- [[weapon:new-bough]]\n"
         }
     ]
 }

@@ -5,6 +5,7 @@
         "it": "DPS [[element:bloom]]",
         "ru": "Бутонизация"
     },
+    "last_updated": "7.1",
     "notes": [
         {
             "en": "This build is specifically for [[element:bloom]] teams where [[character:barbara]] is the character intended to trigger the majority of [[element:bloom]]s.",

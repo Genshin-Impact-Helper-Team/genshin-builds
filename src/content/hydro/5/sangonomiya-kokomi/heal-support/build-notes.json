@@ -18,6 +18,9 @@
             "fr": "L'[[ability:burst]] de [[character:sangonomiya-kokomi]] change dynamiquement les dégâts de son [[ability:skill]], ce qui implique que vous ne pouvez pas snapshot les buffs de son [[ability:burst]] sur son [[ability:skill]] puis changer de personnage.",
             "it": "Il [[ability:burst]] di [[character:sangonomiya-kokomi]] altera dinamicamente il danno della sua [[ability:skill]], non è dunque possibile usare il [[ability:burst]] per 'snapshottare' tale potenziamento sull'[[ability:skill]] e poi uscire dal campo.",
             "ru": "Взрыв стихии Кокоми влияет на урон Элементального навыка динамически, что означает, что при использовании Взрыва стихии и переключении персонажа бонус сбросится."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:hymn-of-the-maelstrom]]\n"
         }
     ]
 }
