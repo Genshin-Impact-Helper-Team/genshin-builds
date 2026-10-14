@@ -1,0 +1,29 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "ttds"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "hakushin-ring",
+                    "note": {
+                        "en": "Better if used in a team with [[element:electro]] damage dealers, but is good for [[stat:er]] regardless.",
+                        "fr": "Devient une meilleure option dans les équipes avec des personnages infligeant des dégâts [[element:electro]], mais même sans, cela reste tout de même une bonne option pour la [[stat:er]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "flowing-purity"
+                }
+            ]
+        }
+    ]
+}

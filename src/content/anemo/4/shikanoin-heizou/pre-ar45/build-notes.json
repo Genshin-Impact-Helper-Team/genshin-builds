@@ -1,0 +1,15 @@
+{
+    "name": {
+        "en": "[[note:pre-ar45]]"
+    },
+    "notes": [
+        {
+            "en": "[[note:investment-value]]: [[note:low-iv]]"
+        },
+        {
+            "en": "General [[element:anemo]] support.",
+            "fr": "Support [[element:anemo]] généraliste.",
+            "it": "Supporto [[element:anemo]] generico."
+        }
+    ]
+}
