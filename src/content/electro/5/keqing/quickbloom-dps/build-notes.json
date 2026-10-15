@@ -31,5 +31,15 @@
         {
             "en": "## [[note:wip-artifact]]\n- [[set:night-of-the-skys-unveiling]]\n- [[set:a-day-carved-from-rising-winds]]\n"
         }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "Quickbloom"
+            },
+            "content": {
+                "en": "[[note:tips-quickbloom]]"
+            }
+        }
     ]
 }

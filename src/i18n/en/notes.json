@@ -10,5 +10,6 @@
     "wip-weapon": "Viable Weapons with WIP Calculations:",
     "wip-artifact": "Viable Artifact Set with WIP Calculations:",
     "tips-bol": "Bond of Life is a mechanic that **absorbs any healing** a character receives. It appears as a **red outline around their HP bar**, and its maximum value is 200% of the character's HP (represented by an outline around the entire HP bar). To clear a Bond of Life, the character must **receive healing equal to its value**.",
-    "tips-ssw": "When Stellar Swirl is triggered, a Stellar Vortex is created. These vortexes explode after a short time. The **more times Stellar Swirl is triggered**, the **higher the explosion DMG** of the vortex."
+    "tips-ssw": "When Stellar Swirl is triggered, a Stellar Vortex is created. These vortexes explode after a short time. The **more times Stellar Swirl is triggered**, the **higher the explosion DMG** of the vortex.",
+    "tips-quickbloom": "Applying Electro & Dendro on the same enemy creates a **Quicken aura**.\nApplying Electro on a Quicken aura triggers the **Aggravate reaction**.\n\nApplying Hydro & Dendro on the same enemy triggers a **Bloom reaction** and creates a **Dendro core**.\nApplying Electro on a Dendro core triggers the **Hyperbloom reaction**.\n\nA team featuring both the Aggrave & Hyperbloom reactions is referred to as **Quickbloom**."
 }
