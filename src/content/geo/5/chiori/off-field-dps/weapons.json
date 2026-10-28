@@ -34,8 +34,18 @@
                         "ru": "Предполагается наличие одной куклы. Немного уступает **[[weapon:harbinger-of-dawn|Предвестнику зари]] **[R5]**** с двумя куклами."
                     }
                 },
+                {
+                    "name": "flute-of-ezpitzal",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Ranking is assuming one doll. This weapon performs slightly better than **[[weapon:cinnabar-spindle]]** with 2 dolls"
+                    }
+                },
                 "light-of-foliar-incision",
                 "haran-geppaku-futsu",
+                "exaiphanes-blade",
+                "whitelake-frostfeather",
+                "beyond-the-chrysalis",
                 {
                     "name": "mistsplitter-reforged",
                     "note": {
