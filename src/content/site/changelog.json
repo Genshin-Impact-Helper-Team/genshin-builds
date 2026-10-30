@@ -5,6 +5,11 @@
             "version": "7.1",
             "entries": [
                 {
+                    "date": "October 30, 2026",
+                    "changes": "Tweaked assumptions for Noelle's lunar-crystallize DPS section, changed rankings accordingly.",
+                    "appliedBy": "Finnyke"
+                },
+                {
                     "date": "October 28, 2026",
                     "changes": "Updated Chiori's weapon ranking.",
                     "appliedBy": "Voidrev"
