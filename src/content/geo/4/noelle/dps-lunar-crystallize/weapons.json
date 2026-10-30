@@ -52,10 +52,8 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "In teams with high [[stat:er]] requirements, can perform better than **[[weapon:whiteblind]] [R5]**.",
-                        "fr": "Dans les équipes avec des besoins en [[stat:er]] élevés, cette arme peut mieux performer que **[[weapon:whiteblind]] [R5]**.",
-                        "it": "In team con requisiti di [[stat:er]] alti, quest'arma può avere prestazioni migliori di **[[weapon:whiteblind]] [R5]**.",
-                        "ru": "В командах с высокими требованиями к энергии может превосходить **[[weapon:whiteblind]] [R5]**."
+                        "en": "In teams with high [[stat:er]] requirements, can perform close to **[[weapon:a-teaspoon-of-transcendence]]**.",
+                        "ru": "В командах с высокими требованиями к энергии может соответствовать **[[weapon:a-teaspoon-of-transcendence|Чайную ложку трансцендентности]]**."
                     }
                 },
                 "forged-by-the-golden-melody"
