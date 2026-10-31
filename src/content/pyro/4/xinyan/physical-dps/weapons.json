@@ -2,6 +2,11 @@
     "weapons": [
         {
             "items": [
+                "skyward-pride"
+            ]
+        },
+        {
+            "items": [
                 "redhorn-stonethresher"
             ]
         },
@@ -20,26 +25,24 @@
             "items": [
                 "beacon-of-the-reed-sea",
                 "a-thousand-blazing-suns",
-                "a-teaspoon-of-transcendence",
+                "a-teaspoon-of-transcendence"
+            ]
+        },
+        {
+            "items": [
                 {
                     "name": "serpent-spine",
                     "note": {
                         "en": "Ranking assumes full stacks of the passive. At **[R5]** it performs better than **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "Предполагаются 5 уровней Пассивной способности. На **[R5]** превосходит **[[weapon:redhorn-stonethresher]]**."
                     }
-                }
+                },
+                "verdict"
             ]
         },
         {
             "items": [
-                {
-                    "name": "skyward-pride",
-                    "note": {
-                        "en": "With high [[stat:er]] requirements, can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
-                        "ru": "При высокой потребности в энергии соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
-                    }
-                },
-                "verdict"
+                "song-of-broken-pines"
             ]
         },
         {
@@ -54,7 +57,6 @@
         },
         {
             "items": [
-                "song-of-broken-pines",
                 "wolfs-gravestone"
             ]
         },
