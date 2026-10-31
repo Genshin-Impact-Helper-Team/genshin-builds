@@ -101,18 +101,6 @@
         {
             "items": [
                 {
-                    "name": "night-of-the-skys-unveiling",
-                    "pieces": 4,
-                    "note": {
-                        "en": "If used in teams with Ascendant Gleam, this is [[character:xinyan]]'s best artifact set.",
-                        "ru": "Лучший выбор при игре в отрядах с Высшим сиянием."
-                    }
-                }
-            ]
-        },
-        {
-            "items": [
-                {
                     "name": "long-nights-oath",
                     "pieces": 4,
                     "note": {
@@ -121,7 +109,7 @@
                     }
                 }
             ]
-        },
+        }
     ]
 }
 
