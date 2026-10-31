@@ -32,6 +32,13 @@
         },
         {
             "items": [
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "With high [[stat:er]] requirements, can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "При высокой потребности в энергии соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
+                    }
+                },
                 "verdict"
             ]
         },
@@ -68,7 +75,7 @@
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
                     "note": {
-                        "en": "With high [[stat:er]] requirements, can perform bettern than **[[weapon:wolfs-gravestone]]**.",
+                        "en": "With high [[stat:er]] requirements, can perform better than **[[weapon:wolfs-gravestone]]**.",
                         "ru": "При высокой потребности в энергии превосходит **[[weapon:wolfs-gravestone|Волчью погибель]]**."
                     }
                 }
