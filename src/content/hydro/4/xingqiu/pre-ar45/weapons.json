@@ -1,0 +1,32 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "finale-of-the-deep"
+            ]
+        },
+        {
+            "items": [
+                "fleuve-cendre-ferryman",
+                "amenoma-kageuchi"
+            ]
+        },
+        {
+            "items": [
+                "skyrider-sword"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "harbinger-of-dawn",
+                    "note": {
+                        "en": "Good if you can maintain the passive but [[stat:er]] weapons would be more beneficial early game",
+                        "fr": "Bonne option si vous pouvez maintenir le passif, mais une arme [[stat:er]] serait meilleure en début de jeu",
+                        "it": "Buona arma se riesci a mantenere la passiva, ma le armi [[stat:er]] sarebbero più vantaggiose agli inizi del gioco"
+                    }
+                }
+            ]
+        }
+    ]
+}

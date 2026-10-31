@@ -11,5 +11,15 @@
     "wip-artifact": "Sets d'artéfacts viables dont les calculs sont en cours:",
     "tips-bol": "L'Engagement Vital est une méchanique qui **absorbe n'importe quel soin** reçu par un personnage. Il se présente comme **un contour rouge autour de sa barre de PV**, et a une valeur maximale de 200% des PV du personnage (symbolisée par un contour rouge sur la totalité de la barre de PV). Pour retirer l'Engagemenet Vital, le personnage doit **recevoir autant de soin qu'il a d'Engagement Vital**.",
     "tips-ssw": "Lorsque Astrodispersion  est déclenché, un Vortex Stellaire est créé. Ces vortex explosent après un court laps de temps. **Au plus vous déclenchez d'Astrodispersions, au plus les dégâts d'explosion** du vortex augmenteront.",
-    "tips-quickbloom": "Appliquer Électro & Dendro sur un même ennemi créé une **aura Stimulation**.\nAppliquer Électro sur une aura Stimulation déclenche une **réaction Suractivation**.\n\nAppliquer Hydro & Dendro sur un même ennemi déclenche une **réaction Fleurissement** et créé un **noyau Dendro**.\nAppliquer Électro sur un noyau Dendro déclenche la **réaction Exubérance**.\n\nOn appelle **Quickbloom** le fait d'avoir à la fois des réactions Suractivation & Exubérance dans l'équipe."
+    "tips-quickbloom": "Appliquer Électro & Dendro sur un même ennemi créé une **aura Stimulation**.\nAppliquer Électro sur une aura Stimulation déclenche une **réaction Suractivation**.\n\nAppliquer Hydro & Dendro sur un même ennemi déclenche une **réaction Fleurissement** et créé un **noyau Dendro**.\nAppliquer Électro sur un noyau Dendro déclenche la **réaction Exubérance**.\n\nOn appelle **Quickbloom** le fait d'avoir à la fois des réactions Suractivation & Exubérance dans l'équipe.",
+    "pre-ar45": "Avant l'AR 45",
+    "investment-value": "## **Valeur d'Investissement**",
+    "high-iv": "Haute",
+    "med-high-iv": "Bonne",
+    "medium-iv": "Moyenne",
+    "low-medium-iv": "Limitée",
+    "low-iv": "Faible",
+    "4vv-p45": "Les personnages Anémo peuvent être de très bons buffer pour les éléments **Pyro/Électro/Cryo/Hydro** avec ce set. Il est recommandé de donner un 4P de ce set à vos supports Anémo (en utilisant le moins de résine possible, donc peu importe les stats) si cela aide pour votre équipe.",
+    "4scroll-p45": "Les supports de Natlan peuvent facilement buff les éléments qui réagissent avec le leur grâce à ce set. Obtenir un 4P de ce set peu importe les stats peut être bénéfique si cela aide pour votre équipe.",
+    "4dm-p45": "Il est recommandé d'avoir ce set sur un personnage de votre équipe dans les équipes qui tournent principalement autour des DGT Dendro. De la même façon que **Ombre de la Verte Chasseuse (4)** pour les personnages Anémo, il est recommandé de donner un 4P de ce set à un de vos personnages (en utilisant le moins de résine possible, donc peu importe les stats) si cela aide pour votre équipe. N'importe qui peut porter ce set (à condition de pouvoir déclencher l'effet du 4P), y compris les personnages qui ne sont pas Dendro."
 }

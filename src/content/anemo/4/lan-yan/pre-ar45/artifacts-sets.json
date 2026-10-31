@@ -1,0 +1,35 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "viridescent-venerer",
+                            "pieces": 4,
+                            "note": {
+                                "en": "[[note:4vv-p45]]"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4
+                        },
+                        {
+                            "name": "the-exile",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
