@@ -9,8 +9,8 @@
             "ru": "[[character:xinyan]]'s как Физ. ДД наносит урон на поле [[ability:burst|Взрывом стихии]] и [[ability:na|Обычными]]s/[[ability:ca|Заряженными атакми]]. На C2 её оптимальное соотношение [[stat:cr]]:[[stat:cd]] становится примерно равным 1:3."
         },
         {
-            "en": "**Pre-C6 combo: **{rot:2N4D N2}**. At C6 it's preferable to do one full [[abilities:ca]] cycle followed by **{rot:N2}**.",
-            "ru": "**Комбо до C6: **{rot:2N4D N2}**. На С6 лучше провести полную [[abilities:ca|Заряженную атаку]], затем **{rot:N2}**."
+            "en": "Pre-C6 combo: **{rot:2N4D N2}**. At C6 it's preferable to do one full [[ability:ca]] cycle followed by **{rot:N2}**.",
+            "ru": "Комбо до C6: **{rot:2N4D N2}**. На С6 лучше провести полную [[ability:ca|Заряженную атаку]], затем **{rot:N2}**."
         }
     ],
     "global": {
