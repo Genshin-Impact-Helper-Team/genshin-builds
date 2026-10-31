@@ -1,1 +1,26 @@
-
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "[[note:er-req]]."
+            }
+        },
+        "cr/cd",
+        "atk%",
+        {
+            "name": "em",
+            "note": {
+                "en": "Only useful in teams where [[character:xinyan]] can frequently trigger [[element:vaporize]] and/or [[element:overload]].",
+                "ru": "Полезно только в отрядах, где [[character:xinyan]] может часто закрывать [[element:vaporize]] и/или [[element:overload|Перегрузку]]."
+            }
+        },
+        {
+            "name": "def%",
+            "note": {
+                "en": "While not that good for damage, [[stat:def]] helps to maintain the uptime on [[character:xinyan]]'s shield.",
+                "ru": "Слабый сабстат в плане урона, но помогает поддерживать щит [[character:xinyan]]."
+            }
+        },
+    ]
+}
