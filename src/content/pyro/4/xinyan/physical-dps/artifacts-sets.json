@@ -1,1 +1,127 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "pale-flame",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "disenchantment-in-deep-shadow",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This ranking assumes that the team can reliably trigger [[element:superconduct]] or [[element:stellar-conduct]]. Otherwise, this set is not worth considering.",
+                                "fr": "Ce classement suppose que l'équipe peut déclencher [[element:superconduct]] ou [[element:stellar-conduct]] de façon fiable. Sinon, il ne faut pas utiliser ce set.",
+                                "it": "La classifica presuppone che il team inneschi in modo affidabile [[element:superconduct]] o [[element:stellar-conduct]]. In caso contrario, non vale la pena predere questo set in considerazione.",
+                                "ru": "Предполагается, что отряд способен надёжно вызывать [[element:superconduct]] или [[element:stellar-conduct]]. В противном случае этот сет не стоит использовать."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        }
+                    ],
+                    "choices": [
+                        {
+                            "items": [
+                                {
+                                    "name": "physical-set",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "golden-troupe",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "atk-set",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "er-set",
+                                    "pieces": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "golden-troupe",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used with [[character:furina]], this is [[character:xinyan]]'s best artifact set.",
+                        "ru": "Лучший выбор при игре с [[character:furina|Фуриной]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "night-of-the-skys-unveiling",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:xinyan]]'s best artifact set.",
+                        "ru": "Лучший выбор при игре в отрядах с Высшим сиянием."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "long-nights-oath",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in a [[abilities:plunge]] team with [[character:xianyun]], this is [[character:xinyan]]'s best artifact set.",
+                        "ru": "Лучший выбор при игре от [[abilities:plunge|Атак в падении]] с [[character:xianyun]]."
+                    }
+                }
+            ]
+        },
+    ]
+}
 
