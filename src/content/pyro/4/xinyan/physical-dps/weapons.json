@@ -47,72 +47,26 @@
         },
         {
             "items": [
-                "fang-of-the-mountain-king"
-            ]
-        },
-        {
-            "items": [
-                "the-unforged"
-            ]
-        },
-        {
-            "items": [
-                "wolfs-gravestone"
-            ]
-        },
-        {
-            "items": [
-                "forged-by-the-golden-melody"
-            ]
-        },
-        {
-            "items": [
+                "fang-of-the-mountain-king",
+                "the-unforged",
                 {
-                    "name": "talking-stick",
-                    "note": {
-                        "en": "Assumes that only [[element:pyro]] passive is active. At **[R5]** it performs similarly to **[[weapon:wolfs-gravestone]]**.",
-                        "ru": "Предполагается, что активна только [[element:pyro]] часть Пассивной способности. На **[R5]** соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**."
-                    }
+                    "name": "prototype-archaic",
+                    "refinement": 5
                 },
+                "wolfs-gravestone",
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
-                    "note": {
-                        "en": "With high [[stat:er]] requirements, can perform better than **[[weapon:wolfs-gravestone]]**.",
-                        "ru": "При высокой потребности в энергии превосходит **[[weapon:wolfs-gravestone|Волчью погибель]]**."
-                    }
+                    "refinement": 5
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "tidal-shadow",
-                    "refinement": 5,
+                    "name": "fruitful-hook",
                     "note": {
-                        "en": "Assumes the passive can be reliably activated.",
-                        "fr": "Suppose que le passif peut être déclenché de façon fiable",
-                        "it": "La classifica presuppone che la passiva possa essere attivata in maniera affidabile.",
-                        "ru": "Предполагается, что Пассивная способность стабильно поддерживается."
-                    }
-                },
-                "blackcliff-slasher",
-                "prototype-archaic"
-            ]
-        },
-        {
-            "items": [
-                {
-                    "name": "akuoumaru",
-                    "note": {
-                        "en": "[[note:r5-similar]] **[[weapon:blackcliff-slasher]]**.",
-                        "ru": "[[note:r5-similar]] **[[weapon:blackcliff-slasher|Черногорской бритве]]**."
-                    }
-                },
-                {
-                    "name": "lithic-blade",
-                    "note": {
-                        "en": "Assumes 1 Liyue teammate. With 2 Liyue teammates at **R5** can perform better than  **[[weapon:talking-stick]]**.",
-                        "ru": "Предполагается 1 персонаж из Ли Юэ. С двумя персонажами из Ли Юэ на **[R5]** превосходит **[[weapon:talking-stick|Говорящую палицу]]**."
+                        "en": "In a [[abilities:plunge]] team with [[character:xianyun]], this weapon performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]**, it performs better than **[[weapon:redhorn-stonethresher]]** for such teams.",
+                        "ru": "При игре от [[abilities:plunge|Атак в падении]] с [[character:xianyun]], соответствует **[[weapon:song-of-broken-pines|Песни разбитых сосен]]**. На **[R5]**, превосходит **[[weapon:redhorn-stonethresher]]** для таких отрядов."
                     }
                 }
             ]
