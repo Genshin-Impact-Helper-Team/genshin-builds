@@ -1,12 +1,12 @@
 {
     "name": {
-        "en": "DPS",
-        "ru": "ДД"
+        "en": "[[element:pyro]] DPS",
+        "ru": "[[element:pyro]] ДД"
     },
     "notes": [
         {
-            "en": "Xinyan's ",
-            "ru": ""
+            "en": "[[character:xinyan]]'s [[element:pyro]] DPS playstyle requires [[character:bennett]]'s [C6] to function. With [[element:pyro]] infused attack [[character:xinyan]] can take advantage of varyious elemental damage supports, such as [[character:kaedehara-kazuha]] and [[character:chevreuse]].",
+            "ru": "[[character:xinyan]] в качестве [[element:pyro]] ДД требует C6 [[character:bennett|Беннета]]. Благодаря [[eleemnt:pyro]] инфузии, [[character:xinyan]] cможет использовать усиления элементального урона от таких персонажей, как [[character:kaedehara-kazuha]] и [[character:chevreuse]]."
         },
         {
             "en": "**Pre-C6 combo: **{rot:2N4D N2}**. At C6 it's preferable to do one full [[abilities:charge-attack]] cycle followed by **{rot:N2}**.",
