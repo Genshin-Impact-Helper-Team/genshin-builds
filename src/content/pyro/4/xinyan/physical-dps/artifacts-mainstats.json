@@ -10,7 +10,7 @@
             }
         ],
         "goblet": [
-            "phys-dmg"
+            "physical-dmg"
         ],
         "circlet": [
             "cr",
