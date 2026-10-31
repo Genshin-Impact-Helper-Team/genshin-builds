@@ -2344,5 +2344,36 @@
             0.8,
             16
         ]
+    },
+    "starsealed-edict": {
+        "rarity": 5,
+        "version_released": "7.2",
+        "passive": {
+            "en": "",
+            "fr": "",
+            "de": "",
+            "es": "",
+            "it": "",
+            "ru": ""
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "19.2%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
+        },
+        "r1": [
+            24,
+            48,
+            24,
+            12
+        ],
+        "r2": [],
+        "r3": [],
+        "r4": [],
+        "r5": []
     }
 }
