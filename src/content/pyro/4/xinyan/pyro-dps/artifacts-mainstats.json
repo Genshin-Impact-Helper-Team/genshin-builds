@@ -1,7 +1,13 @@
 {
     "main_stats": {
         "sands": [
-            "atk%"
+            "atk%",
+            {
+                "name": "er",
+                "note": {
+                    "en": "[[note:er-req]]."
+                }
+            }
         ],
         "goblet": [
             "pyro-dmg"
