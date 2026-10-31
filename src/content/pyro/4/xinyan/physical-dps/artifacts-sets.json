@@ -9,6 +9,18 @@
                             "pieces": 4
                         }
                     ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        }
+                    ],
                 }
             ]
         },
@@ -27,11 +39,7 @@
                             }
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "groups": [
+                },
                 {
                     "items": [
                         {
@@ -43,19 +51,11 @@
                         {
                             "items": [
                                 {
-                                    "name": "physical-set",
-                                    "pieces": 2
-                                },
-                                {
-                                    "name": "golden-troupe",
+                                    "name": "er-set",
                                     "pieces": 2
                                 },
                                 {
                                     "name": "atk-set",
-                                    "pieces": 2
-                                },
-                                {
-                                    "name": "er-set",
                                     "pieces": 2
                                 }
                             ]
@@ -69,7 +69,7 @@
                 {
                     "items": [
                         {
-                            "name": "golden-troupe",
+                            "name": "a-day-carved-from-rising-winds",
                             "pieces": 4
                         }
                     ]
@@ -77,7 +77,7 @@
                 {
                     "items": [
                         {
-                            "name": "a-day-carved-from-rising-winds",
+                            "name": "retracing-bolide",
                             "pieces": 4
                         }
                     ]
