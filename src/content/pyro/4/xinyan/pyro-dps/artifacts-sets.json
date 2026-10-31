@@ -78,8 +78,8 @@
                     "name": "long-nights-oath",
                     "pieces": 4,
                     "note": {
-                        "en": "If used in a [[abilities:plunge]] team with [[character:xianyun]], this is [[character:xinyan]]'s best artifact set.",
-                        "ru": "Лучший выбор при игре от [[abilities:plunge|Атак в падении]] с [[character:xianyun]]."
+                        "en": "If used in a [[ability:plunge]] team with [[character:xianyun]], this is [[character:xinyan]]'s best artifact set.",
+                        "ru": "Лучший выбор при игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]]."
                     }
                 }
             ]
