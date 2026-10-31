@@ -1,0 +1,24 @@
+{
+    "name": {
+        "en": "On-Field DPS",
+        "fr": "DPS On-Field",
+        "it": "DPS Sul Campo",
+        "ru": "ДД на поле"
+    },
+    "best": true,
+    "notes": [
+        {
+            "en": ""
+        }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": ""
+            },
+            "content": {
+                "en": ""
+            }
+        }
+    ]
+}
