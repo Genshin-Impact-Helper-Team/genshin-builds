@@ -69,14 +69,10 @@
         },
         {
             "title": {
-                "en": "[[element:aggravate]] & Quickbloom",
-                "ru": "[[element:aggravate]] & Quickbloom"
+                "en": "[[element:aggravate]] & Quickbloom"
             },
             "content": {
-                "en": "Applying [[element:electro]] & [[element:dendro]] on the same enemy creates a **[[element:quicken]] aura**.\nApplying [[element:electro]] on a [[element:quicken]] aura triggers the **[[element:aggravate]] reaction**.\n\nApplying [[element:hydro]] & [[element:dendro]] on the same enemy triggers a **[[element:bloom]] reaction** and creates a **[[element:dendro]] core**.\nApplying [[element:electro]] on a [[element:dendro]] core triggers the **[[element:hyperbloom]] reaction**.\n\nA team featuring both the [[element:aggravate]] & [[element:hyperbloom]] reactions is referred to as **Quickbloom**.",
-                "fr": "Appliquer [[element:electro]] & [[element:dendro]] sur un même ennemi créé une **aura [[element:quicken]]**.\nAppliquer [[element:electro]] sur une aura [[element:quicken]] déclenche une **réaction [[element:aggravate]]**.\n\nAppliquer [[element:hydro]] & [[element:dendro]] sur un même ennemi déclenche une **réaction [[element:bloom]]** et créé un **noyau [[element:dendro]]**.\nAppliquer [[element:electro]] sur un noyau [[element:dendro]] déclenche la **réaction [[element:hyperbloom]]**.\n\nOn appelle **Quickbloom** le fait d'avoir à la fois des réactions [[element:aggravate]] & [[element:hyperbloom]] dans l'équipe.",
-                "it": "Applicare [[element:electro]] e [[element:dendro]] allo stesso nemico genera un'aura **[[element:quicken]]**.\nApplicare [[element:electro]] ad un'aura [[element:quicken]] innesca una **reazione [[element:aggravate]]**.\n\nApplicare [[element:hydro]] e [[element:dendro]] allo stesso nemico innesca una **reazione [[element:bloom]]** e genera un **nucleo [[element:bloom]]**.\nApplicare [[element:electro]] su un nucleo [[element:bloom]] innesca la **reazione [[element:hyperbloom]]**.\n\nUn team che utilizza entrambe le reazioni [[element:aggravate]] e [[element:hyperbloom]] viene definito **Quickbloom**.",
-                "ru": "Наложение [[element:electro]] & [[element:dendro]] на противника активирует на нём статус **[[element:quicken]]**.\nНаложение [[element:electro]] на [[element:quicken|Стимуляцию]] вызывает реакцию  **[[element:aggravate]]**.\n\nНаложение [[element:hydro]] & [[element:dendro]] на противника вызывает **[[element:bloom|Бутонизацию]]** и создаёт **[[element:dendro]] ядра**.\nНаложение [[element:electro]] на [[element:dendro]] ядра вызывает **[[element:hyperbloom]]**.\n\nОтряды, сочетающие [[element:aggravate]] и [[element:hyperbloom|Вегетацию]], обычно известны как **Quickbloom**."
+                "en": "[[note:tips-quickbloom]]"
             }
         }
     ],

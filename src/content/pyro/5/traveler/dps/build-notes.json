@@ -15,6 +15,9 @@
             "fr": "**{rot:N1C}** est le combo idéal du [[character:traveler]] [[element:pyro]].",
             "it": "**{rot:N1C}** è la combo ideale del [[character:traveler]] [[element:pyro]].",
             "ru": "Оптимальным комбо является **{rot:N1C}**."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:beyond-the-chrysalis]]\n"
         }
     ],
     "weapons": {

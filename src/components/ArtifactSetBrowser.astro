@@ -42,13 +42,7 @@ const { data, locale } = Astro.props as {
 
 const allLabel = t(locale, 'ui', 'All');
 const resultsLabel = t(locale, 'ui', 'Results');
-const noResultsLabel = t(
-  locale,
-  'ui',
-  'No artifact sets found',
-  undefined,
-  false,
-);
+const noResultsLabel = t(locale, 'ui', 'No artifact sets found', undefined, false);
 const searchByNameLabel = t(locale, 'ui', 'Search by name');
 const rarityLabel = t(locale, 'ui', 'Rarity');
 const searchLabel = t(locale, 'ui', 'Search');
@@ -61,36 +55,15 @@ const sortOptions = [
   { value: 'name', label: `${artifactSetsLabel} - A-Z` },
   { value: 'release', label: `${releaseDateLabel} - ${newestLabel}` },
 ];
-const mentionedOnLabel = t(
-  locale,
-  'ui',
-  'Artifact set mentioned on',
-  undefined,
-  false,
-);
-const noMentionsLabel = t(
-  locale,
-  'ui',
-  'No artifact set mentions',
-  undefined,
-  false,
-);
+const mentionedOnLabel = t(locale, 'ui', 'Artifact set mentioned on', undefined, false);
+const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, false);
 ---
 
 <section class="artifact-set-browser" data-artifact-browser>
-  <form
-    class="home-filters artifact-set-filters"
-    id="artifact-set-filters"
-    data-artifact-filters
-  >
+  <form class="home-filters artifact-set-filters" id="artifact-set-filters" data-artifact-filters>
     <label class="home-search">
       {searchLabel}
-      <input
-        type="search"
-        name="search"
-        placeholder={searchByNameLabel}
-        autocomplete="off"
-      />
+      <input type="search" name="search" placeholder={searchByNameLabel} autocomplete="off" />
     </label>
 
     <div class="home-select-filter">
@@ -132,12 +105,7 @@ const noMentionsLabel = t(
     </p>
     <label class="roster-sort">
       {sortByLabel}
-      <select
-        class="home-native-select"
-        name="sort"
-        form="artifact-set-filters"
-        aria-label={sortByLabel}
-      >
+      <select class="home-native-select" name="sort" form="artifact-set-filters" aria-label={sortByLabel}>
         {
           sortOptions.map((option) => (
             <option value={option.value} selected={option.value === 'name'}>
@@ -155,6 +123,7 @@ const noMentionsLabel = t(
         <article
           class={`artifact-set-entry rarity-${artifactSet.rarity}`}
           data-artifact-card
+          data-id={artifactSet.id}
           data-name={artifactSet.name}
           data-rarity={artifactSet.rarity}
           data-tags={artifactSet.tags.join(' ')}
@@ -163,9 +132,7 @@ const noMentionsLabel = t(
         >
           <header class="artifact-set-entry-header">
             <div class="artifact-set-entry-title">
-              <div
-                class={`artifact-set-entry-image${artifactSet.image ? '' : ' is-empty'}`}
-              >
+              <div class={`artifact-set-entry-image${artifactSet.image ? '' : ' is-empty'}`}>
                 {artifactSet.image && (
                   <Image
                     src={artifactSet.image}
@@ -190,20 +157,14 @@ const noMentionsLabel = t(
 
           <div class="artifact-set-bonus-list">
             {artifactSet.bonuses.map((bonus) => (
-              <section
-                class="artifact-set-bonus"
-                aria-label={`${artifactSet.name} ${bonus.label}`}
-              >
+              <section class="artifact-set-bonus" aria-label={`${artifactSet.name} ${bonus.label}`}>
                 <h3>{bonus.label}</h3>
                 <div set:html={bonus.html} />
               </section>
             ))}
           </div>
 
-          <section
-            class="artifact-set-usage"
-            aria-label={`${artifactSet.name} ${mentionedOnLabel}`}
-          >
+          <section class="artifact-set-usage" aria-label={`${artifactSet.name} ${mentionedOnLabel}`}>
             <h3>{mentionedOnLabel}</h3>
             {artifactSet.fourPieceUsage.length > 0 ? (
               <div class="artifact-set-usage-list">
@@ -213,13 +174,9 @@ const noMentionsLabel = t(
                     href={usage.href}
                   >
                     {(usage.rank || usage.isWip) && (
-                      <strong class="usage-rank-number">
-                        {usage.isWip ? 'WIP' : usage.rank}
-                      </strong>
+                      <strong class="usage-rank-number">{usage.isWip ? 'WIP' : usage.rank}</strong>
                     )}
-                    <span class="artifact-set-usage-character">
-                      {usage.characterName}
-                    </span>
+                    <span class="artifact-set-usage-character">{usage.characterName}</span>
                   </a>
                 ))}
               </div>

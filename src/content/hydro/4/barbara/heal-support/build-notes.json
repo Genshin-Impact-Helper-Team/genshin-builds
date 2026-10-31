@@ -24,6 +24,9 @@
             "fr": "Gardez à l'esprit qu'une réaction entre les statuts [[element:hydro]] et [[element:cryo]] vous gèlera sur place: son status [[ability:skill]] doit donc être utilisé en tenant compte de l'environnement.",
             "it": "Nota che se il tuo personaggio viene colpito con [[element:cryo]] mentre ha un'aura [[element:hydro]], verrà congelato.",
             "ru": "Следует отметить, что одновременное присутствие Гидро и Крио статусов на персонаже заморозит его."
+        },
+        {
+            "en": "## [[note:wip-weapon]]\n- [[weapon:hymn-of-the-maelstrom]]\n"
         }
     ]
 }

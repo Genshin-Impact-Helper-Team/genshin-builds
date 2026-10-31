@@ -60,8 +60,17 @@ if (kind) {
     );
     const count = document.querySelector<HTMLElement>(selector.count);
     const empty = document.querySelector<HTMLElement>(selector.empty);
+    const searchInput = form?.elements.namedItem('search');
     const sortSelect = form?.elements.namedItem('sort');
     const sortStorageKey = sortStorageKeys[kind];
+
+    if (searchInput instanceof HTMLInputElement) {
+        const searchParam = new URLSearchParams(window.location.search).get('search');
+        if (searchParam !== null) {
+            const matchingCard = cards.find((card) => card.dataset.id === searchParam);
+            searchInput.value = matchingCard?.dataset.name ?? searchParam;
+        }
+    }
 
     const getElementYPosition = (element: HTMLElement) => {
         let currentElement: HTMLElement | null = element;
