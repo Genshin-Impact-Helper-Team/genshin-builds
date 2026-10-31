@@ -1,1 +1,20 @@
-
+{
+    "name": {
+        "en": "DPS",
+        "ru": "ДД"
+    },
+    "notes": [
+        {
+            "en": "Xinyan's ",
+            "ru": ""
+        },
+        {
+            "en": "**Pre-C6 combo: **{rot:2N4D N2}**. At C6 it's preferable to do one full [[abilities:charge-attack]] cycle followed by **{rot:N2}**.",
+            "ru": "**Комбо до C6: **{rot:2N4D N2}**. На С6 лучше провести полную [[abilities:charge-attack|Заряженную атаку]], затем **{rot:N2}**."
+        }
+    ],
+    "global": {
+        "author": "Finnyke",
+        "link": ""
+    }
+}
