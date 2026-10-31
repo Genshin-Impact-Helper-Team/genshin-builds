@@ -1,1 +1,119 @@
-
+{
+    "weapons": [
+        {
+            "items": [
+                "redhorn-stonethresher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "gest-of-the-mighty-wolf",
+                    "note": {
+                        "en": "With this weapon [[ability:normal-attack]] combos are preferable even at **[C6]**. In teams with [[ability:hexerei]], can perform better than **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "С данным оружием комбо от [[ability:normal-attack|Обычных атак]] предпочтительнее даже на **[C6]**. С активным эффектом [[ability:hexerei|Ведьмовства]] может превосходить **[[weapon:redhorn-stonethresher]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "beacon-of-the-reed-sea",
+                "a-thousand-blazing-suns",
+                "a-teaspoon-of-transcendence",
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "Ranking assumes full stacks of the passive. At **[R5]** it performs better than **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "Предполагаются 5 уровней Пассивной способности. На **[R5]** превосходит **[[weapon:redhorn-stonethresher]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "With high [[stat:er]] requirements, can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "При высокой потребности в энергии соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
+                    }
+                },
+                "verdict"
+            ]
+        },
+        {
+            "items": [
+                "fang-of-the-mountain-king"
+            ]
+        },
+        {
+            "items": [
+                "the-unforged"
+            ]
+        },
+        {
+            "items": [
+                "song-of-broken-pines",
+                "wolfs-gravestone"
+            ]
+        },
+        {
+            "items": [
+                "forged-by-the-golden-melody"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "talking-stick",
+                    "note": {
+                        "en": "Assumes that only [[element:pyro]] passive is active. At **[R5]** it performs similarly to **[[weapon:wolfs-gravestone]]**.",
+                        "ru": "Предполагается, что активна только [[element:pyro]] часть Пассивной способности. На **[R5]** соответствует **[[weapon:wolfs-gravestone|Волчьей погибели]]**."
+                    }
+                },
+                {
+                    "name": "ultimate-overlords-mega-magic-sword",
+                    "note": {
+                        "en": "With high [[stat:er]] requirements, can perform better than **[[weapon:wolfs-gravestone]]**.",
+                        "ru": "При высокой потребности в энергии превосходит **[[weapon:wolfs-gravestone|Волчью погибель]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "tidal-shadow",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Assumes the passive can be reliably activated.",
+                        "fr": "Suppose que le passif peut être déclenché de façon fiable",
+                        "it": "La classifica presuppone che la passiva possa essere attivata in maniera affidabile.",
+                        "ru": "Предполагается, что Пассивная способность стабильно поддерживается."
+                    }
+                },
+                "blackcliff-slasher",
+                "prototype-archaic"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "akuoumaru",
+                    "note": {
+                        "en": "[[note:r5-similar]] **[[weapon:blackcliff-slasher]]**.",
+                        "ru": "[[note:r5-similar]] **[[weapon:blackcliff-slasher|Черногорской бритве]]**."
+                    }
+                },
+                {
+                    "name": "lithic-blade",
+                    "note": {
+                        "en": "Assumes 1 Liyue teammate. With 2 Liyue teammates at **R5** can perform better than  **[[weapon:talking-stick]]**.",
+                        "ru": "Предполагается 1 персонаж из Ли Юэ. С двумя персонажами из Ли Юэ на **[R5]** превосходит **[[weapon:talking-stick|Говорящую палицу]]**."
+                    }
+                }
+            ]
+        }
+    ]
+}
