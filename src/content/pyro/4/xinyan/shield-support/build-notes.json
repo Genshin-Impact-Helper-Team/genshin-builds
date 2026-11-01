@@ -24,10 +24,6 @@
         {
             "en": "Shield uptime is crucial to maximizing [[character:xinyan]]'s Physical/Shield Support capabilities, as well as her [[element:pyro]] application. As such, having her C2 is important to guarantee a level 3 shield in any situation.",
             "ru": "Постоянное поддержание щита имеет решающее значение для раскрытия потенциала [[character:xinyan]] как Физ. саппорта/щитовика, а также для наложения [[element:pyro]] статуса. В связи с этим, С2 является важным созвездием, т.к. гарантирует щит 3-ого уровня в любой ситуации."
-        },
-        {
-            "en": "Generally not recommended for [[element:pyro]] application, as the off-field application is tied to level 3 shield and will stop if the shield breaks.",
-            "ru": "Обычно не рекомендована в качестве источника [[element:pyro]] статуса, так как атаки из кармана происходят только на 3-м уровне щита и заканчиваются при разрушении щита."
         }
     ]
 }
