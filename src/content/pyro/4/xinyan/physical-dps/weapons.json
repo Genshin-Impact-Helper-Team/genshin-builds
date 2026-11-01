@@ -1,0 +1,81 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "Not worth usign in a [[ability:plunge]] team with [[character:xianyun]].",
+                        "ru": "Не стоит использовать при игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "redhorn-stonethresher"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "gest-of-the-mighty-wolf",
+                    "note": {
+                        "en": "With this weapon [[ability:na]] combos are preferable even at **[C6]**. In teams with [[ability:hexerei]], can perform better than **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "С данным оружием комбо от [[ability:na|Обычных атак]] предпочтительнее даже на **[C6]**. С активным эффектом [[ability:hexerei|Ведьмовства]] может превосходить **[[weapon:redhorn-stonethresher]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "beacon-of-the-reed-sea",
+                "a-thousand-blazing-suns",
+                "a-teaspoon-of-transcendence"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "serpent-spine",
+                    "note": {
+                        "en": "Ranking assumes full stacks of the passive. At **[R5]** it performs better than **[[weapon:redhorn-stonethresher]]**.",
+                        "ru": "Предполагаются 5 уровней Пассивной способности. На **[R5]** превосходит **[[weapon:redhorn-stonethresher]]**."
+                    }
+                },
+                "verdict"
+            ]
+        },
+        {
+            "items": [
+                "song-of-broken-pines"
+            ]
+        },
+        {
+            "items": [
+                "fang-of-the-mountain-king",
+                "the-unforged",
+                {
+                    "name": "prototype-archaic",
+                    "refinement": 5
+                },
+                "wolfs-gravestone",
+                {
+                    "name": "ultimate-overlords-mega-magic-sword",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fruitful-hook",
+                    "note": {
+                        "en": "In a [[ability:plunge]] team with [[character:xianyun]], this weapon performs similarly to **[[weapon:song-of-broken-pines]]**. At **[R5]**, it performs better than **[[weapon:redhorn-stonethresher]]** for such teams.",
+                        "ru": "При игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]], соответствует **[[weapon:song-of-broken-pines|Песни разбитых сосен]]**. На **[R5]**, превосходит **[[weapon:redhorn-stonethresher]]** для таких отрядов."
+                    }
+                }
+            ]
+        }
+    ]
+}
