@@ -2,7 +2,13 @@
     "weapons": [
         {
             "items": [
-                "skyward-pride"
+                {
+                    "name": "skyward-pride",
+                    "note": {
+                        "en": "Not worth usign in a [[ability:plunge]] team with [[character:xianyun]].",
+                        "ru": "Не стоит использовать при игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]]."
+                    }
+                }
             ]
         },
         {
