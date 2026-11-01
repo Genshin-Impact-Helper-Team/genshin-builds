@@ -10,12 +10,14 @@
         {
             "en": "[[character:yoimiya]] is an On-Field DPS who uses her [[ability:skill]]-enhanced [[ability:na]]s to deal damage. In [[element:vaporize]] and [[element:melt]] teams, [[character:yoimiya]]’s [[ability:na]] damage can be further amplified. ",
             "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans des équipes [[element:vaporize]] & [[element:melt]], les dégâts d'[[ability:na]] de [[character:yoimiya]] sont amplifiés.",
-            "it": "[[character:yoimiya]] è una DPS sul campo che utilizza i suoi [[ability:na|Attacchi Normali]] potenziati dalla [[ability:skill]] per infliggere danni."
+            "it": "[[character:yoimiya]] è una DPS sul campo che utilizza i suoi [[ability:na|Attacchi Normali]] potenziati dalla [[ability:skill]] per infliggere danni.",
+            "ru": "[[character:yoimiya]] выступает в роли ДД на поле и наносит большую часть урона за счёт усиленных [[ability:skill|навыком]] [[ability:na|Обычных атак]]. Игра через [[element:vaporize]] и [[element:melt]] позволяет значительно увеличивать урон её [[ability:na|Обычных атак]]."
         },
         {
             "en": "Because her optimal {rot:N5} attack string allows her to trigger the most [[element:vaporize]]/[[element:melt]] hits possible, interrupting the attack string in any way is a damage loss. As such, it is recommended to use a source of interruption resistance alongside [[character:yoimiya]].",
             "fr": "Comme son combo optimal d'[[ability:na]] {rot:N5} lui permet de déclencher le plus de coups [[element:vaporize]]/[[element:melt]] possible, interrompre son combo d'[[ability:na]] d'une quelconque façon représente une perte de dégâts. Ainsi, il est recommandé de jouer une source de Résistance à l'Interruption avec [[character:yoimiya]].",
-            "it": "Poiché la sua sequenza di attacco ottimale {rot:N5} le consente di innescare il maggior numero possibile di [[element:vaporize]]/[[element:melt]], interrompere la sequenza comporta una perdita di danno. Pertanto, si consiglia di utilizzare una fonte di resistenza alle interruzioni nel team."
+            "it": "Poiché la sua sequenza di attacco ottimale {rot:N5} le consente di innescare il maggior numero possibile di [[element:vaporize]]/[[element:melt]], interrompere la sequenza comporta una perdita di danno. Pertanto, si consiglia di utilizzare una fonte di resistenza alle interruzioni nel team.",
+            "ru": "Её оптимальное комбо состоит из серии [[ability:na|Обычных атак]] {rot:N5}, позволяющих вызвать [[element:vaporize]]/[[element:melt]] наибольшее число раз. Прерывание серии атак приводит к потере урона, поэтому следует учитывать это и иметь в отряде источник сопротивления к прерыванию."
         }
     ],
     "tips": [
@@ -23,7 +25,8 @@
             "title": {
                 "en": "[[ability:na]] string",
                 "fr": "Combo d'[[ability:na]]",
-                "it": "Sequenza di [[ability:na|Attacchi Normali]]"
+                "it": "Sequenza di [[ability:na|Attacchi Normali]]",
+                "ru": "Серия [[ability:na|Обычных атак]]"
             },
             "content": {
                 "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}.\nIn [[element:vaporize]]/[[element:melt]] teams, you should be triggering the reaction on the {rot:N1}, {rot:N3} and {rot:N5}.",
@@ -36,12 +39,14 @@
             "title": {
                 "en": "Interruption Resistance",
                 "fr": "Résistance à l'Interruption",
-                "it": "Resistenza alle Interruzioni"
+                "it": "Resistenza alle Interruzioni",
+                "ru": "Сопротивление к прерыванию"
             },
             "content": {
                 "en": "Interruption Resistance can take different forms in a character’s kit. The most obvious is **through a shield**, but some characters **grant it directly without generating one**.\n\nExamples include, but are not limited to, **[[character:xingqiu]]**’s [[ability:burst]], **[[character:vodyanitsa]]**’s [[ability:skill]], and **[[character:xilonen]]**’s [C1].\n\nNot all forms grant **interruption immunity**: Interruption Resistance **reduces the frequency** of getting staggered when hit by attacks, but **does not prevent it**.",
                 "fr": "La résistance à l’interruption peut prendre différentes formes dans le kit d’un personnage. La plus évidente est **la création d’un bouclier**, mais certains personnages **l’accordent directement, sans en générer**.\n\nC’est notamment le cas avec l'[[ability:burst]] de **[[character:xingqiu]]**, le [[ability:skill]] de **[[character:vodyanitsa]]** ou la [C1] de **[[character:xilonen]]** par exemple. \n\nToutes les formes n'offrent pas d'**immunité à l'interruption**: la résistance à l'interruption **réduit la fréquence** à laquelle vous pouvez être interrompu, mais **ne l'empêche pas complètement**.",
-                "it": "La resistenza alle interruzioni può assumere diverse forme nel kit di un personaggio. La più ovvia è **tramite uno scudo**, ma alcune abilità **la garantiscono direttamente senza generarne uno**, come ad esempio il [[ability:burst]] di **[[character:xingqiu]]**, l’[[ability:skill]] di **[[character:vodyanitsa]]**, la [C1] di **[[character:xilonen]]**.\n\nNon sempre queste abilità garantiscono **immunità alle interruzioni**: la resistenza alle interruzioni **riduce la frequenza** con la quale si viene sbilanciati quando si subiscono attacchi, ma **non la impedisce**."
+                "it": "La resistenza alle interruzioni può assumere diverse forme nel kit di un personaggio. La più ovvia è **tramite uno scudo**, ma alcune abilità **la garantiscono direttamente senza generarne uno**, come ad esempio il [[ability:burst]] di **[[character:xingqiu]]**, l’[[ability:skill]] di **[[character:vodyanitsa]]**, la [C1] di **[[character:xilonen]]**.\n\nNon sempre queste abilità garantiscono **immunità alle interruzioni**: la resistenza alle interruzioni **riduce la frequenza** con la quale si viene sbilanciati quando si subiscono attacchi, ma **non la impedisce**.",
+                "ru": "Сопротивление к прерыванию может быть получено из различных источников. Самое очевидное - **использование щита**, но некоторые персонажи напрямую **увеличивают сопротивление без создания щита**.\n\nНапример, [[ability:burst]] **[[character:xingqiu]]**, [[ability:skill]] **[[character:vodyanitsa|Водяницы]]** и **[C1]** **[[character:xilonen]]**..\n\nНе все из них дают **иммунитет к прерыванию**: сопротивление к прерыванию **снижает шанс** прерывания атакой противника, но не **обнуляет его**."
             }
         }
     ],
