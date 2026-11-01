@@ -10,12 +10,14 @@
         {
             "en": "[[character:yoimiya]] is an On-Field DPS who uses her [[ability:skill]]-enhanced [[ability:na]]s to deal damage. In [[element:overload]] teams, [[character:yoimiya]] typically makes use of [[character:chevreuse]] and other [[element:pyro]]/[[element:electro]] supports to amplify her damage.",
             "fr": "[[character:yoimiya]] est un DPS On-Field qui utilise son [[ability:skill]] pour améliorer ses [[ability:na|Attaques Normales]] afin d'infliger des dégâts. Dans les équipes [[element:overload]], [[character:yoimiya]] profite typiquement de [[character:chevreuse]] et d'autres supports [[element:pyro]]/[[element:electro]] pour amplifier ses dégâts.",
-            "it": "[[character:yoimiya]] è una DPS sul campo che utilizza i suoi [[ability:na|Attacchi Normali]] potenziati dalla [[ability:skill]] per infliggere danni. In team [[element:overload]], [[character:yoimiya]] è giocata solitamente con [[character:chevreuse]] e ad altri supporti [[element:pyro]]/[[element:electro]] per potenziare i propri danni."
+            "it": "[[character:yoimiya]] è una DPS sul campo che utilizza i suoi [[ability:na|Attacchi Normali]] potenziati dalla [[ability:skill]] per infliggere danni. In team [[element:overload]], [[character:yoimiya]] è giocata solitamente con [[character:chevreuse]] e ad altri supporti [[element:pyro]]/[[element:electro]] per potenziare i propri danni.",
+            "ru": "[[character:yoimiya]] выступает в роли ДД на поле и наносит большую часть урона за счёт усиленных [[ability:skill|навыком]] [[ability:na|Обычных атак]]. Её отряды через [[element:overload|Перегрузку]] обычно включают [[character:chevreuse]] и других [[element:pyro]]/[[element:electro]] саппортов, усиливающих её урон."
         },
         {
             "en": "Unlike her [[element:vaporize]] and [[element:melt]] playstyle, interrupting her attack string does not cause a large damage loss, so there is not a need for interruption resistance; unless you want one for ease of use.",
             "fr": "Contrairement à son style de jeu [[element:vaporize]]/[[element:melt]], interrompre son combo d'[[ability:na]] ne représente pas forcément une perte de dégâts. Il n'est donc pas forcément nécessaire d'avoir une source de Résistance à l'Interruption, à moins que vous souhaitiez en avoir une pour vous simplifier la vie.",
-            "it": "A differenza dello stile di gioco in [[element:vaporize]] o [[element:melt]], interrompere la sequenza di Attacchi Normali non comporta una perdita significativa di danni, quindi non è necessaria resistenza alle interruzioni, a meno che non la si desideri per praticità."
+            "it": "A differenza dello stile di gioco in [[element:vaporize]] o [[element:melt]], interrompere la sequenza di Attacchi Normali non comporta una perdita significativa di danni, quindi non è necessaria resistenza alle interruzioni, a meno che non la si desideri per praticità.",
+            "ru": "В отличие от игры через [[element:vaporize]] и [[element:melt]], прерывание её атак не приводит к большой потере в уроне, поэтому нет необходимости искать источники сопротивления к прерыванию (разве что ради удобства)."
         }
     ],
     "tips": [
@@ -23,7 +25,8 @@
             "title": {
                 "en": "[[ability:na]] string",
                 "fr": "Combo d'[[ability:na]]",
-                "it": "Stringa di [[ability:na|Attacchi Normali]]"
+                "it": "Stringa di [[ability:na|Attacchi Normali]]",
+                "ru": "Серия [[ability:na|Обычных атак]]"
             },
             "content": {
                 "en": "[[character:yoimiya]]'s hardest hitting part of her [[ability:na]] string is her {rot:N5}.",
