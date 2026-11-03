@@ -11,25 +11,23 @@
             "en": "This section is dedicated to using [[character:xinyan]] as a shielder for her team.",
             "fr": "Cette section est dédiée à l'utilisation de [[character:xinyan]] comme bouclier pour son équipe.",
             "it": "Questa sezione è dedicata all'utilizzo di [[character:xinyan]] come scudo per il team.",
-            "ru": "Раздел посвящен использованию Синь Янь в качестве источника щита для отряда."
+            "ru": "Раздел посвящен использованию [[character:xinyan]] в качестве источника щита для отряда."
         },
         {
-            "en": "[[character:xinyan]]'s [[ability:skill]] grants you a [[element:pyro]] status upon contact with the shield. No matter how many times you switch characters, it will still apply [[element:pyro]] every time you switch while shielded. This allows you to cleanse most elemental statuses that have been applied to you.",
-            "fr": "Le [[ability:skill]] de [[character:xinyan]] vous octroie un statut [[element:pyro]] au contact avec le bouclier. Peu importe combien de fois vous changez de personnage, il appliquera toujours [[element:pyro]] à chaque changement tant que vous êtes protégé. Cela vous permet de retirer la plupart des statuts élémentaires qui vous ont été appliqués.",
-            "it": "L'[[ability:skill]] di [[character:xinyan]] conferisce uno status [[element:pyro]] quando si è a contatto con lo scudo. Indipendentemente da quanto volte tu scambi tra i vari personaggi, applicherà [[element:pyro]] ad ogni scambio fintanto che lo scudo sia attivo. Questo permette di rimuovere la maggior parte delle aure elementali applicate al proprio personaggio.",
-            "ru": "Элементальный навык Синь Янь накладывает Пиро на активного персонажа при контакте со щитом. Статус будет накладываться каждый раз при смене персонажа, что позволяет снимать наложенные извне эффекты."
+            "en": "[[character:xinyan]]'s [[ability:burst]] frontloads several instances of [[element:pyro]] application, which can be useful for setups, such as allowing [[element:anemo]] characters to [[element:swirl]] [[element:pyro]] to apply debuff from [[set:viridescent-venerer]]. [[character:xinyan]]'s [[ability:skill]] generates a shield of a certain level, depending on the amount of enemies hit. Maximum level is 3, achieved by hitting at least 2 targets. At level 3, the shield will also periodically deal [[element:pyro]] damage and apply [[element:pyro]] to nearby targets. While the shield is active, your on-field characters gain Physical dmg% buff. At C2 using [[character:xinyan]]'s [[ability:burst]] grants a level 3 shield.",
+            "ru": "[[ability:burst]] [[character:xinyan]] накладывает [[element:pyro]] несколько раз за короткий промежуток времени, что может быть полезно, например, для того, чтобы позволить [[element:anemo]] персонажам закрыть [[element:swirl]] и активировать [[set:viridescent-venerer]]. [[ability:skill]] [[character:xinyan]] создаёт щит уровня, зависящего от количества поражённых целей. Максимальный уровень 3 достигается попаданием по двум противникам. На уровне 3 щит дополнительно наносит периодический [[element:pyro]] и накладывает [[element:pyro]] на цели поблизости. На C2 использование [[ability:burst|Взрыва стихии]] даёт щит 3-го уровня."
         },
         {
-            "en": "Shield uptime is also crucial to maximizing her Physical/Shield Support capabilities. If you have neither **[[weapon:sacrificial-greatsword]]** nor at least **[C2]** (ideally **[C4]**) on [[character:xinyan]], you may want to build her as a DPS instead of Physical/Shield Support.",
-            "fr": "L'uptime du bouclier est également crucial pour maximiser les capacités de support physique/bouclier de [[character:xinyan]]. Si vous n'avez ni **[[weapon:sacrificial-greatsword]]** ni au moins **[C2]** (idéalement **[C4]**) sur [[character:xinyan]], il vaudrait mieux la build comme DPS plutôt que comme Support Physique/Bouclier.",
-            "it": "Il tempo di funzionamento dello scudo è cruciale anche per massimizzare le capacità da Supporto Fisico/Scudo di [[character:xinyan]]. Se non avete né **[[weapon:sacrificial-greatsword]]** né almeno la **[C2]** (idealmente la **[C4]**) di [[character:xinyan]], sarebbe meglio scegliere una build da DPS.",
-            "ru": "Постоянное поддержание щита имеет решающее значение для раскрытия ее потенциала как Физ. саппорта/щитовика. При отсутствии Церемониального двуручного меча и [C2] (или, в идеале, [C4]) вместо этого возможно использовать ее как Бурст саппорта, а не Физ. саппорта/щитовика."
+            "en": "[[character:xinyan]]'s [[ability:skill]] grants your active character a [[element:pyro]] status upon creating the shield or switching the character. This can be used to remove other elemental auras applied to your characters or to absorb [[element:pyro]] with an [[element:anemo]] character.",
+            "ru": "[[ability:skill]] [[character:xinyan]] накладывает [[element:pyro]] на активного персонажа при создании щита и при переключении персонажа. Это позволяет снимать наложенные на персонажей статусы или поглощать [[element:pyro]] навыками [[element:anemo]] персонажей."
         },
         {
-            "en": "**Generally not recommended for [[element:pyro]] applications, as the pulses only happen at Shield Level 3 and are not very efficient at breaking [[element:cryo]] shields.**",
-            "fr": "**Généralement non recommandé pour l'application [[element:pyro]] car les impulsions ne se produisent que au Niveau 3 du bouclier et ne sont pas très efficaces pour casser les boucliers [[element:cryo]].**",
-            "it": "**Generalmente non consigliata per l'applicazione [[element:pyro]], poiché le pulsazioni richiedono uno scudo di livello 3 e non sono particolarmente efficienti per rompere scudi [[element:cryo]].**",
-            "ru": "Обычно не рекомендована в качестве источника Пиро статуса, так как щит пульсирует только на 3-м уровне и не слишком эффективно снимает Крио."
+            "en": "Shield uptime is crucial to maximizing [[character:xinyan]]'s Physical/Shield Support capabilities, as well as her [[element:pyro]] application. As such, having her C2 is important to guarantee a level 3 shield in any situation.",
+            "ru": "Постоянное поддержание щита имеет решающее значение для раскрытия потенциала [[character:xinyan]] как Физ. саппорта/щитовика, а также для наложения [[element:pyro]] статуса. В связи с этим, С2 является важным созвездием, т.к. гарантирует щит 3-ого уровня в любой ситуации."
+        },
+        {
+            "en": "[[character:xinyan]]'s [[element:pyro]] application is tied to her level 3 shield being active, and thus it stops working if it breaks. Because of this, it's not recommended to use [[character:xinyan]] as a reliable source of [[element:pyro]] application.",
+            "ru": "Для того, чтобы накладывать [[element:pyro]] статус, [[character:xinyan]] необходимо активировать щит 3-ого уровня. При разрушении щита [[character:xinyan]] теряет возможность накладывать [[element:pyro]] статус, поэтому не рекомендуется использовать её как надёжный источник статуса."
         }
     ]
 }
