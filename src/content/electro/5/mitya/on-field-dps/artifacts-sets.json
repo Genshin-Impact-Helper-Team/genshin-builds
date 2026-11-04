@@ -5,20 +5,32 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "disenchantment-in-deep-shadow",
                             "pieces": 4
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "groups": [
+                },
                 {
                     "items": [
                         {
-                            "name": "",
-                            "pieces": 4
+                            "name": "gilded-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "The performance of this set depends on the number of **non**-[[element:electro]] characters in the team, since each non-[[element:electro]] character increases the [[stat:em]] provided by [[set:gilded-dreams]]. This ranking assumes there are two."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
                         }
                     ]
                 }
