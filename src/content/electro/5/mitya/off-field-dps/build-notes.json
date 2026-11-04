@@ -18,6 +18,14 @@
             "content": {
                 "en": "[[character:mitya]] can perform an enhanced [[ability:ca]] to deal damage before utilizing a skill-switch to revert to his Off-Field mode. This is typically utilized in [[character:cryo-traveler]] DPS teams."
             }
+        },
+        {
+            "title": {
+                "en": "Skill-Switching"
+            },
+            "content": {
+                "en": "[[character:mitya]] can swap from his offensive, on-field hold [[ability:skill]] to his supportive off-field tap [[ability:skill]] variant by using the [[ability:skill]] input within 6s of initially casting his [[ability:skill]]. This can be used as an advanced trick to use [[character:mitya]] as a Quickswap DPS."
+            }
         }
     ],
     "weapons": [
