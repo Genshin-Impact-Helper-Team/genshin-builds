@@ -5,8 +5,19 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "heart-of-the-furnace",
                             "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "tenacity-of-the-millelith",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This set is used if another character, e.g., [[character:odette]], is already using [[set:heart-of-the-furnace]]."
+                            }
                         }
                     ]
                 }
@@ -17,8 +28,32 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "disenchantment-in-deep-shadow",
                             "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "The performance of this set depends on the number of **non**-[[element:electro]] characters in the team, since each non-[[element:electro]] character increases the [[stat:em]] provided by [[set:gilded-dreams]]. This ranking assumes there are two."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "em-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "em-set",
+                            "pieces": 2
                         }
                     ]
                 }
