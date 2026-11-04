@@ -7,23 +7,23 @@
     },
     "notes": [
         {
-            "en": ""
+            "en": "[[character:mitya]] is an Off-Field DPS through his tap [[ability:skill]] that deals damage and buffs the [[element:stellar-conduct]] Base DMG and [[stat:em]] of all party members. His damage comes from his [[ability:skill]], which continuously deals [[element:stellar-conduct]] damage when [[character:mitya]] gains stacks above the maximum limit (four at C0, five at C1+). Stacks are gained through triggering [[element:stellar-conduct]] and using [[character:mitya]]'s [[ability:burst]]. Using [[character:mitya]]'s [[ability:burst]] can be optional depending on the specific team he is used in."
         }
     ],
     "tips": [
         {
             "title": {
-                "en": ""
+                "en": "Quickswap Playstyle"
             },
             "content": {
-                "en": ""
+                "en": "[[character:mitya]] can perform an enhanced [[ability:ca]] to deal damage before utilizing a skill-switch to revert to his Off-Field mode. This is typically utilized in [[character:cryo-traveler]] DPS teams."
             }
         }
     ],
     "weapons": [
         {
             "author": "Quincy",
-            "link": ""
+            "link": "https://drive.google.com/drive/folders/1mZkGC3NT0xrpb76nLEpGEPAtsgYjV00i?usp=sharing"
         }
     ]
 }
