@@ -42,7 +42,7 @@
                 {
                     "name": "a-thousand-floating-dreams",
                     "note": {
-                        "en": "If you use [[character:mitya]] in a team with three [[element:electro]] characters, this weapon performs similarly to **[[weapon:starcallers-watch]]**. This weapon's performance is slightly variable depending on how much teammates value its EM buff."
+                        "en": "If you use [[character:mitya]] in a team with three [[element:electro]] characters, this weapon performs similarly to **[[weapon:starcallers-watch]]**. This weapon's performance is slightly variable depending on how much teammates value its [[stat:em]] buff."
                     }
                 }
             ]
