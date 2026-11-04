@@ -39,11 +39,9 @@ type ArtifactSetRow = {
 const {
   group,
   locale,
-  lang = 'en',
 } = Astro.props as {
   group: ArtifactSetGroup;
   locale: any;
-  lang?: string;
 };
 
 const groupItems = group.items ?? [];
@@ -87,7 +85,6 @@ const rows: ArtifactSetRow[] = group.choose
             <span class="inline-info-label artifact-info-label">
               <ArtifactSetInfoPopover
                 artifact={item}
-                lang={lang}
               />
               <span class="artifact-piece-suffix">
                 {'\u00a0'}({item.pieces})
@@ -107,7 +104,6 @@ const rows: ArtifactSetRow[] = group.choose
                 <span class="inline-info-label artifact-info-label">
                   <ArtifactSetInfoPopover
                     artifact={item}
-                    lang={lang}
                   />
                   <span class="artifact-piece-suffix">
                     {'\u00a0'}({item.pieces})

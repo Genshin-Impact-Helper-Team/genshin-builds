@@ -48,11 +48,9 @@ type WeaponRecommendations = {
 const {
   weapons,
   locale,
-  lang = 'en',
 } = Astro.props as {
   weapons: WeaponRecommendations;
   locale: any;
-  lang?: string;
 };
 
 /**
@@ -116,8 +114,6 @@ const hasFreeWeapon =
                     <span class="inline-info-label">
                       <WeaponInfoPopover
                         weapon={mainItem}
-                        locale={locale}
-                        lang={lang}
                       />
                       <span class="bold">
                         ({mainItem.rarity}
@@ -142,8 +138,6 @@ const hasFreeWeapon =
                       <span class="inline-info-label">
                         <WeaponInfoPopover
                           weapon={weapon}
-                          locale={locale}
-                          lang={lang}
                         />
                         <span class="bold">
                           ({weapon.rarity}
@@ -183,8 +177,6 @@ const hasFreeWeapon =
                     <span class="inline-info-label">
                       <WeaponInfoPopover
                         weapon={weapon}
-                        locale={locale}
-                        lang={lang}
                       />
                       <span class="bold">
                         ({weapon.rarity}

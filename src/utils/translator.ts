@@ -1,15 +1,5 @@
 import { formatMissingTranslationWarning, t } from './i18n';
 import translationAliases from '../data/translation-aliases.json';
-import {
-    formatWeaponPassive,
-    type WeaponPassiveText,
-    type WeaponPassiveValue,
-} from './weapon-passive';
-import { getWeaponSource } from './weapon-source';
-import {
-    resolveArtifactAssetUrl,
-    resolveWeaponAssetUrlById,
-} from './item-assets';
 
 type TranslationCategory =
     | 'artifact'
@@ -30,38 +20,6 @@ const CATEGORIES: TranslationCategory[] = [
     'ability',
     'note'
 ];
-
-type SharedWeaponData = {
-    rarity: number;
-    source?: string;
-    passive?: WeaponPassiveText;
-    r1?: WeaponPassiveValue[];
-    r2?: WeaponPassiveValue[];
-    r3?: WeaponPassiveValue[];
-    r4?: WeaponPassiveValue[];
-    r5?: WeaponPassiveValue[];
-    substat?: string;
-    level_max?: {
-        base_attack?: number;
-        substat_value?: string;
-    };
-    level_1?: {
-        base_attack?: number;
-        substat_value?: string;
-    };
-};
-
-type LocalizedArtifactEffect = {
-    en?: string;
-    [lang: string]: string | undefined;
-};
-
-type SharedArtifactSetData = {
-    rarity: number;
-    '1p'?: LocalizedArtifactEffect;
-    '2p'?: LocalizedArtifactEffect;
-    '4p'?: LocalizedArtifactEffect;
-};
 
 type TranslateNoteTextOptions = {
     weaponPopovers?: boolean;
@@ -108,43 +66,6 @@ function escapeHtml(value: unknown) {
         .replace(/'/g, '&#39;');
 }
 
-function formatLineBreakHtml(value: unknown) {
-    return escapeHtml(value).replace(/&lt;br\s*\/?&gt;/gi, '<br>');
-}
-
-/**
- * Formats weapon stat values as level 1 / max when both are available.
- */
-function formatWeaponStatValue(
-    level1Value?: number | string,
-    levelMaxValue?: number | string,
-) {
-    if (level1Value === undefined || level1Value === null || level1Value === '') {
-        return '';
-    }
-
-    if (
-        levelMaxValue === undefined ||
-        levelMaxValue === null ||
-        levelMaxValue === ''
-    ) {
-        return String(level1Value);
-    }
-
-    return `${level1Value} / ${levelMaxValue}`;
-}
-
-/**
- * Translates a weapon source enum while falling back to the stored value.
- */
-function translateWeaponSource(locale: any, source?: string) {
-    const sourceName = getWeaponSource(source);
-    const translationKey = `Weapon source ${sourceName}`;
-    const translatedSource = t(locale, 'ui', translationKey, undefined, false);
-
-    return translatedSource === translationKey ? sourceName : translatedSource;
-}
-
 /**
  * Helper class for translating structured content IDs and inline note references.
  *
@@ -164,14 +85,8 @@ export class TranslationHelper {
      * Creates a new translation helper instance.
      *
      * @param locale Current locale object returned by getLocale().
-     * @param weaponDataById Shared weapon data keyed by weapon translation ID.
      */
-    constructor(
-        private locale: any,
-        private weaponDataById: Record<string, SharedWeaponData> = {},
-        private lang = 'en',
-        private artifactSetDataById: Record<string, SharedArtifactSetData> = {},
-    ) { }
+    constructor(private locale: any) { }
 
     /**
      * Translates a content ID from a specific category.
@@ -355,15 +270,11 @@ export class TranslationHelper {
             const displayName = displayLabel || translation;
 
             if (translationCategory === 'weapon' && options.weaponPopovers) {
-                return this.renderWeaponPopover(canonicalId, translation, displayName);
+                return this.renderWeaponPopover(canonicalId, displayName);
             }
 
             if (translationCategory === 'artifact' && options.artifactPopovers) {
-                return this.renderArtifactPopover(
-                    canonicalId,
-                    translation,
-                    displayName,
-                );
+                return this.renderArtifactPopover(canonicalId, displayName);
             }
 
             return displayLabel ? escapeHtml(displayLabel) : translation;
@@ -391,106 +302,10 @@ export class TranslationHelper {
     /**
      * Builds the inline HTML for a weapon translation token popover.
      */
-    private renderWeaponPopover(id: string, name: string, label = name) {
-        const info = this.weaponDataById[id];
-
-        if (!info) {
-            return escapeHtml(label);
-        }
-
-        const baseAttackValue = formatWeaponStatValue(
-            info.level_1?.base_attack,
-            info.level_max?.base_attack,
-        );
-        const substatValue = formatWeaponStatValue(
-            info.level_1?.substat_value,
-            info.level_max?.substat_value,
-        );
-        const refinements = [1, 2, 3, 4, 5] as const;
-        const refinementButtons = refinements
-            .map((refinement) =>
-                [
-                    '<button class="weapon-popover-refinement-button" type="button" data-refinement="r',
-                    refinement,
-                    '" aria-pressed="',
-                    refinement === 1 ? 'true' : 'false',
-                    '">R',
-                    refinement,
-                    '</button>',
-                ].join(''),
-            )
-            .join('');
-        const passivePanels = refinements
-            .map((refinement) =>
-                [
-                    '<span class="weapon-popover-passive-refinement" data-refinement-panel="r',
-                    refinement,
-                    '"',
-                    refinement === 1 ? '' : ' hidden',
-                    '>',
-                    formatWeaponPassive(info, refinement, this.lang),
-                    '</span>',
-                ].join(''),
-            )
-            .join('');
-        const substatName = info.substat
-            ? t(this.locale, 'stat', info.substat, undefined, false)
-            : '';
-        const substatRow = substatName
-            ? [
-                '<span class="info-popover-stat"><span>',
-                escapeHtml(substatName),
-                '</span><strong>',
-                escapeHtml(substatValue),
-                '</strong></span>',
-            ].join('')
-            : '';
-        const sourceName = translateWeaponSource(this.locale, info.source);
-        const sourceFooter = sourceName
-            ? [
-                '<span class="weapon-popover-source"><span>',
-                escapeHtml(t(this.locale, 'ui', 'Source', undefined, false)),
-                '</span><strong>',
-                escapeHtml(sourceName),
-                '</strong></span>',
-            ].join('')
-            : '';
-        const imageUrl = resolveWeaponAssetUrlById(id);
-        const imageMarkup = imageUrl
-            ? [
-                '<span class="info-popover-image weapon-popover-image"><img src="',
-                escapeHtml(imageUrl),
-                '" alt="" loading="lazy" decoding="async"></span>',
-            ].join('')
-            : '';
-        const cardHtml = [
-            '<span class="info-popover-header',
-            imageUrl ? ' has-image' : '',
-            '">',
-            imageMarkup,
-            '<span class="info-popover-name">',
-            escapeHtml(name),
-            '</span>',
-            '<span class="info-popover-rarity">',
-            escapeHtml(info.rarity),
-            ' \u2605</span>',
-            '</span>',
-            '<span class="info-popover-stat"><span>Base ATK</span><strong>',
-            escapeHtml(baseAttackValue),
-            '</strong></span>',
-            substatRow,
-            '<span class="weapon-popover-refinement">',
-            refinementButtons,
-            '</span>',
-            '<span class="weapon-popover-passive">',
-            passivePanels,
-            '</span>',
-            sourceFooter,
-        ].join('');
-
+    private renderWeaponPopover(id: string, label: string) {
         return [
-            '<span class="info-popover weapon-popover" data-info-popover-html="',
-            escapeHtml(cardHtml),
+            '<span class="info-popover weapon-popover" data-info-popover-id="weapon:',
+            escapeHtml(id),
             '">',
             '<button class="info-popover-trigger" type="button" aria-expanded="false">',
             escapeHtml(label),
@@ -500,65 +315,12 @@ export class TranslationHelper {
     }
 
     /**
-     * Selects a localized artifact set effect with English fallback.
-     */
-    private getLocalizedArtifactEffect(effect?: LocalizedArtifactEffect) {
-        if (!effect) return '';
-
-        return effect[this.lang] ?? effect.en ?? '';
-    }
-
-    /**
      * Builds the inline HTML for an artifact set translation token popover.
      */
-    private renderArtifactPopover(id: string, name: string, label = name) {
-        const info = this.artifactSetDataById[id];
-
-        if (!info) {
-            return escapeHtml(label);
-        }
-
-        const effectRows = [
-            { label: '1P', value: this.getLocalizedArtifactEffect(info['1p']) },
-            { label: '2P', value: this.getLocalizedArtifactEffect(info['2p']) },
-            { label: '4P', value: this.getLocalizedArtifactEffect(info['4p']) },
-        ].filter((row) => row.value);
-        const imageUrl = resolveArtifactAssetUrl(id);
-        const imageMarkup = imageUrl
-            ? [
-                '<span class="info-popover-image artifact-popover-image"><img src="',
-                escapeHtml(imageUrl),
-                '" alt="" loading="lazy" decoding="async"></span>',
-            ].join('')
-            : '';
-        const cardHtml = [
-            '<span class="info-popover-header',
-            imageUrl ? ' has-image' : '',
-            '">',
-            imageMarkup,
-            '<span class="info-popover-name">',
-            escapeHtml(name),
-            '</span>',
-            '<span class="info-popover-rarity">',
-            escapeHtml(info.rarity),
-            ' \u2605</span>',
-            '</span>',
-            effectRows
-                .map((row) =>
-                    [
-                        '<span class="info-popover-stat artifact-popover-effect"><span>',
-                        escapeHtml(row.label),
-                        '</span><strong>',
-                        formatLineBreakHtml(row.value),
-                        '</strong></span>',
-                    ].join(''),
-                )
-                .join(''),
-        ].join('');
-
+    private renderArtifactPopover(id: string, label: string) {
         return [
-            '<span class="info-popover artifact-popover" data-info-popover-card-class="artifact-popover-card" data-info-popover-html="',
-            escapeHtml(cardHtml),
+            '<span class="info-popover artifact-popover" data-info-popover-card-class="artifact-popover-card" data-info-popover-id="artifact:',
+            escapeHtml(id),
             '">',
             '<button class="info-popover-trigger artifact-popover-trigger" type="button" aria-expanded="false">',
             escapeHtml(label),

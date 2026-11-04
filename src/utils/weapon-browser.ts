@@ -10,6 +10,7 @@ import { getLocale, t } from './i18n';
 import { resolveWeaponAssetImage } from './item-assets';
 import {
   formatWeaponPassive,
+  getWeaponPassiveValueCount,
   type WeaponPassiveText,
   type WeaponPassiveValue,
 } from './weapon-passive';
@@ -184,11 +185,18 @@ function getWeaponEntries(
         levelMaxBaseAttack: String(info.level_max?.base_attack ?? ''),
         level1Substat: String(info.level_1?.substat_value ?? ''),
         levelMaxSubstat: String(info.level_max?.substat_value ?? ''),
-        passivePanels: info.passive
-          ? refinements.map((refinement) => ({
-              refinement,
-              html: formatWeaponPassive(info, refinement, lang),
-            }))
+        passiveHtml: info.passive
+          ? formatWeaponPassive(info, 1, lang, true)
+          : '',
+        refinementValues: info.passive
+          ? Array.from(
+              { length: getWeaponPassiveValueCount(info.passive, lang) },
+              (_, index) =>
+                refinements.map((refinement) => {
+                  const key = `r${refinement}` as const;
+                  return info[key]?.[index];
+                }),
+            )
           : [],
       };
     });

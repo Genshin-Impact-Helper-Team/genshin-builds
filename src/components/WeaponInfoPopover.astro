@@ -1,193 +1,31 @@
 ---
-import { t } from '../utils/i18n';
-import {
-  formatWeaponPassive,
-  type WeaponPassiveText,
-  type WeaponPassiveValue,
-} from '../utils/weapon-passive';
-import { getWeaponSource } from '../utils/weapon-source';
-import { resolveWeaponAssetUrlById } from '../utils/item-assets';
-
-type WeaponInfo = {
-  rarity: number;
-  source?: string;
-  passive?: WeaponPassiveText;
-  r1?: WeaponPassiveValue[];
-  r2?: WeaponPassiveValue[];
-  r3?: WeaponPassiveValue[];
-  r4?: WeaponPassiveValue[];
-  r5?: WeaponPassiveValue[];
-  substat?: string;
-  level_1?: {
-    base_attack?: number;
-    substat_value?: string;
-  };
-  level_max?: {
-    base_attack?: number;
-    substat_value?: string;
-  };
-};
-
 type Props = {
-  locale: any;
-  lang?: string;
   weapon: {
     id?: string;
     name: string;
-    rarity: number;
-    info?: WeaponInfo;
+    info?: unknown;
   };
 };
 
-const { locale, weapon, lang = 'en' } = Astro.props as Props;
-const info = weapon.info;
-const refinements = [1, 2, 3, 4, 5] as const;
-
-function escapeHtml(value: unknown) {
-  return String(value ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
-
-const passivePanels = info
-  ? refinements.map((refinement) => ({
-      refinement,
-      html: formatWeaponPassive(info, refinement, lang),
-    }))
-  : [];
-
-const substatName = info?.substat
-  ? t(locale, 'stat', info.substat, undefined, false)
-  : '';
-
-/**
- * Formats weapon stat values as level 1 / max when both are available.
- */
-const formatWeaponStatValue = (
-  level1Value?: number | string,
-  levelMaxValue?: number | string,
-) => {
-  if (level1Value === undefined || level1Value === null || level1Value === '') {
-    return '';
-  }
-
-  if (
-    levelMaxValue === undefined ||
-    levelMaxValue === null ||
-    levelMaxValue === ''
-  ) {
-    return String(level1Value);
-  }
-
-  return `${level1Value} / ${levelMaxValue}`;
-};
-
-const baseAttackValue = formatWeaponStatValue(
-  info?.level_1?.base_attack,
-  info?.level_max?.base_attack,
-);
-const substatValue = formatWeaponStatValue(
-  info?.level_1?.substat_value,
-  info?.level_max?.substat_value,
-);
-const source = getWeaponSource(info?.source);
-const sourceTranslationKey = `Weapon source ${source}`;
-const translatedSourceName = sourceTranslationKey
-  ? t(locale, 'ui', sourceTranslationKey, undefined, false)
-  : '';
-const sourceName =
-  translatedSourceName && translatedSourceName !== sourceTranslationKey
-    ? translatedSourceName
-    : source;
-const sourceLabel = t(locale, 'ui', 'Source', undefined, false);
-const imageUrl = weapon.id ? resolveWeaponAssetUrlById(weapon.id) : '';
-const popoverCardHtml = info
-  ? [
-      '<span class="info-popover-header',
-      imageUrl ? ' has-image' : '',
-      '">',
-      imageUrl
-        ? [
-            '<span class="info-popover-image weapon-popover-image"><img src="',
-            escapeHtml(imageUrl),
-            '" alt="" loading="lazy" decoding="async"></span>',
-          ].join('')
-        : '',
-      '<span class="info-popover-name">',
-      escapeHtml(weapon.name),
-      '</span>',
-      '<span class="info-popover-rarity">',
-      escapeHtml(info.rarity),
-      ' \u2605</span>',
-      '</span>',
-      '<span class="info-popover-stat"><span>Base ATK</span><strong>',
-      escapeHtml(baseAttackValue),
-      '</strong></span>',
-      substatName
-        ? [
-            '<span class="info-popover-stat"><span>',
-            escapeHtml(substatName),
-            '</span><strong>',
-            escapeHtml(substatValue),
-            '</strong></span>',
-          ].join('')
-        : '',
-      '<span class="weapon-popover-refinement">',
-      refinements
-        .map((refinement) =>
-          [
-            '<button class="weapon-popover-refinement-button" type="button" data-refinement="r',
-            refinement,
-            '" aria-pressed="',
-            refinement === 1 ? 'true' : 'false',
-            '">R',
-            refinement,
-            '</button>',
-          ].join(''),
-        )
-        .join(''),
-      '</span>',
-      '<span class="weapon-popover-passive">',
-      passivePanels
-        .map(({ refinement, html }) =>
-          [
-            '<span class="weapon-popover-passive-refinement" data-refinement-panel="r',
-            refinement,
-            '"',
-            refinement === 1 ? '' : ' hidden',
-            '>',
-            html,
-            '</span>',
-          ].join(''),
-        )
-        .join(''),
-      '</span>',
-      sourceName
-        ? [
-            '<span class="weapon-popover-source"><span>',
-            escapeHtml(sourceLabel),
-            '</span><strong>',
-            escapeHtml(sourceName),
-            '</strong></span>',
-          ].join('')
-        : '',
-    ].join('')
-  : '';
+const { weapon } = Astro.props as Props;
 ---
 
-<span
-  class="info-popover weapon-popover"
-  data-info-popover-html={info ? popoverCardHtml : undefined}
->
-  <span
-    class="info-popover-trigger"
-    role="button"
-    tabindex="0"
-    aria-expanded="false"
-  >
-    {weapon.name}
-  </span>
-</span>
+{
+  weapon.id && weapon.info ? (
+    <span
+      class="info-popover weapon-popover"
+      data-info-popover-id={`weapon:${weapon.id}`}
+    >
+      <span
+        class="info-popover-trigger"
+        role="button"
+        tabindex="0"
+        aria-expanded="false"
+      >
+        {weapon.name}
+      </span>
+    </span>
+  ) : (
+    weapon.name
+  )
+}
