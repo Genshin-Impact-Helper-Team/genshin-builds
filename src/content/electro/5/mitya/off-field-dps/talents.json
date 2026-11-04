@@ -6,6 +6,18 @@
                     "name": "skill"
                 }
             ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "[[character:mitya]]'s [[ability:burst]] talent levels are not a necessity."
         }
     ]
 }
