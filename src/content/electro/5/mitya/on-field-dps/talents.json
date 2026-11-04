@@ -6,6 +6,25 @@
                     "name": "na"
                 }
             ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill"
+                }
+            ]
+        }
+    ],
+    "notes": [
+        {
+            "en": "[[character:sucrose]]'s [[ability:burst]] and [[ability:skill]] talent levels are not a necessity. For On-Field DPS [[character:mitya]], levelling the [[ability:skill]] does not increase damage if you are not swapping between his tap and hold [[ability:skill]] in combat."
         }
     ]
 }
