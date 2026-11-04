@@ -31,7 +31,7 @@
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "Assumes there are four [[element:cryo]] and [[element:electro]] teammates. At **[R5]**, this weapon performs better than **[[weapon:sunny-morning-sleep-in]]**. If you have three [[element:cryo]] and [[element:electro]] teammates, its performance is slightly worse."
+                        "en": "Assumes there are four [[element:cryo]] and [[element:electro]] characters in the team. At **[R5]**, this weapon performs better than **[[weapon:sunny-morning-sleep-in]]**. If you have three [[element:cryo]] and [[element:electro]] characters in the team, its performance is slightly worse."
                     }
                 }
             ]
@@ -108,7 +108,7 @@
                     "name": "ttds",
                     "refinement": 5,
                     "note": {
-                        "en": "This weapon's value increases if you use [[character:mitya]] in a team with a rotation longer than 20s, or if the character to be buffed by this weapon is doing the vast majority of the damage."
+                        "en": "This weapon's value increases if you use [[character:mitya]] in a team with a rotation longer than 20s, or if the character to be buffed by this weapon is doing the vast majority of the damage. If this is the case, this weapon can rank roughly equal to **[[weapon:wandering-evenstar]]**."
                     }
                 }
             ]
