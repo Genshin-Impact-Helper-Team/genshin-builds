@@ -2344,5 +2344,57 @@
             0.8,
             16
         ]
+    },
+    "starsealed-edict": {
+        "rarity": 5,
+        "version_released": "7.2",
+        "passive": {
+            "en": "Increases CRIT DMG by {{value}}%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by {{value}} for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional {{value}}. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.<br><br>Radiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by {{value}}%.<br><br>These effects can be triggered even when the equipping character is off-field.",
+            "fr": "Augmente les DGT CRIT de {{value}}%. En utilisant une compétence élémentaire, le personnage équipé de l'arme obtient l'effet Composition cristalline : augmente la maîtrise élémentaire de {{value}} pts pendant 20 s. Pendant cette durée, le personnage équipé de l'arme obtient un cumul de loi de combustion lorsqu'un personnage de l'équipe à proximité déclenche une réaction élémentaire, augmentant davantage la maîtrise élémentaire de {{value}} pts. Cet effet peut être cumulé 3 fois maximum et dure jusqu'à la fin de la composition cristalline ou lorsque le personnage équipé de l'arme utilise à nouveau une compétence élémentaire.<br><br>Radiance « Astroconduction » : chaque cumul de loi de combustion augmente également les DGT CRIT des réactions d'Astroconduction du personnage équipé de l'arme de {{value}}%.<br><br>Les effets susmentionnés peuvent être déclenchés même si le personnage équipé de l'arme fait partie de l'équipe mais n'est pas déployé.",
+            "de": "Erhöht den Kritischen Schaden um {{value}}%. Verleiht dem Träger beim Anwenden der Elementarfähigkeit den Effekt „Kristalline Harmonie“: Erhöht die Elementarkunde 20 s lang um {{value}} Punkte. Verleiht dem Träger, wenn Truppenmitglieder in der Nähe während der Dauer eine Elementarreaktion auslösen, zusätzlich eine Stapelung „Gesetz der Fackel“ und erhöht die Elementarkunde um weitere {{value}} Punkte. Dieser Effekt ist bis zu 3-fach stapelbar und hält bis zum Ende des Effekts „Kristalline Harmonie“ oder bis zur erneuten Anwendung der Elementarfähigkeit an.<br><br>Leuchten – Stellar-Supraleiter: Erhöht zudem den KSCH des durch den Träger verursachten Schadens der Reaktion Stellar-Supraleiter pro Stapelung „Gesetz der Fackel“ um {{value}}%.<br><br>Dieser Effekt kann auch ausgelöst werden, wenn sich der Träger inaktiv in der Truppe befindet.",
+            "it": "Aumenta i DAN da CRIT di un {{value}}%. Quando usa l'abilità elementale, il personaggio che equipaggia l'arma ottiene l'effetto Modulazione cristallina, che aumenta la maestria elementale di {{value}} per 20 s. Mentre l'effetto è attivo, il personaggio che equipaggia l'arma ottiene un accumulo di Legge della combustione quando un membro vicino del gruppo innesca una reazione elementale, fino a un massimo di 3 accumuli. Ogni accumulo aumenta la maestria elementale di {{value}} punti aggiuntivi, e dura fino al termine della durata di Modulazione cristallina o finché il personaggio che equipaggia l'arma non utilizza di nuovo la sua abilità elementale.<br><br>Nello stato di Splendore: Astroconduzione, ogni accumulo di Legge della combustione aumenta anche i DAN da CRIT da Astroconduzione del personaggio che equipaggia l'arma di un {{value}}%.<br><br>Questi effetti possono attivarsi anche quando il personaggio che equipaggia l'arma non è in campo.",
+            "ru": "Увеличивает крит. урон на {{value}}%. Экипированный персонаж, применяя элементальный навык, получает Кристаллическое соединение: мастерство стихий повышается на {{value}} ед. на 20 сек. Во время действия этого эффекта, когда персонажи отряда поблизости активируют элементальные реакции, экипированный персонаж также получает один уровень Закона сгорания: дополнительно повышает мастерство стихий на {{value}} ед. Эффект складывается до 3 раз и длится до окончания Кристаллического соединения или повторного применения элементального навыка.<br><br>Сияние - Звёздный проводник: каждый уровень Закона сгорания также повышает крит. урон Звёздного проводника экипированного персонажа на {{value}}%.<br><br>Этот эффект срабатывает, даже когда экипированный персонаж не на поле боя.",
+            "es": "Aumenta en un {{value}}% el Daño CRIT. Al usar la Habilidad Elemental, el portador de esta arma obtiene el efecto de “compuesto cristalino”, el cual aumenta su Maestría Elemental en {{value}} pts. durante 20 s. Mientras este efecto esté activo, cuando los personajes cercanos del equipo causen una Reacción Elemental, el portador también obtendrá una carga de “ley de combustión”, lo que aumentará su Maestría Elemental en {{value}} pts. adicionales. Este efecto puede acumularse hasta 3 veces y dura hasta que termine el efecto de compuesto cristalino o hasta que se vuelva a usar la Habilidad Elemental.<br><br>“Esplendor: Superconductor Estelar”: cada carga de ley de combustión también aumentará en un {{value}}% el Daño CRIT de la reacción de Superconductor Estelar infligido por el portador de esta arma.<br><br>Estos efectos se pueden activar incluso cuando el portador de esta arma está en tu equipo pero no en uso.",
+            "pt": "Aumenta o Dano CRIT em {{value}}%. Ao lançar a Habilidade Elemental, o portador obtém o efeito Coro Cristalino: aumenta a Proficiência Elemental em {{value}} por 20s. Nessa duração, quando um membro próximo da equipe desencadear uma Reação Elemental, o portador obtém 1 acúmulo de Lei da Tocha, aumentando a Proficiência Elemental em mais {{value}}. Esse efeito pode ser acumulado até 3 vezes, e dura até o efeito Coro Cristalino acabar ou lançar a Habilidade Elemental novamente.<br><br>Brilho Reluzente: Supercondutor Estelar: cada acúmulo de Lei da Tocha aumenta o Dano CRIT de Supercondutor Estelar do portador em {{value}}%.<br><br>Esses efeitos podem ser desencadeados, mesmo quando o portador não for o personagem ativo."
+        },
+        "substat": "cd",
+        "level_1": {
+            "base_attack": 44,
+            "substat_value": "19.2%"
+        },
+        "level_max": {
+            "base_attack": 542,
+            "substat_value": "88.2%"
+        },
+        "r1": [
+            24,
+            48,
+            24,
+            12
+        ],
+        "r2": [
+            30,
+            60,
+            30,
+            15
+        ],
+        "r3": [
+            36,
+            72,
+            36,
+            18
+        ],
+        "r4": [
+            42,
+            84,
+            42,
+            21
+        ],
+        "r5": [
+            48,
+            96,
+            48,
+            24
+        ]
     }
 }
