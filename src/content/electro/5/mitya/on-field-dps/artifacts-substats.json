@@ -1,3 +1,16 @@
 {
-    "substats_priority": []
+    "substats_priority": [
+        {
+            "items": [
+                "cr/cd",
+                "em"
+            ]
+        },
+        {
+            "name": "er",
+            "note": {
+                "en": "[[character:mitya]], when teamed with three [[element:electro]] units, typically does not need any [[stat:er]]. Otherwise, prioritize it until you can use his [[ability:burst]] every rotation."
+            }
+        }
+    ]
 }
