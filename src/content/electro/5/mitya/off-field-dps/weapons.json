@@ -16,7 +16,8 @@
                 {
                     "name": "a-thousand-floating-dreams",
                     "note": {
-                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:em]] buff to increase their damage. It can perform worse or better than [[weapon:reliquary-of-truth]] and [[weapon:sunny-morning-sleep-in]] depending on how much teammates value this buff."
+                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:em]] buff to increase their damage. It can perform worse or better than **[[weapon:reliquary-of-truth]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff.",
+                        "fr": "Le classement de cette arme suppose que 2 membres de l'équipe bénéficient de son buff de [[stat:em]] pour augmenter leurs dégâts. Elle peut être meilleure que **[[weapon:sunny-morning-sleep-in]]** ou moins bonne que **[[weapon:reliquary-of-truth]]** selon l'importance de ce buff pour le reste de l'équipe."
                     }
                 }
             ]
@@ -31,7 +32,8 @@
                 {
                     "name": "winters-heavy-heart",
                     "note": {
-                        "en": "Assumes there are four [[element:cryo]] and [[element:electro]] characters in the team. At **[R5]**, this weapon performs better than **[[weapon:sunny-morning-sleep-in]]**. If you have three [[element:cryo]] and [[element:electro]] characters in the team, its performance is slightly worse."
+                        "en": "Assumes there are four [[element:cryo]] and [[element:electro]] characters in the team. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. If you have three [[element:cryo]] and [[element:electro]] characters in the team, its performance is slightly worse.",
+                        "fr": "Suppose que l'équipe ne contient que des personnages [[element:cryo]] et [[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Avec seulement 3 personnages [[element:cryo]]/[[element:electro]] dans l'équipe, elle devient légèrement moins bonne."
                     }
                 }
             ]
@@ -41,7 +43,8 @@
                 {
                     "name": "wandering-evenstar",
                     "note": {
-                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:atk]] buff to increase their damage. It can perform worse or better than **[[weapon:sacrificial-jade]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff. At **[R5]**, it performs similarly to **[[weapon:starcallers-watch]]** and its range shifts to worse or better than **[[weapon:winters-heavy-heart]]** and **[[weapon:sunny-morning-sleep-in]]**."
+                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:atk]] buff to increase their damage. It can perform worse or better than **[[weapon:sacrificial-jade]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff. **At [R5]**, it performs similarly to **[[weapon:starcallers-watch]]** and its range shifts to worse or better than **[[weapon:winters-heavy-heart]]** and **[[weapon:sunny-morning-sleep-in]]**.",
+                        "fr": "Suppose que 2 membres de l'équipe bénéficient du buff d'[[stat:atk]] pour augmenter leurs dégâts. Elle peut être meilleure que **[[weapon:sunny-morning-sleep-in]]** ou moins bonne que **[[weapon:sacrificial-jade]]** selon l'importance de ce buff pour le reste de l'équipe. **Une fois [R5]**, elle devient similaire à [[weapon:starcallers-watch]], et peut devenir meilleure que **[[weapon:sunny-morning-sleep-in]]** ou moins bonne que **[[weapon:winters-heavy-heart]]**."
                     }
                 }
             ]
@@ -63,7 +66,7 @@
                 {
                     "name": "sacrificial-jade",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:kaguras-verity]]**."
+                        "en": "[[note:r5-better]] **[[weapon:kaguras-verity]]**."
                     }
                 }
             ]
@@ -79,14 +82,15 @@
                 {
                     "name": "the-widsith",
                     "note": {
-                        "en": "At **[R5]**, this weapon performs better than **[[weapon:tome-of-the-eternal-flow]]**."
+                        "en": "[[note:r5-better]] **[[weapon:tome-of-the-eternal-flow]]**."
                     }
                 },
                 {
                     "name": "etherlight-spindlelute",
                     "refinement": 5,
                     "note": {
-                        "en": "If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**."
+                        "en": "If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**.",
+                        "fr": "Dans une équipe où la [[stat:er]] est utile, cette arme devient meilleure que **[[weapon:winters-heavy-heart]]**."
                     }
                 }
             ]
@@ -97,7 +101,8 @@
                     "name": "fruit-of-fulfillment",
                     "refinement": 5,
                     "note": {
-                        "en": "Requires [[character:mitya]] to be able to trigger reactions consistently throughout the rotation; otherwise, do not use this weapon. If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**."
+                        "en": "Requires [[character:mitya]] to be able to trigger reactions consistently throughout the rotation; otherwise, do not use this weapon. If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**.",
+                        "fr": "Nécessite que [[character:mitya]] déclenche régulièrement des réactions au cours de la rotation, n'utilisez pas cette arme dans le cas contraire. Dans une équipe où la [[stat:er]] est utile, cette arme devient meilleure que **[[weapon:winters-heavy-heart]]**."
                     }
                 }
             ]
@@ -108,7 +113,8 @@
                     "name": "ttds",
                     "refinement": 5,
                     "note": {
-                        "en": "This weapon's value increases if you use [[character:mitya]] in a team with a rotation longer than 20s, or if the character to be buffed by this weapon is doing the vast majority of the damage. If this is the case, this weapon can rank roughly equal to **[[weapon:wandering-evenstar]]**."
+                        "en": "This weapon's value increases if you use [[character:mitya]] in a team with a rotation longer than 20s, or if the character to be buffed by this weapon is doing the vast majority of the damage. If this is the case, this weapon can rank roughly equal to **[[weapon:wandering-evenstar]]**.",
+                        "fr": "La valeur de cette arme augmente is vous utilisez [[character:mitya]] dans une équipe avec une rotation plus longue que 20s, ou si le personnage qui reçoit le buff inflige la grande majorité des dégâts de l'équipe. Si c'est le cas, cette arme devient équivalente à **[[weapon:wandering-evenstar]]**."
                     }
                 }
             ]
