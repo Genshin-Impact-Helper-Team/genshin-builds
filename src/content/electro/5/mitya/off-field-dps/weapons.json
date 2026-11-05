@@ -16,7 +16,7 @@
                 {
                     "name": "a-thousand-floating-dreams",
                     "note": {
-                        "en": "This weapon's performance is quite variable depending on how much teammates value its [[stat:em]] buff."
+                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:em]] buff to increase their damage. It can perform worse or better than [[weapon:reliquary-of-truth]] and [[weapon:sunny-morning-sleep-in]] depending on how much teammates value this buff."
                     }
                 }
             ]
@@ -41,7 +41,7 @@
                 {
                     "name": "wandering-evenstar",
                     "note": {
-                        "en": "This weapon's performance is quite variable depending on how much teammates value its [[stat:flat-atk]] buff. At **[R5]**, it is roughly equal to **[[weapon:starcallers-watch]]**."
+                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:atk]] buff to increase their damage. It can perform worse or better than **[[weapon:sacrificial-jade]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff. At **[R5]**, it performs similarly to **[[weapon:starcallers-watch]]** and its range shifts to worse or better than **[[weapon:winters-heavy-heart]]** and **[[weapon:sunny-morning-sleep-in]]**."
                     }
                 }
             ]
