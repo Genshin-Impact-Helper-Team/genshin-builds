@@ -1,4 +1,9 @@
 {
+    "notes": [
+        {
+            "en": "[[character:mitya]]'s weapon rankings can vary greatly depending on team composition. This notably affects weapons that provide [[stat:em]] and [[stat:er]]."
+        }
+    ],
     "weapons": [
         {
             "items": [
