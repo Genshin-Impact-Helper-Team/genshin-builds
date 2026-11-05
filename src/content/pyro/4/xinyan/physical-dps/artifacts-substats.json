@@ -1,0 +1,20 @@
+{
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "[[note:er-req]]."
+            }
+        },
+        "cr/cd",
+        "atk%",
+        {
+            "name": "def%",
+            "note": {
+                "en": "While not it's not as good for damage, [[stat:def]] helps to maintain the uptime on [[character:xinyan]]'s shield.",
+                "fr": "Bien que ça ne soit pas très utile pour ses dégâts, la [[stat:def]] aide à garder le bouclier de [[character:xinyan]] actif.",
+                "ru": "Слабый сабстат в плане урона, но помогает поддерживать щит [[character:xinyan]]."
+            }
+        }
+    ]
+}

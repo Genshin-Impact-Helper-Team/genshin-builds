@@ -1,97 +1,22 @@
 ---
-import { resolveArtifactAssetUrl } from '../utils/item-assets';
-
-type LocalizedArtifactEffect = {
-  en?: string;
-  [lang: string]: string | undefined;
-};
-
-type ArtifactSetInfo = {
-  rarity: number;
-  '1p'?: LocalizedArtifactEffect;
-  '2p'?: LocalizedArtifactEffect;
-  '4p'?: LocalizedArtifactEffect;
-};
-
 type Props = {
   artifact: {
     name: string;
     id?: string;
-    info?: ArtifactSetInfo;
+    info?: unknown;
   };
-  lang?: string;
 };
 
-const { artifact, lang = 'en' } = Astro.props as Props;
+const { artifact } = Astro.props as Props;
 const info = artifact.info;
-
-function escapeHtml(value: unknown) {
-  return String(value ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
-
-function formatEffectHtml(value: unknown) {
-  return escapeHtml(value).replace(/&lt;br\s*\/?&gt;/gi, '<br>');
-}
-
-/**
- * Selects the localized set effect with English fallback.
- */
-const localizedEffect = (effect?: LocalizedArtifactEffect) =>
-  effect?.[lang] ?? effect?.en ?? '';
-
-const effects = info
-  ? [
-      { label: '1P', value: localizedEffect(info['1p']) },
-      { label: '2P', value: localizedEffect(info['2p']) },
-      { label: '4P', value: localizedEffect(info['4p']) },
-    ].filter((effect) => effect.value)
-  : [];
-const imageUrl = artifact.id ? resolveArtifactAssetUrl(artifact.id) : '';
-const popoverCardHtml = info
-  ? [
-      '<span class="info-popover-header',
-      imageUrl ? ' has-image' : '',
-      '">',
-      imageUrl
-        ? [
-            '<span class="info-popover-image artifact-popover-image"><img src="',
-            escapeHtml(imageUrl),
-            '" alt="" loading="lazy" decoding="async"></span>',
-          ].join('')
-        : '',
-      '<span class="info-popover-name">',
-      escapeHtml(artifact.name),
-      '</span>',
-      '<span class="info-popover-rarity">',
-      escapeHtml(info.rarity),
-      ' \u2605</span>',
-      '</span>',
-      effects
-        .map((effect) =>
-          [
-            '<span class="info-popover-stat artifact-popover-effect"><span>',
-            escapeHtml(effect.label),
-            '</span><strong>',
-            formatEffectHtml(effect.value),
-            '</strong></span>',
-          ].join(''),
-        )
-        .join(''),
-    ].join('')
-  : '';
 ---
 
 {
-  info ? (
+  info && artifact.id ? (
     <span
       class="info-popover artifact-popover"
       data-info-popover-card-class="artifact-popover-card"
-      data-info-popover-html={popoverCardHtml}
+      data-info-popover-id={`artifact:${artifact.id}`}
     >
       <span
         class="info-popover-trigger artifact-popover-trigger"

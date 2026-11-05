@@ -207,9 +207,26 @@ document
                     String(item.dataset.weaponRefinement === refinement),
                 ),
             );
-        card
-            .querySelectorAll<HTMLElement>('[data-weapon-refinement-panel]')
-            .forEach((panel) => {
-                panel.hidden = panel.dataset.weaponRefinementPanel !== refinement;
+        const panel = card.querySelector<HTMLElement>(
+            '[data-weapon-refinement-panel]',
+        );
+        if (!panel) return;
+
+        panel.dataset.weaponRefinementPanel = refinement;
+        const valuesByPlaceholder = JSON.parse(
+            panel.dataset.refinementValues ?? '[]',
+        );
+        const refinementIndex = Number(refinement.slice(1)) - 1;
+        panel
+            .querySelectorAll<HTMLElement>('[data-refinement-value-index]')
+            .forEach((value) => {
+                const values =
+                    valuesByPlaceholder[
+                        Number(value.dataset.refinementValueIndex)
+                    ];
+                const selectedValue = values?.[refinementIndex];
+                value.textContent = Array.isArray(selectedValue)
+                    ? selectedValue.join('/')
+                    : String(selectedValue ?? '');
             });
     });

@@ -9,19 +9,17 @@
     "weapons": [
         {
             "items": [
+                "starsealed-edict"
+            ]
+        },
+        {
+            "items": [
                 "reliquary-of-truth"
             ]
         },
         {
             "items": [
-                {
-                    "name": "lost-prayer-to-the-sacred-winds",
-                    "note": {
-                        "en": "Assumes 12% DMG averaged.",
-                        "fr": "Suppose +12% DGT en moyenne.",
-                        "ru": "Предполагается, что бонус составляет 12%."
-                    }
-                },
+                "lost-prayer-to-the-sacred-winds",
                 {
                     "name": "kaguras-verity",
                     "note": {
@@ -41,22 +39,8 @@
         },
         {
             "items": [
-                {
-                    "name": "tulaytullahs-remembrance",
-                    "note": {
-                        "en": "Averages 25% [[ability:na]] DMG.",
-                        "fr": "Suppose 25% DGT [[ability:na]] en moyenne.",
-                        "ru": "Предполагается, что бонус урона [[ability:na|Обычных атак]] в среднем составляет 25%."
-                    }
-                },
-                {
-                    "name": "surfs-up",
-                    "note": {
-                        "en": "Assumes dynamic stacking.",
-                        "fr": "Suppose un stacking dynamique.",
-                        "ru": "Предполагается динамический набор усиления."
-                    }
-                }
+                "tulaytullahs-remembrance",
+                "surfs-up"
             ]
         },
         {

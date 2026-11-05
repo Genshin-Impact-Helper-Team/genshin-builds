@@ -8,9 +8,15 @@ document.body.append(card);
 const NOTE_TRIGGER_SELECTOR = '.note-button[data-note-id]';
 const POPOVER_SELECTOR = `.info-popover, ${NOTE_TRIGGER_SELECTOR}`;
 const TRIGGER_SELECTOR = `.info-popover-trigger, ${NOTE_TRIGGER_SELECTOR}`;
+type PopoverContent = { html: string; cardClass?: string } | null;
 
 let activePopover: HTMLElement | null = null;
+let pendingPopover: HTMLElement | null = null;
 let pinned = false;
+let showRequest = 0;
+let sharedPopoverData: Promise<
+  Record<string, { html: string; cardClass?: string }>
+> | null = null;
 
 const getPopover = (target: EventTarget | null) =>
   target instanceof Element
@@ -39,10 +45,39 @@ function getNotePopoverHtml(noteId: string) {
   return clone.innerHTML;
 }
 
-const getPopoverHtml = (popover: HTMLElement) =>
-  popover.dataset.noteId
-    ? getNotePopoverHtml(popover.dataset.noteId)
-    : popover.dataset.infoPopoverHtml;
+async function getPopoverContent(
+  popover: HTMLElement,
+): Promise<PopoverContent> {
+  if (popover.dataset.noteId) {
+    return { html: getNotePopoverHtml(popover.dataset.noteId) };
+  }
+
+  const id = popover.dataset.infoPopoverId;
+  if (!id) {
+    return popover.dataset.infoPopoverHtml
+      ? { html: popover.dataset.infoPopoverHtml }
+      : null;
+  }
+
+  if (!sharedPopoverData) {
+    const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+      ? import.meta.env.BASE_URL
+      : `${import.meta.env.BASE_URL}/`;
+    const lang = document.documentElement.lang || 'en';
+    sharedPopoverData = fetch(`${baseUrl}${lang}/popover-data.json`)
+      .then((response) => {
+        if (!response.ok) throw new Error('Could not load shared popover data');
+        return response.json();
+      })
+      .catch((error) => {
+        sharedPopoverData = null;
+        throw error;
+      });
+  }
+
+  const data = await sharedPopoverData;
+  return data[id] ?? null;
+}
 
 function positionCard(popover: HTMLElement) {
   const trigger = getTrigger(popover);
@@ -66,9 +101,23 @@ function positionCard(popover: HTMLElement) {
   )}px`;
 }
 
-function showPopover(popover: HTMLElement, pin = false) {
-  const html = getPopoverHtml(popover);
-  if (!html) return;
+async function showPopover(popover: HTMLElement, pin = false) {
+  const request = ++showRequest;
+  pendingPopover = popover;
+  pinned = pin;
+  let content: PopoverContent;
+  try {
+    content = await getPopoverContent(popover);
+  } catch {
+    if (request === showRequest) hidePopover();
+    return;
+  }
+  if (request !== showRequest) return;
+  pendingPopover = null;
+  if (!content?.html) {
+    hidePopover();
+    return;
+  }
 
   if (activePopover) {
     getTrigger(activePopover)?.setAttribute('aria-expanded', 'false');
@@ -77,11 +126,11 @@ function showPopover(popover: HTMLElement, pin = false) {
   pinned = pin;
   card.className = [
     'info-popover-card',
-    popover.dataset.infoPopoverCardClass ?? '',
+    popover.dataset.infoPopoverCardClass ?? content.cardClass ?? '',
   ]
     .filter(Boolean)
     .join(' ');
-  card.innerHTML = html;
+  card.innerHTML = content.html;
   const trigger = getTrigger(popover);
   trigger?.setAttribute('aria-controls', card.id);
   trigger?.setAttribute('aria-expanded', 'true');
@@ -91,6 +140,8 @@ function showPopover(popover: HTMLElement, pin = false) {
 }
 
 function hidePopover() {
+  showRequest += 1;
+  pendingPopover = null;
   if (activePopover) {
     getTrigger(activePopover)?.setAttribute('aria-expanded', 'false');
   }
@@ -157,17 +208,24 @@ document.addEventListener('pointerover', (event) => {
       ? event.target.closest(TRIGGER_SELECTOR)
       : null,
   );
-  if (popover && popover !== activePopover && !pinned) {
+  if (
+    popover &&
+    popover !== activePopover &&
+    popover !== pendingPopover &&
+    !pinned
+  ) {
     showPopover(popover);
   }
 });
 
 document.addEventListener('pointerout', (event) => {
-  if (pinned || !activePopover) return;
+  if (pinned || (!activePopover && !pendingPopover)) return;
   const next = event.relatedTarget;
   if (
     next instanceof Node &&
-    (activePopover.contains(next) || card.contains(next))
+    (activePopover?.contains(next) ||
+      pendingPopover?.contains(next) ||
+      card.contains(next))
   ) {
     return;
   }
@@ -180,15 +238,24 @@ document.addEventListener('focusin', (event) => {
       ? event.target.closest(TRIGGER_SELECTOR)
       : null,
   );
-  if (popover && !pinned) showPopover(popover);
+  if (
+    popover &&
+    popover !== activePopover &&
+    popover !== pendingPopover &&
+    !pinned
+  ) {
+    showPopover(popover);
+  }
 });
 
 document.addEventListener('focusout', (event) => {
-  if (pinned || !activePopover) return;
+  if (pinned || (!activePopover && !pendingPopover)) return;
   const next = event.relatedTarget;
   if (
     next instanceof Node &&
-    (activePopover.contains(next) || card.contains(next))
+    (activePopover?.contains(next) ||
+      pendingPopover?.contains(next) ||
+      card.contains(next))
   ) {
     return;
   }

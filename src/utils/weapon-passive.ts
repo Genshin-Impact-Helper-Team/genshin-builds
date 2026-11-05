@@ -21,10 +21,15 @@ const REFINEMENT_KEYS = ['r1', 'r2', 'r3', 'r4', 'r5'] as const;
 /**
  * Wraps one passive value so popovers can style substituted numbers.
  */
-function formatPassiveValue(value: WeaponPassiveValue | undefined) {
-	const text = Array.isArray(value) ? value.join('/') : String(value ?? '');
+function formatPassiveValue(
+  value: WeaponPassiveValue | undefined,
+  index?: number,
+) {
+  const text = Array.isArray(value) ? value.join('/') : String(value ?? '');
+  const indexAttribute =
+    index === undefined ? '' : ` data-refinement-value-index="${index}"`;
 
-	return `<span class="weapon-popover-passive-value">${text}</span>`;
+  return `<span class="weapon-popover-passive-value"${indexAttribute}>${text}</span>`;
 }
 
 /**
@@ -36,6 +41,13 @@ function getPassiveText(passive: WeaponPassiveText | undefined, lang = 'en') {
   }
 
   return passive?.[lang] ?? passive?.en ?? '';
+}
+
+export function getWeaponPassiveValueCount(
+  passive: WeaponPassiveText | undefined,
+  lang = 'en',
+) {
+  return getPassiveText(passive, lang).match(/\{\{value\}\}/g)?.length ?? 0;
 }
 
 /**
@@ -70,6 +82,7 @@ export function formatWeaponPassive(
   info: WeaponRefinementData,
   refinement?: number | string,
   lang = 'en',
+  trackValues = false,
 ) {
   const passive = getPassiveText(info.passive, lang);
   const selectedRefinement = parseRefinement(refinement);
@@ -81,7 +94,10 @@ export function formatWeaponPassive(
 
     if (selectedRefinement) {
       const refinementKey = `r${selectedRefinement}` as (typeof REFINEMENT_KEYS)[number];
-      return formatPassiveValue(info[refinementKey]?.[index]);
+      return formatPassiveValue(
+        info[refinementKey]?.[index],
+        trackValues ? index : undefined,
+      );
     }
 
     return getCombinedValue(info, index);

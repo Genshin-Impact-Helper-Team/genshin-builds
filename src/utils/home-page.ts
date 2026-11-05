@@ -88,7 +88,7 @@ function getBuildSummaries(
 export function getHomePageData(lang = 'en') {
   const locale = getLocale(lang);
   const contentPath = path.join(process.cwd(), 'src', 'content');
-  const translator = new TranslationHelper(locale, {}, lang);
+  const translator = new TranslationHelper(locale);
   const latestVersion = getLatestChangelogVersion(contentPath);
 
   const characters = getContentCharacters(contentPath, true)

@@ -1,0 +1,117 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "crimson-witch-of-flames",
+                            "pieces": 2
+                        }
+                    ],
+                    "choices": [
+                        {
+                            "items": [
+                                {
+                                    "name": "er-set",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "atk-set",
+                                    "pieces": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "retracing-bolide",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used with [[character:furina]], this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Si jouée avec [[character:furina]], il s'agit du meilleur set pour [[character:xinyan]].",
+                        "ru": "Лучший выбор при игре с [[character:furina|Фуриной]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "night-of-the-skys-unveiling",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in teams with Ascendant Gleam, this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Dans les équipes Lueur Ascendante, il s'agit du meilleur set pour [[character:xinyan]].",
+                        "ru": "Лучший выбор при игре в отрядах с Высшим сиянием."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "long-nights-oath",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in a [[ability:plunge]] team with [[character:xianyun]], this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Si jouée en [[ability:plunge]] avec [[character:xianyun]], il s'agit du meilleur set pour [[character:xinyan]].",
+                        "ru": "Лучший выбор при игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "crimson-witch-of-flames",
+                    "pieces": 4,
+                    "note": {
+                        "en": "In teams where [[character:xinyan]] can frequently trigger [[element:vaporize]] and [[element:overload]], this set performs better than 2pc combinations.",
+                        "fr": "Dans les équipes où [[character:xinyan]] déclenche fréquemment [[element:vaporize]] et [[element:overload]], ce set devient meilleur que les 2P/2P.",
+                        "ru": "В отрядах, где [[character:xinyan]] может часто закрывать [[element:vaporize]] и [[element:overload|Перегрузку]], превосходит любые комбинации из 2х частей."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "lavawalker",
+                    "pieces": 4,
+                    "note": {
+                        "en": "In teams which can keep up constant [[element:pyro]] aura uptime, this set performs better than 2pc combinations.",
+                        "fr": "Dans les équipes avec une aura [[element:pyro]] constantes, ce set devient meilleur que les 2P/2P.",
+                        "ru": "В отрядах, способных постоянно поддерживать [[element:pyro]] на противнике, превосходит любые комбинации из 2х частей."
+                    }
+                }
+            ]
+        }
+    ]
+}

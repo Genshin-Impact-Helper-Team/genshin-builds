@@ -30,11 +30,9 @@ type ArtifactRecommendations = {
 const {
   artifacts,
   locale,
-  lang = 'en',
 } = Astro.props as {
   artifacts: ArtifactRecommendations;
   locale: any;
-  lang?: string;
 };
 
 const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
@@ -72,7 +70,6 @@ const getGroupNoteItems = (group: ArtifactSetGroupData) =>
                         <ArtifactSetGroup
                           group={mainGroup}
                           locale={locale}
-                          lang={lang}
                         />
                       </div>
                       {mainGroupNoteItems.length > 0 && (
@@ -93,7 +90,6 @@ const getGroupNoteItems = (group: ArtifactSetGroupData) =>
                           <ArtifactSetGroup
                             group={group}
                             locale={locale}
-                            lang={lang}
                           />
                         </div>
                         {noteItems.length > 0 && (
@@ -128,7 +124,6 @@ const getGroupNoteItems = (group: ArtifactSetGroupData) =>
                       <ArtifactSetGroup
                         group={group}
                         locale={locale}
-                        lang={lang}
                       />
                     </div>
                     {noteItems.length > 0 && (

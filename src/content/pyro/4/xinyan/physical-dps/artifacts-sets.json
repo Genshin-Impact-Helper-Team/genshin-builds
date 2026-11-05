@@ -1,0 +1,116 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "pale-flame",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "disenchantment-in-deep-shadow",
+                            "pieces": 4,
+                            "note": {
+                                "en": "This ranking assumes that the team can reliably trigger [[element:superconduct]] or [[element:stellar-conduct]]. Otherwise, this set is not worth considering.",
+                                "fr": "Ce classement suppose que l'équipe peut déclencher [[element:superconduct]] ou [[element:stellar-conduct]] de façon fiable. Sinon, il ne faut pas utiliser ce set.",
+                                "it": "La classifica presuppone che il team inneschi in modo affidabile [[element:superconduct]] o [[element:stellar-conduct]]. In caso contrario, non vale la pena predere questo set in considerazione.",
+                                "ru": "Предполагается, что отряд способен надёжно вызывать [[element:superconduct]] или [[element:stellar-conduct]]. В противном случае этот сет не стоит использовать."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "physical-set",
+                            "pieces": 2
+                        }
+                    ],
+                    "choices": [
+                        {
+                            "items": [
+                                {
+                                    "name": "er-set",
+                                    "pieces": 2
+                                },
+                                {
+                                    "name": "atk-set",
+                                    "pieces": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "a-day-carved-from-rising-winds",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "retracing-bolide",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "conditional": [
+        {
+            "items": [
+                {
+                    "name": "marechaussee-hunter",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used with [[character:furina]], this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Si jouée avec [[character:furina]], il s'agit du meilleur set pour [[character:xinyan]].",
+                        "ru": "Лучший выбор при игре с [[character:furina|Фуриной]]."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "long-nights-oath",
+                    "pieces": 4,
+                    "note": {
+                        "en": "If used in a [[ability:plunge]] team with [[character:xianyun]], this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Si jouée en [[ability:plunge]] avec [[character:xianyun]], il s'agit du meilleur set pour [[character:xinyan]].",
+                        "ru": "Лучший выбор при игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

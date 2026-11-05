@@ -2,8 +2,28 @@
     "sourceUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pub?gid=172546500&single=true&output=csv",
     "groups": [
         {
+            "version": "7.2",
+            "entries": [
+                {
+                    "date": "November 05, 2026",
+                    "changes": "Added Mitya.",
+                    "appliedBy": "Quincy"
+                },
+                {
+                    "date": "November 03, 2026",
+                    "changes": "Added Starsealed Edict to Yae Miko Stellar-Conduct, Varesa and Klee's weapon rankings.",
+                    "appliedBy": "Yoren, Speify, Plo"
+                }
+            ]
+        },
+        {
             "version": "7.1",
             "entries": [
+                {
+                    "date": "November 01, 2026",
+                    "changes": "Added Pyro DPS and Physical DPS Xinyan sections.",
+                    "appliedBy": "Finnyke"
+                },
                 {
                     "date": "October 30, 2026",
                     "changes": "Tweaked assumptions for Noelle's lunar-crystallize DPS section, changed rankings accordingly.",
