@@ -7,6 +7,9 @@
     },
     "notes": [
         {
+            "en": "**For weapons/artifacts that require [[character:mitya]] to trigger an elemental reaction:** [[character:mitya]] is only able to consistently do this if there is a larger amount of [[element:cryo]] application than [[element:electro]] application."
+        },
+        {
             "en": "[[character:mitya]] is an Off-Field DPS through his tap [[ability:skill]] that deals damage and buffs the [[element:stellar-conduct]] Base DMG and [[stat:em]] of all party members. His damage comes from his [[ability:skill]], which continuously deals [[element:stellar-conduct]] damage when [[character:mitya]] gains stacks above the maximum limit (four at C0, five at C1+). Stacks are gained through triggering [[element:stellar-conduct]] and using [[character:mitya]]'s [[ability:burst]]. Using [[character:mitya]]'s [[ability:burst]] can be optional depending on the specific team he is used in."
         }
     ],
