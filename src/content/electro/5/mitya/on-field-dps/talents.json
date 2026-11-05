@@ -10,21 +10,22 @@
         {
             "items": [
                 {
-                    "name": "burst"
+                    "name": "burst",
+                    "note": {
+                        "en": "[[character:mitya]]'s [[ability:burst]] talent levels are not a necessity."
+                    }
                 }
             ]
         },
         {
             "items": [
                 {
-                    "name": "skill"
+                    "name": "skill",
+                    "note": {
+                        "en": "[[character:mitya]]'s [[ability:burst]] talent levels are not a necessity and can be ignored if you do not use [[character:mitya]]'s [[ability:skill]]-switching technique."
+                    }
                 }
             ]
-        }
-    ],
-    "notes": [
-        {
-            "en": "[[character:mitya]]'s [[ability:burst]] and [[ability:skill]] talent levels are not a necessity. For On-Field DPS [[character:mitya]], levelling the [[ability:skill]] does not increase damage if you are not swapping between his tap and hold [[ability:skill]] in combat."
         }
     ]
 }
