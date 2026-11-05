@@ -5,15 +5,10 @@
             "version": "7.2",
             "entries": [
                 {
-                    "date": "November 04, 2026",
-                    "changes": "Added Mitya and removed WIP.",
+                    "date": "November 05, 2026",
+                    "changes": "Added Mitya.",
                     "appliedBy": "Quincy"
-                }
-            ]
-        },
-        {
-            "version": "7.2",
-            "entries": [
+                },
                 {
                     "date": "November 03, 2026",
                     "changes": "Added Starsealed Edict to Yae Miko Stellar-Conduct, Varesa and Klee's weapon rankings.",

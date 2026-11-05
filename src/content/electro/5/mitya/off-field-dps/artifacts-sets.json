@@ -49,7 +49,6 @@
                     ]
                 },
                 {
-                    "choose": true,
                     "items": [
                         {
                             "name": "em-set",

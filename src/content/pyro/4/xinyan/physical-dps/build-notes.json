@@ -1,16 +1,29 @@
 {
     "name": {
         "en": "Physical DPS",
+        "fr": "DPS Physique",
         "ru": "Физ ДД"
     },
     "notes": [
         {
-            "en": "[[character:xinyan]]'s physical DPS playstyle focuses on dealing on-field damage through the combination of her [[ability:burst]] and [[ability:na]]s/[[ability:ca]]s. Her [[ability:burst]] damage is separated into one large instance of physical damage and several small instances of [[element:pyro]] damage. [[character:xinyan]]'s [[ability:skill]] deals [[element:pyro]] damage and generates a shield of a certain level, depending on the amount of enemies hit. Maximum level is 3, achieved by hitting at least 2 targets. At level 3, the shield will also periodically deal [[element:pyro]] damage to nearby targets.\nAt C2 [[character:xinyan]]'s optimal [[stat:cr]]:[[stat:cd]] ratio shifts to around 1:3, and using her [[ability:burst]] grants a level 3 shield.",
-            "ru": "[[character:xinyan]] как Физ. ДД наносит урон на поле [[ability:burst|Взрывом стихии]] и [[ability:na|Обычными]]/[[ability:ca|Заряженными атакми]]. Её [[ability:burst]] наносит высокий физический урон, а также несколько раз наносит меньший [[element:pyro]] урон. [[ability:skill]] [[character:xinyan]] наносит [[element:pyro]] урон и создаёт щит уровня, зависящего от количества поражённых целей. Максимальный уровень 3 достигается попаданием по двум противникам. На уровне 3 щит дополнительно наносит периодический [[element:pyro]] урон целям поблизости.\nНа C2 оптимальное соотношение [[stat:cr]]:[[stat:cd]] для [[character:xinyan]] становится примерно равным 1:3, а использование [[ability:burst|Взрыва стихии]] даёт щит 3-го уровня."
+            "en": "[[character:xinyan]]'s physical DPS playstyle focuses on dealing on-field damage through the combination of her [[ability:burst]] and [[ability:na]]s/[[ability:ca]]s. Her [[ability:burst]] damage is separated into one large instance of physical damage and several small instances of [[element:pyro]] damage.",
+            "fr": "[[character:xinyan]] en tant que DPS Physique fonctionne en infligeant des dégâts On-Field grâce à une combinaison de son [[ability:burst]] et d'[[ability:na|attaques normales]]/[[ability:ca|chargées]]. Les dégâts de son [[ability:burst]] sont constitués d'une grande instance de dégâts Physique, et de plusieurs petites instances de dégâts [[element:pyro]].",
+            "ru": "[[character:xinyan]] как Физ. ДД наносит урон на поле [[ability:burst|Взрывом стихии]] и [[ability:na|Обычными]]/[[ability:ca|Заряженными атакми]]. Её [[ability:burst]] наносит высокий физический урон, а также несколько раз наносит меньший [[element:pyro]] урон. [[ability:skill]] [[character:xinyan]] наносит [[element:pyro]] урон и создаёт щит уровня, зависящего от количества поражённых целей."
         },
         {
-            "en": "Pre-C6 combo: **{rot:EQ 2N4D N2}**. At C6 it's preferable to do one full [[ability:ca]] cycle instead of **{rot:2N4D}**.",
-            "ru": "Комбо до C6: **{rot:EQ 2N4D N2}**. На С6 лучше провести полную [[ability:ca|Заряженную атаку]] вместо **{rot:2N4D}**."
+            "en": "[[character:xinyan]]'s [[ability:skill]] deals [[element:pyro]] damage and generates a shield of a certain level, depending on the amount of enemies hit. Maximum level is 3, achieved by hitting at least 2 targets. At level 3, the shield will also periodically deal [[element:pyro]] damage to nearby targets.",
+            "fr": "Le [[ability:skill]] de [[character:xinyan]] inflige des dégâts [[element:pyro]] et génère un bouclier dont le niveau dépend du nombre d'ennemis touchés. Le niveau maximum est 3, atteignable en touchant au moins 2 ennemis. Au niveau 3, le bouclier infligera periodiquement des dégâts [[element:pyro]] aux ennemis proches.",
+            "ru": "Максимальный уровень 3 достигается попаданием по двум противникам. На уровне 3 щит дополнительно наносит периодический [[element:pyro]] урон целям поблизости."
+        },
+        {
+            "en": "At [C2], [[character:xinyan]]'s optimal [[stat:cr]]:[[stat:cd]] ratio shifts to around 1:3, and using her [[ability:burst]] grants a level 3 shield.",
+            "fr": "Avec sa [C2], le ratio [[stat:cr|TC]]:[[stat:cd|DC]] optimal de [[character:xinyan]] tends plutôt vers un ratio 1:3, et utiliser son [[ability:burst]] donne directement un bouclier de niveau 3.",
+            "ru": "На [C2] оптимальное соотношение [[stat:cr]]:[[stat:cd]] для [[character:xinyan]] становится примерно равным 1:3, а использование [[ability:burst|Взрыва стихии]] даёт щит 3-го уровня."
+        },
+        {
+            "en": "Pre-[C6] combo: {rot:EQ 2N4D N2}.\nAt [C6] it's preferable to do one full [[ability:ca]] cycle instead of {rot:2N4D}.",
+            "fr": "Combo Pre-[C6]: {rot:EA 2N4D N2}.\nAvec la [C6], il est préférable de faire un cycle complet d'[[ability:ca]] au lieu de {rot:2N4D}.",
+            "ru": "Комбо до [C6]: {rot:EQ 2N4D N2}.\nНа [С6] лучше провести полную [[ability:ca|Заряженную атаку]] вместо {rot:2N4D}."
         }
     ],
     "global": {
@@ -18,4 +31,3 @@
         "link": "https://drive.google.com/drive/folders/1hOzWcTB2xDpfXWyVPrQfT9oJFL_E2GuC?usp=sharing"
     }
 }
-

@@ -93,6 +93,7 @@
                     "pieces": 4,
                     "note": {
                         "en": "If used with [[character:furina]], this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Si jouée avec [[character:furina]], il s'agit du meilleur set pour [[character:xinyan]].",
                         "ru": "Лучший выбор при игре с [[character:furina|Фуриной]]."
                     }
                 }
@@ -105,6 +106,7 @@
                     "pieces": 4,
                     "note": {
                         "en": "If used in a [[ability:plunge]] team with [[character:xianyun]], this is [[character:xinyan]]'s best artifact set.",
+                        "fr": "Si jouée en [[ability:plunge]] avec [[character:xianyun]], il s'agit du meilleur set pour [[character:xinyan]].",
                         "ru": "Лучший выбор при игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]]."
                     }
                 }
@@ -112,4 +114,3 @@
         }
     ]
 }
-
