@@ -97,8 +97,8 @@ const noteMarkerExplanation = t(locale, 'ui', 'Note marker explanation', undefin
                 )}
 
                 <div class="grid">
-                  {build.weapons && <Weapon weapons={build.weapons} locale={locale} lang={currentLang} />}
-                  {build.artifacts.sets && <Artifact artifacts={build.artifacts} locale={locale} lang={currentLang} />}
+                  {build.weapons && <Weapon weapons={build.weapons} locale={locale} />}
+                  {build.artifacts.sets && <Artifact artifacts={build.artifacts} locale={locale} />}
                   {build.artifacts.mainstats && build.artifacts.substats && (
                     <ArtifactStats artifacts={build.artifacts} locale={locale} />
                   )}

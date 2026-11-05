@@ -112,21 +112,6 @@ function loadWeaponData(weaponType: string) {
     return readJSONFile(filePath);
 }
 
-/**
- * Loads every shared weapon entry so inline weapon popovers can resolve IDs.
- */
-function loadAllWeaponData() {
-    return fs
-        .readdirSync(weaponDataPath)
-        .filter((fileName) => fileName.endsWith('.json'))
-        .reduce<Record<string, SharedWeaponData>>((weaponData, fileName) => {
-            const typeData = readJSONFile(path.join(weaponDataPath, fileName));
-
-            Object.assign(weaponData, typeData);
-            return weaponData;
-        }, {});
-}
-
 type SharedWeaponData = {
     rarity: number;
     source?: string;
@@ -844,14 +829,8 @@ export function getCharacterPageData({
 
     const currentLang = lang ?? 'en';
     const locale = getLocale(currentLang);
-    const weaponData = loadAllWeaponData();
     const artifactSetData = loadArtifactSetData();
-    const translator = new TranslationHelper(
-        locale,
-        weaponData,
-        currentLang,
-        artifactSetData,
-    );
+    const translator = new TranslationHelper(locale);
     const characterSlug = character.toLowerCase();
     const slugParts = parsePublicCharacterSlug(characterSlug);
     const contentSlug = slugParts.character;

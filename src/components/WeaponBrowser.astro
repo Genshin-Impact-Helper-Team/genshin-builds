@@ -40,10 +40,8 @@ type WeaponBrowserData = {
       isWip?: boolean;
       rank?: number;
     }[];
-    passivePanels: {
-      refinement: number;
-      html: string;
-    }[];
+    passiveHtml: string;
+    refinementValues: (number | number[] | undefined)[][];
   }[];
 };
 
@@ -245,7 +243,7 @@ const sortOptions = [
             </tbody>
           </table>
 
-          {weapon.passivePanels.length > 0 && (
+          {weapon.passiveHtml && (
             <section
               class="weapon-entry-passive"
               aria-label={`${weapon.name} ${descriptionLabel}`}
@@ -253,27 +251,25 @@ const sortOptions = [
               <div class="weapon-entry-section-header">
                 <h3>{descriptionLabel}</h3>
                 <div class="weapon-refinement-buttons">
-                  {weapon.passivePanels.map((panel) => (
+                  {[1, 2, 3, 4, 5].map((refinement) => (
                     <button
                       class="weapon-refinement-button"
                       type="button"
-                      data-weapon-refinement={`r${panel.refinement}`}
-                      aria-pressed={panel.refinement === 1 ? 'true' : 'false'}
+                      data-weapon-refinement={`r${refinement}`}
+                      aria-pressed={refinement === 1 ? 'true' : 'false'}
                     >
-                      R{panel.refinement}
+                      R{refinement}
                     </button>
                   ))}
                 </div>
               </div>
 
               <div class="weapon-passive-copy">
-                {weapon.passivePanels.map((panel) => (
-                  <div
-                    data-weapon-refinement-panel={`r${panel.refinement}`}
-                    hidden={panel.refinement !== 1}
-                    set:html={panel.html}
-                  />
-                ))}
+                <div
+                  data-weapon-refinement-panel="r1"
+                  data-refinement-values={JSON.stringify(weapon.refinementValues)}
+                  set:html={weapon.passiveHtml}
+                />
               </div>
             </section>
           )}
