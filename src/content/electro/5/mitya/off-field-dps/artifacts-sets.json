@@ -47,18 +47,7 @@
                             "pieces": 4
                         }
                     ]
-                },
-                {
-                    "items": [
-                        {
-                            "name": "gilded-dreams",
-                            "pieces": 4,
-                            "note": {
-                                "en": "The performance of this set depends on the number of **non**-[[element:electro]] characters in the team, since each non-[[element:electro]] character increases the [[stat:em]] provided by [[set:gilded-dreams]]."
-                            }
-                        }
-                    ]
-                },
+                }
                 {
                     "items": [
                         {
@@ -68,6 +57,17 @@
                         {
                             "name": "em-set",
                             "pieces": 2
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "gilded-dreams",
+                            "pieces": 4,
+                            "note": {
+                                "en": "You have to be able to trigger a reaction **consistently** with [[character:mitya]] in order to use this set. The performance of this set depends on the number of **non**-[[element:electro]] characters in the team, since each non-[[element:electro]] character increases the [[stat:em]] provided by [[set:gilded-dreams]]."
+                            }
                         }
                     ]
                 }
