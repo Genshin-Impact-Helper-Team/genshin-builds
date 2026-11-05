@@ -1,3 +1,16 @@
 {
-    "substats_priority": []
+    "substats_priority": [
+        {
+            "items": [
+                "cr/cd",
+                "em"
+            ]
+        },
+        {
+            "name": "er",
+            "note": {
+                "en": "[[character:mitya]] doesn't need to use his [[ability:burst]] every rotation. However, if his [[stat:er]] requirements to do so are fairly low, you can consider building [[stat:er]]."
+            }
+        }
+    ]
 }

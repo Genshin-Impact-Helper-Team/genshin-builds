@@ -7,23 +7,34 @@
     },
     "notes": [
         {
-            "en": ""
+            "en": "**For weapons/artifacts that require [[character:mitya]] to trigger an elemental reaction:** [[character:mitya]] is only able to consistently do this if there is a larger amount of [[element:cryo]] application than [[element:electro]] application."
+        },
+        {
+            "en": "[[character:mitya]] is an Off-Field DPS through his tap [[ability:skill]] that deals damage and buffs the [[element:stellar-conduct]] Base DMG and [[stat:em]] of all party members. His damage comes from his [[ability:skill]], which continuously deals [[element:stellar-conduct]] damage when [[character:mitya]] gains stacks above the maximum limit (four at [C0], five at [C1]+). Stacks are gained through triggering [[element:stellar-conduct]] and using [[character:mitya]]'s [[ability:burst]]. Using [[character:mitya]]'s [[ability:burst]] can be optional depending on the specific team he is used in."
         }
     ],
     "tips": [
         {
             "title": {
-                "en": ""
+                "en": "Quickswap Playstyle"
             },
             "content": {
-                "en": ""
+                "en": "[[character:mitya]] can perform an enhanced [[ability:ca]] to deal damage before utilizing a skill-switch to revert to his Off-Field mode. This is typically used in [[element:cryo]] [[character:traveler]] DPS teams."
+            }
+        },
+        {
+            "title": {
+                "en": "Skill-Switching"
+            },
+            "content": {
+                "en": "[[character:mitya]] can swap between his on-field and off-field [[ability:skill]] modes by using his [[ability:skill]] again within 6s of first casting his [[ability:skill]]. This can be used as an advanced trick to use [[character:mitya]] as a Quickswap DPS."
             }
         }
     ],
-    "weapons": [
+    "global": [
         {
             "author": "Quincy",
-            "link": ""
+            "link": "https://drive.google.com/drive/folders/1mZkGC3NT0xrpb76nLEpGEPAtsgYjV00i?usp=sharing"
         }
     ]
 }

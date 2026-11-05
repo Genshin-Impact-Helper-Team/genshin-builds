@@ -4,6 +4,114 @@
             "items": [
                 "starsealed-edict"
             ]
+        },
+        {
+            "items": [
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch",
+                {
+                    "name": "a-thousand-floating-dreams",
+                    "note": {
+                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:em]] buff to increase their damage. It can perform worse or better than [[weapon:reliquary-of-truth]] and [[weapon:sunny-morning-sleep-in]] depending on how much teammates value this buff."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "reliquary-of-truth"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "winters-heavy-heart",
+                    "note": {
+                        "en": "Assumes there are four [[element:cryo]] and [[element:electro]] characters in the team. At **[R5]**, this weapon performs better than **[[weapon:sunny-morning-sleep-in]]**. If you have three [[element:cryo]] and [[element:electro]] characters in the team, its performance is slightly worse."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "wandering-evenstar",
+                    "note": {
+                        "en": "This weapon is ranked assuming two teammates benefit from its [[stat:atk]] buff to increase their damage. It can perform worse or better than **[[weapon:sacrificial-jade]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff. At **[R5]**, it performs similarly to **[[weapon:starcallers-watch]]** and its range shifts to worse or better than **[[weapon:winters-heavy-heart]]** and **[[weapon:sunny-morning-sleep-in]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                "tome-of-the-eternal-flow",
+                "surfs-up",
+                "nocturnes-curtain-call"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sacrificial-jade",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs better than **[[weapon:kaguras-verity]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "blackmarrow-lantern",
+                "sacrificial-fragments"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs better than **[[weapon:tome-of-the-eternal-flow]]**."
+                    }
+                },
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "fruit-of-fulfillment",
+                    "refinement": 5,
+                    "note": {
+                        "en": "Requires [[character:mitya]] to be able to trigger reactions consistently throughout the rotation; otherwise, do not use this weapon. If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "ttds",
+                    "refinement": 5,
+                    "note": {
+                        "en": "This weapon's value increases if you use [[character:mitya]] in a team with a rotation longer than 20s, or if the character to be buffed by this weapon is doing the vast majority of the damage. If this is the case, this weapon can rank roughly equal to **[[weapon:wandering-evenstar]]**."
+                    }
+                }
+            ]
         }
     ]
 }

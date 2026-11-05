@@ -1,8 +1,111 @@
 {
+    "notes": [
+        {
+            "en": "[[character:mitya]]'s weapon rankings can vary greatly depending on team composition. This notably affects weapons that provide [[stat:em]] and [[stat:er]]."
+        }
+    ],
     "weapons": [
         {
             "items": [
                 "starsealed-edict"
+            ]
+        },
+        {
+            "items": [
+                "reliquary-of-truth"
+            ]
+        },
+        {
+            "items": [
+                "sunny-morning-sleep-in"
+            ]
+        },
+        {
+            "items": [
+                "starcallers-watch"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "etherlight-spindlelute",
+                    "refinement": 5,
+                    "note": {
+                        "en": "If you have **[C1]** or use [[character:mitya]] in a team with three [[element:electro]] characters, this weapon performs worse than **[[weapon:blackmarrow-lantern]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "dawning-frost",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs better than **[[weapon:reliquary-of-truth]]**."
+                    }
+                },
+                {
+                    "name": "a-thousand-floating-dreams",
+                    "note": {
+                        "en": "If you use [[character:mitya]] in a team with three [[element:electro]] characters, this weapon performs similarly to **[[weapon:starcallers-watch]]**. This weapon's performance is slightly variable depending on how much teammates value its [[stat:em]] buff."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs better than **[[weapon:sunny-morning-sleep-in]]**."
+                    }
+                },
+                "tome-of-the-eternal-flow",
+                "surfs-up",
+                "nocturnes-curtain-call",
+                "kaguras-verity"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "winters-heavy-heart",
+                    "note": {
+                        "en": "Assumes there are three [[element:cryo]] and [[element:electro]] characters in the team. At **[R5]**, this weapon performs better than **[[weapon:sunny-morning-sleep-in]]**. If you have four [[element:cryo]] and [[element:electro]] characters in the team, this weapon performs similarly to **[[weapon:dawning-frost]]** at the same refinement."
+                    }
+                },
+                {
+                    "name": "sacrificial-jade",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs equal to **[[weapon:etherlight-spindlelute]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "nightweavers-looking-glass"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "the-widsith",
+                    "note": {
+                        "en": "At **[R5]**, this weapon performs better than **[[weapon:nightweavers-looking-glass]]**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                "blackmarrow-lantern",
+                "sacrificial-fragments"
             ]
         }
     ]

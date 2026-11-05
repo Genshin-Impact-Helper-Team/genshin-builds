@@ -3,7 +3,27 @@
         {
             "items": [
                 {
-                    "name": "skill"
+                    "name": "na"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "burst",
+                    "note": {
+                        "en": "[[character:mitya]]'s [[ability:burst]] talent levels are not a necessity."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skill",
+                    "note": {
+                        "en": "[[character:mitya]]'s [[ability:skill]] talent levels are not a necessity and can be ignored if you do not use [[character:mitya]]'s [[ability:skill]]-switching technique."
+                    }
                 }
             ]
         }
