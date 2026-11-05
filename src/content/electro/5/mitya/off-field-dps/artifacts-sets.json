@@ -16,7 +16,22 @@
                             "name": "tenacity-of-the-millelith",
                             "pieces": 4,
                             "note": {
-                                "en": "This set is used if another character, e.g., [[character:odette]], is already using [[set:heart-of-the-furnace]]."
+                                "en": "This set is often used if another character, e.g., [[character:odette]], is already using [[set:heart-of-the-furnace]]."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "instructor",
+                            "pieces": 4,
+                            "note": {
+                                "en": "Requires [[character:mitya]] to be able to trigger an elemental reaction. This set can be used if another character, e.g., [[character:odette]], is already using [[set:heart-of-the-furnace]]."
                             }
                         }
                     ]
@@ -39,7 +54,7 @@
                             "name": "gilded-dreams",
                             "pieces": 4,
                             "note": {
-                                "en": "The performance of this set depends on the number of **non**-[[element:electro]] characters in the team, since each non-[[element:electro]] character increases the [[stat:em]] provided by [[set:gilded-dreams]]. This ranking assumes there are two."
+                                "en": "The performance of this set depends on the number of **non**-[[element:electro]] characters in the team, since each non-[[element:electro]] character increases the [[stat:em]] provided by [[set:gilded-dreams]]."
                             }
                         }
                     ]
