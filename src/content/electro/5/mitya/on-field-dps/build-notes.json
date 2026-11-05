@@ -8,6 +8,9 @@
     "best": true,
     "notes": [
         {
+            "en": "**For weapons/artifacts that require [[character:mitya]] to trigger an elemental reaction:** [[character:mitya]] is only able to consistently do this if there is a larger amount of [[element:cryo]] application than [[element:electro]] application."
+        },
+        {
             "en": "[[character:mitya]]'s weapon rankings can vary greatly depending on team composition. This notably affects weapons that provide [[stat:em]] and [[stat:er]]."
         },
         {
