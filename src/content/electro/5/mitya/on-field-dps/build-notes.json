@@ -9,22 +9,26 @@
     "notes": [
         {
             "en": "**For weapons/artifacts that require [[character:mitya]] to trigger an elemental reaction:** [[character:mitya]] is only able to consistently do this if there is a larger amount of [[element:cryo]] application than [[element:electro]] application.",
-            "fr": "**Pour les items qui nécessitent que [[character:mitya]] déclenche une réaction:** [[character:mitya]] ne peut le faire de façon consistante que s'il y a plus d'application [[element:cryo]] que d'application [[element:electro]]."
+            "fr": "**Pour les items qui nécessitent que [[character:mitya]] déclenche une réaction:** [[character:mitya]] ne peut le faire de façon consistante que s'il y a plus d'application [[element:cryo]] que d'application [[element:electro]].",
+            "it": "**Per le armi e i manufatti che necessitano che [[character:mitya]] inneschi una reazione:** [[character:mitya]] è in grado di farlo regolarmente **solo se** la quantità di [[element:cryo]] applicata è maggiore di quella [[element:electro]]."
         },
         {
-            "en": "[[character:mitya]] is an On-Field [[element:stellar-conduct]] DPS who deals the majority of his damage through enhanced [[ability:ca]]s during his hold [[ability:skill]] duration. Triggering [[element:stellar-conduct]] and using [[character:mitya]]'s [[ability:burst]] increase the number of consumable stacks for [[character:mitya]]'s [[ability:ca]] to hit more times, up to a maximum of five per [[ability:ca]] (six at **[C1]**).\n[[character:mitya]]'s rotations revolve around him efficiently gaining and using stacks for his [[ability:ca]].",
-            "fr": "[[character:mitya]] est un DPS [[element:stellar-conduct]] On-Field qui inflige la majorité de ses dégâts via ses [[ability:ca|Attaques Chargées]] améliorée lorsque son [[ability:skill]] maintenu est actif. Déclencher [[element:stellar-conduct]] et utiliser l'[[ability:burst]] de [[character:mitya]] augmente le nombre de cumuls pouvant être consommés par son [[ability:ca]] pour attaquer plus de fois, jusqu'à 5 par [[ability:ca]] (ou 6 avec la **[C1]**).\nLes rotations de [[character:mitya]] sont axées sur le fait de lui faire gagner de manière efficace des cumuls pour les utiliser avec son [[ability:ca]]."
+            "en": "[[character:mitya]] is an On-Field [[element:stellar-conduct]] DPS who deals the majority of his damage through enhanced [[ability:ca]]s during his hold [[ability:skill]] duration. Triggering [[element:stellar-conduct]] and using [[character:mitya]]'s [[ability:burst]] increases the number of consumable stacks for [[character:mitya]]'s [[ability:ca]] to hit more times, up to a maximum of five per [[ability:ca]] (six at **[C1]**).\n[[character:mitya]]'s rotations revolve around him efficiently gaining and using stacks for his [[ability:ca]].",
+            "fr": "[[character:mitya]] est un DPS [[element:stellar-conduct]] On-Field qui inflige la majorité de ses dégâts via ses [[ability:ca|Attaques Chargées]] améliorée lorsque son [[ability:skill]] maintenu est actif. Déclencher [[element:stellar-conduct]] et utiliser l'[[ability:burst]] de [[character:mitya]] augmente le nombre de cumuls pouvant être consommés par son [[ability:ca]] pour attaquer plus de fois, jusqu'à 5 par [[ability:ca]] (ou 6 avec la **[C1]**).\nLes rotations de [[character:mitya]] sont axées sur le fait de lui faire gagner de manière efficace des cumuls pour les utiliser avec son [[ability:ca]].",
+            "it": "[[character:mitya]] è un DPS [[element:stellar-conduct]] sul campo che infligge la maggior parte dei danni tramite i suoi [[ability:ca|Attacchi Caricati]] potenziati nella durata della sua [[ability:skill]] premuta a lungo. Innescare [[element:stellar-conduct]] ed utilizzare il [[ability:burst]] aumenta il numero di accumuli consumabili dall'[[abilità:ca]] di [[character:mitya]], consentendogli di colpire più volte, fino a un massimo di cinque per ogni [[ability:ca]] (sei a **[C1]**).\nLe rotazioni di [[character:mitya]] si concentrano sull'ottenere gli accumuli per il suo [[ability:ca]] ed utilizzarli in modo efficiente."
         }
     ],
     "tips": [
         {
             "title": {
                 "en": "Skill-Switching",
-                "fr": "Changer de mode de Skill"
+                "fr": "Changer de mode de Skill",
+                "it": "Cambiare la modalità dell'Abilità"
             },
             "content": {
                 "en": "[[character:mitya]] can swap between his on-field and off-field [[ability:skill]] modes by using his [[ability:skill]] again within 6s of first casting his [[ability:skill]]. This can be used as an advanced trick to gain more polestar stacks and buff off-field units; albeit only for a maximum of 6s per rotation.",
-                "fr": "[[character:mitya]] peut passer de son [[ability:skill]] On-Field à Off-Field en utilisant son [[ability:skill]] à nouveau moins de 6s après l'avoir utilisé. Cela peut être utilisé pour obtenir plus de cumuls d'[[ability:polestar-field]] et buff les personnages off-field, mais seulement 6s par rotation."
+                "fr": "[[character:mitya]] peut passer de son [[ability:skill]] On-Field à Off-Field en utilisant son [[ability:skill]] à nouveau moins de 6s après l'avoir utilisé. Cela peut être utilisé pour obtenir plus de cumuls d'[[ability:polestar-field]] et buff les personnages off-field, mais seulement 6s par rotation.",
+                "it": "[[character:mitya]] può passare dalla modalità in campo a quella fuori campo riattivando la sua [[ability:skill]] entro 6s dall'attivazione iniziale della stessa. Questa tecnica può essere utilizzata per giocare [[character:mitya]] come DPS 'a scambio rapido'."
             }
         }
     ],
