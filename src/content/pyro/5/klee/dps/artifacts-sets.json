@@ -17,6 +17,18 @@
                 {
                     "items": [
                         {
+                            "name": "celestial-gift",
+                            "pieces": 4,
+                            "note": {
+                                "en": "You should not use this set if someone else on the team already uses it.",
+                                "fr": "N'utilisez pas ce set si un autre membre de l'équipe le porte déjà."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
                             "name": "lavawalker",
                             "pieces": 4,
                             "note": {
@@ -45,7 +57,11 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "groups": [
                 {
                     "items": [
                         {
@@ -58,11 +74,7 @@
                             }
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "groups": [
+                },
                 {
                     "choose": true,
                     "items": [
@@ -77,18 +89,6 @@
                         {
                             "name": "marechaussee-hunter",
                             "pieces": 2
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "groups": [
-                {
-                    "items": [
-                        {
-                            "name": "wanderers-troupe",
-                            "pieces": 4
                         }
                     ]
                 }

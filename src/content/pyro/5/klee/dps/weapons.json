@@ -19,7 +19,6 @@
         },
         {
             "items": [
-                "lost-prayer-to-the-sacred-winds",
                 {
                     "name": "kaguras-verity",
                     "note": {
@@ -28,28 +27,30 @@
                         "ru": "Предполагается, что поддерживается 2 уровня Пассивной способности оружия."
                     }
                 },
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                "surfs-up",
                 "vivid-notions"
             ]
         },
         {
             "items": [
-                "tome-of-the-eternal-flow",
-                "cashflow-supervision"
+                "nocturnes-curtain-call",
+                "tome-of-the-eternal-flow"
             ]
         },
         {
             "items": [
-                "tulaytullahs-remembrance",
-                "surfs-up"
+                "cashflow-supervision",
+                "tulaytullahs-remembrance"
             ]
         },
         {
             "items": [
-                "skyward-atlas"
-            ]
-        },
-        {
-            "items": [
+                "skyward-atlas",
                 {
                     "name": "the-widsith",
                     "note": {
@@ -69,7 +70,13 @@
         },
         {
             "items": [
-                "sacrificial-jade"
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "[[note:r5-better]] **[[weapon:skyward-atlas]]**."
+                    }
+                },
+                "angelos-heptades"
             ]
         },
         {
@@ -82,7 +89,8 @@
                         "fr": "Calculée avec un [[ability:bol]] retiré. Si joué avec **[[set:fragment-of-harmonic-whimsy]] (4)** avec les stacks maximums, cette arme offre des performances similaires à **[[weapon:tulaytullahs-remembrance]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается. При использовании с **[[set:fragment-of-harmonic-whimsy|Фрагментом гармонической фантазии]] (4)** с максимальным бонусом может соответствовать **[[weapon:tulaytullahs-remembrance|Воспоминаниям Тулайтуллы]]**."
                     }
-                }
+                },
+                "sacrificial-jade"
             ]
         }
     ]
