@@ -7,6 +7,7 @@
     "r5-better": "A **[R5]**, quest'arma ha prestazioni migliori di quelle di",
     "r5-similar": "A **[R5]**, quest'arma ha prestazioni simili a quelle di",
     "exaiphanes": "In genere è preferibile utilizzare quest'arma sul Viaggiatore. Da prendere in considerazione solo se è disponibile",
+    "no-talent-lvl": "I livelli di questo talento non sono necessari",
     "wip-weapon": "Armi praticabili con calcoli in corso:",
     "wip-artifact": "Manufatti praticabili con calcoli in corso:",
     "tips-bol": "Il **Legame vitale** è una meccanica che **assorbe qualunque cura** ricevuta da un personaggio. È rappresentato da un **contorno rosso attorno alla barra dei PS** ed il suo valore massimo è pari al 200% dei PS del personaggio (rappresentato da un contorno che circonda l’intera barra dei PS). Per azzerare il **Legame vitale**, il personaggio deve **ricevere cure corrispondenti al suo valore**.",
