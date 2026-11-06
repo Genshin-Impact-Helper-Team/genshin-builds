@@ -1,0 +1,16 @@
+{
+    "talents": [
+        {
+            "items": [
+                {
+                    "name": "burst",
+                    "note": {
+                        "en": "No need for talent upgrade.",
+                        "fr": "Il n'est pas nécessaire d'améliorer ses talents.",
+                        "it": "Non importa alzare di livello i talenti."
+                    }
+                }
+            ]
+        }
+    ]
+}

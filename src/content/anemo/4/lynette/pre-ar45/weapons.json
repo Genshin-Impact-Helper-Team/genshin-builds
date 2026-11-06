@@ -1,0 +1,20 @@
+{
+    "weapons": [
+        {
+            "items": [
+                {
+                    "name": "fleuve-cendre-ferryman",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "skyrider-sword",
+                    "refinement": 5
+                }
+            ]
+        }
+    ]
+}

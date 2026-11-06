@@ -1,0 +1,25 @@
+{
+  "weapons": [
+    {
+      "items": [
+        {
+          "name": "flowing-purity"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "name": "mappa-mare"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "name": "twin-nephrite"
+        }
+      ]
+    }
+  ]
+}

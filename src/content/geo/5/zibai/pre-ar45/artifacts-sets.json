@@ -1,0 +1,20 @@
+{
+    "artifact_sets": [
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
+                            "name": "defenders-will",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "berserker",
+                            "pieces": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
