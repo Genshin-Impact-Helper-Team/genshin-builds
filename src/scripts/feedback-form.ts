@@ -164,7 +164,7 @@ function bindFeedbackWidget(widget: HTMLElement) {
       const response = await fetch(form.action, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(Object.fromEntries(new FormData(form))),
+        body: JSON.stringify(Object.fromEntries(new FormData(form))).replaceAll('@', '@\u200b'),
       });
       const result = await response.json().catch(() => ({}));
 
