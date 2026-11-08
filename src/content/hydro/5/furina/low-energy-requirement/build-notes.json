@@ -8,16 +8,51 @@
     },
     "notes": [
         {
-            "en": "[[character:furina]] buffs team members with her [[ability:burst]], and deals off-field damage with her [[ability:skill]].",
-            "fr": "[[character:furina]] buff son équipe grâce à son [[ability:burst]], et inflige des dégâts en étant off-field grâce à son [[ability:skill]].",
-            "it": "[[character:furina]] potenzia i membri del team con il suo [[ability:burst]] e infligge danni da fuori campo con la sua [[ability:skill]].",
-            "ru": "Фурина усиливает членов отряда за счёт Взрыва стихии и наносит урон из кармана навыком."
+            "en": "[[character:furina]] can act as both an **Off-Field DPS** through her [[ability:skill]] and a **Buff Support** through her [[ability:burst]].",
+            "fr": "[[character:furina]] peut être jouée à la fois comme **DPS Off-Field** grâce à son [[ability:skill]] et **Buff Support** grâce à son [[ability:burst]]."
         },
         {
-            "en": "Because of her HP drain and [[ability:burst]] mechanics, [[character:furina]] encourages the use of teamwide healers.",
-            "fr": "A cause du drain de PV et de la mécanique de son [[ability:burst]], [[character:furina]] encourage l'utilisation de soins sur l'ensemble de l'équipe.",
-            "it": "A causa delle meccaniche del consumo di PS e del [[ability:burst]], [[character:furina]] incoraggia l'uso di guaritori che curino tutto il team in contemporanea.",
-            "ru": "Механика истощения HP и фанфары побуждают использовать хилеров, способных исцелять весь отряд."
+            "en": "Her kit revolves around **[[stat:hp|HP]] variations**: her [[ability:skill]] summons pets that deal [[element:hydro]] DMG and drain your team's [[stat:hp|HP]] **(as long as they are above 50%)** to increase their damage. Her [[ability:burst]] buffs your team's DMG% based on the amount of [[stat:hp|HP]] gained or lost by your team, with each percentage point counting towards its stacks.\nBecause of this, **playing her with a healer is recommended, preferably a teamwide one**. This allows you to keep your team above 50% [[stat:hp|HP]] while letting her pets drain their [[stat:hp|HP]], generating the [[stat:hp|HP]] variation needed to build [[ability:burst]] stacks.",
+            "fr": "Son kit tourne autour des **variations de [[stat:hp]]**: son [[ability:skill]] invoque des compagnons qui infligent des DGT [[element:hydro]] et drainent les [[stat:hp]] de votre équipe **(tant qu'ils ont + de 50% de [[stat:hp]])** pour augmenter leurs dégâts. Son [[ability:burst]] buff les DGT% de votre équipe selon le montant de [[stat:hp]] gagnés ou perdus par l'équipe, où chaque pourcent contribue à ses cumuls.\nPour cette raison, **il est recommandé de la jouer avec un soigneur, de préférence un qui soigne toute l'équipe**. Cela permet de garder votre équipe au dessus des 50% de [[stat:hp]] tout en laissant ses compagnons les drainer, causant les variations de [[stat:hp]] désirées pour obtenir des cumuls d'[[ability:burst]]."
+        },
+        {
+            "en": "[[character:furina]] can also switch mode by using her [[ability:ca]]: this will replace her attacking pets by a healing pet that heals your active character. However, this removes all of her off-field damage, making this mode **generally not recommended** unless you need to temporarily switch her [[ability:arkhe]] alignment.",
+            "fr": "[[character:furina]] peut aussi changer de mode en utilisant son [[ability:ca]]: cela remplace ses compagnons qui attaquent par un compagnon qui soigne votre personnage actif. Cependant, cela revient à perdre tout ses dégâts off-field, ce qui fait que ce mode **n'est généralement pas recommandé** à moins de devoir changer son alignement d'[[ability:arkhe]] temporairement."
+        },
+        {
+            "en": "[[character:furina]] **defaults to high energy requirements in most teams**. Some factors (including but not limited to [[element:hydro]] teammates, [[character:shogun-raiden]], Favonius weapons) can allow her to run low energy requirement builds: it’s best to consult the **[Energy Recharge Calculator](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit?gid=613391376#gid=613391376)** to see what build is right for you.",
+            "fr": "[[character:furina]] a par défaut **des besoins en énergie élevés dans la plupart de ses équipes**. Certains facteurs (comme par exemple d'autres personnages [[element:hydro]], [[character:shogun-raiden]], des armes de Favonius dans l'équipe) peuvent lui permettre d'utiliser un build pour de faibles besoins en énergie: il vaut mieux utiliser le **[Calculateur de Recharge d'Energie](https://docs.google.com/spreadsheets/d/1-vkmgp5n0bI9pvhUg110Aza3Emb2puLWdeoCgrxDlu4/edit?gid=613391376#gid=613391376)** pour voir quel build serait le mieux pour vous."
+        }
+    ],
+    "tips": [
+        {
+            "title": {
+                "en": "DMG% buff",
+                "fr": "Buff de DGT%"
+            },
+            "content": {
+                "en": "At [C0], [[character:furina]]'s [[ability:burst]] can provide up to 75% DMG% Bonus, which is the **equivalent of 1,6 DMG% Goblet**. As such, DPS characters played with her may want to use their **scaling stats instead of a DMG% Goblet**.\nDPS that rely on reactions that do not scale on DMG% (such as **Lunar or [[element:stellar-glimmer]] reactions**) however wont benefit from her [[ability:burst]]'s buff, and thus **should not be played with her**.",
+                "fr": "En [C0], l'[[ability:burst]] de [[character:furina]] offre jusqu'à 75% de Bonus de DGT%, ce qui équivaut à **1,6 Coupe DGT%**. Ainsi, les DPS joués avec elle peuvent préférer équiper **une coupe de leur scaling stat ([[stat:atk%]], [[stat:hp%]] ou [[stat:def%]]) plutôt qu'une coupe DGT Element%**.\nLes DPS qui ne scale pas sur des DGT% (comme les réactions Sélène ou [[element:stellar-glimmer]] par exemple) ne bénéficieront pas du buff de son [[ability:burst]], et **ne doivent donc pas être joués avec elle**."
+            }
+        },
+        {
+            "title": {
+                "en": "[[set:marechaussee-hunter]]"
+            },
+            "content": {
+                "en": "Thanks to her [[ability:skill]] causing your **entire team's [[stat:hp|HP]] to vary often**, [[character:furina]] enables On-Field DPS characters whose [[stat:hp|HP]] would not normally vary during combat to use **[[set:marechaussee-hunter]] (4)**.",
+                "fr": "Grâce à son [[ability:skill]] qui fait **régulièrement varier les [[stat:hp]] de toute l'équipe**, [[character:furina]] permet aux DPS On-Field dont les [[stat:hp]] ne varient normalement pas en combat d'utiliser **[[set:marechaussee-hunter]] (4)**."
+            }
+        },
+        {
+            "title": {
+                "en": "Pets targetting",
+                "fr": "Ciblage des compagnons"
+            },
+            "content": {
+                "en": "[[character:furina]]'s [[ability:skill]] pets will prioritize attacking **the target of your active character**. If it doesnt have a target, they will instead attack the **nearest enemy**.\nWhen facing multiple enemies, you can identify which one the pets are targeting by looking for the **white arrow displayed above its [[stat:hp|HP]] bar**. ",
+                "fr": "Les compagnons du [[ability:skill]] de [[character:furina]] attaquent en priorité **la cible de votre personnage actif**. S'il n'en a pas, alors ils prioriseront **l'ennemi le plus proche**.\nLorsque vous affrontez plusieurs ennemis, vous pouvez repérer celui qui est ciblé en cherchant la **flèche blanche au dessus de sa barre de [[stat:hp]]**. "
+            }
         }
     ],
     "weapons": [
