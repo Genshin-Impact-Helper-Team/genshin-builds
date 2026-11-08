@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact set priorities",
+  "type": "object",
+  "defaultSnippets": [
+    {
+      "label": "Artifact set priorities",
+      "body": {
+        "artifact_sets": [
+          {
+            "groups": [
+              { "items": [{ "name": "$1", "pieces": 4 }] }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "notes": {
+      "$ref": "./common.schema.json#/$defs/notes"
+    },
+    "artifact_sets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "defaultSnippets": [
+          {
+            "label": "Artifact set ranking",
+            "body": {
+              "groups": [
+                {
+                  "items": [
+                    {
+                      "name": "$1",
+                      "pieces": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "properties": {
+          "groups": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/group"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "groups"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "conditional": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/group"
+      }
+    }
+  },
+  "required": [
+    "artifact_sets"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "Artifact set item",
+          "body": {
+            "name": "$1",
+            "pieces": 4
+          }
+        },
+        {
+          "label": "Artifact set item with note",
+          "body": {
+            "name": "$1",
+            "pieces": 4,
+            "note": {
+              "en": "$2"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "pieces": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "note": {
+          "$ref": "./common.schema.json#/$defs/note"
+        }
+      },
+      "required": [
+        "name",
+        "pieces"
+      ],
+      "additionalProperties": false
+    },
+    "pool": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "Choose-one pool",
+          "body": {
+            "items": [
+              { "name": "$1", "pieces": 2 },
+              { "name": "$2", "pieces": 2 }
+            ]
+          }
+        }
+      ],
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        }
+      },
+      "required": [
+        "items"
+      ],
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "Artifact set group",
+          "body": {
+            "items": [
+              { "name": "$1", "pieces": 4 }
+            ]
+          }
+        },
+        {
+          "label": "Choose-one artifact combinations",
+          "body": {
+            "choices": [
+              { "items": [{ "name": "$1", "pieces": 2 }, { "name": "$2", "pieces": 2 }] },
+              { "items": [{ "name": "$3", "pieces": 2 }, { "name": "$4", "pieces": 2 }] }
+            ]
+          }
+        }
+      ],
+      "properties": {
+        "choose": {
+          "type": "boolean"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pool"
+          }
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "items"
+          ]
+        },
+        {
+          "required": [
+            "choices"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    }
+  }
+}

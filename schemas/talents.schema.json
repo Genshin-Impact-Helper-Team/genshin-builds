@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Build talent priorities",
+  "type": "object",
+  "defaultSnippets": [
+    {
+      "label": "Build talents file",
+      "body": {
+        "talents": [
+          { "items": [{ "name": "$1" }] }
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "notes": {
+      "$ref": "./common.schema.json#/$defs/notes"
+    },
+    "talents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rank"
+      }
+    }
+  },
+  "required": [
+    "talents"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "talent": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "Talent with note",
+          "body": {
+            "name": "$1",
+            "note": {
+              "en": "$2"
+            }
+          }
+        }
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "note": {
+          "$ref": "./common.schema.json#/$defs/note"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "rank": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "Talent priority group",
+          "body": {
+            "items": [{"name": "$1"}]
+          }
+        }
+      ],
+      "properties": {
+        "approx": {
+          "type": "boolean"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/talent"
+          }
+        }
+      },
+      "required": [
+        "items"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

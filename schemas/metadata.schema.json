@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character metadata",
+  "type": "object",
+  "defaultSnippets": [
+    {
+      "label": "Character metadata",
+      "body": {
+        "weapon": "$1",
+        "last_updated": "$2",
+        "version_released": "$3"
+      }
+    }
+  ],
+  "properties": {
+    "weapon": {
+      "enum": [
+        "sword",
+        "claymore",
+        "polearm",
+        "bow",
+        "catalyst"
+      ]
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "version_released": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "weapon",
+    "last_updated",
+    "version_released"
+  ],
+  "additionalProperties": false
+}

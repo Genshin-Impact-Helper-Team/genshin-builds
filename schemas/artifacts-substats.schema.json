@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact substat priorities",
+  "type": "object",
+  "defaultSnippets": [
+    {
+      "label": "Artifact substat priorities",
+      "body": {
+        "substats_priority": ["$1"]
+      }
+    }
+  ],
+  "properties": {
+    "notes": {
+      "$ref": "./common.schema.json#/$defs/notes"
+    },
+    "substats_priority": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/priority"
+      }
+    }
+  },
+  "required": [
+    "substats_priority"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "stat": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "defaultSnippets": [
+            {
+              "label": "Substat with note",
+              "body": {
+                "name": "$1",
+                "note": {
+                  "en": "$2"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "note": {
+              "$ref": "./common.schema.json#/$defs/note"
+            }
+          },
+          "required": [
+            "name"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "priority": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/stat"
+        },
+        {
+          "type": "object",
+          "defaultSnippets": [
+            {
+              "label": "Alternative substats",
+              "body": {
+                "items": ["$1", "$2"]
+              }
+            }
+          ],
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/stat"
+              }
+            }
+          },
+          "required": [
+            "items"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}
