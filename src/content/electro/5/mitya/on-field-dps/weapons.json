@@ -2,7 +2,8 @@
     "notes": [
         {
             "en": "[[character:mitya]]'s weapon rankings can vary greatly depending on team composition. This notably affects weapons that provide [[stat:em]] and [[stat:er]].",
-            "fr": "Le classement des armes de [[character:mitya]] peut beaucoup changer selon l'équipe. Cela affecte par exemple les armes qui offrent de la [[stat:em]] ou de la [[stat:er]]."
+            "fr": "Le classement des armes de [[character:mitya]] peut beaucoup changer selon l'équipe. Cela affecte par exemple les armes qui offrent de la [[stat:em]] ou de la [[stat:er]].",
+            "it": "La classifica delle armi di [[character:mitya]] può variare notevolmente a seconda del team, influendo in particolare sulle armi che forniscono [[stat:em]] e [[stat:er]]."
         }
     ],
     "weapons": [
@@ -33,7 +34,8 @@
                     "refinement": 5,
                     "note": {
                         "en": "If you have **[C1]** or use [[character:mitya]] in a team with three [[element:electro]] characters, this weapon performs worse than **[[weapon:blackmarrow-lantern]]**.",
-                        "fr": "Si [[character:mitya]] est **[C1]** ou est joué dans une équipe avec 3 personnages [[element:electro]], cette arme devient moins bonne que **[[weapon:blackmarrow-lantern]]**."
+                        "fr": "Si [[character:mitya]] est **[C1]** ou est joué dans une équipe avec 3 personnages [[element:electro]], cette arme devient moins bonne que **[[weapon:blackmarrow-lantern]]**.",
+                        "it": "Se [[character:mitya]] è **[C1]** o utilizzato in un team con tre personaggi [[element:electro]], quest'arma ha prestazioni peggiori di **[[weapon:blackmarrow-lantern]]**."
                     }
                 }
             ]
@@ -50,7 +52,8 @@
                     "name": "a-thousand-floating-dreams",
                     "note": {
                         "en": "If you use [[character:mitya]] in a team with three [[element:electro]] characters, this weapon performs similarly to **[[weapon:starcallers-watch]]**. This weapon's performance is slightly variable depending on how much teammates value its [[stat:em]] buff.",
-                        "fr": "Dans une équipe avec 3 personnages [[element:electro]], cette arme devient similaire à **[[weapon:starcallers-watch]]**. Les performances de cette arme dépendent d'à quel point le reste de l'équipe profite de son buff de [[stat:em]]."
+                        "fr": "Dans une équipe avec 3 personnages [[element:electro]], cette arme devient similaire à **[[weapon:starcallers-watch]]**. Les performances de cette arme dépendent d'à quel point le reste de l'équipe profite de son buff de [[stat:em]].",
+                        "it": "Se [[character:mitya]] è giocato in un team con tre personaggi [[element:electro]], questa arma ha prestazioni simili a **[[weapon:starcallers-watch]]**. Le prestazioni di quest'arma variano leggermente a seconda di quanto i personaggi del team apprezzino il suo potenziamento alla [[stat:em]]."
                     }
                 }
             ]
@@ -75,7 +78,8 @@
                     "name": "winters-heavy-heart",
                     "note": {
                         "en": "Assumes there are three [[element:cryo]] and [[element:electro]] characters in the team. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. If you have four [[element:cryo]] and [[element:electro]] characters in the team, this weapon performs similarly to **[[weapon:dawning-frost]]** at the same refinement.",
-                        "fr": "Suppose que l'équipe contient 3 personnages [[element:cryo]]/[[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Avec 4 personnages [[element:cryo]]/[[element:electro]], cette arme devient équivalente à **[[weapon:dawning-frost]]** au même raffinement."
+                        "fr": "Suppose que l'équipe contient 3 personnages [[element:cryo]]/[[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Avec 4 personnages [[element:cryo]]/[[element:electro]], cette arme devient équivalente à **[[weapon:dawning-frost]]** au même raffinement.",
+                        "it": "La classifica presuppone che nel team siano presenti tre personaggi [[element:cryo]]/[[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Se nel team sono presenti quattro personaggi [[element:cryo]]/[[element:electro]], quest'arma ha prestazioni simili a **[[weapon:dawning-frost]]** a pari miglioramenti."
                     }
                 },
                 {
