@@ -7,7 +7,13 @@
             "em"
         ],
         "circlet": [
-            "cr/cd"
+            "cr/cd",
+            {
+                "name": "em",
+                "note": {
+                    "en": "Performs better the more sources of [[stat:cr]] and [[stat:cd]] [[character:mitya]] has."
+                }
+            }
         ]
     }
 }
