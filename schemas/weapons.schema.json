@@ -1,0 +1,130 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Build weapons",
+    "type": "object",
+    "defaultSnippets": [
+        {
+            "label": "Build weapons file",
+            "body": {
+                "weapons": [
+                    {
+                        "items": [
+                            "$1"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "properties": {
+        "notes": {
+            "$ref": "./common.schema.json#/$defs/notes"
+        },
+        "weapons": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/rank"
+            }
+        },
+        "conditional": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/weapon"
+            }
+        }
+    },
+    "required": [
+        "weapons"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+        "weapon": {
+            "minLength": 1,
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "object",
+                    "defaultSnippets": [
+                        {
+                            "label": "Weapon with note",
+                            "body": {
+                                "name": "$1",
+                                "note": {
+                                    "en": "$2"
+                                }
+                            }
+                        },
+                        {
+                            "label": "Weapon with refinement",
+                            "body": {
+                                "name": "$1",
+                                "refinement": "$2"
+                            }
+                        },
+                        {
+                            "label": "Weapon with note & refinement",
+                            "body": {
+                                "name": "$1",
+                                "refinement": "$2",
+                                "note": {
+                                    "en": "$2"
+                                }
+                            }
+                        }
+                    ],
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "refinement": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 5
+                                },
+                                {
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "note": {
+                            "$ref": "./common.schema.json#/$defs/note"
+                        }
+                    },
+                    "required": [
+                        "name"
+                    ],
+                    "additionalProperties": false
+                }
+            ]
+        },
+        "rank": {
+            "type": "object",
+            "defaultSnippets": [
+                {
+                    "label": "Weapon ranking group",
+                    "body": {
+                        "items": [
+                            "$1"
+                        ]
+                    }
+                }
+            ],
+            "properties": {
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/weapon"
+                    }
+                }
+            },
+            "required": [
+                "items"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shared content schema definitions",
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "English text",
+          "body": {
+            "en": "$1"
+          }
+        }
+      ],
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        }
+      },
+      "patternProperties": {
+        "^(?!en$).+$": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "$ref": "./common.schema.json#/$defs/localized"
+      }
+    },
+    "note": {
+      "$ref": "./common.schema.json#/$defs/localized"
+    }
+  }
+}
