@@ -13,6 +13,7 @@
             "note": {
                 "en": "Only useful in teams where [[character:xinyan]] can frequently trigger [[element:vaporize]] and/or [[element:overload]].",
                 "fr": "Utile uniquement dans les équipes où [[character:xinyan]] peut fréquement déclencher [[element:vaporize]] et/ou [[element:overload]].",
+                "it": "Utile solo nei team in cui [[character:xinyan]] può provocare [[element:vaporize]] e/o [[element:overload]] regolarmente.",
                 "ru": "Полезно только в отрядах, где [[character:xinyan]] может часто закрывать [[element:vaporize]] и/или [[element:overload|Перегрузку]]."
             }
         },
@@ -21,6 +22,7 @@
             "note": {
                 "en": "While not it's not as good for damage, [[stat:def]] helps to maintain the uptime on [[character:xinyan]]'s shield.",
                 "fr": "Bien que ça ne soit pas très utile pour ses dégâts, la [[stat:def]] aide à garder le bouclier de [[character:xinyan]] actif.",
+                "it": "Sebbene non sia altrettanto efficace in termini di danni, [[stat:def]] aiuta a mantenere attivo lo scudo di [[character:xinyan]].",
                 "ru": "Слабый сабстат в плане урона, но помогает поддерживать щит [[character:xinyan]]."
             }
         }
