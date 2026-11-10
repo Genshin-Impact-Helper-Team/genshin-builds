@@ -21,7 +21,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "You should not use this set if someone else on the team already uses it.",
-                                "fr": "N'utilisez pas ce set si un autre membre de l'équipe le porte déjà."
+                                "fr": "N'utilisez pas ce set si un autre membre de l'équipe le porte déjà.",
+                                "it": "Non utilizzare questo set se è già utilizzato da un altro personaggio nel team."
                             }
                         }
                     ]
@@ -70,6 +71,7 @@
                             "note": {
                                 "en": "[[character:klee]] naturally uses a [[ability:ca]] early in the rotation, making this set viable.",
                                 "fr": "[[character:klee]] utilise naturellement une [[ability:ca]] en début de rotation, rendant ce set viable.",
+                                "it": "[[character:klee]] utilizza un [[ability:ca]] agli inizi della rotazione, rendendo questo set una valida alternativa.",
                                 "ru": "Рабочий вариант, так как [[character:klee]] может использовать [[ability:ca|Заряженную атаку]] в начале ротации."
                             }
                         }
