@@ -22,13 +22,22 @@
       "type": "object",
       "properties": {
         "sands": {
-          "$ref": "#/$defs/stat"
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stat"
+          }
         },
         "goblet": {
-          "$ref": "#/$defs/stat"
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stat"
+          }
         },
         "circlet": {
-          "$ref": "#/$defs/stat"
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/stat"
+          }
         }
       },
       "required": [
