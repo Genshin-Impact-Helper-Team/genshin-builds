@@ -5,7 +5,23 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "instructor",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "hotf",
+                            "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "name": "noblesse",
                             "pieces": 4
                         }
                     ]
@@ -17,8 +33,25 @@
                 {
                     "items": [
                         {
-                            "name": "",
+                            "name": "rising-winds",
                             "pieces": 4
+                        }
+                    ]
+                },
+                {
+                    "choose": true,
+                    "items": [
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "atk-set",
+                            "pieces": 2
+                        },
+                        {
+                            "name": "er-set",
+                            "pieces": 2
                         }
                     ]
                 }
