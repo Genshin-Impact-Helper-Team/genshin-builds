@@ -6,7 +6,7 @@
                     "items": [
                         {
                             "name": "hotf",
-                            "pieces": 4
+                            "pieces": 4,
                             "note": {
                                 "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set. If you can, prioritize using this set on Valeriy."
                             }
@@ -25,7 +25,7 @@
                     "items": [
                         {
                             "name": "instructor",
-                            "pieces": 4
+                            "pieces": 4,
                             "note": {
                                 "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set."
                             }
