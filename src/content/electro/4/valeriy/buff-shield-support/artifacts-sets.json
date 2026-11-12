@@ -18,6 +18,9 @@
                         {
                             "name": "noblesse",
                             "pieces": 4
+                            "note": {
+                                "en": "This artifact set is used if the team can benefit from the [[stat:atk%]] buff it provides."
+                            }
                         }
                     ]
                 },
