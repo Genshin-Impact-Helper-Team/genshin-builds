@@ -3,6 +3,7 @@
         {
             "en": "Rankings assume [[ability:hexerei]] Resonance is active.",
             "fr": "Le classement suppose que la résonance [[ability:hexerei]] est active.",
+            "it": "La classifica presuppone che la risonanza [[ability:hexerei]] sia attiva.",
             "ru": "Предполагается, что эффект **[[ability:hexerei|Ведьмовство: Тайный обряд]]** активен."
         }
     ],
@@ -19,42 +20,45 @@
         },
         {
             "items": [
-                "lost-prayer-to-the-sacred-winds",
                 {
                     "name": "kaguras-verity",
                     "note": {
                         "en": "Assumes 2 stacks on the weapon passive.",
                         "fr": "Suppose 2 stacks du passif de l'arme.",
+                        "it": "La classifica presuppone due accumuli della passiva.",
                         "ru": "Предполагается, что поддерживается 2 уровня Пассивной способности оружия."
                     }
                 },
+                "lost-prayer-to-the-sacred-winds"
+            ]
+        },
+        {
+            "items": [
+                "surfs-up",
                 "vivid-notions"
             ]
         },
         {
             "items": [
-                "tome-of-the-eternal-flow",
-                "cashflow-supervision"
+                "nocturnes-curtain-call",
+                "tome-of-the-eternal-flow"
             ]
         },
         {
             "items": [
-                "tulaytullahs-remembrance",
-                "surfs-up"
+                "cashflow-supervision",
+                "tulaytullahs-remembrance"
             ]
         },
         {
             "items": [
-                "skyward-atlas"
-            ]
-        },
-        {
-            "items": [
+                "skyward-atlas",
                 {
                     "name": "the-widsith",
                     "note": {
                         "en": "[[note:r5-similar]] **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] cannot reliably use the [[stat:em]] buff, should she acquire it.",
                         "fr": "[[note:r5-similar]] **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] ne peut pas utiliser le buff de [[stat:em]] de manière fiable lorsqu'elle l'obtient.",
+                        "it": "[[note:r5-similar]] **[[weapon:tulaytullahs-remembrance]]**. [[character:klee]] non può utilizzare il potenziamento alla [[stat:em]] in maniera efficace, qualora dovesse ottenerlo.",
                         "ru": "[[note:r5-similar]] **[[weapon:tulaytullahs-remembrance|Воспоминаниям Тулайтуллы]]**, но [[stat:em]] может оказаться для [[character:klee]] бесполезным."
                     }
                 },
@@ -69,7 +73,13 @@
         },
         {
             "items": [
-                "sacrificial-jade"
+                {
+                    "name": "clash-of-kings",
+                    "note": {
+                        "en": "[[note:r5-better]] **[[weapon:skyward-atlas]]**."
+                    }
+                },
+                "angelos-heptades"
             ]
         },
         {
@@ -80,9 +90,11 @@
                     "note": {
                         "en": "Ranking assumes you have enough healing to clear the [[ability:bol]]. If paired with **[[set:fragment-of-harmonic-whimsy]] (4)** at max stacks, this weapon can perform as well as **[[weapon:tulaytullahs-remembrance]]**.",
                         "fr": "Calculée avec un [[ability:bol]] retiré. Si joué avec **[[set:fragment-of-harmonic-whimsy]] (4)** avec les stacks maximums, cette arme offre des performances similaires à **[[weapon:tulaytullahs-remembrance]]**.",
+                        "it": "La classifica presuppone che Klee riceva cure sufficenti a rimuovere il [[ability:bol]]. Se abbinata a **[[set:fragment-of-harmonic-whimsy]] (4)** con massimi accumuli, quest'arma può avere prestazioni simili a **[[weapon:tulaytullahs-remembrance]]**.",
                         "ru": "Предполагается, что [[ability:bol]] снимается. При использовании с **[[set:fragment-of-harmonic-whimsy|Фрагментом гармонической фантазии]] (4)** с максимальным бонусом может соответствовать **[[weapon:tulaytullahs-remembrance|Воспоминаниям Тулайтуллы]]**."
                     }
-                }
+                },
+                "sacrificial-jade"
             ]
         }
     ]

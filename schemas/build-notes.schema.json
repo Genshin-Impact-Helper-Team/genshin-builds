@@ -1,0 +1,118 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Build notes",
+    "type": "object",
+    "properties": {
+        "best": {
+            "type": "boolean"
+        },
+        "name": {
+            "$ref": "./common.schema.json#/$defs/localized"
+        },
+        "last_updated": {
+            "type": "string"
+        },
+        "notes": {
+            "$ref": "./common.schema.json#/$defs/notes"
+        },
+        "tips": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "defaultSnippets": [
+                    {
+                        "label": "New gameplay tip",
+                        "description": "Insert a tip with English title and content.",
+                        "body": {
+                            "title": {
+                                "en": "$1"
+                            },
+                            "content": {
+                                "en": "$2"
+                            }
+                        }
+                    }
+                ],
+                "properties": {
+                    "title": {
+                        "$ref": "./common.schema.json#/$defs/localized"
+                    },
+                    "content": {
+                        "$ref": "./common.schema.json#/$defs/localized"
+                    }
+                },
+                "required": [
+                    "title",
+                    "content"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "artifacts": {
+            "$ref": "#/$defs/credits"
+        },
+        "weapons": {
+            "$ref": "#/$defs/credits"
+        },
+        "talents": {
+            "$ref": "#/$defs/credits"
+        },
+        "global": {
+            "$ref": "#/$defs/credits"
+        }
+    },
+    "additionalProperties": false,
+    "$defs": {
+        "credit": {
+            "type": "object",
+            "defaultSnippets": [
+                {
+                    "label": "Calculation credit",
+                    "body": {
+                        "link": "$1",
+                        "author": "$2"
+                    }
+                },
+                {
+                    "label": "Calculation credit with detail",
+                    "body": {
+                        "link": "$1",
+                        "author": "$2",
+                        "detail": "$3"
+                    }
+                }
+            ],
+            "properties": {
+                "link": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "author": {
+                    "type": "string"
+                },
+                "detail": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "link",
+                "author"
+            ],
+            "additionalProperties": false
+        },
+        "credits": {
+            "oneOf": [
+                {
+                    "$ref": "#/$defs/credit"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/credit"
+                    }
+                }
+            ]
+        }
+    }
+}

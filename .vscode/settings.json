@@ -3,6 +3,36 @@
     "files.autoSave": "afterDelay",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
+    "json.schemas": [
+        {
+            "fileMatch": ["src/content/**/weapons.json"],
+            "url": "./schemas/weapons.schema.json"
+        },
+        {
+            "fileMatch": ["src/content/**/talents.json"],
+            "url": "./schemas/talents.schema.json"
+        },
+        {
+            "fileMatch": ["src/content/**/metadata.json"],
+            "url": "./schemas/metadata.schema.json"
+        },
+        {
+            "fileMatch": ["src/content/**/build-notes.json"],
+            "url": "./schemas/build-notes.schema.json"
+        },
+        {
+            "fileMatch": ["src/content/**/artifacts-substats.json"],
+            "url": "./schemas/artifacts-substats.schema.json"
+        },
+        {
+            "fileMatch": ["src/content/**/artifacts-sets.json"],
+            "url": "./schemas/artifacts-sets.schema.json"
+        },
+        {
+            "fileMatch": ["src/content/**/artifacts-mainstats.json"],
+            "url": "./schemas/artifacts-mainstats.schema.json"
+        }
+    ],
     "[astro]": {
         "editor.formatOnSave": true
     }

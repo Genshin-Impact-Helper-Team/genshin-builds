@@ -7,7 +7,15 @@
             "em"
         ],
         "circlet": [
-            "cr/cd"
+            "cr/cd",
+            {
+                "name": "em",
+                "note": {
+                    "en": "Performs better the more sources of [[stat:cr]] and [[stat:cd]] [[character:mitya]] has.",
+                    "fr": "Au plus [[character:mitya]] a de [[stat:cr]] et [[stat:cd]], au mieux cela performe.",
+                    "it": "Le sue prestazioni migliorano con l'aumentare delle fonti di [[stat:cr]] e [[stat:cd]] di cui dispone [[character:mitya]]."
+                }
+            }
         ]
     }
 }
