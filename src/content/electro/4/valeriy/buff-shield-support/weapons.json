@@ -2,7 +2,77 @@
     "weapons": [
         {
             "items": [
-                "favonius-sword"
+                "summit-shaper"
+            ]
+        },
+        {
+            "items": [
+                "aquila-favonia"
+            ]
+        },
+        {
+            "items": [
+                "azurelight",
+                {
+                    "name": "skyward-blade",
+                    "note": {
+                        "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "finale-of-the-deep",
+                    "refinement": 5
+                }
+            ]
+        },
+        {
+            "items": [
+                "mistsplitter-reforged",
+                "absolution"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "sapwood-blade",
+                    "note": {
+                        "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "athame-artis",
+                    "note": {
+                        "en": "If your team benefits from the [[stat:atk%]] this weapon gives, this can be [[character:valeriy]]'s **best weapon**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "freedom-sworn",
+                    "note": {
+                        "en": "If you can consistently trigger elemental reactions with [[character:valeriy]] and your team benefits from this weapon's various buffs, this can be [[character:valeriy]]'s **best weapon**."
+                    }
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "favonius-sword",
+                    "note": {
+                        "en": "Only recommended for **[C0]** [[character:valeriy]] or for generating energy for teammates in content such as Stygian Onslaught."
+                    }
+                }
             ]
         }
     ]
