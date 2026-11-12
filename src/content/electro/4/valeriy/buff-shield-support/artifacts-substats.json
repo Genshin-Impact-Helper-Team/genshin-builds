@@ -1,3 +1,13 @@
 {
-    "substats_priority": []
+    "substats_priority": [
+        {
+            "name": "er",
+            "note": {
+                "en": "[[note:er-req]]."
+            }
+        },
+        "atk%",
+        "cr",
+        "atk"
+    ]
 }
