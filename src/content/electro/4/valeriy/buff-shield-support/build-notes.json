@@ -8,17 +8,7 @@
     "best": true,
     "notes": [
         {
-            "en": "[[character:valeriy]] is a buff and shield support who is primarily used to increase the damage of [[element:electro]] or [[element:electro]] [[element:stellar-conduct]] damage. [[character:valeriy]] creates a shield with his [[ability:skill]]. He also uses his [[ability:skill]] and [[ability:burst]] to gain stacks for his enhanced [[ability:ca]], which increases the damage of [[element:electro]] or [[element:electro]] [[element:stellar-conduct]] damage based on his [[stat:atk]] and the number of stacks he consumed. [[character:valeriy]]'s buff will only work on [[element:stellar-conduct]] damage if he is in the Radiance: [[element:stellar-conduct]] state."
-        }
-    ],
-    "tips": [
-        {
-            "title": {
-                "en": ""
-            },
-            "content": {
-                "en": ""
-            }
+            "en": "[[character:valeriy]] is a buff and shield support who is primarily used to increase the damage of [[element:electro]] or [[element:electro]] [[element:stellar-conduct]] damage. [[character:valeriy]] creates a shield with his [[ability:skill]]. He gains stacks by using his [[ability:skill]], [[ability:burst]], and when teammates deal [[element:electro]] damage. These stacks increase the buff provided by his enhanced [[ability:ca]], which thereby increases the damage of [[element:electro]] or [[element:electro]] [[element:stellar-conduct]] damage based on his [[stat:atk]] and the number of stacks consumed. [[character:valeriy]]'s buff will only work on [[element:stellar-conduct]] damage if he is in the Radiance: [[element:stellar-conduct]] state."
         }
     ]
 }
