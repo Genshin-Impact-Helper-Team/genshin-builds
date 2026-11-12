@@ -7,7 +7,12 @@
             }
         },
         "atk%",
-        "cr",
+        {
+            "name": "cr",
+            "note": {
+                "en": "[[note:cr-favo]]."
+            }
+        },
         "atk"
     ]
 }
