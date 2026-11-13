@@ -19,7 +19,14 @@
             }
         ],
         "goblet": [
-            "geo-dmg"
+            "geo-dmg",
+            {
+                "name": "def%",
+                "note": {
+                    "en": "In teams with high amounts of DMG% buffs can perform similarly or better than [[stat:geo-dmg]]",
+                    "ru": "В отрядах с большим количеством Бонусов урона может соответствовать [[stat:geo-dmg|Бонусу Гео урона]] или превосходить его."
+                }
+            }
         ],
         "circlet": [
             "cr",
