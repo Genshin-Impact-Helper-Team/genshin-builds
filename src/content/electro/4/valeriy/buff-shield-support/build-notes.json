@@ -8,23 +8,12 @@
     "best": true,
     "notes": [
         {
-            "en": ""
-        }
-    ],
-    "tips": [
+            "en": "[[character:valeriy]] is a buff and shield support who is primarily used to increase the damage of [[element:electro]] or [[element:electro]] [[element:stellar-conduct]] damage.\n[[character:valeriy]] creates a shield with his [[ability:skill]], and gains stacks by using his [[ability:skill]] or when teammates deal [[element:electro]] damage while his [[ability:burst]] is active. These stacks increase the buff provided by his enhanced [[ability:ca]], which thereby increases the damage of [[element:electro]] or [[element:electro]] [[element:stellar-conduct]] damage based on his [[stat:atk]] and the number of stacks consumed.",
+            "fr": "[[character:valeriy]] est un support bouclier & buff qui est principalement utilisé pour augmenter les dégâts [[element:electro]] ou [[element:stellar-conduct]] [[element:electro]].\n[[character:valeriy]] créé un bouclier avec son [[ability:skill]], et obtiens des cumuls en utilisant son [[ability:skill]] ou lorsque les membres de l'équipe infligent des dégâts [[element:electro]] pendant que son [[ability:burst]] est actif. Ces cumuls augmentent le buff offert par son [[ability:ca]] améliorée, ce qui augmente done les dégâts [[element:electro]] ou [[element:stellar-conduct]] [[element:electro]] en fonction de son [[stat:atk]] et du nombre de cumuls consommés. "
+        },
         {
-            "title": {
-                "en": ""
-            },
-            "content": {
-                "en": ""
-            }
-        }
-    ],
-    "weapons": [
-        {
-            "author": "Quincy",
-            "link": ""
+            "en": "[[character:valeriy]]'s buff will only work on [[element:stellar-conduct]] damage if he is in the Radiance: [[element:stellar-conduct]] state.",
+            "fr": "Le buff de [[character:valeriy]] ne fonctionne sur les dégâts d'[[element:stellar-conduct]] que s'il est dans l'état Radiance: [[element:stellar-conduct]]."
         }
     ]
 }

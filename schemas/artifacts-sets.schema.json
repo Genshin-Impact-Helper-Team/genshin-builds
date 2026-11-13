@@ -26,7 +26,7 @@
         "type": "object",
         "defaultSnippets": [
           {
-            "label": "Artifact set ranking",
+            "label": "Rank: 4-piece set",
             "body": {
               "groups": [
                 {
@@ -35,6 +35,19 @@
                       "name": "$1",
                       "pieces": 4
                     }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "label": "Rank: 2-piece + 2-piece sets",
+            "body": {
+              "groups": [
+                {
+                  "items": [
+                    { "name": "$1", "pieces": 2 },
+                    { "name": "$2", "pieces": 2 }
                   ]
                 }
               ]
@@ -138,10 +151,19 @@
       "type": "object",
       "defaultSnippets": [
         {
-          "label": "Artifact set group",
+          "label": "4-piece set group",
           "body": {
             "items": [
               { "name": "$1", "pieces": 4 }
+            ]
+          }
+        },
+        {
+          "label": "2-piece + 2-piece group",
+          "body": {
+            "items": [
+              { "name": "$1", "pieces": 2 },
+              { "name": "$2", "pieces": 2 }
             ]
           }
         },

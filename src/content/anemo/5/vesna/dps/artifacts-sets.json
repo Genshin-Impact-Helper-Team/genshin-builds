@@ -17,6 +17,18 @@
                 {
                     "items": [
                         {
+                            "name": "gilded-dreams",
+                            "pieces": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "groups": [
+                {
+                    "items": [
+                        {
                             "name": "rising-winds",
                             "pieces": 4
                         }
