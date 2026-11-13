@@ -332,14 +332,14 @@ a:hover {
   flex: 0 0 22px;
   place-items: center;
   margin-right: 6px;
-  border: 1px solid color-mix(in srgb, var(--character-rarity) 30%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 30%, transparent);
   border-radius: 7px;
   background: color-mix(
     in srgb,
-    var(--character-rarity) 14%,
+    var(--rarity) 14%,
     rgba(0, 0, 0, 0.22)
   );
-  color: color-mix(in srgb, #fff 88%, var(--character-rarity) 12%);
+  color: color-mix(in srgb, #fff 88%, var(--rarity) 12%);
   font-size: 0.68rem;
   font-weight: 900;
   line-height: 1;
@@ -411,15 +411,16 @@ a:hover {
   }
 }
 
-.weapon-ranking-chip.is-wip,
-.artifact-set-usage-chip.is-wip {
-  --character-rarity: #9ca3af;
+.weapon-ranking-chip[data-wip="true"],
+.artifact-set-usage-chip[data-wip="true"] {
+  --rarity: #9ca3af;
   filter: grayscale(0.65);
   opacity: 0.72;
+  cursor: pointer !important;
 }
 
-.weapon-ranking-chip.is-wip .usage-rank-number,
-.artifact-set-usage-chip.is-wip .usage-rank-number {
+.weapon-ranking-chip[data-wip="true"] .usage-rank-number,
+.artifact-set-usage-chip[data-wip="true"] .usage-rank-number {
   width: auto;
   min-width: 32px;
   padding: 0 4px;

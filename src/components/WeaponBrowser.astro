@@ -61,13 +61,7 @@ const rarityLabel = t(locale, 'ui', 'Rarity');
 const searchLabel = t(locale, 'ui', 'Search');
 const descriptionLabel = t(locale, 'ui', 'Description', undefined, false);
 const rankedOnLabel = t(locale, 'ui', 'Weapon ranked on', undefined, false);
-const noRankingMentionsLabel = t(
-  locale,
-  'ui',
-  'No weapon ranking mentions',
-  undefined,
-  false,
-);
+const noRankingMentionsLabel = t(locale, 'ui', 'No weapon ranking mentions', undefined, false);
 const level1Label = t(locale, 'ui', 'Level 1', undefined, false);
 const maxLevelLabel = t(locale, 'ui', 'Max Level', undefined, false);
 const statLabel = t(locale, 'ui', 'Stat', undefined, false);
@@ -82,30 +76,17 @@ const sortOptions = [
 ---
 
 <section class="weapon-browser" data-weapon-browser>
-  <form
-    class="home-filters weapon-filters"
-    id="weapon-filters"
-    data-weapon-filters
-  >
+  <form class="home-filters weapon-filters" id="weapon-filters" data-weapon-filters>
     <label class="home-search">
       {searchLabel}
-      <input
-        type="search"
-        name="search"
-        placeholder={searchByNameLabel}
-        autocomplete="off"
-      />
+      <input type="search" name="search" placeholder={searchByNameLabel} autocomplete="off" />
     </label>
 
     <div class="home-select-filter">
       {weaponLabel}
       <select class="home-native-select" name="type" aria-label={weaponLabel}>
         <option value="">{allLabel}</option>
-        {
-          data.weaponTypes.map((type) => (
-            <option value={type.id}>{type.label}</option>
-          ))
-        }
+        {data.weaponTypes.map((type) => <option value={type.id}>{type.label}</option>)}
       </select>
     </div>
 
@@ -128,27 +109,15 @@ const sortOptions = [
       {sourceLabel}
       <select class="home-native-select" name="source" aria-label={sourceLabel}>
         <option value="">{allLabel}</option>
-        {
-          data.sources.map((source) => (
-            <option value={source.id}>{source.label}</option>
-          ))
-        }
+        {data.sources.map((source) => <option value={source.id}>{source.label}</option>)}
       </select>
     </div>
 
     <div class="home-select-filter">
       {substatsLabel}
-      <select
-        class="home-native-select"
-        name="substat"
-        aria-label={substatsLabel}
-      >
+      <select class="home-native-select" name="substat" aria-label={substatsLabel}>
         <option value="">{allLabel}</option>
-        {
-          data.substats.map((substat) => (
-            <option value={substat.id}>{substat.label}</option>
-          ))
-        }
+        {data.substats.map((substat) => <option value={substat.id}>{substat.label}</option>)}
       </select>
     </div>
   </form>
@@ -160,12 +129,7 @@ const sortOptions = [
     </p>
     <label class="roster-sort">
       {sortByLabel}
-      <select
-        class="home-native-select"
-        name="sort"
-        form="weapon-filters"
-        aria-label={sortByLabel}
-      >
+      <select class="home-native-select" name="sort" form="weapon-filters" aria-label={sortByLabel}>
         {
           sortOptions.map((option) => (
             <option value={option.value} selected={option.value === 'name'}>
@@ -181,7 +145,7 @@ const sortOptions = [
     {
       data.weapons.map((weapon) => (
         <article
-          class={`weapon-entry rarity-${weapon.rarity}`}
+          class="weapon-entry"
           data-weapon-card
           data-id={weapon.id}
           data-name={weapon.name}
@@ -193,9 +157,7 @@ const sortOptions = [
         >
           <header class="weapon-entry-header">
             <div class="weapon-entry-title">
-              <div
-                class={`weapon-entry-image${weapon.image ? '' : ' is-empty'}`}
-              >
+              <div class={`weapon-entry-image${weapon.image ? '' : ' is-empty'}`}>
                 {weapon.image && (
                   <Image
                     src={weapon.image}
@@ -244,10 +206,7 @@ const sortOptions = [
           </table>
 
           {weapon.passiveHtml && (
-            <section
-              class="weapon-entry-passive"
-              aria-label={`${weapon.name} ${descriptionLabel}`}
-            >
+            <section class="weapon-entry-passive" aria-label={`${weapon.name} ${descriptionLabel}`}>
               <div class="weapon-entry-section-header">
                 <h3>{descriptionLabel}</h3>
                 <div class="weapon-refinement-buttons">
@@ -274,24 +233,19 @@ const sortOptions = [
             </section>
           )}
 
-          <section
-            class="weapon-ranking-usage"
-            aria-label={`${weapon.name} ${rankedOnLabel}`}
-          >
+          <section class="weapon-ranking-usage" aria-label={`${weapon.name} ${rankedOnLabel}`}>
             <h3>{rankedOnLabel}</h3>
             {weapon.rankingUsage.length > 0 ? (
               <div class="weapon-ranking-list">
                 {weapon.rankingUsage.map((usage) => (
                   <a
-                    class={`weapon-ranking-chip character-rarity-${usage.characterRarity}${usage.isWip ? ' is-wip' : ''}`}
+                    class="weapon-ranking-chip"
                     href={usage.href}
+                    data-rarity={usage.characterRarity}
+                    data-wip={usage.isWip}
                   >
-                    <strong class="usage-rank-number">
-                      {usage.isWip ? 'WIP' : usage.rank}
-                    </strong>
-                    <span class="weapon-ranking-character">
-                      {usage.characterName}
-                    </span>
+                    <strong class="usage-rank-number">{usage.isWip ? 'WIP' : usage.rank}</strong>
+                    <span class="weapon-ranking-character">{usage.characterName}</span>
                   </a>
                 ))}
               </div>

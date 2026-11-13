@@ -259,25 +259,6 @@
   opacity: 1;
 }
 
-.build-switcher-button.is-wip,
-.build-switcher-button:disabled {
-  border-color: rgba(148, 163, 184, 0.1);
-  background: rgba(7, 9, 12, 0.38);
-  box-shadow: none;
-  color: rgba(148, 163, 184, 0.52);
-  cursor: not-allowed;
-}
-
-.build-switcher-button.is-wip::before,
-.build-switcher-button:disabled::before {
-  opacity: 0;
-}
-
-.build-switcher-button.is-wip .build-switcher-name,
-.build-switcher-button:disabled .build-switcher-name {
-  color: rgba(148, 163, 184, 0.64);
-}
-
 .build-switcher-name {
   grid-column: 1;
   grid-row: 1;
@@ -520,36 +501,37 @@
     rgba(255, 255, 255, 0.045);
 }
 
-.weapon-card .rank-row.is-free-weapon::before {
+.weapon-card .rank-row::before {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   width: 4px;
-  background: #9ef0c2;
+  background: var(--rarity);
   content: '';
   pointer-events: none;
 }
 
-.weapon-card .rank-group .rank-row.is-free-weapon:first-child {
+
+.weapon-card .rank-group .rank-row:first-child {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
 
-.weapon-card .rank-group .rank-row.is-free-weapon:first-child::before,
-.weapon-card .rank-list > .rank-row.is-free-weapon::before,
-.weapon-card .conditional-row.is-free-weapon::before {
+.weapon-card .rank-group .rank-row:first-child::before,
+.weapon-card .rank-list > .rank-row::before,
+.weapon-card .conditional-row::before {
   border-top-left-radius: 7px;
 }
 
-.weapon-card .rank-group .rank-row.is-free-weapon:last-child {
+.weapon-card .rank-group .rank-row:last-child {
   border-bottom-right-radius: 7px;
   border-bottom-left-radius: 7px;
 }
 
-.weapon-card .rank-group .rank-row.is-free-weapon:last-child::before,
-.weapon-card .rank-list > .rank-row.is-free-weapon::before,
-.weapon-card .conditional-row.is-free-weapon::before {
+.weapon-card .rank-group .rank-row:last-child::before,
+.weapon-card .rank-list > .rank-row::before,
+.weapon-card .conditional-row::before {
   border-bottom-left-radius: 7px;
 }
 
@@ -1143,10 +1125,6 @@
   .info-popover-image {
     width: 58px;
     height: 58px;
-  }
-
-  .info-popover-card:popover-open {
-    display: block;
   }
 }
 

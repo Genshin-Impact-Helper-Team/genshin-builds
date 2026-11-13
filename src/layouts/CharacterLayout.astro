@@ -24,10 +24,7 @@ const {
   isPreAr45 = false,
   hasPreAr45Build = false,
 } = Astro.props;
-const characterArtAlt = t(locale, 'ui', 'Character art alt').replace(
-  '{name}',
-  character,
-);
+const characterArtAlt = t(locale, 'ui', 'Character art alt').replace('{name}', character);
 const characterHeaderImage = metadata?.portrait ?? metadata?.image;
 const buildLabel = t(locale, 'ui', 'Builds', undefined, false);
 const bestRoleLabel = t(locale, 'ui', 'Best Role');
@@ -37,10 +34,7 @@ const defaultBuild =
   builds.find((build: any) => !build.isWip);
 const activeLastUpdated = defaultBuild?.lastUpdated ?? metadata?.last_updated;
 const normalModeHref = localizedPath(lang, characterSlug);
-const preAr45ModeHref = localizedPath(
-  lang,
-  `${characterSlug}/${PRE_AR_45_ROUTE_SEGMENT}`,
-);
+const preAr45ModeHref = localizedPath(lang, `${characterSlug}/${PRE_AR_45_ROUTE_SEGMENT}`);
 const buildsWithTips = builds.filter((build: any) => !build.isWip && build.buildNote?.tips?.length > 0);
 ---
 
@@ -53,12 +47,7 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
   </head>
 
   <body data-element={Astro.props.element}>
-    <!-- The header needs the URL slug, not the localized display name. -->
-    <Header
-      locale={locale}
-      lang={lang}
-      character={characterRouteSlug ?? characterSlug}
-    />
+    <Header locale={locale} lang={lang} character={characterRouteSlug ?? characterSlug} />
     <div class="page character-page">
       <div class="character-page-layout">
         <aside class="character-header" aria-labelledby="character-title">
@@ -121,11 +110,12 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
                   return (
                     <button
                       id={`build-tab-${build.slug}`}
-                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}${build.isWip ? ' is-wip' : ''}`}
+                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
                       type="button"
                       data-build-tab
                       data-id={build.slug}
                       data-last-updated={build.lastUpdated}
+                      data-wip={build.isWip}
                       disabled={build.isWip}
                       aria-disabled={build.isWip ? 'true' : undefined}
                       aria-controls={`build-content-${build.slug}`}

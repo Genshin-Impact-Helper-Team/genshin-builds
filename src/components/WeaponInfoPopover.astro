@@ -16,12 +16,7 @@ const { weapon } = Astro.props as Props;
       class="info-popover weapon-popover"
       data-info-popover-id={`weapon:${weapon.id}`}
     >
-      <span
-        class="info-popover-trigger"
-        role="button"
-        tabindex="0"
-        aria-expanded="false"
-      >
+      <span class="info-popover-trigger" role="button" tabindex="0" aria-expanded="false">
         {weapon.name}
       </span>
     </span>
