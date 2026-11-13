@@ -121,7 +121,7 @@ const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, f
     {
       data.artifactSets.map((artifactSet) => (
         <article
-          class={`artifact-set-entry rarity-${artifactSet.rarity}`}
+          class="artifact-set-entry"
           data-artifact-card
           data-id={artifactSet.id}
           data-name={artifactSet.name}
@@ -170,8 +170,10 @@ const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, f
               <div class="artifact-set-usage-list">
                 {artifactSet.fourPieceUsage.map((usage) => (
                   <a
-                    class={`artifact-set-usage-chip character-rarity-${usage.characterRarity}${usage.isWip ? ' is-wip' : ''}`}
+                    class="artifact-set-usage-chip"
                     href={usage.href}
+                    data-rarity={usage.characterRarity}
+                    data-wip={usage.isWip}
                   >
                     {(usage.rank || usage.isWip) && (
                       <strong class="usage-rank-number">{usage.isWip ? 'WIP' : usage.rank}</strong>

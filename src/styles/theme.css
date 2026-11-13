@@ -1,51 +1,73 @@
 :root {
   --bg: #153434;
+  --element: #30d8a0;
   --text: hsla(0, 0%, 100%, 0.85);
   --accent: rgb(255, 215, 128);
+  --rarity: #ffffff00;
+}
+
+[data-wip="true"] {
+  cursor: not-allowed;
+  filter: grayscale(0.85);
+  opacity: 0.72;
+  outline: none;
+  text-decoration: none !important;
+}
+
+[data-wip="true"]:hover {
+  cursor: not-allowed;
+  filter: grayscale(0.85);
+  opacity: 0.72;
+  outline: none;
+  text-decoration: none !important;
+}
+
+[data-rarity="1"] { 
+    --rarity: #bfc7cf;
+}
+[data-rarity="2"] { 
+    --rarity: #7ed190;
+}
+[data-rarity="3"] { 
+    --rarity: #69a6ff;
+}
+[data-rarity="4"] { 
+    --rarity: #b980ff;
+}
+[data-rarity="5"] { 
+    --rarity: #f1b44a;
+}
+
+[data-element="anemo"] {
+  --bg: #153434;
   --element: #30d8a0;
+}
+[data-element="cryo"] {
+  --bg: #235d74;
+  --element: #b7e3ff;
+}
+[data-element="dendro"] {
+  --bg: #263d21;
+  --element: #9de43b;
+}
+[data-element="electro"] {
+  --bg: #352a63;
+  --element: #c87fff;
+}
+[data-element="geo"] {
+  --bg: #3d2c1d;
+  --element: #f3b530;
+}
+[data-element="hydro"] {
+  --bg: #15315c;
+  --element: #02c0ff;
+}
+[data-element="pyro"] {
+  --bg: #3d1818;
+  --element: #ff6640;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
-}
-
-body[data-element="anemo"] {
-  --bg: #153434;
-  --element: #30d8a0;
-}
-
-body[data-element="cryo"] {
-  --bg: #235d74;
-  --element: #7af0f0;
-}
-
-body[data-element="dendro"] {
-  --bg: #263d21;
-  --element: #9de43b;
-}
-
-body[data-element="electro"] {
-  --bg: #352a63;
-  --element: #c87fff;
-}
-
-body[data-element="geo"] {
-  --bg: #3d2c1d;
-  --element: #f3b530;
-}
-
-body[data-element="hydro"] {
-  --bg: #15315c;
-  --element: #02c0ff;
-}
-
-body[data-element="pyro"] {
-  --bg: #3d1818;
-  --element: #ff6640;
-}
-
-body[data-element="base"] {
-  --bg: #153434;
-  --element: #30d8a0;
 }

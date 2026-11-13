@@ -8,13 +8,16 @@
             ]
         },
         {
-            "approx": true,
+            "items": [
+                {
+                    "name": "na"
+                }
+            ]
+        },
+        {
             "items": [
                 {
                     "name": "burst"
-                },
-                {
-                    "name": "na"
                 }
             ]
         }
