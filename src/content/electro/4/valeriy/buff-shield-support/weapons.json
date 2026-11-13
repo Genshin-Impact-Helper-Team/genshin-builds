@@ -16,7 +16,8 @@
                 {
                     "name": "skyward-blade",
                     "note": {
-                        "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements."
+                        "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements.",
+                        "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]]."
                     }
                 }
             ]
@@ -40,7 +41,8 @@
                 {
                     "name": "sapwood-blade",
                     "note": {
-                        "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements."
+                        "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements.",
+                        "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]]."
                     }
                 }
             ]
@@ -50,7 +52,8 @@
                 {
                     "name": "athame-artis",
                     "note": {
-                        "en": "If your team benefits from the [[stat:atk%]] this weapon gives, this can be [[character:valeriy]]'s **best weapon**."
+                        "en": "If your team benefits from the [[stat:atk%]] this weapon gives, this can be [[character:valeriy]]'s **best weapon**.",
+                        "fr": "Si votre équipe bénéficie du buff d'[[stat:atk%]] de cette arme, cela peut devenir la **meilleure option** pour [[character:valeriy]]."
                     }
                 }
             ]
@@ -60,7 +63,8 @@
                 {
                     "name": "freedom-sworn",
                     "note": {
-                        "en": "If you can consistently trigger elemental reactions with [[character:valeriy]] and your team benefits from this weapon's various buffs, this can be [[character:valeriy]]'s **best weapon**."
+                        "en": "If you can consistently trigger elemental reactions with [[character:valeriy]] and your team benefits from this weapon's various buffs, this can be [[character:valeriy]]'s **best weapon**.",
+                        "fr": "Si vous pouvez déclencher des réactions de façon fiable avec [[character:valeriy]] et que votre équipe bénéficie des buffs de cette arme, cela peut devenir la **meilleure option** pour [[character:valeriy]]."
                     }
                 }
             ]
@@ -70,7 +74,8 @@
                 {
                     "name": "favonius-sword",
                     "note": {
-                        "en": "Only recommended for **[C0]** [[character:valeriy]] or for generating energy for teammates in content such as Stygian Onslaught."
+                        "en": "Only recommended for **[C0]** [[character:valeriy]] or for generating energy for teammates in content such as Stygian Onslaught.",
+                        "fr": "N'est recommendée que pour un [[character:valeriy]] **[C0]** ou pour la génération d'énergie pour le reste de l'équipe dans les contenus tels que le Carnage Chtonien."
                     }
                 }
             ]

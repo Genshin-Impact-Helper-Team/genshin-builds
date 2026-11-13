@@ -8,7 +8,8 @@
                             "name": "hotf",
                             "pieces": 4,
                             "note": {
-                                "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set. If you can, prioritize using this set on Valeriy."
+                                "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set. If you can, prioritize using this set on [[character:valeriy]].",
+                                "fr": "[[character:valeriy]] doit pouvoir déclencher des réactions de façon fiable pour porter ce set. Le cas échéant, utilisez ce set en priorité."
                             }
                         }
                     ]
@@ -19,7 +20,8 @@
                             "name": "noblesse",
                             "pieces": 4,
                             "note": {
-                                "en": "This artifact set is used if the team can benefit from the [[stat:atk%]] buff it provides."
+                                "en": "This artifact set is used if the team can benefit from the [[stat:atk%]] buff it provides.",
+                                "fr": "Ce set peut être utilisé si l'équipe bénéfice du buff d'[[stat:atk%]] qu'il apporte."
                             }
                         }
                     ]
@@ -30,7 +32,8 @@
                             "name": "instructor",
                             "pieces": 4,
                             "note": {
-                                "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set."
+                                "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set.",
+                                "fr": "[[character:valeriy]] doit pouvoir déclencher des réactions de façon fiable pour porter ce set."
                             }
                         }
                     ]
