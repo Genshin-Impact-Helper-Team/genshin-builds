@@ -47,29 +47,17 @@ const rosterCharacters = characters.map(getCharacterViewModel);
     <div class="roster-list-header">
       <div>
         <h2 id="character-roster-title">{characterCountLabel}</h2>
-        <p
-          data-character-count
-          data-results-label={resultsLabel}
-          aria-live="polite"
-        >
+        <p data-character-count data-results-label={resultsLabel} aria-live="polite">
           {characters.length}
           {resultsLabel}
         </p>
       </div>
       <label class="roster-sort">
         {sortByLabel}
-        <select
-          class="home-native-select"
-          name="sort"
-          form="character-filters"
-          aria-label={sortByLabel}
-        >
+        <select class="home-native-select" name="sort" form="character-filters" aria-label={sortByLabel}>
           {
             sortOptions.map((option) => (
-              <option
-                value={option.value}
-                selected={option.value === 'element'}
-              >
+              <option value={option.value} selected={option.value === 'element'}>
                 {option.label}
               </option>
             ))
@@ -81,14 +69,11 @@ const rosterCharacters = characters.map(getCharacterViewModel);
     <div class="roster-list" data-roster-list>
       {
         rosterCharacters.map((character) => {
-          const portraitAlt = formatUiTemplate(
-            characterPortraitAltTemplate,
-            character.name,
-          );
+          const portraitAlt = formatUiTemplate(characterPortraitAltTemplate, character.name);
 
           return (
             <a
-              class={`roster-character ${character.element}${character.isWip ? ' is-wip' : ''}`}
+              class="roster-character"
               href={character.isWip ? undefined : character.href}
               aria-label={
                 character.isWip
@@ -100,15 +85,14 @@ const rosterCharacters = characters.map(getCharacterViewModel);
               data-element={character.element}
               data-last-updated={character.lastUpdated}
               data-name={character.name}
-              data-recent-updated={
-                character.isRecentlyUpdated ? 'true' : 'false'
-              }
+              data-recent-updated={character.isRecentlyUpdated ? 'true' : 'false'}
               data-rarity={character.rarity}
               data-rarity-label={character.rarityLabel}
               data-version-released={character.versionReleased}
               data-weapon={character.weapon}
+              data-wip={character.isWip}
             >
-              <span class="roster-character-art">
+              <span class="roster-character-bg">
                 {character.portrait && (
                   <Image
                     src={character.portrait}
@@ -122,14 +106,14 @@ const rosterCharacters = characters.map(getCharacterViewModel);
                 )}
               </span>
 
-              <span class="roster-character-copy" aria-hidden="true">
-                <span class="roster-character-name">{character.name}</span>
+              <span class="roster-character-name" aria-hidden="true">
+                {character.name}
               </span>
 
               {character.lastUpdated && (
                 <span class="roster-character-updated" aria-hidden="true">
-                    {character.lastUpdated}
-                  </span>
+                  {character.lastUpdated}
+                </span>
               )}
             </a>
           );

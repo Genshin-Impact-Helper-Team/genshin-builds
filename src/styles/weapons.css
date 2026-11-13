@@ -48,7 +48,6 @@
 }
 
 .weapon-entry {
-  --weapon-rarity: var(--accent);
   position: relative;
   display: grid;
   min-width: 0;
@@ -60,7 +59,7 @@
   background:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--weapon-rarity) 12%, transparent),
+      color-mix(in srgb, var(--rarity) 12%, transparent),
       transparent 48%
     ),
     rgba(5, 8, 12, 0.28);
@@ -80,28 +79,8 @@
   right: 0;
   left: 0;
   height: 3px;
-  background: var(--weapon-rarity);
+  background: var(--rarity);
   content: '';
-}
-
-.weapon-entry.rarity-1 {
-  --weapon-rarity: #bfc7cf;
-}
-
-.weapon-entry.rarity-2 {
-  --weapon-rarity: #7ed190;
-}
-
-.weapon-entry.rarity-3 {
-  --weapon-rarity: #69a6ff;
-}
-
-.weapon-entry.rarity-4 {
-  --weapon-rarity: #b980ff;
-}
-
-.weapon-entry.rarity-5 {
-  --weapon-rarity: #f1b44a;
 }
 
 .weapon-entry-header {
@@ -126,12 +105,12 @@
   height: 72px;
   flex: 0 0 72px;
   place-items: center;
-  border: 1px solid color-mix(in srgb, var(--weapon-rarity) 42%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 42%, transparent);
   border-radius: 8px;
   background:
     radial-gradient(
       circle at 50% 38%,
-      color-mix(in srgb, var(--weapon-rarity) 20%, transparent),
+      color-mix(in srgb, var(--rarity) 20%, transparent),
       transparent 64%
     ),
     rgba(0, 0, 0, 0.16);
@@ -147,15 +126,15 @@
 .weapon-entry-image.is-empty::before {
   width: 34px;
   height: 34px;
-  border: 1px solid color-mix(in srgb, var(--weapon-rarity) 34%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 34%, transparent);
   border-radius: 50%;
-  background: color-mix(in srgb, var(--weapon-rarity) 10%, transparent);
+  background: color-mix(in srgb, var(--rarity) 10%, transparent);
   content: '';
 }
 
 .weapon-entry-header h2 {
   margin: 0;
-  color: color-mix(in srgb, #fff 84%, var(--weapon-rarity) 16%);
+  color: color-mix(in srgb, #fff 84%, var(--rarity) 16%);
   font-size: 1.08rem;
   font-weight: 850;
   line-height: 1.18;
@@ -174,11 +153,11 @@
   min-height: 28px;
   flex: 0 0 auto;
   align-items: center;
-  border: 1px solid color-mix(in srgb, var(--weapon-rarity) 58%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 58%, transparent);
   border-radius: 8px;
   padding: 4px 9px;
-  background: color-mix(in srgb, var(--weapon-rarity) 14%, transparent);
-  color: color-mix(in srgb, #fff 84%, var(--weapon-rarity) 16%);
+  background: color-mix(in srgb, var(--rarity) 14%, transparent);
+  color: color-mix(in srgb, #fff 84%, var(--rarity) 16%);
   font-size: 0.82rem;
   font-weight: 850;
   line-height: 1;
@@ -259,7 +238,7 @@
 .weapon-refinement-button {
   min-width: 34px;
   min-height: 28px;
-  border: 1px solid color-mix(in srgb, var(--weapon-rarity) 55%, var(--text));
+  border: 1px solid color-mix(in srgb, var(--rarity) 55%, var(--text));
   border-radius: 7px;
   padding: 3px 7px;
   background: transparent;
@@ -273,12 +252,12 @@
 
 .weapon-refinement-button:hover,
 .weapon-refinement-button:focus-visible {
-  border-color: color-mix(in srgb, var(--weapon-rarity) 78%, white 6%);
+  border-color: color-mix(in srgb, var(--rarity) 78%, white 6%);
   outline: none;
 }
 
 .weapon-refinement-button[aria-pressed='true'] {
-  background: var(--weapon-rarity);
+  background: var(--rarity);
   color: #05080c;
 }
 
@@ -293,7 +272,7 @@
   color: color-mix(in srgb, var(--text) 86%, white 4%);
   font-size: 0.88rem;
   line-height: 1.48;
-  scrollbar-color: color-mix(in srgb, var(--weapon-rarity) 44%, transparent)
+  scrollbar-color: color-mix(in srgb, var(--rarity) 44%, transparent)
     transparent;
 }
 
@@ -302,7 +281,7 @@
 }
 
 .weapon-passive-copy .weapon-popover-passive-value {
-  color: var(--weapon-rarity);
+  color: var(--rarity);
   font-weight: 850;
 }
 
@@ -335,38 +314,29 @@
   gap: 6px;
   overflow: auto;
   padding-right: 2px;
-  scrollbar-color: color-mix(in srgb, var(--weapon-rarity) 44%, transparent)
+  scrollbar-color: color-mix(in srgb, var(--rarity) 44%, transparent)
     transparent;
 }
 
 .weapon-ranking-chip {
-  --character-rarity: var(--weapon-rarity);
   display: inline-flex;
   max-width: 100%;
   min-height: 28px;
   align-items: center;
-  border: 1px solid color-mix(in srgb, var(--character-rarity) 52%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 52%, transparent);
   border-radius: 7px;
   padding: 4px 7px;
-  background: color-mix(in srgb, var(--character-rarity) 16%, transparent);
-  color: color-mix(in srgb, #fff 84%, var(--character-rarity) 16%);
+  background: color-mix(in srgb, var(--rarity) 16%, transparent);
+  color: color-mix(in srgb, #fff 84%, var(--rarity) 16%);
   font-size: 0.74rem;
   font-weight: 760;
   line-height: 1.2;
   text-decoration: none;
 }
 
-.weapon-ranking-chip.character-rarity-4 {
-  --character-rarity: #b980ff;
-}
-
-.weapon-ranking-chip.character-rarity-5 {
-  --character-rarity: #f1b44a;
-}
-
 .weapon-ranking-chip:hover,
 .weapon-ranking-chip:focus-visible {
-  border-color: color-mix(in srgb, var(--character-rarity) 78%, white 8%);
+  border-color: color-mix(in srgb, var(--rarity) 78%, white 8%);
   outline: none;
 }
 

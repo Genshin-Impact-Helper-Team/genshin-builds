@@ -2,10 +2,7 @@
 import RowNoteAction from './RowNoteAction.astro';
 import WeaponInfoPopover from './WeaponInfoPopover.astro';
 import { t } from '../utils/i18n';
-import type {
-  WeaponPassiveText,
-  WeaponPassiveValue,
-} from '../utils/weapon-passive';
+import type { WeaponPassiveText, WeaponPassiveValue } from '../utils/weapon-passive';
 import { isFreeWeaponSource } from '../utils/weapon-source';
 
 type WeaponItem = {
@@ -45,10 +42,7 @@ type WeaponRecommendations = {
   conditional?: WeaponItem[];
 };
 
-const {
-  weapons,
-  locale,
-} = Astro.props as {
+const { weapons, locale } = Astro.props as {
   weapons: WeaponRecommendations;
   locale: any;
 };
@@ -59,20 +53,16 @@ const {
  * @param refinement Optional weapon refinement value.
  * @returns Formatted refinement suffix.
  */
-const formatRefinement = (refinement?: number | string) =>
-  refinement ? ` [R${refinement}]` : '';
+const formatRefinement = (refinement?: number | string) => (refinement ? ` [R${refinement}]` : '');
 
 const hasNoteMarker = (item: WeaponItem) => Boolean(item.noteId || item.note);
-const isFreeWeapon = (item: WeaponItem) =>
-  isFreeWeaponSource(item.info?.source) || item.rarity <= 3;
+const isFreeWeapon = (item: WeaponItem) => isFreeWeaponSource(item.info?.source) || item.rarity <= 3;
 const conditionalWeapons = weapons.conditional ?? [];
-const rankedWeaponGroups = weapons.weapons.map(
-  (position: WeaponRank, index: number) => ({
-    rank: index + 1,
-    mainItem: position.items[0],
-    alternativeItems: position.items.slice(1),
-  }),
-);
+const rankedWeaponGroups = weapons.weapons.map((position: WeaponRank, index: number) => ({
+  rank: index + 1,
+  mainItem: position.items[0],
+  alternativeItems: position.items.slice(1),
+}));
 const hasFreeWeapon =
   rankedWeaponGroups.some(
     (position) =>
@@ -93,9 +83,6 @@ const hasFreeWeapon =
         </p>
       )
     }
-    {
-      /* Ranked weapon groups. Extra items in one rank render as approximate ties. */
-    }
     <div class="rank-list">
       {
         rankedWeaponGroups.map((position) => {
@@ -108,13 +95,12 @@ const hasFreeWeapon =
               {mainItem && (
                 <div
                   class={`rank-row${mainItemIsFree ? ' is-free-weapon' : ''}${mainItemHasNote ? ' has-row-note' : ''}`}
+                  data-rarity={mainItem.rarity}
                 >
                   <strong class="rank-number">{position.rank}</strong>
                   <span class="rank-content">
                     <span class="inline-info-label">
-                      <WeaponInfoPopover
-                        weapon={mainItem}
-                      />
+                      <WeaponInfoPopover weapon={mainItem} />
                       <span class="bold">
                         ({mainItem.rarity}
                         {'\u2605'}){formatRefinement(mainItem.refinement)}
@@ -132,13 +118,12 @@ const hasFreeWeapon =
                 return (
                   <div
                     class={`rank-row alt${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
+                    data-rarity={weapon.rarity}
                   >
                     <span class="rank-approx">&asymp;</span>
                     <span class="rank-content">
                       <span class="inline-info-label">
-                        <WeaponInfoPopover
-                          weapon={weapon}
-                        />
+                        <WeaponInfoPopover weapon={weapon} />
                         <span class="bold">
                           ({weapon.rarity}
                           {'\u2605'}){formatRefinement(weapon.refinement)}
@@ -155,13 +140,10 @@ const hasFreeWeapon =
       }
     </div>
 
-    {/* Optional unranked recommendations that depend on build notes. */}
     {
       conditionalWeapons.length > 0 && (
         <div class="conditional-list">
-          <div class="conditional-heading">
-            {t(locale, 'ui', 'Conditional (See Notes):')}
-          </div>
+          <div class="conditional-heading">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
 
           <div class="rank-list">
             {conditionalWeapons.map((weapon: WeaponItem) => {
@@ -171,13 +153,12 @@ const hasFreeWeapon =
               return (
                 <div
                   class={`rank-row conditional-row${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
+                  data-rarity={weapon.rarity}
                 >
                   <span class="rank-marker" aria-hidden="true" />
                   <span class="rank-content">
                     <span class="inline-info-label">
-                      <WeaponInfoPopover
-                        weapon={weapon}
-                      />
+                      <WeaponInfoPopover weapon={weapon} />
                       <span class="bold">
                         ({weapon.rarity}
                         {'\u2605'}){formatRefinement(weapon.refinement)}

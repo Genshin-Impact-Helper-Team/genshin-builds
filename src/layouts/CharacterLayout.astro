@@ -32,7 +32,6 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
   </head>
 
   <body data-element={Astro.props.element}>
-    <!-- The header needs the URL slug, not the localized display name. -->
     <Header locale={locale} lang={lang} character={characterSlug} />
     <div class="page character-page">
       <div class="character-page-layout">
@@ -83,11 +82,12 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
                   return (
                     <button
                       id={`build-tab-${build.slug}`}
-                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}${build.isWip ? ' is-wip' : ''}`}
+                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
                       type="button"
                       data-build-tab
                       data-id={build.slug}
                       data-last-updated={build.lastUpdated}
+                      data-wip={build.isWip}
                       disabled={build.isWip}
                       aria-disabled={build.isWip ? 'true' : undefined}
                       aria-controls={`build-content-${build.slug}`}

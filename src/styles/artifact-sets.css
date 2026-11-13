@@ -49,7 +49,6 @@
 }
 
 .artifact-set-entry {
-  --artifact-rarity: var(--accent);
   position: relative;
   display: grid;
   min-width: 0;
@@ -61,7 +60,7 @@
   background:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--artifact-rarity) 12%, transparent),
+      color-mix(in srgb, var(--rarity) 12%, transparent),
       transparent 48%
     ),
     rgba(5, 8, 12, 0.28);
@@ -81,21 +80,10 @@
   right: 0;
   left: 0;
   height: 3px;
-  background: var(--artifact-rarity);
+  background: var(--rarity);
   content: '';
 }
 
-.artifact-set-entry.rarity-3 {
-  --artifact-rarity: #69a6ff;
-}
-
-.artifact-set-entry.rarity-4 {
-  --artifact-rarity: #b980ff;
-}
-
-.artifact-set-entry.rarity-5 {
-  --artifact-rarity: #f1b44a;
-}
 
 .artifact-set-entry-header {
   display: flex;
@@ -119,12 +107,12 @@
   height: 72px;
   flex: 0 0 72px;
   place-items: center;
-  border: 1px solid color-mix(in srgb, var(--artifact-rarity) 42%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 42%, transparent);
   border-radius: 8px;
   background:
     radial-gradient(
       circle at 50% 38%,
-      color-mix(in srgb, var(--artifact-rarity) 20%, transparent),
+      color-mix(in srgb, var(--rarity) 20%, transparent),
       transparent 64%
     ),
     rgba(0, 0, 0, 0.16);
@@ -140,15 +128,15 @@
 .artifact-set-entry-image.is-empty::before {
   width: 34px;
   height: 34px;
-  border: 1px solid color-mix(in srgb, var(--artifact-rarity) 34%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 34%, transparent);
   border-radius: 50%;
-  background: color-mix(in srgb, var(--artifact-rarity) 10%, transparent);
+  background: color-mix(in srgb, var(--rarity) 10%, transparent);
   content: '';
 }
 
 .artifact-set-entry-header h2 {
   margin: 0;
-  color: color-mix(in srgb, #fff 84%, var(--artifact-rarity) 16%);
+  color: color-mix(in srgb, #fff 84%, var(--rarity) 16%);
   font-size: 1.08rem;
   font-weight: 850;
   line-height: 1.18;
@@ -167,11 +155,11 @@
   min-height: 28px;
   flex: 0 0 auto;
   align-items: center;
-  border: 1px solid color-mix(in srgb, var(--artifact-rarity) 58%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 58%, transparent);
   border-radius: 8px;
   padding: 4px 9px;
-  background: color-mix(in srgb, var(--artifact-rarity) 14%, transparent);
-  color: color-mix(in srgb, #fff 84%, var(--artifact-rarity) 16%);
+  background: color-mix(in srgb, var(--rarity) 14%, transparent);
+  color: color-mix(in srgb, #fff 84%, var(--rarity) 16%);
   font-size: 0.82rem;
   font-weight: 850;
   line-height: 1;
@@ -188,7 +176,7 @@
   border-radius: 8px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.16);
-  scrollbar-color: color-mix(in srgb, var(--artifact-rarity) 44%, transparent)
+  scrollbar-color: color-mix(in srgb, var(--rarity) 44%, transparent)
     transparent;
 }
 
@@ -207,11 +195,11 @@
 .artifact-set-bonus h3 {
   align-self: start;
   margin: 0;
-  border: 1px solid color-mix(in srgb, var(--artifact-rarity) 48%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 48%, transparent);
   border-radius: 7px;
   padding: 5px 7px;
-  background: color-mix(in srgb, var(--artifact-rarity) 12%, transparent);
-  color: color-mix(in srgb, #fff 82%, var(--artifact-rarity) 18%);
+  background: color-mix(in srgb, var(--rarity) 12%, transparent);
+  color: color-mix(in srgb, #fff 82%, var(--rarity) 18%);
   font-size: 0.78rem;
   font-weight: 850;
   line-height: 1;
@@ -255,38 +243,29 @@
   gap: 6px;
   overflow: auto;
   padding-right: 2px;
-  scrollbar-color: color-mix(in srgb, var(--artifact-rarity) 44%, transparent)
+  scrollbar-color: color-mix(in srgb, var(--rarity) 44%, transparent)
     transparent;
 }
 
 .artifact-set-usage-chip {
-  --character-rarity: var(--artifact-rarity);
   display: inline-flex;
   max-width: 100%;
   min-height: 28px;
   align-items: center;
-  border: 1px solid color-mix(in srgb, var(--character-rarity) 52%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rarity) 52%, transparent);
   border-radius: 7px;
   padding: 4px 7px;
-  background: color-mix(in srgb, var(--character-rarity) 16%, transparent);
-  color: color-mix(in srgb, #fff 84%, var(--character-rarity) 16%);
+  background: color-mix(in srgb, var(--rarity) 16%, transparent);
+  color: color-mix(in srgb, #fff 84%, var(--rarity) 16%);
   font-size: 0.74rem;
   font-weight: 760;
   line-height: 1.2;
   text-decoration: none;
 }
 
-.artifact-set-usage-chip.character-rarity-4 {
-  --character-rarity: #b980ff;
-}
-
-.artifact-set-usage-chip.character-rarity-5 {
-  --character-rarity: #f1b44a;
-}
-
 .artifact-set-usage-chip:hover,
 .artifact-set-usage-chip:focus-visible {
-  border-color: color-mix(in srgb, var(--character-rarity) 78%, white 8%);
+  border-color: color-mix(in srgb, var(--rarity) 78%, white 8%);
   outline: none;
 }
 
