@@ -1,0 +1,34 @@
+{
+    "weapons": [
+        {
+            "items": [
+                "the-catch"
+            ]
+        },
+        {
+            "items": [
+                "prototype-starglitter"
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "kitain-cross-spear",
+                    "note": {
+                        "en": "Use [[stat:em]] weapons if she's being used as a [[element:hyperbloom]] trigger.",
+                        "fr": "Utilisez une arme [[stat:em]] si elle est jouée comme déclencheuse d'[[element:hyperbloom]].",
+                        "it": "Utilizza un'arma con [[stat:em]] in team in cui è utilizzata per innescare [[element:hyperbloom]]."
+                    }
+                },
+                {
+                    "name": "moonpiercer",
+                    "note": {
+                        "en": "Use [[stat:em]] weapons if she's being used as a [[element:hyperbloom]] trigger.",
+                        "fr": "Utilisez une arme [[stat:em]] si elle est jouée comme déclencheuse d'[[element:hyperbloom]].",
+                        "it": "Utilizza un'arma con [[stat:em]] in team in cui è utilizzata per innescare [[element:hyperbloom]]."
+                    }
+                }
+            ]
+        }
+    ]
+}

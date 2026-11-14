@@ -42,6 +42,15 @@ src/content/pyro/4/amber/melt-DPS/talents.json
 src/content/pyro/4/amber/melt-DPS/build-notes.json
 ```
 
+A simplified pre-AR45 guide uses the reserved build slug `pre-ar45`:
+
+```txt
+src/content/<element>/<rarity>/<character>/pre-ar45/
+```
+
+Each character should have only one `pre-ar45` folder. It appears only on the
+`/.../<character>/pre-ar45` page and is not mixed with AR45+ builds.
+
 ## Character Defaults and Build Overrides
 
 Build JSON files can be shared at the character level to avoid duplicating
@@ -81,6 +90,10 @@ content loader, including:
 - `artifacts-substats.json`
 - `talents.json`
 - `build-notes.json`
+
+`pre-ar45` is the exception. It does not fall back to character-level files, so
+put every displayed file inside the `pre-ar45` folder. Do not add
+`artifacts-substats.json`; pre-AR45 pages do not show substats.
 
 ## Shared Rules
 
