@@ -2,6 +2,11 @@
     "weapons": [
         {
             "items": [
+                "starsealed-edict"
+            ]
+        },
+        {
+            "items": [
                 "sunny-morning-sleep-in"
             ]
         },
