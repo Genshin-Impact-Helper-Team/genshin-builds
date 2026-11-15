@@ -32,21 +32,19 @@ const copyByLanguage = Object.fromEntries(
 const copy = copyByLanguage[lang as LanguageCode] ?? copyByLanguage.en;
 ---
 
-<main
-  class="not-found-page"
-  aria-labelledby="not-found-title"
-  data-not-found-page
->
-  <img
-    src="https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/229263adf81e413ade809013011ce7c0_920063983817555551.png?x-oss-process=image%2Fformat%2Cwebp"
-    alt=""
-    loading="eager"
-  />
-  <h1 id="not-found-title" data-not-found-heading>{copy.heading}</h1>
-  <p data-not-found-message>{copy.message}</p>
-  <a class="not-found-link" href={localizedPath(lang)} data-not-found-home>
-    {copy.home}
-  </a>
+<main aria-labelledby="not-found-title">
+  <div class="not-found-content">
+    <img
+      src="https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/229263adf81e413ade809013011ce7c0_920063983817555551.png?x-oss-process=image%2Fformat%2Cwebp"
+      alt=""
+      loading="eager"
+    />
+    <h1 id="not-found-title" data-not-found-heading>{copy.heading}</h1>
+    <p data-not-found-message>{copy.message}</p>
+    <a class="not-found-link" href={localizedPath(lang)} data-not-found-home>
+      {copy.home}
+    </a>
+  </div>
 </main>
 
 <script define:vars={{ baseUrl, copyByLanguage, detectLanguage, languageCodes }}

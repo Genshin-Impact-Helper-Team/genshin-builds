@@ -15,24 +15,7 @@
   --pf-border-radius: 8px;
   --pf-searchbox-max-width: 100%;
   --pf-searchbox-dropdown-max-height: min(360px, calc(100vh - 220px));
-  width: min(94vw, 560px);
   overflow: visible;
-  border-color: color-mix(in srgb, var(--accent) 34%, transparent);
-  border-radius: 8px;
-  background:
-    linear-gradient(
-      180deg,
-      color-mix(in srgb, var(--accent) 10%, transparent),
-      transparent 42%
-    ),
-    color-mix(in srgb, var(--bg) 90%, #05080c 10%);
-  color: var(--text);
-  font-family: inherit;
-}
-
-.site-search-modal.site-search-modal strong {
-  color: var(--accent);
-  font-family: inherit;
 }
 
 .site-search-shell {
@@ -109,13 +92,6 @@
 .site-search-banner-toggle input:focus-visible + span::before {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-}
-
-@media (max-width: 720px) {
-  .site-search-modal.site-search-modal {
-    width: calc(100vw - 20px);
-    padding: 16px;
-  }
 }
 
 @media (max-width: 980px) {

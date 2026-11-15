@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import { t } from '../utils/i18n';
 import { localizedPath } from '../utils/paths';
+import SortBy from './SortBy.astro';
 
 const { characters, lang, locale } = Astro.props;
 
@@ -42,85 +43,72 @@ function getCharacterViewModel(character: any) {
 const rosterCharacters = characters.map(getCharacterViewModel);
 ---
 
-<section class="home-roster">
-  <section class="roster-list-panel" aria-labelledby="character-roster-title">
-    <div class="roster-list-header">
-      <div>
-        <h2 id="character-roster-title">{characterCountLabel}</h2>
-        <p data-character-count data-results-label={resultsLabel} aria-live="polite">
-          {characters.length}
-          {resultsLabel}
-        </p>
-      </div>
-      <label class="roster-sort">
-        {sortByLabel}
-        <select class="home-native-select" name="sort" form="character-filters" aria-label={sortByLabel}>
-          {
-            sortOptions.map((option) => (
-              <option value={option.value} selected={option.value === 'element'}>
-                {option.label}
-              </option>
-            ))
-          }
-        </select>
-      </label>
+<section class="roster-list-panel" aria-labelledby="character-roster-title">
+  <div class="roster-list-header">
+    <div>
+      <h2 id="character-roster-title">{characterCountLabel}</h2>
+      <p data-character-count data-results-label={resultsLabel} aria-live="polite">
+        {characters.length}
+        {resultsLabel}
+      </p>
     </div>
+    <SortBy label={sortByLabel} form="character-filters" options={sortOptions} selected="element" />
+  </div>
 
-    <div class="roster-list" data-roster-list>
-      {
-        rosterCharacters.map((character) => {
-          const portraitAlt = formatUiTemplate(characterPortraitAltTemplate, character.name);
+  <div class="roster-list" data-roster-list>
+    {
+      rosterCharacters.map((character) => {
+        const portraitAlt = formatUiTemplate(characterPortraitAltTemplate, character.name);
 
-          return (
-            <a
-              class="roster-character"
-              href={character.isWip ? undefined : character.href}
-              aria-label={
-                character.isWip
-                  ? `${character.name}, WIP`
-                  : `${character.name}, ${character.weaponLabel}. ${openBuildsLabel}`
-              }
-              aria-disabled={character.isWip ? 'true' : undefined}
-              data-character-card
-              data-element={character.element}
-              data-last-updated={character.lastUpdated}
-              data-name={character.name}
-              data-recent-updated={character.isRecentlyUpdated ? 'true' : 'false'}
-              data-rarity={character.rarity}
-              data-rarity-label={character.rarityLabel}
-              data-version-released={character.versionReleased}
-              data-weapon={character.weapon}
-              data-wip={character.isWip}
-            >
-              <span class="roster-character-bg">
-                {character.portrait && (
-                  <Image
-                    src={character.portrait}
-                    alt={portraitAlt}
-                    loading="lazy"
-                    decoding="async"
-                    width={160}
-                    height={160}
-                    densities={[1, 2]}
-                  />
-                )}
-              </span>
-
-              <span class="roster-character-name" aria-hidden="true">
-                {character.name}
-              </span>
-
-              {character.lastUpdated && (
-                <span class="roster-character-updated" aria-hidden="true">
-                  {character.lastUpdated}
-                </span>
+        return (
+          <a
+            class="roster-character"
+            href={character.isWip ? undefined : character.href}
+            aria-label={
+              character.isWip
+                ? `${character.name}, WIP`
+                : `${character.name}, ${character.weaponLabel}. ${openBuildsLabel}`
+            }
+            aria-disabled={character.isWip ? 'true' : undefined}
+            data-character-card
+            data-element={character.element}
+            data-last-updated={character.lastUpdated}
+            data-name={character.name}
+            data-recent-updated={character.isRecentlyUpdated ? 'true' : 'false'}
+            data-rarity={character.rarity}
+            data-rarity-label={character.rarityLabel}
+            data-version-released={character.versionReleased}
+            data-weapon={character.weapon}
+            data-wip={character.isWip}
+          >
+            <span class="roster-character-bg">
+              {character.portrait && (
+                <Image
+                  src={character.portrait}
+                  alt={portraitAlt}
+                  loading="lazy"
+                  decoding="async"
+                  width={160}
+                  height={160}
+                  densities={[1, 2]}
+                />
               )}
-            </a>
-          );
-        })
-      }
-    </div>
+            </span>
 
-    <p class="roster-empty" data-character-empty hidden>{noResultsLabel}</p>
-  </section>
+            <span class="roster-character-name" aria-hidden="true">
+              {character.name}
+            </span>
+
+            {character.lastUpdated && (
+              <span class="roster-character-updated" aria-hidden="true">
+                {character.lastUpdated}
+              </span>
+            )}
+          </a>
+        );
+      })
+    }
+  </div>
+
+  <p class="roster-empty" data-character-empty hidden>{noResultsLabel}</p>
 </section>

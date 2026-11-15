@@ -23,19 +23,17 @@ const { talents, locale } = Astro.props as {
 };
 
 const hasNoteMarker = (item: TalentItem) => Boolean(item.noteId || item.note);
-const talentRows = talents.talents.map(
-  (talent: TalentPriority, index: number) => ({
-    rank: index + 1,
-    mainItems: talent.approx ? talent.items.slice(0, 1) : talent.items,
-    alternativeItems: talent.approx ? talent.items.slice(1) : [],
-  }),
-);
+const talentRows = talents.talents.map((talent: TalentPriority, index: number) => ({
+  rank: index + 1,
+  mainItems: talent.approx ? talent.items.slice(0, 1) : talent.items,
+  alternativeItems: talent.approx ? talent.items.slice(1) : [],
+}));
 ---
 
-<div class="card recommendation-card talent-card">
+<div class="block build-block talent-card">
   <h2>{t(locale, 'ui', 'Talents')}</h2>
 
-  <div class="recommendation-card-body">
+  <div class="recommendation-block">
     <div class="rank-list">
       {
         talentRows.map((talent) => {
@@ -43,15 +41,13 @@ const talentRows = talents.talents.map(
 
           return (
             <div class="rank-group">
-              <div
-                class={`rank-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
-              >
+              <div class={`rank-row${noteItems.length > 0 ? ' has-row-note' : ''}`}>
                 <strong class="rank-number">{talent.rank}</strong>
                 <span class="rank-content">
                   {talent.mainItems.map((item, itemIndex) => (
                     <>
                       {itemIndex > 0 && ' = '}
-                      <span class="recommendation-label-emphasized">{item.name}</span>
+                      {item.name}
                     </>
                   ))}
                 </span>
@@ -59,13 +55,9 @@ const talentRows = talents.talents.map(
               </div>
 
               {talent.alternativeItems.map((item) => (
-                <div
-                  class={`rank-row alt${hasNoteMarker(item) ? ' has-row-note' : ''}`}
-                >
+                <div class={`rank-row ${hasNoteMarker(item) ? ' has-row-note' : ''}`}>
                   <span class="rank-approx">&asymp;</span>
-                  <span class="rank-content">
-                    <span class="recommendation-label-emphasized">{item.name}</span>
-                  </span>
+                  <span class="rank-content">{item.name}</span>
                   {hasNoteMarker(item) && <RowNoteAction items={[item]} />}
                 </div>
               ))}

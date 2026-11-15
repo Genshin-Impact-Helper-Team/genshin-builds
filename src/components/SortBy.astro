@@ -1,0 +1,24 @@
+---
+type SortOption = {
+  value: string;
+  label: string;
+};
+
+const { label, form, options, selected } = Astro.props as {
+  label: string;
+  form: string;
+  options: SortOption[];
+  selected: string;
+};
+---
+
+<label class="filter-field filter-sort">
+  {label}
+  <select class="filter-select" name="sort" form={form} aria-label={label}>
+    {options.map((option) => (
+      <option value={option.value} selected={option.value === selected}>
+        {option.label}
+      </option>
+    ))}
+  </select>
+</label>

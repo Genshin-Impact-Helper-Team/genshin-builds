@@ -80,7 +80,7 @@ function weaponPopoverHtml(
   return [
     `<span class="info-popover-header${imageUrl ? ' has-image' : ''}">`,
     imageUrl
-      ? `<span class="info-popover-image weapon-popover-image"><img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"></span>`
+      ? `<span class="image-square-bg info-popover-image weapon-popover-image"><img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"></span>`
       : '',
     `<span class="info-popover-name">${escapeHtml(name)}</span>`,
     `<span class="info-popover-rarity">${escapeHtml(info.rarity)} \u2605</span>`,
@@ -93,7 +93,7 @@ function weaponPopoverHtml(
     [1, 2, 3, 4, 5]
       .map(
         (refinement) =>
-          `<button class="weapon-popover-refinement-button" type="button" data-refinement="r${refinement}" aria-pressed="${refinement === 1}">R${refinement}</button>`,
+          `<button class="refinement-button weapon-popover-refinement-button" type="button" data-refinement="r${refinement}" aria-pressed="${refinement === 1}">R${refinement}</button>`,
       )
       .join(''),
     '</span>',
@@ -124,14 +124,14 @@ function artifactPopoverHtml(
   return [
     `<span class="info-popover-header${imageUrl ? ' has-image' : ''}">`,
     imageUrl
-      ? `<span class="info-popover-image artifact-popover-image"><img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"></span>`
+      ? `<span class="image-square-bg info-popover-image artifact-popover-image"><img src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async"></span>`
       : '',
     `<span class="info-popover-name">${escapeHtml(name)}</span>`,
     `<span class="info-popover-rarity">${escapeHtml(info.rarity)} \u2605</span>`,
     '</span>',
     ...effects.map(
       (effect) =>
-        `<span class="info-popover-stat artifact-popover-effect"><span>${effect.label}</span><strong>${escapeHtml(effect.value).replace(/&lt;br\s*\/?&gt;/gi, '<br>')}</strong></span>`,
+        `<span class="info-popover-stat artifact-popover-effect"><span>${effect.label}</span>${escapeHtml(effect.value).replace(/&lt;br\s*\/?&gt;/gi, '<br>')}</span>`,
     ),
   ].join('');
 }

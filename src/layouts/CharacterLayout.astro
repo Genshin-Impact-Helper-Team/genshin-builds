@@ -1,8 +1,7 @@
 ---
 import { Image } from 'astro:assets';
-import '../styles/base.css';
-import '../styles/build.css';
-import '../styles/theme.css';
+import '../styles/common.css';
+import '../styles/character-build.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CalculationLinks from '../components/CalculationLinks.astro';
@@ -33,12 +32,12 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
 
   <body data-element={Astro.props.element}>
     <Header locale={locale} lang={lang} character={characterSlug} />
-    <div class="page character-page">
+    <main>
       <div class="character-page-layout">
         <aside class="character-header" aria-labelledby="character-title">
           {
             characterHeaderImage && (
-              <div class="character-art-stage">
+              <div class="character-icon">
                 <Image
                   class="character-image"
                   src={characterHeaderImage}
@@ -54,12 +53,12 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
             )
           }
 
-          <div class="character-header-copy">
-            <h1 id="character-title" class="page-title" data-pagefind-body>
+          <div>
+            <h1 id="character-title" class="character-name-title" data-pagefind-body>
               {character}
             </h1>
 
-            <div class="character-header-meta">
+            <div class="character-header-metadata">
               {
                 activeLastUpdated && (
                   <div class="last-updated">
@@ -82,7 +81,6 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
                   return (
                     <button
                       id={`build-tab-${build.slug}`}
-                      class={`build-switcher-button${isDefaultBuild ? ' is-active' : ''}`}
                       type="button"
                       data-build-tab
                       data-id={build.slug}
@@ -94,9 +92,9 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
                       aria-pressed={isDefaultBuild ? 'true' : 'false'}
                     >
                       <span class="build-switcher-name">{build.name}</span>
-                      <span class="build-switcher-tags">
-                        {build.lastUpdated && <span class="build-version-badge">{build.lastUpdated}</span>}
-                        {build.isBest && <span class="build-badge">{bestRoleLabel}</span>}
+                      <span class="build-switcher-badges">
+                        {build.lastUpdated && <span class="badge build-version-badge">{build.lastUpdated}</span>}
+                        {build.isBest && <span class="badge build-badge">{bestRoleLabel}</span>}
                       </span>
                     </button>
                   );
@@ -147,11 +145,11 @@ const buildsWithTips = builds.filter((build: any) => !build.isWip && build.build
           }
         </aside>
 
-        <div class="character-main">
+        <div>
           <slot />
         </div>
       </div>
-    </div>
+    </main>
     <Footer lang={lang} />
   </body>
 </html>

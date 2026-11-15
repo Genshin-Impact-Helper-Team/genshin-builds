@@ -78,25 +78,8 @@
 }
 
 .feedback-modal.feedback-modal {
-  width: min(94vw, 560px);
   max-height: min(760px, calc(100vh - 32px));
   overflow-y: auto;
-  border-color: color-mix(in srgb, var(--accent) 34%, transparent);
-  border-radius: 8px;
-  background:
-    linear-gradient(
-      180deg,
-      color-mix(in srgb, var(--accent) 10%, transparent),
-      transparent 42%
-    ),
-    color-mix(in srgb, var(--bg) 90%, #05080c 10%);
-  color: var(--text);
-  font-family: inherit;
-}
-
-.feedback-modal.feedback-modal strong {
-  color: var(--accent);
-  font-family: inherit;
 }
 
 .feedback-form {
@@ -286,9 +269,7 @@
   }
 
   .feedback-modal.feedback-modal {
-    width: calc(100vw - 20px);
     max-height: calc(100vh - 20px);
-    padding: 16px;
   }
 
   .feedback-actions {

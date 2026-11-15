@@ -2,6 +2,8 @@
 import { Image } from 'astro:assets';
 import type { AssetImage } from '../utils/item-assets';
 import { t } from '../utils/i18n';
+import Filters from './Filters.astro';
+import SortBy from './SortBy.astro';
 
 type ArtifactSetBrowserData = {
   artifactSets: {
@@ -57,71 +59,65 @@ const sortOptions = [
 ];
 const mentionedOnLabel = t(locale, 'ui', 'Artifact set mentioned on', undefined, false);
 const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, false);
+const filterFields = [
+  {
+    type: 'search' as const,
+    name: 'search',
+    label: searchLabel,
+    placeholder: searchByNameLabel,
+    fullWidthOnMobile: true,
+  },
+  {
+    type: 'select' as const,
+    name: 'rarity',
+    label: rarityLabel,
+    options: [
+      { value: '', label: allLabel },
+      ...data.rarities.map((rarity) => ({
+        value: String(rarity),
+        label: `${rarity}\u2605`,
+      })),
+    ],
+  },
+  {
+    type: 'select' as const,
+    name: 'tagGroups',
+    label: tagLabel,
+    options: [
+      { value: '', label: allLabel },
+      ...data.tagOptionGroups.map((group) => ({
+        label: group.label,
+        options: group.options.map((tag) => ({
+          value: tag.id,
+          label: tag.label,
+        })),
+      })),
+    ],
+  },
+];
 ---
 
 <section class="artifact-set-browser" data-artifact-browser>
-  <form class="home-filters artifact-set-filters" id="artifact-set-filters" data-artifact-filters>
-    <label class="home-search">
-      {searchLabel}
-      <input type="search" name="search" placeholder={searchByNameLabel} autocomplete="off" />
-    </label>
+  <Filters
+    id="artifact-set-filters"
+    kind="artifact"
+    fields={filterFields}
+    mobileColumnMinWidth={150}
+  />
 
-    <div class="home-select-filter">
-      {rarityLabel}
-      <select class="home-native-select" name="rarity" aria-label={rarityLabel}>
-        <option value="">{allLabel}</option>
-        {
-          data.rarities.map((rarity) => (
-            <option value={String(rarity)}>
-              {rarity}
-              {'\u2605'}
-            </option>
-          ))
-        }
-      </select>
-    </div>
-
-    <div class="home-select-filter">
-      {tagLabel}
-      <select class="home-native-select" name="tagGroups" aria-label={tagLabel}>
-        <option value="">{allLabel}</option>
-        {
-          data.tagOptionGroups.map((group) => (
-            <optgroup label={group.label}>
-              {group.options.map((tag) => (
-                <option value={tag.id}>{tag.label}</option>
-              ))}
-            </optgroup>
-          ))
-        }
-      </select>
-    </div>
-  </form>
-
-  <div class="artifact-set-browser-header">
+  <div class="browser-results-header">
     <p data-artifact-count data-results-label={resultsLabel} aria-live="polite">
       {data.artifactSets.length}
       {resultsLabel}
     </p>
-    <label class="roster-sort">
-      {sortByLabel}
-      <select class="home-native-select" name="sort" form="artifact-set-filters" aria-label={sortByLabel}>
-        {
-          sortOptions.map((option) => (
-            <option value={option.value} selected={option.value === 'name'}>
-              {option.label}
-            </option>
-          ))
-        }
-      </select>
-    </label>
+    <SortBy label={sortByLabel} form="artifact-set-filters" options={sortOptions} selected="name" />
   </div>
 
-  <div class="artifact-set-grid">
+  <div class="browser-grid">
     {
       data.artifactSets.map((artifactSet) => (
         <article
-          class="artifact-set-entry"
+          class="browser-entry"
           data-artifact-card
           data-id={artifactSet.id}
           data-name={artifactSet.name}
@@ -130,9 +126,9 @@ const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, f
           data-tag-groups={artifactSet.tagGroups.join(' ')}
           data-version-released={artifactSet.versionReleased}
         >
-          <header class="artifact-set-entry-header">
-            <div class="artifact-set-entry-title">
-              <div class={`artifact-set-entry-image${artifactSet.image ? '' : ' is-empty'}`}>
+          <header class="browser-entry-header">
+            <div class="browser-entry-title">
+              <div class={`image-square-bg browser-entry-image${artifactSet.image ? '' : ' is-empty'}`}>
                 {artifactSet.image && (
                   <Image
                     src={artifactSet.image}
@@ -149,28 +145,28 @@ const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, f
                 <h2>{artifactSet.name}</h2>
               </div>
             </div>
-            <span class="artifact-set-entry-rarity">
+            <span class="browser-entry-rarity">
               {artifactSet.rarity}
               {'\u2605'}
             </span>
           </header>
 
-          <div class="artifact-set-bonus-list">
+          <div class="artifact-set-effect">
             {artifactSet.bonuses.map((bonus) => (
-              <section class="artifact-set-bonus" aria-label={`${artifactSet.name} ${bonus.label}`}>
+              <section class="artifact-set-pieces" aria-label={`${artifactSet.name} ${bonus.label}`}>
                 <h3>{bonus.label}</h3>
                 <div set:html={bonus.html} />
               </section>
             ))}
           </div>
 
-          <section class="artifact-set-usage" aria-label={`${artifactSet.name} ${mentionedOnLabel}`}>
-            <h3>{mentionedOnLabel}</h3>
+          <section class="browser-usage" aria-label={`${artifactSet.name} ${mentionedOnLabel}`}>
+            <h3 class="browser-usage-title">{mentionedOnLabel}</h3>
             {artifactSet.fourPieceUsage.length > 0 ? (
-              <div class="artifact-set-usage-list">
+              <div class="browser-usage-list">
                 {artifactSet.fourPieceUsage.map((usage) => (
                   <a
-                    class="artifact-set-usage-chip"
+                    class="browser-usage-chip"
                     href={usage.href}
                     data-rarity={usage.characterRarity}
                     data-wip={usage.isWip}
@@ -178,12 +174,12 @@ const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, f
                     {(usage.rank || usage.isWip) && (
                       <strong class="usage-rank-number">{usage.isWip ? 'WIP' : usage.rank}</strong>
                     )}
-                    <span class="artifact-set-usage-character">{usage.characterName}</span>
+                    <span class="browser-usage-character">{usage.characterName}</span>
                   </a>
                 ))}
               </div>
             ) : (
-              <p class="artifact-set-usage-empty">{noMentionsLabel}</p>
+              <p class="browser-usage-empty">{noMentionsLabel}</p>
             )}
           </section>
         </article>
@@ -191,7 +187,7 @@ const noMentionsLabel = t(locale, 'ui', 'No artifact set mentions', undefined, f
     }
   </div>
 
-  <p class="artifact-set-empty" data-artifact-empty hidden>{noResultsLabel}</p>
+  <p class="browser-empty" data-artifact-empty hidden>{noResultsLabel}</p>
 </section>
 
 <script>

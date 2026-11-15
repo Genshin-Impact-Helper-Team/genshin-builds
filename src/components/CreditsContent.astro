@@ -21,41 +21,32 @@ const text = creditsData.text;
 const translators = creditsData.translators[lang] ?? [];
 ---
 
-<section class="card credits-card credits-legal-card">
+<section class="block credits-block credits-legal-card">
   <h2>{localized(text.legalTitle)}</h2>
   <p>{localized(text.unofficial)}</p>
   <p>
-    Original source code, build recommendations, rankings, notes, page layouts,
-    and other editorial content are copyright Genshin Impact Helper Team
-    contributors. No license is granted to copy, mirror, rehost, or deploy this
+    Original source code, build recommendations, rankings, notes, page layouts, and other editorial content are
+    copyright Genshin Impact Helper Team contributors. No license is granted to copy, mirror, rehost, or deploy this
     website or its original content without written permission. See the{' '}
-    <a
-      href="https://github.com/genshin-impact-helper-team/genshin-builds/blob/main/LICENSE.md"
-      target="_blank"
-    >
+    <a href="https://github.com/genshin-impact-helper-team/genshin-builds/blob/main/LICENSE.md" target="_blank">
       repository license notice
     </a>
     .
   </p>
   <p>{localized(text.ownership)}</p>
   <p class="credits-legal-declaration">
-    &copy; All rights reserved by COGNOSPHERE. Other properties belong to their
-    respective owners.
+    &copy; All rights reserved by COGNOSPHERE. Other properties belong to their respective owners.
   </p>
   <p>
     {localized(text.unpublished)}{' '}
-    <a
-      href="https://www.hoyolab.com/article/143107"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://www.hoyolab.com/article/143107" target="_blank" rel="noopener noreferrer">
       {localized(text.legalFaq)}
     </a>
     .
   </p>
 </section>
 
-<section class="card credits-card">
+<section class="block credits-block">
   <p>
     {localized(text.feedback)}{' '}
     <button class="credits-feedback-button" type="button" data-feedback-open>
@@ -67,7 +58,7 @@ const translators = creditsData.translators[lang] ?? [];
 
 {
   translators.length > 0 && (
-    <section class="card credits-card">
+    <section class="block credits-block">
       <h2>{localized(text.translatorTitle)}</h2>
       <ul class="credits-list">
         {translators.map((name) => (
@@ -80,7 +71,7 @@ const translators = creditsData.translators[lang] ?? [];
 
 {
   creditsData.sections.map((section) => (
-    <section class="card credits-card">
+    <section class="block credits-block">
       <h2>{localized(section.title)}</h2>
       <ul class="credits-list">
         {section.names.map((name) => (

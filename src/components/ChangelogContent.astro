@@ -35,7 +35,7 @@ const changelogData = changelog as ChangelogData;
         >
           <div class="changelog-version-entries">
             {group.entries.map((entry) => (
-              <article class="card changelog-card">
+              <article class="block changelog-card">
                 <time>{entry.date}</time>
                 <p>{entry.changes}</p>
                 {entry.appliedBy && (
