@@ -27,6 +27,7 @@
     @include spacing(mb-sm);
     @include visibility(block);
 
+    color: var(--accent);
     font-family: inherit;
   }
 

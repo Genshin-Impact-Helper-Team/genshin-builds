@@ -4,9 +4,8 @@ import Footer from '../../components/Footer.astro';
 import HomeFilters from '../../components/HomeFilters.astro';
 import HomeRoster from '../../components/HomeRoster.astro';
 import changelog from '../../content/site/changelog.json';
-import '../../styles/base.css';
+import '../../styles/common.css';
 import '../../styles/home.css';
-import '../../styles/theme.css';
 import { getHomePageData } from '../../utils/home-page';
 import { t } from '../../utils/i18n';
 import { localizedPath, sitePath } from '../../utils/paths';
@@ -14,14 +13,10 @@ import { getLanguageStaticPaths } from '../../utils/routes';
 
 export const getStaticPaths = getLanguageStaticPaths;
 
-const requestedLang = Array.isArray(Astro.params.lang)
-  ? Astro.params.lang[0]
-  : Astro.params.lang;
-const { characters, lang, latestVersion, locale, recentlyUpdatedCharacters } =
-  getHomePageData(requestedLang ?? 'en');
+const requestedLang = Array.isArray(Astro.params.lang) ? Astro.params.lang[0] : Astro.params.lang;
+const { characters, lang, latestVersion, locale, recentlyUpdatedCharacters } = getHomePageData(requestedLang ?? 'en');
 const latestChangelogEntry = changelog.groups[0]?.entries?.[0];
-const lastUpdatedLabel =
-  t(locale, 'ui', 'Last Updated', undefined, false) || 'Last Updated';
+const lastUpdatedLabel = t(locale, 'ui', 'Last Updated', undefined, false) || 'Last Updated';
 const changelogLabel = t(locale, 'ui', 'Changelog', undefined, false);
 const latestChangelogLabel = latestChangelogEntry
   ? `${lastUpdatedLabel}: ${latestChangelogEntry.changes}`
@@ -38,27 +33,19 @@ const latestChangelogLabel = latestChangelogEntry
   </head>
   <body data-element="base">
     <Header locale={locale} lang={lang} />
-    <main class="home-page">
+    <main>
       <h1>Genshin Builds</h1>
       <p class="home-disclaimer">
         {t(locale, 'ui', 'Home translation disclaimer', undefined, false)}
       </p>
       {
         latestChangelogEntry?.changes && (
-          <a
-            class="home-last-update"
-            href={localizedPath(lang, 'changelog')}
-            aria-label={latestChangelogLabel}
-          >
+          <a class="home-last-update" href={localizedPath(lang, 'changelog')} aria-label={latestChangelogLabel}>
             <h2>{lastUpdatedLabel}</h2>
-            <p class="home-last-update-change">
-              {latestChangelogEntry.changes}
-            </p>
-            <p class="home-last-update-meta">
+            <p class="home-last-update-change">{latestChangelogEntry.changes}</p>
+            <p class="home-last-update-metadata">
               <time>{latestChangelogEntry.date}</time>
-              {latestChangelogEntry.appliedBy && (
-                <span>Applied by {latestChangelogEntry.appliedBy}</span>
-              )}
+              {latestChangelogEntry.appliedBy && <span>Applied by {latestChangelogEntry.appliedBy}</span>}
             </p>
           </a>
         )

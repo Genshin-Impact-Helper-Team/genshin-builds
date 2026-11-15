@@ -18,7 +18,7 @@ const contentLanguage = (value: LocalizedText) => (value[lang]?.trim() ? lang : 
   <div>
     {
       privacyPolicy.sections.map((section) => (
-        <section class="card">
+        <section class="block">
           <h2 lang={contentLanguage(section.title)}>{localized(section.title)}</h2>
           <div
             lang={contentLanguage(section.content)}

@@ -1,5 +1,5 @@
 ---
-import '../styles/header.css';
+import '../styles/running-marginals.css';
 import '../styles/feedback-widget.scss';
 import '../styles/search-modal.scss';
 import { Banner } from 'webcoreui/astro';
@@ -20,17 +20,9 @@ type Props = {
 const { locale, lang, character, page } = Astro.props as Props;
 
 const currentLang = lang || 'en';
-const searchShortcutBannerDismissedStorageKey =
-  'genshin-builds:search-shortcut-banner-dismissed';
-const searchShortcutBannerDisabledStorageKey =
-  'genshin-builds:search-shortcut-banner-disabled';
-const searchShortcutBanner = t(
-  locale,
-  'ui',
-  'Search shortcut banner',
-  undefined,
-  false,
-);
+const searchShortcutBannerDismissedStorageKey = 'genshin-builds:search-shortcut-banner-dismissed';
+const searchShortcutBannerDisabledStorageKey = 'genshin-builds:search-shortcut-banner-disabled';
+const searchShortcutBanner = t(locale, 'ui', 'Search shortcut banner', undefined, false);
 const primaryLinks = [
   {
     href: localizedPath(currentLang),
@@ -44,8 +36,7 @@ const primaryLinks = [
   },
   {
     href: localizedPath(currentLang, 'artifacts'),
-    label:
-      t(locale, 'ui', 'Artifacts Sets', undefined, false) || 'Artifact Sets',
+    label: t(locale, 'ui', 'Artifacts Sets', undefined, false) || 'Artifact Sets',
     isCurrent: page === 'artifacts',
   },
 ];
@@ -76,11 +67,7 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent) || page === 'your
 
 <header class="site-header">
   <div class="navbar">
-    <a
-      href={localizedPath(currentLang)}
-      class="logo-link"
-      aria-label="Genshin Builds home"
-    >
+    <a href={localizedPath(currentLang)} class="logo-link" aria-label="Genshin Builds home">
       <span>Genshin Builds</span>
     </a>
 
@@ -146,10 +133,7 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent) || page === 'your
         >
           {
             languages.map((language) => (
-              <option
-                value={language.code}
-                selected={language.code === currentLang}
-              >
+              <option value={language.code} selected={language.code === currentLang}>
                 {language.name}
               </option>
             ))
@@ -181,8 +165,7 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent) || page === 'your
 >
   try {
     if (
-      sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) ===
-        'true' ||
+      sessionStorage.getItem(searchShortcutBannerDismissedStorageKey) === 'true' ||
       localStorage.getItem(searchShortcutBannerDisabledStorageKey) === 'true'
     ) {
       document.documentElement.dataset.searchShortcutBannerDismissed = 'true';
@@ -192,20 +175,11 @@ const isInfoCurrent = infoLinks.some((link) => link.isCurrent) || page === 'your
   }
 </script>
 
-<Banner
-  top={65}
-  closeable={true}
-  sticky={true}
-  className="search-shortcut-banner"
->
+<Banner top={65} closeable={true} sticky={true} className="search-shortcut-banner">
   {searchShortcutBanner}
 </Banner>
 
-<div
-  class="feedback-widget"
-  data-feedback-widget
-  data-feedback-lang={currentLang}
->
+<div class="feedback-widget" data-feedback-widget data-feedback-lang={currentLang}>
   <SpeedDial />
   <SearchModal locale={locale} lang={currentLang} />
   <FeedbackModal lang={currentLang} />

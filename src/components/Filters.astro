@@ -1,0 +1,106 @@
+---
+type FilterOption = {
+  value: string;
+  label: string;
+};
+
+type FilterOptionGroup = {
+  label: string;
+  options: FilterOption[];
+};
+
+type FilterField =
+  | {
+      type: 'search';
+      name: string;
+      label: string;
+      placeholder?: string;
+    }
+  | {
+      type: 'select';
+      name: string;
+      label: string;
+      options: (FilterOption | FilterOptionGroup)[];
+    }
+  | {
+      type: 'checkbox';
+      name: string;
+      value: string;
+      label: string;
+      description?: string;
+      count?: number;
+    };
+
+interface Props {
+  id: string;
+  kind: 'character' | 'artifact' | 'weapon';
+  fields: FilterField[];
+}
+
+const { id, kind, fields } = Astro.props;
+---
+
+<form
+  class="filter-bar"
+  id={id}
+  data-filter-kind={kind}
+>
+  {
+    fields.map((field) => {
+      if (field.type === 'search') {
+        return (
+          <label class="filter-field field-search">
+            {field.label}
+            <input
+              type="search"
+              name={field.name}
+              placeholder={field.placeholder}
+              autocomplete="off"
+            />
+          </label>
+        );
+      }
+
+      if (field.type === 'select') {
+        return (
+          <label class="filter-field field-select">
+            {field.label}
+            <select
+              class="filter-select"
+              name={field.name}
+              aria-label={field.label}
+            >
+              {field.options.map((option) =>
+                'options' in option ? (
+                  <optgroup label={option.label}>
+                    {option.options.map((item) => (
+                      <option value={item.value}>{item.label}</option>
+                    ))}
+                  </optgroup>
+                ) : (
+                  <option value={option.value}>{option.label}</option>
+                ),
+              )}
+            </select>
+          </label>
+        );
+      }
+
+      return (
+        <label class="filter-field field-checkbox">
+          <input type="checkbox" name={field.name} value={field.value} />
+          <span class="filter-checkbox-mark" aria-hidden="true" />
+          <span class="filter-checkbox">
+            <span class="filter-checkbox-title">{field.label}</span>
+            {field.description && (
+              <span class="filter-checkbox-description">{field.description}</span>
+            )}
+          </span>
+          {field.count !== undefined && (
+            <span class="filter-checkbox-count">{field.count}</span>
+          )}
+        </label>
+      );
+    })
+  }
+</form>

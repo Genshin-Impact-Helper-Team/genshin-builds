@@ -2,6 +2,8 @@
 import { Image } from 'astro:assets';
 import type { AssetImage } from '../utils/item-assets';
 import { t } from '../utils/i18n';
+import Filters from './Filters.astro';
+import SortBy from './SortBy.astro';
 
 type WeaponBrowserData = {
   rarities: number[];
@@ -73,79 +75,77 @@ const sortOptions = [
   { value: 'name', label: `${weaponLabel} - A-Z` },
   { value: 'release', label: `${releaseDateLabel} - ${newestLabel}` },
 ];
+const filterFields = [
+  {
+    type: 'search' as const,
+    name: 'search',
+    label: searchLabel,
+    placeholder: searchByNameLabel,
+  },
+  {
+    type: 'select' as const,
+    name: 'type',
+    label: weaponLabel,
+    options: [
+      { value: '', label: allLabel },
+      ...data.weaponTypes.map((type) => ({ value: type.id, label: type.label })),
+    ],
+  },
+  {
+    type: 'select' as const,
+    name: 'rarity',
+    label: rarityLabel,
+    options: [
+      { value: '', label: allLabel },
+      ...data.rarities.map((rarity) => ({
+        value: String(rarity),
+        label: `${rarity}\u2605`,
+      })),
+    ],
+  },
+  {
+    type: 'select' as const,
+    name: 'source',
+    label: sourceLabel,
+    options: [
+      { value: '', label: allLabel },
+      ...data.sources.map((source) => ({
+        value: source.id,
+        label: source.label,
+      })),
+    ],
+  },
+  {
+    type: 'select' as const,
+    name: 'substat',
+    label: substatsLabel,
+    options: [
+      { value: '', label: allLabel },
+      ...data.substats.map((substat) => ({
+        value: substat.id,
+        label: substat.label,
+      })),
+    ],
+  },
+];
 ---
 
 <section class="weapon-browser" data-weapon-browser>
-  <form class="home-filters weapon-filters" id="weapon-filters" data-weapon-filters>
-    <label class="home-search">
-      {searchLabel}
-      <input type="search" name="search" placeholder={searchByNameLabel} autocomplete="off" />
-    </label>
+  <Filters id="weapon-filters" kind="weapon" fields={filterFields} />
 
-    <div class="home-select-filter">
-      {weaponLabel}
-      <select class="home-native-select" name="type" aria-label={weaponLabel}>
-        <option value="">{allLabel}</option>
-        {data.weaponTypes.map((type) => <option value={type.id}>{type.label}</option>)}
-      </select>
-    </div>
-
-    <div class="home-select-filter">
-      {rarityLabel}
-      <select class="home-native-select" name="rarity" aria-label={rarityLabel}>
-        <option value="">{allLabel}</option>
-        {
-          data.rarities.map((rarity) => (
-            <option value={String(rarity)}>
-              {rarity}
-              {'\u2605'}
-            </option>
-          ))
-        }
-      </select>
-    </div>
-
-    <div class="home-select-filter">
-      {sourceLabel}
-      <select class="home-native-select" name="source" aria-label={sourceLabel}>
-        <option value="">{allLabel}</option>
-        {data.sources.map((source) => <option value={source.id}>{source.label}</option>)}
-      </select>
-    </div>
-
-    <div class="home-select-filter">
-      {substatsLabel}
-      <select class="home-native-select" name="substat" aria-label={substatsLabel}>
-        <option value="">{allLabel}</option>
-        {data.substats.map((substat) => <option value={substat.id}>{substat.label}</option>)}
-      </select>
-    </div>
-  </form>
-
-  <div class="weapon-browser-header">
+  <div class="browser-results-header">
     <p data-weapon-count data-results-label={resultsLabel} aria-live="polite">
       {data.weapons.length}
       {resultsLabel}
     </p>
-    <label class="roster-sort">
-      {sortByLabel}
-      <select class="home-native-select" name="sort" form="weapon-filters" aria-label={sortByLabel}>
-        {
-          sortOptions.map((option) => (
-            <option value={option.value} selected={option.value === 'name'}>
-              {option.label}
-            </option>
-          ))
-        }
-      </select>
-    </label>
+    <SortBy label={sortByLabel} form="weapon-filters" options={sortOptions} selected="name" />
   </div>
 
-  <div class="weapon-grid">
+  <div class="browser-grid">
     {
       data.weapons.map((weapon) => (
         <article
-          class="weapon-entry"
+          class="browser-entry"
           data-weapon-card
           data-id={weapon.id}
           data-name={weapon.name}
@@ -155,9 +155,9 @@ const sortOptions = [
           data-type={weapon.type}
           data-version-released={weapon.versionReleased}
         >
-          <header class="weapon-entry-header">
-            <div class="weapon-entry-title">
-              <div class={`weapon-entry-image${weapon.image ? '' : ' is-empty'}`}>
+          <header class="browser-entry-header">
+            <div class="browser-entry-title">
+              <div class={`image-square-bg browser-entry-image${weapon.image ? '' : ' is-empty'}`}>
                 {weapon.image && (
                   <Image
                     src={weapon.image}
@@ -175,7 +175,7 @@ const sortOptions = [
                 <p>{weapon.typeLabel}</p>
               </div>
             </div>
-            <span class="weapon-entry-rarity">
+            <span class="browser-entry-rarity">
               {weapon.rarity}
               {'\u2605'}
             </span>
@@ -212,7 +212,7 @@ const sortOptions = [
                 <div class="weapon-refinement-buttons">
                   {[1, 2, 3, 4, 5].map((refinement) => (
                     <button
-                      class="weapon-refinement-button"
+                      class="refinement-button weapon-refinement-button"
                       type="button"
                       data-weapon-refinement={`r${refinement}`}
                       aria-pressed={refinement === 1 ? 'true' : 'false'}
@@ -223,7 +223,7 @@ const sortOptions = [
                 </div>
               </div>
 
-              <div class="weapon-passive-copy">
+              <div class="weapon-passive">
                 <div
                   data-weapon-refinement-panel="r1"
                   data-refinement-values={JSON.stringify(weapon.refinementValues)}
@@ -233,28 +233,28 @@ const sortOptions = [
             </section>
           )}
 
-          <section class="weapon-ranking-usage" aria-label={`${weapon.name} ${rankedOnLabel}`}>
-            <h3>{rankedOnLabel}</h3>
+          <section class="browser-usage" aria-label={`${weapon.name} ${rankedOnLabel}`}>
+            <h3 class="browser-usage-title">{rankedOnLabel}</h3>
             {weapon.rankingUsage.length > 0 ? (
-              <div class="weapon-ranking-list">
+              <div class="browser-usage-list">
                 {weapon.rankingUsage.map((usage) => (
                   <a
-                    class="weapon-ranking-chip"
+                    class="browser-usage-chip"
                     href={usage.href}
                     data-rarity={usage.characterRarity}
                     data-wip={usage.isWip}
                   >
                     <strong class="usage-rank-number">{usage.isWip ? 'WIP' : usage.rank}</strong>
-                    <span class="weapon-ranking-character">{usage.characterName}</span>
+                    <span class="browser-usage-character">{usage.characterName}</span>
                   </a>
                 ))}
               </div>
             ) : (
-              <p class="weapon-ranking-empty">{noRankingMentionsLabel}</p>
+              <p class="browser-usage-empty">{noRankingMentionsLabel}</p>
             )}
           </section>
 
-          <footer class="weapon-entry-footer">
+          <footer class="weapon-entry-source">
             <span>{sourceLabel}</span>
             <strong>{weapon.sourceName}</strong>
           </footer>
@@ -263,7 +263,7 @@ const sortOptions = [
     }
   </div>
 
-  <p class="weapon-empty" data-weapon-empty hidden>{noResultsLabel}</p>
+  <p class="browser-empty" data-weapon-empty hidden>{noResultsLabel}</p>
 </section>
 
 <script>

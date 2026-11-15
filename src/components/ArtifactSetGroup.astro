@@ -36,10 +36,7 @@ type ArtifactSetRow = {
   chooseOne?: boolean;
 };
 
-const {
-  group,
-  locale,
-} = Astro.props as {
+const { group, locale } = Astro.props as {
   group: ArtifactSetGroup;
   locale: any;
 };
@@ -70,9 +67,6 @@ const rows: ArtifactSetRow[] = group.choose
 ---
 
 {
-  /* Choose-two groups render extra items as `.alt` rows to match approximate ties. */
-}
-{
   rows.map((row) => {
     const content = row.label ? (
       <span class="accent-text bold">{row.label}</span>
@@ -82,11 +76,9 @@ const rows: ArtifactSetRow[] = group.choose
         {row.items?.map((item, itemIndex) => (
           <>
             {itemIndex > 0 && ' / '}
-            <span class="inline-info-label artifact-info-label">
-              <ArtifactSetInfoPopover
-                artifact={item}
-              />
-              <span class="artifact-piece-suffix">
+            <span class="artifact-info-label">
+              <ArtifactSetInfoPopover artifact={item} />
+              <span class="rank-entry-suffix">
                 {'\u00a0'}({item.pieces})
               </span>
             </span>
@@ -95,17 +87,13 @@ const rows: ArtifactSetRow[] = group.choose
         {row.choicePools?.map((choice) => (
           <>
             {' '}
-            <span class="accent-text">
-              {t(locale, 'ui', 'and', undefined, false)}
-            </span>{' '}
+            <span class="accent-text">{t(locale, 'ui', 'and', undefined, false)}</span>{' '}
             {choice.items.map((item, itemIndex) => (
               <>
                 {itemIndex > 0 && ' / '}
-                <span class="inline-info-label artifact-info-label">
-                  <ArtifactSetInfoPopover
-                    artifact={item}
-                  />
-                  <span class="artifact-piece-suffix">
+                <span class="artifact-info-label">
+                  <ArtifactSetInfoPopover artifact={item} />
+                  <span class="rank-entry-suffix">
                     {'\u00a0'}({item.pieces})
                   </span>
                 </span>
@@ -114,9 +102,7 @@ const rows: ArtifactSetRow[] = group.choose
             {choice.items.length > 0 && (
               <>
                 {' '}
-                <span class="accent-text bold">
-                  {t(locale, 'ui', 'Choose One')}
-                </span>
+                <span class="accent-text bold">{t(locale, 'ui', 'Choose One')}</span>
               </>
             )}
           </>
@@ -124,18 +110,12 @@ const rows: ArtifactSetRow[] = group.choose
         {row.chooseOne && (row.items?.length ?? 0) > 0 && (
           <>
             {' '}
-            <span class="accent-text bold">
-              {t(locale, 'ui', 'Choose One')}
-            </span>
+            <span class="accent-text bold">{t(locale, 'ui', 'Choose One')}</span>
           </>
         )}
       </>
     );
 
-    return row.alt ? (
-      <div class={row.bold ? 'alt bold' : 'alt'}>{content}</div>
-    ) : (
-      <>{content}</>
-    );
+    return <>{content}</>;
   })
 }

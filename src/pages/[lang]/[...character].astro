@@ -70,53 +70,49 @@ const noteMarkerExplanation = t(locale, 'ui', 'Note marker explanation', undefin
   }))}
 >
   <div class="character-builds-layout" data-default-build={defaultBuildSlug}>
-    <div class="build-list">
-      {
-        builds.map((build) => {
-          const buildContentId = `build-content-${build.slug}`;
-          const hasNoteMarkerHint = buildHasItemNotes(build.notes);
-          const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
+    {
+      builds.map((build) => {
+        const buildContentId = `build-content-${build.slug}`;
+        const hasNoteMarkerHint = buildHasItemNotes(build.notes);
+        const isDefaultBuild = build.slug === defaultBuildSlug && !build.isWip;
 
-          return (
-            <section
-              class={`build-card${isDefaultBuild ? ' open' : ''}`}
-              data-build-panel
-              data-id={build.slug}
-              id={buildContentId}
-              aria-hidden={isDefaultBuild ? 'false' : 'true'}
-              hidden={!isDefaultBuild}
-            >
-              <div class="build-content">
-                {hasNoteMarkerHint && (
-                  <div class="build-note-hint">
-                    <span class="note-marker-text" aria-hidden="true">
-                      ⓘ
-                    </span>
-                    <span>{noteMarkerExplanation}</span>
-                  </div>
-                )}
-
-                <div class="grid">
-                  {build.weapons && <Weapon weapons={build.weapons} locale={locale} />}
-                  {build.artifacts.sets && <Artifact artifacts={build.artifacts} locale={locale} />}
-                  {build.artifacts.mainstats && build.artifacts.substats && (
-                    <ArtifactStats artifacts={build.artifacts} locale={locale} />
-                  )}
-                  {build.talents && <Talent talents={build.talents} locale={locale} />}
-                </div>
-                <Notes notes={build.notes} buildNote={build.buildNote} locale={locale} />
-                {build.buildNote?.tips?.length > 0 && (
-                  <section class="build-tips-section build-tips-mobile">
-                    <h2>{t(locale, 'ui', 'Gameplay Tips')}</h2>
-                    <BuildTips tips={build.buildNote.tips} />
-                  </section>
-                )}
+        return (
+          <section
+            class={`build-content${isDefaultBuild ? ' open' : ''}`}
+            data-build-panel
+            data-id={build.slug}
+            id={buildContentId}
+            aria-hidden={!isDefaultBuild}
+            hidden={!isDefaultBuild}
+          >
+            {hasNoteMarkerHint && (
+              <div class="build-note-hint">
+                <span class="note-marker-text" aria-hidden="true">
+                  ⓘ
+                </span>
+                <span>{noteMarkerExplanation}</span>
               </div>
-            </section>
-          );
-        })
-      }
-    </div>
+            )}
+
+            <div class="ranking-grid">
+              {build.weapons && <Weapon weapons={build.weapons} locale={locale} />}
+              {build.artifacts.sets && <Artifact artifacts={build.artifacts} locale={locale} />}
+              {build.artifacts.mainstats && build.artifacts.substats && (
+                <ArtifactStats artifacts={build.artifacts} locale={locale} />
+              )}
+              {build.talents && <Talent talents={build.talents} locale={locale} />}
+            </div>
+            <Notes notes={build.notes} buildNote={build.buildNote} locale={locale} />
+            {build.buildNote?.tips?.length > 0 && (
+              <section class="build-tips-section build-tips-mobile">
+                <h2>{t(locale, 'ui', 'Gameplay Tips')}</h2>
+                <BuildTips tips={build.buildNote.tips} />
+              </section>
+            )}
+          </section>
+        );
+      })
+    }
   </div>
 </CharacterPageLayout>
 

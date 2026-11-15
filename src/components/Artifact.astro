@@ -27,10 +27,7 @@ type ArtifactRecommendations = {
   };
 };
 
-const {
-  artifacts,
-  locale,
-} = Astro.props as {
+const { artifacts, locale } = Astro.props as {
   artifacts: ArtifactRecommendations;
   locale: any;
 };
@@ -39,42 +36,30 @@ const artifactSetRanks = artifacts.sets.artifact_sets ?? [];
 const conditionalArtifactGroups = artifacts.sets.conditional ?? [];
 const hasNoteMarker = (item: ArtifactSetItem) => Boolean(item.noteId || item.note);
 const getGroupNoteItems = (group: ArtifactSetGroupData) =>
-  [
-    ...(group.items ?? []),
-    ...(group.choices ?? []).flatMap((choice) => choice.items),
-  ].filter(hasNoteMarker);
+  [...(group.items ?? []), ...(group.choices ?? []).flatMap((choice) => choice.items)].filter(hasNoteMarker);
 ---
 
-<div class="card recommendation-card artifact-card artifact-sets-card">
+<div class="block build-block artifact-card artifact-sets-card">
   <h2>{t(locale, 'ui', 'Artifacts Sets', undefined, false)}</h2>
 
-  <div class="recommendation-card-body">
+  <div class="recommendation-block">
     <div class="section recommendation-section">
       <div class="rank-list">
         {
           artifactSetRanks.length > 0 &&
             artifactSetRanks.map((rank: ArtifactSetRank, i: number) => {
               const [mainGroup, ...alternativeGroups] = rank.groups;
-              const mainGroupNoteItems = mainGroup
-                ? getGroupNoteItems(mainGroup)
-                : [];
+              const mainGroupNoteItems = mainGroup ? getGroupNoteItems(mainGroup) : [];
 
               return (
                 <div class="rank-group">
                   {mainGroup && (
-                    <div
-                      class={`rank-row${mainGroupNoteItems.length > 0 ? ' has-row-note' : ''}`}
-                    >
+                    <div class={`rank-row${mainGroupNoteItems.length > 0 ? ' has-row-note' : ''}`}>
                       <strong class="rank-number">{i + 1}</strong>
                       <div class="rank-content artifact-set-content">
-                        <ArtifactSetGroup
-                          group={mainGroup}
-                          locale={locale}
-                        />
+                        <ArtifactSetGroup group={mainGroup} locale={locale} />
                       </div>
-                      {mainGroupNoteItems.length > 0 && (
-                        <RowNoteAction items={mainGroupNoteItems} />
-                      )}
+                      {mainGroupNoteItems.length > 0 && <RowNoteAction items={mainGroupNoteItems} />}
                     </div>
                   )}
 
@@ -82,19 +67,12 @@ const getGroupNoteItems = (group: ArtifactSetGroupData) =>
                     const noteItems = getGroupNoteItems(group);
 
                     return (
-                      <div
-                        class={`rank-row alt${noteItems.length > 0 ? ' has-row-note' : ''}`}
-                      >
+                      <div class={`rank-row alt${noteItems.length > 0 ? ' has-row-note' : ''}`}>
                         <span class="rank-approx">&asymp;</span>
                         <div class="rank-content artifact-set-content">
-                          <ArtifactSetGroup
-                            group={group}
-                            locale={locale}
-                          />
+                          <ArtifactSetGroup group={group} locale={locale} />
                         </div>
-                        {noteItems.length > 0 && (
-                          <RowNoteAction items={noteItems} />
-                        )}
+                        {noteItems.length > 0 && <RowNoteAction items={noteItems} />}
                       </div>
                     );
                   })}
@@ -107,28 +85,19 @@ const getGroupNoteItems = (group: ArtifactSetGroupData) =>
       {
         conditionalArtifactGroups.length > 0 && (
           <div class="conditional-list">
-            <div class="conditional-heading">
-              {t(locale, 'ui', 'Conditional (See Notes):')}
-            </div>
+            <div class="conditional-heading">{t(locale, 'ui', 'Conditional (See Notes):')}</div>
 
             <div class="rank-list">
               {conditionalArtifactGroups.map((group: ArtifactSetGroupData) => {
                 const noteItems = getGroupNoteItems(group);
 
                 return (
-                  <div
-                    class={`rank-row conditional-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
-                  >
-                    <span class="rank-marker" aria-hidden="true" />
+                  <div class={`rank-row conditional-row${noteItems.length > 0 ? ' has-row-note' : ''}`}>
+                    <span class="rank-conditional" aria-hidden="true" />
                     <div class="rank-content artifact-set-content">
-                      <ArtifactSetGroup
-                        group={group}
-                        locale={locale}
-                      />
+                      <ArtifactSetGroup group={group} locale={locale} />
                     </div>
-                    {noteItems.length > 0 && (
-                      <RowNoteAction items={noteItems} />
-                    )}
+                    {noteItems.length > 0 && <RowNoteAction items={noteItems} />}
                   </div>
                 );
               })}

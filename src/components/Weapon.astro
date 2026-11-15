@@ -71,10 +71,10 @@ const hasFreeWeapon =
   ) || conditionalWeapons.some((weapon) => isFreeWeapon(weapon));
 ---
 
-<div class="card recommendation-card weapon-card">
+<div class="block build-block weapon-card">
   <h2>{t(locale, 'ui', 'Weapons')}</h2>
 
-  <div class="recommendation-card-body">
+  <div class="recommendation-block">
     {
       hasFreeWeapon && (
         <p class="free-weapon-note">
@@ -101,9 +101,11 @@ const hasFreeWeapon =
                   <span class="rank-content">
                     <span class="inline-info-label">
                       <WeaponInfoPopover weapon={mainItem} />
-                      <span class="bold">
+                      {formatRefinement(mainItem.refinement)}
+                      {'\u00a0'}
+                      <span class="rank-entry-suffix">
                         ({mainItem.rarity}
-                        {'\u2605'}){formatRefinement(mainItem.refinement)}
+                        {'\u2605'})
                       </span>
                     </span>
                   </span>
@@ -117,16 +119,18 @@ const hasFreeWeapon =
 
                 return (
                   <div
-                    class={`rank-row alt${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
+                    class={`rank-row ${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
                     data-rarity={weapon.rarity}
                   >
                     <span class="rank-approx">&asymp;</span>
                     <span class="rank-content">
                       <span class="inline-info-label">
                         <WeaponInfoPopover weapon={weapon} />
-                        <span class="bold">
+                        {formatRefinement(weapon.refinement)}
+                        {'\u00a0'}
+                        <span class="rank-entry-suffix">
                           ({weapon.rarity}
-                          {'\u2605'}){formatRefinement(weapon.refinement)}
+                          {'\u2605'})
                         </span>
                       </span>
                     </span>
@@ -155,13 +159,15 @@ const hasFreeWeapon =
                   class={`rank-row conditional-row${isFree ? ' is-free-weapon' : ''}${hasNote ? ' has-row-note' : ''}`}
                   data-rarity={weapon.rarity}
                 >
-                  <span class="rank-marker" aria-hidden="true" />
+                  <span class="rank-conditional" aria-hidden="true" />
                   <span class="rank-content">
                     <span class="inline-info-label">
                       <WeaponInfoPopover weapon={weapon} />
-                      <span class="bold">
+                      {formatRefinement(weapon.refinement)}
+                      {'\u00a0'}
+                      <span class="rank-entry-suffix">
                         ({weapon.rarity}
-                        {'\u2605'}){formatRefinement(weapon.refinement)}
+                        {'\u2605'})
                       </span>
                     </span>
                   </span>

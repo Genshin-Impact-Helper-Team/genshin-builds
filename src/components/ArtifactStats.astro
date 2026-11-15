@@ -36,37 +36,33 @@ const mainStatSlots = [
   { label: 'Circlet', items: artifacts.mainstats.main_stats.circlet },
 ];
 
-const substatRows = artifacts.substats.substats_priority.map(
-  (priority: SubstatPriority, index: number) => ({
-    rank: index + 1,
-    items: 'items' in priority ? priority.items : [priority],
-    hasAlternatives: 'items' in priority,
-  }),
-);
+const substatRows = artifacts.substats.substats_priority.map((priority: SubstatPriority, index: number) => ({
+  rank: index + 1,
+  items: 'items' in priority ? priority.items : [priority],
+  hasAlternatives: 'items' in priority,
+}));
 ---
 
-<div class="card recommendation-card artifact-stats-card">
+<div class="block build-block">
   <h2>{t(locale, 'ui', 'Artifact Stats', undefined, false)}</h2>
 
-  <div class="recommendation-card-body">
-    <div class="section recommendation-section">
+  <div class="recommendation-block">
+    <div class="recommendation-section">
       <h3>{t(locale, 'ui', 'Main Stats')}</h3>
 
-      <div class="stat-grid">
+      <div class="artifact-stat-grid">
         {
           mainStatSlots.map((slot) => {
             const noteItems = slot.items.filter(hasNoteMarker);
 
             return (
-              <div
-                class={`stat-row${noteItems.length > 0 ? ' has-row-note' : ''}`}
-              >
+              <div class={`artifact-stat-row${noteItems.length > 0 ? ' has-row-note' : ''}`}>
                 <strong>{t(locale, 'ui', slot.label)}</strong>
                 <span>
                   {slot.items.map((stat: StatItem, statIndex: number) => (
                     <>
                       {statIndex > 0 && ' / '}
-                      <span class="recommendation-label-emphasized">{stat.name}</span>
+                      {stat.name}
                     </>
                   ))}
                 </span>
@@ -78,7 +74,7 @@ const substatRows = artifacts.substats.substats_priority.map(
       </div>
     </div>
 
-    <div class="section recommendation-section">
+    <div class="recommendation-section">
       <h3>{t(locale, 'ui', 'Substats')}</h3>
 
       <div class="rank-list">
@@ -86,28 +82,18 @@ const substatRows = artifacts.substats.substats_priority.map(
           substatRows.map((row) => (
             <div class="rank-group">
               {row.items[0] && (
-                <div
-                  class={`rank-row${hasNoteMarker(row.items[0]) ? ' has-row-note' : ''}`}
-                >
+                <div class={`rank-row${hasNoteMarker(row.items[0]) ? ' has-row-note' : ''}`}>
                   <strong class="rank-number">{row.rank}</strong>
-                  <span class="rank-content">
-                    <span class="recommendation-label-emphasized">{row.items[0].name}</span>
-                  </span>
-                  {hasNoteMarker(row.items[0]) && (
-                    <RowNoteAction items={[row.items[0]]} />
-                  )}
+                  <span class="rank-content">{row.items[0].name}</span>
+                  {hasNoteMarker(row.items[0]) && <RowNoteAction items={[row.items[0]]} />}
                 </div>
               )}
 
               {row.hasAlternatives &&
                 row.items.slice(1).map((item) => (
-                  <div
-                    class={`rank-row alt${hasNoteMarker(item) ? ' has-row-note' : ''}`}
-                  >
+                  <div class={`rank-row ${hasNoteMarker(item) ? ' has-row-note' : ''}`}>
                     <span class="rank-approx">&asymp;</span>
-                    <span class="rank-content">
-                      <span class="recommendation-label-emphasized">{item.name}</span>
-                    </span>
+                    <span class="rank-content">{item.name}</span>
                     {hasNoteMarker(item) && <RowNoteAction items={[item]} />}
                   </div>
                 ))}
