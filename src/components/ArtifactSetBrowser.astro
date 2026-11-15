@@ -65,6 +65,7 @@ const filterFields = [
     name: 'search',
     label: searchLabel,
     placeholder: searchByNameLabel,
+    fullWidthOnMobile: true,
   },
   {
     type: 'select' as const,
@@ -97,7 +98,12 @@ const filterFields = [
 ---
 
 <section class="artifact-set-browser" data-artifact-browser>
-  <Filters id="artifact-set-filters" kind="artifact" fields={filterFields} />
+  <Filters
+    id="artifact-set-filters"
+    kind="artifact"
+    fields={filterFields}
+    mobileColumnMinWidth={150}
+  />
 
   <div class="browser-results-header">
     <p data-artifact-count data-results-label={resultsLabel} aria-live="polite">

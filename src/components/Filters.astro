@@ -15,6 +15,7 @@ type FilterField =
       name: string;
       label: string;
       placeholder?: string;
+      fullWidthOnMobile?: boolean;
     }
   | {
       type: 'select';
@@ -35,21 +36,25 @@ interface Props {
   id: string;
   kind: 'character' | 'artifact' | 'weapon';
   fields: FilterField[];
+  mobileColumnMinWidth?: number;
 }
 
-const { id, kind, fields } = Astro.props;
+const { id, kind, fields, mobileColumnMinWidth } = Astro.props as Props;
 ---
 
 <form
   class="filter-bar"
   id={id}
   data-filter-kind={kind}
+  style={mobileColumnMinWidth ? `--mobile-filter-column-min: ${mobileColumnMinWidth}px` : undefined}
 >
   {
     fields.map((field) => {
       if (field.type === 'search') {
         return (
-          <label class="filter-field field-search">
+          <label
+            class={`filter-field field-search${field.fullWidthOnMobile ? ' field-search-full-width' : ''}`}
+          >
             {field.label}
             <input
               type="search"

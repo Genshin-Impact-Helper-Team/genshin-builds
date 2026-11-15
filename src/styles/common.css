@@ -509,6 +509,20 @@ a:hover {
     width: 58px;
     height: 58px;
   }
+  .filter-bar {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, var(--mobile-filter-column-min, 100px)), 1fr)
+    );
+  }
+}
+
+@media (max-width: 650px) {
+    
+    .field-search-full-width,
+  .field-checkbox {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 520px) {

@@ -447,10 +447,6 @@
     padding: 12px;
   }
 
-  .browser-entry-header {
-    display: grid;
-  }
-
   .browser-entry-title {
     align-items: flex-start;
   }
