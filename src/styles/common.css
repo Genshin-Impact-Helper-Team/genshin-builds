@@ -254,7 +254,6 @@ a:hover {
 }
 
 .filter-bar {
-  container-type: inline-size;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 100px), 1fr));
   gap: 8px;
@@ -276,8 +275,9 @@ a:hover {
 
 .filter-field {
   position: relative;
-  contain: layout;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   min-width: 0;
   gap: 4px;
   border: 1px solid rgba(255, 255, 255, 0.085);
@@ -393,6 +393,7 @@ a:hover {
 }
 
 .field-checkbox {
+  display: grid;
   grid-template-columns: 22px minmax(0, 1fr) auto;
   align-items: center;
   gap: 8px;
@@ -518,7 +519,7 @@ a:hover {
 }
 
 @media (max-width: 650px) {
-    
+
     .field-search-full-width,
   .field-checkbox {
     grid-column: 1 / -1;
