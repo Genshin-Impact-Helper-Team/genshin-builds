@@ -22,7 +22,8 @@
             {
                 "name": "def%",
                 "note": {
-                    "en": "In teams with high amounts of DMG% buffs can perform similarly to or better than [[stat:geo-dmg]]",
+                    "en": "It can perform similarly to or better than [[stat:geo-dmg]] in teams with high amounts of DMG% buffs.",
+                    "it": "Può avere prestazioni simili o migliori rispetto a [[stat:geo-dmg]] in team con elevati potenziamenti a DAN%.",
                     "ru": "В отрядах с большим количеством Бонусов урона может соответствовать [[stat:geo-dmg|Бонусу Гео урона]] или превосходить его."
                 }
             }
