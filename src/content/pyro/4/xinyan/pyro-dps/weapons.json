@@ -10,8 +10,9 @@
                 {
                     "name": "gest-of-the-mighty-wolf",
                     "note": {
-                        "en": "With this weapon, [[ability:na]] combos are preferable even at **[C6]**. In [[ability:hexerei]] teams, can perform better than **[[weapon:redhorn-stonethresher]]**.",
+                        "en": "With this weapon, [[ability:na]] combos are preferable even at **[C6]**. In [[ability:hexerei]] teams, it can perform better than **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Avec cette armes, les combos d'[[ability:na|attaques normales]] sont préférés, même avec la **[C6]**. Dans les équipes [[ability:hexerei]], cette arme devient meilleure que **[[weapon:redhorn-stonethresher]]**.",
+                        "it": "Con quest'arma, le combo di [[ability:na|Attacchi Normali]] sono preferibili anche a **[C6]**. In team **[[ability:hexerei]]**, può avere prestazioni migliori di **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "С данным оружием комбо от [[ability:na|Обычных атак]] предпочтительнее даже на **[C6]**. С активным эффектом [[ability:hexerei|Ведьмовства]] может превосходить **[[weapon:redhorn-stonethresher]]**."
                     }
                 }
@@ -27,6 +28,7 @@
                     "note": {
                         "en": "Ranking assumes full stacks of the passive. [[note:r5-better]] **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Le classement suppose que vous avez tous les cumuls du passif. [[note:r5-better]] **[[weapon:redhorn-stonethresher]]**.",
+                        "it": "La classifica presuppone massimi accumuli della passiva. [[note:r5-better]] **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "Предполагаются 5 уровней Пассивной способности. [[note:r5-better]] **[[weapon:redhorn-stonethresher]]**."
                     }
                 }
@@ -37,8 +39,9 @@
                 {
                     "name": "skyward-pride",
                     "note": {
-                        "en": "With high [[stat:er]] requirements, can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
+                        "en": "With high [[stat:er]] requirements, this weapon can perform similarly to **[[weapon:redhorn-stonethresher]]**.",
                         "fr": "Avec des besoins en [[stat:er]] élevés, cette arme devient équivalente à **[[weapon:redhorn-stonethresher]]**.",
+                        "it": "Se i requisiti di [[stat:er]] di Xinyan sono elevati, quest'arma puà avere prestazioni simili a **[[weapon:redhorn-stonethresher]]**.",
                         "ru": "При высокой потребности в энергии соответствует **[[weapon:redhorn-stonethresher|Краснорогому камнерубу]]**."
                     }
                 },
@@ -71,16 +74,18 @@
                 {
                     "name": "talking-stick",
                     "note": {
-                        "en": "Assumes that only [[element:pyro]] passive is active. [[note:r5-similar]] **[[weapon:wolfs-gravestone]]**.",
+                        "en": "Ranking assumes that only [[element:pyro]] passive is active. [[note:r5-similar]] **[[weapon:wolfs-gravestone]]**.",
                         "fr": "Suppose que seul le passif [[element:pyro]] est actif. [[note:r5-similar]] **[[weapon:wolfs-gravestone]]**.",
+                        "it": "La classifica presuppone che solo la porzione [[element:pyro]] della passiva sia attiva. [[note:r5-similar]] **[[weapon:wolfs-gravestone]]**.",
                         "ru": "Предполагается, что активна только [[element:pyro]] часть Пассивной способности. [[note:r5-similar]] **[[weapon:wolfs-gravestone|Волчьей погибели]]**."
                     }
                 },
                 {
                     "name": "ultimate-overlords-mega-magic-sword",
                     "note": {
-                        "en": "With high [[stat:er]] requirements, can perform better than **[[weapon:wolfs-gravestone]]**.",
+                        "en": "With high [[stat:er]] requirements, this weapon can perform better than **[[weapon:wolfs-gravestone]]**.",
                         "fr": "Avec des besoins en [[stat:er]] élevés, cette arme devient meilleure que **[[weapon:wolfs-gravestone]]**.",
+                        "it": "Se i requisiti di [[stat:er]] di Xinyan sono elevati, quest'arma puà avere prestazioni migliori di **[[weapon:wolfs-gravestone]]**.",
                         "ru": "При высокой потребности в энергии превосходит **[[weapon:wolfs-gravestone|Волчью погибель]]**."
                     }
                 }
@@ -114,8 +119,9 @@
                 {
                     "name": "lithic-blade",
                     "note": {
-                        "en": "Assumes 1 Liyue teammate. With 2 Liyue teammates **at [R5]**, it can perform better than  **[[weapon:talking-stick]]**.",
+                        "en": "Assumes 1 Liyue teammate. With 2 Liyue teammates **at [R5]**, this weapon can perform better than **[[weapon:talking-stick]]**.",
                         "fr": "Suppose qu'un personnage de Liyue est dans l'équipe. Avec 2 personnages de Liyue **une fois [R5]**, cette arme peut être meilleure que **[[weapon:talking-stick]]**.",
+                        "it": "La classifica presuppone che il team includa 1 personaggio di Liyue. Con 2 personaggi di Liyue **a [R5]**, quest'arma può avere prestazioni migliori di **[[weapon:talking-stick]]**.",
                         "ru": "Предполагается 1 персонаж из Ли Юэ. С двумя персонажами из Ли Юэ **на [R5]** превосходит **[[weapon:talking-stick|Говорящую палицу]]**."
                     }
                 }
@@ -128,6 +134,7 @@
                     "note": {
                         "en": "In a [[ability:plunge]] team with [[character:xianyun]], this weapon performs similarly to **[[weapon:the-unforged]]**. **At [R5]**, it performs better than **[[weapon:redhorn-stonethresher]]** for such teams.",
                         "fr": "Dans une équipe centrée sur les [[ability:plunge|Attaques Plongeantes]] avec [[character:xianyun]], cette arme est équivalente à **[[weapon:the-unforged]]**. **Une fois [R5]**, elle devient meilleure que **[[weapon:redhorn-stonethresher]]** pour ces équipes.",
+                        "it": "In team basati sugli [[ability:plunge|Attacchi in picchiata]] con [[character:xianyun]], quest'arma ha prestazioni simili a **[[weapon:the-unforged]]**. A **[R5]**, ha prestazioni migliori di **[[weapon:redhorn-stonethresher]]** in tali team.",
                         "ru": "При игре от [[ability:plunge|Атак в падении]] с [[character:xianyun]], соответствует **[[weapon:the-unforged|Некованому]]**. **На [R5]**, превосходит **[[weapon:redhorn-stonethresher]]** для таких отрядов."
                     }
                 }
