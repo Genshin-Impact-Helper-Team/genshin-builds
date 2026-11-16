@@ -114,5 +114,14 @@
     "Page Not Found": "Page Not Found",
     "Did you get lost?": "Did you get lost?",
     "Not found message": "This page does not exist, but the homepage knows the way back.",
-    "Go back home": "Go back home"
+    "Go back home": "Go back home",
+    "Farming Helper": "Artifact Farming Helper",
+    "Farming Disclaimer": "This tool should be used if you're planning to farm for a domain without specific character in mind. It should NOT be used as a replacement for the character guides. If farming for specific characters, please check their relevant guide. Keep in mind that a piece on a set with stats that arent' recommended can still be useful as an off-piece artifact",
+    "Choose an artifact set": "Choose an artifact set",
+    "4P": "Recommended as a 4-piece set",
+    "2P": "Recommended as a 2-piece set",
+    "Farming usage": "   {count} of {total} characters ({percent}%)",
+    "Recommended for": "Ranked as 1/2/conditional on {count} characters",
+    "No recc": "No recommendations are available for this set.",
+    "Close": "Close"
 }

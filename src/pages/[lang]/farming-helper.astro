@@ -1,0 +1,36 @@
+---
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import FarmingHelper from '../../components/FarmingHelper.astro';
+import '../../styles/common.css';
+import '../../styles/browsers.css';
+import { t } from '../../utils/i18n';
+import { sitePath } from '../../utils/paths';
+import { getLanguageStaticPaths } from '../../utils/routes';
+import { getArtifactStatsData } from '../../utils/farming-helper';
+
+export const getStaticPaths = getLanguageStaticPaths;
+
+const lang = Array.isArray(Astro.params.lang) ? Astro.params.lang[0] : Astro.params.lang;
+const data = getArtifactStatsData(lang ?? 'en');
+const { locale } = data;
+const title = t(locale, 'ui', 'Farming Helper', undefined, false);
+---
+
+<html lang={data.lang}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/webp" href={sitePath('favicon.webp')} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} - Genshin Builds</title>
+  </head>
+  <body data-element="base">
+    <Header locale={locale} lang={data.lang} page="farming-helper" />
+    <main class="browser-page">
+      <h1>{title}</h1>
+      <FarmingHelper data={data} locale={locale} />
+    </main>
+    <Footer lang={data.lang} />
+  </body>
+</html>

@@ -76,9 +76,6 @@
       }
     }
   },
-  "required": [
-    "artifact_sets"
-  ],
   "additionalProperties": false,
   "$defs": {
     "item": {
