@@ -12,7 +12,7 @@
                     "note": {
                         "en": "Best option in teams with [[ability:hexerei]].",
                         "fr": "La meilleure option dans les équipes [[ability:hexerei]].",
-                        "it": "La migliore opzione in team [[ability:hexerei]].",
+                        "it": "La migliore opzione in team **[[ability:hexerei]]**.",
                         "ru": "Лучший выбор в командах с активным эффектом [[ability:hexerei|Ведьмовства]]."
                     }
                 }
@@ -25,6 +25,7 @@
                     "name": "a-thousand-blazing-suns",
                     "note": {
                         "en": "To ensure good uptime on this weapon's passive, you need to use [[ability:burst]] close to [[character:navia]]'s fieldtime, which may not be possible in every team. Ranking assumes 60% uptime. With full uptime this weapon can perform similarly to [[weapon:verdict]], with low uptime it performs worse than [[weapon:redhorn-stonethresher]].",
+                        "it": "Per garantire un buon tempo di funzionamento della passiva di quest'arma, è necessario utilizzare il [[ability:burst]] in prossimità del tempo sul campo di [[character:navia]], cosa che potrebbe non essere possibile in tutti i team. La classifica presuppone un tempo di funzionamento del 60%. Con il 100% del tempo di funzionamento, quest'arma può avere prestazioni simili a quelle di [[weapon:verdict]], mentre con un tempo di funzionamento ridotto le sue prestazioni sono inferiori a quelle di [[weapon:redhorn-stonethresher]].",
                         "ru": "Чтобы поддерживать Пассивную способность этого оружия активной как можно дольше, нужно использовать [[ability:burst]] незадолго до выхода [[character:navia|Навии]] на поле, что возможно не во всех отрядах. Рейтинг предполагает, что Пассивная способность активна 60% времени. Если она активна постоянно, это оружие соответствует [[weapon:verdict|Вердикту]]; при малом времени активности уступает [[weapon:redhorn-stonethresher|Краснорогому камнерубу]]."
                     }
                 },
@@ -80,7 +81,7 @@
                     "note": {
                         "en": "Assumes [[character:navia]] is able to be healed. Otherwise, it is not recommended to use this weapon.",
                         "fr": "Suppose que [[character:navia]] peut être soignée. Sinon, il n'est pas recommandé d'utiliser cette arme.",
-                        "it": "La classifica presuppone che [[character:navia]] riceva cure. In caso contrario, quest'arma non è consigliata.",
+                        "it": "La classifica presuppone che **[[character:navia]] riceva cure**. In caso contrario, quest'arma **non è consigliata**.",
                         "ru": "Требует надежного источника лечения. В противном случае использовать не рекомендуется."
                     }
                 }
