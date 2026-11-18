@@ -9,7 +9,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set. If you can, prioritize using this set on [[character:valeriy]].",
-                                "fr": "[[character:valeriy]] doit pouvoir déclencher des réactions de façon fiable pour porter ce set. Le cas échéant, utilisez ce set en priorité."
+                                "fr": "[[character:valeriy]] doit pouvoir déclencher des réactions de façon fiable pour porter ce set. Le cas échéant, utilisez ce set en priorité.",
+                                "it": "Per utilizzare questo set, è necessario che [[character:valeriy]] riesca ad innescare una reazione in maniera affidabile. Se possibile, cerca di dare priorità all'uso di questo set su [[character:valeriy]]."
                             }
                         }
                     ]
@@ -21,7 +22,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "This artifact set is used if the team can benefit from the [[stat:atk%]] buff it provides.",
-                                "fr": "Ce set peut être utilisé si l'équipe bénéfice du buff d'[[stat:atk%]] qu'il apporte."
+                                "fr": "Ce set peut être utilisé si l'équipe bénéfice du buff d'[[stat:atk%]] qu'il apporte.",
+                                "it": "Questo set può essere utiizzato se il team trae beneficio dal potenziamento all'[[stat:atk%]] che fornisce."
                             }
                         }
                     ]
@@ -33,7 +35,8 @@
                             "pieces": 4,
                             "note": {
                                 "en": "[[character:valeriy]] has to be able to reliably trigger an elemental reaction to use this set.",
-                                "fr": "[[character:valeriy]] doit pouvoir déclencher des réactions de façon fiable pour porter ce set."
+                                "fr": "[[character:valeriy]] doit pouvoir déclencher des réactions de façon fiable pour porter ce set.",
+                                "it": "Per utilizzare questo set, è necessario che [[character:valeriy]] riesca ad innescare una reazione in maniera affidabile."
                             }
                         }
                     ]
