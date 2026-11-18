@@ -17,7 +17,8 @@
                     "name": "skyward-blade",
                     "note": {
                         "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements.",
-                        "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]]."
+                        "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]].",
+                        "it": "Le prestazioni di quest'arma peggiorano con la **[C1]** di [[character:valeriy]], a seconda dei suoi requisiti di [[stat:er]]."
                     }
                 }
             ]
@@ -42,7 +43,8 @@
                     "name": "sapwood-blade",
                     "note": {
                         "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements.",
-                        "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]]."
+                        "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]].",
+                        "it": "Le prestazioni di quest'arma peggiorano con la **[C1]** di [[character:valeriy]], a seconda dei suoi requisiti di [[stat:er]]."
                     }
                 }
             ]
@@ -53,7 +55,8 @@
                     "name": "athame-artis",
                     "note": {
                         "en": "If your team benefits from the [[stat:atk%]] this weapon gives, this can be [[character:valeriy]]'s **best weapon**.",
-                        "fr": "Si votre équipe bénéficie du buff d'[[stat:atk%]] de cette arme, cela peut devenir la **meilleure option** pour [[character:valeriy]]."
+                        "fr": "Si votre équipe bénéficie du buff d'[[stat:atk%]] de cette arme, cela peut devenir la **meilleure option** pour [[character:valeriy]].",
+                        "it": "Se il team trae beneficio dall'**[[stat:atk%]]** fornito da quest'arma, può essere la **migliore opzione per [[character:valeriy]]**."
                     }
                 }
             ]
