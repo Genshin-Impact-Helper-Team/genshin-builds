@@ -31,9 +31,6 @@
             "it": "Entrambe le modalità infliggono danni piuttosto simili, tuttavia l'uso di {rot:1E} è solitamente consigliato nella maggior parte dei team.",
             "ru": "Общий урон обоих вариантов приблизительно равен, но в большинстве случаев рекомендуется {rot:[1E]}."
         },
-        {
-            "en": "## [[note:wip-weapon]]\n- [[weapon:covenant-of-frost-and-snow]]\n- [[weapon:jade-vista]]\n"
-        }
     ],
     "weapons": {
         "link": "https://docs.google.com/spreadsheets/d/15Jvom5AGV3RGPH0lEiY167sUPREjcCMxgmvLlgnrO9Y/edit?gid=848665920#gid=848665920",
