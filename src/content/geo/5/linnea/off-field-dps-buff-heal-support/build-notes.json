@@ -30,7 +30,7 @@
             "fr": "Les deux modes génèrent des dégats similaires, mais il est généralement plus recommandé d'utiliser {rot:[1E]} dans la plupart des équipes.",
             "it": "Entrambe le modalità infliggono danni piuttosto simili, tuttavia l'uso di {rot:1E} è solitamente consigliato nella maggior parte dei team.",
             "ru": "Общий урон обоих вариантов приблизительно равен, но в большинстве случаев рекомендуется {rot:[1E]}."
-        },
+        }
     ],
     "weapons": {
         "link": "https://docs.google.com/spreadsheets/d/15Jvom5AGV3RGPH0lEiY167sUPREjcCMxgmvLlgnrO9Y/edit?gid=848665920#gid=848665920",
