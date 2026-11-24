@@ -16,7 +16,17 @@
                         "ru": "Вне команд [[character:zibai]] данное оружие рассматривать не стоит."
                     }
                 },
+                {
+                    "name": "covenant-of-frost-and-snow",
+                    "refinement": 5
+                },
                 "aqua-simulacra",
+                {
+                    "name": "jade-vista",
+                    "note":{
+                        "en": "[[note:r5-better]] **[[weapon:elegy-for-the-end]]**."
+                    }
+                },
                 "hunters-path"
             ]
         },
