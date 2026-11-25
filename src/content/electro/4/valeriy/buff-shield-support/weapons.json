@@ -18,7 +18,8 @@
                     "note": {
                         "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements.",
                         "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]].",
-                        "it": "Le prestazioni di quest'arma peggiorano con la **[C1]** di [[character:valeriy]], a seconda dei suoi requisiti di [[stat:er]]."
+                        "it": "Le prestazioni di quest'arma peggiorano con la **[C1]** di [[character:valeriy]], a seconda dei suoi requisiti di [[stat:er]].",
+                        "ru": "При наличии **[C1]** у [[character:valeriy|Валерия]] становится менее эффективным - насколько именно, зависит от его потребности в энергии."
                     }
                 }
             ]
@@ -44,7 +45,8 @@
                     "note": {
                         "en": "This weapon performs relatively worse after obtaining [[character:valeriy]]'s **[C1]**, depending on his [[stat:er]] requirements.",
                         "fr": "Cette arme devient moins bonne si vous avez [[character:valeriy]] **[C1]+**, selon ses besoins en [[stat:er]].",
-                        "it": "Le prestazioni di quest'arma peggiorano con la **[C1]** di [[character:valeriy]], a seconda dei suoi requisiti di [[stat:er]]."
+                        "it": "Le prestazioni di quest'arma peggiorano con la **[C1]** di [[character:valeriy]], a seconda dei suoi requisiti di [[stat:er]].",
+                        "ru": "При наличии **[C1]** у [[character:valeriy|Валерия]] становится менее эффективным - насколько именно, зависит от его потребности в энергии."
                     }
                 }
             ]
@@ -56,7 +58,8 @@
                     "note": {
                         "en": "If your team benefits from the [[stat:atk%]] this weapon gives, this can be [[character:valeriy]]'s **best weapon**.",
                         "fr": "Si votre équipe bénéficie du buff d'[[stat:atk%]] de cette arme, cela peut devenir la **meilleure option** pour [[character:valeriy]].",
-                        "it": "Se il team trae beneficio dall'**[[stat:atk%]]** fornito da quest'arma, può essere la **migliore opzione per [[character:valeriy]]**."
+                        "it": "Se il team trae beneficio dall'**[[stat:atk%]]** fornito da quest'arma, può essere la **migliore opzione per [[character:valeriy]]**.",
+                        "ru": "**Лучший вариант** [[character:valeriy|Валерия]], если отряду полезна [[stat:atk%]] от этого оружия."
                     }
                 }
             ]
@@ -68,6 +71,7 @@
                     "note": {
                         "en": "If you can consistently trigger elemental reactions with [[character:valeriy]] and your team benefits from this weapon's various buffs, this can be [[character:valeriy]]'s **best weapon**.",
                         "fr": "Si vous pouvez déclencher des réactions de façon fiable avec [[character:valeriy]] et que votre équipe bénéficie des buffs de cette arme, cela peut devenir la **meilleure option** pour [[character:valeriy]]."
+                        ,"ru": "**Лучший вариант** [[character:valeriy|Валерия]], если он может стабильно закрывать реакции, а бонусы оружия приносят пользу отряду." 
                     }
                 }
             ]
@@ -78,7 +82,8 @@
                     "name": "favonius-sword",
                     "note": {
                         "en": "Only recommended for **[C0]** [[character:valeriy]] or for generating energy for teammates in content such as Stygian Onslaught.",
-                        "fr": "N'est recommendée que pour un [[character:valeriy]] **[C0]** ou pour la génération d'énergie pour le reste de l'équipe dans les contenus tels que le Carnage Chtonien."
+                        "fr": "N'est recommendée que pour un [[character:valeriy]] **[C0]** ou pour la génération d'énergie pour le reste de l'équipe dans les contenus tels que le Carnage Chtonien.",
+                        "ru": "Рекомендуется только в случае **[C0]** [[character:valeriy|Валерия]] или при необходимости генерировать энергию для отряда (например, в Мрачном натиске)."
                     }
                 }
             ]

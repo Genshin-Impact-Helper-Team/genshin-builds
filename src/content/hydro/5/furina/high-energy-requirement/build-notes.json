@@ -37,12 +37,14 @@
             "title": {
                 "en": "DMG% buff",
                 "fr": "Buff de DGT%",
-                "it": "Potenziamento DMG%"
+                "it": "Potenziamento DMG%",
+                "ru": "Бонус урона%"
             },
             "content": {
                 "en": "At [C0], [[character:furina]]'s [[ability:burst]] can provide up to 75% DMG% Bonus, which is the **equivalent of 1,6 DMG% Goblet**. As such, DPS characters played with her may want to use their **scaling stats instead of a DMG% Goblet**.\nDPS that rely on reactions that do not scale on DMG% (such as **Lunar or [[element:stellar-glimmer]] reactions**) however wont benefit from her [[ability:burst]]'s buff, and thus **should not be played with her**.",
                 "fr": "En [C0], l'[[ability:burst]] de [[character:furina]] offre jusqu'à 75% de Bonus de DGT%, ce qui équivaut à **1,6 Coupe DGT%**. Ainsi, les DPS joués avec elle peuvent préférer équiper **une coupe de leur scaling stat ([[stat:atk%]], [[stat:hp%]] ou [[stat:def%]]) plutôt qu'une coupe DGT Element%**.\nLes DPS qui ne scale pas sur des DGT% (comme les réactions Sélène ou [[element:stellar-glimmer]] par exemple) ne bénéficieront pas du buff de son [[ability:burst]], et **ne doivent donc pas être joués avec elle**.",
-                "it": "A [C0], il [[ability:burst]] di [[character:furina]] può fornire fino al 75% di bonus di DAN, che equivale a **1,6 Calici DAN%**. Pertanto, i personaggi DPS giocati con lei possono preferire l'utilizzo di **Calici ATT%/DEF%/EM/HP%**, a seconda della stat su cui si basano i loro danni.\nI DPS che si basano su reazioni che non scalano con DAN% (come le **reazioni Lunari o le reazioni [[element:stellar-glimmer]]**) non traggono beneficio dal potenziamento di [[character:furina]] e, perciò, **non dovrebbero essere giocati con lei**."
+                "it": "A [C0], il [[ability:burst]] di [[character:furina]] può fornire fino al 75% di bonus di DAN, che equivale a **1,6 Calici DAN%**. Pertanto, i personaggi DPS giocati con lei possono preferire l'utilizzo di **Calici ATT%/DEF%/EM/HP%**, a seconda della stat su cui si basano i loro danni.\nI DPS che si basano su reazioni che non scalano con DAN% (come le **reazioni Lunari o le reazioni [[element:stellar-glimmer]]**) non traggono beneficio dal potenziamento di [[character:furina]] e, perciò, **non dovrebbero essere giocati con lei**.",
+                "ru": "На **[C0]** [[ability:burst]] [[character:furina|Фурины]] может давать отряду до 75% бонуса урона, что **примерно соответствует 1,6 кубкам на бонус урона**. Из-за этого ДД-персонажам, которые играют в одном с ней отряде, следует использовать кубок на профильную характеристику (Сила атаки, Защита и т.д.) вместо кубка на бонус урона. \nТакже важно, что союзники, играющие от реакций, на которые не влияет стандартный бонус урона (Лунные, Звёздные реакции), не усиливаются [[ability:burst|Взрывом стихии]] [[character:furina|Фурины]], поэтому ставить их в один отряд не рекомендуется."
             }
         },
         {
@@ -52,19 +54,22 @@
             "content": {
                 "en": "Thanks to her [[ability:skill]] causing your **entire team's [[stat:hp|HP]] to vary often**, [[character:furina]] enables On-Field DPS characters whose [[stat:hp|HP]] would not normally vary during combat to use **[[set:marechaussee-hunter]] (4)**.",
                 "fr": "Grâce à son [[ability:skill]] qui fait **régulièrement varier les [[stat:hp]] de toute l'équipe**, [[character:furina]] permet aux DPS On-Field dont les [[stat:hp]] ne varient normalement pas en combat d'utiliser **[[set:marechaussee-hunter]] (4)**.",
-                "it": "Grazie alla sua [[ability:skill]], che causa **variazioni ai [[stat:hp]] del team**, [[character:furina]] consente anche ai personaggi DPS in campo i cui [[stat:hp]] di norma non variano durante il combattimento di utilizzare **[[set:marechaussee-hunter]] (4)**."
+                "it": "Grazie alla sua [[ability:skill]], che causa **variazioni ai [[stat:hp]] del team**, [[character:furina]] consente anche ai personaggi DPS in campo i cui [[stat:hp]] di norma non variano durante il combattimento di utilizzare **[[set:marechaussee-hunter]] (4)**.",
+                "ru": "Поскольку [[ability:skill]] [[character:furina|Фурины]] **заставляет [[stat:hp|HP]] членов отряда постоянно колебаться**, **[[set:marechaussee-hunter]] (4)** могут использовать даже те ДД, чьё [[stat:hp|HP]] в обычных условиях не изменяется."
             }
         },
         {
             "title": {
                 "en": "Pets targetting",
                 "fr": "Ciblage des compagnons",
-                "it": "Mira degli animaletti"
+                "it": "Mira degli animaletti",
+                "ru": "Таргет призывов"
             },
             "content": {
                 "en": "[[character:furina]]'s [[ability:skill]] pets will prioritize attacking **the target of your active character**. If it doesnt have a target, they will instead attack the **nearest enemy**.\nWhen facing multiple enemies, you can identify which one the pets are targeting by looking for the **white arrow displayed above its [[stat:hp|HP]] bar**.",
                 "fr": "Les compagnons du [[ability:skill]] de [[character:furina]] attaquent en priorité **la cible de votre personnage actif**. S'il n'en a pas, alors ils prioriseront **l'ennemi le plus proche**.\nLorsque vous affrontez plusieurs ennemis, vous pouvez repérer celui qui est ciblé en cherchant la **flèche blanche au dessus de sa barre de [[stat:hp]]**.",
-                "it": "Gli animaletti di [[character:furina]] danno la priorità ad attaccare **il bersaglio del personaggio attivo**. Se non hanno un bersaglio, attaccano invece il **nemico più vicino**.\nQuando affronti più nemici, puoi individuare quello che gli animaletti stanno prendendo di mira osservando la **freccia bianca che appare sopra la sua barra [[stat:hp]]**."
+                "it": "Gli animaletti di [[character:furina]] danno la priorità ad attaccare **il bersaglio del personaggio attivo**. Se non hanno un bersaglio, attaccano invece il **nemico più vicino**.\nQuando affronti più nemici, puoi individuare quello che gli animaletti stanno prendendo di mira osservando la **freccia bianca che appare sopra la sua barra [[stat:hp]]**.",
+                "ru": "Призывы [[ability:skill|навыка]] [[character:furina|Фурины]] преимущественно **атакуют цель активного персонажа**. Если у активного персонажа нет целевого противника, они будут атаковать **ближайшего врага**. \nКогда их несколько, понять, на кого нападают призывы, можно по белой стрелке над полоской [[stat:hp|HP]] врага."
             }
         }
     ],
