@@ -9,12 +9,14 @@
         {
             "en": "**For weapons/artifacts that require [[character:mitya]] to trigger an elemental reaction:** [[character:mitya]] is only able to consistently do this if there is a larger amount of [[element:cryo]] application than [[element:electro]] application.",
             "fr": "**Pour les items qui nécessitent que [[character:mitya]] déclenche une réaction:** [[character:mitya]] ne peut le faire de façon consistante que s'il y a plus d'application [[element:cryo]] que d'application [[element:electro]].",
-            "it": "**Per le armi e i manufatti che necessitano che [[character:mitya]] inneschi una reazione:** [[character:mitya]] è in grado di farlo regolarmente **solo se** la quantità di [[element:cryo]] applicata è maggiore di quella [[element:electro]]."
+            "it": "**Per le armi e i manufatti che necessitano che [[character:mitya]] inneschi una reazione:** [[character:mitya]] è in grado di farlo regolarmente **solo se** la quantità di [[element:cryo]] applicata è maggiore di quella [[element:electro]].",
+            "ru": "**Если оружию/артефактам нужно, чтобы [[character:mitya]] закрывал реакции:** [[character:mitya]] может стабильно закрывать реакции только в том случае, если количество [[element:cryo]] статуса превышает количество [[element:electro]]."
         },
         {
             "en": "[[character:mitya]] is an Off-Field DPS through his tap [[ability:skill]] that deals damage and buffs the [[element:stellar-conduct]] Base DMG and [[stat:em]] of all party members. His damage comes from his [[ability:skill]], which continuously deals [[element:stellar-conduct]] damage when [[character:mitya]] gains stacks above the maximum limit (four at [C0], five at [C1]+). Stacks are gained through triggering [[element:stellar-conduct]] and using [[character:mitya]]'s [[ability:burst]].\nUsing [[character:mitya]]'s [[ability:burst]] can be optional depending on the specific team he is used in.",
             "fr": "[[character:mitya]] est un DPS Off-Field qui inflige des dégâts et buff les dégats d'[[element:stellar-conduct]] et la [[stat:em]] de toute l'équipe. Ses dégâts proviennent de son [[ability:skill]] qui inflige des dégâts d'[[element:stellar-conduct]] lorsque [[character:mitya]] obtiens un certain nombre de cumuls (+ de 4 en [C0], + de 5 en [C1]+). Ces cumuls peuvent être obtenus en déclenchant une réaction d'[[element:stellar-conduct]] ainsi qu'en utilisant son [[ability:burst]].\nUtiliser l'[[ability:burst]] de [[character:mitya]] peut être optionnel selon l'équipe dans laquelle il est joué.",
-            "it": "[[character:mitya]] è un DPS da fuori campo che **infligge danni e potenzia il DAN Base [[element:stellar-conduct]] e la [[stat:em]] del team** tramite la sua [[ability:skill]]. La sua [[ability:skill]] infligge continuamente danni di tipo **[[element:stellar-conduct]]** quando [[character:mitya]] oltrepassa il limite massimo di accumuli (quattro a [C0], cinque a [C1]+). Tali accumuli vengono ottenuti innescando [[element:stellar-conduct]] ed utilizzando il [[ability:burst]] di [[character:mitya]].\nL’utilizzo del [[ability:burst]] di [[character:mitya]] può essere facoltativo a seconda del team."
+            "it": "[[character:mitya]] è un DPS da fuori campo che **infligge danni e potenzia il DAN Base [[element:stellar-conduct]] e la [[stat:em]] del team** tramite la sua [[ability:skill]]. La sua [[ability:skill]] infligge continuamente danni di tipo **[[element:stellar-conduct]]** quando [[character:mitya]] oltrepassa il limite massimo di accumuli (quattro a [C0], cinque a [C1]+). Tali accumuli vengono ottenuti innescando [[element:stellar-conduct]] ed utilizzando il [[ability:burst]] di [[character:mitya]].\nL’utilizzo del [[ability:burst]] di [[character:mitya]] può essere facoltativo a seconda del team.",
+            "ru": "[[character:mitya]] - карманный ДД, который наносит урон коротким нажатием [[ability:skill|Элементального навыка]], а также увеличивает урон [[element:stellar-conduct|реакции Звёздный проводник]] и повышает Мастерство стихий членов отряда. Его [[ability:skill]] непрерывно наносит урон [[element:stellar-conduct|реакции Звёздный проводник]] при накоплении Маячков превращения сверх максимального уровня (четыре на [C0], пять на [C1]+). Их можно получить при активации [[element:stellar-conduct|реакции Звёздный проводник]] или [[ability:burst|Взрыва стихии]]. \nИспользование [[ability:burst|Взрыва стихии]] [[character:mitya|Мити]] необязательно - потребность в нём зависит от состава отряда."
         }
     ],
     "tips": [
@@ -22,24 +24,28 @@
             "title": {
                 "en": "Quickswap Playstyle",
                 "fr": "Jouer Quickswap",
-                "it": "Stile di gioco 'a scambio rapido'"
+                "it": "Stile di gioco 'a scambio rapido'",
+                "ru": "Револьверные отряды"
             },
             "content": {
                 "en": "[[character:mitya]] can perform an enhanced [[ability:ca]] to deal damage before utilizing a [[ability:skill]]-switch to revert to his Off-Field mode. This is typically used in [[element:cryo]] [[character:traveler]] DPS teams.",
                 "fr": "[[character:mitya]] peut faire une [[ability:ca]] améliorée pour infliger des dégâts avant de revenir à son mode Off-Field avec son [[ability:skill]]. Cette technique est typiquement utilisée dans les équipes avec le [[character:traveler]] [[element:cryo]].",
-                "it": "[[character:mitya]] può eseguire un [[ability:ca]] potenziato per infliggere danni prima di effettuare un cambio di [[ability:skill]], tornando alla modalità fuori campo. Questo viene solitamente fatto in team con [[character:traveler]] [[element:cryo]] come DPS."
+                "it": "[[character:mitya]] può eseguire un [[ability:ca]] potenziato per infliggere danni prima di effettuare un cambio di [[ability:skill]], tornando alla modalità fuori campo. Questo viene solitamente fatto in team con [[character:traveler]] [[element:cryo]] come DPS.",
+                "ru": "[[character:mitya]] может сперва нанести урон усиленной [[ability:ca|Заряженной атакой]], после чего сменить режим [[ability:skill|навыка]] и уйти в карман. Обычно это используется в отряде с [[element:cryo]] [[character:traveler|Путешественником]] в роли основного ДД."
             }
         },
         {
             "title": {
                 "en": "Skill-Switching",
                 "fr": "Changer de mode de Skill",
-                "it": "Cambiare la modalità dell'Abilità"
+                "it": "Cambiare la modalità dell'Abilità",
+                "ru": "Переключение между режимами навыка"
             },
             "content": {
                 "en": "[[character:mitya]] can swap between his on-field and off-field [[ability:skill]] modes by using his [[ability:skill]] again within 6s of first casting his [[ability:skill]]. This can be used as an advanced trick to use [[character:mitya]] as a Quickswap DPS.",
                 "fr": "[[character:mitya]] peut passer de son [[ability:skill]] On-Field à Off-Field en utilisant son [[ability:skill]] à nouveau moins de 6s après l'avoir utilisé. Cela peut être utilisé pour jouer [[character:mitya]] en tant que DPS Quickswap.",
-                "it": "[[character:mitya]] può passare dalla modalità in campo a quella fuori campo riattivando la sua [[ability:skill]] entro 6s dall'attivazione iniziale della stessa. Questa tecnica può essere utilizzata per giocare [[character:mitya]] come DPS 'a scambio rapido'."
+                "it": "[[character:mitya]] può passare dalla modalità in campo a quella fuori campo riattivando la sua [[ability:skill]] entro 6s dall'attivazione iniziale della stessa. Questa tecnica può essere utilizzata per giocare [[character:mitya]] come DPS 'a scambio rapido'.",
+                "ru": "[[character:mitya]] может переключаться между режимами [[ability:skill|Элементального навыка]] (на поле и карманный), повторно нажимая кнопку [[ability:skill|навыка]] в течение 6 секунд после первого его применения. Это позволяет использовать [[character:mitya|Митю]] как ДД в револьверных отрядах."
             }
         }
     ],

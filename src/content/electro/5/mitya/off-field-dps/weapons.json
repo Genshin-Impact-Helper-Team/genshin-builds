@@ -18,7 +18,8 @@
                     "note": {
                         "en": "This weapon is ranked assuming two teammates benefit from its [[stat:em]] buff to increase their damage. It can perform worse or better than **[[weapon:reliquary-of-truth]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff.",
                         "fr": "Le classement de cette arme suppose que 2 membres de l'équipe bénéficient de son buff de [[stat:em]] pour augmenter leurs dégâts. Elle peut être meilleure que **[[weapon:sunny-morning-sleep-in]]** ou moins bonne que **[[weapon:reliquary-of-truth]]** selon l'importance de ce buff pour le reste de l'équipe.",
-                        "it": "La posizione in classifica presuppone che due personaggi del team beneficino dal potenziamento alla [[stat:em]]. Quest'arma può avere prestazioni migliori o peggiori di **[[weapon:reliquary-of-truth]]** e **[[weapon:sunny-morning-sleep-in]]** a seconda di quanto il team apprezzi tale potenziamento."
+                        "it": "La posizione in classifica presuppone che due personaggi del team beneficino dal potenziamento alla [[stat:em]]. Quest'arma può avere prestazioni migliori o peggiori di **[[weapon:reliquary-of-truth]]** e **[[weapon:sunny-morning-sleep-in]]** a seconda di quanto il team apprezzi tale potenziamento.",
+                        "ru": "Предполагается, что как минимум двое союзников получают прирост к урону от МС-бонуса. Может уступать **[[weapon:reliquary-of-truth|Шкатулке истин]]** и **[[weapon:sunny-morning-sleep-in|Сну солнечным утром]]** или превосходить их - всё зависит от того, скольким союзникам полезнео усиление."
                     }
                 }
             ]
@@ -35,7 +36,8 @@
                     "note": {
                         "en": "Assumes there are four [[element:cryo]] and [[element:electro]] characters in the team. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. If you have three [[element:cryo]] and [[element:electro]] characters in the team, its performance is slightly worse.",
                         "fr": "Suppose que l'équipe ne contient que des personnages [[element:cryo]] et [[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Avec seulement 3 personnages [[element:cryo]]/[[element:electro]] dans l'équipe, elle devient légèrement moins bonne.",
-                        "it": "La classifica presuppone che il team abbia 4 personaggi [[element:cryo]]/[[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Se il team ha solo 3 personaggi [[element:cryo]]/[[element:electro]], le prestazioni di quest'arma peggiorano leggermente."
+                        "it": "La classifica presuppone che il team abbia 4 personaggi [[element:cryo]]/[[element:electro]]. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Se il team ha solo 3 personaggi [[element:cryo]]/[[element:electro]], le prestazioni di quest'arma peggiorano leggermente.",
+                        "ru": "Предполагается, что в отряде все четверо - [[element:cryo]] и [[element:electro]] персонажи. [[note:r5-better]] **[[weapon:sunny-morning-sleep-in]]**. Если три персонажа отряда - [[element:cryo]] или [[element:electro]], показывает себя чуть хуже."
                     }
                 }
             ]
@@ -47,7 +49,8 @@
                     "note": {
                         "en": "This weapon is ranked assuming two teammates benefit from its [[stat:atk]] buff to increase their damage. It can perform worse or better than **[[weapon:sacrificial-jade]]** and **[[weapon:sunny-morning-sleep-in]]** depending on how much teammates value this buff. **At [R5]**, it performs similarly to **[[weapon:starcallers-watch]]** and its range shifts to worse or better than **[[weapon:winters-heavy-heart]]** and **[[weapon:sunny-morning-sleep-in]]**.",
                         "fr": "Suppose que 2 membres de l'équipe bénéficient du buff d'[[stat:atk]] pour augmenter leurs dégâts. Elle peut être meilleure que **[[weapon:sunny-morning-sleep-in]]** ou moins bonne que **[[weapon:sacrificial-jade]]** selon l'importance de ce buff pour le reste de l'équipe. **Une fois [R5]**, elle devient similaire à [[weapon:starcallers-watch]], et peut devenir meilleure que **[[weapon:sunny-morning-sleep-in]]** ou moins bonne que **[[weapon:winters-heavy-heart]]**.",
-                        "it": "La classifica presuppone che che due personaggi nel team beneficino del suo potenziamento all'[[stat:atk]]. Quest'arma può avere prestazioni migliori o peggiori di **[[weapon:sacrificial-jade]]** e **[[weapon:sunny-morning-sleep-in]]** a seconda di quanto il team apprezzi questo potenziamento. A **[R5]**, ha prestazioni simili a **[[weapon:starcallers-watch]]**, risultando migliore o peggiore di **[[weapon:winters-heavy-heart]]** e **[[weapon:sunny-morning-sleep-in]]**."
+                        "it": "La classifica presuppone che che due personaggi nel team beneficino del suo potenziamento all'[[stat:atk]]. Quest'arma può avere prestazioni migliori o peggiori di **[[weapon:sacrificial-jade]]** e **[[weapon:sunny-morning-sleep-in]]** a seconda di quanto il team apprezzi questo potenziamento. A **[R5]**, ha prestazioni simili a **[[weapon:starcallers-watch]]**, risultando migliore o peggiore di **[[weapon:winters-heavy-heart]]** e **[[weapon:sunny-morning-sleep-in]]**.",
+                        "ru": "Предполагается, что что как минимум двое союзников получают прирост к урону от бонуса Силы атаки. Может уступать **[[weapon:sacrificial-jade|Жертвенному нефриту]]** и **[[weapon:sunny-morning-sleep-in|Сну солнечным утром]]** или превосходить их - всё зависит от того, скольким союзникам полезно усиление. На **[R5]** сравним с **[[weapon:starcallers-watch|Бдению взывающего к звёздам]]**, а разброс эффективности сдвигается к **[[weapon:winters-heavy-heart|Застывшему сердцу зимы]]** и **[[weapon:sunny-morning-sleep-in|Сну солнечным утром]]**."
                     }
                 }
             ]
@@ -94,7 +97,8 @@
                     "note": {
                         "en": "If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**.",
                         "fr": "Dans une équipe où la [[stat:er]] est utile, cette arme devient meilleure que **[[weapon:winters-heavy-heart]]**.",
-                        "it": "In team dove la [[stat:er]] è utile, quest'arma può avere prestazioni migliori di **[[weapon:winters-heavy-heart]]**."
+                        "it": "In team dove la [[stat:er]] è utile, quest'arma può avere prestazioni migliori di **[[weapon:winters-heavy-heart]]**.",
+                        "ru": "Если ВЭ-бонус от оружия приносит пользу, оно может превосходить **[[weapon:winters-heavy-heart]]**."
                     }
                 }
             ]
@@ -107,7 +111,8 @@
                     "note": {
                         "en": "Requires [[character:mitya]] to be able to trigger reactions consistently throughout the rotation; otherwise, do not use this weapon. If used in a team where the [[stat:er]] from this weapon is utilized, this weapon can rank above **[[weapon:winters-heavy-heart]]**.",
                         "fr": "Nécessite que [[character:mitya]] déclenche régulièrement des réactions au cours de la rotation, n'utilisez pas cette arme dans le cas contraire. Dans une équipe où la [[stat:er]] est utile, cette arme devient meilleure que **[[weapon:winters-heavy-heart]]**.",
-                        "it": "Quest'arma necessita che [[character:mitya]] inneschi reazioni **regolarmente**; se non è questo il caso, non utilizzare quest'arma. In team in cui la [[stat:er]] di quest'arma è utile, può avere prestazioni migliori di **[[weapon:winters-heavy-heart]]**."
+                        "it": "Quest'arma necessita che [[character:mitya]] inneschi reazioni **regolarmente**; se non è questo il caso, non utilizzare quest'arma. In team in cui la [[stat:er]] di quest'arma è utile, può avere prestazioni migliori di **[[weapon:winters-heavy-heart]]**.",
+                        "ru": "Необходимо, чтобы [[character:mitya]] стабильно закрывал реакции в течение всей ротации. В ином случае не следует использовать. Если ВЭ-бонус от оружия приносит пользу, оно может превосходить **[[weapon:winters-heavy-heart]]**."
                     }
                 }
             ]
@@ -120,7 +125,8 @@
                     "note": {
                         "en": "This weapon's value increases if you use [[character:mitya]] in a team with a rotation longer than 20s, or if the character to be buffed by this weapon is doing the vast majority of the damage. If this is the case, this weapon can rank roughly equal to **[[weapon:wandering-evenstar]]**.",
                         "fr": "La valeur de cette arme augmente is vous utilisez [[character:mitya]] dans une équipe avec une rotation plus longue que 20s, ou si le personnage qui reçoit le buff inflige la grande majorité des dégâts de l'équipe. Si c'est le cas, cette arme devient équivalente à **[[weapon:wandering-evenstar]]**.",
-                        "it": "Il valore di quest'arma aumenta se [[character:mitya]] è giocato in team con rotazioni più lunghe di 20s, o se il personaggio potenziato da quest'arma infligge la maggior parte dei danni del team. In tal caso, quest'arma può avere prestazioni simili a **[[weapon:wandering-evenstar]]**."
+                        "it": "Il valore di quest'arma aumenta se [[character:mitya]] è giocato in team con rotazioni più lunghe di 20s, o se il personaggio potenziato da quest'arma infligge la maggior parte dei danni del team. In tal caso, quest'arma può avere prestazioni simili a **[[weapon:wandering-evenstar]]**.",
+                        "ru": "Приносит больше пользы, если [[character:mitya]] играет в отряде с ротацией длиннее 20 секунд, или если персонаж, получающий основное усиление, наносит большую часть урона. В этом случае примерно соответствует **[[weapon:wandering-evenstar|Скитающейся звезде]]**."
                     }
                 }
             ]
