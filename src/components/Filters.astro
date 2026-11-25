@@ -34,7 +34,7 @@ type FilterField =
 
 interface Props {
   id: string;
-  kind: 'character' | 'artifact' | 'weapon';
+  kind?: 'character' | 'artifact' | 'weapon';
   fields: FilterField[];
   mobileColumnMinWidth?: number;
 }

@@ -1,50 +1,34 @@
 {
     "conditional": [
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "sms",
-                            "pieces": 4
-                        }
-                    ]
+                    "name": "sms",
+                    "pieces": 4
                 }
             ]
         },
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "noblesse",
-                            "pieces": 4
-                        }
-                    ]
+                    "name": "noblesse",
+                    "pieces": 4
                 }
             ]
         },
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "scroll",
-                            "pieces": 4
-                        }
-                    ]
+                    "name": "scroll",
+                    "pieces": 4
                 }
             ]
         },
         {
-            "groups": [
+            "items": [
                 {
-                    "items": [
-                        {
-                            "name": "deepwood-memories",
-                            "pieces": 4
-                        }
-                    ]
+                    "name": "deepwood-memories",
+                    "pieces": 4
                 }
             ]
         }

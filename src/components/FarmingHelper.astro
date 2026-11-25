@@ -1,0 +1,230 @@
+---
+import { Image } from 'astro:assets';
+import type { AssetImage } from '../utils/item-assets';
+import { t } from '../utils/i18n';
+import Filters from './Filters.astro';
+
+const { data, locale } = Astro.props as {
+  data: {
+    sets: {
+      id: string;
+      name: string;
+      image: AssetImage | '';
+      rarity: number;
+      bonuses: {
+        pieces: number;
+        description: string;
+      }[];
+      pieces: number[];
+      usage: number;
+      mainStats: Record<string, any[]>;
+      substats: any[];
+    }[];
+  };
+  locale: any;
+};
+const label = (key: string) => t(locale, 'ui', key, undefined, false);
+const usageText = (count: number, total: number, percent: number) =>
+  label('Farming usage')
+    .replace('{count}', String(count))
+    .replace('{total}', String(total))
+    .replace('{percent}', String(percent));
+const searchFields = [
+  {
+    type: 'search' as const,
+    name: 'search',
+    label: label('Search'),
+    placeholder: label('Search by name'),
+  },
+];
+---
+
+<section data-artifact-stats-guide>
+  <p>
+    {label('Farming Disclaimer')}
+  </p>
+
+  <button
+    type="button"
+    aria-haspopup="dialog"
+    aria-controls="artifact-set-picker"
+    aria-expanded="false"
+    data-artifact-set-picker-trigger
+  >
+    {label('Choose an artifact set')}
+  </button>
+  <p data-artifact-stats-empty>
+    {data.sets.length ? '' : label('No recc')}
+  </p>
+
+  <dialog
+    class="site-modal"
+    id="artifact-set-picker"
+    aria-labelledby="artifact-set-picker-title"
+    data-artifact-set-picker
+  >
+    <div>
+      <header>
+        <h2 id="artifact-set-picker-title">{label('Choose an artifact set')}</h2>
+        <button type="button" aria-label={label('Close')} data-close-artifact-picker> × </button>
+      </header>
+      <Filters id="artifact-set-search-filters" fields={searchFields} />
+      <div data-artifact-set-options>
+        {
+          data.sets.map((set) => (
+            <button
+              type="button"
+              data-artifact-set-choice={set.id}
+              data-artifact-set-name={set.name}
+              data-rarity={set.rarity}
+              aria-pressed="false"
+            >
+              <span class={`${set.image ? '' : ' is-empty'}`}>
+                {set.image && (
+                  <Image
+                    src={set.image}
+                    alt=""
+                    width={58}
+                    height={58}
+                    densities={[1, 2]}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                )}
+              </span>
+              <span>{set.name}</span>
+            </button>
+          ))
+        }
+      </div>
+    </div>
+  </dialog>
+
+  <div>
+    {
+      data.sets.map((set) => (
+        <article data-artifact-set-result={set.id} hidden>
+          <header>
+            <span class={`${set.image ? '' : ' is-empty'}`}>
+              {set.image && (
+                <Image
+                  src={set.image}
+                  alt=""
+                  width={88}
+                  height={88}
+                  densities={[1, 2]}
+                  loading="lazy"
+                  decoding="async"
+                />
+              )}
+            </span>
+            <h2>{set.name}</h2>
+            {set.bonuses.length > 0 && (
+              <div>
+                {set.bonuses.map((bonus) => (
+                  <section data-rarity={set.rarity}>
+                    <h3>{`${bonus.pieces}P`}</h3>
+                    <div set:html={bonus.description} />
+                  </section>
+                ))}
+              </div>
+            )}
+            {set.usage > 0 && <span>{set.pieces.map((piece) => label(`${piece}P`)).join(' / ')}</span>}
+          </header>
+          {set.usage > 0 ? (
+            <p>{label('Recommended for').replace('{count}', String(set.usage))}</p>
+          ) : (
+            <p>{label('No recc')}</p>
+          )}
+
+          {set.usage > 0 && (
+            <section>
+              <h3>{label('Main Stats')}</h3>
+              <div>
+                {(['sands', 'goblet', 'circlet'] as const).map((slot) => (
+                  <div>
+                    <h4>{label(slot === 'sands' ? 'Sands' : slot === 'goblet' ? 'Goblet' : 'Circlet')}</h4>
+                    {set.mainStats[slot].length ? (
+                      <ul>
+                        {set.mainStats[slot].map((stat) => (
+                          <li>
+                            <details>
+                              <summary>
+                                <span>{stat.name}</span>
+                                <small>{usageText(stat.count, set.usage, stat.percent)}</small>
+                              </summary>
+                              <ul>
+                                {stat.users.map((character) => (
+                                  <li>
+                                    <a data-rarity={character.rarity} href={character.href}>
+                                      {character.name}
+                                    </a>
+                                    {set.pieces.length > 1 && (
+                                      <span>
+                                        {[...character.pieces]
+                                          .sort((a, b) => a - b)
+                                          .map((piece) => (
+                                            <small>{piece}P</small>
+                                          ))}
+                                      </span>
+                                    )}
+                                  </li>
+                                ))}
+                              </ul>
+                            </details>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {set.usage > 0 && (
+            <section>
+              <h3>{label('Substats')}</h3>
+              {set.substats.length ? (
+                <ul>
+                  {set.substats.map((stat) => (
+                    <li>
+                      <details>
+                        <summary>
+                          <span>{stat.name}</span>
+                          <small>{usageText(stat.count, set.usage, stat.percent)}</small>
+                        </summary>
+                        <ul>
+                          {stat.users.map((character) => (
+                            <li>
+                              <a data-rarity={character.rarity} href={character.href}>
+                                {character.name}
+                              </a>
+                              {set.pieces.length > 1 && (
+                                <span>
+                                  {[...character.pieces]
+                                    .sort((a, b) => a - b)
+                                    .map((piece) => (
+                                      <small>{piece}P</small>
+                                    ))}
+                                </span>
+                              )}
+                            </li>
+                          ))}
+                        </ul>
+                      </details>
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+            </section>
+          )}
+        </article>
+      ))
+    }
+  </div>
+</section>
+
+<script>
+  import '../scripts/farming-helper';
+</script>
