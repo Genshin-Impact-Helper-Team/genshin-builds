@@ -7,8 +7,10 @@
         },
         {
             "items": [
-                "covenant-of-frost-and-snow",
-                "refinement":5
+                {
+                    "name": "covenant-of-frost-and-snow",
+                    "refinement":5
+                }
             ]
         },
         {
