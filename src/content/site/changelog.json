@@ -4,6 +4,10 @@
         {
             "version": "7.2",
             "entries": [
+                  { "date": "November 25, 2026",
+                    "changes": "Adjusted Linnea's weapon ranking.",
+                    "appliedBy": "Chiston"
+                },
                 {   "date": "November 24, 2026",
                     "changes": "Added Jade Vista and Covenant of Frost and Snow to Linnea's weapon ranking.",
                     "appliedBy": "Chiston"
