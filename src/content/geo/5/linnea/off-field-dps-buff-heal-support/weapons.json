@@ -8,6 +8,14 @@
         {
             "items": [
                 {
+                    "name": "covenant-of-frost-and-snow",
+                    "refinement":5
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "name": "elegy-for-the-end",
                     "note": {
                         "en": "This weapon is not worth considering outside of [[character:zibai]] teams.",
@@ -16,15 +24,11 @@
                         "ru": "Вне команд [[character:zibai]] данное оружие рассматривать не стоит."
                     }
                 },
-                {
-                    "name": "covenant-of-frost-and-snow",
-                    "refinement": 5
-                },
                 "aqua-simulacra",
                 {
                     "name": "jade-vista",
                     "note":{
-                        "en": "[[note:r5-better]] **[[weapon:elegy-for-the-end]]**."
+                        "en": "[[note:r5-similar]] **[[weapon:covenant-of-frost-and-snow]]**."
                     }
                 },
                 "hunters-path"
