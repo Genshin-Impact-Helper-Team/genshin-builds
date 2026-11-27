@@ -5,6 +5,10 @@
             "fr": "Il peut être compliqué d'atteindre les besoins en [[stat:er]] si vous utilisez une arme qui n'est pas [[stat:er]].",
             "it": "Può risultare difficile soddisfare i requisiti di [[stat:er]] quando si utilizzano armi senza [[stat:er]].",
             "ru": "При использовании оружия, не дающего энергию или ВЭ, может быть сложно достичь необходимого уровня ВЭ."
+        },
+        {
+            "en": "Because [[character:furina]]'s early constellations both are potent and provide teamwide buffs, while performance for a given weapon can vary greatly across teams, constellations should generally be prioritized when considering [[character:furina]]'s improvements.",
+            "ru": "В связи с тем, что ранние созвездия [[character:furina||Фурины]] сильны и дают бонусы для всего отряда, а эффективность оружия может сильно зависеть от ситуации, созвездия являются более приоритетной инвестицией для [[character:furina||Фурины]]."
         }
     ],
     "weapons": [

@@ -5,6 +5,10 @@
             "fr": "Ce classement suppose un besoin en [[stat:er]] de 150%. Les armes [[stat:er]] perdent progressivement de la valeur lorsque les besoins en [[stat:er]] baissent.",
             "it": "Questa classifica presuppone requisiti di [[stat:er]] del 150%. Il valore delle armi con [[stat:er]] diminuisce se i requisiti di [[stat:er]] sono più bassi.",
             "ru": "Предполагается, что Фурине необходимо 150% ВЭ. Оружие, дающее ВЭ, будет показывать себя хуже с уменьшением потребности в энергии."
+        },
+        {
+            "en": "Because [[character:furina]]'s early constellations both are potent and provide teamwide buffs, while performance for a given weapon can vary greatly across teams, constellations should generally be prioritized when considering [[character:furina]]'s improvements.",
+            "ru": "В связи с тем, что ранние созвездия [[character:furina||Фурины]] сильны и дают бонусы для всего отряда, а эффективность оружия может сильно зависеть от ситуации, созвездия являются более приоритетной инвестицией для [[character:furina||Фурины]]."
         }
     ],
     "weapons": [
